@@ -1,0 +1,67 @@
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiversion="3.0.rc1">
+    <collection id="demo">
+        <title xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">Alpheios CTS Repository template</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1">The Alpheios Project, Ltd.</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">TBD</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">Inventory of texts in the Alpheios text repository. </description>
+        <rights xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">TBD - Creative Commons License info</rights>
+    </collection>
+    <textgroup projid="greekLit:tlg0012">
+        <groupname xml:lang="eng">Homeric Poems</groupname>
+        <work projid="greekLit:tlg001" xml:lang="eng">
+            <title xml:lang="eng">Iliad</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="eng">Iliad -  perseus-grc1</label>
+                <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-grc1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <work projid="greekLit:tlg002" xml:lang="eng">
+            <title xml:lang="eng">Odyssey</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="eng">Odyssey -  perseus-grc1</label>
+                <online docname="/db/repository/greekLit/tlg0012/tlg002/tlg0012.tlg002.perseus-grc1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0016">
+        <groupname xml:lang="en">Herodotus</groupname>
+        <work projid="greekLit:tlg001" xml:lang="grc">
+            <title xml:lang="eng">The Histories</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="eng">The Histories - perseus-grc1</label>
+                <description xmlns="" xml:lang="en">Perseus:bib:oclc,1610641,
+                    Perseus:bib:isbn,0674991303, Perseus:bib:isbn,0674991311,
+                    Perseus:bib:isbn,0674991338, Perseus:bib:isbn,0674991346, Herodotus, with an
+                    English translation by A. D. Godley. Cambridge. Harvard University Press.
+                    1920.</description>
+                <online docname="/db/repository/greekLit/tlg0016/tlg001/tlg0016.tlg001.perseus-grc1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                <citation label="Section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+</TextInventory>

@@ -1,0 +1,81 @@
+<?xml-model href="../../TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiid="epifacs" tiversion="3.0.rc1">
+    <ctsnamespace abbr="ig" ns="http://data.perseus.org/ns/cts/ig">
+        <description xml:lang="eng">Inscriptions cataloged by Inscriptiones_Graecae</description>
+    </ctsnamespace>
+    <ctsnamespace abbr="ceg" ns="http://data.perseus.org/ns/cts/ceg">
+        <description xml:lang="eng">Inscriptions cataloged in Carmina epigraphica graeca saeculorum</description>
+    </ctsnamespace>    
+    <collection id="epifacs">
+        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Marie-Claire's Eipgrams</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Marie-Claire Beaulieu</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="">TBD</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">TBD</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under the terms of Creative Commons attribution-share-alike license.</rights>
+    </collection>
+    <citationSchemes>
+        <scheme projid="poeticline" type="logical">
+            <label>line</label>
+            <description xml:lang="eng">Epigram cited by individual lines.</description>
+        </scheme>
+    </citationSchemes>
+    <textgroup projid="ig:ii_2" urn="urn:cts:ig:ii_2">
+        <groupname xml:lang="eng">IG II (2)</groupname>
+        <work projid="ig:12974" xml:lang="grc" urn="urn:cts:ig:ii_2.12974">
+            <title xml:lang="eng">Mus. Nat. 3696</title>
+        </work>
+    </textgroup>
+    <textgroup projid="ig:vii" urn="urn:cts:ig:vii">
+        <groupname xml:lang="eng">IG VII</groupname>
+        <work projid="ig:115-117" xml:lang="grc">
+            <title xml:lang="eng">115-117: Three epigrams on a sarcophagus (Megara, IVth-Vth century AD.)</title>
+        </work>
+        <work projid="ig:2543-2545" xml:lang="grc" urn="urn:cts:ig:vii.2543-2545">
+            <title xml:lang="eng">2543-2545: Epitaph of Nedymos (Thebes)</title>
+            <edition projid="ig:perseus-grc1" urn="urn:cts:ig:vii.2543-2545.perseus-grc1">
+                <label xml:lang="eng">Transcription by Marie-Claire Beaulieu</label>
+                <online docname="/db/repository/ig/vii/vii.2543-2545.perseus-grc1.xml">
+                    <validate schema="tei"/>
+                    <citationMapping>
+                        <citation label="tei:l" xpath="/body//l[@n='?'" scope=""/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ig:perseus-eng1" xml:lang="eng" urn="urn:cts:ig:vii.2543-2545.perseus-eng1">
+                <label xml:lang="eng">English Translation by Marie-Claire Beaulieu</label>
+                <online docname="/db/repository/ig/vii/vii.2543-2545.perseus-eng1.xml">
+                    <validate schema="tei"/>
+                    <citationMapping>
+                        <citation label="tei:div" xpath="/body//div[@n='?'" scope=""/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
+        </work>
+    </textgroup>
+    <textgroup projid="ig:xii" urn="urn:cts:ig:xii">
+        <groupname xml:lang="eng">IG XII</groupname>
+        <work projid="ig:8_600" xml:lang="grc" urn="urn:cts:ig:xii.8_600">
+            <title xml:lang="eng">8,600 Thasos, on a sarcophagus IInd century AD.</title>
+        </work>
+    </textgroup>
+    <textgroup projid="ceg:ceg" urn="urn:cts:ceg:ceg">
+        <groupname xml:lang="eng">CEG Inscriptions</groupname>
+        <work projid="ceg:509" xml:lang="grc" urn="urn:cts:ceg:ceg.509">
+            <title xml:lang="eng">Mus. Nat. 1962</title>
+        </work>
+        <work projid="ceg:490" xml:lang="grc" urn="urn:cts:ceg:ceg.490">
+            <title xml:lang="eng">Demetria</title>
+        </work>
+        <work projid="ceg:524" xml:lang="grc" urn="urn:cts:ceg:ceg.524">
+            <title xml:lang="eng">Archillos Skambonides</title>
+        </work>
+        <work projid="ceg:592" xml:lang="grc" urn="urn:cts:ceg:ceg.592">
+            <title xml:lang="eng">Nat. Mus. 1324</title>
+        </work>
+        <work projid="ceg:518" xml:lang="grc" urn="urn:cts:ceg:ceg.518">
+            <title xml:lang="eng">Pausimache, daughter of Phainippe and Pausanias</title>
+        </work>
+    </textgroup>
+</TextInventory>
