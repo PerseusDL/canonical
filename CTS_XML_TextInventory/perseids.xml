@@ -116,7 +116,7 @@
             <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0019.tlg009.perseus-eng1">
                 <label xml:lang="eng">Frogs (English translation by Matthew Dillon)</label>
                <description xml:lang="eng"> Aristophanes. Frogs. trans. M. Dillon. Routledge, London; New York. 1994.</description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg009/perseus-eng1.xml">
+                <online docname="/db/repository/greekLit/tlg0019/tlg009/tlg0019.tlg009.perseus-eng1.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -339,7 +339,7 @@
             <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0013.tlg007.perseus-eng1">
                 <label xml:lang="eng">Hymn 7 to Dionysus</label>
                 <description xml:lang="eng"> Perseus:bib:oclc,41785942, Perseus:bib:isbn,0674990633, Anonymous. The Homeric Hymns and Homerica with an English Translation by Hugh G. Evelyn-White. Homeric Hymns. Cambridge, MA.,Harvard University Press; London, William Heinemann Ltd. 1914. </description>
-                <online docname="/db/repository/greekLit/tlg0013/tlg007/perseus-eng1.xml">
+                <online docname="/db/repository/greekLit/tlg0013/tlg007/tlg0013.tlg007.perseus-eng1.xml">
                     <validate schema="documentschema.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
