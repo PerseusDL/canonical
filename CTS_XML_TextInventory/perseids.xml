@@ -111,6 +111,21 @@
                 <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </translation>
         </work>
+        <work projid="greekLit:tlg009" urn="urn:cts:greekLit:tlg0019.tlg009" xml:lang="grc">
+            <title xml:lang="eng">Frogs</title>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0019.tlg009.perseus-eng1">
+                <label xml:lang="eng">Frogs (English translation by Matthew Dillon)</label>
+               <description xml:lang="eng"> Aristophanes. Frogs. trans. M. Dillon. Routledge, London; New York. 1994.</description>
+                <online docname="/db/repository/greekLit/tlg0019/tlg009/perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="card" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+            </translation>
+        </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0003" urn="urn:cts:greekLit:tlg0003">
         <groupname>Thucydides</groupname>
@@ -315,6 +330,24 @@
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0013" urn="urn:cts:greekLit:tlg0013">
+        <groupname xml:lang="eng">Homeric Hymns</groupname>
+        <work projid="greekLit:tlg007" urn="urn:cts:greekLit:tlg0013:tlg007" xml:lang="grc">
+            <title xml:lang="eng">Hymn 7 to Dionysus</title>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0013.tlg007.perseus-eng1">
+                <label xml:lang="eng">Hymn 7 to Dionysus</label>
+                <description xml:lang="eng"> Perseus:bib:oclc,41785942, Perseus:bib:isbn,0674990633, Anonymous. The Homeric Hymns and Homerica with an English Translation by Hugh G. Evelyn-White. Homeric Hymns. Cambridge, MA.,Harvard University Press; London, William Heinemann Ltd. 1914. </description>
+                <online docname="/db/repository/greekLit/tlg0013/tlg007/perseus-eng1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="card" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
     </textgroup>
 </TextInventory>
