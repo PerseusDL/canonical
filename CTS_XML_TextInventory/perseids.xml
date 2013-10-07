@@ -350,4 +350,69 @@
             </translation>
         </work>
     </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg0012" projid="greekLit:tlg0012">
+        <groupname xml:lang="eng">Homer</groupname>
+        <work projid="greekLit:tlg001" 
+            urn="urn:cts:greekLit:tlg0012.tlg001"
+            xml:lang="grc">
+            <title xml:lang="eng">Iliad</title>
+            <translation xml:lang="eng" urn="urn:cts:greekLit:tlg0012.tlg001.perseus-eng1" projid="greekLit:perseus-eng1"> 
+                <label xml:lang="eng">Iliad</label>
+                <description xml:lang="eng">Perseus:bib:oclc,38101377, Perseus:bib:isbn,0674991885, Perseus:bib:isbn,0674991893, Homer. The Iliad with an English Translation by A.T. Murray, Ph.D. in two volumes. Cambridge, MA., Harvard University Press; London, William Heinemann, Ltd. 1924.</description>
+                <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="line" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+        <work projid="greekLit:tlg002"
+            urn="urn:cts:greekLit:tlg0012.tlg002"
+            xml:lang="grc">
+            <title xml:lang="eng">Odyssey</title>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0012.tlg002.perseus-eng1">
+                <label xml:lang="eng">Odyssey</label>
+                <description xml:lang="eng">Perseus:bib:oclc,22584673, Perseus:bib:isbn,0674995619, Perseus:bib:isbn,0674995627, Homer. The Odyssey with an English Translation by A.T. Murray, PH.D. in two volumes. Cambridge, MA., Harvard University Press; London, William Heinemann, Ltd. 1919.</description>
+                <online docname="/db/repository/greekLit/tlg0012/tlg002/tlg0012.tlg002.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="line" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+    </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg0548" projid="greekLit:tlg0548">
+        <groupname xml:lang="eng">Apollodorus</groupname>
+        <work projid="greekLit:tlg001"
+            urn="urn:cts:greekLit:tlg0548.tlg001"
+            xml:lang="grc">
+            <title xml:lang="eng">Library</title>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0548.tlg001.perseus-eng1">
+                <label xml:lang="eng">Library</label>
+                <description xml:lang="eng">Perseus:bib:oclc,28280131, Perseus:bib:isbn,0674991354, Perseus:bib:isbn,0674991362, Apollodorus. Apollodorus, The Library, with an English Translation by Sir James George Frazer, F.B.A., F.R.S. in 2 Volumes. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1921. Includes Frazer&amp;apos;s notes.</description>
+                <online docname="/db/repository/greekLit/tlg0548/tlg001/tlg0548.tlg001.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="chapter" xpath="/div[@n='?']" scope="/TEI.2/text/body/div[@n='?']">
+                                <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/div[@n='?']/div[@n='?']"/>
+                                </citation>
+                            </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+    </textgroup>
 </TextInventory>
