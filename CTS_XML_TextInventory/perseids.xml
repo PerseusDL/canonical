@@ -45,6 +45,23 @@
     </textgroup>
     <textgroup projid="greekLit:tlg0006" urn="urn:cts:greekLit:tlg0006">
         <groupname>Euripides</groupname>
+        <work projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0006" xml:lang="grc">
+            <title xml:lang="eng">Alcestis</title>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0006.tlg002.perseus-eng1">
+                <label xml:lang="eng">Alcestis</label>
+                <description xml:lang="eng">
+                    Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600, Euripides. Euripides, with an English translation by David Kovacs. Cambridge. Harvard University Press. 1994.
+                </description>
+                <online docname="/db/repository/greekLit/tlg0006/tlg002/tlg0006.tlg002.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="card" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1"/>  
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+            </translation>   
+        </work>
         <work projid="greekLit:tlg013" urn="urn:cts:greekLit:tlg0006.tlg013" xml:lang="grc">
             <title xml:lang="eng">Iphigenia in Tauris</title>
             <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0006.tlg013.perseus-eng1">
@@ -412,6 +429,24 @@
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0033" urn="urn:cts:greekLit:tlg0033">
+        <groupname xml:lang="eng">Pindar</groupname>
+        <work projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0033:tlg002" xml:lang="grc">
+            <title xml:lang="eng">Pythian</title>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0033.tlg002.perseus-eng1">
+                <label xml:lang="eng">Pythian</label>
+                <description xml:lang="eng"> Odes. Pindar. Diane Arnson Svarlien. 1990.</description>
+                    <online docname="/db/repository/greekLit/tlg0033/tlg002/tlg0033.tlg002.perseus-eng1.xml">
+                        <validate schema="teia.xsd"/>
+                           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                        <citationMapping>
+                            <citation label="poem" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
+                        </citationMapping>
+                    </online>
+                    <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </translation>
         </work>
     </textgroup>
