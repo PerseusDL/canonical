@@ -48,6 +48,20 @@
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
+            <translation projid="greekLit:perseus-eng2" xml:lang="eng" urn="urn:cts:greekLit:tlg0007.tlg001.perseus-eng2">
+                <label xml:lang="eng">Theseus (trans. Perrin; Heinemann 1914)</label>
+                <description xml:lang="eng">Perseus:bib:oclc,40115288, Perseus:bib:isbn,0674990528, Plutarch. Plutarch&amp;apos;s Lives. with an English Translation by. Bernadotte Perrin. Cambridge, MA. Harvard University Press. London. William Heinemann Ltd. 1914. 1.</description>
+                <online docname="/db/repository/greekLit/tlg0007/tlg001/tlg0007.tlg001.perseus-eng2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
         <work projid="greekLit:tlg047" xml:lang="grc">
             <title xml:lang="en">Alexander</title>
@@ -68,6 +82,20 @@
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0007.tlg047.perseus-eng1">
+                <label xml:lang="eng">Alexander (trans. Perrin; Heinemann 1919)</label>
+                <description xml:lang="eng">Perseus:bib:oclc,40115288, Perseus:bib:isbn,0674991109, Plutarch. Plutarch&amp;apos;s Lives. with an English Translation by. Bernadotte Perrin. Cambridge, MA. Harvard University Press. London. William Heinemann Ltd. 1919. 7.</description>
+                <online docname="/db/repository/greekLit/tlg0007/tlg047/tlg0007.tlg047.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0008">
@@ -87,13 +115,25 @@
                 </online>
             </edition>
             <translation projid="greekLit:perseus-eng1">
-                <label xml:lang="eng">Deipnosophistae (trans. Gulick, Heinemann 1927)</label>
+                <label xml:lang="eng">Deipnosophistae (trans. Yonge, Bohn 1854)</label>
                 <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng1.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
                             <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:perseus-eng2">
+                <label xml:lang="eng">Deipnosophistae (trans. Gulick, Heinemann 1927)</label>
+                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@type='book' and @n='?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='book' and @n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
