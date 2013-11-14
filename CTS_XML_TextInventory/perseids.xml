@@ -195,8 +195,20 @@
                 </online>
             </edition>
             <translation projid="greekLit:perseus-eng1">
-                <label xml:lang="eng">Deipnosophistae (trans. Gulick, Heinemann 1927)</label>
+                <label xml:lang="eng">The Deipnosophists (trans. Yonge, Bohn 1854)</label>
                 <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@type='book' and @n='?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='book' and @n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:perseus-eng2">
+                <label xml:lang="eng">Deipnosophistae (trans. Gulick, Heinemann 1927)</label>
+                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>

@@ -19,6 +19,12 @@
             <description xml:lang="eng">Epigram cited by individual lines.</description>
         </scheme>
     </citationSchemes>
+    <textgroup projid="ig:ii" urn="urn:cts:ig:ii">
+        <groupname xml:lang="eng">IG II</groupname>
+        <work projid="ig:1257" xml:lang="grc" urn="urn:cts:ig:ii.1257">
+            <title xml:lang="fr">Fragment de deux décrets en l'honneur de Lysiklès et d'Euthycritos</title>
+        </work>
+    </textgroup>
     <textgroup projid="ig:ii_2" urn="urn:cts:ig:ii_2">
         <groupname xml:lang="eng">IG II (2)</groupname>
         <work projid="ig:12974" xml:lang="grc" urn="urn:cts:ig:ii_2.12974">
@@ -54,10 +60,22 @@
             </translation>
         </work>
     </textgroup>
+    <textgroup projid="ig:ix" urn="urn:cts:ig:ix">
+        <groupname xml:lang="eng">IG IX</groupname>
+        <work projid="ig:2_532" xml:lang="grc" urn="urn:cts:ig:ix.2_532">
+            <title xml:lang="fr">Liste des vainqueurs aux jeux thessaliens dis des Sténa</title>
+        </work>
+    </textgroup>
     <textgroup projid="ig:xii" urn="urn:cts:ig:xii">
         <groupname xml:lang="eng">IG XII</groupname>
         <work projid="ig:8_600" xml:lang="grc" urn="urn:cts:ig:xii.8_600">
             <title xml:lang="eng">8,600 Thasos, on a sarcophagus IInd century AD.</title>
+        </work>
+        <work projid="ig:8_441" xml:lang="grc" urn="urn:cts:ig:xii.8_441">
+            <title xml:lang="fr">8,441 Épigramme funéraire pour Antiphôn, fils de Sophoklès, frère d'Eurymènides</title>
+        </work>
+        <work projid="ig:8_441_C_B" xml:lang="grc" urn="urn:cts:ig:xii.8_441_C_B">
+            <title xml:lang="fr">8,441, C. B. Épigramme  funéraire pour Eurymenidès, fils de Sophoklès, frère d'Antiphôn</title>
         </work>
     </textgroup>
     <textgroup projid="ceg:ceg" urn="urn:cts:ceg:ceg">

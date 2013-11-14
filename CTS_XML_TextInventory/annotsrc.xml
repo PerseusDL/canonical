@@ -23,21 +23,6 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg002" xml:lang="eng">
-            <title xml:lang="eng">Odyssey</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="eng">Odyssey -  perseus-grc1</label>
-                <online docname="/db/repository/greekLit/tlg0012/tlg002/tlg0012.tlg002.perseus-grc1.xml">
-                    <validate schema="tei-xl.rng"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
-                            <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0016">
         <groupname xml:lang="en">Herodotus</groupname>
@@ -54,9 +39,9 @@
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
-                                <citation label="Section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="Chapter" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']">
+                                <citation label="Section" xpath="/div3[@n='?']" scope="/TEI.2/text/body/div1[@n='?']/div2[@n='?']"/>
                             </citation>
                         </citation>
                     </citationMapping>
