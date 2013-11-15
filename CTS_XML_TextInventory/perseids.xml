@@ -77,6 +77,23 @@
                 <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </translation>
         </work>
+        <work projid="greekLit:tlg011" urn="urn:cts:greekLit:tlg0006.tlg011" xml:lang="grc">
+            <title xml:lang="eng">The Trojan Women</title>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0006.tlg011.perseus-eng1">
+                <label xml:lang="eng">The Trojan Women</label>
+                <description xml:lang="eng">
+                    Perseus:bib:oclc,19599416, Euripides. The Plays of Euripides, translated by E. P. Coleridge. Volume I. London. George Bell and Sons. 1891.
+                </description>
+                <online docname="/db/repository/greekLit/tlg0006/tlg011/tlg0006.tlg011.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="card" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>  
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>   
+        </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0059" urn="urn:cts:greekLit:tlg0059">
         <groupname>Plato</groupname>
@@ -481,10 +498,42 @@
         <groupname xml:lang="eng">Sophocles</groupname>
         <work projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0011:tlg002" xml:lang="grc">
             <title xml:lang="eng">Antigone</title>
-            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0033.tlg002.perseus-eng1">
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0011.tlg002.perseus-eng1">
                 <label xml:lang="eng">Antigone</label>
                 <description xml:lang="eng"> Perseus:bib:oclc,39793726, Sophocles. The Antigone of Sophocles. Edited with introduction and notes by Sir Richard Jebb. Sir Richard Jebb. Cambridge. Cambridge University Press. 1891.</description>
                 <online docname="/db/repository/greekLit/tlg0011/tlg002/tlg0011.tlg002.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                   <citationMapping>
+                           <citation label="card" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                         
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+        <work projid="greekLit:tlg004" urn="urn:cts:greekLit:tlg0011:tlg004" xml:lang="grc">
+            <title xml:lang="eng">Oedipus Tyrannus</title>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0011.tlg004.perseus-eng1">
+                <label xml:lang="eng">Oedipus Tyrannus</label>
+                <description xml:lang="eng"> Perseus:bib:oclc,39793726, Sophocles. The Oedipus Tyrannus of Sophocles. Edited with introduction and notes by Sir Richard Jebb. Sir Richard Jebb. Cambridge. Cambridge University Press. 1887.</description>
+                <online docname="/db/repository/greekLit/tlg0011/tlg004/tlg0011.tlg004.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                   <citationMapping>
+                           <citation label="card" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                         
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+        <work projid="greekLit:tlg007" urn="urn:cts:greekLit:tlg0011:tlg07" xml:lang="grc">
+            <title xml:lang="eng">Oedipus at Colonus</title>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0011.tlg007.perseus-eng1">
+                <label xml:lang="eng">Oedipus at Colonus</label>
+                <description xml:lang="eng"> Perseus:bib:oclc,39793726, Sophocles. The Oedipus at Colonus of Sophocles. Edited with introduction and notes by Sir Richard Jebb. Sir Richard Jebb. Cambridge. Cambridge University Press. 1889.</description>
+                <online docname="/db/repository/greekLit/tlg0011/tlg007/tlg0011.tlg007.perseus-eng1.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                    <citationMapping>
