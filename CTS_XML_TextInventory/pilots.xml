@@ -1,0 +1,84 @@
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiversion="3.0.rc1">
+    <!-- This is a TextInventory for texts which are being edited on Perseids as pilot projects -->
+    <ctsnamespace abbr="pdlmc" ns="http://data.perseus.org/ns/cts/mc">
+        <description xml:lang="eng">Magna Carta Texts in the Perseus Digital Library (Pilot)</description>
+    </ctsnamespace>
+    <ctsnamespace abbr="pdlpsci" ns="http://data.perseus.org/ns/cts/mc">
+        <description xml:lang="eng">Political Science Texts in the Perseus Digital Library (Pilot)</description>
+    </ctsnamespace>
+    <textgroup projid="pdlmc:cdf">
+        <groupname>carta de foresta</groupname>
+        <work projid="pdlmc:flc">
+            <title xml:lang="eng">Forest Law Compendium</title>
+            <edition projid="pdlmc:perseus-lat1">
+                <label>carta de foresta - Medieval Latin Class Transcription</label>
+                 <online docname="/db/repository/pdlmc/cdf/flc/cdf.flc.perseus-lat1.xml">
+                     <validate schema="tei-epidoc.rng"/>
+                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                     <citationMapping>
+                         <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                             <!-- Add sections and lines once they are encoded -->
+                             <!--citation label="Section" xpath="/tei:lg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/-->
+                         </citation>
+                     </citationMapping>
+                 </online>
+            </edition>
+            <translation projid="pdlmc:perseus-eng1">
+                <label>Forest Law Compendium - Medieval Latin Class Translation</label>
+                <online docname="/db/repository/pdlmc/cdf/flc/cdf.flc.perseus-eng1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <!-- Add sections and lines once they are encoded -->
+                            <!--citation label="Section" xpath="/tei:lg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/-->
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+        </work>
+    </textgroup>
+    <textgroup projid="pdlpsci:bodin">
+        <groupname>Bodin</groupname>
+        <work projid="pdlpsci:livrep" xml:lang="lat">
+            <title xml:lang="eng">Les Six livres de la République</title>
+            <edition projid="pdlpsci:perseus-lat1">
+                <label>1586 De Republica</label>
+                <online docname="/db/repository/pdlpsci/bodin/livrep/bodin.livrep.perseus-lat1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            <!--edition projid="pdlpsci:perseus-fr1">
+                <label>1586 De Republica</label>
+                <online docname="/db/repository/pdlpsci/bodin/livrep/bodin.livrep.perseus-fr1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition-->
+            <translation projid="pdlpsci:perseus-eng1">
+                <label>The six bookes of a common-weale.</label>
+                <online docname="/db/repository/pdlpsci/bodin/livrep/bodin.livrep.perseus-eng1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+        </work>
+    </textgroup>
+    
+</TextInventory>
