@@ -8,7 +8,7 @@
     </ctsnamespace>
     <textgroup projid="pdlmc:cdf">
         <groupname>carta de foresta</groupname>
-        <work projid="pdlmc:flc">
+        <work projid="pdlmc:flc" xml:lang="lat">
             <title xml:lang="eng">Forest Law Compendium</title>
             <edition projid="pdlmc:perseus-lat1">
                 <label>carta de foresta - Medieval Latin Class Transcription</label>
@@ -23,7 +23,7 @@
                      </citationMapping>
                  </online>
             </edition>
-            <translation projid="pdlmc:perseus-eng1">
+            <translation projid="pdlmc:perseus-eng1" xml:lang="eng">
                 <label>Forest Law Compendium - Medieval Latin Class Translation</label>
                 <online docname="/db/repository/pdlmc/cdf/flc/cdf.flc.perseus-eng1.xml">
                     <validate schema="tei-epidoc.rng"/>
@@ -49,12 +49,12 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
             </edition>
-            <!--edition projid="pdlpsci:perseus-fr1">
+            <edition projid="pdlpsci:perseus-fre1" xml:lang="fre">
                 <label>1586 De Republica</label>
                 <online docname="/db/repository/pdlpsci/bodin/livrep/bodin.livrep.perseus-fr1.xml">
                     <validate schema="tei-epidoc.rng"/>
@@ -65,15 +65,15 @@
                         </citation>
                     </citationMapping>
                 </online>
-            </edition-->
-            <translation projid="pdlpsci:perseus-eng1">
+            </edition>
+            <translation projid="pdlpsci:perseus-eng1" xml:lang="eng">
                 <label>The six bookes of a common-weale.</label>
                 <online docname="/db/repository/pdlpsci/bodin/livrep/bodin.livrep.perseus-eng1.xml">
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
