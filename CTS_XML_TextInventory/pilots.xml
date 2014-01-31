@@ -55,13 +55,13 @@
                 </online>
             </edition>
             <edition projid="pdlpsci:perseus-fre1" xml:lang="fre">
-                <label>1586 De Republica</label>
+                <label>Les Six livres de la République</label>
                 <online docname="/db/repository/pdlpsci/bodin/livrep/bodin.livrep.perseus-fr1.xml">
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
