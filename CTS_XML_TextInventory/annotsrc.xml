@@ -14,7 +14,7 @@
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="eng">Argonautica</title>
             <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="eng">Arga</label>
+                <label xml:lang="eng">Argonautica</label>
                 <description xmlns="" xml:lang="en">Perseus:bib:oclc,39793726, Sophocles. Sophocles. Vol 1: Oedipus the king. Oedipus at Colonus. Antigone. With an English translation by F. Storr. The Loeb classical library, 20. Francis Storr. London; New York. William Heinemann Ltd.; The Macmillan Company. 1912.</description>
                 <online docname="/db/repository/greekLit/tlg0001/tlg001/tlg0001.tlg001.perseus-grc1.xml">
                     <validate schema="tei-xl.rng"/>
