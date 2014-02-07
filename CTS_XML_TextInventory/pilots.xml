@@ -1,5 +1,14 @@
 <TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiversion="3.0.rc1">
     <!-- This is a TextInventory for texts which are being edited on Perseids as pilot projects -->
+    <collection id="Perseus:collection:Greco-Roman" isdefault="yes">
+        <title xml:lang="eng">Greek and Roman Materials</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">The Perseus Digital Library</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
+            and Rome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
+            and Rome</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under a Creative Commons Attribution-ShareAlike 3.0 United States License</rights>
+    </collection>
     <ctsnamespace abbr="pdlmc" ns="http://data.perseus.org/ns/cts/mc">
         <description xml:lang="eng">Magna Carta Texts in the Perseus Digital Library (Pilot)</description>
     </ctsnamespace>
@@ -80,5 +89,26 @@
             </translation>
         </work>
     </textgroup>
-    
+    <textgroup projid="latinLit:stoa0255" urn="urn:cts:latinLit:stoa0255">
+        <groupname xml:lang="eng">Seneca</groupname>
+        <work projid="latinLit:stoa004" urn="urn:cts:latinLit:stoa0255.stoa004" xml:lang="lat">
+            <title xml:lang="eng">de Brevitate Vitae</title>
+            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:stoa0255.stoa004.perseus-lat1">
+                <label xml:lang="eng">De Brevitate Vitae</label>
+                <description xml:lang="eng">L. Annaeus Seneca. Moral Essays: volume 2. John W. Basore. London and New York. Heinemann. 1932.</description>
+                <online docname="/db/repository/latinLit/stoa0255/stoa004/stoa0255.stoa004.perseus-lat1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
 </TextInventory>

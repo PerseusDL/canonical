@@ -29,6 +29,26 @@
         <groupname xml:lang="eng">IG II (2)</groupname>
         <work projid="ig:12974" xml:lang="grc" urn="urn:cts:ig:ii_2.12974">
             <title xml:lang="eng">Mus. Nat. 3696</title>
+            <edition projid="ig:perseus-grc1" urn="urn:cts:ig:ii_2.12974.perseus-grc1">
+                <label xml:lang="eng">Mus. Nat. 3696 Transcription Tufts Students Fall 2013</label>
+                <online docname="ii_2.12974.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ig:perseus-eng1" xml:lang="eng" urn="urn:cts:ig:ii_2.12974.perseus-eng1">
+                <label xml:lang="eng">Mus. Nat. 3696 Translation by Tufts Students Fall 2013</label>
+                <online docname="ii_2.12974.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="ig:vii" urn="urn:cts:ig:vii">
@@ -91,12 +111,52 @@
         </work>
         <work projid="ceg:524" xml:lang="grc" urn="urn:cts:ceg:ceg.524">
             <title xml:lang="eng">524, Archippos Skambonides</title>
+            <edition projid="ceg:perseus-grc1" urn="urn:cts:ceg:524.perseus-grc1">
+                <label xml:lang="eng">CEG 524 Transcription Tufts Students Fall 2013</label>
+                <online docname="ceg.524.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ceg:perseus-eng1" xml:lang="eng" urn="urn:cts:ceg:ceg.524.perseus-eng1">
+                <label xml:lang="eng">CEG 524 Translation by Tufts Students Fall 2013</label>
+                <online docname="ceg.524.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
         </work>
         <work projid="ceg:595" xml:lang="grc" urn="urn:cts:ceg:ceg.595">
             <title xml:lang="eng">595, Funerary monument for isoteleis Gerus, his wife Nico, and Theophilos</title>
         </work>
         <work projid="ceg:518" xml:lang="grc" urn="urn:cts:ceg:ceg.518">
             <title xml:lang="eng">518, Pausimache, daughter of Phainippe and Pausanias</title>
+            <edition projid="ceg:perseus-grc1" urn="urn:cts:ceg:ceg.518.perseus-grc1">
+                <label xml:lang="eng">CEG 518 Transcription Tufts Students Fall 2013</label>
+                <online docname="ceg.518.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ceg:perseus-eng1" xml:lang="eng" urn="urn:cts:ceg:ceg.518.perseus-eng1">
+                <label xml:lang="eng">CEG 518 Translation by Tufts Students Fall 2013</label>
+                <online docname="ceg.518.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
         </work>
     </textgroup>
 </TextInventory>
