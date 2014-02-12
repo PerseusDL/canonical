@@ -173,7 +173,7 @@ passed SGML Parsing
 </teiHeader>
 <text>
 <body>
-<div1 type="Book" n="1">
+<div1 type="book" n="1">
 <head>COMMENTARIUS PRIMUS</head>
 <div2 type="chapter" n="1">
 <div3 type="section" n="1"><p>Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. </p></div3>
@@ -886,7 +886,7 @@ is dies erat a. d. V. Kal. Apr. L. Pisone, A. Gabinio consulibus.</p>
 <div3 type="section" n="2"><p>Caesar una aestate duobus maximis bellis confectis maturius paulo quam tempus anni postulabat in hiberna in Sequanos exercitum deduxit; hibernis Labienum praeposuit; </p></div3>
 
 <div3 type="section" n="3"><p>ipse in citeriorem Galliam ad conventus agendos profectus est.</p></div3></div2></div1>
-<div1 type="Book" n="2"> 
+<div1 type="book" n="2"> 
 <head>COMMENTARIUS SECUNDUS</head>
 <div2 type="chapter" n="1">
 <div3 type="section" n="1"><p>Cum esset Caesar in citeriore Gallia [in hibernis], ita uti supra demonstravimus, crebri ad eum rumores adferebantur litterisque item Labieni certior fiebat omnes Belgas, quam tertiam esse Galliae partem dixeramus, contra populum Romanum coniurare obsidesque inter se dare. </p></div3>
@@ -1286,7 +1286,7 @@ is dies erat a. d. V. Kal. Apr. L. Pisone, A. Gabinio consulibus.</p>
 <div3 type="section" n="3"><p>Ipse in Carnutes, Andes, Turonos quaeque civitates propinquae iis locis erant ubi bellum gesserat, legionibus in hiberna deductis, in Italiam profectus est. </p></div3>
 
 <div3 type="section" n="4"><p>Ob easque res ex litteris Caesaris dierum XV supplicatio decreta est, quod ante id tempus accidit nulli.</p></div3></div2></div1> 
-<div1 type="Book" n="3">
+<div1 type="book" n="3">
 <head>COMMENTARIUS TERTIUS</head>
 <div2 type="chapter" n="1">
 <div3 type="section" n="1"><p>Cum in Italiam proficisceretur Caesar, Ser. Galbam cum legione XII. et parte equitatus in Nantuates, Veragros Sedunosque misit, qui a finibus Allobrogum et lacu Lemanno et flumine Rhodano ad summas Alpes pertinent. </p></div3>
@@ -1636,7 +1636,7 @@ is dies erat a. d. V. Kal. Apr. L. Pisone, A. Gabinio consulibus.</p>
 <div3 type="section" n="2"><p>Incredibili celeritate magno spatio paucis diebus confecto, cum iam pecus atque extrema impedimenta a nostris tenerentur, ipsi densiores silvas peterent, eius modi sunt tempestates consecutae uti opus necessario intermitteretur et continuatione imbrium diutius sub pellibus milites contineri non possent. </p></div3>
 
 <div3 type="section" n="3"><p>Itaque vastatis omnibus eorum agris, vicis aedificiisque incensis, Caesar exercitum reduxit et in Aulercis Lexoviisque, reliquis item civitatibus quae proxime bellum fecerant, in hibernis conlocavit.</p></div3></div2></div1>
-<div1 type="Book" n="4">
+<div1 type="book" n="4">
 <head>COMMENTARIUS QUARTUS</head>
 <div2 type="chapter" n="1">
 <div3 type="section" n="1"><p>Ea quae secuta est hieme, qui fuit annus Cn. Pompeio, M. Crasso consulibus, Usipetes Germani et item Tencteri magna [cum] multitudine hominum flumen Rhenum transierunt, non longe a mari, quo Rhenus influit. </p></div3>
@@ -2100,7 +2100,7 @@ is dies erat a. d. V. Kal. Apr. L. Pisone, A. Gabinio consulibus.</p>
 <div3 type="section" n="4"><p>Caesar in Belgis omnium legionum hiberna constituit. Eo duae omnino civitates ex Britannia obsides miserunt, reliquae neglexerunt. </p></div3>
 
 <div3 type="section" n="5"><p>His rebus gestis ex litteris Caesaris dierum XX supplicatio a senatu decreta est.</p></div3></div2></div1>
-<div1 type="Book" n="5">
+<div1 type="book" n="5">
 <head>COMMENTARIUS QUINTUS</head>
 <div2 type="chapter" n="1">
 <div3 type="section" n="1"><p>L. Domitio Ap. Claudio consulibus, discedens ab hibernis Caesar in Italiam, ut quotannis facere consuerat, legatis imperat quos legionibus praefecerat uti quam plurimas possent hieme naves aedificandas veteresque reficiendas curarent. Earum modum formamque demonstrat. </p></div3>
@@ -2880,7 +2880,7 @@ is dies erat a. d. V. Kal. Apr. L. Pisone, A. Gabinio consulibus.</p>
 <div3 type="section" n="6"><p>Comprobat hominis consilium fortuna, et cum unum omnes peterent, in ipso fluminis vado deprehensus Indutiomarus interficitur, caputque eius refertur in castra: redeuntes equites quos possunt consectantur atque occidunt. </p></div3>
 
 <div3 type="section" n="7"><p>Hac re cognita omnes Eburonum et Nerviorum quae convenerant copiae discedunt, pauloque habuit post id factum Caesar quietiorem Galliam.</p></div3></div2></div1>
-<div1 type="Book" n="6">
+<div1 type="book" n="6">
 <head>COMMENTARIUS SEXTUS</head>
 <div2 type="chapter" n="1">
 <div3 type="section" n="1"><p>Multis de causis Caesar maiorem Galliae motum exspectans per Marcum Silanum, Gaium Antistium Reginum, Titum Sextium legatos delectum habere instituit. </p></div3>
@@ -3456,7 +3456,7 @@ is dies erat a. d. V. Kal. Apr. L. Pisone, A. Gabinio consulibus.</p>
 <div3 type="section" n="2"><p>graviore sententia pronuntiata more maiorum supplicium sumpsit. </p></div3>
 
 <div3 type="section" n="3"><p>Non nulli iudicium veriti profugerunt. Quibus cum aqua atque igni interdixisset, duas legiones ad fines Treverorum, duas in Lingonibus, sex reliquas in Senonum finibus Agedinci in hibernis collocavit frumentoque exercitui proviso, ut instituerat, in Italiam ad conventus agendos profectus est.</p></div3></div2></div1>
-<div1 type="Book" n="7">
+<div1 type="book" n="7">
 <head>COMMENTARIUS SEPTIMUS</head>
 <div2 type="chapter" n="1">
 <div3 type="section" n="1"><p>Quieta Gallia Caesar, ut constituerat, in Italiam ad conventus agendos proficiscitur. Ibi cognoscit de Clodii caede [de] senatusque consulto certior factus, ut omnes iuniores Italiae coniurarent, delectum tota provincia habere instituit. </p></div3>
@@ -4682,7 +4682,7 @@ is dies erat a. d. V. Kal. Apr. L. Pisone, A. Gabinio consulibus.</p>
 <div3 type="section" n="6"><p>Gaium Antistium Reginum in Ambivaretos, Titum Sextium in Bituriges, Gaium Caninium Rebilum in Rutenos cum singulis legionibus mittit. </p></div3>
 
 <div3 type="section" n="7"><p>Quintum Tullium Ciceronem et Publium Sulpicium Cabilloni et Matiscone in Aeduis ad Ararim rei frumentariae causa collocat. Ipse Bibracte hiemare constituit. His litteris cognitis Romae dierum viginti supplicatio redditur.</p></div3></div2></div1>
-<div1 type="Book" n="8"> 
+<div1 type="book" n="8"> 
 <head>COMMENTARIUS OCTAVUS</head>
 
 
