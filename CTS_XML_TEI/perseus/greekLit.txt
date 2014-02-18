@@ -1,0 +1,12 @@
+greekLit/tlg0019/tlg007/tlg0019.tlg007.perseus-grc1.xml
+greekLit/tlg0058/tlg001/tlg0058.tlg001.perseus-grc1.xml
+greekLit/tlg0099/tlg001/tlg0099.tlg001.perseus-grc1.xml
+greekLit/tlg0363/tlg007/tlg0363.tlg007.perseus-grc1.xml
+greekLit/tlg0556/tlg001/tlg0556.tlg001.perseus-grc1.xml
+greekLit/tlg0641/tlg001/tlg0641.tlg001.perseus-grc1.xml
+greekLit/tlg0648/tlg001/tlg0648.tlg001.perseus-grc1.xml
+greekLit/tlg2003/tlg013/tlg2003.tlg013.perseus-grc1.xml
+greekLit/tlg2003/tlg017/tlg2003.tlg017.perseus-grc1.xml
+greekLit/tlg2018/tlg002/tlg2018.tlg002.perseus-grc1.xml
+greekLit/tlg2040/tlg002/tlg2040.tlg002.perseus-grc1.xml
+greekLit/tlg2040/tlg004/tlg2040.tlg004.perseus-grc1.xml
