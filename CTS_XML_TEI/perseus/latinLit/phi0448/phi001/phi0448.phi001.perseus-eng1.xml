@@ -112,7 +112,7 @@ Re-inserted Hirtius.
     </teiHeader>
     <text>
         <body>
-            <div1 type="Book" n="1">
+            <div1 type="book" n="1">
                 <milestone n="1" unit="chapter"/>
                 <p>All <name key="tgn,1000070" type="place" reg="France [2,46] (nation), Europe"
                         >Gaul</name> is divided into three parts, one of which the <name
@@ -1541,7 +1541,7 @@ Re-inserted Hirtius.
                     for Hither <name key="tgn,1000070" type="place"
                         reg="France [2,46] (nation), Europe">Gaul</name> to hold the assizes.</p>
             </div1>
-            <div1 type="Book" n="2">
+            <div1 type="book" n="2">
                 <milestone n="1" unit="chapter"/>
                 <p>While <name type="pers">Caesar</name> was in winter quarters in Hither <name
                         key="tgn,1000070" type="place" reg="France [2,46] (nation), Europe"
@@ -2198,7 +2198,7 @@ Re-inserted Hirtius.
                         <name type="pers">Caesar</name>'s letter; [an honor] which before that time
                     had been conferred on none.</p>
             </div1>
-            <div1 type="Book" n="3">
+            <div1 type="book" n="3">
                 <milestone n="1" unit="chapter"/>
                 <p>When <name type="pers">Caesar</name> was setting out for <name key="tgn,1000080"
                         type="place" reg="Italy [12.833,42.833] (nation), Europe">Italy</name>, he
@@ -2769,7 +2769,7 @@ Re-inserted Hirtius.
                     the <name>Aulerci</name> and <name>Lexovii</name>, and the other states which
                     had made war upon him last.</p>
             </div1>
-            <div1 type="Book" n="4">
+            <div1 type="book" n="4">
                 <milestone n="1" unit="chapter"/>
                 <p>The following winter (this was the year in which <name>Cn. Pompey</name> and
                         <name type="pers">M. Crassus</name> were consuls [<date value="-55"
@@ -3489,7 +3489,7 @@ Re-inserted Hirtius.
                     decreed by the senate upon receiving <name type="pers">Caesar</name>'s
                     letter.</p>
             </div1>
-            <div1 type="Book" n="5">
+            <div1 type="book" n="5">
                 <milestone n="1" unit="chapter"/>
                 <p><name>Lucius Domitius</name> and <name>Appius Claudius</name> being consuls
                         [<date value="-54">54</date> B.C.], <name type="pers">Caesar</name>, when
@@ -4686,7 +4686,7 @@ Re-inserted Hirtius.
                     of <name key="tgn,1000070" type="place" reg="France [2,46] (nation), Europe"
                         >Gaul</name>.</p>
             </div1>
-            <div1 type="Book" n="6">
+            <div1 type="book" n="6">
                 <milestone n="1" unit="chapter"/>
                 <p><name type="pers">Caesar</name>, expecting for many reasons a greater commotion
                     in <name key="tgn,1000070" type="place" reg="France [2,46] (nation), Europe"
@@ -5592,7 +5592,7 @@ Re-inserted Hirtius.
                         reg="Italy [12.833,42.833] (nation), Europe">Italy</name>, as he had
                     determined, to hold the assizes.</p>
             </div1>
-            <div1 type="Book" n="7">
+            <div1 type="book" n="7">
                 <milestone n="1" unit="chapter"/>
                 <p><name key="tgn,1000070" type="place" reg="France [2,46] (nation), Europe"
                         >Gaul</name> being tranquil, <name type="pers">Caesar</name>, as he had
@@ -7539,7 +7539,7 @@ Re-inserted Hirtius.
                         reg="  +Rome [12.4833,41.9] (Perseus) ">Rome </name>, on learning these
                     successes from <name type="pers">Caesar</name>'s dispatches.</p>
             </div1>
-            <div1 type="Book" n="8">
+            <div1 type="book" n="8">
                 <milestone n="0" unit="chapter"/>
                 <p>Prevailed on by your continued solicitations, <name>Balbus</name>, I have engaged
                     in a most difficult task, as my daily refusals appear to plead not my inability,
