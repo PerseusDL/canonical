@@ -15,6 +15,9 @@
     <ctsnamespace abbr="pdlpsci" ns="http://data.perseus.org/ns/cts/mc">
         <description xml:lang="eng">Political Science Texts in the Perseus Digital Library (Pilot)</description>
     </ctsnamespace>
+    <ctsnamespace abbr="croala" ns="http://data.perseus.org/ns/cts/mc">
+        <description xml:lang="eng">Texts from Croatiae auctores Latini http://www.ffzg.unizg.hr/klafil/croala/</description>
+    </ctsnamespace>
     <textgroup projid="pdlmc:cdf">
         <groupname>carta de foresta</groupname>
         <work projid="pdlmc:flc" xml:lang="lat">
@@ -108,6 +111,70 @@
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0008">
+        <groupname xml:lang="eng">Athenaeus</groupname>
+        <work projid="greekLit:tlg001">
+            <title xml:lang="eng">Deipnosophistae</title>
+            <edition projid="greekLit:perseus-grc3">
+                <label xml:lang="eng">Deipnosophistae (Kaibel 1887)</label>
+                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="croala:petrov02">
+        <groupname xml:lang="hrv">Petrović, Vice</groupname>
+        <work projid="croala:eleg01" xml:lang="lat">
+            <title xml:lang="eng">Amissa uxore orbitatem suam rursus deflet</title>
+            <edition projid="croala:lat1">
+                <label xml:lang="eng">Eleg01 Latin Transcription (Körbler 1911)</label>
+                <online docname="/db/repository/croala/petrov02/eleg01/petrov02.eleg01.lat1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <work projid="croala:eleg02" xml:lang="lat">
+            <title xml:lang="eng">In obitu uxoris elegia</title>
+            <edition projid="croala:lat1">
+                <label xml:lang="eng">Eleg02 Latin Transcription (Körbler 1911)</label>
+                <online docname="/db/repository/croala/petrov02/eleg02/petrov02.eleg02.lat1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="croala:marul">
+        <groupname xml:lang="hrv">Marulić, Marko</groupname>
+        <work projid="croala:01" xml:lang="lat">
+            <title xml:lang="lat">Quinquaginta parabolae</title>
+            <edition projid="croala:lat1">
+                <label xml:lang="eng">Latin Transcription (Glavičić)</label>
+                <online docname="/db/repository/croala/marul/01/marul.01.lat1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="parabola" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                        
+                    </citationMapping>
+                </online>
             </edition>
         </work>
     </textgroup>
