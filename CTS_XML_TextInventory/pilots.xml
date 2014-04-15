@@ -178,4 +178,10 @@
             </edition>
         </work>
     </textgroup>
+    <textgroup projid="croala:djurdjev02">
+        <groupname xml:lang="hrv">Đurđević, Ignjat</groupname>
+        <work projid="croala:plv107" xml:lang="lat">
+            <title xml:lang="lat">CVII. SOMNIUM DE DOMINA ELEGIA</title>
+        </work>
+    </textgroup>
 </TextInventory>
