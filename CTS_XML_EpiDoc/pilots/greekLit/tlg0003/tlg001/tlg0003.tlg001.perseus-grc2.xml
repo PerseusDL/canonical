@@ -53,7 +53,7 @@
     </profileDesc>
     
     <revisionDesc>
-      <change when="1991-08" who="EM">evise DTDs and recheck texts.</change>
+      <change when="1991-08-01" who="EM">evise DTDs and recheck texts.</change>
       <change when="2014-03-24" who="Simona Stoyanova">converted to EpiDoc</change>
     </revisionDesc>
   </teiHeader>
