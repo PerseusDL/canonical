@@ -151,6 +151,30 @@
                     </citationMapping>
                 </online>
             </edition>
+            <edition projid="greekLit:perseus-grc4">
+                <label xml:lang="eng">Deipnosophistae (Heinemann 1927)</label>
+                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            <translation projid="greekLit:perseus-eng2">
+                <label xml:lang="eng">The Deipnosophists (trans. Yonge, Bohn 1854)</label>
+                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@type='book' and @n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type='book' and @n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="croala:petrov02">

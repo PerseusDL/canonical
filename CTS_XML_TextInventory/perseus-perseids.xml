@@ -98,6 +98,7 @@
             </translation>
         </work>
     </textgroup>
+    <!-- Superceded by EpiDoc versions in Pilots inventory 
     <textgroup projid="greekLit:tlg0008">
         <groupname xml:lang="eng">Athenaeus</groupname>
         <work projid="greekLit:tlg001">
@@ -164,6 +165,7 @@
             </edition>
         </work>
     </textgroup>
+    -->
     <textgroup projid="greekLit:tlg0011">
         <groupname xml:lang="eng">Sophocles</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
