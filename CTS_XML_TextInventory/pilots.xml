@@ -229,4 +229,11 @@
             <title xml:lang="lat">CVII. SOMNIUM DE DOMINA ELEGIA</title>
         </work>
     </textgroup>
+    <!-- added for Elisa Nury, Kings College -->
+    <textgroup projid="latinLit:phi1100">
+        <groupname xml:lang="eng">Calpurnius Flaccus</groupname>
+        <work projid="latinLit:phi001" xml:lang="lat">
+            <title xml:lang="eng">Declamationes</title>
+        </work>
+    </textgroup>
 </TextInventory>
