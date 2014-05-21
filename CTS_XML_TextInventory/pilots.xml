@@ -233,34 +233,13 @@
         <groupname xml:lang="hrv">Modruški, Nikola</groupname>
         <work projid="croala:01" xml:lang="lat">
             <title xml:lang="lat">De consolatione liber</title>
-            <edition projid="croala:lat1">
-                <label xml:lang="eng">Latin Transcription</label>
-                <online docname="/db/repository/croala/modruski/01/modruski.01.lat1.xml">
-                    <validate schema="tei-xl.rng"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@type='book' and @n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-            </edition>
         </work>
     </textgroup>
       <textgroup projid="croala:sizgoric">
         <groupname xml:lang="hrv">Šižgorić, Juraj</groupname>
         <work projid="croala:eleg01" xml:lang="lat">
             <title xml:lang="lat">Elegia de Sibenicensis agri vastatione</title>
-               <edition projid="croala:lat1">
-                <label xml:lang="eng">Latin Transcription </label>
-                <online docname="/db/repository/croala/sizgoric/eleg01/sizgoric.eleg01.lat1.xml">
-                    <validate schema="tei-xl.rng"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
-                    </citationMapping>
-                </online>
-            </edition>
+
         </work>
     </textgroup>
     <!-- added for Elisa Nury, Kings College -->
