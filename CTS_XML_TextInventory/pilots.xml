@@ -239,7 +239,16 @@
         <groupname xml:lang="hrv">Šižgorić, Juraj</groupname>
         <work projid="croala:eleg01" xml:lang="lat">
             <title xml:lang="lat">Elegia de Sibenicensis agri vastatione</title>
-
+                 <edition projid="croala:lat1">
+ +                <label xml:lang="eng">Hanc editionem electronicam curavit (Veljko Gortan) </label>
+ +                <online docname="/db/repository/croala/sizgoric/eleg01/sizgoric.eleg01.lat1.xml">
+ +                    <validate schema="tei-xl.rng"/>
+ +                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+ +                    <citationMapping>
+ +                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
+ +                    </citationMapping>
+ +                </online>
+ +            </edition>
         </work>
     </textgroup>
     <!-- added for Elisa Nury, Kings College -->
