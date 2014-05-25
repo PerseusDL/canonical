@@ -169,6 +169,21 @@
     </textgroup>
     <textgroup projid="greekLit:tlg0059" urn="urn:cts:greekLit:tlg0059">
         <groupname>Plato</groupname>
+        <work projid="greekLit:tlg011" urn="urn:cts:greekLit:tlg0059.tlg011" xml:lang="grc">
+          <title xml:lang="eng">Symposium</title>
+          <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0059.tlg011.perseus-eng1">
+              <label xml:lang="eng">Symposium</label>
+              <description xml:lang="eng">Perseus:bib:oclc,20083931, Perseus:bib:oclc,19433521, Perseus:bib:oclc,377367, Perseus:bib:oclc,21777623, Perseus:bib:isbn,0674990404, Perseus:bib:isbn,0674991842, Perseus:bib:isbn,0674991850, Perseus:bib:isbn,0674991826, Plato. Plato in Twelve Volumes, Vol. 9 translated by Harold N. Fowler. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1925.</description>
+              <online docname="/db/repository/greekLit/tlg0059/tlg011/tlg0059.tlg011.perseus-eng1.xml">
+                  <validate schema="teia.xsd"/>
+                  <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                  <citationMapping>
+                          <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
+                  </citationMapping>
+              </online>
+              <memberof collection="Perseus:collection:Greco-Roman"/>
+          </translation>
+        </work>
         <work projid="greekLit:tlg031" urn="urn:cts:greekLit:tlg0059.tlg031" xml:lang="grc">
             <title xml:lang="eng">Timaeus</title>
             <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0059.tlg0031.perseus-eng1">
@@ -482,6 +497,43 @@
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </translation>
         </work>
+        <work
+            projid="greekLit:tlg019"
+            urn="urn:cts:greekLit:tlg0013.tlg019"
+            xml:lang="grc">
+            <title xml:lang="eng">Hymn 19 to Pan</title>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0013.tlg019.perseus-eng1">
+                <label xml:lang="eng">Hymn 19 to Pan</label>
+                <description xml:lang="eng">Perseus:bib:oclc,41785942, Perseus:bib:isbn,0674990633, Anonymous. The Homeric Hymns and Homerica with an English Translation by Hugh G. Evelyn-White. Homeric Hymns. Cambridge, MA.,Harvard University Press; London, William Heinemann Ltd. 1914.</description>
+                <online docname="/db/repository/greekLit/tlg0013/tlg019/tlg0013.tlg019.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                            <citation label="line" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
+                        
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+        <work
+            projid="greekLit:tlg031"
+            urn="urn:cts:greekLit:tlg0013.tlg031"
+            xml:lang="grc">
+            <title xml:lang="eng">Hymn 31 to Helios</title>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0013.tlg031.perseus-eng1">
+                <label xml:lang="eng">Hymn 31 to Helios</label>
+                <description xml:lang="eng">Perseus:bib:oclc,41785942, Perseus:bib:isbn,0674990633, Anonymous. The Homeric Hymns and Homerica with an English Translation by Hugh G. Evelyn-White. Homeric Hymns. Cambridge, MA.,Harvard University Press; London, William Heinemann Ltd. 1914.</description>
+                <online docname="/db/repository/greekLit/tlg0013/tlg031/tlg0013.tlg031.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
     </textgroup>
     <textgroup urn="urn:cts:greekLit:tlg0012" projid="greekLit:tlg0012">
         <groupname xml:lang="eng">Homer</groupname>
@@ -647,6 +699,26 @@
                         <citation label="chapter" xpath="/div[@n='?']" scope="/TEI.2/text/body">
                             <citation label="verse" xpath="/div[@n='?']" scope="/TEI.2/text/body/div[@n='?']"/>
                             </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+    </textgroup>
+    <textgroup projid="latinLit:phi0550" urn="urn:cts:latinLit:phi0550">
+        <groupname>Lucretius</groupname>
+        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi0550.phi001" xml:lang="lat">
+            <title xml:lang="lat">De Rerum Natura</title>
+            <translation projid="latinLit:perseus-eng1" xml:lang="eng" urn="urn:cts:latinLit:phi0550.phi001.perseus-eng1">
+                <label xml:lang="eng">De Rerum Natura</label>
+                <description xml:lang="eng">Lucretius. De Rerum Natura. William Ellery Leonard. E. P. Dutton. 1916.</description>
+                <online docname="/db/repository/latinLit/phi0550/phi001/phi0550.phi001.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="line" xpath="/div[@n='?']" scope="/TEI.2/text/body/div[@n='?']"/>
+                        </citation>
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
