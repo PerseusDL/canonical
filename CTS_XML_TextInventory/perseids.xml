@@ -217,6 +217,21 @@
                 <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </translation>
         </work>
+        <work projid="greekLit:tlg017" urn="urn:cts:greekLit:tlg0006.tlg017" xml:lang="grc">
+            <title xml:lang="eng">Bacchae</title>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0006.tlg017.perseus-eng1">
+                <label xml:lang="eng">Bacchae</label>
+                <description xml:lang="eng">Perseus:bib:oclc,7742603, Euripides. The Tragedies of Euripides, translated by T. A. Buckley. Bacchae. London. Henry G. Bohn. 1850.</description>
+                <online docname="/db/repository/greekLit/tlg0006/tlg017/tlg0006.tlg017.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0059" urn="urn:cts:greekLit:tlg0059">
         <groupname>Plato</groupname>
@@ -471,6 +486,21 @@
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
+        </work>
+        <work projid="greekLit:tlg092" urn="urn:cts:greekLit:tlg0007.tlg092" xml:lang="grc">
+            <title xml:lang="eng">De defectu oraculorum</title>
+            <translation projid="greekLit:perseus-eng2" xml:lang="eng" urn="urn:cts:greekLit:tlg0007.tlg092.perseus-eng2">
+                <label xml:lang="eng">De defectu oraculorum</label>
+                <description xml:lang="eng">Perseus:bib:oclc,19496979, Plutarch. Plutarch&amp;apos;s Morals. Translated from the Greek by several hands. Corrected and revised by. William W. Goodwin, PH. D. Boston. Little, Brown, and Company. Cambridge. Press Of John Wilson and son. 1874. 4.</description>
+                <online docname="/db/repository/greekLit/tlg0007/tlg092/tlg0007.tlg092.perseus-eng2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg1389">
@@ -841,6 +871,21 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="card" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
+        </work>
+        <work projid="greekLit:tlg003" urn="urn:cts:greekLit:tlg0085.tlg003" xml:lang="grc">
+            <title xml:lang="eng">Prometheus Bound</title>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0085.tlg003.perseus-eng1">
+                <label xml:lang="eng">Prometheus Bound</label>
+                <description xml:lang="eng">Perseus:bib:oclc,13109528, Perseus:bib:isbn,0674991605, Aeschylus. Aeschylus, with an English translation by Herbert Weir Smyth, Ph. D. in two volumes. 1. Prometheus Bound. Herbert Weir Smyth, Ph. D. Cambridge, MA. Harvard University Press. 1926.</description>
+                <online docname="/db/repository/greekLit/tlg0085/tlg003/tlg0085.tlg003.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
