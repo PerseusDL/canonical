@@ -214,10 +214,9 @@
        </work>
     </textgroup>
     -->
-    
-    <!--
     <textgroup projid="greekLit:tlg0019">
         <groupname xml:lang="en">Aristophanes</groupname>
+        <!--
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="en">Acharnians</title>
             <edition projid="greekLit:perseus-grc1">
@@ -250,20 +249,25 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg003" xml:lang="grc">
-            <title xml:lang="en">Clouds</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Clouds</label>
-                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907. </description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg003/tlg0019.tlg003.perseus-grc1.xml">
+        -->
+        <work projid="greekLit:tlg003"
+            urn="urn:cts:greekLit:tlg0019.tlg003"
+            xml:lang="grc">
+            <title xml:lang="eng">Clouds</title>
+            <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg003.perseus-grc2">
+                <label xml:lang="eng">Clouds</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online docname="/db/repository/greekLit/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
+                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
                     </citationMapping>
                 </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
         </work>
+        <!--
         <work projid="greekLit:tlg004" xml:lang="grc">
             <title xml:lang="en">Wasps</title>
             <edition projid="greekLit:perseus-grc1">
@@ -292,34 +296,42 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg006" xml:lang="grc">
-            <title xml:lang="en">Birds</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Birds</label>
+        -->
+        <work projid="greekLit:tlg006"
+        urn="urn:cts:greekLit:tlg0019.tlg006"
+        xml:lang="grc">
+        <title xml:lang="eng">Birds</title>
+        <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg006.perseus-grc2">
+            <label xml:lang="eng">Birds</label>
+            <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
+            <online docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml">
+                <validate schema="teia.xsd"/>
+                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                <citationMapping>
+                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                </citationMapping>
+            </online>
+            <memberof collection="Perseus:collection:Greco-Roman"/>
+        </edition>
+        </work>
+        <work projid="greekLit:tlg007" xmlns:cts="http://chs.harvard.edu/xmlns/cts/ti"
+            urn="urn:cts:greekLit:tlg0019.tlg007"
+            xml:lang="grc">
+            <title xml:lang="eng">Lysistrata</title>
+            <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg007.perseus-grc2">
+                <label xml:lang="eng">Lysistrata</label>
                 <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-grc1.xml">
+                <online docname="/db/repository/greekLit/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
+                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
                     </citationMapping>
                 </online>
+                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </edition>
         </work>
-        <work projid="greekLit:tlg007" xml:lang="grc">
-            <title xml:lang="en">Lysistrata</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Lysistrata</label>
-                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg007/tlg0019.tlg007.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
+        <!--
         <work projid="greekLit:tlg008" xml:lang="grc">
             <title xml:lang="en">Thesmophoriazusae</title>
             <edition projid="greekLit:perseus-grc1">
@@ -348,22 +360,25 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg010" xml:lang="grc">
-            <title xml:lang="en">Ecclesiazusae</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Ecclesiazusae</label>
-                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
-                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
-                    Oxford. Clarendon Press, Oxford. 1907. </description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg010/tlg0019.tlg010.perseus-grc1.xml">
+        -->
+        <work projid="greekLit:tlg010"
+            urn="urn:cts:greekLit:tlg0019.tlg010"
+            xml:lang="grc">
+            <title xml:lang="eng">Ecclesiazusae</title>
+            <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg010.perseus-grc2">
+                <label xml:lang="eng">Ecclesiazusae</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online docname="/db/repository/greekLit/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
+                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
                     </citationMapping>
                 </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
         </work>
+        <!--
         <work projid="greekLit:tlg011" xml:lang="grc">
             <title xml:lang="en">Plutus</title>
             <edition projid="greekLit:perseus-grc1">
@@ -378,8 +393,8 @@
                 </online>
             </edition>
         </work>
+        -->
     </textgroup>
-   -->
     <!--
     <textgroup projid="greekLit:tlg0020">
         <groupname xml:lang="en">Hesiod</groupname>
