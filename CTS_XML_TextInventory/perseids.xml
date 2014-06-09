@@ -501,6 +501,18 @@
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </translation>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0007.tlg092.perseus-eng1">
+                <label xml:lang="eng">De defectu oraculorum</label>
+                <description xml:lang="eng">Perseus:bib:oclc,35524227, Perseus:bib:isbn,0674992172, Plutarch. Moralia. with an English Translation by. Frank Cole Babbitt. Cambridge, MA. Harvard University Press. London. William Heinemann Ltd. 1936. 5.</description>
+                <online docname="/db/repository/greekLit/tlg0007/tlg092/tlg0007.tlg092.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg1389">
