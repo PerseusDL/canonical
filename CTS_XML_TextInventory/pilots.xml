@@ -135,6 +135,13 @@
             </edition>
         </work>
     </textgroup>
+
+     <textgroup projid="greekLit:tlg0085">
+        <groupname xml:lang="en">Aeschylus</groupname>
+        <work projid="greekLit:tlg003" xml:lang="grc">
+            <title xml:lang="en">Prometheus Bound</title>
+        </work>
+    </textgroup>
     <textgroup projid="greekLit:tlg0008">
         <groupname xml:lang="eng">Athenaeus</groupname>
         <work projid="greekLit:tlg001">
