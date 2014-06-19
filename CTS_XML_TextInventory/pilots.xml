@@ -140,15 +140,15 @@
         <groupname xml:lang="en">Aeschylus</groupname>
         <work projid="greekLit:tlg003" xml:lang="grc">
             <title xml:lang="en">Prometheus Bound</title>
-             <edition projid="greekLit:perseus-grc1">
+             <edition projid="greekLit:perseus-grc2">
                 <label xml:lang="en">Prometheus Bound</label>
                 <description xml:lang="eng">Perseus:bib:oclc,13109528, Perseus:bib:isbn,0674991605, Aeschylus. Aeschylus, with an English translation by Herbert Weir Smyth, Ph. D. in two volumes. 1.Prometheus. Cambridge. Cambridge, Mass., Harvard University Press; London, William Heinemann, Ltd. 1926.</description>
-                <online docname="/db/repository/greekLit/tlg0085/tlg003/tlg0085.tlg003.perseus-grc1.xml">
+                <online docname="/db/repository/greekLit/tlg0085/tlg003/tlg0085.tlg003.perseus-grc2.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
- +                        <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
- +                    </citationMapping>
+                         <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                     </citationMapping>
                 </online>
             </edition>
         </work>
