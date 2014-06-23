@@ -302,6 +302,12 @@
             <title xml:lang="lat">De consolatione liber</title>
         </work>
     </textgroup>
+     <textgroup projid="croala:pannonius">
+        <groupname xml:lang="hrv">Pannonius, Andreas Duditius</groupname>
+        <work projid="croala:01" xml:lang="lat">
+            <title xml:lang="lat">De morte Barbarae matris</title>
+        </work>
+    </textgroup>
       <textgroup projid="croala:sizgoric">
         <groupname xml:lang="hrv">Šižgorić, Juraj</groupname>
         <work projid="croala:eleg01" xml:lang="lat">
