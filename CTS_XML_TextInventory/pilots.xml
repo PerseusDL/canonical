@@ -173,6 +173,25 @@
             </translation>
         </work>
     </textgroup>
+        <textgroup projid="greekLit:tlg0012">
+        <groupname xml:lang="eng">Homer</groupname>
+        <work projid="greekLit:tlg001">
+            <title xml:lang="eng">Iliad</title>
+            <edition projid="greekLit:perseus-grc1">
+                <description> Perseus:bib:oclc,29448041, Homer. Homeri Opera in five volumes. Oxford, Oxford University Press. 1920.</description>
+                <label xml:lang="eng">Iliad</label>
+                <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-grc1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                     <citationMapping>
+                        <citation label="Book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="Line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
     <textgroup projid="greekLit:tlg0019" urn="urn:cts:greekLit:tlg0019">
                <groupname xml:lang="eng">Aristophanes</groupname>
                <work projid="greekLit:tlg003"
