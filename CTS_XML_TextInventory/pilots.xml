@@ -177,15 +177,15 @@
         <groupname xml:lang="eng">Homer</groupname>
         <work projid="greekLit:tlg001">
             <title xml:lang="eng">Iliad</title>
-            <edition projid="greekLit:perseus-grc1">
+            <edition projid="greekLit:perseus-grc2">
                 <description> Perseus:bib:oclc,29448041, Homer. Homeri Opera in five volumes. Oxford, Oxford University Press. 1920.</description>
                 <label xml:lang="eng">Iliad</label>
-                <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-grc1.xml">
+                <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                      <citationMapping>
-                        <citation label="Book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="Line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
