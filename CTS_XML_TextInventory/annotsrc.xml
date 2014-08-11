@@ -878,4 +878,24 @@
             </edition>
         </work>
     </textgroup>
+    <textgroup projid="latinLit:phi1348" urn="urn:cts:latinLit:phi1348">
+        <groupname>Suetonius</groupname>
+        <work projid="latinLit:abo012" urn="urn:cts:latinLit:phi1348.abo012" xml:lang="lat">
+            <title xml:lang="lat">Divus Augustus</title>
+            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi1348.abo012.perseus-lat1">
+                <label xml:lang="lat">Divus Augustus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,38471332, Perseus:bib:isbn,3519018276</description>
+                <online docname="/db/repository/latinLit/phi1348/abo012/phi1348.abo012.perseus-lat1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                            <citation label="chapter" xpath="/div[@n='?']" scope="/TEI/text/body">
+                                <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body/div[@n='?']"/>
+                            </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
 </TextInventory>
