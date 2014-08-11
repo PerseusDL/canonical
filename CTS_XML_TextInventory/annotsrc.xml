@@ -513,6 +513,20 @@
                 </online>
             </edition>
         </work>
+        <work projid="greekLit:tlg005" xml:lang="grc">
+            <title xml:lang="en">Apology</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Apology</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 2, 2nd ed. Oxford, Clarendon Press. 1921 (repr. 1971).</description>
+                <online docname="/db/repository/greekLit/tlg0032/tlg005/tlg0032.tlg005.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
         <!-- <work projid="greekLit:tlg008" xml:lang="grc">
             <title xml:lang="en">Hiero</title>
             <edition projid="greekLit:perseus-grc1">
