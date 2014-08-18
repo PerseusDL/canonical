@@ -55,14 +55,15 @@
 </langUsage>
 </profileDesc>
 <revisionDesc>
-    <change when="2014-06-19T00:00:00Z" who="Bridget Almas">Added line numbers</change>
-    <change when="2014-06-18T00:00:00Z" who="Simona Stoyanova">Created EpiDoc version from urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
+<change when="2014-06-19T00:00:00Z" who="Bridget Almas">Added line numbers</change>
+<change when="2014-06-18T00:00:00Z" who="Simona Stoyanova">Created EpiDoc version from
+urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 </revisionDesc>
 </teiHeader>
 
 <text xml:lang="grc">
 <body>
-    <div type="edition" n="urn:cts:greekLit:tlg0085.tlg003.perseus-grc2">
+<div type="edition" n="urn:cts:greekLit:tlg0085.tlg003.perseus-grc2">
 <div type="textpart" subtype="episode">
 <milestone ed="p" n="1" unit="card"/>
 <sp>
