@@ -47,13 +47,13 @@
     
     <profileDesc>
       <langUsage default="false">
-        <language ident="greek" usage="100">Greek</language>
+        <language ident="greek" usage="100">Greek</language> <!-- grc -->
         <language ident="en">English</language>
       </langUsage>
     </profileDesc>
     
     <revisionDesc>
-      <change when="1991-08-01" who="EM">evise DTDs and recheck texts.</change>
+      <change when="1991-08-01" who="EM">revise DTDs and recheck texts.</change>
       <change when="2014-03-24" who="Simona Stoyanova">converted to EpiDoc</change>
     </revisionDesc>
   </teiHeader>
