@@ -898,4 +898,71 @@
             </edition>
         </work>
     </textgroup>
+    <textgroup projid="greekLit:tlg0028" urn="urn:cts:greekLit:tlg0028">
+        <groupname>Antiphon</groupname>
+        <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0028.tlg001" xml:lang="grc">
+            <title xml:lang="eng">Against the Stepmother for Poisoning</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0028.tlg001.perseus-grc1">
+                <label xml:lang="eng">Against the Stepmother for Poisoning</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5331826, Perseus:bib:isbn,0674993403</description>
+                <online docname="/db/repository/greekLit/tlg0028/tlg001/tlg0028.tlg001.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0540" urn="urn:cts:greekLit:tlg0540">
+        <groupname>Lysias</groupname>
+        <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0540.tlg001" xml:lang="grc">
+            <title xml:lang="eng">On the Murder of Eratosthenes</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg001.perseus-grc1">
+                <label xml:lang="eng">On the Murder of Eratosthenes</label>
+                <description xml:lang="eng">Perseus:bib:oclc,7623486, Perseus:bib:isbn,0674992695, Lysias. Lysias with an English translation by W.R.M. Lamb, M.A. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1930.</description>
+                <online docname="/db/repository/greekLit/tlg0540/tlg001/tlg0540.tlg001.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+        <work projid="greekLit:tlg014" urn="urn:cts:greekLit:tlg0540.tlg014" xml:lang="grc">
+            <title xml:lang="eng">Against Alcibiades 1</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg014.perseus-grc1">
+                <label xml:lang="eng">Against Alcibiades 1</label>
+                <description xml:lang="eng">Perseus:bib:oclc,7623486, Perseus:bib:isbn,0674992695, Lysias. Lysias with an English translation by W.R.M. Lamb, M.A. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1930.</description>
+                <online docname="/db/repository/greekLit/tlg0540/tlg014/tlg0540.tlg014.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+        <work projid="greekLit:tlg015" urn="urn:cts:greekLit:tlg0540.tlg015" xml:lang="grc">
+            <title xml:lang="eng">Against Alcibiades 2</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg015.perseus-grc1">
+                <label xml:lang="eng">Against Alcibiades 2</label>
+                <description xml:lang="eng">Perseus:bib:oclc,7623486, Perseus:bib:isbn,0674992695, Lysias. Lysias with an English translation by W.R.M. Lamb, M.A. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1930.</description>
+                <online docname="/db/repository/greekLit/tlg0540/tlg015/tlg0540.tlg015.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+        
+    </textgroup>
 </TextInventory>
