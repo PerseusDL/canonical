@@ -350,4 +350,64 @@
             <title xml:lang="eng">Declamationes</title>
         </work>
     </textgroup>
+    <textgroup projid="latinLit:phi1020" urn="urn:cts:latinLit:phi1020">
+        <groupname>Statius, P. Papinius (Publius Papinius)</groupname>
+        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1020.phi001" xml:lang="lat">
+            <title xml:lang="eng">Thebais</title>
+            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1020.phi001.perseus-lat2">
+                <label xml:lang="eng">Thebais</label>
+                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol I-II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. OCR.</description>
+                <online docname="/db/repository/latinLit/phi1020/phi001/phi1020.phi001.perseus-lat2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="latinLit:phi1035" urn="urn:cts:latinLit:phi1035">
+        <groupname xml:lang="eng">Valerius Flaccus, Gaius</groupname>
+        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1035.phi001" xml:lang="lat">
+            <title xml:lang="eng">Argonautica</title>
+            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1035.phi001.perseus-lat2">
+                <label xml:lang="eng">Argonautica</label>
+                <description xml:lang="eng">C. Valerius Flaccus. Otto Kramer. C. Valeri Flacci Setini Balbi Argonauticon Libri Octo. Leipzig. Teubner. 1913.</description>
+                <online docname="/db/repository/latinLit/phi1035/phi001/phi1035.phi001.perseus-lat2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="latinLit:phi1345" urn="urn:cts:latinLit:phi1345">
+        <groupname xml:lang="eng">Silius Italicus, Tiberius Catius</groupname>
+        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1345.phi001" xml:lang="lat">
+            <title xml:lang="eng">Punica</title>
+            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1345.phi001.perseus-lat2">
+                <label xml:lang="eng">Punica</label>
+                <description xml:lang="eng">Silius Italicus. Corpus Poetarum Latinorum, Vol 2. Walter Coventry Summers. John Percival Postgate. London. Sumptibus G. Bell et Filiorum. 1905. Keyboarding.</description>
+                <online docname="/db/repository/latinLit/phi1345/phi001/phi1345.phi001.perseus-lat2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
 </TextInventory>
