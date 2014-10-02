@@ -18,6 +18,9 @@
     <ctsnamespace abbr="croala" ns="http://data.perseus.org/ns/cts/mc">
         <description xml:lang="eng">Texts from Croatiae auctores Latini http://www.ffzg.unizg.hr/klafil/croala/</description>
     </ctsnamespace>
+    <ctsnamespace abbr="farsiLit" ns="http://data.perseus.org/ns/cts/mc">
+        <description xml:lang="eng">Farsi literary texts in the Perseus Digital Library (Pilot)/</description>
+    </ctsnamespace>
     <textgroup projid="pdlmc:cdf">
         <groupname>carta de foresta</groupname>
         <work projid="pdlmc:flc" xml:lang="lat">
@@ -407,6 +410,30 @@
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
+    <!--added for Maryam Foradi, Open Philology Project -->
+    <textgroup projid="farsiLit:hafez">
+        <groupname>Hafez</groupname>
+        <work projid="farsiLit:divan" xml:lang="fa">
+            <title xml:lang="eng">Divān</title>
+            <edition projid="farsiLit:perseus-fars1">
+                <label>Divān</label>
+                <description xml:lang="eng">Perseus:bib:oclc, 254557372. Diwan-i Hwaga Sams-ad-Din Muhammad Hafiz Sirazi qaddas sarra-yi al-aziz ba tamam. edited by Muhammad Qazwini and Qasim Gani as available on ganjoor.net. Tehran, Caphana-i Maglis. 1941.   </description>
+                <online docname="/db/repository/farsiLit/hafez/divan/hafez.divan.perseus-fars1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="letter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="seg" xpath="/tei:seg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"/>
+                                </citation>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
             </edition>
         </work>
     </textgroup>
