@@ -452,6 +452,23 @@
                     </citationMapping>
                 </online>
             </translation>
+            <translation projid="farsiLit:perseus-ger1">
+                <label>Divān</label>
+                <description xml:lang="eng">Perseus:bib:oclc, 6773200. Mohammed Schemsed-din Hafis, Der Diwan, Aus dem Persischen zum erstenmal ganz übersetzt von Joseph von Hammer-Purgstall. Stuttgart and Tübingen, 1812.   </description>
+                <online docname="/db/repository/farsiLit/hafez/divan/hafez.divan.perseus-ger1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="letter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="seg" xpath="/tei:seg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"/>
+                                </citation>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
         </work>
     </textgroup>
 </TextInventory>
