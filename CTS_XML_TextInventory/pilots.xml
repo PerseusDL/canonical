@@ -436,7 +436,7 @@
                 </online>
             </edition>
             <translation projid="farsiLit:perseus-eng1">
-                <label>Divān</label>
+                <label>Divān (English)</label>
                 <description xml:lang="eng">Perseus:bib:oclc, 559481156. The Dīvān .Translated for the first time out of the Persian into English prose, with critical and explanatory remarks, with an introductory preface, with a note on Ṣūfīism, and with a life of the author, by H. Wilberforce Clarke. Calcutta, India. 1891.   </description>
                 <online docname="/db/repository/farsiLit/hafez/divan/hafez.divan.perseus-eng1.xml">
                     <validate schema="tei-epidoc.rng"/>
@@ -453,7 +453,7 @@
                 </online>
             </translation>
             <translation projid="farsiLit:perseus-ger1">
-                <label>Divān</label>
+                <label>Divān (German)</label>
                 <description xml:lang="eng">Perseus:bib:oclc, 6773200. Mohammed Schemsed-din Hafis, Der Diwan, Aus dem Persischen zum erstenmal ganz übersetzt von Joseph von Hammer-Purgstall. Stuttgart and Tübingen, 1812.   </description>
                 <online docname="/db/repository/farsiLit/hafez/divan/hafez.divan.perseus-ger1.xml">
                     <validate schema="tei-epidoc.rng"/>
