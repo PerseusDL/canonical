@@ -266,6 +266,27 @@
                         </edition>
                     </work>
             </textgroup>
+    <textgroup projid="greekLit:tlg0062">
+        <groupname xml:lang="en">Lucian</groupname>
+        <work projid="greekLit:tlg020" xml:lang="grc">
+            <title xml:lang="en">Prometheus</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Prometheus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,, Lucian. ed. A. M. Harmon,
+                    Works. Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</description>
+                <online docname="/db/repository/greekLit/tlg0062/tlg020/tlg0062.tlg020.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        
+                        <citation label="section" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                        
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
     <textgroup projid="croala:petrov02">
         <groupname xml:lang="hrv">Petrović, Vice</groupname>
         <work projid="croala:eleg01" xml:lang="lat">
