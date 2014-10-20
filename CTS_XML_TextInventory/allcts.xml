@@ -35,7 +35,7 @@
         <label xml:lang="en">The Peloponnesian War (Oxford 1942 Epidoc)</label>
         <description xml:lang="eng">Thucydides. Historiae in two volumes. Oxford, Oxford University
           Press. 1942.</description>
-        <online docname="tlg0003.tlg001.perseus-grc1.xml">
+        <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml">
           <validate schema="tei-xl.xsd"/>
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
@@ -50,6 +50,20 @@
           </citationMapping>
         </online>
       </edition>
+      <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0003.tlg001.perseus-eng1">
+                <label xml:lang="eng">History of the Peloponnesian War (English translation by Thomas Hobbes)</label>
+                <description xml:lang="eng">The English works of Thomas Hobbes of Malmesbury. Thucydides. Thomas Hobbes. translator. London. Bohn. 1843.</description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="chapter" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
     </work>
   </textgroup>
   <textgroup projid="greekLit:tlg0007">
