@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiversion="3.0.rc1">
   <!-- This is a TextInventory for all confirmed CTS-compliant texts in Perseus/canonical -->
+  <!--commented-out texts are not yet CTS compliant, but the citation structures are accurate -->
   <collection id="Perseus:collection:Greco-Roman" isdefault="yes">
     <title xml:lang="eng">Greek and Roman Materials</title>
     <creator xmlns="http://purl.org/dc/elements/1.1/">The Perseus Digital Library</creator>
@@ -2463,6 +2464,168 @@
         <label xml:lang="eng">Nicocles or the Cyprians</label>
         <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
         <online docname="/db/repository/greekLit/tlg0010/tlg014/tlg0010.tlg014.perseus-eng1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </translation>
+    </work>
+     <work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg016">
+      <title xml:lang="eng">Archidamus</title>
+      <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0010.tlg016.perseus-grc1">
+        <label xml:lang="eng">Archidamus</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg016/tlg0010.tlg016.perseus-grc1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </edition>
+      <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0010.tlg016.perseus-eng1">
+        <label xml:lang="eng">Archidamus</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg016/tlg0010.tlg016.perseus-eng1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </translation>
+    </work>
+     <work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg017">
+      <title xml:lang="eng">On the Peace</title>
+      <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0010.tlg017.perseus-grc1">
+        <label xml:lang="eng">On the Peace</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg017/tlg0010.tlg017.perseus-grc1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </edition>
+      <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0010.tlg017.perseus-eng1">
+        <label xml:lang="eng">On the Peace</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg017/tlg0010.tlg017.perseus-eng1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </translation>
+    </work>
+     <work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg018">
+      <title xml:lang="eng">Areopagiticus</title>
+      <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0010.tlg018.perseus-grc1">
+        <label xml:lang="eng">Areopagiticus</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg018/tlg0010.tlg018.perseus-grc1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </edition>
+      <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0010.tlg018.perseus-eng1">
+        <label xml:lang="eng">Areopagiticus</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg018/tlg0010.tlg018.perseus-eng1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </translation>
+    </work>
+     <work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg019">
+      <title xml:lang="eng">Antidosis</title>
+      <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0010.tlg019.perseus-grc1">
+        <label xml:lang="eng">Antidosis</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg019/tlg0010.tlg019.perseus-grc1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </edition>
+      <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0010.tlg019.perseus-eng1">
+        <label xml:lang="eng">Antidosis</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg019/tlg0010.tlg019.perseus-eng1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </translation>
+    </work>
+     <work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg020">
+      <title xml:lang="eng">To Philip</title>
+      <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0010.tlg020.perseus-grc1">
+        <label xml:lang="eng">To Philip</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg020/tlg0010.tlg020.perseus-grc1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </edition>
+      <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0010.tlg020.perseus-eng1">
+        <label xml:lang="eng">To Philip</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg020/tlg0010.tlg020.perseus-eng1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </translation>
+    </work>
+     <work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg021">
+      <title xml:lang="eng">Panathenaicus</title>
+      <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0010.tlg021.perseus-grc1">
+        <label xml:lang="eng">Panathenaicus</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg021/tlg0010.tlg021.perseus-grc1.xml">
+          <validate schema="teia.xsd"/>
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+          </citationMapping>
+        </online>
+        <memberof collection="Perseus:collection:Greco-Roman"/>
+      </edition>
+      <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0010.tlg021.perseus-eng1">
+        <label xml:lang="eng">Panathenaicus</label>
+        <description xml:lang="eng">Perseus:bib:oclc,17454675, Perseus:bib:isbn,0674992318, Perseus:bib:isbn,0674992520, Perseus:bib:isbn,0674994116, Isocrates. Isocrates with an English Translation in three volumes, by George Norlin, Ph.D., LL.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1980.</description>
+        <online docname="/db/repository/greekLit/tlg0010/tlg021/tlg0010.tlg021.perseus-eng1.xml">
           <validate schema="teia.xsd"/>
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
