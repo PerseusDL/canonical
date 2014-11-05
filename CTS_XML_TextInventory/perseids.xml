@@ -782,7 +782,7 @@
     </textgroup>
     <textgroup projid="greekLit:tlg0011" urn="urn:cts:greekLit:tlg0011">
         <groupname xml:lang="eng">Sophocles</groupname>
-        <work projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0011:tlg002" xml:lang="grc">
+        <work projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0011.tlg002" xml:lang="grc">
             <title xml:lang="eng">Antigone</title>
             <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0011.tlg002.perseus-eng1">
                 <label xml:lang="eng">Antigone</label>
@@ -798,7 +798,7 @@
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </translation>
         </work>
-        <work projid="greekLit:tlg004" urn="urn:cts:greekLit:tlg0011:tlg004" xml:lang="grc">
+        <work projid="greekLit:tlg004" urn="urn:cts:greekLit:tlg0011.tlg004" xml:lang="grc">
             <title xml:lang="eng">Oedipus Tyrannus</title>
             <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0011.tlg004.perseus-eng1">
                 <label xml:lang="eng">Oedipus Tyrannus</label>
@@ -814,7 +814,7 @@
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </translation>
         </work>
-        <work projid="greekLit:tlg007" urn="urn:cts:greekLit:tlg0011:tlg07" xml:lang="grc">
+        <work projid="greekLit:tlg007" urn="urn:cts:greekLit:tlg0011.tlg07" xml:lang="grc">
             <title xml:lang="eng">Oedipus at Colonus</title>
             <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0011.tlg007.perseus-eng1">
                 <label xml:lang="eng">Oedipus at Colonus</label>
