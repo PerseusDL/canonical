@@ -149,24 +149,23 @@
             </edition>
         </work>
     </textgroup>
-   <!--
-   <textgroup projid="greekLit:tlg0006">
+     <textgroup projid="greekLit:tlg0006">
         <groupname xml:lang="en">Euripides</groupname>
-        <work projid="greekLit:tlg005" xml:lang="grc">
-            <title xml:lang="en">Hippolytus</title>
+        <work projid="greekLit:tlg001" xml:lang="grc">
+            <title xml:lang="en">Cyclops</title>
             <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Hippolytus</label>
-                <description xml:lang="eng">Perseus:bib:oclc,32167765, Perseus:bib:isbn,0674995333, Euripides. Euripides, with an English translation by David Kovacs. Cambridge. Harvard University Press. forthcoming.</description>
-                <online docname="tlg0006.tlg005.perseus-grc1.xml">
+                <label xml:lang="en">Cyclops</label>
+                <description xml:lang="eng">Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600, Euripides. Euripides, with an English translation by David Kovacs. Cambridge. Harvard University Press. forthcoming.</description>
+                <online docname="/db/repository/greekLit/tlg0006/tlg001/tlg0006.tlg001.perseus-grc1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="" scope=""/>
+                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
                     </citationMapping>
-                    <memberof collection="Perseus:collection:Greco-Roman-protected"/>
                 </online>
             </edition>
         </work>
+        <!--
        <work projid="greekLit:tlg008" xml:lang="grc">
            <title xml:lang="en">Suppliants</title>
            <edition projid="greekLit:perseus-grc1">
@@ -212,8 +211,8 @@
                </online>
            </edition>
        </work>
+       -->
     </textgroup>
-    -->
     <textgroup projid="greekLit:tlg0019">
         <groupname xml:lang="en">Aristophanes</groupname>
         <!--
