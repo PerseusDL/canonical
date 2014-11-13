@@ -1,0 +1,755 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Þorsteins þáttr bæjarmagns</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Þorsteins þáttr bæjarmagns</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: ThorsteinsBaejarmagns_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="397"/>
+
+Í þann tíma, er Hákon jarl Sigurðarson réð fyrir
+Noregi, bjó sá bóndi í Gaulardal, er Brynjólfr hét.
+Hann var kallaðr úlfaldi. Hann var lendr maðr ok
+mikil kempa. Kona hans hét Dagný; hún var dóttir
+Járnskeggja af Yrjum. Þau áttu einn son, er Þorsteinn
+hét. Hann var mikill ok sterkr, harðúðigr ok óaflátssamr
+við hvern, sem eiga var. Engi var jafnstórr í
+Noregi, ok trautt fengust þær dyrr, at honum væri
+hægt um at ganga, ok því var hann kallaðr bæjarmagn,
+því at hann þótti ofmagni bera flestum húsum. Hann
+var óþýðr, ok fekk faðir hans honum því skip ok menn,
+ok var Þorsteinn þá ýmist í hernaði eða í kaupferðum,
+ok tókst honum hvárttveggja vel.
+Í þenna tima tók ríki í Noregi Óláfr konungr
+Tryggvason, en Hákon jarl var skorinn á háls af þræli
+sínum, þeim sem Þormóðr karkr hét. Þorsteinn bæjarmagn
+gerðist hirðmaðr Óláfs konungs. Þótti konungi
+hann röskr maðr ok helt mikit til hans, en ekki var
+<pb n="398"/>
+
+hann mjök kenndr af hirðmönnum. Þótti þeim hann
+stríðlyndr ok óvæginn, ok hafði konungr hann mjök
+til þess at fara sendiferðir þær, sem aðrir töldust undan
+at fara. En stundum fór hann kaupferðir at afla konungnum
+gersema.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Eitt sinn lá Þorsteinn austr fyrir Bálagarðssíðu, ok
+gaf honum eigi at sigla. Gekk hann á land einn morgin,
+ok er sól var í landsuðri, var Þorsteinn kominn í eitt
+rjóðr. Hóll fagr var í rjóðrinu. Hann sá einn kollóttan
+pilt uppi á hólnum, ok mælti: "Móðir mín," segir
+hann, "fá þú mér út krókstaf minn ok bandvettlinga,
+því at ek vil á gandreið fara. Er nú hátíð í heiminum
+neðra." Þá var snarat út ór hólnum einum krókstaf,
+sem eldsskara væri. Hann stígr á stafinn ok dregr á
+sik vettlingana ok keyrir, sem börn eru vön at gera.
+Þorsteinn gengr á hólinn ok mælti slikum orðum sem
+piltrinn, ok var þegar út kastat staf ok vöttum ok mælt
+þetta: "Hverr tekr nú við?" "Bjálfi, sonr þinn," sagði
+Þorsteinn. Síðan stígr hann á stafinn ok ríðr þar eptir,
+sem piltrinn fór undan. Þeir kómu at einni móðu ok
+steyptu sér ofan í hana, ok var því líkast sem þeir væði
+reyk. Því næst birti þeim fyrir augum, ok kómu þeir
+at, sem á fell fram af hömrum. Sér Þorsteinn þá byggð
+mikla ok borg stóra. Þeir stefna til borgarinnar, ok sitr
+þar fólk yfir borðum. Þeir gengu í höllina, ok var höll
+skipuð af fólki, ok var þar af engu drukkit utan af
+silfrkerum. Trapiza stóð á gólfi. Allt sýndist þeim
+þar gullligt ok ekki drukkit nema vín. Þat þóttist Þorsteinn
+skilja, at engi maðr sá þá. Félagi hans fór með
+<pb n="399"/>
+
+borðum ok henti allt þat, sem niðr fell. Konungr sat
+þar í hásæti ok drottning. Menn váru glaðir um höllina.
+Þessu næst sér Þorsteinn, at maðr kom í höllina ok
+kvaddi konung ok kveðst vera sendr til hans utan af
+Indíalandi ór fjalli því, er Lúkanus heitir, frá jarli
+þeim, er þar réð fyrir, ok segir konungi, at hann var
+huldumaðr. Hann færði honum einn gullhring. Eigi
+þóttist konungr betri hring sét hafa, ok fór hringrinn
+um höllina til sýnis, ok lofuðu hann allir. Hann var
+sundr tekinn í fjórum stöðum. Annan grip sá Þorsteinn,
+er honum þótti mikils um vert. Þat var dúkr
+sá, er lá á konungs borðinu. Hann var með gullligum
+röndum ok í festir þeir tólf gimsteinar, sem beztir eru.
+Gjarna vildi Þorsteinn dúkinn eiga. Kemr honum í hug
+at treysta á konungs hamingju ok vita, hvárt hann getr
+ekki nát hringnum. Nú sér Þorsteinn, at konungrinn
+ætlar at draga hringinn á hönd sér. Þá greip Þorsteinn
+hringinn af honum, en annarri hendi tók hann dúkinn,
+ok fór allr matr í saur, en Þorsteinn hljóp á dyrr,
+en krókstafr hans varð honum eptir í höllinni. Verðr
+nú upphlaup mikit, hlaupa menn út síðan ok sjá, hvar
+Þorsteinn ferr, ok stefna eptir honum. Sér hann nú, at
+þeir muni geta nát honum. Hann mælti þá: "Ef þú
+ert svá góðr, Óláfr konungr, sem ek treysti mikit til
+þín, þá veittu mér lið." En svá var Þorsteinn frár, at
+þeir kómust ekki fyrir hann, fyrr en hann kom at ánni,
+ok staldraði hann þá við. Þeir slógu hring um hann,
+en Þorsteinn varðist vel ok drap ótal marga, áðr förunautr
+hans kom ok færði honum stafinn, ok hurfu þeir
+þegar í móðuna. Komu þeir aptr á inn sama hól sem
+fyrr gátum vér, þá sól var í vestri. Kastaði piltrinn þá
+inn stafnum ok klæðsekk þeim, sem hann hafði fylldan
+af góðum krásum, ok svá gerði Þorsteinn. Kollsveinn
+<pb n="400"/>
+
+hljóp inn, en Þorsteinn nam staðar við glugginn.
+Hann sá þar tvær konur, ok vaf önnur guðvef, en önnur
+ruggaði barni. Sú mælti: "Hvat dvelr hann Bjálfa,
+bróður þinn?" "Ekki hefir hann mér fylgt í dag?" sagði
+hann. "Hverr hefir þá farit með krókstafinn?" segir
+hún. "Þat var Þorsteinn bæjarmagn," segir Kollsveinn,
+"hirðmaðr Óláfs konungs. Kom hann okkr í mikinn
+vanda, því at hann hafði ór undirheimum þau þing,
+at eigi munu slík í Noregi, ok var við því búit, at vit
+mundum drepnir, er hann kastaði stafnum í hendr
+þeim, ok eltu þeir hann til niðrgangs, ok þá færði ek
+honum stafinn, ok víst er hann hraustr maðr, því at
+eigi veit ek, hversu marga hann drap." Ok nú laukst
+aptr haugrinn.
+Fór Þorsteinn nú til sinna manna, ok sigldu þaðan
+til Noregs, ok fann Óláf konung austr í Vík ok færði
+honum gersemi þessi ok sagði frá ferðum sínum, ok
+fannst mönnum mikit um. Konungr bauð at gefa Þorsteini
+lén mikit, en hann kveðst enn vilja fara eina ferð
+í Austrveg. Var hann nú með konungi um vetrinn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+At vári bjó Þorsteinn skip sitt. Hann hafði snekkju
+ok fjóra menn ok tuttugu. Ok er hann kom við Jamtaland,
+lá hann í höfn einn dag, ok gekk hann á land at
+skemmta sér. Hann kom í eitt rjóðr. Þar var einn mikill
+steinn. Skammt þaðan sá hann einn dverg furðuliga
+ljótan, ok grenjaði upp yfir sik. Sýndist Þorsteini kjaptrinn
+snúinn út at eyranu, en öðrum megin nefit niðr
+at kjaptinum. Þorsteinn segir, hví hann léti svá heimsliga.
+"Þú, góði maðr," sagði hann, "undrast eigi. Sér
+<pb n="401"/>
+
+þú eigi þann mikla örn, er þar flýgr? Hann hefir tekit
+son minn. Ætla ek þat, at sá ófögnuðr sé sendr af Óðni,
+en ek spring, ef ek missi barnit." Þorsteinn skaut eptir
+erninum, ok kom undir vænginn, ok datt hann dauðr
+niðr, en Þorsteinn henti dvergsbarnit á lopti ok færði
+föðurnum, en dvergrinn varð feginn mjök ok mælti:
+"Þér á ek at launa lífgjöf ok sonr minn, ok kjós þér
+nú fyrir laun í gulli ok silfri." "Græð þú fyrst son
+þinn," sagði Þorsteinn; "er ek eigi vanr at taka mútur
+á afli mínu." "Eigi væri mér at óskyldara at launa,"
+segir dvergrinn. "Mun þér ekki þykkja framboðligr
+serkr minn af sauða ullu, en eigi muntu á sundi mæðast
+ok eigi sár fá, ef þú hefir hann næst þér." Þorsteinn
+fór í serkinn, ok var honum mátuligr, en honum sýndist
+dvergnum of lítill. Hann tók ok silfrhring ór pungi
+sínum ok gaf Þorsteini ok bað hann vel geyma ok
+sagði honum aldri féfátt verða mundu, meðan hann
+ætti hringinn. Siðan tók hann einn stein svartan ok
+gaf Þorsteini, "ok ef þú felr hann í lófa þér, sér þik
+engi. Eigi hefi ek fleira, þat þér megi gagn at vera.
+Hall einn vil ek gefa þér til skemmtunar." Tók hann
+þá hallinn ór pungi sínum. Fylgdi honum einn stálbroddr.
+Hallrinn var þríhyrndr. Hann var hvítr í miðju,
+en rauðr öðrum megin, en gul rönd utan um. Dvergrinn
+mælti: "Ef þú pjakkar broddinum á hallinn, þar
+sem hann er hvítr, þá kemr haglhríð svá mikil, at engi
+þorir móti at sjá. En ef þú vilt þíða þann snjó, þá
+skaltu pjakka þar, sem gulr er hallrinn, ok kemr þá
+sólskin, svá at allt bræðir. En ef þú pjakkar þar í, sem
+rautt er, þá kemr þar ór eldr ok eimyrja með gneistaflaug,
+svá at engi má móti at sjá. Þú mátt ok hæfa
+þat, sem þú vilt, með broddinum ok hallinum, ok
+hann kemr sjálfr aptr í hönd þér, þegar þú kallar. Get
+<pb n="402"/>
+
+ek nú ekki launat þér fleira at sinni. Þorsteinn þakkar
+honum gjafirnar. Fór hann nú til sinna manna, ok
+var honum þessi ferð betr farin en ófarin. Þessu næst
+gefr þeim byr ok sigla í Austrveginn. Koma nú á fyrir
+þeim myrkr ok hafvillur, ok vita þeir ekki, hvar þeir
+fara, ok var þat hálfan mánuð, at þessi villa helzt.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Þat var eitt kvöld, at þeir urðu varir við land. Köstuðu
+þeir nú akkerum ok lágu þar um nóttina. Um
+morguninn var gott veðr ok sólskin fagrt. Váru þeir
+þá komnir á einn fjörð langan, ok sjá þeir þar hlíðir
+fagrar ok skóga. Engi maðr var sá innanborðs, at þetta
+land þekkti. Ekki sáu þeir kvikt, hvárki dýr né fugla.
+Reistu þeir nú tjald á landi ok bjuggust vel um. At
+morgni mælti Þorsteinn til sinna manna: "Ek vil gera
+yðr kunnigt um ætlan mína. Þér skuluð bíða mín hér
+sex nætr. Ætla ek mér at kanna land þetta." Þeim
+þótti mikit fyrir því ok vilja með honum fara, en Þorsteinn
+vill þat eigi, "ok ef ek kem eigi aptr, áðr
+sjau sólir eru af himni," segir hann, "þá skuluð þér
+sigla heim ok segja svá Óláfi konungi, at mér mun
+ekki auðit verða aptr at koma." Gengu þeir þá með honum
+upp á skóginn. Því næst hvarf hann þeim, ok fóru
+þeir aptr til skips ok breyttu eptir því, sem Þorsteinn
+bauð þeim.
+Nú er at segja af Þorsteini, at allan þann dag gengr
+hann um mörkina ok verðr við ekki varr. En at áliðnum
+degi kemr hann á eina braut breiða. Hann gekk
+eptir brautinni, þangat til at aptnaði. Gekk hann þá
+brott af brautinni ok víkr at einni stórri eik ok stígr
+<pb n="403"/>
+
+upp í hana. Var þar nóg rúm í at liggja. Sefr hann
+þar um nóttina. En er sólin kom upp, heyrir hann
+dunur miklar ok manna mál. Sá hann þá, hvar margir
+menn ríða. Þeir váru tveir ok tuttugu. Þá bar svá skjótt
+um fram. Undraðist Þorsteinn mjök vöxt þeira. Hafði
+hann eigi sét jafnstóra menn fyrr. Þorsteinn klæðir sik.
+Líðr nú morgininn til þess, at sól er komin í landsuðr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Nú sér Þorsteinn þrjá menn ríða vel vápnaða ok
+svá stóra, at enga menn sá hann fyrr jafnstóra. Sá vár
+mestr, er í miðit reið, í gullskotnum klæðum á bleikum
+hesti, en hinir tveir riðu á grám hestum í rauðum
+skarlatsklæðum. En er þeir kómu þar gegnt, sem Þorsteinn
+var, mælti sá, sem fyrir þeim var, ok nam staðar:
+"Hvat er kvikt í eikinni?" Þorsteinn gekk þá á
+veginn fyrir þá ok heilsaði þeim, en þeir ráku upp
+hlátr mikinn, ok mælti inn mikli maðr: "Sjaldsénir
+eru oss þvílíkir menn, eða hvert er nafn þitt, eða hvaðan
+ertu?" Þorsteinn nefndi sik ok kveðst vera kallaðr
+bæjarmagn, "en kyn mitt er í Noregi. Er ek hirðmaðr
+Óláfs konungs." Inn mikli maðr brosti ok mælti:
+"Mest er logit frá hirðprýði hans, ef hann hefir engan
+vaskligri. Þykki mér þú heldr mega heita bæjarbarn
+en bæjarmagn." "Lát nokkut fylgja nafnfesti," segir
+Þorsteinn. Inn mikli maðr tók fingrgull ok gaf Þorsteini.
+Þat vá þrjá aura. Þorsteinn mælti: "Hvert er
+þitt nafn, eða hverrar ættar ertu, eða í hvert land er
+ek kominn?" "Goðmundr heiti ek. Ræð er þar fyrir,
+sem á Glæsisvöllum heitir. Þar þjónar til þat land,
+er Risaland heitir. Ek er konungsson, en mínir sveinar
+<pb n="404"/>
+
+heitir annarr Fullsterkr, en annarr Allsterkr, eða sáttu
+enga menn ríða hér um í morgin?" Þorsteinn mælti:
+"Hér riðu um tveir menn ok tuttugu ok létu eigi lítinn."
+"Þeir eru sveinar mínir," segir Goðmundr. "Þat
+land liggr hér næst, er Jötunheimar heitir. Þar ræðr
+sá konungr, er Geirröðr heitir. Undir hann erum vér
+skattgildir. Faðir minn hét Úlfheðinn trausti. Hann
+var kallaðr Goðmundr sem allir aðrir, þeir á Glæsisvöllum
+búa. En faðir minn fór í Geirröðargarða at afhenda
+konungi skatta sína, ok í þeiri ferð fekk hann
+bana. Hefir konungr gert mér boð, at ek skyldi drekka
+erfi eptir föður minn ok taka slíkar nafnbætr sem
+faðir minn hafði, en þó unum vér illa við at þjóna
+Jötnum." "Hví riðu yðrir menn undan?" segir Þorsteinn.
+"Mikil á skilr land vort," segir Goðmundr. "Sú
+heitir Hemra. Hún er svá djúp ok ströng, at hana
+vaða engir hestar nema þeir, sem vér kumpánar eigum.
+Skulu hinir ríða fyrir uppsprettu árinnar, ok finnumst
+vér í kveld." "Þat mundi skemmtan at fara með
+yðr," segir Þorsteinn, "ok sjá, hvat þar verðr til tíðenda."
+"Eigi veit ek, hversu þat hentar," segir Goðmundr,
+"því at þú munt kristinn." "Ek mun mik
+ábyrgjast," segir Þorsteinn. "Ekki vilda ek þú hlytir
+vánt af mér," sagði Goðmundr, "en ef Óláfr konungr
+vill leggja gæfu á með oss, þá mundi ek framt á treysta,
+at þú færir." Þorsteinn segist því heita vilja. Goðmundr
+biðr hann fara á bak með sér, ok svá gerði hann.
+Ríða þeir nú til árinnar. Var þar eitt hús, ok tóku
+þeir þar önnur klæði ok klæddu sik ok sína hesta. Þau
+klæði váru þeirar náttúru, at ekki festi vatn á þeim,
+en vatnit var svá kalt, at þegar hljóp drep í, ef nokkut
+vöknaði. Riðu þeir nú yfir ána. Hestarnir óðu sterkliga.
+Hestr Goðmundar rasaði, ok varð Þorsteinn vátr
+<pb n="405"/>
+
+á tánni, ok hljóp þegar drep í. En er þeir kómu af
+ánni, breiddu þeir niðr klæðin til þerris. Þorsteinn hjó
+af sér tána, ok fannst þeim mikit um hreysti hans.
+Ríða þeir nú sinn veg. Bað Þorsteinn þá eigi fela sik,
+"því at ek kann at gera þann hulinshjálm, at mik
+sér engi." Goðmundr segir þat góða kunnáttu.
+Kómu þeir nú til borgarinnar, ok kómu menn Goðmundar
+í móti honum. Riðu þeir nú í borgina. Mátti
+þar nú heyra alls háttar hljóðfæri, en ekki þótti Þorsteini
+af setning slegit. Geirröðr konungr kom nú í mót
+þeim ok fagnaði þeim vel, ok var þeim skipat eitt
+steinhús eða höll at sofa í ok menn til fengnir at leiða
+hesta þeira á stall. Var Goðmundr leiddr í konungshöll.
+Konungr sat í hásæti ok jarl sá hjá honum, er
+Agði hét. Hann réð fyrir því heraði, er Grundir heita.
+Þat er á millum Risalands ok Jötunheima. Hann hafði
+atsetu at Gnípalundi. Hann var fjölkunnigr, ok menn
+hans váru tröllum líkari en mönnum. Goðmundr settist
+á skörina fyrir öndvegit gagnvart konungi. Var sá
+siðr þeira, at konungsson skyldi ekki í hásæti sitja,
+fyrr en hann hafði tekit nafnbætr eptir föður sinn ok
+drukkit væri it fyrsta full. Ríss þar nú upp in vænsta
+veizla, ok drukku menn glaðir ok kátir ok fóru síðan
+at sofa. En er Goðmundr kom í hús sitt, sýndi Þorsteinn
+sik. Hlógu þeir at honum. Goðmundr sagði
+mönnum sínum, hverr hann var, ok bað þá ekki hafa
+hann at hlátri. Ok sofa þeir af um nóttina.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Nú er morginn kom, váru þeir snemma á fótum.
+Var Goðmundr leiddr til konungs hallar. Konungr
+<pb n="406"/>
+
+fagnaði honum vel. "Viljum vér nú vita," segir konungr,
+"hvárt þú vilt veita mér slíka hlýðni sem faðir
+þinn, ok vil ek þá auka þínar nafnbætr. Skaltu þá
+halda Risalandi ok sverja mér eiða." Goðmundr svarar:
+"Ekki er þat lög at krefja svá unga menn til eiða."
+"Þat skal vera," sagði konungr. Síðan tók konungr guðvefjarskikkju
+ok lagði yfir Goðmund ok gaf honum
+konungsnafn, tók síðan horn mikit ok drakk til Goðmundi.
+Hann tók við horninu ok þakkaði konungi.
+Síðan stóð Goðmundr upp ok sté á stokkinn fyrir sæti
+konungs ok strengdi þess heit, at hann skal engum
+konungi þjóna né hlýðni veita, meðan Geirröðr konungr
+lifði. Konungr þakkaði honum, sagði sér þat þykkja
+meira vert en þótt hann hefði eiða svarit. Síðan drakk
+Goðmundr af horninu ok gekk til sætis síns. Váru menn
+þá glaðir ok kátir.
+Tveir menn eru nefndir með Agða jarli. Hét annarr
+Jökull, en annarr Frosti. Þeir váru öfundsjúkir.
+Jökull þreif upp uxahnútu ok kastaði í lið Goðmundar.
+Þorsteinn sá þat ok henti á lopti ok sendi aptr, ok
+kom á nasir þeim, er Gustr hét, ok brotnaði í honum
+nefit ok ór honum allar tennrnar, en hann fell í óvit.
+Geirröðr konungr reiddist ok spurði, hverr berði beinum
+yfir hans borð. Sagði hann, at reynt skyldi verða,
+hverr sterkastr væri í steinkastinu, áðr en úti væri.
+Síðan kallar konungr til tvá menn, Drött ok Hösvi:
+"Farið þit ok sækið gullhnött minn ok berið hann
+hingat." Þeir fóru ok kómu aptr með eitt selshöfuð,
+er stóð tíu fjórðunga. Þat var glóanda, svá at sindraði
+af svá sem ór afli, en fitan draup niðr sem glóanda bik.
+Konungr mælti: "Takið nú knöttinn ok kastið hverr
+at öðrum. Hverr, sem niðr fellir, skal fara útlægr ok
+<pb n="407"/>
+
+missa eignir sínar, en hverr eigi þorir at henda, skal
+heita níðingr."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="7"><p>
+
+Nú kastar Dröttr knettinum at Fullsterk. Hann
+greip á móti annarri hendi. Þorsteinn sá, at honum
+varð orkufátt, ok hljóp undir knöttinn. Þeir snöruðu
+at Frosta, því at kapparnir stóðu fremstir við hvárntveggja
+bekkinn. Frosti tók mót sterkliga, ok kom svá
+nær andliti hans, at kinnbeinit rifnaði. Hann kastar
+knettinum at Allsterk. Hann tók í móti báðum höndum,
+ok lá við, at hann mundi kikna, áðr Þorsteinn
+studdi hann. Allsterkr snaraði at Agða jarli, en hann
+greip móti báðum höndum. Fitan kom í skeggit á honum,
+ok logaði þat allt, ok var honum til þess annast
+at afhenda knöttinn ok fleygir at Goðmundi konungi.
+En Goðmundr snaraði at Geirröði konungi, en hann
+veik sér undan, ok urðu þeir fyrir Dröttr ok Hösvir,
+ok fengu þeir bana. En knöttrinn kom á glerglugg einn
+ok svá út í díki þat, sem grafit var um borgina, ok
+hljóp upp eldr logandi. Var nú lokit þessu gamni.
+Tóku menn þá til drykkju. Sagði Agði jarl, at honum
+hrysi hugr við jafnan, er hann kom í flokk Goðmundar.
+Um kveldit gekk Goðmundr at sofa ok hans menn.
+Þökkuðu þeir Þorsteini hjástöðu, at þeim hefði slysalaust
+farit. Þorsteinn kvað lítit til reynt, "eða hvat
+mun til gamans haft á morgin?" "Konungr mun láta
+glíma," segir Goðmundr, "ok munu þeir þá hefna sín,
+því at fjarstætt er um afl várt." "Konungs gæfa mun
+styrkja oss," segir Þorsteinn. "Hirðið eigi, þótt þér berizt
+<pb n="408"/>
+
+þangat at, sem ek er fyrir." Sofa þeir af um nóttina.
+En at morgni fór hverr til sinnar skemmtunar, en
+matsveinar at dúka borð. Geirröðr konungr spurði,
+hvárt menn vildu ekki glíma, en þeir sögðu, at hann
+skyldi ráða. Síðan afklæðast þeir ok tókust fangbrögðum.
+Þorsteinn þóttist eigi sét hafa slíkan atgang, því
+at allt skalf, þá þeir fellu, ok lékst mjök á mönnum
+Agða jarls. Frosti gekk nú fram á gólfit ok mælti:
+"Hverr skal mér á móti?" "Til mun verða einhverr,"
+sagði Fullsterkr. Ráðast þeir nú á, ok váru með þeim
+miklar sviptingar, ok er Frosti miklu sterkari. Berast
+þeir nú at Goðmundi. Frosti tekr hann upp á bringu
+sér ok keiktist mjök. Þorsteinn slær fæti sínum á knésbætr
+honum, ok fell Frosti á bak aptr, en Fullsterkr á
+hann ofan. Hnakkinn sprakk á Frosta ok olnbogarnir.
+Hann stóð seint upp ok mælti: "Ekki eru þér einir
+at gamninu, eða hví er svá fúlt í flokki yðrum?"
+"Skammt á nefit at kenna ór kjaptinum," sagði Fullsterkr.
+Jökull stóð þá upp, ok Allsterkr réðst þá í móti
+honum, ok var þeira atgangr inn harðasti. En þó var
+Jökull sterkari ok bar hann at bekk, þar sem Þorsteinn
+var fyrir. Jökull vildi draga Allsterk frá bekknum
+ok togast við fast, en Þorsteinn helt honum. Jökull
+tók svá fast, at hann sté í hallargólfit upp at ökkla, en
+Þorsteinn hratt Allsterk frá sér, ok fell Jökull á bak
+aptr, ok gekk ór liði á honum fótrinn. Allsterkr gekk
+til bekkjar, en Jökull stóð upp seint ok mælti: "Ekki
+sjáum vér alla þessa, sem á bekknum eru." Geirröðr
+segir Goðmundi, hvárt hann vildi ekki glíma. En hann
+kveðst aldri glímt hafa, en kveðst eigi vildu synjast.
+Konungr bað Agða jarl hefna manna sinna. Hann
+kveðst löngu hafa af lagt, en segir konung ráða skyldu.
+Síðan afklæddust þeir. Eigi þóttist Þorsteinn sét hafa
+<pb n="409"/>
+
+tröllsligri búk en á Agða. Var hann blár sem hel. Goðmundr
+reis mót honum. Var hann hvítr á skinnslit.
+Agði jarl hösvaðist at honum ok lagði svá fast krummurnar
+at síðum hans, at allt gekk niðr at beini, ok
+bárust þeir víða um höllina. Ok er þeir kómu þar, sem
+Þorsteinn var, þá brá Goðmundr jarli til sniðglímu
+ok sneri honum vakrliga. Þorsteinn lagðist niðr fyrir
+fætr jarli, ok fell hann þá ok stakk niðr nösunum, ok
+brotnaði í honum þjófsnefit ok fjórar tennr. Jarl stóð
+upp ok mælti: "Þung verða gamalla manna föll, ok
+svá þyngst, at þrír gangi at einum." Fóru menn þá í
+klæði sín.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="8"><p>
+
+Þessu næst fóru þeir konungr til borða. Töluðu
+þeir Agði jarl um, at þeir mundu einhvern prett við
+hafa haft, "því at mér býðr ávallt hita, er ek kem
+í þeira flokk." "Látum bíða," segir konungr, "sá mun
+koma, at okkr mun kunngera." Tóku menn þá at
+drekka. Þá váru borin inn tvau horn í höllina. Þau
+átti Agði jarl, gersemar miklar, ok váru kölluð Hvítingar.
+Þau váru tveggja álna há ok gulli búin. Konungr
+lét sitt hornit ganga á hvárn bekk, "ok skal hverr
+drekka af í einu. Sá, sem því orkar eigi, skal fá byrlaranum
+eyri silfrs." Gekk engum af at drekka utan
+köppunum, en Þorsteinn gat svá til sét, at þeir, sem
+með Goðmundi váru, varð engi víttr. Drukku menn
+nú glaðir þat, sem eptir var dagsins, en um kveldit
+fóru menn at sofa.
+Goðmundr þakkaði Þorsteini fyrir góða hjástöðu.
+Þorsteinn spurði, nær endast mundi veizlan. "At
+<pb n="410"/>
+
+morgni skulu menn mínir ríða," segir Goðmundr.
+"Veit ek, at nú lætr konungr allt við hafa. Eru nú
+sýndar gersemar. Lætr konungr nú bera inn horn sitt
+it mikla. Þat er kallat Grímr inn góði. Þat er gersemi
+mikil ok þó galdrafullt ok búit með gull. Mannshöfuð
+er á stiklinum með holdi ok munni, ok þat mælir við
+menn ok segir fyrir óorðna hluti ok ef þat veit ófriðar
+ván. Verðr þat bani vár, ef konungr veit, at kristinn
+maðr er með oss. Munum vér eigi þurfa at vera fésparir
+við hann." Þorsteinn sagði Grím eigi mæla fleira
+enn Óláfr konungr vildi, "en ek ætla, at Geirröðr sé
+feigr. Þykki mér ráð, at þér hafið mín ráð heðan af.
+Skal ek sýna mik á morgin." En þeir sögðu þat hættu
+ráð. Þorsteinn sagði, at Geirröðr vildi þá feiga, "eða
+hvat segir þú mér af Grími inum góða fleira?" "Þat
+er frá honum at segja, at meðalmaðr má standa undir
+bugtinni á honum, en álnar breitt yfir beitina, ok er
+sá mestr drykkjumaðr í þeira liði, er drekkr beitina,
+en konungr drekkr af í einu. Hverr maðr á at gefa
+Grími nokkura gersemi, en sú virðing þykkir honum
+sér mest ger, at í einu sé af drukkit. En ek veit, at mér
+ber fyrstum af at drekka, en þat er einskis manns þol
+at drekka þat í einu." Þorsteinn mælti: "Þú skalt fara
+í serk minn, því at þér má þá ekki granda, þó at ólyfjan
+sé í drykknum. Tak kórónu af höfði þér ok gef
+Grími inum góða ok seg í eyra honum, at þú skalt
+gera honum miklu meira heiðr en Geirröðr, ok síðan
+skaltu láta sem þú drekkir. En eitr mun í horninu,
+ok skaltu steypa niðr næst þér, ok mun þik ekki saka.
+En þá er drykkjuskapr er úti, skaltu láta menn þína
+ríða." Goðmundr sagði, at hann skuli ráða. "En ef
+Geirröðr deyr, þá á ek alla Jötunheima, en ef hann
+<pb n="411"/>
+
+lifir lengr, verðr þat bani vár." Síðan sofa þeir af um
+nóttina.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="9"><p>
+
+Um morguninn eru þeir snemma á fótum ok taka
+sín klæði. Þá kemr Geirröðr konungr til þeira ok biðr
+þá drekka velfaranda sinn. Þeir gerðu svá. Váru fyrst
+drukkin hornin Hvítingar næst máldrykkju skálum, en
+þá var drukkit minni Þórs ok Óðins. Því næst kómu
+inn margir slagir hljóðfæra, ok tveir menn, nokkuru
+minni en Þorsteinn, þeir báru Grím inn góða. Allir
+stóðu upp ok fellu á kné fyrir honum. Grímr var óhýrligr.
+Geirröðr mælti til Goðmundar: "Tak við Grími
+inum góða, ok er þetta þín handsals skál." Goðmundr
+gekk at Grími ok tók af sér gullkórónu ok setti á hann
+ok mælti í eyra honum, sem Þorsteinn hafði sagt honum.
+Síðan lét hann renna af horninu ofan í serk sér,
+ok var eitr í. Hann drakk til Geirröði konungi ok kyssti
+á stikilinn, ok fór Grímr hlæjandi frá honum. Tók
+Geirröðr þá við fullu horninu ok bað Grím með góðri
+heill koma ok bað hann kunngera sér, ef nokkurr háski
+væri nær. "Hefi ek opt sét þik með betra bragði."
+Tók hann gullmen af sér ok gaf Grími, drakk síðan
+til Agða jarli, ok þótti því líkast sem boði felli á sker,
+er niðr rann eptir hálsinum á honum, ok drakk af
+allt. Grímr hristi höfuðit, ok var hann borinn Agða
+jarli, ok gaf hann honum tvá gullhringa ok bað sér
+miskunnar ok drakk síðan af í þremr ok fekk byrlaranum.
+Grímr mælti: "Svá ergist hverr sem eldist."
+Þá var hornit fyllt, ok skyldu þeir drekka af tveir,
+<pb n="412"/>
+
+Jökull ok Fullsterkr. Fullsterkr drakk fyrr. Jökull tók
+við ok leit í hornit ok kvað lítilmannliga drukkit ok
+sló Fullsterk með horninu. En hann rak hnefann á
+nasir Jökli, svá at þjófshakan brotnaði, en ór hrutu
+tennrnar. Var þá upphlaup mikit. Geirröðr bað menn
+eigi láta þetta spyrjast, at þeir skildi svá illa. Váru þeir
+þegar sáttir, ok var Grímr inn góði burt borinn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="10"><p>
+
+Litlu síðar kom maðr gangandi í höllina. Allir undruðust,
+hversu lítill hann var. Þat var Þorsteinn bæjarbarn.
+Hann veik at Goðmundi ok sagði, at hestar
+væru til reiðu. Geirröðr spurði, hvat barn at þat væri.
+Goðmundr segir: "Þat er smásveinn minn, er Óðinn
+konungr sendi mér, ok er konungs gersemi ok kann
+marga smáleika, ok ef yðr þætti nokkuru neytr, þá vil
+ek gefa yðr hann." "Þat er svipmikill drengr," segir
+konungr, "ok vil ek sjá fimleika hans," ok bað Þorstein
+leika nokkurn smáleik. Þorsteinn tók hall sinn
+ok brodd ok pjakkar þar í, sem hvítt er. Kemr haglhríð
+svá mikil, at engi þorir í móti at sjá, ok varð svá
+mikil fönn í höllinni, at tók í ökkla. Konungr hló at.
+Nú stangaði Þorsteinn hallinn, þar sem hann var gulr.
+Kom þá sólskin svá heitt, at snjórinn bráðnaði allr
+á lítilli stundu. Þar fylgdi sætr ilmr, en Geirröðr kvað
+hann var listamann. En Þorsteinn segir eptir einn leikinn,
+er heitir svipuleikr. Konungr segist hann sjá vilja.
+Þorsteinn stóð á miðju hallargólfi ok pjakkar þar í
+hallinn, sem rautt er. Stökkva þar ór gneistar. Síðan
+hleypr hann um höllina fyrir hvert sæti. Tókust þá
+at vaxa gneistaflaugin, svá at hverr maðr varð at geyma
+<pb n="413"/>
+
+sín augu. En Geirröðr konungr hló at. Tók þá at vaxa
+eldrinn, svá at öllum þótti við of um. Þorsteinn hafði
+sagt Goðmundi fyrir, at hann skyldi út ganga ok fara
+á hest. Þorsteinn hleypr fyrir Geirröð ok mælti: "Vili
+þér láta auka leikinn!" "Lát sjá, sveinn," sagði hann.
+Pjakkar Þorsteinn þá í fastara lagi. Kemr þá í auga Geirröði
+konungi. Þorsteinn hleypr til dyranna ok snaraði
+hallinum ok broddinum, ok kom í sitt auga hvárt á
+Geirröði konungi, ok steyptist hann dauðr á gólfit, en
+Þorsteinn gekk út. Var Goðmundr þá kominn á hest.
+Þorsteinn bað þá ríða, "því at nú er ekki deigum
+vært." Þeir ríða til árinnar. Var þá aptr kominn hallrinn
+ok broddrinn. Þorsteinn segir, at Geirröðr var
+dauðr. Ríða þeir nú yfir ána ok þangat, sem þeir höfðu
+fundizt. Þá mælti Þorsteinn: "Hér munum vér nú
+skilja, ok mun mönnum mínum mál þykkja, at ek komi
+til þeira." "Far heim með mér," sagði Goðmundr, "ok
+skal ek launa þér góða fylgd." "Síðan mun ek þess
+vitja," segir Þorsteinn, "en aptr skalt þú fara með fjölmenni
+í Geirröðargarða. Er nú landit í yðru valdi."
+"Þú munt ráða," sagði Goðmundr, "en Óláfi konungi
+skaltu færa kveðju mína." Tók hann þá eitt gullker
+ok silfrdisk ok tvítugt handklæði gullofit ok sendi konungi,
+en bað Þorstein vitja sín, ok skildu með kærleikum.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="11"><p>
+
+En nú sér Þorsteinn, hvar Agði jarl ferr í allmiklum
+jötunmóð. Þorsteinn ferr eptir honum. Sér hann
+þá mikinn húsabæ, er Agði átti. Aldingarðr var við
+grindhliðit, ok stóð þar við ein jungfrú. Hún var dóttir
+<pb n="414"/>
+
+Agða ok hét Goðrún. Mikil var hún ok fríð. Hún
+heilsaði föður sínum ok spurði tíðenda. "Nóg eru tíðendi,"
+segir hann. "Geirröðr konungr er dauðr, ok
+hefir Goðmundr af Glæsisvöllum svikit oss alla ok
+hefir leynt þar kristnum manni, ok heitir sá Þorsteinn
+bæjarmagn. Hann hefir ausit eldi í augu oss. Skal ek
+nú drepa menn hans." Kastar hann þar niðr hornunum
+Hvítingum ok hljóp til skógar, sem hann væri
+galinn.
+Þorsteinn gekk at Goðrúnu. Hún heilsaði honum ok
+spurði hann at nafni. Hann kvaðst Þorsteinn bæjarbarn
+heita, hirðmaðr Óláfs konungs. "Stórr mun þar inn
+stærsti, sem þú ert barnit," sagði hún. "Viltu fara með
+mér," segir Þorsteinn, "ok taka við trú?" "Við lítit yndi á
+ek hér at skiljast," segir hún, "því at móðir mín er dauð.
+Hún var dóttir Óttars jarls af Hólmgörðum, ok váru
+þau ólík at skapsmunum, því at faðir minn er mjök
+tröllaukinn, ok sé ek nú, at hann er feigr. En ef þú
+vilt fylgja mér aptr hingat, þá mun ek fara með þér."
+Síðan tók hún þing sín, en Þorsteinn tók hornin Hvítinga.
+Síðan gengu þau á skóginn ok sáu, hvar Agði fór.
+Hann grenjaði mjök ok helt fyrir augun. Hafði þat
+saman borit, þegar hann sá skip Þorsteins, hljóp sá
+verkr í þjófsaugun á honum, at hann sá eigi. Var þá
+komit at sólarfalli, er þau komu til skips. Váru menn
+Þorsteins þá burt búnir, en er þeir sáu Þorstein, urðu
+þeir fegnir. Sté Þorsteinn þá á skip, ok sigldu burt.
+Er eigi getit um ferð hans, fyrr en hann kom heim í
+Noreg.
+<pb n="415"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="12"><p>
+
+Þenna vetr sat Óláfr konungr í Þrándheimi. Þorsteinn
+fann konung at jólum ok færði honum gripi
+þá, sem Goðmundr sendi honum, ok hornin Hvítinga
+ok marga aðra gripi. Sagði hann konungi frá ferðum
+sínum ok sýndi honum Goðrúnu. Konungr þakkaði
+honum, ok lofuðu allir hans hreysti ok þótti mikils
+um vert. Síðan lét konungr skíra Goðrúnu ok kenna
+trú. Þorsteinn lék svipuleik um jólin, ok þótti mönnum
+þat skemmtan mikil. Hvítingar gengu í minnum,
+ok váru tveir menn um hvárt horn. En ker þat, sem
+Goðmundr hafði sent konungi, gekk engum af at
+drekka utan Þorsteini bæjarbarni. Handklæðit brann
+eigi, þótt því væri í eld kastat, ok var hreinna eptir
+en áðr.
+Þorsteinn talar um við konung, at hann vildi gera
+brullaup til Goðrúnar, en konungr veitti honum þat,
+ok var þat sæmilig veizla. Ok ina fyrstu nótt, er þau
+kómu í eina sæng ok niðr var hleypt fortjaldinu, þá
+brast upp þilfjöl at höfðum Þorsteins, ok var þar kominn
+Agði jarl ok ætlaði at drepa hann. En þar laust í
+móti hita svá miklum, at hann þorði eigi inn at ganga.
+Sneri hann þá í burtu. Þá kom konungr at ok sló hann
+með gullbúnu refði í höfuðit, en hann steyptist niðr
+í jörðina. Helt konungr vörð um nóttina, en um morguninn
+váru horfin hornin Hvítingar. Gekk veizlan vel
+fram. Sat Þorsteinn með konungi um vetrinn, ok unnust
+þau Goðrún vel.
+Um várit beiddi Þorsteinn orlofs at sigla í Austrveginn
+ok finna Goðmund konung. En konungr sagðist
+þat eigi gera, utan hann lofaði at koma aptr. Þorsteinn
+<pb n="416"/>
+
+hét því. Konungr bað hann halda trú sína vel,
+"ok eig meira undir þér en þeim austr þar." Skildust
+þeir með kærleikum, ok báðu allir vel fyrir honum,
+því at Þorsteinn var orðinn vinsæll. Sigldi hann í Austrveg,
+ok er eigi getit annars en sú ferð færist vel. Kom
+hann á Glæsisvöllu, ok fagnaði Goðmundr honum vel.
+Þorsteinn mælti: "Hvat hafið þér frétt ór Geirröðargörðum?"
+"Þangat fór ek," segir Goðmundr, "ok gáfu
+þeir landit í mitt vald, ok ræðr þar fyrir Heiðrekr úlfhamr,
+sonr minn." "Hvar er Agði jarl?" segir Þorsteinn.
+"Hann lét gera sér haug, þá þér fóruð," segir
+Goðmundr, "ok gekk þar í með mikit fé, en þeir Jökull
+ok Frosti drukknuðu í ánni Hemru, er þeir fóru frá
+veizlunni, en ek hefi nú vald yfir heraðinu á Grundum."
+"Þar er nú mikit undir," segir Þorsteinn, "hverju
+þú vilt mér af skipta, því at mér þykkir Goðrún eiga
+arf allan eptir föður sinn, Agða jarl." "Ef þú vilt vera
+minn maðr," sagði Goðmundr. "Þá muntu ekki vanda
+um trú mína," segir Þorsteinn. "Þat vil ek," sagði Goðmundr.
+Sídan fóru þeir til Grunda, ok tók Þorsteinn
+heraðit undir sik.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="13"><p>
+
+Þorsteinn reisti bú at Gnípalundi, því at Agði jarl
+hafði gengit aptr ok eytt bæinn. Gerðist Þorsteinn
+höfðingi mikill. Goðrún fæddi sveinbarn mikit litlu
+síðar, ok hét Brynjólfr. Ekki var traust, at Agði jarl
+glettist eigi við Þorstein. Eina nótt gekk Þorsteinn af
+sæng sinni ok sá, hvar at Agði fór. Hann þorði hvergi
+inn í hliðin, því at kross var fyrir hverjum dyrum.
+Þorsteinn gekk til haugsins. Hann var opinn, ok gekk
+<pb n="417"/>
+
+hann inn ok tók burt hornin Hvítinga. Þá kom Agði
+jarl í hauginn, en Þorsteinn hljóp út hjá honum ok
+setti kross í dyrrnar, ok laukst aptr haugrinn, ok hefir
+ekki orðit vart við Agða síðan.
+Um sumarit eptir fór Þorsteinn til Noregs ok færði
+Óláfi konungi hornin Hvítinga. Síðan fekk hann orlof
+ok sigldi til eigna sinna. Bauð konungr honum halda
+vel trú sína. Höfum vér eigi frétt síðan til Þorsteins.
+En þá Óláfr konungr hvarf af Orminum langa, hurfu
+hornin Hvítingar. Lúkum vér þar þætti Þorsteins bæjarbarns.
+</p></div>
+
+
+</div></body></text>
+</TEI>

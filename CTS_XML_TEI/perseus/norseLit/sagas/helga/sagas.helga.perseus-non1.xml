@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Helga þáttr Þórissonar</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Helga þáttr Þórissonar</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Helga_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="421"/> ÞÓRIR hét maðr, er bjó í Noregi á bæ þeim, er á Rauðabergi heitir. Þessi bær er
+      skammt frá Víkinni. Þórir átti tvá syni. Hét annarr Helgi, en Þorsteinn annarr; báðir váru
+      þeir þrifligir menn, ok var þó Helgi framar um íþróttir. Faðir þeira var hersir at nafnbót.
+      Hann var í vináttu við Óláf konung. Þat var á einu sumri, at þeir bræðr höfðu kaupferð norðr
+      til Finnmerkr ok höfðu smjör ok flesk til kaups við Finna. Fengu þeir góða kaupferð ok heldu
+      aptr at áliðnu sumri ok kómu um dag við nes þat, er hét Vímund. Þar var allgóðr skógr. Gengu
+      þeir á land upp ok fengu nokkurt mösurtré. Verðr Helga lengra gengit í skóginn en öðrum
+      mönnum. Síðan kastar yfir myrkri miklu, svá at hann hittir eigi til skipsins á þeim aptni;
+      tekr nú ok skjótt at dimma af nótt. Þá sér Helgi, hvar tólf konur ríða ór skóginum. Þær váru
+      allar á rauðum hestum ok í rauðum reiðklæðum. Þær stigu af baki. <pb n="422"/> Allr reiðingr
+      hestanna þá glóaði við gull. Ein bar þar af öllum um vænleik, ok allar aðrar þjóna henni,
+      þessi inni sköruligu konu. Hestar þeira gengu á gras. Eptir þat settu þær niðr eitt fagrt
+      tjald. Var þat stafat með ýmsum litum ok víða gullskotit, ok öll höfuðin váru við gull búin,
+      er af upp gengu landtjaldinu, ok svá stöngin, er upp stóð, ok mikill gullknappr ofan á. Ok er
+      þær höfðu um búizt, reistu þær borð ok báru á margs konar krásir. Þá tóku þær handlaugar,
+      vatnskarl ok munnlaugar, gervar af silfri, ok allt laugat í gulli. Helgi stóð nærri tjaldi
+      þeira ok horfði á. Sú, er fyrir þeim var, mælti: "Helgi, gakk hingat, ok þigg hér mat ok drykk
+      með oss." Hann gerir svá. Helgi sér, at þar er fríðr drykkr ok önnur fæðsla ok væn ker. Þá
+      váru borð ofan tekin ok hvílur búnar, ok váru þær miklu skrautligri en annarra manna sængr. Sú
+      kona spyrr Helga, er fyrir þeim var, hvárt hann vildi heldr liggja einn saman eða hjá henni.
+      Helgi spyrr hana at nafni. Hún svarar: "Ek heiti Ingibjörg, dóttir Guðmundar af Glæsisvöllum."
+      Helgi mælti: "Hjá þér vil ek liggja." Ok svá gerðu þau þrjár nætr í samt. Var þá bjart veðr;
+      standa þau þá upp ok klæðast. Ingibjörg mælti þá: "Nú munum vit hér skilja. Eru hér kistlar
+      tveir, annarr er fullr af silfri, en annarr af gulli, er ek vil gefa þér, ok seg engum manni,
+      hvaðan þat kom." Eptir þat ríða þær burt sama veg sem þangat, en hann fór til skips síns.
+      Fagna þeir honum vel ok spyrja, hvar hann dvaldist, en hann vill þar ekki frá segja. Halda
+      þeir þá suðr með landi ok koma heim til föður síns ok hafa aflat mikils fjár. Faðir Helga ok
+      bróðir spyrja, hvaðan honum kom svá mikit fé sem hann hafði í kistlunum, en hann vill þat eigi
+      segja. <pb n="423"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Nú líðr svá fram til jóla. Þat var eina nótt, at kemr á býsna veðr. Þorsteinn mælti við
+      bróður sinn: "Vit skulum standa upp ok vita, hvat líðr um skip okkart." Þeir gera svá, ok var
+      þat fast vel. Helgi hafði látit gera drekahöfuð á skip þeira upp á stafnana ok búa vel fyrir
+      ofan sjó. Fór þat fé þar til, er Ingibjörg gaf honum, dóttir Guðmundar konungs, en sumt læsti
+      hann í drekahálsinum. Þá heyra þeir brest mikinn. Þar ríða at þeim tveir menn ok höfðu Helga í
+      burt með sér. Veit Þorsteinn eigi, hvat af honum verðr. Fellr þá veðrit skjótt. Þorsteinn kemr
+      heim ok segir föður sínum þenna atburð, ok þykkir þetta mikil tíðendi. Ferr hann þegar á fund
+      Óláfs konungs ok segir honum, hvar komit var, ok biðr hann nú verða vissan um, hvar er sonr
+      hans er niðr kominn. Konungr segist þat gera mundu, sem hann beiddi, en kveðst þó óvíst hugr
+      um segja, hver nyt frændum hans mundi at honum verða. Síðan fór Þórir heim, ok líðr svá þetta
+      ár ok allt fram á jól annat ár, ok sitr konungr á Alreksstöðum um vetrinn. Þá kemr átti dagr
+      jóla, ok um kveldit ganga þrír menn í höllina fyrir Óláf konung, þá er hann sat yfir borðum.
+      Þeir kveðja hann vel. Konungr heilsar þeim vel í móti. Er þar kominn Helgi, en menn kenna eigi
+      hina tvá. Konungr spurði þá at nafni, en hvárrtveggi kveðst Grímr heita. "Erum vit sendir af
+      Guðmundi á Glæsisvöllum hingat til yðar. Hann sendi yðr kveðju sína ok þar með tvau horn."
+      Konungr tók við, ok váru gullbúin. Þetta váru allgóðir gripir. Óláfr konungr átti tvau horn,
+      er Hyrningar váru kallaðir, <pb n="424"/> ok þó at þau væri harðla góð, þá váru þau þó betri,
+      er Guðmundr sendi honum. "Þess beiddi Guðmundr konungr yðr, herra, at þér værið vinir hans, ok
+      þótti mestu varða um yðra þykkju, meir en allra annarra konunga." Konungr svarar þá engu, en
+      lætr vísa þeim til sætis félögum. Konungr lætr fylla hornin Gríma af góðum drykk ok lætr
+      byskup blessa ok lét færa þeim Grímum, at þeir drykki fyrst af. Þá kvað konungr vísu þessa: <lg>
+       <l>"Gestir skulu hornum</l>
+       <l>í gegn taka,</l>
+       <l>meðan hvílast látum þenna</l>
+       <l>þegn Guðmundar,</l>
+       <l>ok af samnafna</l>
+       <l>sínum drekki;</l>
+       <l>svá skal Grímum</l>
+       <l>gott öl gefast."</l>
+      </lg> Þá taka Grímar við hornunum ok þykkjast nú vita, hvat byskup hefir yfir lesit drykkinum.
+      Þeir segja þá: "Eigi ferr nú fjarri því, sem Guðmundr, konungr várr, gat til. Er þessi konungr
+      prettóttr ok kann illa gott at launa, því at konungr várr gerði til hans sæmiliga. Stöndum nú
+      upp allir ok verðum í brottu heðan." Svá gera þeir. Verðr þá hark mikit í stofunni. Þeir slógu
+      niðr drykkinum af hornunum ok slökktu login. Þá heyrðu þeir bresti stóra. Konungr bað guð til
+      gæta ok bað menn upp standa ok stöðva þetta hark. Síðan verða þeir Grímar úti ok Helgi með
+      þeim. Váru þá ljós upp tendruð í konungs herbergi. Sjá þeir þá drepna þrjá menn, en þar liggja
+      hornin Grímar á gólfinu hjá inum dauðum. "Þetta er undr mikit," sagði konungr, "ok væri betr,
+      at slík yrði sjaldan. Ok þat hef ek heyrt sagt af Guðmundi af Glæsisvöllum, at hann sé mjök
+      fjölkunnigr ok illu megi helzt við hann skipta, ok eru þeir menn <pb n="425"/> illa komnir, er
+      undir hans valdi eru, ef vér mættum nokkut at gera." Konungr lét varðveita hornin Gríma ok af
+      drekka, ok dugir þat vel. Þar er nú kallat Grímaskarð ofan at Alreksstöðum, er þeir hafa
+      austan farit, ok er þat engra manna at fara þar síðan. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Nú líðr af vetrinn, ok kemr annarr átti dagr jóla, ok er konungr í kirkju ok hirð hans at
+      hlýða messu. Þá koma þar þrír menn til kirkjudyra, ok er einn eptir, en tveir fara í brott ok
+      mæla þetta áðr: "Hér færum vit þér Gretti, konungr, ok er eigi víst, nær þú færir af þér."
+      Kenna menn þar Helga. Síðan gengr konungr til borða, ok er menn tala við Helga, verða menn
+      þess varir, at hann er blindr. Frétti konungr þá, hverju gegndi um hans hag eða hvar hann
+      hefði verit þessa stund alla. Hann segir þá konungi fyrst frá því, er hann fann konurnar í
+      skóginum, þá frá því, er þeir Grímar gerðu veðrit at þeim bræðrum, er þeir vildu bjarga
+      skipinu, ok síðan höfðu þeir Grímar hann með sér til Guðmundar á Glæsisvöllum ok færðu hann
+      Ingibjörgu, dóttur Guðmundar. Þá mælti konungr: "Hversu þótti þér þar at vera?" "Allgott,"
+      segir hann, "ok hvergi hefir mér betra þótt." Þá spurði konungr at um siðu Guðmundar konungs
+      ok at fjölmenni eða athöfn. En hann lét yfir öllu vel ok sagði, at hans var miklu fleiri en
+      hann fengi talit. Konungr mælti: "Hví fóru þér svá skjótliga í brott í fyrra vetr?" "Guðmundr
+      konungr sendi þá til at svíkja yðr," segir hann, "en fyrir bænir yðrar lét hann mik lausan,
+      svá at þér mættið vita, hvat <pb n="426"/> er af mér væri orðit. En því fóru vér svá skjótt í
+      brott næstunni, at þeir Grímar höfðu eigi náttúru til at drekka þann drykk, er þér létuð
+      signa. Urðu þeir þessu reiðir, at þeir sá sik yfirstigna, ok því drápu þeir menn yðra, at svá
+      sagði Guðmundr konungr fyrir, ef þeir fengi ekki mein yðr gert. En hann sýndi tign sína í því,
+      at hann sendi yðr hornin, at þér mundið þá síðr eptir mér leita." Konungr spurði: "Hví fórtu
+      nú í brott öðru sinni?" Hann svarar: "Ingibjörg olli því. Hún þóttist eigi mega liggja hjá mér
+      nema með meinlætum, ef hún kæmi við mik beran, ok því fór ek mest í brott, enda vildi Guðmundr
+      konungr ekki þreyta við yðr, þegar hann vissi, at þér vilduð mik í brott hafa. En um tign ok
+      risnu Guðmundar konungs má ek eigi í fám orðum segja ok um fjölmenni þat, er með honum er."
+      Konungr spurði: "Hví ertu blindr?" Hann svarar: "Ingibjörg Guðmundardóttir greip ór mér bæði
+      augun, þá er vit skildum, ok sagði, at konur í Noregi mundu mín skamma stund njóta." Konungr
+      sagði: "Makligr væri Guðmundr meingerða af mér fyrir þau manndráp, er hann gerði, ef guð vildi
+      þat vera láta." Síðan var sent eptir Þóri, föður Helga, ok þakkaði hann honum vel, er sonr
+      hans var aptr kominn ór trölla höndum. Ferr hann síðan heim, en Helgi er eptir með konungi ok
+      lifir til annarrar jafnlengdar. En konungr hefir hornin Gríma með sér, þá er hann fór síðasta
+      sinn ór landi. En þat segja menn, þá er Óláfr konungr hvarf af Orminum langa, at hyrfi ok
+      hornin ok hafi engi maðr þau sét síðan. Ok lýkr hér frá Grímum at segja. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

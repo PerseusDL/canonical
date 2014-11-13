@@ -1,0 +1,2031 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Göngu-Hrólfs saga</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Göngu-Hrólfs saga</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Gongu-Hrolfs_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="0">
+     <p>
+      <pb n="359"/> MARGAR frásagnir hafa menn saman sett til skemmtanar mönnum, sumar eptir
+      fornskræðum eða fróðum mönnum ok stundum eptir fornum bókum, er í fyrstu hafa settar verit með
+      stuttu máli, en síðan orðum fylldar, því at flest hefir seinna verit en sagt er. Verða menn
+      jafnan misfróðir, því at þat er optliga annars sýn ok heyrð, er annars er eigi, þó at þeir sé
+      við atburð staddir. Er þat ok margra heimskra manna náttúra, at þeir trúa því einu, er þeir
+      sjá sínum augum eða heyra sínum eyrum, er þeim þykkir fjarlægt sinni náttúru, svá sem orðit
+      hefir um vitra manna ráðagerðir eða mikit afl eða frábæran léttleika fyrirmanna, svá ok eigi
+      síðr um konstir eða huklaraskap ok mikla fjölkynngi, þá þeir seiddu at sumum mönnum ævinliga
+      ógæfu eða aldrtila, en sumum veraldar virðing, fjár ok metnaðar. Þeir æstu stundum
+      höfuðskepnur, en stundum kyrrðu, svá sem var Óðinn eða aðrir þeir, er af honum námu
+      galdrlistir eða lækningar. Finnst þar ok dæmi til, at sumir líkamir hafa hræring <pb n="360"/>
+      haft af óhreins anda íblæstri, svá sem var Eyvindr kinnrifa í Óláfs sögu Tryggvasonar eða
+      Einarr skarfr eða Freyr, er Gunnarr helmingr drap í Svíaríki. Nú verðr hvárki þetta né annat
+      gert eptir allra hugþokka, því at engi þarf trúnað á slíkt at leggja meir en fallit þykkir. Er
+      þat ok bezt ok fróðligast at hlýða, meðan frá er sagt, ok gera sér heldr gleði at en angr, því
+      at jafnan er þat, at menn hugsa eigi aðra syndsamliga hluti, á meðan hann gleðist af
+      skemmtaninni. Stendr þat ok eigi vel þeim, er hjá eru, at lasta, þó at ófróðliga eða ómjúkliga
+      sé orðum um farit, því at fátt verðr fullvandliga gert, þat er eigi liggr meira við en um
+      slíka hluti. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p> Svá byrjar þessa frásögu, at Hreggviðr er konungr nefndr. Hann átti at ráða fyrir
+      Hólmgarðaríki, er sumir menn kalla Garðaríki. Hann var mikill at vexti, sterkr at afli, manna
+      vænstr ok vápndjarfastr, hugarfullr ok bardagamaðr mikill, vitr ok ráðugr, stórgjöfull við
+      vini sína, stríðr ok refsingasamr við óvini sína. Váru honum flestir hlutir vel gefnir.
+      Mikillar ættar drottningu hafði hann átta, ok er hún eigi nefnd ok því kemr hún ekki við þessa
+      sögu. Dóttur eina barna átti hann við drottningu sinni, er Ingigerðr hét. Allra kvenna var hún
+      fríðust ok kurteisust, er í váru öllu Garðaríki ok þótt víðara væri leitat. Vizku ok málsnilld
+      bar hún yfir hvern mann. Allar þær listir kunni hún, er kvenmanni sómdi ok þá plöguðu dýrar
+      konur nær ok fjarri. Hún hafði hár svá mikit, at vel mátti hylja allan hennar líkama, ok svá
+      fagrt sem gull eða hálmr. Mikit unni konungr dóttur sinni. Hafði hún sérliga herbergi innan
+       <pb n="361"/> borgar. Var þat ágætt herbergi at stöð ok sterkleika ok forkunnliga gert með
+      gull ok gimsteina. Sat hún dagliga í þessu herbergi með þeim öðrum, er henni þjónuðu.
+      Hreggviðr konungr var mjök við aldr í þann tíma. Svá er sagt, þá er konungr var á ungum aldri,
+      lá hann mjök í hernaði, ok hann hafði undir sik lagt um ána Dýnu, er fellr um Garðaríki, ok
+      herjaði þaðan í Austrríki á ýmisligar þjóðir. Þar með fekk hann fáséna dýrgripi. Þessi á er in
+      þriðja eða fjórða mest í heiminum. At uppsprettu ár þessarar leitaði Ingvarr inn víðförli, sem
+      segir í sögu hans. Í þessari ferð var Hreggviðr konungr sjau vetr samfleytt. Hugðu menn hann
+      þá dauðan. Eptir þat kom hann í Garðaríki ok settist um kyrrt. Hann hafði fengit hest þann, er
+      kunni manns máli. Hann hét Dúlcifal. Skjótr var hann sem fugl, fimr sem leó, mikill sem úlfr.
+      Engi var honum líkr at mikilleika ok afli. Hann lét eigi takast, ef sá fekk ósigr, er honum
+      reið, en ef honum varð sigrs auðit, þá fór hann at sínum meistara. Hann átti herklæði þau, er
+      engi váru þvílík: Hjálmr allr gimsteinum settr ok óvinnanligr fyrir harðleika sakir. Brynja
+      hans var öll þréföld af harðasta stáli ok björt sem silfr. Skjöldrinn var bæði breiðr ok
+      þykkr, svá at eigi bitu járn á. Burtstöng sú, er þar fylgdi, var stinn ok seig ok gaf hljóð af
+      sér sem klukka, ef henni var drepit á skjöldinn, en er ósigr var víss, gaf hún ekki hljóð af
+      sér. Sverðit nam hvergi í höggi stað ok beit með atkvæðum stál ok steina svá sem blauta
+      mannsbúka. Þat var gert af gerjárni. Þat fellr í firði þeim, er Ger heitir. Þat kann eigi
+      ryðga né stökkva. Hestrinn Dúlcifal var af kyni drómedaríórum, svá vorðnu hestakyni. Aldri
+      hafði Hreggviðr konungr ósigr farit, síðan hann fekk hestinn ok þessi herklæðin. <pb n="362"/>
+      Ríki hans var mjök herskátt, ok átti hann jafnan orrostur stórar ok hans menn. Konungr hafði
+      með sér marga ráðgjafa ok vildarmenn. Einn af þeim hét Sigurðr ok var kallaðr ullband. Hann
+      var sonarsonr Hálfdanar rauðfelds, sonar Brennu-Kára. Hann var ofrhugi mikill, vinsæll við
+      alþýðu ok gamall at aldri. Hann hafði lengi verit með konungi ok fylgt honum vel í mörgum
+      mannraunum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Eirekr er konungr nefndr. Hann var sjákonungr ok ættaðr af Gestrekalandi. Þat liggr undir
+      Svíakonung. Þar eru menn sterkir ok þursligir, harðir ok illir viðreignar ok fjölkunnigir.
+      Eirekr konungr var stórr maðr ok rammr at afli, svartr ok stórskorinn mjök. Hann lá úti vetr
+      ok sumar með fjölda skipa ok herjaði á ýmis lönd. Var hann inn mesti hermaðr ok mjök óeirinn.
+      Systur átti hann fríða, er Gyða hét, ok var hún jafnan með konungi. Eirekr hafði marga
+      berserki ok kappa í liði sínu, ok eru fjórir nefndir af þeim. Þat váru bræðr tveir. Hét annarr
+      Sörkvir, en annarr Brynjólfr. Miklir ok sterkir váru þeir ok illir viðreignar, fjölkunnigir ok
+      svá galdrafullir, at þeir deyfðu eggjar í orrostum. Sörkvir var þeira sterkari ok
+      burtreiðarmaðr mikill. Þriði maðr var frændi konungs, er Þórðr hét, ok var kallaðr
+      Hléseyjarskalli, mikill ok sterkr. Hann var ættaðr ór Hléseyju í Danmörku. Þar hafði hann upp
+      vaxit. Grímr hét fóstbróðir hans ok kallaðr ægir. Maðrinn var sterkr ok at öllu illr. Ekki
+      vissu menn kynferði hans eða ætt, því at Gróa völva hafði fundit hann í flæðarmáli í Hlésey,
+       <pb n="363"/> en hún var móðir Þórðar ok hafði Grím fóstrat ok upp fæddan ok kenndi honum svá
+      alla fjölkynngi, at engi á Norðrlöndum var hans líki, því at hans eðli var ólíkt allra annarra
+      manna náttúru. Þat er sumra manna ætlun, at móðir Gríms muni sjógýgr nokkur verit hafa, því at
+      hann mátti bæði fara í sjó ok vatni, ef hann vildi. Var hann því ægir kallaðr. Hann át hrátt
+      ok drakk blóð bæði ór mönnum ok fénaði. Hann brást ok opt í ýmissa kvikenda líki ok skipti
+      hömum svá skjótt, at varla festi auga á. Hans andi var svá heitr, at menn þóttust brenna, þó
+      at herklæddir væri. Hann spjó ok ýmist eitri eða eldi á menn ok deyddi með því bæði menn ok
+      hesta, ok því stóðu honum engir. Eirekr konungr hafði mikit traust á honum ok öllum þeim.
+      Spörðu þeir ok ekki illt at vinna. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Í þann tíma kom Eirekr konungr með her sinn í ríki Hreggviðar konungs. Þeir drepa menn,
+      brenna byggðir, en ræna fé. Ok er landsmenn verða varir við ófrið þenna, fara þeir á fund
+      Hreggviðar konungs ok segja honum sem orðit var. En er hann frétti þessi tíðendi, lætr hann
+      herör upp skera ok býðr öllum vígum mönnum á sinn fund. Fekk hann þó lítit lið, því at herinn
+      bar snart at, en flestum segir þungr hugr, hversu ganga mundi. Þenna sama morgin, áðr
+      bardaginn skyldi vera, herklæddist Hreggviðr konungr öllum sínum herklæðum. Hann spennti
+      gullmen at hálsi sér. Þat var allgóðr gripr. Eptir þat gyrði hann sik sverðinu góða. Hann tók
+      burtstöngina ok drap á skjöldinn, ok gaf hún ekki hljóð af <pb n="364"/> sér. Hestrinn
+      Dúlcifal vildi ok eigi láta takast. Var hann eltr af mörgum mönnum. Varð honum um síðir komit
+      inn í djúpar traðir. Gekk þá konungr til ok vildi taka hann. En þegar hestrinn sér konung,
+      stökk hann út yfir grindrnar ok burt á skóg. Þótti þetta öllum in mestu undr ok hugðu vísan
+      ósigr ok gerðu eigi eptir honum at leita. Hreggviðr konungr lét taka sér hest annan, skjöld ok
+      burtstöng, en fekk dóttur sinni skjöldinn ok burtstöngina til varðveizlu. Bjóst hann síðan til
+      bardaga ok allr herrinn. Eirekr konungr heimti saman allan sinn her ok bað hvern duga, sem
+      drengr væri til, ok spara nú ekki alls kyns mátt, er hverr má frammi hafa. Grímr ægir segir:
+      "Þat er skylt, herra, at hverr dugi sem getr, en ef vér sigrum Hreggvið konung, þá viljum vér
+      hér staðfestast, ok vil ek þiggja einn land til yfirsóknar ok jarlsnafn. Þórðr, frændi þinn,
+      skal með mér fara, ok skal eitt yfir okkr ganga, en Sörkvir ok Brynjólfr skulu með yðr fara ok
+      verja land fyrir yðr." Konungr játar þessu, er Grímr mælti, ok sagði svá vera skyldu. Fylkja
+      nú hvárirtveggju, ok síga saman fylkingar. Eirekr konungr var í öðrum fylkingararmi sínum, en
+      Grímr í öðrum. Liðsmunr var mikill, svá at fjórir váru um einn landsmanna. Hreggviðr konungr
+      fylkti móti Eireki konungi, en Sigurðr ullband móti Grími ægi. Varð þar in snarpasta orrosta
+      með höggum ok slögum, skotum ok grjótkasti. Gengu hvárir í lið annars með ópi ok eggjan.
+      Berserkir Eireks konungs gengu fyrir fylkingar fram ok hjuggu niðr lið Hreggviðar konungs sem
+      hráviði, ok fellr hverr um þveran annan. Þetta sér Sigurðr ullband ok höggr til beggja handa,
+      þar til er hann mætir Þórði Hléseyjarskalla, ok höggr til hans, en hann atti í mót skallanum,
+      ok beit ekki á. Eptir þat hjó Þórðr <pb n="365"/> Sigurð banahögg. Fell hann með góðum
+      orðstír. Þetta sér Hreggviðr konungr ok eirir illa falli Sigurðar ok keyrir hestinn sporum ok
+      ríðr hart fram ok höggr ok leggr til beggja handa bæði menn ok hesta, svá at allt hrökkr
+      undan. Beit sverðit sem í vátn brygði. Umgerðin var öll gulli búin, þar er bæta þótti, ok í
+      aptra hjalti sverðsins váru leystir lífsteinar þeir, er eitr ok sviða drógu ór sárum,ef í váru
+      skafnir. Ríðr hann svá styggr fram at merki Eireks konungs, at hann hefir báðar hendr blóðgar
+      til axla. Stundum drap hann tvá eða þrjá í einu höggi, þar til er þeir kómu í móti honum Grímr
+      ægir ok Þórðr, ok hjuggu báðir senn til hans, en konungr varðist svá vel, at hann var ekki
+      sárr. Í því blés Grímr með svá miklum galdri, at hestrinn viknaði, svá at hann reiddi til
+      falls. Konungr hljóp þá af baki ok hjó þá enn til beggja handa. Hlóð hann svá hávan valinn í
+      kringum sik, at honum tók í belti. Hann hjó þá tveim höndum til Gríms ægis, en hann blés í
+      mót, svá at sverðit hraut ór hendi honum. Þá tók hann öxi eina ok laust með hamrinum í
+      skallann á Þórði, svá at hann lá lengi í óviti. Síðan hóf hann sik í lopt upp ok hljóp út yfir
+      valköstinn. Komþá móti honum Eirekr konungr ok hjó með sverði til Hreggviðar, svá at þat gekk
+      í sundr undir hjöltunum, en ekki beit á herklæðin. Í því lagði Grímr ægir neðan undir
+      brynjuna, svá at í gegnum stóð, með mæki. Konungrinn fell þar með mikilli hreysti ok góðum
+      orðstír, ok þykkir varla verit hafa frægri maðr í Garðaríki en Hreggviðr konungr. Flýði þat
+      lið allt, er eptir var, en þó var meiri hlutr fallinn. Margt hafði ok fallit af liði Eireks
+      konungs. Var þá haldit upp friðskildi ok gengu þeir til griða, er líf var gefit ok þat vildu
+      þiggja, en hinir drepnir, er eigi vildu þjóna Eireki konungi, ok lýkr nú bardaganum. <pb
+       n="366"/> Eptir þat váru flettir dauðir menn, en konungr gekk í borgina með sínu föruneyti,
+      ok höfðu alls kyns gleði með drykk ok hljóðfærum. Líðr svá af nóttin, en um morguninn kallar
+      konungr á Grím ægi ok þá félaga, at þeir skyldu hitta konungsdóttur, ok svá gerðu þeir. En er
+      þeir kómu í herbergi hennar, þá heilsaði hún Eireki konungi ok var þó mjök grátin ok
+      harmsfull. Eirekr konungr gladdi hana ok sagðist skyldu bæta henni mannamissi ok skaða þann,
+      er hún hafði fengit, -- "ok skaltu þiggja af mér hverja bæn, er þú vilt beðit hafa, en oss
+      samir at veita, ef þú vilt síðan oss samþykkja ok várn vilja gera." Þá segir Ingigerðr
+      konungsdóttir: "Eigi má sá með réttu konungsnafn bera, er eigi heldr þat, er hann lofar einni
+      jungfrú. Mun ek þá yðr samþykkjast ok gera yðvarn vilja, ef þér haldið yður orð ok veitit mér
+      bæn þá, er ek bið yðr, en fyrr en ek gangi nauðig með nokkurum manni, þá skal ek fyrr heldr
+      veita mér bráðan bana, ok nýtr mín þá engi." Konunginum rann mikill ástarhugr til hennar ok
+      mælti: "Verði sá níðingr, er eigi heldr orð sin við yðr, ok kjós á sömu stundu, en ek skal
+      veita." "Þat er fyrst bæn mín," segir konungsdóttir, "at haugr sé orpinn eptir föður minn,
+      mikill ok vel innan gerr, ok hár skíðgarðr umhverfis hauginn. Haugrinn skal standa langt burt
+      í eyðimörk. Bera skal gull ok góða gripi í hauginn hjá honum. Hann skal vera í öllum sínum
+      herklæðum ok gyrðr sverði sínu. Hann skal sitja á stóli, ok skipa köppum hans til beggja handa
+      honum, þeim er fallit hafa. Á hestinum Dúlcifal skal engi taka af yðrum mönnum, ok hann skal
+      sjálfráðr fara. Ek vil ráða fyrir fjórðungi ríkisins um þrjá vetr ok þeir, sem ek skipa til
+      með mér, ok skulu þeir allir í friði ok náðum, sem mér til heyra. Ek skal á hverju ári fá mann
+      til burtreiðar við yðr eða <pb n="367"/> Sörkvi, kappa yðvarn, en ef ek fæ engan svá frægan af
+      mínum mönnum, at Sörkvi ríði af baki á þessum tíma, þá skuluð þér ráða mínum kosti ok öllu
+      ríkinu. En ef Sörkvir verðr unninn, þá skuluð þit burtu verða með öllu yðru föruneyti ok koma
+      aldri í Garðaríki síðan, en ek taki þá lönd ok ríki eptir föður minn, sem réttr stendr til."
+      Grímr ægir mælti: "Varla er þessi bæn veitandi, því at hún stendr með djúpri grundan ok langri
+      forhugsan. Þykki mér yðr eigi standa, herra, at vera svá lengi vánbiðill eptir nokkurri
+      kvinnu, en vel megið þér treysta Sörkvi, svá ok ráðum mínum ok vitsmunum, at ekki mun til
+      saka." Konungr svarar: "Eigi hugða ek þat, konungsdóttir, at þér munduð þessa beiðast, en þó
+      mun ek efna orð mín við yðr, því at ek treysti vel Sörkvi, at eigi fáið þér honum frægra
+      mann." Bundu þau þetta fastmælum ok skildu nú talit. Grímr ægir mælti: "Ráð kom mér í hug, þat
+      oss mun duga. Vér skulum seið efla láta ok seiða til þess, at Sörkvi skal engi vinna mega,
+      hvárki í burtreið né einvígi, nema sá, er hefir öll herklæði Hreggviðar konungs, en haugrinn
+      skal vera svá sterkr gerr með múr ok tígl, at hann skal engi mennskr maðr opna mega. Munuð þér
+      vilja halda öll yður orð við konungsdóttur. Þér skuluð jafnan senda menn eptir herklæðunum ok
+      heita Gyðu, systur yðvarri, þeim, er náð getr, ok eru þau þá í yðru valdi, ella munu þeir eigi
+      lífs aptr koma." Þótti konungi þetta vel ráðit ok öllum þeim. Var nú haugr gerr ok Hreggviðr
+      konungr í settr. Ingigerðr gekk síðast ór hauginum. Hún lét þangat færa með leynd tvenn
+      herklæði ok lagði í kné föður sínum. Var haugrinn síðan aptr byrgðr ok um búit eptir forsögn
+      Gríms ægis. Síðan var ríkin skipt eptir skildögum ok allt fullgert, þat er fyrr var sagt. Fekk
+      konungsdóttir engan þann, er við <pb n="368"/> Sörkvi þyrði at reyna. Konungr sendi marga menn
+      til haugsins, ok kom engi aptr. Grímr ægir stýrði Ermlandi. Þat er eitt konungssetr í
+      Garðaríki, ok undu þeir allir illa sínum hlut, er undir hann þjónuðu. Þeir Þórðr
+      Hléseyjarskalli áttu jafnan mikit stríð við þá ofan ór Jötunheimabyggðinni frá Áluborg, ok er
+      þat margra frásagna vert, er þeir áttust við í göldrum ok fölkynngi ok stórum orrostum, ok
+      veitti ýmsum verr, en hvárigum betr. Þeir Sörkvir ok Brynjólfr váru í hernaði á sumrum ok
+      höfðu landvörn fyrir Eirek konung. Ingigerðr konungsdóttir sat í einum friðkastala í ríki sínu
+      ok hennar vildismenn ok var mjök hugsjúk um sinn hag. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Í þenna tíma er þetta var tíðenda, er nú er frá sagt, réð Sturlaugr inn starfsami fyrir
+      Hringaríki í Noregi. Hann átti Ásu ina vænu, dóttur Eireks jarls. Þau áttu marga sonu ok vel
+      mannaða. Einn hét Rögnvaldr, annarr Fraðmarr, þriði Eirekr, fjórði hét Hrólfr. Hann var
+      kallaðr eptir Hrólfi nefju, fóstbróður Sturlaugs. Hann dó í hofinu á Írlandi, þá Sturlaugr
+      sótti þangat úrarhornit. Hrólfr Sturlaugsson var manna mestr, bæði at digrð ok hæð, ok svá
+      þungr, at engi hestr fekk borit hann allan dag, ok var hann því jafnan á göngu. Manna var hann
+      vænstr at yfirlit. Ekki var hann siðblendinn við alþýðu, fór lítt með gleði ok skemmtan, utan
+      helzt þótti honum gaman at fara í skotbakka ok vera at burtreiðum. Var hann svá þungr ok
+      sterkr, at engi kom honum ór söðli, en ófimliga bar hann vápn fyrir sik, ok aldri bar hann
+      vápn. Bæði var hann <pb n="369"/> meinlauss ok gagnlauss flestum mönnum. Ekki var Hrólfr líkr
+      bræðrum sínum. Var ok jafnan fátt með þeim. Einn dag var þat sem optar, at þeir Sturlaugr ok
+      Hrólfr töluðust við. Sturlaugr mælti: "Svá lízt mér á þik sem lítil muni þín afdrif verða.
+      Heyrir meir konu en karlmanni at hafa þvílíkt framferði sem þú hefir. Því þykki mér ráðligt,
+      at þú kvænist ok setist í bú ok gerir þik at kotkarli í afdal nokkurum, þar engi maðr finnr
+      þik, ok al þar þinn aldr svá lengi sem auðit verðr." Hrólfr segir: "Eigi mun ek búa ok eigi
+      kvænást, því at konur skulu mér ekki. Sé ek þat ok gerla, at þér gengr þat til ámælis þíns, at
+      þú sparir mat við mik. Skal ek því burt verða ok eigi aptr koma, fyrr en ek hefi fengit
+      jafnmikit ríki ok þú átt nú, eða liggja dauðr ella. Þykki mér þetta kotungs eign, er þú hefir
+      meðferðar, ok lítil til skiptis með oss bræðrum. Skal ok hvárki yðr né þeim verða gagn at mér
+      heðan í frá." Sturlaugr mælti: "Bæði má ek fá þér skip ok góða fardrengi, ef þú vilt nokkut
+      þat fyrir þik leggja, er þér megi til frægðar verða eða metnaðar." Hrólfr segir: "Eigi hirði
+      ek at draga menn eptir mér, til þess at þeir sjái af sonum yðrum. Mér mun ok ekki orrosta
+      heyra, því at ek þori eigi mannsblóð at sjá. Vil ek ok eigi þyrpast út á smábáta með margt
+      fólk, svá at þá sökkvi þeir niðr ok drukknu vér allir." Sturlaugr mælti: "Ekki mun ek til
+      leggja með þér, því at ek sé, at þú ert bæði heimskr ok einráðr." Skildu þeir at svá mæltu.
+      Þótti sinn veg hvárum. Hrólfr gekk þá til Ásu, móður sinnar, ok mælti: "Þat vilda ek, móðir,
+      at þú sýndir mér kápurnar, þær er Véfreyja, fóstra þín, gerði föður mínum endr fyrir löngu."
+      Hún gerði svá, lauk upp kistu einni stórri ok <pb n="370"/> mælti: "Hér máttu nú sjá kápurnar,
+      ok fyrnast þær enn lítit." Hrólfr tók upp kápurnar allar. Þær váru svá gerðar: Ermar váru á ok
+      höttr upp af ok grímur fyrir andliti. Bæði váru þær víðar ok síðar. Engi járn bitu þær, ok
+      eigi mátti þeim eitr granda. Hrólfr tók þær tvennar, er stærstar váru, ok mælti: "Eigi hefi ek
+      of mikit ór föðurgarði, þótt ek hafi kápurnar." Ása mælti: "Ekki muntu svá skjótt fara,
+      frændi, at þú hafir ekki vápn ok föruneyti." Hrólfr gekk í burt þegjandi, en fám dögum síðar
+      hvarf hann í brutt, svá at engi maðr vissi, hvat af honum varð. Hvárki bað hann vel lifa föður
+      sinn né móður ok enga sína frændr. Vissu menn ok eigi, hvat um hann leið. Ekki er þess getit,
+      at Sturlaugr gæfi sér um burtferð Hrólfs. Leið nú svá um tíma, at Sturlaugr sat um kyrrt í
+      ríki sínu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Þorgnýr er greindr til sögunnar. Hann átti at ráða fyrir Jótlandi í Danmörk, ok þar hafði
+      hann atsetu, en tók hann skatta af fleirum ríkjum. Hann var höfðingi mikill ok hafði gott
+      mannval með sér. Gamall var hann mjök, er þessi frásögn gerðist. Drottning hans var önduð, en
+      eptir lifðu tvau börn, er þau áttu. Stefnir hét sonr hans, en Þóra dóttir. Þau váru bæði fríð
+      ok vel mönnuð. Stefnir jarlsson var sterkr at afli ok inn mesti íþróttamaðr ok var dagliga
+      hógværr ok vel skapi farinn. Þóra var kvenna högust, ok var henni skemma reist, ok þar sat hún
+      með sínum þjónustukonum. Björn hét maðr. Hann var ráðgjafi jarls ok honum inn kærasti, vitr ok
+      góðgjarn ok kunni vel til herskapar. Ingibjörg hét kona hans. Hún var kurteis ok vel mennt,
+       <pb n="371"/> ok unni Björn henni mikit. Hann átti búgarð skammt frá borginni, en þó sat hann
+      optast með jarlinum. Þorgnýr jarl hafði mikit unnt drottningu sinni, ok var haugr hennar nær
+      borginni. Sat jarl þar optliga í góðum veðrum eða þá hann hafði málstefnur eða lét leika fyrir
+      sér. Jarlinn sat optast í kyrrsæti ok hafði friðsamt ríki optast. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Nú er þar til at taka, er Hrólfr fór ór Hringaríki, sem fyrr var sagt. Ekki hafði hann
+      vápna nema eikikylfu. Hann var í kápunni Véfreyjunaut, en bar aðra. Honum váru vegir
+      ókunnigir. Fór hann optar um fjöll ok skóga en byggð. Stefnir hann svá austr á Eiðaskóg ok
+      ætlaði upp í Svíaríki. Enga hefir hann vegu um skóginn. Fór hann villr mjök ok var lengi úti.
+      Eitt kveld seint hitti hann skála einn sterkan í skóginum. Þetta var um vártíma. Hurð var
+      hnigin aptr. Hann setr klumbu sína við vegginn, en gengr inn í skálann. Þar var eins manns
+      sæng ok sæti utar frá. Skinnavara var þar nokkur, en lítit fé annat. Hrólfr kveykti eld upp.
+      En er at sólarfalli kom, gekk maðr inn í skálann, mikill vexti. Hann var í svörtum kufli ok
+      hetta mórauð upp af. Svartr var hann yfirlits, skolbrúnn ok skeggjaðr mjök. Hann var gyrðr
+      sverði, en gekk við spjót. Hann mælti: "Hverr er þessi þjófrinn, eða hvaðan komtu at?" Hrólfr
+      segir: "Eigi þarftu at vera svá harðorðr fyrir enga sök, en eigi hirði ek at leyna nafni mínu.
+      Ek heiti Hrólfr. Er ek kominn ór Hringaríki." Skálabúi segir: "Engi skyldi sá heill, er þaðan
+      kæmi, en far þú burt frá eldinum ok sit upp í <pb n="372"/> sætit ok hvíl þik." Hrólfr gerði
+      svá. En er hann var niðr settr, mælti skálabúi: "Nú skal eigi leyna þik mínu nafni. Ek heiti
+      Atli Ótryggsson, ættaðr ór Hringaríki. Kenni ek þik nú gerla. Þú ert sonr Sturlaugs ins
+      starfsama. Skaltu þess nú gjalda, er faðir þinn gerði mik útlægan, þá er ek hafða drepit
+      hirðmann hans." Síðan greip hann spjótit tveim höndum ok lagði fyrir brjóst Hrólfi svá hart,
+      at hann öngvaði saman, en ekki beit á kápuna. Hrólfr vildi þá upp standa, en þess var engi
+      kostr, því at hann var fastr við sætit. Þá mælti Atli: "Eigi skal þér nú fjölkynngi tjá, ok
+      skal taka klumbu þína ok lemja þik í hel með henni." Hljóp hann þá út ór skálanum. Hrólfr
+      þóttist nú illa kominn ok brauzt um fast, þar til er losnaði fjölin, sú er hann sat á. Var þat
+      jafnsnemma, at Atli kom með klumbuna. Hrólfr hljóp undir Atla. Hann kastar klumbunni, ok
+      tókust þeir fangbrögðum ok glímdu sterkliga. Hrólfr gekk at rammliga, ok barst Atli fyrir orku
+      sakir, þar til er hann fell á bak aptr. Lét Hrólfr þá fylgja kné kviði ok greip báðum höndum
+      um háls honum ok barka, svá at hann kom engu orði upp. Atli brauzt um sterkliga, en Hrólfr
+      helt sama taki, þar til at hann var dauðr. Í skálanum fann Hrólfr fésjóð mikinn ok hafði hann
+      með sér. Hann tók sverðit ok spjótit, en lét eptir klumbuna. Hrólfr færði Atla ór kuflinum,
+      því at honum þótti hann léttari at ganga í en kápurnar, ok bar hann þær. Hann brenndi Atla ok
+      lá þar um nóttina, þat er eptir var, en um morgininn fór hann veg sinn ok gekk þá enn marga
+      daga um skóginn. Einn dag kom hann fram í eitt rjóðr ok sá þar ellefu menn alvápnaða. Einn
+      þeira var bezt búinn, ok sá þótti honum sem vera mundi formaðr þeira. En er þeir sjá Hrólf, þá
+      mælti þessi maðr: "Hér er kominn Atli inn <pb n="373"/> illi, standið nú upp allir ok drepið
+      hann sem skjótast, ok launum honum rán ok manndráp." Kom Hrólfr nú engum orðum fyrir sik, en
+      þeir sóttu at honum í ákafa bæði með höggum ok lögum. Hrólfr snerist við karlmannliga, gerði
+      ýmist hann hjó eða lagði með spjótinu. Varð hann þeim stórhöggr, því at spjótit var it bezta
+      vápn, en fekk Hrólfr sár nokkur á höndum ok fótum. Þeir börðust lengi, ok lauk svá, at Hrólfr
+      drap þá alla. Var hann þá mjök móðr. Hafði hann sár mörg ok smá. Batt hann þá sár sín ok
+      kastaði af sé kuflinum, því at hann vildi eigi slíkt fá af honum optar. Svá þótti honum sem
+      þeir menn mundu verit hafa ór Vermalandi ok farit at jaga dýr eða um eptirleit við Atla. Fór
+      hann þá leiðar sinnar. Er ok ekki sagt frá ferðum hans, fyrr en hann kom fram í Gautland við
+      Gautelfi. Hann sér, hvar skip eitt flýtr við land. Þat var langskip mikit. Skipit var tjaldat
+      allt stafna í millum. Bryggja lá á land, en við bryggjusporðinn var eldr ok menn at matgerð.
+      Hrólfr hafði síðan kápuhöttinn ok gekk þar til ok heilsar á þá, er við eldinn váru. Þeir tóku
+      kveðju hans ok spurðu hann at nafni eða hvaðan at hann kæmi. Hann nefndist Stígandi ok kominn
+      at ór Vermalandi. Hrólfr frétti, hverr skipit ætti eða hverjum þeir þjónuðu. Þeir sögðu, at
+      hann héti Jólgeirr ok var ættaðr ofan ór Sylgisdölum í Svíaríki. Hrólfr segir: "Gott mundi at
+      þjóna slíkum manni." Þeir segja þann verr hafa, er honum þjónaði, -- "því at hann er berserkr
+      fjölkunnigr, ok bíta eigi járn. Harðr er hann ok inn versti viðreignar. Vér erum átta tigir á
+      skipi, ok þjónum vér honum allir nauðigir, því at hann hefir drepit várn höfðingja, er skipit
+      átti, ok nauðgaði oss til at sverja sér trúnaðareiða. Hefir hann þetta allt <pb n="374"/>
+      unnit með svikum ok fjölkynngi. Ætlar hann nú í hernað í Austrveg." Hrólfr segir þá vel skemmt
+      hafa. Gekk hann síðan út á skip ok fyrir Jólgeir ok kvaddi hann. Sat hann í lypting á skipinu,
+      ok sýndist Hrólfi hann mjök ósvipligr. Jólgeirr tók kveðju hans ok spurði hann at erendum ok
+      nafni. Hann segir: "Stígandi heiti ek, en þat er erendi mitt at koma mér í þjónustu með góðum
+      mönnum. Er mér óleitt at vinna dyggiliga þat, er þarf, en engi er ek bardagamaðr. Hefi ek góða
+      frétt af yðr, at þú ert höfðingi mikill ok ósparr at gefa manni mat, er þurfu." Jólgeirr
+      segir: "Sannspurt hefir þú þat, at mér er matr ósparr, en illa lízt mér á þik, því at ek ætla,
+      at þú sért illmenni, en fara máttu með oss, ef þér líkar." Hrólfr þakkar honum, ok skilja með
+      því talit. Þeir herja um sumarit. Býtti Hrólfr silfrinu úr sjóðnum á tvær hendr, ok var þeim
+      öllum vel til hans nema Jólgeir, því at Hrólfr var bæði latr ok svefnugr, en kunni eigi í
+      skipi at gera. Aldri var hann í bardögum né nokkurum mannraunum. Jólgeirr fór illa með herskap
+      sínum ok rænti mest búþegna ok kaupmenn, en herjuðu optast um Kúrlönd ok fengu of fjár. Þat
+      var eitt sinn, at Jólgeirr skipaði Stíganda at halda vörð á skipi þeira. Lá skipit við land,
+      ok var ein bryggja uppi. Veðr var illt af stormi ok regni. Fóru þeir til svefns á skipinu, en
+      Hrólfr var á landi við bryggjusporðinn. Leið svá nóttin, en er morgnaði, tók Hrólfr at höfga,
+      ok vafði hann Véfreyjunaut utan at sér. En er Jólgeirr vaknaði, herklæðist hann ok gengr á
+      land upp ok hafði sverð í hendi. Hann sér, hvar Hrólfr liggr ok sefr, svá at hrýtr um
+      glæðurnar. Jólgeirr varð ákafliga reiðr. Hann bregðr sverðinu ok höggr báðum höndum ofan á
+      Hrólf miðjan, svá at þat hefði hans bani orðit, ef eigi hefði kápan hlíft honum. Hrólfr <pb
+       n="375"/> vaknar með andfælum ok sprettr upp, en Jólgeirr vildi þá höggva í höfuð honum annat
+      högg. Hrólfr réð undir hann. Jólgeirr tók á móti, ok urðu þar sviptingar harðar. Hamaðist hann
+      þá á Hrólf, en hann lét berast undan ok fram at sjónum, þar til er þeir fellu báðir á kaf ofan
+      fyrir einn hamar. Færði þá hvárr annan í kaf, ok váru lengi niðri. Þeir tóku mörg köf ok stór,
+      en engi vildi skakka með þeim, því at öllum hugnaði betr til Hrólfs en til Jólgeirs. Svá lauk
+      þeira fundi, at þá bar at landi upp, ok kom Hrólfr fótum undir sik, ok þar var forbrekkt ok
+      þverhöggt mjök niðr fyrir. Tók Hrólfi þá í linda stað, en Jólgeirr tók eigi niðri. Þreif
+      Hrólfr þá í herðar honum ok færði hann í kaf ok helt honum niðri, þar til hann drekkti honum.
+      Hrólfr gekk þá á land ok var móðr mjök. En allir menn Jólgeirs þökkuðu honum þetta verk ok
+      sögðu hann frægðarmann, er hann fekk unnit þvílíkan berserk. Hrólfr spurði: "Þér munuð nú
+      vilja taka mik til höfðingja yfir yðr í stað Jólgeirs, ok skal ek eigi verr til yðar gera. Vil
+      ek nú kunngera yðr, hverr ek er, því at ek heiti Hrólfr, en Sturlaugr er faðir minn, inn
+      starfsami, er ræðr fyrir Hringaríki í Noregi." Þeir fögnuðu honum allir ok sögðu hann eigi
+      kynvana, þótt hann væri inn mesti kappi. Gengu þeir þá á málstefnu, ok réðu þeir þat af, at
+      þeir gengu á hönd Hrólfi ok tóku hann til skipstjórnarmanns. Var Hrólfr ósparr af fé því, er
+      Jólgeirr hafði saman dregit, ok gaf þeim stórar málagjafir. Varð hann skjótt vinsæll af þeim.
+      Höfðu þeir margar orrostur, ok hafði Hrólfr jafnan sigr. En er hausta tók, sigldu þeir austan.
+      Sagði Hrólfr, at þeir mundu halda til Danmerkr. Þeir kómu síð um haust til Jótlands, skammt
+      frá borg Þorgnýs jarls, ok lögðu í einn leynivág, festu skip sitt ok tjölduðu. Hrólfr segir
+       <pb n="376"/> sínum mönnum, at þeir skyldi bíða þar, til þess er hann kæmi aptr, -- "en ek
+      mun ganga einn frá skipi at sjá, hvat í gerist." </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Svá er sagt einn dag, at þat bar við í Jótlandi, er Þorgnýr sat yfir drykkjuborðum, at upp
+      lukust hallardyrr ok maðr gekk inn í höllina. Hann var bæði digr ok hár. Hann var í loðkápu
+      síðri ok mikit spjót í hendi. Allir þeir, er inni váru, undruðust mikilleik hans. Hann gekk
+      fyrir jarl ok kvaddi hann virðuliga. Jarl tók kveðju hans ok spurði, hvat manna hann væri.
+      Hann segir: "Hrólfr heiti ek, en Sturlaugr heitir faðir minn, er ræðr fyrir Hringaríki. Em ek
+      hér kominn, at ek vil kanna yðra siðu, því at mér er sagt, at þú sért höfðingi mikill." Jarl
+      segir: "Gerla kenni ek ætt þína ok kynferði, ok vil ek gjarna, at þú sért velkominn í mínu
+      ríki, ok þigg allt þat, er þú vilt beiða, en oss stendr at veita, eða hversu marga menn vilið
+      þér yðr láta þjóna dagliga?" Hrólfr segir: "Átta tigir manna eru á skipi mínu, en þeir skulu
+      mér fylgja, ok nóg hefi ek skotsilfr at leggja fyrir oss. Vil ek fá kastala nokkurn skammt frá
+      yðr at halda þar í mína menn ok hafa landvörn fyrir yðr, ef þér vilið." Jarl segir: "Þökk er
+      mér í þinni hérkvámu, ok skulu allir hlutir í þínu valdi, er þín sæmd er þá meiri en áðr."
+      Hrólfr þakkaði jarli orð sín. Gekk hann síðan til sinna manna. Fekk jarl þeim kastla til
+      forráða. Sat Hrólfr í kastalanum um kyrrt ok helt vel sína menn, en löngum fór hann í hernað
+      ok varði kappsamliga ríki jarls. Vingott var með þeim Stefni <pb n="377"/> ok Hrólfi. Björn
+      ráðgjafi var ok inn kærasti við Hrólf. Leið nú svá fram um hríð, at ekki bar til tíðenda. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Tryggvi er maðr nefndr ok var Úlfkelsson. Hann var ættaðr af Búkansíðu af Skotlandi. Hann
+      var inn mesti kappi ok berserkr. Hann lá úti með fjölda skipa bæði vetr ok sumar. Hann átti
+      sér fóstbróður, er Vazi hét. Hann var ok it mesta tröllmenni, bæði sakir vaxtar ok sterkleika.
+      Þorgnýr hafði drepit föður Tryggva, þá hann var í víkingu. Tryggvi hafði nú fengit tólf skip
+      ok öll vel búin at mönnum ok vápnum. Hann helt þessum her til Danmerkr ok vildi hefna föður
+      síns á Þorgný jarli. Vazi var með honum ok margt annarra kappa. Þegar er þeir kómu í ríki
+      Þorgnýs jarls, fóru þeir hermannliga ok ræntu byggðir, en drápu menn ok ræntu fé öllu, er þeir
+      náðu. En er jarl spurði þessi tíðendi, lætr hann herör upp skera ok stefnir liði at sér, en
+      sakir at hann var gamall, þá setr hann þá Hrólf ok Stefni höfðingja fyrir liðinu. Þetta var á
+      öðrum vetri þeim, er Hrólfr var fyrst í Danmörk. Þeir Hrólfr fara nú mót Tryggva ok höfðu tíu
+      skip. Þeir fundust við ey eina óbyggða. Varð þar fátt um kveðjur, ok sló þegar í bardaga. Þeir
+      Tryggvi ok Vazi höfðu dreka stóran. Váru þeir mjök ákafir. Óhægt var at vega upp á drekann
+      fyrir borðhæð. Báru þeir ofan af drekanum grjót á Hrólf ok hans menn. Fell mjök lið þeira
+      Stefnis, en margt varð sárt, ok hallaðist nú bardaginn á þeira menn. Þeir Stefnir ok Hrólfr
+      váru í kápunum Véfreyjunautum, ok festi eigi vápn á þeim. Leggja þeir nú skipi sínu at
+      drekanum ok sækja at <pb n="378"/> kappsamliga. Hrólfr hafði spjótit Atlanaut ok eikikylfu
+      stóra undir beltit. Stefnir hafði gott sverð í hendi ok var inn mesti hreystimaðr. En þá er
+      sóknin var sem áköfust, hleypr Hrólfr upp í söxin. Hann ruddist um fast ok leggr með spjótinu
+      svá sterkliga, at annathvárt fellu þeir, er fyrir urðu, eða gekk í gegnum þá. Stefnir hljóp
+      þegar eptir honum ok hjó til beggja handa. Ruddu þeir skjótt söxin. Gekk þá svá aptr með sínu
+      borðinu hvárr þeira, ok allt hrökk undan aptr um siglu. Dagr var þá mjök áliðinn. En er þeir
+      Tryggvi ok Vazi sjá þat, sækja þeir hart fram í móti þeim. Vazi hafði atgeir í hendi, en
+      Tryggvi öxi. Hrólfr fór mót Vaza, ok lagði hvárr til annars. Atgeirrinn kom í skjöld Hrólfs,
+      ok klofnaði hann allr í sundr, en Hrólfr varð ekki sárr. Vazi kom skildi við laginu, ok sleppr
+      út af ok kemr í lærit á Vaza, ok var þat mikit sár. Vazi hjó í spjótskaptit. Hrólfr greip þá
+      kylfuna ok varðist með henni. Hann lamdi allan skjöldinn fyrir Vaza. Þeir börðust lengi, þar
+      til Hrólfr braut atgeirinn af skapti. Í því hljóp Vazi á Hrólf, svá at honum lá við falli.
+      Kastar Hrólfr þá kylfunni ok tekr í móti. Var glíma þeira löng ok hörð. Þóttist Hrólfr eigi
+      við sterkara mann hafa átt, þann sem einhama var. Svá lauk með þeim, at Hrólfr færði hann út á
+      vígit ok braut sundr í honum hrygginn. Þeir Stefnir ok Tryggvi höfðu barizt allan þann tíma.
+      Var Stefnir yfirkominn af mæði ok þungum höggum, en ekki var hann sárr. Tryggvi var sárr
+      mikit. Hrólfr skundaði nú þangat, en er Tryggvi sér þetta, vill hann eigi bíða hans ok steypir
+      sér fyrir borð. Þeir máttu eigi eptir honum leita fyrir myrkri. Gafst þá upp orrostan. Var
+      þeim öllum gefin grið, er eptir váru. Sex skip váru hroðin af hvárum. Þar tóku þeir mikit fé
+      ok heldu heim við svá búit. Þakkar jarl <pb n="379"/> Hrólfi vel sína framgöngu. Ekki fundu
+      þeir Tryggva í því sinni, ok skildi svá með þeim. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Þat bar til tíðenda einn dag sem optar, at tveir menn ókunnir gengu inn í höllina. Þeir
+      váru miklir ok þrekligir, en lítt búnir at vápnum ok klæðum. Þeir gengu fyrir jarl ok kvöddu
+      hann. Hann tók vel kveðju þeira ok spurði þá at nafni. Inn stærri maðrinn sagði: "Vit erum
+      bræðr. Ek heiti Hrafn, en bróðir minn Krákr, ok erum vit flæmskir at ætt." "Illt var þá til
+      góðra nafna," sagði jarl, "er svá röskvir menn skyldu svá heita." Hrafn mælti: "Hér vildum vit
+      þiggja vetrvist í vetr, því at okkr er sagt, at þú sért vel til þeira manna, er langt eru at
+      komnir." Jarl segir þá skyldu vera velkomna ok skipaði þeim sæti utan frá öndvegismanni á
+      miðjan bekk. Þeir váru þar í góðu yfirlæti af jarli. Ekki áttu þeir marga gleði eða skemmtan
+      við aðra menn. Þar váru knattleikar jafnan. Margir menn báðu þá bræðr at fara til leiks. Þeir
+      sögðust jafnan at leikum verit hafa ok þóttust heldr harðleiknir. Jarlsmenn létust sjálfir
+      mundu ábyrgjast sik, hvað sem um liði. Um morgin eptir gengu þeir bræðr í leikinn, ok höfðu
+      þeir jafnan knöttinn um daginn. Hrundu þeir mönnum ok felldu harðliga, en slógu suma. At
+      kveldi váru þrír handbrotnir, en margir lamdir eða meiddir. Þóttust jarlsmenn nú hart af fá.
+      Gekk svá fram nokkura daga. Þeir toku þat ráðs, at þeir báðu Stefni jarlsson fara í leikinn ok
+      rétta nokkut þeira hluta. Hann játar því, ok um morgun eptir fór Stefnir til leikvallar, ok
+      þegar Hrafn sá hann, mælti hann: "Hvárt ertu svá <pb n="380"/> sterkr, at þú mátt ekki at
+      leikum vera með öðrum mönnum, eða þykkist þú svá stórr, at engi skal þora at leika í móti
+      þér?" Stefnir sagði: "Hvárki er ek svá sterkr né mikillátr, at ek mega eigi at leikum vera."
+      Hrafn mælti: "Þá býð ek þér til leiks at þriggja nátta fresti ok þeim manni, sem þú kýss til
+      með þér í móti okkr bræðrum, ef þú treystist." Stefnir sagði: "Víst skaltu vita, at ek skal
+      koma til leiksins." Gekk hann síðan burt ok lét taka sér hest ok reið til þess, at hann kom
+      til kastala Hrólfs. Sá var annarr vetr, er Hrólfr var í Danmörku. En þegar Hrólfr vissi, at
+      Stefnir var kominn, gekk Hrólfr móti honum ok fagnaði honum með allri blíðu. Settust þeir þá
+      til drykkju. Stefnir mælti: "Til þess er ek hér kominn, at ek vildi biðja þik til leiks með
+      mér móti vetrtaksmönnum föður míns, er heita Krákr ok Hrafn." Hrólfr sagði: "Mér er sagt, at
+      þeir hafi marga menn meidda, en suma drepna ok þeir sé menn sterkir. En ek kann ekki at
+      leikum. Mun ek þó fara með yðr, ef þér vilið." Fóru þeir nú til borgarinnar. Tók jarl vel við
+      Hrólfi. Annan dag eptir gengu þeir Hrólfr ok Stefnir til leiksins. Váru þeir bræðr ok þar
+      komnir. Hrafn tók knöttinn, en Krákr knatttréit, ok léku at vanda þeira. Jarl sat á stóli ok
+      horfði á leikinn. En er þeir höfðu leikit um hríð, fær Hrólfr nát knettinum. Hann grípr
+      knatttréit af Kráki ok fær Stefni. Leika þeir þá svá lengi, at þeir bræðr náðu ekki knettinum.
+      Þat var eitt sinn, at Hrafn hljóp eptir knettinum, at maðr einn rétti fyrir hann fót, svá at
+      hann fell, ungr maðr ok glettinn við aðra menn, frændi jarls. Hrafn varð reiðr mjök ok spratt
+      upp skjótt ok greip þann, er hann felldi, ok færði hann á lopt ok keyrði hann niðr at höfðinu,
+      svá at hann gekk ór hálsliðnum. Jarl kallar á menn sína ok bað <pb n="381"/> taka Hrafn ok
+      drepa. Hrólfr hljóp þá at Hrafni ok þreif til hans. Í annan stað tókust þeir á Krákr ok
+      Stefnir. Hrólfr bannaði, at nokkur skakkaði með þeim. Þeir glímdu ok eigi lengi, áðr Hrólfr vá
+      Hrafn upp á bringu sér ok færði niðr, svá at hann lá lengi í óviti, en af gekk skinnit af
+      herðarblöðunum. En er Hrafn raknaði við, reis Hrólfr upp at honum ok mælti: "Sé ek, at þú
+      hefir tígns manns augu, ok bið ek yðr, herra, at þér gefið þessum mönnum grið, því at ek veit,
+      at þeir eru mikillar ættar." Stefnir hafði ok borit af Kráki ok bað föður sinn veita Hrólfi
+      þat, er hann beiddi. Var jarl lengi inn reiðasti, en þó gaf hann þeim grið fyrir bæn Hrólfs ok
+      Stefnis. Þeir bræðr váru stirðir mjök ok gengu brutt þegjandi ok til herbergis síns. Kómu þeir
+      ekki undir borð á því kveldi. Gafst nú upp leikrinn, ok fóru menn til drykkju. Hrólfr mælti
+      við Stefni: "Nú skaltu taka þér klæði, er vit eigum bezt, ok fá Þóru, systur þinni, í hendr,
+      ok skal hún gera þeir bræðrum klæði ok láta vera búin árla í morgin." Stefnir gerði svá ok
+      gekk til Þóru með klæðit ok sagði henni, hversu gera skyldi. Gekk Stefnir síðan í burt, en hún
+      tók at gera klæðin. Leið svá nóttin, en um morgin snemma sendi Þóra Hrólfi klæðin, ok váru þau
+      fullgerð. Tók hann við ok fór til herbergis þeira bræðra ok sá, at þeir lágu. Hrólfr mælti:
+      "Hví flýgr Hrafn síð upp, þar sem nóg er æzlit, ok eru nú ernir ok önnur hrækvikendi full
+      orðin?" Hrafn segir: "Varla má vel fljúga, ef skerðir eru eða fjaðrsárir." Hrólfr tók klæðin
+      ok kastaði til þeira, en gekk burtu síðan. En þeir bræðr tóku klæðin ok fóru í ok gengu síðan
+      undir borð. Leið nú svá vetrinn. Ekki er þat sagt, at þeir Krákr ok Hrafn þakkaði Hrólfi
+      klæðin né lífgjöfina, ok váru þeir þó vel haldnir. Í móti sumri <pb n="382"/> hurfu þeir
+      burtu, svá at engi maðr vissi, hvat af þeim varð, ok þótti mörgum kynligt þeira athæfi. Hrólfr
+      fór í hernað um sumarit ok þeir Stefnir báðir ok var gott til fjár ok mannorðs. Þeir kómu heim
+      at hausti með heilbrigðu, ok er ekki sagt frá stórvirkjum þeira. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Þat sumar var Hrólfr með Þorgný jarli í miklum metorðum. Þat var einn dag um haustit, at
+      Þorgnýr jarl sat á haugi drottningar sinnar, ok var leikit fyrir honum, at svala ein flaug
+      yfir hann ok felldi niðr einn silkiklút í kné honum ok flaug burt síðan. Jarl tók ok leysti
+      til ok sá þar í eitt mannshár svá langt, at þat var mjök mannhátt ok gullslitr á. Jarl gekk
+      undir drykkjuborð um kveldit. Sýndi hann þá hárit, þat er svalan hafði niðr fellt. Þótti
+      flestum sem konuhár mundi vera. Jarl mælti: "Þess strengi ek heit at fá þá konu, er hárit er
+      af, eða liggja dauðr ella, ef ek veit, at hvers bæjar er at leita eða á hverju landi hún er."
+      Öllum þótti mikil heitstrengingin, ok horfði hverr til annars. Nokkurum nóttum síðar stefndi
+      jarl þing fjölmennt. Hann stóð upp á þinginu ok birti mönnum heitstrenging sína ok spurði, ef
+      nokkurr kynni deili á þessi konu ok hvert hennar væri at leita. Var þá ok sýnt hárit, ef
+      nokkurr kannaðist við. Björn ráðgjafi mælti: "Svá feginn vilda ek tala ok gera, herra, at yðr
+      ok yðru ríki væri til heiðrs ok virðingar heldr en til nokkurs skaða eða minnkanar. Virðist
+      mér heitstrenging þín mikil, ok hygg ek þessari konu eigi auðnat, en nærri mun ek geta, hvar
+      hún er, þótt ek hafi ekki fréttum fyrir haldit: Hreggviðr hét konungr; hann réð fyrir
+      Garðaríki. Hann <pb n="383"/> átti dóttur, er Ingigerðr hét. Kvenna var hún fríðust ok bezt at
+      sér ger um alla hluti. Þat hefi ek sannspurt, at engi kona á Norðrlöndum hafi betr verit at
+      sér ger ok hafi meira hár ok fegra en hún, ok þat er mitt hugboð, at þetta hár eigi hún, með
+      hverjum klókendum sem þat er til yðar komit. Nú munuð þér sannspurt hafa, hver tíðendi þar
+      hafa orðit í fráfalli Hreggviðar konungs fyrir Eirek konungi með konungsdóttur. Hún skal hafa
+      mann til burtreiðar við Sörkvi, kappa konungs, ok frelsa sik með því. Hygg ek fá verða til
+      þess fúsa, við þvílíkan sem við er at eiga. En þótt Sörkvi geti nokkurr af baki riðit, þá
+      þykki mér konungsdóttir eigi auðfengin ór Garðaríki heldr en áðr." Þótti öllum þeim, sem við
+      váru, sem svá mundi vera sem Björn sagði. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> Þorgnýr jarl þagði nokkura stund af orðræðu Bjarnar ok mælti: "Þeim manni, er fara vill í
+      Garðaríki ok ríða burt við Sörkvi ok náir þessari meyju mér til handa, skal ek gefa Þóru,
+      dóttur mína, ok þriðjung alls ríkisins. Til farar þessarar skal ek hvárki spara skip né
+      mannaforræði við þann, sem til vill verða." Allir menn þögnuðu við þessa ræðu, ok svaraði engi
+      jarli, þar til er Hrólfr stóð upp ok mælti: "Illa er þat gert at svara eigi slíkum höfðingja,
+      sem vér eigum, en sakir þess, herra, at ek hefi með yðr verit um nokkura tíma í góðu yfirlæti
+      ok marga góða hluti af yðr þegit, þá vil ek fara þessa ferð ok leita at ná konungsdóttur ella
+      liggja dauðr. En þótt ek komi aptr ór þessi ferð, þá skulu þér gifta dóttur yðra hverjum, sem
+      þér vilið, því at hún er vel verð góðs gjaforðs, en mér er <pb n="384"/> eigi hugleikit konur
+      at eiga." Jarl þakkaði Hrólfi mikilliga ok bað hann hafa svá mikit lið sem hann vildi, en
+      Hrólfr segist engan mann vildu, -- "því at minni vari verðr tekinn einum en mörgum, hvar sem
+      þeir koma." Stefnir bauðst at fara með honum, en Hrólfr vildi eigi, ok var nú slitit þinginu.
+      Fór Hrólfr heim í kastala sinn ok hverr til síns heimilis. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="12">
+     <p> Innan lítils tíma hvarf Hrólfr í brutt ór kastalanum, svá at engi frétti til hans, en menn
+      hans váru þar eptir. Hann var í kápunum Véfreyjunaut, en gekk við spjótit Atlanaut. Hann hafði
+      boga ok örvamæli á herðum sér. Ekki er sagt frá, hverja leið Hrólfr fór, en svá sem hann hafði
+      mjök sótt ór Danmörk, var þat einn dag, at hann sá, hvar einn maðr gekk. Hann var mikill vexti
+      ok herklæddr til handa ok fóta. Hann hafði brugðit sverð í hendi ok gekk á veginn Hrólfs, en
+      hann heilsaði þessum manni ok spurði hann at nafni. Hann segir: "Ek heiti Vilhjálmr, en
+      forellri mitt hirði ek ekki at greina þér. En um tvá hluti skaltu kjósa: Sá er annarr, at þú
+      segir mér, hverr þú ert eða hvert þú vilt fara eða hvat í erendum er, hinn annarr, at ek drep
+      þik, ok ferr þú þá ekki lengra." Hrólfr segir: "Enga afarkosti þarftu mér at gera, því at mitt
+      er ekki óvænna en þitt, hvat sem vit skulum reyna." Vilhjálmr hjó til Hrólfs með sverðinu, en
+      hann brá fyrir spjótinu, ok beit ekki á. Hrólfr kastar spjótinu ok ræðr á Vilhjálm, en hann
+      tók á móti, ok varð glíma þeira löng, áðr Vilhjálmr fell. Hrólfr mælti: "Nú á ek alls kosti
+      við þik. Muntu segja verða, hvert þitt erendi er eða hvar þú <pb n="385"/> ert landvanr." Hann
+      segir: "Hér er ek ættaðr í Danmörk. Er ek bondason einn, en ætlaða at fara í Garðaríki ok
+      rjúfa haug Hreggviðar konungs, en ná vápnum hans, vinna svá til Gyðu, systur Eireks konungs.
+      Nú vil ek gerast þinn þjónustumaðr. Er mér margt vel gefit, því at ek er bæði vitr ok tölugr.
+      Er þér bezt at gefa mér líf. Skal ek þér trúliga þjóna. Mun þér at mér gagn verða." Hrólfr
+      segir: "Vænn maðr ertu, ok víst hirði ek eigi at drepa þik, ef þú vilt mér fylgja, en eigi
+      hefir þú tryggilig augu." Lét Hrólfr hann þá upp standa ok segir honum allan sinn trúnað ok
+      tilgang sinna ferða. Fóru þeir nú leiðar sinnar. Hestr Vilhjálms var þaðan skammt í burt frá
+      honum. Þoldi hann ekki at ganga með vápnunum. Var hann skrautmenni mikit at klæðum ok
+      söðulreiði. Segir Vilhjálmr jafnan veg, meðan þeir fóru um Danmörk. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="13">
+     <p> Einn dag litu þeir bæ mikinn reisiligan fyrir sér. Vilhjálmr mælti: "Hér fáum vit góða
+      gisting í kveld at bæ þessum, því at hér á fyrir at ráða frændi minn, er Ölvir heitir ok er
+      góðr bóndi ok heldr marga sveina. Ok er þeir kómu heim at bænum, gekk bóndi í móti þeim ok
+      fagnaði vel Vilhjálmi ok þeim báðum ok spurði, hverr sá væri inn mikli maðr." Vilhjálmr segir:
+      "Hrólfr heitir hann ok er húsbóndi minn. Mikill er hann ok sterkr, vel ættaðr ok mikill
+      kappi." Bóndi bauð þeim til drykkju. Þar var margt frelsingja. Vilhjálmr vildi ekki öðrum til
+      hlíta en sér at þjóna Hrólfi ok lofaði hann í hverju orði. Þar var gott öl ok gleði mikil. Nú
+      leið svá kveldit. Drukku þeir lengi áfram, en er <pb n="386"/> Hrólfr gerðist drukkinn, vildi
+      hann fara at sofa. Var honum búin sæng virðulig. Kastaði hann klæðum af sér ok lagðist í
+      sængina ok sofnaði skjótt. En er liðin var nóttin, vaknaði Hrólfr ok eigi við góðan draum, því
+      at hann var bundinn at höndum ok fótum ok reyrðr sterkliga við einn ás. Hann var klæðlauss ok
+      kominn fram at miklu báli. Þar stóð yfir honum Vilhjálmr, sveinn hans, bóndi ok allir
+      heimamenn. Vilhjálmr mælti: "Nú er svá orðit, Hrólfr, at ek er orðinn þér yfirsterkari, ok
+      mundir þú eigi þat ætla fyrir stundu. Eru nú enn tveir kostir fyrir höndum: Er sá annarr, at
+      þú skalt verða brenndr hér á báli þessu, svá at aldri skaltu sól sjá, elligar skaltu fylgja
+      mér í Garðaríki ok þjóna mér í öllum hlutum ok kalla mik þinn meistara ok allt þat sanna, er
+      ek segi frá mínum högum. Þú skalt allar þrautir vinna, þær sem fyrir mik verða lagðar, þar til
+      er konungr játar mér Gyðu, systur sinni, til eiginorðs, en síðan skaltu lauss vera ór minni
+      þjónustu. Aldri skaltu mér þessa vanvirðing hefna ok engum þeim manni, er hér hefir at verit,
+      ok hér skaltu eið at vinna at halda þetta allt, er nú hefi ek fyrir skilit, eða nú í stað í
+      eldinum brenna." Þá sagði Hrólfr: "Með því at mér er nokkut til undanlausnar at komast ór
+      þinni áþján, þá mun ek heldr þessu játa en missa lífit, því at þat veit ek, at lítt nái ek
+      jarlsins erendi, ef ek dey nú hér. Vil ek ok þat til skilja, at þú segir ekki mína fyrirætlun
+      eða hvat manna ek er, ella sé lauss allr okkar skilnaðr." Vilhjálmr sagði svá gera skyldu. Var
+      Hrólfr nú leystr, ok sór hann eið, eptir því sem þá var siðvenja til. Þjónar Hrólfr nú
+      Vilhjálmi ok lét sem honum þætti einskis um vert. Fóru þeir frá Ölvi, ok reið Vilhjálmr, en
+      Hrólfr gekk fyrir hesti hans. Þeir fóru um Svíþjóð ok þaðan til Garðaríkis. Ekki er þat <pb
+       n="387"/> greint, hverja leið þeir fóru, fyrr en þeir kómu til Aldeigjuborgar. Sat Eirekr
+      konungr í borginni, ok var þetta á öndverðum vetri. Fengu þeir sér herbergi ok gengu síðan
+      fyrir konung. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="14">
+     <p> Þat var um þann tíma, er konungr sat yfir borðum. Þeir kvöddu konunginn, en hann tók vel
+      kveðju þeira ok spurði, hvat manna þeir væri. Vilhjálmr segir: "Ek heiti Vilhjálmr, en þetta
+      er sveinn minn, er með mér ferr, ok heitir Hrólfr. Ek er sonr jarls eins ór Fríslandi, ok varð
+      ek þaðan landflótti, því at ríkit var svikit undan mér af sjálfum landsmönnum. Er ek hér því
+      kominn, at ek hafi spurt til yðvarrar rausnar ok mikilmennsku, ok vilda ek hér þiggja vetrvist
+      í vetr." Konungr segir: "Eigi spari ek mat við yðr, ok muntu vera íþróttamaðr mikill?"
+      Vilhjálmr segir: "Nógar kann ek íþróttir, ok sú in fyrsta, at ek er svá sterkr, at mér verðr
+      aldri aflfátt. Önnur er sú, at ek hefi fráleik yfir öll dýr ok ferfætt kvikendi." "Þjóflig
+      íþrótt," segir konungr, "ok kemr þó opt at gagni." Vilhjálmr mælti: "Eigi vantar mik skotfimi
+      ok vápnfimi, sund eða tafl ok burtreiðir, vizku ok málsnilld, ok enga missi ek þá, er karlmann
+      má prýða." "Heyri ek," segir konungr, "at eigi vantar þik skörugleik. Tel nú þínar listir,
+      Hrólfr, því at honum treysti ek ekki verr en þér." Hrólfr segir: "Eigi má ek þær telja, herra,
+      sem engar eru til." "Mjök er þá misskipt með ykkr," segir konungr, "at annarr hefir allar, en
+      annarr engar, en gangið til sætis á inn óæðra bekk miðjan." "Þér munuð ráða, herra," segir
+      Vilhjálmr, "en aldri hafði ek jafnóvirðuligan <pb n="388"/> sess fyrri." Gengu þeir síðan til
+      sætis. Ekki váru þeir Sörkvir ok Brynjólfr heima í þenna tíma. Váru þeir farnir með Grími ægi
+      upp í Jötunheima. Þeir Vilhjálmr ok Hrólfr váru þar í góðu yfirlæti. Skjalaði Vilhjálmr í
+      hvern heim, en Hrólfr var jafnan hljóðr ok þögull ok ekki at leikum með öðrum mönnum. Dró
+      Vilhjálmr mjök undan sínar íþróttir, en konungr var veiðimaðr mikill ok þótti þat skemmtan at
+      jaga dýr með hirð sinni. Var hann jafnan í kyrrsæti, síðan hann kom í Garðaríki, því at
+      flestir váru ófúsir at herja á hans ríki sakir kappa þeira, er með honum váru, einkanliga
+      sakir galdra ok fjölkynngi Gríms ægis. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="15">
+     <p> Eirekr konungr fór á skóg einn dag með hirð sína, sem vandi hans var til, at jaga dýr ok
+      skjóta fugla. Þeir sáu hjört einn mikinn ok fríðan. Ekki þóttust menn hafa sét vænna dýr.
+      Þótti flestum sem þat mundi alidýr, því at öll hans horn váru grafin ok gulli í smelt
+      skurðina, en stika var sett á milli hornanna með silfri. Léku þar á tveir gullhringar. Um
+      hálsinn lá ein silfrfesti ok niðr af henni ein bjalla með silfr, ok gaf hún mikit hljóð af
+      sér, þegar hjörtrinn hljóp ok hrærði sik. Konungr vildi ná hirtinum ok bað lausum slá öllum
+      hundum, ok svá var gert. Hlupu menn nú ok riðu, hverr sem mest gat, ok vildu taka hjörtinn, en
+      hann æstist mjök undan hundunum, ok komast þeir hvergi nærri. Eltu þeir hann allan daginn, en
+      um kveldit, er dimmaði, vissu þeir eigi, hvat af honum varð. Fór svá þrjá daga, at þeir fundu
+      hjörtinn ok gátu eigi nát honum. <pb n="389"/> En um kveldit, er konungr kom undir drykkjuborð
+      ok menn hans váru komnir í sæti, þá mælti hann: "Lítit þykki mér þú, Vilhjálmr, sýna oss
+      íþróttir þínar, því at þú ert at engri gleði né skemmtan með öðrum mönnum, ok eigi ferr þú á
+      skóg með oss." Vilhjálmr segir: "Lítil gleði verðr mér þat, herra, at reyna íþróttir við menn
+      yðra, því at ek sé hér engan kunna neinar íþróttir. Lét ek ok jafnan fá mér villibráð aðra
+      menn, þá ek sat heima í ríki mínu." Konungr mælti: "Vér höfum elt hjört einn þrjá daga, ok
+      kunnum vér eigi ná honum, en ef þú náir hirtinum ok færir oss hann lifanda með öllum sínum
+      búnaði, þá vil ek gefa þér Gyðu, systur mína, ok mikit ríki, með því at ek hefi engan þann
+      hlut sét, at ek vildi gjarnari eiga. Máttu þetta vel gera, ef þú ert svá fóthvatr sem þú hefir
+      sagt. Þó skaltu vinna tvá hluti aðra, þá sem ek legg fyrir yðr. Skal ek þinn heiðr þá auka í
+      öllum hlutum ok vinna ríki þitt aptr með mínum styrk, þat er þú hefir áðr misst. Ok er sá
+      nokkurr annarr af mínum mönnum, at þetta fái gert, þá skal hann jafnt verkkaup fyrir taka." Þá
+      sagði Vilhjálmr: "Þat er bæði, herra, at þetta fær engi gert utan ek, enda hafið þér mér þetta
+      ætlat. Skal ek ok til vinna eða liggja dauðr ella." Áttu þeir at þessu handfestar, sem siðr
+      var til. Hrólfr gaf sik ekki at þessu. Fóru menn síðan til svefns ok tóku á sik náðir. Þjónaði
+      Hrólfr Vilhjálmi at öllu, sem fyrr var sagt. Snemma um morgin stóðu þeir upp Vilhjálmr ok
+      Hrólfr ok bjuggust at leita eptir hirtinum. Þeir fóru á skóginn ok sáu skjótt, hvar hjörtrinn
+      fór. Vilhjálmr hefr sik nú til hlaups ok ferr svá hart sem fugl flygi. Hjörtrinn æsist því
+      meir. Hrólfr þrammar eptir Vilhjálmi, ok þótti honum Vilhjálmr frár í fyrsta skeiði. Hlaupa
+      þeir svá lengi, at Hrólfr er jafnan á öðru leiti, <pb n="390"/> en Vilhjálmr framar, þar til
+      er hann kastaði sér niðr ok mælti: "Aldri verði sá heill, er þat vinnr til konu, fjár eða
+      ríkis at sprengja sik á hlaupi." Í þessu kom Hrólfr at Vilhjálmi ok spurði, hví hann léti
+      dýrit undan ganga. Vilhjálmr sagði: "Vel má ek hlaupa lengra, ef ek vil, en mér þykkir þú
+      skyldr at taka dýrit ok vinna allar þrautir fyrir mik eptir skildögum, ef þú ert maðr til."
+      Hrólfr svaraði engu ok hleypr fram eptir dýrinu ok eltir þat lengi, þar til er saman dregr með
+      þeim, því at hjörtrinn gerðist móðr mjök. Þeir komu fram í eitt rjóðr um síðir. Var þá dagr
+      áliðinn. Í miðju rjóðrinu stóð hóll einn. Hann var bæði víðr ok hár. Rjóðrit var fagrt ok mjök
+      grasloðit víða. En er Hrólfr kemr fram hjá hólnum, þá opnast hann, ok gengr hann þar um
+      kringum hann. Þar kom út kona ok var í blám tiglamöttli ok heldr á eldi ok mælti: "Illt hefir
+      þú at verki, Hrólfr, er þú ert þræll þrælsins ok þó til þess at stela annarra manna fé, því at
+      ek á dýr þetta, er þú vilt taka, ok náir þú því aldri, nema ek vili. Nú skal gera þér kost á
+      at ná dýrinu. Þú skalt ganga inn í hólinn með mér. Ek á dóttur eina, ok er henni þat skapat at
+      komast eigi frá eldi sínu, því hún ætti, nema mennskr maðr hefði hendr á henni. Hefir hún nú
+      legit nítján dægr á gólfi ok má eigi léttari verða. Hefi ek því hjörtinn sent í augsýn við
+      yðr, at ek vissa, at þér mundið vilja ná honum ok elta hann hingat. Treysti ek þér, at þú
+      hafir bezt hjarta til at ganga í hólinn með mér, en ekki mun konungr hjartarins njóta, þó at
+      hann sé færðr honum." Hrólfr segir: "Til mun ek þat vinna at ganga inn í hólinn með þér, ef ek
+      nái hirtinum at færa konungi, en eigi hirði ek, hvat af honum verðr síðan." Álfkonan varð nú
+      glöð við þetta, ok gengu þau inn í hólinn. Váru þar væn <pb n="391"/> herbergi ok fagrt um at
+      litast, ok margir hlutir sýndist honum þar undarligir. Hann kom þar at, er konan lá, ok var
+      hún lítt haldin, en þegar Hrólfr fór höndum um hana, varð hún skjótt léttari. Þökkuðu þær
+      honum með fögrum orðum ok báðu honum virkta. Álfkonan mælti: "Eigi verðr þér launat sem
+      verðugt er heilsugjöf við dóttur mína, en hér er fingrgull, er ek vil gefa þér. Þess muntu
+      þurfa, þá þú ferr til Hreggviðar haugs, en ef þú hefir þat á hendi þér, þá máttu hvárki
+      villast nótt né dag, á sjá ok landi, í hverju myrkri sem þú ert, ok yfir muntu vinna þrautir
+      allar, þær er fyrir þik eru lagðar, en ekki skaltu trúa Vilhjálmi, þaðan af þú ert frá skildr
+      honum, því at gjarna vill hann þik feigan." Hrólfr þakkaði henni, ok gengu þau út ór hólnum.
+      Tók hún þá hjörtinn, en Hrólfr lagði hann á bak sér ok þótti mikils um vert fegrð hans. Bað nú
+      hvárt vel fyrir öðru. Ferr hann nú heimleiðis, þar til hann fann Vilhjálm, ok fagnaði hann vel
+      Hrólfi ok bað hann bera hjörtinn heim til borgarhliðs. Hrólfr gerði svá, en ekki segir hann
+      Vilhjálmi, hversu hann hafi dýrinu nát. Kómu þeir til borgarinnar seint um kveldit, þá konungr
+      var undir borð kominn. Vilhjálmr mælti: "Nú skulum vit fara inn í höllina, en ek skal bera
+      dýrit fyrir konunginn, en þú skalt sanna sögu mína, svá at konungr trúi því, er ek segi." Tók
+      Vilhjálmr við dýrinu ok lét á bak sér ok viknaði í knésbótum, ok þó fekk hann borit dýrit inn
+      í höllina fyrir konunginn ok kastaði niðr á gólfit. Hann blés mjök mæðiliga ok mælti: "Nú
+      þykkjumst ek kominn til ráðahagar við systur þína, ok er nú kominn hér hjörtrinn, ok munu þeir
+      ekki margir bjóðast yðr til mága, er slíku geta orkat sem ek." Konungr segir: "Þat virðist mér
+      í skapi, at eigi <pb n="392"/> hafir þú hjörtinn unnit, ok vinna skaltu fleiri frægðarverkin,
+      áðr þú fær hennar." "Eigi þurfið þér at misgruna mína frægð, því at afburð hefi ek flestum
+      mönnum. Veit þat Hrólfr, sveinn minn, at fjarlægr var hann mér, þá ek tók hjörtinn." Hrólfr
+      sagði: "Bæði er, at ek var Vilhjálmi gagnlauss, enda tók hann sér í engu at hlífa." Vilhjálmr
+      segir: "Því vil ek einn til vinna, at ek vil einn taka verkkaupit, eða hvat vilið þér fleira
+      fyrir mik leggja, því at ek er búinn til at vinna?" Konungr segir: "Nú skaltu fara til
+      Hreggviðar haugs ok sækja þangat vápn Hreggviðar konungs, ok er þat lítil mannraun." Vilhjálmr
+      segir: "Nú vilið þér mik feigan, því at engi hefir sá aptr komit, er þangat hefir farit hér
+      til." "Víst vil ek," segir konungr, "at þú komir aptr, en sannendi eru þat, at engi hefir aptr
+      komit, er ek hefi þangat sent. Er mér mikill aptrmundr at gripum þeim, er í hauginn fóru. Skal
+      ok sá einn fá systur minnar, sem frægri er en aðrir menn." Vilhjálmr segir: "Gera mun ek
+      þetta, því at mér þykkir þetta þrautlaust, at ræna dauða menn ok vinna þat til meyjar." Gekk
+      Vilhjálmr nú til sætis síns, ok skildu at svá mæltu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="16">
+     <p> Eptir fá daga var þat eina nótt, at Hrólfr tók á fótum Vilhjálms ok mælti: "Mál er at vinna
+      til meyjarinnar ok fara til haugsins." Vilhjálmr stóð upp skjótt, ok var Hrólfr þá klæddr ok
+      kominn í Véfreyjunaut ok hafði spjótit Atlanaut, en Vilhjálmr alvæpni. Hann reið, en Hrólfr
+      gekk fyrir hesti hans. Fóru þeir svá, þar til skógr varð fyrir þeim ok einn forntroðinn
+      götustígr. En er þeir höfðu skammt farit, þá laust veðr móti <pb n="393"/> þeim svá mikit með
+      fjúki ok frosti, at Vilhjálmr fekk eigi á baki setit. Leiddi Hrólfr þá hestinn, en Vilhjálmr
+      gekk eptir um stund, þar til at hríðin tók svá at gerast sterk, at hestrinn fekk ekki gengit,
+      ok dró Hrólfr hann flatan eptir sér, en studdi sik við spjótit. Varð honum þá litit aptr ok
+      sá, at Vilhjálmr var horfin, en hestrinn löngu dauðr. Skildi hann þar við hestinn, en gekk
+      fram á leiðina. Hríðin var svá sterk, at eikrnar brotnuðu af stofnunum ok kómu hvar fjarri
+      niðr. Fekk Hrólfr þar af optliga stór högg, svá at þat hefði bana unnit flestum mönnum, þar
+      með eldingar ok reiðarþrumur, svá at hann hugði þat sinn bana orðit hafa, ef eigi hefði kápan
+      hlíft honum. Var svá alla nóttina framan til dags. Í móti degi varp mikilli fýlu móti honum,
+      at hann hefði kafnat, ef kápugríman hefði eigi hlíft honum. Þat þóttist Hrólfr skilja, at
+      hríðin mundi hafa drepit sendimenn konungs ok þetta mundi gerningahríð vera. Þóttist hann ok
+      aldri í þvílíka raun komit hafa. En er mjök var ljóst af degi, þá tók upp hríðina ok gerði
+      logn. Hvarf þá burt fýlan. Sá Hrólfr þá haug mikinn sem fjall ok hár stauragarðr um kring.
+      Hann tók hendinni um einn staurinn ok varpar sér inn yfir, gekk síðan upp á hauginn, ok
+      sýndist honum hann mjök torvelligr at rjúfa. En er hann litast um, sér hann mann einn norðan
+      undir hauginum stóran vexti með konungs skrúða. Hrólfr gekk til hans ok kvaddi hann konungs
+      kveðju ok spyrr hann at nafni. Hann segir: "Ek er Hreggviðr, ok ek byggi haug þenna með köppum
+      mínum, ok ertu hér velkominn, en þat skaltu vita, Hrólfr, at ek veld eigi hríðum þessum ok
+      fýlum eða öðrum undrum, ok eigi hefi ek menn drepit. Valda þeir þessu öllu Sörkvir ok Grímr
+      ægir, ok þeir hafa valdit lífláti konungsmanna, <pb n="394"/> en þó brestr þeim stundum
+      vísdómrinn, þá er þeim liggr mest við, ok ef þeir vissi, at þú værir hér, þá vildi þeir þik
+      feigan. Ek fór í svölulíki til Þorgnýs jarls með hár Ingigerðar, dóttur minnar, því at ek
+      vissi, at þú mundir eptir leita af jarlsmönnum ok þú einn vart maðr til at frelsa hana, ef
+      lukkan fylgdi. Ann ek þér bezt hennar at njóta, ef þú vilt ríða burt við Sörkvi, því at þik
+      vantar hvárki hug né hreysti, en þat hefir Grímr ægir játat honum, at engi skyldi hann
+      yfirvinna nema sá, er hefði herklæði mín. Er því haugrinn óvinnanligr gerr, ok því eru
+      torfærur til hans, at hann hugði, at engi skyldi herklæðunum ná mega. Nú skal ek fá þér alla
+      þá hluti ór haugnum, er þú vilt hafa. Ek vil fá þér tvenn herklæði ok hvár öðrum lík, utan at
+      kostum eru þau ólík. Þau skaltu fá konungi, er verri eru, en önnur skaltu ekki sjá láta, fyrr
+      en þú þarft við at hafa, ok á sverðinu skaltu mikla vandvirkt hafa, því at fásét er annat
+      slíkt. Ingigerðr, dóttir mín, geymir öll burtreiðarvápn mín ok hestinn Dúlcifal, sem ólíkr er
+      flestum öðrum fyrir margra hluta sakir. Honum skaltu ríða, þá þú átt við Sörkvi, ok er þér
+      sigrinn víss, ef hann lætr takast. Burtstöngin ok skjöldrinn munu ok halda sinni náttúru.
+      Vilhjálmi skaltu ok ekki trúa, þaðan af þú ert ór hans þjónustu, því at hann svíkr þik, ef
+      hann getr. Muntu halda vilja eiða þína, en betr er hann af dögum ráðinn fyrr en síðar, því at
+      hann mun þik hættan hafa." Eptir þat fekk Hreggviðr Hrólfi gripuna ok vápnin ok síðast menit
+      af hálsi sér. Þá mælti Hreggviðr: "Þat hefir mér skapat verit, at ek skal mega fara þrjá tíma
+      ór haugi mínum, ok þarf eigi aptr at byrgjast utan í síðasta sinn. Nú mun þér ekki sveigra
+      verða, er þú ferr heim aptr. Nú far þú vel, ok gangi þér allt eptir vild ok vilja, en ef þú
+       <pb n="395"/> kemr aptr í Garðaríki, þá vitja mín, ef þú þarft lítils við." Hvarf Hreggviðr
+      nú inn í hauginn, en Hrólfr tók gripuna ok varðveitti, fór síðan frá haugnum aptr ina sömu
+      leið ok varð nú við engi undr varr. Ok er hann kom ór skóginum, kom Vilhjálmr þá móti honum.
+      Hafði hann skriðit undir viðarrætr ok legit þar um alla hríðina. Fekk hann varla talat fyrir
+      kulda. Flaðraði hann þá mjök at Hrólfi ok mælti: "Aldri þykki mér ofsögum mega segja af þinni
+      frægð ok giftu þeiri, er okkr fylgir, þar sem nú er brotinn haugrinn ok sótt gull ok
+      dýrgripir. Sé ek nú þat, at okkr má engi hlutr fyrir standa, en þó var þetta mikit veðr, svá
+      at varla gat ek stýrt mér. Þykkist ek nú kominn til ráðahags við systur konungs. Skaltu nú fá
+      mér gripuna ok vápnin, því at ek vil sjálfr afhenda þá konungi." Hrólfr mælti: "Lítit viltu
+      vinna til frægðarinnar, ok illa muntu mér launa, þó at ek leggi líf mitt í hættu fyrir þik.
+      Tak nú við gripunum ok fær konungi, en ek mun halda öll mín orð við þik ok sanna sögu þína,
+      þóttu sért ómakligr." Hrólfr hafði fólgit hin vápnin í skóginum, ok sá Vilhjálmr ekki þau.
+      Fóru þeir nú leið sína, til þess er þeir hittu konunginn. Sat hann undir drykkjuborðum at
+      kveldmáltíð. Vilhjálmr kvaddi konunginn ok lét mjök mæðiliga. Allir menn í höllinni urðu
+      ókveða við þeira aptrkvámu. Vilhjálmr mælti: "Víst trúi ek varla, at meiri þraut vera muni með
+      öllu saman, því at Hreggviðr er it mesta tröllmenni sakir sinnar fjölkynngi, en haugrinn
+      torsóttligr at brjóta. Hefi ek átt við Hreggvið konung í alla nótt. Kom ek þar í mikla
+      mannraun, áðr ek náði herklæðunum." Tók hann þá sverðit ok menit, lagði á borð fyrir
+      konunginn. Þá mælti konungr: "Sóttir eru <pb n="396"/> víst gripirnir, ok þykki mér nú allir
+      verri en fyrr, utan menit, þat er óspillt, en þat hygg ek, at Hrólfr hafi sótt en eigi þú."
+      Hrólfr segir: "Þat segi ek yðr, at ek fór eigi í hauginn, ok megið þér þat til líkenda ráða,
+      at eigi mundi ek móti mæla at fá slíkar sæmdir eða aðrar, ef ek ætti þess kost." Vilhjálmr
+      mælti: "Undrar mik þat, herra, at þér grunið sögu mína eða frægð ok hreysti minnar
+      karlmennsku. Má hér skjótt raun til gera, at vit Hrólfr reynum með okkr, ok mun hann mér
+      fjarlægr standa, því at þat er fyrst, at hann þorir eigi mannsblóð at sjá, ok þá ek fór í
+      Hreggviðar haug, skyldi hann festi haldit hafa, ok þá hann heyrði dunur ok stór högg í
+      hauginn, varð hann svá hræddr, at hann rann frá festinni. Var þat eitt þá mín hjálp, at ek
+      hafði borit festarendann um stóran stein, ok las ek mik upp ór hauginum með handafli." Konungr
+      svarar: "Vel trúi ek, Hrólfr, orðum hans, en eigi mundi gripirnir hér komnir, ef þeir hefði
+      eigi í hauginn sóttir verit." Lætr nú konungr geyma vápnin mjök vandliga ok hugði, at eigi
+      skyldi Sörkvi at meini verða. Svá er sagt, at eina nótt hvarf hjörtrinn burt, svá at þeir urðu
+      eigi varir við, er geyma skyldu. Þótti konungi þat mestr skaði. Var hans leitat nær ok fjarri,
+      fannst hann eigi. Þóttist Hrólfr vita, at álfkonan mundi hafa sótt hann. Vilhjálmr lét nú vel
+      yfir sér ok gekk jafnan til tals við konungssystur, ok fóru vel ræður með þeim. Sparði hann
+      ekki at skjala margt af sér um alla hluti. Leið nú svá vetrinn fram um jól, at ekki bar til
+      tíðenda. <pb n="397"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="17">
+     <p> Menelaus er konungr nefndr. Hann réð fyrir Tattararíki. Hann var ríkr konungr ok mikill
+      fyrir sér. Tattararíki er eitt kallat mest ok gullauðgast í Austrríki. Þar eru menn stórir ok
+      sterkir ok harðir til bardaga. Undir Menelaus konung lágu margir konungar ok mikils háttar
+      menn. Svá er sagt, at milli Garðaríkis ok Tattararíkis liggr ey ein, er Heðinsey heitir. Hún
+      er eitt jarlsríki. Þat er fróðra manna sögn, at Heðinn konungr Hjarrandason tæki fyrst land
+      við þá ey, er hann sigldi til Danmerkr af Indíalandi, ok þaðan tók eyin af honum nafn síðan.
+      Um þessa ey stríddi jafnan Tattarakonungr ok Garðakonungr, ok þó lá hún undir Tattarakrúnu.
+      Eirekr konungr hafði herjat um ey þessa, áðr hann kom í Garðaríki, ok gert þar mikit hervirki.
+      Menelaus konungr hafði sett þann mann yfir eyna, er Sóti hét. Hann var þar ættaðr at
+      móðurkyni, en föðurkyni í Hólmgarðaríki. Sóti var þá eigi í landi, er Eirekr konungr kom þar.
+      Hann var it mesta tröllmenni fyrir sakir afls ok vaxtar. Yfirlitr hans var eptir nafni hans.
+      Hann herjaði víða ok hafði jafnan sigr. Sóti átti fóstru gamla ok fjölkunniga. Hún hafði gert
+      honum laug þá, er hann bitu eigi járn síðan. Gekk hann því hlífarlauss í orrostum. Hún hafði
+      ok sagt honum, at á þessu hausti væri honum vænst til hefnda við Eirek konung ok nú væri engir
+      kappar hans heima í landinu. En er Sóti vissi þat, fór hann til Menelauss konungs ok fekk
+      mikinn styrk af honum, helt síðan til Garðaríkis. Hann hafði margar þúsundir hermanna. Sá maðr
+      var með Sóta, er Norðri hét. Hann var mikill ok sterkr ok bar jafnan merki hans ok var inn
+      mesti kappi. <pb n="398"/> En er Eirekr konungr frétti, at Sóti var við land kominn með mikinn
+      her, lætr hann herör upp skera á alla vega frá sér ok bauð til sín koma hverjum, er mætti, ok
+      safnaðist til hans mikit fjölmenni. Eirekr konungr kallaði Vilhjálm til sín ok mælti: "Nú
+      hefir þú unnit tvá hluti, er ek hefi fyrir þik lagt, ok veit ek eigi, hvárt þú hefir þat gert.
+      Nú skaltu vinna inn þriðja hlut, svá at ek sé nær staddr, at drepa Sóta berserk. Mun ek þá
+      eigi í móti mæla, at þú eigir systur mína, ef þú vinnr þetta vel af hendi. Skal ek þá halda
+      allan skildaga við þik, sem vit höfum áðr talat." Vilhjálmr segir: "Þess er ek búinn, at ganga
+      í móti Sóta. Þykki mér nú gott, at þér megið nú sjá, hverr afreksmaðr ek er. Ok skuluð þér
+      velja mér öll in beztu vápn ok sterkasta hest, sem þér eigið, því at ek mun mjök reyna hans,
+      áðr þessi orrosta lýkst." Var svá gert sem Vilhjálmr bað. Hrólfr fór með honum ok gekk eptir
+      vanda sínum. Fór konungr með herinn, til þess er hann fann Sóta. Váru þar sléttir vellir ok
+      þykkr skógr öðrum megin. Bjuggust nú hvárirtveggju til orrostu, ok var þar mikill herr saman
+      kominn. Var þar lúðragangr mikill, ok sigu saman fylkingar, ok æptu hvárrtveggi heróp. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="18">
+     <p> Eirekr konungr var þá í miðju brjósti fylkingar sinnar ok gekk þar vel fram í öndverðri
+      orrostunni. Sóti fylkti ok móti honum. Varð þar in harðasta orrosta, ok gengu hvárirtveggju
+      vel fram. En þegar orrostan tókst, reið Vilhjálmr út í skóginn í rjóðr eitt. Hrólfr mælti: "Nú
+      er þér, Vilhjálmr, at ríða fram ok vinna til meyjarinnar <pb n="399"/> ok drepa Sóta."
+      Vilhjálmr segir: "Verði mér þat til konu ok ríkis, sem auðit verðr, en þat vinn ek til engra
+      hluta at voga mínu lífi í slíka orrostu, eða hvat skal mér jungfrú eða ríki, ef ek missi
+      lífit? Er þér miklu nær at frelsa mik ór ánauð ok þrældómi. Tak nú vápn mín ok hest, ríð fram
+      ok drep Sóta, ella muntu mér þjóna verða um þína daga." Hrólfr tók þá hestinn ok vápnin
+      Vilhjálms ok reið til bardagans. Orrostan var mjök mannskæð ok hallaðist mjök á Eirek konung,
+      því at þeir Tattararnir gengu hart fram. Sóti ok Norðri ruddust um fast, ok hrökk undan allt.
+      Sóti hafði atgeir at vega með ok gerði ýmist hann hjó eða lagði. Norðri hafði sverð gott, ok
+      gekk hart fram. Eirekr konungr hafði sótt með miklu kappi í miðjan her Sóta, þar til er Norðri
+      kom móti honum ok margir Tattarar. Þeir sóttu fast at konungi. Fell þá mjök lið hans, svá at
+      hann var nauðliga staddr milli sinna óvina. Hrólfr reið nú fram með vápnum Vilhjálms svá hart,
+      at fylking Sóta hrökk fyrir honum, hjó ok lagði til beggja handa ok felldi margan mann, þar
+      til hann kom móti Eireki konungi. Hrólfr drap þar meir en þrjá tugi manna. En er Sóti sér þat,
+      eirir honum stórilla ok sneri þangat, sem Hrólfr var, ok lagði til hans með atgeirnum. Hann
+      kom skildi fyrir sik ok lagði í móti fyrir brjóst Sóta, ok beit ekki á, en brotnaði spjótit í
+      falnum. Sóti hjó tveim höndum til Hrólfs. Höggit kom á miðjan skjöldinn, ok þar í sundr, ok
+      hestinn fyrir framan bóguna, svá at í jörðu nam staðar. Var Hrólfr þá á fæti mjök móðr, því at
+      hann hafði ákafliga barizt áðr um daginn. Eirekr konungr barðist við Norðra. Var þeira atgangr
+      harðr. Hrólfr hjó þá höfuð af hesti Sóta. Váru þeir þá bádir gangandi. Sóti hjó til Hrólfs, en
+      hann veik sér undan, ok <pb n="400"/> sökk atgeirrinn í jörðina allt upp at höndum honum.
+      Hrólfr hjó með báðum höndum á öxl Sóta, svá at sverðit gekk sundr fyrir framan hjöltin. Hrólfr
+      varð reiðr mjök ok hljóp at Sóta ok setti gaddhjaltit í höfuð honum, svá at stóð í heilanum,
+      en við því gat hann eigi gert. Fell Sóti þar til jarðar ok var þegar dauðr. Eirekr konungr
+      hafði þá drepit Norðra. Brast þá flótti í liði Tattara, ok rann hverr til sem mest mátti.
+      Eirekr konungr rak flóttann ok hans menn ok drápu hvern, er þeir náðu. Fengu þeir þar mikit
+      herfang í gulli ok silfri, vápnum, klæðum ok öðrum dýrgripum. Hrólfr vildi eigi reka flóttann.
+      Tók hann sér hest ok hljóp á bak ok reið út í skóginn til Vilhjálms ok segir honum, hversu
+      farit hafi. Bað Hrólfr hann taka hest þenna ok vápn sín, -- "lát nú at öllu hraustliga ok flýt
+      nú brullaupsgerðinni." Vilhjálmr mælti: "Vel höfum vit fram gengit, ok er mikils vert um ráð
+      mín ok vitsmuni, hversu mikit ek get til leiðar komit, ok mun ek frægðarmaðr verða." Hrólfr
+      brosti at orðum hans ok sagði, at honum þótti hann lítit gott vinna til frægðarinnar.
+      Vilhjálmr stígr nú á hestinn ok ríðr með öllum sínum herklæðum til Gyðu, konungs systur, ok
+      segir mikit af sinni framgöngu ok hreystiverkum. Eirekr konungr var þá heim kominn ok genginn
+      til drykkju í höll sína. Vilhjálmr gekk fyrir konung ok kvaddi hann ok mælti: "Nærri var yðr
+      nú farit í dag, herra, áðr ek hjálpaði yðr. Þurfi þér nú eigi at geta til, hverr ek er eða
+      hvat ek fæ gert, því at mér er ekki ómáttugt." Konungr segir: "Þat hygg ek, Vilhjálmr, at þín
+      væri vápnin ok herklæðin, en Hrólfs hendrnar." Hrólfr segir: "Þat hygg ek, at gjarna vildi ek
+      eiga systur þína ok mega kenna mér at réttu hreystiverk Vilhjálms, en þat kemr mér skammt fram
+      at ljúga þeim sæmdum <pb n="401"/> á mik, er ek vinn ekki til ok ek er eigi til borinn."
+      Vilhjálmr mælti: "Undarligt mun þat þykkja, herra, þeim mönnum, sem til spyrja, at þér vilið
+      mína frægð ok hreystiverk fordjarfa, eða þykkir yðr meiri sæmdarauki, at einn drengr af
+      kotkarlaætt hafi unnit þetta ok eignist systur yðra, slíkr sem Hrólfr er, því at ósýniligr mun
+      hann þykkja til góðs höfðingja, fólki at ráða eða fremd at vinna? En ek er jarl at nafnbót ok
+      jarls sonr, kominn af sjálfri konungaættinni, fríðr ásýndar ok fullhugi inn mesti ok at öllum
+      hlutum ágætr, þat er tígnum mönnum berr at hafa. Nú ef þér vilið eigi festar eða brullaupsgerð
+      fram láta eptir skildögum, skal ek í burtu verða ok bera þinn vanheiðr á hvert land, at þér
+      hafið níðzt á mér ok rofit orð yðar ok trú. Var þat talat í mínu landi, at hver konungsdóttir
+      væri fullsæmd af mínu gjaforði." Eirekr konungr mælti: "Eigi skal þat fréttast, at ek níðist á
+      þér, ok mun ek halda allan minn skildaga, en þat undra ek, at Hrólfr gengr aldri ór hug mér,
+      um meðferð ok athæfi ykkart, því at eigi þykki mér þat at tilskipuðu vera." Skildu þeir nú
+      talit, en konungr lét nú við brullaupi búast, ok var þar sótt veizla virðulig. At þeiri veizlu
+      gekk Vilhjálmr at eiga Gyðu, systur Eireks konungs, ok hafði hún þar engi mótmæli. Fekk
+      Vilhjálmr þá marga menn til þjónustu, ok lét hann nú mikit yfir sér. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="19">
+     <p> Þat var einn morgun snemma, at Hrólfr gekk í skemmu þá, er Vilhjálmr svaf í, gekk at
+      sænginni ok mælti: "Nú er svá komit, Vilhjálmr, at þú ert orðinn konungs mágr, en ek hefi
+      þjónat þér allan tíma. Segi <pb n="402"/> ek þér nú upp mína þjónustu ok lausan allan okkarn
+      skilmála. Máttu nú vel láta líka þér, at vit skiljum svá búnir. Virði ek meir til þess
+      drengskap minn en þína tilgerð." Gekk Hrólfr síðan burt, en Vilhjálmr varð mjök hvimsa við.
+      Gyða spyrr, hví Hrólfr færi burt svá skjótt eða fyrir hverja sök hann færi þvílíkum orðum um.
+      Vilhjálmr segir: "Þat er hans náttúra, at hann vill hvergi vera í sama stað meira en mánuð eða
+      tvá, ef hann réði, en ek hefi lengi haldit honum hræddum. Nú er þat til þrautar, at sá hefir
+      verr, er hans þjónustu hefir, því at honum er allt illa gefit. Er hann bæði þjófr ok illmenni,
+      en eigi veit ek, hvárt ek nenni at láta drepa hann hér í ókunnu landi, en þó mun hann skjótt
+      birta, hverr maðr hann er, ok mun hann þeim illa launa, er bezt gerir til hans." Skildu þau nú
+      talit. Leið veizlan vel fram. Svá er sagt, at lið þat, er undan komst af her Sóta, sigldi heim
+      í Tattararíki, ok höfðu fengit mikinn mannskaða. Þótti Menelaus konungi þeira ferð ill orðin,
+      ok varð svá búit at vera. Snemma um várit kómu þeir Sörkvir ok Brynjólfr af Jötunheimum ok
+      færðu Eireki konungi marga fáséna gripi. Höfðu þeir Grímr átt margar orrostur ok fengit jafnan
+      sigr. Hrólfr var með konungs hirð, ok var fátt með þeim öllum Sörkvi, Brynjólfi ok Vilhjálmi.
+      En vel kom Hrólfr sér við sessunaut sinn, því at hann gaf jafnan silfr á báðar hendr, en engum
+      gerði hann gott, meðan hann var hjá Vilhjálmi. Sá var nú inn þriði vetr, er konungsdóttir átti
+      at fá mann til burtreiðar við Sörkvi, ok hugsaði Eirekr konungr nú til sín ok þótti sem
+      konungsdóttir mundi engan mann fá. <pb n="403"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="20">
+     <p> Litlu síðar kómu sendimenn konungsdóttur til Eireks konungs með þeim erendum, at hún
+      beiddi, at hann léti þing stefna fjölmennt mjök, ok á því þingi vildi hún kjósa mann til
+      burtreiðar við Sörkvi, en ef hún fengi engan þann, er til þess vildi verða, þá vill hún ganga
+      með konungi, eptir því sem fyrr váru skildagar ok sættir þeira í milli. Við þeiri orðsending
+      varð konungur mjök léttbrýnn ok þótti nú jungfrúin sér í hendi. Lét hann nú þing kveða ok boða
+      þangat múg ok margmenni af borgum ok kastölum ok ór nálægum heruðum, svá ok it sama
+      konungsdóttir af sínu ríki bauð til sín mannvali því, er röskvast var innanlands. Kom þar ok
+      margr óboðinn, því at mörgum var forvitni á, hversu til mundi ganga. Váru allir landsmenn
+      hugsjúkir fyrir hennar hönd. Þingit var sett skammt frá kastala Ingigerðar konungsdóttur.
+      Eirekr konungr kom til þingsins með miklu fjölmenni. Var þar með honum Sörkvir ok Brynjólfr ok
+      Vilhjálmr, mágr hans, ok létu allir mikit yfir sér. Hrólfr var ok þar í för ok hafði með sér
+      vápnin Hreggviðarnaut, ok þótti lítils um hann vert. Var þar nú saman komit mikit fjölmenni.
+      Svá var skipat mönnum á þinginu, at raðir váru settar í hringa ok eitt hlið á, er ganga mátti
+      í milli. Vilhjálmr sat it næsta konunginum, þá Sörkvir ok Brynjólfr út í frá, en aðrir
+      vildarmenn sátu sér. Hrólfr sat utarliga í yzta hringnum ok mjök lágt. At svá skipuðu gengr
+      Ingigerðr konungsdóttir á þingit svá fögr ok lystilig, at eigi mátti ofsögum segja af hennar
+      vænleik. Horfðu allir menn á hana nema <pb n="404"/> Hrólfr. Hann leit eigi til hennar ok dró
+      niðr höttinn fyrir andlitit. Konungsdóttir gekk fyrir hvern mann ok leit í augu þeim. Gekk hún
+      svá annan hring ofan, en annan fram. At lyktum kom hún þar, er Hrólfr sat, ok þreif í hönd
+      honum, en hann sat sem áðr. Hún hnykkir þá upp kápuhettinum ok mælti: "Eigi er hér gott val á
+      mönnum, en þenna kýs ek til burtreiðar fyrir mik móti Sörkvi, ok skal sjá maðr með mér fara,
+      ef hann vill." Hrólfr segir: "Allheimskliga kýss þú, því at ek kann eigi at ríða einn saman,
+      svá at ek falli eigi ofan. Er ek ok hræddr, þegar menn ýglast á mik." Konungsdóttir segir:
+      "Aldri sá ek þik fyrr, en þó skaltu eigi undan ganga, ef ek má ráða." Eirekr konungr mælti:
+      "Þat hugða ek, jungfrú, at þér skylduð mann kjósa innlenzkan, en eigi ór öðrum ríkjum. Er
+      Hrólfr sveinn Vilhjálms ok minn mann. Skal hann því frjáls af þessu." Hrólfr segir: "Einkis
+      manns sveinn er ek hér í landi. Skal ek ok at vísu veita konungsdóttur ina fyrstu bæn, er hún
+      biðr, ef hún þykkist nokkut frjálsari eptir en áðr." Stendr Hrólfr upp síðan ok gengr með
+      konungsdóttur ok allir hennar menn heim í kastalann. Setr hún Hrólf í hásæti ok veitir honum
+      allan prís ok gleði. Eirekr konungr fór í annan kastala af þinginu ok var mjök ókátr. Flestir
+      menn undruðust, at konungsdóttir kjöri þenna mann, er ósigrstrangligastr var. Iðraðist konungr
+      mjök, er hann hafði játat þessu konungsdóttur, ok bað Sörkvi nú duga eptir megni ok spara engi
+      sín konstr, er hann mætti frammi hafa, -- "hefir mér jafnan sagt þungt hugr um þenna mann.
+      Skaltu nú ok vel geyma herklæðin Hreggviðarnauta, at eigi megi oss þat meina." Hrólfr var nú í
+      kastalanum hjá konungsdóttur í góðum fagnaði, ok segir hann henni sitt <pb n="405"/> erendi
+      jarlsins vegna, en hún segist þat gerla áðr vita mundu ok því ráða, -- "at ek fara með þér
+      burt heðan, en þú þætti mér makligastr mín at njóta, ef þú frelsaðir mik af óvina valdi."
+      Skildu þau at svá mæltu. Um morgun var Hrólfr snemma á fótum ok fór í herklæðin
+      Hreggviðarnauta, en gyrði sik með sverðinu góða. Konungsdóttir fekk honum burtstöngina ok
+      skjöldinn, er faðir hennar hafði átt. Bað hún hann þá til ganga ok taka hestinn Dúlcifal. Var
+      hann þá rekinn í sterkar grindr með mörgum hrossum. Beit hann ok barði ok drap mörg hrossin.
+      Hrólfr gekk at grindunum ok drap stönginni á skjöldinn. Dúlcifal gekk at Hrólfi, en svá söng í
+      stönginni ok skildinum, at öllum þótti undr í, er hjá váru. Hrólfr tók nú hestinn ok lagði á
+      söðulinn ok hljóp upp fimliga með öllum sínum herklæðum, en Dúlcifal sprang af stað ok stökk
+      út yfir grindrnar, svá at hann kom hvergi nærri, ok síðan fram á völlinn. Nú var Sörkvir ok
+      kominn til leikvallar ok konungr með honum, Vilhjálmr ok Brynjólfr ok mikill múgr manns. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="21">
+     <p> Skikkar nú hvárr sinni burtstöng til lags, ok ríðr hvárr móti öðrum sem hestarnir kunna
+      harðast. Leggr þá hvárr til annars með miklu afli. Spjót Sörkvis kom í skjöld Hrólfs ok renndi
+      út af, en Hrólfr stakk hjálminum af Sörkvi. Átti hann þá þriðjung skeiðs eptir, er Hrólfr var
+      af. Dúlcifal vill eigi staðar gefa ok snýr aptr í móti, ok hefir Sörkvir eigi af riðit
+      fjórðung, áðr en þeir mætast. Leggr enn hvárr til annars, ok fór sem fyrr, at Sörkvir vann
+      ekki á, en hann missti skjöldinn. <pb n="407"/> Þeir ríða þá at í þriðja sinn. Ferr þá
+      Dúlcifal sem fugl flygi, þar til þeir mættust. Hrólfr leggr til Sörkvis, svá at festi í
+      brynjunni, ok vegr hann upp ór söðlinum ok hleypir með hann um völlinn, þar til hann steypir
+      honum at höfðinu í einn fúlan pytt, svá at Sörkvir gekk ór hálsliðnum. Stóð þá Dúlcifal kyrr,
+      sem hann væri grafinn niðr. Varð nú konungsdóttir mjök fegin ok allr landslýðr. En er Eirekr
+      konungr sér þetta, verðr hann ákafliga reiðr ok bað alla sína menn slá hring um Hrólf ok drepa
+      hann sem skjótast ok kvað hann síðar verr gera mundu, ef hann yrði nú lauss. Var nú svá gert
+      sem konungrinn mælti, at sótt var at Hrólfi öllum megin. En er Dúlcifal sér þat, ríss hann upp
+      örðugr ok lamdi með framfótunum ok beit með tönnunum marga menn til bana. Augu hans sýndust
+      sem blóðsegar, en eldr þótti brenna ór nösum honum ok munni. Fór hann svá hlaupandi, at hann
+      braut menn undir sik. Hrólfr sat ok eigi kyrr á baki. Reyndi hann nú sverðit Hreggviðarnaut.
+      Hann hjó ok lagði til beggja handa bæði menn ok hesta. Var hverjum víss dauðinn, er fyrir
+      honum varð. Stökk nú allt undan. Hrólfr reið þar at, er konungr var fyrir, en hann hafði á
+      hlaupi undan. Drap Hrólfr þá meir en hundrað manna, áðr hann komst á skóg, ok var móðr, en
+      ekki sárr. Þóttist nú Eirekr konungr hafa fengit mikinn mannskaða ok fór heim í kastala sinn
+      um kveldit mjök óglaðr. Þetta sama kveld gerði konungsdóttir sik blíða við menn sína ok veitti
+      þeim kappsamliga. Hún gerði allar sínar skemmumeyjar svá drukknar, at þær fellu sofnar niðr,
+      en er skammt var af nótt, kom Hrólfr í kastalann ok hitti konungsdóttur ok bað hana búna með
+      sér at fara. Hún segir sér þá ekki at vanbúnu. Hrólfr hafði <pb n="408"/> með sér tvá kistla
+      stóra, ok váru í dýrgripir konungsdóttur. Stíga þau síðan á Dúlcifal ok riðu leið sína. Eigi
+      er þat greint, hvar þau fara eða hversu lengi þau váru á leiðinni, en meir fóru þau um nætr en
+      um daga. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="22">
+     <p> Nú er at segja frá Eireki konungi, at hann vaknar um morguninn ok bað menn herklæðast ok
+      leita eptir Hrólfi. Var nú svá gert, ok leituðu hans þrjá daga ok fundu hann eigi. Lét konungr
+      þá leita til kastalans konungsdóttur, ok var hún þaðan í burtu, svá at engi maðr vissi, hvat
+      af henni var orðit. Fekk nú konunginum mikils ótta allt saman, ok var mjök reiðr. Hann mælti
+      til Vilhjálms: "Þat sé ek, at þú hefir logit allt at mér, bæði frá þér ok Hrólfi. Má nú sjá,
+      at hann er allr annarr maðr en þú hefir sagt. Sé ek, at Hrólfr hefir í hauginn farit, en eigi
+      þú. Hefir hann fengit in góðu herklæðin, en ek þau, er engu eru nýt. Mátti þat á honum sjá, at
+      hann var stórra manna, en þú ert dáðlauss svikari, ragr í hverja taug. Hefir þú vitat alla
+      hans fyrirætlan ok þorat eigi at segja mér. Hygg ek þik at heldr eiga ríki eða aðra góða
+      hluti, at ek ætla þik þrælborinn þorpara í allar ættir. Værir þú makligr, at ek léti hengja
+      þik á gálga fyrir þat fals ok svik, er þú hefir mér gert ok minni systur, ok mun sá dauði
+      fyrir þér liggja, þó at hann komi nú eigi fram." Við þessi orð konungsins varð Vilhjálmr
+      hræddr mjök ok mælti: "Ek skal þat enn skjótt birta, hverr maðr ek er. Stíg ek á stokk ok
+      strengi ek þess heit, at ek skal eigi fyrr koma í sæng hjá Gyðu, systur þinni, fyrr en ek hefi
+      Hrólf af lífi tekit ok fært yðr höfuð hans ok jungfrúna. Skal <pb n="409"/> ek hér einkis
+      manns styrk til hafa né fylgi." Tók nú Vilhjálmr vápn sín ok hest ok reið burt sem hvatligast
+      ok eptir Hrólfi, en Eirekr konungr sat eptir í Garðaríki, ok þótti nú illa at fara. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="23">
+     <p> Nú víkr sögunni aptr í Danmörk til Þorgnýs jarls ok hans manna, ok á því sama hausti, er
+      Hrólfr fór til Garðaríkis, fór jarl um ríki sitt at veizlum, sem siðr hans var til. Einn dag
+      gekk maðr ókunnigr fyrir jarlinn ok nefndist Möndull Pattason ok sagðist farit hafa víða um
+      útlönd ok lézt frá mörgu segja kunna ok mikla frægð unnit hafa. Hann var lágr á vöxt ok mjök
+      riðvaxinn, fríðr at yfirlitum; utaneygðr var hann mjök. Jarl tók vel við þessum manni ok bað
+      hann með sér dveljast. Þat þekktist hann. Skemmti hann jarlinum optliga ok sagði frá mörgu
+      fróðliga. Þar kom, at jarlinn tók hann í mikla kærleika, at hann kallaði hann at hverju máli,
+      ok var Möndull á tali við hann nætr ok daga, svá at jarl gleymdi þar fyrir sinni ríkisstjórn.
+      Einn tíma sem optar er Björn ráðgjafi fyrir Þorgný jarli ok ávítaði hann fyrir þat, er hann
+      gerði ókunnigan mann sinn tryggðamann, ok þat tal tæki svá ór hófi at ganga, at hann gái eigi
+      síns ríkis þar fyrir. Jarlinn reiðist orðum Bjarnar ok sagðist gera mundu sem hann hafði
+      þenkt, hvat er Björn sagði. Möndull heyrir orð Bjarnar ok gaf sér ekki at. Björn talaði hér um
+      enn mörgum orðum sannliga ok gekk burt síðan. Björn átti hús í borginni nær jarls herbergi, en
+      annan garð utan borgar, sem fyrr var sagt. Einn dag kom <pb n="410"/> Möndull svá í herbergi
+      Bjarnar, at hann var eigi heima ok engi maðr annarr nema Ingibjörg, kona hans. Hann lék við
+      hana mjök blíðliga, en hún tók því vel. Þar kom, at hann leitaði við hana samfara ok fór þar
+      um mörgum fögrum orðum. Hann bauð henni af sér at þiggja marga góða gripi, en lastaði Björn í
+      hverju orði ok kvað hann ekki at manni vera. Ingibjörg reiddist þessu mjök ok svaraði honum
+      hæðiliga ok sagðist aldri með honum ganga skyldu. Möndull tók þá könnu ok brá undan yfirhöfn
+      sinni ok bað hana drekka sáttarbikar þeira, en hún sló hendinni neðan undir kerit ok upp í
+      andlit honum. Hann reiddist við þetta ok mælti: "Eigi skulum vér fyrr skilja, þú ok Björn,
+      bóndi þinn, en ek hefi launat ykkr því, sem þit eruð maklig, fyrir þá svívirðing, er þit hafið
+      mér gert, bæði með orð ok verk." Gekk hann síðan burt ok fyrir Þorgný jarl ok mælti: "Þat
+      vilda ek, herra, at þér sýnduð yðvart lítillæti ok þægið af mér belti eitt, er ek tók í arf
+      eptir föður minn." Hann leggr þat á borð fyrir jarlinn. Þat var allt með gulli gert ok
+      gimsteinum sett. Eigi þóttist jarl betra grip sét hafa. Jarl þakkaði honum ok sagðist eigi
+      þvílíka gjöf þegit hafa af ótígnum manni. Var Möndull þar um vetrinn í sömum kærleikum, en
+      fátt var Stefni til hans ok Birni. Jarl hafði mikla virkt á beltinu ok sýndi þat vinum sínum
+      jafnan, þá er hann hafði veizlur. Ingibjörg, kona Bjarnar, tók krankleika nokkurn undarligan
+      um vetrinn. Hún gerðist öll blá sem hel, en sinnaði um engan hlut, sem hún væri vitstola. Varð
+      Birni mikil raun at þessu, því at hann unni henni mikit. Þat bar til um várit at veizlu einni,
+      at beltit Möndulsnautr hvarf burt frá jarli. Var þess víða leitat ok fannst <pb n="411"/>
+      eigi. Þótti jarli þat mikill skaði ok lét mjök grund at gefa um eptirleitina, ok fannst þat
+      eigi. Jarl spurði Möndul, hvat hann hugði af orðit eða hversu eptir skyldi leita. Möndull
+      segir: "Vant er mér at kveða á mann, hverr tekit hefir, þótt ek þykkist nærri geta munu, en
+      þat er líkara, at sá hafi fleira frá yðr stolit en þessu einu, er beltit hefir tekit. Mun þat
+      ríkr maðr gert hafa, sá er jafnan hefir yðarn heiðr öfundat. Nú er þat mitt ráð, at þér látið
+      rannsókn uppi hafa, þá er alla varir minnst, ok lát engan undan ganga, þótt framr sé, en eigi
+      mun sá sjálfkrafi sína hirzlu uppi láta, er tekit hefir, en hverr, sem þat hefir gert, má at
+      réttu á gálga hanga." Jarli þykkir þetta gott ráð ok segir svá vera skyldu. Lætr hann nú saman
+      kalla alla sína hirð ok segir þeim, at hann vill rannsaka hvers manns hirzlu, fyrst Stefnis,
+      sonar síns, ok Bjarnar ráðgjafa, svá at aðrir menn mætti því betr við una. Þeir létust þess
+      búnir. Var nú svá gert, at Stefnir sýndi fyrst sínar féhirzlur, ok fannst þar ekki. Síðan var
+      hjá Birni leitat ok öllum, er í váru borginni, ok kunni þat eigi at finnast. Þá mælti Möndull:
+      "Eiga mun Björn fleiri hirzlur en hér at eins í staðnum, ok hefir þar eigi leitat verit."
+      Stefnir sagði: "Víst á Björn utan borgar. Ek trúi ok eigi þangat leita mega." Jarl segir
+      þangat fara skyldu, ok svá gerðu þeir. Lét Björn þá uppi rannsókn sem fyrr. Möndull gengr at
+      fornri kistu einni ok spyrr, hvat þar er í. Björn segir þar í vera fornan skipsaum. Jarl bað
+      upp lúka. Björn leitaði at lyklinum ok fann ekki. Jarl gekk þá at, braut upp ok bar upp þat,
+      er í var, en á neðanverðum botninum lá beltit. Allir menn undruðu þetta, en Björn þó mest, því
+      at hann vissi sik saklausan af þessu. Jarl varð nú reiðr mjök ok bað Björn höndum taka, -- "ek
+      skal," segir hann, "hengja þik á <pb n="412"/> hæsta gálga, þegar er morginn kemr, því at
+      þetta hefir hann fyrri gert, þó at nú at eins sé víst orðit." Var nú Björn tekinn ok bundinn
+      sterkliga, því at engi þorði móti at mæla, þó at hann þætti ómakligr þessa. Björn bauð
+      skírslur fyrir sik, sem landssiðr er til, en jarl vildi þat ekki heyra. Stefnir fekk þat af
+      föður sínum, at hann lifði sjau nætr, ef þat fyndist nokkut í, at honum væri til hjálpar, ok
+      skyldi hann vera í varðhaldi Mönduls ok eigi í borgina heim koma. Margir hörmuðu þetta, því at
+      Björn var mjök vinsæll. Fór jarl nú heim í staðinn með mönnum sínum, ok gengu undir
+      drykkjuborð. En þegar hirðin hafði kennt fyrsta rétt ok drukkit fyrsta bikar, var öllum horfin
+      vinátta við Björn, ok þótti þá öllum sem hann mundi sannr at sök. Möndull var nú í garði
+      Bjarnar ok rak í burtu alla hans heimamenn. Hann tók Ingibjörgu ok lagði í sæng hjá sér hverja
+      nótt, Birni ásjáanda, ok hafði hún allt blíðlæti við hann, en mundi ekki til Bjarnar, bónda
+      síns. Þótti nú Birni þungliga at fara, ok líða nú svá þessar sjau nætr, sem frá var sagt. Víkr
+      nú aptr sögunni þangat, er fyrr var frá horfit, því at eigi verðr af tveimr hlutum sagt í
+      senn, þótt báðir hafi jafnfram orðit. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="24">
+     <p> Nú er frá því at segja, at þau fóru ór Garðaríki Hrólfr ok konungsdóttir, at einn dag sjá
+      þau, hvar einn maðr ríðr eptir þeim. Hann er í línklæðum einum ok gyrðr sverði. Hann dregr
+      skjótt eptir þeim. Kennir Hrólfr, at þar er Vilhjálmr kominn, en þegar hann sér <pb n="413"/>
+      Hrólf, fellr hann til fóta honum ok biðr sér líknar á marga vegu, -- "hefi ek hart af fengit,
+      síðan vit skildum," segir Vilhjálmr, "því at konungr lét setja mik í myrkvastofu ok vildi láta
+      drepa mik. Komst ek í burt með ráðum, bæði frosinn ok hungraðr. Er ek nú kominn á þína
+      miskunn, Hrólfr minn, hvat sem þú vilt af mér gera. Vilda ek aldri gert hafa, er þér mætti
+      mislíka, ok alla daga vera þér hollr ok trúr heðan frá, ef þú lætr mik nú lifa ok fylgja þér
+      aptr til Danmerkr." Hrólfi fekkst hugar við hörmungarlæti Vilhjálms ok segist eigi nenna at
+      drepa hann, þó at hann væri þess makligr. Konungsdóttir kvað því misráðit vera mundu, -- "því
+      at hann hefir illt yfirbragð, ok illa mun hann reynast." Vilhjálmr fór nú með þeim ok gerði
+      sik mjök þjónustumjúkan, en aldri var honum óhætt at koma nærri Dúlcifal, því at hann beit
+      Vilhjálm ok barði, ef hann náði. Fóru þau til þess, er ein dagleið var eptir til Þorgnýs
+      jarls. Höfðu þau tekit sér náttstað undir skógi einum ok skutu sér laufskála um kveldit. Lágu
+      þau Hrólfr ok konungsdóttir bæði saman hverja nótt ok nakit sverð í milli þeira. Vilhjálmr
+      stakk Hrólfi svefnþorn um nóttina, en um morgin stóð hann upp snemma ok tók hestinn Dúlcifal
+      ok lagði söðul á hann, ok þetta eitt vildi hann at Vilhjálmi þiggja. Hrólfr lá í herklæðum
+      sínum ok utan yfir Véfreyjunaut. Ingigerðr stóð upp. Hún knúði Hrólf ok fekk eigi vakit hann,
+      hvern veg sem hún fór at. Gengr hún þá ór skálanum ok grætr. Vilhjálmr sér þat ok spyrr, hvárt
+      henni gætist lítt at hvílbrögðunum. Hún segir: "Allt má mér vel við hann líka, en svá sefr
+      hann fast, at ek fæ ekki vakit hann." "Ek skal þá vekja hann," segir Vilhjálmr. Gengr hann þá
+      at ok ryðr í sundr skálanum. Síðan <pb n="414"/> hjó hann báða fæturna undan Hrólfi ok stakk
+      þeim milli klæða sér. Hrólfr svaf sem áðr. Konungsdóttir spyrr, hvað brysti. "Lífstundir
+      Hrólfs," sagði Vilhjálmr. Konungsdóttir segir: "Njót allra manna verst lífs ok handa, ok var
+      þetta it mesta óhappaverk unnit. Muntu illa ills bíða." Vilhjálmr mælti: "Tveir eru kostir
+      gervir, taktu hvárn, er þér þykkir vildari, ok er sá annarr, at þú skalt fara með mér til
+      Þorgnýs jarls ok sanna þat, er ek segi, því at ek hygg mér lítit til sæmdar at fara aptr í
+      Garðaríki. Hinn er annarr kostr, at ek drep þik, sem þú ert komin." Hún hugsar at kjósa sér
+      eigi dauða, meðan hún á kost at lifa, en þykkir fyrir Vilhjálmi einskis ills örvænt. Segir hún
+      þá, at hún mun honum fylgja ok eigi í móti mæla því, er hann segir, ef hann gerði henni engan
+      vanheiðr í sínum orðum. Varð hún hér eið at vinna. Vilhjálmr vildi taka Dúlcifal, en þess var
+      engi kostr, því at hann beit ok barði á alla vega, svá at hann mátti honum hvergi nærri koma,
+      ok eigi mátti hann at Hrólfi ganga fyrir hestinum. Mátti hann ekki með sverðit fara fyrir
+      þunga sakir. Lá Hrólfr nú þar eptir, en þau fóru leiðar sinnar. Þótti konungsdóttur nú þungt
+      at fara ok mikit við Hrólf at skilja, svá lítt sem hann var staddr. Er eigi frá þeira ferð
+      fyrr sagt en þau kómu til Þorgnýs jarls. Gengr hann móti konungsdóttur með allri vegsemd ok
+      blíðu. Hann spurði, hvat manna hann væri. Hann svarar: "Ek er einn bóndason af góðri ætt hér í
+      Danmörk ok kom ek í ferð með Hrólfi, þá er hann fór til Garðaríkis. Höfum vit þar unnit margar
+      þrautir, ok at seinustu vann hann Sörkvi, kappa Eireks konungs, ok drap hann. Þat þoldi
+      konungrinn eigi ok lét taka Hrólf ok drepa. Eru hér fætr hans, er ek hefi með mér til sýnis.
+      Náði ek síðan konungsdóttur, ok færði <pb n="415"/> ek hana hingat. Hefi ek lagt mik í margan
+      lífsháska fyrir yðra skuld ok báðir vit Hrólfr. Var ok engi honum hraustari, því at hann gafst
+      aldri upp, fyrr en hann missti báða fætrna. Þykkjumst ek nú kominn til ráðahags við Þóru,
+      dóttur yðra. Er yðr smánarlaust at eiga mik fyrir mág fyrir ættar ok mannskapar sakir. Þarf
+      því eigi at fresta, at nú sé bæði saman brullaupin." Flestum þótti saga Vilhjálms sannlig, ok
+      hörmuðu allir dauða Hrólfs, mest jarl ok Stefnir, sonr hans. Ingigerðr grét mjök. Jarl
+      blíðkaði hana ok spurði, hvárt Vilhjálmr hefði honum satt sagt. Hún sagði: "Eigi mun Vilhjálmr
+      meira at yðr ljúga en öðrum, en þess vil ek yðr biðja, at þér frestið mánuð brullaupunum. Kann
+      þar margt til at koma, at yðr þykkir eigi svá mega vera." Þóru fell ok lítt til Vilhjálms ok
+      beiddi þess sama. En er Vilhjálmr heyrði þetta, kjaptaði hann: "Látið þér eigi á brullaupum
+      frest, hvat sem þær segja, því at kvenna skaplyndi er ómerkiligt." Stefnir sagði: "Vel stendr,
+      at konungsdóttir ráði þessu, ok eru þetta eigi löng frest." Vilhjálmr segir: "Óhöfðingliga er
+      þat sagt at láta konur ráða fyrir sér ætlun sinni eða son sinn, ef þau ráða þó verr." Stefnir
+      reiddist við orð hans ok sagði þær skyldu ráða, en eigi Vilhjálmr, -- "ella skal ek missa
+      lífit." Vilhjálmr segir þat skaðalaust, þó at hann væri drepinn. Jarl bað þeim þetta eigi at
+      grein verða, -- "en þó mun Stefnir ráða því, er hann vill til hlutast, en þú, Vilhjálmr, munt
+      ná ráðahag við dóttur mína, því at þú hefir vel til unnit." Stefnir tók í hönd Ingigerðar ok
+      leiddi hana til skemmu systur sinnar, læsti sídan ok geymdi sjálfr lykkilinn. Þat er sögn
+      manna, at Ingigerðr konungsdóttir hafi geymt fætrna ok borit hjá þau grös, er ekki mátti
+      deyja. Líkaði Vilhjálmi illa við Stefni ok varð at hafa svá búit. <pb n="416"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="25">
+     <p> Nú er þar til máls at taka, er Hrólfr er. Hann lá til kvelds sem dauðr, því at svefnþorninn
+      lá í höfði honum. Hafði Vilhjálmr hann ekki burt tekit. Dúlcifal stóð með söðli ok beizli þar
+      yfir honum, til þess er hann gekk at Hrólfi ok velti honum með höfðinu um völlinn. Fell þá
+      burtu svefnþorninn. Hrólfr vaknar við þat, at undan váru báðir fætrnir, horfinn skálinn, en
+      Vilhjálmr burt ok konungsdóttir. Þar lá sverðit Hreggviðarnautr. Hrólfi þótti nú mjök harkast
+      um, en þó hreyfir hann sik ok tekr lífsteinana ok skefr í stúfana. Tók þá skjótt sviða ór
+      sárunum. Hrólfr skreið at hestinum, en hann lagðist niðr. Fekk Hrólfr þá velt sér í söðulinn.
+      Stóð Dúlcifal þá upp. Reið Hrólfr þá til þess, er hann kom til bæjar Bjarnar, vinar síns, því
+      at hann vildi eigi ríða til borgarinnar, en þótti langt til kastala síns. Dúlcifal lagðist,
+      þegar hann kom í garðinn. Tók Hrólfr þá beizl af honum, en skreið inn í húsin. Þótti honum þar
+      auðigt mjök. Hrólfr fór í eldaskála ok kastar sér niðr í sætit, þar er skuggi bar á, ok lá þar
+      um stund. Hann sér þá, hvar kona gengr ok hefir eld meðferðar. Þessi kona var blá at yfirlit
+      sem klæði ok mjök bólgin. Hún kveykti eld. Litlu síðar kemr inn maðr í skarlatsbúnaði ok
+      skarband um enni af gulli gert. Hann var lágvaxinn ok miðdigr. Hann leiddi mann einn eptir
+      sér, ok var bundinn at höndum ok fótum. Þar kennir hann Björn, vin sinn, ok þykkir hann
+      harðliga leikinn. Hann leggr Björn niðr, en sezt niðr við eldinn ok setr konuna hjá sér ok
+      kyssti hana. Björn mælti: "Illa gerir þú, Möndull, er þú hefir svikit konu mína, en forlogit
+      mik við jarl, svá at hann lætr hengja <pb n="417"/> mik á þriggja nátta fresti fyrir enga sök.
+      Mundi eigi svá fara, ef Hrólfr Sturlaugsson væri innan lands. Mun hann ok mín hefna, ef honum
+      verðr aptrkvámu auðit." Möndull svarar: "Aldri mun hann þér hjálpa né þín hefna heðan frá. Má
+      ek þat af honum segja þér, at undan honum eru báðir fætrnir ok ódauðr at eins. Mun hann aldri
+      lífs aptr koma." Hrólfr færist nú á stúfana upp í sætinu ok tekr báðum höndum um háls Mönduls
+      ok mælti: "Þat skaltu vita, at enn lifa hendr Hrólfs, þó at fætrnir sé farnir," kippir honum
+      niðr undir sik, svá at kvárar niðr í honum. Hann mælti þá: "Ger svá vel, Hrólfr, at þú drep
+      mik eigi. Skal ek þik þá heilan gera, því at ek á þau smyrsl, er engi eru slík á Norðrlöndum.
+      Hefi ek svá mikil konstr til læknisdóms, at ek má allt heilt vinna, þat lífs er ván, innan
+      þriggja nátta. Ek vil þér ok kunngera, at ek er dvergr í jörðu byggjandi, ok dvergsnáttúru
+      hefi ek á kynstrum til lækidóms ok hagleik. Fór ek þess erendis hingat, at ek ætlaði at heilla
+      Þóru jarlsdóttur eða Ingibjörgu ok hafa þær burtu með mér. En fyrir því at Björn sá gerst,
+      hverr ek var, þá vildi ek svá fyrir koma honum, at ek tók beltit ok lét ek í kistu hans, en ek
+      tók burt lykkilinn, at hann þætti því líkligri til, at hann hefði stolit, sem hann væri
+      tregari til kistunni upp at lúka. Hefi ek snúit allra manna vináttu við Björn. Nú vil ek
+      gjarna allt til lífs mér vinna, þat er þú kannt beiða, því at minn lífgjafa skal ek aldri
+      svíkja." Þá mælti Hrólfr: "Þat mun ek voga at gefa þér líf, en fyrst skaltu Ingibjörgu lækna
+      ok leysa Björn." Lét hann þá Möndul upp standa, ok var hann svartr ok ljótr eptir skapan
+      sinni. Leysti hann Björn, en færði Ingibjörgu ór klæðum ok smurði hörund hennar með góðum
+      smyrslum ok gaf henni minnisveig at drekka, ok vitkaðist <pb n="418"/> hún þá skjótt, en
+      hvítnaði hörundit, ok tók þá heilsu sína ok týndi allri ást við dverginn. Þökkuðu þau Björn
+      Hrólfi, sem verðugt var. Eptir þat hvarf Möndull ok kom aptr, þegar stund leið, ok fór þar með
+      fætr Hrólfs ok stóran smyrslabuðk. Hann mælti: "Nú mun ek þat gera verða, sem ek hafði áðr
+      eigi ætlat, at græða þik, Hrólfr. Skaltu nú leggjast niðr við eldinn ok baka stúfana." Hrólfr
+      gerði svá. Smurði hann þá smyrslunum í sárin ok setti við fætrna ok batt við spelkur ok lét
+      Hrólf svá liggja þrjár nætr, leysti þá af umbönd ok bað Hrólf upp standa ok reyna sik. Hrólfr
+      gerði svá. Váru honum fætrnir þá svá hægir ok mjúkir sem hann hefði á þeim aldri sárr verit.
+      Nú þótt mönnum þykki slíkir hlutir ótrúligir, þá verðr þat þó hverr at segja, er hann hefir
+      sét eða heyrt. Þar er ok vant móti at mæla, er inir fyrri fræðimenn hafa samsett. Hefði þeir
+      þat vel mátt segja, at á annan veg hefði at borizt, ef þeir vildi. Hafa þeir ok sumir
+      spekingar verit, er mjök hafa talat í fíguru um suma hluti, svá sem meistari Galterus í
+      Alexandrí sögu eða Umeris skáld í Trójumanna sögu, ok hafa eptirkomandi meistarar þat heldr
+      til sannenda fært en í móti mælt, at svá mætti vera. Þarf ok engi meira trúnað á at leggja, en
+      hafa þó gleði af, á meðan hann heyrir. Þá mælti Hrólfr til Mönduls: "Nú hefir þú vel gert, er
+      þú hefir mik læknat. Skaltu hjá mér hafa nokkura hluti, er þú beiðir. Þess vil ek biðja, at þú
+      fylgir mér til Garðaríkis, ef ek ferr þangat aptr." Möndull segir svá vera skyldu, -- "mun ek
+      nú fara til minna heimkynna. Hefi ek hart af fengit okkrum viðskiptum ok þat harðast, at ek
+      skilda við Ingibjörgu, en þó mun nú <pb n="419"/> svá verða vera." Fór Möndull dvergr við svá
+      búit, ok vissi Hrólfr ekki, hvat at honum varð </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="26">
+     <p> Um morguninn eptir stendr Hrólfr upp ok herklæðist. Hann mælti til Bjarnar: "Nú munu vit
+      fara í borgina fyrir jarl." Björn segir: "Ófúss er ek þess, því at nú er úti sá tími, er mér
+      var griðum játat, ok er mér víss dauði, ef ek kem þar." Hrólfr mælti: "Til þess muntu hætta
+      verða." Fóru þeir nú til borgarinnar ok ganga inn í höllina ok námu staðar utarliga. Jarlinn
+      sat þá yfir drykkjuborðum ok kenndi eigi Hrólf ok engi sá, er inni var. En þegar sem jarlsmenn
+      sáu Björn, mæltu þeir allir til hans: "Djarfr gerist þjófrinn Björn, er hann gengr fyrir augu
+      jarls, ok illa hefir Möndull gætt hans, er hann er lauss orðinn." Einn maðr tók upp oxahnútu
+      stóra ok snarar at Birni, en Hrólfr tók hana á lopti ok sendi aptr þeim, er kastaði. Kom
+      hnútan fyrir brjóst honum ok í gegnum hann, svá at hún stóð föst í timbrveggnum. Allir
+      hljóðnuðu við þetta ok hræddust inn mikla mann, er inn var kominn. Hrólfr mælti til Bjarnar:
+      "Gakktu fyrir sæti Stefnis ok tala þessum orðum: "Bjóða mundi Hrólfr Sturlaugsson þér, ef hann
+      væri hér fyrir, en þú kæmir til." Björn þverfetar innar eptir höllinni, því at hann var hræddr
+      mjök, þar til hann kom fyrir Stefni. Mælti hann þá þessum orðum, er Hrólfr bauð honum. En er
+      Stefnir heyrði orð hans, stökk hann fram yfir borðit ok gekk utar at Hrólfi ok létti
+      kápuhettinum frá andliti honum. Kenndi hann þá Hrólf ok fagnaði honum forkunnar vel ok leiddi
+      hann fyrir föður sinn. <pb n="420"/> Jarl varð feginn kvámu Hrólfs ok stóð upp í móti honum
+      með allri blíðu. Vilhjálmr setti nú ekki vel augun, er hann sá Hrólf. Var hann stundum rauðr
+      yfirlits, en stundum bleikr sem bast af hræðslu. Þorgnýr jarl mælti: "Hér sýnist mér nú
+      Hrólfr, Vilhjálmr, en eigi dauðr." Hrólfr spyrr, ef Vilhjálmr væri þar. Hann segir: "Hér em
+      ek, Hrólfr minn, ok er allt á þínu valdi, þat mér til heyrir." Hrólfr segir: "Ekki skildist þú
+      vinsamliga við mik, Vilhjálmr, ok mun þér lengi illt innan brjósts búit hafa, þó at nú sé fram
+      komit, ok er þat nú vildast, at þú segir ævisögu þína, þótt eigi sé góð, því at lítill heiðr
+      mun þér at þínu lífi verða heðan frá." "Svá skal gera sem þú vilt, Hrólfr minn, því at þat mun
+      bezt gegna," segir Vilhjálmr. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="27">
+     <p> "Þat er upphaf at sögu minni, at faðir minn bjó við skóg einn hér í Danmörk, er Úlfr hét.
+      Hann átti sér konu ok átta börn, ok var ek eitt af þeim, it elzta at aldri. Faðir minn átti
+      geitr margar ok mjök óspakar. Var ek til þess fenginn at geyma þeira, ok allt gerða ek, þat er
+      til fell ok ek komst höndum undir, en viðgerningr var léttr, ok illa var ek klæddr. En þegar
+      ek kom eigi geitunum heim, þá var ek flengdr. Tók ek þetta illa at þola, þar til at ek kom
+      heim eina nótt; bar ek eld at húsunum, ok brenndi ek þau inni. Bjó ek þá búinu um langa stund.
+      Tók ek þá mikinn þroska. Eina nótt dreymdi mik, at maðr kom at mér mikill vexti ok nefndist
+      Grímr. Hann kvað mik vera gott mannsefni ok mikla giftu lagna verða, ef ek kynni <pb n="421"/>
+      eptir at leita, ok mælti til kaupa við mik. Ek spurði, hverninn kaup þat væri. Hann segir: "Ek
+      skal gefa þér enn meira afl en þú hefir áðr, þar með vápn ok góð klæði ok fleiri hluti aðra,
+      en þú skalt fara á fund Hrólfs Sturlaugssonar ok svíkja hann, ef þú getr, því at hann er nú á
+      ferð kominn, ok ætlar hann nú til Garðaríkis ok ná burt konungsdóttur. Mun hann mörgu illu af
+      stað koma, ef hann er eigi af dögum ráðinn. Má svá gera giftumuninn, at þú verðir mágr Eireks
+      konungs, en hann fái bana." Ek játaði þessu. Síðan tók hann horn undan skikkju sinni ok gaf
+      mér einn drykk. Þótti mér þá hlaupa afl í mik. Síðan skildu vit at svá mæltu, ok er ek
+      vaknaði, lágu þar bæði vápnin ok klæðin. Fór ek síðan, þar til er vit fundum Ölvi, frænda
+      minn. Váru þat allt mín ráð, er þar fór fram, því at ek þóttist vita, at þú mundir halda eiða
+      þína ok ek mundi kosti eiga at drepa þik, þá er ek vilda, ok þú hefðir unnit mér þat til
+      framkvæmdar. Þykkist ek nú vita, at þetta hefir Grímr ægir verit, er mér hefir vitrazt, ok því
+      fór ek ór Garðaríki eptir þér, at ek hræddumst, at hann mundi mér grimmliga hefna, ef ek gerði
+      þat eigi, er hann hafði mælt. Nú hafði ek ætlat at fá Þóru til eiginkonu, ok því færði ek
+      Ingigerði hingat, en eigi í Garðaríki. Hefði ek þar aldri óttalauss verit, ef it sanna væri
+      uppi um hagi mína, ok hefi ek ætlat at drepa Stefni ok svá jarl eptir ok taka Ingigerði ok
+      ráða einn fyrir ríkinu þaðan af. Mundi ek hafa gengit milli bols ok höfuðs á þér, Hrólfr minn,
+      í skóginum, ef ek hefði eigi óttazt Dúlcifal. Er nú ævisaga mín úti. Væntir mik nú, Hrólfr
+      minn, at þú munir gefa mér líf, þótt ek sé ómakligr, því at mér hefir nokkur várkunn á verit
+      at vinna til þvílíks heiðrs sem í boði var ok slíks kvánfangs ok mikils ríkis." Eptir þat
+      þagnar Vilhjálmr, <pb n="422"/> en öllum þeim, er heyrðu þessa sögu, þótti hann vera inn mesti
+      svikari. Eptir þat hefr Hrólfr upp sína sögu ok segir frá því, er hann fór heiman ór Danmörku,
+      ok til þess, er þá var komit, ok þótti mönnum mikils vert um hans frægð ok hreystiverk, ok
+      þótti dvergrinn honum sendr verit hafa til happa. Tók nú Björn aptr þvílík metorð ok heiðr sem
+      hann hafði áðr haft, en Vilhjálmr var nú fanginn, ok er stefnt til hans fjölmennt þing. Var þá
+      um leitat, hvern dauðadag hann skyldi helzt hafa. Urðu allir á þat sáttir, at hann fengi it
+      hræðiligasta líflát, ok var síðan sett ginkefli í kjapt honum ok hengdr á hæsta gálga. Lét
+      Vilhjálmr svá sitt líf sem fyrr var sagt, ok var þess ván, at illa mundi illum lúka, þar sem
+      þvílíkr svikari ok morðingi var. Ingigerðr konungsdóttir varð fegin aptrkvámu Hrólfs ok því,
+      at hann var heill orðinn. Átti jarl þá tal við hana ok segir, at nú mundi ekki brullaupinu
+      lengr fresta þurfa. Hún segir: "Þat skuluð þér vita, herra, at eigi er hefnt Hreggviðar
+      konungs, föður míns, ok þat með, at ek skal í einskis manns sæng koma, fyrr en þat er gert, at
+      Eirekr konungr er drepinn ok Grímr ægir ok allir þeir, er þar gerðu mest at. Vil ek ok eigi,
+      at Garðaríkis menn þjóni undir annan höfðingja en þann, er ek skal eiga." Hrólfr segir: "Með
+      því ek færði konungsdóttur burt ór Garðaríki ok hún vildi mér lostig fylgja, þá skal hún ok
+      ónauðug af hverjum manni, ef ek má ráða. En bjóða vil ek yðr, herra, at fara í Garðaríki með
+      styrk yðrum ok vinna þar þvílíkt, er ek má orka." Jarl segir: "Þakka vil ek yðr, Hrólfr, fyrir
+      þann góðvilja, er þér hafið mér tét í þessu ok allri þinni þjónustu. Nú vil ek gjarna þat
+      þiggja, at <pb n="423"/> þit Stefnir séuð formenn þessar ferðar. Skal ek ykkr svá búa í þessa
+      ferð at skipum ok liði sem ek hefi framast efni á, því at ek vildi, at þit kæmuð svá hefndum
+      fram, at konungsdóttur líki. Skal ok brullaupit eigi fyrr vera en þit komit aptr, ef þess
+      verðr auðit." Konungsdóttir segir sér þetta vel líka, ok var þetta með þeim staðráðit. Menn
+      Hrólfs höfðu beðit hans í kastalanum, meðan hann var í burtu, ok urðu þeir glaðir við hans
+      heimkvámu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="28">
+     <p> Lætr nú Þorgnýr jarl hafa skipa búnað ok vápna um sumarit, svá vítt sem hans ríki var. Kom
+      honum ok mikit lið af Svíþjóð ok Fríslandi, er frændr hans ok vinir sendu honum, ok enn fekk
+      hann mikinn styrk af Vindlandi. Var nú mikill viðbúnaðr í Jótlandi í þessari herferð, en svá
+      sem herrinn var allr saman kominn, var þat frítt lið ok vel búit. Þeir höfðu hundrað skipa ok
+      flest stór. Váru þeir Hrólfr ok Stefnir formenn þessa liðs. Þeir biðu byrjar nokkura daga.
+      Einn dag gekk maðr fram at borði á skipi Hrólfs. Hann var lágr ok digr, hafði stóran bagga á
+      herðum sér. Hann gengr á bryggjuna á skipit. Hrólfr kennir þenna mann. Þar er kominn Möndull
+      dvergr. Hrólfr fagnar honum vel. Möndull lagði baggann af sér ok mælti: "Nú er ek hér kominn,
+      sem þú beiddir, Hrólfr, ok mun ek fara með þér, ef þú vilt, með því móti at ek ráði öllu því,
+      er ek vil til leggja, ok engi bregði af mínum ráðum. Þó mun alls við þurfa, at vel takist."
+      Hrólfr svarar ok segir, at allir skyldi hans ráð hafa ok hann vildi gjarna hans föruneyti
+      þiggja. Þá mælti <pb n="424"/> dvergr: "Þat er fyrst mín skipan, at þú, Hrólfr, skalt vera á
+      því skipi, sem fyrir skal fara alla leið, því at þú hefir gullit álfkonunaut. Máttu eigi villt
+      fara. Vér skulum tengja saman öll skip vár, hvert at stafni annars. Ek skal vera á því skipi,
+      er seinast ferr. Vér skulum eigi fyrr leysa en undit er segl á öllum skipunum, ok þótt nokkurr
+      leysist ór flotanum, þá skal engi fram hjá sigla. Skuluð þér þessu fram halda ok eigi af
+      bregða, hvat er á gnýr eða yðr kann sýnast, ok mun þá vel duga. Aldri skulu vér at landi
+      leggja né nokkura dvöl hafa, fyrr en vér komum til Garðaríkis. Skulum vér nú segl vinda, því
+      at byr mun eigi skorta." Var nú svá gert sem Mödull hafði fyrir sagt. Bað Þorgnýr jarl vel
+      fyrir þeim ok Ingigerðr. Björn ráðgjafi var eptir með jarlinum, ríkinu til gæzlu. Rann nú byrr
+      á, ok sigla þeir Hrólfr í haf. Þeim byrjaði hægliga, en svá sýndist þeim sem annat mundi veðr
+      í lopti. Sjór var úthverfr kringum þá, ok miklar dunur váru í loptit at heyra. Möndull sat við
+      stjórn á síðasta skipi. Hann tók eitt stórt kefli ok batt þar um blám þræði ok dró þat eptir
+      skipinu í vörina. Eina nótt sýndist þeim sem herskip færi í móti Hrólfi ok veitti honum harða
+      atsókn. Möndull kallaði ok bað engan gefa sik at því, en þeir sögðu hann svá hræddan, at hann
+      þyrði eigi verja lið Hrólfs. Þeir leystu skip eitt ór flotanum ok vildu fara fram fyrir önnur
+      skipin, en þess var eigi kostr, því at vindr kom í móti þeim, ok rak þá aptr um öll skipin, ok
+      þat sá hann til þeira síðast, at einn stór hrosshvalr kom at þeim ok steypti skipinu um koll.
+      Týndist þar hvert mannsbarn. Mörg undr bar fyrir þá önnur, ok brugðu menn sér misjafnt við.
+      Þeir týndu alls tuttugu skipum, áðr þeir kómu í Garðaríki. <pb n="425"/> Lögðu þeir upp í ána
+      Dýnu ok herjuðu þar á bæði borð, brenndu byggðir, en ræntu fé, því er þeir náðu. Margt fólk
+      gekk til handa þeim, ok fengu þeir með því fjölda liðs. Spurðu þeir brátt til Eireks konungs,
+      hvar hann var með fjölmenni. Lögðu þeir þá skipunum í eitt lægi. Möndull tók bát einn ok reri
+      kringum öll skipin. Síðan gekk hann á land ok bað menn tjalda við einn hamar, er þar var nær
+      þeim, -- "skal hvert tjald standa af annars enda upp." Var nú svá gert. Eptir þat leysti hann
+      bagga sinn ok tók þar ór svört silkitjöld. Hann tjaldaði þeim utan yfir öll önnur tjöldin svá
+      breitt ok sterkliga, at hvergi fannst smuga á. Þetta var fyrir vetrnætr, er þeir kómu í
+      Garðaríki. Möndull dvergr mælti: "Nú skal bera kost af skipunum í tjöldin, svá at endast megi
+      um þrjár nætr. Síðan skuluð þér í tjöldin ganga ok engi út sjá, fyrr en ek segi yðr til." Var
+      nú allt gert eptir hans boði. Gekk Möndull síðast inn ok fór þó áðr umhverfis tjöldin. Litlu
+      eptir þetta heyrðu þeir, at veðr tók at hvessa ok gnúði fast á tjöldin. Þótti þeim þat undrum
+      gegna. Maðr einn var svá forvitinn, at hann spretti tjaldinu ok sá út, en er hann kom inn
+      aptr, var hann bæði vitlauss ok mállauss ok innan lítils tíma dauðr. Þessu gekk þrjár nætr, at
+      veðrit stóð. Möndull mælti: "Eigi komum vér allir aptr til Danmerkr, ef Grímr ægir má ráða,
+      því at hann var sá hrosshvalr, er týndi skipum várum, ok hefði hann svá með öll farit, ef ek
+      hefði eigi farit síðast, því at hann mátti aldri lengra fara en at kefli því, er ek dró eptir
+      mér. Nú hefir hann hríð at yðr gert með frosti, at allir þér hefðuð bana fengit, ef eigi hefðu
+      tjöldin hlíft yðr, en nú á þetta ofan eru komnir tólf menn í skóginn skammt heðan, er Grímr
+      hefir sent Eireki konungi. Þeir eru ofan af Ermlandi <pb n="426"/> ok eru nú at efla seið ok
+      skulu seið ætlat ykkr Hrólfi ok Stefni, svá at þit skulið sjálfir drepa ykkr. Nú skulum vér
+      fara sjau saman móti þeim ok sjá, hvat í gerist." Gerðu þeir nú svá, unz þeir kómu í skóginn.
+      Sáu þeir hús eitt. Var þangat at heyra ill læti, er þeir frömdu seiðit. Gengu þeir síðan inn í
+      húsit ok sjá þar hjall hávan ok undir fjóra stólpa. Möndull fór inn undir hjallinn ok reist
+      þeim seiðvillur með þeim atkvæðum, at þeim hrifi sjálfum seiðmönnum. Gengu þeir síðan út í
+      skóginn ok námu staðar um hríð, en seiðmönnunum brá svá við, at þeir brutu ofan seiðhjallinn
+      ok hlupu beljandi út af húsinu á sinn veg hverr þeira. Sumir hlupu í fen eða sjó, en sumir
+      fyrir björg ok hamra, ok drápu sik allir með þessum hætti. Fóru þeir síðan aptr til skipa
+      sinna, ok váru þau heilbrigð. Sáu þeir, at hríðin hafði ekki víðara tekit en um kring skipin
+      ok tjöldin. Þá mælti Möndull: "Nú er svá orðit, Hrólfr, at ek mun ekki í orrostu ganga, því at
+      ek er engi at hreysti eða framgöngu, en þó mundir þú liðfár hafa orðit, ef þú hefðir einn um
+      sét með. Ykkr Stefni var þessi dauði ætlaðr, sem nú sáuð þér, at seiðmennirnir fengu." Þökkuðu
+      þeir honum fyrir sín konstr ok bjuggu sik til landgöngu síðan. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="29">
+     <p> Litlu síðar en þeir Hrólfr fóru ór Jótlandi ok í Garðaríki, kom við land Tryggvi berserkr,
+      sá er fyrr var getit í sögunni. Hann hafði óvígan her fyrir fjölda sakir. Hafði hann optast
+      verit í Skotlandi ok Englandi, síðan hann flýði undan þeim Hrólfi ok Stefni, en nú <pb n="427"
+      /> hafði hann spurt, at þeir váru ór landi farnir ok nú mundi lítil viðtaka. En þegar Þorgnýr
+      jarl spurði hersöguna, lét hann safna liði, ok með því at Tryggvi hafði mjök á óvart komit ok
+      þat annat, at burt var allt mannval ór landinu, þá fekk jarl lítit lið móti svá miklum her.
+      Fundr þeira var skammt frá borginni. Sló þar þegar í inn harðasta bardaga. Gengu hvárirtveggju
+      vel fram. Þorgnýr jarl lét röskliga fram bera merki sitt ok fylgdi sjálfr ok barðist
+      alldjarfliga ok drap margan mann. Björn ráðgjafi fylgdi honum karlmannliga ok felldi marga
+      menn, því at þeir váru vanir til herskapar ok fullhugar til framgöngu. Tryggvi gekk ok hart
+      fram ok óð í gegnum lið jarls, svá at ekki stóð við honum, ok hallaðist mjök orrostan á hans
+      menn, jarlsins. Bardaginn stóð allan dag ok lyktaðist með því, at Þorgnýr jarl fell með góðan
+      orðstír ok Tryggvi varð hans banamaðr. Flýði þá Björn ráðgjafi ok þat lið, er eptir var, til
+      borgar, ok heldu sik þar, en Tryggvi settist um borgina. Síð um kveld sáu menn, at þrjú skip
+      sigldu at landi. Váru öll stór ok svört fyrir borði. Þeir lögðu í lægi ok tjölduðu. Váru nú
+      borgarmenn hugsjúkir um sinn hag. En þegar morgunn kom, ganga skipamenn heim til borgar með
+      fylktu liði. Tólf gengu fremstir, ok höfðu tveir af þeim grímur fyrir andliti. Tryggvi fylkti
+      ok liði sínu, en er þeir fundust, varð þar fátt um kveðjur, því at grímumenn réðu þegar til
+      bardaga ok sóttu hart fram. Ok er borgarmenn sjá þat, gengu þeir út af borginni ok kómu í opna
+      skjöldu. Varð Tryggvi mjök í kvínni, ok fell mjök lið hans. Menn sóttu fast at Tryggva, ok
+      lauk svá, at hann fell ok mestr hluti liðs hans. Tóku þeir þá mikit herfang. Fóru grímumenn
+       <pb n="428"/> þegar til skipa sinna ok áttu ekki tal við aðra menn. Undruðust landsmenn mjök,
+      hvat mönnum þetta mundi vera, ok kunni þat engi at segja. Var nú eptir um kyrrt, ok var
+      Þorgnýr jarl haugsettr. Þóru fekk mikit fráfall föður síns ok mörgum öðrum landsmönnum, því at
+      hann hafði verit góðr höfðingi ok stjórnsamr ok ráðit lengi ríkinu ok átt mjök friðsamt. Var
+      hann því öllum mönnum harmdauði. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="30">
+     <p> Frá því er nú at segja, sem fyrr var frá horfit, at Hrólfr stefnir öllum sínum her móti
+      Eireki konungi. Þeir fundust skammt frá Aldeigjuborg. Hafði konungr mikit lið ok harðsnúit.
+      Margir váru miklir höfðingjar með Eireki konungi. Einn af þeim var jarl, er Ími hét. Hann var
+      mikill ok sterkr ok vel vígr, ættaðr ór Garðaríki. Með þeim var hálfbróðir hans, er Röndólfr
+      hét. Hann mátti vel tröll kallast fyrir vaxtar sakir ok afls. Móðurætt hans var frá Áluborg í
+      Jötunheimum, ok þar hafði hann upp vaxit. Hann hafði kylfu fyrir vápn, sex álna langa ok mjök
+      digra í annan enda. Eigi bitu flest járn á ólpu þá, er hann var í. Röndólfr var hamaðr ok
+      grenjaði sem tröll, þegar hann reiddist. Brynjólfr var með konungi, en þeir Þórðr ok Grímr
+      váru eigi komnir, því at þeir söfnuðu liði it efra um landit. Hvárirtveggju reistu sínar
+      herbúðir ok sváfu af þá nótt. Þar var sléttlent ok skammt til sjóvar. En um morgin snemma
+      bjuggust þeir til orrostu, en konungr skipaði fylkingar tvær ok var sjálfr í annarri, en
+      Brynjólfr bar merki konungs. Fyrir framan merkit setti hann Röndólf ok alla þá, er mestir
+      kappar váru, en í annan <pb n="429"/> fylkingararm var Ími jarl ok fleiri tígnarmenn, þó at
+      þeir sé eigi nefndir. Hans merki bar sá maðr, er Arnoddr hét ok var mikill kappi. Hrólfr setti
+      ok tvær fylkingar. Skipaði hann sér móti Eireki konungi ok undir sitt merki Svíum ok Frísum.
+      Stefnir var í annan arm ok Jótar. Sá maðr bar merki fyrir honum, er Áli hét, inn mesti
+      hreystimaðr. Hrólfr var í herklæðunum Hreggviðarnaut. Hann reið Dúlcifal. Margt riddaralið var
+      í hvárumtveggja hernum. Stefnir var í annarri kápu Hrólfs. Möndull var ekki í orrostu, því at
+      hann var ekki við vápn vanr. At svá skipuðu æptu hvárirtveggju heróp, ok eptir þat sigu saman
+      fylkingar. Var þegar hörð orrosta ok mikit mannfall af hvárumtveggjum. Var fyrst atreið með
+      riddurum, en síðan ákafr bardagi með höggum ok lögum. Röndólfr gekk þegar hart fram ok lamdi á
+      tvær hendr með kylfunni ok drap svá bæði menn ok hesta. Engi var svá sterkr riddari, at þyldi
+      eitt hans högg. Hrökk því allt undan, þat er fyrir varð. Brynjólfr bar merkit fram
+      kappsamliga, ok gerðist nú illr kurr í liði Hrólfs. Hann ríðr nú fram á Dúlcifal, ok var engi
+      svá hraustr, at í söðli sæti fyrir honum ok hans höggum. Hann hjó með sverðinu Hreggviðarnaut
+      bæði menn ok hesta ok drap margan mann, því at sverðit beit sem í vatn brygði ok nam hvergi í
+      höggi stað. Var nú orrostan mjök skæð, svá at hver fell um þveran annan. Nú er frá því at
+      segja, at Stefnir ríðr hart fram í lið Íma jarls ok veitir mörgum riddara skaða, þar til at
+      Ími jarl kemr í móti honum. Ríðr þá hvárr at öðrum með miklu kappi, ok leggr hvárr til annars
+      í skjöldinn. En er þeir mættust, brotnaði spjótskapt Íma sundr í miðju, en Stefnir hjó jarl
+      aptr ór söðlinum, svá at <pb n="430"/> hann kom fjarri niðr hestinum. Spratt hann skjótt á
+      fætr ok brá sverðinu. Stefnir hljóp þá af baki ok hjó til Íma, en hann hjó á móti, ok kom
+      sverð Stefnis á gaddhjaltit ok tók af höndina með. Eptir þat lagði Stefnir jarl í gegnum með
+      sverðinu, ok lét hann svá sitt líf. Gekk hann síðan hart fram. Þeir fundust í annan stað Áli
+      ok Arnoddr ok sóttust með mikilli hreysti. Þeir hjuggust, svá at af þeim váru allar hlífarnar.
+      Báðir höfðu þeir kastat merkjunum, en svá lauk þeira viðreign, at Arnoddr lagði með sverðinu í
+      kvið Ála ok út um bakit, en hann óð upp á lagit ok hjó með báðum höndum í höfuð Arnoddi, svá
+      at í tönnunum nam staðar. Fellu þeir nú báðir dauðir til jarðar. Nú sér Hrólfr skaða þann, er
+      Röndólfr gerir á liði hans, ok sér, at eigi muni svá búit hlýða. Hann hleypr af baki Dúlcifal
+      ok veðr á móti Röndólfi. En er þeir mætast, þá lýstr Röndólfr til Hrólfs með járnkylfunni, en
+      hann veik sér undan ok treysti eigi at standa undir svá þungu höggi. Kylfan kom á tvá menn, er
+      staðit höfðu á baki Hrólfs, ok lamdist hvert beint í þeim. Hrólfr slæmdi sverðinu á hönd
+      Röndólfs, ok tók af í úlfliðnum ok allar tær af öðrum fæti. Röndólfr reiddi upp stöngina með
+      annarri hendi ok laust til Hrólfs af öllu afli. Kylfan kom í jörðina ok sökk til miðs, en
+      Hrólf sakaði ekki. Hjó Hrólfr þá af Röndólfi aðra höndina, svá at hún fell niðr. Sneri hann þá
+      undan. Hann veifaði stúfunum ok öskraði sem griðungr. Í því höggr Hrólfr undan honum báða
+      þjóhnappana, svá at þeir loddu við í knésbótum. Dró hann þá slóðann eptir sér ok hljóp
+      beljandi upp í fylking Eireks konungs, svá at allt hrökk undan. Drap hann með því margan mann.
+      Hrólfr ok Stefnir neyttu þessa ok þeira menn, höggva <pb n="431"/> nú ok leggja hvern mann, er
+      fyrir varð. Fell nú undvörpum lið Eireks konungs. Röndólfr gáði ekki, hvat fyrir var, ok hljóp
+      á Brynjólf, svá at hann fell á bak aptr með merkit ok komst með nauðum á fætr ok flýði síðan.
+      En er menn Eireks konungs sjá merkit fallit, þá flýði hverr einn. En er Eirekr sér þat, flýr
+      hann sem aðrir til borgarinnar, en þeir Hrólfr ok Stefnir ráku flóttann ok drápu hvern, er
+      þeir náðu. Varð þar svá mikit mannfall, at varla má tölu á koma. Röndólfr hljóp út á ána ok
+      drekkti sér, en Eirekr konungr ok þeira lið, er undan komst, byrgðu sik inni í borginni, ok
+      lauk með því orrostu. Var þá komit at kveldi. Hrólfr fór þá til herbúða sinna ok lét binda sár
+      manna sinna. Hafði ok margt fallit af liði hans. En er á leið kveldit, sáu menn Hrólfs þrjú
+      herskip fara at landi. Þeir lögðu í lægi ok bjuggu um. Eptir þat gengu frá skipum þrjú hundruð
+      manna. Þat var allt vaskligt lið ok vel búit. Einn maðr var þar stærstr fyrir liði. Þessir
+      menn gengu til herbúða Hrólfs, ok er þeir finnast, kennir Hrólfr, at þar er kominn faðir hans,
+      Sturlaugr, ok Eirekr, bróðir hans. Verðr þar mikill fagnafundr með þeim öllum saman. Spurði
+      Hrólfr föður sinn tíðenda ok af ferðum sínum. Sturlaugr var þá gamall mjök ok hafði lengi af
+      lagt herferðir. Sagðist hann hafa spurt til ferða Hrólfs, ok hann hefði því farit af Noregi
+      til Garðaríkis at veita Hrólfi lið. Drukku þeir um kveldit ok höfðu mikla gleði. Sturlaugr
+      hafði herklæði sín ok saxit Véfreyjunaut. Með honum váru margir kappar ok hreystimenn ór
+      Hringaríki. Einn af þeim hét Torfi inn sterki, annarr Bárðr, þriði Garði, fjórði Atli, fimmti
+      Birgir, sétti Sölvi, sjaundi Loðinn, áttundi Knútr kveisa. Allir váru þessir inir mestu
+      hreystimenn. Þóttu þeir Torfi ok Knútr bera langt af þeim. <pb n="432"/> Tóku þeir nú náðir á
+      sik um nóttina ok höfðu vörðu sterka. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="31">
+     <p> At Eireki konungi dreif margt lið um nóttina, þeir ór heruðum söfnuðust til hans, en þeir
+      Grímr ægir ok Þórðr Hléseyjarskalli kómu um kveldit með ótöluligan her. Váru með þeim margir
+      kappar ok berserkir, ok eru tólf nefndir: Einn er Örn inn ermski, Úlfr, Hárr ok Gellir, Sörli
+      síðnefr ok Tjörfi, Tjösnir, Loðmundr, Haki, Lífólfr ok Styrr sterki, Brúsi beinserkr. Allir
+      váru þessir illir viðreignar ok tröllum líkari en mönnum, þótt fjórir væri verstir, en þat var
+      Tjösnir ok Gellir ok þeir bræðr, Styrr ok Brúsi. Varð nú Eirekr konungr feginn þeira kvámu ok
+      sagði þeim hann hefði fengit mikinn mannskaða ok Hrólfr væri ólíkr flestum mönnum fyrir
+      hreysti sakir ok herklæða, er hann hafði, -- "var oss þat mikit óhapp, at Hrólfr náði sverðinu
+      Hreggviðarnaut." Grímr segir: "Vel mun duga. Skulum vér þann mannskaða aptr bæta á morgin, er
+      þér fenguð í dag." Leið náttin, en dagr kom. Bjuggust nú hvárirtveggju til orrostu. Eirekr
+      konungr fór út af borginni með allt sitt lið ok skipaði sínar fylkingar. Brynjólfr bar enn
+      merki hans, en undir merkinu stóðu átta berserkir: Örn ermski, Úlfr, Hárr, Sörli, Lífólfr,
+      Loðmundr, Herkir, Tjörfi ok Grímr ægir. Stóð hann fyrir framan fylkingarmerkit. Í annan arminn
+      var Þórðr Hléseyjarskalli, ok var borit fyrir honum merki. Þar váru þeir Tjösnir ok Gellir,
+      Styrr ok Brúsi ok margt annat lið. Í mót Eireki konungi fylkti Hrólfr ok Stefnir ok <pb
+       n="433"/> með þeim Knútr kveisa ok Torfi inn sterki. Á mót Þórði fylkti Sturlaugr ok Eirekr,
+      sonr hans, ok þeir sex kapparnir: Haddr, Garði, Atli, Birgir, Sölvi ok Loðinn. Eigi er þess
+      getit, hverir merki báru fleiri en Brynjólfr. Liðsmunr var mikill, svá at konungr hafði þrjá
+      um einn. Síðan var í lúðra blásit, ok eptir þat sigu saman fylkingar með ópi ok eggjan ok
+      miklu vápnabraki. Var fyrst hörð skothríð, en síðan höggorrosta, ok gengu hvárir sterkliga á
+      aðra. Váru margir þeir hlutir ok atburðir, at jafnfram báru við, ok verðr þó fram í einu senn
+      at segja. Möndull dvergr var eigi í orrostu ok stóð á hæð nokkurri. Hann skaut af handboga ok
+      var mjök mannskæðr. Gengu nú hvárirtveggi hart fram, svá at eigi þurfti sóknar at frýja. Í
+      móti Grími ægi kómu þeir Knútr kveisa ok Torfi inn sterki. Báðir váru þeir sterkir ok
+      fjölkunnigir. Þeir sóttu hann báðir senn lengi dags. Var þeira atgangr svá harðr, at menn urðu
+      forða sér nærri at vera. Berserkirnir konungs gerðu mikit af sér ok gengu í gegnum lið Hrólfs,
+      svá at allt hrökk undan. Varð þar margr góðr drengr ríki sitt at missa. Engi var svá góðr
+      hjálmr eða þykkr skjöldr, at eigi yrði at ganga fyrir þeira höggum. Var lið Hrólfs búit til
+      flótta. Hrólfr hafði gengit í fylking Eireks konungs ok Stefnir, ok gerðu þar mikinn skaða,
+      áðr þeir sáu, hversu berserkirnir gengu hart fram. Sneru þeir þá í móti þeim, ok er þeir
+      fundust, var þar ekki stórra höggva at frýja, er hvárir greiddu öðrum. Hrólfr hjó til Arnar,
+      en hann kom skildi við, ok tók hann sundr, en blóðrefillinn reist allan kviðinn, svá at út
+      fellu iðrin. Eptir þat lagði hann Herki í gegnum ok hjó báða fætr undan Lífólfi. Stefnir lagði
+      með spjóti til Úlfs, en hann <pb n="434"/> kom skildi fyrir lagit, ok gekk í gegnum ok svá í
+      lærit. Var þat mikit sár. Úlfr hjó spjótit af skaptinu. Hárr hljóp ok fram at Hrólfi ok laust
+      með gaddakylfu utan á hjálminn, svá at honum helt við ómegin, ok hrapaði at Úlfi ok stakk við
+      honum sverðinu, en brynjan dugði eigi, ok gekk í gegnum hann. Loðmundr lagði til Stefnis, þar
+      er kálfann tók, ok í gegnum kálfann. Hrólfr kom at því ok höggr báðum höndunum í höfuð Loðni
+      ok klauf hann allan niðr í gegnum, svá at í jörðu nam staðar. Í því lögðu þeir Sörli ok Tjörfi
+      at Hrólfi. Hárr laust með kylfunni um hrygg Hrólfs. Hefði þat orðit hans bani, ef eigi hefði
+      kápan hlíft honum ok herklæðin, en hann fell á bæði kné. Hann spratt upp skjótt ok hjó á fót
+      Hárs, svá at af tók í knjáliðunum. Hrólfr slæmdi ok sverðinu utan á síðu Tjörfa, svá at hann
+      tók sundr í miðju. Sörli leitaði þá undan, ok Hárr hnykkti á annan fótinn ok lamdi með
+      kylfunni, hvat er fyrir varð. Hann drap ellefu menn, áðr Stefnir hjó hann banahögg. Lét hann
+      líf sitt með góðan orðstír. Var nú hörð orrosta. Eirekr konungr ok Brynjólfr drápu margan
+      mann. Möndull skaut Eirek konung með pílu gegnum handlegginn. Þeir Hrólfr ok Stefnir sækja nú
+      hart fram á nýra leik, því at mjök hallaðist á þá bardaginn. Þeir kómu þar at, er þeir höfðu
+      við átzt Grímr ok Torfi ok Knútr, ok var þar jörðu um snúit. Lyktaði svá þeira viðreign, at
+      Knútr var dauðr, en Torfi ófærr fyrir sára sakir. Grímr var móðr mjök, en þó hafði hann drepit
+      þá enn margan mann. Hrólfr ok Stefnir höggva til hans báðir senn, en hann fór niðr í jörðina
+      undan, því líkt sem á vatni væri. Frá því er nú at segja, er jafnfram bar við, at þeir
+      Sturlaugr sækjast í annan fylkingararm. Gengu þar <pb n="435"/> hvárir í lið annarra með
+      stórum höggum ok sterkum spjótalögum. Var þar mikit mannfall. Sturlaugr hjó ok lagði til
+      beggja handa með saxinu Véfreyjunaut. Þurfti sá engi um sár at binda, er skeinu fekk af því.
+      Eirekr sonr hans, fylgdi honum vel ok felldi margan mann. Þórðr Hléseyjarskalli gekk með miklu
+      kappi mót Sturlaugi. Hann atti fram berum skallanum, en þótt á hann væri höggvit með sverðum
+      eða öxum, þá beit ekki. Því mátti hann öruggr fram ganga. Þeir Norðmenninir, fjórir tigir af
+      mönnum Sturlaugs, kómu móti honum ok sóttu allir at honum, en hann varðist með miklu kappi. Í
+      öðrum stað mættust þeir Styrr sterki ok Brúsi beinserkr, en í móti þeim kom Haddr ok Garðr,
+      Birgir ok Sölvi. Gengu þeir þrír at hinum tveimr, ok þurftu þeir allra handa við. Var þeira
+      sókn bæði hörð ok áköf, ok eru þeira högg ok lög eigi með atvikum greind. En svá lauk þeira
+      fundi, at þeir Styrr ok Brúsi sprungu af mæði. Höfðu þeir þá drepit Hadd ok Garð ok höggvit
+      báðar hendr af Sölva, en Birgir var mjök sárr. Sölvi hljóp at einum manni ok setti hausinn
+      fyrir brjóst honum, svá at inn gengu bringspalirnar. Var þat hans bani. Eptir þat felldi hann
+      annan ok beit sundr barkann í þeim. Var hann þá lagðr spjóti í gegnum, ok lét hann líf sitt
+      með mikilli hreysti. Loðinn ok Atli sóttu tveir Gelli, ok var þeira fundr harðr, því at hann
+      var it mesta illmenni. Særðu þeir hann mörgum sárum. Gellir hjó Átla með bryntröllsbroddi, en
+      hann kom í hjálminn ok klauf hann, svá at í heila nam staðar. Loðinn vildi hefna hans ok lagði
+      með sverði til Gellis í gegnum brynjuna ok í lærit. Varð þat mikit sár. Gellir hjó þá til
+      Loðins, ok kom á viðbeinit ok tók þat sundr ok sneið hjartat. Fell <pb n="436"/> hann dauðr
+      niðr. Þá kom at Eirekr Sturlaugsson ok höggr Gelli banahögg. Nú finnast þeir Tjösnir ok
+      Sturlaugr. Höggr hvárr til annars, ok varð hvárrgi sárr. Hann hjó af Tjösni allan skjöldinn,
+      en þó hörfði Sturlaugr fyrir stórum höggum Tjösna. Möndull sér þetta. Hann leggr ör á streng
+      ok skýtr einni krókör í augat á Tjösna, svá at langt sökk upp á skaptit. Tjösnir grípr í
+      örvarskaptit ok slítr burt örina, ok var þar á augat. Þessu sætir Sturlaugr ok höggr í því
+      Tjösna sundr í miðju, svá at sér fell hvárr hlutrinn. Sturlaugr sér nú, hversu mikinn skaða
+      Þórðr gerir honum, svá at náliga var lið hans komit á flótta, en sumt drepit. Sækir hann nú
+      þangat til, er Þórðr er, en hann snýst í móti, ok varð þeira einvígi bæði hart ok langt, þar
+      til er Sturlaugr kom staðhöggi á Þórð. Þat kom í skalla honum ok bilaði eigi heldr en vant
+      var. Þat högg varð svá mikit, at hann klauf höfuð Þórðar ok allan búkinn niðr í gegnum, svá at
+      hann fell í tveim hlutum til jarðar. Sturlaugi vannst at með ýkjum, ok varð honum saxit laust
+      ok smaug niðr í jörðina ok fannst aldri síðan. Um þenna atburð greinast mjök bækr, at því svá
+      segir í Sturlaugs sögu ok fleirum öðrum sögum, at hann hafi orðit sóttdauðr heima í Hringaríki
+      ok væri þar heygðr, en hér segir svá, at eptir fall Þórðar kom Grímr ægir upp ór jörðunni á
+      baki Sturlaugi ok hjó með mæki um hrygg honum, svá at tæki sundr í miðju. Vitum vér eigi,
+      hvárt sannara er. Eirekr, sonr hans, sér þetta, því at hann var nær staddr. Hann hjó til Gríms
+      með sverði af mikilli reiði, ok kom á öxl honum, ok gnast við, sem í stein kæmi, ok beit ekki
+      á. Grímr snerist í móti Eireki ok spjó eitri í andlit honum svá heitu, at hann fell þegar
+      dauðr <pb n="437"/> niðr. Allir menn skelfdust við þessa sýn, en þó var enn hörð orrosta ok
+      mikit mannfall. Ok er Hrólfr vissi þessi tíðendi, varð hann reiðr mjök, ok sparði hann þá ekki
+      Hreggviðarnaut ok hjó bæði hart ok títt, svá at allt hrökk undan, þat er fyrir var. Drap hann
+      stundum tvá eða þrjá í einu höggi ok óð þvílíkt fram sem hann væði þungan árstraum. Orrosta
+      þessi stóð allan daginn, til þess at svá var myrkt, at eigi var vígljóst. Lét þá Eirekr
+      konungr halda upp friðskildi, ok gafst upp orrostan. Fór konungr í borgina með sitt lið, en
+      Hrólfr til herbúða sinna, ok váru bundin sár manna, þeira er lífvænir váru. En svá hafði
+      fallit lið Hrólfs ok Stefnis, at eigi váru meir eptir en tvær þúsundir manna af öllum þeira
+      her ok flest allt mjök sárt. Var nú illr kurr í liðinu. Tóku menn þá á sik náðir ok sofnuðu
+      skjótt eptir mikla mæðu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="32">
+     <p> En þegar menn váru í svefni, stóð Hrólfr upp mjök hljóðliga. Hann gekk þangat, sem Dúlcifal
+      var, ok sté á bak honum ok reið til þess, er hann kom til Hreggviðar haugs. Tunglsljós var
+      bjart. Hrólfr sté af hestinum ok gekk upp á hauginn. Hann sér, hvar Hreggviðr konungr sitr
+      utan undir hauginum ok horfir mót tunglinu ok kvað: <lg>
+       <l>"Gleðst Hreggviðr</l>
+       <l>af góðri för</l>
+       <l>Hrólfs ins hugdjarfa</l>
+       <l>hingat til landa.</l>
+       <l>Mun rekkr sá</l>
+       <l>ræsis hefna</l>
+       <l>á Eireki</l>
+       <l>ok öllum þeim.</l>
+       <pb n="438"/>
+
+       <l>Gleðst Hreggviðr</l>
+       <l>af Gríms dauða,</l>
+       <l>Þórðar ok þar með</l>
+       <l>þrjóta lífstundir.</l>
+       <l>Mun flokkr sjá</l>
+       <l>fjanda minna</l>
+       <l>fyrir Hrólfi</l>
+       <l>hníga verða.</l>
+       <l>Gleðst Hreggviðr</l>
+       <l>þá Hrólfr fær</l>
+       <l>ungrar meyjar,</l>
+       <l>Ingigerðar.</l>
+       <l>Mun Hólmgarði</l>
+       <l>hilmir stýra,</l>
+       <l>Sturlaugs sonr.</l>
+       <l>Standi kvæði."</l>
+      </lg> Gekk þá fram Hrólfr ok kvaddi hann virðuliga. Konungr tók vel kveðju hans ok spurði,
+      hversu honum gengi til. Hrólfr segir: "Gerla munuð þér þat vita þykkjast, þótt ek segi þar
+      eigi af, en þungt hefir oss orrostan veitt hér til sakir þess mikla mannskaða, er vér höfum
+      fengit, ok er yðr nú til leggja nokkur góð ráð, at oss verði liðsemd at." Hreggviðr mælti: "Nú
+      þykki mér góð efni í, at þú munir geta hefnt mín, ok mun þér sigrs auðit verða, þótt ólíkligt
+      þykki. Hér eru tvær byttur, er þú skalt við taka ok skenkja öllum þínum mönnum af annarri,
+      þegar þeir vakna í morgin, en af inni minni byttunni skulið þit Stefnir drekka, ok mun ykkr
+      þaðan af engi hlutr at áskilnaði verða. Kann ek þér þat at segja, at Stefnir ætlar sér
+      Ingigerði, dóttur mína, þegar hann sá fegrð hennar, en eigi Þorgný, föður sínum, eða þér. Nú
+      ann ek þér at njóta hennar, enda mun Stefni þat vel líka, er þú vilt vera láta, þegar þit
+      hafið af byttunni drukkit. Hér er ok knífr ok belti, er ek vil gefa þér, ok munu eigi þvílíkir
+      gripir á Norðrlöndum finnast. Skaltu þeim einum manni gefa þat, er þú þykkist mikit gott eiga
+      upp at unna, en nú munum vit hér skilja at sinni ok aldri síðan sjást. Skaltu nú hauginn aptr
+      byrgja, sem ek hefi þér áðr fyrir sagt. Ber þú kveðju mína Ingigerði, dóttur minni. Vildi ek
+      til þín hyrfi öll sú hreysti ok hamingja, <pb n="439"/> er mér hefir áðr fylgt. Far nú heill
+      ok vel, gangi þér allir hlutir eptir óskum." Síðan fór Hreggviðr öfugr inn í hauginn, en
+      Hrólfr byrgði aptr hauginn, sem honum var boðit, ok sté síðan á Dúlcifal ok sneri heimleiðis.
+      En er hann var mjök kominn at herbúðum, fór Stefnir þar í móti honum með alvæpni mjök
+      reiðiligr ok mælti: "Illa hefir þú gert, Hrólfr, er þú hefir gengit í Hreggviðar haug ok vilt
+      þér einum frægða ok hyggst þar með at fá Ingigerðar konungsdóttur, en þat er þó eigi þess
+      vísara." Hrólfr segir: "Enga frægð hefi ek í þessu unnit, þótt ek hafi víðara farit náttlengis
+      heldr en þú. Hefi ek engan hug á þat lagt, at ek mundi konungsdóttur fá. Mun sá hennar njóta,
+      er lagit verðr, hvat er hverrgi hugsar." Segir Hrólfr þá Stefni af sinni ferð til haugsins ok
+      sýndi honum bytturnar. Settust þeir þá niðr ok drukku af byttunni, ok þóttust þeir við þann
+      drykk mikit styrkna. Gerðist Stefnir þá blíðr við Hrólf ok segir honum makligast at njóta
+      Ingigerðar, -- "ok er þat sannligra, at þú fáir hennar heldr en faðir minn, svá gamall sem
+      hann er." Gengu þeir síðan til herbúða sinna ok sváfu þat, er nætr var eptir. Árla um morgin
+      vakti Hrólfr lið sitt ok skenkti öllum af byttunni, en þegar hverr hafði af drukkit, kenndi
+      engi sinna sára, þótt áðr væri ófærir, þegar setzt hafði með þeim. Eggjuðu þeir mest, at
+      berjast skyldi, er áðr vildu harðast flýja. Möndull sá í byttuna ok segir slíka hluti
+      vinsamliga, -- "en þó vil ek ekki þetta öl drekka. Mega því allir ógurliga fram ganga, at oss
+      kemr góð dagveizla, áðr en sjá dagr er úti, en þó munu þeir tíðendi segja kunna." Herklæddust
+      nú allir ok bjuggu sik til orrostu. Möndull mælti þá: "Nú mun sá dagr kominn, Hrólfr, er þú
+      munt þurfa kápu þinnar. Er hér ein <pb n="440"/> brún silkiblaka, er þú skalt setja innan
+      undir kápugrímuna ok aldri henni frá andlitinu létta, þó at þér kunni heitt at verða." Hrólfr
+      tók við blökunni ok bjó svá um sem dvergr sagði fyrir. Fóru þeir nú til vígvallar ok fylktu
+      liði sínu ok sýndu sik búna at berjast. Tóku þeir sér annan orrostustað, því at sá inn sami
+      mátti eigi vera fyrir valfalli. Möndull gengr tysvar rangsælis kringum valinn. Hann blés ok
+      blístraði í allar ættir ok þuldi þar forn fræði yfir ok sagði þann val þeim eigi at meini
+      verða mundu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="33">
+     <p> Eirekr konungr hafði farit í borgina um kveldit eptir orrostuna at binda sár sinna manna.
+      Hafði hann mikinn mannskaða ok látit alla kappa sína, svá at Sörli síðnefr lifði einn eptir af
+      öllum þeim, er Grími ok Þórði hafði þangat fylgt. Dreif til konungs mikit lið ór heruðum bæði
+      nætr ok daga. Þóttust þeir Eirekr konungr ok Grímr hafa ráð þeira Hrólfs í hendi sér fyrir
+      liðsmunar sakir. Bjóst nú Grímr við mörgum brögðum um nóttina ok þeir Brynjólfr. Sár þat, er
+      Eirekr konungr fekk í handlegginn af pílu þeiri, er Möndull sendi honum, tók mjök at þrútna,
+      ok var honum höndin óvíg. Um morgin árla reið Eirekr konungr út af borginni með allan sinn
+      her. Skikkaði hann fylkingum sínum, ok var skotit skjaldborg um hann. Brynjólfr skyldi verja
+      skjaldborgina, en sá maðr bar merki, er Snákr hét, Grímr ægir í annan arm ok Sörli síðnefr.
+      Liðsmunr var svá mikill, at sex váru um einn Hrólfs manna. En er hann sér þat, segir hann
+      sínum mönnum, at þeir <pb n="441"/> skulu ekki fylkja -- "ok munum vér renna at riðlum þrír
+      eða fjórir tigir í flokki, at eigi verði hringr um oss sleginn af þeira fjölmenni. Mun ek
+      skipa mér móti Grími ægi, en Stefni móti Eireki konungi ok með honum Torfa, en þér, Möndull
+      dvergr, ætla ek at sjá við göldrum Gríms, at eigi geri hann várum mönnum líftjón með sinni
+      fjölkynngi." Möndull gekk þá fram ok var kominn í kufl svartan, ok var hvergi bert á honum.
+      Undir annarri hendi hafði hann belg stóran, ok var innan með dýrskinn, en utan með gult klæði.
+      Boga ok örvamæli hafði hann í annarri hendi. Öllum þótti búnaðr hans undarligr. Grímr gengr
+      þangat, er valrinn lá, ok velti þeim, er dauðir váru, ok vildi upp reisa, en gat eigi. Gerist
+      hann nú svá hræðiligr í sinni ásjónu, at flestir menn þorðu eigi í móti honum at sjá, því at
+      augu hans váru sem eldr, en svartr reykr ór nösum ok munni með inni sterkustu fýlu. Skjótt
+      eptir þat æptu hvárirtveggju heróp, ok ganga hvárir móti öðrum. Grímr öskraði svá hátt, at
+      hans hljóð barst yfir allt herópit. Hann hljóp fram fyrir fylking sína ok hristi einn poka, en
+      þar ór fýkr ein dumba svört ok at mönnum Hrólfs. En er Möndull sá þat, gengr hann fram ok
+      hristi belg sinn, ok blés þar ór vindi miklum í móti dumbunni, svá at hún fauk aptr í augu á
+      Gríms mönnum, svá at þeir urðu þegar blindir ok fellu áfram ok váru fóttroðnir til bana af
+      sínum mönnum. Grímr varð nú reiðr mjök. Hann leggr örina á streng ok skaut til Mönduls, en
+      hann skýtr í móti, ok mættust örvarnar í oddana ok fellu niðr báðar. Fór svá þrjá tíma. Þessu
+      jafnfram tókst harðr bardagi með braki ok kalli, er hverr eggjar annan, því at svá váru menn
+      Hrólfs ákafir, at þeir eirðu engu, létu sem þeim væri víss sigrinn. Stefnir gekk hart fram
+      móti <pb n="442"/> Eireki konungi ok með honum Torfi ok Birgir. Þeir ruddust um fast, ok er
+      seint at telja högg ok lög þeira, er þeir drápu margan mann, svá at varla mátti tölu á koma.
+      Brynjólfr gengr nú ok hart fram ok Snákr merkismaðr, svá at þeir felldu í fyrstu hríð fjóra
+      tigi riddara. Hrólfr kemr mót Grími ægi ok höggr til hans, en hann barst undan í lopt upp í
+      flugdreka ok spjó eitri yfir Hrólf. Möndull var nær staddr ok brá undir belgnum, svá at hann
+      fylldi af eitrinu. Hann hljóp með belginn at Sörla síðnef ok steypti í andlit honum, svá at
+      hann fell dauðr. Grímr varð þá at manni, en þó hafði hann drepit níu menn með eitrinu. Grímr
+      hljóp þá at dverginum ok vildi taka hann, en Möndull vildi þess eigi bíða ok fór í jörð niðr,
+      þar sem hann var kominn. Grímr fór ok niðr eptir honum, svá at saman lauk jörðina fyrir ofan
+      höfuð þeim. Hrólfr gengr nú fram hart ok höggr til beggja handa. Urðu þeir léttir fyrir honum.
+      Fell nú hverr um þveran annan. Engum þurfti hann at gefa meira en eitt högg. Gat sá hverr
+      dauðann fyrir lífit, er hann náði sverðinu til, ok báðar hans hendr váru blóðgaðar til axlar
+      upp. Bauð nú flestum hans framganga ótta. Var orrostan mjök mannskæð í báða armana. Því næst
+      sáu nokkurir menn frá orrostunni, at fimmtán skip róa at landi sem mest geta. Þau lögðu í
+      lægi. Gekk margt lið frá skipunum ok mjök vígligt. Tveir menn váru hér mestir vexti ok höfðu
+      grímur fyrir andliti. Þeir gengu þegar til orrostu með Hrólfi ok kómu mjök í opna skjöldu
+      Eireki konungi, ok gerðist mikit flótta roð í liði hans. Váru grímumenn ákafastir ok hjuggu
+      bæði ótt ok títt. Var nú svá áköf orrostan, at hún var aldri fyrr þvílík. Þar mátti sjá margan
+      skjöld klofinn ok sterkan hjálm brotinn ok brynjur <pb n="443"/> slitnar ok margan mikils
+      háttar mann lágt liggja. Engi lét sér þar annars víti at varnaði verða. Þar var skotit
+      spjótum, gaflokum, flettiskeptum, handsöxum ok mörgum öðrum skotvápnum. Hrólfr sækir nú fram
+      at skjaldborginni, ok varð þar hörð viðtaka. Grímr ægir kemr þá aptr til orrostunnar ok var
+      mjök ófrýnligr. Drap hann þá hvern, er fyrir honum varð. Í móti honum kómu þeir Birgir ok
+      Torfi ok báðir grímumenn, ok sóttu at honum allir með miklu kappi, ok kómu þeir engu sári á
+      hann. Greiddi hann þeim mörg högg ok stór. Urðu þeir bæði sárir ok móðir. Þetta var allt
+      jafnsnemma, at Stefnir mætti Svala ok hjó til hans með sverði. Þat högg kom í skjöldinn ok tók
+      af þat, er nam, ok í sundr merkisstöngina. Svalr hjó í móti, ok klauf í sundr allan skjöldinn,
+      en Stefnir varð ekki sárr. Hann hjó til Svals, ok kom utan á hjálminn ok renndi af barðit ok
+      niðr á öxlina ok tók í sundr axlarbeinit ok inn í búkinn, ok fekk hann bana. Var nú merki
+      Eireks konungs í gras fallit. Þetta sér Brynjólfr ok sækir nú í móti Stefni mjök illiligr
+      ásýndar. Hann var tenntr sem villigöltr. Hann höggr til Stefnis ok hvárr til annars, ok beit
+      ekki á Véfreyjunaut, beit ok ekki sverð Stefnis á Brynjólf. Þeir hjuggust lengi, ok varð
+      Stefnir mjök móðr, þar til er sverðit gekk sundr undir hjöltunum. Þá rann Stefnir undir
+      Brynjólf, en hann tók í móti mjök sterkliga. Brynjólfr beit í öxl Stefnis ok klippti holdit
+      burt af beininu, svá mikit sem hann fekk yfir ginit, því at eigi tóku tennr hans í gegnum
+      kápuna. Stefnir varð við karlmannliga ok þreif hendi í munn Brynjólfs ok reif allt út at eyra.
+      Var hann þá mjök ókyssiligr. Glímdu þeir svá lengi, at ýmsir hörfuðu, þar til at Brynjólfr <pb
+       n="444"/> fell á bak aptr um Sval. Spennti hann þá báðum höndum hrygg Stefnis svá fast, at
+      hann mátti sér hvergi víkja. Varð hann andlitinu at forða sem hann mátti, at Brynjólfr biti
+      hann eigi. Nú er frá Hrólfi at segja. Hann sækir at skjaldborginni með miklum grimmleik. Fekk
+      hann þar mörg högg ok lög ok mikla atsókn, því at þar var allt it hraustasta mannval Eireks
+      konungs. Hefði hann þar fengit mörg sár ok mikinn skaða, ef eigi hefði kápan hlíft honum ok
+      herklæðin. Þá drap Hrólfr einn sjötigi riddara. Hrólfr rauf þá alla skjaldborgina. Eirekr
+      konungr varðist vel ok kænliga; hann kallar hári röddu á Grím ægi ok bað hann duga sér ok
+      hlífa nú engu. En er Grímr heyrði þat, skundar hann þangat. Hann hafði þá drepit Torfa ok
+      Birgi ok særða grímumennina, en annan til ólífis. Hafði hann verit stundum flugdreki, en
+      stundum ormr, göltr ok griðungr eða önnur skaðsamlig skrípi, þau er mönnum eru meinsamligust.
+      Ok er Hrólfr sér hann, þá mælti hann. "Enn muntu sökkva þér í jörð niðr sem í gær, er vit
+      fundumst. Nú far þú hingat, Ægir, ok berst við mik, ef þú þorir, þar til er annarhvárr okkar
+      fellr." Grímr sagði: "Þat skaltu finna, at ek er hér kominn," ok hjó til Hrólfs, en Hrólfr í
+      móti. Þar mátti sjá stór högg ok ákafa sókn, er hvárr veitti öðrum, en aldri hjuggu þeir svá
+      stórt, at nokkut biti. Þeira atgangr var svá harðr, at allir stukku frá, þeir er í nánd váru,
+      en svá hrökk eldrinn ór vápnunum, er þau mættust, at alla vega sindraði af. Inn mikli
+      grímumaðr mætti Eireki konungi, ok var þeira atgangr mjök harðr. Eirekr konungr hafði
+      skjöldinn á þeiri hendi, er sár var, en hjó með hinni bæði margt ok stórt, því at hann var inn
+      mesti kappi. Svá endaði þeira viðskipti, at grímumaðr klauf af konungi <pb n="445"/> allan
+      skjöldinn. Eptir þat hjó hann báða fætr undan Eireki konungi ok drap hann. Síðan lét hann líf
+      sitt með mikilli hreysti. Brast þá flótti í liðinu, ok flýði hverr, sem mátti. Tókst nú
+      mannfallit á nýjan leik, er víkingar ráku flóttann drengiliga. Þeir Hrólfr ok Grímr hörfuðu ór
+      fylkingunni ok börðust með miklu kappi, þar til er Hrólfr skoraði sundr mæki Gríms í miðju með
+      Hreggviðarnaut. Grímr hljóp þá á Hrólf sterkliga. Varð Hrólfr þá at kasta sverðinu ok tók á
+      móti. Grímr hamaðist þá, svá at hann óð jörðina til knjá, en Hrólfr barst undan ok varð at
+      forða sér við föllum. Grímr spjó stundum eitri, stundum eldi á Hrólf, svá at þat hefði hans
+      bani orðit, ef eigi hefði kápan fyrir verit eða blaka sú, er Möndull gaf honum. Var hans andi
+      svá heitr, at hann þóttist náliga brenna í gegnum Véfreyjunaut ok herklæðin. Kramdi Grímr hold
+      af beinum, þar sem hann tók til. Aldri þóttist Hrólfr í meiri mannraun komit hafa. Þat sá
+      hann, at hann mundi springa af mæði, ef þeir ættist tveir við lengi, ok svá spyrndu þeir
+      sterkliga til, at af gekk gras ok svörðr af jörðinni, þar er þeir gengu. Hann sér, hvar
+      Möndull kemr hlaupandi. Hann þrífr eitt sverð, er lá á vellinum, ok höggr báðum höndum á fót
+      Gríms, en ekki beit heldr en í stein kæmi. Möndull hleypr aptr til valsins ok finnr
+      Hreggviðarnaut. Hann bregðr hráka sínum á eggina ok dregr sverðit þangat, er þeir glímdu, því
+      at hann fekk þat eigi borit né reitt fyrir þunga sakir. Getr hann þá dregit sverðit aptan at
+      kálfunum á Grími, svá at sundr tóku sinarnar á fótunum. Þá fell Grímr. Dvergr mælti: "Haltu,
+      Hrólfr, svá at hann verði ekki lauss." Grímr brauzt um fast ok sótti í jörð niðr, en Hrólfr
+      helt honum eptir megni. Þá mælti hann: "Mikil lukka fylgir þér, Hrólfr, ok muntu <pb n="446"/>
+      frægr verða af drápi mínu ok stórvirkjum þeim, er þú hefir unnit í Garðaríki. Haugr mun orpinn
+      eptir mik ok settr við sjó fram, ok mun þeim öllum víss dauði, er þar taka fyrst land, þeir af
+      hafi koma til. Margar gildrur hefi ek sett þér til dauða, því at mér sagði löngum hugr um þat,
+      er nú er fram komit. Ek sendi Vilhjálm til þín at svíkja þik, en þér var lengra líf lagit. Nú
+      hefðir þú mik ekki yfir unnit, ef eigi hefði sjá óhappadvergr þar í tilstilli um verit."
+      Möndull hljóp þá upp ok stakk digru kefli í munn Gríms, svá at fast stóð. Möndull mælti þá:
+      "Ef Grímr hefði nú mátt mæla lengra, þá hefði hann svá fyrirmælt þér ok fleirum öðrum, at þú
+      hefðir morknat sundr ok orðit at engu nema dufti, ok skaltu drepa hann fljótt ok leggja
+      sverðit fyrir brjóst honum, en aflima eigi, því at þat verðr allt at eitrormum, er af honum er
+      höggvit. Skal ok engi fyrir hans sjónum verða, meðan hann deyr, því at þat er þess bani."
+      Hrólfr tók nú Hreggviðarnaut ok lagði fyrir brjóst Grími, svá at út gekk um bakit, en dvergr
+      tók skjöld einn ok lagði fyrir ásjónu. En þótt þat megi ólíkligt þykkja, þá segir svá, at hann
+      drafnaði í sundr sem snjór í eldi ok varð at dufti einu. Lét Grímr svá líf sitt með hræðiligum
+      fjörbrotum ok hörðu handakasti, en Hrólfr lá ofan á honum, þar til hann er dauðr. Helt Hrólfi
+      þá mjök við ómegi af umfangi því, er hann hafði haft við Grím ægi. Sá inn mikli grímumaðr
+      sneri aptr til valsins, þegar hann hafði litla stund rekit flóttann. Kom hann þar at, er þeir
+      Stefnir ok Brynjólfr lágu, svá sem fyrr var frá sagt. Vill hann þá duga Stefni ok leysti hendr
+      Brynjólfs af honum, en þat fekk hann eigi gert, fyrr en hann braut af honum sérhvern fingrinn.
+      Lömdu þeir hann síðan með keppum í hel. Var Stefnir svá stirðr orðinn <pb n="447"/> af hans
+      handagangi, at varla mátti hann einnsaman ganga með öðrum mönnum. Var þessi nú in mikla
+      orrosta enduð, ok hafði þar orðit svá mikit mannfall, at menn vissu varla þvílíkt, ok lágu
+      dauðir mannabúkar um alla völlu svá þykkt, at eigi mátti um jörðina ganga fyrir því mikla
+      valfalli. Hafði þó fleira fallit af Eireki konungi. Hrólfr ok Stefnir höfðu látit allt lið
+      sitt fyrir utan átta hundruð manna, er eptir lifðu, ok var þat flest sárt. Skorti þar nú ekki
+      vápn né væna gripi, er dauðir menn höfðu átt. Gekk Hrólfr ok Stefnir nú til herbúða sinna, ok
+      batt Möndull dvergr sár manna, ok lofuðu allir hans kunnáttu ok dugnað. Sagði Möndull, at þat
+      hefði verit hans bani, ef Grímr hefði nát honum, þá hann steypti sér niðr í jörðina. "Naut ek
+      þá þess," segir hann, "at fleiri váru mínir vinir en hans þar fyrir." Grímumaðr fór til skipa
+      sinna um kveldit með sínu liði, ok tjölduðu þeir sér herbúðir. Tóku nú hvárirtveggju á sik
+      náðir, ok þótti flestum mál hvíldar. Lið þat, er undan komst ok Eireki konungi hafði fylgt,
+      flýðu til borgarinnar ok heldu sik þar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="34">
+     <p> Um nóttina, er menn váru sofnaðir, gengu þeir Hrólfr ok Stefnir til herbúða skipamanna, ok
+      sváfu þeir allir með herklæðum sínum. Tók Hrólfr þá knífinn ok beltit, þat er Hreggviðr gaf
+      honum, ok batt við spjótskapt grímumanns ok mælti: "Þenna grip gef ek formanni liðs þessa, ok
+      þar með þakka ek honum sína drengiliga þjónustu ok liðveizlu. Þykkist ek skyldugr at gera
+      honum allan þann góða, sem ek má veita honum <pb n="448"/> ok hann vill af mér þiggja." Engi
+      svaraði þeim. Gengu þeir nú til búða sinna ok sváfu af nóttina. Um morgun árla gekk Hrólfr til
+      borgarinnar með lið sitt. Kom þar ok grímumaðr með sitt lið. Þingaði Hrólfr þá við borgarmenn
+      ok játaði þeim griðum, ef þeir vildi borgina upp gefa. Taka þeir nú þann kost. Gengu þeir
+      Hrólfr í borgina með öllu liði sínu ok skutu á húsþingi, ok kvað Hrólfr upp á þinginu, at þeir
+      váru þar komnir af hendi Ingigerðar konungsdóttur at vinna hennar ríki aptr af hennar óvinum
+      ok hún væri nú í Danmörk heil ok vel til reiða. Urðu landsmenn við þessi tíðendi mjök glaðir
+      ok þóttust undir hennar vald þjóna vildu. Gengu þeir Hrólfr nú til halla ok settust til
+      drykkju með mikilli gleði. Tók inn ókunni maðr þá af sér grímuna. Kenndi Hrólfr ok Stefnir þá,
+      at þar var kominn Hrafn, er fyrr var í Jótlandi ok Hrólfr gaf klæðin. Segir hann þeim tíðendi
+      þau, er gerzt höfðu í Danmörk, fall Þorgnýs jarls ok þat, at hann hefði þar at borit. Urðu
+      þeir Hrólfr ok Stefnir hljóðir við þessi tíðendi ok þökkuðu honum mikilliga fyrir sína
+      liðveizlu. Hrafn segist hafa ætlat, at þeir mundi hafa orðit seinir til þeira inn fyrra dag,
+      -- "váru þér góðs frá mér makligir fyrir lífgjöfina ok klæðin endr fyrir löngu, er þit gáfuð
+      mér, en Krákr, bróðir minn, fell í gær fyrir Grími ægi, ok þykki mér þat inn mesti skaði, þótt
+      ek verði svá búit at hafa." Skildu þeir nú talit. Váru þeir þar þá nótt í góðum fagnaði. Um
+      morgun eptir létu þeir Hrólfr hreinsa völlu ok skiptu herfangi með sínum mönnum. Váru þar
+      reistir þrír haugar mjök stórir. Setti Hrólfr Sturlaug, föður sinn, í einn ok Krák, bróður
+      Hrafns, ok alla þá vildustu kappa, er fallit höfðu af þeira liði. Var í þann <pb n="449"/>
+      haug borit gull ok silfr ok góð vápn ok vel um búit. Í annan haug var settr Eirekr konungr,
+      Brynjólfr ok Þórðr ok þeira vildarmenn. Í þriðja var settr Grímr ægir við sjó fram, þar sízt
+      þótti ván, at skip mundi koma at, en almúgi var þar dysjaðr, er fallit hafði. Setti Hrólfr nú
+      stjórnarmenn yfir allt ríkit, til þess er konungsdóttir kæmi til, en dvergr tók orlof af
+      Hrólfi, ok þakkaði hann honum sína fylgd ok gaf honum þá hluti, er hann vildi hafa. Gyða,
+      systir Eireks konungs, hvarf burt ór Garðaríki, ok var þat geta sumra manna, at Möndull mundi
+      hafa haft hana burt með sér. Eptir þat bjuggust þeir Hrólfr til heimferðar ok heldu burt ór
+      Garðaríki ok léttu eigi fyrr en þeir kómu til Danmerkr í Árós. Þann stað hafði Þorgnýr mest
+      eflt. Gekk Björn móti þeim með miklum fagnaði ok allr landslýðr. Jungfrúrnar urðu fegnar þeira
+      aptrkvámu. Þakkaði Ingigerðr þeim sína framgöngu. Björn hafði geymt þær í einu jarðhúsi, síðan
+      jarlinn fell. Sagði Ingigerðr nú einarðliga, at hún vildi engan mann eiga nema Hrólf
+      Sturlaugsson, því at hann hefði mestu um kostat föður síns at hefna, -- "hefir hann nú misst
+      föður sinn ok bróður ok aðra vini ok frændr, en komit sjálfr í mestan háska." Mæltu þessu
+      engir í móti. Gerði Björn þeim nú sæmiliga veizlu, ok drukku erfi Þorgnýs jarls. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="35">
+     <p> Einn dag at veizlunni stóð Hrafn upp ok beiddi sér hljóðs ok mælti: "Þakkir vil ek gera
+      yðr, Hrólfr ok Stefnir, fyrir þann heiðr ok velgerning, er þit hafið til mín gert bæði nú ok
+      fyrri, er ek var hér. Vil ek nú kunngera yðr mitt nafn ok ætterni: Konungr einn hét <pb
+       n="450"/> Játgeirr ok réð fyrir einu konungsríki í Englandi ok hafði atsetu í borg þeirri, er
+      Víncestr heitir. Hann átti tvá sonu ok eina dóttur. Hét inn ellri sonr hans Haraldr, en annarr
+      Sigurðr. Álfhildr hét dóttir hans. Ek er sá sami Haraldr, en Sigurðr, bróðir minn, fell í
+      Garðaríki, sem þér vissuð, ok er móðurkyn okkart hér í Danmörk. En þá er ek var fimmtán ára,
+      en bróðir minn þrettán, var faðir minn svikinn af frænda sínum, er Heinrekr hét, ok er hann
+      mikill kappi ok óeirumaðr. Lét hann síðan taka sik til konungs ok heldr síðan ríkinu, en vit
+      bræðr kómumst með nauðum undan ok fengum komit Álfhildi til geymslu í borg þá, er Brandifurða
+      heitir, ok hefir hún þar verit síðan, en vit bræðr höfum farit huldu höfði um ýmsi lönd ok
+      nefnt okkr Krák ok Hrafn. Höfum vit fengit lið þetta ok skip hjá ýmsum höfðingjum með styrk
+      frænda okkarra. Hefir Heinrekr mikinn styrk af Skotlandi, því at hann á dóttur Melans jarls ór
+      Móraði ok mikill vin höfuðkonungsins, er Dungall heitir. Við hann er kennt Dungalsbær, því at
+      hann hefir þann stað byggja látit. Nú vil ek þess biðja yðr, Hrólfr ok Stefnir, at þér veitið
+      mér lið ok styrk, at ek mætti föður míns hefna ok mína föðurleifð aptr vinna." Hrólfr sagði:
+      "Allan þann styrk ok fylgi skal ek þér veita, er ek má, ok eigi fyrr við skilja en þú hefir
+      þitt ríki aptr unnit ok þína harma rekit, eða at öðrum kosti skal ek láta lífit." Stefnir
+      talaði ok slíkt it sama. Haraldr þakkaði þeim orð ok góðvilja. Þegar eptir veizluna bjuggust
+      þeir til ferðar ok völdu með sér allt it fræknasta lið, er fá kunni. Þeir settu Björn ráðgjafa
+      eptir til landsgæzlu ok fleiri ríkismenn með honum, en áðr þeir fóru, hafði Haraldr upp orð
+      sín ok bað Þóru, systur Stefnis. Var Hrólfr þetta flytjandi <pb n="451"/> ok fleiri tígnarmenn
+      aðrir. Fór þat fram, at Haraldr fekk hennar, ok skyldi hún í festum sitja, til þess þeir kæmi
+      aptr. Eptir þat sigldu þeir af Jótlandi ok höfðu þrjá tigi skipa ok öll vel búin. Þeir léttu
+      sinni ferð eigi fyrr en þeir kómu vestr til Englands við ey þá, er Lindisey heitir. Þar lögðu
+      þeir í lægi ok lágu þar nokkura daga ok biðu byrjar, því at þeir vildu eigi þar herja. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="36">
+     <p> Svá er sagt, at með Heinreki konungi var sá maðr, er Annis hét. Hann var gamall at aldri,
+      en nýr ok forn at illsku ok fjölkynngi. Hann hafði fóstrat Heinrek ok verit jafnan hans
+      ráðuneyti. Annis hafði sagt konungi fyrir mánuði, at Haraldr ok Hrólfr mundi þar koma með
+      mikit lið ok hvat þeir ætluðust fyrir. Sagði Annis þá kappa mikla Hrólf ok Stefni ok nú mundi
+      ráða við þurfa, -- "er þat mitt ráð at senda til Skotlands til Melans jarls, mágs þíns, ok
+      hann komi til liðs við þik. Þú skalt ok gera boð til Dungals konungs, at hann sendi þér lið,
+      ok þegar Hrólfr kemr við land, skaltu senda þeim mann at hasla þeim völl ok bjóða þeim til
+      orrostu. Mega þeir þá eigi herja at réttum víkingalögum. Orrostustaðinn skal setja við Ásatún
+      norðr frá Kanaskógum. Þar er landsleg mest ok verst flótta við at koma, en í skóginum skaltu
+      vera láta helming liðs várs, til þess at þeir veiti þeim bakslettur, ok koma þeim í opna
+      skjöldu. Skulum vér þá kringja um þá ok láta engan með lífi burt komast." Sýndist konungi
+      þetta gott ráð ok lét svá með fara sem Annis sagði fyrir. Kom Melans jarl af Skotlandi með
+      mikit lið. Var þat ok <pb n="452"/> frítt lið, er Dungall konungr hafði sent Heinreki konungi.
+      Váru þar fyrir liði berserkir tveir. Hét einn Ámon, en annarr Hjálmarr. Váru þeir miklir fyrir
+      sér at afli ok harðfengi. Hafði Heinrekr nú óflýjanda her. Kómu nú sendimenn hans til
+      Lindiseyjar ok sögðu þeim Hrólfi, at þeim var haslaðr völlr ok til orrostu búit við Ásatún.
+      Sýndist þat sumum óráðligt at fara með jafnlítit lið upp í megin landsins, svá sem þar var
+      mikit fjölmenni fyrir. Heldu þeir til þess staðar, er í Skorsteini heitir, ok létu þar eptir
+      skip sín ok bjuggu sik þá til landgöngu ok léttu eigi fyrr en þeir kómu við Ásatún. Var
+      Heinrekr konungr þar fyrir ok Melans jarl með óflýjanda her, en í skóginum váru þeir Ámon ok
+      Hjálmarr með mikit lið, ok vissu þeir Hrólfr ekki til þess. Váru nú skipaðar fylkingar:
+      Heinrekr konungr setti þrjár fylkingar. Var hann sjálfr í miðri fylkingu, en Melans jarl í
+      annarri. Í þriðju fylking var greifi sá, er Engilbert hét ok var inn mesti kappi. Með honum
+      var sá maðr, er Rauðam hét ok var bæði mikill ok sterkr ok fullhugi inn mesti. Váru merki
+      borin fyrir þeim öllum. Annis var ekki í orrostu. Haraldr vildi fylkja í móti Heinreki
+      konungi, en Stefnir mót Melans jarli. Hrólfr fylkti mót Rauðam ok Engilbert. Var eptir þat í
+      lúðra blásit, ok knúðust hvárirtveggju til framgöngu með ópi ok eggjan. Tókst þar fyrst
+      skothríð, en síðan in harðasta höggorrosta, ok gengu hvárirtveggju vel fram. Skotar ok
+      Englismenn váru fyrst mjök ákafir, en Danir tóku vel við ok snarpliga. Þeir Engilbert ok
+      Rauðam mættu Hrólfi þegar í fyrstu, þá orrostan festist, ok sóttu at honum báðir senn, en hann
+      varðist vel ok drengiliga. Var hann í herklæðum sínum ok utan yfir í Véfreyjunaut. Þeir váru
+      báðir fimir ok sterkir, <pb n="453"/> Rauðam ok Engilbert, ok kom Hrólfr aldri staðhöggi á þá,
+      en klauf hann af þeim allar hlífar. Varð Hrólfr mjök móðr, en ekki festi vápn á honum fyrir
+      hlífar sakir. Hann var nú ákafliga reiðr. Honum varð þat fyrir, at hann kastaði sverðinu, en
+      rann undir Engilbert greifa með svá miklu skjótræði, at hann hóf greifann upp yfir höfuð sér
+      ok færði hann á höfðinu niðr, svá at hálsbeinit gekk í sundr. Í því hjó Rauðam báðum höndum á
+      hrygg Hrólfi, svá at sverðit gekk sundr undir hjöltunum. Vildi hann þá hafa gripit
+      Hreggviðarnaut. Hrólfr hljóp á hann ok lét hann kenna afls munar ok hneppti hann undir sik ok
+      setti kné fyrir brjóst honum svá hart, at inn gengu bringspalirnar. Létu Rauðam ok Engilbert
+      svá líf sitt, ok þóttu þeir verit hafa inir mestu hreystimenn. Hrólfr tekr nú Hreggviðarnaut
+      ok höggr til beggja handa. Þótti þeim Skotum hann mjök sárbeittr ok hopuðu heldr undan. Hrólfr
+      mat eigi muninn eptir þeim at fara ok drap hvern, er fyrir honum varð. Danir urðu þess brátt
+      varir, at þeim bitu eigi vápnin, þótt þeir hjuggu þrátt til, sem eigi váru hlífar fyrir, ok
+      var líka sem þeir berði með lurkum, utan Hreggviðarnautr beit sem í vatn brygði. Hafði þat ok
+      engi deyft getað utan Grímr ægir, svá at menn vissi til þess dæmi. Fellu nú meir Danir en
+      Englismenn. Þessu næst heyrðu þeir lúðrablástr ok heróp. Hlupu þá berserkirnir fram ór
+      skóginum með miklu liði ok kómu þeim Hrólfi í opna skjöldu. Gerðu þeir harða atgöngu, ok fellu
+      nú Danir undvörpum. Hrólfr bað sína menn snúast á móti ok horfast at bökum. Fór hann ok með
+      merki sínu í móti berserkjunum. Varð nú allhörð orrosta. Stefnir átti vápnaskipti við Melans
+      jarl, ok var þat harðr samgangr, því at hann var mikill kappi, <pb n="454"/> en sverð Stefnis
+      beit ekki. Þeir Ámon ok Hjálmarr kómu nú í móti Hrólfi. Þeir hjuggu til hans báðir, en hann
+      hafði fyrir sér skjöldinn ok bar af sér drengiliga. Hrólfr sveipaði sverðinu til Hjálmars ok
+      kom á lærit fyrir ofan mjöðmina ok þar undan fótinn ok dó hann eptir lítinn tíma. Annis kom þá
+      fram. Hann hafði skjöld fyrir sér stóran sem hurð, en lítit sax í annarri hendi. Hann lagði
+      saxinu á miðjum merkismanni Hrólfs, svá at þegar gekk í gegnum. Fell þá merkit á jörð. Dönum
+      bitu nú vápnin, þegar Annis var fram kominn. Dugði nú hverr sem mátti. Fell nú margt af
+      hvárumtveggjum, en þó fleira af Dönum. Hrólfr vildi nú hefna merkismanns síns ok hjó til
+      Annis. Höggit kom á miðjan skjöldinn, ok klofnaði hann niðr at mundriða. Stóð þá sverðit fast,
+      en Annis helt svá sterkliga, at hvergi bifaðist skjöldrinn, en Hrólfr vildi þá sleppa
+      sverðinu. Var þess eigi kostr, því at báðar hans hendr váru fastar við meðalkaflann. Annis bað
+      þá Skotana at skrifta Hrólfi, -- "því at nú hefir vargrinn í stilli gengit." Gerðu þeir nú
+      svá, at þeir þyrptust at Hrólfi mjök margir. Aðrir hjuggu eða börðu hann. Bæði var hann grjóti
+      grýttr ok öxum höggvinn ok kylfum lamdr. Grettist Hrólfr nú ekki hagliga ok brauzt um fast með
+      hörðum fótaspyrningum. Varð hann þó eigi lauss. Nú er frá Stefni at segja, at hann barðist við
+      Melans jarl. Tók nú at bíta sverðit. Hann hjó til jarlsins af öllu afli ofan í hjálminn. Þat
+      högg varð svá mikit, at hann klauf hjálminn ok höfuðit ok búkinn allan brynjaðan niðr í
+      gegnum, svá at í jörðu nam staðar. Höfðu þeir nú lengi barizt. Stefnir undraðist nú, at hann
+      sér ekki merki Hrólfs né sjálfan hann ok leitar eptir honum, þar til hann sá, hversu hann var
+      staddr, at þeir <pb n="455"/> sóttu at höggva undan honum fætrna. Skundar hann nú at duga
+      honum ok kemr at Annis óvörum ok höggr með sverðinu framan á hjálmbarðit ok þat í sundr ok þar
+      með alla ásjónuna ok báðar hendrnar í ölnbogabótunum. Sníddi Annis nú ófimliga. Varð Hrólfr nú
+      lauss, ok var eigi gott fyrir honum at verða, ok sneri þá at Ámon ok hjó til hans með báðum
+      höndum. Sverðit kom í skjöldinn ok tók í sundr, en blóðrefillinn reist brjóstit ok kviðinn,
+      svá at út fellu iðrin, ok fell Ámon dauðr til jarðar. Hrólfr var þá svá reiðr, at hann eirði
+      engu. Hann hjó ákafliga sem hendrnar fengu tíðast reitt sverðit, en þrír eða fjórir fellu
+      fyrir hverju hans höggi. Því var líkast til at jafna um mannfallit, sem þá er ákafligast hrýtr
+      kurfl af stofni, er menn gera til kola. Stefnir gerði ok slíkt it sama. Fellu nú svá skjótt
+      Englismenn, at mörgum hundruðum gegndi. Þeir Heinrekr konungr ok Haraldr höfðu fundizt
+      öndverðliga í orrostunni ok höfðu barizt allan daginn. Váru þeir bæði sárir ok móðir, en
+      Haraldr þó meir. Hrólfr sér nú þeira viðreign. Hann hafði þá fjórum sinnum gengit aptr ok fram
+      í gegnum fylkingar Heinreks konungs. Hann veðr þá at konungi ok höggr á hrygg honum, svá at
+      hann fell í tvá hluti dauðr til jarðar. En er Skotar ok Englismenn sjá konung sinn fallinn,
+      flýði hverr, sem fætr hafði ok því kom við, en hinir ráku flóttann ok drápu hvern, er þeir
+      náðu ok eigi gekk til griða. Hrólfr rak langt flóttann. Þurfti sá engi griða, er hann náði
+      sverði til, ok fell mikill fjöldi í flóttanum. Sneru Danir þá aptr ok flettu valinn ok tóku
+      þar mikit herfang. Annis var fangaðr í orrostunni, ok lét Hrólfr eykr spretta honum í sundr,
+      ok lauk svá hans ævi. Hrólfr var sárr mikit, bæði á höndum ok fótum, <pb n="456"/> en víða um
+      búkinn blár ok lerkaðr af stórum höggum, þótt eigi hefði bitit. Fóru þeir Haraldr nú til
+      Víncestuborgar, ok var hún upp gefin fyrir þeim, ok gekk allt landsfólk glaðliga til handa
+      Haraldi. Var hann nú til konungs tekinn yfir allt þat ríki, sem faðir hans hafði átt. Þakkaði
+      hann þeim Hrólfi ok Stefni, sem vert var, sína fylgd ok framgöngu. Skotar þeir, er undan
+      kómust, fóru á fund Dungals ok sögðu honum sínar ófarir ok mannskaða ok at Hrólfr var líkari
+      tröllum en mönnum fyrir afls sakir ok vaxtar. Líkaði Dungal mjök illa mannskaði sá, er hann
+      hafði fengit, ok varð þó svá búit at hafa. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="37">
+     <p> Þeir Hrólfr ok Stefnir sátu nú um kyrrt með Haraldi, þat er eptir var vetrarins. Lét
+      Haraldr sækja Álfhildi, systur sína, til Brandfurðaborgar, ok fór hún með góðu föruneyti ok
+      sæmiligri fylgd. Varð Haraldr feginn systur sinni ok svá hvárt þeira öðru. Var hún in fríðasta
+      jungfrú ok vel at atburðum, sem konungsbarni byrjaði. Stefni rann skjótt ástarhugr til hennar
+      ok gekk á tal við hana, ok virtist hún honum bæði vitr ok hæversklig. Hafði Stefnir þá uppi
+      bónorð til hennar, en hún svarar því vel ok veik því mjök til bróður síns. Var það auðsótt við
+      Harald, því at honum var Stefnir kunnigr at góðum drengskap ok mikilli hreysti. Fór það fram,
+      at Stefnir fastnaði Álfhildi, ok greiddi Haraldr út mund hennar í gulli ok góðum gripum.
+      Bjuggust þeir nú allir, þegar váraði, aptr til Danmerkr ok hlóðu skipin með malt, mjöð ok vín
+      ok dýrum klæðum ok öllum þeim varningi, er dýrmætastr var <pb n="457"/> í Danmörk ok fá kunni
+      í Englandi, heldu síðan aptr til Danmerkr, ok var Álfhildr með þeim. Varð allt fólk í Jótlandi
+      fegit þeira aptrkvámu. Tóku jungfrúrnar vel við þeim ok Björn ráðgjafi. Fór Álfhildr til þeira
+      Ingigerðar ok Þóru, ok var nú mikill fagnaðr með þeim öllum saman. Létu þeir nú ryðja skip sín
+      ok efna til ágætrar veizlu með öllum sínum beztum tilföngum, er í Danmörk mátti fá eða nálægum
+      löndum. Var þar engi hlutr til sparaðr um hallir ok húsbúning ok alla hluti, þá er mátti fá á
+      Norðrlöndum. Váru til þessarar veizlu boðnir burgeisar ok hirðmenn, greifar ok jarlar með
+      hertugum ok konungum ok öllum öðrum mikils háttar mönnum. Váru flestir tígnarmenn at þessi
+      veizlu, er í váru Danmörk. Ok at öllum samanskipuðum ok þangat komnum var mönnum í sæti
+      skipat, ok þéntu þar kurteisir junkerar ok hæverskir hofmenn. Þar váru fram bornir alls konar
+      réttir með inum dýrustu jurtum, allra handa dýra hold ok fugla, af hreinum ok hjörtum ok vænum
+      villisvínum, gæss ok rjúpur með pipruðum páfuglum. Eigi vantaði þar inn dýrasta drykk, ál ok
+      enskan mjöð með vildasta víni, píment ok klaret. Ok at brullaupinu settu ok veizlunni svá
+      skipaðri mátti heyra alls konar strengleika, hörpur ok gígjur, símphón ok salteríum. Þar váru
+      bumbur barðar ok pípur blásnar með alls kyns lystiligum leikum, er líkaminn mátti við
+      gleðjast. Eptir þat váru jungfrúrnar inn leiddar með sínum skrautligum skara ok skemmtiligum
+      kvenna fjölda. Leiddu tveir tígnarmenn hverja þeira, er brúðgumarnir áttu að eiga. Var yfir
+      þeim borið á steindum stöngum klæði, hvat er skyggja skyldi þeira bjarta búnað ok fögru ferð,
+      til þess er þær váru í sæti komnar. Var þá klæðit burt tekit. Bar þá eigi lit af lit, hörund
+       <pb n="458"/> ok hár skínanda ok gull glóanda með gimsteinum beranda. Sýndust þá öllum
+      Álfhildr ok Þóra fölvar á lit hjá Ingigerði. Var nú veizla in virðuligasta, ok at þessari
+      veizlu gekk Hrólfr at eiga Ingigerði, en Stefnir Álfhildi, Haraldr Þóru. Þessi veizla var sjau
+      nætr standandi með sama sett ok skipan verandi sem ek er nú greinandi, með heiðr ok prís
+      endandi, brúðgumar með góðum gjöfum alla tígnarmenn reifandi ok þeim sína þar kvámu þakkandi,
+      en hverr til sinna heimkynna farandi, þeira ráð sem ok mikilmennsku lofandi ok allir með
+      vináttu skiljandi. Tókust nú með þeim góðar ástir. Var Haraldr konungr ekki lengi í Danmörk,
+      áðr hann bjóst heim til Englands. Skildi hann við Stefni, mág sinn, ok Hrólf með vináttu ok
+      fór síðan í ríki sitt. Var Þóra drottning með honum, ok settust um kyrrt. Áttu þau börn saman,
+      þótt þau sé eigi nefnd. England er kallat gagnauðigast land af Vestrlöndum, því at þar er
+      blásinn allr málmr, ok þar fellr hveiti ok vín, ok alls konar sæði má þar hafa. Eru þar ok
+      klæði gerð ok margháttaðir vefir meir en í öðrum stöðum. Lundúnaborg er þar höfuðstaðr ok
+      Kantaraborg. Þar er Skarðaborg ok Helsingjaborg, Víncestr ok margir aðrir staðir ok borgir, er
+      hér eru eigi nefndir. Stefni var gefit jarlsnafn yfir allt Jótland, ok sat hann optast í
+      Rípum. Danmörk er mjök sundrlaus, ok er þar Jótland mestr hluti ríkis. Þat liggr it syðra með
+      hafinu. Jótlandssíða er kölluð vestan frá hafinu, Vandilskaga ok suðrr til Rípa. Í Jótlandi
+      eru margir höfuðstaðir, syðst í Heiðabæ, annarr í Rípum, þriði í Árósi, fjórði í Vébjörgum;
+      þar taka Danir konung sinn. Limafjörðr er á Jótlandi. Hann gengr af norðri til suðrs, en í
+      innanverðum firðinum gengr Haraldseið vestr til hafsins. Þar lét Haraldr konungr Sigurðarson
+       <pb n="459"/> draga yfir skip sín, þá hann fór undan ófriði Sveins konungs. Fyrir vestan
+      Limafjörð liggr Vandilsskagi. Honum víkr til norðrættar. Í Jörungi er þar höfuðstaðr. Milli
+      Jótlands ok Fjóna gengr inn Álfasund. Á Fjóni er höfuðstaðr í Óðinsey. Milli Fjóna ok Sjálands
+      gengr Beltissund. Í Sjálandi er höfuðstaðr í Róiskeldu. Fyrir norðan Sjáland gengr inn
+      Eyrarsund ok þar fyrir norðan Skáney. Þar er höfuðstaðr í Lundum. Milli Jótlands ok Skáneyjar
+      liggja mörg stór eylönd. Þar er Sámsey, Álsey, Láland, Langaland. Borgundarhólmr liggr austr í
+      hafit. Höfðu Skjöldungar í þenna tíma þetta ríki, en þó höfðu aðrir konungar ok jarlar ekki
+      minna ríki at ráða en þeir í Danmörk, þótt Sköldungar bæri hæri tígn fyrir sakir nafns ok
+      ættar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="38">
+     <p> Svá er hér sagt, at Stefnir jarl muni ekki langlífr verit hafa ok ætti ekki barn, svá at ór
+      barnæsku kæmist. Þeir Hrólfr ok Stefnir skildust með mikilli vináttu ok heldu sínum
+      félagsskap, meðan þeir lifðu báðir. Ekki er þess getit, at Hrólfr kæmi til Hringaríkis síðan.
+      En þat er sagt, at þat sumar fór Haraldr vestr til Englands. Sigldi Hrólfr af Danmörk austr
+      til Hólmgarða með tíu skipum ok Ingigerðr með honum. Var Hrólfr þar til konungs tekinn yfir
+      allt Garðaríki með ráði konungsdóttur ok annarra ríkismanna. Þriðjungr Garðaríkis er kallaðr
+      Kænugarðar. Þat liggr með fjallgarði þeim, er skilr Jötunheima ok Hólmgarðaríki. Þar er ok
+      Ermland ok fleiri önnur smáríki. Hrólfr stýrði nú ríki sínu með mikilli virðing. Var hann bæði
+      vitr ok stjórnsamr. <pb n="460"/> Þorðu engir höfðingjar á hann at herja sakir hans frægðar ok
+      hreysti. Unnust þau mikit Hrólfr ok Ingigerðr, ok áttu þau mörg börn. Hreggviðr hét sonr þeira
+      ok var mikill fyrir sér. Hann fór í hernað í Austrveg ok ekki aptr síðan. Þat er fróðra manna
+      sögn, at annarr sonr Hrólfs hafi verið Óláfr konungr í Danmörk, er Helgi inn frækni herjaði á,
+      en Hrómundr Gripsson veitti Óláfi, sem segir í sögu hans, ok drap Helga, ok þær Dagný ok
+      Dagbjört væru dætr Hrólfs, er græddu Hrómund. En þat er eigi ritat, hvárt þær váru börn
+      Ingigerðar eða eigi. Þriði sonr Hrólfs hét Hörðr, faðir Kára, föður Hörða-Knúts. Þat er sagt,
+      at Hrólfr yrði gamall maðr, en eigi er þat greint, hvárt hann var sóttdauðr eða með vápnum
+      veginn. Nú þótt þessi saga þykki eigi samhljóða verða öðrum sögum, þeim er at ganga þessu
+      máli, um manna nöfn ok atburði, hvat er hverr vann eða gerði með frægð eða vizku, fjölkynngi
+      eða svikum eða hvar höfðingjarnir ríktu, þá er þat líkligast, at þeir, er skrifat hafa ok
+      samsett þessi tíðendi, muni eitthvert hafa fyrir sér haft, annathvárt forn kvæði eða fróðra
+      manna sögn. Munu þær ok fár eða engar fornra manna sögur, at menn vili með eiðum sanna, at svá
+      hafi verit sem sagðar eru, því at flestar verða orðum auknar, verða ok eigi öll orð ok atvik
+      greind í sumum stöðum, því at flest er seinna en segir. Stendr því bezt at lasta eigi eða
+      kalla lygð fróðra manna sagnir, nema hann kunni með meirum líkendum at segja eða orðfæriligar
+      fram at bera. Hafa ok forn kvæði ok frásagnir meir verit fram sett til stundligrar gleði en
+      ævinligs átrúnaðar. Verðr ok fátt svá ólíkliga sagt, at eigi finnist sönn dæmi til, at annat
+      hafi svá orðit. Þat er ok sannliga ritat, at guð hefir lánat heiðnum mönnum einn veg sem
+      kristnum <pb n="461"/> vit ok skilning um jarðliga hluti, þar með frábæriligan fræknleik,
+      auðæfi ok ágæta skapan. Nú verðr hér endir á þessu máli frá Hrólfi Sturlaugssyni ok hans
+      afreksverkum. Hafi hverr þökk, er hlýðir ok sér gerir skemmtan af, en hinir ógleði, er angrast
+      við ok ekki verðr at gamni. Amen. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,4705 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Örvar-Odds saga</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Örvar-Odds saga</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Orvar_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="283"/>
+
+GRÍMR hét maðr ok var kallaðr loðinkinni. Því var
+hann svá kallaðr, at hann var með því alinn, en
+þat kom svá til, at þá þau Ketill hængr, faðir Gríms,
+ok Hrafnhildr Brúnadóttir gengu í eina sæng, sem fyrr
+er skrifat, at Brúni breiddi á þau húð eina, er hann
+hafði boðit til sín Finnum mörgum, ok um nóttina leit
+Hrafnhildr út undan húðinni ok sá á kinn einum
+Finninum, en sá var allr loðinn. Ok því hafði Grímr
+þetta merki síðan, at menn ætla, at hann muni á þeiri
+stundu getinn hafa verit. Grímr bjó í Hrafnistu. Hann
+var auðigr at fé ok mikils ráðandi um allt Hálogaland
+ok víðar annars staðar. Hann var kvángaðr, ok hét Lopthæna
+kona hans. Hún var dóttir Haralds hersis ór Vík
+austan.
+Þat var eitt sumar, at Grímr bjó för sína í Vík austr
+eptir Harald dauðan, mág sinn, fyrir því at hann átti
+þar miklar eignir. Ok er Lopthæna verðr þess vís, þá
+beiðist hún at fara með honum, en Grímr segir, at
+<pb n="284"/>
+
+þat mátti eigi vera, -- "fyrir því at þú ert kona eigi
+heil." "Ekki læt ek mér annat líka," segir hún, "en
+fara." Grímr unni henni mikit, ok lætr hann þat eptir
+henni. Hún var hverri konu vænni ok betr at sér um
+alla hluti, þeira er í Noregi váru. Þeira för var búin
+virðuliga.
+Grímr sigldi tveim skipum ór Hrafnistu austr í Vík.
+En er þau koma fyrir sveit þá, er heitir á Berurjóðri,
+þá segir Lopthæna, at hún vill láta lægja seglin, fyrir
+því at hún kenndi sér sóttar, ok svá var gert, at skipin
+váru at landi látin. Þar bjó sá maðr, er Ingjaldr hét.
+Hann var kvángaðr maðr ok átti son við konu sinni,
+ungan at aldri, en vænan at áliti, þann er Ásmundr
+hét. En er þau váru at landi komin, váru menn upp
+sendir til bæjar at segja Ingjaldi, at Grímr var þar
+kominn við land ok kona hans. Þá lét Ingjaldr eyki
+beita fyrir vagnsleða ok fór sjálfr á móti þeim ok bauð
+þeim allan þann beina, sem þau þurftu ok þau vildu
+þegit hafa. Þá fóru þau heim til bæjar Ingjalds. Síðan
+var Lopthænu fylgt í kvenna hús, en Grími var fylgt
+í skála ok skipat í öndvegi, ok engan hlut þóttist
+Ingjaldr fullvel gert geta til þeira Gríms. En Lopthænu
+elnaði sóttin til þess, at hún varð léttari at sveinbarni,
+ok tóku konur við því ok létust aldrigi sét hafa
+jafnvænt barn. Lopthæna leit til sveinsins ok mælti:
+"Berið hann til föður síns. Hann skal nafn gefa barninu,"
+ok svá var gert. Var sveinninn þá vatni ausinn
+ok nafn gefit ok kallaðr Oddr. Þar var Grímr þrjár
+nætr. Þá sagði Lopthæna, at hún var búin til ferðar,
+ok þá sagði Grímr Ingjaldi, at hann vill búast til burtferðar.
+"Svá er mér gefit," sagði Ingjaldr, "at ek vilda
+þiggja af yðr nokkurn virðingar hlut." "Þat er makligt,"
+sagði Grímr, "ok kjós þú þér sjálfr laun, því
+<pb n="285"/>
+
+at eigi skortir fé fram at greiða." "Ærit hefi ek fé,"
+sagði Ingjaldr. "Þá þigg þú annat," sagði Grímr. "Barnfóstr
+vil ek bjóða þér," sagði Ingjaldr. "Þat veit ek
+eigi," sagði Grímr, "hversu Lopthænu er um þat gefit."
+En hún svaraði: "Þat ræð ek at þiggja þat, sem svá
+er vel boðit."
+Þá var þeim fylgt til skipa sinna, en Oddr var eptir
+á Berurjóðri. Þau fóru ferða sinna, til þess at þau
+kómu austr í Vík, ok eru þar þá stund, sem þau þykkjast
+þurfa. Síðan búast þau í burt þaðan, ok gaf þeim
+vel byri, til þess at þau kómu fyrir Berurjóðr. Þá bað
+Grímr lægja seglin. "Hví skulu vér eigi fara ferðar
+várrar?" sagði Lopthæna. "Ek ætlaða," sagði Grímr,
+"at þú mundir vilja finna son þinn." "Leit ek á hann,"
+sagði hún, "er vit skildum, ok þótti mér sem hann
+mundi lítt renna ástaraugum til vár Hrafnistumanna,
+ok munu vit fara ferð vára," sagði hún.
+Nú koma þau Grímr heim í Hrafnistu ok settust at
+búi sínu, en Oddr vex upp at Berurjóðri ok Ásmundr.
+Oddr nam íþróttir þær, er mönnum var títt at kunna.
+Ásmundr þjónaði honum í hvívetna. Hann var flestum
+mönnum vænni ok gervari at sér.
+Fóstbræðralag gerðist með þeim Oddi ok Ásmundi.
+Í skotbökkum váru þeir hvern dag eða á sundi. Engi
+komst til jafns við Odd um allar íþróttir. Aldri var
+Oddr at leikum sem önnur ungmenni. Honum fylgdi
+Ásmundr ávallt. Framar mat Ingjaldr Odd en Ásmund
+í hvívetna.
+Skeyti lét Oddr sér gera hvern mann, er hann fann
+hagan. Hann varðveitti þau ekki eptir, ok fóru þau
+um flet ok um bekki undir mönnum. Margir skeindust
+á því, er menn kómu í myrkri inn eða niðr settust.
+Sjá einn hlutr var svá, at Oddi aflaði óvinsælda. Menn
+<pb n="286"/>
+
+töluðu um við Ingjald, at hann skyldi tala við Odd
+um þetta. Ingjaldr finnr Odd at máli einnhvern dag.
+"Hlutr er sá einn," sagði Ingjaldr, "fóstri minn, at þér
+aflar óvinsælda." "Hverr er sá?" sagði Oddr. "Þú varðveitir
+eigi skeyti þín, sem öðrum mönnum er títt,"
+sagði Ingjaldr. "Þá þætti mér þú mega gefa sakir á
+því,"  sagði Oddr, "ef þú hefðir mér nokkut fengit at
+varðveita þau í." "Ek skal til fá," sagði Ingjaldr, "þat
+sem þú vilt." "Þat hygg ek,"  sagði Oddr, "at þú munir
+þat ekki til fá." "Þat mun eigi vera," sagði Ingjaldr.
+"Hafr áttu þrévetran, svartan at lit," sagði Oddr.
+"Hann vil ek drepa láta ok flá belg af bæði með hornum
+ok klaufum." Ok svá var gert sem Oddr mælti
+fyrir, ok var honum færðr belgrinn, þá er búinn var.
+Þar bar hann í ofan örvar sínar, ok eigi léttir hann af,
+fyrr en fullr var belgrinn. Þat var miklu fleira ok
+meira en annarra manna skeyti. Boga fekk hann sér
+at því skapi.
+Svá var Oddr búinn, at hann var í rauðum skarlatskyrtli
+hvern dag ok hafði knýtt gullhlaði at höfði sér.
+Örvamæli sinn hafði hann, hvar sem hann fór. Ekki
+vandist Oddr blótum, því at hann trúði á mátt sinn
+ok megin, ok þar gerði Ásmundr eptir, en Ingjaldr
+var inn mesti blótmaðr. Opt fóru þeir fóstbræðr fyrir
+land fram, Oddr ok Ásmundr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Kona er nefnd Heiðr. Hún var völva ok seiðkona
+ok vissi fyrir óorðna hluti af fróðleik sínum. Hún fór
+á veizlur ok sagði mönnum fyrir um vetrarfar ok forlög
+sín. Hún hafði með sér fimmtán sveina ok fimmtán
+<pb n="287"/>
+
+meyjar. Hún var á veizlu skammt í burt frá Ingjaldi.
+Þat var einn morgin, at Ingjaldr var snemma á fótum.
+Hann gekk þar at, sem þeir Oddr ok Ásmundr hvíldu,
+ok mælti: "Ek vil senda ykkr frá húsi í dag," sagði hann.
+"Hvert skulu vit fara?" sagði Oddr. "Þit skuluð bjóða
+hingat völunni, af því at hér er nú veizla stofnuð," sagði
+Ingjaldr. "Þá för fer ek eigi," sagði Oddr, "ok kann ek
+mikla óþökk, ef hún kemr hér." "Þú skalt fara, Ásmundr,"
+sagði Ingjaldr, "því at þín á ek ráð." "Gera
+skal ek þann hlut nokkurn," sagði Oddr, "at þér þykki
+eigi betr en mér þykkir nú þetta."
+Ásmundr ferr nú ok býðr þangat völunni, ok hún hét
+ferðinni ok kom með allt sitt föruneyti, en Ingjaldr
+gekk mót henni með öllum sínum mönnum ok bauð
+henni í skála. Þau bjuggust svá við, at seiðr skyldi fram
+fara um nóttina eptir. Ok er menn váru mettir, fóru
+þeir at sofa, en völva fór til náttfarsseiðs með sitt lið.
+En Ingjaldr kom til hennar um morguninn ok spurði,
+hversu at hefði borit um seiðinn. "Þat ætla ek," sagði
+hún, "at ek hafa vís orðit þess, sem þér vilið vita."
+"Þá skal skipa mönnum í sæti," sagði Ingjaldr, "ok hafa
+af þér fréttir." Ingjaldr gekk fyrstr manna fyrir hana.
+"Þat er vel, Ingjaldr," sagði hún, "at þú ert hér kominn.
+Þat kann ek þér at segja, at þú skalt búa hér til
+elli með mikilli sæmd ok virðingu, ok má þat vera
+mikill fagnaðr öllum vinum þínum." Þá gekk Ingjaldr
+burt, en Ásmundr þangat. "Vel er þat," sagði Heiðr,
+"at þú ert hér kominn, Ásmundr, því at þinn vegr ok
+virðing ferr víða um heiminn, en ekki muntu við aldr
+togast, en þykkja þar góðr drengr ok mikill kappi, sem
+þú ert." Síðan gekk Ásmundr til sætis síns, en alþýða fór
+til seiðkonunnnar, ok sagði hún hverjum þat, sem fyrir
+var lagit, ok una þeir allir vel við sinn hlut. Síðan sagði
+<pb n="288"/>
+
+hún um vetrarfar ok marga aðra þá hluti, er menn
+vissu eigi áðr. Ingjaldr þakkar henni sínar spásögur.
+"Hvárt hafa nú allir hingat farit, þeir sem innan
+hirðar eru?" sagði hún. "Ek ætla nú farit hafa nær
+alla," sagði Ingjaldr. "Hvat liggr þar í öðrum bekkinum?"
+sagði völvan. "Feldr nokkurr liggr þar," sagði
+Ingjaldr. "Mér þykkir sem hræfist stundum, er ek lít
+til," sagði hún. Þá settist sá upp, er þar hafði legit, ok
+tók til orða ok mælti: "Þat er rétt, sem þér sýndist, at
+þetta er maðr ok þar sá maðr, at þat vill, at þú þegir
+sem skjótast ok fleiprir eigi um mitt ráð, því at ek trúi
+eigi því, sem þú segir." Oddr hafði einn búinn sprota
+í hendi ok mælti: "Þenna sprota mun ek færa á nasir
+þér, ef þú spáir nokkuru um minn hag." Hún mælti:
+"Þér mun ek þó segja, en þú munt hlýða," segir hún.
+Þá varð henni ljóð á munni:
+<lg>
+<l>"Ægðu eigi mér,</l>
+<l>Oddr á Jaðri,</l>
+<l>elda skíðum,</l>
+<l>þótt ýmist geipum.</l>
+<l>Saga mun sannast,</l>
+<l>sú er segir völva.</l>
+<l>Öll veit hún manna</l>
+<l>örlög fyrir.</l>
+<l>Ferr eigi þú svá</l>
+<l>fjörðu breiða</l>
+<l>né líðr yfir</l>
+<l>láð ok vága,</l>
+<l>þótt sjór yfir þig</l>
+<l>sægjum drífi, --</l>
+<l>hér skaltu brenna</l>
+<l>á Berurjóðri.</l>
+<l>Skal þér ormr granda</l>
+<l>eitrblandinn,</l>
+<l>fránn ór fornum</l>
+<pb n="289"/>
+
+<l>Faxa hausi.</l>
+<l>Naðr mun þik höggva</l>
+<l>neðan á fæti,</l>
+<l>þá ertu fullgamall</l>
+<l>fylkir orðinn.</l>
+</lg>
+Þat er þér at segja, Oddr," sagði hún, "sem þér má
+gott þykkja at vita, at þér er ætlaðr aldr miklu meiri
+en öðrum mönnum. Þú skalt lifa þrjú hundruð vetra
+ok fara land af landi ok þykkja þar ávallt mestr, er þá
+kemr þú. Því at vegr þinn mun fara um heim allan,
+en aldri ferr þú svá víða, at hér skaltu deyja á Berurjóðri.
+Hestr stendr hér við stall, föxóttr ok grár at
+lit. Hauss hans Faxa skal þér at bana verða." "Spá þú
+allra kerlinga örmust um mitt ráð," sagði Oddr. Hann
+spratt upp við, er hún mælti þetta ok rekr sprotann
+á nasir henni svá hart, at þegar lá blóð á jörðu. "Takið
+föt mín," sagði völvan, "ok vil ek fara á burt heðan,
+því at þess hefi ek hvergi komit fyrr, at menn hafi
+barit á mér." "Eigi skaltu þat gera," sagði Ingjaldr,
+"því at bætr liggja til alls, ok skaltu hér vera þrjár
+nætr ok þiggja góðar gjafir." Hún þá gjafirnar, en
+burt fór hún af veizlunni.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Eptir þetta bað Oddr Ásmund fara með sér. Þeir
+taka Faxa ok slá við hann beizli ok leiða hann eptir
+sér, unz þeir koma í eitt dalverpi. Þar gera þeir gröf
+djúpa, svá at Oddr komst tregliga upp ór, en síðan
+drepa þeir Faxa þar í ofan, ok færir Oddr þar svá stóra
+steina á ofan ok þeir Ásmundr sem þeir gátu mesta
+ok bera sand hjá hverjum steini. Haug verpa þeir þar
+af upp, er Faxi liggr undir. En er þeir höfðu lokit
+verki sínu, mælti Oddr: "Þat ætla ek, at þat láta ek
+<pb n="290"/>
+
+um mælt, at tröll eiga hlut í, ef Faxi kemst upp, ok
+þat hygg ek, at rennt hafa ek nú þeim sköpunum, at
+hann verði mér at bana."
+Þeir fara heim eptir þat ok til fundar við Ingjald.
+"Skip vil ek mér láta fá," sagði Oddr. "Hvert skal
+fara?" sagði Ingjaldr. "Burt ætla ek heðan," sagði
+Oddr, "af Berurjóðri ok koma hér aldrigi, meðan ek
+lifi." "Þat muntu eigi gera vilja," sagði Ingjaldr, "því
+at þat gerir þú svá, at mér þykkir verst, eða hvat viltu
+hafa manna með þér?" "Vit Ásmundr skulum fara
+tveir," sagði Oddr. "Aptr, vil ek, at þú sendir Ásmund
+skjótt," sagði Ingjaldr. "Eigi skal hann heldr aptr koma
+en ek," sagði Oddr. "Þat gerir þú illa," sagði Ingjaldr.
+"Þat skal ek gera, er ek ætla, at þér muni verst líka,
+fyrir þat, at þú bautt hingat völunni, ok vissir þú, at
+mér þótti þat verst," sagði Oddr.
+Nú búast þeir til ferðar Oddr ok Ásmundr ok
+ganga á fund Ingjalds ok biðja hann vel lifa ok fara
+til skips ok draga þat fram; róa síðan frá landi. "Hvert
+skulu vit fara?" sagði Ásmundr. "Mun eigi þat ráð,"
+sagði Oddr, "at sækja heim frændr sína í Hrafnistu?"
+En þá er þeir váru komnir út um eyjar, tók Oddr til
+orða: "Erfiðlig er för okkur, ef vit skulum róa alla
+leið norðr til Hrafnistu; mun nú verða at vita, hvárt
+ek hefi nokkut af ættargift várri. Þat er mér sagt, at
+Ketill hængr drægi segl upp í logni. Nú skal ek þat
+reyna ok draga segl upp." En þegar þeir höfðu undit
+seglit, þá gaf þeim byr, til þess at þeir koma til Hrafnistu
+snemma dags; draga upp skip sitt ok ganga síðan
+til bæjar. Oddr hafði ekki fleira vápna en mæli sinn
+ok hafði hann á baki, en boga í hendi. En er þeir
+koma at bænum, stóð þar maðr úti ok heilsar þeim
+vel, er komnir eru, ok spyrr þá at nafni. "Engu skiptir
+<pb n="291"/>
+
+þik þat," sagði Oddr. Þá spurði Oddr, hvárt Grímr
+væri heima. Sá sagði, at hann var heima. "Þá kalla þú
+hann út," sagði Oddr. Sá fór þá inn ok sagði Grími, at
+menn váru komnir úti tveir, -- "ok mæltu, at þú
+skyldir út ganga." "Hví mega þeir eigi inn ganga?"
+sagði Grímr, "ok bið, at þeir gangi inn." Út fór sá ok
+sagði þeim slíkt sem við hann var mælt. "Þú skalt fara
+inn í öðru sinni," sagði Oddr, "ok seg Grími, at hann
+komi út ok finni okkr." Sá fór ok sagði Grími. "Hvern
+veg er þessum mönnum farit?" sagði Grímr. "Þeir eru
+vænir menn at yfirliti ok miklir vexti. Belg nokkurn
+mikinn hefir sá annarr á baki." "Svá segir þú frá mönnum
+þessum, at hér munu komnir þeir fóstbræðr, Oddr
+ok Ásmundr." Síðan fór Grímr út ok allir þeir, sem
+inni váru, ok fagna vel Oddi ok Ásmundi. Býðr Grímr
+þeim inn með sér í skála, ok þat þiggja þeir.
+En þegar þeir höfðu niðr setzt, þá spyrr Oddr at
+frændum sínum, Guðmundi ok Sigurði, en þar var svá
+frændsemi farit, at Guðmundr var bróðir Odds, en sonr
+Gríms ok Lopthænu, en Sigurðr var systursonr Gríms.
+Þeir váru vænir menn. "Þeir liggja hér norðan undir
+eyjunni ok ætla til Bjarmalands," sagði Grímr. "Þá vil
+ek finna," sagði Oddr. "Hitt vil ek," sagði Grímr, "at
+þú sért hér í vetr." "Fara verðr nú fyrst," sagði Oddr,
+"ok hitta þá." Ok þá fór Grímr með honum, til þess
+er þeir koma á norðanverða eyna. Þeir liggja þar á tveim
+skipum. Þá lét Oddr kalla þá á land, frændr sína. Þeir
+fagna honum vel, ok þegar sem þeir hafa spurt tíðenda,
+mælti Oddr: "Hvert hafi þit för ykkar ætlat?" "Til
+Bjarmalands," sagði Guðmundr. "Vit Ásmundr viljum
+fara með ykkr," sagði Oddr. En Guðmundr hafði orð
+fyrir þeim ok mælti: "Eigi stendr þann veg af, Oddr
+frændi, at þú farir með okkr sumarlangt. Vit höfum
+<pb n="292"/>
+
+nú áðr búna ferð okkra, ok far þú með okkr at sumri,
+þangat sem þú vilt." "Vel er þat mælt," sagði Oddr,
+"en vera þykki mér mega, at ek fái mér skip at sumri
+ok þurfi ekki at vera ykkarr farþegi." "Eigi muntu með
+okkr fara at sinni," sagði Guðmundr, ok skildu at því.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Nú þiggr Oddr heimboðit at föður sínum, ok skipar
+Grímr honum it næsta sér í öndvegi, en Ásmundi hjá
+Oddi, ok var þar uppi öll ölværð af Gríms hendi. En
+þeir Guðmundr ok Sigurðr lágu þar undir eyjunni hálfan
+mánuð, svá at þeim gaf aldri á burt.
+Þat var á einni nótt, at Guðmundr lét illa í svefni,
+ok ræddu menn um, at hann skyldi vekja. Sigurðr sagði,
+at hann skyldi njóta draums síns. Þá vaknar Guðmundr.
+"Hvat hefir þik dreymt?" sagði Sigurðr. "Mik dreymdi
+þat," sagði Guðmundr, "at ek þóttumst hér liggja undir
+eyjunni, en ek sá upp á eyna, at hvítabjörn lá í hring
+um hana, en hér yfir skipunum uppi mættust döfin ok
+höfuðit dýrsins, en þat var grimmligt, svá at ek hefi
+ekki þvílíkt sét, því at fram horfðu öll hárin eptir dýrinu,
+ok svá þótti mér sem þá ok þá mundi þat hlaupa út á
+skipin ok sökkva þeim báðum, ok þá vaknaða ek. Nú
+skaltu ráða drauminn," sagði hann. "Þat ætla ek," sagði
+Sigurðr, "at hann þurfi litla ráðning, því at þar er þér
+þótti bjarndýrit liggja svá grimmligt, at þér þótti öll
+hárin horfa fram á því, ok þú hugðir, at þat mundi
+sökkva skipunum, þat sé ek glöggt, at þat er fylgja Odds,
+frænda okkar, ok mun hann vera okkr reiðr. Ok mun þat
+vera úlfhugr sá, sem þér þótti, at dýrit hefði á okkr. Ok
+þat kann ek þér at segja, at okkr mun aldri fyrr á burt
+<pb n="293"/>
+
+gefa en hann ferr með okkr." "Hann mun nú ekki fara
+vilja, þó at vér bjóðum honum," sagði Guðmundr. "Hvat
+skal þá til ráðs taka?" sagði Sigurðr. "Þat ræð ek," sagði
+Guðmundr, at vit göngum á land upp ok bjóðum honum
+at fara með okkr." "En hversu skal þá með fara,
+ef hann vill ekki fara?" sagði Sigurðr. "Þá skulu vit
+gefa honum annat skipit en hann fari eigi," sagði Guðmundr.
+Ganga þeir nú á land upp ok finna Odd ok bjóða honum
+at fara með sér. Hann kveðst þá víst eigi fara vilja.
+"Vér viljum nú gefa þér annat skipit, ok far þú með oss,"
+sagði Guðmundr. "Þá skal ek fara," sagði Oddr, "ok em
+ek nú albúinn."
+Þá fylgir Grímr þeim til skips. "Hér eru gripir þeir,
+er ek vil gefa þér, Oddr frændi," sagði Grímr. "Þat eru
+þrjár örvar, en þær eigu nafn ok eru kallaðar Gusisnautar."
+Hann selr nú Oddi örvarnar. Hann lítr á ok
+mælti: "Þetta eru inar mestu gersimar." Þær váru gulli
+fiðraðar, ok þær flugu sjálfar af streng ok á, ok þurfti
+aldri at leita þeira. "Þessar örvar tók Ketill hængr af
+Gusi Finna konungi. Þær bíta allt þat, þeim er til vísat,
+því at þær eru dvergasmíði." "Engar gjafir hefi ek þær
+þegit," sagði Oddr, "at mér þætti jafnfríðar," ok þakkar
+hann feðr sínum, ok skiljast þeir feðgar með vináttu,
+ok stígr Oddr á skip ok ræðir um, at þeir muni flytjast
+undan eyjunni, ok taka þeir til segla á skipi Odds, ok
+svá gera þeir hvárirtveggja.
+Nú gaf þeim þegar byr, ok sigldu í einu norðr fyrir
+Finnmörk, ok fellr þá af byrrinn, ok leggja þar til hafnar
+ok váru þar um nóttina, ok var þar fjöldi gamma á landi
+uppi. Um morguninn ganga þeir á land af skipi Guðmundar
+ok renna í hvern gamma ok ræna Finnurnar.
+Þær þola þetta illa ok æpa mjök. Þeir ræða um á skipi
+<pb n="294"/>
+
+við Odd, at þeir vili á land ganga, en hann vill eigi leyfa
+þat. Þeir Guðmundr koma nú til skips um kveldit. Oddr
+mælti: "Vartu á land upp?" "Þat varna," sagði hann, "ok
+hefi ek þat svá gert, at mér hefir mest gaman at þótt,
+at græta Finnurnar, ok muntu vilja fara með mér á
+morgun?" "Þat ferr fjarri," sagði Oddr.
+Þar liggja þeir þrjár nætr, ok gefr þeim þá byr, ok
+er ekki fyrr frá þeim sagt en þeir koma til Bjarmalands.
+Þeir heldu skipum sínum upp í á þá, er Vína heitir. Eyjar
+liggja margar í ánni. Þeir kasta akkerum undir nesi
+einu. Þat gekk af meginlandi. Þat sjá þeir tíðenda á land
+upp, at menn koma af skógi fram ok safnast allir í einn
+stað. Þá mælti Oddr: "Hvar ætlar þú, Guðmundr, at
+lið þetta berist fyrir á landi?" "Eigi veit ek þat," sagði
+hann, "eða hvat ætlar þú, Oddr frændi?" "Þat munda ek
+ætla," sagði hann, "at hér mundi vera blót mikit eða
+drukkit erfi. Nú muntu, Guðmundr, gæta skipa, en
+Ásmundr ok ek munum ganga á land." En er þeir koma
+at mörkinni, sáu þeir skála mikinn. Þá var næsta myrkt
+orðit. Þeir ganga at dyrunum ok nema þar staðar ok
+sjá mörg tíðendi. Mönnum var þar skipat á báða bekki.
+Þat sáu þeir, at skaptker stóð við dyrr utar. Svá var þar
+bjart, at hvergi bar skugga á nema þar, sem skaptkerit
+stóð. Glaumr var þar mikill inn at heyra. "Skilr þú hér
+nokkut mál manna?" sagði Oddr. "Eigi heldr en fuglaklið,"
+sagði Ásmundr. "Eða þykkist þú nokkut af skilja?"
+"Eigi er þat síðr," sagði Oddr. "Þat máttu sjá, at einn
+maðr skenkir hér á báða bekki, en þat gefr mér grun
+um, at hann muni kunna at tala á norræna tungu. Nú
+mun ek ganga inn," sagði Oddr, "ok nema staðar þar,
+sem mér þykkir vænligast, en þú bíð mín hér á meðan."
+Hann gengr nú inn ok nemr staðar nær dyrum, til
+þess at göngu byrlarans berr þar at. Þá finnr byrlarinn
+<pb n="295"/>
+
+eigi fyrr en hann er þrifinn höndum, ok bregðr Oddr
+honum yfir höfuð sér, en hann kvað við hátt ok sagði
+Björmum, at tröll hafi tekit sik. Þeir spretta nú upp ok
+taka til hans öðrum megin, en Oddr berr þá með byrlaranum.
+En svá lauk með þeim, at þeir Oddr ok Ásmundr
+höfðu með sér byrlarann, en Bjarmar treystust eigi at
+ráða út eptir þeim.
+Þeir koma nú til skipa með byrlarann, ok setr Oddr
+hann í rúm hjá sér ok spyrr hann tíðenda, en hann
+þagði við. "Eigi þarftu at þegja," sagði Oddr, "því at
+ek veit, at þú kannt at mæla á norræna tungu." Þá mælti
+byrlarinn: "Hvers viltu spyrja mik?" Oddr mælti: "Hvé
+lengi hefir þú hér verit?" "Nokkura vetr", sagði hann.
+"Hvern veg hefir þér þótt?" sagði Oddr. "Hér hefi ek
+svá verit," sagði byrlarinn, "at mér hefir verst þótt."
+"Hvat segir þú til," sagði Oddr, "hvat vér munum þess
+gera, at Björmum þykki verst?" " Þess er vel spurt," sagði
+hann. "Haugr stendr upp með ánni Vínu. Hann er gerr
+af tveim hlutum, silfri ok moldu. Þangat skal bera
+gaupnir silfrs eptir hvern mann þann, sem ferr af heiminum,
+ok svá, er hann kemr í heiminn, ok jafnmikla
+mold. Þat munu þér svá gera, at Björmum mun verst
+þykkja, ef þér farið til haugsins ok berið féit í burt
+þaðan."
+Oddr kallar nú á þá Guðmund ok Sigurð ok mælti.
+"Þit skuluð fara ok skipverjar ykkrir til haugsins eptir
+tilvísan byrlarans." Þeir búast nú til ferðar ok ganga á
+land upp, en Oddr er eptir ok gætir skipa ok byrlarinn
+hjá honum.
+<pb n="296"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Þeir fara nú, þar til er þeir koma at hauginum, ok
+binda sér byrðar, fyrir því at þar skorti ekki fé. En er
+þeir váru búnir, fara þeir til skipa. Oddr spurði, hversu
+farit hefði, en þeir létu vel yfir ok sögðu þar eigi skorta
+féföng. "Nú skulu þit," sagði Oddr, "taka við byrlaranum
+ok geyma hann trúliga, fyrir því at svá standa augu
+hans á land upp sem honum þykki eigi svá illt með þeim
+Björmum sem hann lætr yfr." Oddr fór nú til haugsins,
+en þeir varðveita skipin Guðmundr ok Sigurðr. Þeir
+sitja við ok sælda silfrit, en byrlarinn sitr í millum þeira,
+ok eigi finna þeir fyrr en hann hleypr á land upp, ok
+hafa þeir hans ekki meira.
+Þat er at segja frá þeim Oddi, at þeir koma til haugsins.
+Þá mælti Oddr: "Nú skulu vér búa oss byrðar, hverr
+eptir sínu afli, svá at vér megum fulla ferð fara." Þá
+lýsti, er þeir fóru frá hauginum. Þeir fara, þar til at
+birti. Þá stingr Oddr við fótum. "Hví ferr þú eigi?" sagði
+Ásmundr. "Ek sé mannfjölda mikinn koma fram ór
+mörkinni," sagði Oddr. "Hvat skal nú ráða taka?" sagði
+Ásmundr. Þeir sjá nú allir mannfjöldann. "Eigi er þetta
+allvel á komit," sagði Oddr, "fyrir því at örvamæli mitt
+er at skipum niðri. En nú mun ek snúa aptr at mörkinni
+ok höggva mér kylfu eina með bastöxi þessi, er
+ek hefi í hendi, en þér skuluð fara fram í nes þat, sem
+gengr fram í ána." Ok svá gera þeir. En er hann kemr
+aptr, hefir hann stóra kylfu í hendi. "Hvat ætlar þú,"
+sagði Ásmundr, "at gegni um fjölmenni þetta?" "Get
+ek," sagði Oddr, "at þeim Guðmundi muni lauss hafa
+orðit byrlarinn ok hafi hann borit erendi várt til Bjarma,
+fyrir því at mér þótti sem honum þætti hér ekki svá illt
+<pb n="297"/>
+
+sem hann lét yfir. Skulu vér nú fylkja liði váru yfir
+þvert nesit."
+Drífr nú at þeim liðit, ok kennir Oddr þar byrlarann
+í ferðar broddi. Oddr kastar orðum á hann ok
+mælti: "Hví stýrir þú nú svá hverft?" Byrlarinn mælti:
+"Ek vilda at því hyggja, hvat yðr líkaði bezt." "Hvert
+vartu nú farinn?" sagði Oddr. "Á land upp," sagði
+hann, "at segja Björmum tiltekjur yðar." "Hversu líkar
+þeim nú þá?" sagði Oddr. "Svá hefi ek nú túlkat fyrir
+yðr," sagði hann, "at þeir vilja nú eiga kaupstefnu
+við yðr." "Þat vilju vér gjarna," sagði Oddr, "þá vér
+komum til skipa várra." "Eigi þykkir Björmum of launat,
+þó at þeir ráði at því, at í stað sé keypt." "Hverju
+skulu vér kaupa?" sagði Oddr. "Þeir vilja kaupa við yðr
+vápnum ok gefa silfrvápn í mót járnvápnum." "Eigi
+viljum vér þat kaup," sagði Oddr. "Þá munu vér eigast
+við bardaga," sagði byrlarinn. "Þér verðið því at ráða,"
+sagði Oddr.
+Þá segir Oddr liði sínu, at þeir skyldi fleygja hverjum
+út á ána, sem felli af liði þeira, -- "því at þeir munu þegar
+gera fjölkynngi í liði váru, ef þeir ná nokkurum þeim,
+sem dauðir eru." Síðan tekst með þeim bardagi, ok
+gengr Oddr í gegnum fylkingar, hvar sem hann kemr
+at, ok fellir lið af Björmum sem stráviði, ok var bardagi
+þeira bæði harðr ok langr. En sá varð endir á sókn
+þeira, at Bjarmar flýðu, en Oddr rekr flóttann ok snýr
+síðan aptr ok kannar lið sitt, ok hafði fátt fallit, en
+múgi var drepinn af landsmönnum. "Nú skulu vér
+gera fjárskipti," sagði Oddr. "Gerum oss nú byrðar
+af silfrvápnum." Ok svá gera þeir ok fara síðan til skipa
+sinna. En er þeir kómu þar, váru þau öll í burtu.
+Þykkist Oddr nú sakna vinar í stað. "Hvat skal nú til
+ráða taka?" sagði Ásmundr. "Tvennu mun þar at
+<pb n="298"/>
+
+skipta," sagði Oddr. "Þeir munu hafa lagit skipin í
+leyni hér undir eyjunum, elligar hafa þeir brugðizt
+og meir en vér ætlum." "Þat mun eigi vera," sagði
+Ásmundr. "Ek mun gera tilraun," sagði Oddr.
+Hann gekk til skógar ok tendrar eld uppi í einu
+stóru tré. Þat logar snart, svá at loginn stendr í lopt
+upp. Þessu næst sáu þeir, at skipin fara at landi. Varð
+þá fagnafundr með þeim frændum, ok halda þeir nú
+burt þaðan með herfang sitt, ok er nú ekki sagt af
+þeira ferðum, fyrr en þeir koma við Finnmörk ok í
+þat sama lægi, sem þeir höfðu fyrr í verit.
+En er nátta tók, vöknuðu þeir við þat, at þeir heyrðu
+brest mikinn í loptit upp, svá at slíkan höfðu þeir aldri
+fyrr heyrðan. Þá spurði Oddr þá Guðmund ok Sigurð,
+ef þeir hefði nokkut heyrt sagnir frá slíku fyrr. Ok er
+þeir áttu þetta með sér at ræða, kom brestr annarr, ok
+var sá ekki minni. Þá kom inn þriði, ok var sá mestr.
+"Hvat ætlar þú, Oddr," sagði Guðmundr, "at þetta
+sæti?" Oddr sagði: "Heyrt hefi ek sagt frá því, at veðr
+tvau verði senn í loptinu ok farist á móti ok af þeira
+samkvámu verði stórir brestir. Nú skulu vér svá við
+búast sem veðr nokkut illt ok mikit muni koma."
+Nú færðu þeir þvergirðinga á skipin ok aðra þá hluti,
+er þeir þurftu til viðbúnaðar, eptir fyrirsögn Odds, ok
+var þat allt jafnskjótt, at þeir höfðu um búizt, ok
+veðrinu laust á svá illu, at þá rekr undan landi, ok
+aldri ná þeir viðfalli ok urðu einatt í austri at vera.
+Svá er veðr þetta mikit, at við því þótti búit, at kefja
+mundi skipin undir þeim. Þá kallar Guðmundr af skipi
+sínu á Odd ok mælti: "Hvat skal nú til ráðs taka?"
+"Eitt er nú til ráðs," sagði Oddr. "Hvert er þat?" sagði
+Guðmundr. "Taka allt finnskrefit ok kasta fyrir borð,"
+sagði Oddr. "At hverju haldi mun þat koma þeim?"
+<pb n="299"/>
+
+sagði Guðmundr. "Látum þá sjálfa Finna sjá fyrir því,"
+sagði Oddr. Þetta var gert, at þat var allt upp brotit,
+finnskrefit. Þat sjá þeir þegar, at þat rak með öðru
+borði fram, en öðru aptr, til þess at þat kemr allt í
+einn bagga, þá rekr þat óðfluga í gegn veðrinu, svá
+at þat er senn ór augsýn. Brátt eptir þetta sjá þeir land,
+en veðrit helzt, ok rekr þá at landinu, ok váru þá farnir
+flestir at liðsemd nema þeir frændr ok Ásmundr.
+Taka þeir nú land. Eigi er frá því sagt, hversu lengi
+þeir hafi úti verit. Bera þeir nú af skipum. Þá ræðir
+Oddr um, at þeir muni upp setja skip sín ok búa um
+rammliga. Síðan taka þeir til ok gera sér skála. Ok er
+þeir höfðu því lokit, kanna þeir landit. Svá hugðist Oddi
+at sem þat mundi eyland vera. Þeir sáu, at þar skorti
+eigi dýr, ok þau skjóta þeir, sem þeir þurftu til atvinnu
+sér.
+Þat var einn dag, at Oddr var farinn á skóg, at hann
+sá björn einn mikinn. Hann skaut at honum ok missti
+eigi, ok er dýrit var dautt, lætr hann flá af því belg.
+Síðan lætr hann setja spjálkir í munn því ok eptir
+endilöngu. Hann lætr þat standa miðbreytis, ok horfir
+bersi inn á meginland. Gleði hafði Oddr mikla í eyjunni.
+Þat var einn aptan, at þeir váru úti staddir, at þeir
+sjá þat til tíðenda inn á meginland, at lið safnast saman
+á nes eitt. Því var svá varit, at þat var bæði stórt ok
+smátt. "Hvat ætlar þú, Oddr frændi," sagði Guðmundr,
+"hvat lið þetta skuli?" "Eigi veit ek þat," sagði Oddr,
+"en þess mun ek freista at fara til lands ok vita, hvat
+þar sé talat."
+Oddr kvaddi Ásmund til ferðar með sér. Þeir ganga
+til sjóvar ok stíga á bát ok róa inn undir nesit ok halda
+upp árum ok hlýða til tals manna. Nú tekr sá til orða,
+<pb n="300"/>
+
+er þar var höfðingi: "Svá er sem þér vitið, at hér eru
+komin börn nokkur í ey þá, er vér eigum, ok gera oss
+mikinn usla, ok er ek af því hingat kominn at ráða
+þeim bana, er setzt hafa í eigur várar. Hring hefi ek
+á hendi. Hann mun ek gefa þeim, sem þeim vill ráða
+bana." Kona nokkur gekk fram á þinginu ok mælti:
+"Vér erum glysgjarnar, konurnar, ok því fáið mér
+hringinn." "Já," sagði jötunninn, "vel er til þeirar farar
+fengit, er þú ferr."
+Nú fara þeir Oddr, til þess at þeir koma heim, ok
+segja þau tíðendi, sem þeir hafa heyrt. En vánum bráðara
+sáu þeir, at kona veðr innan af meginlandi ok út
+til eyjarinnar. Hún var í skinnkyrtli ok mikil vexti
+ok illilig, svá at þeir þóttust ekki kvikvendi slíkt sét
+hafa. Hún gengr at skipunum ok tekr í báða stafnana
+ok hristir þau svá, at þeim þótti við því búit, at öll
+mundi í sundr brotna. Hún gengr þá upp á leið, en
+Oddr snýr at baki birninum. Hann hafði áðr látit
+leggja glæðr í munn dýrinu. Hann tekr nú ör ok skýtr
+fram eptir dýrinu. Hún sér örina, er at henni flýgr,
+ok bregðr hún við lófanum, ok bítr eigi heldr á en
+steinn væri fyrir. Þá tók Oddr at Gusisnautum
+ok skýtr þeiri sem inni fyrri. Hún bregðr fyrir öðrum
+lófanum, ok flýgr í gegnum hann ok í auga henni ok
+út um hnakkann. Hún gengr þó leið sína. Oddr skýtr
+inni þriðju ör. Þá bregðr hún við öðrum lófa ok hrækti
+í hann áðr, ok ferr sú jafnt ok in fyrri, at í augat
+kom ok út um hnakkann. Hún snýr nú leiðinni ok
+öslar aptr til meginlands ok segir sínar farir eigi sléttar.
+Sitja þeir nú um kyrrt í eyjunni nokkura stund.
+<pb n="301"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Þat var einn aptan, þá þeir váru úti staddir hjá
+skála sínum, at þeir sjá, at lið safnast saman fram á
+nesit með inum sama hætti ok fyrr. Þeir Oddr ok Ásmundr
+róa til lands ok halda upp árum. Þá tók höfðinginn
+til orða uppi á nesinu: "Þetta eru mikil undr,"
+sagði hann, "at vér getum ekki banat börnum þessum.
+Ek senda þangat ina göfgustu konu, en þeir hafa þat
+dýr, at þat blæs örum ok eldar brenna ór nösum þess
+ok munni, ok þat fylgir nú með, at mik syfjar svá, at
+ek verð heim at fara." Ok svá gera þeir Oddr.
+Inn þriðja aptan sjá þeir inn sama atburð inn á
+meginlandit, ok róa þeir Oddr ok Ásmundr þangat ok
+hlýðast um. Inn sami tekr enn til orða uppi á nesinu:
+"Þat er sem þér vitið, at vér höfum dæmt um börn
+þessi fyrr, ok hefir þat til lítils komit, en nú gefr mér
+sýn." "Hvat sér þú nú til tíðenda?" segja félagar hans.
+"Þat sé ek," sagði hann, "at hér eru komin tvau börn
+á báti ok hlýða til, hvat vér tölum, ok mun ek senda
+þeim sending." "Nú skulu vit bregða undan sem skjótast,"
+sagði Oddr. Ok jafnskjótt fló steinn af nesinu ok
+kom þar niðr, sem bátrinn hafði verit, ok þá róa þeir
+aptr. Þá mælti höfðinginn: "Þetta eru mikil endemi.
+Enn er heill bátr þeira ok svá þeir sjálfir. Kasta mun
+ek enn öðrum steini ok inum þriðja, en ef þeir bregða
+undan í hvert sinn, þá mun ek láta þá kyrra." Svá var
+mikill inn þriði steinninn, at þeir Oddr fengu mikil
+áföll. Síðan róa þeir undan landi, en jötunninn tók til
+orða: "Heilir eru þeir enn ok svá bátr þeira, en nú
+syfjar mik svá, at ek má eigi vaka." Ok fara jötnar nú
+heim. Þá mælti Oddr: "Nú munu vit ganga ok draga
+<pb n="302"/>
+
+upp bát okkarn." "Hvat viltu nú?" sagði Ásmundr.
+"Nú skal ek vita, hvar lið þetta eigi heima."
+Þeir ganga á land upp ok koma at helli einum, ok
+brann þar eldr. Þeir nema þar staðar ok sjá, at tröllum
+er skipat á báða bekki. Þar sat dólgr í hásæti. Sá
+var bæði mikill ok illiligr. Hann hafði hár mikit ok
+svart sem tálknfanir. Hann var nefljótr ok eygðr illa.
+Kona sat it næsta honum. Frá báðum er sagt um yfirlit,
+er frá öðru er. Þá tekr höfðinginn til orða: "Nú
+gefr mér sýn, ok sé ek til eyjarinnar, ok nú veit ek,
+hverir þar eru komnir. Þat eru þeir frændr, synir
+Gríms loðinkinna, Oddr ok Guðmundr. Þat sé ek, at
+Finnar hafa sent þá hingat, ok ætla þeir, at vér skyldim
+bana þeim, en vér megum eigi lyktir á því gera, því
+at ek sé, at Oddi er ætlaðr aldr miklu meiri en öðrum
+mönnum. Nú mun ek gefa þeim byr burtu heðan, jafnt
+slíkan sem Finnar gáfu þeim hingat." Þá mælti Oddr
+fyrir munni sér: "Gef þú allra manna ok trölla armastr."
+"Þat sé ek ok, at Oddr hefir örvar þær, er Gusisnautar
+eru kallaðar, ok því mun ek gefa honum nafn
+ok kalla hann Örvar-Odd." Oddr tók þá eina af þeim
+Gusisnautum ok leggr á streng ok vill launa honum
+byrinn. En er hann heyrði hvininn, at örin fór at honum,
+bregðr hann við ok rekr sik upp á bjargit, en
+örin kom undir hönd konunni ok út undan annarri,
+en hún hleypr upp við ok flýgr á jötuninn ok reytir
+hann. Tröllin hlaupa upp á báða bekki, ok veita sumir
+honum, en sumir henni. Oddr skaut annarri af Gusisnautum
+í auga jötninum ok fór eptir þat til skipa, ok
+fagna þeir bræðr þeim Oddi vel. "Eða hvert fórtu it
+lengsta, Oddr?" sagði Guðmundr. Þá kvað Oddr vísu:
+<lg>
+<l>"Réð ek at ganga</l>
+<l>með Gusisnauta</l>
+<pb n="303"/>
+
+<l>beggja í millum</l>
+<l>bjargs ok eisu.</l>
+<l>Laust ek í auga</l>
+<l>einu flagði,</l>
+<l>en í brjóst framan</l>
+<l>bjarga Freyju."</l>
+</lg>
+"Þess var ván," sagði Guðmundr, "at þú mundir mikit
+afreka, er þú vart svá lengi í burtu, eða varð nokkut
+fleira til tíðenda í för þinni?" "Nafn var mér gefit,"
+sagði Oddr ok kvað vísu:
+<lg>
+<l>"Þar fekk ek heiti,</l>
+<l>þat ek hafa vildak,</l>
+<l>er mik ór fjöllum</l>
+<l>flögð kölluðu,</l>
+<l>kváðust Örvar-Oddi</l>
+<l>vilja</l>
+<l>byr bráðliga</l>
+<l>í braut gefa.</l>
+</lg>
+Byr var oss heitit á burt heðan, ok er mér sagt, at
+eigi muni minni né hægri en sá, er Finnar gáfu oss
+hingat."
+Þeir búa nú ferð sína hvergi óvænligar en fyrr ok
+fara síðan, ok þegar þeir koma undan landi, þá rekr
+á veðr slíkt sem fyrr, svá at þá keyrir í haf, ok standa
+einatt í austri, ok eigi léttir því veðri, fyrr en þeir
+koma í sömu höfn, sem fyrr rak þá undan landi, ok
+var þar þá eytt gömmum öllum á land upp, ok þegar
+þeim gaf byr, sigla þeir ok koma til Hrafnistu, þá er
+mikit var af vetri. Grímr varð þeim feginn ok bauð
+þeim heim með öllu liði sínu, ok þat þiggja þeir. Allan
+fjárhlut láta þeir koma í hendr Grími ok sitja þar um
+vetrinn.
+<pb n="304"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="7"><p>
+
+Svá var Oddr frægr af för þessi, at engi þykkir önnur
+slík hafa farin verit ór Noregi. Gleði mikil var þar um
+vetrinn ok drykkjur miklar. En er vára tók, spurði
+Oddr þá frændr, hvat þeir vildu ráða sinna. "Þú skalt
+hafa ráð fyrir oss," sögðu þeir. "Í víking vil ek fara,"
+sagði Oddr. Hann sagði nú Grími, at hann vill skip
+láta búa fjögur ór landi. Ok er Grímr vissi þat, hefir
+hann þar einn starf fyrir ok sagði Oddi til, þá er búin
+váru. "Nú vil ek," sagði Oddr, "at þú vísir oss til víkings
+þess nokkurs, er þér þykkir við várt hæfi." Grímr
+mælti: "Hálfdan heitir víkingr. Hann liggr austr við
+Elfarsker ok hefir þrjá tigi skipa."
+Ok er þeir váru búnir, halda þeir suðr fyrir Noreg,
+ok þegar þeir koma fyrir Elfarsker, leggja þeir skip
+sín í lægi, en Hálfdan var þaðan skammt í burt. Ok
+þegar er þeir Oddr höfðu tjaldat, ferr hann á burt
+við fá menn ok þangat til, sem víkingar lágu fyrir.
+Oddr sér dreka mikinn í skipaliðinu. Þá kallar hann
+á skipin út ok spyrr, hverr fyrir þeim ræðr. Þeir spretta
+skörum yfir sér: "Hálfdan heitir sá, er fyrir skipunum
+ræðr, eða hverr spyrr at því?" "Sá heitir Oddr."
+"Ertu sá Oddr, er fór til Bjarmalands?" "Komit hefi
+ek þar," sagði Oddr. "Hvert er erendi þitt hingat?"
+sagði Hálfdan. "Ek vil vita, hverr okkar meiri maðr
+sé," sagði Oddr. "Hvé mörg hefir þú skip?" sagði
+Hálfdan. "Vér höfum þrjú skip," kvað Oddr, "ok öll
+stór ok hundrað liðs á hverju, ok mun ek hér koma
+á morgin til móts við þik." "Sofa munu vér fullan
+svefn fyrir því," sagði Hálfdan. Í burtu rær Oddr ok
+kom aptr til sinna manna ok sagði þeim til svá búins.
+<pb n="305"/>
+
+"Nú skulu vér vera í starfi," sagði Oddr, "ok hefi ek
+nú ætlat eitt ráð fyrir oss. Vér skulum bera á land
+fjárhlut várn, en gera skip vár sem létthlöðnust, en
+vér skulum höggva tvau tré á hvert skip, þau er vér
+fáum stærst ok limamest," ok svá gera þeir. Ok er váru
+búnir, mælti Oddr: "Ek ætla, at þit, Guðmundr ok
+Sigurðr, skuluð ganga á annat borð drekanum." Ok svá
+gera þeir ok róa nú at hljóðliga, en skipin lágu fyrir
+fram á váginum. Oddr rær fram hjá drekanum, ok þá
+er þeir váru komnir á bæði borð, finna víkingar eigi
+fyrr en þeir veltu viðjunum á drekann, ok fylgir maðr
+upp hverjum kvisti, ok berja þeim tjaldkúlur, ok ryðjast
+þeir Oddr ok Ásmundr fast um, ok fyrr höfðu þeir
+ruddan drekann allt aptr at lyptingu en Hálfdan komst
+á fætr, ok þar drápu þeir hann í lyptingunni, ok þá
+gerir Oddr þeim tvá kosti, hvárt þeir vildi halda upp
+bardaga eða ganga á hönd honum, en þeir gera þat
+skjótkörit ok ganga til handa Oddi. Hann velr af þeim
+þat, er honum þótti knálgast. Drekann hafði Oddr
+sér til eignar ok annat skip til, en öll önnur skip gaf
+hann víkingum. Fé tók hann allt til sín. Nafn gaf hann
+drekanum ok kallaði Hálfdanarnaut.
+Þá sigla þeir heim til Hrafnistu ok hafa nú fengit
+sigr mikinn ok eru þar um vetrinn. En er vára tekr,
+býr Oddr för sína ór landi. En er þeir váru búnir,
+spyrr Oddr föður sinn: "Hvar vísar þú oss nú til þess
+víkings, at nokkurr vegr sé í?" Grímr mælti: "Sóti
+heitir víkingr sá, er ek mun vísa yðr til. Hann liggr
+suðr fyrir Skíðu. Hann hefir þrjá tigi skipa ok öll
+stór."
+<pb n="306"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="8"><p>
+
+Þeir frændr halda nú fimm skipum suðr fyrir Skíðu
+ok í burt frá Hrafnistu. En er á leið sumarit, spyrr
+Sóti til ferðar Odds ok ferr á móti honum dagfari
+ok náttfari, til þess at hvárir finna aðra. Þá hefir
+Sóti andviðri, ok tók hann til orða: "Nú munu vér
+leggja skip vár hvert út af öðru, ok mun ek leggja
+mínu skipi í miðju, því at ek hefi spurt, at Oddr er
+kappsmaðr mikill, ok ætla ek, at hann muni sigla at
+skipum várum. En þá er þeir koma ok hafa lægt segl
+sín, þá skulu vér slá hring at skipum þeira ok láta
+aldri mannsbarn undan komast."
+Nú er at segja frá ætlun Odds. "Ek sé ráð þeira Sóta,"
+sagði hann, "hvert þat er. Þeir ætla, at vér skulum
+sigla at skipum þeira." "Mun eigi þat heldr óráðligt?"
+sagði Guðmundr. "Eigi skal ónýta ráð Sóta," sagði
+Oddr, "en ráð skal í móti koma. Ek ætla," sagði hann,
+"at sigla fyrst dreka mínum þar at, sem Sóti liggr fyrir.
+Vér skulum bera allt aptr um siglu." Ok svá gera þeir,
+en drekinn Hálfdanarnautr gekk geystr. Hann var járni
+varðr allr framan um barðit, en hann gekk á kjalarhælnum.
+"Sigla ætla ek á drekann Sóta," sagði Oddr,
+"en þér skuluð sigla eptir, ok þætti mér verða mega,
+at í sundr gengi tengsl þeira."
+Nú siglir Oddr sem drekinn má mest ganga, en Sóti
+finnr eigi fyrr en siglt er á hann upp ok sundr ganga
+tengslin í millum skipanna, en Oddr hleypr fram um
+siglu herklæddr ok Ásmundr. Þeir koma í opna skjöldu
+þeim Sóta ok hlaupa þegar ofan í drekann, ok fyrr hafa
+þeir ruddan drekann ok drepit Sóta en þeir Guðmundr
+koma at. Þá gerir Oddr víkingum kost, hvárt þeir vilja
+<pb n="307"/>
+
+taka grið af honum eða halda upp bardaga, en þeir
+köru frið við Odd. Drekann tók Oddr af skipunum,
+en gefr þeim önnur skip.
+Nú sigla þeir heim til Hrafnistu með mikinn fjárhlut,
+ok varð Grímr þeim feginn, ok þar eru þeir um
+vetrinn í mikilli virðingu. En er á leið misserin, búa
+þeir Oddr skip ór landi, ok vandar hann nú mjök lið
+til ferðar með sér. Þeim Guðmundi ok Sigurði gaf
+Oddr drekann Sótanaut. Allan lét hann steina drekann
+Hálfdanarnaut, ok gulli lætr hann búa bæði drekahöfuðin
+ok veðrvitann. En er búin er ferð þeira, gengr
+Oddr til fundar við Grím, föður sinn, ok mælti: "Nú
+skaltu vísa mér til þess víkings, er þú veizt mestan."
+"Þat er nú bæði," sagði Grímr, "at þér eruð miklir
+fyrir yðr, enda þykkir yðr svá, at ekki reisir rönd við
+yðr, en nú mun ek vísa yðr til þeira tveggja víkinga,
+at ek veit mesta ok bezt at sér um alla hluti. Annarr
+heitir Hjálmarr inn hugumstóri, en annarr Þórðr ok
+kallaðr stafngláma." "Hvar eru þeir," sagði Oddr, "eða
+hversu margt hafa þeir skipa?" "Þeir hafa fimmtán
+skip," sagði Grímr, "ok hundrað manna á hverju."
+"Hvar hafa þeir friðland?" sagði Oddr. "Hlöðvér heitir
+konungr á Svíþjóð. Með honum eru þeir á vetrum,
+en liggja á herskipum á sumrum." Ok þegar þeir eru
+búnir, gengu þeir, ok leiðir Grímr þá til skipa, ok
+skiljast þeir feðgar með miklum kærleikum.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="9"><p>
+
+Þat er at segja frá þeim Oddi, at þeir sigla ór Hrafnistu,
+þegar þeim gaf byr, ok er ekki sagt af ferð þeira,
+fyrr en þeir koma við Svíþjóð, þar sem eitt nes gekk
+af meginlandi til hafs. Þar tjalda þeir yfir skipum sínum.
+<pb n="308"/>
+
+Oddr gengr á land upp at sjá tíðendi, en þar liggja
+öðrum megin undir nesinu fimmtán skip en herbúðir
+standa á landi. Hann sér, at þar eru leikir úti hjá
+tjöldunum. Þar ráða þeir fyrir skipum, Hjálmarr ok
+Þórðr.
+Nú gengr Oddr aptr til skipa sinna ok segir þessi
+tíðendi. Guðmundr spurði, hvat þá skal til ráða taka.
+"Nú munu vér skipta liði váru í helminga," sagði
+Oddr. "Þér skuluð halda skipum yðrum fram fyrir nesit
+ok æpa þeim heróp, sem á landi eru, en ek mun ganga
+á land með helming liðs ok fram it efra eptir skóginum,
+ok skulu vér æpa þeim annat heróp, ok má þá
+vera," sagði hann, "at þeim bregði nokkut við. Mér
+kemr þat í hug, at þeir flýi í burt á skóga ok þurfi
+vér eigi við meira."
+En þat er sagt frá tiltekju þeira Hjálmars, at þá er
+þeir heyrðu heróp þeira Guðmundar, at þeir bregða
+sér hvergi við, en er þeir heyrðu annat heróp á land
+upp, námu þeir stað á meðan. En er þat líðr af, leika þeir
+sem áðr. Nú snúa þeir aptr hvárirtveggja undir nesit,
+ok finnast þeir Oddr ok Guðmundr. "Eigi veit ek
+víst," sagði Oddr, "hvárt þessir eru svá skelfir, sem vér
+höfum hér fundit." "Hvat viltu nú ráða taka?" sagði
+Guðmundr. "Skjót eru nú mín ráð," sagði Oddr, "hér
+skal ekki stelast á þessa menn. Hér munu vér liggja í
+nótt undir nesinu ok bíða hér morguns." Þá ganga
+þeir á land með lið sitt allt til fundar við Hjálmar,
+en þegar þeir sjá víkinga á land ganga, þá herklæðast
+þeir ok ganga á mót þeim Oddi. Hjálmarr spyrr, er
+þeir finnast, hverr fyrir liði réði. Oddr svarar: "Hér
+eru fleiri höfðingjar en einn." "Hvat heitir þú?" sagði
+Hjálmarr. "Ek heiti Oddr, sonr Gríms loðinkinna ór
+Hrafnistu." "Ertu sá Oddr, at fór til Bjarmalands fyrir
+<pb n="309"/>
+
+skömmu, eða hvert er erendi þitt hingat?" "Ek vil vita,"
+sagði Oddr, "hvárr okkar meiri maðr skal vera." "Hvé
+margt hefir þú skipa?" sagði Hjálmarr. "Ek hefi fimm
+skip," sagði Oddr, "eða hversu mikit lið hafi þér?"
+"Vér höfum fimmtán skip," sagði Hjálmarr."Þá er
+liðsmunr mikill," sagði Oddr. "Hér skulu sitja hjá tíu
+skipshafnir," sagði Hjálmarr, "ok skal maðr manni á
+mót vera."
+Nú búast hvárirtveggja til bardaga ok fylkja liði sínu
+ok berjast, meðan dagrinn endist. Þá er kveldar, var
+haldit upp friðskildi, ok spyrr Hjálmarr Odd, hversu
+honum þætti at hafa farit um daginn. En hann lét vel
+yfir. "Viltu eiga leik þenna optar?" sagði Hjálmarr.
+"Ekki ætla ek annat," sagði Oddr, "fyrir því at ek
+hefi eigi betri drengi hitta né harðfengari menn, ok
+munu vér taka til bardaga at ljósum degi." Ok var
+nú svá gert sem Oddr mælti fyrir, ok binda menn sár
+sín ok fara til herbúða um kveldit. En um morguninn
+eptir fylktu hvárirtveggja sínu liði til bardaga ok
+berjast þann dag allan. Ok er á leið daginn, var brugðit
+upp friðskildi. Þá spyrr Oddr, hversu Hjálmari þótti
+ganga orrostan um daginn. En hann lét vel yfir. "Hvárt
+viltu," sagði Hjálmarr, "at vit eigum þenna leik inn
+þriðja daginn?" "Þá skal til stáls sverfa með okkr,"
+sagði Oddr. Þá tók Þórðr til orða: "Er þar fjárván
+væn ok mikit á skipum yðrum?" "Þat ferr fjarri," sagði
+Oddr, "vér höfum einkis fjár aflat í sumar." "Þat ætla
+ek," sagði Þórðr, "at ek hafi hvergi þess komit, at
+óvitrari menn hafi fundizt en hér, því at vér berjumst
+um ekki nema kapp ok metnað." "Hversu viltu þá til
+hátta?" sagði Oddr. "Þykkir yðr eigi þat ráð," sagði
+Þórðr, "at vér gerum félag várt?" "Þat líkar mér vel,
+sagði Oddr, "en eigi veit ek, hversu Hjálmari er um
+<pb n="310"/>
+
+þat gefit." "Ek vil þau ein víkingalög," sagði Hjálmarr,
+"sem ek hefi áðr haft." "Þat veit ek," sagði Oddr,
+"þá ek heyri þau, hversu skapfellt mér er um þau."
+Þá mælti Hjálmarr: "Þat er fyrst at segja, at ek vil
+aldri eta hrátt né lið mitt, því at þat er margra manna
+siðr at vinda vöðva í klæðum ok kalla þat soðit, en
+mér þykkir þat þeira siðr, er líkari eru vörgum en
+mönnum. Ek vil aldri kaupmenn ræna né búkarla
+meir en svá sem ek þarf at hafa strandhögg á skipi
+mínu í nauðsyn. Ek vil ok aldri konur ræna, þó at
+vér finnum þær á landi uppi með miklum fjárhlutum,
+ok eigi skal konur til skips leiða nauðgar, ok ef hún
+kann þat at segja, at hún fari nauðig, þá skal sá engu
+fyrir týna nema lífi sínu, hvárt sem hann er ríkr eða
+óríkr." "Góð þykkja mér lög þín," sagði Oddr, "ok
+mun þat ekki meina váru félagi." Ok nú gera þeir
+félag sitt, ok er svá sagt, at nú hafa þeir jafnmikit lið
+allir sem þeir Hjálmarr höfðu, áðr þeir fundust.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="10"><p>
+
+Eptir þetta spyrr Oddr at, hvar þeir vissi þá fengjar
+ván. En Hjálmarr svarar: "Á Sælund veit ek liggja
+fimm berserki, þá sem harðfengari eru en flestir menn
+aðrir, þeir sem vér höfum spurn af, ok heitir einn
+Brandr, annarr Agnarr, þriði Ásmundr, fjórði Ingjaldr,
+fimmti Álfr. Þeir eru allir bræðr ok hafa sex skip ok
+öll stór. Eða hversu viltu nú, Oddr, hátta til ferðum
+várum?" "Þar vil ek at halda," sagði Oddr, "sem berserkirnir
+eru fyrir." Þeir koma nú við Sælund fimmtán
+skipum ok spyrja þau tíðendi, at berserkirnir eru
+á land gengnir at hitta frillur sínar. Þá gengr Oddr á
+<pb n="311"/>
+
+land upp einn saman til fundar við þá. Ok er þeir
+finnast, lýstr þar í bardaga, ok lýkr honum svá, at hann
+fellir þá alla, en varð ekki sárr. En er Oddr var á land
+genginn, saknar Ásmundr hans ok sagði til Hjálmars:
+"Já," sagði hann, "þat mun eigi rjúfast, at Oddr mun
+á land genginn, ok skulu vér eigi sýslulausir á
+meðan." Nú heldr Hjálmarr þangat sex skipum, sem
+víkingarnir váru, ok lýstr þar í bardaga, ok var þat
+allt jafnsnemma, at Oddr kom af landi ofan ok Hjálmarr
+hafði unnit skipin. Ok nú segja hvárir öðrum tíðendin
+ok hafa nú bæði aflat sér fjár ok metnaðar.
+Nú býðr Hjálmarr þeim Oddi með sér til Svíþjóðar,
+ok þat þiggr Oddr. En norðr fara Háleygirnir, Guðmundr
+ok Sigurðr, til Hrafnistu með liði sínu, en
+mæla mót með sér við Elfi austr. En er þeir Hjálmarr
+koma í Svíþjóð, tekr Hlöðvér konungr mót þeim báðum
+höndum, ok sitja þeir þar um vetrinn, ok leggst
+þar svá mikil virðing á Odd, at konungi þótti enginn
+hans maki fyrir alls sakir. Skamma stund hafði Oddr
+þar verit, áðr konungr gaf honum fimm bú. Konungr
+átti dóttur eina, þá er Ingibjörg hét. Hún var hverri
+konu vænni ok bezt at sér um allar íþróttir, þær er
+kvenmann mátti fríða. Oddr spurði Hjálmar jafnan,
+hverju þat sætti, at hann bæði ekki Ingibjargar, --
+"fyrir því at ek sé, at hugir ykkrir falla saman." "Ek
+hefi beðit hennar," sagði hann, "en konungr vill eigi
+gifta þeim manni dóttur sína, er eigi berr konungs
+nafn." "Þá skulu vit draga saman her at sumri," sagði
+Oddr, "ok gerum konungi tvá kosti, annathvárt at
+berjast við okkr eða gefa þér dóttur sína." "Eigi veit
+ek þat," sagði Hjálmarr, "því ek hefi lengi haft hér
+friðland." Sitja þeir nú þar um kyrrt um vetrinn. En
+um várit halda þeir í hernað, þegar þeir váru búnir.
+<pb n="312"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="11"><p>
+
+Nú er ekki sagt af ferðum þeira, fyrr en þeir finnast
+við Gautelfi, ok leggja þeir nú í umræðu með sér, hvert
+nú skal halda um sumarit. En Oddr sagðist fúsastr
+at halda vestr um haf. Þeir hafa nú tuttugu skip, ok
+stýrir Oddr drekanum Hálfdanarnaut. Þeir koma við
+Skotland ok gera þar upprásir, herja ok brenna hvervetna,
+þar er þeir koma, ok eigi létta þeir fyrr en þeir
+skattgilda landit. Þaðan fara þeir til Orkneyja ok leggja
+þær undir sik ok sitja þar um vetrinn. En um várit
+fara þeir til Írlands ok herja þar bæði með sjónum
+ok upp á landit. Þess fór Oddr hvergi, at eigi fylgdi
+Ásmundr honum. En þar flýðu undan bæði á merkr
+ok skóga börn ok konur ok karlar, en fálu fjárhlut
+sinn ok sjálfa sik.
+Þar var einn dag, at þeir Oddr ok Ásmundr váru
+tveir saman staddir á landi uppi. Oddr var svá búinn,
+at hann hafði örvamæli sinn á baki sér, en boga í
+hendi, ok vildu leita manna nokkurra, ef þeir fyndi.
+Nú finnr Oddr eigi fyrr en strengr gellr við, ok flýgr
+ör af skógi ok nemr eigi fyrr staðar en hún kemr at
+Ásmundi, ok fell hann við ok dó skjótt. Þetta þótti
+Oddi svá mikil tíðendi ok ill, at hann þykkist aldri
+slíkan skaða beðit hafa á sinni ævi. Hann gengr nú
+á land upp, en Ásmundr lá þar eptir, ok er Oddr svá
+í illum hug, at hann ætlar sér ekki annat en gera Írum
+allt þat illt, er honum kemr í hug. Hann kom nú at
+rjóðri einu ok sér þar fjölda mikinn, bæði konur ok
+karla. Hann sér mann standa upp í guðvefjarkyrtli,
+ok hafði boga í hendi, en örvarnar stóðu í vellinum
+hjá honum. Þat þykkir Oddi at vísu mega ganga, at
+<pb n="313"/>
+
+hann muni þar eptir hefndum eiga at leita, þar sem
+sá maðr er. Því tekr hann ör eina af Gusisnautum ok
+leggr á streng ok skýtr at þessum manni. Kom sú á
+hann miðjan, ok fell hann þegar dauðr niðr. Nú skýtr
+hann hverri at annarri, svá at hann drap þar þrjá menn
+aðra. Ok nú flýði liðit á skóga. En Oddr er svá í illum
+hug við Íra, at hann ætlar at vinna þeim allt þat illt,
+er hann megi orka. Hann gengr nú eptir skógarbraut
+einni mikilli. Hann kippir nú upp hverjum runni með
+rótum, þeim sem fyrir honum verðr. Hann kippir
+þeim runni upp einum, er lausari var fyrir en aðrir.
+Þar sér hann hurð undir ok kippir henni upp ok
+gengr þar niðr í jörð. Þar finnr hann fjórar konur í
+jarðhúsinu, ok var ein miklu vænst. Hann þrífr þegar
+í hönd henni ok vill kippa henni ór húsinu. Hún tók
+þá til orða: "Láttu mik lausa, Oddr," sagði hún.
+"Hvat tröll veiztu til þess," sagði hann, "hvárt ek heiti
+Oddr eða annan veg?" "Ek vissa þat," sagði hún, "þegar
+þú komt hingat, hverr þú vart, ok svá veit ek, at Hjálmarr
+er með þér, ok skal ek kunna at segja honum, ef
+ek fer nauðig til skipanna." "Eigi skaltu fara at síðr,"
+sagði Oddr. Nú taka þær konurnar til hennar ok vilja
+halda henni, en hún biðr þær hætta. ,Ek mun kaupa
+at þér," sagði hún, "at þú látir mik fara í friði, því
+at mik skortir eigi fé." "Fjarri ferr, at ek vilja fé
+þitt," sagði Oddr, "því at mik skortir eigi gull né silfr."
+"Þá mun ek láta gera þér skyrtu," sagði hún. "Þat er
+enn svá" sagði Oddr, "at ek á nógar skyrtur eða
+skyrtugerðir." "Kost muntu eiga," sagði hún, "ok eigi
+þvílíkrar, sem ek mun láta gera, því at hún skal saumuð
+með gull, en ger ór silki. Ek mun láta fylgja þá
+kosti skyrtunni, at þú munt eigi eiga þvílíkrar kosti
+áðr." "Lát mik heyra þá," sagði Oddr. "Þik skal aldri
+<pb n="314"/>
+
+kala í henni, hvárki á sjó né á landi. Þik skal eigi sund
+mæða, ok eigi skal þér eldr granda, ok eigi skal þik
+hungr sækja, ok eigi skulu þik járn bíta, ok við öllum
+hlutum mun ek hana gera nema við einum." "Hverr
+er sá inn eini?" sagði Oddr. "Þik munu járn bíta,"
+sagði hún, "ef þú ert á flótta, þótt þú sért í skyrtunni."
+"Annat vilda ek optar vinna í orrostum en
+flýja," sagði Oddr, "eða hvé nær skal hún ger?" "At
+öðru sumri," sagði hún, "jafnt í þat mund dags, sem
+nú er, ok er nú sól í suðri. Þá skulu vit hér finnast
+í þessu sama rjóðri." "Hvat kemr þér í hug," sagði
+Oddr, "ef þú efnir eigi þetta, hvern kost ek mun gera
+yðr Írum þá, svá sem ek á þeim illt at launa, er þeir
+hafa felldan Ásmund?" "Þykkist þú enn eigi hafa hefnt
+hans," sagði hún, "þar sem þú hefir drepit föður minn
+ok bræðr mína þrjá?" "Alls ekki þykki mér hans hefnt
+at heldr," sagði Oddr. Þetta verðr nú kaup þeira, sem
+þau höfðu stofnat, ok skiljast at því.
+Fór Oddr nú þar til, at Ásmundr lá, tekr hann nú
+upp ok leggr á bak sér ok gengr svá búinn til sjóvar.
+Þá var Hjálmarr kominn á land með liði sínu öllu
+ok ætlar at leita at Oddi. Þeir finnast skammt frá skipum,
+ok spyrr Hjálmarr tíðenda, en Oddr sagði honum.
+"Hefir þú nokkut hefnt hans?" sagði Hjálmarr. Þá
+varð Oddi ljóð á munni:
+<lg>
+<l>"Rann ek at víðri</l>
+<l>vagns slóðgötu,</l>
+<l>áðr en strengvölum</l>
+<l>stríðum mættak.</l>
+<l>Munda ek Ásmund</l>
+<l>auði mínum</l>
+<l>aptr ódáinn</l>
+<l>öllum kaupa."</l>
+</lg>
+<pb n="315"/>
+
+"Hvat skal nú til ráða taka?" sagði Hjálmarr. "Herja
+muntu nú vilja ok gera hér hvervetna illt." "Þat ferr
+nú fjarri," sagði Oddr, "því at ek vil nú á burt sem
+skjótast." Þetta undruðust víkingar mjök. En Hjálmarr
+kvað svá vera skyldu sem Oddr vildi. Þeir verpa þar
+haug eptir Ásmund. Svá láta víkingarnir illa yfir þessu,
+at þegar þeir firrast Odd augum, þá leggja þeir ámælisorð
+á bak honum. En hann lét sem hann vissi þat eigi.
+Þeir sigla nú vestan, til þess at þeir koma við Hlésey.
+Þar liggr fyrir jarl sá, sem eigi er nefndr, ok hefir
+þrjá tigi skipa. Þeir mæla þegar til bardaga, ok var
+þar þegar hörð sókn. Þá rak Oddr af sér bleyðiorðit,
+þat sem víkingar lögðu á hönd honum á Írlandi. Þar
+fengu þeir Oddr ok Hjálmarr sigr í þessum bardaga.
+Þaðan halda þeir til Danmerkr ok spyrja þar þau tíðendi,
+at lið væri gert fyrir þá at hefna þeira fimm berserkja,
+er þeir felldu, áðr þeir færi vestr til Írlands.
+Tveir jarlar hafa fyrir ráðit liðinu, ok lýkur svá fundi
+þeira, at þeir fella þá báða, en skattgilda landit.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="12"><p>
+
+Nú skilja þeir lið sitt, ok sigla þeir Guðmundr ok
+Sigurðr norðr til Hrafnistu, ok setjast þeir þar at kyrrðum
+ok vilja létta hernaði. En Oddr sitr eptir í
+Danmörku um vetrinn, en Hjálmarr fór til Svíþjóðar
+með sínu liði, ok mæla mót með sér austr á Skáney
+um várit, ok sitja nú um kyrrt hvárirtveggja þann vetr.
+En er vár kom, halda þeir Hjálmarr austan ok Þórðr
+stafnglámi í þat mund, sem mælt var til móts við þá.
+Er þeir finnast, þá spyrr Hjálmarr, hvert Oddr vill
+halda um sumarit. En hann sagði, at hann vill til Írlands.
+<pb n="316"/>
+
+"Eigi vildir þú þar herja í fyrra sumar," sagði
+Hjálmarr. "Hverninn sem þat var," sagði hann, "þá skal
+nú þangat fara í sumar."
+Sigla þeir nú ór landi, ok gaf þeim vel byri, þar til
+at þeir koma við Írland. Þá mælti Oddr: "Nú munu
+vér tjalda hér, en ek mun ganga á land upp einn saman."
+"Ek mun fylgja þér," sagði Hjálmarr. "Einn vil
+ek fara," sagði Oddr, "því at ek á hér mælt mót við
+konur nokkurar í skóginum." Oddr fór nú, þar til
+at hann kemr í þat sama rjóðr, sem þau Ölvör höfðu
+sammælzt, ok var hún þá eigi komin. Hann fyllist nú
+þegar upp mikillar reiði við þá Íra ok ætlar þegar á
+land upp ok herja slíkt allt, er hann má. En er hann
+hefir farit um hríð, heyrir hann, at vagnar ganga í mót
+honum. Þar finnast þau Ölvör, ok heilsar hún honum
+fyrri: "Nú vil ek, at þú sért mér eigi reiðr, þó at ek
+hafi seinni orðit en ek kvað á." "Er nú búin skyrtan?"
+sagði Oddr. "Eigi trauðar þat," sagði hún, "ok skaltu
+nú setjast niðr hjá mér, ok vil ek sjá, hverninn þér sami
+skyrtan." Ok svá gerir hann, tekr við ok rekr í sundr
+ok ferr í síðan, ok var hún honum hæfiliga mikil at
+öllum hlutum. "Hvárt fylgja nú allir kostir skyrtunni,"
+sagði Oddr, "þeir sem ákveðnir váru?" "Svá er þat,"
+sagði hún. "Hverninn er," sagði Oddr, "hvárt hefir þú
+ein gert góðgrip þenna?" Þá varð henni ljóð á munni:
+<lg>
+<l>"Serk of frák ór silki</l>
+<l>ok í sex stöðum gervan:</l>
+<l>ermr á Íralandi,</l>
+<l>önnur norðr með Finnum,</l>
+<l>slógu Saxa meyjar,</l>
+<l>en suðreyskar spunnu,</l>
+<l>váfu valskar brúðir,</l>
+<l>varp Óþjóðans móðir."</l>
+</lg>
+<pb n="317"/>
+
+Þá varð Oddi ljóð á munni:
+<lg>
+<l>"Varat sem brynja</l>
+<l>eða bláir hringar</l>
+<l>ísköld um mik</l>
+<l>áðan felli,</l>
+<l>þá er um síður</l>
+<l>silkiskyrta,</l>
+<l>gulli saumuð,</l>
+<l>gekk fast ofan."</l>
+</lg>
+"Hversu líkar þér nú skyrtan?" sagði hún. En hann
+lét vel yfir. "Nú skaltu kjósa þér laun fyrir skyrtugerðina,"
+sagði Oddr. "Svá er hér herskátt," sagði hún,
+"síðan faðir minn var felldr, at við er búit, at landit
+gangi undan mér. Því kýs ek þau launin, at þér sitið
+hér þrjá vetr." "Þá munu vit kaupa fleira," sagði Oddr,
+"ok skaltu þat til vinna at ganga með mér ok vera
+mín eiginkona." "Manngjarnliga mun þér mælt
+þykkja," sagði hún, "ok skal þetta kjósa." Þá litast
+Oddr um ok sér skammt frá sér riðul manna. Hann
+spyrr, hvárt þat lið sé sett til höfuðs honum. "Fjarri
+ferr því," sagði hún. "Þessir menn skulu fylla flokk
+þinn til skipa, ok skaltu nú fara með meira sóma en
+it fyrra sumar." Snýr hann nú til skipa ofan ok lið
+þetta með honum, ok hittast þeir Hjálmarr í tjöldum
+sínum.
+Oddr biðr nú Hjálmar, at hann siti þar þessa þrjá
+vetr, ok því játar hann. Fær Oddr nú Ölvarar. En á
+sumrum liggja þeir á herskipum ok drepa víkinga þá,
+er þangat herjuðu. Ok er þeir höfðu setit þar slíka
+stund, sem ákveðit var, höfðu þeir eytt víkingum öllum,
+bæði nærri ok fjarri á Írlandi; sumir váru drepnir,
+en sumir stukku undan. Þá var Oddi svá leitt orðit
+at vera þar, at ekki stoðar at letja hann.
+<pb n="318"/>
+
+Mey hafa þau Ölvör ok Oddr getit sín á millum,
+ok er sú Ragnhildr nefnd. Þau eiga um þat at ræða,
+at Oddr vill hafa hana með sér, en Ölvör vill eigi þat.
+Þar kemr, at Hjálmarr skal þessu skipa, ok vill hann,
+at mærin vaxi upp með móður sinni.
+En er þeir váru búnir, halda þeir á burt ok koma
+við England. Þeir hafa spurt, at þar liggr víkingr sá,
+er Skolli hét, ok hafði fjóra tigi skipa. Ok er þeir hafa
+lagt í lægi, stígr Oddr á bát ok vill finna Skolla at
+máli. En er þeir finnast, spyrr hann Odd, hvert erendi
+þeira væri þangat til lands. "Ek ætla at eiga bardaga
+við þik," sagði Oddr. "Hvat áttu mér illt at inna?"
+sagði Skolli. "Ekki," sagði Oddr, "nema ek vil hafa
+fé þitt ok líf fyrir þat, at þú herjar á konung þann,
+er hér ræðr fyrir." En hann hét Játmundr. "Ertu sá
+Oddr," sagði Skolli, "er fór til Bjarmalands fyrir löngu?"
+"Sá er maðr inn sami," sagði Oddr. "Ekki er ek svá
+dulinn at mér," sagði Skolli, "at ek ætla at halda til
+jafns við þik. Nú muntu vilja vita, hví ek herja á
+Játmund konung." "Vel má þat," sagði Oddr. "Þessi
+konungr drap föður minn hér frá landi ok marga frændr
+mína, en síðan settist hann í ríkit. En ek get nú stundum
+unnit helming af landinu, en stundum þriðjung.
+Nú þætti mér yðr meiri frami at snúast í lið með mér,
+ok dræpu vér Játmund konung, en tækim ríkit undir
+oss, því at ek mun þetta vitnum binda." "Þá skaltu,"
+sagði Oddr, "fá þér átta bændr ofan af landi til eiðafulltings."
+"Svá skal vera," sagði Skolli. Nú fór Oddr
+til skipa sinna ok finnr Hjálmar ok sagði honum, at
+ef svá gengr sem Skolli hafði talat, at þeir mundu
+snúast í lið með honum. Sofa þeir nú af um nóttina.
+En um morguninn ganga þeir á land upp með öllu
+liði sínu. Þá hafði Skolli þat at sýst um nóttina, at
+<pb n="319"/>
+
+hann var kominn af landi ofan með bændrna, ok unnu
+þeir honum eiða. Eptir þat slá þeir saman liðinu ok
+ganga á land upp ok fara herskildi yfir, brenna allt
+ok bæla, þar er þeir koma. En landslýðrinn flýr undan
+ok til fundar við konung. En á sunnanverðu landinu
+finnast þeir, ok lýstr þar þegar í bardaga með þeim,
+ok börðust þrjá daga. En svá lauk, at þar fell Játmundr
+konungr. En þeir Oddr leggja landit undir sik ok sitja
+þar um vetrinn. En um várit býðr Skolli at gefa þeim
+landit. En Oddr vill eigi þiggja, -- "en þat ræð ek,
+at þú bjóðir Hjálmari." En Hjálmarr vill eigi. "Þat
+ræð ek þá," sagði Oddr, "at vit gefum Skolla landit."
+Ok hann þiggr ok mælti svá, at þeir skyldu þar vera
+ávallt, er þeir vildu, hvárt sem væri vetr eðr sumar.
+Þeir búa nú tuttugu skip ór landi, ok er nú ekki sagt
+af þeira ferð, fyrr en þeir koma suðr fyrir Skíðu.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="13"><p>
+
+Konungar tveir eru nefndir. Hét annarr Hlöðvér, en
+annarr Haki. Þeir liggja þar fyrir með þrjá tigi skipa.
+En er þeir Oddr höfðu lagit skip sín undir land, róa
+at þeim tíu skip. Ok er þeir finnast, eru þar engin
+orða áköst, því at þegar lýstr í bardaga með þeim. Þeir
+Oddr höfðu tuttugu skip. Þar eiga þeir svá harða atlögu,
+at Oddr hafði þar trautt komit, at honum hafi harðfengara
+fyrir þótt. En svá lauk þeiri sókn, at þeir unnu
+þau tíu skip. Þá tók Oddr til orða: "Allmjök hafa
+þessir ægðir verit í frásögnum." "Hyggr þú þat?" sagði
+Hjálmarr. "Þetta váru hlaupamenn þeira, er sendir
+váru til fundar við oss." En er þeir höfðu litla stund
+hvílzt, þá róa þar at þeim tuttugu skip undan landinu,
+<pb n="320"/>
+
+ok þegar lýstr þar í svá harðan bardaga ok ákafan,
+at þeir Oddr höfðu þar hvergi komit, at þeir hefði
+þvílíka menn fyrir fundit, hvárki á sjó né á landi. En
+svá lýkr þeira bardaga, at báðir konungar falla ok allt
+lið þeira. Enda er svá sagt, at þeir Oddr ok Hjálmarr
+hefði þá eigi meira lið en þeir sigla burt á einum aski,
+ok koma við sker þau, er Elfarsker heita. Inn í þau
+sker ganga vágar, er kallaðir eru Trönuvágar. Þeir sáu
+þar liggja tvau skip, ok var svörtu tjaldat yfir þeim
+báðum. Þetta var öndvert sumar. "Nú vil ek," sagði
+Hjálmarr, "at vér gerum eigi vart við ferð vára, fyrir
+því at víkingar liggja kyrrir undir tjöldum." "Þat má
+ek eigi nýta," sagði Oddr, "at hafa eigi orð við menn
+þá, sem ek hitti á leið minni."
+Nú kallar Oddr ok spyrr, hverr skipunum átti at
+ráða. Maðr sprettir skörum yfir sér ok svarar: "Ögmundr
+heitir sá." "Hvat Ögmundr ertu?" sagði Oddr.
+"Hvar hefir þú þess verit, at þú hefir eigi heyrt getit
+Ögmundar Eyþjófsbana?" sagði skipamaðrinn. "Eigi
+hefik heyrt þín getit," sagði Oddr, "ok aldri hefik
+sét jafnilliligan mann sem þú ert." Svá var sagt frá
+yfirlitum þessa manns, at hann var svartr á hárslit, ok
+hekk flóki ofan fyrir andlitit, þar sem topprinn skyldi
+vera, en alls ekki var at sjá til andlitsins nema tennr
+ok augu. Þá hefir hann átta menn með sér, er þannig
+váru í yfirbragði. Þá bitu engi járn. Þeir váru líkari
+jötnum en mönnum fyrir vaxtar sakir ok illsku. Þá
+tók Ögmundr til orða: "Hverr er sjá maðr, at mik
+lýtir svá?" "Sá heitir Oddr," sagði hann. "Ertu sá
+Oddr," sagði Ögmundr, "at fór til Bjarmalands fyrir
+löngu?" "Sá er maðrinn," sagði Oddr, "er þar hefir
+komit." "Þá er vænt um," sagði Ögmundr, "því at ek
+hefi þín leitat mestan hluta ævi minnar." "Hvat hefir
+<pb n="321"/>
+
+þú nú mér hugat?" sagði Oddr. "Hvárt viltu berjast
+á sjó eða landi?" sagði Ögmundr. "Á sjó vil ek berjast,"
+sagði Oddr. Þá taka þeir Ögmundr af sér tjöldin.
+En þeir Hjálmarr búast við í öðrum stað ok bera grjót
+á skip sitt. Ok er þeir váru búnir hvárirtveggju, tekst
+þar harðr bardagi, ok leggja borð við borð. Þeir áttu
+orrostu harða ok langa. En er þat hafði gengit um
+hríð, bregðr Ögmundr upp friðskildi ok spyrr Odd,
+hversu honum þætti at fara. Hann sagði, at honum
+þótti illa at fara. "Hví sætir þat?" sagði Ögmundr.
+"Því, at ek hefi ávallt áðr við menn barizt, en nú þykkjumst
+ek eiga við fjándr," sagði Oddr. "Ek hjó á háls
+þér áðan, sem mér var hægast, með sverði því, sem ek
+helt á, ok tók ekki á." Ögmundr svarar: "Þat mun
+mæla mega hvárr okkar við annan, at hér sé eigi síðr
+átt við tröll en menn. Ek hjó á háls þér, sem mér var
+hægast, ok hafði ek þat sverð, sem aldri hefir í höggi
+stað numizt fyrr, ok beit ekki, eða hvárt viltu nú, at
+vér berjumst lengr?" sagði Ögmundr, "eða viltu, at vit
+skiljum, því at ek kann at segja þér, hvé fara mun
+bardagi vár: Hér munu falla þeir fóstbræðr, Hjálmarr
+og Þórðr, ok lið þitt allt. Þá munu ok falla allir kappar
+mínir, ok munu vit tveir uppi standa. En ef vit berjumst
+til þrautar, þá mun ek falla fyrir þér," sagði
+Ögmundr. "Eiga skal leik þenna þangat til," sagði
+Oddr, "at fellt er lið várt allt ok þitt." Leggja þeir nú
+saman randir í annat sinn ok berjast, þar til at þeir
+standa þrír uppi, Þórðr, Hjálmarr ok Oddr. Þeir Ögmundr
+standa þá ok upp níu. Hann tók þá til orða:
+"Viltu nú, Oddr, at vit skiljum, því at nú kalla ek
+jafnvegit, fyrir því at svá mun fara sem ek sagða þér,
+en þér er ætlaðr aldr miklu meiri en öðrum mönnum.
+Þú hefir ok skyrtu þá, at þér má ekki granda." "Því betr
+<pb n="322"/>
+
+þykki mér," sagði Oddr, "sem vit skiljum fyrr, ef þú
+leggr eigi bleyðiorð á bak mér." "Hví mun nú eigi
+gott at skilja?" sagði Ögmundr, "því at nú kalla ek
+jafnvegit." Oddr sagðist vilja burt ór vágunum, ok svá
+gerðu þeir ok lögðu undir hólm nokkurn. Oddr sagði,
+at þá lægi þrenn verk fyrir höndum: þat eitt, at fara
+á skóg ok skjóta dýr, annat, at gæta skips. "Ek mun
+eld kveykja," sagði Hjálmarr, "ok búa til búðarverð."
+Oddr ferr nú á skóg, en Þórðr geymdi skips. En er
+þeir kómu aptr, var Þórðr horfinn. Þeir fara nú ok
+leita hans. Þeir finna bátinn, þar sem hann var festr.
+Þeir leita nú Þórðar ok finna hann í bjargskoru einni.
+Sitr hann þar ok er örendr. "Þetta er svá illr atburðr,"
+sagði Oddr, "at vit höfum eigi slíkan skaða beðit, síðan
+Ásmundr lézt." Þeir leita nú, hvat honum hefir at bana
+orðit, ok finna, at undir annarri hendinni stendr spjót,
+en fjöðrin tók út undir annarri. "Þat mun inum illa
+Ögmundi þótt hafa," sagði Oddr, "at eigi hafi jafnvegit
+verit með oss. Skulu vit nú þegar leggja út í
+vágana at leita þeira." Ok svá gerðu þeir, ok var Ögmundr
+þá allr í burtu. Þeir leituðu hans viku fulla
+ok fasta um sker ok um skóga, eyjar ok andnes ok finna
+hann hvergi né frétta til hans. Þeir halda nú þangat,
+sem Þórðr er, ok færa hann til Svíþjóðar ok verpa
+þar haug eptir hann. Síðan fara þeir heim til Uppsala
+ok segja konungi þessi tíðendi. Konungr tók við þeim
+báðum höndum, ok settust þeir um kyrrt, en at sumarmagni
+bauð konungr, at þeir siti þar, -- "ok mun
+ek fá ykkr skip ok lið fyrir land fram, svá at þit megið
+skemmta ykkr."
+<pb n="323"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="14"><p>
+
+Þat er nú af þeim Oddi at segja, at þeir búa tvau
+skip ok hafa fjóra tigi manna á hváru skipi. Þeir sigla
+nú fyrir land fram. Svá berr til, at veðr bægir þeim,
+ok halda þeir at ey einni, er heitir Sámsey. Þar eru
+vágar þeir, er heita Munarvágar. Þeir leggja skip sín
+í lægi ok tjalda yfir sér. En þat hefir at gengit um
+daginn á skipi Odds, at húsasnotra hefir í sundr gengit.
+En er morgunn kemr, ganga þeir á land upp Oddr ok
+Hjálmarr at höggva sér efnitré. Hjálmarr var svá vanr
+at ganga, at hann hafði öll herklæði sín, þau sem hann
+hafði í bardögum. Oddr hafði eptir látit örvamæli
+sitt at skipum niðri, en bæði hafði hann skyrtu sína
+dag ok nátt. Allt lið þeira var í svefni. Þeir finna eigi
+fyrr en víkingar koma at þeim, ok er sá Angantýr
+nefndr, er fyrir þeim var. Þeir váru tólf saman ok váru
+allir bræðr. Þeir hafa aldri fleira lið ok höfðu þá farit
+víða um heim ok fengit hvergi viðnám. Nú koma þeir
+at, þar er skip þeira Odds ok Hjálmars váru. Þeir hlaupa
+á þá með bardaga, ok gengr þar skjótt saga frá, at
+þeir drepa þar hvert mannsbarn, er á skipunum var.
+Þá taka þeir til orða bræðr ok segja svá: "Þat er þó
+um at ræða, at eigi hefir Arngrímr, faðir várr, í annat
+sinn logit meir at oss en þá hann sagði oss þessa menn
+harða ok mikla víkinga, svá at ekki reisti rönd við, en
+vér höfum hér svá komit, at allir hafa verst at borit
+sik ok sízt dugat. Ok förum heim ok drepum skítkarlinn,
+föður várn, ok hafi hann þat fyrir lygi sína." "Þat
+er annathvárt," sögðu sumir, "at þeir Oddr ok Hjálmarr
+hafa mest ægðir verit, eða hitt ella, at þeir munu
+vera gengnir á land upp, er veðr er gott. Nú munu
+<pb n="324"/>
+
+vér ganga á land upp ok leita þeira heldr en at fara
+aptr at óreyndu." Þeir gera nú svá tólf bræðr, ok kemr
+nú á þá berserksgangr, ok fara grenjandi. Þá kom ok
+berserksgangr á Angantý, en þat hafði aldri fyrr orðit.
+Þetta stenzt á ok þeir Oddr ganga ofan ok Hjálmarr
+frá mörkinni. Nú nemr Oddr stað ok stingr við fótum.
+Hjálmarr spyrr, hvat honum sé. Oddr mælti:
+"Berr fyrir mik læti kynlig. Mér þykkir stundum sem
+griðungar gelli eða hundar ýli, en stundum er því líkt
+sem grenjat sé, eða veiztu nokkut þá menn, at þann
+veg sé til náttúru, at slík læti hafi." "Já," sagði Hjálmarr,
+"veit ek þá tólf bræðr." "Kanntu nöfn þeira?" sagði
+Oddr. Þá varð Hjálmari ljóð á munni:
+<lg>
+<l>"Hervarðr, Hjörvarðr,</l>
+<l>Hrani, Angantýr,</l>
+<l>Bíldr ok Búi,</l>
+<l>Barri ok Tóki,</l>
+<l>Tindr ok Tyrfingr,</l>
+<l>tveir Haddingjar,</l>
+<l>þeir í Bólm austr</l>
+<l>bornir váru,</l>
+<l>Arngríms synir</l>
+<l>ok Eyfuru.</l>
+<l>Þá frá ek manna</l>
+<l>meinúðgasta</l>
+<l>ok ógjarnasta</l>
+<l>gott at vinna.</l>
+<l>Þeir eru berserkir</l>
+<l>böls of fylldir,</l>
+<l>tvau skip hruðu</l>
+<l>tryggra manna."</l>
+</lg>
+Þá sér Oddr, hvar berserkirnir fara, ok varð honum
+ljóð á munni:
+<lg>
+<l>"Menn sé ek ganga</l>
+<l>frá Munarvágum</l>
+<l>gunnar gjarna</l>
+<pb n="325"/>
+
+<l>í grám serkjum.</l>
+<l>Þeir hafa reiðir</l>
+<l>rómu háða.</l>
+<l>Eru okkur skip</l>
+<l>auð á ströndu."</l>
+</lg>
+Þá mælti Oddr: "Þetta kemr eigi vel við," sagði hann,
+"því at örvamæli mitt ok bogi lá eptir við skip niðri,
+en ek hefi bastöxi eina í hendi." Oddr kvað þá stöku
+eina:
+<lg>
+<l>"Þá var mér ótti</l>
+<l>einu sinni,</l>
+<l>er þeir grenjandi</l>
+<l>gengu af öskum</l>
+<l>ok emjandi</l>
+<l>í ey stigu.</l>
+<l>Þá frá ek fyrða</l>
+<l>fláráðasta</l>
+<l>ok örvasta</l>
+<l>illt at vinna."</l>
+</lg>
+Oddr gengr nú aptr í mörkina ok höggr sér kylfu eina,
+en Hjálmarr bíðr þar eptir. Ok er hann kemr at ofan,
+þá koma þeir at neðan berserkirnir. Þá kvað Hjálmarr
+þetta:
+<lg>
+<l>"Hliðu vér</l>
+<l>fyrir hjaldrviðum,</l>
+<l>aldri, þótt okkr</l>
+<l>atalt þykki.</l>
+<l>Vit skulum í aptan</l>
+<l>Óðin gista</l>
+<l>tveir fóstbræðr,</l>
+<l>en þeir tólf lifa."</l>
+</lg>
+Þá segir Oddr enn svá:
+<lg>
+<l>"En ek því einu</l>
+<l>orði hnekkta:</l>
+<l>Þeir skulu í aptan</l>
+<l>Óðin gista</l>
+<l>tólf berserkir,</l>
+<l>en vit tveir lifa."</l>
+</lg>
+<pb n="326"/>
+
+Þá varð Angantý ljóð á munni:
+<lg>
+<l>"It eruð halir</l>
+<l>harðir komnir</l>
+<l>seggir ór hlunnviði.</l>
+<l>Fallnir eru ykkrir</l>
+<l>förunautar,</l>
+<l>ok farið í höll Viðris."</l>
+</lg>
+Þá kvað Oddr:
+<lg>
+<l>"Hér eru rekkar</l>
+<l>reiðir komnir,</l>
+<l>tírarlausir,</l>
+<l>eru tólf saman.</l>
+<l>Einn skal við einn</l>
+<l>orrostu heyja</l>
+<l>hvatra drengja,</l>
+<l>nema hugr bili."</l>
+</lg>
+"Hverir eru þessir menn," sagði Oddr, "at vér höfum
+hér hitta?" "Maðr heitir Angantýr," sögðu hinir, "sá
+er fyrir liði ræðr. Vér erum tólf bræðr, synir Arngríms
+jarls ok Eyfuru austan af Flæmingjalandi. En hverr
+spyrr at því?" sagði Angantýr. "Hér heitir annarr Oddr,
+sonr Gríms loðinkinna, en annar heitir Hjálmarr inn
+hugumstóri." "Þá er vel á móti," sagði Angantýr, "fyrir
+því at ykkar höfu vit víða leitat." "Hafið þér nokkut
+komit til skipa várra?" sagði Oddr. "Kómu vér þar,"
+sagði Angantýr, "ok er þar allt unnit oss til handa."
+"Hversu ætlið þit nú þá til," sagði Hjálmarr, "um fund
+várn?" "Ek ætla," sagði Angantýr, "sem þit mæltuð
+til áðan, at hér skal einn við einn eiga, ok ætla ek
+mér Odd, fyrir því at þú hefir skyrtu þá, at þér er því
+fyrir heitit, at þik skuli engi járn bíta, en ek hefi sverð
+þat, er Tyrfingr heitir ok dvergar smíðuðu ok hétu,
+at hvergi skyldi í höggi stað nema, hvárt fyrir eru járn
+eða steinar. Hér er skipt í helminga liði, ok fara sjau
+<pb n="327"/>
+
+í annan stað, en ek við fimmta mann. Þat er líkt látit,
+ek einn ok Haddingjar tveir. Þá kemr einn í móti
+Tyrfingi. " Þá tekr Hjálmarr til orða: "Ek vil berjast
+við Angantý, því at ek hefi brynju þá, er ek hefi aldri
+sár í fengit. Hún er sett ferföldum hringum." "Þá gerir
+þú illa," sagði Oddr, "því at okkr mun hlýða, ef ek
+berjumst við Angantý, en víst eigi ella." "Hvernig sem
+ferr," sagði Hjálmarr, "þá skal ek ráða." Þá mælti Angantýr:
+"Þat vil ek," sagði Angantý, "ef nokkurr vár
+kemst á burt heðan, þá skal enginn annan ræna at
+vápnum. Ek vil hafa Tyrfing í haug með mér, þótt ek
+deyja. Svá skal Oddr hafa skyrtu sína ok skeyti, en
+Hjálmarr brynju sína." Ok svá skilja þeir, at þeir skulu
+verpa haug eptir aðra, er lifa.
+Nú ganga þeir fyrst fram Haddingjar tveir, en Oddr
+lýstr sitt kylfuhögg hvárn þeira, ok þurfa þeir ekki
+fleiri. Þá ríss upp hverr eptir annan, þeir er við Odd
+skyldu eiga, ok svá lýkr, at hann drepr þá alla, er honum
+váru ætlaðir. Nú tekr Oddr hvíld. Þá stendr Hjálmarr
+upp ok þar einnhverr á mót. Varð skammt viðskipti
+þeira, áðr hann fellr. Þá ríss upp annarr, inn þriði ok
+fjórði. Þá ríss upp Angantýr, ok eiga þeir harðan ok
+langan atgang, en svá lýkr, at Angantýr fellr fyrir
+Hjálmari. Þá gekk Hjálmarr at þúfu einni ok sezt
+niðr ok hnígr at upp. Oddr gengr at honum ok kvað
+vísu:
+<lg>
+<l>"Hvat er þér, Hjálmarr?</l>
+<l>Hefir þú lit brugðit.</l>
+<l>Þik kveð ek mæða</l>
+<l>miklar undir.</l>
+<l>Hjálmr er þinn höggvinn,</l>
+<l>en á hlið brynja.</l>
+<l>Nú kveð ek fjörvi</l>
+<l>of farit þínu.</l>
+</lg>
+<pb n="328"/>
+
+Ok hefir nú sannazt þat, er ek sagða þér, at okkr mundi
+eigi hlýða, ef þú berðist við Angantý." "Eigi er undir
+því," sagði Hjálmarr, "deyja skal hverr um sinn," ok
+kvað þetta:
+<lg>
+<l>"Sár hefi ek sextán,</l>
+<l>slitna brynju,</l>
+<l>svart er mér fyr sjónum,</l>
+<l>sékat ek ganga.</l>
+<l>Hneit mér við hjarta</l>
+<l>hjörr Angantýs,</l>
+<l>hvass blóðrefill</l>
+<l>herðr í eitri."</l>
+</lg>
+"Nú hefi ek þann skaða beðit," sagði Oddr, "at ek
+mun aldri bætr bíða, meðan ek lifi, ok hefir nú illa
+gefizt þrá þitt, ok mundu vér hér mikinn sigr fengit
+hafa, ef ek hefða ráðit." "Nú skaltu setjast niðr," sagði
+Hjálmarr, "ok vil ek kveða ljóð nokkur ok senda heim
+til Svíþjóðar." Hann kvað nú þetta:
+<lg>
+<l>"Fregna eigi þat</l>
+<l>á fold konur,</l>
+<l>at fyr höggum</l>
+<l>hlífast létak.</l>
+<l>Hlær eigi at því,</l>
+<l>at ek hliða gerðak,</l>
+<l>snót svinnhuguð</l>
+<l>Sigtúnum í.</l>
+<l>Hvarf ek frá fögrum</l>
+<l>fljóða söngvi,</l>
+<l>ótrauðr gamans,</l>
+<l>út með Sóta.</l>
+<l>För skundaðak</l>
+<l>ok fórk í lið</l>
+<l>hinzta sinni</l>
+<l>frá hollvinum.</l>
+<l>Leiddi mik in hvíta</l>
+<l>hilmis dóttir</l>
+<l>á Agnafit</l>
+<l>útanverða.</l>
+<l>Saga mun sannast,</l>
+<l>er hún sagði mér,</l>
+<l>at ek aptr koma</l>
+<l>eigi mundak.</l>
+<l>Hvarf ek frá ungri</l>
+<l>Ingibjörgu,</l>
+<l>skjótt réðum þat,</l>
+<l>á skapadægri.</l>
+<l>Sá mun fljóði</l>
+<l>fastnæmr tregi,</l>
+<l>er vit síðan</l>
+<l>séumst aldrigi.</l>
+<l>Ber þú til sýnis,</l>
+<l>sá er minn vili,</l>
+<l>hjálm ok brynju</l>
+<l>i höll konungs.</l>
+<pb n="329"/>
+
+<l>Hugr mun gangast</l>
+<l>hilmis dóttur,</l>
+<l>er hún höggna sér</l>
+<l>hlíf fyr brjósti.</l>
+<l>Átta ek á foldu</l>
+<l>fimm ból saman,</l>
+<l>en því undak</l>
+<l>aldri ráði.</l>
+<l>Nú verð ek liggja</l>
+<l>lítt megandi,</l>
+<l>sverði undaðr,</l>
+<l>Sámseyju í.</l>
+<l>Drag þú mér af hendi</l>
+<l>hring inn rauða</l>
+<l>ok fær inni ungu</l>
+<l>Ingibjörgu.</l>
+<l>Sá mun henni</l>
+<l>hugfastr tregi,</l>
+<l>er vit síðan</l>
+<l>séumst aldrigi.</l>
+<l>Sé ek, hvar sitja</l>
+<l>Sigtúnum í</l>
+<l>fljóð þau, er löttu</l>
+<l>farar mik þaðan.</l>
+<l>Gleðr eigi Hjálmar</l>
+<l>í höll konungs</l>
+<l>öl né rekkar</l>
+<l>of aldr síðan.</l>
+</lg>
+Nú vil ek ok, at þú berir kveðju mína öllum bekkjunautum
+okkrum, ok mun ek nefna þá á nafn:
+<lg>
+<l>Drukku vér ok dæmdum</l>
+<l>dægr margt saman</l>
+<l>Álfr ok Atli,</l>
+<l>Eyvindr, Trani,</l>
+<l>Gizurr, Gláma,</l>
+<l>Guðvarðr, Starri,</l>
+<l>Steinkell, Stikill,</l>
+<l>Stórólfr, Vífill.</l>
+<l>Hrafn ok Helgi,</l>
+<l>Hlöðvér, Ígull</l>
+<l>Steinn ok Kári,</l>
+<l>Styrr ok Áli,</l>
+<l>Össurr, Agnarr,</l>
+<l>Ormr ok Trandill,</l>
+<l>Gylfri ok Gauti,</l>
+<l>Gjafarr ok Raknarr.</l>
+<l>Fjölmundr, Fjalarr,</l>
+<l>Frosti ok Beinir,</l>
+<l>Tindr ok Tyrfingr,</l>
+<l>tveir Haddingjar,</l>
+<l>Valbjörn, Vikarr,</l>
+<l>Vémundr, Flosi,</l>
+<l>Geirbrandr, Goti,</l>
+<l>Guttormr, Snerill.</l>
+<l>Styrr ok Ári,</l>
+<l>Steinn ok Kári,</l>
+<l>Vöttr, Véseti,</l>
+<l>Vémundr, Hnefi.</l>
+<l>Vér á einn bekk</l>
+<l>allir sátum</l>
+<l>teitir ok reifir;</l>
+<l>því emk trauðr flugar.</l>
+<l>Svarfandi, Sigvaldi,</l>
+<l>Sæbjörn ok Kolr,</l>
+<l>Þráinn ok Þjóstólfr,</l>
+<l>Þórólfr ok Svalr,</l>
+<l>Hrappi ok Haddingr,</l>
+<l>Húnfastr, Knúi,</l>
+<l>Óttarr, Egill</l>
+<l>með Ingvari.</l>
+</lg>
+<pb n="330"/>
+
+Nú vil ek þess biðja þik," sagði Hjálmarr við Odd, "at
+þú látir mik eigi verða lagðan í haug hjá svá illum
+vættum sem berserkirnir eru, fyrir því at ek þykkjumst
+miklu betr at mér en þeir." "Þetta vil ek veita
+þér," sagði Oddr, "sem þú beiðir, því at nú þykki mér
+sem fast dragi at þér." "Nú skaltu draga hringinn af
+hendi mér," sagði Hjálmarr, "ok færa Ingibjörgu, ok
+seg henni, at ek senda henni hann á deyjanda degi."
+Nú verðr Hjálmari ljóð á munni:
+<lg>
+<l>"Drekkr með jöfri</l>
+<l>jarla mengi</l>
+<l>öl glaðliga</l>
+<l>at Uppsölum.</l>
+<l>Mæðir marga</l>
+<l>mungát fira,</l>
+<l>en mik eggja spor</l>
+<l>í eyju þjá.</l>
+<l>Hrafn flýgr sunnan</l>
+<l>af hám meiði,</l>
+<l>ok er eptir þar</l>
+<l>örn í sinni.</l>
+<l>Þeim gef ek erni</l>
+<l>efstum bráðir.</l>
+<l>Sá mun á blóði</l>
+<l>bergja mínu."</l>
+</lg>
+Ok eptir þat dó Hjálmarr. Oddr dró þá saman berserkina
+í eina kös ok sveigði þar at utan viðu. Þat var
+skammt frá sjó. Þar leggr hann hjá þeim vápn þeira
+ok klæði, rænandi þá engum hlut. Síðan bar hann þá
+at utan torf ok eyss eptir þat sandi. Síðan tekr hann
+Hjálmar ok leggr á bak sér, gengr til sjóvar ofan ok
+lætr hann niðr á ströndinni, en hann gengr út á skipin,
+berr þá á land hvern mann, er fallit hafði, ok verpr
+þar annan haug eptir lið sitt, ok er þat sagt af þeim
+<pb n="331"/>
+
+mönnum, er þar hafa komit, at enn sjái þess merki í
+dag, er Oddr gerði þá.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="15"><p>
+
+Eptir þetta leggr Oddr Hjálmar á skip út ok flyzt
+undan landi. Þá verðr Oddr at taka til íþróttar sinnar,
+þeirar er honum var léð, dregr segl upp í logni ok
+siglir heim til Svíþjóðar með Hjálmar dauðan. Hann
+tók þar land, sem hann kaus á. Hann dregr upp skip
+sitt, en leggr Hjálmar á bak sér ok gengr heim til Uppsala
+með hann ok lætr hann niðr fyrir hallardyrum.
+Hann gengr inn í höllina ok hefir brynju Hjálmars í
+hendi sér ok svá hjálm hans ok leggr niðr á hallargólfit
+fyrir konungi ok sagði honum tíðendi þau, sem
+gerzt höfðu.
+Síðan gekk hann þangat, er Ingibjörg sat á stóli. Hún
+saumaði Hjálmari skyrtu. "Hér er hringr," sagði Oddr,
+"at Hjálmarr sendi þér á deyjanda degi ok kveðju sína
+með." Hún tekr við hringinum ok lítr á, en svarar engu.
+Hún hnígr þá aptr í stólsbrúðunum ok deyr þegar. Þá
+skellir Oddr upp ok hlær ok mælti þetta við: "Eigi er
+þat fleira um hríð, at vel hefir at farit, þá skal því
+fagna. Nú skulu þau njótast dauð, er þau máttu eigi lífs."
+Oddr tekr hana upp ok berr hana í faðm sér ok leggr
+í faðm Hjálmari fyrir hallardyrum ok gerir menn inn
+í höllina eptir konungi ok bað hann sjá, hversu hann
+hafði um búit. Eptir þetta fagnar konungr honum
+vel ok setr Odd í hásæti hjá sér. En þegar hann hafði
+hvíld tekit, þá sagði konungr, at hann vill láta at erfi
+fá eptir þau Hjálmar ok Ingibjörgu ok verpa haug eptir
+þau. Konungr lætr svá alla hluti gera sem Oddr sagði
+<pb n="332"/>
+
+fyrir. Þá er fram borinn hjálmr ok brynja, er Hjálmarr
+hafði átt, ok þykkir mönnum mikils vert um afrek
+hans ok hvé mikit honum hafði til fjörs verit, ok nú
+eru þau lagin bæði í einn haug. Gengu allir menn at
+sjá þetta þrekvirki, ok lét Oddr þetta gera með mikilli
+virðingu. Nú sitr Oddr í kyrrðum þann vetr með
+Hlöðvé konungi, en um várit fær konungr honum lið
+ok tíu skip, ok nú ferr Oddr um sumarit at leita Ögmundar
+Eyþjófsbana á nýja leik ok fann hann hvergi.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="16"><p>
+
+Svá bar til um haustit, at Oddr kom til Gautlands.
+Þar spyrr hann til víkings þess, er Sæmundr heitir.
+Honum var sagt frá, at hann var torsóttari en aðrir
+menn. Hann hafði hálfan sétta tug skipa. Þar kómu
+þeir Oddr með tíu skip, ok þegar er þeir finnast, þá
+lýstr þar í bardaga svá langan ok harðan, at eigi skorti.
+En svá lauk um kveldit, at hroðin eru öll skip fyrir
+Oddi ok hann stóð upp einn manna. Þá stökkr Oddr
+fyrir borð, er náliga er myrkt orðit. Þat sér einn maðr,
+at hann leggst frá skipunum. Hann þreif upp gaflak
+eitt, ok skutu þeir eptir honum. Þat kemr í kálfa Odds,
+svá at í beini stóð. Honum kemr í hug, hvar hann var
+staddr, at hann mundi á flótta kominn vera. Hann
+lagðist þá aptr at skipunum, en víkingarnir sáu Odd ok
+kippa honum upp í skipit. Sæmundr bað þá láta koma
+fjötr á fætr honum, bogastreng á hendr. Svá var gert
+sem hann mælti fyrir.
+Nú sitr Oddr í fjötrunum, ok eru fengnir til tólf
+menn at vaka yfir honum, en Sæmundr lætr sik flytja
+til lands ok lætr tjalda yfir sér. Þá mælti Oddr við þá,
+<pb n="333"/>
+
+er til váru fengnir at vaka yfir honum: "Hvárt vilið þér,
+at ek skemmta, eða vilið þér skemmta, er svá er daufligt?"
+"Oss þætti," sagði sá, er fyrir þeim er, "sem þér
+sé lítt til gamans hagat; þú ert í fjötrum, en ætlaðr
+til dráps á morgun." "Ekki kvíði ek því," sagði Oddr.
+"Deyja skal hverr um sinn." "Þat kjósum vér þá, at
+þú skemmtir," segja þeir. Hann kveðr þeim kvæði ok
+léttir eigi fyrr en þeir eru sofnaðir allir. Þá fór Oddr
+þangat til, er öx lá á þiljunum. Hann getr snúit henni
+svá, at eggin horfir upp. Þá snýr hann þar við herðunum,
+en gnýr við höndunum, til þess er hann varð
+lauss. Þá hefir hann hendr at fjötrinum ok færir hann
+af sér. Ok sem hann er lauss, þykkir honum skör rýmra.
+Nú gengr hann þangat, er þeir sofa, ok stingr á þeim
+öxarskaptinu ok bað þá vakna, -- "því at þér sofið sem
+snápar, en bandinginn er lauss orðinn." Síðan drap
+hann þá alla, tekr síðan örvamæli sitt ok stígr á bát
+ok flyzt til lands. Síðan gengr hann til skógar ok dregr
+gaflakit ór fæti sér ok bindr um sár sitt.
+Nú er at segja frá Sæmundi, at hann vaknar í tjaldinu
+ok gerir menn út til skipanna, þar er varðmennirnir
+váru, ok var Oddr í burtu, en drepnir allir varðmennirnir,
+ok þykkjast þeir sakna vinar í stað ok segja
+Sæmundi þessi tíðendi, ok ferr hann nú hvervetna um
+Gautland at leita Odds, en Oddr ferr í öðrum stað at
+leita Sæmundar.
+Þat verðr einn morgin snemma, at Oddr kemr fram
+ór mörkinni. Hann sér tjöld Sæmundar á landi, en
+skipin flutu á höfninni. Hann snýr aptr í mörkina ok
+höggr sér kylfu eina, gengr síðan ofan at tjaldinu ok
+fellir þat ofan á Sæmund ok hans menn. Drepr hann
+þar Sæmund ok þá fimmtán saman. Síðan gerir hann
+þeim tvá kosti, er á skipunum váru, at þeir skulu ganga
+<pb n="334"/>
+
+á hönd honum ok gerist hann höfðingi þeira, ok þann
+kjósa þeir. Siglir Oddr nú heim til Svíþjóðar ok hefir
+þó lítit lið ok sitr þar þann vetr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="17"><p>
+
+Þá gerir Oddr sendimenn norðr til Hrafnistu ok biðr
+þá liðs frændr sína, at þeir kæmi norðan um várit
+Guðmundr ok Sigurðr. Þeir verða vel við ok fara til
+fundar við Odd. Ok er þeir finnast, verðr þar fagnafundr.
+Nú búa þeir skip sín ór landi ok halda suðr í lönd
+ok þar sem grunnsævi var mikit, fyrir því at þangat
+hafði Oddr áðr sízt haldit. Herja þeir nú suðr um
+Valland, Frakkland ok Helsingjaland. Þar reka þeir
+mikinn hernað.
+Er nú ekki sagt af ferð þeira, fyrr en þeir brjóta
+skipin við eitthvert land. Þar ganga þeir á land með
+lið sitt. Sem þeir kómu á landit, þá sáu þeir hús fyrir
+sér. Þat var nokkut með öðrum hætti gert en þau, er
+þeir höfðu áðr sét. Þangat gengu þeir til hússins. Þat
+var gert af steini ok opit. Oddr mælti: "Hvat ætlar
+þú, Sigurðr, hvat húsi þetta muni vera, er vér erum
+at komnir?" "Eigi má ek þat vita," sagði hann. "En
+hvat ætlar þú, Oddr frændi?" "Eigi veit ek," sagði
+hann "en þess get ek, at menn byggi húsit ok munu
+hingat vitja, ok skulu vér ekki inn ganga at svá búnu."
+Þeir setjast niðr í einhverjum stað úti hjá húsinu, en
+er stund leið, sjá þeir, at menn drífa til hússins ok þat
+með, at þar fylgja læti, þau er þeir hafa aldri þvílík
+heyrt. "Þat ætla ek," sagði Oddr, "at hér sé allkynligir
+menn á þessu landi. Skal hér nú bíða, til þess er
+<pb n="335"/>
+
+menn ganga frá húsinu." Þat fór svá sem Oddr gat,
+at þetta líðr af, ok drífa menn frá húsinu. Einn af liði
+þeira landsmanna gengr þangat, sem þeir Oddr sátu,
+ok mælti: "Hverir eru þessir?" Oddr segir honum it
+sanna, -- "eða hvat land er þat, er vér erum á komnir?"
+Sá sagði, at þat heitir Aqvítanía. "En hvat táknar hús
+þetta, er þér hafið at staðit um stund?" "Þetta köllum
+vér ýmist musteri eða kirkju." "En hvat látum er þat,
+er þér hafið haft?" "Þat köllum vér tíðagerð," sagði
+landsmaðr. "En hvern veg er farit um ráð yðvart, ok
+hvárt eruð þér heiðnir til lykta?" Oddr svarar: "Vér
+vitum alls ekki til annarrar trúar en vér trúum á mátt
+várn ok megin, en ekki trúum vér á Óðin, eða hverja
+trú hafi þér?" Landsmaðr sagði: "Vér trúum á þann,
+er skapat hefir himin ok jörð, sjóinn, sól ok tungl."
+Oddr mælti: "Sá mun mikill, er þetta hefir allt smíðat,
+þat hyggjumst ek skilja."
+Nú var þeim Oddi fylgt til herbergis. Þar eru þeir
+Oddr vikur nokkurar ok eiga málstefnur við landsmenn.
+Þeir leita eptir við þá Odd, ef þeir vildu taka
+við trú, ok þar kom, at þeir Guðmundr ok Sigurðr
+tóku trú. Var þá leitat eptir við Odd, ef hann vildi við
+trú taka. Hann kveðst mundu gera þeim á því kost:
+"Ek mun taka sið yðvarn, en hátta mér þó at sömu
+sem áðr. Ek mun hvárki blóta Þór né Óðin né önnur
+skurðgoð, en ek á ekki skap til at vera á þessu landi.
+Því mun ek flakka land af landi ok vera stundum með
+heiðnum mönnum, en stundum með kristnum." Er þat
+þó af ráðit at Oddr er skírðr. Eru þeir þar um hríð.
+Eitt sinn leitar Oddr eptir við þá Guðmund ok Sigurð,
+ef þeir vildi fara á burt. Þeir segja: "Hér höfu
+vér svá verit, at oss hefir bezt þótt." "Þá er hér tveimr
+tveggja hugr," sagði Oddr, "at ek hefi hér svá verit,
+<pb n="336"/>
+
+at mér hefir leiðast orðit." Sem hann fær ekki leyfi
+af frændum sínum, leynist hann í burt einn saman, en
+þeir eru eptir með öllu liðinu.
+Ok sem hann kemr burt frá borginni, sér hann fara
+mikinn flokk manna á móti sér. Þar ríðr einn maðr, en
+aðrir ganga. Þetta lið var skrautliga búit, ok var engi
+maðr vápnaðr. Oddr stóð hjá götunni, en liðit ferr hjá
+honum, ok mæla hvárigir við aðra. Þá sér Oddr, hvar
+hlaupa fjórir menn. Þeir höfðu allir skálmir í höndum.
+Þeir hlaupa at þeim manni, er reið, ok höggva
+af honum höfuðit. Síðan hlaupa þeir aptr hjá Oddi
+ina sömu leið, ok hefir einn í hendi höfuðit af þeim
+manni, er drepinn var. Þat þykkist Oddr vita, at þetta
+muni harðla illt verk, er þessir menn hafa unnit. Nú
+hleypr Oddr eptir þeim ok eltir þá, en þeir hlaupa
+undan til skógar ok þar í jörð niðr í jarðhús nokkut.
+Oddr hleypr eptir þeim í jarðhúsit. Þar veita þeir viðnám,
+en Oddr sækir at þeim. Eigi léttir hann fyrr en
+hann drepr þá alla. Síðan tekr hann höfuð af þeim
+ok knýtir saman hárin, gengr út síðan ok hefir með
+sér höfuðin ok svá þat höfuð, er þeir höfðu þangat
+haft. Oddr ferr nú aptir til borgarinnar. Þá váru hinir
+komnir til kirkju með lík þess, er drepinn var. Oddr
+kastar þá inn í musterit höfðunum ok mælti: "Þar er
+nú höfuðit af þeim, er drepinn var fyrir yðr, ok hefi
+ek hefnt hans." Þeim þótti mikils um þetta vert, er
+Oddr hafði unnit. Oddr spurði, hvat manna þat hafði
+verit, er hann hafði hefnt. Þeir sögðu, at þessi maðr
+var biskup þeira. Oddr mælti: "Þá mun þetta betr
+unnit en eigi." Svá hafa þeir nú á Oddi mikla vörðu,
+at þeir vilja at engum kosti, at hann fari á burt. En
+svá sem honum hafði áðr leitt orðit at vera þar, þá
+<pb n="337"/>
+
+jók nú stóru við, er hann fann, at þeir heldu vörðu á
+honum, ok sitr nú um það eitt at komast í burtu.
+Þar kom enn, at hann leynist á burtu á einni nótt.
+Hann ferr nú land af landi ok kemr um síðir út til
+Jórdanar. Þar fór hann af öllum klæðum ok skyrtu
+sinni. Síðan ferr hann í ána ok þvær sér sem honum
+líkar. Þá ferr hann af ánni ok í skyrtu sína, ok helt
+hún öllum kostum sínum sem áðr. Nú ferr hann þaðan
+á burt ok hefir örvamæli sinn á baki sér. Þá ferr hann
+enn land af landi. Þar kemr nú ráði hans, at hann
+verðr svá staddr á mörkum úti, at hann hefir ekki annat
+til atvinnu en hann skýtr dýr til matar sér eða fugla,
+ok ferr svá fram um hríð.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="18"><p>
+
+Svá er sagt, at Oddr gekk einn dag fram á björg
+nokkur ok gljúfr stór, þar sem móða mikil fell í straumum
+með miklum hávaða. Hann hugði at, ef nokkur
+mætti yfir komast, ok sá hann þat hvergi. Hann sezt
+nú niðr, ok sem hann hafði eigi lengi þar verit, er
+hann gripinn upp váveifliga. Var þar kominn gammr
+atfljúgandi ok hremmdi Odd með klóm sínum svá
+hart, at hann gat engri vörn í móti komit. Þetta kvikvendi
+fló með Odd yfir mörg lönd ok höf. En um síðir
+flýgr gammrinn at flugabjörgum ok settist í eina tó,
+er var í björgunum. Váru þar fyrir ungar þessa kvikvendis.
+Hann lét nú Odd lausan, ok var hann heill ok
+ósakaðr, því at honum hlífði skyrta hans, bæði við klóm
+þessa gamms ok öllu því, sem áðr hefir sagt verit.
+Nú er Oddr hjá ungum gammsins í bælinu. Var þar
+hátt bjarg fyrir ofan, en flugsær var undir niðr. Mátti
+<pb n="338"/>
+
+Oddr með engum hætti á brott komast nema láta fallast
+ofan á sjáinn ok hætta svá lífi sínu. Landtaka var
+ok hvergi nær, því at hann sá fyrir hvárnigan enda á
+björgunum. Ungarnir váru lítt stálpaðir. Gammrinn
+var sjaldan heima í bælinu, ok leitaði hann jafnan matfanga.
+Oddr múlbindr nú ungana, en felr sik í bjargskorunni
+hjá bælinu. Gammrinn berr at þess fleiri
+fiska ok fugla ok mannahold ok af alls konar dýrum
+ok fénaði. Þar kemr um síðir, at hann berr þangat
+soðit kjöt. En þegar gammrinn ferr í burtu, tekr Oddr
+til matar, en felr sik þess á milli.
+Einn dag sér Oddr, at jötunn mikill rær á steinnökkva
+þangat at bælinu. Hann er hátalaðr ok mælti:
+"Illr fugl er þat, sem hér á bæli, því at hann venst á,
+dag eptir dag, at stela brott kjöti mínu nýsoðnu. Skal
+ek nú leita við at hefna honum nokkuru. Ætlaða ek þá
+annat, er ek tók yxnin frá konungi, en fugl þessi skyldi
+hafa þau." Oddr stendr þá upp ok drepr ungana, en
+kallar á jötuninn: "Hér er allt þat, er þú leitar at, ok
+hefi ek varðveitt þat." Jötunninn gengr upp í bælit ok
+tekr kjöt sitt ok berr á nökkvann. Jötunninn mælti:
+"Hvar er kögurbarn, er ek sá hér? Gangi þat fram óhrætt
+ok fari með mér." Oddr sýnir sik nú, ok tók jötunninn
+hann ok lét út í nökkvann. Hann mælti þá: "Hversu
+skulu vit drepa þessa meinvætti?" Oddr svarar: "Tak
+þú eld ok legg í bælit, ok er gammrinn kemr aptr, þætti
+mér vera mega, at hann flygi svá nær, at eldrinn hlypi
+í fiðrit, ok munu vit þá fá sigrat hann." Þetta fór eptir
+því, sem Oddr gat, ok unnu þeir gamminn. Oddr hjó
+af honum nef ok klær ok hafði með sér ok stígr út á
+nökkvann, ok rær jötunninn á burtu.
+Oddr spyrr hann at nafni, en hann kveðst Hildir
+heita ok vera risi einn af Risalandi ok eiga konu þá,
+<pb n="339"/>
+
+er Hildiríðr heitir, ok með henni eina dóttur, er Hildigunnr
+heitir. "Svá á ek son, er Goðmundr heitir ok
+var fæddr í gær. Vér erum þrír bræðr. Heitir einn
+Úlfr, en annarr Ylfingr. Höfu vér sett þing at sumri,
+ok skal sá vera konungr af oss yfir Risalandi, er mest
+þrekvirki hefir unnit ok ólmastan hund á, ok skal þar
+etja á þinginu." Oddr mælti: "Hvat hyggr þú, hverr
+yðar þat muni hljóta at verða konungr?" Hildir
+svarar: "Víst þykki mér, at þeir muni þat hljóta, því
+at ek hefi alla ævi síztr verit af oss, ok svá mun enn
+vera." Oddr mælti: "Hvárt mundir þú kjósa, hvat þinn
+hagr yrði um þetta mál?" Hildir svarar: "Þat köra ek
+at verða konungr, en þat er þó harðla ólíkligt, því at
+Úlfr á þann varg, at hvervetna er grimmari, ok enginn
+hundr þolir við hann at bítast. Úlfr hefir drepit
+þat dýr, er tígris heitir, ok hefir þar til vitnisburðar
+höfuð dýrsins. En Ylfingr, bróðir minn, er þó torveldari,
+því at hann hefir þann hvítabjörn, at engu eirir.
+Ylfingr hefir ok drepit dýr þat, er úníkorníus heitir,
+en ek hefi eigi þvílík verk at sýna hér í mót ok engan
+hund þann, at við þeim megi." "Vel þykki mér þú
+segja," sagði Oddr, "en fást mundi hér mega nokkur
+ráð til, þau at dygði, ef maðr væri velviljaðr." Hildir
+mælti: "Ekki barn jafnlítit hefi ek fundit hortigra en
+þik né ráðugra, því at mér þykkir svá mega at kveða,
+at þú sért ekki nema vitit eitt, ok þykki mér í þér in
+mesta gersimi, hversu kofrmálugr þú ert, ok skal ek
+færa þik Hildigunni, dóttur minni, ok skal hún hafa
+þik fyrir leiku ok fóstra þik ok fæða þik upp jafnfram
+Goðmundi, syni mínum."
+Eptir þat settist Hildir til ára ok reri heim til Risalands,
+ok þótti Oddi fádæmi, hversu nökkvinn gekk.
+En er hann kom heim, sýndi hann barn þat, er hann
+<pb n="340"/>
+
+hafði fundit, ok biðr dóttur sína gæta sem síns barns
+ok eigi verr. En er Hildigunnr tók við Oddi ok er hann
+stóð hjá henni, tók hann henni tæpt í mitt lær, en
+þó hafði Hildir allan vöxt yfir hana, eptir því sem
+karlmanni heyrði. En er Hildigunnr tók Odd upp ok
+setti hann í kné sér, þá sneri hún honum fyrir sér ok
+mælti:
+<lg>
+<l>"Tuttr litli</l>
+<l>ok toppr fyr nefi,</l>
+<l>meiri var Goðmundr</l>
+<l>í gær borinn."</l>
+</lg>
+Hún leggr hann þá í vöggu hjá risabarninu ok kvað
+yfir þeim barngælur ok gerði vel við hann. En er henni
+þótti hann óspakr í vöggunni, lagði hún hann í sæng
+hjá sér ok vafðist utan at honum, ok kom þá svá, at
+Oddr lék allt þat, er lysti; gerðist þá harðla vel með
+þeim. Sagði Oddr henni þá, at hann væri ekki barn,
+þótt hann sé minni en þeir menn, er þar eru fæddir.
+En því fólki er svá háttat, at þat er miklu stærra ok
+sterkara en nokkur kind önnur; vænni eru þeir ok
+en flestir menn aðrir ok ekki vitrari.
+Þar er Oddr um vetrinn, en um várit spurði hann
+Hildi, hversu góðr hann mundi þeim manni, er honum
+vísaði til hunds þess, er af bæri hundum bræðra
+hans. Hildir svarar: "Allgóðr skylda ek þeim, eða
+kanntu nokkut til þess at vísa?" Oddr mælti: "Vísa má ek
+þér þar til, en þú skalt sjálfr taka hann." Hildir svarar:
+"Ek skal ná honum, en þú kom honum í augsýn mér."
+Oddr mælti: "Þat dýr liggr í Vargeyjum, er kallaðr
+er híðbjörn. Sú er náttúra á honum, at hann liggr allan
+vetr í dái, en at sumri stendr hann upp ok er þá svá
+gráðugr ok grimmr, at hann eirir hvárki fé né mönnum
+ok engu því, sem fyrir honum verðr. Nú þætti mér
+<pb n="341"/>
+
+ván, at þetta dýr mundi sigra hunda bræðra þinna."
+Hildir mælti: "Fylgdu mér til hunds þessa, ok ef hann
+reynist svá sem þú segir, þá skal þér þat góðu launa,
+þá er ek kem í ríki mitt." Síðan búast þeir til ferðar.
+Þá mælti Hildigunnr við Odd: "Aptr muntu ætla ór
+för þessari." Hann kveðst þat eigi víst vita. "Um þat
+væri mér þó meira," sagði hún, "því at ek ann þér
+mikit, þó at þú sért lítill. Þarf ok eigi við þat at dyljast,
+at ek em með barni, þó at þat mætti ólíkligra þykkja,
+at þú værir til þeira hluta færr, svá lítill ok auvirðiligr
+sem þú ert at sjá. Er þar þó engi í tigi til nema
+þú at vera faðir at barni því, er ek geng með. En þó
+at ek þættumst ekki mega af þér sjá sakir ástríkis, þá
+vil ek þó ekki meina þér at fara, hvert þú vilt, þar ek
+sé, at þú átt ekki eðli til at vera hér álengdar hjá
+oss, en efast þú ekki í því, at þú kæmist heðan aldri,
+nema ek vildi. Nú vil ek heldr bera harm ok áhyggju
+ok morna hér ok þorrna þannig sem auðnar, heldr
+en þú sért eigi í þeim stöðum, sem þér þykkir gott.
+En hvernig viltu, at ek breyta við barn okkart?" "Þú
+skalt," segir Oddr, "senda mér, ef þat er sveinn, þegar
+hann er tíu vetra gamall, því at ek vænti, at mannskapr
+muni í verða. En ef þat er stúlka, þá fæðist hún hér
+upp, ok sjá þú ráð fyrir henni, því at ek mun þar engan
+gaum at gefa." "Þú skalt enn öllu þessu ráða sem
+öllu öðru," sagði hún, "okkar í milli, enda far þú nú
+heill ok vel." Grætr hún þá sáran, en Oddr ferr á skip.
+Hildir sezt til ára. Oddi þykkir þat seinligt at sækja
+með árum, því at leiðin var löng. Tekr hann þá til
+íþróttar þeirar, sem þeim Hrafnistumönnum var gefin;
+hann dregr segl upp, ok kom þegar byrr á, ok sigla
+þá fram með landinu ok eigi lengi, áðr Hildir hleypr
+upp fálmandi á nökkvanum ok at Oddi, þrífr til hans
+<pb n="342"/>
+
+ok rekr hann undir sik ok mælti: "Drepa mun ek þik,
+ef þú lætr eigi af gerningum þessum, sem þú hefir í
+frammi, því at öll lönd ok fjöll hlaupa sem þau sé ær,
+en skipit mun sökkva undir okkr." Oddr mælti: "Eigi
+skaltu þetta hugsa, því at þik sundlar, er þú ert eki
+vanr at sigla; nú láttu mik upp standa, ok muntu
+reyna þá, at ek segi satt." Hann gerði sem Oddr beiddi.
+Oddr fellir nú seglit; váru þá þegar kyrr lönd ok fjöll.
+Oddr bað hann eigi undrast, þó at honum sýndist svá
+optar, ef þeir sigldi, ok kvaðst þegar mega stöðva, er
+hann vildi. Hildir lét sér nú segjast, hvat Oddr mælti,
+ok skildi nú, at þessi ferð var skjótari en at róa; dregr
+Oddr þá segl upp ok siglir, ok er Hildir nú kyrr.
+Er nú ekki af sagt þeira ferð, fyrr en þeir koma í
+Vargeyjar ok ganga þar á land. Þar var urð stór.
+Bað Oddr Hildi seilast inn í urðina ok vita, ef hann
+fengi nokkut. Hann gerði svá, at hann seilist í urðina
+upp allt til axlar, ok mælti: "Æ er hér nokkut afkárt
+inni, ok mun ek taka á mik róðrarhanzka minn,"
+ok svá gerði hann ok dró síðan út björninn at hlustunum.
+Oddr mælti: "Nú skaltu fara með hund þenna
+svá sem ek mælti; haf hann heim með þér ok lát aldri
+lausan fyrr en á þinginu, þá er þér etið hundunum.
+Þú skalt ekki gefa honum fyrir sumar ok lát hann
+vera einn í húsi ok seg engum til, at þú hafir fengit
+hann. En sumardaginn fyrsta skaltu etja honum við
+hundana bræðra þinna, en ef hann dugir ekki, þá kom
+þú at öðru sumri í þenna stað; mun ek þá gefa til
+annat ráð, ef eigi dugir þetta." Víða hafði Hildir fengit
+benjar á höndunum. Hann mælti: "Þat skil ek til við
+þik, Oddr, at þú komir í þenna stað annat vár í þetta
+mund." Oddr játaði því.
+Hildir ferr nú heim með dýrit ok háttar svá öllu
+<pb n="343"/>
+
+sem Oddr mælti fyrir, en Oddr snýr annan veg, ok
+er ekki sagt af hans athöfnum né afreksverkum, fyrr
+en annat vár kemr hann í þann stað, sem þeir sammæltust
+á, ok kemr Oddr fyrri ok ferr í skóg þaðan
+skammt í frá ok vill eigi láta Hildi sjá sik, því at
+hann vill nú ekki hætta til fundar við hann; þykkist
+vita, at hann mun hefna vilja, ef eigi hefir allt eptir
+því farit, sem hann hafði sagt honum. Ok eigi miklu
+síðar heyrir hann áraglamm ok sér, at þar ferr Hildir
+ok gengr á land upp ok hefir í hendi ketil af silfri
+fullan, en í annarri kistur tvær mjök þungar. Ok sem
+hann kom í þann stað, sem þeir höfðu á kveðit, þá
+beið hann þar nokkura stund, ok kom Oddr eigi. Þá
+mælti risi: "Illa er nú, Oddr fóstri, at þú kemr eigi,
+en fyrir því at ek á eigi tóm til at dveljast hér lengi,
+fyrir því at ríki mitt er geymslulaust, meðan ek em frá,
+þá vil ek hér láta kistur þessar, þær eru fullar af gulli,
+ok ketil fullan af silfri; skaltu eiga þetta fé, þó at þú
+komir seinna til. Mun ek leggja yfir hellustein, at eigi
+feyki vindr, en ef þú sér eigi þat, legg ek ofan þessa
+gripi, þat er sverð, hjálmr ok skjöldr. En ef þú ert nokkur
+nær, svá at þú megir heyra orð mín, þá vil ek segja
+þér, at ek varð konungr yfir bræðrum mínum ok ek
+átta hund miklu ólmastan, því at hann beit til dauðs
+hvárntveggja hund bræðra minna ok marga menn þeira,
+er duga vildu hundunum. Ek bar fram nef ok klær
+af gamminum, ok þótti þat miklu meira þrekvirki en
+þat, er bræðr mínir höfðu unnit; em ek nú einn konungr
+yfir landi því, er vit bræðr áttum. Nú mun ek í
+burt fara ok heim til ríkis míns. Komir þú á minn fund,
+þá skal ek ekki forverkum við þik gera, þat sem vel er.
+Vil ek ok þat segja þér, at Hildigunnr, dóttir mín, hefir
+fætt svein þann, er Vignir heitir, er hún segir, at þú
+<pb n="344"/>
+
+eigir með henni; skal ek hann upp fæða með allri
+virkt. Íþróttir skal ek honum kenna ok allt við hann
+gera sem ek eigi sjálfr ok upp fæða til þess, at hann
+er tíu vetra, ok þá þér senda, eptir því sem þú hefir
+við hana sjálfa ráð fyrir gert." Síðan rær hann á burt
+á nökkva sínum. Ok þegar hann var á burtu, stendr
+Oddr upp ok gengr þar til, sem féit var undir hellunni,
+ok var þat svá mikit bjarg, at margir menn máttu
+hvergi hræra. Náir Oddr því einu fé, sem ofan liggr
+á hellunni; var þat þó mikit fé. At þessu fengnu, sem
+nú var frá sagt, gengr Oddr á merkr ok skóga.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="19"><p>
+
+Þat var einn dag, at Oddr gekk fram ór mörkum.
+Hann var þá móðr mjök ok settist niðr undir eina eik.
+Hann sá þá, hvar maðr gekk. Hann var í bláflekkóttri
+heklu, uppháva skó ok reyrsprota í hendi; hann hafði
+gullfjallaða glófa, meðalmaðr á vöxt ok kurteisligr at
+sjá; hann lét síga höttinn fyrir andlitit. Hann hafði
+stóra kampa ok sítt skegg, rautt hvárttveggja. Hann snýr
+fram at Oddi, þar er hann sitr, ok heilsar honum með
+nafni. Oddr tók honum vel ok spyrr, hverr hann væri.
+Hann kveðst Grani heita ok kallaðr Rauðgrani. "Þekki
+ek þik gerla, Örvar-Oddr," sagði hann, "þykkir mér
+gott til þín at spyrja, þar sem þú ert inn mesti garpr
+ok afreksmaðr, en þó hefir þú nú mannfátt, ok ferr
+þú nú heldr óríkmannliga, ok er þat þó illa um slíkan
+mann, at þér skal svá harka." "Lengi hefir nú þó svá
+gengit," sagði Oddr, "at ek hefi ekki átt fyrir mönnum
+at ráða." "Viltu nú binda fóstbræðralag við mik?"
+sagði Rauðgrani. "Vant er því at neita, sem vel er
+<pb n="345"/>
+
+boðit," sagði Oddr "ok mun ek þann upp taka." "Eigi
+muntu enn auðnulauss til þrautar," sagði Rauðgrani.
+"Nú vil ek segja þér, at hér liggja kappar tveir við land
+ok hafa tólf skip. Þeir eru fóstbræðr mínir; annarr þeira
+er kynjaðr ór Danmörk ok heitir Garðarr, en annarr
+Sírnir ok kynjaðr ór Gautlandi. Enga veit ek nú meiri
+garpa fyrir heðan hafit ok betr at sér um flesta hluti,
+ok þar skal ek koma þér í fóstbræðralag við þá, ok
+þó skaltu mestu ráða af oss öllum, en mín ráð munu
+oss þó hallkvæmust vera. En hvert mundir þú halda
+vilja, ef þetta gengi svá til sem ek hefi nú talat?" "Þat
+er mér jafnan í hug, at ek vilda finna Ögmund Eyþjófsbana,
+er Flóki er kallaðr öðru nafni." "Hættu, hættu,"
+sagði Rauðgrani, "ok mæl þat eigi, því at þar er ekki
+við mann um at eiga, sem Ögmundr er, ok ef þú finnr
+Ögmund í annan tíma, þá muntu fá af honum miklu
+verra en fyrr, ok settu aldri hug þinn til þess at finna
+hann lengr." Oddr svarar: "Hitt vilda ek, at ek gæta
+hefnt Þórðar, fóstbróður míns, ok aldri skal ek upp
+gefa, fyrr en ek get hann fundit, ef mér verðr þess
+auðit." "Viltu, at ek segi þér," kvað Rauðgrani, "hversu
+Ögmundr er til kominn, ok get ek, at þér þykki þá engi
+ván, at hann verði unninn af mennskum mönnum, ef
+þú veizt allan hans uppruna.
+En þat er þar fyrst af at segja, at Hárekr hét konungr,
+er réð fyrir Bjarmalandi, þá er þú fort þangat
+herferð, eptir því sem þú veizt, hvern skaða er þú gerðir
+þá Björmum. En er þú vart í burtu farinn, þóttust
+Bjarmar hafa raunillt af fengit ok vildu gjarna hefna,
+ef þeir gæti. Var þat þá tiltekja þeira, at þeir fengu
+eina gýgi undan forsi stórum, galdra fulla ok gerninga,
+ok lögðu í sæng hjá Háreki konungi, ok við henni
+átti hann son; sá var vatni ausinn ok nafn gefit ok kallaðr
+<pb n="346"/>
+
+Ögmundr. Flestum mennskum mönnum var hann
+ólíkr þegar á unga aldri, sem ván var sakir móðernis
+hans, en faðir hans var þó inn mesti blótmaðr. Þegar
+er Ögmundr var þrévetr, var hann sendr á Finnmörk,
+ok nam hann þar alls kyns galdra ok gerninga, ok þá
+er hann var í því fullnuma, fór hann heim til Bjarmalands.
+Hann var þá sjau vetra ok svá stórr sem fullrosknir
+menn, rammr at afli ok illr viðskiptis. Ekki
+hafði hann batnat yfirlits hjá Finnunum, því at hann
+var þá bæði svartr ok blár, en hárit sítt ok svart, ok
+hekk flóki ofan fyrir augun, þat er topprinn skyldi
+heita. Var hann þá kallaðr Ögmundr flóki. Ætluðu
+Bjarmar þá at senda hann til móts við þik ok at drepa
+þik; þó þóttust þeir vita, at mikils mundi við þurfa,
+áðr en þér yrði í hel komit. Var þat þá enn tiltæki
+þeira, at þeir létu seiða at Ögmundi, svá at hann skyldi
+engi járn bíta atkvæðalaus. Því næst blótuðu þeir hann
+ok trylldu hann svá, at hann var engum mennskum
+manni líkr.
+Eyþjófr hét víkingr einn. Hann var inn mesti berserkr
+ok höfuðhetja, svá at eigi þótti nokkurr garpr
+meiri en hann, ok hafði hann aldri færi skip í hernaði
+en átján. Hann sat hvergi at landi ok lá úti á sætrjám
+vetr ok varmt sumar. Allt var við hann hrætt, hvar
+sem hann fór. Hann vann Bjarmaland ok skattgildi.
+Þá hafði Ögmundr fengit sér átta fylgdarmenn. Þeir
+váru allir í flókastökkum, ok beit á engan járn. Þeir
+hétu svá: Hákr ok Haki, Tindr ok Tóki, Finnr ok
+Fjösni, Tjösni ok Torfi. Síðan leggr Ögmundr félag
+sitt við Eyþjóf, ok heldu þeir báðir samt í hernað. Þá
+var Ögmundr tíu vetra. Hann var með Eyþjófi fimm
+vetr. Lagði Eyþjófr við hann ástfóstr svá mikit, at
+hann mátti ekki í móti honum láta, ok fyrir hans skuld
+<pb n="347"/>
+
+gaf hann upp Háreki konungi alla skatta af Bjarmalandi.
+Eigi launaði Ögmundr Eyþjófi betr en svá, at
+hann drap hann sofanda í sæng sinni ok myrði hann
+síðan. Var honum þetta því hægt at gera, at Eyþjófr
+hafði lagt hann í sömu sæng hjá sér ok engan hlut í
+móti honum látit, ok ætlaði hann gera sér hann at
+óskasyni. Síðan skildi hann við menn Eyþjófs, ok fóru
+þeir þangat, sem þeim líkaði, en Ögmundr hafði tvau
+skip alskipuð. Var hann þaðan af kallaðr Ögmundr
+Eyþjófsbani. Ok þat sama sumar börðuzt þér í Trönuvágum,
+ok var Ögmundr þá fimmtán vetra. Undi hann
+illa við, at hann hafði engri hefnd fram komit við þik, ok
+því myrði hann Þórð stafnglám, fóstbróður þinn. Síðan
+fór hann at hitta gýgina, móður sína, er Grímhildr var
+kölluð, meðan hún var hjá mönnum. En þá var hún
+orðin at finngálkni. Er hún maðr at sjá upp til höfuðsins,
+en dýr niðr ok hefir furðuliga stórar klær ok geysiligan
+hala, svá at þar með drepr hún bæði menn ok
+fénað, dýr ok dreka. Ögmundr herti þá á hana, at hún
+skyldi fyrirkoma þér, ok nú hefir hún lagzt á skóga
+með dýrum ok er komin norðan á England ok leitar
+at þér. Nú hefi ek sagt þér it ljósasta af Ögmundi.`
+Þá mælti Oddr: "Þat þykki mér ván, at flestum
+mönnum veiti þungt við hann, ef hann er slíkr sem þú
+segir, en þó fýsir mik at finna hann." "Verri er hann
+þó," sagði Rauðgrani, "en ek hefi sagt hann, því at
+hann má heldr kallast andi en maðr, svá at ek hygg,
+at hann verði eigi af mönnum drepinn. En förum vit
+til skipa fyrst," -- ok svá gerðu þeir. Ok er þeir koma
+til sjávar, sá Oddr þar mörg skip fljóta. Gengu þeir
+nú út á skipin. Sá Oddr þar tvá menn, þá er af báru
+af öllum. Þeir stóðu upp á móti Rauðgrana ok heilsuðu
+þar fóstbróður sínum. Hann settist niðr á millum
+<pb n="348"/>
+
+þeira ok bað Odd sitja. Rauðgrani mælti: "Hér er
+kominn maðr sá, er þit fóstbræðr munuð hafa heyrt
+getit, er Oddr heitir ok er kallaðr Örvar-Oddr, ok vil
+ek, at hann verði fóstbróðir várr; skal hann ok einn
+mestu ráða af oss, því at hann er vanastr hernaði."
+Sírnir svarar: "Er þetta Oddr sá, sem fór til Bjarmalands?"
+"Satt er þat," sagði Rauðgrani. "Mér þykkir
+þá," sagði Sírnir, "oss í veitt, at hann sé várr fóstbróðir."
+"Fullvel líkar mér þat," sagði Garðarr. Binda þeir
+þetta með fastmælum. Þá spyrr Rauðgrani, hvert Oddr
+ætli at halda. "Förum fyrst," sagði Oddr, "vestr á við
+til Englands." Svá gerðu þeir, at þeir sigla þar til, at
+þeir koma við land. Tjölduðu þeir þá yfir skipum sínum
+ok lágu þar nokkura stund.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="20"><p>
+
+Þat var einn veðrdag góðan, at þeir Sírnir ok Garðarr
+fóru á land at skemmta sér ok margir menn með
+þeim, en Oddr var við skip niðri. Rauðgrani sást
+ekki. Veðr var furðu heitt, ok fóru þeir fóstbræðr af
+klæðum ok á sund við vatn eitt. Þar var skógr nærri.
+Flestir váru menn þeira at nokkurri skemmtan. En er
+á leið daginn, sáu þeir, at dýr eitt furðu stórt kom fram
+ór skóginum. Þat hafði mannshöfuð ok geysistórar vígtennr.
+Hali þess var bæði langr ok digr, klærnar furðuliga
+stórar. Sitt sverð hafði þat í hvárri kló; þau váru
+bæði björt ok stór. Þegar er þetta finngálkn kemr
+fram at mönnum, þá emjar þat ógurliga hátt ok drap
+þegar fimm menn í fyrsta atvígi. Þá hjó hún
+með hváru sverði, en inn þriðja beit hún með tönnunum,
+tvá sló hún með halanum ok alla til dauðs. Innan
+<pb n="349"/>
+
+lítils tíma hafði hún drepit sex tigi manna. Þá var
+Garðarr klæddr ok snarar þegar fram í móti finngálkninu
+ok höggr þegar með sverði til þess svá hart, at sverðit
+hrýtr ór annarri klónni ok út í vatnit, en hún höggr
+annarri til Garðars með sverðinu, svá at hann fell
+þegar til jarðar. Hljóp hún þá ofan á hann. Í því kom
+Sírnir at með sverð þat brugðit, er Sniðill hét, allra
+bezt, svá at hvergi nam í höggi stað. Hann hjó
+til dýrsins ok af því annat sverðit ok út á vatnit. Í því
+sló finngálknit hann undir sik, svá at hann var þegar
+í óviti. Menn þeir, sem undan kómust, hlupu til skipa
+ok segja Oddi fall þeira fóstbræðra ok margra manna
+annarra, segja ok, at engi mætti við þá óvætti eiga, -- "ok
+skaltu, Oddr," segja þeir, "halda þegar í stað frá landi,
+ok forðum oss sem skjótast." "Skömm mikil er þat,"
+sagði Oddr, "ef vér skulum svá í burt fara, at ek hefna
+ekki þeira fóstbræðra, svá vaskir menn sem þeir váru,
+ok skal þat aldri." Tekr hann þá örvamæli sinn ok
+gengr á land. Ok er hann var skammt kominn, heyrðu
+þeir ógurlig læti. Litlu síðar sér Oddr, hvar finngálknit
+ferr. Hann leggr þá eina af Gusisnautum á streng ok
+skýtr í augat á dýrinu ok út um hnakkann. Finngálknit
+gekk þá svá hart at honum, at Oddr kom eigi boganum
+við. Færði þat þá báðar klærnar í bringu honum svá
+hart, at honum var búit við at falla á bak aptr, en
+skyrtan dugði þá sem optar, svá at klærnar grönduðu
+ekki Oddi. Hann brá þá sverðinu, er hann var gyrðr
+með, bæði skjótt ok hart ok hjó ór dýrinu halann, er
+þat ætlaði at slá hann með, en annarri hendi helt hann
+því frá sér, svá at þat náði eki at bíta hann. En er
+þat hafði misst halann, rann þat til skógar grenjanda.
+Þá skaut Oddr annarri Gusisnaut. Hún kom aptan á
+bak dýrinu ok smó fram í hjartat ok út um brjóstit;
+<pb n="350"/>
+
+fell þá finngálknit til jarðar. Hlaupa þá þar menn
+margir at dýrinu ok lömdu ok hjuggu, er hvergi höfðu
+áðr þorat nær at koma. Var dýrit þá með öllu dautt.
+Síðan lét Oddr brenna dýrit, en færa þá fóstbræðr til
+skipa ok græða.
+Síðan heldu þeir á burt þaðan ok sátu í Danmörk
+um vetrinn. Lágu þeir þá mörg sumur í hernaði ok
+herjuðu um Svíþjóð, Saxland, Frakkland ok Flæmingjaland,
+þar til at þeim Sírni ok Garðari leiddist hernaðr
+ok settust at ríkjum sínum. Rauðgrani fylgir þeim, því
+at hann hafði komit af landi ofan, þá þeir váru búnir
+at sigla, eptir er Oddr hafði unnit finngálknit, ok sjaldan
+var Rauðgrani þá við staddr, er nokkurar mannraunir
+váru í, en inn ráðugasti var hann, þá er þess
+þurfti við, ok latti sjaldan stórvirkja.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="21"><p>
+
+Nú leggr Oddr í hernað ok hafði þrjú skip vel skipuð.
+Fór hann enn af nýju at leita Ögmundar Eyþjófsbana.
+Váru nú liðnir tíu vetr, síðan at Oddr fór af Risalandi.
+Þat var eitt kveld, at Oddr lá við andnes eitt ok hafði
+tjald á landi. Hann sér, hvar maðr rær einn á skútu.
+Sá sótti knáliga róðrinn, enda var hann furðu stórr
+at sjá. Hann rær svá hart at skipum Odds, at hvervetna
+brotnaði þat, er fyrir varð. Síðan gengr hann á land
+ok þangat, sem tjöldin váru, ok spyrr, hverr fyrir skipunum
+réði. Oddr sagði til sín, -- "eða hverr ertu?"
+Hann kveðst Vignir heita, -- "eða ertu Oddr sá, er
+fór til Bjarmalands?" "Satt er þat," sagði Oddr. "Hér
+kann ek ekki um at tala," sagði Vignir. "Hví svá?"
+sagði Oddr. "Því," sagði Vignir, "at ek kann varla at
+ætla, at þú sért faðir at mér, svá lítill ok smáskítligr
+<pb n="351"/>
+
+sem mér sýnist þú vera." "Hver er móðir at þér?"
+sagði Oddr, "eða hversu gamall ertu?" "Hildigunnr
+heitir móðir mín," sagði Vignir; "var ek fæddr upp á
+Risalandi, ok þar hefi ek upp vaxit, en nú em ek tíu
+vetra gamall. Sagði hún mér, at Örvar-Oddr væri faðir
+at mér, ok hugða ek, at vera mundi inn röskvasti maðr,
+en nú sé ek, at þú ert it mesta vesalmenni at sjá, ok
+svá muntu at reyna." Oddr sagði: "Ætlar þú, at þú
+munir miklu fleiri eða meiri afreksverk vinna en ek
+hefi unnit? En við mun ek ganga frændsemi við þik,
+ok ver velkominn með mér." "Þat mun ek ok þiggja,"
+sagði Vignir, "ok þykkir mér þó in mesta lítilmennska
+at vera í bland við þik ok menn þína, því at mér þykkja
+þeir náliga líkari möðkum en mönnum, enda þykkir
+mér alllíkligt, at ek muna vinna meiri þrekvirki en þú,
+ef ek lifi lengi." Oddr bað hann ekki forsmá menn
+sína.
+Um morguninn bjuggust þeir til at sigla. Þá spyrr
+Vignir, hvert Oddr vildi halda. Hann kveðst vildu leita
+at Ögmundi Eyþjófsbana. "Af honum fær þú ekki gott,
+þótt þú finnir hann," sagði Vignir, "því at hann er
+it mesta tröll ok óvættr, er skapazt hefir í norðrhálfu
+heimsins." "Eigi mun þat satt," sagði Oddr, "þar er
+þú frýðir mér um vöxt ok afl ok mönnum mínum, at
+þú æðrist nú svá, at þú þorir eigi at sjá né finna Ögmund
+flóka" "Eigi þarftu," sagði Vignir, "at frýja mér
+svá hugar, en þessi orð þín skal ek launa þér nokkurn
+tíma, svá at þykki þá eigi betr en mér nú. En
+segja mun ek þér til, hvar Ögmundr er. Hann er kominn
+í fjörð þann, er Skuggi heitir, hann er í Hellulands
+óbyggðum, ok þeir níu saman, hann ok flókadrengir
+hans. Er hann því þar kominn, at hann hirðir
+ekki þik at finna. Nú máttu sækja hann heim, ef þú
+<pb n="352"/>
+
+vilt, ok vita, hversu er gengr." Oddr sagði svá skyldu
+vera.
+Síðan sigla þeir, þar til er þeir kómu í Grænlands
+haf, snúa þá suðr ok vestr fyrir landit. Þá mælti Vignir:
+"Nú skal ek sigla fyrir skipi mínu í dag, en þér haldið
+þar eptir." Oddr bað hann ráða. Vignir var þá skipstjórnarmaðr.
+Þeir sjá um daginn, hvar klettar tveir
+koma upp ór hafinu. Oddr undrast þat mjök. Þar sigldu
+þeir á millum klettanna. En er á leið daginn, sáu þeir
+ey mikla. Oddr bað þar at leggja. Vignir spurði, hvat
+því skyldi. Oddr bað fimm menn ganga á land ok leita
+at vatni. Vignir kvað þess enga þörf ok sagði enga af
+sínu skipi fara skyldu. En er menn Odds kómu á eyna,
+höfðu þeir litla stund þar verit, áðr eyin sökk, ok
+drukknuðu þeir allir. Lyngi var vaxin ey sjá ofan. Ekki
+sáu þeir hana síðan upp koma. Horfnir váru ok klettarnir,
+þegar þeir sáu til. Oddr undrast þetta mjök ok
+spurði Vigni, hverju þetta sætti. Vignir sagði: "Rétt
+þykkir mér þér fara vit eptir vexti. Nú mun ek segja
+þér, at þetta eru sjóskrímsl tvau. Heitir annat hafgufa,
+en annat lyngbakr. Er hann mestr allra hvala í heiminum,
+en hafgufa er mest skrímsl skapat í sjónum. Er
+þat hennar náttúra, at hún gleypir bæði menn ok skip
+ok hvali ok allt þat hún náir. Hún er í kafi, svá at
+dægrum skiptir, ok þá hún skýtr upp höfði sínu ok
+nösum, þá er þat aldri skemmr en sjávarfall, at hún
+er uppi. Nú var þat leiðar sundit, er vér fórum á
+millum kjapta hennar, en nasir hennar ok inn
+neðri kjaptrinn váru klettar þeir, er yðr sýndist í hafinu,
+en lyngbakr var ey sjá, er niðr sökk. En Ögmundr
+flóki hefir sent þessi kvikvendi í móti þér með fjölkynngi
+sinni til þess at bana þér ok öllum mönnum
+þínum. Hugði hann, at svá skyldi hafa farit fleiri sem
+<pb n="353"/>
+
+þeir, at nú drukknuðu, en hann ætlaði, at hafgufan
+skyldi hafa gleypt oss alla. Nú siglda ek því í gin hennar,
+at ek vissa, at hún var nýkomin upp. Nú höfum
+vér getat sét við þessum vélum Ögmundar, en þó er
+þat mín hyggja, at af honum hljótir þú verst allra
+manna," "Á þat mun nú verða at hætta," sagði Oddr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="22"><p>
+
+Sigla þeir nú, þar til at þeir koma til Hellulands, ok
+leggja inn á fjörðinn Skugga. En er þeir eru landfastir
+orðnir, ganga þeir feðgar á land ok þar till, sem þeir
+sjá, hvar virki stendr, ok sýnist þeim þat harðla rammgert.
+Flóki gekk þá út á virkisarminn ok hans félagar.
+Ögmundr heilsar þá Oddi blíðliga ok frétti at erendum.
+"Eigi þarftu at því at spyrja," sagði Oddr, "því
+at ek vil hafa líf þitt." "Hitt er ráð," sagði Ögmundr, "at
+vit sættumst heilum sáttum." "Nei," sagði Oddr, "þat
+skal verða aldri, því at hitt var mér í hug, þá er þú drapt
+ok myrðir Þórð stafnglám, fóstbróður minn, ok níddist
+á honum." "Því gerða ek þat," sagði Ögmundr, "at
+mér þótti eigi áðr jafnvegit, en nú þótt þú hafir mik
+fundit, getr þú aldri mik unnit, meðan ek em í virkinu,
+en nú býð ek þér, at þit feðgar berizt tveir við oss
+kumpána, ella munu vér í virkinu fyrir mælast" "Þat
+skal vera," sagði Oddr, "ok skal ek berjast við þik,
+Ögmundr, en Vignir við kumpána þína." "Þat skal eigi
+vera," sagði Vignir, "skal ek nú launa þér frýjuorðit,
+þat er þú lagðir mér í fyrsta tíma, at vit fundumst, at
+ek munda eigi þora at finna Ögmund." "Þessa skiptis
+munu vit iðrast síðar," sagði Oddr, "þó at þú ráðir nú
+at sinni."
+Taka þeir síðan at berjast. Var þat nær sjá. Var þar
+<pb n="354"/>
+
+harðr atgangr, sem þeir Ögmundr ok Vignir gengust
+at, því at hvárrtveggi þeira var rammr at afli ok inir
+vápnfimustu. En svá gekk Vignir hart at Ögmundi, at
+hann stökk norðr með sjávarhömrunum, en Vignir hljóp
+eptir, allt þar til er Ögmundr hljóp ofan fyrir hamrana
+í tó eina, en Vignir þegar eptir; þá var fertugt ofan.
+Þá tóku þeir til ok glímdu með miklum atgangi ok
+ómannligum, því at þeir ruddu upp jörðu ok grjóti
+sem lausri mjöllu. Nú er þar til at taka, sem Oddr er.
+Hann hafði kylfu stóra í hendi, því at engan Flóka
+drengja bitu járn. Lamdi hann þá hart með kylfunni,
+svá at á lítilli stundu hafði hann drepit þá alla, sem hann
+átti við, ok var hann lítt móðr, en ekki sárr; olli því
+skyrta hans. Þá fýsir Odd at leita at Vigni ok vita, hvat af
+honum mun orðit. Gengr hann þá fram með hömrunum,
+þar til at hann kemr þar at uppi yfir, sem þeir Vignir
+ok Ögmundr höfðu at gengizt. Ok í því brá Ögmundr
+Vigni, svá at hann fell, ok þegar jafnskjótt greyfðist
+hann niðr at honum ok beit sundr í honum barkann.
+Lét Vignir svá líf sitt. Þá sýn sagðist Oddr svá sét hafa,
+at honum hafi verst þótt ok mest við brugðit. Ögmundr
+mælti þá: "Nú þætti mér þér, Oddr, betra hafa verit,
+at vit hefðum sætzt, sem ek bauð, því at nú hefir þú
+fengit þann mannskaða af mér, at þú munt aldri bætr
+bíða, þar sem Vignir er dauðr, sonr þinn, sá maðr, at
+ek hygg fræknastan ok sterkastan orðit hafa á Norðrlöndum,
+því at hann var nú tíu vetra gamall, ok hefði
+hann mik yfir unnit, ef ek væri alþýðligr maðr, en
+nú em ek eigi síðr andi en maðr. En svá hefir hann hart
+kreist búk minn, at hann hefir náliga brotit í mér hvert
+bein, svá at þau skrapa öll innan í skinninu, svá at ek
+væra dauðr, ef ek hefða eðli til þess. En engan mann
+hræðumst ek í veröldunni nema þik, ok af þér mun ek
+<pb n="355"/>
+
+nokkut illt hljóta, hvárt þat verðr fyrr eða síðar, enda
+áttu nú þín í at hefna." Oddr varð þá ógurliga reiðr,
+ok stökk hann þegar ofan fyrir hamrana ok kom standandi
+niðr í tóna. Ögmundr brá þá skjótt við ok steypti
+sér ofan fyrir hamrana í sjóinn at höfðinu, svá at hvítfyssti
+upp á móti. Ekki kom Ögmundr upp síðan, svá
+at Oddr gæti þat sét. Síðan skildu þeir Ögmundr í því
+sinni, ok undi Oddr við it versta, ok fór hann síðan
+til skipa sinna og sigldi á burt ok helt til Danmerkr ok
+fann þar Garðar, fóstbróður sinn, ok tók hann við honum
+harðla vel.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="23"><p>
+
+Oddr sat í Danmörk þann vetr, en at vári lögðu þeir
+Garðarr í hernað ok gerðu orð Sírni til Gautlands.
+Fór hann til móts við þá, ok var Rauðgrani þar í ferð.
+Rauðgrani spurði Odd, hvert hann vildi á halda.
+Hann kveðst vilja leita Ögmundar Eyþjófsbana ok vita,
+ef hann gæti fundit hann. "Rétt þykkir mér þér fara
+sem klárnum," sagði Rauðgrani, "hann sækir þangat
+mest, sem hann er kvaldastr, enda sækir þú eptir Ögmundi,
+en fær af honum í hvert sinn, er þit finnizt,
+bæði skömm ok skaða, ok ekki þarftu þat at ætla, at
+Ögmundr hafi batnat, síðan þit skilduð. En segja má
+ek þér, hvar hann er niðr kominn, ef þér er forvitni á
+því. Austr er hann kominn til Geirröðar jötuns í
+Geirröðargarða ok hefir fengit Geirríðar, dóttur hans,
+ok eru þau bæði in mestu tröll, ok let ek þik at fara
+þangat." Oddr kveðst fara skyldu eigi at síðr.
+Síðan bjuggust þeir allir fóstbræðr í Austrveg, ok
+er þeir kómu austr at Geirröðargörðum, þá sáu þeir,
+hvar maðr var á báti ok sat til fiskjar. Þat var Ögmundr
+<pb n="356"/>
+
+Eyþjófsbani reyndar; hann hafði yfir sér loðkápu. En
+þá er þeir Oddr skildu, fór Ögmundr í Austrveg ok
+gerðist mágr Geirröðar jötuns ok skattgildi alla konunga
+í Austrvegi á þann máta, at þeir skyldu allir
+senda honum á tólf mánuðum hverjum kampinn efra
+ok neðra af sjálfum sér. Þar af hafði Ögmundr látit
+gera sér þá sömu kápu, er þá hafði hann. Þeir Oddr
+lögðu þá at bátinum, en Ögmundr hélt undan; reri
+hann þá heldr sterkliga. Þeir fóstbræðr hlupu þá allir
+á eitt skip ok reru eptir honum heldr rammliga ok tóku
+tveir hverja ár, en svá reri Flóki sterkliga, at hvárki dró
+með þeim sundr né saman, ok allt þar til at þeir kómu
+at landi. Þá hljóp Ögmundr á land ok skildi við bát
+sinn í flæðarmáli. Oddr var skjótastr á land af sínum
+mönnum ok þar næst Sírnir, ok hlaupa báðir
+eptir Ögmundi. En er Ögmundr sér, at þeir muni
+finnast, þá mælti hann ok kvað vísu:
+<lg>
+<l>"Beiðik Geirröð</l>
+<l>með goða hylli,</l>
+<l>kappa inn stærsta,</l>
+<l>koma mér at bjarga</l>
+<l>ok beðju mína</l>
+<l>beint sem aðra,</l>
+<l>þarfk nú allra</l>
+<l>þeira gengis."</l>
+</lg>
+Þá sannast it fornkveðna, at þar var örg vættr, sem
+hún var nefnd. Kom Geirröðr þar með allt sitt fólk;
+váru þau fimm tigir saman at tölu. Þá kom Garðarr
+ok menn þeira Odds eptir. Slær þá í inn harðasta bardaga.
+Var Geirröðr heldr stórhöggr, svá at hann hafði
+á lítilli stundu drepit fimmtán menn fyrir Oddi. Oddr
+leitaði þá at Gusisnautum. Tók hann þá Hremsu ok
+lagði hana á streng ok skaut. Hún kom fyrir brjóst
+<pb n="357"/>
+
+Geirröði ok út um herðarnar. Áfram gekk Geirröðr við
+skotit ok varð þriggja manna bani, áðr en hann fell
+dauðr at jörðu. Geirríðr var ok mannskæð, því at hún
+drap á lítilli stundu átján menn. Þá sneri Garðarr á
+móti henni ok átti við hana höggvaviðskipti, en svá
+lauk með þeim, at Garðarr hné dauðr at velli. En er
+Oddr sá þat, varð hann reiðr ákafliga. Lagði hann þá
+Gusisnaut á streng ok skaut henni undir höndina hægri
+á Geirríði ok út um ina vinstri. Ekki sáu þeir hana
+gefa sik við þat. Óð hún þá fram í fylkinguna ok drap
+fimm menn. Þá skaut Oddr annarri Gusisnaut. Hún
+kom í smáþarmana á Geirríði ok út um lendarnar á
+henni; dó hún þá litlu síðar.
+Ögmundr var ok eigi ruðulítill í bardaganum, því
+at hann hafði drepit á lítilli stundu þrjá tigi manna,
+áðr Sírnir snýr í móti honum, ok eigast þeir við harðan
+atgang, ok bárust skjótt sár á Sírni. Litlu síðar sér
+Oddr, at Sírnir hrökkr fyrir Ögmundi. Snýr hann því
+þangat til, en er Ögmundr sá þat, snýr hann á flótta
+ok hleypr heldr röskliga, en þeir Sírnir ok Oddr eptir.
+Fara þá hvárir sem mest geta. Ögmundr var í kápu
+sinni inni góðu, en er saman dró með þeim, kastar
+Ögmundr kápunni ok kvað vísu:
+<lg>
+<l>"Nú munk kasta verða</l>
+<l>kápu minni,</l>
+<l>þeiri er ger var</l>
+<l>af grön jöfra,</l>
+<l>en hlaðbúin</l>
+<l>á hliðar báðar,</l>
+<l>munk hennar mjök móðr</l>
+<l>missa verða.</l>
+<l>Þeir elta mik</l>
+<l>allsýsliga</l>
+<l>Oddr ok Sírnir,</l>
+<l>orrostu í frá."</l>
+</lg>
+<pb n="358"/>
+
+En svá sem Ögmundr var léttbúnari, dró hann undan.
+Oddr herti sik þá, ok varð hann fljótari en Sírnir. Ok
+er Ögmundr sá þat, snýr hann á móti honum ok ráðast
+þeir á. Var þeira glíma ok atgangr bæði harðr ok
+langr, því at Oddr hafði ekki afl við Ögmund, en eigi
+kom hann honum af fótunum. Þá kom Sírnir at með
+brugðit sverðit Sniðil ok ætlaði þegar at höggva til
+Ögmundar, en er hann sá þat, brá hann Oddi fyrir
+höggit. Þá heptir Sírnir sik. Fór svá jafnan, at Ögmundr
+hafði Odd fyrir skjöldinn, ok því varð ekki af
+tilræðum Sírnis, en þó at á Odd kæmi, varð hann ekki
+sárr sakir skyrtu sinnar innar góðu. Þat var einn tíma,
+at Oddr stakk báðum fótum í einn jarðfastan stein ok
+gekk svá hart á, at Ögmundi var búit at kikna við. Í
+því hjó Sírnir til Ögmundar. Þá varð honum eigi ráðrúm
+til at skjóta Oddi fyrir höggit. Þat högg kemr
+aptan á þjóhnappana, ok tók Sniðill þá slíkt er hann
+nam. Hjó Sírnir þá svá mikinn hlut ór kríkum Ögmundar,
+at enginn hestr dregr meira. Við þat bregðr
+Ögmundi svá, at hann fór þar þá niðr, sem hann var
+kominn. Oddr greip þá báðum höndum í skegg honum
+með svá miklu afli, at hann reif þat allt af honum
+ok skeggstaðinn niðr at beini ok þar með alla ásjónuna
+með báðum vangafillunum, ok svá gekk upp um
+ennit ok aptr á miðjan haus, ok þar skildi með því,
+at svörðrinn slitnaði, en Oddr hafði þat, er hann helt.
+Jörðin luktist saman fyrir ofan höfuðit á Ögmundi, ok
+skildi svá með þeim.
+Fara þeir Oddr ok Sírnir til skipa sinna ok höfðu
+fengit mikinn mannskaða. Var Oddi þat inn mesti
+harmr, at hann hafði misst Garðar, fóstbróður sinn.
+Rauðgrani var ok horfinn, svá at þeir Oddr ok Sírnir
+vissu aldri, hvat af honum varð, þegar þeir fundu Ögmund
+<pb n="359"/>
+
+á bátinum. Var þá enn sem optar, at hann hafði
+sik sjaldan í mannhættu, en var inn harðasti í öllum
+tillögum. Ekki sáu þeir fóstbræðr Rauðgrana síðan, svá
+at getit sé. Þykkir mönnum sem Óðinn muni þat verit
+hafa reyndar. Heldu þeir fóstbræðr á burtu, ok þykkir
+mönnum Oddr enn eigi gott hafa fengit af Ögmundi,
+misst Garðar, fóstbróður sinn, inn röskvasta mann, er
+verit hefir, enda hafði Oddr ok þeir miklu orkat í
+drápi óvætta þeira, sem verit höfðu með Ögmundi
+bæði nú ok fyrri. Hafði Geirríðr átt son eptir við Ögmundi
+Eyþjófsbana, er Svartr hét. Hann var þá þrévetr,
+er hér var komit sögunni. Hann var mikill ok
+líkligr til þess, at illr maðr mundi af honum skapast.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="24"><p>
+
+En er Oddr kom heim til Gautlands með fóstbróður
+sínum, bauð Sírnir honum þar at sitja um vetrinn.
+Þat þekktist Oddr. Ok er á leið vetrinn, ógladdist hann
+fast. Kómu honum þá í hug harmar sínir, þeir er hann
+hafði fengit af Ögmundi flóka. Þó hugsast honum svá
+til, at hann mun eigi hætta lengr fóstbróður sínum
+til at berjast við Ögmund, því at hann þóttist þar stóra
+skaða hafa af fengit. Verðr þat þá hans ráð at leynast
+í burt einn á náttarþeli. Ferr hann þá at flutningum,
+þar sem þeira þarf við, en stundum ferr hann um merkr
+ok skóga, ok ratar hann harðla stóra fjallvegu. Hann
+hefir þá örvamæli sinn á baki sér. Ferr hann nú víða
+um lönd, ok kemr svá ráði hans, at hann hafði þat
+eitt til atvinnu sér, er hann skaut fugla fyrir sik. Hann
+spennir þá at sér um bol ok fætr næfrum. Síðan gerir
+hann sér næfrahött mikinn á höfuð sér. Er hann ekki
+<pb n="360"/>
+
+öðrum mönnum líkr, meiri miklu en allir menn aðrir,
+er hann er allr þakinn næfrum.
+Nú er ekki sagt frá honum fyrr en hann kemr ór
+mörkum fram, ok sér hann, at heruð hefjast upp fyrir
+honum. Hann sér, at þar stendr einn bær mikill, en
+þar var annarr bær skammt frá. Þat kom honum í hug,
+at hann mundi snúa á inn minna bæinn; þat hafði
+hann aldri fyrr freistat. Hann gengr þar at dyrum. Þar
+var maðr fyrir dyrum ok klauf skíð. Sá var lítill vexti
+ok hvítr fyrir hærum. Hann heilsar þeim vel, er kominn
+var, ok spurði karl hann at nafni. "Næframaðr
+heiti ek," sagði hann, "en hvat heitir þú?" En hann
+nefnist Jólfr. "Hér muntu vera vilja í nótt," sagði
+karl. "Þat skal þiggja," sagði Næframaðr. Nú fylgir
+karl honum í stofu, ok sitr þar kerling ein á stóli.
+"Hér er gestr," kvað karl, "at þú skalt við sæma, er
+ek á margt at annast." Kerling veinaði mjök ok kvað
+þat opt, at hann byði mönnum gisting, -- "en ekki er til
+fram at bera." Nú gengr karl á burt, en þau kerling
+sitja tvau eptir. Ok um kveldit, er Jólfr kom inn, er
+borð sett fyrir þá, ok kom fram diskr, en þeim megin,
+sem Næframaðr sat, þá leggr hann fram kníf góðan.
+Hólkar váru tveir á knífinum, annarr ór gulli, en annarr
+ór silfri. En er Jólfr sér þat, þá seilist hann til knífsins
+ok lítr á. "Þú hefir góðan kníf, félagi," sagði karl,
+"eða hversu komtu at gersimi þessi?" Næframaðr mælti:
+"Þá ek var á unga aldri, brenndum vér salt eigi allfáir
+saman, at þar rak skip at landinu, sem vér várum.
+Þeir brutu skip sitt í spán, ok rak upp mennina ok
+váru máttlitlir, ok gerðu vér skjótt um við þá, ok hlaut
+ek kníf þenna í mitt hlutskipti, en ef svá vel væri, at
+þér, karl, þætti nokkuru nýtr, þá mun ek gefa þér
+knífinn." "Gefðu allra manna heilastr," sagði karl ok
+<pb n="361"/>
+
+sýnir nú kerlingu sinni knífinn. "Hér er á at sjá," sagði
+hann, "ok er sjá knífrinn engu verri en sá, er ek átta
+fyrr." Eptir þat taka þau til fæðu, ok síðan var Næframanni
+fylgt til svefns, ok sváfu af þá nótt, ok vaknaði
+Næframaðr ekki fyrr en Jólfr var í burtu ok kalt var
+rúm hans. Þá tók hann til orða: "Mun eigi ráð at
+standa upp ok fara á burt ok leita sér dagverðar annars
+staðar?" Kerling sagði, at karl vill, at hann bíði hans
+heima.
+Þat var nær miðjum degi, at karl kom heim, enda
+var Næframaðr þá á fótum. Þá váru borð fram sett.
+Þar kom fram diskr á borðit, en þeim megin, sem karl
+sat, þá leggr hann fram steinörvar þrjár hjá diskinum.
+Þat váru svá stór skeyti ok fögr, at Næfrimaðr þóttist
+aldri sét hafa vænni þess kyns skeyti. Hann tekr upp
+ok lítr á. "Þetta skeyti er vel smíðat," sagði hann.
+"Væri svá vel," sagði karl, "at þér þætti vel gert, þá
+vil ek gefa þér." Næframaðr brosti at ok mælti: "Eigi
+veit ek, at ek muna þurfa at bera eptir mér steinörvar
+þessar." "Þat veiztu aldri, Oddr," sagði karl, "hvé nær
+þú þarft þeira við. Veit ek, at þú heitir Örvar-Oddr
+ok ert sonr Gríms loðinkinna norðan ór Hrafnistu.
+Þat veit ek ok, at þú hefir örvar þrjár, er kallaðar eru
+Gusisnautar, en þat mun þér kynligt þykkja, ef þú
+kemr þar eitthvert sinn, ef þér duga ekki Gusisnautar,
+at þér dugi steinövar þessar." "Þar er þú veizt, at ek
+heiti Oddr, ok segir þér engi, ok svá þat, at ek hefi
+örvar þær, er Gusisnautar heita, þá má vera," segir
+Oddr, "at þú vitir þat, sem þú segir fyrir. Skal ek víst
+þiggja örvarnar," ok lét koma í örvamæli sinn. "Hvat
+segir þú til þess, karl," sagði Oddr, "ræðr konungr fyrir
+landi þessu?" "Já," sagði karl, "ok heitir hann Herrauðr."
+"Hvat er göfugra manna með honum?" sagði
+<pb n="362"/>
+
+Oddr. "Þar eru tveir menn," sagði karl, "ok heitir
+annarr Sigurðr, en annarr Sjólfr. Þeir eru öndvegishöldar
+konungs ok inir mestu bardagamenn." "Hvat á
+konungr barna?" sagði Oddr. "Hann á eina dóttur
+væna, er Silkisif heitir." "Er hún væn kona?" sagði
+Oddr. "Já," sagði karl, "engi er önnur jafnfríð í Garðaríki
+ok víðar annars staðar." "Hvat ætlar þú, karl,"
+sagði Oddr, "hversu þeir taki við mér, ef ek kem þar?
+Ok skaltu ekki segja, hverr ek em." "Halda mun ek
+mega munni mínum," sagði karl.
+Þeir fara nú til konungs hallar. Þá setr karl við fætr
+ok vill eigi ganga lengra. "Hví setr þú nú fætr við?"
+sagði Oddr. "Því," sagði karl, "at ek em færðr í fjötur,
+ef ek kem hér inn, ok verð ek því fegnastr, at ek komumst
+í burt." "Já," sagði Næframaðr, "vit skulum
+ryðjast at báðir saman, ok má ek ekki annat en þú
+farir með," ok þrífr nú til hans. Síðan ganga þeir inn
+í höllina. Sem hirðmenn konungs sjá karl, þyrpast þeir
+at honum, en Næframaðr styðr hann, svá at þeir hrjóta
+af strengjum. Nú hörfa þeir innar eptir höllinni, til
+þess at þeir koma fyrir konung. Karl kvaddi vel konung.
+Konungr tók því vel. Þá spyrr konungr, hvern
+hann leiddi þar eptir sér. "Eigi má ek þat vita," sagði
+karl, "ok verðr hann þat sjálfr at segja, hverr han er."
+"Ek heiti Næframaðr," sagði hann. "Hverr ertu, félagi?"
+sagði konungr. "Þat veit ek," sagði hann, "at ek em
+hvívetna eldri, ok er hvárki vitit né minnit heima hjá
+mér, ok hefik lengi legit úti á mörkum nær alla ævi
+mína. En bráð eru brautingja erendi, konungr, ek vil
+biðja þik vetrvistar." Konungr svarar: "Ertu at nokkuru
+íþróttamaðr?" "Þat ferr fjarri," sagði hann, "því
+at ek em óliprari en aðrir menn." "Nennir þú nokkuru?"
+sagði konungr. "Ek kann ekki at vinna, enda
+<pb n="363"/>
+
+nenni ek ekki at vinna," sagði Næframaðr. "Þá horfir
+allóvænt" sagði konungr, "fyrir því at ek hefi þess
+heit strengt at taka við þeim einum mönnum, at þeir
+sé at nokkuru íþróttamenn." "Aldri kann ek einn hlut
+at gera," sagði Næframaðr, "þann öðrum sé gagn at."
+"Kunna muntu at draga saman dýr, ef menn skjóta,"
+sagði konungr. "Þá má vera, at ek fara til þess eitthvert
+sinn." "Hvar vísar þú mér til sætis?" sagði Næframaðr.
+"Þú skalt sitja utar inum óæðra megin, þar sem mætast
+þrælar ok frelsingjar." Nú fylgir Næframaðr karli
+út ok snýr eptir þat til sætis, þar sem honum var vísat.
+Þar sátu fyrir bræðr tveir. Hét annarr Óttarr, en annarr
+Ingjaldr. "Far hingat, félagi," segja þeir, "ok skaltu
+sitja í millum okkar," ok þat þiggr hann. Þar leggst á
+sitt kné honum hvárr þeira, ok spyrja af hverju landi,
+er þeim kom í hug, en ekki vita menn til, hvat þeir
+töluðu. Hann festi upp á tjaldsnagla örvamæli sinn yfir
+sik, en staflurk undir fæti sér. Jafnan biðja þeir hann,
+at þeir skyldu hirða belginn, ok þykkir hann vera óhræsi
+mikit, en hann kvað eigi nær skyldu fara, at hann
+skyldi á burt borinn frá honum, ok þess gekk hann
+hvergi, at hann hefði hann eigi með sér. Þeir bjóða
+honum at kaupa at honum, at hann láti af höndum
+næfrarnar, "ok munu vér gefa þér til góð klæði," segja
+þeir. "Eigi má svá vera," sagði hann, "því at ek hefi
+aldri önnur borit, enda skal eigi önnur hafa, meðan
+lífit er."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="25"><p>
+
+Nú sitr Næframaðr þar ok drekkr jafnan lítit um
+kveldin ok leggst snemma niðr. Svá ferr fram, þar til
+er menn skulu fara á dýraveiðarnar. Þat var um haustit.
+<pb n="364"/>
+
+Nú tekr Ingjaldr til orða um aptaninn, at þar væri
+undir, -- "at vér værum snemma á fótum á morgin."
+"Hvat skal þá?" sagði Næframaðr. Nú segir Ingjaldr,
+at fara skal á veiðar. Síðan leggjast þeir niðr um kveldit,
+en um morguninn standa þeir upp bræðr ok kalla at
+Næframanni ok geta víst eigi vakit hann, svá sefr hann
+fast, ok vaknar hann ekki fyrr en hverr maðr var á
+burtu, sá er á veiðar vildi fara. Næframaðr tók til
+orða: "Hvat er nú, hvárt eru menn búnir?" Ingjaldr
+svarar: "Búnir," sagði hann, "heldr er hverr maðr á
+burtu, ok höfum vér þik vakit í allan morgin, ok
+munu vér aldri fá dýr skotit í dag." Þá mælti Næframaðr:
+"Hvárt eru þeir allmiklir íþróttamenn, Sjólfr ok
+Sigurðr, um alla hluti." "Þá sæi þat," sagði Ingjaldr,
+"ef nokkurr léki í móti þeim." Þeir koma nú í fjallit,
+ok hlaupa dýr hjá þeim, ok draga þeir upp boga sína
+bræðr, ok er þeir skyldu freista at skjóta dýrin, þá
+hæfðu þeir aldri eitt dýr. Þá mælti Næframaðr: "Aldri
+hefi ek sét," sagði hann, "jafnóliðliga at farit sem þit
+farið at, eða hví getið þit svá ófimliga at farit at þessu?"
+Þeir segja: "Þat höfum vér sagt þér, at vit værum óliprari
+en aðrir menn, en orðit aldri búnir í morgin ok
+höfum þat nú dýranna, er aðrir hafa áðr æst upp ok
+fælt." Næframaðr mælti þá: "Eigi kann ek þat at sjá,
+at ek mega ófimligar at fara, ok látið hingat bogann,
+ok vil ek reyna." Þeir gera nú svá. Hann dregr upp
+bogann, ok ræða þeir um, at hann skuli eigi brjóta,
+en hann dró örina fyrir odd ok rykkir í sundr boganum
+í tvá hluti. "Nú hefir þú gert illa," segja þeir, "ok
+er okkr þetta mein mikit. Er nú örvænt, at vér munum
+aldri dýr fá skotit í degi." "Eigi hefir nú vænliga
+til tekizt," segir hann, "eða hversu líkligr þykkir yðr
+stafr minn til boga, eða er ykkr nokkur forvitni á at
+<pb n="365"/>
+
+vita, hvat í belg mínum er." "Já," segja þeir, "þar er
+okkr allmikil forvitni á." "Þá skulu þit breiða niðr
+skikkjur ykkrar, ok mun ek steypa ór því, er í er." Svá
+gera þeir, en hann steypir því niðr á skikkjurnar, er í
+var. Síðan bregðr han upp boga sinn ok leggr ör á
+streng ok skýtr fram yfir höfuð þeim mönnum öllum, er
+á veiðinni váru. Svá lætr hann um daginn sem þat eitt
+sé at skjóta dýr þau, er fara fyrir þeim Sigurði ok Sjólfi.
+Hann skýtr öllum skeytum sínum nema sex örvum,
+steinörvum karls ok Gusisnautum. Missti hann aldri
+dýrs um daginn, en þeir hlaupa hjá honum bræðr, ok
+þótti þeim mikit gaman at sjá þat, er hann skaut.
+En um kveldit, er menn kómu heim, þá váru hvers
+manns skeyti fram borin á borð fyrir konung, ok hefir
+hverr maðr markat sín skeyti, ok skal konungr sjá,
+hversu mörgum dýrum hverr hefir at bana orðit um
+daginn. Nú mæltu þeir bræðr: "Far þú innar, Næframaðr,
+eptir skeyti þínu, þat mun vera lagt á borð fyrir
+konung." "Farið þit," sagði hann, "ok eignið ykkr
+skeytit." "Þat tjáir okkr ekki," segja þeir, "því at konungr
+veit íþróttir okkrar, at vér kunnum síðr at skjóta
+en aðrir menn." "Þá skulu vér fara allir saman," sagði
+hann. Nú ganga þeir innar fyrir konung. Nú tók Næframaðr
+til orða: "Hér eru skeyti þau, er vér munum
+eigna oss félagar." Konungr leit við honum ok mælti:
+"Bogmaðr ertu mikill." "Já, herra," sagði hann, "því
+hefi ek helzt vanizt at skjóta dýr ok fugla til matar
+mér." Ok eptir þat ganga menn í sæti sín. Nú líða
+stundir.
+<pb n="366"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="26"><p>
+
+Þat var einnhvern aptan, þá er konungr er út genginn
+til svefns, at þeir rísa upp Sigurðr ok Sjólfr ok
+gengu með sitt horn hvárr þeira ok bjóða þeim at
+drekka bræðrum, Óttari ok Ingjaldi, ok báðu þá at
+taka við ok drekka af. Ok er þeir höfðu af drukkit, þá
+kómu þeir með önnur tvau, ok taka þeir við ok drekka.
+Þá mælti Sjólfr: "Liggr sá ávallt, félagi ykkarr?" "Já,"
+segja þeir, "þat þykkir honum vænligra en at drekka
+frá sér vit allt, sem vér gerum." Þá mælti Sjólfr: "Hvárt
+er hann allvel skotfærr?" "Já," segja þeir, "þat er honum
+jafn vel gefit sem annat." "Hvárt mun hann skjóta
+jafnlangt sem vit báðir?" sagði Sjólfr. "Þat ætlum vér,"
+segja þeir, "at hann muni miklu lengra skjóta ok gegnara."
+"Hér skulu vér veðja um," sagði Sjólfr "ok skulu
+vit leggja við hring þann, er vegr hálfa mörk, en þit
+skuluð leggja við tvá hringa jafnþunga." Svá er þar
+fyrir mælt, at konungr skal þar vera ok dóttir hans
+ok sjá á skot þeira, ok skulu þau taka við hringunum
+áðr ok fá þeim, er eigandi verða, ok veðja þeir síðan.
+Sofa þeir af nóttina. En um morgininn, er þeir vakna
+bræðr, þá kemr þeim í hug, at eigi væri allsvinnlig
+veðjan þeira orðin, en þat verðr þeim fyrir, at þeir
+segja Næframanni. "Allóvænliga þykkir mér veðjat
+vera," sagði hann, "af því at þó at ek fái skotit dýr,
+þá er þat lítit mark hjá því sem at keppa við þvílíka
+bogmenn, en þó mun ek freista alls, er þit hafið fé
+ykkart við lagt."
+Nú taka menn til drykkju, ok eptir drykkjumálit
+ganga menn út, ok vill konungr nú sjá skotit. Nú gengr
+Sigurðr fram ok skýtr sem hann má lengst, ok er þar
+<pb n="367"/>
+
+settr niðr staurr, ok þar gengr Sjólfr til, er stikat er.
+Þá er niðr sett spjótskapt ok sett á ofan gulltafla, ok
+skýtr Sjólfr þar ofan af töfluna, ok þykkir öllum nú
+vel skotit ok segja, at Næframaðr muni eigi þurfa við
+at leita. "Opt gefr óvænum happ," sagði Næframaðr,
+"ok skal at vísu á leita." Nú gengr Næframaðr til ok
+skýtr með einni ör ok stendr þar, sem Sigurðr hafði
+staðit. Hann skýtr í lopt upp, svá at örina fal lengi,
+en þó kemr hún þar niðr, sem taflan stendr, ok ofan
+í miðja töfluna ok svá í spjótskaptit, at hún þokaði
+engan veginn við. "Svá vel sem skotit var it fyrra sinn,"
+segir konungr, "þá er nú miklu betr skotit, ok þat
+má ek segja, at aldrigi hefi ek sét jafnvel skotit." Nú
+tekr Næframaðr ör aðra ok skýtr svá langt, at engi sér
+fyrir enda, hvar niðr kemr, ok er þat nú einmælt, at
+unninn sé leikrinn. Eptir þat ganga menn heim, ok
+taka þeir bræðr við hringinum. Þeir færa hann Næframanni.
+Hann kveðst eigi vilja hafa fé þeira at svá búnu.
+Nú líða nokkurir dagar, ok var þat enn eitt kveld,
+sem konungr er út genginn, at þeir Sigurðr ok Sjólfr
+ganga með sitt horn hvárr þeira ok bjóða þeim Óttari
+ok Ingjaldi. Þeir drekka af. Síðan færa þeir þeim önnur
+tvau. Þá mælti Sjólfr: "Enn liggr Næframaðr ok
+drekkr ekki." "Hann mun betr siðaðr en þú um allt,"
+sagði Ingjaldr. "Hitt get ek meir til," sagði Sjólfr, "at
+hann muni sjaldan verit hafa í samsæti við dugandismenn,
+ok mun hann optar hafa legit úti á mörkum ok
+skógum með fátæki, eða hvárt mun hann syndr vel?"
+"Vit ætlum honum flesta hluti jafngefna, þá sem til
+íþrótta eru," segja þeir, "ok ætlum vit hann syndan
+hlítar vel." "Hvárt mun hann betr syndr einn en vér
+báðir?" "Þat ætlum vér, at hann sé betr syndr," sagði
+Óttarr. "Hér skulu vit veðja um," sagði Sjólfr, "ok
+<pb n="368"/>
+
+munu vit leggja við þann hring, er vegr mörk, en þit
+skuluð leggja við tvá hringa, er vegi hálfa mörk hvárr."
+Nú er svá fyrir mælt, at konungr ok dóttir hans skal
+sjá á sund þeira, ok er at öllu svá fyrir mælt sem it
+fyrra sinn. Þeir sofa af um nóttina. En um morguninn,
+er þeir vakna, ferr um bekki veðjun þeira. "Hvat
+er hjalat?" sagði Næframaðr, "hvárt hafi þit enn veðjat
+nokkut í gærkveldi?" "Já," segja þeir ok segja nú honum,
+hversu veðjat var. "Nú þykkir mér allóvænt horfa,"
+sagði Næframaðr, "fyrir því at ek em alls ekki syndr, ok
+kunna ek eigi upphald, þá er ek gerða mér títt um, en
+nú kom ek aldri á kalt vatn langliga, en lagt við of
+fjár." "Já," segja þeir, "eigi þarftu at reyna, nema þú
+vilir. Varðar eigi, þó at vér gjöldum heimsku okkarrar."
+"Þat skal aldri verða," sagði Næframaðr, "at ek
+freista eigi, þar sem þit leggið á mik virðing mikla,
+ok skal konungr sjá ok Silkisif, at ek mun fyrir víst
+til sundsins ganga við þá."
+Nú er konungi sagt ok dóttur hans, ok ganga menn
+nú til vatnsins, ok var þat mikit ok skammt í burtu.
+En er þeir koma til vatnsins, sezt konungr niðr ok liðit
+með honum, en þeir fara á sund í klæðum sínum, en
+Næframaðr í þeim búningi, sem hann var vanr. Þeir
+leggjast at honum, þegar þeir koma frá landi, ok færa
+hann í kaf undir sik ok heldu honum lengi niðri. Þar
+kom, at þeir létu hann upp, ok taka þeir hvíld. Þeir
+leggjast á móti honum í annat sinn. Hann seildist til
+þeira ok tekr sinni hendi hvárn þeira ok rak þá í kaf
+ok heldr þeim svá lengi niðri, at örvænt þótti, at þeir
+mundu upp koma. Hann ætlar þeim skamma hvíld ok
+tekr þá í annat sinn ok færir þá niðr ok í þriðja sinn
+ok heldr þeim svá lengi niðri, at engir ætluðu, at þeir
+mundu lífs upp koma. En þat varð enn, at þeir koma
+<pb n="369"/>
+
+upp allir, ok stökk þá blóð ór nösum hvárratveggja
+þeira öndvegishölda konungs, ok váru þeir ekki sjálfbjarga
+til lands. Þá tók Næframaðr þá ok kastar þeim
+upp á land. Síðan gekk hann á sund ok lék marga leika,
+þá sem mönnum var títt at leika á sundi. En um kveldit
+gekk hann á land ok til fundar við konung. Ok nú
+spyrr konungr: "Hvárt ertu ekki öðrum mönnum líkr
+um íþróttir, bæði um skot ok sund?" "Sénar eru nú
+allar mínar íþróttir, er þessar eru," sagði Næframaðr;
+"ek heiti Oddr, ef þú vilt þat vita, en ek kann eigi
+greina fyrir þér um kyn mitt." Nú fekk Silkisif honum
+hringana. Síðan ganga menn heim. Þá mæltu þeir,
+at Oddr skuli hafa hringana alla, en hann vill eigi þat,
+-- "ok skulu þit hafa þá sjálfir." Nú ferr svá fram
+nokkura hríð ok eigi langa. Er konungr um þetta mál
+mjök hugsjúkr, hverr sá maðr muni vera, er þar var
+með honum.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="27"><p>
+
+Maðr er nefndr Hárekr, er þar var með konungi.
+Hann hafði mikla virðing af konungi. Hann var gamall
+maðr. Hann fóstraði konungsdóttur. Jafnan hjalaði
+konungr við hann um þetta mál, en hann kveðst eigi
+vita ok sagði svá, at honum leizt þat líkligt, at maðr
+sjá mundi vera stórrar ættar. Þat var eitt kveld, þá er
+konungr var til svefns farinn, at þeir Sjólfr ok Sigurðr
+ganga utar fyrir þá bræðr ok færa þeim horn tvau, ok
+drukku þeir af þeim. Þá tók Sjólfr til orða: "Liggr
+Oddr inn mikli?" "Já," segja þeir, "þat er svinnligra
+en at drekka frá sér vitit allt, sem vér gerum." "Þat
+mun valda, at hann mun vanari vera at liggja úti á
+<pb n="370"/>
+
+mörkum eða vötnum en at drekka með góðum mönnum,
+eða hvárt mun hann mikill drykkjumaðr?" "Já,"
+segja þeir. "Hvárt mun hann meiri drykkjumaðr einn en
+vit báðir?" sagði Sjólfr. "Þat ætlum vit," sagði Óttarr,
+"at hann drekki miklu meira." "Hér skulu vér veðja
+um," sagði Sjólfr, "ok munu vit leggja við hring þann,
+er stendr tólf aura, en þit skuluð leggja við höfuð ykkur."
+Þetta mál festa þeir með sér sem in fyrri. Nú
+spyrr Oddr um morguninn, hvat talat væri. Þeir segja
+honum. "Nú hafi þit svá heimskliga veðjat," sagði Oddr,
+"at miklu hafi þit nú við aukit um þær, er fyrri váru,
+en lagt hér við höfuð ykkur, en eigi er víst, at ek sé
+því meiri ílögum sem ek em meiri vexti en aðrir menn,
+en ek skal eigi at síðr til ráða drykkjunnar við þá."
+Síðan er sagt konungi, at hann vill til ráða drykkjunnar,
+ok skal konungsdóttir hjá sitja ok Hárekr, fóstri
+hennar. Nú ganga þeir Sigurðr ok Sjólfr utar fyrir
+Odd. "Þar er horn," sagði Sigurðr, ok varð honum
+ljóð á munni:
+<lg>
+<l>"Oddr, klauft eigi</l>
+<l>at orrostu,</l>
+<l>hrökk hjálmat lið,</l>
+<l>Hamðis skyrtur;</l>
+<l>guðr geisaði,</l>
+<l>gekk eldr í bæ,</l>
+<l>þá er á Vindum</l>
+<l>vá sigr konungr."</l>
+</lg>
+Sjólfr færir honum annat horn ok biðr hann af drekka
+ok kvað vísu:
+<lg>
+<l>"Oddr, vart eigi</l>
+<l>at eggroði,</l>
+<l>þás seggi allvalds</l>
+<l>svelta létum;</l>
+<l>bark sár þaðan</l>
+<pb n="371"/>
+
+<l>sex ok átta,</l>
+<l>en þú með byggðum</l>
+<l>batt þér matar."</l>
+</lg>
+Síðan ganga þeir til sætis síns, en Oddr reis upp ok
+gekk fyrir Sigurð ok færir honum horn, en annat Sjólfi
+ok kvað sína vísu til hvárs þeira, áðr hann gekk í burtu:
+<lg>
+<l>"Þit skuluð hlýða</l>
+<l>hróðri mínum,</l>
+<l>Sigurðr ok Sjólfr,</l>
+<l>sessunautar,</l>
+<l>ykkr ák gjalda</l>
+<l>greypan verka,</l>
+<l>hróðr harðsnúinn,</l>
+<l>huglausum tveim.</l>
+<l>Þú látt, Sjólfr,</l>
+<l>soðgólfi á</l>
+<l>dáða vanr</l>
+<l>ok dýrs hugar,</l>
+<l>en ek út</l>
+<l>Ákvítánum</l>
+<l>fjóra menn</l>
+<l>fjörvi næmdak."</l>
+</lg>
+Þeir drukku af hornunum, en Oddr gekk at sitja. Síðan
+ganga þeir enn fyrir Odd, ok selr Sjólfr honum horn
+ok kvað vísu:
+<lg>
+<l>"Þú hefir, Oddr, farit</l>
+<l>með ölmusum</l>
+<l>ok bitlinga</l>
+<l>af borði þegit,</l>
+<l>en ek einn</l>
+<l>af Úlfsfjalli</l>
+<l>höggvinn skjöld</l>
+<l>í hendi bar."</l>
+</lg>
+Sigurðr færir honum annat horn ok kvað þetta:
+<pb n="372"/>
+
+<lg>
+<l>"Oddr, vart eigi</l>
+<l>út með Girkjum,</l>
+<l>þá er á Serkjum</l>
+<l>sverð vár ruðum;</l>
+<l>gerðum harðan</l>
+<l>hljóm ísarna,</l>
+<l>fellu firðar</l>
+<l>í fólkroði."</l>
+</lg>
+Nú drekkr Oddr af hornunum, en þeir gengu at sitja.
+Síðan ríss Oddr upp ok gekk með sitt horn at hvárum
+þeira ok kvað þetta:
+<lg>
+<l>"Slótt við meyjar</l>
+<l>málþing, Sjólfr,</l>
+<l>meðan loga létum</l>
+<l>leika um kynni;</l>
+<l>unnum harðan</l>
+<l>Hadding drepinn,</l>
+<l>ok Ölvi var</l>
+<l>aldrs of synjat.</l>
+<l>Þú látt, Sigurðr,</l>
+<l>í sal meyja,</l>
+<l>meðan við Bjarma</l>
+<l>börðumst tvisvar,</l>
+<l>háðum hildi</l>
+<l>hauksnarliga,</l>
+<l>en þú, seggr, í sal</l>
+<l>svaft und blæju."</l>
+</lg>
+Nú gekk Oddr at sitja, en þeir drukku af hornunum,
+ok þótti mönnum þetta mikil skemmtan, ok gáfu allir
+hljóð til þessa. Eptir þat gengu þeir fyrir Odd ok færa
+honum horn. Þá kvað Sjólfr:
+<lg>
+<l>"Oddr, vart eigi</l>
+<l>á Atalsfjalli,</l>
+<l>þá er fenloga</l>
+<l>fengit höfðum;</l>
+<l>vér berserki</l>
+<pb n="373"/>
+
+<l>binda gerðum,</l>
+<l>þá var af kappi</l>
+<l>konungs lið drepit."</l>
+</lg>
+Nú drekkr Oddr af hornunum, en þeir setjast niðr.
+Oddr færir þeim horn ok kvað þetta:
+<lg>
+<l>"Sjólfr, vart eigi,</l>
+<l>þar er sjá máttum</l>
+<l>brynjur manna</l>
+<l>blóði þvegnar;</l>
+<l>hrukku oddar</l>
+<l>í hringserkjum,</l>
+<l>en þú höll konungs</l>
+<l>heldr kannaðir.</l>
+<l>Sigurðr, vart eigi,</l>
+<l>þar er sex hruðum</l>
+<l>hábyrðuð skip</l>
+<l>fyr Hauksnesi;</l>
+<l>vart ok eigi</l>
+<l>vestr með Skolla,</l>
+<l>þá er Engla gram</l>
+<l>aldri næmdum."</l>
+</lg>
+Oddr settist nú niðr, en þeir færa honum horn ok
+fylgir engi kveðskapr. Hann drekkr af, en þeir setjast
+niðr. Ok nú færir Oddr þeim horn ok kvað þetta:
+<lg>
+<l>"Sjólfr, vart eigi,</l>
+<l>þar er sverð ruðum</l>
+<l>hvöss á jarli</l>
+<l>fyr Hléseyju;</l>
+<l>en þú hallaðist</l>
+<l>heima á milli,</l>
+<l>kynmálasamr,</l>
+<l>kálfs ok þýjar.</l>
+<l>Sigurðr, vart eigi,</l>
+<l>er á Sælundi felldak</l>
+<l>bræðr böðharða,</l>
+<pb n="374"/>
+
+<l>Brand ok Agnar,</l>
+<l>Ásmund, Ingjald,</l>
+<l>Álfr var inn fimmti;</l>
+<l>en þú heima látt</l>
+<l>í höll konungs,</l>
+<l>skrökmálasamr,</l>
+<l>skauð hernumin."</l>
+</lg>
+Nú gengr hann at sitja, en þeir standa upp ok færa
+honum horn. Oddr drakk af þeim báðum. Síðan færir
+hann þeim horn ok kvað þetta:
+<lg>
+<l>"Sjólfr, vart eigi</l>
+<l>suðr á Skíðu,</l>
+<l>þar er konungar</l>
+<l>knúðu hjálma;</l>
+<l>óðum dreyra,</l>
+<l>svát í ökkla tók;</l>
+<l>víg vakta ek,</l>
+<l>vart eigi þar.</l>
+<l>Sigurðr, vart eigi</l>
+<l>í Svíaskerjum,</l>
+<l>þá er Hálfdani</l>
+<l>heiptir guldum;</l>
+<l>urðu randir</l>
+<l>rógmiklaðar,</l>
+<l>sverðum skornar,</l>
+<l>en hann sjálfr drepinn."</l>
+</lg>
+Nú sezt Oddr niðr, en þeir færa honum hornin, ok
+drekkr hann af, en þeir fara at sitja. Þá færir Oddr
+þeim horn ok kvað:
+<lg>
+<l>"Heldum aski</l>
+<l>í Elfarsund,</l>
+<l>teitir ok reifir,</l>
+<l>at Trönuvágum;</l>
+<l>þar lá Ögmundr</l>
+<l>Eyþjófsbani,</l>
+<l>trauðastr flugar,</l>
+<l>á tveim skipum.</l>
+<pb n="375"/>
+
+<l>Þá létu vér</l>
+<l>lindi barða</l>
+<l>hörðu grjóti,</l>
+<l>hvössum sverðum;</l>
+<l>þrír lifðu vér,</l>
+<l>en þeir níu.</l>
+<l>Hrókr hernuminn,</l>
+<l>hví þegir þú nú?"</l>
+</lg>
+Þá gengr Oddr til sætis, en þeir færa honum horn.
+Hann drekkr af þeim ok færir þeim önnur ok kvað
+þetta:
+<lg>
+<l>"Sigurðr, vart eigi</l>
+<l>Sámseyju í,</l>
+<l>þá er við Hjörvarð</l>
+<l>höggum skiptak;</l>
+<l>tveir váru vit,</l>
+<l>en þeir tólf saman;</l>
+<l>sigr hafða ek,</l>
+<l>sazt kyrr meðan.</l>
+<l>Gekk ek um Gautland</l>
+<l>í grimmum hug</l>
+<l>sjau dægr í samt,</l>
+<l>áðr Sæund fyndak;</l>
+<l>knáttak þeira,</l>
+<l>áðr þaðan færak,</l>
+<l>átján lýða</l>
+<l>aldri næma,</l>
+<l>en þú gjögraðir,</l>
+<l>gárungr vesall,</l>
+<l>síð um aptan</l>
+<l>til sængr þýjar."</l>
+</lg>
+Þá varð óp mikit í höllinni af þessu, er Oddr hafði
+kveðit, ok drekka þeir af hornum sínum, en Oddr sezt
+niðr. Konungsmenn hlýða skemmtan þeira. Enn færa
+þeir Oddi hornin, ok vinnr hann skjótt um þau bæði.
+Eptir þat ríss Oddr upp ok gengr fyrir þá ok þykkist
+vita, at nú sígr at þeim drykkrinn ok allt saman, at
+<pb n="376"/>
+
+þeir váru fyrir lagðir í skáldskapnum. Hann selr þeim
+hornin ok kvað þetta:
+<lg>
+<l>"Þit munuð hvergi</l>
+<l>hæfir þykkja,</l>
+<l>Sigurðr ok Sjólfr,</l>
+<l>í sveit konungs;</l>
+<l>ef Hjálmars getk</l>
+<l>ins hugumstóra,</l>
+<l>þess er snarpligast</l>
+<l>sverði beitti.</l>
+<l>Gekk snarpr Þórðr</l>
+<l>fyr skjöldu fram,</l>
+<l>hvar er orrostu</l>
+<l>eiga skyldum;</l>
+<l>hann lét Hálfdan</l>
+<l>hníga at velli,</l>
+<l>fræknan stilli,</l>
+<l>ok hans fylgjara.</l>
+<l>Váru vit Ásmundr</l>
+<l>opt í bernsku</l>
+<l>fóstbræðr saman</l>
+<l>báðir litnir;</l>
+<l>bar ek stundar opt</l>
+<l>stöng darraðar,</l>
+<l>þar sem konungar</l>
+<l>kappi deildu.</l>
+<l>Hefk á Saxa</l>
+<l>ok á Svía herjat,</l>
+<l>Íra ok á Engla</l>
+<l>ok endr Skota,</l>
+<l>Frísa ok Frakka</l>
+<l>ok á Flæmingja;</l>
+<l>þeim hefk öllum</l>
+<l>óþarfr verit.</l>
+<l>Nú hefk dýra</l>
+<l>drengi talda,</l>
+<l>þá er forðum mér</l>
+<l>fylgdu úti;</l>
+<l>munu víst eigi</l>
+<l>verða síðan</l>
+<l>frægri firðar</l>
+<l>í fólkroði.</l>
+<l>Nú hefk órar</l>
+<l>íðnir taldar,</l>
+<l>þær er forðum vér</l>
+<l>framdar höfðum;</l>
+<l>aptr gengu vér</l>
+<l>til öndvegis,</l>
+<l>sigri gæddir;</l>
+<l>látum Sjólf mæla."</l>
+</lg>
+Eptir þetta settist Oddr í sæti sitt, en þeir bræðr fellu
+þar sofnir niðr, ok varð nú ekki af þeim meira um
+drykkjuna, en Oddr drekkr lengi, ok eptir þat leggjast
+menn niðr ok sváfu af nóttina.
+En um morguninn, er konungr kom í hásæti, þá hefir
+Oddr úti verit staddr ok þeir félagar hans. Hann gengr
+at vatni einu ok þvær sér. Þeir bræðr sjá, at rifnuð var
+næfrastúkan á hendi hans annarri, ok kom þar fram ermr
+rauð ok gullhringr á armi, ekki mjósleginn. Ok síðan
+<pb n="377"/>
+
+rífa þeir af honum allar næfrarnar. Hann brauzt ekki
+við þessu, en hann er svá búinn undir, at hann er í
+skarlatskyrtli rauðum, hlaðbúnum, en hár lá á herðum
+niðr. Hann hafði knýtt gullhlaði um höfuð sér ok var
+allra manna vænstr. Þeir tóku í hendr honum ok leiddu
+hann inn í höllina fyrir hásæti konungs ok segja svá:
+"Þat ætlum vér, at vér vitum eigi allgerla, hvern vér
+höfum hér í fóstri haft." "Svá má vera," sagði konungr,
+"eða hverr er þessi maðr, er svá hefir dulizt fyrir oss?"
+"Nú heiti ek Oddr, sem ek sagða yðr fyrir löngu, sonr
+Gríms loðinkinna norðan ór Noregi." "Ertu eigi sá
+Oddr, er fór til Bjarmalands fyrir löngu?" "Sá er maðrinn,
+er þar hefir komit." "Þá er eigi kynligt, at öndvegishöldum
+mínum felli þungt við þik um íþróttirnar." Nú
+stendr konungr upp í móti honum ok fagnar Oddi vel
+ok býðr honum í hásæti hjá sér. "Þat mun ek eigi
+þiggja því at eins, nema vér förum allir félagar." Þat
+er nú sagt, at þeir færa nú sæti sín ok sitr Oddr it næsta
+konungi, en Hárekr færir byggð sína fram á stól fyrir
+konung. Konungr leggr svá mikla virðing á Odd, at
+engan mann mat hann meira en hann.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="28"><p>
+
+Jafnan berr saman tal þeira Odds ok Háreks. Þá spyrr
+Oddr, hvárt menn biðja ekki konungs dóttur. "Eigi er
+þat traust," sagði hann, "þeir hafa beðit hennar öndvegishöldarnir
+til handa sér." "Hversu svarar hann því
+máli?" sagði Oddr. "Á hefir hann gert þeim kostinn,"
+sagði hann. "Lát mik heyra þann kost," sagði Oddr.
+"Konungr á skatt at heimta af landi því, er Bjálka heitir.
+Þar ræðr fyrir sá konungr, er Álfr heitir ok kallaðr
+<pb n="378"/>
+
+bjálki. Hann er kvángaðr. Kona hans heitir Gyðja. Hún
+er mikill blótmaðr ok bæði þau. Þau eiga son saman,
+ok heitir Víðgripr. Svá eru þau fjölkunnug, at þau festa
+saman stóð ok stjörnur. Þar á konungr skatt at heimta,
+ok hafa lengi niðri legit. Mælti konungr þat til, ef hann
+skyldi gifta þeim dóttur sína, at þeir skyldu heimta skatt
+af landinu, en þat nam við, at þeir mæltu til svá mikils
+liðs ór landinu, at konungr þóttist berr fyrir hermönnum,
+er á ganga ríkit. "Svá þykki mér," sagði Oddr,
+"at annathvárt mun vera, at skattrinn mun aldri heimtr
+verða, eða endast mun ella, þó at minna lið sé til haft,
+eða hvat ætlar þú, hvárt konungr mun vilja gera mér
+þvílíka kosti sem öðrum, ef ek get heimt skattinn?" sagði
+Oddr. "Vitr maðr er konungr," sagði Hárekr, "ok get
+ek, at sjá þykkist hann þann mun, er yðvarr er um ráðakostinn."
+Ok er nú þetta mál birt fyrir konungi, en hvárt
+sem rætt er um þetta fleira eða færa, þá urðu þau málalok,
+at Oddr skyldi fara för þessa at heimta skattinn,
+ok ef hann kemr fram ferðinni ok fær skattinn, þá skal
+hann eignast konungsdóttur, ok er honum heitit konunni
+við margra manna vitni.
+Nú býst Oddr til ferðar, ok er nú lið saman dregit,
+sem hann vill hafa, ok er hann er búinn, þá leiðir konungr
+hann á götu. Þeir skyldu landveg fara. "Hér er
+gripr sá," sagði konungr, "at ek vil gefa þér." "Hvat
+er þat?" sagði Oddr. "Þat er skjaldmær, er lengi hefir
+mér fylgt," sagði konungr, "ok verit brjóst fyrir mér
+í hverjum bardaga." Oddr brosti ok mælti: "Þar hefi ek
+hvergi komit, at konur hafi verit brjóst fyrir mér, en
+þó skal þetta þiggja, alls at þú þykkist vel bjóða." Þeir
+konungr ok Oddr skilja nú, ok ferr Oddr til þess, at
+hann kom at feni einu miklu, ok skopar at skeið ok
+hleypr yfir fenit. Skjaldmærin var it næsta honum, ok
+<pb n="379"/>
+
+varð henni bilt, er hún kom at feninu. Þá spyrr Oddr:
+"Hví hljóptu eigi eptir mér?" "Því ek var eigi búin,"
+sagði hún. "Já," sagði hann, "vertu nú þá búin." Hún
+styttir sik þá upp ok hleypr at feninu í annat sinn, ok
+ferr sem fyrr ok svá it þriðja sinn. Þá hleypr Oddr aptr
+yfir fenit ok þrífr í hönd henni ok fleygir henni út á fenit
+ok mælti: "Far þú þar nú, ok hafi þik öll tröll," hleypr
+nú fram aptr yfir fenit í þriðja sinn ok bíðr nú liðs síns.
+Þeir urðu allir at ganga fyrir enda síkisins, svá var þat
+breitt ok illt yfirferðar. Ok nú ferr Oddr með lið sitt
+ok gerir njósnir fyrir sér, ok spyrr hann þau tíðendi,
+at Víðgripr hefir dregit saman her mikinn ok í mót
+þeim ferr hann. Þeir finnast á völlum nokkurum, ok
+var þá kveld.
+Þeir setja herbúðir sínar hvárirtveggja, ok hugði
+Oddr at um kveldit, hvar Víðgripr setr tjald sitt. En
+er menn höfðu látrazt ok allt var kyrrt ok hljótt, stendr
+Oddr upp ok gengr út. Hann var svá búinn, at hann
+hafði sverð í hendi ok ekki fleira vápna. Eigi nam hann
+fyrr staðar en hann kom at tjaldi því, er Víðgripr svaf
+í, ok stóð hann þar mjök lengi ok bíðr þess, ef nokkurr
+maðr gengr út ór tjaldinu. Þat varð, at maðr gekk
+út, en húm var á mikit. Hann tók til orða ok mælti:
+"Hví hímir þú hér," sagði hann, "en gengr eigi annathvárt
+inn í tjaldit eða á burt?" "Já," sagði hann, "mér
+hefir tekizt til eigi vel. Ek hitti eigi til rúms míns, þar
+sem ek lögðumst niðr í gærkveld." "Vissir þú, hvar þat
+var í tjaldinu?" "Þat vissa ek víst, at ek skyldi liggja
+í tjaldi Víðgrips ok einn maðr í millum mín ok hans,
+en svá fjarri ferr, at ek feta þangat, en ek mun verða
+fyrir hvers manns hlátri, ef ek nýt eigi þín við." "Já,"
+segir hinn, "mega mun ek þat til leggja með þér at koma
+þér til sængr þeirar, er Víðgripr liggr í," ok svá gerir
+<pb n="380"/>
+
+hann. "Já," sagði Oddr, "láttu nú hljótt, ok mun mér
+nú allvel hlýða, því at nú sé ek gerla rúm mitt." Nú
+gengr sá á burt, en Oddr stendr þar eptir ok þar til,
+er hann ætlar, at hinn muni sofnaðr. Þá stingr Oddr
+spýtu út í gegnum tjaldit, þar sem Víðgripr lá undir.
+Eptir þat gengr hann út ok á bak tjaldinu ok þar at,
+er spýtan stóð. Þar sprettr hann til ok kippir Víðgrip
+út um skörina ok á tjaldstokkinn ok höggr af honum
+höfuðit við stokkinum. Hann spýtti aptr tjaldinu ok
+lét falla inn aptr búkinn, en hann gekk til tjalds síns
+ok leggst niðr ok lætr sem ekki hafi í orðit.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="29"><p>
+
+Ok um morguninn, er þeir vakna víkingarnir, þá
+finna þeir Víðgrip veginn ok í burtu höfuðit hans.
+Þetta þykkir þeim svá mikil býsn ok undr, at allir undruðust.
+Þeir bera nú ráð sín saman, ok verðr þat af
+ráðit, at þeir taka annan mann til höfðingja ok kalla
+þann nafni Víðgrips ok láta bera fyrir þeim merki um
+daginn. Ok nú vakna þeir Oddr ok herklæðast. Hann
+býr svá um, at hann lætr búa merkisstöng ok setr þar
+á ofan höfuð Víðgrips á stöngina. Nú fylkja hvárirtveggja.
+Oddr gengr fram fyrir lið sitt ok hefir miklu
+minna lið. Oddr tók þá til orða ok kallar á landsmenn
+ok spurði, ef þeir kenndu höfuð þat, er borit var fyrir
+honum. Þá þykkjast landsmenn þekkja höfuð Víðgrips
+ok undruðust mjök, at svá mátti verða. Nú gerir Oddr
+þeim tvá kosti, hvárt þeir vilja halda bardaga við
+hann eða ganga á hönd honum. En þeim þykkir svá
+hafa við borit, at þeim þykkir sér ekki vænna horfa,
+þó at þeir reyni, ok verðr þat ráð þeira at ganga á hönd
+<pb n="381"/>
+
+Oddi. Hann tók við þeim ok öllu liði þessu ok fór
+þangat til, at þeir mætast Oddr ok Álfr bjálki. Þar
+hafði hvárrtveggi mikit lið, ok hafði Oddr þó minna
+en Álfr. Þar laust þegar í bardaga með þeim. Þar var
+svá hörð atlaga, at þess hafði Oddr hvergi staddr verit,
+at þvílíkt mannfall hafi orðit, fyrir því at á lítilli
+stundu þóttist hann sjá mikinn þurrð á liði sínu. "Þat
+fylgir ok," sagði Oddr, "at ek þykkjumst allt ryðja
+fram at merkjum Álfs, en þó sé ek hann hvergi." Þá
+tekr einn landsmaðr til orða, sá er áðr hafði verit með
+Víðgrip: "Eigi veit ek," sagði hann, "hvat þér er þess,
+at þú sér hann eigi, því at hann gengr eptir merkjum
+sínum ok skilst þar aldri við, ok er þat til marks
+um, at hann skýtr ör af hverjum fingri ok hefir mann
+fyrir hverri." "Eigi sé ek hann því heldr," sagði Oddr.
+Þá bregðr sá maðr hendi sinni yfir höfuð Oddi ok
+mælti: "Líttu heðan undan hendi mér." Ok þegar sér
+Oddr Álf ok þat með, er honum var til merkja sagt.
+Oddr mælti þá: "Haltu þar nokkura stund," sagði
+Oddr, ok sá gerir svá. Nú leitar Oddr at Gusisnautum
+ok tók eina af þeim ok lagði á streng ok skaut at Álfi
+bjálka, en hann skýtr fyrir lófanum, ok bítr alls ekki
+á. "Fara skulu þér nú allar," sagði Oddr, "þó at engi
+yðar dugi." Hann skýtr þeim öllum, ok bítr engin
+þeira, ok falla þær þá allar Gusisnautar í gras. "Eigi
+veit ek," sagði Oddr, "nema þat sé nú fram komit, er
+Jólfr karl sagði, at þær sé nú farnar Gusisnautar, ok
+mun verða freista steinörva karls," ok tók hann eina
+af þeim ok leggr á streng ok skýtr at Álfi bjálka. En
+er hann heyrir hvininn af örinni, at hún fló at honum,
+þá bregðr hann enn við lófanum, en örin fló í
+gegnum, ok út um hnakkann. Oddr tekr aðra ok leggr
+á streng ok skýtr at Álfi. Hann bregðr við öðrum
+<pb n="382"/>
+
+lófanum ok ætlar nú betr at gæta þess augans, er eptir
+er, en sú kemr í þat augat, er heilt er, ok út um hnakkann.
+Eigi fell Álfr heldr en áðr. Þá skýtr Oddr inni
+þriðju, ok kemr sú á Álf miðjan, ok nú fellr hann
+þar. Nú falla steinörvar karls, ok hefir hann svá fyrir
+mælt, at hann mundi þeim eigi optar skjóta ok þær
+mundu eigi finnast.
+Nú er bardagi skammr þaðan frá, því at liðit var
+komit á flótta ok til borgarinnar. Þar stendr gyðjan í
+borgarhliðinu ok skýtr af öllum fingrum. Nú linnar
+bardaganum, ok gengr lið til handa Oddi enn hvervetna.
+Hjá borginni stóðu hof ok hörgar, ok lét Oddr
+slá í eldi ok brenna allt, er í nánd er borginni, ok þá
+varð gyðjunni ljóð á munni:
+<lg>
+<l>"Hverr veldr eldi,</l>
+<l>hverr orrostu,</l>
+<l>hverr jarls megin</l>
+<l>oddum beitir?</l>
+<l>Hof sviðnuðu,</l>
+<l>hörgar brunnu,</l>
+<l>hverr rauð eggjar</l>
+<l>á Yngva liði?"</l>
+</lg>
+Nú svarar Oddr ok kvað
+þetta:
+<lg>
+<l>"Oddr brenndi hof</l>
+<l>ok hörga braut</l>
+<l>ok trégoðum</l>
+<l>týndi þínum;</l>
+<l>gerðu þau ekki</l>
+<l>góðs í heimi,</l>
+<l>er þau ór eldi</l>
+<l>ösla né máttu."</l>
+</lg>
+Þá kvað hún:
+<lg>
+<l>"Hugr hlægir mik,</l>
+<l>at hefir fengna</l>
+<l>Freys reiði þú,</l>
+<l>fári blandna,</l>
+<l>hjálpi æsir</l>
+<l>og ásynjur,</l>
+<l>gervöll regin,</l>
+<l>gyðju sinni."</l>
+</lg>
+Þá kvað Oddr:
+<lg>
+<l>"Hirðik eigi,</l>
+<l>þótt hætir þú,</l>
+<l>fárgjörn kona,</l>
+<l>Freys reiði mér;</l>
+<l>veitk í eldi</l>
+<l>ásu brenna</l>
+<l>tröll eigi þik,</l>
+<l>trúik guði einum."</l>
+</lg>
+Þá kvað hún:
+<lg>
+<l>"Hverir ólu þik</l>
+<l>upp til heimskan,</l>
+<l>er þú eigi vilt</l>
+<l>Óðin blóta?"</l>
+</lg>
+<pb n="383"/>
+
+Þá tók Oddr undir ok kvað:
+<lg>
+<l>"Fæddi mik Ingjaldr</l>
+<l>upp í bernsku,</l>
+<l>sá er Eikund réð</l>
+<l>ok Jaðar byggði."</l>
+</lg>
+Þá kvað hún.
+<lg>
+<l>"Auð þættumst ek</l>
+<l>eiga nógan,</l>
+<l>ef ek inn ítra</l>
+<l>Álf of fyndak;</l>
+<l>blót gefk honum</l>
+<l>ok bú fjögur;</l>
+<l>hann mun yðr alla</l>
+<l>í eld draga."</l>
+</lg>
+Þá kvað Oddr þetta:
+<lg>
+<l>"Oddr sveigði álm,</l>
+<l>ör fló af strengjum,</l>
+<l>Jólfs smíði beit</l>
+<l>Álf í gegnum;</l>
+<l>býðrat blót honum,</l>
+<l>svát Bjálki þiggi,</l>
+<l>hlakka hrafnar</l>
+<l>of hræi Bjálka."</l>
+</lg>
+Þá kvað hún:
+<lg>
+<l>"Hverir efldu þik</l>
+<l>austan hingat,</l>
+<l>feikna fullan</l>
+<l>ok fláráðan?</l>
+<l>Muntu hvervetna</l>
+<l>herja vilja,</l>
+<l>er Álfi máttuð</l>
+<l>aldrsspell gera."</l>
+</lg>
+Þá kvað Oddr:
+<lg>
+<l>"Efldu mik örvar</l>
+<l>ok Jólfs smíði</l>
+<l>stórger skeyti</l>
+<l>ok stinnr bogi;</l>
+<l>en þat it fimmta,</l>
+<l>er þú fregna skalt,</l>
+<l>at ek við ása</l>
+<l>aldri blíðkumst.</l>
+<l>Lét ek Frey</l>
+<l>fyrst ok Óðin,</l>
+<l>blinda báða,</l>
+<l>á bál fara,</l>
+<l>urðu æsir</l>
+<l>undan at leita,</l>
+<l>hvar sem í flokki</l>
+<l>fundizt höfðum."</l>
+</lg>
+Ok enn kvað hann:
+<lg>
+<l>"Eltak æsi</l>
+<l>örhjartaða tvá,</l>
+<l>sem fyr úlfi geitr</l>
+<l>argar rynni;</l>
+<l>illt er at eiga Óðin</l>
+<l>at einka vin;</l>
+<l>skalt eigi lengr</l>
+<l>skrattann blóta."</l>
+</lg>
+Oddr veðr nú at gyðjunni með eikikylfu mikla. Hún
+stökkr undan ok í borgina með liði því, er henni fylgdi.
+Oddr rekr flóttann, ok drepa þeir allt þat, er þeir
+mega höndum á koma, en gyðjan flýr til höfuðhofs,
+er stóð í borginni, ok hleypr inn í hofit ok mælti þetta:
+<pb n="384"/>
+
+<lg>
+<l>"Hjálpi æsir</l>
+<l>ok ásynjur,</l>
+<l>gervöll regin,</l>
+<l>gyðju sinni."</l>
+</lg>
+Oddr kom at hofinu ok vill eigi inn ganga eptir henni.
+Hann ferr upp á hofit ok sér inn um glugginn, hvar
+hún liggr. Verðr honum fyrir, at hann tekr upp stein
+mikinn ok keyrir inn í glugginn. Hann kemr á hrygg
+gýginni ok lemr hana þar niðr við stöllunum, ok dó
+hún þar. En Oddr rekr hernað um alla borgina. Hann
+kemr þar at, er Álfr var; hann var þá enn eigi dauðr.
+Þá berr Oddr hann með kylfu, til þess er hann er
+dauðr. Nú dregr hann saman skatta um allt landit ok
+setr yfir höfðingja ok stjórnarmenn. En svá segir hann
+í ljóðunum, at þetta hefir í Antíokía verit, at hann
+drap þá feðga. Ok þá er hann var búinn, ferr hann á
+burt þaðan með auð mikinn ok ógrynni fjár, svá at
+engi mátti virða, ok er nú ekki sagt frá ferðum hans,
+fyrr en þeir koma aptr í Grikkjaríki. Á meðan hafði
+þat til tíðenda orðit í landinu, at Herrauðr konungr
+var andaðr, ok er hann út borinn ok orpinn haugr
+eptir hann. Oddr lét þegar at erfi fá, er hann kom í
+land, ok er þat var búit, þá fastnar Hárekr Oddi fóstrmey
+sína, Silkisif, ok er nú allt senn, at menn drekka
+brullaupit ok erfit eptir Herrauð konung. Ok á þessi
+veizlu var Oddi konungsnafn gefit, ok stýrir hann nú
+ríki sínu.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="30"><p>
+
+Þat hafði borit til tíðenda fyrir sjau vetrum, at konungr
+sá, er var austr í Hólmgörðum, hafði orðit bráðdauðr,
+en þar brauzt til ríkis ókunnigr maðr, sá er
+<pb n="385"/>
+
+Kvillánus heitir, ok varð hann þar konungr yfir. Hann
+var nokkut með undarligum hætti, því at hann hafði
+grímu fyrir andliti, svá at aldri sá hans ásjónu bera.
+Þetta þótti mönnum kynligt. Engi maðr vissi ok ætt
+hans né óðaljörð, eigi heldr, hvaðan hann var at kominn.
+Lögðu menn þetta mjök í umræðu. Spyrst þetta
+víða, ok þetta kemr í Grikkland til eyrna Oddi, ok
+þykkir honum undarligt mjök um þenna mann, at hann
+skal aldri hafa heyrt hans getit, svá víða sem hann
+hafði farit. Oddr stígr þá á stokk ok strengir þess heit,
+at hann skal víss verða, hverr konungr er í Görðum
+austr, ok nokkuru síðar safnar hann liði ok býst heiman.
+Hann sendir orð Sírni, fóstbróður sínum, ok kom
+hann til móts við hann austr fyrir Vinnlandi ok hafði
+þrjá tigi skipa, en Oddr fimm tigi. Þeir váru allir vel
+búnir at vápnum ok mönnum. Þeir halda nú austr til
+Hólmgarðs.
+Garðaríki er svá mikit land, at þat var þá margra
+konunga ríki. Marró hét konungr. Hann réð fyrir Móramar;
+þat land er í Garðaríki. Ráðstafr hét konungr.
+Ráðstofa heitir þar, er hann réð fyrir. Eddval hét konungr.
+Hann réð fyrir því ríki, er Súrsdal heitir. Hólmgeirr
+hét sá konungr, er næst Kvillánus réð fyrir Hólmgarði.
+Paltes hét konungr. Hann réð fyrir Palteskjuborg.
+Kænmarr hét konungr. Hann réð fyrir Kænugörðum,
+en þar byggði fyrst Magok, sonr Japhets Nóasonar.
+Þessir konungar allir, sem nú eru nefndir, váru
+skattgildir undir Kvillánus konung.
+Ok áðr en Oddr kæmi til Hólmgarðs, þá hafði Kvillánus
+lið safnat um ina næstu þrjá vetr. Þykkir mönnum
+sem hann hafi vitat fyrir þangatkvámu Odds. Þar váru
+allir fyrr nefndir konungar með honum. Svartr Geirríðarson
+var ok þar. Hann var svá kallaðr, síðan Ögmundr
+<pb n="386"/>
+
+Eyþjófsbani hvarf. Þar var ok mikill herr af
+Kirjálalandi ok Rafestalandi, Refalandi, Vírlandi, Eistlandi,
+Líflandi, Vitlandi, Kúrlandi, Lánlandi, Ermlandi
+ok Púlínalandi. Þetta var svá mikill herr, at eigi
+mátti hundruðum telja. Undruðust menn mjök, hvat
+þetta ógrynni hers, er saman var dregit, skyldi. En er
+Oddr var við land kominn, sendi hann menn á fund
+Kvillánuss konungs ok bauð honum burtreið, en
+Kvillánus brást skjótt við ok fór á mót honum með her
+sinn. Hafði hann þá grímu fyrir andliti sínu, sem hann
+var vanr. En þegar þeir fundust, bjuggust þeir at ríða
+á burt. Þeir höfðu sterkar stengr ok langar. Fjórar
+brutu þeir stengr, ok þrjá daga reyndu þeir með sér,
+ok gerðist ekki at. Þá mælti Kvillánus: "Reynt þykki
+mér nú með okkr, ok kalla ek okkr jafna." "Svá þykki
+mér þat mega kalla," sagði Oddr. "Þá þykki mér ráð,
+at vit skiljum," sagði Kvillánus, "ok stríðum ekki lengr,
+ok vil ek bjóða þér heim til veizlu." "Þar stendr fyrir
+einn hlutr," sagði Oddr. "Hverr er sá?" sagði Kvillánus.
+"Sá," kvað Oddr, "at ek veit eigi, hverr þú ert,
+en ek hefi þess heit strengt at vita, hverr konungr væri
+í Hólmgarði." Þá tók Kvillánus grímuna frá andliti sér
+ok mælti: "Þekkir þú nokkut þetta it nauðljóta höfuð?"
+Oddr kenndi þá gerla Ögmund bónda Eyþjófsbana, því
+at öll merki sá þau á honum, sem Oddr hafði af
+honum rifit skegg ok ásjónu ok aptr á miðjan haus.
+Var þetta allt beingróit ok ekki hár á vaxit. Oddr mælti
+þá. "Nei, Ögmundr," sagði hann, "við þik sættumst
+ek aldri. Miklu hefir þú mér meira skaða unnit, ok
+býð ek þér til bardaga á morgin." Ögmundr játar því,
+ok annan dag eptir tóku þeir til bardaga. Var hann
+bæði æfr ok strangr, ok varð it mesta mannfall af hvárumtveggjum.
+Sírnir gekk þá enn sem optar raunvel
+<pb n="387"/>
+
+fram ok drap margan mann, því at Sniðill beit allt,
+þat er fyrir varð. Svartr Geirríðarson sneri þá honum
+í móti, ok varð þar hörð sókn, en þó bilaði Sniðill þá
+at bíta, ok var Svartr þó hlífarlauss. Hvárki skorti
+Svart afl né illsku, en með því lauk þeira einvígi, at
+Sírnir fell dauðr fyrir Svarti með góðan orðstír. Þá
+hafði Oddr drepit alla skattkonunga Kvillánuss, suma
+skotit, en suma höggit. En er hann sá fall Sírnis, angraði
+honum mjök, ok þótti mjög ór einum brunni bera,
+hvern mannskaða hann fekk af Ögmundi ok hans
+mönnum. Þá leggr hann ör á streng ok skýtr at Svart,
+en hann brá við lófanum, ok beit ekki á. Svá fór önnur
+ok in þriðja. Þá kom Oddi í hug, at hann hafði mikils
+misst, þar er Gusisnautar váru honum horfnir. Hann
+snýr þá í burt ór bardaganum ok í skóginn ok höggr
+sér eina stóra kylfu ok gengr síðan aptr í bardagann.
+Ok er hann mætir Svart, taka þeir til at berjast. Lemr
+Oddr þá með kylfunni, svá at hann linnir eigi fyrr en
+hann hafði brotit hvert bein í Svart ok gekk svá af
+honum dauðum. Eigi hafði Kvillánus ekki at hafzt á
+meðan, því at svá segja menn, at ör flygi af hverjum
+hans fingri ok dæi maðr fyrir hverri, ok með atdugnaði
+manna hans hafði hann drepit hvert mannsbarn, þat er
+með Oddi var. Margt var ok fallit af Kvillánus, svá at
+varla kom tölu á. Oddr stóð þá enn upp ok varðist alldrengiliga.
+Hvárki var hann móðr né sárr; olli því
+skyrta hans. Nótt skildi þá með þeim, því at eigi var
+vígljóst. Fór Kvillánus þá til borgar með sína menn,
+þá er eptir lifðu. Var þat eigi meira en sex tigir manna,
+allir móðir ok sárir. Var hann síðan kallaðr Kvillánus
+blesi. Stýrði hann lengi síðan Hólmgörðum.
+Oddr gekk á burt á merkr ok skóga, allt þar til at
+hann kom fram í Gallía. Þar réðu þá fyrir tveir konungar,
+<pb n="388"/>
+
+en þó hafa þar verit tólf ríki. Annarr þeira hét
+Hjörólfr, en annarr Hróarr. Þeir váru bræðrasynir.
+Hróarr hafði drepit föður Hjörólfs til ríkis ok sat einn
+yfir ríkinu, nema Hjörólfr sat at einu fylki. Þar kom
+Oddr til hirðar hans. Konungr var ungr ok hafði til
+gamans at vera í skotbakka, ok gekk honum lítt. Oddr
+sagði, at þeir skyti ófimliga. "Hyggstu munu skjóta
+betr?" sagði konungr. "Ekki þykkir mér fyrir því,"
+sagði Oddr, ok nú skýtr hann ok hæfir ávallt. Þá finnst
+konungi mikit til um þenna mann ok mat Odd mikils.
+Konungr sagði honum, hversu vanhaldinn hann var
+af Hróari konungi. Oddr fýsti at beiða jafnaðarskiptis
+á ríkjunum. Þeir senda tólf menn með bréfum til konungs,
+ok er hann hafði yfir lesit bréfit, þá svarar hann
+ok sagði, at þeir væri eigi tæpidjarfir at beiða slíkra
+hluta ok þat mundi til at setja þá svá aptr, at eigi
+fýsti annan at beiða slíks. Ok síðan safna hvárirtveggja
+liði, ok hafa þeir Oddr eigi inn tólfta hlut liðs við
+Hróar. Oddr bað þá vísa sér til Hróars konungs. Síðan
+tók hann eina ör ok skaut at honum, ok kom á hann
+miðjan, ok fell þar Hróarr konungr, ok varð engi bardagi.
+Hjörólfr bauð Oddi ríkit, en hann undi þar eigi
+lengi ok leyndist á burt á einni nótt. Síðan lá hann
+úti á mörkum, þar til at hann kom í ríki sitt ok sezt
+þá um kyrrt. Nokkurum tíma síðar sendir Kvillánus
+Oddi gjafir miklar bæði í gulli ok silfri ok marga góða
+gripi ok þar með vináttumál ok sættarboð. Þá Oddr
+þessar gjafir, því at hann fyrirstóð af sinni vizku, at
+Ögmundr Eyþjófsbani, sem þá nefndist Kvillánus, var
+ósigranligr, því at hann mátti eigi síðr kallast andi en
+maðr. Ok er eigi getit, at þeir hafi síðan nokkura
+hluti við átzt, ok lauk svá þeira skiptum.
+<pb n="389"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="31"><p>
+
+Nú sitr Oddr í ríkjum sínum, ok hefir hann þar
+verit um langa ævi ok átti tvá sonu við sinni konu.
+Hét annarr Ásmundr eptir fóstbróður hans, en annarr
+hét Herrauðr eptir móðurföður sínum, ok váru báðir
+efniligir. Þat var eitthvert sinn um kveld, er þau
+kómu í rekkju, at Oddr tók til orða: "För er sú ór
+landi, er ek ætla at fara." "Er þú ætlar, hvert?" segir
+Silkisif. "Ek ætla norðr til Hrafnistu," sagði hann, "ek
+vil ok vita, hverr eyna hefir at varðveita, því at ek á
+at hafa hana ok mínir ættmenn." "Svá þykkir mér,"
+segir hún, "sem þú hafir hér nógar eignir, er þú hefir
+Garðaríki allt ok slíkt af annarra eign ok ríkjum sem
+þú vilt ok þætti mér sem þú þyrftir eigi meira at
+ágirnast ok hirða ekki um eyjarskika þann, er vettugis
+er neytr." "Já," sagði hann, "svá er þat, at eyin er
+lítils verð, en þó vil ek ráða, hverir hana skulu hafa,
+ok mun ekki stoða at letja mik, því at ek em ráðinn at
+fara, ok mun ek skamma stund á burt vera."
+Síðan býr hann tvau skip ór landi ok fjóra tigi
+manna á hváru, ok verðr ekki til frásagnar um ferð
+hans, fyrr en hann kemr norðr í Hrafnistu í Noreg.
+En þeir menn tóku vel við Oddi, er þar váru fyrir, o
+gera veizlu í mót honum, ok þar þiggr hann hálfs
+mánaðar veizlu. Þeir bjóða honum at taka við eyjunni
+ok öllum þeim eignum, sem þar lágu undir. Hann
+gefr þeim allar þær eignir ok vill þar ekki dveljast.
+Síðan býr hann ferð sína, ok er hann út leiddr með
+góðum gjöfum.
+Siglir Oddr nú ór Hrafnistu ok þar til, at þeir kómu
+fyrir Berurjóðr, en menn ætla, at þat liggi á Jaðri.
+<pb n="390"/>
+
+Þá biðr hann lægja seglin. Þar gengr Oddr á land ok
+lið hans ok þangat, er bær Ingjalds hafði staðit, ok
+váru þar þá tóptir vallgrónar. Hann lítr þar yfir ok
+mælti síðan: "Mikit er slíkt at vita, at bær sá skal allr
+niðr fallinn ok allt aleytt, þat sem hér var fyrri." Hann
+gengr nú þangat, er þeir Ásmundr höfðu átt skotbakka,
+ok sagði, hverr munr hafi verit með þeim fóstbræðrum.
+Hann fylgir þeim ok þangat, er þeir höfðu á sund
+farit, ok sagði þeim þá allt til kennimarka. Ok er þeir
+höfðu sét þetta, þá mælti hann: "Nú munu vér fara
+ferðar várrar, ok tjáir nú ekki at horfa hér á land upp,
+en mikit er at sjá eptir slíku." Nú ganga þeir Oddr
+ofan, ok var þar nú hvervetna blásin jörð, er þá var
+blómguð vel, er Oddr var þar fyrr. Ok er þeir ganga
+ofan, þá mælti Oddr: "Þat ætla ek nú, at liðin ván sé,
+at spá sú komi fram, er völvan arma spáði mér fyrir
+löngu. En hvat er þarna?" sagði Oddr, "hvat liggr þar,
+er þat eigi hrosshauss?" "Já," segja þeir, "ok ákafliga
+skininn ok fornligr, harðla mikill ok allr grár utan."
+"Hvat hyggi þér um, hvárt þat mun haussinn Faxa?"
+Þat varð Oddi fyrir, at hann stakk til haussins spjótskapti
+sínu. Hann hallaðist við nokkut svá, en undan
+honum hrökktist ein naðra ok at Oddi. Ormrinn höggr
+fót hans fyrir ofan ökkla, svá at þegar lýstr í eitri, ok
+blæss upp allan fótinn ok þar með lærit. Svá tekr Odd
+fast mein þetta, at þeir urðu at leiða hann ofan til
+sjávar. Ok er Oddr kom þar, sezt hann niðr ok mælti:
+"Nú skal skipta liði mínu í helminga, ok skulu sitja
+hjá mér fjórir tigir manna, ok vil ek yrkja kvæði um
+ævi mína, en aðrir fjórir tigir skulu gera mér steinþró
+ok draga þar at við. Þar skal leggja í eld ok brenna
+upp allt saman, þá er ek em dauðr."
+<pb n="391"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="32"><p>
+
+Nú tekr hann til kvæðisins, en hinir til sýslu sinnar
+at höggva steinþróna ok færa at viðinn. En þeir nema
+kvæðit, er til þess váru ætlaðir. Nú kvað Oddr þetta:
+<lg>
+<l>1. "Hlýði seggir,</l>
+<l>en ek segja mun</l>
+<l>vígsvaldendum</l>
+<l>frá vinum mínum;</l>
+<l>seint er at dylja,</l>
+<l>sék, at máttit</l>
+<l>skógs skæstafr</l>
+<l>við sköpum gera.</l>
+<l>2. Var mér fóstr gefit</l>
+<l>at föður ráði,</l>
+<l>brátt vöndumst því,</l>
+<l>á Berurjóðri;</l>
+<l>var mér ekki</l>
+<l>vant til sælu,</l>
+<l>þess er Ingjaldr</l>
+<l>átti kosti.</l>
+<l>3. Óxum báðir</l>
+<l>á Berurjóðri,</l>
+<l>Ásmundr ok ek,</l>
+<l>upp í bernsku;</l>
+<l>skófum skeyti,</l>
+<l>skip smíðuðum,</l>
+<l>gerðum örvar</l>
+<l>okkr at gamni.</l>
+<l>4. Sagði mér völva</l>
+<l>sannar rúnir,</l>
+<l>en ek vætki því</l>
+<l>vildak hlýða;</l>
+<l>gatk fyr ungum</l>
+<l>Ingjalds syni,</l>
+<l>at ek föðurtúna</l>
+<l>fýstumst vitja.</l>
+<l>5. Búinn lézt Ásmundr</l>
+<l>opt, meðan lifði,</l>
+<l>málmþings vanr,</l>
+<l>mér at fylgja;</l>
+<l>sagðak karli,</l>
+<l>at ek koma mundak</l>
+<l>aptr aldrigi;</l>
+<l>nú emk orðrofi.</l>
+<l>6. Létum beiti</l>
+<l>á brim þrauka,</l>
+<l>stóð hörr dreginn</l>
+<l>höndum fjarri;</l>
+<l>kómum at eyju</l>
+<l>utan brattri,</l>
+<l>þar er Grímr fyrir</l>
+<l>garða átti.</l>
+<l>7. Sák blíðliga,</l>
+<l>er til bæjar kom,</l>
+<l>bekksagnir mér</l>
+<l>báðar fagna;</l>
+<l>víst mátta ek</l>
+<l>með vinum mínum</l>
+<l>gulli skipta</l>
+<l>ok gamanmálum.</l>
+<l>8. Varð ek at vári</l>
+<l>víss, at gerðust</l>
+<l>brynþings boðar</l>
+<l>Bjarma at sækja;</l>
+<l>síðan kvaddak</l>
+<l>Sigurð ok Guðmund,</l>
+<l>vildak með fræknum</l>
+<l>til farar ráðast.</l>
+<pb n="392"/>
+
+<l>9. Váru horskir</l>
+<l>á herskipum</l>
+<l>frændr mínir tveir</l>
+<l>at forráði;</l>
+<l>vildu hásetar</l>
+<l>horskir eignast</l>
+<l>tak þat, er áttu</l>
+<l>Tyrfi-Finnar.</l>
+<l>10. Vér kaupskipi</l>
+<l>kómum heilu</l>
+<l>at, þar er Bjarmar</l>
+<l>byggðir áttu;</l>
+<l>eyddum eldi</l>
+<l>ættir þeira,</l>
+<l>unnum löskvan</l>
+<l>laðmann tekkinn.</l>
+<l>11. Hann lézt seggjum</l>
+<l>segja kunna,</l>
+<l>hvar til hodda var</l>
+<l>hægt at ráða;</l>
+<l>hann bað oss ganga</l>
+<l>götu lengra,</l>
+<l>ef vér vildim fé</l>
+<l>fleira eiga.</l>
+<l>12. Réðu Bjarmar</l>
+<l>brátt at verja</l>
+<l>haug hermönnum</l>
+<l>ok hamalt fylkja;</l>
+<l>létum þegna,</l>
+<l>áðr þaðan færim,</l>
+<l>ófa marga</l>
+<l>öndu týna.</l>
+<l>13. Réðum skunda</l>
+<l>til skipa ofan,</l>
+<l>þá er flótti var</l>
+<l>á fen rekkinn;</l>
+<l>misstum bæði</l>
+<l>báts ok knarrar,</l>
+<l>auðs ok ýta,</l>
+<l>er ofan kómum.</l>
+<l>14. Skjótt nam kynda</l>
+<l>í skóg þykkum</l>
+<l>eld brennanda</l>
+<l>uppi á landi,</l>
+<l>svá við lopti</l>
+<l>létum leika</l>
+<l>hávan ok rauðan</l>
+<l>hrotgarm viðar.</l>
+<l>15. Sáum skjótliga,</l>
+<l>at skyndu at landi</l>
+<l>skeiðr vegligar</l>
+<l>ok skrautmenni;</l>
+<l>fegnir urðu</l>
+<l>þeir, er fyrir váru,</l>
+<l>frændr mínir,</l>
+<l>þá finnast gerðum.</l>
+<l>16. Létum skeika</l>
+<l>at sköpuðu</l>
+<l>drengmenn snarir</l>
+<l>í drifaveðri:</l>
+<l>sýndist seggjum</l>
+<l>sandr á þiljum,</l>
+<l>lands ván liðin,</l>
+<l>lák eigi þar.</l>
+<l>17. Kómum at eyju</l>
+<l>utan brattri</l>
+<l>sumar síðla,</l>
+<l>þá var segl rifat;</l>
+<l>gerðu firðar</l>
+<l>flestir allir</l>
+<l>skipum til hlunns</l>
+<l>skjótt at ráða.</l>
+<l>18. Slógum tjöldum,</l>
+<l>en sumir fóru</l>
+<l>björnu at veiða,</l>
+<l>þeir er boga kunnu;</l>
+<l>réðum í eyju</l>
+<l>upp at kynda</l>
+<l>bál brenniligt,</l>
+<l>ok stóð björn fyrir.</l>
+<pb n="393"/>
+
+<l>19. Kváðust fjallbúar</l>
+<l>flytja mundu</l>
+<l>oss ór eyju,</l>
+<l>nema utan færim;</l>
+<l>þótti eigi rekkum</l>
+<l>rómr at heyra</l>
+<l>hagligr sás var</l>
+<l>hraunskjöldunga.</l>
+<l>20. Uggðum ekki,</l>
+<l>síz eyjar til</l>
+<l>vápns vígligir</l>
+<l>viðir kómu;</l>
+<l>hlóðu bragnar</l>
+<l>fyr bjarg framan,</l>
+<l>vegg sterkligan,</l>
+<l>var ek at því.</l>
+<l>21. Réðk at ganga</l>
+<l>með Gusisnauta</l>
+<l>beggja á milli</l>
+<l>bjargs ok eisu;</l>
+<l>laustk í auga</l>
+<l>einum þursi</l>
+<l>ok í brjóst framan</l>
+<l>bjarga Freyju.</l>
+<l>22. Þar fekk ek heiti,</l>
+<l>þat ek hafa vilda,</l>
+<l>er mik ór fjöllum</l>
+<l>flögð kölluðu,</l>
+<l>kváðust Örvar-Oddi</l>
+<l>vilja</l>
+<l>byr bráðliga</l>
+<l>á braut gefa.</l>
+<l>23. Búnir létumst</l>
+<l>á burt þaðan</l>
+<l>brátt ór eyju,</l>
+<l>þegar byr fengi;</l>
+<l>heilir kómum</l>
+<l>heim ór þeiri,</l>
+<l>gerðu fagna</l>
+<l>frændr hollvinum.</l>
+<l>24. Várum allir</l>
+<l>vetr þann saman,</l>
+<l>gulli gladdir</l>
+<l>ok gamanmálum;</l>
+<l>drógu firðar,</l>
+<l>þegar frerum létti,</l>
+<l>heldr skrautligar</l>
+<l>skeiðr at vatni.</l>
+<l>25. Sigldum síðan</l>
+<l>suðr með landi</l>
+<l>tállaust skipum</l>
+<l>tveimr ok einu;</l>
+<l>væntum fengjar,</l>
+<l>þar er fyrir váru,</l>
+<l>ef vér Elfarsker</l>
+<l>öll könnuðum.</l>
+<l>26. Fundum um síðir</l>
+<l>fyrir í sundi</l>
+<l>þegna nýta,</l>
+<l>Þórð ok Hjálmar;</l>
+<l>fréttu firðar,</l>
+<l>þeir er fyrir váru,</l>
+<l>hvárt vér vildum frið</l>
+<l>eða á för halda.</l>
+<l>27. Báru rekkar</l>
+<l>ráð sín saman,</l>
+<l>þótti eigi firðum</l>
+<l>féván mikil;</l>
+<l>köru Háleygir</l>
+<l>kost inn vildra,</l>
+<l>réðum leggja</l>
+<l>lag várt saman.</l>
+<l>28. Heldum allir</l>
+<l>ór hafi utan,</l>
+<l>þegar fullhugar</l>
+<l>fengjar væntum;</l>
+<l>hræddumst ekki,</l>
+<l>meðan höfðingjar</l>
+<l>heilir réðu</l>
+<l>fyr herskipum.</l>
+<pb n="394"/>
+
+<l>29. Várum reiðir,</l>
+<l>þás randberendr</l>
+<l>horska hittum</l>
+<l>fyr Hólmsnesi;</l>
+<l>réðum eignast</l>
+<l>allar gerðar</l>
+<l>snyrtidrengja</l>
+<l>af sex skipum.</l>
+<l>30. Várum allir</l>
+<l>vestr með Skolla,</l>
+<l>þar at landi sat</l>
+<l>lýða drottinn;</l>
+<l>báru bragnar</l>
+<l>blóðgar undir,</l>
+<l>sverðum skornir,</l>
+<l>en vér sigr höfðum.</l>
+<l>31. Höfðu jarls liðar</l>
+<l>útnes hroðit,</l>
+<l>rógþings vanir,</l>
+<l>sem refar hundum;</l>
+<l>unnum vit Hjálmarr,</l>
+<l>er hinig fórum,</l>
+<l>eldi ok usla</l>
+<l>eytt skipum.</l>
+<l>32. Frétti Guðmundr,</l>
+<l>ef ek fara vilda,</l>
+<l>heim at hausti</l>
+<l>ok honum fylgja;</l>
+<l>sagðak svinnum,</l>
+<l>at ek sjá vildi</l>
+<l>norðr aldrigi</l>
+<l>niðja mína.</l>
+<l>33. Mæltum allir</l>
+<l>mót at sumri</l>
+<l>austr í Elfi</l>
+<l>til útfarar;</l>
+<l>vildi Hjálmarr</l>
+<l>inn hugumstóri</l>
+<l>sveit mína suðr</l>
+<l>með sér hafa.</l>
+<l>34. Fóru teitir</l>
+<l>tveggja vegna</l>
+<l>brynþingsboðar,</l>
+<l>þegar byrir fengust;</l>
+<l>sigldum síðan</l>
+<l>Svíþjóðar til,</l>
+<l>sóttum Ingva</l>
+<l>til Uppsala.</l>
+<l>35. Mér gaf Hjálmarr</l>
+<l>inn hugumstóri</l>
+<l>fimm bólstaði</l>
+<l>á fold saman;</l>
+<l>undak auði,</l>
+<l>meðan aðrir mik</l>
+<l>hringum kvöddu</l>
+<l>ok heils friðar.</l>
+<l>36. Fundust allir</l>
+<l>á fegins dægri</l>
+<l>sænskir seggir</l>
+<l>ok Sigurðr norðan;</l>
+<l>ræntu ýtar</l>
+<l>eyjarskeggja</l>
+<l>auði öllum,</l>
+<l>en þeir elds biðu.</l>
+<l>37. Létum vestr þaðan</l>
+<l>vandar fáka</l>
+<l>Írlands á vit</l>
+<l>öldur kenna;</l>
+<l>höfðu þeira,</l>
+<l>er þangat kómum,</l>
+<l>drengir ok drósir</l>
+<l>drifit ór húsum.</l>
+<l>38. Rannk at víðri</l>
+<l>vagns slóðgötu,</l>
+<l>unz ek strengvölum</l>
+<l>stríðum mætta;</l>
+<l>mundak Ásmund</l>
+<l>auði mínum</l>
+<l>aptr ódáinn</l>
+<l>öllum kaupa.</l>
+<pb n="395"/>
+
+<l>39. Sák um síðir,</l>
+<l>hvar saman kómu</l>
+<l>karlar röskvir</l>
+<l>ok konur þeira;</l>
+<l>þar létk fjóra</l>
+<l>frændr Ölvarar</l>
+<l>eggleiks hvata</l>
+<l>öndu týna.</l>
+<l>40. Réð mik ór vagni</l>
+<l>víf at kveðja,</l>
+<l>ok þær hoddum mér</l>
+<l>hétu góðum;</l>
+<l>bað mik snót koma</l>
+<l>sumar it næsta,</l>
+<l>lézt þá at launum</l>
+<l>leita mundu.</l>
+<l>41. Varat sem brynja</l>
+<l>eða bláir hringar</l>
+<l>ísköld um mik</l>
+<l>ofan felli;</l>
+<l>þá er um síður</l>
+<l>silkiskyrta</l>
+<l>gulli saumuð</l>
+<l>gekk fast ofin.</l>
+<l>42. Fórum vestan</l>
+<l>fengjar vitja,</l>
+<l>svá at bragnar mér</l>
+<l>bleyði kenndu,</l>
+<l>unz á Skíðu</l>
+<l>skatnar fundu</l>
+<l>bræðr bölharða</l>
+<l>ok at bana urðu.</l>
+<l>43. Sóti ok Hálfdan</l>
+<l>í Svíaskerjum</l>
+<l>mörgum manni</l>
+<l>at morði varð;</l>
+<l>unnum þeira,</l>
+<l>áðr þaðan færim,</l>
+<l>hálft hundrað skipa</l>
+<l>hroðit með stöfnum.</l>
+<l>44. Fundum þegna,</l>
+<l>er þaðan fórum,</l>
+<l>teita ok sleitna</l>
+<l>í Trönuvágum;</l>
+<l>varat Ögmundi</l>
+<l>andrán tegat,</l>
+<l>komumst þrír þaðan,</l>
+<l>en þeir níu.</l>
+<l>45. Máttak banorði</l>
+<l>fyr brögnum hrósa</l>
+<l>snotra seggja,</l>
+<l>er til sjóvar kómum;</l>
+<l>höfðum vit Hjálmarr</l>
+<l>haldit illa,</l>
+<l>þá er Glámi stóð</l>
+<l>í gegnum spjör.</l>
+<l>46. Fórum heim þaðan</l>
+<l>horskir drengir,</l>
+<l>en haug Þórði</l>
+<l>hávan urpum;</l>
+<l>maðr engi þorði</l>
+<l>oss móti gera,</l>
+<l>var oss einkis</l>
+<l>vant ins góða.</l>
+<l>47. Váru vit Hjálmarr</l>
+<l>hvert dægr glaðir,</l>
+<l>meðan herskipum</l>
+<l>heilir réðum,</l>
+<l>unz í Sámseyju</l>
+<l>seggi fundum,</l>
+<l>þá er benlogum</l>
+<l>bregða kunnu.</l>
+<l>48. Létum falla</l>
+<l>und fætr ara</l>
+<l>tírarlausa</l>
+<l>tólf berserki;</l>
+<l>þá varðk skiljast</l>
+<l>á skapadægri</l>
+<l>víð þann inn mesta</l>
+<l>minn fulltrúa.</l>
+<pb n="396"/>
+
+<l>49. Hafðak eigi</l>
+<l>á aldri mínum</l>
+<l>höfuð hraustara</l>
+<l>hvergi fundit;</l>
+<l>bark mér á herðum</l>
+<l>hjálmum grimman</l>
+<l>ok til Sigtúna</l>
+<l>síðan hafðak.</l>
+<l>50. Létk eigi þess</l>
+<l>langt at bíða,</l>
+<l>at ek Sæundi</l>
+<l>at sjónum varð;</l>
+<l>unnu skatnar</l>
+<l>skip mín hroðin,</l>
+<l>en sjálfr þaðan</l>
+<l>sunds kostaðak.</l>
+<l>51. Gekk ek um Gautland</l>
+<l>í grimmum hug</l>
+<l>sex dægr í samt,</l>
+<l>áðr Sæund fyndak;</l>
+<l>létk hans liðmenn</l>
+<l>hjörvi mæta</l>
+<l>sex ok átta</l>
+<l>með sjálfum gram.</l>
+<l>52. Létk suðr í haf</l>
+<l>langt um farit,</l>
+<l>at ek grunnsævi</l>
+<l>gildu mættak;</l>
+<l>varðk einn saman,</l>
+<l>en annan veg</l>
+<l>gumna mengi</l>
+<l>gekk helvegu.</l>
+<l>53. Enn komk þar,</l>
+<l>at Akvítánía</l>
+<l>bragna kindir</l>
+<l>borgum réðu;</l>
+<l>þar létk fjóra</l>
+<l>fallna liggja</l>
+<l>hrausta drengi;</l>
+<l>nú emk hér kominn.</l>
+<l>54. Þat var fyrri,</l>
+<l>at ek fat senda</l>
+<l>orð inum nyrztum</l>
+<l>niðjum mínum;</l>
+<l>varðk svá feginn</l>
+<l>fundi þeira</l>
+<l>sem hungraðr</l>
+<l>haukr bráðum.</l>
+<l>55. Brögnum þrimr</l>
+<l>buðu skatnar</l>
+<l>margir síðan</l>
+<l>metorð þaðra;</l>
+<l>en ek þeygi</l>
+<l>þiggja vildak;</l>
+<l>urðu mínir bræðr</l>
+<l>báðir eptir þar.</l>
+<l>56. Réð ek skunda</l>
+<l>frá skatna liði,</l>
+<l>unz hittak breiða</l>
+<l>borg Jórsala;</l>
+<l>réð ek allr</l>
+<l>í á fara,</l>
+<l>ok kunnak þá</l>
+<l>Kristi at þjóna.</l>
+<l>57. Veit ek, at fossum</l>
+<l>falla lét</l>
+<l>Jórdán um mik</l>
+<l>fyrir utan Grikki;</l>
+<l>helt enn þó,</l>
+<l>sem hverr vissi,</l>
+<l>ítrger skyrta</l>
+<l>öllum kostum.</l>
+<l>58. Mættak gammi</l>
+<l>gljúfrum næri,</l>
+<l>flaug hann með mik</l>
+<l>fjarri löndum,</l>
+<l>þar til er háva</l>
+<l>hamra fundum,</l>
+<l>ok lét mik hvílast</l>
+<l>í hreiðri sínu.</l>
+<pb n="397"/>
+
+<l>59. Unz mik Hildir</l>
+<l>hafði á brottu</l>
+<l>risi rammligr,</l>
+<l>á róðrar skútu;</l>
+<l>lét mik veitir</l>
+<l>Vimrar elda</l>
+<l>tólf mánuði</l>
+<l>með sér hvílast.</l>
+<l>60. Þýddumst ek hjá Hildi</l>
+<l>horska ok stóra,</l>
+<l>raunsjáliga</l>
+<l>risa dóttur,</l>
+<l>ok við henni</l>
+<l>heldr sterkligan,</l>
+<l>ítran son</l>
+<l>eiga gerðak</l>
+<l>ok ólíkan</l>
+<l>öðrum þegnum.</l>
+<l>61. Þann drap Ögmundr</l>
+<l>Eyþjófsbani</l>
+<l>í Hellulands</l>
+<l>hrauns óbyggðum,</l>
+<l>félaga hans níu</l>
+<l>fjörvi næmdak;</l>
+<l>hefkat víking</l>
+<l>verra fundit.</l>
+<l>62. Fleiri hefir mína</l>
+<l>fóstbræðr drepit,</l>
+<l>Sírni ok Garðar,</l>
+<l>gekk skegg af flagði;</l>
+<l>var hann engum líkr</l>
+<l>at yfirliti</l>
+<l>ok kallaðr síðan</l>
+<l>Kvillánus blesi.</l>
+<l>63. Þóttak hæfr</l>
+<l>at hjörregni,</l>
+<l>þá vér börðumst</l>
+<l>á Brávelli;</l>
+<l>bað Hringr þá</l>
+<l>hamalt fylkja</l>
+<l>Odd inn víðförla</l>
+<l>at orrostu.</l>
+<l>64. Hittak hugsnara</l>
+<l>hildinga tvá</l>
+<l>litlu síðar,</l>
+<l>þá vér löndum réðum;</l>
+<l>veittak öðrum</l>
+<l>vígs of gengi</l>
+<l>ungum jöfri</l>
+<l>arfs at kveðja.</l>
+<l>65. Komk um síðir,</l>
+<l>þar er snarir þóttust</l>
+<l>Sigurðr ok Sjólfr</l>
+<l>í sveit konungs;</l>
+<l>réð oss skatna lið</l>
+<l>skots at beiða</l>
+<l>ok skjaldar fimi</l>
+<l>við skatna mengi.</l>
+<l>66. Skautkat skemmra</l>
+<l>en skilfingar,</l>
+<l>var létt skafin</l>
+<l>lind í hendi;</l>
+<l>réðum síðan</l>
+<l>sunds at kosta;</l>
+<l>létk þá báða</l>
+<l>blóði snýta.</l>
+<l>67. Var mér skjaldmeyju</l>
+<l>skipat it næsta,</l>
+<l>þá er orrostu</l>
+<l>eiga skyldum;</l>
+<l>veitk, at ýtar</l>
+<l>í Anþekju</l>
+<l>andrán biðu,</l>
+<l>en vér auð fjár.</l>
+<l>68. Sóttum sverði</l>
+<l>seggja kindir</l>
+<l>ok trégoðum</l>
+<l>týndum þeira;</l>
+<pb n="398"/>
+
+<l>barðak Bjálka</l>
+<l>í borgarhliði</l>
+<l>eikikylfu,</l>
+<l>svát önd of lét.</l>
+<l>69. Þá var mér Hárekr</l>
+<l>hollr fulltrúi,</l>
+<l>þás mér fastnaði</l>
+<l>fóstru sína;</l>
+<l>áttak horska</l>
+<l>hilmis dóttur,</l>
+<l>vel réðum snót saman</l>
+<l>sigri ok löndum.</l>
+<l>70. Satk at sælu</l>
+<l>síðan minni</l>
+<l>vilgi lengi,</l>
+<l>sem ek vita þóttumst;</l>
+<l>fjöld er at segja</l>
+<l>frá förum mínum</l>
+<l>snotrum seggjum;</l>
+<l>sjá mun in efsta.</l>
+<l>71. Þér skuluð skynda</l>
+<l>til skipa ofan</l>
+<l>heilir allir,</l>
+<l>hér munum skiljast;</l>
+<l>berið Silkisif</l>
+<l>ok sonum okkrum</l>
+<l>kveðju mína,</l>
+<l>kemk eigi þar."</l>
+</lg>
+Ok er lokit var kvæðinu, þá dregr at Oddi fast, ok
+leiða þeir hann nú þangat, sem steinþróin var búin.
+Þá mælti Oddr: "Nú skal þat allt sannast, er hún
+sagði mér völvan. Nú mun ek leggjast niðr í steinþróna
+ok deyja þar. Síðan skuluð þér slá at utan eldi
+ok brenna upp allt saman." Síðan leggst hann niðr í
+steinþróna ok mælti: "Nú skuluð þér bera kveðju mína
+heim Silkisif ok sonum okkrum ok vinum." Eptir þetta
+deyr Oddr. Slá þeir þá eldi í ok brenna upp allt saman
+ok ganga eigi fyrri frá en þat er allt brunnit. Svá
+segja flestir menn, at Oddr hafi verit tólf álna hár, því
+at svá var steinþróin innan at mæla. Nú búa þeir ferð
+sína fylgdarmenn Odds ok ferðast austr aptr. Gefr
+þeim vel byri til þess, er þeir koma heim. Sögðu þeir
+Silkisif þau tíðendi, er gerzt höfðu í ferðum þeira, ok
+bera henni kveðju hans. Henni þykkir þessi tíðendi
+mikil ok svá landsmönnum, ok settist hún at ríki eptir
+þetta ok Hárekr, fóstri hennar, með henni, ok varðveita
+þau land ok þegna til þess, er synir Odds váru til færir
+at taka við ríkinu. Nú óx þar upp sá ættbogi, sem frá
+<pb n="399"/>
+
+Oddi er kominn í Garðaríki. En mær sú, er Oddr átti
+eptir á Írlandi, er Ragnhildr hét, hafði farit vestan eptir
+liðna móður sína ok norðr til Hrafnistu ok hefir þar
+verit gift, ok hefir margt manna frá henni komit, ok
+sá ættbogi hefir þar upp vaxit. Ok lýkr þar nú sögu
+Örvar-Odds, eptir því sem þér hafið nú heyrt frá sagt.
+</p></div>
+
+
+
+</div></body></text>
+</TEI>

@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Illuga saga Gríðarfóstra</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Illuga saga Gríðarfóstra</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Illuga_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="351"/>
+
+Sá konungr hefir ráðit fyrir Danmörku, er Hringr
+hét. Hann var Skjaldarson, Dagssonar. Þessi Skjöldr
+barðist við Hermann, sem segir í sögu þeira. Hringr
+konungr var vitr maðr ok vinsæll ok mildr af fé ok
+inn mesti bardagamaðr. Hann átti drottningu, er Sigríðr
+hét. Hún var dóttir Vilhjálms konungs ór Vallandi.
+Við henni átti hann þann son, er Sigurðr hét.
+Hann var allra manna fríðastr ok at íþróttum bezt búinn.
+Hann var blíðr við vini sína, örr af fé, en grimmr
+sínum óvinum.
+Sviði hefir karl nefndr verit. Hann átti eitt garðshorn,
+harðla skammt frá konungshöllunni. Hann átti
+kerlingu, er hét Hildr. Við henni átti hann einn son,
+er Illugi hét. Hann var mikill vexti ok sterkr at afli,
+fimr var hann á alla leika. Faðir hans var kallaðr Sviði
+inn sókndjarfi. Sigurðr konungsson ok Illugi lögðu
+leika með sér. Átti Sigurðr marga leiksveina, ok bar
+hann langt af þeim, hvat sem þeir skyldu reyna, en
+Illugi vann hann í öllu. Ok svá kom, at þeir sórust í
+<pb n="352"/>
+
+stallbræðralag, ok skyldi hvárr annars hefna, ef þeir
+væri með vápnum vegnir. Var nú allkært þeira á milli.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Björn hét maðr. Hann var ráðgjafi konungs. Honum
+var allt illa gefit, er honum var sjálfrátt. Hann var
+lyginn ok lymskr at öllu, en þó eigi at síðr var hann
+inn mesti kappi ok varði land konungs fyrir víkingum,
+ok því mat konungr hann mikils. Björn öfundaði þat
+mjök, at Illugi var svá kærr Sigurði konungssyni, ok svá
+kom, at hann rægði hann við þá feðga ok sagði Illuga
+vera ótrúan konungssyni. Konungr hlýddi á þetta, en
+Sigurðr trúði því ekki. Ferr nú svá fram um nokkura
+tíma, at Sigurðr konungsson er heima hjá föður sínum
+í mikilli sæmd ok virðingu. Einn tíma bað Sigurðr
+föður sinn at fá sér skip ok menn ok segist vilja ór
+landi at afla sér fjár ok frægðar. Konungr sagði, at
+þat skyldi á mánaðarfresti búit vera, -- "ok Björn skal
+fara með þér," segir konungr, "en Illugi vil ek heima
+sé." Sigurðr svarar: "At vísu vil ek, at Illugi fari." En
+konungr sagði Björn skyldi fylgja honum, -- "því at hann
+er hverjum kappa meiri ok bilar aldri í stríði. Hann
+mun þér vera hollr ok trúr, sem hann hefir mér verit,"
+sagði konungr, ok skilja þeir nú tal sitt. Eptir þetta
+gengr konungsson til Sviða ok segir Hildi tal þeira
+feðga. Hún segir son sinn ungan vera ok eigi í hernað
+fara mega. "Er hann ok ekki reyndr," segir hún, "vilda
+ek ok ekki heldr, at Björn brygði honum því, at hann
+þyrði ekki at berjast með þér í orrostu." Lýkr Hildr
+svá máli, en konungsson ferr heim til hallar ok er
+mjök óglaðr.
+<pb n="353"/>
+
+Ambátt sú var hjá Hildi, er Sunnlöð hét. Hún var
+fjölkunnug ok in mesta kvöldriða. Hún hafði margan
+mann illa leikit. Hildr kemr at máli við Illuga ok biðr
+hann sækja pál í sel, er Sviði lét eptir. Hann játar því.
+Þat var síð dags, er Illugi gekk heiman. Hann fór hart
+ok kom til seljanna ok fann þar pálinn. Þá var myrkt
+af nótt, ok ferr þó frá selinu, ok er hann var skammt
+kominn, var hlaupit á bak honum svá hart, at hælarnir
+kómu framan á bringuna. Þetta kvikendi hafði vönd
+í hendi ok barði Illuga með. Hér var komin Sunnlöð.
+Illugi gengr ekki at síðr ok bar flagð þetta langa leið,
+þar til hann kemr at einum stórum steini. Hann keyrir
+flagðit niðr við steininn svá hart, at hryggrinn brotnar,
+ok lét hún svá líf sitt. Létti hann eigi sinni ferð
+fyrr en hann kemr heim. Hildr, móðir hans, var úti,
+er hann kom heim. Illugi var þá ófrýnn. Hildr var þá
+blíð. "Hafa nokkur nýtíðendi gerzt í þinni ferð, sonr
+minn?" sagði hún. "Fannstu pálinn, sem ek vísaði þér
+á?" "Já," segir Illugi. Hún mælti: "Fannstu nokkut
+stúlku mína, er ek sendi at afla mér eldiviðar?" Illugi
+sagði: "Varla ætla ek verri stúlka finnist, því at hún
+reið mér, en ek banaða henni með þeim hætti, at ek
+braut í henni hrygginn við stein." Hildr kvað hann
+mega vera í sendiferðum, "ok vil ek," segir hun, "at
+þú þjónir Sigurði konungssyni ok fylgir honum í víkingu."
+Illugi játar því blíðliga ok gladdist við þetta ok
+gengr inn með móður sinni ok sefr af nótt. At morgni
+býst Illugi at fara til konungshallar, kveðr áðr föður
+sinn ok móður, gengr síðan til hallarinnar ok kemr
+þar, þá konungr er yfir dagdrykkju. Hann gengr fyrir
+konung ok kveðr hann vel. Konungr tekr honum vel.
+En er Sigurðr konungsson sér Illuga, fagnar hann honum
+forkunnar vel ok biðr hann sitja hjá sér. Illugi gerir
+<pb n="354"/>
+
+nú svá. Ferr svá fram nokkura daga, at Sigurðr er heima
+með föður sínum ok Illugi.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Nú kemr sá tími, er skip Sigurðar váru búin, halda
+þeir frá landi. Var þat þá ráðit, at Björn ok Illugi skyldi
+báðir fara. Tekr konungsson nú orlof af feðr sínum,
+sigla nú fyrst til Orkneyja ok Skotlands ok gera hvárttveggja,
+margar upprásir ok vinna mikinn sigr á Skottum,
+fá nú of fjár. Leggja þeir hvergi þar til, at eigi hafi
+þeir sigr. Var allt fólk við þá hrætt. At hausti vill Sigurðr
+heim halda, ok þá rekr á storm mikinn. Tók þá
+skipit at ganga of mikit, rekr þá norðr í haf. Herti
+seglit, svá at helt við rif. Tekr nú hvert band at slitna.
+Þeir sjá hvergi landa til. Sjórinn tekr nú at ókyrrast,
+ok gerði svá stóran storm, at inn rann á bæði borð, en
+svá váru þeir allir hraustir, sem á þessu skipi váru, at
+engi talaði æðruorð. Skipit tekr nú mjök at leka, ok
+standa allir í austri átta dægr. Skip rekr langt norðr í
+haf í vík þá, er Gandvík hét. Þeir herða þá seglit með
+sterku bandi ok fá nú stór áföll, svá at búit var við at
+brjóta skipit. Flestir váru þá móðir. Því næst sjá þeir
+land. Þat var björgum lukt. Síðan rekr upp skipit í
+eina vík. Heldu þeir heilu skipi ok mönnum. Konungsson
+segir, at þeir skuli þar bíða byrjar. Flestir hans
+menn váru at þrotum komnir af erfiði. Þeim var ok svá
+kalt, at þeim þótti dauðinn sýnn ok vera fyrir hendi,
+því at þeir höfðu engan eld. Sigurðr konungsson bar
+sik furðu vel, en allir vildu gjarna ná eldi ok fengu þó
+eigi. Björn tók þá mjök at kala ok mælti svá: "Þú, Illugi,"
+segir hann, "skalt róa yfir fjörð þenna ok leita at
+<pb n="355"/>
+
+eldi, ok ef þú finnr hann eigi, þá skal ek ráða fyrir
+höfði þínu, en ef þú náir eldinum, þá skaltu eiga hring
+þenna, er ek held á." Illugi svarar: "Víst eigi vil ek
+veðja höfði mínu við þik, Björn, en gjarna skal ek at
+eldi leita, ef várum mönnum má gagn at verða." Rær
+hann nú einn saman burt frá sínum mönnum.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Hellir nokkurr stóð öðrum megin fjarðar þessa, er
+réð fyrir tröllkona sú, er Gríðr hét. Hún var in mesta
+tröllkona. Illugi kemr nú at landi ok festir bát sinn
+ok gengr á land upp ok kemr í hellinn. Þá var komit
+kveld. Hann heyrir þá, at hart er stigit til jarðar, ok
+kemr Gríðr heim. Hún frétti hann at heiti. Hann segist
+Illugi heita, en honum þótti sem hríð eða hregg stæði
+ór nösum hennar. Horrinn hekk ofan fyrir munninn.
+Hún hafði skegg ok sköllótt um höfuðit. Hendr hennar
+váru sem arnarklær, en ermar báðar brenndar, en
+sá stakkr, er hún var í, tók henni eigi lengra en á lendar
+á bakit, en allt á tær í fyrir. Augu hennar váru græn,
+en ennit bratt, eyrun fellu víða. Engi mátti hana kalla
+fríða. Illugi segist vilja eld sækja til hennar. Gríðr svarar:
+"Engan eld fær þú af mér, nema þú mælir þrjú
+sannyrði, ok ef þú gerir þetta skjótt, þá skaltu liggja
+hjá dóttur minni, en ef þú vilt eigi þenna kost, þá
+hirði ek eigi, þó at Björn kali til dauðs." Illugi segist
+þetta vilja.
+Eptir þetta gengr fram ein kona. Hún er svá fríð, at
+Illugi þóttist enga fríðari sét hafa. Ok þegar er hann sá
+hana, felldi hann mikla ást til hennar. Hún var hljóð
+ok fáræðin. Illugi tók þá til máls: "Mér mun mál," segir
+<pb n="356"/>
+
+hann, "at fá sannyrðin: Hellir þinn er hár ok breiðr,
+at ek hefi eigi sét hús meira né sterkara. Svá er ok
+nefit á þér mikit, at ek hefi eigi sét meira skrípi en þú
+ert, ok svá svört, at fagrt er gólfit hjá þér, ok enga
+hefi ek ámátligri sét en þik, ok víst er dóttir þín fegri,
+ok ykkar hefi ek sét mestan mun, ok svá munu allir
+segja, er ykkr sjá." Gríðr mælti þá: "Víst er þat," segir
+hún, "at hvárki viltu lofa mik né hæla mér, ok ekki
+lízt þér svá illa á mik sem þú lætr, en þat þykki mér
+nú ráð, at þú farir í hvílu með dóttur minni, ok leik
+allt þat, er þik lystir, því at þér lízt betr á dóttur mína
+en á mik. Nú mun skjótt at öllu farit," segir Gríðr,
+"ok þarf ekki lengi lýsingar." Illugi segir svá vera
+skyldu. Gengr hann at hvílunni ok kastar klæðum, en
+kerling þjónar dóttur sinni, ok kómu þau í eina hvílu
+bæði. Illugi snýst at henni ok gerir sik blíðan, en hún
+gerir enga gleði af sér. Þrífr Gríðr þá í hár Illuga
+ok kippir honum fram á stokkinn, en annarri hendi
+brá hún björtu saxi ok mjök bitrligu ok reiddi at
+höfði honum, en Illugi lá kyrr ok hrærði hvergi á sér.
+Gríðr mælti þá mjök reiðuliga: "Heyr þú, vándr herjansson,
+hví hugðir þú ek munda þola, at þú blygðaðir
+dóttur mína? Nei," segir hún, "þú skalt fá dauðann
+í stað." Illugi mælti þá: "Mitt hjarta hefir aldri
+hrætt orðit, ok því kom ek í helli þinn, at örlögin hafa
+svá fyrir ætlat. Þó deyr engi optar en um sinn, ok því
+hræðumst ek ekki þínar ógnir." Við þessi hans orð
+kastar Gríðr honum aptr. Hann snerist þá at brúði
+sinni ok var þá allglaðr. Ok er hann var sem blíðastr
+við hana, vefr Gríðr hár hans um hönd sér ok kippir
+honum á stokkinn fram ok reiðir saxit allt at höfði
+honum: "Djarfr ertu, ok nú í stað skaltu dauðann fá."
+En Illugi sagðist eigi hræðast dauða sinn. Hún mælti þá
+<pb n="357"/>
+
+hlæjandi: "Engan hefi ek slíkan hitt, at eigi hafi hræðzt
+dauða sinn, nema þik. Far þú nú til svefns ok sof
+vel!" Ferr Illugi nú ok snýst at konu sinni ok er nú
+allra blíðastr við hana. Gríðr hleypr þá enn at sænginni
+ok kippir honum fram á stokkinn. Hún reiðir nú
+saxit, ok mjök er hún ófrýnlig at sjá, en allt fór sem
+fyrr, at Illugi kvaðst eigi hræðast. Gríðr mælti þá:
+"Eigi ertu sem aðrir menn, þínar æðar skelfast hvergi,
+ok þú hræðist ekki. Nú skaltu þiggja líf af mér, ok
+þar með gef ek þér dóttur mína, er Hildr heitir, ok
+fæ ek þó aldri launat þinn velgerning, því at þú hefir
+komit mér ór miklum álögum, því at með slíkum hætti
+hefi ek margan myrt ok drepit, ok hafa allir hræðzt
+mitt it ógurliga sax. Sextán vaska menn hefi ek drepit
+með þessu saxi, ok væri slíkt þó eigi kvenna verk. Nú
+mun ek segja þér ævisögu mína, en þú hlýða:
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+"Konungr sá réð fyrir Álfheimum, er Áli hét. Hann
+átti sér drottningu, er Álfrún hét. Þau áttu dóttur eina,
+sú hét Signý. Hún var at öllu vel at sér. Þegar Signý
+hafði aldr til, var hún gift þeim konungi, er Eirekr
+hét. Hann fell í vestrvíking. Dóttur áttu þau saman,
+þá er Hildr hét, ok var hún meyja fríðust. Fór Signý
+þá til föður síns ok var með honum. Drottning fekk
+sótt, þá hana leiddi til bana, en konungr barst lítt af,
+en Signý var í skemmu ok hafði sorg mikla eptir konung
+sinn ok móður. Konungr fekk þá drottningu, er
+Grímhildr hét. Hún var fögr at sjá, en innan var hún
+it mesta flagð. Konungr unni henni mikit. Þau gátu
+at eiga sjau dætr, ok brá þeim öllum til móður sinnar
+<pb n="358"/>
+
+ok urðu inar mestu flagðkonur. Þat bar til í ríkinu
+við kvámu Grímhildar, at maðr hvarf hverja nótt, ok
+ætluðu allir, at Grímhildr mundi því valda. Konungr
+tók nú at eldast, ok þótti drottningu minna verða af
+hjáhvílum en hún vildi. Hugsar hún nú at svíkja konung
+ok fá sér annan ungan. Gefr hún honum nú eitr
+at drekka, ok fær hann þegar bana af, ok var hann
+heygðr hjá drottningu sinni. Grímhildr illskaðist nú
+svá, at hún eyddi allt ríkit bæði af fé ok mönnum.
+Eptir þessi verk Grímhildar gekk hún til skemmu þeirar,
+er Signý sat ok dóttir hennar, en er hún kemr þar,
+mælti hún svá: "Þú, Signý," segir hún, "hefir lengi
+í sæmd mikilli ok sælu setit, en ek skal þat allt af þér
+taka, ok þat legg ek á þik, at þú hverfir í burt ok
+byggir í helli ok verðir in mesta tröllkona. Þú skalt
+Gríðr nefnast. Dóttir þín skal fara með þér, ok hverr
+maðr, sem hana lítr, skal fella til hennar mikla ást.
+Þú skalt hvern myrða, er þú sér í hennar sæng. Þú
+hefir átt þér sjau systr. Þær skulu hverja nótt eiga
+við þik bardaga. Þær skulu alla vega þik sundra, höggva
+ok meiða, en aldri at heldr skaltu deyja, ok aldri skaltu
+fyrr frelsast af þessum álögum en þú hittir þann mann,
+er eigi hræðist þitt it ógurliga sax, þá er þú reiðir
+þat, en með því at þeim mun þat ógurligt sýnast, mun
+sá ekki finnast." Signý mátti ekki mæla fyrir harmi
+ok gráti. Hildr mælti þá: "Vilda ek, Grímhildr, at
+ek launaði þér þín álög, ok þat mæli ek um, at öðrum
+fæti standir þú á skemmu þessari, en öðrum heima
+á konungshöll. Þrælar skulu þar kynda bál mitt í milli
+fóta þér. Þat bál skal standa bæði nætr ok daga, ok
+öll skaltu neðan af eldi brenna, en ofan frjósa, at aldri
+fáir þú þína ró. En ef vit mæðgur komumst ór þessum
+<pb n="359"/>
+
+álögum, þá skaltu deyja ok detta ofan í bálit." Grímhildr
+tók þá til máls: "Mjök heimskligt er okkart tal,
+ok vil ek, at þetta haldist hvárki." Hildr sagði, at þat
+yrði at standa. Hurfu þær mæðgur þá burt í helli
+þenna, ok er ek sú in sama Signý, ok er hér Hildr,
+dóttir mín, ok vil ek nú gifta þér hana ok launa þér
+svá, at þú hefir mér ór álögum komit." Ok at endaðri
+þessari sögu koma í hellinn sjau skessur með bitrligum
+skálmum ok hlaupa at Gríði ok höggva til hennar
+bæði hart ok tíðum. Hildr var nú ákafliga hrædd.
+Illugi veitir Gríði dugnað ok höggr til þeira bæði ótt
+ok tíðum, ok eigi léttir hann fyrr en þau hafa drepit
+þær allar, ok brennir þær allar á báli. Gríðr mælti
+þá: "Nú hefir þú, Illugi, frelst okkr bæði af þessum
+skessum, ok hefi ek við þær átt ellifu vetr." Illugi segir
+þat nógu lengi verit hafa.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Eptir þetta fylgir Gríðr þeim til báts Illuga, ok gaf
+hún þeim gull ok marga dýra gripi, ok hafði hann nú
+með sér eldinn, ok skildist hún þar við þau. Illugi
+rær aptr til sinna manna. Þeir urðu við þat glaðir ok
+létu sér hitna. Mánuð lá konungsson þar, ok gaf honum
+aldri byr. Björn kenndi þat Hildi ok kvað Illuga
+hana hafa sótta í hella, ok segir Björn, at hún sé in
+mesta tröllkona. Sigurðr bað Björn þegja, ok ekki vildi
+hann því trúa, er Björn sagði. Eina nótt var þat, er
+menn konungssonar sváfu á skipi, en er þeir vakna,
+sjá þeir, at Björn er horfinn, ok leituðu ok sjá um
+síðir, at hann hangir upp við siglurá. Þeir vissu ekki,
+<pb n="360"/>
+
+hverju þetta gegndi um líflát Bjarnar, en Gríðr hafði
+hengt Björn á þeiri nótt fyrir þat hann kallaði Hildi
+tröllkonu.
+Eptir þat siglir Sigurðr frá Finnmörk, ok gaf honum
+þá vel byr ok kom heim til Danmerkr ok hafði
+fengit of fjár ok gaf gull á tvær hendr. Er hann nú
+heima með föður sínum. Illugi var löngum með Sigurði,
+en þó átti hann stóran búgarð næri konungshöllinni.
+Litlu síðar tók Hringr konungr sótt þá, er hann
+leiddi til bana. Sigurðr lætr þegar erfi drekka eptir
+föður sinn ok lætr til bjóða öllum beztu mönnum í
+landinu, ok var Sigurðr þá til konungs tekinn yfir þat
+ríki, er faðir hans hafði átt. Hringr konungr hafði
+verit fylkiskonungr í Danmörku, ok hafði hann ráðit
+fyrir Skán. Signý kemr nú til Danmerkr, ok tók Illugi
+vel við henni ok þau Hildr. Illugi segir þá öll deili á
+henni. Sigurðr konungr bað hennar sér til handa.
+Signý segir, at Illugi skuli vera hennar giftingarmaðr.
+Sigurðr talar þá þetta mál við hann, ok með samþykki
+hennar giftir Illugi honum Signýju. Váru þeira samfarir
+góðar, ok áttu þau mörg börn, ok urðu öll mikils
+háttar menn. Sigurðr konungr ok Signý drottning lifðu
+mjök lengi, en Illugi lifði lengr, en ekki hefir verit
+getit barna þeira Hildar. Þessi Illugi varð síðan fóstbróðir
+Gnoðar-Ásmundar.
+Ok lúkum vér þessi sögu.
+</p></div>
+
+
+</div></body></text>
+</TEI>
