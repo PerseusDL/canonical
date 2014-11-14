@@ -1,0 +1,2363 @@
+<?xml version="1.0"?>
+
+
+
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Archaeological Collection of the Johns Hopkins University
+                    (Selections)</title>
+                <title type="sub">Machine readable text</title>
+                <author>Ellen Reeder Williams</author>
+                <sponsor>Perseus Project, Tufts University</sponsor>
+                <principal>Gregory Crane</principal>
+                <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Lisa Cerrato</name>
+                    <name>William Merrill</name>
+                    <name>Elli Mylonas</name>
+                    <name>David Smith</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Trustees of Tufts University</publisher>
+                <pubPlace>Medford, MA</pubPlace>
+                <authority>Perseus Project</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <idno type="ISBN">0801830508</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl>
+                <refState n="chunk" unit="entry"/>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English </language>
+                <language ident="greek">Greek </language>
+            </langUsage>
+        </profileDesc>
+    	<revisionDesc><!--
+    		<change><date>5/27/09</date><respStmt><name>RS</name><resp>(n/a)</resp></respStmt>
+    			<item>  
+    				$Log: rw.xml,v $
+    				Revision 1.1  2009-10-08 19:10:56  rsingh04
+    				began reorganizing texts module by collection.  created separate work directory in texts module to keep hopper files separate from in progress files
+
+    				Revision 1.6  2009/06/19 19:02:01  lcerrato
+    				fixed bad bibls
+
+    				Revision 1.5  2009/05/27 15:55:16  rsingh04
+    				added cvs log keyword
+
+    			</item>
+    		</change>
+    	--> <change when="2014-11-13" who="Stella Dee">edited markup and assigned CTS URN</change></revisionDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div n="98" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins K116" type="vase"
+                        >Baltimore, Hopkins K116</rs>
+                </head>
+                <p>
+                    <title>Boeotian Trefoil Oinochoe</title>
+                    <date>750-720 B.C.</date>
+                </p>
+                <p>K 116. Kemper Simpson Collection. Ht, 22.5 cm; diam foot, 9.6 cm; max
+                    diam mouth, 8.2 cm. Intact.</p>
+                <p>Glaze orange-brown. Solid glazed neck. Principal zone of decoration
+                    in panel opposite handle on shoulder, bounded beneath by three horizontal lines.
+                    Long-legged bird stands in right profile beneath a zigzag. In front of him is
+                    four-spoked wheel with short strokes radiating outward from circumference and
+                    with circle enclosing dot between each spoke. Beneath this panel are six
+                    vertical lines, alternately wavy and straight. Each side of body occupied by
+                    seven concentric circles. Strap handle has wavy line down center and a line down
+                    each side continuing across its base above long-legged bird in right profile.
+                    Horizontal band encircles foot of vase.</p>
+                <p>This jug exemplifies the heavily Atticizing character of late
+                    geometric Boeotian vasepainting.<note n="1" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Coldstream 1968,
+                            196-211</bibl>.</p>
+                    </note> The class to which our vase belongs was produced in the Oinochoe
+                    Workshop in Thebes<note n="2" place="unspecified" anchored="true">
+                        <p><bibl>Ruckert 1976, 17, 41-44,
+                                59-60</bibl>.</p>
+                    </note> and was inspired by Attic oinochoai of the Concentric Circle group,
+                    which are dated by Coldstream between 750 and 720 B.C.<note n="3"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Coldstream 1968, 74-76,
+                                330-31, LG Ib 750-735 and LG IIa 735-720</bibl>.</p>
+                    </note> The Attic vases have been found only in Attica and bear motifs
+                    associated with contests, such as tripods, double axes, and horses; for this
+                    reason it is suggested that these Attic oinochoai served primarily as
+                        prizes.<note n="4" place="unspecified" anchored="true">
+                        <p><bibl>Karageorghis 1975,
+                            172</bibl>.</p>
+                    </note> In contrast, we can conclude that the Boeotian oinochoai were primarily
+                    funerary because the wavy bands on the handles surely echo the plastic snakes on
+                    Boeotian vessels that were destined for burial.<note n="5" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Coldstream 1977,
+                            201</bibl>.</p>
+                    </note></p>
+                <p>The Boeotian oinochoai reflect their Attic prototypes both in the
+                    shape and in the technique, whereby brown paint is applied directly to the
+                    surface without slip.<note n="6" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Ruckert 1976, 17,
+                            59</bibl>.</p>
+                    </note> Most of the decorative scheme is also similar: the solid glazed neck,
+                    the concentric circles on each side of the body, and the horizontal band around
+                    the foot. In the panel scene on the shoulder, however, the Boeotian artist
+                    introduces horizontal zigzags and crosshatched triangles, which are often
+                    detached on other Boeotian examples of this same class.<note n="7"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Coldstream 1968,
+                            210</bibl>.</p>
+                    </note> And, in contrast to the striding Attic birds, the Boeotian counterparts
+                    are stationary and long-legged.<note n="8" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Ruckert 1976,
+                        43</bibl>.</p>
+                    </note> On the Attic vases, beneath the panel there is a series of horizontal
+                    lines, but on the Boeotian jugs they are replaced by straight or wavy vertical
+                    lines, which are possibly derived from Corinthian vasepainting.<note n="9"
+                        place="unspecified" anchored="true">
+                        <p><bibl>F. Canciani, <title
+                                   >JdI</title> 80 (1965):68</bibl>.</p>
+                    </note> On the basis of the profiles and the painted snakes on the handles, the
+                    Boeotian oinochoai are thought to be contemporary with their Attic counterparts
+                    and thus also to date to the period 750 to 720 B.C.<note n="10"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Ruckert 1976, 17, 41,
+                                43-44, I 750-735 and II 735-720</bibl>.</p>
+                    </note></p>
+                <p>The ultimate origin of the shape and the concentric circles lies in
+                    Cypriot Ware, Bichrome IV,<note n="11" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Karageorghis 1975,
+                            172</bibl>.</p>
+                    </note> and possibly in Mycenaean pottery. Perhaps also of Cypriot inspiration
+                    are the double axes that appear on the Attic examples.<note n="12"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Karageorghis 1975,
+                            172-73</bibl>.</p>
+                    </note></p>
+                <milestone n="133" unit="page"/>
+            </div>
+            <div n="99" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins BMA 60.55.2" type="vase"
+                        >Baltimore, Hopkins BMA 60.55.2</rs>
+                </head>
+                <p>
+                    <title>Black-Figure Amphora with Herakles and Amazons</title>
+                    <date>550-500 B.C.</date>
+                </p>
+                <p>60.55.2. Baltimore Museum of Art, formerly Robinson Collection, from
+                    Barden Collection of Hamburg. "Gela." Ht, 54.2 cm; diam mouth, 34.4 cm; diam
+                    foot, 20.8 cm. Dull black glaze, chipped. Intact.</p>
+                <p>Upper surface of rim reserved. Reserved ring molding between body and
+                    foot. Neck glazed inside to depth of 3.6 cm.</p>
+                <p>
+                    <hi rend="ital">Side A</hi>
+                </p>
+                <p>Figures stand on glazed groundline. Herakles moves to his left, with
+                    left leg upraised. He wears chiton beneath lionskin, with scalp brought up over
+                    head, paws tied at neck, tail flying out behind. Bowcase over shoulder, scabbard
+                    at waist. His right hand holds a dagger, which he is about to thrust at his
+                    opponent, while his left hand is hidden by her shield. She is moving away from
+                    Herakles, with her legs in right profile, her left leg advanced. She turns back
+                    to Herakles, her right arm uplifted with a spear, her head and crested helmet in
+                    left profile, and over her left arm a shield with emblem of serpent and ball.
+                    She wears a chiton beneath a muscle cuirass, which is shown frontally, and an
+                    animal skin. On either side of the pair are two Amazons, each in crested helmet,
+                    short chiton, and cloak, with shield and spear. Devices on shields are, from
+                    left: pellets, bull's head (?), disc, tripod.</p>
+                <p>Added red: eyes, cloaks, shield rims of all Amazons. 1 and 2: skirt,
+                    3: lion-skin, 4: skirt, 5: plume of helmet, 6: panels in skirt.</p>
+                <milestone n="134" unit="page"/>
+                <p>Added white: flesh of Amazons, devices of shields, dots in borders
+                    below helmet plumes, lion tusks, Herakles' baldric, sections of plumes on
+                    helmets of 2 and 5.</p>
+                <p>
+                    <hi rend="ital">Side B</hi>
+                </p>
+                <p>Figures stand on glazed groundline. Dionysos, in center in right
+                    profile, wears a himation and ivy wreath and carries kantharos in uplifted left
+                    hand. Four vine branches wind away from shoulder. Flanking him on each side is
+                    maenad with long hair and wreath, wearing a long chiton with incised crosses at
+                    waist and incised dotted border at neckline. Maenad facing Dionysos wears short
+                    jacket. Nude satyr seen in profile at each side of scene.</p>
+                <p>Added red: panels in skirts, dots at waist, centers of eyes, curls of
+                    maenads, leaves of ivy wreaths. Added white: flesh of maenads.</p>
+                <p>Lotus and palmette above picture on side A. Chain of lotus buds above
+                    picture on side B. Rays around base. Two red lines around neck and two more
+                    below each picture (one line above rays, one around foot).</p>
+                <p>The uninterrupted profile of neck and shoulder classifies the form of
+                    this amphora as Type B, examples of which are commonly found among black-figure
+                    vases of the second half of the sixth century. The amphorae are usually
+                    ornamented with a ray pattern around the foot and ivy or lotus patterns above
+                    the pictures, which commonly portray mythological battles or Dionysiac revelry.</p>
+                <p>The obverse of our amphora illustrates a popular myth, the
+                    representations of which have been thoroughly examined by von Bothmer. Our
+                    composition belongs within Bothmer's category C. examples of which first
+                    appeared after 550 B.C. and depict an unassisted Herakles in combat with three
+                    or more Amazons.<note n="1" place="unspecified" anchored="true">
+                        <p><bibl>von Bothmer 1957,
+                            30</bibl>.</p>
+                    </note> Our scene belongs in subsection gamma,<note n="2" place="unspecified"
+                        anchored="true">
+                        <p><bibl>von Bothmer 1957,
+                            56</bibl>.</p>
+                    </note> because the retreating Amazon directly behind Herakles is dressed as a
+                    hoplite and glances behind her as she flees. Our representation is also related
+                    to compositions of subsection alpha,<note n="3" place="unspecified"
+                        anchored="true">
+                        <p><bibl>von Bothmer 1957,
+                            53</bibl>.</p>
+                    </note> where there is only a single Amazon behind Herakles, but one with the
+                    pose and gesture of the Amazon who stands at the viewer's far left side of our
+                    panel.</p>
+                <p>Typical of representations of Herakles and the Amazons after 550 are
+                    Herakles' choice of club or sword rather than spear,<note n="4"
+                        place="unspecified" anchored="true">
+                        <p><bibl>von Bothmer 1957,
+                            31</bibl>.</p>
+                    </note> and the use of the Attic helmet with oblong or L-shaped
+                        cheekpieces.<note n="5" place="unspecified" anchored="true">
+                        <p><bibl>von Bothmer 1957, 33,
+                            59</bibl>.</p>
+                    </note> Both the position of Herakles' left arm behind the shield<note n="6"
+                        place="unspecified" anchored="true">
+                        <p><bibl>von Bothmer 1957, pls. 30.1
+                                and 39.1</bibl>.</p>
+                    </note> and the gesture of the right sword arm<note n="7" place="unspecified"
+                        anchored="true">
+                        <p><bibl>von Bothmer 1957, pl.
+                            41.4</bibl>.</p>
+                    </note> are paralleled in other representatives of this conflict.</p>
+                <milestone n="136" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>CVA, USA fasc. 4, Robinson
+                            fasc. 1, 43-44, pls. XXV.2, XXVI, XXVII</bibl>; <bibl
+                           >von Bothmer 1957, 57, no. 183, pl. 45.3</bibl>; <bibl
+                           >Brommer 1973, 13, no. 17</bibl>.</p>
+                </div>
+            </div>
+            <div n="100" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B64" type="vase"
+                        >Baltimore, Hopkins AIA B64</rs>
+                </head>
+                <p>
+                    <title>Nikosthenic Amphora</title>
+                    <date>540-530 B.C.</date>
+                </p>
+                <p>B 64. Baltimore Society AIA, formerly Helbig Collection. Ht, 30 cm;
+                    max w across handles, 20.9 cm; diam at rim, 11.3 cm; diam of foot, 10.1 cm.
+                    Mended from several pieces, with part of lip and neck restored.</p>
+                <p>Ray pattern around rim. Inside neck are three glazed bands of varying
+                    heights separated by reserved strips. Strap handles have central vertical line
+                    flanked by bands of rays. On each side of neck is a combat between two pairs of
+                    boxers shown in profile. Added red on hair. Beneath foot of boxers on side A is
+                    signature: <foreign xml:lang="greek"
+                        >*N*I*K*O*S*Q[*E]*N*E*S*M*E*P*O*I*E*S*E*N</foreign>.</p>
+                <p>Beneath neck, principal zone of decoration lies between two raised
+                    ridges around center of body and consists of double row of ivy leaves. Above is
+                    band of tongues above rightward key pattern. Beneath are bands of: tongue, rays,
+                    reserved zigzag upon a glazed background, and rays. Between body and foot is
+                    glazed ridge with incised groove on either side. Foot has echinus shape, with
+                    vertical side reserved.</p>
+                <p>Soon after 550 B.C., the Attic potter Nikosthenes<note n="1"
+                        place="unspecified" anchored="true">
+                        <p>For Nikosthenes, <bibl>ABV,
+                                216-23</bibl> and <bibl>Para.,
+                            108-9</bibl>; <bibl>Boardman 1974,
+                            64</bibl>; <bibl>M. Eisman, <title
+                                   >GettyMusJ</title> 1 (1974):43-54</bibl>.</p>
+                    </note> created a distinctive Attic version of a type of Etruscan bucchero
+                    amphora that originated in Caere (see <bibl>E.R.
+                        Williams 1984, no. 125</bibl>). He retained the wide lip, strap handles, and
+                    ridges around the body, but he substituted black-figure decoration for the
+                    relief ornament on the Etruscan prototype. All of the one hundred or more
+                    surviving Nikosthenic amphorae that have a provenance are said to come from
+                    Caere; therefore, it appears that the Attic version was made specifically for
+                    the city where the prototype originated.</p>
+                <p>Most of the Nikosthenic amphorae are signed by Nikosthenes as potter
+                    or shopowner, but none bears the signature of a painter. Beazley believed that
+                    all the amphorae were painted by a single hand, whom he called Painter N. More
+                    recently it has been proposed that we broaden this designation to the Group of
+                    Nikosthenes, since it is plausible that several artists, including apprentices,
+                    participated in the decoration of the vases.<note n="2" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Eisman, <title
+                                   >GettyMusJ</title> 1 (1974):48</bibl>.</p>
+                    </note></p>
+                <p>The Hopkins vase is typical of Nikosthenic amphorae both in the
+                    patterns and the representations of boxers.<note n="3" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Ibid., 45. Our vase is no.
+                                2 in the list of boxing scenes in footnote 18</bibl>.</p>
+                    </note> The shape, with the pronounced spherical body, is somewhat unusual,
+                    although Beazley noted that the echinus foot appears in the "B"
+                        Torlonia<milestone n="137" unit="page"/> group assigned
+                    to the early years of Nikosthenes' career, about 550 B.C.<note n="4"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ABV, 220</bibl>.</p>
+                    </note> It does indeed seem that the Hopkins example belongs among the early or
+                    middle phases, since the later amphorae, made around 520 B.C., have a more
+                    elongated neck and tapering body, and a greater simplicity of ornament that
+                    compares closely with decorative patterns employed on other black-figure vases
+                    of the last third of the sixth century.<note n="5" place="unspecified"
+                        anchored="true">
+                        <p>Eisman [<bibl><title
+                                   >GettyMusJ</title> 1 (1974):52 no. 48</bibl>]
+                            believes that the latest amphorae date from about 515. Boardman [<bibl
+                               >Boardman 1974, 64</bibl>] thinks that
+                            the workshop was active to about 510 B.C.</p>
+                    </note></p>
+                <p>The workshop of the potter Nikosthenes was certainly one of the
+                    larger and more innovative Attic studios between 550 and 510 B.C. The Six
+                    technique may have originated here, as may have the practice of applying a
+                    white-ground background to black-figure ware. The shop certainly introduced the
+                    kyathos, which was inspired by an Etruscan shape. Prominent painters, such as
+                    Oltos, Psiax, Epiktetos, and the Theseus Painter, are thought to have been
+                    associated with this establishment.<note n="6" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Boardman 1974, 64</bibl>;
+                                <bibl>Eisman, <title
+                                    >GettyMusJ</title> 1 (1974):48-49</bibl>.</p>
+                    </note></p>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>FR, 252, no. 2</bibl>; <bibl
+                           >D. M. Robinson, <title
+                            >AJA</title> 26 (1922):54-58</bibl>; <bibl
+                            >Hoppin 1924, 179</bibl>; <bibl>CVA, USA
+                            fasc. 4 Robinson fasc. 1, 43, pls. XXIV.2, XXV.1</bibl>; <bibl
+                           >ABV, 220, no. 336</bibl>.</p>
+                </div>
+            </div>
+            <div n="101" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B1" type="vase"
+                        >Baltimore, Hopkins AIA B1</rs>
+                </head>
+                <p>
+                    <title>Fragment from Kylix by Oltos</title>
+                    <date>ca. 520 B.C.</date>
+                </p>
+                <p>B 1. Baltimore Society AIA, formerly Hartwig Collection. Max ht, 5
+                    cm; max 1, 7.7 cm. Part of exterior decoration of kylix with upper edge
+                    belonging to original rim.</p>
+                <p>Maenad moves to her right; torso frontal, head in left profile. She
+                    wears chiton, himation fastened over right shoulder, and panther skin knotted at
+                    throat. Her left elbow is bent, with a pine branch in left hand. Her hair is
+                    drawn behind the ears, bent up at nape, and fastened to back of head with
+                    fillet. Disc earrings, bracelet on left wrist. Behind her are the extended
+                    fingers of a right hand.</p>
+                <p>Relief contour throughout. Dilute glaze for mouth and inner line of
+                    ear. Added purple for fillet, leaves, bracelet. Hairline incised.</p>
+                <p>This fragment arrived at the university as part of the restored
+                    sections of the kylix by the Pistoxenos Painter (<rs type="vase"
+                        >Baltimore, Hopkins AIA B12</rs>). Subsequently, Beazley recognized the
+                    Hopkins piece to be part of the exterior of a kylix to which fragments in
+                    Florence, Heidelberg, Braunschweig, Bowdoin, and the Villa Giulia also belong
+                    (see <hi rend="ital">above,</hi> Beazley pl. X; and <rs type="vase"
+                       >Bowdoin 1913.14</rs>).<note n="1" place="unspecified"
+                        anchored="true">
+                        <p>For Oltos, see <bibl>J. D.
+                                Beazley, <title>JHS</title> 58 (1938):267</bibl>;
+                                <bibl>Boardman 1975, 56-57</bibl>; <bibl
+                               >ARV2, 53-67</bibl>; <bibl
+                               >Para., 326-28</bibl>; <bibl
+                               >Beazley Addenda 2, 1933, 7, pls. I.21, 23</bibl>; X.
+                            The Bowdoin fragment appears in <bibl
+                                >Buitron 1972, 69, no. 30</bibl>.</p>
+                    </note> The maenad on our segment formed part of a procession of satyrs and
+                    maenads whose counterparts on the opposite side are a fleeing girl and two men.
+                    In the tondo was a representation of Pegasus, together with the signature of
+                    Kachrylion, the prominent Attic potter for whom Phintias (see <rs type="vase"
+                       >Baltimore, Hopkins AIA B4</rs>) and the Kiss Painter (see <rs
+                        type="vase">Baltimore, Hopkins AIA B5</rs>) may also have
+                        worked.<note n="2" place="unspecified" anchored="true">
+                        <p><bibl>Bloesch 1940,
+                        45-50</bibl>.</p>
+                    </note></p>
+                <p>Oltos was one of the most skilled early artists of red-figure
+                        vasepainting.<note n="3" place="unspecified" anchored="true">
+                        <p><bibl>E. Finkenstaedt, <title
+                                   >AJA</title> 72 (1968): 383, pl. 129</bibl>.</p>
+                    </note> He signed two cups and is accredited with over one hundred fifty vessels
+                    in all. Although he primarily painted kylixes, he also worked on amphorae,
+                    psykters, stamnoi, and a kyathos. He was employed by the best potters of his
+                    age, including Kachrylion, Nikosthenes, Pamphaios, and Hischylos.<note n="4"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Bloesch 1940, 31, 33,
+                                45-50, 64</bibl>; <bibl>ARV2,
+                        53</bibl>.</p>
+                    </note></p>
+                <p>The artist's distinctive style can be recognized in the stumpy bodies
+                    and the square heads with long noses and narrow, elongated eyes. Also
+                    characteristic is the patterning of the extended figures. Oltos's use of relief
+                    line was extensive and particularly skilled.</p>
+                <milestone n="138" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>Philippart 1928, 50</bibl>;
+                            <bibl>D. M. Robinson, <title
+                                >AJA</title> 21 (1917): 167, fig. 7</bibl>; <bibl
+                           >Beazley 1918, 7, 12, no. 51</bibl>; <bibl
+                           >Hoppin 1919, vol. II, 261, no. 47c</bibl>; <bibl
+                           >Beazley 1925, 17, no. 70</bibl>; <bibl
+                           >Beazley 1933a, pl. X</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 11, pl.
+                            I.1</bibl>; <bibl>ARV2, 59, no.
+                    55</bibl>.</p>
+                </div>
+            </div>
+            <div n="102" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B4" type="vase"
+                        >Baltimore, Hopkins AIA B4</rs>
+                </head>
+                <p>
+                    <title>Kylix by Phintias</title>
+                    <date>520-510 B.C.</date>
+                </p>
+                <p>B 4. Baltimore Society AIA, formerly Hartwig Collection. Ht, 7 cm;
+                    diam with handles, 25 cm; diam rim, 18.5 cm; diam foot, 7.4 cm. Mended from many
+                    pieces.</p>
+                <p>Tondo is bordered by narrow reserved band. Youth stands in right
+                    profile, a mantle thrown over his left shoulder, exposing only right shoulder
+                    and breast. Vine wreath in hair. He has just arisen from a stool and leans
+                    forward with both arms outstretched, money bag in left hand, fingers of right
+                    hand extended, staff leaning against left shoulder. In front of him are a
+                    skyphos, amphora set in a stand, and a kylix resting in rim of amphora.
+                    Inscribed in field:</p>
+                <p><foreign xml:lang="greek">*F*I*N[*T*I]*A*S
+                        *E*G*R*A*F*S*E*N *X*A*I*R*I*A*S *K*A*L*O*S</foreign>.</p>
+                <p>Relief contour throughout, except at hairline. Dilute glaze for inner
+                    markings and for fuzz on cheeks. Added red for wreath, cord on money bag,
+                    lettering. Incised hairline.</p>
+                <p>Phintias belonged to the Pioneer group of red-figure painters, who
+                    began work in the time of the Andokides Painter and continued into the late
+                    sixth century. About seventeen vases of a variety of shapes have been attributed
+                    to Phintias, seven of which, including this one, he signed as painter.<note
+                        n="1" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 22-26</bibl>; <bibl
+                               >Para., 323, 507, 509</bibl>; <bibl
+                               >Boardman 1975, 30-32</bibl>.</p>
+                    </note></p>
+                <p>Phintias betrays his heritage from black figure in his use of
+                    incision rather than reserve line to delineate the hairline. Also typical of
+                    early red figure is Phintias's reliance on relief line, rather than dilute
+                    glaze, for interior markings, and his penchant for the stacked pleats and
+                    swallowtails seen in contemporary sculpture. Figures painted by Phintias can be
+                    recognized by the length and pronounced curve of the eye, and by the almost
+                    concave profile of the nose. Other characteristic features are the animated
+                    contour of the hair and the long fingers and feet.<note n="2"
+                        place="unspecified" anchored="true">
+                        <p>Simon, 97, pls. 98-101; G. Pinney, <hi rend="ital"
+                               >AJA</hi> 85 (1981): 151; C. M. Cardon, <hi rend="ital"
+                               >AJA</hi> 83 (1979): 172.</p>
+                    </note></p>
+                <p>Bloesch suggested that many of the vases that Phintias painted were
+                    supplied by the prominent potter Kachrylion, who also fashioned pieces for the
+                    Kiss Painter.<note n="3" place="unspecified" anchored="true">
+                        <p><bibl>Simon &amp; Hirmer
+                                1976, 97-98, pls. 98-101</bibl>; <bibl
+                                >ARV2, 25, nos. 1-3</bibl>.</p>
+                    </note> Our kylix would indeed seem to be associated with Kachrylion, since the
+                    bulge above the foot recalls Kachrylion's distinctive treatment of Type-C cups
+                    having a plain lip.<note n="4" place="unspecified" anchored="true">
+                        <p><bibl>Bloesch 1940, 119-22 and
+                                120, nos. 1-4</bibl>. Type-C kylixes are characterized by a flat
+                            plate foot and a bulge in the stem. Occasionally the lip is offset.</p>
+                    </note> The tall, slender stem and shallow bowl indicate that our cup is later
+                    than an example in Boston that is signed by Kachrylion.<note n="5"
+                        place="unspecified" anchored="true">
+                        <p><rs type="vase">Boston 95.33</rs>. <bibl
+                               >Bloesch 1940, 119, no. 1</bibl>. I owe
+                            this comparison to Sally Roberts.</p>
+                    </note></p>
+                <milestone n="140" unit="page"/>
+                <p>Besides being a painter, Phintias was also a potter. He signed as
+                    potter one cup of Type-B shape and two aryballoi,<note n="6" place="unspecified"
+                        anchored="true">
+                        <p><bibl>ARV2, 25</bibl>. Cup is <rs
+                                type="vase">Athens 1628</rs>. <bibl
+                               >Bloesch 1940, 61</bibl>.</p>
+                    </note> and several more cups have been attributed to him.<note n="7"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 178, nos. 1-6</bibl>;
+                                <bibl>G. Pinney, <title
+                                    >AJA</title> 85 (1981):155, 157</bibl>.</p>
+                    </note> Recent study of the style of the painting and the profiles of the vases
+                    attributed to Phintias has determined that Phintias worked in the same studio
+                    with Euthymides and the Dikaios Painter, and that he trained several prominent
+                    artists, including Kleophrades and the Berlin Painter, for whom Phintias may
+                    have fashioned several cups.<note n="8" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>M. Robertson [<title
+                                   >AJA</title> 62 (1958): 57, 62,
+                            64]</bibl>attributes Athens 1628 to the Berlin Painter. <bibl
+                               >G. Pinney [<title
+                                >AJA</title> 85 (1981): 146, 155-58]</bibl> discusses the
+                            relationship between the Berlin Painter and Hermokrates, whom she
+                            believes to be identical with the Salting Painter.</p>
+                    </note></p>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>Hartwig, <title
+                                >RömMitt</title> 2 (1887):169, no. VIII</bibl>; <bibl
+                           >Wernicke 1889, 54, no. 2</bibl>; <bibl
+                           >H. S. Jones, <title
+                            >JHS</title> 12 (1891):372-73</bibl>; <bibl
+                            >Hartwig 1893, 172, pl. XVII.1</bibl>; <bibl
+                            >Harrison &amp; MacColl 1894, 18</bibl>; <bibl
+                           >FR, 251-52, no. 1</bibl>; <bibl
+                           >Pottier 1909, fig. 5</bibl>; <bibl
+                           >G. Perrot, <title>Histoire de l'art dans
+                                l'antiquité</title> (1882-1914), vol. 10, 464, fig.
+                        265</bibl>; <bibl>Hoppin 1917, 99-102</bibl>;
+                            <bibl>Beazley 1918, 28</bibl>; <bibl
+                           >Hoppin 1919, vol. II, 355, no. 2</bibl>;
+                            <bibl>Pfuhl 1923, <milestone n="139"
+                                unit="page"/> vol. 1, 441, and vol. 3, 119, fig.
+                            384</bibl>; <bibl>Richter 1923, 81-82, no.
+                            5, fig. 85</bibl>; <bibl>Beazley 1925, 57,
+                            no. 2</bibl>; <bibl>Philippart 1928,
+                        50</bibl>; <bibl>P. Cloche, <title
+                               >Les classes, les métiers, le trafic</title>
+                            (Paris, 1931), 51, pl. XXXII</bibl>; <bibl
+                            >CVA, USA fasc. 6, Robinson fasc. 2, 12-13, pls. II.1, III.2</bibl>;
+                            <bibl>Schnitzler 1948, pl. 39</bibl>; <bibl
+                           >Sparkes &amp; Talcott 1958, fig.
+                        12</bibl>; <bibl>Bernhard 1966, fig. 86</bibl>;
+                            <bibl>ARV2, 24, no. 14</bibl>.</p>
+                </div>
+            </div>
+            <div n="103" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B3" type="vase"
+                        >Baltimore, Hopkins AIA B3</rs>
+                </head>
+                <p>
+                    <title>Kylix by Epiktetos</title>
+                    <date>520-510 B.C.</date>
+                </p>
+                <p>B 3. Baltimore Society AIA, formerly Hartwig Collection. "Chiusi."
+                    Ht, 14.1 cm; diam rim, 32.8 cm; diam foot, 12.7 cm. Mended from many pieces.
+                    Foot is ancient but does not belong. A few parts along rim restored (before
+                    acquisition) with segments of another ancient kylix.</p>
+                <p>Tondo is bordered by narrow reserved band. Wreathed satyr reclines on
+                    a couch, which is indicated by narrow reserved band (fragments imprecisely
+                    assembled give inaccurate effect of bent line). His back is supported by a
+                    pillow decorated with three black bands crossed by two close-set lines. His legs
+                    are bent and upraised, with feet pressed against edge of tondo. With both hands
+                    and upraised right knee he raises pointed amphora to his lips. Inscribed beneath
+                    couch and in field above satyr's head: <foreign xml:lang="greek"
+                        >*E*P*I*K*T*E*T*O*S *E*G*R*A*F*S*E*N</foreign>.</p>
+                <p>Relief contour throughout except for reserved contour of beard.
+                    Dilute glaze for inner markings. Added red for tail, wreath, lettering. Incised
+                    contour of hair at crown and nape.</p>
+                <p>Epiktetos was a prominent early red-figure painter who specialized in
+                        cups.<note n="1" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 70-79</bibl>; <bibl
+                               >Para., 328-29</bibl>; <bibl
+                               >Boardman 1975, 57-59</bibl>; <bibl
+                               >J. D. Beazley, <title>JHS</title> 58
+                                (1938):267</bibl>.</p>
+                    </note> He signed his name on forty vases and is accredited with sixty more,
+                    many of which are signed only with <hi rend="ital"
+                    >"egraphsen."</hi> Epiktetos also worked as a potter. He signed one vase as both
+                    potter and painter,<note n="2" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 78 no. 102</bibl>
+                                (<rs type="vase">Athens, Acr. 6</rs>, a plate).</p>
+                    </note> and he wrote only <hi rend="ital">"epoiesen"</hi> on other
+                    vases that we know he both potted and painted.<note n="3" place="unspecified"
+                        anchored="true">
+                        <p>He also signed one vase, which he both potted and painted,
+                            with the word <hi rend="ital">"egraphsen"</hi> (<bibl
+                               >ARV2, 76, no. 78</bibl>). Another bears
+                            the words <hi rend="ital">"egraphsen"</hi> and <hi
+                                rend="ital">"epoiesen"</hi> (<bibl
+                               >ARV2, 73, no. 31</bibl>).</p>
+                    </note></p>
+                <p>Epiktetos worked for a number of potters, including Andocides,
+                    Nikosthenes, and Hischylos, for whom he painted bilingual cups. In his later
+                    years, Epiktetos painted for Pistoxenos, Pamphaios, and Python, and he
+                    undoubtedly came into contact with artists of the early fifth century, such as
+                    Douris (see <rs type="vase">Baltimore, Hopkins AIA B8</rs>, <rs
+                        type="vase">Baltimore, Hopkins AIA B9</rs>) and Makron (see <rs
+                        type="vase">Baltimore, Hopkins AIA B10</rs>).<note n="4"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 70</bibl>; <bibl
+                               >M. Robertson, <title
+                                >JHS</title> 85 (1965):100</bibl>; <bibl
+                                >Boardman 1975, 59</bibl>.</p>
+                    </note></p>
+                <p>Epiktetos displays influence from black-figure vase-painting in his
+                    use of incision along the contour of the hair, but, in contrast to Phintias and
+                    other painters of<milestone n="142 " unit="page"/> the
+                    Pioneer Group, Epiktetos prefers the newer dilute glaze, rather than relief
+                    line, for the interiors of his figures. He is especially admired for the
+                    excellence of his tondo compositions, of which our example is a good
+                    illustration. The scene displays a sensitive balance of light and dark and an
+                    admirable skill in the handling of the satyr, who, as the cup is rotated,
+                    appears to stand and lean over the amphora.<note n="5" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Beazley [<title
+                                   >JHS</title> 58 (1938):267]</bibl>notes that the
+                            vertical axis of a tondo composition is rarely at right angles with the
+                            handles.</p>
+                    </note> Also noteworthy is the skillful draughtsmanship of the face.</p>
+                <p>Our cup is probably an early work, since the proportions of the satyr
+                    are slender,<note n="6" place="unspecified" anchored="true">
+                        <p><bibl>Buitron 1972,
+                        72</bibl>.</p>
+                    </note> the use of red is generous,<note n="7" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Simon &amp; Hirmer
+                                1976, 96, pls. 96-97</bibl>.</p>
+                    </note> and the profile of bowl and stem can be compared with those on cups by
+                    the potter Hischylos,<note n="8" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Bloesch 1940, 31-35</bibl>;
+                            see also <bibl>M. Robertson, <title
+                                   >JHS</title> 85 (1965):99-100</bibl>.</p>
+                    </note> with whom Epiktetos was associated early in his career. A later version
+                    of the same scene appeared on a kylix once in Rome; that cup was said by Beazley
+                    to be in the manner of Epiktetos and possibly by the artist himself.<note n="9"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 80, no.
+                        15</bibl>.</p>
+                    </note></p>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>P. Hartwig, <title
+                               >RömMitt</title> 2 (1887):167, no. 1</bibl>;
+                            <bibl>P. Hartwig, <title
+                            >Jdl</title> 6 (1891):250-57, pl. V</bibl>; <bibl
+                           >P. Hartwig, <title>Jdl</title> 7 (1892):
+                            118</bibl>; <bibl>Harrison &amp; MacColl
+                            1894, pl. IX.1</bibl>; <bibl>Beazley 1918,
+                            14-16, fig. 7</bibl>; <bibl>Hoppin 1919,
+                            vol. I, 301, no. 2</bibl>; <bibl>Beazley
+                            1925, 26, no. 20</bibl>; <bibl>Philippart
+                            1928, 50</bibl>; <bibl>W. Kraiker, <title
+                               >JdI</title> 44 (1929):177, no. 33</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 11-12,
+                            pls. I.3, II.3</bibl>; <bibl>D. K. Hill,
+                                <title>JWalt</title> 1 (1938):29, fig. 6</bibl>;
+                            <bibl>Buschor 1943, fig. 42</bibl>; <bibl
+                           >ARV2, 75, no. 56</bibl>.<milestone n="141"
+                            unit="page"/></p>
+                </div>
+            </div>
+            <div n="104" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B2" type="vase"
+                        >Baltimore, Hopkins AIA B2</rs>
+                </head>
+                <p>
+                    <title>Kylix Fragment by Epiktetos</title>
+                    <date>ca. 500 B.C.</date>
+                </p>
+                <p>B 2. Baltimore Society AIA, formerly Hartwig Collection. "Chiusi."
+                    Greatest dimension, 15.5 cm; diam tondo, 9.5 cm. Broken all around. Includes
+                    part of stem. Surface worn.</p>
+                <p>Tondo is bordered by narrow reserved band. Beardless youth wearing
+                    red wreath strides forward in right profile, his knees bent, his right leg
+                    advanced. His outstretched right hand grasps a wineskin; his left hand supports
+                    a staff over his left shoulder, from the end of which hangs his cloak. Inscribed
+                    in red lettering in field: <foreign xml:lang="greek"
+                        >*E*P*O*I*E*S*E*N</foreign>.</p>
+                <p>Relief contour throughout. Incised hairline.</p>
+                <p>This fragment bears the word "<hi rend="ital"
+                    >epoiesen,</hi>" which we know Epiktetos inscribed on vases that he both potted
+                    and painted.<note n="1" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 70</bibl>.</p>
+                    </note> Typical of later archaic painting are the greater slimness and
+                    elasticity of the thighs, the attempt at a three-quarter view with the left
+                    shoulder advanced, and the refined profile of the face. Characteristic of
+                    Epiktetos are the skillful composition, with the pose and scale of the youth
+                    perfectly adjusted to the field and with the animation of the stride in harmony
+                    with the curving frame. The incised hairline contrasts with the reserved line in
+                    use among contemporary artists.</p>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>P. Hartwig, <title
+                               >RömMitt</title> 2 (1887):169, no. X</bibl>;
+                            <bibl>P. Hartwig, <title
+                            >JHS</title> 12 (1891): 347, fig c</bibl>; <bibl
+                           >A. E. Pottier, <title>MonPiot</title> 20
+                            (1913):144, fig. 18</bibl>; <bibl>Beazley
+                            1918, 19</bibl>; <bibl>Beazley, <title
+                               >BSR</title> 11 (1929):16 n. 3</bibl>; <bibl
+                           >W. Kraiker, <title
+                            >Jdl</title> 44 (1919):194, no. 2</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 11, pl. I</bibl>;
+                            <bibl>ARV2, 76, no. 75</bibl>.</p>
+                </div>
+            </div>
+            <div n="105" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B5" type="vase"
+                        >Baltimore, Hopkins AIA B5</rs>
+                </head>
+                <p>
+                    <title>Kylix by the Kiss Painter</title>
+                    <date>ca. 500 B.C.</date>
+                </p>
+                <p>B 5. Baltimore Society AIA, formerly Hartwig Collection. "Chiusi."
+                    Ht, 11 cm; diam with handles, 38.7 cm; diam rim, 30.7 cm; diam foot, 11.1 cm.
+                    Mended from many pieces.</p>
+                <p>
+                    <hi rend="ital">Interior</hi>
+                </p>
+                <p>Standing on exergue is bearded male facing front. His weight is on
+                    his right leg; his left knee is bent with foot behind him. He wears a mantle
+                    brought over his left shoulder, exposing right shoulder and chest. Right hand on
+                    hip; left arm extended, with hand holding end of staff. His head, seen in right
+                    profile, wears an ivy wreath. Facing him is a nude youth wearing a laurel
+                    wreath, legs in left profile, torso three-quarters turned to front. He stands on
+                    a two-stepped starting block and holds an aryballos and sponge in left hand. In
+                    field are aryballos and sponge suspended from nail. An upended pick is set in
+                    ground in front of base. Inscribed in field, second word retrograde: <foreign
+                        xml:lang="greek">*L*E*A*G*R*O*S *K*A*L*O*S</foreign> (Leagros
+                    is beautiful).</p>
+                <p>Tondo is bordered by reserved band. <hi rend="ital"
+                        >Exterior, Side A</hi></p>
+                <p>Striding youth with mantle draped over shoulders carries skyphos in
+                    left hand and staff supporting oinochoe in right. Inscribed in field above tip
+                    of staff: <foreign xml:lang="greek">*E</foreign>. Youth approaches
+                    a large-column krater, on the other side of which is a nude youth with himation
+                    over shoulders. Inscribed in field beneath figures: <foreign xml:lang="greek"
+                       >*K*A*L*O*S</foreign> (beautiful).</p>
+                <p>Rest of scene consists of one striding nude youth and another in
+                    draped himation.</p>
+                <p>
+                    <hi rend="ital">Exterior, Side B</hi>
+                </p>
+                <p>Standing bearded male extends left hand to approaching youth, who
+                    carries skyphos in extended right hand, staff in left. Both figures are nude,
+                    with mantles draped over shoulders. Remainder of scene consists of beardless
+                    youth in right profile, nude except for mantle over shoulders, playing flutes.
+                    In front of him is maiden, of<milestone n="144" unit="page"
+                    /> whom only a part of pleated chiton and mantle survives. Inscribed in field
+                    above all four figures: <foreign xml:lang="greek"
+                        >*E*P]*I*D*R*O*M*O*S [*K]*A*L*O*S</foreign>.</p>
+                <p>Relief contour throughout interior and exterior, except for some feet
+                    on exterior. Hairline reserved at forehead and nape and incised at crown. Dilute
+                    glaze for inner markings. Added red: interior—wreath, javelin loop,
+                    string and wristband of aryballoi, nail securing one aryballos, lettering;
+                    exterior—lettering. Graffito on underside of foot.</p>
+                <p>The Kiss Painter is known from only five cups. He takes his name from
+                    the affectionate scenes on the tondos of kylixes in Berlin and New York.<note
+                        n="1" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 177-78 (no. 1 [177]
+                                is in Berlin, no. 2 [177] is in New York)</bibl>; <bibl
+                               >Para., 339</bibl>; <bibl
+                                >J. Beazley, <title>JHS</title> 58
+                            (1938):267</bibl>.</p>
+                    </note> All but one of the cups has a komos scene on the exterior. The Baltimore
+                    vase is the only inscribed example and bears within the tondo the well-known
+                    love name Leagros, which appears on a number of black-figure vases of about this
+                        date.<note n="2" place="unspecified" anchored="true">
+                        <p><bibl>Boardman 1974,
+                        110</bibl>.</p>
+                    </note> The inscription on the exterior, <hi rend="ital">epidromos
+                        kalos,</hi> praises the delights of athletic pursuits.</p>
+                <p>The profile of the vase resembles those of kylixes by the potter
+                    Kachrylion, to whom this cup has been attributed.<note n="3" place="unspecified"
+                        anchored="true">
+                        <p><bibl>G. Nicole, RA 5, 3-4
+                                (1916): 396</bibl>; <bibl>Hoppin 1919,
+                                vol. 1, 176, no. 20</bibl>; see also <bibl
+                               >Bloesch 1940, 45-50</bibl>.</p>
+                    </note> Kachrylion also fashioned the kylix to which our fragment by Oltos (<rs
+                        type="vase">Baltimore, Hopkins AIA B1</rs>) belonged, and
+                    possibly made the cup that was decorated by Phintias (<rs type="vase"
+                       >Baltimore, Hopkins AIA B4</rs>).</p>
+                <p>The scene in the tondo takes place in a palaestra, where youths
+                    trained in the various sports whose equipment is depicted here: the casting of
+                    the javelin, the broad jump (for which a pick was used to measure distances),
+                    and the foot race, which made use of a starting gate, a block of which is
+                    probably shown here.<note n="4" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Harris 1972, 27-29</bibl>.
+                            Alternate interpretation proposed by <bibl
+                                >A. E. Raubitschek [<title>Hesperia</title> 8
+                                (1939):161-63]</bibl>.</p>
+                    </note> The aryballos contained the olive oil that athletes applied with a
+                    sponge before exercising.</p>
+                <p>The advances made by vasepainters of about 500 B.C. can be seen in
+                    the foreshortened frontal leg of the trainer in the tondo and the three-quarter
+                    positions of the youthful torsos on the tondo and exterior. Also typical of
+                    vasepainting from the end of the sixth century is the use of dilute glaze for
+                    interior markings.</p>
+                <milestone n="146" unit="page"/>
+                <p>The large bodies with protruding buttocks and the expanses of flesh
+                    and drapery uninterrupted by detail recall the similar broad style of the
+                    contemporary Euthymides.<note n="5" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Simon &amp; Hirmer
+                                1976, 101, pls. 112-15</bibl>.</p>
+                    </note></p>
+                <p>The graffito on the underside of the foot is one of several examples
+                    that are found on many vases dating between ca. 550 and 500 B.C. These markings
+                    are believed to have been applied to vases intended for export, especially to
+                    Etruria, and to signify prices and other commercial information relating to the
+                    sale of the vessels.<note n="6" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Boardman 1974,
+                            202-3</bibl>; <bibl>Johnston 1979, 6-8,
+                            12</bibl>.</p>
+                    </note></p>
+                <milestone n="147" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>K. Wernicke, AZ 43 (1885):255,
+                            no. 16, pl. 19.2</bibl>; <bibl>P. Hartwig,
+                                <title>RömMitt</title> 2 (1887):167, no.
+                        2</bibl>; <bibl>Wernicke 1889, 41, no.
+                        20</bibl>; <bibl>Hartwig 1893, 39-43, figs.
+                        5a-b</bibl>; <bibl>Klein 1898, 75, no. 20, fig.
+                            15</bibl>; <bibl>Beazley 1918, 22</bibl>;
+                            <bibl>Hoppin 1919, vol. I, 176, no.
+                        20</bibl>; <bibl>K. Elderkin, HSCP 35
+                            (1924):119, no. 2</bibl>; <bibl>Beazley
+                            1925, 54, no. 3</bibl>; <bibl>A.
+                            Raubitschek, <title>Hesperia</title> 8
+                        (1939):162</bibl>; <bibl>M. Guarducci, <title
+                               >Annuario,</title> NS 3-4 (1941-42), 132</bibl>;
+                            <bibl>CVA, USA fasc. 6, Robinson fasc. 2,
+                            13-14, pls. V, VI.1</bibl>; <bibl>ARV2, 177,
+                            no. 3</bibl>.</p>
+                </div>
+            </div>
+            <div n="106" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins 9022" type="vase"
+                        >Baltimore, Hopkins 9022</rs>
+                </head>
+                <p>
+                    <title>Lekythos in Six Technique</title>
+                    <date>ca. 500 B.C.</date>
+                </p>
+                <p>9022. Ht, 18.9 cm; diam mouth, 4 cm; diam foot, 5 cm. Mended from
+                    many pieces, with parts of handle and rim restored.</p>
+                <p>Rim and inside of neck glazed. Glazed handle, with underside
+                    reserved. On shoulder is chain of lotus buds, with stalks linking every three
+                    buds; band of tongues above.</p>
+                <p>
+                    <hi rend="ital">Body:</hi>
+                </p>
+                <p>Satyr strides in right profile, left leg advanced. Right outstretched
+                    hand grasps right wrist of a maenad, while left arm is outstretched toward her
+                    genitals. Maenad advances in left profile, left leg advanced and both arms
+                    outstretched. Contour and interior markings of satyr incised. Delicate incisions
+                    for maenad's eye, brow, hairline, arms, back left leg, and back of right thigh.
+                    Interior of maenad was painted white.</p>
+                <p>Two red lines above scene; one red line beneath figures as
+                    groundline. Foot in two degrees, glazed except for reserved side of top step and
+                    underside.</p>
+                <p>In Six technique the background is in black glaze, like the
+                    background in red-figure vasepainting, but the artist works the figures either
+                    by incising their contours through the black glaze or by applying white, red, or
+                    brown paint on top of the glaze before the vase is fired.<note n="1"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Boardman 1974, 178</bibl>;
+                                <bibl>J. Six, <title
+                                    >Gazette Archéologique</title> 13 (1888): 193-294</bibl>;
+                                <bibl>Haspels 1936, 106ff.</bibl>; <bibl
+                               >P. E. Corbett, <title
+                                    >JHS</title> 85 (1965):24</bibl>; <bibl
+                               >Kurtz 1975, 116-19</bibl>.</p>
+                    </note> The painter may, as in the case with our maenad, render a figure
+                    entirely or mostly in color, using incision only for details. Alternately, he
+                    may work a figure like our satyr in "outline Six," wherein all of the figure is
+                    incised and no color is added.<note n="2" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Kurtz 1975, 116,
+                            119</bibl>.</p>
+                    </note></p>
+                <p>The Six technique originated during the first half of the sixth
+                    century, but at first was employed only for parts of figures. Not until around
+                    530 B.C., in the experimental atmosphere that stimulated the introduction of
+                    red-figure vasepainting, did Nikosthenes and Psiax first work entire vases in
+                    Six technique.<note n="3" place="unspecified" anchored="true">
+                        <p><bibl>Boardman 1974,
+                        178</bibl>.</p>
+                    </note> In the later sixth century the technique was most popular in the
+                    workshops of the Sappho<note n="4" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ABV, 507-8</bibl>; <bibl
+                               >Haspels 1936, 94-130, 227-28</bibl>;
+                                <bibl>Para., 246-48</bibl>.</p>
+                    </note> and Diosphos Painters,<note n="5" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ABV, 508-11</bibl>; <bibl
+                               >Haspels 1936, 94-130, 235-36</bibl>;
+                                <bibl>Para., 248-50</bibl>. To the
+                            examples listed by Beazley, add: <bibl
+                                >Hornbostel 1977, 298, no. 258</bibl>; <bibl
+                               >Kurtz 1975, pl. 6.4</bibl> in Columbia, Missouri.
+                            Another, surely by one of these two painters, is discussed by D. von
+                            Bothmer in <bibl>Brommer Festschrift, 61,
+                                pl. 19</bibl> (<rs type="vase">New York
+                        67.11.22</rs>).</p>
+                    </note> artists who were influenced, and perhaps trained, by the Edinburgh
+                    Painter. The Sappho and Diosphos Painters were primarily black-figure artists
+                    who painted a variety of shapes but specialized in lekythoi, which they executed
+                    in Six technique as well as in black-figure and white-ground. The Diosphos
+                    Painter is credited with over thirty-six lekythoi; the Sappho Painter is
+                    assigned only eleven lekythoi and one hydria.</p>
+                <p>Our vase is best paralleled by work of the Sappho Painter. Although
+                    both the Sappho and the Diosphos Painters used lekythoi of the DL type, those of
+                    the Sappho Painter have the shallow mouths and squat, full bodies with tapering
+                    profiles of the Hopkins vase, in contrast to the deeper mouths and
+                    straight-sided cylinders preferred by the Diosphos Painter.<note n="6"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Kurtz 1975, 80</bibl>.</p>
+                    </note> The stalks in the bud patterns of the Sappho Painter generally skip two
+                    buds, as on our example, while those of the Diosphos Painter usually skip only
+                    one, but<milestone n="148" unit="page"/> occasionally two,
+                    and sometimes add white dots between the buds.<note n="7" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Haspels 1936,
+                        94</bibl>.</p>
+                    </note> The Six lekythoi of both painters have a red line beneath the scene, but
+                    the Sappho Painter almost always applies two red lines above, as on our vessel,
+                    while the Diosphos Painter may employ a checker or key pattern.<note n="8"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Haspels 1936,
+                        95</bibl>.</p>
+                    </note> While the Diosphos Painter often relies upon incision alone, the Sappho
+                    Painter also executes elements of his representation in added white.<note n="9"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Kurtz 1975, 119</bibl>.</p>
+                    </note> Our vase is especially similar to a lekythos by the Sappho Painter in
+                    New York on which a satyr, worked entirely by incision, crouches amid an
+                    amphora, serpent, and rocks, all of which are rendered in white.<note n="10"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Haspels 1936, 228, no.
+                            43</bibl>, which is the same as <bibl><title
+                                   >Bulletin of the Metropolitan Museum of
+                                Art</title> (1930):136, fig. 4</bibl>. (17.8 cm; <rs type="vase"
+                               >New York 23.160.87</rs>).</p>
+                    </note></p>
+                <p>On the Hopkins vase the incisions for the maenad are so much lighter
+                    and more delicate than those for the satyr that they could not have been
+                    intended to be seen through the white paint and thus must be preliminary
+                    incisions intended as guidelines for the artist. On this lekythos the artist
+                    carefully respected these sketches in his final application of color, but on
+                    other Six vases the preliminary incisions are often disregarded.<note n="11"
+                        place="unspecified" anchored="true">
+                        <p><bibl>P. Corbett, <title
+                                   >JHS</title> 85 (1965):16-28, especially
+                            24-25</bibl>.</p>
+                    </note></p>
+                <p>The Sappho Painter used Six technique early in his career, and
+                    certainly the heavy thighs and strict profile of the satyr support a date for
+                    our vase of ca. 500 B.C.</p>
+                <milestone n="149" unit="page"/>
+            </div>
+            <div n="107" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins 9260" type="vase"
+                        >Baltimore, Hopkins 9260</rs>
+                </head>
+                <p>
+                    <title>Black-Figure Neck Amphora by the Michigan Painter</title>
+                    <date>ca. 500 B.C.</date>
+                </p>
+                <p>9260. Ht, 21.5 cm; diam rim, 11.4 cm; diam body, 14.2 cm; diam foot,
+                    7.5 cm. Mended from many pieces.</p>
+                <p>Upper surface of rim reserved; neck glazed inside. Glazed triple
+                    handles with undersides reserved. Profiled ridge separating neck from body; ring
+                    molding between body and foot. Both ridge and molding are painted red.</p>
+                <p>
+                    <hi rend="ital">Side A</hi>
+                </p>
+                <p>Glazed groundline. A bull in left profile collapses beneath the
+                    attack of two lions. In field above is inscription <hi rend="ital"
+                        >ISIS.</hi> Added red for dots in lions' manes and for streams of blood
+                    under mouth and claws.</p>
+                <p>
+                    <hi rend="ital">Side B</hi>
+                </p>
+                <p>Two bulls drink from vessel between them. Vines above their heads
+                    wind from base of handles.</p>
+                <p>Framed by a line above and a line beneath are three palmettes. The
+                    central seven-petal palmette is upright, the flanking five-petal palmettes are
+                    suspended. Two dots flank the middle leaf of the central palmette and two more
+                    dots lie on the inner sides of the middle leaves of the side palmettes.</p>
+                <p>Band of black tongues above picture. Beneath picture is a line, then
+                    two staggered rows of dots, double lines, rays. Foot glazed except for bottom of
+                    sides and underside. Below handles are volutes terminating in triple lotuses.
+                    Beneath foot is dipinto.</p>
+                <p>This vase is the work of the Michigan Painter, whom Beazley later
+                    recognized to be identical with the Painter of Brussels R 312, an artist of the
+                    Dot-Band Class who was active in the late sixth century.<note n="1"
+                        place="unspecified" anchored="true">
+                        <p>The Michigan Painter is discussed in <bibl
+                               >ABV, 343-44</bibl>. For the Dot-Band class,
+                            recognized by the dot band beneath the scene and by the ornament on the
+                            neck, see <bibl>ABV, 483</bibl>, and <bibl
+                               >Para., 220-21</bibl>. The Painter of
+                            Brussels R 312 is discussed in <bibl>ABV,
+                                483</bibl>. The artists are identified in <bibl
+                               >Para., 221</bibl>, with other additions on 157. See
+                            also <bibl>Philippaki 1967, 22</bibl>.</p>
+                    </note> The painter principally worked on small neck amphorae, but he also
+                    painted larger neck amphorae, Panathenaic amphorae, stamnoi, and at least one
+                    oinochoe.</p>
+                <p>On the necks of the small amphorae we find two<milestone n="151"
+                        unit="page"/> distinct palmette patterns. In the scheme
+                    on our example and on those vases originally attributed to the Painter of
+                    Brussels R 312, the central seven-petal palmette is upright and enclosed by four
+                    dots, while the flanking palmettes are suspended and have five petals each.
+                    These later palmettes can also be seen in the ornament under the handles of
+                    Brussels R 312. On amphorae formerly assigned to the Michigan Painter, the
+                    central seven-petal palmette is suspended and there are no dots, while the
+                    flanking upright palmettes have five or seven petals.</p>
+                <p>On his small neck amphorae, the Michigan Painter favors the heroic
+                    themes popular in the late sixth century, such as the Labors of Herakles (on
+                    examples in London<note n="2" place="unspecified" anchored="true">
+                        <p><rs type="vase">London B 277</rs> (Herakles and
+                            the Bull), <bibl>ABV, 343, no. 8</bibl>,
+                            which is the same as <bibl>CVA, GB fasc. 5,
+                                BM fasc. 4, pl. 70</bibl>.</p>
+                    </note> and Maplewood<note n="3" place="unspecified" anchored="true"
+                       >
+                        <p>Maplewood (Herakles and Antaeus) is the same as <bibl
+                               >Para., 157, no. 9 quarter</bibl>.</p>
+                    </note>, of Ajax and Achilles (on vases in Brussels<note n="4"
+                        place="unspecified" anchored="true">
+                        <p><rs type="vase">Brussels R 312</rs>, <bibl
+                               >ABV, 483, no. 1</bibl>, is the same as
+                                <bibl>Para., 157, no. 9 bis</bibl>,
+                            which is the same as <bibl>CVA, Belgium
+                                fasc. 1, Brussels fasc. 1, 3, pl. 9.1</bibl>. See <bibl
+                               >S. Woodford, <title>AJA</title> 84
+                                (1980):37, no. G.1</bibl>.</p>
+                    </note> and Lucerne<note n="5" place="unspecified" anchored="true">
+                        <p>Lucerne, art market, which is the same as <bibl
+                               >Para., 157, no. 9 ter</bibl>. See <bibl
+                               >S. Woodford, <title>AJA</title> 84
+                                (1980): 37, no. G.3</bibl>.</p>
+                    </note>), and of Peleus and Thetis (on an amphora in Boulogne<note n="6"
+                        place="unspecified" anchored="true">
+                        <p>Musée des beaux-arts et d'archéologie, Inv. no.
+                            85-B, <bibl>ABV, 483, no. 3</bibl> is the
+                            same as <bibl>Para., 157, no. 9,
+                        6</bibl>.</p>
+                    </note> [<rs type="vase">Boulogne no. 85</rs>]). He is also fond of
+                    Hermes, whom we find on another example in Boulogne<note n="7"
+                        place="unspecified" anchored="true">
+                        <p><rs type="vase">Boulogne, 13-A</rs>, <bibl
+                               >ABV, 483, no. 4</bibl> is the same as
+                                <bibl>Para., 157, no. 9</bibl>7.</p>
+                    </note> (<rs type="vase">Boulogne no. 13</rs>), and of komos or
+                    Dionysiac figures, who appear on amphorae in Michigan<note n="8"
+                        place="unspecified" anchored="true">
+                        <p><rs type="vase">Ann Arbor 2599</rs>, <bibl
+                               >ABV, 344, no. 9</bibl> is the same as
+                                <bibl>CVA, USA fasc. 3, Michigan fasc.
+                                1, 30, pl. XIV.3</bibl>.</p>
+                    </note> and Chicago<note n="9" place="unspecified" anchored="true">
+                        <p><rs type="vase">Chicago 1889.97</rs>, <bibl
+                               >ABV, 483, no. 2</bibl> is the same as
+                                <bibl>Para., 157, no. 9, 5</bibl>.</p>
+                    </note>.</p>
+                <p>The Michigan Painter was content with a limited repertory of motifs.
+                    The bull on the Hopkins vase is almost identical with the one defeated by
+                    Herakles on the amphora in London and is clearly inspired by black-figure
+                    representations of the Cretan bull in combat with Herakles.<note n="10"
+                        place="unspecified" anchored="true">
+                        <p>See <bibl>Shapiro 1981a, 64, no.
+                                23</bibl>.</p>
+                    </note> The reverses are particularly redundant, and usually feature dancing
+                    figures. The two women on the reverse of the Michigan amphora are almost
+                    identical with those on the reverses of the vases in Boulogne (<rs type="vase"
+                       >Boulogne 85</rs>) and London, except for their gestures and
+                    details like the addition of castanets. The two youths flanking the woman on the
+                    obverse of the Michigan vase are replaced by satyrs on the reverse of the
+                    amphora in Chicago and by women on the reverse of the example in Boulogne.</p>
+                <p>The signature characteristics of the painter were pointed out by
+                        Philippaki:<note n="11" place="unspecified" anchored="true">
+                        <p><bibl>Philippaki 1967,
+                        22</bibl>.</p>
+                    </note> the stacked arcs for the knees, the emphatic engraved arcs delineating
+                    the upper contour of the beard, and the description of the eye by means of a
+                    circle set between short horizontal lines. Typical of his treatment of animals
+                    are the four gashes for the ribs, the preponderance of wrinkles under the neck
+                    and behind the forelegs, and the presence of one or two arcs on the shoulder
+                    [e.g., on our bull, on the bull on the amphora in London, and on the horse on
+                    the reverse of the vase in Maplewood]. On his human figures we often find two
+                    horizontal lines for the mouth, a large shock of hair above the forehead, and an
+                    emphatically beaked nose. The collarbone is described by a long incision
+                    terminating in<milestone n="153" unit="page"/> an arc, and
+                    the ribs are delineated by a cluster of lines.</p>
+                <p>To the vases assembled by Beazley we can add a further example that
+                    was recently on the art market in Freiburg.<note n="12" place="unspecified"
+                        anchored="true">
+                        <p>Galerie Günter Puhze, Stadtstrasse 28, D-7800
+                        Freiburg.</p>
+                    </note> The neck pattern on that amphora is identical to the one on the Hopkins
+                    vase. On the obverse we find Herakles fighting Nereus, a subject compatible with
+                    this artist's known affinity for that hero. The composition and much of the
+                    detail in the scene compare closely with the representation of Peleus and Thetis
+                    on the amphora, <rs type="vase">Boulogne 85</rs>. On the reverse of
+                    the Freiburg vase, the woman flanked by two armed warriors can be compared with
+                    the scene on the reverse of the Brussels amphora, where two warriors are shown
+                    in combat. Finally, the Freiburg figures exhibit the jutting chin, nose, and
+                    back of the head familiar in other works from the hand of this artist.</p>
+                <p>The scene on the observe of the Hopkins vase is a familiar one in
+                    Attic sculpture of the last half of the sixth century. Pedimental groups
+                    representing one or two lions in triumph over a fallen bull have been assigned
+                    to the Hekatompedon and to the Peisistratid temple on the Acropolis. Another
+                    pedimental group was found in the Agora.<note n="13" place="unspecified"
+                        anchored="true">
+                        <p>For the Hekatompedon, see <bibl
+                                >Ridgway 1977, 199</bibl>. The Peisistratid temple is discussed on
+                            205-8, and the Agora pediment on 210. Still another group is divided
+                            between Athens and New York (210).</p>
+                    </note></p>
+                <p>The dipinto on the underside of the foot is of the type classified by
+                    Johnston as 32Av. The same mark appears on two oinochoai in Boston by the
+                    Chicago Painter. Those vases are said to come from Gela, a provenance that
+                    supports Johnston's contention that dipinti bore commercial information relevant
+                    to the export of the vessels.<note n="14" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Johnston 1979,
+                            85-86</bibl>; <bibl>D. von Bothmer, review
+                                of Johnston in <title>AJA</title> 85 (1981):
+                            353</bibl>.</p>
+                    </note></p>
+                <milestone n="154" unit="page"/>
+            </div>
+            <div n="108" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B8" type="vase"
+                        >Baltimore, Hopkins AIA B8</rs>
+                </head>
+                <p>
+                    <title>Kylix by Douris</title>
+                    <date>500-490 B.C.</date>
+                </p>
+                <p>B 8. Baltimore Society AIA, formerly Hartwig Collection. "Chiusi."
+                    Ht, 9.5 cm; diam with handles, 30.4 cm; diam of rim, 23.2 cm; diam foot, 9.6 cm.
+                    Mended.</p>
+                <p>Two warriors in left profile step on left leg, right leg extended,
+                    right arm upraised with spear. Male in foreground wears chiton, cuirass with
+                    star on shoulder lappet, greaves, and crested Corinthian helmet with upraised
+                    cheekpieces and dot band at base of crest. Over his left arm is shield with
+                    dotted rim and emblem consisting of left profile of lion head. Scythian
+                    companion wears tight-fitting, long-sleeved, long-legged garment alternating
+                    black and reserved bands; on top is sleeveless pleated tunic. He wears a
+                    Phrygian cap with two lappets by left ear; open gorytos hangs at left side. Both
+                    warriors are barefoot. Inscribed in field: <foreign xml:lang="greek"
+                       >*X*A*I*R*E*S*T*R*A*T*O*S *K*A*L*O*S</foreign>.</p>
+                <p>Relief contour throughout, except for underside of toes of left feet
+                    and reserved outline of Scythian's hair. Dilute glaze for folds of Scythian's
+                    tunic. Added purple for pads under greaves and lettering. Border consists of
+                    rightward meander.</p>
+                <p>Douris, one of the most prominent of all red-figure painters, was
+                    active during the first three decades of the fifth century.<note n="1"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 425-51</bibl>; <bibl
+                               >J. D. Beazley, <title
+                                    >JHS</title> 58 (1938):267</bibl>; <bibl
+                               >Para., 374-76</bibl>; <bibl
+                               >Muscarella 1974, no. 59, potting attributed to
+                                Euphronios</bibl>; <bibl>Dörig
+                                1975, no. 205</bibl>; <bibl>Boardman
+                                1975, 137-39</bibl>.</p>
+                    </note> He signed forty vases and has been assigned about two hundred fifty
+                    more. Most of these pieces are cups, but Douris worked on other shapes as well,
+                    both in white ground and red figure. He was also a competent potter and signed
+                    one kantharos in Brussels as both potter and painter.<note n="2"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 425, and 445, no.
+                            256</bibl>.</p>
+                    </note> Despite his familiarity with the potter's wheel, Douris preferred to
+                    paint vessels fashioned by Python,<note n="3" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ARV2, 426-27</bibl>; <bibl
+                               >Bloesch 1940, 96-101</bibl>.</p>
+                    </note> and, as a young artist, by Euphronios, for whom Onesimos also
+                        worked.<note n="4" place="unspecified" anchored="true">
+                        <p><bibl>Bloesch 1940,
+                        70</bibl>.</p>
+                    </note></p>
+                <p>Beazley divided the painting career of Douris into four periods and
+                    assigned our cup to the first phase, dating about 500-490 B.C..<note n="5"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 425-26</bibl>.</p>
+                    </note> In these years Douris's style was still in a formative stage, and his
+                        admiration<milestone n="159" unit="page"/> for
+                    Chairestratos, as demonstrated by the inscriptions, steadfast.</p>
+                <p>The picture in the tondo shows a hoplite accompanied by a member of
+                    the Scythian tribe, which lived to the north of Greece. Scythians served as
+                    archers in the Athenian army from about 530 B.C. to the end of the sixth
+                    century, but after this date the Persians, who had by now acquired control of
+                    Scythia, curtailed emigration to Athens,<note n="6" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Vos 1963, 60, 68,
+                            87</bibl>.</p>
+                    </note> and the few Scythians who did settle in Athens were primarily employed
+                    as policemen. For this reason representations of Scythian warriors after 500
+                    B.C. were based on memory rather than observation, and, not surprisingly, the
+                    depictions are often inaccurate. For example, the striped garment our Scythian
+                    wears appeared on representations of Scythians from about 510 B.C. and thus is
+                    probably a reliable rendition of the actual dress,<note n="7"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Vos 1963, 12, 40, 51,
+                            81</bibl>; <bibl>Schauenburg 1975, 90
+                                (1975): 107, 111</bibl>.</p>
+                    </note> but the chiton and spear are surely artistic license. On the other hand,
+                    Douris has correctly coupled the Scythian with a hoplite; we know that hoplites
+                    traditionally advanced under cover of Scythian arrows.<note n="8"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Vos 1963, 72-73</bibl>.</p>
+                    </note> Douris portrayed Scythians on three later vases of his third and fourth
+                    periods, and these depictions are, not unexpectedly, even less accurate.<note
+                        n="9" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 432, no. 55, and 433,
+                                no. 63, from period 3</bibl>. No. 130 (p. 438) is from period 4. For
+                            this last, see <bibl>Schauenburg 1975,
+                            111</bibl>.</p>
+                    </note></p>
+                <p>The lion head on the hoplite's shield is a common image in
+                    Achaemenian art, especially among gold appliqués, or bracteae.<note
+                        n="10" place="unspecified" anchored="true">
+                        <p><bibl>Ghirshman 1964, 380-81,
+                                439, nos. 553-55</bibl>.</p>
+                    </note> The motif first appears in Attic vasepainting at the end of the sixth
+                    century, undoubtedly as a result of increased contact with the Persian world,
+                    which erupted in the invasions of 490 and 480 B.C.<note n="11"
+                        place="unspecified" anchored="true">
+                        <p>See a lion head as shield device on kylix by the Foundry
+                            Painter (ca. 495 B.C.) in <bibl>Mü
+                                nzen, vol. 13 (1961):84, no. 159, pl. 51</bibl>.</p>
+                    </note></p>
+                <milestone n="160" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>P. Hartwig, <title
+                               >RömMitt</title> 2 (1887):168, no. 5</bibl>;
+                            <bibl>Hartwig 1893, 212, pl. 22.2</bibl>;
+                            <bibl>Klein 1898, 99, no. 10</bibl>; <bibl
+                           >FR, 251-52, no. 1</bibl>; <bibl
+                           >Beazley 1918, 97, no. 7</bibl>; <bibl
+                           >Hoppin 1919, vol. I, 277, no. 45</bibl>; <bibl
+                           >Beazley 1925, 200, no. 14</bibl>; <bibl
+                           >Philippart 1928, 50</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 15-16,
+                            pl. XI</bibl>; <bibl>ARV2, 442, no.
+                        215</bibl>.</p>
+                </div>
+            </div>
+            <div n="109" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins BMA 60.55.1" type="vase"
+                        >Baltimore, Hopkins BMA 60.55.1</rs>
+                </head>
+                <p>
+                    <title>Lekythos by the Athena Painter</title>
+                    <date>ca. 490 B.C.</date>
+                </p>
+                <p>60.55.1 Baltimore Museum of Art from Robinson Collection. "Gela." Ht,
+                    31.8 cm; diam, 12.6 cm; diam foot, 8.5 cm. Crack across lower part of body.
+                    Surface chipped.</p>
+                <p>Neck glazed inside. On shoulder is band of five nine-petal palmettes
+                    with central one inverted, others upright and angled toward handle. Dots flank
+                    base and topmost petal of each palmette. Above is band of tongues beneath red
+                    line. Glazed handle with underside reserved.</p>
+                <p>
+                    <hi rend="ital">Body</hi>
+                </p>
+                <p>Youth in right profile astride a dolphin extends right arm with
+                    phiale toward a satyr who crouches on a rock, right knee drawn up, right arm
+                    extended with oinochoe in right hand. Vine tendrils grow from rock. Behind satyr
+                    are another youth and dolphin seen in right profile. Added white for bellies of
+                    dolphins, lines on rock, flowers on satyr's oinochoe.</p>
+                <p>Above picture is band of zigzag between two pairs of bounding lines.
+                    Red line beneath scene and another between body and foot.</p>
+                <p>The Athena Painter<note n="1" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ABV, 522-25</bibl>; <bibl
+                               >Para., 260-62</bibl>; <bibl
+                               >Haspels 1936, 147-65, 254-58</bibl>; <bibl
+                               >Kurtz 1975, 14-16</bibl>; <bibl
+                               >Boardman 1974, 148</bibl>. To these add
+                                <bibl>Hornsbostel, 292, no. 254</bibl>,
+                            and <bibl>Dörig 1975, nos.
+                            210-11</bibl>.</p>
+                    </note> was one of a number of artists who continued to work in black figure
+                    long after many of his contemporaries had taken up the new red-figure technique.
+                    The artist was trained in the workshop of the Edinburgh Painter, together with a
+                    colleague of similar style, the Theseus Painter. The Athena Painter began work
+                    around 490 B.C. and devoted himself primarily to oinochoai and lekythoi. His
+                    lekythoi resemble those of the Edinburgh Painter in their standard shape, with
+                    straight outline and torus foot, and in the shoulder pattern, which consists of
+                    five palmettes amid dots. Our lekythos dates from the early years of the
+                    artist's career, before he painted the neck black, enclosed his row of bars
+                    within black lines, and added a tendril with bud to the palmettes on either side
+                    of the handle. Still later lekythoi are often in white ground.</p>
+                <p>The Athena Painter treated a variety of subjects, usually active
+                    scenes, and on his early vases he often depicted riders, satyrs, and
+                        silens.<note n="2" place="unspecified" anchored="true">
+                        <p><bibl>Haspels 1936,
+                            254-55</bibl>.</p>
+                    </note> His figures do not stand upon a groundline, in the traditional manner,
+                    but instead upon two red lines directly beneath the scene or upon the black
+                        field.<note n="3" place="unspecified" anchored="true">
+                        <p><bibl>Haspels 1936,
+                        148</bibl>.</p>
+                    </note> Characteristic features of the artist's work are the oval heads, the
+                    incised outline at the top of the beard and hair, and the reverse E pattern for
+                    the kneecap.<note n="4" place="unspecified" anchored="true">
+                        <p><bibl>Haspels 1936,
+                            148-49</bibl>; <bibl>Boardman 1974,
+                            48</bibl>.</p>
+                    </note> Typical of the date at which the painter was working is the inaccurate
+                    depiction of the dolphin's flukes, which are here set vertically instead of
+                        horizontally.<note n="5" place="unspecified" anchored="true">
+                        <p><bibl>Stebbins 1919, 6, 9,
+                            16</bibl>.</p>
+                    </note></p>
+                <p>The subject of our vase has been variously described as Arion.<note
+                        n="6" place="unspecified" anchored="true">
+                        <p><bibl>CVA, USA fasc. 6, Robinson
+                                fasc. 2, 27</bibl>. See <bibl>J. D.
+                                Beazley, <title>JHS</title> 58
+                        (1938):268</bibl>.</p>
+                    </note> Taras,<note n="7" place="unspecified" anchored="true">
+                        <p>See <bibl>J. D. Beazley, <title
+                                   >JHS</title> 54 (1934):90</bibl>.</p>
+                    </note> or Theseus.<note n="8" place="unspecified" anchored="true">
+                        <p>See <bibl>Haspels 1936,
+                            151</bibl>, and <bibl>CVA, USA fasc. 6,
+                                Robinson fasc. 2, 27</bibl>.</p>
+                    </note> The last identification is especially appealing since both Bacchylides
+                        (<bibl n="Bacchyl. Dith. 16.97">Bacchyl.
+                    16.97-100</bibl>) and Hyginus (<bibl n="Poet. Astr. II.5"
+                       >Poet. Astr. II.5</bibl>) tell us that Theseus rode a dolphin
+                    on his visit to<milestone n="161" unit="page"/> the Nereids
+                    or to Amphitrite. Beazley believed that the second rider was merely one of the
+                    repeat figures that characterize late black-figure lekythoi, and he suggested
+                    that the satyr, with whom Theseus is occasionally shown, was derived from a
+                    satyr play.<note n="9" place="unspecified" anchored="true">
+                        <p><bibl>J. D. Beazley, <title
+                                   >JHS</title> 58 (1938):268 and <hi rend="ital"
+                                   >JHS</hi> 54 (1934):90</bibl>.</p>
+                    </note> The satyr's presence in this scene would not be inappropriate, since
+                    there was a traditional connection between wine and the sea, and consequently
+                    between dolphins and Dionysiac figures, such as satyrs.<note n="10"
+                        place="unspecified" anchored="true">
+                        <p><bibl>M. Davies 1978,
+                            72-81</bibl>. Our vase is discussed on 78.</p>
+                    </note></p>
+                <p>Haspels, followed by Beazley, tentatively suggested that the Athena
+                    Painter was identical with a red-figure artist, the Bowdoin Painter.<note n="11"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Haspels 1936, 157</bibl>;
+                                <bibl>ARV2, 677</bibl>; <bibl
+                               >Kurtz 1975, 16</bibl>.</p>
+                    </note> The lekythoi attributed to the latter artist are similar in shape to
+                    those of the Athena Painter (BL) and exhibit the Athena Painter's distinctive
+                    innovations, which consist of the black neck, outlined bars, and black-figure
+                    palmettes with added tendril and bud. Should the identification be correct, the
+                    career of this artist extended into the second half of the fifth
+                        century.<milestone n="162" unit="page"/></p>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>Haspels 1936, 255, no.
+                        14</bibl>; <bibl>CVA, USA fasc. 4, Robinson
+                            fasc. 1, 51, pl. XXXVII</bibl>.</p>
+                </div>
+            </div>
+            <div n="110" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B6" type="vase"
+                        >Baltimore, Hopkins AIA B6</rs>
+                </head>
+                <p>
+                    <title>Kylix of the Proto-Panaetian Group</title>
+                    <date>ca. 490 B.C.</date>
+                </p>
+                <p>B 6. Baltimore Society AIA, formerly Hartwig Collection. "Chiusi."
+                    Ht, 8 cm; diam with handles, 26.6 cm; diam rim, 20 cm; diam foot, 7.8 cm. Mended
+                    from many pieces.</p>
+                <p>Tondo is bordered by narrow reserved band. Satyr seated to his left
+                    on wineskin, torso three-quarters frontal. Left knee is raised, with lower leg
+                    extended; right knee is bent, with lower leg drawn back. Elbow bent with left
+                    hand uplifted over head. Right hand in front of chest; fingers of both hands
+                    outstretched. Head is turned back in left profile and wears fillet with long
+                    ends hanging down over torso. Inscribed in field: <foreign xml:lang="greek"
+                       >*P*A*N*A*I*T*I*O*S *K*A[*L]*O*S</foreign>; inscribed on
+                    wineskin: <foreign xml:lang="greek">*K[*A]*L*O*S</foreign>.</p>
+                <p>Relief contour throughout, except for reserved outline of beard and
+                    incised contour of back of head. Dilute glaze for interior markings. Added red
+                    for fillet and lettering.</p>
+                <p>It was Furtwängler who first suggested that the Panaitios
+                    Painter was really the youthful Onesimos.<note n="1" place="unspecified"
+                        anchored="true">
+                        <p><bibl>FR, 134</bibl>.</p>
+                    </note> This identification was endorsed by Beazley in his revised edition of
+                        <hi rend="ital">ARV2,</hi> where the vases previously assigned
+                    to the two artists were grouped as the work of the single painter Onesimos.<note
+                        n="2" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 313-31</bibl>; <bibl
+                               >Para., 358-61</bibl>; <bibl
+                               >Boardman 1975, 133-34</bibl>.</p>
+                    </note> Beazley listed our vase as one of nine cups that he believed were
+                    "specially akin" to the early work of Onesimos and perhaps<milestone n="163"
+                        unit="page"/> from his own hand.<note n="3"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 314-16</bibl>. Add:
+                                <bibl>Hornbostel 1977, 307, no. 263, and
+                                310, no. 264</bibl>.</p>
+                    </note> Hence Beazley termed this group "Proto-Panaetian."</p>
+                <p>Onesimos was a prolific and skilled painter who specialized in cups,
+                    which were often supplied to him by the renowned potter and painter Euphronios.
+                    Onesimos's style is distinguished by the overall mastery of draughtsmanship, and
+                    particularly by his elegant patterns of elongated fingers and tails.<note n="4"
+                        place="unspecified" anchored="true">
+                        <p><bibl>S. Buluc, <title
+                                   >AJA</title> 70 (1966):369-70</bibl>.</p>
+                    </note></p>
+                <p>The motif of the satyr astride a wineskin appears frequently in Attic
+                    vasepainting, as does the similar image of a satyr riding a dolphin. Davies
+                    reminds us of the traditional association of wine and the sea,<note n="5"
+                        place="unspecified" anchored="true">
+                        <p><bibl>M. Davies 1978,
+                        79</bibl>.</p>
+                    </note> and certainly this animated figure would have bobbed in a lively manner
+                    once this cup was filled with wine and jostled by an eager symposiast.</p>
+                <milestone n="164" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>Klein 1886, 278</bibl>; <bibl
+                           >P. Hartwig, <title>Rö
+                                mMitt</title> 2 (1887):167, no. 3</bibl>; <bibl
+                           >Hartwig 1893, 448, pl. 44.1</bibl>; <bibl
+                           >Klein 1898, 107, no. 4</bibl>; <bibl
+                           >FR, 251-52, no. 1</bibl>; <bibl
+                           >D. M. Robinson, <title>AJA</title> 21
+                            (1917):87</bibl>; <bibl>Beazley 1918,
+                        87</bibl>; <bibl>Hoppin 1919, vol. I, 421, no.
+                            36</bibl>; <bibl>Beazley 1925, 167, no.
+                        14</bibl>; <bibl>Philippart 1928, 50</bibl>;
+                            <bibl>CVA, USA fasc. 6, Robinson fasc. 2,
+                            14, pl. VII</bibl>; <bibl>ARV2, 316, no.
+                        7</bibl>.</p>
+                </div>
+            </div>
+            <div n="111" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B11" type="vase"
+                        >Baltimore, Hopkins AIA B11</rs>
+                </head>
+                <p>
+                    <title>Kylix by the Antiphon Painter</title>
+                    <date>490-480 B.C.</date>
+                </p>
+                <p>B 11. Baltimore Society AIA, formerly Hartwig Collection. "Cervetri."
+                    Ht, 9.3 cm; diam with handles, 30.7 cm; diam rim, 24 cm; diam foot, 8 cm. Mended
+                    from many pieces. Foot is ancient but may not belong. (Top of foot and base of
+                    stem were filed for close fit.)</p>
+                <p><hi rend="ital">Interior</hi>: </p>
+                <p>Standing youth in left profile wears fillet and mantle, which expose
+                    only top of head and face. Left arm at hip; right arm raised to chest. In field
+                    before him are a sponge, strigil, aryballos. Inscribed in field on either side
+                    of youth: <foreign xml:lang="greek">[epig-rough]*O *P*A*I*S
+                        *K*A*L*O[*S]</foreign>. (The boy is beautiful.)</p>
+                <p>Tondo is bordered by leftward meander between reserved bands.</p>
+                <p><hi rend="ital">Exterior, Side A</hi>: </p>
+                <p>Pankration scene. Standing at left is youth in right profile wearing
+                    a mantle that exposes only top of head and eyes.</p>
+                <p>Right hand beneath folds is uplifted to conceal most of face. Fillet
+                    indicated by reserved band between relief lines. Hanging in field in front of
+                    youth are weights and bag. Suspended nearby are strigil, sponge, and bag. In
+                    center are two wrestling youths, the victor crouching with left knee drawn up,
+                    torso frontal, right arm upraised. Left hand is placed over mouth of opponent,
+                    who lies on his back, left hand extended over head, right forearm uplifted, legs
+                    in air. Approaching them is a trainer wearing mantle over left shoulder and
+                    holding staff in outstretched right hand. Head in left profile wearing taenia.</p>
+                <p>Relief contour throughout, except beneath feet and incised hairlines.
+                    Dilute glaze for inner markings and lettering. Added purple for fillets of youth
+                    on tondo and of two figures with staffs on A and B. Vertical edge of foot
+                    reserved with black line around lower edge.</p>
+                <p><hi rend="ital">Exterior, Side B</hi>: </p>
+                <p>Palaestra scene. Standing in right profile is trainer wearing fillet
+                    and mantle draped over left shoulder, exposing right shoulder and arm. Staff in
+                    left hand; right arm with rod in hand is extended to pair of wrestlers, one
+                        of<milestone n="165" unit="page"/> whom is almost
+                    entirely missing except for right foot. Opponent is shown in left profile, with
+                    back in three-quarter view, elbows bent with hands extended.</p>
+                <p>The Antiphon Painter is credited with almost one hundred cups, most
+                    of which have exterior as well as tondo decoration.<note n="1"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 335-41</bibl>; <bibl
+                               >Beazley, <title
+                                >JHS</title> 58 (1938):267</bibl>; <bibl
+                                >Para., 361-62</bibl>; <bibl>Boardman
+                                1975, 135</bibl>; <bibl>Hornbostel 1977,
+                                312, no. 266</bibl>.</p>
+                    </note> The painter prefers genre scenes, either very active ones involving
+                    athletes and hunters, or quiet figures like the youth in our tondo. His
+                    inscriptions are general words of praise (e.g., "the boy is beautiful," as on
+                    our own vase), or refer to specific individuals, such as Antiphon, for whom the
+                    painter is<milestone n="166" unit="page"/> named.<note n="2"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 335, no.
+                        1</bibl>.</p>
+                    </note> Other youths who are complimented include Lysis,<note n="3"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 336, no. 10; 338, no.
+                                39; 339, nos. 52, 60</bibl>.</p>
+                    </note> Aristarchos,<note n="4" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ARV2, 336, no. 16</bibl>,
+                            which is the same as <bibl>D. K. Hill,
+                                    <title>JWalt</title> 23 (1960):16, 24</bibl>.
+                            See also <bibl>Para., 362</bibl>, in
+                            Schimmel Collection.</p>
+                    </note> and Nikostratos.<note n="5" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ARV2, 337, no.
+                        26</bibl>.</p>
+                    </note> The Antiphon Painter worked for several potters, especially Euphronios,
+                    who provided vases for Onesimos and Douris.<note n="6" place="unspecified"
+                        anchored="true">
+                        <p><bibl>ARV2, 336, nos. 10, 14, 18;
+                                337, no. 25; 339, no. 57; 340, nos. 63, 73; 341, nos. 77, 88</bibl>.
+                                <bibl>Bloesch 1940, 71, 79,
+                        80</bibl>.</p>
+                    </note> Our artist also decorated vases for the potter Python, for whom
+                    Epiktetos and Douris also worked.<note n="7" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ARV2, 340, no. 71</bibl>.
+                            See also <bibl>ARV2, 1646</bibl> and <bibl
+                               >Para., 361</bibl>.</p>
+                    </note></p>
+                <p>The style of the Antiphon Painter is representative of early
+                    fifth-century vasepainting in the rounded, prominent jaws, the garments, which
+                    fall with few folds, and the three-quarter and back views, which are not always
+                    completely successful. The painter's style is close to that of the early or
+                    proto-Panaetian phase of Onesimos and can be recognized by the even, almost
+                    monotonous spacing of the folds, the drapery pulled tightly over the arms and
+                    grasped by the fists, and the black borders just above the hems of the garments.</p>
+                <p>On our cup, the scenes in the tondo and on the exterior represent a
+                    palaestra where youths trained in wrestling and in the pankration.<note n="8"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Harris 1964,
+                        105-9</bibl>.</p>
+                    </note> Side A illustrates the beginning of the encounter, which continues on
+                    side B, where the trainer gesticulates at the contestants. The sponges, strigil,
+                    and aryballos were used for applying oil before exercising and for removing it
+                    afterward.</p>
+                <milestone n="167" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>P. Hartwig, <title
+                               >RömMitt</title> 2 (1887):168, no. VI</bibl>;
+                            <bibl>Hartwig 1893, 575ff, pl. 64</bibl>;
+                            <bibl>FR, 251-52, no. 1</bibl>; <bibl
+                           >Gardiner 1910, 437</bibl>; <bibl
+                           >Perrot &amp; Chipiez, vol. 10, 629, fig.
+                            350</bibl>; <bibl>Beazley 1918, 111</bibl>;
+                            <bibl>Hoppin 1919, vol. II, 166, no.
+                        1</bibl>; <bibl>Beazley 1925, 232, no.
+                        26</bibl>; <bibl>Philippart 1928, 51</bibl>;
+                            <bibl>Gardiner 1930, 214, fig. 189</bibl>;
+                            <bibl>CVA, USA fasc. 6, Robinson fasc. 2,
+                            18-19, pls. XVII, XVIII.1</bibl>; <bibl
+                            >Buschor 1940, 153, fig. 172</bibl>; <bibl
+                            >ARV2, 340, no. 65</bibl>.</p>
+                </div>
+            </div>
+            <div n="112" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B10" type="vase"
+                        >Baltimore, Hopkins AIA B10</rs>
+                </head>
+                <p>
+                    <title>Kylix by Makron with Dionysiac Scene</title>
+                    <date>490-480 B.C.</date>
+                </p>
+                <p>B 10. Baltimore Society AIA, formerly Hartwig Collection. "Caere."
+                    Ht, 12.5 cm; diam with handles, 39 cm; diam rim, 29 cm; diam foot, 11.1 cm.
+                    Mended from many pieces. Surface abraded.</p>
+                <p>
+                    <hi rend="ital">Interior</hi>
+                </p>
+                <p>On exergue, dancing to their right, are two maenads in girded chitons
+                    with overfolds, necklaces, bare feet. Maiden in advance stands with weight on
+                    frontal left leg, right leg bent and in left profile, thyrsos in right hand. She
+                    glances back at her companion, with her head in right profile, long hair bound
+                    in fillet and knotted at tip. Her companion steps forth with right leg extended,
+                    left knee bent, torso frontal. Upraised right hand holds small branch. Left hand
+                    at hip holds end of thyrsos. Head in left profile, with hair gathered up at nape
+                    and bound in fillet. Tondo is bordered by leftward meander.</p>
+                <p>
+                    <hi rend="ital">Side A</hi>
+                </p>
+                <p>Goat beneath handle follows maenad standing in right profile holding
+                    torches. In front of her is another maenad, also in right profile, carrying
+                    kithara. Approaching them is Dionysos, who is standing in left profile and is
+                    wearing ivy wreath and chiton beneath mantle draped over left shoulder and
+                    around waist. He carries a kantharos in upraised right hand, a vine with two
+                    grape bunches in left. Behind him are a maenad with castanets, another in right
+                    profile blowing double flute, and a final frontal maenad with castanets. All
+                    maenads wear chitons and mantles except for end maenad with castanets, who wears
+                    chiton only. Sketch lines visible beside head of maenad blowing flute.</p>
+                <p>
+                    <hi rend="ital">Side B</hi>
+                </p>
+                <p>Beneath handle is lotus and palmette scheme. Four pairs of satyrs and
+                    maenads clad only in chitons and wreaths or fillets: satyr carrying maenad;
+                    maenad with thyrsos repelling satyr in fawnskin, maenad resisting satyr with
+                    thyrsos; dancing satyr and maenads.</p>
+                <milestone n="168" unit="page"/>
+                <p>Relief contour throughout, except for reserved hairline. Added red
+                    for vine leaves and some wreaths. Reserved line beneath scene; reserved line
+                    above scene except at handles.</p>
+                <p>Makron was a prolific painter; almost three hundred fifty vases are
+                    attributed to him.<note n="1" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 458-81</bibl>; <bibl
+                               >J. D. Beazley, <title
+                                    >JHS</title> 58 (1938):267</bibl>; <bibl
+                               >Para., 377-79</bibl>; <bibl
+                               >Boardman 1975, 140</bibl>. Add: <bibl
+                               >A. Ashmead and K. Phillips, <title
+                                    >AJA</title> 70 (1966):366-68</bibl>; <bibl
+                               >CVA, USA fasc. 17, Toledo fasc. 1, 34, pls.
+                            53-54</bibl>.</p>
+                    </note> He primarily painted cups, but he also worked on skyphoi, plates,
+                    aryballoi, askoi, and at least one pyxis. He signed only one vase, a skyphos in
+                    Boston that also bears the signature of Hieron the potter.<note n="2"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 458, no. 1, and
+                                perhaps 479, no. 336</bibl>.</p>
+                    </note> We know that Hieron and Makron had a particularly close association,
+                    since thirty-one vases that bear the signature of Hieron have been attributed to
+                    Makron; occasionally, however, Hieron fashioned vases for other artists.<note
+                        n="3" place="unspecified" anchored="true">
+                        <p><bibl>Bloesch 1940, 91-96</bibl>;
+                                <bibl>ARV2, 481-82</bibl>.</p>
+                    </note> Our cup has the unusual shape of Type C, which is characterized by an
+                    offset lip, a bulge in the stem, and a flat, platelike foot.<note n="4"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Bloesch 1940, 111, and 132,
+                                nos. 17-19</bibl>.</p>
+                    </note></p>
+                <p>Makron has a penchant for komos scenes involving numerous animated
+                    figures with objects in uplifted hands. The maenads usually wear closely pleated
+                    chitons with billowing overfolds and carry thyrsoi. The ornamental motifs under
+                    the handles vary greatly.<note n="5" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Ashmead and Phillips,
+                                    <title>AJA</title> 70 (1966):366-68</bibl>. Ours
+                            is especially close to <bibl>Simon &amp;
+                                Hirmer 1976, pl. 169</bibl>, which is the same as <bibl
+                               >ARV2, 462, no. 48</bibl>.</p>
+                    </note></p>
+                <p>Makron did not rely heavily on his sketch lines, but often
+                    disregarded those delineating the drapery or the head, as can be seen in the
+                    figure of the maenad in the middle of side A.<note n="6" place="unspecified"
+                        anchored="true">
+                        <p><bibl>R. DePuma, <title
+                                   >AJA</title> 72 (1968):152-54</bibl>.</p>
+                    </note></p>
+                <milestone n="171" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>P. Hartwig, <title
+                               >RömMitt</title> 2 (1887):168, no. VII</bibl>;
+                            <bibl>Hartwig 1893, 289-94, pls. 30.3 and
+                        31</bibl>; <bibl>FR, 251-52, no. 1</bibl>; <bibl
+                           >FR, 237</bibl>; <bibl
+                           >Beazley 1918, 101, 103, no. 28</bibl>; <bibl
+                           >Hoppin 1919, vol. II, 96, no. 43</bibl>; <bibl
+                           >Beazley 1925, 214, no. 35</bibl>; <bibl
+                           >Jacobsthal 1927, 132</bibl>; <bibl
+                           >L. Lawler, <title
+                            >MAAR</title> 6 (1927), pls. XIX.1, XX.4</bibl>; <bibl
+                           >Philippart 1928, 50-51</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 17-18, pls. XV,
+                        XVI.1</bibl>; <bibl>ARV2, 463, no.
+                    51</bibl>.</p>
+                </div>
+            </div>
+            <div n="113" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B13" type="vase"
+                        >Baltimore, Hopkins AIA B13</rs>
+                </head>
+                <p>
+                    <title>Neck Amphora by the Harrow Painter</title>
+                    <date>ca. 480 B.C.</date>
+                </p>
+                <p>B 13. Baltimore Society AIA, formerly Hartwig Collection. "Tarentum."
+                    Ht, 39 cm; diam mouth, 16.1 cm; diam foot, 11 cm. Mended from many pieces, with
+                    handles and most of rim restored in plaster. Foot is ancient but may not belong.
+                    Alien lid with which vase was first published is now at the University of
+                    Mississippi.</p>
+                <p>Scenes on both sides are unframed, with figures standing on narrow
+                    bands as groundlines.</p>
+                <p>
+                    <hi rend="ital">Side A</hi>
+                </p>
+                <p>Silenos strides forward in right profile, hands bound behind back.
+                    Following him is a bearded hunter who looks back, head in left profile. Hunter
+                    wears boots, short chiton that has a black border at neckline and hem, and
+                    petasos hanging behind neck. Right hand holds two spears; left hand hold ends of
+                    the thongs that wrap Silenos's wrists. To the hunter's left is hunting dog.</p>
+                <p>Relief contour line throughout. Relief line for drapery detail, top
+                    of boots, thongs. Hair outlined in reserve. Dilute glaze for inner details of
+                    body, neck and sleeve of chiton. Added purple for petasos cord, thongs of
+                    Silenos.</p>
+                <p>
+                    <hi rend="ital">Side B</hi>
+                </p>
+                <p>Bearded Midas stands three-quarters left, face in left profile. He
+                    wears a pleated chiton beneath himation, carries staff in upraised right hand.
+                    Some relief contours. Hair and beard outlined in reserve. Dilute glaze for inner
+                    details of chiton.</p>
+                <p>Tongues above each picture, terminating beneath handles. Graffito on
+                    shoulder.</p>
+                <p>When Dionysos was passing through Asia Minor, Silenos, a human-equine
+                    member of the entourage, wandered away and was captured by a hunter who brought
+                    the captive to King Midas.<note n="1" place="unspecified" anchored="true"
+                       >
+                        <p><bibl n="Hdt. 8.138">Hdt.
+                            8.138</bibl>; <bibl n="Xen. Anab. 1.2.13"
+                                >Xen. Anab. 1.2.13</bibl>. See <bibl
+                                >Brommer 1941, 36</bibl>.</p>
+                    </note> The king returned Silenos to Dionysos, and the grateful deity agreed as
+                    a reward to grant Midas's wish that everything he touched be turned to gold.
+                    Midas soon discovered, however, that all food and drink became golden, too, and
+                    thus he appealed to Dionysos to<milestone n="172" unit="page"
+                       /> remove the magic touch. The god instructed Midas to
+                    wash in the river Pactolus, which henceforth became renowned for its
+                    gold-bearing sands.</p>
+                <p>This adventure of Midas was first seen on Chiote and Spartan vases of
+                    the mid-sixth century.<note n="2" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>F. Brommer, <title
+                                   >AntK Beiheft</title> 7 (1970):55-57</bibl>.</p>
+                    </note> Around the year 500 B.C. the subject appeared in Attic vase-painting,
+                    where it remained popular for the next one hundred fifty years.<note n="3"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Brommer 1941,
+                        43</bibl>.</p>
+                    </note> Artists depicted several different moments in the tale, including the
+                    capture of Silenos in Midas's garden, his abduction to King Midas, and his
+                    presentation before the king. Not before the fifth century do we find Midas
+                    depicted in oriental dress,<note n="4" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>F. Brommer, <title
+                                   >AntK Beiheft</title> 7 (1970): 56</bibl>.</p>
+                    </note> and after 450 B.C. he wears the ass ears that he acquired by unwisely
+                    voting against Apollo in a musical competition.<note n="5" place="unspecified"
+                        anchored="true">
+                        <p><bibl>Ibid., 56</bibl>; <bibl
+                               >Brommer 1941, 43</bibl>; <bibl
+                                n="Ovid Met. 11.153">Ovid Met.
+                                11.153ff.</bibl>; <bibl n="Hyginus Fab. 191.1"
+                               >Hyginus Fab. 191.1</bibl>.</p>
+                    </note></p>
+                <p>The Harrow Painter is known for almost one hundred large vases, of
+                    which half are amphorae and column kraters.<note n="6" place="unspecified"
+                        anchored="true">
+                        <p><bibl>ARV2, 272-77</bibl>; <bibl
+                               >Para., 353-54</bibl>, with note on alien
+                            lid, which is in Mississippi, not Cambridge. <bibl
+                               >J. D. Beazley, <title>JHS</title> 58
+                                (1938):267-68</bibl>.</p>
+                    </note> The profile of the body of the Baltimore example compares most closely
+                    with those of the artist's neck amphorae with twisted handles, and for this
+                    reason twisted handles have been restored on our vessel.<note n="7"
+                        place="unspecified" anchored="true">
+                        <p>Our vase is especially similar to <bibl
+                               >ARV2, 272, no. 6</bibl>, upon which the restoration
+                            of our vase is based. I thank very much D. von Bothmer, who provided
+                            photographs and advice. Through no fault of his, the handles of our
+                            restoration are not quite correctly proportioned.</p>
+                    </note></p>
+                <p>The Harrow Painter was most comfortable with genre subjects, but on
+                    his amphorae he occasionally turned to mythological and especially Dionysiac
+                    themes. His style was inspired primarily by that of the Berlin Painter, whose
+                    influence is apparent in the use of one or two quietly standing figures on each
+                    side of the amphora, and in the tendency to distribute figures from a single
+                    scene on both sides of the vase. The Harrow Painter falls short of the Berlin
+                    Painter, however, both in draughtsmanship and in the ability to endow a scene
+                    with emotional content. Our painter also has a tendency to repeat his figures,
+                    especially the older man draped in a mantle.<note n="8" place="unspecified"
+                        anchored="true">
+                        <p><bibl>ARV2, 272, no. 8</bibl>,
+                            which is the same as <bibl>Münzen, 40
+                                (December 13, 1969): 60, no. 100, pl. 41</bibl>. <bibl
+                               >ARV2, 273, no. 19 bis</bibl>, is the same as <bibl
+                               >Münzen, 13 (May 1961): 89, no.
+                                165, pl. 55</bibl>.</p>
+                    </note></p>
+                <p>The graffito on the shoulder of the vessel was applied after the vase
+                    was fired. Although most graffiti are thought to carry a commercial meaning, the
+                    unusual position of this mark may denote ownership or dedication.<note n="9"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Boardman 1974, 202</bibl>;
+                                <bibl>Johnston 1979, 5, 6, 8</bibl>.</p>
+                    </note> The lettering is Etruscan or possibly Oscan.<note n="10"
+                        place="unspecified" anchored="true">
+                        <p>I owe this suggestion to A. Johnston.</p>
+                    </note></p>
+                <milestone n="174" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>FR, 252, no. 3</bibl>; <bibl
+                           >J. D. Beazley, <title
+                            >JHS</title> 36 (1916):133, no. 30</bibl>; <bibl
+                           >Beazley 1918, 56</bibl>; <bibl
+                           >Hoppin 1919, vol. II, 3, no. 3</bibl>; <bibl
+                           >Beazley 1925, 120, no. 40</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 25, pls. XXIX,
+                        XXX</bibl>; <bibl>Brommer 1941, 40, no. 4, and
+                            44, fig. 6</bibl>; <bibl><title
+                               >Ancient Art in American Private Collections</title>
+                            (Cambridge, 1954), no. 278, pl. LXXXIII</bibl>; <bibl
+                           >ARV2, 73, no. 22</bibl>; <bibl
+                           >Brommer 1973, 535, no. B4</bibl>.</p>
+                </div>
+            </div>
+            <div n="114" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B9" type="vase"
+                        >Baltimore, Hopkins AIA B9</rs>
+                </head>
+                <p>
+                    <title>Kylix by Douris</title>
+                    <date>480-470 B.C.</date>
+                </p>
+                <p>B 9. Baltimore Society AIA, formerly Hartwig Collection. "Chiusi."
+                    Ht, 9.5 cm; diam with handles, 30 cm; diam rim, 22.5 cm; diam foot, 8.7 cm.
+                    Mended.</p>
+                <p>Standing on exergue is a bearded male bending over a whip top, his
+                    supporting right leg frontal, his left leg in left profile. In the hand of his
+                    upraised right arm is a stick, on which there are three strings. His left hand
+                    rests on his left knee. His torso is largely concealed by his chlamys, which is
+                    fastened on his right shoulder. His head is in right profile and he wears a
+                    petasos. In field below his right elbow is a floral motif. On other side of top
+                    is youth whose torso faces three-quarters front, legs in left profile, right arm
+                    extended, left hand on hip. Mantle draped over body and back of head, exposing
+                    only right shoulder and arm. Fillet. In field above his head is a floral motif.
+                    Inscribed in field: <foreign xml:lang="greek">*K*A*L*O*S
+                    *X*H</foreign>.</p>
+                <p>Relief contour throughout, except for reserved hairline. Dilute glaze
+                    for some inner markings. Added red for strings of stick and lettering. Border
+                    consists of rightward meander.</p>
+                <p>The petasos and chlamys suggest that the top-spinner is Hermes, and
+                    this identification is confirmed by vases in Florence<note n="1"
+                        place="unspecified" anchored="true">
+                        <p><bibl>CVA, Italy fasc. 38,
+                                Florence fasc. 4, 6-7, pl. 124.2</bibl>, which is the same as <bibl
+                               >ARV2, no. 113, p. 377</bibl>. Also <bibl
+                               >J. D. Beazley, <title
+                                    >JHS</title> 58 (1938):267</bibl>. For Hermes in traveler's
+                            attire, see <bibl>Zanker 1965,
+                            115-116</bibl>.</p>
+                    </note> and Tübingen<note n="2" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Watzinger 1924, 44, no.
+                                E78, pl. 25</bibl>.</p>
+                    </note> on which Hermes, outfitted with kerykeion and winged sandals, is engaged
+                    in spinning a top. Beazley<note n="3" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Beazley, <title
+                                   >JHS</title> 58 (1938): 267</bibl>.</p>
+                    </note> suggests that, after receiving the whip from Apollo (<bibl
+                        n="HH Herm. 497">HH Herm. 497</bibl>), Hermes
+                    invented the whip top, although other types of tops subsequently evolved.<note
+                        n="4" place="unspecified" anchored="true">
+                        <p><bibl>D. Gould, <title
+                                   >Expedition</title> 22 (1980):43-47</bibl>. Our
+                            vase is on p. 44, fig. 4.</p>
+                    </note> We are perhaps to imagine that the god is in the palaestra, an area
+                        sacred<milestone n="175" unit="page"/> to Hermes and an
+                    association that accounts for the deity's special rapport with youth.<note n="5"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Zanker 1965, 94,
+                        99</bibl>.</p>
+                    </note></p>
+                <p>This cup belongs to Douris's late period,<note n="6"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 425-27</bibl>.</p>
+                    </note> when the stopt meander was common, the drawing was delicate, and the
+                    small figures were well contained within the circular field. At this time Douris
+                    was working primarily for the potter Python.</p>
+                <milestone n="176" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>P. Hartwig, <title
+                               >RömMitt</title> 2 (1887):169, no. 9</bibl>;
+                            <bibl>Hartwig 1893, 657-59, pl. 72.2</bibl>;
+                            <bibl>FR, 251-52, no. 1</bibl>; <bibl
+                           >P. Wolters, <title
+                            >MJb</title> 8 (1913):89, fig. 7</bibl>; <bibl
+                           >Beazley 1918, 97</bibl>; <bibl
+                           >Hoppin 1919, vol. I, 277, no. 46</bibl>; <bibl
+                           >Beazley 1925, 208, no. 119</bibl>; <bibl
+                           >Philippart 1928, 50</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 16, pl.
+                            XII</bibl>; <bibl>Zschietzschmann 1959, pl.
+                            181.2</bibl>; <bibl>ARV2, 445, no.
+                        251</bibl>; <bibl>D. Gould, <title
+                               >Expedition</title> 22 (1980):44, fig. 4</bibl>.</p>
+                </div>
+            </div>
+            <div n="115" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins AIA B12" type="vase"
+                        >Baltimore, Hopkins AIA B12</rs>
+                </head>
+                <p>
+                    <title>Kylix in the Manner of the Pistoxenus Painter</title>
+                    <date>ca. 460 B.C.</date>
+                </p>
+                <p>B 12. Baltimore Society AIA, formerly Hartwig Collection. Max
+                    dimension, 24 cm; diam tondo, 14.3 cm. Mended from a number of pieces, with
+                    large sections and stem missing.</p>
+                <p>
+                    <hi rend="ital">Interior</hi>
+                </p>
+                <p>Bearded satyr dances in left profile, weight on left leg, with right
+                    leg raised. Right arm extended. Left hand holds a panther skin behind back; feet
+                    of skin brought forward over shoulder. Drinking horn in field before left foot.
+                    Tondo is bordered by leftward meander between reserved bands.</p>
+                <p>
+                    <hi rend="ital">Side A</hi>
+                </p>
+                <p>Maenad dressed in chiton with overfold and sakkos reclines to her
+                    left against a rock, with legs drawn up and thyrsos resting against left
+                    shoulder. She looks to her left at an approaching bearded satyr, shown in left
+                    profile with arms outstretched. Drinking horn in field between figures. Behind
+                    maenad is another bearded satyr standing frontally with right knee bent, left
+                    leg extended out behind him. Right hand grasps phallus, left arm extended toward
+                    maenad. Drinking horn in field behind him. Relief contour. Dilute glaze for
+                    hair, beard, some drapery folds.</p>
+                <p>
+                    <hi rend="ital">Side B</hi>
+                </p>
+                <p>Left leg of satyr running toward maenad, of whom only the lower part
+                    draped in chiton survives. To her left is hand or tail or another satyr. Dilute
+                    glaze for chiton. Ivy leaf under handles.</p>
+                <p>Beazley determined that fragments in Florence belong to side B, which
+                    also depicts a Dionysiac scene<note n="1" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ARV2, 865, no. 2</bibl>;
+                                <bibl>Beazley 1933a, 16, no.
+                        42</bibl>.</p>
+                    </note> in which a maenad is turning toward a satyr approaching from her right;
+                    behind her is another satyr who runs away.</p>
+                <p>The Pistoxenus Painter is accredited with over thirty vases, most of
+                    which are cups.<note n="2" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 859-63</bibl>.</p>
+                    </note> His best work is in white ground, of which only a handful of examples
+                    are known. Both Pistoxenus and Euphronios are known to have supplied pots for
+                    him.</p>
+                <p>This vase was acquired in a restored state that incorporated the
+                    fragment by Oltos (no. 101).</p>
+                <milestone n="177" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>D. M. Robinson, <title
+                               >AJA</title> 21 (1917):160-68</bibl>; <bibl
+                           >Beazley 1933a, no. 42, pl. 16</bibl>; <bibl
+                           >CVA, USA fasc. 6, Robinson fasc. 2, 20, pl.
+                            XXI.1</bibl>; <bibl>ARV2, 865, no.
+                    2</bibl>.</p>
+                </div>
+            </div>
+            <div n="116" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins BMA 51.486" type="vase"
+                        >Baltimore, Hopkins BMA 51.486</rs>
+                </head>
+                <p>
+                    <title>Bell Krater by the Christie Painter</title>
+                    <date>ca. 440 B.C.</date>
+                </p>
+                <p>51.486. Baltimore Museum of Art, from collection of Saidie May,
+                    purchased from J. Brummer. "Attica." Ht, 37 cm; diam rim, 32.5 cm; diam foot,
+                    17.8 cm. Intact.</p>
+                <p>
+                    <hi rend="ital">Side A</hi>
+                </p>
+                <p>Striding winged Eos in right profile, left leg advanced, arms
+                    extended. She wears chiton with belted overfold; hair gathered at nape and
+                    surmounted by diadem with ornament executed in pellets of clay. In front of her
+                    and moving away is Kephalos, left leg advanced, head turned back in left
+                    profile. He wears chlamys fastened on right shoulder, laurel wreath, petasos
+                    hanging behind neck, and laced sandals. He carries two spears in his right hand.
+                    Behind Eos and moving away from her is similarly attired youth, grazing back at
+                    Eos, with his head in right profile. Inscribed in field above hand of Eos:
+                        <foreign xml:lang="greek">*K]*A*L*E</foreign>.</p>
+                <p>Relief contour for face, back of neck, edge of wings of Eos, faces,
+                    and spears of youths. Relief line for drapery folds. Dilute glaze for ends of
+                    hair, borders of garments, thongs of boots, details on wings. Added white for
+                    ornament on diadem, laurel wreath, lettering. Reserved hairline.</p>
+                <p>
+                    <hi rend="ital">Side B</hi>
+                </p>
+                <p>Standing youth seen in right profile leans on staff and faces two
+                    other youths standing in left profile. All are draped in himatia and wear
+                    fillets; central youth also leans on staff. In field are halteres and bag. Added
+                    white for cords of bag and fillets. Reserved hairlines.</p>
+                <p>Beneath pictures is band of meander alternating with dotted
+                    cross-square; reserved band beneath. Leftward laurel wreath between reserved
+                    bands encircles vase above pictures. Band of tongues around base of handles.
+                    Reserved groove at juncture of body and foot.</p>
+                <p>About fifty vases have been attributed to the Christie Painter, of
+                    which twenty-five are bell kraters, the rest being calyx kraters, stamnoi,
+                    pelikai, and hydriai.<note n="1" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ARV2, 1046-49</bibl>; <bibl
+                               >Para., 444, 517</bibl>; <bibl
+                               >J. D. Beazley, <title
+                                    >JHS</title> 58 (1938):268</bibl>; Hornbostel, 335, no. 286.</p>
+                    </note> Common to many of these vases are a meander and saltire border and a
+                    representation of three standing youths on the reverse.<note n="2"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Buitron 1972, 128, no.
+                            71</bibl>, which is the same as ARV2, 1047, no. 20; <bibl
+                               >Hornbostel 1977, 335, no. 286</bibl>.</p>
+                    </note></p>
+                <p>The Christie Painter favors Dionysiac themes and lively mythological
+                    scenes, such as Amazonomachies. On our vase, Eos, the goddess of dawn, is
+                        eagerly<milestone n="178" unit="page"/> pursuing the
+                    Attic hunter Kephalos; according to some traditions, the offspring of that union
+                    will be Phaethon.<note n="3" place="unspecified" anchored="true">
+                        <p><bibl>S. Kaempf-Dimitriadou,
+                                    <title>AntK Beiheft</title> 11 (1979):17, 61 n.
+                                94</bibl>; <bibl n="Hes. Th. 986ff."
+                                >Hes. Th. 986ff.</bibl>; <bibl n="Paus. 1.3.1"
+                               >Paus. 1.3.1</bibl>.</p>
+                    </note> The Christie Painter took up the subject a second time on a bell krater
+                    (now in Genoa) on which Eos again advances to her left, but now hastens to
+                    embrace a youth with a lyre.<note n="4" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>ARV2, 1048, no. 28</bibl>,
+                            which is the same as <rs type="vase">Genoa 1216</rs>; <bibl
+                               >CVA, Italy fasc. 19, Genoa fasc. 1, 6,
+                                pl. 9</bibl>.</p>
+                    </note> That figure is Tithonos, who requested from the deity eternal life but
+                    forgot to ask for eternal youth. As Tithonos grew older and less attractive, Eos
+                    enclosed him in a chamber, where according to some traditions he was transformed
+                    into a cicada.<note n="5" place="unspecified" anchored="true">
+                        <p><bibl n="Hom. Od. 5.1">Hom. Od.
+                                5.1</bibl>; <bibl n="HH 5.218">HH
+                            5.218</bibl>; <bibl n="Hellanikos frag. 140 Jacoby"
+                               >Hellanikos frag. 140 Jacoby</bibl>.</p>
+                    </note> Behind Eos is a youth identical to the figure retreating from Eos on the
+                    Hopkins vase. The youth on the Genoa krater has been identified as Kephalos and
+                    the scene has been described as a conflation of the two romantic episodes.<note
+                        n="6" place="unspecified" anchored="true">
+                        <p><bibl>CVA, Genoa fasc. 1, 6, pl.
+                                9</bibl>.</p>
+                    </note> On the Hopkins vase, the retreating hunter is probably only a nameless,
+                    decorative pendant to Kephalos and typical of the unrelated bystanders who often
+                    appear in contemporary representations of the myth.<note n="7"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Kaempf-Dimitriadou, <title
+                                   >AntK Beiheft</title> 11 (1979):18</bibl>.</p>
+                    </note></p>
+                <p>The subjects of Eos and Tithonos and of Eos and Kephalos were very
+                    popular in late sixth- and early fifth-century vasepainting. The striking
+                    similarities between the representations suggest that the vasepaintings were
+                    inspired by a single pictorial prototype.<note n="8" place="unspecified"
+                        anchored="true">
+                        <p>See late archaic metope from Selinus [<bibl
+                               >Holloway 1975, 19, 22</bibl>]. <bibl
+                               >Kaempf-Dimitriadou, <title>AntK
+                                    Beiheft</title> 11 (1979):16-21</bibl>; <bibl
+                               >Trendall 1967, 16</bibl>.</p>
+                    </note></p>
+                <p>The Christie Painter exercised a tremendous influence on a
+                    contemporary early Lucanian painter, the Pisticci Painter, who imitated the
+                    ornament and style of the Attic artist and even depicted the myth of Eos and
+                    Tithonos on at least three vases. The similarities between the two painters are
+                    so extensive that it is possible that the Pisticci Painter was trained in Athens
+                    and was even Greek.<note n="9" place="unspecified" anchored="true">
+                        <p><bibl>Trendall 1967, 9</bibl>;
+                                <bibl>Trendall 1966, 16</bibl>; <bibl
+                               >B. MacDonald, <title
+                                >AJA</title> 85 (1981): 160</bibl>.</p>
+                    </note></p>
+                <milestone n="179" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>CVA, USA fasc. 6, Robinson
+                            fasc. 2, 32-33, pl. XLV</bibl>; <bibl>ARV2,
+                            1048, no. 27</bibl>; <bibl>S.
+                            Kaempf-Dimitriadou, <title>AntK Beiheft</title> 11
+                            (1979):85, no. 110</bibl>; <bibl>Brommer
+                            1980, 24, no. 49</bibl>.</p>
+                </div>
+            </div>
+            <div n="117" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins BMA 41.134" type="vase"
+                        >Baltimore, Hopkins BMA 41.134</rs>
+                </head>
+                <p>
+                    <title>White-Ground Lekythos</title>
+                    <date>440-420 B.C.</date>
+                </p>
+                <p>41.134. (P.4015 on underside of foot.) Baltimore Museum of Art, gift
+                    of Blanche Adler, purchased in 1926 from Joseph Brummer. Ht, 24.6 cm; diam
+                    mouth, 4.6 cm; diam foot, 4.8 cm. Handle is probably not original.</p>
+                <p>Color of figure scene and ornament fired red. Maiden in right profile
+                    holds object (now missing) in both hands. The color of her garment has faded,
+                    leaving only her nude body. She stands before a grave stele wrapped with taenia
+                    and surmounting stepped base. On other side of stele is youth, standing
+                    frontally, head in left profile. He wears a himation, which is draped over his
+                    body, exposing his right shoulder and breast.</p>
+                <p>Upper surface of lip reserved. On neck is tongue pattern between
+                    single lines. On shoulder is scheme of three five-petal palmettes entwined in
+                    volutes. Central palmette is inverted, other two are turned toward handle. Above
+                    picture is meander in groups of three, alternately leftward and rightward,
+                    separated by saltire squares. Two lines above and beneath. Single line under
+                    picture.</p>
+                <p>The white-ground technique developed in Athens at the end of the
+                    sixth century B.C. The artist outlined his figures upon a field of white slip
+                    before firing the vase. After the vessel was removed from the kiln, matte colors
+                    were applied, but because this paint was not baked onto the vase, the colors
+                    have often faded or vanished.<note n="1" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Kurtz 1975, XX</bibl>.</p>
+                    </note></p>
+                <p>From its early years, the technique was applied to lekythoi, but it
+                    was only in the second quarter of the fifth century that white-ground lekythoi
+                    regularly depicted funerary subjects and became primarily associated with the
+                        grave.<note n="2" place="unspecified" anchored="true">
+                        <p><bibl>Kurtz 1975, XIX</bibl>;
+                                <bibl>Kurtz &amp; Boardman 1971,
+                                102-5</bibl>.</p>
+                    </note> The vessels were used to hold libations of olive oil and were placed as
+                    offerings at the base of the grave stele or were buried with the deceased.<note
+                        n="3" place="unspecified" anchored="true">
+                        <p><bibl>Kurtz 1975, XIX</bibl>;
+                                <bibl>Beazley 1938, 5</bibl>.</p>
+                    </note></p>
+                <p>In the middle of the fifth century the Achilles Painter dispensed
+                    with the relief line heretofore used for outlining the figures and introduced
+                    the softer matte paint that would become almost canonical on later lekythoi like
+                    ours. Our vase is surely the product of the Bird Group, a large workshop that
+                    was active in the 430's and 420's under the leadership of the Bird Painter,<note
+                        n="4" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 1231-235;
+                            1687-688</bibl>; <bibl>Para., 467</bibl>;
+                                <bibl>Kurtz 1975, 52-55</bibl>. His
+                            palmettes are IIa.</p>
+                    </note> and in which the Painter of Munich 2335 may also have worked. The
+                    palmette ornament on the neck of our lekythos is characteristic of vases by this
+                    latter artist, as is the emotional note conveyed by the sharply downturned head
+                    of the maiden.<note n="5" place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 1168-169, 1685, 1703,
+                                1707</bibl>; <bibl>Para., 458-59</bibl>;
+                                <bibl>Kurtz 1975, 55-56</bibl>. His
+                            palmettes are also IIa. See also <bibl>F.
+                                Felton, <title>AthMitt</title> 91 (1976):94, no. 28,
+                                pl. 29 and 94, no. 29, pl. 30</bibl>.</p>
+                    </note> We might also compare examples by the Bird Painter<note n="6"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 1232, no. 10</bibl>.
+                            I owe this and the following comparison to D. Kurtz.</p>
+                    </note> and by another colleague, the Carlsberg Painter.<note n="7"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 1235, no.
+                        10</bibl>.</p>
+                    </note></p>
+                <milestone n="180" unit="page"/>
+            </div>
+            <div n="118" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins BMA 41.133" type="vase"
+                        >Baltimore, Hopkins BMA 41.133</rs>
+                </head>
+                <p>
+                    <title>White-Ground Lekythos</title>
+                    <date>440-420 B.C.</date>
+                </p>
+                <p>41.133. (P.2468 on underside of foot.) Baltimore Museum of Art, gift
+                    of Blanche Adler. Ht, 28.7 cm; diam mouth, 5.8 cm; diam foot, 5.2 cm. Chipped
+                    all over.</p>
+                <p>Color of figure scene and ornament fired red. Nude maiden, seen in
+                    right profile, carries a duck in her extended hands and approaches a grave stele
+                    on stepped base. On other side of stele is youth in left profile with right arm
+                    extended. He is draped in a red cloak.</p>
+                <p>Upper surface of lip reserved. On shoulder beneath single line is
+                    palmette scheme of three five-petal palmettes entwined in volutes. Central
+                    palmette inverted, other two turned toward handle. Upper border of picture
+                    consists of meander grouped in threes, alternately leftward and rightward,
+                    separated by saltire squares. Two lines above and beneath. Single line under
+                    picture.</p>
+                <p>Like the previous example, this lekythos can also be attributed to an
+                    artist of the Bird Group, a workshop headed by the Bird Painter, whose work this
+                    vessel particularly recalls, both in the configuration of the palmette pattern
+                    and in the less emphatic poignancy of the representation.<note n="1"
+                        place="unspecified" anchored="true">
+                        <p><bibl>ARV2, 1231-235</bibl>;
+                                <bibl>Para., 467</bibl>; <bibl
+                               >Kurtz 1975, 52-55</bibl>. Compare <bibl
+                               >ARV2, 1233, no. 23</bibl>, a comparison
+                            I owe to D. Kurtz.</p>
+                    </note> In contrast to the maiden on the preceding vase, the figure on our
+                    example has more delicate features, with a shorter face and a more subtly
+                    rounded profile of the nose.<note n="2" place="unspecified" anchored="true"
+                       >
+                        <p>See <bibl>ARV2, 1687-688</bibl>,
+                            and <bibl>Para., 467</bibl>, for his late
+                            and fine style. See also <bibl>F. Felton,
+                                    <title>AthMitt</title> 91
+                        (1976):99-100</bibl>.</p>
+                    </note></p>
+                <milestone n="182" unit="page"/>
+            </div>
+            <div n="119" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins 9286" type="vase"
+                        >Baltimore, Hopkins 9286</rs>
+                </head>
+                <p>
+                    <title>Bell Krater by Hoppin Painter</title>
+                    <date>ca. 380-350 B.C.</date>
+                </p>
+                <p>9286. Robinson Collection. "Tarentum." Ht, 34.8 cm; diam rim, 38 cm;
+                    diam foot, 19 cm. Intact.</p>
+                <p>
+                    <hi rend="ital">Side A</hi>
+                </p>
+                <p>Three figures run in left profile. In front is bearded nude male with
+                    pail in left hand, torch in uplifted right hand, and cloak over shoulders. In
+                    center is woman dressed in chiton with overfold, her right hand uplifted, her
+                    left hand holding a tympanum. Behind her is nude youth carrying jug in right
+                    hand. His mantle is flung over the left arm and hand, in which he holds a spear.
+                    Relief contour for some details. Band of wave pattern above figures.</p>
+                <p>
+                    <hi rend="ital">Side B</hi>
+                </p>
+                <p>Bearded youth with short, curly hair stands in right profile and
+                    addresses two youths who turn toward him. All figures are enveloped in long
+                    mantles to ankles. Youth in center holds staff in right hand; in field behind
+                    his head is reserved disc.</p>
+                <p>Figures on both sides stand on narrow reserved band above band of
+                    leftward meander that terminates below handles in dotted cross-square, from
+                    which rises a scroll motif. Above pictures is leftward laurel band between
+                    reserved bands. Zone of tongues around roots of handles.</p>
+                <p>This krater is one of eleven vases attributed to the Hoppin Painter,
+                    who with five colleagues formed the Hoppin Group, painting in the Plain Apulian
+                        style.<note n="1" place="unspecified" anchored="true">
+                        <p><bibl>Trendall 1966, 20</bibl>;
+                                <bibl>Cambitoglou &amp; Trendall
+                                1961, 55-56</bibl>. Our vase is p. 56, no. 2.</p>
+                    </note> The workshop was located in Tarentum and was active between about 380
+                    and 350 B.C. The Hoppin Painter was probably trained by artists of the school of
+                    the Tarporley Painter (400-380 B.C.), a disciple of the Sisyphos Painter, who
+                    originated both the Plain and the Ornate Styles.</p>
+                <p>The Hoppin Painter worked mostly on bell kraters, although he also
+                    painted one pelike and one calyx krater. His vases are recognized by their tall,
+                    slim figures with flying drapery, the wrapped heads of the women, and the youths
+                    with white fillets and himatia draped over their arms.<note n="2"
+                        place="unspecified" anchored="true">
+                        <p><bibl>Cambitoglou &amp;
+                                Trendall 1961, 55</bibl>.</p>
+                    </note> The three figures on the reverse of our vase also appear on vases by the
+                    artist in Lecce<note n="3" place="unspecified" anchored="true">
+                        <p><bibl>Cambitoglou &amp;
+                                Trendall 1961, 56, no. 3</bibl>, and <rs type="vase"
+                                >Lecce 620</rs>, <bibl>CVA, Italy fasc.
+                                6, Lecce fasc. 2, pl. 12</bibl>.</p>
+                    </note> and Cambridge.<note n="4" place="unspecified" anchored="true"
+                       >
+                        <p><bibl>Cambitoglou &amp;
+                                Trendall 1961, 56, no. 1</bibl>.</p>
+                    </note> The style of the Hoppin Painter is especially close to that of the Lecce
+                        Painter,<note n="5" place="unspecified" anchored="true">
+                        <p><bibl>Cambitoglou &amp;
+                                Trendall 1961, 62</bibl>.</p>
+                    </note> who was active at about the same time, the second quarter of the fourth
+                    century.</p>
+                <milestone n="185" unit="page"/>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>FR, 252, no. 4</bibl>; <bibl
+                           >CVA, USA fasc. 7, Robinson fasc. 3, 27, pl.
+                            XIX</bibl>; <bibl>Trendall 1938, 26 n.
+                        41</bibl>; <bibl>Cambitoglou &amp; Trendall
+                            1961, 56, no. 2</bibl>.</p>
+                </div>
+            </div>
+            <div n="120" type="entry" org="uniform" sample="complete">
+                <head>
+                    <rs key="Perseus:object:Baltimore, Hopkins 42.70" type="vase"
+                        >Baltimore, Hopkins 42.70</rs>
+                </head>
+                <p>
+                    <title>South Italian Squat Lekythos</title>
+                    <date>ca. 350-325 B.C.</date>
+                </p>
+                <p>42.70. Brooklyn Museum Gift. "Apulia, near Capua." Ht, 31.7 cm; diam
+                    rim, 9.2 cm; diam foot, 13.1 cm. Mended and restored. Deposit over surface.</p>
+                <p>Youth seated in left profile turns his head to gaze behind him. He is
+                    nude except for mantle draped across waist and legs. He holds a staff in his
+                    outstretched right hand. Behind him is draped standing maiden, turning to her
+                    left. In front of her is Dionysos, seated three-quarters to his right with nude
+                    torso, mantle draped over legs. In his right hand he holds a thyrsos. He turns
+                    his head to glance back at a standing female in left profile who holds a thyrsos
+                    in her right hand. Extensive use of added white.</p>
+                <p>Tongues around lower half of neck; band of wave pattern on shoulder
+                    above reserved band. Figures stand on white band enclosed by black bounding
+                    lines. Beneath is band of wave pattern beneath dotted white line, then white and
+                    black bands. At back is seventeen-petal palmette amid scrolls.</p>
+                <p>This vase was identified by Trendall as a product of the LNO Painter,
+                    who worked in the Cumaean shop of the CA Painter during the third quarter of the
+                    fourth century.<note n="1" place="unspecified" anchored="true">
+                        <p><bibl>Trendall 1967</bibl>. Our
+                            vase is 480, no. 282, pl. 185. See discussion on 479-83.</p>
+                    </note> Trendall points out that the LNA Painter was influenced by the Orvieto
+                    and CC Sub-groups (Cumae A) within the CA workshop, as well as by another
+                    subgroup, the Apulianizing Group (340-320 B.C.), best represented by the Ivy
+                    Leaf Painter (Cumae A II).</p>
+                <p>The Hopkins vase is characteristic of Cumaean painting in its
+                    generous use of white, yellow, and red paint, and its spiky stephanai.
+                    Distinctive of the LNO Painter are the tall headdresses on the women and the
+                    quiet groupings of standing and seated figures with multiple attributes.</p>
+                <div type="bibl" org="uniform" sample="complete">
+                    <head>Bibliography</head>
+                    <p><bibl>Trendall 1967, 480, no. 282,
+                            pl. 185</bibl>.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

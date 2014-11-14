@@ -1,0 +1,124 @@
+<?xml version="1.0"?> 
+ 
+ 
+ 
+ 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="work" n="Inst.">Institutio Oratoria, books 7-9: introduction</title>
+<title type="sub">Machine readable text</title>
+<author n="Quint.">Quintilian</author>
+ <editor role="editor" n="Butler">Harold Edgeworth Butler</editor>
+<sponsor>Perseus Project, Tufts University</sponsor><principal>Gregory Crane</principal><respStmt><resp>Prepared under the supervision of</resp><name>Lisa Cerrato</name></respStmt>
+<funder n="org:AnnCPB">The Annenberg CPB Project</funder>
+</titleStmt>
+<extent>About 100Kb</extent>
+<publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<author>Quintilian</author>
+<title>With An English Translation</title>
+ <editor role="editor" n="Butler">Harold Edgeworth Butler</editor>
+<imprint>
+<pubPlace>Cambridge</pubPlace>
+<publisher>Cambridge, Mass., Harvard University Press; London, William Heinemann, Ltd.</publisher>
+<date>1922</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<refsDecl>
+<refState unit="front"/>
+</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="greek">Greek</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>2006</date>
+<respStmt><name>GRC</name><resp>tagging</resp></respStmt>
+<item></item>
+</change>
+
+--> <change when="2014-11-13" who="Stella Dee">edited markup and assigned CTS URN</change></revisionDesc>
+</teiHeader>
+
+<text>
+	<body>
+<div type="front">
+<pb xml:id="p.v"/>
+
+<!--<div type="chapter"><head>Table of contents</head>
+
+<p>BOOK VII
+Preface.—Ch. 1: Arrangement.—Ch. 2: Conjecture.—Ch. 3: Definition.—Ch. 4: Quality.—
+Ch. 5: Points of law.—Ch. 6: The letter of the
+law and intention.—Ch. 7: Contradictory laws.—
+Ch. 8: Syllogism.—Ch. 9: Ambiguity.—Ch. 10:
+Relation of various <hi rend="italics">status</hi> or bases. Each case
+must be considered on its merits. Rules not
+possible for every case. <ref target="p.3">3</ref></p>
+
+<p>BOOK VII
+Preface.—Ch. 1: Style.—Ch. 2: Propriety of
+words.—Ch. 3: Stylistic ornament; merits and
+faults.—Ch. 4: Amplification and diminution.—
+Ch. 5: General reflexions and their value in
+oratory.—Ch. 6: Tropes. <ref target="p.177">177</ref></p>
+
+<p>BOOK IX
+Ch. 1: Figures of thought and of speech.—Ch. 2:
+Figures of thought considered in detail.— Ch. 3:
+Figures of speech considered in detail.—Ch. 4:
+Artistic structure and rhythm; metrical feet and
+their appropriate employment. <ref target="p.349">349</ref></p>
+
+<pb xml:id="p.2"/>
+
+</div>-->
+
+<pb xml:id="p.vii"/>
+
+<div type="chapter"><head>Introductory note</head>
+
+<p>A considerable portion of the three books contained in this volume is of a highly technical
+character and of interest only to professed students
+of the technique of the ancient schools of rhetoric
+and the minuter points of Latin prose style. <reg>even</reg>
+these portions contain not a little that is of general
+interest, but those which are likely to be most
+attractive to the general reader are VII. i and vi,
+the whole of VIII., and IX. i, 1–21, and iv, 1–57.
+Wherever discussion of <hi rend="italics">bases</hi> occurs, the reader is
+referred back to III. vi, as the subject is too complicated to be dealt with in notes. <reg>similarly</reg> for the
+Syllogism, Enthymeme or Epichaereme reference
+will be necessary to the passages indicated in the
+footnotes.</p>
+<closer><signed><name>H. E. B.</name></signed></closer></div>
+
+<pb xml:id="p.viii"/>
+
+<div type="chapter"><head>Sigla</head>
+
+<p>A = Codex Ambrosianus, 11th century.</p>
+<p>B = Agreement of Codices Bernensis, Bambergensis and
+Nostradamensis, 10th century.</p>
+<p>G = Codex Bambergensis where gaps in B have been
+supplied by an 11th-century hand.</p>
+</div>
+</div>
+	</body>
+</text>
+</TEI>

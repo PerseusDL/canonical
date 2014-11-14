@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+
+
+
+
+
+ 
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+  <teiHeader>
+
+    <fileDesc>
+      <titleStmt>
+	<title>A History of the Giza Necropolis Volume I (Selections)</title>
+	<author>George A. Reisner</author>
+	<sponsor>Perseus Project, Tufts University</sponsor><principal>Gregory Crane</principal><respStmt><resp>Prepared under the supervision of</resp><name>Lisa Cerrato</name></respStmt>
+	&fund.DLI2; 
+      </titleStmt>
+      <extent>40 kilobytes</extent>
+      <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+      <sourceDesc>
+	<biblStruct>
+	  <monogr>
+	    <author>Reisner, George A[ndrew]</author>
+	    <title>A History of the Giza Necropolis</title>
+	    <imprint>
+	      <biblScope type="volume">Volume 1</biblScope>
+	      <pubPlace>Cambridge</pubPlace>
+	      <publisher>Harvard University Press</publisher>
+	      <pubPlace>London: Humphrey Milford</pubPlace>
+	      <publisher>Oxford University Press</publisher>
+	      <date>1942</date>
+	    </imprint>
+	  </monogr>
+	  <monogr>
+	    <imprint>
+	      <pubPlace>Storrs-Mansfield, CT</pubPlace>
+	      <publisher>Martino Publishing</publisher>
+	      <pubPlace>Brockton, MA</pubPlace>
+	      <publisher>John William Pye Rare Books</publisher>
+	    </imprint>
+	  </monogr>
+	  <idno type="ISBN">1578981468</idno>
+	</biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <editorialDecl>
+	<correction method="silent" status="high">&Perseus.OCR;</correction>
+      </editorialDecl>
+      <refsDecl>
+	<refState n="chunk" unit="page"/>
+      </refsDecl>
+      <refsDecl>
+	<refState unit="section"/>
+      </refsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+	<language ident="en">English
+	</language><language ident="eg">Egyptian
+	</language><language ident="fr">French
+      </language></langUsage>
+    </profileDesc>
+
+    <revisionDesc><!--
+      <change>
+	<date>18-Sep-02</date>
+	<respStmt>
+	  <name>Thomas L. Milbank</name>
+	  <resp>ed.</resp>
+	</respStmt>
+	<item>
+	$Log: reisner_giza.xml,v $
+	Revision 1.1  2009-12-07 22:06:14  rsingh04
+	moved more xml files around based on copyright status.  split up Plutarch/plut_gk.xml into separate files and gave them their own doc ids.
+
+	Revision 1.1  2005/08/01 16:25:13  packel
+	new XML version
+
+	Revision 1.11  2004/08/13 13:34:15  tmilbank
+	Added 'Tomb of Nefer' to inline note of appendix header
+	
+	Revision 1.10  2004/08/10 20:40:20  tmilbank
+	Fixed list hierarchies in the appendix and made several minor revisions
+	to the tagging (changed section n attributes, added lb, etc.)
+	
+	Revision 1.9  2004/08/05 21:02:42  tmilbank
+	Revised refsDecl and langUsage elements; cleaned up indentation
+	
+	Revision 1.8  2002/10/03 18:01:53  tmilbank
+	Re-revised illustrations to one occurrence only and adjusted plate pagination
+	
+	Revision 1.7  2002/10/03 13:29:44  tmilbank
+	Corrected figure tagging errors for proper validation
+	
+	Revision 1.6  2002/10/02 20:59:01  tmilbank
+	Revised figure placement in text body
+	
+	Revision 1.5  2002/10/02 18:00:46  tmilbank
+	Replaced tag for text in previous CVS comment
+	
+	Revision 1.4  2002/10/02 17:37:04  tmilbank
+	Added paragraph tags around figures preceding Appendix C
+	
+	Revision 1.3  2002/10/02 17:30:30  tmilbank
+	Corrected tagging, especially for figures
+	
+	Revision 1.2 2002/10/01 18:08:04 tmilbank
+	Text validated for SGML
+	
+	Revision 1.1 2002/09/30 16:29:00 tmilbank
+	Adding G.A. Reisner, Giza Necropolis, Vol. 1 text 
+	</item>
+      </change>
+    --> <change when="2014-11-13" who="Stella Dee">edited markup and assigned CTS URN</change></revisionDesc>
+
+  </teiHeader>
+
+
+  <text>
+
+
+    <!-- Transliterations of the Egyptian alphabet in this text conform to the guidelines set forth in the Manuel de Codage (http://perso.wanadoo.fr/thotweb/encyclopedie/codage.htm) -->
+
+
+    <front>
+
+      <pb xml:id="p.iii" n="iii"/>
+      <titlePage>
+	<docTitle>
+	  <titlePart type="main">            A History of the<lb/>
+            Giza<lb/>
+            Necropolis<lb/>
+            Volume I <note anchored="true" place="foot" n="*" resp="TLM">Transliterations of the Egyptian alphabet in this text conform to the guidelines set forth in the <title xml:lang="fr">Manuel de Codage</title></note>
+	  </titlePart>
+	</docTitle>
+	<byline>          By<lb/>
+          <docAuthor>George Andrew Reisner</docAuthor>
+	</byline>
+	<docImprint>	  <pubPlace>Cambridge</pubPlace><lb/>
+	  <publisher>Harvard University Press</publisher><lb/>
+	  <publisher>Oxford University Press</publisher><lb/>
+	  <pubPlace>London: Humphrey Milford</pubPlace><lb/>
+	  <docDate>1942</docDate><lb/>
+	</docImprint>
+      </titlePage>
+
+      <div type="section" n="preface">
+	<pb xml:id="p.vii" n="vii"/>
+	<head>Preface</head>
+
+	<p>The excavations of the expedition directed by myself were carried out in the original concession granted to me in 1902 and the concession granted to Schiaparelli, transferred to me in 1906. In 1902-5 the expedition under my guidance was the 'Hearst Expedition' of the University of California. In 1905 the expedition was transferred to Harvard University and the Boston Museum of Fine Arts. The work of these two expeditions was continuous and the persons comprising the staff changed from year to year. Thus the excavations and the records now being published as <title>The Giza Necropolis</title> were carried out by many persons. The list of chief assistants who have directed the field work at Giza at different periods is as follows: 
+	<list type="ordered">
+	  <item n="1">A. C. Mace (Oxford), 1902-3, 1905-6.</item>
+	  <item n="2">A. M. Lythgoe (Harvard), 1905-6.</item>
+	  <item n="3">C. M. Firth (Oxford), 1906-8.</item>
+	  <item n="4">Oric Bates (Harvard), 1908.</item>
+	  <item n="5">C. S. Fisher (Pennsylvania), 1909-15.</item>
+	  <item n="6">Dows Dunham (Harvard), 1914-16, 1925-6.</item>
+	  <item n="7">Alan Rowe, 1923-5.</item>
+	  <item n="8">N. F. Wheeler (Lt. Comm. R.N.), 1925-33.</item>
+	  <item n="9">William Stevenson Smith (Harvard), 1930.</item>
+	</list>
+	</p>
+
+	<p>Two other specialists must be mentioned who in the early years recorded reliefs in mastaba chapels: 
+	<list type="ordered">
+	  <item n="10">N. de G. Davies (Edinburgh), who in 1905-6 copied the reliefs in a number of mastabas (G 1029, G 1151, G 1234, G 2001, &amp;c.).</item>
+	  <item n="11">Mrs. C. M. Firth, 1906-7, who copied the reliefs in the chapels of the Mycerinus Quarry and G 2184.</item>
+	</list>
+	</p>
+
+	<p>Since that time the recording of the reliefs has been continued by Hansmartin Handrick, William Stevenson Smith, and Nicholas Melnikoff, while Miss Elizabeth Eaton has copied the reliefs from Giza in the Boston Museum.</p>
+
+	<p>Since 1910 many of the Giza reliefs have been painted in oil by Joseph Lindon Smith, Honorary Curator of the Egyptian Department of the Boston Museum of Fine Arts. These paintings are now on exhibition in the Boston Museum.</p>
+
+	<p>The following persons have given valuable assistance in recording: 
+	<list type="ordered">
+	  <item n="12">Earle Rowe (Brown), 1912.</item>
+	  <item n="13">L. C. West (Harvard), 1912-14.</item>
+	  <item n="14">O. G. S. Crawford (Oxford), 1913.</item>
+	  <item n="15">Lyman Story, 1914-17.</item>
+	  <item n="16">R. Howe, 1914.</item>
+	  <item n="17">W. G. Kemp, 1914-17.</item>
+	  <item n="18">Ashton Sanborn (Harvard), 1919-21.</item>
+	  <item n="19">Amory Goddard (Harvard), 1922-3.</item>
+	  <item n="20">George Vaillant (Harvard), 1923-4.</item>
+
+	  <pb xml:id="p.viii" n="viii"/>
+
+	  <item n="21">T. R. D. Greenlees (Oxford), 1924-6.</item>
+	  <item n="22">A. B. Hawes (Harvard), 1925-6.</item>
+	  <item n="23">H. P. Clawson, 1927-8.</item>
+	  <item n="24">Hansmartin Handrick, 1929-39.</item>
+	  <item n="25">Alexander Floroff, 1934-9.</item>
+	  <item n="26">Francis Olcott Allen (Princeton and Chicago), 1938-9.</item>
+	</list>
+	</p>
+
+	<p>Many of the persons listed above have directed field work at other sites for the expedition, particularly Earle Rowe, Lyman Story, L. C. West, and W. G. Kemp.</p>
+
+	<p>The present volume has been prepared for the press by the following members of the staff of the expedition: 
+	<list type="ordered">
+	  <item n="1">My chief assistant, W. S. Smith, who has made a special study of the sculptures and who has prepared the drawings of reliefs which appear in the appendixes.</item>
+	  <item n="2">F. O. Allen, who has specialized in the inscriptions.</item>
+	  <item n="3">Miss Evelyn Perkins, who has given me assistance in studying the records and in the preparation of the text.</item>
+	  <item n="4">Miss Elizabeth Eaton, of the Egyptian Department of the Boston Museum of Fine Arts who has prepared many drawings of reliefs, most of which will appear in the following volumes, but a few of which are included in the appendixes.</item>
+	  <item n="5">Alexander Floroff, who made the maps and many of the drawings.</item>
+	  <item n="6">Hansmartin Handrick, who has made the drawings of objects for the volume.</item>
+	  <item n="7">Nicholas Melnikoff, who made tracings of the drawings for the printer and recorded reliefs in several chapels which will appear in Volume II.</item>
+	  <item n="8">Mohammed Said Ahmed, assistant surveyor and head-reis.</item>
+	  <item n="9">Mahmud Said Ahmed, assistant publication secretary.</item>
+	</list>
+	</p>
+
+	<p>In addition to these members of the staff, a number of Egyptian photographers trained by the expedition have taken almost all of the photographs used in Volume I. The photographs from the beginning have been one of the most important records made by the expedition. In the years of the Hearst Expedition the director of the excavations took his own photographs and developed them at night. When I was doing this work I had as assistant in the darkroom Said Ahmed Said and found that he had learned the process of developing the negatives and fixing them. In 1901 I turned over the darkroom work to Said Ahmed. By 1906 I had trained this boy to take the photographs and after that I turned over to him all the work of photography. He trained other boys and we had a succession of peasant boys who acted as photographers: Bedawi Ahmed, Mahmud Shadduf, Bishari Mahfud, Mustapha Abu-el-Hamd, Mohammedani Ibrahim (1912-39), and Dahi Ahmed. Other boys learned the work in the darkroom. The excellence of the plates in this volume is due to the work of the Egyptians trained by the expedition as photographers.</p>
+
+	<p>The expedition acknowledges its debt to the staff of reises and the workmen who carried out the excavations at Giza. The organization of the force of workmen was highly developed early in the work at Giza to carry out methods devised by me in consultation with the head-reises. The methods of excavation will be explained in another place. The head-reises working at Giza were as follows: 
+	<list type="ordered">
+	  <item n="1">Salman el Firnisi, 1902-4.</item>
+	  <item n="2">Mahmud Ahmed Said, 'El-Meyyet', 1905-7, 1926-31.</item>
+	  <item n="3">Said Ahmed Said, 1908-26, the most gifted foreman who ever worked for the expedition.</item>
+
+	  <pb xml:id="p.ix" n="ix"/>
+
+	  <item n="4">Husein Aleo, 1931-3.</item>
+	  <item n="5">Duwy Mahmud Ahmed, 1933-5.</item>
+	  <item n="6">Mohammed Said Ahmed, 1936-9.</item>
+	</list><lb/>
+The last two reises kept the high standard set by Said Ahmed Said. Duwy Mahmud Ahmed was loaned to the University of Chicago Expedition working at Megiddo and was succeeded as reis by his cousin Mohammed Said Ahmed.</p>
+
+	<p>The process of the excavations has been recorded in Chapter I, pp. 22-5. The early nucleus cemeteries of the Western Field have been treated in Appendixes A-D of Vol. I and in these appendixes every mastaba of those cemeteries is described in detail. In Vol. II the following chapters will be printed: 
+	<list type="simple">
+	  <item>Chapter IX: Service Equipment of the Chapels: Statues, Offering-basins, and Vessels.</item>
+	  <item>Chapter X: Burials and Burial Equipment.</item>
+	  <item>Chapter XI: Funerary Equipment found in Burial Chambers: Canopic Receptacles; Reserve-heads; Stone Vessels; Pottery.</item>
+	  <item>Chapter XII: Funerary Equipment found in Burial Chambers: Miscellaneous Objects.</item>
+	  <item>Chapter XIII: Funerary Equipment found in Burial Chambers; Miscellaneous Objects (continued).</item>
+	  <item>Chapter XIV: The Masons' Lines and the Quarry-marks found in the Mastabas.</item>
+	</list>
+In the appendixes will be described the nucleus mastabas in the <foreign xml:lang="fr">Cemetery en Échelon</foreign> and in Cemetery G 7000. Vol. III will contain Chapter XV: The Chronology of the Finished Mastabas of the Giza Necropolis; and historical chapters on the royal family of Dynasty IV and the important families buried in the Giza Necropolis. The appendixes will contain the description of the secondary mastabas in the Western Field. Vol. IV will complete the description of the secondary mastabas and the rock-cut tombs.</p>
+
+	<p>I thank Professor Hermann Junker for his friendly co-operation in the study of the mastabas and chapels at Giza. We have worked side by side since 1911 and have had free access to each other's excavations. We are indebted to his three volumes on his excavations at Giza for the material in those books. We are also indebted to Selim Bey Hassan for a number of drawings used by us in the present book and his friendly co-operation in his work at Giza. The objects found by Professor Steindorff and Professor Junker are now in Leipzig, Hildesheim, Vienna, and Tübingen, and officials of these museums have permitted my chief assistant, W. S. Smith, to examine all those objects. We are also grateful to the Berlin Museum for allowing Mr. Smith to examine the sculptures taken by Lepsius from Giza. We are grateful to the officials of the Turin Museum for the facilities given us to study the material brought by Schiaparelli from Giza to Turin. Mr. Atherton Curtis was kind enough to allow Mr. Smith to examine the slab-stela of the Princess Nefert-yabet in his collection in Paris, and the Egyptian Departments of the Louvre and the Copenhagen Museum, as well as the Barracco Collection in Rome, have assisted us with the material from the chapel of Nofer.</p>
+
+	<p>To the Associate Curator of the Egyptian Department of our own museum, Dows Dunham, and his assistant, Elizabeth Eaton, we are indebted for continual co-operation in reporting on objects in the Boston Museum of Fine Arts. They have also sent us many scale drawings of reliefs and statuettes.</p>
+
+	<p>The proof-sheets have been read by W. S. Smith, assisted by F. O. Allen. In the transliteration of the hieroglyphs we have generally followed the Erman-Grapow Dictionary and Dr. Alan Gardiner, but in text prepared through a number of years some variations have crept in. In general, the text has not been translated unless it is an unusual one. Most of the texts give titles and names. Francis Olcott <pb xml:id="p.x" n="x"/> Allen is preparing a treatise on the names and titles in which the significance of the titles will be reconstructed as far as possible.</p>
+
+	<p>The grateful thanks of the Expedition are due to two institutions, Harvard University and the Boston Museuni of Fine Arts. The Museum of Fine Arts has borne the cost of the Expedition since 1905 and has continued this expenditure during the preparation of the volumes on the <title>History of the Giza Necropolis</title>. Harvard University has borne the cost of the volume and has undertaken to bear the cost of the printing of the following volumes.</p>
+
+	<p>Our work at Giza from 1902 to 1939 has been greatly facilitated by the co-operation of the Egyptian Department of Antiquities. For their friendly assistance during this long period the thanks of the Expedition are due to all the officials of the Department.</p>
+
+	<p>Finally, I wish to express my indebtedness to John Johnson and the Oxford University Press for their painstaking care in the printing of this volume.</p>
+
+      </div>
+
+    </front>
+
+
+    <body>
+
+      <div type="section" n="6">
+
+	<pb xml:id="p.89" n="89"/>
+	<p>      <figure xml:id="fig.22" n="2002.14.0028"><head>Fig. 22. Shaft type 4: plan and section of shaft G 2110 A</head></figure>
+        </p>
+
+      </div>
+      <div type="section" n="7">
+
+	<pb xml:id="p.201" n="201"/>
+	<p>      <figure xml:id="fig.109" n="2002.14.0115"><head>Fig. 109. Exterior stone chapel of type (2 b): G 2110</head></figure>
+        </p>
+
+      </div>
+      <div type="section" n="8">
+
+	<pb xml:id="p.375" n="375"/>
+	<p>      <figure xml:id="fig.205" n="2002.14.0211"><head>Fig. 205. Monolithic <foreign xml:lang="eg">ka</foreign>-door set in recess in casing: G 2110, Nofer, subsidiary N. niche: horizontal section</head></figure>
+        </p>
+
+      </div>
+
+    </body>
+
+
+    <back>
+
+      <div type="section" n="appendix">
+	<pb xml:id="p.422" n="422"/>
+	<head>Appendix C: Description of Nucleus Cemetery G 2100 <note anchored="true" place="inline" resp="TLM">(Limited to Mastaba G 2110, Tomb of Nefer)</note></head>
+
+	<list type="simple">
+	  <item>G 2110: northern core in western line of western group: finished with white casing and exterior white chapel.</item> 
+	  <item>            <list type="simple">
+	      <item>                <list type="simple">
+		  <item>See <ref target="map.5" n="U">Map 5</ref> and <ref target="fig.22" n="U">Figs. 22</ref> (shaft), <ref target="fig.109" n="U">109</ref> (chapel), <ref target="fig.205" n="U">205</ref> (north <foreign xml:lang="eg">ka</foreign>-door), <ref target="fig.240" n="U">240</ref> (section of mastaba), <ref target="fig.241" n="U">241</ref>, <ref target="fig.242" n="U">242</ref> (east and west walls of chapel).</item>
+		  <item>See <ref target="pl.29a" n="U">Pls. 29-33</ref>, <ref target="pl.34a" n="U">34 a-f</ref>.</item>
+		</list>
+	      </item>
+	      <item>Name: Nofer, <foreign xml:lang="eg">jmy-rA sS aprw, xrp apr nfrw, jmy-rA prwy HD, jmy-rA sty DfA, jmy-rA sS Xrt-a nswt, Hry sStA nswt m swt nb, jmy-rA Xkr nswt nb, jmy-rA pr aHA, wr mD Smaw, sAb, nxt xrw, HqA Ht, rx nswt</foreign>.</item>
+	      <item> 
+	        <list type="simple">
+		  <item>Wife: <foreign xml:lang="eg">mjtrt</foreign> Meresankh (?), possibly to be identified as mother of Kanofer (G 2150).</item>
+		</list>
+              </item>
+	      <item>Excavated: in 1905-6 under direction of A. M. Lythgoe; re-examined in 1932-7.</item>
+	      <item>Mastaba: core of type II a; 21.6 x 12.0 m.; area, 259.0 sq. m.; prop. 1/1.8; h. 4.25 m.; average height of stepped courses, 0.33 m.; average width of steps, 8.2 cm.</item>
+	      <item> 
+	        <list type="simple">
+		  <item>Cased with fine white x-masonry, dressed to smooth sloping surface; 24.8 x 14.4 m.; area, 357.12 sq. m.; prop. 1/1.72.</item>
+		  <pb xml:id="p.423" n="423"/>
+		  <item>Cased mastaba of type IX with two niches in east face; southern niche enclosed in exterior chapel of type (2 b).</item>
+		</list>
+	      </item>
+	      <item>Chapel: exterior chapel of type (2 b) of white limestone, built against the casing around the south niche; measures outside, 7.0 x 2.8 m. with area of 19.6 sq. m.; contains one room (a).</item>
+	      <item>	        <list type="simple">
+		  <item>(a) N-S offering-room, 3.7 x 1.15 m.; area, 4.25 sq. m.; prop., 1/3.21; in west wall the face of the cased mastaba is exposed with the south niche showing in north end of that wall; entered from east by doorway in south end of east wall.</item>
+		  <item>Exterior c.b. chapel north of stone chapel; remains of c.b. walls but rooms not to be traced.</item>
+		</list>
+	      </item>
+	      <item>Decoration of Chapel: decoration in fine relief with colouring not preserved; chapel was attacked by thieves before 1903, and frags. of the reliefs have been found scattered in several museums: the decoration has been reconstructed by W. S. Smith.</item>
+	      <item> 
+	        <list type="simple">
+		  <item>West wall: <foreign xml:lang="eg">ka</foreign>-door; at north end of wall; cut in casing of mastaba; architrave missing; tablet and cross-bar in Barracco Collection in Rome (see Weill, <title xml:lang="fr">IIme et IIIme Dynasties</title>, Pl. IV); and rest of stela not decorated (<ref target="pl.31c" n="U">Pl. 31 c</ref>).
+
+	        <figure xml:id="fig.240" n="2002.14.0246"><head>Fig. 240. G 2110 <note anchored="true" place="inline" resp="TLM">(Section W-E Looking North)</note></head></figure>
+
+                  </item>
+		  <item>		    <list type="simple">
+		      <item>Tablet: Nofer seated at table of bread facing to right; not in traditional attitude (left hand resting on right knee); ideographic list under table and short list above bread and to right of tablet on right side, old compartment list with linen list and granaries.</item>
+		      <item>Cross-bar: titles and name.</item>
+		      <item>West wall south of niche; chief scene; partly in place, partly found in debris of room, and partly in Copenhagen Museum (see Mogenson, <title xml:lang="fr">La Glyptothèque ny Carlsberg</title>, Pl. XCIII, No. A 667); offering scene ; Nofer and wife seated on one chair facing in to right; in front of them facing to left, two registers are preserved, (1) men bringing the accessories and the materials of the funerary meal, (2) continuation of reg. 1 and a slaughter scene (three men cutting up two bulls). (<ref target="fig.241" n="U">Fig. 241</ref>; <ref target="pl.32a" n="U">Pl. 32</ref>.)</item>
+		      <item>West wall north of niche: narrow wall not decorated.</item>
+		    </list>
+	          </item>
+		  <item>North wall: broken at top, but apparently not decorated.</item>
+		  <item>South wall: Nofer and wife standing facing in to right (fragments of upper part of wall in Boston); rest of wall left undecorated for folding back wooden door. (See <ref target="pl.33a" n="U">Pl. 33</ref>.)</item>
+		  <item>East wall: badly damaged; block in Copenhagen Museum (see <abbr>l.c.</abbr>, Pl. XCIV, 673); presentation scene; on left, Nofer and wife standing facing out to right; in front on right, two registers are preserved with figures facing to left; (1) two scribes and men bringing in birds and animals; (2) two scribes and men bringing in live animals (<ref target="pl.31a" n="U">Pl. 31 a</ref>, <ref target="pl.31b" n="U">b</ref>); frags. showing procession of estates facing to right may come from the top of the wall. <note anchored="true" place="foot" n="1">As drawn in <ref target="fig.242" n="U">Fig. 242</ref> but it is perhaps more probable that they come from the upper west wall adjoining the false-door.</note></item>
+		  <item>North doorjamb: now in Boston; Nofer standing with staff and wand, facing out to right; above, titles and name; below four scribes standing facing to left: the fourth scribe is <foreign xml:lang="eg">snnw-kA</foreign> identified as owner of the small mastaba G 2041 west of G 2110 (<ref target="pl.30b" n="U">Pl. 30 b</ref>).</item>
+		  <item>South doorjamb: now in Louvre (see Capart, <title>Documents II</title>, pl. 23); Nofer seated at table of bread (small loaves) <pb xml:id="p.424" n="424"/>
+
+                <figure xml:id="fig.241" n="2002.14.0247"><head>Fig. 241. G 2110, West wall, restored</head></figure>
+
+                <figure xml:id="fig.242" n="2002.14.0248"><head>Fig. 242. G 2110, East wall, restored</head></figure>
+<!-- Following image not related to G 2110:
+		  <figure xml:id="fig.243" n="XXXX"><head>Fig. 243. G 2120 <note place="inline" resp="TLM">(Plan, Section A-B, Section C-D)</note></head></figure>
+-->
+
+
+
+<pb xml:id="p.425" n="425"/> facing out to left; ideographic list and short list of offerings: above, titles and name: in front on left, three registers of two figures each facing in to right (1) <foreign xml:lang="eg">wt</foreign>-priest and <foreign xml:lang="eg">Hry wDb</foreign>; (2) two <foreign xml:lang="eg">Hmw-kA</foreign> censing and bearing offerings; (3) two <foreign xml:lang="eg">Hmw-kA</foreign> performing purification and bearing offerings. (<ref target="pl.30a" n="U">Pl. 30 a</ref>.)</item>
+		  <item>Architrave and drum missing.</item>
+		  <item>Façade panels of embrasure, not decorated.</item>
+		  <item>Shaft G 2110 A: sole shaft, north of middle; one-shaft mastaba; 2.1 x 2.05 m.; -11.05 m. in rock; lined with drab masonry above, 4.25 m.; thirteen courses; portcullis groove on each side at south end of east and west wall: 0.5 x 0.35 m.; the groove on the east was not cut in the rock.</item>
+		  <item>Chamber: type 4 a (2); on south, 3.45 x 3.8 m. and 2.05 m. high; area, 13.11 sq. m.; capacity, 26.87 cu. m.</item>
+		  <item>Passage: 0.9 x 1.85 m. and 2.05 m. high.</item>
+		  <item>Blocking: type I b (1); interior blocking of white blocks set in plaster partly preserved to height of 0.55 m.; portcullis slab, broken, original size 2.25 m. high, 2.3 m. wide, and 0.4 m. thick.</item>
+		  <item>Coffin: white limestone coffin with flat lid (type d); broken in frags., partly in shaft and partly in chamber. See <ref target="pl.34a" n="U">Pl. 34 a</ref>, <ref target="pl.34b" n="U">b</ref>.</item>
+		  <item>Reserve head: white limestone; found in debris at bottom of shaft; h. 0.172 m.</item>
+		  <item>See <ref target="pl.34a" n="U">Pl. 34</ref>.</item>
+		</list>
+	      </item>
+	    </list>
+          </item>
+	  <item>	    <list type="simple">
+	      <item>Later constructions and intrusions:</item> 
+	      <item>	        <list type="simple">
+		  <item>Against the south end of G 2100 stand two small mastabas, G 2111 on east and G 2113 on west.</item>
+		  <item>Behind G 2110, on west, stood the mastaba G 2041 of the scribe Sennuw-ka; east of G 2111 stand three small mastabas, G 2112 a, b, c.</item>
+		  <item>In the street east of the mastaba, north of the chapel, were several destroyed mastabas represented by intrusive shafts.</item>
+		</list>
+              </item>
+	    </list>
+          </item>
+	</list><!-- Following text not related to G 2110:
+
+	<p>
+	<figure xml:id="fig.244" n="XXXX"><head>Fig. 244. G 2120 A <note place="inline" resp="TLM">Plan, Section A-B</note></head></figure>
+	</p>
+
+	<list type="simple">
+	  <item>G 2120: core at southern end of line 2 of the western group: with unfinished white casing and unfinished exterior stone chapel.</item>
+	  <item>
+            <list type="simple">
+	      <item>
+                <list type="simple">
+		  <item>See Map 5 and Figs. 202, 243 (chapel and south <foreign xml:lang="eg">ka</foreign>-door), 244 (shaft), 245 (objects), 246 (inscribed granite drum).</item>
+		  <item>See Pls. 34 g, 35 a-d, 39 a, 43 d and f.</item>
+		</list>
+              </item>
+	      <item>Name: Seshat-sekhentyuw. [hieroglyph]; <foreign xml:lang="eg">Xry-[Hb] Hry tp</foreign>?</item>
+	      <item>Excavated: in 1905-6; re-examined in 1932-7.</item>
+	      <item>Mastaba: core of type II a; 28.0 x 12.4 m.; area, 347.2 sq. m.; prop. 1/2.25; average height of stepped courses of drab retaining wall, 0.30 m.; average width of steps, 0.8 cm.; height of mastaba as preserved, 4.55 m.</item>
+	      <item>
+                <list type="simple">
+		  <item>Casing of white limestone (partly y-masonry) begun but left unfinished; size of unfinished mastaba of type IX-y; 30.4 x 14.8 area, 449.92 sq. m.; prop. 1/2.05; lower courses of casing traced on south around SW corner and on east behind chapel and northwards; partly preserved on north end and west; a monolithic stela was in place in the west wall of the chapel.</item>
+		</list>
+              </item>
+	    </list>
+          </item>
+	</list>
+
+	--></div>
+
+      <div type="section" n="plates">
+	<pb xml:id="p.pl29" n="Plate 29"/>
+	<head>Plates and Maps</head>
+	<p>
+
+	<figure xml:id="pl.29a" n="2002.14.0432"><head>Pl. 29 a. G 2110, East face and exterior chapel, looking SW: 1905-6.</head></figure>
+
+	<figure xml:id="pl.29b" n="2002.14.0433"><head>Pl. 29 b. G 2110, Chapel, looking west: 1905-6.</head></figure>
+
+	<figure xml:id="pl.29c" n="2002.14.0434"><head>Pl. 29 c. G 2110, Stepped face of core and casing north of chapel, looking south: 1905-6.</head></figure>
+
+
+	</p>
+	<pb xml:id="p.pl30" n="Plate 30"/>
+	<p>
+
+	<figure xml:id="pl.30a" n="2002.14.0435"><head>Pl. 30 a. G 2110, South entrance jamb of chapel, in Louvre.</head></figure>
+
+	<figure xml:id="pl.30b" n="2002.14.0436"><head>Pl. 30 b. G 2110, North entrance jamb of chapel, in Boston, found displaced.</head></figure>
+
+
+	</p>
+	<pb xml:id="p.pl31" n="Plate 31"/>
+	<p>
+
+	<figure xml:id="pl.31a" n="2002.14.0437"><head>Pl. 31 a. G 2110, Chapel, north end of east wall in place.</head></figure>
+
+	<figure xml:id="pl.31b" n="2002.14.0438"><head>Pl. 31 b. G 2110, Chapel, blocks from south end of east wall, in Glyptothèque Ny Carlsberg, Copenhagen.</head></figure>
+
+	<figure xml:id="pl.31c" n="2002.14.0439"><head>Pl. 31 c. G 2110, Chapel, tablet from false door in west wall, in Barrocco Collection, Rome.</head></figure>
+
+
+	</p>
+	<pb xml:id="p.pl32" n="Plate 32"/>
+	<p>
+
+	<figure xml:id="pl.32a" n="2002.14.0440"><head>Pl. 32 a. G 2110, Chapel, south half of west wall in position.</head></figure>
+
+	<figure xml:id="pl.32b" n="2002.14.0441"><head>Pl. 32 b. G 2110, Chapel, adjoining part of west wall, in Glyptothèque Ny Carlsberg, Copenhagen.</head></figure>
+
+
+	</p>
+	<pb xml:id="p.pl33" n="Plate 33"/>
+	<p>
+
+	<figure xml:id="pl.33a" n="2002.14.0442"><head>Pl. 33 a. G 2110, Chapel, fragments of upper part of south wall, in Boston, found displaced.</head></figure>
+
+	<figure xml:id="pl.33b" n="2002.14.0443"><head>Pl. 33 b. G 2110, Chapel, lower part of south wall in place.</head></figure>
+
+
+	</p>
+	<pb xml:id="p.pl34" n="Plate 34"/>
+	<p>
+
+	<figure xml:id="pl.34a" n="2002.14.0444"><head>Pl. 34 a. G 2110, shaft A, Portcullis stone and fragment of coffin in bottom of shaft.</head></figure>
+
+	<figure xml:id="pl.34b" n="2002.14.0445"><head>Pl. 34 b. G 2110 A, Reserve head as found.</head></figure>
+
+	<figure xml:id="pl.34c" n="2002.14.0446"><head>Pl. 34 c. G 2110, Reserve head of Nofer.</head></figure>
+
+	<figure xml:id="pl.34d" n="2002.14.0447"><head>Pl. 34 d. G 2110, Reserve head of Nofer.</head></figure>
+
+	<figure xml:id="pl.34e" n="2002.14.0448"><head>Pl. 34 e. G 2110, Reserve head of Nofer.</head></figure>
+
+	<figure xml:id="pl.34f" n="2002.14.0449"><head>Pl. 34 f. G 2110, Reserve head of Nofer.</head></figure>
+<!-- Following image not related to G 2110:
+	<figure xml:id="pl.34g" n="XXXX"><head>Pl. 34 g. G 2120, East face looking SW: 1906.</head></figure>
+-->
+
+
+	</p>
+	<pb xml:id="p.map5" n="Map 5"/>
+	<p>
+
+	<figure xml:id="map.5" n="2002.14.0644"><head>Map 5. Map of the nucleus cemetery G 2100 with the intermediate mastabas.</head></figure>
+
+
+	</p>
+
+      </div>
+
+    </back>
+
+
+  </text>
+
+
+</TEI>

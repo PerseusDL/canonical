@@ -1,0 +1,1117 @@
+<?xml version="1.0"?>
+
+
+
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Ab urbe condita libri, erklärt von M. Weissenborn, books 35-38, textual notes</title>
+	
+	<author n="Liv.">Titus Livius (Livy)</author>
+	<sponsor>Perseus Project, Tufts University</sponsor><principal>Gregory Crane</principal><respStmt><resp>Prepared under the supervision of</resp><name>Lisa Cerrato</name></respStmt>
+	        <funder n="org:NEH">National Endowment for the Humanities</funder>
+      </titleStmt>
+	
+      <extent></extent>
+      
+	<publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+      
+      <sourceDesc>
+	<listBibl>
+	  <biblStruct>
+	    <monogr>
+	      <author>Livy</author>
+	      <editor>W. Weissenborn</editor>
+	      <editor>H. J. Müller</editor>
+	      <title>Ab urbe condita, 35-38: textual notes</title>
+	      <imprint>
+		<pubPlace>Berlin</pubPlace>
+		<publisher>Weidmannsche Buchhandlung</publisher>
+		<date>1873</date>
+	      </imprint>
+	      <biblScope type="volume">8</biblScope>
+	    </monogr>
+	  </biblStruct>
+
+	</listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    
+    <encodingDesc>
+      <refsDecl>
+	<refState delim="." unit="book"/>
+	<refState delim="." unit="chapter"/>
+	<refState unit="section"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+	<language ident="la">Latin
+	</language><language ident="en">English
+	</language><language ident="de">German
+	</language><language ident="greek">Greek
+      </language></langUsage>
+    </profileDesc>
+    
+    <revisionDesc><!--
+      <change>
+	<date>2006/7/03</date>
+	<respStmt><name>Gregory Crane</name><resp>ed.</resp></respStmt>
+	<item>
+
+      </item></change>--> <change when="2014-11-13" who="Stella Dee">edited markup and assigned CTS URN</change></revisionDesc></teiHeader>
+
+<text><body>
+<pb xml:id="p.393"/>
+<head>Verzeichniss der stellen, an denen coniecturen aufgenommen sind.<note>In wie weit die Verbesserungen von Gelenius und Ascensius blos auf Conjectur oder auch auf Handschriften berühen, lässt sich nicht immer entscheiden.</note></head>
+<div type="book" n="35">
+
+<div type="chapter" n="5">
+<div type="section" n="1">
+<p><app><lem>sociorum [equitum</lem></app>] <foreign xml:lang="la">ala</foreign> Lipsius, sociorum equitum ala. ib. <foreign>Ti. Sempronius</foreign> Sig., T. Sempronius. </p></div>
+</div>
+
+<div type="chapter" n="8">
+<div type="section" n="7">
+<p><app><lem>dicere et</lem></app> Crev., diceret. </p></div>
+</div>
+
+<div type="chapter" n="9">
+<div type="section" n="4">
+<p><app><lem>in Aventino</lem></app> edd. vv., Aventino. </p></div>
+<div type="section" n="7">
+<p>Q. <foreign>Aelius</foreign> Sig., P. Aelius. </p></div>
+<div type="section" n="8">
+<p><app><lem>tricena</lem></app> Glarean., quadragena (XL). </p></div>
+</div>
+
+<div type="chapter" n="10">
+<div type="section" n="12">
+<p><app><lem>ab</lem></app> (<foreign>a</foreign>) <foreign>porta Fontinali</foreign> Fr. 1., ad portam Fontinalem. </p></div>
+</div>
+
+<div type="chapter" n="12">
+<div type="section" n="8">
+<p><app><lem>nec</lem></app> [<foreign>propter</foreign>] Gr., nec propter. </p></div>
+<div type="section" n="13">
+<p><app><lem>quam Romani fuerint</lem></app> ed. Mog., cum Romanis fuerunt. </p></div>
+</div>
+
+<div type="chapter" n="13">
+<div type="section" n="4">
+<p><app><lem>Raphiae</lem></app> ed. Mog., Raphae (Raphei). </p></div>
+<div type="section" n="5">
+<p><app><lem>Sidam</lem></app> Glarean., Sicam. </p></div>
+<div type="section" n="6">
+<p><app><lem>escenderunt</lem></app> I. Gr., descenderunt. </p></div>
+</div>
+
+<div type="chapter" n="16">
+<div type="section" n="6">
+<p><app><lem>antiquum ius</lem></app> Gelen, *), antiochus. </p></div>
+</div>
+
+<div type="chapter" n="17">
+<div type="section" n="5">
+<p><app><lem>patria Lacedaemone</lem></app> Mdvg., patriam Lacedaemonem. ib. 9. <foreign>cuique</foreign> Ascens. 1513, cuiusque. </p></div>
+</div>
+
+<div type="chapter" n="18">
+<div type="section" n="1">
+<p><app><lem>Acarnan</lem></app> Asc., Acarnas. </p></div>
+<div type="section" n="8">
+<p><app><lem>distringendos</lem></app> edd. vv., astringendos. </p></div>
+</div>
+
+<div type="chapter" n="20">
+<div type="section" n="12">
+<p><app><lem>ut ei</lem></app> Gelen., uti. </p></div>
+</div>
+
+<div type="chapter" n="21">
+<div type="section" n="4">
+<p><app><lem>consulis</lem></app> Pighius, consulem. </p></div>
+</div>
+
+<div type="chapter" n="23">
+<div type="section" n="5">
+<p><app><lem>tenendos</lem></app> Tan. Faber, tuendos. </p></div>
+<div type="section" n="6">
+<p><app><lem>ut inde</lem></app> — <foreign>et ut</foreign> Fr. 2., inde — et. </p></div>
+</div>
+
+<div type="chapter" n="24">
+<div type="section" n="5">
+<p><app><lem>M'. Acilius</lem></app> Gruter, M. Acilius. </p></div>
+<div type="section" n="6">
+<p><app><lem>A. Cornelius</lem></app> Fr. 2., L Cornelius. </p></div>
+</div>
+
+<div type="chapter" n="26">
+<div type="section" n="7">
+<p><app><lem>Tiso</lem></app> Gelen., Piso. </p></div>
+</div>
+
+<div type="chapter" n="27">
+<div type="section" n="1">
+<p><app><lem>prospera re</lem></app> Ald., prospere. </p></div>
+<div type="section" n="3">
+<p><app><lem>praeberet</lem></app> Fr. 1., praeberent. ib. <foreign>texissent</foreign> edd. vv., erexissent. </p></div>
+<div type="section" n="8">
+<p><app><lem>ex tam</lem></app> Becker, tamen ex tam (tam). </p></div>
+<div type="section" n="12">
+<p><app><lem>satis et suorum</lem></app> Ascens., satis essent testes suorum et. </p></div>
+<div type="section" n="13">
+<p><app><lem>Caryas</lem></app> Sig., Carias. ib. <foreign>Barnosthenem</foreign> Curtius, Barbosthenes. </p></div>
+<div type="section" n="15">
+<p><app><lem>maxima</lem></app> I. Perizonius, maximea. </p></div>
+</div>
+
+<div type="chapter" n="28">
+<div type="section" n="3">
+<p><app><lem>posse</lem></app> edd. vv., hosse. </p></div>
+</div>
+
+<div type="chapter" n="29">
+<div type="section" n="1">
+<p><app><lem>Telemnastus</lem></app> Valesius, Letemnastus. </p></div>
+<div type="section" n="3">
+<p><app><lem>effuse</lem></app> edd. vv., effusi. </p></div>
+<div type="section" n="7">
+<p><app><lem>et quacumque</lem></app> Fr. 2, quacumque. ib. <foreign>iniqua quam</foreign> Fr. 1., nequaquam. </p></div>
+</div>
+
+<div type="chapter" n="30">
+<div type="section" n="4">
+<p><app><lem>vix</lem></app> ed. Mog., via. </p></div>
+<div type="section" n="9">
+<p><app><lem>Pharas</lem></app> Valesius, Phacas. </p></div>
+</div>
+
+<div type="chapter" n="31">
+<div type="section" n="13">
+<p><app><lem>hanc vocem</lem></app> ed. Mog., hac voce. </p></div>
+</div>
+
+<div type="chapter" n="32">
+<div type="section" n="3">
+<p><app><lem>redierat</lem></app> edd. vv., redibat. 32, 6 <foreign>spes</foreign> Duk., res. </p></div>
+</div>
+
+<div type="chapter" n="4">
+<div type="section" n="1">
+<p><app><lem>Antiocho * * nihil</lem></app> W., Antiocho nihil. </p></div>
+</div>
+
+<div type="chapter" n="34">
+<div type="section" n="7">
+<p><app><lem>veste * * tenentes</lem></app> W., veste tenentes. </p></div>
+</div>
+
+<div type="chapter" n="35">
+<div type="section" n="19">
+<p><app><lem>a media</lem></app> Fr. 1., media. </p></div>
+
+<pb xml:id="p.394"/>
+
+</div>
+
+<div type="chapter" n="36">
+<div type="section" n="7">
+<p><app><lem>rei simul</lem></app> Gelen., r. ac simul. </p></div>
+<div type="section" n="9">
+<p><app><lem>Chaleioecon (Chaleioecum)</lem></app> Fr. 1., Calchioten. </p></div>
+</div>
+
+<div type="chapter" n="37">
+<div type="section" n="7">
+<p><app><lem>Thoas et</lem></app> Crevier, et Thoas. 38, 1; <bibl n="Liv. Frag. 46">46.9</bibl>; <bibl n="Liv. Frag. 50">50.10</bibl> u. a. <foreign>Micythio</foreign> Gr., Myctilo (Mychitio). </p></div>
+</div>
+
+<div type="chapter" n="38">
+<div type="section" n="6">
+<p><app><lem>et in</lem></app> edd. vv., in </p></div>
+</div>
+
+<div type="chapter" n="39">
+<div type="section" n="1">
+<p><app><lem>Chalcidico</lem></app> W., calchide. </p></div>
+</div>
+
+<div type="chapter" n="43">
+<div type="section" n="3">
+<p><app><lem>tectis</lem></app> edd. vv., lectis. </p></div>
+<div type="section" n="8">
+<p><app><lem>Phalara</lem></app> ed. Mediol. 1505, Phalera. </p></div>
+<div type="section" n="9">
+<p><app><lem>Lamiam</lem></app> Fr. 1., Lameam. </p></div>
+</div>
+
+<div type="chapter" n="44">
+<div type="section" n="2">
+<p><app><lem>fuit</lem></app> ed. Mog., fuit primo. </p></div>
+<div type="section" n="5">
+<p><app><lem>viris equis</lem></app> Fr. 2., viris equisque. </p></div>
+</div>
+
+<div type="chapter" n="46">
+<div type="section" n="7">
+<p><app><lem>tutas</lem></app> Duker, tutam. </p></div>
+</div>
+
+<div type="chapter" n="47">
+<div type="section" n="2">
+<p><app><lem>placuit Boeotos</lem></app> I. Perizonius, placuit. </p></div>
+<div type="section" n="5">
+<p><app><lem>Apamam</lem></app> Sig., Apamiam. </p></div>
+</div>
+
+<div type="chapter" n="48">
+<div type="section" n="3">
+<p><app><lem>averso</lem></app> W., aversos. </p></div>
+</div>
+
+<div type="chapter" n="49">
+<div type="section" n="8">
+<p><app><lem>Dahas</lem></app> edd. vv., Dacas. </p></div>
+<div type="section" n="13">
+<p><app><lem>dicunt</lem></app> Crevier, dicant. </p></div>
+</div>
+
+<div type="chapter" n="50">
+<div type="section" n="8">
+<p><app><lem>et ab</lem></app> Gr., ab. </p></div>
+<div type="section" n="9">
+<p><app><lem>Hermaeum</lem></app> Gr., Hermeum.</p></div>
+</div></div>
+<div type="book" n="36">
+
+<div type="chapter" n="1">
+<div type="section" n="1">
+<p><app><lem>M'. Acilium</lem></app> Sig., M. Acilium. </p></div>
+</div>
+
+<div type="chapter" n="2">
+<div type="section" n="1">
+<p><app><lem>intento ad id</lem></app> W., ad id. ib. 15. <foreign>et in</foreign> Fr. 2., ut in (in). </p></div>
+</div>
+
+<div type="chapter" n="3">
+<div type="section" n="1">
+<p><app><lem>et in</lem></app> ed. Mog., in. </p></div>
+<div type="section" n="7">
+<p><app><lem>nuntiari</lem></app> Kr., nuntiaret. ib. 13, <foreign>ut ii (ut hi)</foreign> Crevier, uti. </p></div>
+</div>
+
+<div type="chapter" n="4">
+<div type="section" n="1">
+<p>[<foreign>Aegypti rege</foreign>] Gr., Aegypti rege. </p></div>
+<div type="section" n="5">
+<p><app><lem>modium * milia</lem></app> W., modium D. (modium mille). </p></div>
+<div type="section" n="6">
+<p>[<foreign>suorum</foreign>] <foreign>suo</foreign> Duker, suorum suo. </p></div>
+</div>
+
+<div type="chapter" n="5">
+<div type="section" n="2">
+<p><app><lem>Elei</lem></app> Sabellicus, Pelei. ib. <foreign>Peloponneso</foreign> Fr. 1., Peloponense. </p></div>
+<div type="section" n="2">
+<p><app><lem>illaturos credebant</lem></app> edd. vv., illaturos. </p></div>
+</div>
+
+<div type="chapter" n="7">
+<div type="section" n="3">
+<p><app><lem>in societatem belli</lem></app> Fr. 2., belli in societatem. </p></div>
+<div type="section" n="6">
+<p><app><lem>cui si</lem></app> edd. vv., qui si. </p></div>
+<div type="section" n="10">
+<p><app><lem>qui quid</lem></app> Douiatius, quicquid. </p></div>
+<div type="section" n="13">
+<p><app><lem>ferae</lem></app> Gelen., ut ferae. </p></div>
+<div type="section" n="16">
+<p><app><lem>Romani</lem></app> edd. vv., a Romanis. </p></div>
+</div>
+
+<div type="chapter" n="10">
+<div type="section" n="2">
+<p><app><lem>Cierium</lem></app> W., Cierum. 10, 5; </p></div>
+</div>
+
+<div type="chapter" n="13">
+<div type="section" n="4">
+<p><app><lem>Malloeam et Cyretias</lem></app> Fr. 1., Malleolam et Cyrethias ib. <foreign>cepit et</foreign> W., cepit. 7. <foreign>aperto et</foreign> Duker, apertae. 10, 10; 11. <foreign>Gonnos Gonni</foreign> Sabellicus, Connos Conni. 11, 8; <bibl n="Liv. 12">12.4</bibl> u. a. <foreign>Mnasilochus</foreign> Kreyssig, Mansilocus. </p></div>
+</div>
+
+<div type="chapter" n="11">
+<div type="section" n="9">
+<p><app><lem>quaeque</lem></app> W., quae (quaeve). </p></div>
+</div>
+
+<div type="chapter" n="12">
+<div type="section" n="8">
+<p><app><lem>dato ei</lem></app> edd. vv., dato enim (dato). </p></div>
+</div>
+
+<div type="chapter" n="13">
+<div type="section" n="3">
+<p><app><lem>Phaestum</lem></app> Sabellicus, Phaustum. </p></div>
+</div>
+
+<div type="chapter" n="14">
+<div type="section" n="1">
+<p><app><lem>viginti</lem></app> Gr., decem. ib. 4. <foreign>ioco</foreign> Ascens., loco. </p></div>
+<div type="section" n="6">
+<p><app><lem>Cierio</lem></app> W., Cieria. </p></div>
+<div type="section" n="12">
+<p><app><lem>circa</lem></app> [<foreign>ea</foreign>] Gr., circa ea. </p></div>
+<div type="section" n="13">
+<p><app><lem>misit</lem></app> Madvig, missi. </p></div>
+</div>
+
+<div type="chapter" n="15">
+<div type="section" n="2">
+<p><app><lem>Lamiam</lem></app> Duker, iam. </p></div>
+<div type="section" n="9">
+<p><app><lem>verso</lem></app> Fr. 2., versa. </p></div>
+</div>
+
+<div type="chapter" n="17">
+<div type="section" n="6">
+<p><app><lem>iam inde</lem></app> Ascens., iam ille. </p></div>
+</div>
+
+<div type="chapter" n="19">
+<div type="section" n="9">
+<p><app><lem>effuso</lem></app> Fr. 2., confuse. </p></div>
+</div>
+
+<div type="chapter" n="20">
+<div type="section" n="2">
+<p><app><lem>in pacato</lem></app> edd. vv., pacato. </p></div>
+<div type="section" n="5">
+<p><app><lem>Thronium</lem></app> Sabellicus, Thorontum. ib. <foreign>Acarnan</foreign> Fr. 1., Acarnanum. </p></div>
+</div>
+
+<div type="chapter" n="21">
+<div type="section" n="1">
+<p><app><lem>Tenum</lem></app> Glarean., Tenedum. </p></div>
+</div>
+
+<div type="chapter" n="22">
+<div type="section" n="7">
+<p><app><lem>Asopo</lem></app> Glarean., Asoro. </p></div>
+<div type="section" n="7">
+<p><app><lem>ab arce</lem></app> W., arcem. ib. <foreign>qua</foreign> Gr., quae. </p></div>
+<div type="section" n="8">
+<p><app><lem>e regione</lem></app> W., et regionem (a). ib. <foreign>sinus Maliaci</foreign> W., sinu Malliaco (Mellaquoque). </p></div>
+<div type="section" n="11">
+<p><app><lem>deserta, quae</lem></app> Gr., desertaque. </p></div>
+</div>
+
+<div type="chapter" n="23">
+<div type="section" n="10">
+<p><app><lem>velut ipsi quoque</lem></app> edd. vv., velut spe hac (velut ipsi hoc, huius, vgl. <bibl n="Liv. 41.2.8">41.2.8</bibl>; <bibl n="Liv. 3.66.3">3.66.3</bibl>). </p></div>
+</div>
+
+<div type="chapter" n="24">
+<div type="section" n="2">
+<p><app><lem>Ti. Sempronium</lem></app> Sig., T. Sempronium. </p></div>
+<div type="section" n="6">
+<p><app><lem>semirutos</lem></app> W., erutos (semiruta). </p></div>
+<div type="section" n="8">
+<p><app><lem>par</lem></app> edd. vv., pars. </p></div>
+<div type="section" n="12">
+<p><app><lem>traditus fuit.</lem></app> Ald., traditum f. </p></div>
+</div>
+
+<div type="chapter" n="27">
+<div type="section" n="7">
+<p><app><lem>et se</lem></app> — <foreign>adfuturum</foreign> Gelen., et — profuturum. </p></div>
+<div type="section" n="8">
+<p><app><lem>illis</lem></app> edd. vv., illic (illi). </p></div>
+</div>
+
+<div type="chapter" n="28">
+<div type="section" n="2">
+<p><app><lem>in quo id</lem></app> Gelen., in id quod. </p></div>
+<div type="section" n="4">
+<p><app><lem>habeo te</lem></app> Fr. 2., habeo (te habeo). </p></div>
+<div type="section" n="9">
+<p><app><lem>conditioni</lem></app> Gelen., conditionis. </p></div>
+</div>
+
+<div type="chapter" n="31">
+<div type="section" n="2">
+<p><app><lem>etenim</lem></app> edd. vv., et. </p></div>
+<div type="section" n="6">
+<p><app><lem>Diophanem</lem></app> Sig. Diaphanem, ebenso <bibl n="Liv. 31.7">31.7</bibl> u. s. w. <foreign>Andaniam</foreign> Fr. 1., Endaniam. </p></div>
+</div>
+
+<div type="chapter" n="32">
+<div type="section" n="7">
+<p><app><lem>Peloponnesi sunt terminos</lem></app> Fr. 1., Peloponnensum est termino. </p></div>
+</div>
+
+<div type="chapter" n="33">
+<div type="section" n="3">
+<p><app><lem>expectabant</lem></app> Fr. 1., expectarent (viell. ist <foreign>expectare</foreign> zu lesen). </p></div>
+<div type="section" n="4">
+<p><app><lem>turba erat ibi incondita</lem></app> Fr. 2., turbae erant ibi inconditae. </p></div>
+<div type="section" n="5">
+<p><app><lem>qui</lem></app> edd. vv., quia. </p></div>
+</div>
+
+<div type="chapter" n="34">
+<div type="section" n="2">
+<p><app><lem>sed</lem></app> [<foreign>iam</foreign>] Ascens., sed iam. </p></div>
+<div type="section" n="6">
+<p><app><lem>quicquam</lem></app> Sig., quidnam. </p></div>
+</div>
+
+<div type="chapter" n="35">
+<div type="section" n="7">
+<p><app><lem>actum est</lem></app> W., actum et. </p></div>
+<div type="section" n="7">
+<p><app><lem>res * quia</lem></app> Madvig, res quia. </p></div>
+</div>
+
+<div type="chapter" n="36">
+<div type="section" n="2">
+<p><app><lem>uti de</lem></app> Gr., ut id&emacr;. 36, 4; 6. <foreign>P. Sempronio</foreign> Sig., T. Sempronio. </p></div>
+</div>
+
+<div type="chapter" n="40">
+<div type="section" n="2">
+<p><app><lem>meritum</lem></app> Fr. 2., merito (meritis). </p></div>
+<div type="section" n="4">
+<p><app><lem>quot cum</lem></app> Rubenius, quod cum (tot). </p></div>
+</div>
+
+<div type="chapter" n="41">
+<div type="section" n="2">
+<p><app><lem>dubitare</lem></app> Fr. 2, dubitabat. </p></div>
+</div>
+
+<div type="chapter" n="42">
+<div type="section" n="5">
+<p><app><lem>Samen</lem></app> Sig., Samum (tamen). </p></div>
+<div type="section" n="8">
+<p><app><lem>constratis</lem></app> Duker, rostratis. 43, 2 fgg. <foreign>Polyxenidas</foreign> edd. vv., Polyxenides. </p></div>
+</div>
+
+<div type="chapter" n="43">
+<div type="section" n="5">
+<p><app><lem>superiores et</lem></app> Gelen., superiorem esse (superier esset). </p></div>
+<div type="section" n="11">
+<p><app><lem>ceciderunt</lem></app> edd. vv., ceciderant. </p></div>
+<div type="section" n="12">
+<p><app><lem>Phocaeam</lem></app> Duker., Crev., a Phocaea. </p></div>
+<pb xml:id="p.395"/>
+
+<div type="section" n="13">
+<p><app><lem>centum quinque</lem></app> I. Perizon., centum quinquaginta. </p></div>
+</div>
+
+<div type="chapter" n="44">
+<div type="section" n="4">
+<p><app><lem>maxima</lem></app> Ascens., maximae. </p></div>
+<div type="section" n="7">
+<p><app><lem>quae pari</lem></app> edd. vv., cum pari. </p></div>
+</div>
+
+<div type="chapter" n="45">
+<div type="section" n="7">
+<p><app><lem>Phoenicuntem</lem></app> — <foreign>Erythraeae</foreign> Fr. 2., Poenicunte — Erythreo.</p></div>
+</div></div>
+<div type="book" n="37">
+
+<div type="chapter" n="1">
+<div type="section" n="9">
+<p><app><lem>se ei</lem></app> Duker, se. </p></div>
+</div>
+
+<div type="chapter" n="2">
+<div type="section" n="1">
+<p><app><lem>Cn. Fulvius</lem></app> — <foreign>Tuccius</foreign> — <foreign>Atinius</foreign> Fr. 2., M. Fulvius — Tutius — Acilius. </p></div>
+</div>
+
+<div type="chapter" n="6">
+<div type="section" n="2">
+<p><app><lem>tredecim</lem></app> Sig., tribus. ib. <foreign>Amphissam</foreign> Fr. 1., amplissimam. </p></div>
+</div>
+
+<div type="chapter" n="8">
+<div type="section" n="1">
+<p><app><lem>Corycum</lem></app> Sabellicus, Corycem. </p></div>
+<div type="section" n="6">
+<p><app><lem>duobus</lem></app> edd. vv., XX. </p></div>
+</div>
+
+<div type="chapter" n="10">
+<div type="section" n="11">
+<p><app><lem>misit</lem></app> * <foreign>ut</foreign> Crevier, misit ut. </p></div>
+</div>
+
+<div type="chapter" n="11">
+<div type="section" n="3">
+<p><app><lem>detegi</lem></app> W., tegi. ib. <foreign>Magnesiam</foreign> [<foreign>ad Sipylum</foreign>] Glarean., M. ad Sipylum. </p></div>
+<div type="section" n="8">
+<p><app><lem>facile telis</lem></app> Ascens., facile ex. </p></div>
+<div type="section" n="15">
+<p><app><lem>Cyme</lem></app> Gr., Cimae. </p></div>
+</div>
+
+<div type="chapter" n="12">
+<div type="section" n="5">
+<p><app><lem>Seleuci</lem></app> Ald., Seleucia. </p></div>
+<div type="section" n="9">
+<p><app><lem>Eudamo</lem></app> Fr. 2., Eudemo. </p></div>
+<div type="section" n="10">
+<p><app><lem>Erythraeam</lem></app> edd. vv., Erythrea. ib. <foreign>Corycum</foreign> [<foreign>Pelorum</foreign>] W., Corycum Pelorum. </p></div>
+</div>
+
+<div type="chapter" n="13">
+<div type="section" n="11">
+<p><app><lem>Rhodio</lem></app> I. Perizon., Rhodiorum. </p></div>
+</div>
+
+<div type="chapter" n="14">
+<div type="section" n="3">
+<p><app><lem>traiecit Chium</lem></app> Duker, traiecit. </p></div>
+</div>
+
+<div type="chapter" n="15">
+<div type="section" n="2">
+<p><app><lem>obstruatur</lem></app> — <foreign>minus sit</foreign> edd. vv., instruatur — minus. </p></div>
+<div type="section" n="6">
+<p><app><lem>adiungenda</lem></app> Gr., adiungendam. </p></div>
+</div>
+
+<div type="chapter" n="16">
+<div type="section" n="1">
+<p><app><lem>C. Livius</lem></app> ed. Mog., L. Livius. </p></div>
+<div type="section" n="5">
+<p><app><lem>ostium</lem></app> edd. vv., hostium. </p></div>
+<div type="section" n="13">
+<p><app><lem>Telmessicum</lem></app> edd. vv., tellessicum. </p></div>
+<div type="section" n="14">
+<p><app><lem>omisso</lem></app> * <foreign>Patara</foreign> Ascens. all., omisso Patara. </p></div>
+</div>
+
+<div type="chapter" n="17">
+<div type="section" n="3">
+<p><app><lem>Bargylietico sinu</lem></app> Gelen. Gr., Barcylia et icos&omacr;. ib. <foreign>Iasum</foreign> edd. vv., Iacum. </p></div>
+<div type="section" n="5">
+<p><app><lem>ii frequentes</lem></app> Fr. 2., ibi frequentes (frequentes). </p></div>
+<div type="section" n="6">
+<p><app><lem>pulsi sint</lem></app> Fr. 2., pulsi sunt. </p></div>
+</div>
+
+<div type="chapter" n="18">
+<div type="section" n="7">
+<p><app><lem>terroris in</lem></app> Gelen., terroris. ib. [<foreign>milites</foreign>] <foreign>misit</foreign> Gelen., milites misit. </p></div>
+</div>
+
+<div type="chapter" n="19">
+<div type="section" n="7">
+<p><app><lem>evastatis</lem></app> Modius, evastandis (vastatis). </p></div>
+</div>
+
+<div type="chapter" n="20">
+<div type="section" n="3">
+<p><app><lem>quidem qui</lem></app> edd., quidem. </p></div>
+</div>
+
+<div type="chapter" n="21">
+<div type="section" n="5">
+<p><app><lem>Peraeam</lem></app> Fr. 2., Pheream. </p></div>
+<div type="section" n="7">
+<p><app><lem>Phocaeensium</lem></app> Fr. 2., Phocensium. </p></div>
+</div>
+
+<div type="chapter" n="22">
+<div type="section" n="3">
+<p><app><lem>Peraeae</lem></app> I. Gr., per ea. </p></div>
+</div>
+
+<div type="chapter" n="23">
+<div type="section" n="5">
+<p><app><lem>hexeres</lem></app> [<foreign>habebat</foreign>] Gr., hexeres habebat. </p></div>
+<div type="section" n="11">
+<p><app><lem>agmini</lem></app> Heinsius, agmine. </p></div>
+</div>
+
+<div type="chapter" n="24">
+<div type="section" n="10">
+<p><app><lem>potuisset</lem></app> Fr. 2., potuissent. </p></div>
+<div type="section" n="11">
+<p><app><lem>ictus</lem></app> edd., victus. 25, 3; </p></div>
+</div>
+
+<div type="chapter" n="26">
+<div type="section" n="3">
+<p><app><lem>Patara</lem></app> Fr. 2., Pataram, Pataras. </p></div>
+<div type="section" n="13">
+<p><app><lem>hosti eripere</lem></app> Fr. 2, eripere. 27, 3; 7. <foreign>Teum</foreign> Sig. Teium. </p></div>
+</div>
+
+<div type="chapter" n="30">
+<div type="section" n="2">
+<p><app><lem>regios</lem></app> I. Perizon., lodios (rodios). </p></div>
+<div type="section" n="4">
+<p><app><lem>prorae</lem></app> Crevier, prope (prora). </p></div>
+<div type="section" n="9">
+<p><app><lem>ancora</lem></app> Fr. 1., in ancora. </p></div>
+</div>
+
+<div type="chapter" n="31">
+<div type="section" n="7">
+<p><app><lem>consulis</lem></app> [<foreign>iere</foreign>] W., consulis iere. </p></div>
+</div>
+
+<div type="chapter" n="33">
+<div type="section" n="4">
+<p><app><lem>aliis alio</lem></app> edd. vv., alii (alio). </p></div>
+<div type="section" n="5">
+<p><app><lem>transire!</lem></app> — [<foreign>tum</foreign>] <foreign>in (transitum</foreign> — <foreign>in</foreign> edd. vv.) Gr., transire — tum in. </p></div>
+</div>
+
+<div type="chapter" n="34">
+<div type="section" n="5">
+<p><app><lem>Oreum</lem></app> Glarean., Oricum. </p></div>
+</div>
+
+<div type="chapter" n="35">
+<div type="section" n="3">
+<p><app><lem>Lysimachia iam</lem></app> Fr. 2., Lysimachiam. </p></div>
+</div>
+
+<div type="chapter" n="36">
+<div type="section" n="2">
+<p><app><lem>pollicitus est et</lem></app> W., pollicitus et. </p></div>
+</div>
+
+<div type="chapter" n="37">
+<div type="section" n="4">
+<p><app><lem>et Eumenes</lem></app> Fr. 2., et omnes Eumenes. ib. <foreign>diebus</foreign> Ald, deinde diebus. </p></div>
+<div type="section" n="10">
+<p><app><lem>nesi</lem></app> Gelen., nisi (ne). </p></div>
+</div>
+
+<div type="chapter" n="40">
+<div type="section" n="5">
+<p><app><lem>equitum loricatorum</lem></app> Sig., peditum loricatorum. ib. <foreign>agema eam</foreign> Gelen., ageam eam (hegemeam). </p></div>
+<div type="section" n="8">
+<p><app><lem>equites sagittarii</lem></app> Fr. 2., equites sagittarioru. ib. <foreign>Mysi</foreign> Fr. 1., missi. </p></div>
+<div type="section" n="9">
+<p><app><lem>Cyrtii</lem></app> W., Cyrthei. </p></div>
+<div type="section" n="10">
+<p><app><lem>et similiter</lem></app> Gelen., similiter. </p></div>
+</div>
+
+<div type="chapter" n="41">
+<div type="section" n="2">
+<p><app><lem>velut</lem></app> * <foreign>perfudit</foreign> W., velut perfudit. </p></div>
+<div type="section" n="9">
+<p><app><lem>iaculatores</lem></app> * <foreign>equitum</foreign> Crevier, iaculatores equitum. ib. <foreign>et ex</foreign> Becker, ex (et). 42, 2, [<foreign>pars</foreign>] <foreign>eorum,</foreign> Crev., pars eorum. ib. 3. <foreign>et quos</foreign> Gelen., quos. </p></div>
+</div>
+
+<div type="chapter" n="43">
+<div type="section" n="4">
+<p><app><lem>sequenti regi</lem></app> Fr. 2., sequente rege. </p></div>
+<div type="section" n="5">
+<p><app><lem>ut ab</lem></app> Fr. 1., ab. </p></div>
+</div>
+
+<div type="chapter" n="45">
+<div type="section" n="14">
+<p><app><lem>milia deinde</lem></app> Grute., (mille) deinde. </p></div>
+<div type="section" n="17">
+<p><app><lem>Mnasilochum</lem></app> Crevier, Mnasimachum. ib. <foreign>Eubulidam</foreign> Fr. 2., Eubolum. </p></div>
+<div type="section" n="19">
+<p><app><lem>Ephesumque</lem></app> edd. vv., Ephesum. </p></div>
+</div>
+
+<div type="chapter" n="46">
+<div type="section" n="1">
+<p><app><lem>spe proconsules</lem></app> Fr. 2., spe (spe praetores). 46, 3; </p></div>
+</div>
+
+<div type="chapter" n="59">
+<div type="section" n="4">
+<p><app><lem>tetrachmum</lem></app> Becker, tetracmum. </p></div>
+</div>
+
+<div type="chapter" n="47">
+<div type="section" n="7">
+<p><app><lem>Manlius Vulso</lem></app> edd. vv., Manlius. </p></div>
+</div>
+
+<div type="chapter" n="48">
+<div type="section" n="6">
+<p><app><lem>in senatu</lem></app> Fr. 1., in senatum. </p></div>
+</div>
+
+<div type="chapter" n="51">
+<div type="section" n="9">
+<p><app><lem>a vetere fama</lem></app> Abl. Rubenius, averterunt fama. </p></div>
+</div>
+
+<div type="chapter" n="52">
+<div type="section" n="5">
+<p><app><lem>cognoscere</lem></app> Fr. 2., cognosci. </p></div>
+</div>
+
+<div type="chapter" n="53">
+<div type="section" n="4">
+<p><app><lem>ipsi</lem></app> Gelen., sibi. </p></div>
+<div type="section" n="6">
+<p><app><lem>et amici</lem></app> Ald., aut amici. </p></div>
+<div type="section" n="9">
+<p><app><lem>posset</lem></app> A., possit. ib. 11. <foreign>voluntati</foreign> Fr. 1., voluntate. </p></div>
+</div>
+
+<div type="chapter" n="54">
+<div type="section" n="2">
+<p><app><lem>aderat</lem></app> Ruperti, aderant. ib. 18. <foreign>solo</foreign> [<foreign>modo</foreign>] Crev., solo modo. </p></div>
+</div>
+
+<div type="chapter" n="56">
+<div type="section" n="3">
+<p><app><lem>ad Sipylum</lem></app> Fr. 1., et asipylum. ib. <foreign>Hydrelitanum</foreign> ed. v., Hydrelatanum. </p></div>
+</div>
+
+<div type="chapter" n="57">
+<div type="section" n="10">
+<p><app><lem>Marcellus</lem></app> Gel., Glarean., Gellius. </p></div>
+</div>
+
+<div type="chapter" n="58">
+<div type="section" n="4">
+<p>[<foreign>tanta</foreign>] <foreign>pro</foreign> Gr., tanta pro. ib. <foreign>tetrachma</foreign> Becker, tetracma. </p></div>
+<div type="section" n="8">
+<p><app><lem>oreintis finibus</lem></app> W., orientis in (orientis). </p></div>
+<pb xml:id="p.396"/>
+
+</div>
+
+<div type="chapter" n="59">
+<div type="section" n="1">
+<p><app><lem>et imperatori</lem></app> Fr. 1., imperatori. </p></div>
+</div>
+
+<div type="chapter" n="60">
+<div type="section" n="6">
+<p><app><lem>timuerint</lem></app> Becker, timuerunt.</p></div>
+</div></div>
+<div type="book" n="38">
+
+<div type="chapter" n="1">
+<div type="section" n="4">
+<p><app><lem>cum delectis Aetolorum</lem></app> A.; delectis. ib. <foreign>est gentis</foreign> W., esset gentis. </p></div>
+</div>
+
+<div type="chapter" n="2">
+<div type="section" n="4">
+<p><app><lem>Ethopiam</lem></app> edd. vv., Aethiopiam (Eopam). 4. 3. <foreign>Athamania</foreign> Palmerius, Acarnania. </p></div>
+</div>
+
+<div type="chapter" n="5">
+<div type="section" n="2">
+<p><app><lem>tria opera</lem></app> W., tria. </p></div>
+<div type="section" n="5">
+<p><app><lem>et nocturnis</lem></app> Fr. 2., nocturnis. </p></div>
+<div type="section" n="8">
+<p><app><lem>perrupisset</lem></app> Crev., erupisset. </p></div>
+</div>
+
+<div type="chapter" n="7">
+<div type="section" n="10">
+<p><app><lem>sub terra</lem></app> Gr., sub terram. </p></div>
+<div type="section" n="13">
+<p><app><lem>nidore</lem></app> edd. vv., modore (odore). </p></div>
+</div>
+
+<div type="chapter" n="8">
+<div type="section" n="2">
+<p><app><lem>Dolopiamque</lem></app> edd. vv., Dolopiam. </p></div>
+</div>
+
+<div type="chapter" n="9">
+<div type="section" n="9">
+<p><app><lem>dein * * quinquaginta</lem></app> I. Perizon., dein quinquaginta. </p></div>
+</div>
+
+<div type="chapter" n="10">
+<div type="section" n="1">
+<p><app><lem>abest</lem></app> Gelen., est. </p></div>
+<div type="section" n="4">
+<p><app><lem>Leon Hicesiae</lem></app> edd. vv., Becker, Leochicensiae. </p></div>
+</div>
+
+<div type="chapter" n="11">
+<div type="section" n="1">
+<p><app><lem>condiciones</lem></app> Gelen., ad condiciones. </p></div>
+<div type="section" n="9">
+<p><app><lem>Oeniadae cum urbe</lem></app> Gelen., Aetoliae x urbes. </p></div>
+</div>
+
+<div type="chapter" n="12">
+<div type="section" n="3">
+<p><app><lem>ad novum</lem></app> Fr. 1., novum. </p></div>
+<div type="section" n="10">
+<p><app><lem>Hieran Comen</lem></app> Fr. 1., Phileran Comen (Comenen). </p></div>
+</div>
+
+<div type="chapter" n="13">
+<div type="section" n="11">
+<p><app><lem>Gordiutichos</lem></app> Fr. 1., Cordiuticos. 14, 4; 6. <foreign>Helvium, Helvius</foreign> Fr. 2., Mulvium, Mulvius. </p></div>
+</div>
+
+<div type="chapter" n="14">
+<div type="section" n="10">
+<p><app><lem>ad Limnen, quae</lem></app> Tillmanns, alymn&emacr;quae. </p></div>
+</div>
+
+<div type="chapter" n="15">
+<div type="section" n="1">
+<p><app><lem>Sindensium</lem></app> Sig., Indensium. </p></div>
+<div type="section" n="2">
+<p>[<foreign>et</foreign>] <foreign>praeter</foreign> Kreyssig, et praeter. </p></div>
+<div type="section" n="3">
+<p><app><lem>ad Lysis</lem></app> Fr. 1., ab Lysis. </p></div>
+<div type="section" n="4">
+<p><app><lem>Isiondensium</lem></app> edd. vv., Isiodem. </p></div>
+<div type="section" n="5">
+<p><app><lem>devertendi</lem></app> Drak., revertendi (divertendi). </p></div>
+<div type="section" n="6">
+<p><app><lem>Termesso</lem></app> Gelen., Telmesso. </p></div>
+<div type="section" n="9">
+<p><app><lem>Sagalassenum</lem></app> Fr. 1., Acalassenum. </p></div>
+<div type="section" n="15">
+<p><app><lem>Alandri</lem></app> Sig., Alexandri. </p></div>
+</div>
+
+<div type="chapter" n="17">
+<div type="section" n="6">
+<p><app><lem>eos olim fugerunt</lem></app> Modius, olim fugerunt (eos olim fuderunt). </p></div>
+<div type="section" n="15">
+<p><app><lem>recens</lem></app> Ascens., recentis. </p></div>
+<div type="section" n="18">
+<p><app><lem>Martiis</lem></app> Freinsheim, Martis. ib. <foreign>tantum contagio</foreign> Fr. 2., quantum contagio. </p></div>
+</div>
+
+<div type="chapter" n="18">
+<div type="section" n="2">
+<p><app><lem>Oroandensium</lem></app> Fr. 2., Orcandensium. </p></div>
+<div type="section" n="10">
+<p><app><lem>Gordium</lem></app> edd. vv., Cordium. </p></div>
+</div>
+
+<div type="chapter" n="19">
+<div type="section" n="2">
+<p><app><lem>Comboiomarus</lem></app> Glück, Combolomarus. </p></div>
+</div>
+
+<div type="chapter" n="20">
+<div type="section" n="1">
+<p><app><lem>possent lapidum</lem></app> Fr. 2., Iapidum possent. </p></div>
+<div type="section" n="3">
+<p><app><lem>effusi</lem></app> Fr. 2., effusus. </p></div>
+</div>
+
+<div type="chapter" n="21">
+<div type="section" n="1">
+<p><app><lem>et * ab</lem></app> W., Koch, et ab. </p></div>
+<div type="section" n="6">
+<p><app><lem>et ut</lem></app> Crevier, ut. </p></div>
+<div type="section" n="7">
+<p></p></div>
+<div type="section" n="11">
+<p><app><lem>qua evellant</lem></app> I. Perizon., quae vellant. ib. <foreign>sic tum</foreign> — <foreign>procubuere</foreign> W., sicut — procumberent. </p></div>
+</div>
+
+<div type="chapter" n="22">
+<div type="section" n="3">
+<p><app><lem>fuerunt</lem></app> Gelen., fuerant. </p></div>
+</div>
+
+<div type="chapter" n="23">
+<div type="section" n="2">
+<p><app><lem>ac debilitati</lem></app> W., aut debilitati. </p></div>
+</div>
+
+<div type="chapter" n="24">
+<div type="section" n="5">
+<p><app><lem>insequenti</lem></app> edd. vv., insequente. </p></div>
+</div>
+
+<div type="chapter" n="25">
+<div type="section" n="5">
+<p><app><lem>iactatae</lem></app> Gr., iactae. </p></div>
+</div>
+
+<div type="chapter" n="28">
+<div type="section" n="6">
+<p><app><lem>populi * vicenos</lem></app> Glarean, Madvig, populi vicenos. ib. <foreign>Cranii</foreign> Sig., Grannoni. </p></div>
+</div>
+
+<div type="chapter" n="30">
+<div type="section" n="6">
+<p><app><lem>castellis civitatibusque</lem></app> W., castellisque (quae). </p></div>
+<div type="section" n="7">
+<p><app><lem>Lan</lem></app> Fr. 2., Lamin. </p></div>
+</div>
+
+<div type="chapter" n="31">
+<div type="section" n="1">
+<p>[<foreign>et</foreign>] <foreign>amicus</foreign> Fr. 2., et amicus. </p></div>
+<div type="section" n="2">
+<p><app><lem>Las</lem></app> Gelen., Lace. </p></div>
+</div>
+
+<div type="chapter" n="32">
+<div type="section" n="7">
+<p><app><lem>Diophanes</lem></app> Sig., Diaphenes. </p></div>
+</div>
+
+<div type="chapter" n="33">
+<div type="section" n="11">
+<p><app><lem>aversis</lem></app> edd. vv., adversis. 35, 2; 10. <foreign>C. Atinius</foreign> Sig., C. Catinius. </p></div>
+</div>
+
+<div type="chapter" n="35">
+<div type="section" n="6">
+<p><app><lem>accusaverant</lem></app> ed. Mog., accusaverunt (accusati erant). </p></div>
+</div>
+
+<div type="chapter" n="37">
+<div type="section" n="6">
+<p><app><lem>leges</lem></app> Fr. 2., legem. </p></div>
+<div type="section" n="10">
+<p><app><lem>praesidio decessum est</lem></app> Fr. 2, praesidio decessum (decessit praesidio et). </p></div>
+</div>
+
+<div type="chapter" n="38">
+<div type="section" n="4">
+<p><app><lem>ad Halyn amnem</lem></app> Budaeus, ad Tanaim (achanym) amuem. ib. <foreign>a valle</foreign> Asc.; ea valle. </p></div>
+<div type="section" n="5">
+<p><app><lem>qua praeter</lem></app> Periz., qua. ib. <foreign>quo quaeque</foreign> I, Periz., quae quoque. 38, 8 <foreign>decem naves * * actuarias</foreign> Meibom., decem naves act. ib. <foreign>quarum nulla plus</foreign> Scheffer, nulla plus (nulla quarum plus). </p></div>
+<div type="section" n="9">
+<p><app><lem>Calycadnum</lem></app> Glarean., Calycandrum. </p></div>
+<div type="section" n="14">
+<p><app><lem>aestimatum est</lem></app> W., aestimatione sit (exstimatum qui). </p></div>
+<div type="section" n="17">
+<p><app><lem>disceptanto</lem></app> Gr., disceptanda (disceptent). </p></div>
+<div type="section" n="18">
+<p><app><lem>Mnasilocho</lem></app> Drak., Minuna Symacho. </p></div>
+</div>
+
+<div type="chapter" n="39">
+<div type="section" n="8">
+<p><app><lem>Notio</lem></app> edd. vv., Notpho. ib. <foreign>Mylasenis</foreign> Gr., Milesenis. </p></div>
+<div type="section" n="10">
+<p><app><lem>Rhoeteum</lem></app> edd. vv., Rhoetiam. </p></div>
+<div type="section" n="16">
+<p><app><lem>Lycaoniam</lem></app> Sabellicus, Lycooniam. 40, 5; 6. <foreign>Cypsela, Cypselis</foreign> Fr. 2., Egypseia, Gypseis. </p></div>
+</div>
+
+<div type="chapter" n="41">
+<div type="section" n="1">
+<p><app><lem>Bendidium</lem></app> Glarean., Mendidium. </p></div>
+<div type="section" n="6">
+<p><app><lem>Thrausi</lem></app> Glarean., Transi. </p></div>
+<div type="section" n="13">
+<p><app><lem>equitibus</lem></app> edd. vv., peditibus. </p></div>
+</div>
+
+<div type="chapter" n="42">
+<div type="section" n="4">
+<p><app><lem>Crassipes</lem></app> Fr. 1., Crassus. </p></div>
+<div type="section" n="11">
+<p><app><lem>M.' Acilio</lem></app> Sig., M. Attilio. </p></div>
+</div>
+
+<div type="chapter" n="43">
+<div type="section" n="5">
+<p><app><lem>edita</lem></app> Ascens., habita </p></div>
+</div>
+
+<div type="chapter" n="44">
+<div type="section" n="4">
+<p><app><lem>portoria</lem></app> Ascens., portari ea. </p></div>
+</div>
+
+<div type="chapter" n="48">
+<div type="section" n="2">
+<p><app><lem>ista verum etiam</lem></app> Drak., ista vera etiam (haec ita verum etiam). </p></div>
+<div type="section" n="4">
+<p><app><lem>immunitatemve</lem></app> edd. vv., immunitatem. ib. <foreign>aliis vectigal</foreign> Gelen., vectigal. </p></div>
+</div>
+
+<div type="chapter" n="49">
+<div type="section" n="4">
+<p><app><lem>huicine</lem></app> Kreyssig, huicne. </p></div>
+<div type="section" n="5">
+<p><app><lem>earum</lem></app> Gelen., eorum. </p></div>
+</div>
+
+<div type="chapter" n="52">
+<div type="section" n="1">
+<p><app><lem>Literninum</lem></app> ed. v., Gelen., Liternum. </p></div>
+<div type="section" n="8">
+<p><app><lem>si</lem></app> Fr. 1., ut si. </p></div>
+</div>
+
+<div type="chapter" n="53">
+<div type="section" n="4">
+<p><app><lem>honoribus</lem></app> * W., honoribus, ib. <foreign>umquam</foreign> Fr. 1., cum qua. </p></div>
+<div type="section" n="9">
+<p><app><lem>memorabilior</lem></app> * <foreign>prima</foreign> W., memorabilior prima. </p></div>
+</div>
+
+<div type="chapter" n="54">
+<div type="section" n="1">
+<p><app><lem>allatrare</lem></app> edd. vv., lacerare. </p></div>
+<div type="section" n="3">
+<p><app><lem>Quirites</lem></app> Brissonius, quaeratur. </p></div>
+<div type="section" n="5">
+<p><app><lem>Mummii</lem></app> Sig., Nummii. </p></div>
+<div type="section" n="11">
+<p><app><lem>exstat</lem></app> Fr. 1, exstat et (esse et). </p></div>
+</div>
+
+<div type="chapter" n="55">
+<div type="section" n="1">
+<p><app><lem>Petillia</lem></app> Gelen., Petilii (pecuniarum). </p></div>
+<div type="section" n="4">
+<p><app><lem>Aculeonis</lem></app> Gelen., Culeonis. </p></div>
+<div type="section" n="11">
+<p><app><lem>concerpsisse</lem></app> Sabellicus, comprensisse (conscripsisse). </p></div>
+</div>
+
+<div type="chapter" n="56">
+<div type="section" n="11">
+<p><app><lem>cumulatas ei</lem></app> Fr. 1., cumulatas et. </p></div>
+</div>
+
+<div type="chapter" n="57">
+<div type="section" n="8">
+<p><app><lem>ei ipsi</lem></app> Kreyssig, et ipsi. </p></div>
+</div>
+
+<div type="chapter" n="59">
+<div type="section" n="3">
+<p>[<foreign>sit</foreign>] <foreign>latum</foreign> Crev., sit latum. </p></div>
+<div type="section" n="6">
+<p><app><lem>triginta iter in longitudinem</lem></app> W., tringinta in longitudinem (triginta longitudinem). </p></div>
+<div type="section" n="7">
+<p><app><lem>cuius cum</lem></app> Gelen., cuius.</p></div>
+
+
+</div></div></body></text></TEI>

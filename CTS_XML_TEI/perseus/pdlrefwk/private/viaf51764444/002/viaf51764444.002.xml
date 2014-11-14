@@ -1,0 +1,2464 @@
+<?xml version="1.0"?>
+
+
+
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Ab urbe condita libri, erklärt von M. Weissenborn, books 33-34, textual notes</title>
+	
+	<author n="Liv.">Titus Livius (Livy)</author>
+	<sponsor>Perseus Project, Tufts University</sponsor><principal>Gregory Crane</principal><respStmt><resp>Prepared under the supervision of</resp><name>Lisa Cerrato</name></respStmt>
+	        <funder n="org:NEH">National Endowment for the Humanities</funder>
+      </titleStmt>
+	
+      <extent></extent>
+      
+	<publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+      
+      <sourceDesc>
+	<listBibl>
+	  <biblStruct>
+	    <monogr>
+	      <author>Livy</author>
+	      <title>Ab urbe condita</title>
+<title>AN WELCHEN VON DER HANDSCHRIFTLICHEN ÜBERLIEFERUNG ABGEWICHEN IST, UND DER WICHTIGSTEN KONJEKTUREN, WELCHE J. N. MADVIG IN SEINE TEXTAUSGABE (HAUNIAE MDCCCLXIII) AUFGENOMMEN HAT.</title>
+	      <imprint>
+		<pubPlace>Berlin</pubPlace>
+		<publisher>Weidmannsche Buchhandlung</publisher>
+		<date>1881</date>
+	      </imprint>
+	      <biblScope type="volume">8</biblScope>
+	    </monogr>
+	  </biblStruct>
+
+	</listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    
+    <encodingDesc>
+      <refsDecl>
+	<refState delim="." unit="book"/>
+	<refState delim="." unit="chapter"/>
+	<refState unit="section"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+	<language ident="la">Latin</language>
+	<language ident="greek">Greek
+	</language><language ident="en">English
+	</language><language ident="de">German
+      </language></langUsage>
+    </profileDesc>
+    
+    <revisionDesc><!--
+      <change>
+	<date>2006/7/10</date>
+	<respStmt><name>Gregory Crane</name><resp>ed.</resp></respStmt>
+	<item>
+
+      </item></change>--> <change when="2014-11-13" who="Stella Dee">edited markup and assigned CTS URN</change></revisionDesc></teiHeader>
+<text><front>
+<div type="intro"><head>Vorwort.</head>
+<p>Die Neugestaltung des Kommentars und des Anhangs ist nach denselben Grundsätzen erfolgt wie in den früher von mir umgearbeiteten Bänden; s. Vorw. zur siebenten Auflage des ersten Heftes vom ersten Bande (Buch 1).</p>
+<p>Im Text waren zahlreiche Druckfehler zu berichtigen (darunter sehr störende, wie <bibl n="Liv. 33.29.12">33, 29, 12</bibl> <foreign xml:lang="la">iussique,</foreign> <bibl n="Liv. 34.62.17">34, 62, 17</bibl> <foreign xml:lang="la">relinquit</foreign> u. a.); ebenso mufste die Orthographie und Interpunktion allerorten geändert werden (s. z. B.
+<bibl n="Liv. 34.56.12">34, 56, 12</bibl>); ganz neue Lesarten habe ich an folgenden Stellen aufgenommen:
+<bibl n="Liv. 33.1.1">33, 1, 1</bibl>.
+<bibl n="Liv. 33.1.2">2</bibl>.
+<bibl n="Liv. 33.1.3">3</bibl>.
+<bibl n="Liv. 33.2.1">2, 1</bibl>.
+<bibl n="Liv. 33.5.10">5, 10</bibl>.
+<bibl n="Liv. 33.5.11">11</bibl>.
+<bibl n="Liv. 33.9.3">9, 3</bibl>.
+<bibl n="Liv. 33.15.2">15, 2</bibl>.
+<bibl n="Liv. 33.15.7">7</bibl>.
+<bibl n="Liv. 33.15.15">15</bibl>.
+<bibl n="Liv. 33.17.9">17, 9</bibl>.
+<bibl n="Liv. 33.18.3">18, 3</bibl>.
+<bibl n="Liv. 33.18.7">7</bibl>.
+<bibl n="Liv. 33.18.9">9</bibl>.
+<bibl n="Liv. 33.18.10">10</bibl>.
+<bibl n="Liv. 33.18.12">12</bibl>.
+<bibl n="Liv. 33.18.16">16</bibl>.
+<bibl n="Liv. 33.21.5">21, 5</bibl>.
+<bibl n="Liv. 33.23.2">23, 2</bibl>.
+<bibl n="Liv. 33.23.9">9</bibl>.
+<bibl n="Liv. 33.24.4">24, 4</bibl>.
+<bibl n="Liv. 33.24.8">8</bibl>.
+<bibl n="Liv. 33.28.7">28, 7</bibl>.
+<bibl n="Liv. 33.28.8">8</bibl>.
+<bibl n="Liv. 33.29.4">29, 4</bibl>.
+<bibl n="Liv. 33.29.8">8</bibl>.
+<bibl n="Liv. 33.30.8">30, 8</bibl>.
+<bibl n="Liv. 33.34.6">34, 6</bibl>.
+<bibl n="Liv. 33.35.8">35, 8</bibl>.
+<bibl n="Liv. 33.35.12">12</bibl>.
+<bibl n="Liv. 33.36.3">36, 3</bibl>.
+<bibl n="Liv. 33.36.4">4</bibl>.
+<bibl n="Liv. 33.36.7">7</bibl>.
+<bibl n="Liv. 33.38.10">38, 10</bibl>.
+<bibl n="Liv. 33.40.5">40, 5</bibl>.
+<bibl n="Liv. 33.40.6">6</bibl>.
+<bibl n="Liv. 33.41.7">41, 7</bibl>.
+<bibl n="Liv. 33.42.1">42, 1</bibl>.
+<bibl n="Liv. 33.42.8">8</bibl>.
+<bibl n="Liv. 33.44.4">44, 4</bibl>.
+<bibl n="Liv. 33.48.1">48, 1</bibl>.
+<bibl n="Liv. 33.48.5">5</bibl>.
+<bibl n="Liv. 33.48.8">8</bibl>. —
+<bibl n="Liv. 34.1.3">34, 1, 3</bibl>.
+<bibl n="Liv. 34.1.4">4</bibl>.
+<bibl n="Liv. 34.1.6">6</bibl>.
+<bibl n="Liv. 34.2.2">2, 2</bibl>.
+<bibl n="Liv. 34.2.7">7</bibl>.
+<bibl n="Liv. 34.2.13">13</bibl>.
+<bibl n="Liv. 34.3.1">3, 1</bibl>.
+<bibl n="Liv. 34.3.9">9</bibl>.
+<bibl n="Liv. 34.4.7">4, 7</bibl>.
+<bibl n="Liv. 34.4.19">19</bibl>.
+<bibl n="Liv. 34.5.9">5, 9</bibl>.
+<bibl n="Liv. 34.6.7">6, 7</bibl>.
+<bibl n="Liv. 34.6.10">10</bibl>.
+<bibl n="Liv. 34.7.2">7, 2</bibl>.
+<bibl n="Liv. 34.7.3">3</bibl>.
+<bibl n="Liv. 34.8.6">8, 6</bibl>.
+<bibl n="Liv. 34.9.4">9, 4</bibl>.
+<bibl n="Liv. 34.11.4">11, 4</bibl>.
+<bibl n="Liv. 34.11.5">5</bibl>.
+<bibl n="Liv. 34.12.6">12, 6</bibl>.
+<bibl n="Liv. 34.13.4">13, 4</bibl>.
+<bibl n="Liv. 34.13.5">5</bibl>.
+<bibl n="Liv. 34.13.6">6</bibl>.
+<bibl n="Liv. 34.13.7">7</bibl>.
+<bibl n="Liv. 34.14.6">14, 6</bibl>.
+<bibl n="Liv. 34.15.3">15, 3</bibl>.
+<bibl n="Liv. 34.15.6">6</bibl>.
+<bibl n="Liv. 34.16.1">16, 1</bibl>.
+<bibl n="Liv. 34.17.7">17, 7</bibl>.
+<bibl n="Liv. 34.20.3">20, 3</bibl>.
+<bibl n="Liv. 34.20.7">7</bibl>.
+<bibl n="Liv. 34.21.1">21, 1</bibl>.
+<bibl n="Liv. 34.21.2">2</bibl>.
+<bibl n="Liv. 34.21.6">6</bibl>.
+<bibl n="Liv. 34.25.5">25, 5</bibl>.
+<bibl n="Liv. 34.27.7">27, 7</bibl>.
+<bibl n="Liv. 34.28.8">28, 8</bibl>.
+<bibl n="Liv. 34.28.11">11</bibl>.
+<bibl n="Liv. 34.28.12">12</bibl>.
+<bibl n="Liv. 34.29.1">29, 1</bibl>.
+<bibl n="Liv. 34.29.2">2</bibl>.
+<bibl n="Liv. 34.29.7">7</bibl>.
+<bibl n="Liv. 34.30.2">30, 2</bibl>.
+<bibl n="Liv. 34.31.5">31, 5</bibl>.
+<bibl n="Liv. 34.31.7">7</bibl>.
+<bibl n="Liv. 34.31.12">12</bibl>.
+<bibl n="Liv. 34.31.14">14</bibl>.
+<bibl n="Liv. 34.31.19">19</bibl>.
+<bibl n="Liv. 34.32.3">32, 3</bibl>.
+<bibl n="Liv. 34.32.18">18</bibl>.
+<bibl n="Liv. 34.33.10">33, 10</bibl>.
+<bibl n="Liv. 34.34.2">34, 2</bibl>.
+<bibl n="Liv. 34.34.5">5</bibl>.
+<bibl n="Liv. 34.34.7">7</bibl>.
+<bibl n="Liv. 34.36.3">36, 3</bibl>.
+<bibl n="Liv. 34.37.3">37, 3</bibl>.
+<bibl n="Liv. 34.39.6">39, 6</bibl>.
+<bibl n="Liv. 34.39.9">9</bibl>.
+<bibl n="Liv. 34.40.4">40, 4</bibl>.
+<bibl n="Liv. 34.43.5">43, 5</bibl>.
+<bibl n="Liv. 34.44.6">44, 6</bibl>.
+<bibl n="Liv. 34.46.1">46, 1</bibl>.
+<bibl n="Liv. 34.46.7">7</bibl>.
+<bibl n="Liv. 34.46.13">13</bibl>.
+<bibl n="Liv. 34.48.2">48, 2</bibl>.
+<bibl n="Liv. 34.48.6">6</bibl>.
+<bibl n="Liv. 34.49.2">49, 2</bibl>.
+<bibl n="Liv. 34.49.7">7</bibl>.
+<bibl n="Liv. 34.50.4">50, 4</bibl>.
+<bibl n="Liv. 34.50.6">6</bibl>.
+<bibl n="Liv. 34.52.5">52, 5</bibl>.
+<bibl n="Liv. 34.53.4">53, 4</bibl>.
+<bibl n="Liv. 34.53.5">5</bibl>.
+<bibl n="Liv. 34.54.3">54, 3</bibl>.
+<bibl n="Liv. 34.57.6">57, 6</bibl>.
+<bibl n="Liv. 34.57.10">10</bibl>.
+<bibl n="Liv. 34.58.5">58, 5</bibl>.
+<bibl n="Liv. 34.58.12">12</bibl>.
+<bibl n="Liv. 34.61.5">61, 5</bibl>.
+<bibl n="Liv. 34.61.8">8</bibl>.
+<bibl n="Liv. 34.62.3">62, 3</bibl>.
+<bibl n="Liv. 34.62.13">13</bibl>.</p>
+<p>Die Kritik stöfst in der vierten Dekade des Livius auf besondere Schwierigkeiten. So unleugbar die hohe Bedeutung der Mainzer Handschrift ist, und obwohl sich dieselbe an Vortrefflichkeit und Zuverlässigkeit der Bamberger Handschrift sehr häufig überlegen zeigt, so scheint es mir doch gewagt, ihr, wie Madvig es prinzipiell und generell gethan, den Vorrang einzuräumen. Madvig wird, das läfst sich aus seiner Praefatio S. X schliefsen, bei einer neuen Auflage die Lesarten des M in weit ausgedehnterer Weise, vielleicht mit voller Konsequenz, seinem Texte einverleiben; ich fürchte aber, dafs die Gründe dafür vielfach nicht
+<pb xml:id="p.iv"/>
+
+in der Sache selbst zu finden sein werden. Wie es für den Herausgeber nichts Bequemeres giebt als die strikte Bevorzugung der einen Rezension vor der anderen, so ist umgekehrt für den, welcher sich überzeugt hat, dafs B neben M stets Berücksichtigung verdient, die notwendig eintretende Unsicherheit bei der Auswahl der Lesarten recht unbehaglich; gleichwohl habe ich die Überlieferung des M niemals ohne weiteres acceptiert, sondern vorsichtig nach Gründen gesucht, mit denen ich die Verwerfung der entgegenstehenden Lesarten vor mir selbst rechtfertigen wollte. Ich kann nicht leugnen, dafs mir viele Zweifel im einzelnen geblieben sind; aber im allgemeinen halte ich das eklektische Verfahren bei sorgfältiger Berücksichtigung des Livianischen Sprachgebrauchs für das Richtige und verspreche mir von einer in der Weise der Luchsschen Prolegomena angestellten Spezialuntersuchung eine bedeutende Förderung der nun schon so viel ventilierten Frage.</p>
+<p>Um dem Leser ein Bild zu entwerfen von dem Verhältnis der Mainzer Ausgabe (1518) zur Bamberger Handschrift, habe ich in Kap. 17—29 des 33 sten Buches die Varianten fast vollständig verzeichnet.</p>
+<p>Im Text kursiv gedruckte Wörter fehlen in allen Codices.</p>
+<p>Ein dem Lemma oder einem einzelnen Worte beigefügtes * bedeutet 'vgl. den Anhang.'</p>
+<closer><dateline>Berlin, im August 1883.</dateline>
+<name>Prof. Dr. Hermann Johannes Müller.</name></closer></div></front>
+<body>
+<div type="preface"><head>Sigla</head>
+<p>
+<list>
+<item>Ald. = Aldus;</item>
+<item>Alsch. = Alschefski;</item>
+<item>Bk. = Bekker;</item>
+<item>ed. vet. = editiones veteres vor Aldus;</item>
+<item>Crév. = Crévier;</item>
+<item>Drak. = Drakenborch;</item>
+<item>Duk. = Duker;</item>
+<item>Fr. 1 = editio Frobeniana 1531;</item>
+<item>Fr. 2 = editio Frobeniana 1535;</item>
+<item>Glar. = Glareanus;</item>
+<item>Gr. = J. F. Gronov;</item>
+<item>J. Gr. = Jakob Gronov;</item>
+<item>Hwg. = Heerwagen;</item>
+<item>Htz. = Hertz;</item>
+<item>HJM. = H. J. Müller;</item>
+<item>Kr. = Kreyfsig;</item>
+<item>Mog. =  editio Moguntina 1518;</item>
+<item>Mg. = Madvig;</item>
+<item>Mms. = Th. Mommsen;</item>
+<item>Rhen. = Wsbg. = Wesenberg.</item></list></p>
+<p>M = Moguntinus.</p>
+<p>B = Bambergensis; 11. Jahrhundert.</p>
+</div>
+
+<div type="book" n="33">
+<p>1, 1—17, 6 sind nur von B überliefert.</p>
+<div type="chapter" n="1">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Boeotorum</lem></app>] Gr.; <foreign xml:lang="la">boeotiorum</foreign> B. Ebenso 1, 3 und 2, 1. Vgl. 28, 5, 5. 8; 29, 12, 14; 33, 1, 7. 9. 27, 5. 7. 8. 29. 1. 7. 8. 11. 12; 35, 47, 2. 50, 5; 36, 7, 4. 20, 4; 42, 12, 5. 38, 5. 40, 6. 43, 5. 7. 44, 1. 51, 9; Per. 52.</p>
+<p><app><lem xml:lang="la">facere cupiens</lem></app>] Römische Ausgabe 1616; <foreign xml:lang="la">pace recupiens</foreign> B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">cum</lem></app> hinzugefügt nach Röm. Ausg. (1616).</p>
+<p><app><lem xml:lang="la">legionis</lem></app>] Wfsb.2 sagt hierzu: ‘Man erwartet entweder <foreign xml:lang="la">unius legionis</foreign> oder eine ähnliche Bestimmung; s. 10, 29, 3; 34, 15, 6. Walch vermutet <foreign xml:lang="la">legionariis,</foreign> was aber mehr im Gegensatze zu <foreign xml:lang="la">socii</foreign> gebraucht wird als von Teilen der Legion.’</p>
+<p><app><lem xml:lang="la">distantibus</lem></app>] Gr.; <foreign xml:lang="la">distantis</foreign> B. Wfsb.2 hatte <foreign xml:lang="la">distantis</foreign> im Texte und bemerkte dazu: ‘<foreign xml:lang="la">distantis</foreign> scheint ein durch die weite Entfernung des Wortes von <foreign xml:lang="la">iussis . . hastatis</foreign> und die Härte, wenn es sich noch an diese anschlösse (einfacher ist 24, 47, 13; 43, 18, 11 u. a.), entstandenes Anakoluth zu sein, indem <foreign xml:lang="la">distantis</foreign> so auf <foreign xml:lang="la">sequi</foreign> bezogen ist, als ob <foreign xml:lang="la">iussit hastatos</foreign> vorausginge. Ähnlich sind die regelmäfsigen Konstruktionen <foreign xml:lang="la">civi Romano licet esse Gaditanum,</foreign> häufiger im Griechischen, wie Thuk. 7, 57: <foreign xml:lang="greek">cune/bh de\ toi=s *krhsi\ . . cugkti/santas . . e)lqei=n.</foreign> Krüger § 55, 2, 2, 7’.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">ad medium</lem></app>] R. A. (1616); <foreign xml:lang="la">ad medio</foreign> B.</p>
+<p><app><lem xml:lang="la">Boeotorum</lem></app>] s. zu 1, 1.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">urbi</lem></app>] RA. (1616); <foreign xml:lang="la">turbae</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">non ante</lem></app>] RA.; <foreign xml:lang="la">nouante</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="2">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Boeotorum</lem></app>] s. zu 1, 1.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">senior</lem></app>] Gr.; <foreign xml:lang="la">segnior</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">a Plataeensi</lem></app>] Rand der RA.; <foreign xml:lang="la">ablata ensi</foreign> B.</p>
+<p><app><lem xml:lang="la">de societate</lem></app> hinzugefügt vom Rand der RA.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">quoniam</lem></app>] quõ B.</p>
+<pb xml:id="p.7.1.186"/>
+</div></div>
+
+<div type="chapter" n="3">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">exercitu</lem></app>] RA.; <foreign xml:lang="la">exercito</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">tenuit</lem></app>] Mg. schreibt nach Duk. &lt;<foreign xml:lang="la">eum</foreign>&gt; <foreign xml:lang="la">tenuit.</foreign></p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">Aenianum</lem></app>] RA.; <foreign xml:lang="la">aeniauum</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">Phaenea</lem></app>] Rand der RA.; <foreign xml:lang="la">phanea</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">Phthioticum</lem></app>] Rand RA.; <foreign xml:lang="la">ptioticum</foreign> B.</p>
+<p><app><lem xml:lang="la">haud</lem></app>] RA.; <foreign xml:lang="la">aut</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">ad ea quae</lem></app>] Rand RA.; <foreign xml:lang="la">de re</foreign> B.</p>
+<p><app><lem xml:lang="la">erigi</lem></app> hinzugefügt vom Rand RA.</p>
+</div></div>
+
+<div type="chapter" n="4">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Aoum</lem></app>] Horrion (Paderborner Ausgabe 1617); <foreign xml:lang="la">aouum</foreign> B.</p>
+<p><app><lem xml:lang="la">ter a</lem></app>] Rand bei Horrion; <foreign xml:lang="la">terra</foreign> B; M. Müller vermutet <foreign xml:lang="la">interea a.</foreign></p>
+<p><app><lem xml:lang="la">Atracem</lem></app>] Rand RA.; <foreign xml:lang="la">atragem</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">peltastas</lem></app>] Rand RA.; <foreign xml:lang="la">peltas</foreign> B.</p>
+<p><app><lem xml:lang="la">Trallis</lem></app>] Gr.; <foreign xml:lang="la">trailis</foreign> B.</p>
+<p><app><lem xml:lang="la">genti</lem></app>] Rand RA.; <foreign xml:lang="la">gentis</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">superabant</lem></app>] Horrion; <foreign xml:lang="la">superabat</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="5">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Thebas Phthioticas</lem></app>] RA.; <foreign xml:lang="la">athebas pthioticas</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">saepsissent</lem></app>] Rand RA.; <foreign xml:lang="la">saepissent</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">qua evulsa</lem></app>] Drak.; <foreign xml:lang="la">que uulsa</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">cum plurimum</lem></app>] Rand RA.; <foreign xml:lang="la">coplurimum</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">ramis</lem></app>] Wfsb.; <foreign xml:lang="la">ramos</foreign> B. Hierzu bemerkt Wfsb.2: ‘Zu <foreign xml:lang="la">inplicant</foreign> könnte nicht <foreign xml:lang="la">densos,</foreign> sondern nur <foreign xml:lang="la">ita</foreign> gedacht werden, und die Sache folgt § 11 noch einmal.’</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">quis cuiusque palmae stipes, neque</lem></app> hinzugefügt nach Crév.</p>
+<p><app><lem xml:lang="la">adeo</lem></app>] streicht Mg. nach Ussing.</p>
+<p><app><lem xml:lang="la">rami</lem></app>] Mg.; <foreign xml:lang="la">radii</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">praebeant</lem></app>] RA.; <foreign xml:lang="la">praebent</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="6">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">circa</lem></app>] RA.; <foreign xml:lang="la">cirts</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">praegressus</lem></app>] Gr.; <foreign xml:lang="la">progressus</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">ad</lem></app> hinzugefügt nach RA.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">Melambium</lem></app>] Rand RA.; <foreign xml:lang="la">melandium</foreign> B.</p>
+<p><app><lem xml:lang="la">Scotusaei</lem></app>] Gr.; <foreign xml:lang="la">scotusae</foreign> B.</p>
+<p><app><lem xml:lang="la">Thetideum</lem></app>] Horrion; <foreign xml:lang="la">thetidem</foreign> B. Vgl. 7, 4.</p>
+<p><app><lem xml:lang="la">habuerunt</lem></app>] Rand RA.; <foreign xml:lang="la">hauthabuerunt</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">nocti</lem></app>] Kr.; <foreign xml:lang="la">noctis</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="7">
+<div type="section" n="6">
+<p><app><lem xml:lang="la">tuentium</lem></app>] Doujat; <foreign xml:lang="la">tuentum</foreign> B.</p>
+<p><app><lem xml:lang="la">pulsos</lem></app>] Rand RA.; <foreign xml:lang="la">plilsis</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">sed</lem></app>] Mg. schreibt mit Jacobs <foreign xml:lang="la">rex;</foreign> hierzu bemerkt Wfsb.2: ‘Da <foreign xml:lang="la">regis</foreign> eben vorausgegangen ist, war es nicht notwendig <foreign xml:lang="la">rex</foreign> zu sagen; Pol. sagt zwar <foreign xml:lang="greek">*fi/lippos,</foreign> aber auch § 7, wo Liv. nur <foreign xml:lang="la">missa</foreign> hat, <foreign xml:lang="greek">o( de\ *ti/tos..</foreign>’</p>
+<p><app><lem xml:lang="la">effusam</lem></app>] Mg. schreibt nach Gr. <foreign xml:lang="la">offusam.</foreign></p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">detexerat</lem></app>] RA.; <foreign xml:lang="la">dexter erat</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">non ante</lem></app>] RA.; <foreign xml:lang="la">nouante</foreign> B.</p>
+<p><app><lem xml:lang="la">restiterunt</lem></app>] Rand RA.; <foreign xml:lang="la">restituerunt</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="8">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">in Eordaeam aditum</lem></app>] Kr.; <foreign xml:lang="la">in eod&emacr; aditu</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">prope</lem></app>] Kr.; <foreign xml:lang="la">propere</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">locat</lem></app>] Rand RA.; <foreign xml:lang="la">locatus</foreign> B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">caetratos et</lem></app>] Rand RA.; <foreign xml:lang="la">caetratas</foreign> B. Wfsb.2 bemerkt hierzu: ‘Bei Liv. ist vielleicht nach <foreign xml:lang="la">locat</foreign> noch etwas ausgefallen, da B <foreign xml:lang="la">locatus</foreign> hat und <foreign xml:lang="la">et</foreign> fehlt, etwa: <foreign xml:lang="la">locat</foreign> &lt;<foreign xml:lang="la">in sinistro</foreign>&gt; <foreign xml:lang="la">caetratos; Macedonum..,</foreign> da auch das Folgende sich nur auf die macedonische Phalanx bezieht.’ HJM. vermutet; <foreign xml:lang="la">caetratos</foreign> &lt;<foreign xml:lang="la">in sinistro</foreign>&gt;; <foreign xml:lang="la">Macedonum..</foreign></p>
+</div></div>
+
+<div type="chapter" n="9">
+<div type="section" n="8">
+<p><app><lem xml:lang="la">ex tempore</lem></app>] Duk.; <foreign xml:lang="la">extemplo</foreign> B.</p>
+<pb xml:id="p.7.1.187"/>
+
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">re trepidationem</lem></app>] RA.; <foreign xml:lang="la">reparatiorem</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">hoc</lem></app>] Rand RA.; <foreign xml:lang="la">hos</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="10">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">ut</lem></app> hinzugefügt nach RA.; Lücke in B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">novitate</lem></app>] RA.; <foreign xml:lang="la">nouitat&emacr;</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">animo</lem></app>] RA.; <foreign xml:lang="la">animum</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">irrumpunt</lem></app> hinzugefügt nach der Pariser Ausg. 1625.</p>
+<p><app><lem xml:lang="la">ex parte</lem></app> hinzugefügt vom Rand RA.; Lücke in B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">quinque</lem></app> hinzugefügt vom Rand Ra.; Lücke in B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">Valerio</lem></app>] Rand Ra.; <foreign xml:lang="la">uario</foreign> B.</p>
+<p><app><lem xml:lang="la">undequinquaginta</lem></app>] Kr.; <foreign xml:lang="la">XLV mi</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="11">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">ex fuga</lem></app>] RA.; <foreign xml:lang="la">ea fuga</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">impetratum</lem></app>] Rand RA.; <foreign xml:lang="la">imperatum</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">iis</lem></app>] RA.; <foreign xml:lang="la">ii</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">suscensebat</lem></app>] Rand RA. <foreign xml:lang="la">(succensebat); suscensebant</foreign> B.</p>
+<p><app><lem xml:lang="la">offendebat</lem></app>] RA.; <foreign xml:lang="la">offendebatur</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="12">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">tuendae</lem></app>] RA.; <foreign xml:lang="la">tu dae</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">communicaret</lem></app>] RA.; <foreign xml:lang="la">communicare</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">autem</lem></app>] Mg. schreibt <foreign xml:lang="la">aiunt.</foreign></p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">memorem</lem></app>] Gr.; <foreign xml:lang="la">memores</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">de</lem></app>] Rand RA.; <foreign xml:lang="la">et de</foreign> B.</p>
+<p><app><lem xml:lang="la">non</lem></app> hinzugefügt nach Gr.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">Phaeneae</lem></app>] Rand RA.; <foreign xml:lang="la">phaneae</foreign> B.</p>
+<p><app><lem xml:lang="la">elapsus.. desistite</lem></app>] Rand RA.; <foreign xml:lang="la">lapsus..desistit et</foreign> B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">rex</lem></app>] Jacobs; <foreign xml:lang="la">pax</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="13">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">Phaeneas</lem></app>] Rand RA.; <foreign xml:lang="la">phaneas</foreign> B. Ebenso 13, 9.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Phthias</lem></app>] Rand RA.; <foreign xml:lang="la">pthias</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">Phaeneas</lem></app>] s. zu 13, 5.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">in</lem></app> hinzugefügt nach Gr.</p>
+<p><app><lem xml:lang="la">causa</lem></app>] Crév.; <foreign xml:lang="la">causae</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="14">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">quot. . fuerant</lem></app>] Drak.; <foreign xml:lang="la">quod. .fuerat</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">mille ac. .</lem></app>] Mg. schreibt nach Kr. <foreign xml:lang="la">mille octingentos. .</foreign></p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">septingenti</lem></app> hinzugefügt nach Walch; <foreign xml:lang="la">ex</foreign> hinzugefügt nach Gr.; Mg. schreibt nach Kr.: <foreign xml:lang="la">et</foreign> &lt;<foreign xml:lang="la">centum ex</foreign>&gt; <foreign xml:lang="la">ipsorum.</foreign></p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Nicostratus</lem></app>] Gr.; <foreign xml:lang="la">niceratus</foreign> B. Ebenso 14, 9. 15, 13.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">vagae Pellenensem</lem></app>] Gr.; <foreign xml:lang="la">uagare pelle ens&emacr;</foreign> B.</p>
+<p><app><lem xml:lang="la">Cleonaeum</lem></app>] Gr.; <foreign xml:lang="la">cleoneum</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">Nicostratus</lem></app>] s. zu 14, 6.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">ex quibus * * armaturae. . dimissis. . opperiebatur</lem></app>] J. Perizonius; <foreign xml:lang="la">ex quibus armaturae. . dimissi. . opperiebantur</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="15">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">et</lem></app> hinzugefügt nach RA.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">partem dimidiam exercitus, divisam trifariam</lem></app>] Mg.; <foreign xml:lang="la">parte dimidia exercitus dimissa dimidiam trifariam diuisit</foreign> (korr. aus <foreign xml:lang="la">dimsit</foreign>) B. Wfsb.2 bemerkt hierzu: ‘Wahrscheinlich ist durch die Wiederholung eines Teils von <foreign xml:lang="la">dimidiam</foreign> das von Liv. gebrauchte Wort, etwa <foreign xml:lang="la">retenta</foreign> oder <foreign xml:lang="la">manere (considere) iussa,</foreign> verloren gegangen; neben letzterem würde das folgende <foreign xml:lang="la">iubet</foreign> bei Liv. nicht auffallen; die Andeutung, dafs die eine Hälfte im Lager geblieben sei, war, da dies § 8 vorausgesetzt wird, nicht überflüssig.’</p>
+<p><app><lem xml:lang="la">Pellenensem</lem></app>] Pariser Ausg. 1625; <foreign xml:lang="la">pellenensium</foreign> B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">id in illarum</lem></app>] Kr.; <foreign xml:lang="la">dein aliarum</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">fecerant</lem></app>] Crév.; <foreign xml:lang="la">fecerunt</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">raros</lem></app>] Duck.; <foreign xml:lang="la">raro</foreign> B.</p>
+<p><app><lem xml:lang="la">demittere</lem></app>] Gr.; <foreign xml:lang="la">dimittere</foreign> B.</p>
+<pb xml:id="p.7.1.188"/>
+
+<p><app><lem xml:lang="la">ab Cleonis</lem></app>] Wfsb. nach Mg. <foreign xml:lang="la">(a Cleon??); ad cleonis</foreign> B.</p>
+<p><app><lem xml:lang="la">dilapsos</lem></app>] Horrion nach RA. <foreign xml:lang="la">(dilapsosque); dilapsus</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">super</lem></app>] Gr.; <foreign xml:lang="la">per</foreign> B.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">armatura</lem></app>] Rand RA.; <foreign xml:lang="la">armaturae</foreign> B.</p>
+<p><app><lem xml:lang="la">caetratique</lem></app>] RA.; <foreign xml:lang="la">etratique</foreign> B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">Nicostratus</lem></app>] s. zu 14, 6.</p>
+<p><app><lem xml:lang="la">ibi quoque</lem></app>] Wfsb.; <foreign xml:lang="la">ibique</foreign> B; Mg. schreibt nach Gr. <foreign xml:lang="la">utrobique.</foreign></p>
+</div>
+
+<div type="section" n="14">
+<p><app><lem xml:lang="la">incompositi partim omniumque ignari</lem></app>] Rand RA.; <foreign xml:lang="la">compositi partim omnium signari</foreign> B.</p>
+</div>
+
+<div type="section" n="15">
+<p><app><lem xml:lang="la">suspicati ita se</lem></app>] Rand RA.; <foreign xml:lang="la">supplicauitase</foreign> B.</p>
+<p><app><lem xml:lang="la">sparserunt</lem></app>] Crév.; <foreign xml:lang="la">sparserant</foreign> B.</p>
+</div>
+
+<div type="section" n="16">
+<p><app><lem xml:lang="la">ceciderunt</lem></app>] RA.; <foreign xml:lang="la">cedut~</foreign> B1. <foreign xml:lang="la">cedert~</foreign> B2.</p>
+</div></div>
+
+<div type="chapter" n="16">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">societate</lem></app>] RA.; <foreign xml:lang="la">societatem</foreign> B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">maxime</lem></app>] Gr.; <foreign xml:lang="la">maximae</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">iis</lem></app>] Pariser Ausg. 1625; <foreign xml:lang="la">in iis</foreign> B.</p>
+<p><app><lem xml:lang="la">duo</lem></app>] Gr.; <foreign xml:lang="la">et</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">Echedemus</lem></app>] Gr.; <foreign xml:lang="la">echidemus</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">namque</lem></app>] Rand RA.; <foreign xml:lang="la">nam</foreign> B.</p>
+<p><app><lem xml:lang="la">cederent</lem></app>] Rand RA.; <foreign xml:lang="la">cederetur</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="17">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Flamininum</lem></app>] Gr.; <foreign xml:lang="la">flaminium</foreign> B.</p>
+<p><app><lem xml:lang="la">Leucadem</lem></app>] Rand RA.; <foreign xml:lang="la">leucadae</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p>mit <foreign xml:lang="la">iis partibus cohaerens</foreign> beginnt Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">eae</lem></app>] Wfsb.; <foreign xml:lang="la">haee</foreign> B, fehlt in Mog.</p>
+<p><app><lem xml:lang="la">erant</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">colli</lem></app>] Mog.; <foreign xml:lang="la">et colli</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">quo</lem></app>] Mog.; <foreign xml:lang="la">quod</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">die ac nocte</lem></app>] Mog.; <foreign xml:lang="la">diem ac noctem</foreign> B.</p>
+<p><app><lem xml:lang="la">reficere</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">spe</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">Leucade</lem></app>] Mog.; <foreign xml:lang="la">leucad&emacr;</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">iusto</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">in</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="15">
+<p><app><lem xml:lang="la">dicionem</lem></app>] B; <foreign xml:lang="la">deditionem</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="18">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">continentis</lem></app>] B; <foreign xml:lang="la">continentem</foreign> Mog.</p>
+<p><app><lem xml:lang="la">Peraeam</lem></app>] Fr. 2; <foreign xml:lang="la">Pyrrheã</foreign> Mog., <foreign xml:lang="la">phirean</foreign> B. Ebenso § 20.</p>
+<p><app><lem xml:lang="la">a</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">mille et octingentis</lem></app>] B; <foreign xml:lang="la">mille et nongentis</foreign> Mog.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">et Pisuetae et Nisuetae</lem></app>] Gr.; <foreign xml:lang="la">et Nisuetae et Pisuetae</foreign> Mog.; <foreign xml:lang="la">et pisuetae</foreign> B.</p>
+<p><app><lem xml:lang="la">Arei</lem></app>] Mog.; <foreign xml:lang="la">trahi</foreign> B.</p>
+<p><app><lem xml:lang="la">Laudiceni</lem></app>] B; <foreign xml:lang="la">Laodiceni</foreign> Mog.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">Tendeba</lem></app>] Freinsheim; <foreign xml:lang="la">tendebat</foreign> Mog.; <foreign xml:lang="la">tenebat</foreign> B.</p>
+<p><app><lem xml:lang="la">Therae erant</lem></app>] A. Ruben; <foreign xml:lang="la">tenuerant</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">id</lem></app> hinzugefügt nach Gelenius.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Tendeba</lem></app>] Freinsheim; <foreign xml:lang="la">tendebat</foreign> Mog., <foreign xml:lang="la">tenpead</foreign> B.</p>
+<p><app><lem xml:lang="la">ad</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">item Stratonicensis agri</lem></app>] Mog. (doch hat diese <foreign xml:lang="la">Strationicensis); in stratonicensi agro</foreign> B.</p>
+<p><app><lem xml:lang="la">Astragon</lem></app>] Mog.; <foreign xml:lang="la">astago</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">ex</lem></app> getilgt nach Mg.; zu beachten ist der Vorschlag Harants, dafür <foreign xml:lang="la">eo</foreign> zu schreiben.</p>
+<p><app><lem xml:lang="la">multifariam</lem></app>] Fr. 1; <foreign xml:lang="la">multifaria</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">ita</lem></app>] B; <foreign xml:lang="la">atque</foreign> Mog.</p>
+<pb xml:id="p.7.1.189"/>
+
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">Agrianas</lem></app>] Sig.; <foreign xml:lang="la">Acrianos</foreign> Mog., <foreign xml:lang="la">agrianos</foreign> B. Ebenso § 15.</p>
+<p><app><lem xml:lang="la">accipit</lem></app>] Mog.; <foreign xml:lang="la">accepit</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">Rhodii</lem></app>] B (doch <foreign xml:lang="la">rhodi</foreign>); <foreign xml:lang="la">Rhodia cohors</foreign> Mog.</p>
+<p><app><lem xml:lang="la">dextro cornu, sinistro mercennarios</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">torrentis</lem></app>] Mog.; <foreign xml:lang="la">torrens</foreign> B; steht in Mog. und B hinter <foreign xml:lang="la">interfluebat,</foreign> umgestcllt von HJM.</p>
+<p><app><lem xml:lang="la">qui</lem></app>] B; <foreign xml:lang="la">quae</foreign> Mog.</p>
+<p><app><lem xml:lang="la">tum</lem></app>] B; fehlt in Mog.</p>
+</div>
+
+<div type="section" n="14">
+<p><app><lem xml:lang="la">primi</lem></app>] Mog.; <foreign xml:lang="la">primo</foreign> B.</p>
+<p><app><lem xml:lang="la">est</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="15">
+<p><app><lem xml:lang="la">Agrianos</lem></app>] s. zu § 9.</p>
+</div>
+
+<div type="section" n="16">
+<p><app><lem xml:lang="la">mille ipsi</lem></app>] Mg.; <foreign xml:lang="la">mille et ipsi</foreign> Mog., <foreign xml:lang="la">et ipsi</foreign> B.</p>
+<p><app><lem xml:lang="la">inclinato deinde laevo cornu in dextrum omnes conisi</lem></app>] B; <foreign xml:lang="la">inclinato dein dextrum omnis cornu</foreign> Mog.</p>
+</div>
+
+<div type="section" n="17">
+<p><app><lem xml:lang="la">ordines</lem></app>] B; <foreign xml:lang="la">ordine</foreign> Mog.</p>
+</div>
+
+<div type="section" n="18">
+<p><app><lem xml:lang="la">Bargylias</lem></app>] Sig.; <foreign xml:lang="la">Bargyllas</foreign> Mog., <foreign xml:lang="la">barcylias</foreign> B. Ebenso öfter.</p>
+<p><app><lem xml:lang="la">fugerunt</lem></app>] streicht Mg.</p>
+</div>
+
+<div type="section" n="20">
+<p><app><lem xml:lang="la">Peraeae</lem></app>] s. zu § 1.</p>
+</div>
+
+<div type="section" n="22">
+<p><app><lem xml:lang="la">nec</lem></app>] B; fehlt in Mog.</p>
+<p><app><lem xml:lang="la">Achaia</lem></app>] <foreign xml:lang="la">Achaeia</foreign> Mog., <foreign xml:lang="la">macedonia</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="19">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">concussi tum</lem></app>] B; <foreign xml:lang="la">concessit cum</foreign> Mog.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">pelli</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">Paeoniae</lem></app>] Gr.; <foreign xml:lang="la">poeoniae</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">in expedito</lem></app>] B; <foreign xml:lang="la">expeditior</foreign> Mog.</p>
+<p><app><lem xml:lang="la">non pro reliquo statu</lem></app>] Mog.; <foreign xml:lang="la">proelii uastatu</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">ne</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">ex Syria movente</lem></app>] B; <foreign xml:lang="la">in Syria moliente</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="20">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">egregie</lem></app>] B; <foreign xml:lang="la">egregia</foreign> Mog.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">regibus</lem></app>] Goeller; <foreign xml:lang="la">legibus</foreign> Mog. B.</p>
+<p><app><lem xml:lang="la">si eo fine non</lem></app>] Goeller; <foreign xml:lang="la">si eo non</foreign> Mog., <foreign xml:lang="la">si eo fine</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">eum</lem></app>] B; <foreign xml:lang="la">cum</foreign> Mog.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">his</lem></app>] B; <foreign xml:lang="la">uicis</foreign> Mog.</p>
+<p><app><lem xml:lang="la">eius</lem></app>] Mog.; <foreign xml:lang="la">huius</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">redierant</lem></app>] Fr. 2; <foreign xml:lang="la">redibant</foreign> Mog., <foreign xml:lang="la">rediebant</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">omiserunt</lem></app>] Goeller; <foreign xml:lang="la">omni erat</foreign> Mog., <foreign xml:lang="la">omiserant</foreign> B.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">omiserunt</lem></app>] Mog.; <foreign xml:lang="la">omiserant</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">alias auxiliis iuverunt</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">ut</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">sunt</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">sufficiam</lem></app>] Mog.; <foreign xml:lang="la">sufficiant</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="21">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">magnitudini</lem></app>] Aldus; <foreign xml:lang="la">magnitudine</foreign> Mog., <foreign xml:lang="la">magnitudinis</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">comis</lem></app>] B; fehlt in Mog.</p>
+<p><app><lem xml:lang="la">uxori ac liberis</lem></app>] Jacobs; <foreign xml:lang="la">uxorem ac liberos</foreign> Mog., <foreign xml:lang="la">uxor ac liberos</foreign> B.</p>
+<p><app><lem xml:lang="la">quattuor</lem></app>] Sig.; <foreign xml:lang="la">duos</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">amicis</lem></app>] B; <foreign xml:lang="la">amicus</foreign> Mog.</p>
+<p><app><lem xml:lang="la">reliquit ut</lem></app>] Mog.; <foreign xml:lang="la">relinquit</foreign> B.</p>
+<p><app><lem xml:lang="la">descenderit</lem></app>] Mog.; <foreign xml:lang="la">descenderet</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">Culcham. . Culcha</lem></app>] Wfsb.; <foreign xml:lang="la">culcam. . culca</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">Carmonem et Baldonem</lem></app>] B; <foreign xml:lang="la">Cardonem et Bardonem</foreign> Mog.</p>
+<p><app><lem xml:lang="la">in maritima ora. . . omnem</lem></app>] B; <foreign xml:lang="la">et maritimam oram omnem</foreign> Mog.</p>
+<p><app><lem xml:lang="la">et Baeturiam] et</lem></app> Wfsb., <foreign xml:lang="la">Baeturiam</foreign> Goeller; <foreign xml:lang="la">etruriam</foreign> B. Im Vorhergehenden vermutet HJM. <foreign xml:lang="la">Exetanosque</foreign> statt <foreign xml:lang="la">Sexetanosque.</foreign></p>
+<pb xml:id="p.7.1.190"/>
+
+<p><app><lem xml:lang="la">nudaverant</lem></app>] Mog.; <foreign xml:lang="la">nudauerunt</foreign> B.</p>
+<p><app><lem xml:lang="la">consurrectura</lem></app>] Goeller; <foreign xml:lang="la">consurrecturam</foreign> Mog.; <foreign xml:lang="la">consurrectur</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">erat</lem></app>] Mog.; fehlt in B.</p>
+</div></div>
+
+<div type="chapter" n="22">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Afranius</lem></app>] B; <foreign xml:lang="la">Ursanius</foreign> Mog.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">sibi meritum</lem></app>] B; <foreign xml:lang="la">sibimet</foreign> Mog.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">Cn. Ligurium legionis quartae</lem></app>] B; <foreign xml:lang="la">et C. Labeonem eius fratrem</foreign> Mog.</p>
+<p><app><lem xml:lang="la">adversa. . cecidisse</lem></app>] B; <foreign xml:lang="la">qui aduersa. . cecidissent</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="23">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">sese</lem></app>] B; <foreign xml:lang="la">se esse</foreign> Mog.</p>
+<p><app><lem xml:lang="la">plerique</lem></app>] B; <foreign xml:lang="la">plerosque</foreign> Mog.</p>
+<p><app><lem xml:lang="la">capti</lem></app> hinzugefügt nach Cobet.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">clarorum virorum</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">C.</lem></app>] Drak.; <foreign xml:lang="la">cn.</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">ducti</lem></app>] B; <foreign xml:lang="la">traducti</foreign> Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">aeris</lem></app>] B; fehlt in Mog.</p>
+<p><app><lem xml:lang="la">quingentos</lem></app>] Mog.; <foreign xml:lang="la">et</foreign> B.</p>
+<p><app><lem xml:lang="la">centurionique</lem></app>] B; <foreign xml:lang="la">triplex centurioni</foreign> Mog.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">et fama</lem></app>] Mog.; <foreign xml:lang="la">fama</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">prope par</lem></app>] Mog.; <foreign xml:lang="la">prope</foreign> B.</p>
+<p><app><lem xml:lang="la">tralata</lem></app>] Bk.; <foreign xml:lang="la">translata</foreign> Mog., <foreign xml:lang="la">tralati</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="24">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Ti.</lem></app>] Sig.; <foreign xml:lang="la">t.</foreign> Mog. B.Ebenso 26, 2.</p>
+<p><app><lem xml:lang="la">M'.</lem></app>] Sig.; <foreign xml:lang="la">m.</foreign> Mog. B.</p>
+<p><app><lem xml:lang="la">L.</lem></app>] Mog.; <foreign xml:lang="la">c.</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">ferme</lem></app>] B; <foreign xml:lang="la">eius</foreign> Mog.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">M.</lem></app> hinzugefügt nach Mg.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">datus</lem></app>] B; <foreign xml:lang="la">est habitus</foreign> Mog.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">quodcumque</lem></app>] B; <foreign xml:lang="la">quaecumque</foreign> Mog.</p>
+<p><app><lem xml:lang="la">id</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">decreti</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">eodem anno</lem></app>] HJM.; <foreign xml:lang="la">eodie</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">eo</lem></app>] B; <foreign xml:lang="la">eorum</foreign> Mog.</p>
+<p><app><lem xml:lang="la">P.</lem></app>] B; <foreign xml:lang="la">L.</foreign> Mog.</p>
+<p><app><lem xml:lang="la">et Ti. Sempronium</lem></app>] J. Perizonius; <foreign xml:lang="la">et T. Sempronium</foreign> Mog.; fehlt in B.</p>
+</div></div>
+
+<div type="chapter" n="25">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">in</lem></app> und <foreign xml:lang="la">curulibus</foreign>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">P.</lem></app>] B; fehlt in Mog.</p>
+<p><app><lem xml:lang="la">Cn.</lem></app>] B; <foreign xml:lang="la">C.</foreign> Mog.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">M.'</lem></app>] Pighius; <foreign xml:lang="la">m.</foreign> B, fehlt in Mog.</p>
+<p><app><lem xml:lang="la">Cererem Liberumque et Liberam</lem></app>] B; <foreign xml:lang="la">Cereri Liberoque et Liberae</foreign> Mog.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">tendebant</lem></app>] B; <foreign xml:lang="la">petebat</foreign> Mog.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">sententiae</lem></app>] B; <foreign xml:lang="la">sententia</foreign> Mog.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Ralla</lem></app>] Bk.; <foreign xml:lang="la">rala</foreign> B, <foreign xml:lang="la">rex</foreign> Mog.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">fugatum</lem></app>] B; <foreign xml:lang="la">fugatumque</foreign> Mog.</p>
+<p><app><lem xml:lang="la">relatum</lem></app>] B; <foreign xml:lang="la">latum</foreign> Mog.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">duas urbanas</lem></app>] B; fehlt in Mog.</p>
+<p><app><lem xml:lang="la">duas, quae. . mitterentur</lem></app>] B; <foreign xml:lang="la">duasque. . mitterent</foreign> Mog.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">cum duabus legionibus</lem></app> getilgt nach Crév.</p>
+<p><app><lem xml:lang="la">videri</lem></app>] B; <foreign xml:lang="la">diuidere</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="26">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">M'.</lem></app>] Sig.; <foreign xml:lang="la">m.</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Ti.</lem></app>] s. zu 24, 2.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">motum</lem></app>] B; <foreign xml:lang="la">exortum</foreign> Fr. 2 (M?); fehlt in Mog.</p>
+<p><app><lem xml:lang="la">fuerat</lem></app>] Fr. 2; fehlt in Mog. B.</p>
+<pb xml:id="p.7.1.191"/>
+
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">aut hi</lem></app>] Wfsb.; <foreign xml:lang="la">et hi</foreign> B, <foreign xml:lang="la">hi</foreign> Mog.</p>
+<p><app><lem xml:lang="la">sine ullo</lem></app>] B; <foreign xml:lang="la">nullo</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="27">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">ovans</lem></app>] B; <foreign xml:lang="la">ovans quum</foreign> Mog.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">quindecim pondo</lem></app>] Gr.; <foreign xml:lang="la">pondo quindecim</foreign> Mog., <foreign xml:lang="la">pondo</foreign> B.</p>
+<p><app><lem xml:lang="la">viginti milia signati</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">denarium</lem></app>] B; <foreign xml:lang="la">denarios</foreign> Mog.</p>
+<p><app><lem xml:lang="la">triginta quattuor milia et</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">quingentos. L. Stertinius</lem></app>] B; <foreign xml:lang="la">quingentos quinquaginta Sertinius</foreign> Mog.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">Elatiae</lem></app>] B; <foreign xml:lang="la">Athenis</foreign> Mog.</p>
+<p><app><lem xml:lang="la">T.</lem></app>] B; fehlt in Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">ad</lem></app>] Mog.; fehlt in B; <foreign xml:lang="la">et ad</foreign> Fr. 2.</p>
+<p><app><lem xml:lang="la">ipsis et non</lem></app>] Wfsb.; <foreign xml:lang="la">ipsi id a</foreign> Mog., <foreign xml:lang="la">ipsis iis et non</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">Brachyllem</lem></app>] Wfsb.; <foreign xml:lang="la">Barcillam</foreign> Mog., <foreign xml:lang="la">barcyllê</foreign> (28, t: <foreign xml:lang="la">bar cyllen</foreign>) B. Ebenso 28, 1.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">aliisque</lem></app>] Mog.; <foreign xml:lang="la">aliis</foreign> B.</p>
+<p><app><lem xml:lang="la">fuerant</lem></app>] B; <foreign xml:lang="la">fuerunt</foreign> Mog.</p>
+<p><app><lem xml:lang="la">ceperunt</lem></app>] Mog.; <foreign xml:lang="la">fecerunt</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="28">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Brachyllem</lem></app>] s. zu 27, 8.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">mollibus</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">Aetoli</lem></app>] B; <foreign xml:lang="la">Aetolici</foreign> Mog.</p>
+<p><app><lem xml:lang="la">quiritatio</lem></app>] Mog.; <foreign xml:lang="la">quaeritatio</foreign> B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">caedis</lem></app>] Mog.; <foreign xml:lang="la">et caedis</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">constanti</lem></app>] Htz.; <foreign xml:lang="la">consimili</foreign> Mog., <foreign xml:lang="la">et constanti</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">inpudenter</lem></app>] Fr. 2 (<foreign xml:lang="la">impudenter</foreign>); <foreign xml:lang="la">impudentem</foreign> hinter <foreign xml:lang="la">eundo</foreign> Mog., <foreign xml:lang="la">inprudenter</foreign> B.</p>
+<p><app><lem xml:lang="la">crimini eundo</lem></app>] B; <foreign xml:lang="la">eundo</foreign> [<foreign xml:lang="la">impudentem</foreign>] <foreign xml:lang="la">criminis</foreign> Mog.</p>
+<p><app><lem xml:lang="la">nihil opinione omnium pro indicio</lem></app>] B; <foreign xml:lang="la">opinionem omnium ea pro indicio usi</foreign> Mog.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">perfugit</lem></app>] Mog.; <foreign xml:lang="la">profugit</foreign> B.</p>
+<p><app><lem xml:lang="la">nullius</lem></app>] Mog.; <foreign xml:lang="la">illius</foreign> B.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">timore ad indicium</lem></app>] Fr. 2; <foreign xml:lang="la">rem ad indicium</foreign> Mog., <foreign xml:lang="la">timore rem ad iudicium</foreign> B.</p>
+<p><app><lem xml:lang="la">ut</lem></app>] B; fehlt in Mog.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">tulerat . . iussus</lem></app>] B; <foreign xml:lang="la">tulit . . iussit</foreign> Mog.</p>
+</div>
+
+<div type="section" n="14">
+<p><app><lem xml:lang="la">Anthedonem</lem></app>] B; <foreign xml:lang="la">Atenorê</foreign> Mog.</p>
+<p><app><lem xml:lang="la">aliisque</lem></app>] B; <foreign xml:lang="la">aliquae</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="29">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">deducti</lem></app>] B; <foreign xml:lang="la">devecti deductique</foreign> Mog.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">ea</lem></app>] Mog.; fehlt in B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">quaerendum</lem></app>] B; <foreign xml:lang="la">querendum</foreign> Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">interempti</lem></app>] B; <foreign xml:lang="la">intercepti</foreign> Mog.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">quorum neutrum</lem></app>] Mog.; <foreign xml:lang="la">utrum</foreign> B (in B ist hinter <foreign xml:lang="la">fieret</foreign> noch <foreign xml:lang="la">neutrum</foreign> hinzugefügt).</p>
+<p><app><lem xml:lang="la">socios</lem></app>] B; <foreign xml:lang="la">sociis</foreign> Mog.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">Ap.</lem></app>] B; <foreign xml:lang="la">P.</foreign> Mog.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">completa essent</lem></app>] B; <foreign xml:lang="la">c&omacr;plessent</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="30">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">deduceret et</lem></app>] Kr.; <foreign xml:lang="la">duceret ut</foreign> B; in Mog. fehlt <foreign xml:lang="la">vacuasque . . ex.</foreign></p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">ducena</lem></app>] Wfsb.; <foreign xml:lang="la">ducenta</foreign> Mog., <foreign xml:lang="la">ducentum</foreign> B.</p>
+<p><app><lem xml:lang="la">in</lem></app> hinzugefügt nach Mg.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">Lemnum</lem></app>] B; <foreign xml:lang="la">Paron</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="31">
+<div type="section" n="11">
+<p><app><lem xml:lang="la">Acrocorintho</lem></app>] Fr. 2; <foreign xml:lang="la">agro corinthio</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="32">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">aream</lem></app>] B; <foreign xml:lang="la">arenam</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="33">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">lemniscosque</lem></app>] Fr. 1; <foreign xml:lang="la">liminis quosq;</foreign> Mog., <foreign xml:lang="la">lemnis quosque</foreign> B.</p>
+<pb xml:id="p.7.1.192"/>
+
+<p><app><lem xml:lang="la">procul</lem></app>] Mog.; <foreign xml:lang="la">procul e</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">ex tam</lem></app>] Ald.; <foreign xml:lang="la">et tam</foreign> Mog., <foreign xml:lang="la">exta</foreign> B.</p>
+<p><app><lem xml:lang="la">suppeditabant</lem></app>] Ald.; <foreign xml:lang="la">suppeditabant~</foreign> Mog., <foreign xml:lang="la">suppeditabat</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="34">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">neu quam</lem></app>] Mg.; <foreign xml:lang="la">ne umquam</foreign> B, in Mog. gröfsere Lücke.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">decreta</lem></app>] Mog.; <foreign xml:lang="la">decreto</foreign> B.</p>
+<p><app><lem xml:lang="la">in</lem></app> hinzugefügt nach Crév.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">excepta</lem></app>] Kr.; <foreign xml:lang="la">excepto</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">regi</lem></app>] Mog.; <foreign xml:lang="la">regis</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="35">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">L. Stertinius</lem></app>] Fr. 2; <foreign xml:lang="la">L. Thermus</foreign> Mog., <foreign xml:lang="la">p. stertinius</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">qui</lem></app>] Gr.; <foreign xml:lang="la">cui</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">conventus Pylaicum</lem></app>] Fr. 1; <foreign xml:lang="la">conventus, Phylaicum</foreign> Mog., <foreign xml:lang="la">pylai conuentus</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">monuit</lem></app>] B; <foreign xml:lang="la">monuit ut</foreign> Mog.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">in altercationem</lem></app>] Sig.; <foreign xml:lang="la">altercationem</foreign> Mog., <foreign xml:lang="la">in altercatione</foreign> B.</p>
+<p><app><lem xml:lang="la">excederet</lem></app>] Mog.; <foreign xml:lang="la">cresceret</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="36">
+<div type="section" n="3">
+<p>Lücke angenommen und <foreign xml:lang="la">alios</foreign> eingefügt nach Mg.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">in tumulo quodam</lem></app>] Mog.; <foreign xml:lang="la">inter tumulos quosdam</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">a</lem></app> hinzugefügt nach Gr.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">octoginta</lem></app>] Kr.; <foreign xml:lang="la">octingenta</foreign> B, <foreign xml:lang="la">et quingenta</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="37">
+<div type="section" n="7">
+<p><app><lem xml:lang="la">destinato</lem></app>] B; <foreign xml:lang="la">destinati</foreign> Mog., <foreign xml:lang="la">destinatis</foreign> Fr. 2.</p>
+</div></div>
+
+<div type="chapter" n="38">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">aliae</lem></app>] Fr. 1; <foreign xml:lang="la">aliquae</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">ab Abydo</lem></app>] Kr.; <foreign xml:lang="la">ad Abydum</foreign> Mog., <foreign xml:lang="la">ab ydo</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">Madytum</lem></app>] Glar.; <foreign xml:lang="la">abydum</foreign> B, fehlt in Mog.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">terrestribus</lem></app>] B; <foreign xml:lang="la">terrestribusque</foreign> Mog.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">omni cura</lem></app>] Mog.; <foreign xml:lang="la">omnia</foreign> B.</p>
+<p><app><lem xml:lang="la">muros</lem></app>] B; <foreign xml:lang="la">murosque</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="39">
+<div type="section" n="7">
+<p><app><lem xml:lang="la">quid?</lem></app>] B; streicht Mg. mit Mog.</p>
+</div></div>
+
+<div type="chapter" n="40">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">ne ex</lem></app>] Bk.; <foreign xml:lang="la">nec ex</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">usurpanda aliena</lem></app>] Mg.; <foreign xml:lang="la">usurpandae alienae</foreign> Mog. B., <foreign xml:lang="la">usurpando aliena</foreign> Fr. 1. Wfsb.2 schrieb <foreign xml:lang="la">usurpandae alienae possessionis causa</foreign> und bemerkte dazu: ‘= aus dem (vorgegebenen) Grunde, den Besitz eines anderen zu unterbrechen und sich denselben anzueignen; vgl. 34, 32, 2: <foreign xml:lang="la">cuius ius tyranni quoque . . usurparunt;</foreign> Digest. 41, 3, 2: <foreign xml:lang="la">usurpatio est usucapionis interruptio;</foreign> ebd. 5: <foreign xml:lang="la">naturaliter interrumpitur possessio, cum . . nec interest is, qui usurpaverit (possessionem), dominus sit necne;</foreign> Tac. Ann. 24, 26: <foreign xml:lang="la">possessionem Armeniae usurpabat.</foreign>’</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Chersonesus</lem></app>] Kr.; <foreign xml:lang="la">chersonesum</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="41">
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Cyprum</lem></app>] MB; <foreign xml:lang="la">Cypri</foreign> Mog.</p>
+<p><app><lem xml:lang="la">petens</lem></app>] B; <foreign xml:lang="la">tendens</foreign> M, fehlt in Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">multae fractae, mullae naves eiectae</lem></app>] HJM. nach Jacobs (<foreign xml:lang="la">multae fractae, multae eiectae naves</foreign>); <foreign xml:lang="la">multae naves eiectae</foreign> Mog., <foreign xml:lang="la">multae fractae multae naues</foreign> B.</p>
+<p><app><lem xml:lang="la">enaverit</lem></app>] Mog.; <foreign xml:lang="la">enaret</foreign> B; <foreign xml:lang="la">enarit</foreign> vermutet Kr.</p>
+</div></div>
+
+<div type="chapter" n="42">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">tresviri</lem></app>] <foreign xml:lang="la">III uiri</foreign> B; <foreign xml:lang="la">triumviri</foreign> Mog. und so Mg.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">pontificibus</lem></app>] Pighius; <foreign xml:lang="la">pontifici</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">Luscinus C. Atilius</lem></app> hinzugefügt nach Fr. 2.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">maximus</lem></app> getilgt nach Drak.; Wfsb.2 sagt dazu: ‘curio maximus war damals wahrscheinlich noch C. Mamilius Atellus (s. 27, 8, 3); Scribonius wurde es erst später; s. 41, 21 8’.</p>
+</div></div>
+
+<div type="chapter" n="43">
+<div type="section" n="7">
+<p><app><lem xml:lang="la">peditum</lem></app> hinzugefügt nach Fr. 1.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">ad Etruriam</lem></app> getilgt nach Mg.; Wfsb.2 bemerkt dazu: ‘Da die Bedeutung von <foreign xml:lang="la">ad</foreign> unklar ist und Pisä sonst mit Ligurien (s. zu § 5)
+<pb xml:id="p.7.1.193"/>
+
+in Verbindung gesetzt wird, nicht mit Etrurien, aufser in anderer Weise (s. 35, 3, 2), so sind die Worte nicht richtig’.</p>
+<p><app><lem xml:lang="la">Ti.</lem></app>] Wfsb.; <foreign xml:lang="la">t.</foreign> B, fehlt in Mog.</p>
+</div></div>
+
+<div type="chapter" n="44">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">iussi facere</lem></app>] Baumgarten-Crusius; <foreign xml:lang="la">iussu fecere</foreign> Mog., <foreign xml:lang="la">iussit facere</foreign> B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">A.</lem></app>] Sig.; <foreign xml:lang="la">C.</foreign> Mog., <foreign xml:lang="la">cn.</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">hominibus quod Hispania movisset bellum neglegi</lem></app>] M (doch <foreign xml:lang="la">negligi</foreign>); <foreign xml:lang="la">Minutium quod cum Hispania movisset bellum negligere</foreign> Mog., <foreign xml:lang="la">hominibus quod cum Hispania mouisset bellum neglegerent</foreign> B; Wfsb.2 bemerkt zu der von ihm beibehaltenen La. des B: ‘<foreign xml:lang="la">bellum</foreign> scheint sowohl zu <foreign xml:lang="la">movisset</foreign> als zu <foreign xml:lang="la">neglegerent</foreign> zu gehören, da <foreign xml:lang="la">movere</foreign> wohl von dem Aufbrechen des Heeres (s. 21, 32, 1; 33, 6, 3 u. a.), aber sonst selten absolut gebraucht wird; vgl. 5, 25, 6; 21, 38, 3; 40, 59, 7’.</p>
+</div></div>
+
+<div type="chapter" n="45">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">non ita</lem></app>] B; <foreign xml:lang="la">non tam</foreign> M, <foreign xml:lang="la">non</foreign> Mog.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">hospitibus</lem></app>] Jacobs; <foreign xml:lang="la">amicis</foreign> Mog., <foreign xml:lang="la">hostibus</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">otio situque</lem></app>] M (Fr. 2); <foreign xml:lang="la">otio tum</foreign> Mog., <foreign xml:lang="la">otii situ</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="46">
+<div type="section" n="7">
+<p><app><lem xml:lang="la">neu</lem></app>] Duk.; <foreign xml:lang="la">ne</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">quo</lem></app>] D. Heinsius: <foreign xml:lang="la">quod</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="47">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">ii</lem></app>] Bk.; <foreign xml:lang="la">isti</foreign> Mog., <foreign xml:lang="la">iis</foreign> B.</p>
+<p><app><lem xml:lang="la">manubiis</lem></app>] Mg.; <foreign xml:lang="la">manibus</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="48">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Acyllam</lem></app>] B; <foreign xml:lang="la">ancillam</foreign> Mog.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">umbraclum</lem></app>] Mg.; <foreign xml:lang="la">umbrae etenim</foreign> Mog.; <foreign xml:lang="la">umbraetum</foreign> B. Hierzu bemerkt Wfsb.2: <foreign xml:lang="la">‘umbra alicui fit</foreign> ist nicht gewöhnlich, wenn sich auch <foreign xml:lang="la">umbrae</foreign> findet (s. 25, 26, 15: <foreign xml:lang="la">corpora tecta et umbrae recrearunt;</foreign> häufiger bei Dichtern, wie Verg. Ecl. 5, 40; 10, 76 u. a.), und <foreign xml:lang="la">tum</foreign> auf die Zeit der Flucht des Hannibal bezogen werden könnte; s. 18, 12; 27, 33, 7. Vgl. 35, 27, 3.’</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">cum primum</lem></app>] Leydener Ausg. 1553; <foreign xml:lang="la">quam primum</foreign> Mog., <foreign xml:lang="la">quod primum</foreign> B. Wfsb.2 bemerkt: <foreign xml:lang="la">‘quod primum:</foreign> s. 1, 45, 6; Sil. It. 12, 273: <foreign xml:lang="la">ille dies primus;</foreign> doch würde dann wohl <foreign xml:lang="la">eo</foreign> folgen’.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">que</lem></app> hinzugefügt nach Kr.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">et</lem></app> getilgt nach Wfsb.</p>
+</div></div>
+
+<div type="chapter" n="49">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">eum antequam bellum</lem></app>] Kr.; <foreign xml:lang="la">ante quam bellum</foreign> Mog., <foreign xml:lang="la">eum quam bellum ante quam</foreign> B.</p>
+<p><app><lem xml:lang="la">concisset</lem></app>] Fr. 1; <foreign xml:lang="la">conscisset</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">in Asiam</lem></app>] Kr.; <foreign xml:lang="la">in asia</foreign> B, fehlt in Mog.</p>
+</div></div></div>
+<div type="book" n="34">
+<div type="chapter" n="1">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">C. Oppius</lem></app>] M; <foreign xml:lang="la">m. oppius</foreign> B; (<foreign xml:lang="la">tulerant eam</foreign>) <foreign xml:lang="la">M. Oppius et T. Romuleius</foreign> (<foreign xml:lang="la">tribuni plebis</foreign>) Mog. und jüng. Hss. Vgl. die Periocha, wo alle Hss. <foreign xml:lang="la">cn. oppius</foreign> haben.</p>
+<p><app><lem xml:lang="la">Ti.</lem></app>] Sig.; <foreign xml:lang="la">t.</foreign> MB.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">P.</lem></app>] M; <foreign xml:lang="la">titi</foreign> B, <foreign xml:lang="la">titus</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">conciliabulisque</lem></app>] Mog., jüng. Hss; <foreign xml:lang="la">conciliabulis</foreign> B.</p>
+<p><app><lem xml:lang="la">conveniebant</lem></app>] M; <foreign xml:lang="la">conuenerant</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">abrogabatur</lem></app>] M; <foreign xml:lang="la">abrogatur</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="2">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">non continuimus</lem></app>] Htz.; <foreign xml:lang="la">non potuimus</foreign> B, <foreign xml:lang="la">sustinere non potuimus</foreign> Mog.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">pertinet</lem></app>] B; <foreign xml:lang="la">pertineret</foreign> M.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">feminas ad concitandas</lem></app>] Mog., jüng. Hss.; <foreign xml:lang="la">ad feminas</foreign> mit Lücke darnach B, <foreign xml:lang="la">ad feminas concitandas</foreign> jüng. Hss.</p>
+<p><app><lem xml:lang="la">si ut plebis</lem></app>] Fr. 2 <foreign xml:lang="la">sicut</foreign> B, <foreign xml:lang="la">sicut plebis</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">compellatae a consule</lem></app>] M; <foreign xml:lang="la">compellata ea</foreign> B.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">nos</lem></app>] M; <foreign xml:lang="la">nunc</foreign> B, jüng. Hss.</p>
+<p><app><lem xml:lang="la">rem publicam</lem></app>] M; <foreign xml:lang="la">rem</foreign> B.</p>
+<p>T. Liv. VII 2. 3. Aufl.</p>
+<pb xml:id="p.7.1.194"/>
+
+<p><app><lem xml:lang="la">quoque</lem></app>] B; <foreign xml:lang="la">prope</foreign> M.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">quam</lem></app>] Harant; <foreign xml:lang="la">aliam</foreign> B, <foreign xml:lang="la">aliae</foreign> Mog., jüng. Hss. (mit Interpolation).</p>
+</div>
+
+<div type="section" n="14">
+<p><app><lem xml:lang="la">facietis</lem></app>] B; <foreign xml:lang="la">feceritis</foreign> M.</p>
+<p><app><lem xml:lang="la">iniuncta</lem></app>] Gr.; <foreign xml:lang="la">iniunctum</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="3">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">recensete omnia</lem></app>] Mog., jüng. Hss.; <foreign xml:lang="la">recens et ea omnia</foreign> B.</p>
+<p><app><lem xml:lang="la">vestri</lem></app>] B; <foreign xml:lang="la">nostri</foreign> Mog., jüng. Hss.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">extorquere</lem></app>] Ascensius, Mog.; <foreign xml:lang="la">extorqueri</foreign> B.</p>
+<p><app><lem xml:lang="la">aequari</lem></app>] B; <foreign xml:lang="la">exaequari</foreign> M.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">id modo quaeritur, si . . prodest</lem></app>] Wfsb.2 bemerkt hierzu: ‘Der ungewöhnliche Indikativ scheint, wenn anders die La. richtig und nicht [wie Mg. meint] <foreign xml:lang="la">possit</foreign> zu lesen ist, nach der Analogie von <foreign xml:lang="la">miror, gaudeo si</foreign> u. a. gebraucht zu sein, indem <foreign xml:lang="la">id modo quaeritur</foreign> konstruiert ist wie Cic. ad Att. 15, 25: <foreign xml:lang="la">an probas, si . . cogitamus;</foreign> ebd. 4, 15, 1: <foreign xml:lang="la">gratum si,</foreign> was wohl geschehen konnte, da sich bei den Komikern, anderen Dichtern und Späteren in indirekten Fragen der Indikativ findet; s. Plaut. Trin. 3, 3, 19; Ter. Eun. 545; vgl. Stat. Achill. 2, 69; Sen. NQ. 7, 25, 1: <foreign xml:lang="la">qualia sunt ignoramus;</foreign> ebd 6, 23, 4 u. a. obgleich Livus sonst immer den Konjunktiv hat [vgl. Draeger HS. 2, 448]. Anderer Art sind Stellen wie Cic. de div. 2, 72 oder, wo der Fragesatz unabhängig ist, Cic. ad Att. 13, 21, 4; ad Q. fr. 2, 16; de leg. 1, 27; Brut. 91; de fin. 5, 25; p. Caec. 93.’</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">a</lem></app>] M; fehlt in B und jüng. Hss.</p>
+</div></div>
+
+<div type="chapter" n="4">
+<div type="section" n="7">
+<p><app><lem xml:lang="la">nostris</lem></app>] Mog,; <foreign xml:lang="la">uestris</foreign> B.</p>
+<p><app><lem xml:lang="la">sanciundi</lem></app>] M; <foreign xml:lang="la">sanciendi</foreign> B.</p>
+</div>
+
+<div type="section" n="15">
+<p><app><lem xml:lang="la">Quirites</lem></app>] Mog.; Lücke in B; vgl. § 19.</p>
+</div>
+
+<div type="section" n="16">
+<p><app><lem xml:lang="la">eas</lem></app> hinzugefügt nach Lentz.</p>
+</div>
+
+<div type="section" n="19">
+<p><app><lem xml:lang="la">Quirites</lem></app>] Mog.; fehlt in B; vgl. § 15.</p>
+<p><app><lem xml:lang="la">irritata . . emissa</lem></app>] Gr.; <foreign xml:lang="la">irritatae . . emissae</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="5">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">necesse</lem></app>] B; <foreign xml:lang="la">necessum</foreign> M; hierzu bemerkt Wfsb.2: ‘<foreign xml:lang="la">necesse est</foreign> schreibt Liv. immer; nur hier und vielleicht auch 39, 5, 9 (nach Gelenius; Mog. hat hier <foreign xml:lang="la">necessarium</foreign>) hat M das altertümliche <foreign xml:lang="la">necessum,</foreign> vielleicht von einem Grammatiker geändert.’</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">aurum quo</lem></app>] B; <foreign xml:lang="la">quo</foreign> M.</p>
+<p><app><lem xml:lang="la">nonne</lem></app>] Duk.; <foreign xml:lang="la">nempe</foreign> B, <foreign xml:lang="la">nempe aurum</foreign> M. — Mg. schreibt <foreign xml:lang="la">iam capta a Gallis quo redempta urbs est? nempe aurum matronae . . contulerunt.</foreign> Hierzu bemerkt Wfsb.2: ‘Da Liv. so oft dieselben Wörter in unmittelbarer Nähe wiederholt und nicht selten das Nomen im Abl. abs. als Subjekt oder Objekt vorhergehen oder folgen läfst (s. 23, 24, 10; vgl. Iuv. 11, 33 u. a.), so ist es zweifelhaft, ob <foreign xml:lang="la">urbs</foreign> mit Mg. zu tilgen sei.’ [Er liest: <foreign xml:lang="la">iam urbe capta a Gallis, quo redempta urbs est? nempe aurum . .</foreign>]</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">feminas</lem></app>] B; <foreign xml:lang="la">feminasque</foreign> M.</p>
+</div></div>
+
+<div type="chapter" n="6">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">nisi quam</lem></app>] M; <foreign xml:lang="la">nisi</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">quid?</lem></app>] M; <foreign xml:lang="la">quae</foreign> B, <foreign xml:lang="la">quia</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">Ti.</lem></app>] jüng. Hss.; <foreign xml:lang="la">t.</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">vetus</lem></app> hinzugefügt nach Meyerhoefer.</p>
+<p><app><lem xml:lang="la">indicabit</lem></app>] Gr.; <foreign xml:lang="la">indicauit</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">eandem diem</lem></app>] Gelenius; <foreign xml:lang="la">eadem die</foreign> Mog. B.</p>
+<p><app><lem xml:lang="la">pecuniae</lem></app>] B; <foreign xml:lang="la">deerant pecuniae</foreign> Mog.</p>
+</div>
+
+<div type="section" n="16">
+<p><app><lem xml:lang="la">et</lem></app> getilgt nach Gr.</p>
+</div>
+
+<div type="section" n="17">
+<p><app><lem xml:lang="la">aut decrevit</lem></app>] M; <foreign xml:lang="la">decreuit</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="7">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">nostras</lem></app>] Mog.; <foreign xml:lang="la">uestras</foreign> B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">hic Romae infimo generi, magistris vicorum</lem></app>] M; fehlt in B.
+<pb xml:id="p.7.1.195"/>
+
+und den jüng. Hss. Wfsb.2 tilgt die Worte nach Marquardt und bemerkt dazu: ‘<foreign xml:lang="la">hic Romae</foreign> ist in einer zn Rom gehaltenen Rede wenigstens auffallend; vgl. Cic. de leg. agl. 2, 93: <foreign xml:lang="la">Romae . . Capuae;</foreign> anders ist 31, 31, 4: <foreign xml:lang="la">hine ex Achaia;</foreign> ebenso auffallend ist die Trennung der <foreign xml:lang="la">magistri vicorum</foreign> von den übrigen römischen Magistraten; auch <foreign xml:lang="la">infimo generi</foreign> ist unklar, es müfste etwa <foreign xml:lang="la">magistratuum</foreign> ergänzt werden. Ferner hat Augustus erst im J. 7 v. Chr. bei der Einteilung der Stadt in Regionen die <foreign xml:lang="la">magistri vicorum</foreign> als niedere Magistrate eingesetzt und ihnen das Recht, die Toga praetexta zu tragen, gegeben (s. Dio Cass. 55, 8; Suet. Aug. 30), während zur Zeit der Republik die <foreign xml:lang="la">magistri vicorum</foreign> nicht <foreign xml:lang="la">magistratus</foreign> waren und nur bei der Leitung von Spielen die Toga praetexta trugen; s. Ascon. in Pison. 8; CIL. I S. 205; Becker 2, 2, 78. 368; 4, 162; Philol. 19, 186; 21, 572. Die Worte würden also einen Anachronismus enthalten; vgl. 5, 7.’</p>
+<p><app><lem xml:lang="la">ius permittemus</lem></app>] M; <foreign xml:lang="la">ius est</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">tantum</lem></app> getilgt nach HJM.</p>
+<p><app><lem xml:lang="la">usu</lem></app>] Fr. 2; <foreign xml:lang="la">usui</foreign> B, <foreign xml:lang="la">usum</foreign> Mog. und jüng. Hss.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">iniustam</lem></app>] Fr. 2; <foreign xml:lang="la">in his iustam</foreign> B, <foreign xml:lang="la">non iniustam</foreign> Mog.</p>
+<p><app><lem xml:lang="la">manupretium</lem></app>] Bk.; <foreign xml:lang="la">manui pretium</foreign> B, <foreign xml:lang="la">manus pretium</foreign> Mog.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">vident</lem></app>] B; <foreign xml:lang="la">uideant</foreign> M.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">nostri</lem></app>] Mog.; <foreign xml:lang="la">uestri</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="8">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Brutorum</lem></app>] B; <foreign xml:lang="la">tribunorum</foreign> M.</p>
+<p><app><lem xml:lang="la">obsederunt</lem></app>] <foreign xml:lang="la">obsiderunt</foreign> B, wozu Wfsb.2 28, 12, 15: <foreign xml:lang="la">considerunt</foreign> vergleicht.</p>
+<p><app><lem xml:lang="la">collegarum rogationi</lem></app>] B; <foreign xml:lang="la">rogationi collegae</foreign> M, wozu Mg. bemerkt: ‘vereor, ne in ceteris correctus Livii error sit de uno L. Valerio cogitantis, quem dicentem pro rogatione induxit.’</p>
+<p><app><lem xml:lang="la">est</lem></app>] B; <foreign xml:lang="la">esset</foreign> M.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">edixerat</lem></app>] M; <foreign xml:lang="la">dixerat</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="9">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">fera et bellicosa gente obiectis</lem></app>] Mog.; <foreign xml:lang="la">fera et bellicos agenti esse obiectis</foreign> B; <foreign xml:lang="la">ferae et bellicosae genti obiectos</foreign> Fr. 2, und so lesen Wfsb.2 und Mg.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">semper</lem></app>] M; fehlt in B.</p>
+</div></div>
+
+<div type="chapter" n="10">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">M.</lem></app>] M; fehlt in B.</p>
+<p><app><lem xml:lang="la">occurrunt</lem></app>] jüng. Hss.; <foreign xml:lang="la">accurrunt</foreign> B, <foreign xml:lang="la">occurrerunt</foreign> Mg.</p>
+</div></div>
+
+<div type="chapter" n="11">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">praesidium Romanus misisset</lem></app>] Bk.; <foreign xml:lang="la">praesidium Romanis missis et</foreign> B, <foreign xml:lang="la">praesidium Romani mississent</foreign> jüng. Hss., <foreign xml:lang="la">praesidio Romanus miles esset</foreign> M.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">possit</lem></app>] J. H. Vofs; <foreign xml:lang="la">posset</foreign> MB.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">audierunt</lem></app>] M; <foreign xml:lang="la">audiverunt</foreign> B.</p>
+<p><app><lem xml:lang="la">orant</lem></app>] M; <foreign xml:lang="la">orantes</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="12">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">respondet</lem></app>] Siesbye; <foreign xml:lang="la">respondit</foreign> MB.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">iussit</lem></app> getilgt nach J. Perizonius.</p>
+</div></div>
+
+<div type="chapter" n="13">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">satis ad hune modum</lem></app>] Duk.; <foreign xml:lang="la">satis admodum</foreign> Mog., jüng. Hss., <foreign xml:lang="la">admodum</foreign> B. Hierzu bemerkt Wfsb.2: ‘<foreign xml:lang="la">satis admodum</foreign> findet sich sonst nicht leicht, überdies fehlt <foreign xml:lang="la">satis</foreign> in B und ist wohl nur Glossem zu <foreign xml:lang="la">admodum</foreign> = ‘genügend, schon ziemlich’; s. 1, 10, 1; doch ist auch dieses hier nicht recht passend’.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">ostendendi</lem></app>] M; <foreign xml:lang="la">ostendere</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">conferetis manus</lem></app>] jüng. Hss.; <foreign xml:lang="la">confertis manus</foreign> B, <foreign xml:lang="la">conseretis manum</foreign> M, <foreign xml:lang="la">confertis manum</foreign> oder <foreign xml:lang="la">conseretis manus</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">in</lem></app> hinzugefügt nach ed. vet.</p>
+<p><app><lem xml:lang="la">ibi</lem></app> getilgt nach Gr.</p>
+<pb xml:id="p.7.1.196"/>
+
+<p><app><lem xml:lang="la">addi</lem></app>] Mg.; <foreign xml:lang="la">addere</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="14">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">et</lem></app> hinzugefügt nach Duk.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">induxit</lem></app>] Mog.; <foreign xml:lang="la">educit</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">verteritque in hostem</lem></app>] B; <foreign xml:lang="la">et adversos in hostem verterit</foreign> M.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">ita</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">a tergo</lem></app>] M; <foreign xml:lang="la">tergo</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="15">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">revehitur</lem></app>] B; <foreign xml:lang="la">equo revehitur</foreign> M.</p>
+<p><app><lem xml:lang="la">proferri</lem></app>] Seyffert (<foreign xml:lang="la">proferre</foreign>); <foreign xml:lang="la">prae se ferri</foreign> Mog. B; Wfsb. 2. bemerkt zu der letzten La.: ’<foreign xml:lang="la">prae se</foreign> ist auf Cato zu beziehen, so dafs er an der Spitze der Legionen folgt; gewöhnlich sagt Liv. <foreign xml:lang="la">signa ferri</foreign> oder <foreign xml:lang="la">inferri</foreign>; allein hier, wo überall das Eingreifen des Konsuls hervorgehoben wird (vgl. Appian: <foreign xml:lang="greek">prokinduneu/wn</foreign>), konnte er wohl auch <foreign xml:lang="la">prae se</foreign> hinzufügen; vgl. 52, 2; 1, 7, 4: <foreign xml:lang="la">prae se agens</foreign>; 28, 38, 5: <foreign xml:lang="la">prae se tulit in acrarium’</foreign>.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">castra</lem></app>] B; <foreign xml:lang="la">castra hostium</foreign> M.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">vi resistatur</lem></app>] M; <foreign xml:lang="la">uire statur</foreign> B1, <foreign xml:lang="la">ui restatur</foreign> B2.</p>
+<p><app><lem xml:lang="la">eo</lem></app>] Mog.; <foreign xml:lang="la">e&amacr;</foreign> B, <foreign xml:lang="la">ea</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">ipsi castris exuti</lem></app>] Mog.; <foreign xml:lang="la">ipsis castris exuti</foreign> Fr. 2; <foreign xml:lang="la">ipsi exsutis</foreign> B.</p>
+<p>16, 1—2 <foreign xml:lang="la">tria . . iussit</foreign>] tilgt Wfsb.2 und bemerkt dazu: ’Die Worte finden sich nur in M; sie stören den Zusammenhang, da § 3 noch zu der Schilderung des Tages gehört, sie wiederholen nur das, was schon in der Darstellung der Schlacht als das Bedeutende hervorgehoben ist, und enthalten in <foreign xml:lang="la">procul navibus</foreign> eine bei Appian, aber nicht bei Livius, sich findende, in <foreign xml:lang="la">ad portam</foreign> eine ungenaue Angabe, in <foreign xml:lang="la">spem nisi</foreign> eine nicht lateinische Ausdrucksweise; s. Hand Turs. 4, 253. Schwerlich läfst sich annehmen, dafs die Stelle, welche wirklich lobenswerte Anordnungen des Konsuls enthält, beweisen solle, dafs Cato <foreign xml:lang="la">haud sane detrectator laudum suarum</foreign> sei, es hätte dann wenigstens bemerkt werden müssen, dafs er selbst dies lobend erwähnt habe; ebenso wenig, dafs Livius, wenn er, wie der Gegensatz zu Valerius Antias und der Gebrauch der seltenen Worte § 4 und 14, 11 zeigt, die Schlacht aus den Origines des Cato entlehnt hat, zuletzt zufällig in dieselben geblickt habe, um eine daher entlehnte Bemerkung an unpassendem Platze einzuschieben.</p>
+</div></div>
+
+<div type="chapter" n="16">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">nusquam</lem></app> hinzugefügt nach Ussing.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">suos</lem></app>] jüng. Hss.; <foreign xml:lang="la">suis</foreign> B, <foreign xml:lang="la">milites</foreign> M.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">vinoque et cibo curatos</lem></app>] M; fehlt in B. Hierzu bemerkt Wfsb.2: ’Sonst findet sich von den Soldaten vor oder nach Anstrengungen <foreign xml:lang="la">corpus curare</foreign> (s. 13, 10; 21, 54, 2; 31, 39, 1) oder <foreign xml:lang="la">cibo</foreign> (und <foreign xml:lang="la">cibo somnoque</foreign>) <foreign xml:lang="la">curare</foreign> (s. 3, 2, 10; 9, 37, 7); nur an u. St. <foreign xml:lang="la">vino et cibo curare</foreign> anders sind die Verhältnisse 40, 47, 5.’</p>
+<p><app><lem xml:lang="la">dimisit</lem></app>] B; <foreign xml:lang="la">remisit</foreign> M.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">profectum</lem></app>] B; <foreign xml:lang="la">profecturum</foreign> Mog.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">eos educto</lem></app>] Gr.; <foreign xml:lang="la">eo deducto</foreign> M, <foreign xml:lang="la">eos deducto</foreign> B.</p>
+<p><app><lem xml:lang="la">redegit</lem></app>] jüng. Hss.; <foreign xml:lang="la">redigit</foreign> M, <foreign xml:lang="la">redegat</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="17">
+<div type="section" n="6">
+<p><app><lem xml:lang="la">genus</lem></app>] M; <foreign xml:lang="la">gens</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">renuntiatum</lem></app>] M; <foreign xml:lang="la">nuntiatum</foreign> B.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">omnium</lem></app>] M; <foreign xml:lang="la">omnibus</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="18">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">primi venerant</lem></app>] B; <foreign xml:lang="la">primo uenerunt</foreign> M.</p>
+</div></div>
+
+<div type="chapter" n="19">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">facere . . abire</lem></app>] M; <foreign xml:lang="la">faciebant . . abibant</foreign> B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">noxiae</lem></app>] B; <foreign xml:lang="la">noxae</foreign> M.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">castris praetoris</lem></app>] B; <foreign xml:lang="la">castris praetorianis</foreign> M.</p>
+<p><app><lem xml:lang="la">regressus</lem></app>] M; <foreign xml:lang="la">progressus</foreign> B.</p>
+<pb xml:id="p.7.1.197"/>
+
+</div></div>
+
+<div type="chapter" n="20">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">esset</lem></app>] Mg.; <foreign xml:lang="la">est</foreign> MB.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">persultassent</lem></app>] M; <foreign xml:lang="la">insultassent</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">tulere</lem></app>] M; <foreign xml:lang="la">tulerunt</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="21">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Bergium</lem></app>] Htz.; <foreign xml:lang="la">uergium</foreign> MB.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Bergistanus</lem></app>] jüng. Hss.; <foreign xml:lang="la">Vergestanus</foreign> Mog., <foreign xml:lang="la">uergestanos</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Bergistanos</lem></app>] Lov. 3; <foreign xml:lang="la">Vergestanos</foreign> Mog., <foreign xml:lang="la">bergustanos</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">in Hispania</lem></app>] M; fehlt in B.</p>
+</div></div>
+
+<div type="chapter" n="22">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">L.</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">omisso bello</lem></app>] M; <foreign xml:lang="la">misso</foreign> B, <foreign xml:lang="la">omnes</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">circa</lem></app>] B; <foreign xml:lang="la">circum</foreign> M.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">uti ne</lem></app>] Kr.; <foreign xml:lang="la">ut in ea</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="23">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">auxilium</lem></app> getilgt nach J. H. Vofs.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">est</lem></app> getilgt nach Ald.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">sint</lem></app>] jüng. Hss. (Mead. 2); <foreign xml:lang="la">sunt</foreign> MB.</p>
+</div></div>
+
+<div type="chapter" n="24">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">ut et ab</lem></app>] Mog.; <foreign xml:lang="la">et ab</foreign> B.</p>
+<p><app><lem xml:lang="la">pacata haec</lem></app>] Mog.; <foreign xml:lang="la">pacata</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="25">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">aut opportuna</lem></app>] M; <foreign xml:lang="la">oportuna</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">Argius</lem></app>] B; <foreign xml:lang="la">Argiuus</foreign> Mog.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">hortatusque est</lem></app>] Kr.; <foreign xml:lang="la">hor|tusque</foreign> B, <foreign xml:lang="la">hortatusque</foreign> Mog., <foreign xml:lang="la">hortaturque</foreign> Lov. 2. 6. Hierzu bemerkt Wfsb.2: ’<foreign xml:lang="la">est</foreign> ist wahrscheinlich ausgefallen; schwerlich ist bei <foreign xml:lang="la">atque ita</foreign> ein Anakoluth anzunehmen; vgl. 42, 9, 2.’</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">multi</lem></app> hinzugefügt nach Ascensius.</p>
+</div></div>
+
+<div type="chapter" n="26">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">ordiendum bellum</lem></app>] Fr. 2; <foreign xml:lang="la">ordiundi bellum</foreign> M, <foreign xml:lang="la">ordiendi belli</foreign> B. Hierzu bemerkt Wfsb.2: ’Die La. ist unsicher; <foreign xml:lang="la">ordiendi belli</foreign> könnte etwa als Epexegese zu dem in <foreign xml:lang="la">eadem</foreign> angedeuteten Begriffe (vgl. 26, 19, 8; Cic. Br. 258; Vell. 2, 128, 1; Quint. 12, 9, 7; Tac. Ann. 2, 47; 3, 63; 4, 2) und deshalb als Gen. obi. genommen werden; s. Caes. BG. 7, 76, 2: <foreign xml:lang="la">universae Galliae consensio libertatis vindicandae;</foreign> Tac. Ann. 15, 5: <foreign xml:lang="la">Vologesi vetus et infixum erat Romana arma vitandi</foreign>; ebd. 21 u. a. Auch sonst finden sich Begriffe, die gewöhnlich absolut stehen, bisweilen mit einem Gen. obi., besonders des Gerundiums, verbunden; s. Cic. in Verr. 2, 167: <foreign xml:lang="la">eripiunt tibi orationem contemnendorum Siculorum</foreign> = <foreign xml:lang="la">de contemnendis Siculis</foreign>; p. Sest. 72: <foreign xml:lang="la">dissensio reipublicae</foreign>; Liv. 8, 20, 12; 21, 56, 5; 31, 15, 4; vgl. 35, 49, 13.’</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">intraret agrum</lem></app>] B; <foreign xml:lang="la">introiret agros</foreign> M.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">reciperandae</lem></app>] <foreign xml:lang="la">recuperandae</foreign> Mog., <foreign xml:lang="la">recipiendae</foreign> B.</p>
+<p><app><lem xml:lang="la">convenerunt</lem></app>] B; <foreign xml:lang="la">pervenerunt</foreign> M.</p>
+</div>
+
+<div type="section" n="14">
+<p><app><lem xml:lang="la">Lacedaemone</lem></app>] B; <foreign xml:lang="la">Lacedaemonium</foreign> M.</p>
+</div></div>
+
+<div type="chapter" n="27">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">belli</lem></app>] M; <foreign xml:lang="la">bellum</foreign> B.</p>
+<p><app><lem xml:lang="la">vere vires . . aestimanti</lem></app>] Wfsb.; <foreign xml:lang="la">uere . . aestimanti uires</foreign> M, <foreign xml:lang="la">uires . . aestimanti</foreign> (ohne <foreign xml:lang="la">uere</foreign>) B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">Dromon ipsi vocant</lem></app>] M; fehlt in B.</p>
+<p><app><lem xml:lang="la">iubet</lem></app>] B; <foreign xml:lang="la">iussit</foreign> M.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">custodia</lem></app>] Mog.; <foreign xml:lang="la">custodiam</foreign> B.</p>
+<p><app><lem xml:lang="la">caveatur</lem></app>] M; <foreign xml:lang="la">cauetur</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">citari</lem></app>] Mog.; fehlt in B.</p>
+<p><app><lem xml:lang="la">nocte . . interfecti</lem></app>] B; <foreign xml:lang="la">et nocte interfecit</foreign> M.</p>
+</div></div>
+
+<div type="chapter" n="28">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">velut</lem></app>] B; <foreign xml:lang="la">ueluti</foreign> M.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">derecta</lem></app>] Bessler; <foreign xml:lang="la">erecta</foreign> M, <foreign xml:lang="la">decreta</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">hostem</lem></app>] Mog., jüng. Hss.; fehlt in B.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">infesta ac</lem></app>] M. Müller; ** <foreign xml:lang="la">ac</foreign> M, fehlt in B; <foreign xml:lang="la">infida ac</foreign> Fr. 2. Hierzu bemerkt Wfsb.2: ’<foreign xml:lang="la">infida ac</foreign> kann schwerlich mit Mg. erklärt
+<pb xml:id="p.7.1.198"/>
+
+werden = <foreign xml:lang="la">quae spem salutis fallit</foreign>, da das Wort in dieser Bedeutung kaum, überhaupt mehr von Personen, nur bisweilen von <foreign xml:lang="la">pax, societas</foreign> und <foreign xml:lang="la">foedus</foreign> gebraucht wird.’</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">porta</lem></app>] M; <foreign xml:lang="la">port&amacr;</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="29">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">eodem fere</lem></app>] M; <foreign xml:lang="la">eodem</foreign> B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Gytheum</lem></app>] Mog. (<foreign xml:lang="la">Gyttheum</foreign>); <foreign xml:lang="la">gythium</foreign> B. Vgl. 34, 29, 14. 30, 2. 33, 10. 38, 1; 35, 13, 3. 27, 13 u. a., wo überall Mog. und B in dem <foreign xml:lang="la">e</foreign> vor der Endung übereinstimmen. Ebenso Cic. de off. 3, 49; Plin. 4, 16 (aber ebd. 6, 214: <foreign xml:lang="la">Gythium</foreign>).</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">casu eius</lem></app>] Mog.; <foreign xml:lang="la">casu</foreign> (mit freiem Raum darnach) B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">distenderent</lem></app>] M; <foreign xml:lang="la">descenderent</foreign> B.</p>
+<p><app><lem xml:lang="la">conabantur</lem></app>] M; <foreign xml:lang="la">conantur</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">Dexagoridas</lem></app>] M und jüng. Hss.; <foreign xml:lang="la">dexagorides</foreign> B. Vgl. § 9 <foreign xml:lang="la">dexagoridas</foreign> B, <foreign xml:lang="la">dexag</foreign>. M.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">coegit</lem></app>] M und jüng. Hss.; <foreign xml:lang="la">cogit</foreign> B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">tradidit</lem></app>] M und jüng. Hss.; <foreign xml:lang="la">tradit</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="30">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">et</lem></app> hinzugefügt nach Drak.</p>
+<p><app><lem xml:lang="la">hostilibus</lem></app>] Gr.; <foreign xml:lang="la">hostibus</foreign> Mog. B. Wfsb.2 bemerkt hierzu: ’<foreign xml:lang="la">omnibus circa hostibus</foreign> wäre sehr hart im Sinne von <foreign xml:lang="la">quod omnes circa hostes erant</foreign> und ist, da ähnliche Stellen (s. 2, 9, 6; 5, 34, 9) nicht minder zweifelhaft sind, wahrscheinlich lückenhaft. Vielleicht hat Liv. <foreign xml:lang="la">esse, cum . . omnibus circa &lt;obsessis ab&gt; hostibus,</foreign> dann <foreign xml:lang="la">a mari . . interclusum &lt;cernens&gt;, cedendum . . </foreign> geschrieben’.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">Sosila</lem></app>] ed. vet.; <foreign xml:lang="la">sosiliao</foreign> M, <foreign xml:lang="la">sosilia</foreign> B.</p>
+<p><app><lem xml:lang="la">Achaeorum praetore</lem></app>] M; <foreign xml:lang="la">achaeo</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="31">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">ut</lem></app> getilgt nach Duk.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">nequivi</lem></app>] Fr. 2; <foreign xml:lang="la">nequeo</foreign> Mog. B. Wfsb.2 bemerkt hierzu: ’Die La. <foreign xml:lang="la">nequeo</foreign> wäre hier vor den folgenden Imperfekten sehr auffallend, wenn sich auch bisweilen ähnliche Unregelmäfsigkeiten finden; s. zu 23, 9, 4; 25, 38, 4; 28, 31, 4. 33, 11. Cic. ad Att. 16, 14, 3; p. Sest. 32; p; Sulla 57; p. SRosc. 92; in Verr. 4, 11; Phil. 2, 60; de or. 3, 217 u. a.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">video</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">respexi eum me</lem></app>] Siesbye; <foreign xml:lang="la">respexissem</foreign> M, <foreign xml:lang="la">respexi eum</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">ego eam</lem></app>] M; <foreign xml:lang="la">ego</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">accepi</lem></app>] Fr. 2: <foreign xml:lang="la">accepi urbem</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">eo me</lem></app>] B; eo M.</p>
+<p><app><lem xml:lang="la">cum iam</lem></app>] M; <foreign xml:lang="la">cum</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">eundem</lem></app>] M; <foreign xml:lang="la">eum</foreign> B.</p>
+</div>
+
+<div type="section" n="14">
+<p><app><lem xml:lang="la">liberatis</lem></app>] M; <foreign xml:lang="la">liberandis</foreign> B.</p>
+</div>
+
+<div type="section" n="17">
+<p><app><lem xml:lang="la">Lacedaemone</lem></app>] B; <foreign xml:lang="la">in lacedaemone</foreign> M.</p>
+</div>
+
+<div type="section" n="18">
+<p><app><lem xml:lang="la">ac dignitatis</lem></app>] Fr. 2; <foreign xml:lang="la">ad dignitates</foreign> M, <foreign xml:lang="la">ad dignitatis</foreign> B.</p>
+</div>
+
+<div type="section" n="19">
+<p><app><lem xml:lang="la">me ipse</lem></app>] M; <foreign xml:lang="la">met ipse</foreign> B.</p>
+<p><app><lem xml:lang="la">patria sermonis brevitate</lem></app>] Mg.; <foreign xml:lang="la">patriae sermone brevitatis</foreign> Mog., <foreign xml:lang="la">patrio sermone brevitatis</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="32">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">nos</lem></app>] HJM; <foreign xml:lang="la">eos</foreign> MB; Wfsb.2 sagt hierzu: ’Der Übergang in die erste Person in dem Relativsatze (<foreign xml:lang="la">gereremus</foreign>), der sich an die dritte (<foreign xml:lang="la">eos</foreign>) anschliefst, ist ungewöhnlich; nur ähnlich ist Cic. ad fam. 12, 14, 7: <foreign xml:lang="la">omnia is feci, qui sodalis . . Dolabellae eram</foreign> oder Liv. 32, 21, 15: <foreign xml:lang="la">Achaei . . sustinebimus</foreign> (wo <foreign xml:lang="la">Achaei</foreign> nur Apposition zu dem im Prädikate liegenden <foreign xml:lang="la">nos</foreign> ist) u. a.; vgl. § 13.’</p>
+<p><app><lem xml:lang="la">tam saevo</lem></app> hinzugefügt nach HJM.</p>
+<p><app><lem xml:lang="la">saevissimus et violentissimus</lem></app>] HJM; <foreign xml:lang="la">saeuissimo et uiolentissimo</foreign>
+<pb xml:id="p.7.1.199"/>
+
+MB; Wfsb.2 bemerkt hierzu: ’Ungewöhnlich ist bei der La. <foreign xml:lang="la">quam, qui umquam fuit, saevissimo</foreign> die Trennung des <foreign xml:lang="la">quam</foreign> von dem Superlativ, zu dem jenes gehört; vielleicht ist es aus <foreign xml:lang="la">quidem</foreign> entstanden; vgl. Cic. de fin. 2, 17: <foreign xml:lang="la">et is quidem</foreign>; ad Her. 1, 10 u. a.’. Vgl. dagegen Anton Stud. 2, 78. Madvig streicht <foreign xml:lang="la">quam</foreign>; ich würde ihm gefolgt sein, wenn ich die nun entstehende La. als lateinisch zu belegen wüfste.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">nihil est</lem></app>] Htz.; <foreign xml:lang="la">nihil siin</foreign> B, <foreign xml:lang="la">nihil sit</foreign> Mog. und jüng. Hss.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">ad</lem></app>] B; <foreign xml:lang="la">in</foreign> M.</p>
+</div>
+
+<div type="section" n="16">
+<p><app><lem xml:lang="la">Messenen uno atque</lem></app>] Mog.; <foreign xml:lang="la">esse</foreign> B.</p>
+</div>
+
+<div type="section" n="18">
+<p><app><lem xml:lang="la">ut</lem></app> hinzugefügt nach Duk.</p>
+</div></div>
+
+<div type="chapter" n="33">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">redditurum</lem></app>] Mog.; <foreign xml:lang="la">reddit tria</foreign>  B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">comprobata</lem></app>] M; <foreign xml:lang="la">comparata</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">enim</lem></app>] Mog.; <foreign xml:lang="la">in</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">diuturnam</lem></app>] Mog.; <foreign xml:lang="la">et diuturnam</foreign> B; Wfsb. vermutet, dafs ein Adjektiv ausgefallen sei, und ansprechend ergänzt M. Müller <foreign xml:lang="la">ancipitem</foreign> hinter <foreign xml:lang="la">autem</foreign>; vgl. 6, 22, 3.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">inferri</lem></app>] Mog.; <foreign xml:lang="la">inferre</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">et</lem></app>] B; <foreign xml:lang="la">etiam</foreign> M.</p>
+</div>
+
+<div type="section" n="14">
+<p><app><lem xml:lang="la">inchoata</lem></app>] B; <foreign xml:lang="la">inchoati</foreign>] Mog.</p>
+</div></div>
+
+<div type="chapter" n="34">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">illud modo ne fallat</lem></app>] Mg.; <foreign xml:lang="la">illud modo ne fallat caeterum</foreign> Mog., <foreign xml:lang="la">ceterum</foreign> B; Wfsb.2 bemerkt hierzu: ’Schwerlich läfst sich bei der La. der Mog. mit Gr. <foreign xml:lang="la">illud ceterum</foreign> verbinden, wie 1, 29, 3: <foreign xml:lang="la">ultimum illud</foreign>; wahrscheinlich sind die Worte, die dem Sinne nach dasselbe sagen wie im folgenden <foreign xml:lang="la">hoc ita . . animis</foreign>, unech.’</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">explorandum</lem></app>] B; <foreign xml:lang="la">explorandumque</foreign> Mog., und so schreibt Mg.; Wfsb.2 vermutet <foreign xml:lang="la">&lt;et&gt; explorandum.</foreign></p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">sua</lem></app> hinzugefügt nach Ussing.</p>
+<p><app><lem xml:lang="la">cuiusque</lem></app>] HJM; <foreign xml:lang="la">cuique</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">faceret</lem></app>] B; <foreign xml:lang="la">facere</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="35">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">ex</lem></app> getilgt mit Duk. nach zwei jüng. Hss.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">ceterisque</lem></app>] Mog.; <foreign xml:lang="la">ceteris</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">si qua ante educta forent</lem></app>] B (nur <foreign xml:lang="la">q_</foreign> für <foreign xml:lang="la">qua</foreign> und <foreign xml:lang="la">deducta</foreign>); <foreign xml:lang="la">sine dolo malo si qua publice aut privatim ante educta forent</foreign> M.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">exulis</lem></app>] Fr. 1; <foreign xml:lang="la">exillis</foreign> B, <foreign xml:lang="la">exul</foreign> M, <foreign xml:lang="la">exsilii</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">quasque</lem></app>] Bk.; <foreign xml:lang="la">quasque et</foreign> Mog. B; <foreign xml:lang="la">quas et</foreign> jüng. Hss., <foreign xml:lang="la">quas</foreign> Fr. 2.</p>
+</div></div>
+
+<div type="chapter" n="36">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">offendebat</lem></app>] B; <foreign xml:lang="la">offenderat</foreign> M.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">a Maleo</lem></app>] Fr. 2 (<foreign xml:lang="la">a Malea</foreign>); <foreign xml:lang="la">Maleo</foreign> B, <foreign xml:lang="la">Maleae</foreign> M.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">ut ad ceteram</lem></app>] B; <foreign xml:lang="la">sicut ad caeterorum</foreign> M.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">nullum</lem></app>] B; <foreign xml:lang="la">nullum esse</foreign> Mog.</p>
+<p><app><lem xml:lang="la">tyrannis</lem></app>[ M; <foreign xml:lang="la">tyranno</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="37">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">in circulis</lem></app>] Mog.; <foreign xml:lang="la">circulos</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">ubi</lem></app>] M; <foreign xml:lang="la">ibi</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">et Romanis</lem></app>] jüng. Hss.; <foreign xml:lang="la">qui et Romanis</foreign> B, <foreign xml:lang="la">Romanis</foreign> Ascensius Mog.</p>
+</div></div>
+
+<div type="chapter" n="38">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">planisque</lem></app>] Mog.; <foreign xml:lang="la">planis</foreign> B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">equitumque</lem></app>] Mog.; <foreign xml:lang="la">equitum</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">sublato clamore</lem></app>] B; <foreign xml:lang="la">clamore sublato</foreign> Mog.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">a Dictynneo</lem></app>] Ald.; <foreign xml:lang="la">a Dyctineo</foreign> Mog., <foreign xml:lang="la">adicityranneo</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">laboraret</lem></app>] M; <foreign xml:lang="la">laborabat</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="39">
+<div type="section" n="7">
+<p><app><lem xml:lang="la">hostem</lem></app>] M; <foreign xml:lang="la">hostes</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">circumspectabat</lem></app>] M.; <foreign xml:lang="la">circumspectat</foreign> B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">tum</lem></app>] Mog.; <foreign xml:lang="la">tunc</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="40">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">proficeret</lem></app>] Lov. 5; <foreign xml:lang="la">proficerent</foreign> Mog. B; letzteres hat Wfsb.
+<pb xml:id="p.7.1.200"/>
+
+ind bemerkt dazu: ’<foreign xml:lang="la">ea</foreign> der Inhalt der Rede, das, was man sagte; ist nicht auf <foreign xml:lang="la">oratio</foreign> bezogen; vgl. zu 58, 5; <foreign xml:lang="la">quae</foreign>; 31, 7, 12: <foreign xml:lang="la">haec.</foreign>’</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">oppugnatur tyrannus</lem></app>] B; <foreign xml:lang="la">oppugnarent tyrannum</foreign> M.</p>
+<p><app><lem xml:lang="la">prope</lem></app> getilgt nach P. R. Müller; Wfsb.2 bemerkt dazu: ’<foreign xml:lang="la">prope</foreign> erwartet man nicht neben <foreign xml:lang="la">aliis super alios</foreign>, besonders da diese Formel nicht leicht durch eingeschobene Worte getrennt wird; vielléicht ist es Glossem von <foreign xml:lang="la">tantum non</foreign>; s. 4, 2, 12; 25, 15, 1.’</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">emiserunt</lem></app>] Mog. B; <foreign xml:lang="la">emiserant</foreign> M.</p>
+</div></div>
+
+<div type="chapter" n="41">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">tyrannus</lem></app>] B, Fr. 2; <foreign xml:lang="la">tyranni</foreign> Mog.; <foreign xml:lang="la">tyrannis</foreign> J. Perizonius.</p>
+<p><app><lem xml:lang="la">praebebant</lem></app>] B, Fr. 2; <foreign xml:lang="la">praebebat</foreign> Mog.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">fuerit</lem></app>] B; <foreign xml:lang="la">fuerat</foreign> Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">dominationis</lem></app>] B; <foreign xml:lang="la">dominantis</foreign> Mog.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">quia</lem></app>] B; <foreign xml:lang="la">quum</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="42">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">Ti.</lem></app>] Sig.; <foreign xml:lang="la">t.</foreign> MB. Ebenso 43, 1. 44, 3.</p>
+<p><app><lem xml:lang="la">fuerant</lem></app>] B; <foreign xml:lang="la">fuerunt</foreign> M.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">Thalna</lem></app>] Sig.; <foreign xml:lang="la">talua</foreign> M, <foreign xml:lang="la">halna</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="43">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">facturum</lem></app>] B; <foreign xml:lang="la">facturum esse</foreign> M.</p>
+<p><app><lem xml:lang="la">dubii</lem></app>] Gr.; <foreign xml:lang="la">dubie</foreign> Mog. B. Vgl. Wfsb. zu 2, 36, 6.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">censuisset</lem></app>] M; <foreign xml:lang="la">uoluisset</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="44">
+<div type="section" n="3">
+<p><app><lem xml:lang="la">pridie kal.</lem></app>] M; <foreign xml:lang="la">id.</foreign> B.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">principem</lem></app>] HJM. vermutet, dafs <foreign xml:lang="la">ii</foreign>> <foreign xml:lang="la">principem</foreign> zu schreiben sei; vgl. 27, 11, 8; 32, 7, 3.</p>
+<p><app><lem xml:lang="la">senatus</lem></app>] Mail. Ausg. 1505; <foreign xml:lang="la">senatum</foreign> MB.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">spectabant</lem></app>] M; <foreign xml:lang="la">spectarant</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">Romani</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">consciorum</lem></app>] jüng. Hss.; <foreign xml:lang="la">sociorum</foreign> M, <foreign xml:lang="la">consociorum</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="45">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">habebant</lem></app>] B; <foreign xml:lang="la">habuerunt</foreign> M.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">Merula Q. * *</lem></app>] Gelenius; <foreign xml:lang="la">merulaque</foreign> B, <foreign xml:lang="la">merulaque et</foreign> M (Fr. 2), <foreign xml:lang="la">Merula</foreign> (unter weiterer Auslassung von <foreign xml:lang="la">C. Salonius</foreign>) Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">Nare amni</lem></app>] J. Gr.; <foreign xml:lang="la">narie &amacr;ni</foreign> oder <foreign xml:lang="la">n&amacr;te amni</foreign> oder <foreign xml:lang="la">narre amni</foreign> oder <foreign xml:lang="la">narte amni</foreign> jüng. Hss., <foreign xml:lang="la">Interamne</foreign> Mog., <foreign xml:lang="la">anni</foreign> mit Lücke davor B.</p>
+</div></div>
+
+<div type="chapter" n="46">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Flaccus</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Oscensis quingenta quadraginta, auri pondo mille quadringenta. militibus ex praeda</lem></app>] Fr. 2; <foreign xml:lang="la">oscensis auri quingenta quadraginta pondo, militibus quadringenta millia ex praeda</foreign> M, <foreign xml:lang="la">auri pondo mille quadringenta militibus</foreign> B. Möglich wäre es, dafs das in M hinter <foreign xml:lang="la">quadringenta</foreign> stehende <foreign xml:lang="la">milia</foreign> eigentlich hinter <foreign xml:lang="la">quadraginta</foreign> gehört.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">apertis</lem></app>] B; <foreign xml:lang="la">idoneis</foreign> M.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">hosti</lem></app>] B; <foreign xml:lang="la">hostis</foreign> M.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">pugnandum</lem></app>] M; <foreign xml:lang="la">pugnam</foreign> B.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">iniecerunt</lem></app>] M; <foreign xml:lang="la">iecerunt</foreign> B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">eiecere</lem></app>] Mog.; <foreign xml:lang="la">eiecerunt</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="47">
+<div type="section" n="6">
+<p><app><lem xml:lang="la">perstitit ad vallum</lem></app>] B; <foreign xml:lang="la">circa uallum morata est</foreign> M.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">universi</lem></app>] B; <foreign xml:lang="la">diuersi</foreign> M.</p>
+<p><app><lem xml:lang="la">quae</lem></app>] M; <foreign xml:lang="la">qui</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="48">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">Ligurumque</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">hoc</lem></app>] M; fehlt in B.</p>
+<p><app><lem xml:lang="la">quo</lem></app>] B; <foreign xml:lang="la">ex quo</foreign> M.</p>
+<p><app><lem xml:lang="la">dicundo</lem></app>] M; <foreign xml:lang="la">dicendo</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">haerentem . . civitatis</lem></app>] M; fehlt in B.</p>
+</div></div>
+
+<div type="chapter" n="49">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">gravissimae</lem></app>] jüng. Hss.; <foreign xml:lang="la">gravissima</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">Acrocorinthum</lem></app>] Fr. 2; <foreign xml:lang="la">accorinthum</foreign> Mog. B.</p>
+<pb xml:id="p.7.1.201"/>
+
+<p><app><lem xml:lang="la">vacuam</lem></app>] Ascensius; <foreign xml:lang="la">uacuum</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">ex factis</lem></app>] jüng. Hss. (Mail. Ausg. 1505); <foreign xml:lang="la">factis</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">et</lem></app> hinzugefügt nach Fr. 2.</p>
+</div>
+
+<div type="section" n="11">
+<p><app><lem xml:lang="la">ac</lem></app>] Mog.; <foreign xml:lang="la">hinc</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="50">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">tam necessario</lem></app>] M, Harl.; <foreign xml:lang="la">ac necessario</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">est</lem></app>] B; <foreign xml:lang="la">sit</foreign> M, Prise, de fig. num. 12 (II S. 409 H.). Vgl. 4, 29, 6; 5, 54, 5; 39, 51, 10 u. a.</p>
+<p><app><lem xml:lang="la">ea ratione</lem></app>] B; <foreign xml:lang="la">in ratione</foreign> M.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">Acrocorintho</lem></app>] Fr. 2; <foreign xml:lang="la">agro corinthio</foreign> M, <foreign xml:lang="la">corintho</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="51">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">admonitosque</lem></app>] B; <foreign xml:lang="la">commonitosque</foreign> M.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">vitiis</lem></app>] Ascensius; <foreign xml:lang="la">diuitiis</foreign> Mog. B.</p>
+</div></div>
+
+<div type="chapter" n="52">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">quadraginta tria milia</lem></app>] Mg. nach Plut. Flam. 14; <foreign xml:lang="la">decem et octo</foreign> Mog., <foreign xml:lang="la">X et octo</foreign> B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">tetrachma</lem></app>] Bk.; <foreign xml:lang="la">tetradrachmam</foreign> Mog., <foreign xml:lang="la">detrachiã</foreign> B.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">ut exercitu</lem></app> Bk. nach Fr. 2; <foreign xml:lang="la">exercitu</foreign> Mog.; <foreign xml:lang="la">in exercitu</foreign> B.</p>
+<p><app><lem xml:lang="la">deportato</lem></app>] M; <foreign xml:lang="la">reportato</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="53">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Q. Aelius</lem></app>] Sig.; <foreign xml:lang="la">P. Aemylius</foreign> Mog., <foreign xml:lang="la">p. aemilius</foreign> B, <foreign xml:lang="la">P. Aelius</foreign> Fr. 2.</p>
+</div>
+
+<div type="section" n="4">
+<p><app><lem xml:lang="la">locarant</lem></app>] M; <foreign xml:lang="la">locauerunt</foreign> B, <foreign xml:lang="la">locarunt</foreign> jüng. Hss.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">Ralla</lem></app>] Fr. 1; <foreign xml:lang="la">Hala</foreign> Mog., <foreign xml:lang="la">ahala</foreign> B.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">acta</lem></app>] M; fehlt in B; der ganze Ausdruck <foreign xml:lang="la">haec . . acta</foreign> ist vielleicht zu tilgen nach v. Boltenstern.</p>
+</div></div>
+
+<div type="chapter" n="54">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">venit</lem></app>] M; <foreign xml:lang="la">rediit</foreign> B; vgl. 38, 44, 1.</p>
+</div>
+
+<div type="section" n="2">
+<p><app><lem xml:lang="la">Licinus</lem></app>] Sig.; <foreign xml:lang="la">m. licinius</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">A.</lem></app> hinzugefügt nach Drak.; <foreign xml:lang="la">C</foreign> hat Fr. 2.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">aeque</lem></app>] Crév.; <foreign xml:lang="la">aeque</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">quinquagesimum</lem></app> hinzugefügt nach Glar.</p>
+<p><app><lem xml:lang="la">in promiscuo</lem></app>] M; <foreign xml:lang="la">in promiscuum</foreign> Mog., fehlt in B.</p>
+<p><app><lem xml:lang="la">factum</lem></app>] B; <foreign xml:lang="la">factum sit</foreign> M.</p>
+</div></div>
+
+<div type="chapter" n="55">
+<div type="section" n="6">
+<p><app><lem xml:lang="la">sortiti</lem></app>] B; <foreign xml:lang="la">sortiti sunt</foreign> Mog.</p>
+</div></div>
+
+<div type="chapter" n="56">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">is</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">senatus</lem></app>] B; <foreign xml:lang="la">patrum</foreign> M.</p>
+</div></div>
+
+<div type="chapter" n="57">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">T.</lem></app>] M; fehlt in B.</p>
+</div>
+
+<div type="section" n="6">
+<p><app><lem xml:lang="la">venissent</lem></app>] M; <foreign xml:lang="la">uenisset</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">ex formula</lem></app>] M; <foreign xml:lang="la">ex eo simula</foreign> oder <foreign xml:lang="la">ex aequo simul</foreign> jüng. Hss., fehlt in B.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">nec accipere</lem></app>] B; <foreign xml:lang="la">neque accipere</foreign> M.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">quas</lem></app>] Mog.; <foreign xml:lang="la">quasdam</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="58">
+<div type="section" n="5">
+<p><app><lem xml:lang="la">cum</lem></app> hinzugefügt nach Mg.</p>
+<p><app><lem xml:lang="la">possessa partim</lem></app>] M; <foreign xml:lang="la">partim possessa</foreign> B.</p>
+<p><app><lem xml:lang="la">receperit</lem></app>] B; <foreign xml:lang="la">receperit ita</foreign> M.</p>
+</div>
+
+<div type="section" n="9">
+<p><app><lem xml:lang="la">liberas</lem></app>] B; <foreign xml:lang="la">liberare</foreign> M.</p>
+</div>
+
+<div type="section" n="12">
+<p><app><lem xml:lang="la">Asiae urbes, quae Graii nominis sint</lem></app>] M; <foreign xml:lang="la">Graecas Asiae urbes</foreign> Mog. B, <foreign xml:lang="la">Graecas et Asiae urbes</foreign> jüng. Hss.</p>
+</div></div>
+
+<div type="chapter" n="59">
+<div type="section" n="4">
+<p><app><lem xml:lang="la">quali</lem></app>] B; <foreign xml:lang="la">qualique</foreign> M.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">Europa</lem></app>] ed. vet.; <foreign xml:lang="la">ab europa</foreign> MB.</p>
+</div></div>
+
+<div type="chapter" n="61">
+<div type="section" n="2">
+<p><app><lem xml:lang="la">expertusque</lem></app>] Fr. 2; <foreign xml:lang="la">expertus</foreign> Mog., <foreign xml:lang="la">exercitusque</foreign> B.</p>
+</div>
+
+<div type="section" n="5">
+<p><app><lem xml:lang="la">conviviis</lem></app>] B; <foreign xml:lang="la">conviviisque</foreign> Mog.</p>
+</div>
+
+<div type="section" n="7">
+<p><app><lem xml:lang="la">in occulto</lem></app>] B; <foreign xml:lang="la">et in occulto</foreign> M.</p>
+<p><app><lem xml:lang="la">coqui</lem></app>] Crév.; <foreign xml:lang="la">colloqui</foreign> M, <foreign xml:lang="la">conloqui</foreign> B.</p>
+</div>
+
+<div type="section" n="8">
+<p><app><lem xml:lang="la">conclamare</lem></app>] M; <foreign xml:lang="la">conclamavere</foreign> B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">quo</lem></app>] Lov. 6; <foreign xml:lang="la">in quae</foreign> Mog., <foreign xml:lang="la">quae</foreign> B.</p>
+<p><app><lem xml:lang="la">commeent</lem></app>] Fr. 2; <foreign xml:lang="la">commeant</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="15">
+<p><app><lem xml:lang="la">privatim</lem></app>] Mog.; <foreign xml:lang="la">privata</foreign> B.</p></div>
+<pb xml:id="p.7.1.202"/>
+
+<div type="section" n="16">
+<p><app><lem xml:lang="la">et senatum</lem></app>] B; <foreign xml:lang="la">et ad senatum</foreign> M.</p>
+<p><app><lem xml:lang="la">deferrent</lem></app>] M; <foreign xml:lang="la">referrent</foreign> B.</p>
+</div></div>
+
+<div type="chapter" n="62">
+<div type="section" n="1">
+<p><app><lem xml:lang="la">sensit</lem></app> hinzugefügt nach Fr. 2.</p>
+<p><app><lem xml:lang="la">senatui</lem></app>] B; <foreign xml:lang="la">sensit</foreign> Mog.</p>
+<p><app><lem xml:lang="la">senatu . . suspecto</lem></app>] Fr. 2; <foreign xml:lang="la">senatum . . suspectum</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="3">
+<p><app><lem xml:lang="la">Emporia</lem></app>] Fr. 1; <foreign xml:lang="la">emporiam</foreign> Mog. B.</p>
+<p><app><lem xml:lang="la">in</lem></app> hinzugefügt nach Harant.</p>
+</div>
+
+<div type="section" n="10">
+<p><app><lem xml:lang="la">Aphthirem</lem></app>] Wfsb.; <foreign xml:lang="la">anthirem</foreign> M, <foreign xml:lang="la">amphirem</foreign> B.</p>
+</div>
+
+<div type="section" n="13">
+<p><app><lem xml:lang="la">agatur</lem></app>] B; <foreign xml:lang="la">agitur</foreign> M.</p>
+<p><app><lem xml:lang="la">se possedisse</lem></app>] Crév.; <foreign xml:lang="la">eos possedisse</foreign> Mog. B.</p>
+</div>
+
+<div type="section" n="16">
+<p><app><lem xml:lang="la">omnia suspensa</lem></app>] Bk.; <foreign xml:lang="la">suspensa omnia</foreign> Mog., <foreign xml:lang="la">omnia ipensa</foreign> B.</p></div></div></div>
+</body></text></TEI>

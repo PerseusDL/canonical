@@ -1,0 +1,1030 @@
+<?xml version="1.0"?>
+
+
+
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+	<title type="work" n="Off.">De Officiis: apparatus criticus</title>
+<title type="sub">Machine readable text</title>
+	<author n="Cic.">M. Tullius Cicero</author>
+<editor role="editor" n="Miller">Walter Miller</editor>
+<sponsor>Perseus Project, Tufts University</sponsor><principal>Gregory Crane</principal><respStmt><resp>Prepared under the supervision of</resp><name>Lisa Cerrato</name></respStmt>
+<funder n="org:AnnCPB">The Annenberg CPB Project</funder>
+</titleStmt>
+<extent>About 100Kb</extent>
+<publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+	<monogr>
+		<author>M. Tullius Cicero</author>
+		<title>De Officiis</title>
+		<title>With An English Translation</title>
+		<editor role="editor" n="Miller">Walter Miller</editor>
+		<imprint>
+			<pubPlace>Cambridge</pubPlace>
+			<publisher>Harvard University Press; Cambridge, Mass., London, England</publisher>
+			<date>1913</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+	<refsDecl>
+		<refState unit="book"/>
+		<refState unit="section"/>
+	</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="la">Latin</language>
+<language ident="greek">Greek</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>2006</date>
+<respStmt><name>GRC</name><resp>tagging</resp></respStmt>
+<item></item>
+</change>
+
+--> <change when="2014-11-13" who="Stella Dee">edited markup and assigned CTS URN</change></revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div type="book" n="1">
+<div type="section" n="1">
+<p><app><lem>dicendum</lem></app> Edd.; <hi rend="italics">discendum</hi> MSS. (i.e. acquisition of learning).</p>
+</div>
+<div type="section" n="3">
+<p><app><lem>se</lem></app> A c, Edd.; not in B H a b p.</p>
+<p><app><lem>elaboraret</lem></app> Lambin., Edd.; <hi rend="italics">laboraret</hi> MSS.</p>
+</div>
+<div type="section" n="4">
+<p><app><lem>et neglegendo</lem></app> A H a b, Edd.; <hi rend="italics">et in neglegendo</hi> B o.</p>
+</div>
+<div type="section" n="6">
+<p>de Fin. II, 12 ff.; Tusc. Disp. IV-V; de Off. III, 117</p>
+<p><app><lem>dilectum</lem></app> B H a b, Edd.; <hi rend="italics">delectum</hi> A c.</p>
+<p><app><lem>sequemur</lem></app> Graevius, Edd.; <hi rend="italics">sequimur</hi> MSS.</p>
+</div>
+<div type="section" n="7">
+<p>[a] <hi rend="italics">ratione</hi> Ed.; <hi rend="italics">a ratione</hi> MSS.; <hi rend="italics">ratione</hi> Müller.</p>
+<p>Cicero's definition must have followed here, something like <hi rend="italics">Omne igitur, quod ratione actum est officium appellamus</hi> Unger.</p>
+<p><app><lem>conformari</lem></app> Edd.; <hi rend="italics">confirmari</hi> MSS. (i.e. fortified).</p>
+</div>
+<div type="section" n="8">
+<p><app><lem>officium</lem></app> <foreign xml:lang="greek">kaqh=kon</foreign> <hi rend="italics">vocant</hi> Pearce, Ed., Heine; <hi rend="italics">officium vacant</hi> MSS., Bt.</p>
+</div>
+<div type="section" n="9">
+<p><app><lem>anquirunt</lem></app> A B H b; <hi rend="italics">inquirunt</hi> a c.</p>
+</div>
+<div type="section" n="11">
+<p><app><lem>item</lem></app> Manutius, Edd.; <hi rend="italics">autem</hi> MSS.</p>
+<p><app><lem>procreata sint</lem></app> B H a b; <hi rend="italics">procreata sunt</hi> A (?), Bt.; <hi rend="italics">procreantur</hi> o.</p>
+<p><app><lem>praegressus</lem></app> A H a b, Edd.; <hi rend="italics">progressus</hi> B c.</p>
+</div>
+<div type="section" n="14">
+<p><app><lem>conservandam</lem></app> MSS.; <hi rend="italics">conservanda</hi> codd. aliquot recentiores, Bt.</p>
+</div>
+<div type="section" n="15">
+<p>Phaedr., 250 D</p>
+<p><app><lem>discripta</lem></app> Heine; <hi rend="italics">descripta</hi> MSS., Bt.</p>
+</div>
+<div type="section" n="17">
+<p><app><lem>autem</lem></app> MSS., Müller, Heine; <hi rend="italics">item</hi> Pearce, Ed., Bt.</p>
+</div>
+<div type="section" n="18">
+<p><app><lem>ducimus</lem></app> c, Edd.; <hi rend="italics">dicimus</hi> A B H a b.</p>
+</div>
+<div type="section" n="19">
+<p><app><lem>cognitionis</lem></app> A, Bt., Müller, Heine; <hi rend="italics">cogitationis</hi> B H a b c (error caused by <hi rend="italics">cogitatio</hi> in next line).</p>
+</div>
+<div type="section" n="20">
+<p><app><lem>partes duae</lem></app> B H b; <hi rend="italics">partes duae sunl</hi> c, Bt., Heine.</p>
+</div>
+<div type="section" n="21">
+<p><app><lem>discriptio</lem></app> B, Edd.; <hi rend="italics">descriptio</hi> A H a b c.</p>
+<p><app><lem>e quo</lem></app> A H a b c, Müller; <hi rend="italics">eo</hi> B, <hi rend="italics">de quo</hi> Bt. (suppl.), Heine.</p>
+</div>
+<div type="section" n="22">
+<p>Ep. IX, ad Archytam, 358 A</p>
+</div>
+<div type="section" n="26">
+<p><app><lem>inciderunt</lem></app> A B H L a b; <hi rend="italics">inciderint</hi> c.</p>
+<p>Fab. inc. (Thyestes?) Vahlen2, 404</p>
+</div>
+<div type="section" n="27">
+<p><app><lem>cogitata</lem></app> A B H a b p, Edd.; <hi rend="italics">cogitatu</hi> c, <hi rend="italics">cogitato</hi> alii, Madvig (ad De Fin. p. 696).</p>
+</div>
+<div type="section" n="28">
+<p>Rep. VI, 485 ff.; VII, 520 D</p>
+<p><app><lem>expetant</lem></app> A B a b; <hi rend="italics">expectant</hi> H; <hi rend="italics">exspectant</hi> c.</p>
+<p><app><lem>alterum iustitiae genus assequuntur</lem></app> MSS.; <hi rend="italics">alterum assequuntur</hi> Pearce, J. M. Heusinger, et al.; <hi rend="italics">alterum genus assequuntur</hi> Beier.</p>
+<p><app><lem>ut</lem></app> Halm; in MSS.; om. Bt.</p>
+<p><app><lem>in alterum incidunt</lem></app> A B H a b; <hi rend="italics">in altero delinqunt</hi> c, Bt. (<hi rend="italics">delinquunt,</hi> i.e. they offend in the other direction).</p>
+<p>Rep. I, 347 O</p>
+</div>
+<div type="section" n="30">
+<p>Heaut. Tun. 77.</p>
+</div>
+<div type="section" n="31">
+<p>Ch. VII</p>
+</div>
+<div type="section" n="32">
+<p>e.g. Eur. Hipp. 1315–1319</p>
+<p><app><lem>cui</lem></app> B a, Edd.; <hi rend="italics">cui quod</hi> H b; <hi rend="italics">cui quid</hi> A c.</p>
+</div>
+<div type="section" n="36">
+<p><app><lem>patitur</lem></app> A B H a b; <hi rend="italics">patiatur</hi> c.</p>
+</div>
+<div type="section" n="37">
+<p><app><lem>Popilius . . . movendo</lem></app> bracketed by Madvig, Edd.; <hi rend="italics">Popilius . . . poterat</hi> bracketed by Unger.</p>
+<p><app><lem>effecit</lem></app> Edd.; <hi rend="italics">efficit</hi> MSS.</p>
+</div>
+<div type="section" n="38">
+<p><app><lem>cum cive</lem></app> [Edd.: <hi rend="italics">civi</hi>] <hi rend="italics">aliter contendimus si</hi> L, Anemoe cius, Edd.; <hi rend="italics">cum civiliter contendimus aliter si</hi> A B H a b c.</p>
+<p>Ennius, Ann. VI, Vahlen2, xii, 194–201</p>
+<p><app><lem>Nec</lem></app> A B H b c; <hi rend="italics">Non</hi> L p, Bt., Heine.</p>
+<p><app><lem>virtuti</lem></app> A B2 L c, Edd.; <hi rend="italics">virtute</hi> B1 H b; <hi rend="italics">virtutei</hi> Vahlen.</p>
+</div>
+<div type="section" n="40">
+<p><app><lem>Secundo . . . re non eral</lem></app> om. L c; <hi rend="italics">Secutndo . . . approbavil</hi> om. A B H a b p, Edd.</p>
+</div>
+<div type="section" n="42">
+<p>Oh. VII</p>
+</div>
+<div type="section" n="43">
+<p><app><lem>ab</lem></app> c, Edd.; not in A B H L b.</p>
+</div>
+<div type="section" n="44">
+<p><app><lem>his</lem></app> H a, Edd; <hi rend="italics">iis</hi> A B b; <hi rend="italics">eis</hi> L c.</p>
+</div>
+<div type="section" n="46">
+<p><app><lem>sapiente</lem></app> MSS.; <hi rend="italics">sapienti</hi> Wesenberg, Bt.</p>
+</div>
+<div type="section" n="47">
+<p><app><lem>diligamur</lem></app> A B2 H L b c; <hi rend="italics">diligimur</hi> B1, Bt1.</p>
+</div>
+<div type="section" n="48">
+<p>Op. 349–351</p>
+<p><app><lem>modo</lem></app> A H L b c; <hi rend="italics">si modo</hi> B.</p>
+</div>
+<div type="section" n="49">
+<p><app><lem>sperant</lem></app> Marg. A, Edd.; <hi rend="italics">spectant</hi> A b (<hi rend="italics">spernant</hi> Marg. b).</p>
+</div>
+<div type="section" n="51">
+<p><app><lem>discripta</lem></app> H b, Edd.; <hi rend="italics">descripta</hi> A B L a c.</p>
+<p><app><lem>legibus ipsis</lem></app> Gulielmus, Edd.; <hi rend="italics">e</hi>(<hi rend="italics">ex</hi> c) <hi rend="italics">quibus ipsis</hi> MSS.</p>
+<p><app><lem>Omnium</lem></app> Zumpt, Edd.; <hi rend="italics">omnia</hi> MSS.</p>
+<p>(Telephus?) Vahlen2, Fab. Inc. 398</p>
+<p><app><lem>ipsi lucet</lem></app> Edd.; <hi rend="italics">ipsi luceat</hi> A B H b c; <hi rend="italics">ipsi ut luceat</hi> a.</p>
+</div>
+<div type="section" n="53">
+<p><app><lem>propior</lem></app> A a c (ex corr.), Edd.; <hi rend="italics">proprior</hi> B H b.</p>
+</div>
+<div type="section" n="54">
+<p><app><lem>et</lem></app> Perizonius, Edd.; not in MSS.</p>
+</div>
+<div type="section" n="55">
+<p><app><lem>tamen</lem></app> MSS., Müller; del. Unger, Bt., Heine.</p>
+</div>
+<div type="section" n="56">
+<p><app><lem>efficiturque id quod P. ultimum in amicitia putavit ut</lem></app> Nonius (s.v. ultimum) (i.e. Pythagoras's ideal of friendship is realized).</p>
+</div>
+<div type="section" n="59">
+<p><app><lem>et. . . capienda</lem></app> om. Facciolati, Edd.</p>
+<p><app><lem>deducendoque</lem></app> p; <hi rend="italics">ducendoque</hi> A B H L a b (superser. sec. m. <hi rend="italics">demendo</hi>); <hi rend="italics">demendoque</hi> c.</p>
+</div>
+<div type="section" n="60">
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> MSS.</p>
+</div>
+<div type="section" n="61">
+<p><app><lem>enim</lem></app> A B H b c; <hi rend="italics">etenim</hi> a.</p>
+<p>Inc. Inc. fab., Ribbeck2, 210</p>
+<p><app><lem>"illa"  virgo <quote>viri</quote></lem></app> Ed.; <hi rend="italics">illa virgo viri</hi> MSS.; <hi rend="italics">virago</hi> Orelli</p>
+<p>Enn. Aj., Vahlen2, 18</p>
+<p><app><lem>Leuctris, hinc noster Cocles</lem></app> Baldwin, Edd.; <hi rend="italics">leutris stercocles</hi> A B H a b; <hi rend="italics">leutrister chodes</hi> c; <hi rend="italics">leutris stercodes</hi> L.</p>
+</div>
+<div type="section" n="62">
+<p><app><lem>enim</lem></app> A C, Edd.; not in A B H L b, Bt2.</p>
+</div>
+<div type="section" n="63">
+<p>Menex. 246 E; Laches 197 B</p>
+<p><app><lem>et</lem></app> a, Edd.; not in A B H L b c p.</p>
+</div>
+<div type="section" n="64">
+<p>Laches 182 E</p>
+<p><app><lem>excellet</lem></app> A B H L b c; <hi rend="italics">excellit</hi> a, Bt.</p>
+<p><app><lem>vi</lem></app> a, Edd.; <hi rend="italics">ut</hi> A B H b; <hi rend="italics">utcumque</hi> L c.</p>
+</div>
+<div type="section" n="65">
+<p><app><lem>altissimo animo est, gloriae cupiditate</lem></app> Pearce (confirmed by several MSS.), Edd.; <hi rend="italics">alt. an. et gloriae cupiditate</hi> A B H b p; <hi rend="italics">est alt. an. et gloria et cupiditate</hi> L c.</p>
+</div>
+<div type="section" n="66">
+<p><app><lem>persuasaum est</lem></app> Madvig (ad de Fin. p. 448 ff.), Edd.; p. <hi rend="italics">sit</hi> MSS.</p>
+</div>
+<div type="section" n="68">
+<p><app><lem>vitanda</lem></app> Edd. (cum duobus codd. Guelpherbytanis); <hi rend="italics">videnda</hi> MSS.</p>
+</div>
+<div type="section" n="69">
+<p><app><lem>voluptate nimia</lem></app> Orelli, Müller; <hi rend="italics">voluptate animi</hi> A H L a b c; <hi rend="italics">vol. animi et securitas</hi> (<hi rend="italics">et iracundia ut tr. animi</hi> by a later hand on the margin) B; <hi rend="italics">voluptate</hi> [<hi rend="italics">animi</hi>], Bt., Heine.</p>
+</div>
+<div type="section" n="72">
+<p><app><lem>nihilo</lem></app> Wesenberg, Edd.; <hi rend="italics">nihil</hi> MSS.</p>
+<p><app><lem>est</lem></app> Manutius, Edd.; <hi rend="italics">sit</hi> MSS.</p>
+</div>
+<div type="section" n="73">
+<p><app><lem> maioraque studia efficiendi</lem></app> Unger, Müller; <hi rend="italics">maioraque efficiendi</hi> A1 B H L b c; <hi rend="italics">maiorque cura efficiendi</hi> a, Bt., Heine; <hi rend="italics">maioraque efficienda</hi> A2 p.</p>
+</div>
+<div type="section" n="75">
+<p><app><lem>a</lem></app> Edd.; not in MSS.; <hi rend="italics">se adiutum</hi> A B H b, Edd.; <hi rend="italics">adiuvit</hi> L1 c p; <hi rend="italics">se adiutum ab illo dixerit</hi> (<hi rend="italics">?</hi>) <hi rend="italics">Themistocles</hi> L2.</p>
+</div>
+<div type="section" n="76">
+<p><app><lem>L. partum</lem></app> Lambinus, Müller; <hi rend="italics">partum L.,</hi> Bt.; om. <hi rend="italics">partum</hi> A1 B H L1 a b; <hi rend="italics">L. dilatatum</hi> A2; <hi rend="italics">dilatatum L.</hi> L2 c.</p>
+</div>
+<div type="section" n="77">
+<p>Cic., de temp. suis, iii</p>
+</div>
+<div type="section" n="81">
+<p><app><lem>aliquanto</lem></app> Edd.; <hi rend="italics">aliquando</hi> MSS.</p>
+</div>
+<div type="section" n="82">
+<p>Oh. xxii</p>
+<p><app><lem>calida</lem></app> Nonius, Edd.; <hi rend="italics">callida</hi> MSS.</p>
+<p><app><lem>consilia quietis et cogitatis</lem></app> Edd.; <hi rend="italics">consilia et quietis et cogitationis</hi> A B H a b; <hi rend="italics">consilia et quietis cogitationibus</hi> c p.</p>
+</div>
+<div type="section" n="83">
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> MSS.</p>
+</div>
+<div type="section" n="84">
+<p><app><lem>quidem Lacedaemoniis</lem></app> Edd., <hi rend="italics">quidem de Lacedaemoniis</hi> MSS.</p>
+<p>Ann. xii, Vahlen2, 370–372</p>
+<p><app><lem>Noenum rumores ponebat</lem></app> Lachmann (ad Lucr. III, 198); <hi rend="italics">Non enim rumores ponebat</hi> MSS.; <hi rend="italics">Non ponebat enim</hi> alii.</p>
+<p><app><lem>audeant</lem></app> Ernesti; <hi rend="italics">audent</hi> MSS., Bt.1, Heine.</p>
+</div>
+<div type="section" n="85">
+<p>Rep. i, 342 E</p>
+<p>Rep. iv, 420 B</p>
+</div>
+<div type="section" n="87">
+<p>Rep. vi, 488 B; 489 O</p>
+<p>Rep. viii, 567 O; Leg. ix, 856 B</p>
+</div>
+<div type="section" n="88">
+<p><app><lem>punitur</lem></app> Nonius, Edd.; <hi rend="italics">punit</hi> a; <hi rend="italics">puniet</hi> A B H b c.</p>
+<p><app><lem>castigat</lem></app> MSS.; <hi rend="italics">fatigat</hi> Nonius, Orelli.</p>
+</div>
+<div type="section" n="90">
+<p><app><lem>itemque</lem></app> H2 a, Edd.; <hi rend="italics">idemque</hi> A B H1 L b c.</p>
+<p><app><lem>accepimus</lem></app> B2 a c, Edd.; <hi rend="italics">accipimus</hi> A B1 H b.</p>
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> MSS.</p>
+</div>
+<div type="section" n="91">
+<p><app><lem>neve</lem></app> Nonius, Edd.; <hi rend="italics">nec</hi> MSS.</p>
+</div>
+<div type="section" n="92">
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> MSS.</p>
+<p><app><lem>parta</lem></app> B1, Edd.; <hi rend="italics">parata</hi> A B2 H L a b c.</p>
+<p><app><lem>deinde . . . parsimonia</lem></app> Edd., after Unger, transpose; in MSS. it follows <hi rend="italics">tum . . . pareat.</hi></p>
+</div>
+<div type="section" n="93">
+<p><app><lem>dicitur. Huius</lem></app> Edd.; <hi rend="italics">dicitur decorum. huius</hi> MSS.</p>
+</div>
+<div type="section" n="96">
+<p><app><lem>discriptio</lem></app> b, Edd.; <hi rend="italics">descriptio</hi> A B H a; <hi rend="italics">distinctio</hi> L c.</p>
+</div>
+<div type="section" n="97">
+<p>Cic., Or. xxii, 71</p>
+<p><app><lem>Sed tum</lem></app> L c, Edd.; <hi rend="italics">sed ut tum</hi> A B H b.</p>
+<p>Attius, Atreus, Ribbeok2, 203</p>
+<p>ibid., 226</p>
+<p><app><lem>reliquarum</lem></app> A1 B1 H a b; <hi rend="italics">reliquorum</hi> A2 B2 c.</p>
+</div>
+<div type="section" n="101">
+<p><app><lem>natura</lem></app> Edd.; <hi rend="italics">naturae</hi> MSS.</p>
+<p><app><lem>et</lem></app> L c, Edd.; not in A B H b.</p>
+<p><app><lem>fugiendumque</lem></app> A B H a b; <hi rend="italics">fugiendumve</hi> L c p.</p>
+<p><app><lem>discriptio</lem></app> B H, Bt.1; <hi rend="italics">descriptio</hi> A L a b c, Bt.2, Müller, Heine.</p>
+</div>
+<div type="section" n="102">
+<p><app><lem>ii</lem></app> Edd.; <hi rend="italics">hi</hi> a; <hi rend="italics">hii</hi> H; <hi rend="italics">hij</hi> c.</p>
+</div>
+<div type="section" n="104">
+<p><app><lem>fit, ut si remisso animo, gravissimo homine dignus</lem></app> Ed.; <hi rend="italics">fit, ut</hi> (<hi rend="italics">et</hi> c) <hi rend="italics">remisso animo homine dignus</hi> MSS.; <hi rend="italics">fit aut si rem. an. magno homine</hi> Madvig; <hi rend="italics">fit, ut sit remissio animo, homine dignus</hi> Unger.</p>
+<p><app><lem>turpitudini adhibetur verborum</lem></app> A B H a b, Edd.; <hi rend="italics">turpitudo adhibetur et verborum, </hi> L c.</p>
+</div>
+<div type="section" n="106">
+<p><app><lem>volumus</lem></app> A B1 H1 b; <hi rend="italics">volemus</hi> B2 H2, Bt., Heirie; <hi rend="italics">velimus</hi> L; <hi rend="italics">vellemus</hi> c.</p>
+</div>
+<div type="section" n="108">
+<p><app><lem>Graeci</lem></app> <foreign xml:lang="greek">ei)/rwna</foreign> <hi rend="italics">Graeci</hi> Edd.; <hi rend="italics">ironia graeci</hi> A B H b; <hi rend="italics">ironian graeci</hi> a; <hi rend="italics">greci mironian</hi> c.</p>
+</div>
+<div type="section" n="109">
+<p><app><lem>qui</lem></app> A L c; <hi rend="italics">si</hi> B H a b.</p>
+<p><app><lem>alium</lem></app> [<hi rend="italics">quemque</hi>] <hi rend="italics">quamvis</hi> Ed.; <hi rend="italics">alium quemque quamvis</hi> MSS.; <hi rend="italics">quemque alium quamvis</hi> p; <hi rend="italics">aliquem, quamvis</hi> Pearce, Bt.; <hi rend="italics">alium quamvis</hi> Facciolati, Heine.</p>
+<p><app><lem>et in patre et in filio</lem></app> A B b, Edd.; <hi rend="italics">et in patre et filio</hi> H a; <hi rend="italics">et patre et filio</hi> L c. <hi rend="italics">itemque</hi> B H2, Bt.1, Müller; <hi rend="italics">idemque</hi> A H1 L a b c, Bt.2, Heine. <hi rend="italics">in Q Mucio ° Mancia</hi> Heine, Bt.2; <hi rend="italics">in q. mucio mantia</hi> B; <hi rend="italics">in q. mutio mancia</hi> H L c; <hi rend="italics">in q. mutio</hi> <hi rend="italics">mantia</hi> a; <hi rend="italics">inque mucio mantia</hi> b; <hi rend="italics">inque mutio mantia A;</hi> <hi rend="italics">in q. muntio mantia</hi> p; <hi rend="italics">in Q. Mucio, Mancia</hi> Müller.</p>
+<p><app><lem>ne</lem></app> (<hi rend="italics">nec</hi> c) <hi rend="italics">Xenocratem</hi> (<hi rend="italics">-n</hi> L c) ... <hi rend="italics">philosophorum</hi> MSS.; bracketed by Heumann, Edd.</p>
+</div>
+<div type="section" n="110">
+<p><app><lem> studia nostra nostrae naturae regula</lem></app> Ernesti, Bt., Heine; <hi rend="italics">studia nostra nostra</hi> (corr. ex <hi rend="italics">nostri</hi>) <hi rend="italics">regula</hi> A; <hi rend="italics">studia nostrae</hi> <hi rend="italics">regulae</hi> B; <hi rend="italics">studia nostrae regul&amacr;</hi> H; <hi rend="italics">studia nostra regula</hi> a; <hi rend="italics">studio</hi> (corr. in <hi rend="italics">studii</hi>) <hi rend="italics">nostri regula</hi> b; <hi rend="italics">studia nostra natural</hi> <hi rend="italics">regula</hi> L c, Nonius; <hi rend="italics">studia nostrae naturae regular</hi> Müller.</p>
+</div>
+<div type="section" n="111">
+<p><app><lem>cum</lem></app> Lambinus, Edd.; not in MSS.</p>
+<p><app><lem>innatus</lem></app> Bt., Edd.; <hi rend="italics">notus</hi> MSS.</p>
+</div>
+<div type="section" n="112">
+<p><app><lem>alius in eadem causa non debeat</lem></app> L c p, Müller, Heine; not in A B H b; <hi rend="italics">alius non debeat a; alius</hi> [<hi rend="italics">in eadem causa</hi>] <hi rend="italics">non debeat</hi> Bt., Ed.</p>
+</div>
+<div type="section" n="113">
+<p><app><lem>et iocundum</lem></app> L c p; not in A B H a b; [<hi rend="italics">et iucundum</hi>] Bt., Ed.</p>
+</div>
+<div type="section" n="114">
+<p><app><lem>Suum</lem></app> Orelli; not in MSS.; but p has <hi rend="italics">ingenium suum.</hi></p>
+<p><app><lem>tam</lem></app> L c, Edd.; <hi rend="italics">tam</hi> (i.e. <hi rend="italics">tamen</hi>) A B H b.</p>
+</div>
+<div type="section" n="115">
+<p><app><lem>nobilitas, h., divitiae</lem></app> Unger; <hi rend="italics">nobilitatem, h., divitias</hi> MSS.</p>
+</div>
+<div type="section" n="116">
+<p><app><lem>ii</lem></app>Edd.; <hi rend="italics">hii</hi> A H b; <hi rend="italics">hij</hi> c; <hi rend="italics">hi</hi> B a.</p>
+</div>
+<div type="section" n="118">
+<p><app><lem> Nam quod</lem></app> L c, Edd.; <hi rend="italics">namque</hi> A B H a b.</p>
+<p><app><lem>Prodicus</lem></app> Manutius, Edd.; <hi rend="italics">prodigus</hi> L c; <hi rend="italics">prodigum</hi> B H b.</p>
+<p>Mem. II, i, 21–34</p>
+<p><app><lem>item</lem></app> Edd.; <hi rend="italics">idem</hi> MSS.</p>
+<p><app><lem>sine</lem></app> Stuerenburg, Edd. plerique; <hi rend="italics">sive</hi> MSS., Bt. 1</p>
+</div>
+<div type="section" n="119">
+<p><app><lem>excellenti</lem></app> L c; <hi rend="italics">excellente</hi> A B H a b; <hi rend="italics">excellentis</hi> p.</p>
+<p><app><lem> est ei rei</lem></app> Gruter, Edd.; <hi rend="italics">est eius rei</hi> L c p; <hi rend="italics">est rei</hi> A B H b; <hi rend="italics">esteia.</hi></p>
+</div>
+<div type="section" n="121">
+<p><app><lem>possit</lem></app> J. M. Heusinger, Edd.; <hi rend="italics">possint</hi> MSS.</p>
+<p><app><lem>et</lem></app> (<hi rend="italics">sed</hi> b) <hi rend="italics">vitium</hi> A B H a b; [<hi rend="italics">et vitium</hi>] Bt.2, Ed.; <hi rend="italics">et</hi> <hi rend="italics">vicium</hi> c; <hi rend="italics">et impium</hi> L p, Bt.1, Heine.</p>
+</div>
+<div type="section" n="122">
+<p><app><lem>si ne in . . . nolent</lem></app> Stuerenburg, Edd.; <hi rend="italics">si in . . . nolint</hi> A B H a b; <hi rend="italics">si in . . . volent</hi> L c; <hi rend="italics">si in . . . non nolint</hi> Lambinus.</p>
+</div>
+<div type="section" n="124">
+<p><app><lem>de civium</lem></app> MSS.; [<hi rend="italics">de civium</hi>] Hieron., Wolff, Edd.</p>
+<p><app><lem>discribere</lem></app> Bt., Ed., Heine; <hi rend="italics">describere</hi> MSS.</p>
+<p><app><lem>efferentem</lem></app> A H1 L a b c; <hi rend="italics">ecferentem</hi> B H2, Ed.</p>
+</div>
+<div type="section" n="126">
+<p><app><lem>foedumn</lem></app> Klotz, Müller, Heine; <hi rend="italics">forman</hi> A B H a b; <hi rend="italics">turpem</hi> L c, Bt.</p>
+</div>
+<div type="section" n="127">
+<p><app><lem>turpe non est</lem></app> a, Edd.; <hi rend="italics">non turpe est</hi> L; <hi rend="italics">nonturpe</hi> (om. <hi rend="italics">est</hi>) c; <hi rend="italics">turpe non turpe est</hi> A B H b (the first <hi rend="italics">turpe</hi> crossed out in A B).</p>
+</div>
+<div type="section" n="128">
+<p><app><lem>quae turpia</lem></app> B b, Edd.; <hi rend="italics">quae re turpia</hi> L c; <hi rend="italics">quae . . . </hi> <hi rend="italics">autem</hi> om. H.</p>
+<p><app><lem>quae turpia</lem></app> B H b, Edd.; <hi rend="italics">quae re turpia</hi> L c.</p>
+<p><app><lem>re</lem></app> B H, Edd.; not in A L b c p.</p>
+</div>
+<div type="section" n="130">
+<p><app><lem>ineptiis non vacant</lem></app> A B H a b; <hi rend="italics">inepti non vacant offensione</hi> L c p.</p>
+</div>
+<div type="section" n="131">
+<p><app><lem>in</lem></app> Edd.; not in MSS.</p>
+</div>
+<div type="section" n="132">
+<p><app><lem>quae</lem></app> A2 c, Edd.; <hi rend="italics">quoniam</hi> (per compend.) A1 B H a b.</p>
+</div>
+<div type="section" n="135">
+<p><app><lem>enim isdem</lem></app> (<hi rend="italics">hisdem</hi> B H) A B H b, Müller; <hi rend="italics">enim oMnes isdem</hi> L c, most Edd.</p>
+</div>
+<div type="section" n="137">
+<p><app><lem>maqnam autem partem</lem></app> Lambinus, Edd.; <hi rend="italics">inagna autem parte</hi> MSS</p>
+</div>
+<div type="section" n="138">
+<p><app><lem>est usus </lem></app>L c, Edd.; <hi rend="italics">et usus</hi> B H a b.</p>
+<p><app><lem>et</lem></app> Lc,Edd.; not in BH b.</p>
+</div>
+<div type="section" n="139">
+<p><app><lem>fit</lem></app> Bt., Ed.; <hi rend="italics">sit</hi> B H a b; <hi rend="italics">est</hi> L (corr. ex <hi rend="italics">sit</hi> b). Müller, Heine; not in c.</p>
+<p><app><lem>heu</lem></app> Edd.; <hi rend="italics">et</hi> MSS.: <hi rend="italics">ei</hi> Schenkl.</p>
+<p>[nc. inc. fab., Ribbeck 2, 184–185</p>
+</div>
+<div type="section" n="140">
+<p><app><lem>mediocritatemque: que</lem></app> italicized by Ed., but attested by B H L b o.</p>
+</div>
+<div type="section" n="141">
+<p><app><lem>ad liberalem speciem et dignitatem</lem></app> B H b, Edd.; <hi rend="italics">ad</hi> <hi rend="italics">liberalitatem specie et dignitate</hi> L c p.</p>
+<p><app><lem>moderata</lem></app> L c p, Edd.; <hi rend="italics">moderanda</hi> B H a b.</p>
+</div>
+<div type="section" n="142">
+<p><app><lem>oportunitate(m)</lem></app> Ed.</p>
+<p><app><lem>oportunum</lem></app> Ed.</p>
+<p><app><lem> oportunitatis</lem></app> Ed.</p>
+</div>
+<div type="section" n="143">
+<p>Ch. vi</p>
+</div>
+<div type="section" n="144">
+<p><app><lem>convivio digna</lem></app> B H a b, Edd.; <hi rend="italics">convivio dignum c;</hi> <hi rend="italics">convivii dicta</hi> L p.</p>
+<p><app><lem>Atqui</lem></app> Müller, Heine; <hi rend="italics">atque</hi> MSS., Bt.</p>
+</div>
+<div type="section" n="145">
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> MSS.</p>
+<p><app><lem>videndum</lem></app> L c, Edd.; <hi rend="italics">vivendum</hi> B H a b.</p>
+</div>
+<div type="section" n="146">
+<p><app><lem>animadversores</lem></app>[<hi rend="italics">que</hi>] Ed.; <hi rend="italics">animadversoresque</hi> MSS.; <hi rend="italics">animadversoresque</hi> Bt.; <hi rend="italics">animadversores</hi> Orelli. Müler, Heine.</p>
+<p><app><lem>dedeceat</lem></app> a c, Edd.; <hi rend="italics">deceat</hi> H L b; <hi rend="italics">non deceat</hi> B. <hi rend="italics">in illis</hi> a Bt.1, Ed.; <hi rend="italics">in illos</hi> B H b c; <hi rend="italics">illos</hi> L, Bt.2</p>
+</div>
+<div type="section" n="147">
+<p><app><lem>et ab aliis</lem></app> a, Bt., Ed.; <hi rend="italics">aliis</hi> B H b; <hi rend="italics">et cum aliis</hi> c; <hi rend="italics">et ex</hi> <hi rend="italics">allis</hi> Unger, Müller.</p>
+</div>
+<div type="section" n="149">
+<p><app><lem>sic ut</lem></app> L p, Nonius; not in B H b o.</p>
+</div>
+<div type="section" n="150">
+<p>Eunuchus II, 26</p>
+</div>
+<div type="section" n="151">
+<p><app><lem> homine libero</lem></app> Edd.; <hi rend="italics">homine nihil libero</hi> B H L a b c.</p>
+<p>O.M. XV-XVII</p>
+<p><app><lem>illim</lem></app> B1, Edd.; <hi rend="italics">ilium</hi> H; <hi rend="italics">illa</hi> B2 p; <hi rend="italics">illinc</hi> a b c; <hi rend="italics">illic</hi> L.</p>
+</div>
+<div type="section" n="153">
+<p><app><lem>copiis</lem></app> [<hi rend="italics">quamvis</hi>] <hi rend="italics">omnia</hi> Ed.; <hi rend="italics">copiis quamvis omnia</hi> MSS.; <hi rend="italics">copiis onnia</hi> Lambinus, Bt., Müller, Heine.</p>
+</div>
+<div type="section" n="154">
+<p><app><lem> re ipsa</lem></app> B H a b, Bt., Ed.; <hi rend="italics">re ab se</hi> L c (i.e. <hi rend="italics">reapse</hi> Orelli, Müller, Heine); <hi rend="italics">ab ipsa re</hi> p.</p>
+</div>
+<div type="section" n="155">
+<p><app><lem>utilitatem</lem></app> B H a b; <hi rend="italics">caritatem</hi> L c p (affection).</p>
+</div>
+<div type="section" n="157">
+<p><app><lem>cogitandique</lem></app> L c p, Edd.; <hi rend="italics">congregandique </hi> B H a b.</p>
+<p><app><lem>communitate</lem></app> p (per compendium), Bt.2, Miller, Heine; <hi rend="italics">comitate</hi> A B H L a b c.</p>
+</div>
+<div type="section" n="158">
+<p>Plato, Rep. II, 369 B; Arist., Pol. I, 1253 A</p>
+</div>
+<div type="section" n="159">
+<p><app><lem>hoc</lem></app> L c p, Edd.; <hi rend="italics">haec</hi> B H a b.</p>
+</div>
+<div type="section" n="160">
+<p><app><lem>id</lem></app> a, Edd.; <hi rend="italics">ut</hi> b; <hi rend="italics">hoc</hi> B H L c p.</p>
+<p><app><lem>Etenim .. . prudenter</lem></app> bracketed by Unger.</p>
+</div></div>
+
+<div type="book" n="2">
+<div type="section" n="1">
+<p><app><lem>in quo. . . maxime utile</lem></app> bracketed by Heumann, Facciolati, Edd.; <hi rend="italics">tum ex. . . maxime utile</hi> not in B H a b.</p>
+</div>
+<div type="section" n="4">
+<p><app><lem> molestias</lem></app> L c p, Nonius, Edd.; not in B H a b.</p>
+<p><app><lem>temporibus</lem></app> Victorius, Edd.; <hi rend="italics">temporis</hi> B H a b; <hi rend="italics">tempori</hi> L c p.</p>
+</div>
+<div type="section" n="5">
+<p><app><lem>expetunt</lem></app> L c p, Edd.; <hi rend="italics">expetant</hi> H; <hi rend="italics">expectant</hi> B a b.</p>
+</div>
+<div type="section" n="6">
+<p>Hortensius, de Div., II, 1.</p>
+</div>
+<div type="section" n="8">
+<p><app><lem>disputatur</lem></app> Edd.; <hi rend="italics">disputantur</hi> MSS.</p>
+<p><app><lem>posset</lem></app> a c; <hi rend="italics">possit</hi> B H b.</p>
+<p><app><lem>Academicis nostris</lem></app> II, 20 ff.</p>
+</div>
+<div type="section" n="10">
+<p><app><lem>haec tria genera confusa</lem></app> B H a b, Bt.2, Heine; <hi rend="italics">haec tria</hi> <hi rend="italics">genere confusa</hi> c, Bt.1, Müller; <hi rend="italics">haec tria genera, re confusa</hi> J. F. Heusinger.</p>
+<p><app><lem> Quicquid . . . sit utile</lem></app> bracketed by Unger, Bt.2, Müller, Heine.</p>
+</div>
+<div type="section" n="11">
+<p><app><lem>alia</lem></app> H2 (inserted above the line) a, Edd.; not in B H1 b; <hi rend="italics">partim </hi> c.</p>
+<p><app><lem>apes</lem></app> MSS.; bracketed by Facciolati, Edd.</p>
+</div>
+<div type="section" n="13">
+<p><app><lem>his</lem></app> H, Edd.; <hi rend="italics">iis</hi> B L b; <hi rend="italics">hijs</hi> c.</p>
+<p>(Attius, Prometheus?), Inc, inc. fab. Ribbeck2, 154.</p>
+<p><app><lem>subveniri</lem></app> L c, Müller, Heine; <hi rend="italics">subvenire</hi> B H a b, Bt., Ed.</p>
+</div>
+<div type="section" n="14">
+<p><app><lem>et, quae nocent</lem></app> Bt.2; <hi rend="italics">et eae, quae nocent</hi> B H b, Bt.1; <hi rend="italics">et</hi> <hi rend="italics">ea quae nocent</hi> L; <hi rend="italics">ea quae nocent</hi> c.</p>
+</div>
+<div type="section" n="15">
+<p><app><lem>qui . . . subveniretur</lem></app> Gernhard, Edd.; <hi rend="italics">qui . . . subveniret</hi> B H; <hi rend="italics">quis... subveniret</hi> L c; <hi rend="italics">quid</hi> . <hi rend="italics">... subveniret</hi> a b.</p>
+<p><app><lem>distat</lem></app> L c p, Müller, Heine; <hi rend="italics">destitit</hi> B H a b, Bt.</p>
+<p><app><lem>discriptio</lem></app> H b; <hi rend="italics">descriptio</hi> B a c.</p>
+<p><app><lem>mutuandisque facultatibus et commodandis</lem></app> Nonius, Bt.2, Müller; <hi rend="italics">mutandisque facultatibus et commodis</hi> MSS., Bt.l, Heine.</p>
+</div>
+<div type="section" n="16">
+<p><app><lem>bello</lem></app> B H a b, Müller, Heine; <hi rend="italics">belli</hi> L c p, Bt.</p>
+</div>
+<div type="section" n="17">
+<p><app><lem>usu et</lem></app> L c p; not in B H a b; bracketed by Bt.1</p>
+<p><app><lem>virorum praestantium</lem></app> bracketed by Ed.</p>
+</div>
+<div type="section" n="21">
+<p><app><lem>eam</lem></app> c, Edd.; <hi rend="italics">ea</hi> B H a b.</p>
+</div>
+<div type="section" n="22">
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> B H a b; <hi rend="italics">hijs </hi> c</p>
+<p><app><lem>promissisque</lem></app> L c, Edd.; <hi rend="italics">promissionisque</hi> B H a b; <hi rend="italics">pro.</hi> <hi rend="italics">missionibusque</hi> alii.</p>
+</div>
+<div type="section" n="23">
+<p>(Thyestes?) Fab. inc. Valhen2, 402.</p>
+<p><app><lem>ac paret cumn maxime mortuo</lem></app> Halm, Müller, Heine; <hi rend="italics">paretque cum maxime mortuo</hi> c1, Bt.; <hi rend="italics">paretque, c. m. m.</hi> L; <hi rend="italics">apparet, cuius maxime mortui</hi> b; <hi rend="italics">apparet cuius maxime</hi> <hi rend="italics">portui</hi> B H a.</p>
+<p><app><lem> valeat</lem></app> c;<hi rend="italics"> valet</hi> B H a b.</p>
+</div>
+<div type="section" n="24">
+<p><app><lem>ut eris</lem></app> Baiter; <hi rend="italics">ut eriis</hi> B; <hi rend="italics">uteris</hi> L; <hi rend="italics">utere hiis</hi> H; <hi rend="italics">utere</hi> <hi rend="italics">iis</hi> b; <hi rend="italics">utere his</hi> a; <hi rend="italics">utantur eis</hi> c.</p>
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> B H L a; <hi rend="italics">hijs</hi> c; <hi rend="italics">hiis</hi> b.</p>
+</div>
+<div type="section" n="29">
+<p><app><lem>P.</lem></app> c, Edd.; L. B H a b.</p>
+</div>
+<div type="section" n="30">
+<p><app><lem>P.</lem></app> c, Edd.; L. B H a b.</p>
+<p><app><lem> aegue</lem></app> Lund; <hi rend="italics">eaque</hi> MSS.</p>
+</div>
+<div type="section" n="33">
+<p><app><lem>et fidis</lem></app>MSS.; del. Facciolati, Pearce; [<hi rend="italics">et fidis</hi>] Bt., Ed.</p>
+<p><app><lem>iis</lem></app> B; <hi rend="italics">his</hi> H a b; <hi rend="italics">hijs</hi> c.</p>
+</div>
+<div type="section" n="35">
+<p><app><lem>loquimur</lem></app> B; <hi rend="italics">loquamur</hi> H a b; <hi rend="italics">loquemur</hi> c.</p>
+</div>
+<div type="section" n="36">
+<p><app><lem>iis</lem></app> Bt.; <hi rend="italics">his</hi> B H; <hi rend="italics">hijs</hi> c; not in a b.</p>
+<p><app><lem>iis</lem></app> Bt.; <hi rend="italics">his</hi> B H a b; <hi rend="italics">hijs</hi> c.</p>
+<p><app><lem>haud contemnunt quidem</lem></app> b, Bt.2; <hi rend="italics">contemnunt quidem</hi> <hi rend="italics">nautiquam</hi> B H a p, Bt.1, Heine; <hi rend="italics">contemnunt quidem uequaquam</hi> c; <hi rend="italics">non contemnunt quidem</hi> Madvig, Müller.</p>
+<p><app><lem>iis</lem></app> B, Edd.; <hi rend="italics">his</hi> H a b; <hi rend="italics">hijs</hi> c.</p>
+<p><app><lem>ii</lem></app> B b; <hi rend="italics">hii</hi> H; <hi rend="italics">hi</hi> a; <hi rend="italics">hij</hi> c. So § 37.</p>
+</div>
+<div type="section" n="37">
+<p><app><lem>maioris partis animos</lem></app> c, Edd.; <hi rend="italics">maiores parties animi</hi> B; <hi rend="italics">maiores partis animi</hi> H a b.</p>
+</div>
+<div type="section" n="39">
+<p><app><lem>iniusti habebuntur</lem></app> B H b; bracketed by Facciolati, Edd.</p>
+</div>
+<div type="section" n="40">
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> B H a b, not in c.</p>
+<p>I, 96.</p>
+</div>
+<div type="section" n="41">
+<p><app><lem>inops</lem></app> inferior MSS., Edd.; <hi rend="italics">in otio</hi> (i.e. <quote>at will</quote>) B H a b p; <hi rend="italics">inicio</hi> ( = <hi rend="italics">initio</hi>) c.</p>
+<p><app><lem>infimis</lem></app> c, Edd.; <hi rend="italics">infirmis</hi> B a b; <hi rend="italics">infirmos</hi> H.</p>
+<p><app><lem>retinebat</lem></app> c, Edd.; <hi rend="italics">pertinebat</hi> B H a p; <hi rend="italics">pertinebant</hi> b.</p>
+</div>
+<div type="section" n="43">
+<p>Xen. Mem. II, 6, 39.</p>
+<p><app><lem>veram gloriam</lem></app> Edd.; <hi rend="italics">veram iustitiae gloriam</hi> MSS.</p>
+<p>I, 20–41.</p>
+</div>
+<div type="section" n="45">
+<p><app><lem>ii</lem></app> B, Edd.; <hi rend="italics">hi</hi> H; <hi rend="italics">iis</hi> b; <hi rend="italics">hij</hi> c; <hi rend="italics">his</hi> a.</p>
+<p><app><lem>alteri</lem></app> MSS.: om. Graevius, Edd.</p>
+</div>
+<div type="section" n="46">
+<p><app><lem>cum</lem></app> Victorius, Edd.; <hi rend="italics">tum</hi> MSS.</p>
+</div>
+<div type="section" n="47">
+<p><app><lem>et, qua</lem></app> Manutius, Edd.; <hi rend="italics">ex qua</hi> MSS.</p>
+</div>
+<div type="section" n="48">
+<p><app><lem>orationis</lem></app> MSS., Ed.; bracketed by Fleckeisen, Bt.2, Müller, Heine.</p>
+<p><app><lem>blande appellando sermone</lem></app> a c, Edd.; <hi rend="italics">blando appellando sermone</hi> B H b; <hi rend="italics">blande appellando</hi> Gulielmus (with three inferior MSS.), Bt., Heine; [<hi rend="italics">sermone</hi>] Ed.</p>
+<p><app><lem>excitat gloriam</lem></app> MSS.; <hi rend="italics">excitat</hi> [<hi rend="italics">gloriam</hi>] Ed.; <hi rend="italics">excitat</hi> Lange.</p>
+</div>
+<div type="section" n="49">
+<p><app><lem>el apud populum</lem></app> c, Edd.; not in B H a b.</p>
+</div>
+<div type="section" n="51">
+<p><app><lem>modo ne nefarium</lem></app> L c, Edd.; <hi rend="italics">modo nefarium</hi> Nonius; <hi rend="italics">et nefarium</hi> B H a b.</p>
+</div>
+<div type="section" n="52">
+<p><app><lem>beneficentia</lem></app> Edd.; <hi rend="italics">beneficientia</hi> MSS. (ubique).</p>
+</div>
+<div type="section" n="53">
+<p><app><lem>in</lem></app> B H a b; not in L c p.</p>
+<p><app><lem>epistula</lem></app> H, Heine; <hi rend="italics">epistola</hi> B L a b c.</p>
+<p><app><lem>praebitorem</lem></app> B H L b c p; <hi rend="italics">praebitorem putant</hi> a.</p>
+<p><app><lem>sperent . . . praebitorem</lem></app> L c p, Edd.; not in B H a b.</p>
+</div>
+<div type="section" n="56">
+<p>Not found in our Aristotle.</p>
+<p><app><lem>Ait enim</lem></app> Ed.; <hi rend="italics">at hi</hi> a; <hi rend="italics">at hii</hi> H; <hi rend="italics">at ii</hi> B b; <hi rend="italics">at hij</hi> c.</p>
+<p><app><lem>cogerentur</lem></app> B H a b; <hi rend="italics">cogantur</hi> L c p.</p>
+<p><app><lem>capiatur</lem></app> Beier; not in MSS.</p>
+</div>
+<div type="section" n="57">
+<p><app><lem>postuletur</lem></app> B H a b, Heine; <hi rend="italics">postularetur</hi> L c p, Bt.</p>
+</div>
+<div type="section" n="58">
+<p><app><lem>M.</lem></app> Orelli, Ed.; <hi rend="italics">Marco</hi> MSS.</p>
+</div>
+<div type="section" n="59">
+<p><app><lem>his</lem></app> H, Edd.; <hi rend="italics">hijs</hi> c; <hi rend="italics">iis</hi> B b; <hi rend="italics">is</hi> L.</p>
+</div>
+<div type="section" n="60">
+<p>The portion here referred to is lost.</p>
+</div>
+<div type="section" n="62">
+<p>Fab. inc. Vahlen2, 409.</p>
+</div>
+<div type="section" n="63">
+<p><app><lem>ergo</lem></app> B H a b, Müller; <hi rend="italics">ego</hi> L c p, Lactantius, Bt., Heine.</p>
+<p><app><lem>longe</lem></app> L c p, Lactantius, Edd.; not in B H a b.</p>
+</div>
+<div type="section" n="64">
+<p><app><lem>dilabi</lem></app> L c, Ed., Heine; <hi rend="italics">delabi</hi> B H a b, Bt.</p>
+</div>
+<div type="section" n="65">
+<p><app><lem>consilio iuvare</lem></app> MSS., Ed.; bracketed by Muther, Müller, Heine.</p>
+</div>
+<div type="section" n="66">
+<p><app><lem>dicendi gravior facultas</lem></app> B H b; <hi rend="italics">gravior facultas</hi> L c p; <hi rend="italics">dicendi</hi> [<hi rend="italics">gravior</hi>] <hi rend="italics">facultas</hi> Ed.; <hi rend="italics">dicendi facultas</hi> Lambinus.</p>
+<p><app><lem>huic quoque ergo</lem></app> B H L b c, Bt.; <hi rend="italics">huic ergo</hi> Facciolati; <hi rend="italics">huic</hi> [<hi rend="italics">quoque</hi>] <hi rend="italics">ergo</hi> Ed.</p>
+<p><app><lem>in toga dignitatis</lem></app> L c p, Edd.; <hi rend="italics">in tota dignitatis</hi> B H b; <hi rend="italics">in tota dignitate</hi> a.</p>
+</div>
+<div type="section" n="68">
+<p><app><lem>videbitur</lem></app> L c p, Edd.; not in B H b; <hi rend="italics">est,</hi> a.</p>
+</div>
+<div type="section" n="69">
+<p><app><lem>gratiam . . . habere</lem></app> L c p, Edd.; not in B H a b.</p>
+<p><app><lem>vero se</lem></app> B H a b; <hi rend="italics">vero tuo se</hi> L c p.</p>
+</div>
+<div type="section" n="70">
+<p><app><lem>putet</lem></app> Ed.; <hi rend="italics">putat</hi> MSS.</p>
+<p><app><lem>si</lem></app> L c p, Edd.; not in B H a b.</p>
+</div>
+<div type="section" n="71">
+<p><app><lem>utentior</lem></app> MSS., Bt.1, Heine; <hi rend="italics">potentior</hi> later MSS.; <hi rend="italics">opulentior</hi> one MS. (C. Lange), Lambinus, Bt.2, Müller.</p>
+</div>
+<div type="section" n="72">
+<p><app><lem>partim</lem></app> L c p, Edd.; <hi rend="italics">quae</hi> (<hi rend="italics">que = quae</hi> H) <hi rend="italics">partim</hi> B H a b.</p>
+</div>
+<div type="section" n="74">
+<p><app><lem>malo enim</lem></app> B H L b p; <hi rend="italics">malo enim alii</hi> a; <hi rend="italics">malo enim aliene</hi> (= <hi rend="italics">alienae</hi>) c.</p>
+<p><app><lem>sunt</lem></app> B H b, Bt.2; <hi rend="italics">sunt ad victum</hi> L c p, Bt.1, Heine.</p>
+</div>
+<div type="section" n="75">
+<p><app><lem>dona accipere</lem></app> B H L a c p; <hi rend="italics">accipere dona</hi> b, Ed.</p>
+<p><app><lem>tantum</lem></app> [<hi rend="italics">Italicum</hi>] Bake, Edd.; <hi rend="italics">tantum Italicum</hi> L c p; <hi rend="italics">tantum Iliacum</hi> B H; <hi rend="italics">tanti militari cum</hi> b.</p>
+</div>
+<div type="section" n="76">
+<p><app><lem> abstinentiae</lem></app> L c p, Edd.; <hi rend="italics">sapientiae</hi> B H a b.</p>
+<p><app><lem>potitus</lem></app> J. F. Heusinger; <hi rend="italics">potitus</hi> [<hi rend="italics">est</hi>] Edd.; <hi rend="italics">potitus est</hi> MSS.</p>
+<p><app><lem>intulit</lem></app> B H b, Edd.; <hi rend="italics">detulit</hi> L c p.</p>
+</div>
+<div type="section" n="77">
+<p>Plut., Inst. Lacon. 239 F.</p>
+</div>
+<div type="section" n="78">
+<p>§73.</p>
+</div>
+<div type="section" n="79">
+<p><app><lem>accepit</lem></app> L c, Edd.; <hi rend="italics">accipit</hi>B H a b p.</p>
+</div>
+<div type="section" n="80">
+<p><app><lem>Ac</lem></app> Edd.; <hi rend="italics">at</hi>MSS.</p>
+<p><app><lem>malorum</lem></app> L c p, Edd.; <hi rend="italics">maiorum</hi> B H a b.</p>
+</div>
+<div type="section" n="81">
+<p><app><lem>oppressisset</lem></app> L c p, Edd.; <hi rend="italics">pressisset</hi> B H a b.</p>
+<p><app><lem>moveri</lem></app> L c p, Edd.; <hi rend="italics">movere</hi> B H a b.</p>
+</div>
+<div type="section" n="82">
+<p><app><lem>Cui</lem></app> Edd.; <hi rend="italics">qui</hi> MSS.</p>
+</div>
+<div type="section" n="83">
+<p><app><lem>subicere</lem></app> L c p, Edd.; <hi rend="italics">subiacere</hi> B H a b.</p>
+</div>
+<div type="section" n="84">
+<p><app><lem> cogitarat, ea</lem></app> B H a b, Bt.2, Müller; <hi rend="italics">cogitarat, cum ipsius intcrerat, tum ea</hi> c p, Bt.1, Heine.</p>
+</div>
+<div type="section" n="85">
+<p><app><lem>persequentur</lem></app> c; <hi rend="italics">persequuntur</hi> b, Bt.2; <hi rend="italics">persecuntur</hi> B H p, Bt.1, Heine.</p>
+</div>
+<div type="section" n="86">
+<p><app><lem>praetermittendis voluptatibus</lem></app> MSS.; del. Heine, Edd.</p>
+</div>
+<div type="section" n="87">
+<p><app><lem>Sed . . . disputatum est</lem></app> transposed from § 90 by Unger, Edd.</p>
+<p><app><lem>vellem</lem></app> c p, Bt.1, Ed.; not in B H a b, Bt.2</p>
+<p><app><lem>Ianum</lem></app> c, Edd.; <hi rend="italics">ianuae</hi> B H a b p.</p>
+<p><app><lem>Sed . . . disputatum est</lem></app> transposed from § 90 by Unger, Edd.</p>
+</div>
+<div type="section" n="88">
+<p>[<hi rend="italics">et . . . corporis</hi>] bracketed by Unger, Edd.</p>
+<p>[<hi rend="italics">cum corporis . . . corporis viribus</hi>] bracketed by Unger, Edd.</p>
+</div>
+<div type="section" n="89">
+<p><app><lem>quid tertium:</lem></app> <quote><hi rend="italics">Male pascere</hi></quote> c p, Edd.; not in B H a b.</p>
+<p><app><lem>officiorum genus.</lem></app> Here follows in MSS. <hi rend="italics">Sed toto . . . disputatum est</hi> transposed to § 87.</p>
+</div>
+</div>
+
+<div type="book" n="3">
+<div type="section" n="1">
+<p><app><lem>M.</lem></app> Nonius; <hi rend="italics">Marce</hi> MSS.</p>
+</div>
+<div type="section" n="2">
+<p><app><lem>e</lem></app> c, Edd.; <hi rend="italics">a</hi> a; not in B H b.</p>
+</div>
+<div type="section" n="3">
+<p><app><lem> ex his ipsis</lem></app> c, Edd.; <hi rend="italics">ex his</hi> a; <hi rend="italics">ex ipsis</hi> B H b.</p>
+<p><app><lem>debebat is</lem></app> c, Edd.; <hi rend="italics">debebat</hi> B H b; <hi rend="italics">debebat is</hi> corr. in <hi rend="italics">debebat</hi> a.</p>
+</div>
+<div type="section" n="4">
+<p><app><lem>a</lem></app> c, Edd.; not in B H a b.</p>
+</div>
+<div type="section" n="5">
+<p><app><lem>uberior</lem></app> c, Edd.; <hi rend="italics">uerior</hi> B H a b.</p>
+</div>
+<div type="section" n="6">
+<p><app><lem>ut, cum</lem></app> c, Edd.; <hi rend="italics">ut ne, cum</hi> B H a b.</p>
+</div>
+<div type="section" n="10">
+<p><app><lem>et non perfecisset</lem></app> MSS.; del. Muretus; bracketed by Edd.</p>
+</div>
+<div type="section" n="13">
+<p><app><lem>Atque</lem></app> MSS., Bt.1, Müller, Heine; <hi rend="italics">atqui</hi> Fleckeisen, Bt.2, Ed.</p>
+</div>
+<div type="section" n="15">
+<p><app><lem>compareant</lem></app> Anemoecius, Edd.; <hi rend="italics">comparant</hi> B H a b; <hi rend="italics">appareant</hi> c; <hi rend="italics">comparent</hi> p.</p>
+<p><app><lem>idem</lem></app> Nonius, Müller, Heine; <hi rend="italics">autem</hi> B H a b; <hi rend="italics">item</hi> c, Bt.</p>
+<p><app><lem>iis</lem></app> Baiter, Müller, Heine; <hi rend="italics">his</hi> B H a b; <hi rend="italics">hijs</hi> c.</p>
+<p><app><lem>qui quidem</lem></app> many MSS., Bt.1, Müller; <hi rend="italics">qui idem</hi> B H a b c; <hi rend="italics">qui</hi> [<hi rend="italics">idem</hi>] Bt.2, Heine.</p>
+</div>
+<div type="section" n="16">
+<p><app><lem>aut Aristides</lem></app> (<hi rend="italics">Aristidesve</hi> p) MSS., Lactantius; bracketed by J. M. Heusinger, Edd.</p>
+<p><app><lem>hoc</lem></app> Lactantius; Edd.; <hi rend="italics">his</hi> MSS.</p>
+</div>
+<div type="section" n="18">
+<p><app><lem>sit</lem></app> c, Bt.2, Müller; not in B H a b, Bt.1; <hi rend="italics">est</hi> Heine.</p>
+</div>
+<div type="section" n="19">
+<p><app><lem>esse</lem></app> c, Edd.; not in B H a b.</p>
+<p><app><lem>utilitatem secuta est</lem></app> MSS., Müller, Heine; <hi rend="italics">utilitatem; honestatem utilitas secuta est</hi> Baiter, Ed.</p>
+</div>
+<div type="section" n="20">
+<p><app><lem>disseruntur</lem></app> certain MSS., C. Lange and Fr. Fabricius, Müller, Heine; <hi rend="italics">disserentur</hi> MSS., Bt.</p>
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> (<hi rend="italics">hijs</hi> c) MSS.</p>
+<p><app><lem>et honestum . . . et utile</lem></app> Lambinus, Bt.2, Müller, Heine; <hi rend="italics">et honestum . . . aut utile</hi> B H a b; <hi rend="italics">aut honestum . . . aut utile</hi> c, Bt.1</p>
+</div>
+<div type="section" n="24">
+<p><app><lem>Detrahere . . . generis eiusdem</lem></app> MSS.; bracketed by Baiter, Edd.</p>
+</div>
+<div type="section" n="26">
+<p><app><lem>fugiendam</lem></app> b, Ed.; <hi rend="italics">fugienda</hi> B H a c.</p>
+<p><app><lem>sed</lem></app> c, Edd.; <hi rend="italics">et</hi> B H a b.</p>
+</div>
+<div type="section" n="28">
+<p><app><lem>ii</lem></app> Bt., Ed.; <hi rend="italics">hi</hi> B a b; <hi rend="italics">hii</hi> H <hi rend="italics">hij</hi> c.</p>
+<p><app><lem>quae vacent iustitia</lem></app> MSS., Ed., Heine; <hi rend="italics">quae vacent iniustitia</hi> cod. Ubaldini, Bt.1; <hi rend="italics">quae non v. iustitia</hi> O.</p>
+</div>
+<div type="section" n="29">
+<p><app><lem>Minime ... gratia</lem></app> Bracketed by Unger, Edd.</p>
+</div>
+<div type="section" n="32">
+<p><app><lem>humanitatis corpore</lem></app> Muret, cod. Guelf., Ed., Bt., Heine; <hi rend="italics">humanitate corporis</hi> MSS., Müller; Unger strikes out <hi rend="italics">corporis.</hi></p>
+</div>
+<div type="section" n="33">
+<p><app><lem>superioribus . . . ex quibus</lem></app> Walker, Bt.2, Ed.; <hi rend="italics">ex superioribus. . . quibus</hi> MSS., Bt.1; <hi rend="italics">superioribus . . . quibus</hi> Heine.</p>
+</div>
+<div type="section" n="34">
+<p><app><lem>ea . . . incidissent</lem></app> MSS., Bt.1, Heine, Ed.; <hi rend="italics">eam</hi> [repugnantiam] . . . <hi rend="italics">incidisset</hi> Unger, Bt.2</p>
+<p><app><lem>venerunt</lem></app> Manutius, Edd.; <hi rend="italics">venerint</hi> MSS.</p>
+</div>
+<div type="section" n="35">
+<p><app><lem> re utilitas et turp.</lem></app> c, Edd.; <hi rend="italics">re utili turpitudo</hi> B H a b.</p>
+</div>
+<div type="section" n="38">
+<p>Rep. II, 359 O.</p>
+<p><app><lem>invisitata</lem></app> B H1, Edd.; <hi rend="italics">iiusitata</hi> H2 a b c.</p>
+<p><app><lem>ni</lem></app>(<hi rend="italics">c</hi>) <hi rend="italics">hilo</hi> c, Edd.; <hi rend="italics">nihil</hi> B H a b.</p>
+<p><app><lem>peccare . . . haberet</lem></app> MSS.; bracketed by Madv., Bt.</p>
+</div>
+<div type="section" n="39">
+<p><app><lem>nequaquan</lem></app> Manutius, Bt., Ed., Heine; <hi rend="italics">quamquam</hi> (and yet it is possible) MSS., Müller.</p>
+</div>
+<div type="section" n="41">
+<p><app><lem>causam</lem></app> c, Edd.; <hi rend="italics">causa</hi> B H a b.</p>
+</div>
+<div type="section" n="42">
+<p><app><lem>causam</lem></app> c, Edd.; <hi rend="italics">causa</hi> B H a b.</p>
+<p><app><lem>quicum</lem></app> MSS., Bt., Heine; <hi rend="italics">quocum</hi> Ed.</p>
+</div>
+<div type="section" n="44">
+<p><app><lem> erit</lem></app> Ed., Bt.2, Heine; <hi rend="italics">sit</hi> MSS.; <hi rend="italics">est</hi> Bt.1</p>
+<p><app><lem>adhibere</lem></app> B H a, Bt., Ed.; <hi rend="italics">habere</hi> b c, Lact., Müller.</p>
+</div>
+<div type="section" n="45">
+<p><app><lem>sit</lem></app> Manutius, Edd.; <hi rend="italics">est</hi> MSS., Nonius.</p>
+</div>
+<div type="section" n="48">
+<p><app><lem>Xerxemque</lem></app> B H a b, Bt., Heine; <hi rend="italics">Xersenque c;</hi> <hi rend="italics">Xersemque</hi> Nonius, Ed.</p>
+<p><app><lem>Atqui</lem></app> Victorius, F, Bt.2, Ed.; <hi rend="italics">Atque</hi> MSS., Bt.1</p>
+</div>
+<div type="section" n="50">
+<p>§ 40.</p>
+</div>
+<div type="section" n="52">
+<p><app><lem>vilitas</lem></app> a, Edd.; <hi rend="italics">utilitas</hi> B H b c.</p>
+<p><app><lem>immo . . . est</lem></app> c, Ed., Heine; <hi rend="italics">immo vero necesse est p;</hi> <hi rend="italics">immo vero [inquiet ille] necesse est</hi> Bt.</p>
+</div>
+<div type="section" n="53">
+<p><app><lem>idem</lem></app> B H a b; <hi rend="italics">i</hi>d c, Bt.</p>
+</div>
+<div type="section" n="54">
+<p><app><lem>sint</lem></app> Bt.1, Ecd, Heine; not in MSS., Bt.2</p>
+</div>
+<div type="section" n="56">
+<p><app><lem>sunt</lem></app> MSS., Bt.1, Heine, Ed.; <hi rend="italics">est</hi> [dissensio] Unger, Bt.2</p>
+</div>
+<div type="section" n="57">
+<p><app><lem>Rhodios</lem></app> c, Edd.; <hi rend="italics">Rhodius</hi> B H a b.</p>
+</div>
+<div type="section" n="58">
+<p><app><lem>dictitabat</lem></app> c, Edd.; <hi rend="italics">dictabat</hi> B H a b.</p>
+<p><app><lem>tempori</lem></app> B H b, Bt.1, Ed.; <hi rend="italics">tempore</hi> a c; <hi rend="italics">temperi</hi> Fl., Bt.2, Heine.</p>
+</div>
+<div type="section" n="60">
+<p><app><lem>quaereretur</lem></app> Edd., with authority; <hi rend="italics">quaererem</hi> MSS.</p>
+</div>
+<div type="section" n="61">
+<p><app><lem>Atque MSS.,</lem></app> Bt.1, Müller, Heine; <hi rend="italics">Atqui</hi> Manutius, Ed., Bt.2</p>
+<p><app><lem>ut tutela</lem></app> MSS., Bt., Müller; <hi rend="italics">ut in tutela</hi> Heine, Ed.</p>
+<p><app><lem>non illicitatorem</lem></app> c (<hi rend="italics">inl.</hi>) p, Edd.; <hi rend="italics">non licitatorem</hi> B H a b.</p>
+</div>
+<div type="section" n="62">
+<p>Medea, Vahlen2 273.</p>
+</div>
+<div type="section" n="63">
+<p><app><lem>Huic</lem></app> c, Edd.; <hi rend="italics">Huius</hi> B H a b.</p>
+</div>
+<div type="section" n="64">
+<p><app><lem>certe</lem></app> Lamb., Edd.; <hi rend="italics">recte</hi> MSS.</p>
+<p><app><lem>istum</lem></app> p c, Edd.; <hi rend="italics">iustum</hi> B H a b.</p>
+</div>
+<div type="section" n="65">
+<p><app><lem>esset</lem></app> p c, Edd.; <hi rend="italics">est</hi> B H a b.</p>
+</div>
+<div type="section" n="66">
+<p><app><lem>Ti.</lem></app> Lange, Edd.; <hi rend="italics">titum</hi> MSS.</p>
+<p><app><lem>vendidit</lem></app> B H a b; <hi rend="italics">et vendidit</hi> p c; Edd. omit.</p>
+</div>
+<div type="section" n="67">
+<p><app><lem>comprehendi</lem></app> MSS.; <hi rend="italics">om.nes comprehendi</hi> Bt., Heine.</p>
+<p><app><lem>serviebant</lem></app> Heus., Edd.; <hi rend="italics">sergio serviebant</hi> B H a b; <hi rend="italics">sergio alii serviebat</hi> c.</p>
+</div>
+<div type="section" n="68">
+<p><app><lem>domum propter vitia vendas</lem></app> Bracketed by Unger, Edd.</p>
+</div>
+<div type="section" n="73">
+<p><app><lem>haec</lem></app> c, Edd.; <hi rend="italics">hoc</hi> B H a b.</p>
+</div>
+<div type="section" n="74">
+<p><app><lem>turpem notam temporum nomen illorum</lem></app> H a (<hi rend="italics">turpe</hi>) b, Bt.; excl. <hi rend="italics">nomen illorum</hi> Victorius, Ed.; <hi rend="italics">turpe nomen illo</hi> <hi rend="italics">rum temporum</hi> c.</p>
+<p><app><lem>propulsat</lem></app> cod. Bern., O., Edd.; <hi rend="italics">propulsat a suis</hi> Edd.</p>
+<p>§ 23.</p>
+</div>
+<div type="section" n="77">
+<p><app><lem>C.</lem></app> Bt., Ed., Heine; not in MSS.</p>
+</div>
+<div type="section" n="79">
+<p><app><lem>et iam</lem></app> Edd.; <hi rend="italics">etiam</hi> MSS.</p>
+</div>
+<div type="section" n="81">
+<p><app><lem>aut hunc</lem></app> c, Edd.; <hi rend="italics">atque hunc</hi> B H a b.</p>
+<p><app><lem>ea species forma</lem></app> B H a b; <hi rend="italics">ea specie forma</hi> c p; <hi rend="italics">ea formal</hi> Klotz, Heine, Ed.; <hi rend="italics">ea species</hi> Bt.</p>
+</div>
+<div type="section" n="82">
+<p>Eur. Phoen. 524–525.</p>
+<p><app><lem>Eteocles vel potius Euripides</lem></app> Bracketed by Ed., Heine, et al.</p>
+</div>
+<div type="section" n="83">
+<p><app><lem>fuerit quaeque</lem></app> c, Edd.; <hi rend="italics">fuit</hi> B H a b.</p>
+<p><app><lem>dirigenda</lem></app> MSS., Edd. plerique; <hi rend="italics">derigenda</hi> Ed. </p>
+</div>
+<div type="section" n="84">
+<p><app><lem></lem></app> <hi rend="italics">beni(e>)voli</hi> Stiirenbg.; <hi rend="italics">benivoli sunt</hi> c; <hi rend="italics">boni sunt</hi> B H a b.</p>
+<p><app><lem>Inc. Fab.,</lem></app> Ribbeck2, 651.</p>
+</div>
+<div type="section" n="86">
+<p><app><lem>potenti</lem></app> Nonius, Edd.; <hi rend="italics">potente</hi> MSS.</p>
+</div>
+<div type="section" n="88">
+<p><app><lem>quod</lem></app> L c, Edd.; <hi rend="italics">quo</hi> B H a b.</p>
+</div>
+<div type="section" n="89">
+<p><app><lem>dirigit</lem></app> MSS., Edd. plerique; <hi rend="italics">derigit</hi> Ed.</p>
+<p><app><lem>quam navigantem</lem></app> Heus., Edd.; <hi rend="italics">quam si navigantem</hi> MSS.</p>
+<p><app><lem>est</lem></app> c, Nonius; <hi rend="italics">sit</hi> B H a b.</p>
+</div>
+<div type="section" n="90">
+<p><app><lem>sibine uterque</lem></app> Victorius, Edd.; <hi rend="italics">sibi neuter</hi> MSS.</p>
+</div>
+<div type="section" n="91">
+<p><app><lem>si cui</lem></app> c, Nonius, Edd.; <hi rend="italics">sicut</hi> B H a b.</p>
+<p><app><lem>vinum</lem></app> c, Nonius, Edd.; <hi rend="italics">venenum</hi> B H a b p.</p>
+</div>
+<div type="section" n="92">
+<p><app><lem>itcrum eo</lem></app> Pearce, Edd.; <hi rend="italics">item eo</hi> B H a b; <hi rend="italics">item tum</hi> c.</p>
+</div>
+<div type="section" n="94">
+<p><app><lem>iis</lem></app> Edd.; <hi rend="italics">his</hi> B H a b; <hi rend="italics">hijs</hi> c.</p>
+<p><app><lem>Atque</lem></app> MSS., Bt.1, Müller, Heine; <hi rend="italics">Atqui</hi> Fl., Bt.2, Ed.</p>
+</div>
+<div type="section" n="95">
+<p><app><lem>quod</lem></app> Ed.; not in MSS., Bt., et al.</p>
+<p><app><lem>facias</lem></app> c, Bt., Ed., Heine; <hi rend="italics">facies</hi> A B H a b, Müller.</p>
+</div>
+<div type="section" n="96">
+<p>§§ 15 ff.</p>
+<p>§§ 40–70.</p>
+<p>§§ 71–95.</p>
+</div>
+<div type="section" n="98">
+<p>(Accius or Pacuvius, Judicium Armorum?) <hi rend="italics">Inc.</hi> inc. <hi rend="italics">fab.,</hi> Ribbeck2, 55–60.</p>
+<p><app><lem>percepset</lem></app> Bt., Ed., Heine; <hi rend="italics">percepisset</hi> MSS.; <hi rend="italics">perspexet</hi> Müller.</p>
+<p><app><lem>sacratae</lem></app> Edd.; <hi rend="italics">sacrata</hi> B H a b; <hi rend="italics">sacratum</hi> c.</p>
+</div>
+<div type="section" n="100">
+<p><app><lem>num</lem></app> A L c, Edd.; <hi rend="italics">nam</hi> B H a b.</p>
+</div>
+<div type="section" n="102">
+<p><app><lem>Num</lem></app> Edd.; <hi rend="italics">non</hi> MSS.</p>
+<p><app><lem>habebat</lem></app> L c, Edd.; <hi rend="italics">habebit</hi> A B H a b.</p>
+<p><app><lem>fregistin</lem></app> Edd.; <hi rend="italics">freqistine</hi> A B H a b; <hi rend="italics">fregisti</hi> L c.</p>
+<p>Atreus; Ribbeck2, 227–228.</p>
+</div>
+<div type="section" n="103">
+<p><app><lem>quaeque</lem></app> Forchhammer, Müller, Heine; not in MSS., Bt., Ed.</p>
+</div>
+<div type="section" n="104">
+<p>(Thyestes?) <hi rend="italics">Fab. inc.,</hi> Vahlen2, 403.</p>
+<p>Unknown.</p>
+</div>
+<div type="section" n="105">
+<p><app><lem>non modo non</lem></app> B H a; <hi rend="italics">non modo nos</hi> c; <hi rend="italics">non modo</hi> L c p, Edd.</p>
+<p><app><lem>habet</lem></app> L c, Edd.; <hi rend="italics">habeat</hi> A B H a b.</p>
+</div>
+<div type="section" n="106">
+<p>Accius, Atreus; Ribbock2 228.</p>
+</div>
+<div type="section" n="107">
+<p><app><lem>Est . . . servanda</lem></app> bracketed by Unger, Bt.2, Ed.</p>
+<p><app><lem>sit</lem></app> Edd. plerique; <hi rend="italics">est</hi> MSS., Bt.1</p>
+</div>
+<div type="section" n="108">
+<p><app><lem>Scite enim</lem></app> A L c, Edd.; <hi rend="italics">scit enim</hi> B H a b.</p>
+<p>Hippolytus 612.</p>
+<p><app><lem>vinctos</lem></app> A L c, Edd.; <hi rend="italics">victos</hi> B H a b.</p>
+</div>
+<div type="section" n="110">
+<p>§ 102.</p>
+<p>§ 103.</p>
+</div>
+<div type="section" n="112">
+<p><app><lem>Primo luci</lem></app> Beier, Heine, Ed.; <hi rend="italics">primo lucis</hi> c; <hi rend="italics">prima luci</hi> A B H a b.</p>
+</div>
+<div type="section" n="113">
+<p><app><lem> Novem . . . quam erat</lem></app> c, Bt.1, Ed.; om. A B H a b; <hi rend="italics">unum qui</hi> Unger, Bt.2</p>
+<p><app><lem>astringit</lem></app> c p, Ed., Heine; <hi rend="italics">distringit</hi> A B H a b, Unger, Bt.</p>
+</div>
+<div type="section" n="114">
+<p>§ 114 bracketed by Heus., Bt., as un-Ciceronian.</p>
+</div>
+<div type="section" n="115">
+<p><app><lem>C.</lem></app> Heine, Ed.; not in MSS.</p>
+</div>
+<div type="section" n="116">
+<p><app><lem>viris</lem></app> c p, Edd.; <hi rend="italics">veris</hi> A B H b.</p>
+</div>
+<div type="section" n="117">
+<p><app><lem>sicuti</lem></app> L c, Edd.; <hi rend="italics">sicut id</hi> A B H a b.</p>
+<p><app><lem>dolore. Et</lem></app> Müller, Heine; <hi rend="italics">dolore: ut</hi> MSS., Bt.; <hi rend="italics">dolore. Ut</hi> Ed.</p>
+</div>
+<div type="section" n="118">
+<p><app><lem>expetantur</lem></app> A, Edd.; <hi rend="italics">expectantur</hi> B a; <hi rend="italics">exspectantur</hi> c.</p>
+</div>
+<div type="section" n="119">
+<p><app><lem>et Malorum</lem></app> Omitted by Muretus; bracketed by Heine, Ed., et al.</p>
+<p>De Finibus, II.</p>
+</div>
+<div type="section" n="120">
+<p><app><lem>videtur</lem></app> c, Edd.; <hi rend="italics">videretur</hi> B H a b; <hi rend="italics">viderentur</hi> A.</p>
+</div>
+<div type="section" n="121">
+<p><app><lem>iis</lem></app> Edd.;<hi rend="italics">his</hi> A B H a b; <hi rend="italics">hijs</hi> c.</p>
+<p><app><lem>monitis</lem></app> Lambinus, Edd.; <hi rend="italics">monumentis</hi> A B H a b; <hi rend="italics">monimentis</hi> c.</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>
+
