@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Ásmundar saga kappabana</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Ásmundar saga kappabana</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Asmundar_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="289"/> BUÐLI er konungr nefndr. Hann réð fyrir Svíþjóðu, ríkr ok ágætr. Þat var háttr
+      hans at elska mjök smiðu, þá er hann fekk hagasta ok honum gerði gersemar. Hann átti
+      drottningu ok dóttur, er Hildr hét. Þat varð þar til tíðenda, at drottning andaðist, ok var
+      konungr kvánlauss. Þess er getit, at eitt kveld kómu tveir menn til konungs ok gengu fyrir
+      hann með kveðju. Konungr spurði, hverir þeir væri, en annarr nefndist Olíus, en annarr Alíus,
+      "ok vildim vit hér vetrvist þiggja." Hann spurði, er þeir væri hagleiksmenn nokkurir eða búnir
+      við íþróttum. Þeir kváðust kunna at gera hagliga hvern hlut, þann er smíða skyldi. Konungr
+      vísaði þeim til sætis ok bað þá þar vera. Í þenna tíma var með konungi boð nokkut, en um
+      kveldit kómu í höllina smiðir konungs ok sýndu honum smíðit, gull eða vápn. Svá gerðu þeir
+      ávallt, ef menn kómu þangat, konungi til frægðar. Allir menn lofuðu smíði þeira nema gestir.
+      Þeir ræddu fátt um. Knífr <pb n="290"/> einn var í því smíði vandaðr. Þetta var sagt konungi,
+      ok kveðst hann ætla, at þeir mundi eigi betr smíða. Hann kallar þá til sín ok mælti: "Hví eru
+      þit svá tregir til at lofa þat smíði, er hér er fram borit, eða kunni þit betr at gera?" Þeir
+      kváðu konung þat reyna mega, ef hann vildi, at smíði þetta mundi eigi mikils vert hjá því.
+      Konungr bað þá gera þá smíð, er til afbragðs mætist, "ef þit vilið eigi vera falsarar." Þeir
+      kváðust brátt munu reyna, at þessi smíð er lítils verð ok eigi góð. Þeir settu knífinn í rönd
+      borðsins fyrir konung, ok lá hjá þegar eggin. Þeir báðu konung þar taka við gersemi sinni, en
+      kváðust freista mundu at gera annan kníf. Konungr bað þá svá gera, ok síðan gerðu þeir kníf
+      einn ok færðu konungi. Hann brá á kamp sér, ok tók af kampinn ok skinnit, svá at í holdi nam
+      staðar. Konungr mælti: "Þat mun satt vera, at þit munuð hagir menn, ok nú skulu þit gera mér
+      gullhring," ok svá gerðu þeir ok færðu konungi. Hann leit á ok mælti: "Þat er rétt sagt, at ek
+      hefi eigi sét meiri gersemi í einum gullhring," ok svá mæltu allir, er sá. Konungr kvað slíkt
+      tíginna manna þjónustumenn, ok síðan mælti hann: "Nú skulu þit gera mér tvau sverð, þau er
+      eigi beri minna af öðru smíði en þessi smíð ykkur, ok þeim sé hvergi þess til höggvit, er þau
+      bíti eigi." Olíus kveðst þat eigi vilja ok lézt eigi örvænt þykkja, at nokkut mikit mundi á
+      liggja, ef þeir gerði nauðgir, ok kvað til hófs bazt at búa. Konungr kvað þá gera skyldu,
+      hvárt er þeir gerðu nauðgir eða eigi. Síðan setjast þeir til smíðar ok gerðu tvau sverð,
+      sérhvárr þeira, ok gengu síðan fyrir konung ok sýndu honum sverðin. Konungr leit á, ok sýndust
+      honum vænlig, "eða hverir fylgja kostir?" Olíus segir, hann kvað hann því hvergi mundu til
+      höggva, at þat mundi eigi <pb n="291"/> bíta, "ok hygg ek á því munu vera enga annmarka."
+      Konungr segir: "Þá er gott, ok verðum vér at reyna, hversu staðgott væri," ok skaut oddinum í
+      öndugissúlu, ok lagðist lítt sverðit, ok síðan reisti hann þat í glugg einum. Smiðrinn kvað
+      þat ofraun sverðinu ok lét þat til höggs búit, en eigi til reistingar. Konungr kvað þat eigi
+      mundu högg standast, ef þat brotnaði í slíkum tilraunum. Ok nú reyndi hann þat sverð, er Alíus
+      hafði gert, ok hljóp þat aptr sem skíð, ok at öllu var þat vænligra en hitt, ok stóðst
+      hvárttveggja þær raunir, er konungr gerði. Konungr mælti: "Þetta er enn betra, er Alíus hefir
+      gert, ok er hvárttveggja gott, eða hver náttúra fylgir?" Alíus segir: "Þat, herra, ef þau
+      mætast á lopti, ok sé þau í móti borin, þá mun mitt sverð framar, ok má þó kalla kosti eina ok
+      jafna." Síðan tók konungr þat sverð, er Olíus hafði gert, ok vildi brjóta, ok þá brast sverðit
+      við hjaltit. Konungr bað hann betra sverð gera, ok síðan gekk hann reiðr til smiðju ok gerði
+      sverð ok fekk þat konungi. Hann hafði nú allar slíkar raunir sem við it fyrra, ok stóðst þetta
+      allar. Konungr mælti: "Nú hefir þú vel gert, eða er nú ekki hér á til vandkvæðis?" Hann segir:
+      "Járngott er sverð, enda munu nú nokkur forföll á liggja til hamingju brots, því at þat mun
+      verða at bana inum göfgustum bræðrum, dóttursonum þínum." Konungr mælti: "Spá þú manna
+      armastr; nú skal bræðrum at bana verða ok þó ógöfgum," ok hjó til hans, en þeir váru þá
+      horfnir með skjótri brautför ok neyttu þá innar neðri leiðar. Konungr mælti: "Þetta eru miklir
+      óvinir, ok við því skal vinna, at sverð geri mannigi mein." Konungr lét þá gera stokk at
+      sverðinu með blýi ok lét sökkva niðr í Löginn hjá Agnafit. <pb n="292"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Helgi hét konungr ágætr. Hann var hermaðr mikill. Helgi fór með herskipum á fund Buðla
+      konungs ok gerði honum orðsending, at hann mundi þar friðmaðr vera, ok kveðst vilja kannast
+      við hann ok þiggja at honum veizlu. Konungr tók því vel. Helgi konungr gekk upp til hallar ok
+      fekk þar góðar viðtökur. Hildibrandr hét faðir Helga konungs, er réð fyrir Húnalandi. Helgi
+      konungr mælti þá: "Birta mun ek minn vilja til yðar með tilmæli ráðahags við dóttur yðra. Má
+      ek sjá hvárttveggja at þessu sæmd, mik til landvarnar við yðr, en ríki yðart til móts." Buðli
+      konungr segir: "Ek vil yðru erendi vel svara með samhuga hennar við oss." Ok síðan var þetta
+      mál kært við hana, en hún geldr til samþykki vilja föður síns, ok er nú aukin veizlan eptir
+      tíginna manna sið, ok fær Helgi konungr Hildar, dóttur Buðla konungs, ok síðan váru þeir mágar
+      samhuga, ok var Buðla konungi mikit traust at Helga konungi. Þau Hildr áttu son, er
+      Hildibrandr hét, er manna var vænstr, ok þegar er hann dróst á fætr, þá mælti Helgi konungr,
+      faðir hans: "Þinn fóstrfaðir skal vera Hildibrandr inn ríki, faðir minn, í Húnalandi, ok er þá
+      vænst, at þín forlög verði mátuligust." Helgi konungr sendi nú þangat sveininn. Hildibradr
+      konungr tók ágætliga við honum ok kveðst vænta, at þar mundi upp fæðast einn kappi. Eptir þat
+      fór Helgi konungr í hernað, en Buðli konungr gerðist gamall löndum at stýra. <pb n="293"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Álfr hét konungr, er réð fyrir Danmörku. Dóttir hans hét Æsa in fagra. Hún var fræg víða um
+      lönd af vænleik sínum ok hannyrðum. Áki hét einn ríkr kappi í Danmörku. Hann var í kærleikum
+      miklum við konung, ok Álfi konungi var at honum mest traust. Konungr kallaði hann til sín ok
+      mælti: "Hernað viljum vér drýgja í sumar ok taka þat ríki undir vára eign, er áðr liggr
+      gæzlulaust, en þó frami at, ef náist." Kappinn svarar: "Herra, hvar viti þér ríki falt?"
+      Konungr mælti: "Buðli konungr er nú örvasi at aldri, ok viljum vér leggja undir oss hans
+      ríki." Áki segir: "Eigi vil ek þess letja at gera stórræði, ok mun enn sem fyrr eptir
+      framaverk, at þér munuð laun hyggja vinum yðrum fyrir sitt starf." Síðan bjuggu þeir Álfr
+      konungr ok Áki her sinn ok herjuðu í Svíþjóð á ríki Buðla konungs ok gerðu þar mikit hervirki
+      í manndrápum ok fjárupptektum. En er Buðli konungr spyrr þetta, stefnir hann saman sínum her
+      ok fær lítit lið, er styrkr Helga, mágs hans, var fjarri, en þó helt hann sókn upp ok var
+      borinn ofmagni ok fell í þeiri orrostu, en Álfr konungr tók at herfangi dóttur hans ok
+      allmikit fé, ok fara nú heim við svá búit. Þá mælti Álfr: "Svá hefir oss til handa borizt, at
+      vér höfum gnógt ríki ok fé, en fyrir þitt liðsinni, Áki, vil ek gifta þér Hildi Buðladóttur,
+      þótt hún eigi áðr bónda." Áki segir: "Hver munu önnur skapfelldri laun en þessi? Ok eigi þykki
+      mér at verra, þótt Helgi konungr eigi hana áðr." Eptir þat gekk Áki at eiga Hildi, ok áttu þau
+      einn <pb n="294"/> son. Sá hét Ásmundr. Hann var snemma mikill ok sterkr ok lagðist í víking,
+      þegar hann mátti, ok braut undir sik mikinn hermanna afla. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Nú er þar til máls at taka, er Hildibrandr er, bróðir hans, sonr Helga konungs, en Helgi
+      konungr fell í hernaði. Hildibrandr braut undir sik mikinn afla ok sveimaði víða með her sinn.
+      Hann var mægðr við þann konung, er Lazinus hét. Hann var einn inn ríkasti konungr. Hann sótti
+      þangat með vinganarorðum til mágs síns, ok var honum þar vel fagnat. Hann tók nú at gerast
+      framgjarn mjök, er aflinn óx. Þá váru hertugar göfgir ok ættstórir í Saxlandi. Hildibrandr
+      Húnakappi fór nú á hendr þeim ok kvaðst vilja, at þeir gerði honum slíka virðing sem hann
+      beiddi eða þeir mundi sem aðrir sæta afarkostum. Þeir hertugarnir áttu systur, ok var hún mest
+      at ráðum, því at hún var þeira vitrust. Síðan áttu þau eintal ok ætlast fyrir, hvat af skyldi
+      kjósa. Hún kvað þat meira ráð at vægjast til hans með skattgjaldi en eiga orrostu, "ok er þat
+      ráð at ætla sér hóf, en snúast þá til mótstöðu, er styrkr er nokkurr," kvað hér svá mundu fara
+      sem í öðrum stöðum, at hann mun sigrast. Síðan sögðu þeir hertugarnir, at þeir vilja játa
+      honum skattgjaldi. Hann kvað þat forsjáligt, ok sættast á þat. Hildibrandr Húnakappi braut nú
+      margar þjóðir undir sik. Hann spyrr nú þau tíðendi, fall Buðla konungs, móðurföður síns. Hann
+      stefndi þá her at sér af nýju ok kvaddi þings. Hann mælti, kvað mönnum kunnigt, hverr vandi á
+      var, at fara í hernað, en lét eigi <pb n="295"/> at högum til skipt, ef herja skyldi á víkinga
+      eða á aðra menn fyrir litla sök eða enga, en hefna eigi móðurföður síns. Eptir þat flutti hann
+      herinn í ríki Álfs konungs ok kvað Dani hafa kennt atför um búshagi. Hann lét eisa eldum ok
+      brenna víða. Álfr konungr sótti nú í mót með her sinn, ok þegar þeir fundust, börðust þeir.
+      Hildibrandr Húnakappi hafði berserkja náttúru, ok kom á hann berserksgangr. Ekki var Áki
+      hertugi við þessa orrostu, því at hann var í hernaði. Hildibrandr Húnakappi gekk í gegnum
+      fylkingar Álfs konungs, ok var illt fyrir honum at verða. Hjó hann á tvær hendr sér ok sótti
+      grenjandi at konungsmerkinu, ok í þessi orrostu fell Álfr konungr ok margt lið hans, ok eptir
+      þat fóru Húnar aptr. Hildibrandr gerist þá allra manna frægastr ok sat jafnan at búum sínum á
+      vetrum, en herjaði á sumrum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Þar er nú til máls at taka, er Ásmundr Ákason var í hernaði, ok þótti víkingum hann ósvífr
+      í atlögum ok harðgerr. Eyvindr skinnhöll hét maðr, danskr at ætt, vænn maðr, ríkr ok auðigr ok
+      barst á mikit. En er þeir feðgar, Áki ok Ásmundr, kómu ór hernaði, þá váru þeim sögð þessi
+      tíðendi, fall Álfs konungs. Þeir sátu nú í kyrrðum. Ásmundr vissi eigi frændsemi milli þeira
+      Hildibrands, því at móðir hans sagði honum ekki frá. Eyvindr skinnhöll fór á fund Æsu innar
+      fögru konungsdóttur ok kveðst mæla vilja til ráðahags við hana, kvað henni vera kunnigan
+      mannasóma sinn ok fjáreign, ætt hans ok framkvæmd. Hún kveðst hafa mundu við <pb n="296"/> ráð
+      vina inna um annsvör. Eptir þetta berr hún málit fyrir þá Áka ok Ásmund, fóstbróður sinn. Áki
+      kveðst þessa ekki mundu fýsa. Þá mælti Ásmundr: "Ekki skaltu eiga Eyvind. Mik skaltu eiga."
+      Hún segir: "Fóstbróðir, meira hefir hann nú yfirlæti í landinu ok býr ríkuligar, en þat munda
+      ek ætla, at þú mundir hafa manndóm meira." Ásmundr mælti: "Legg til hamingju þína með mér, ok
+      má þá verða báðum okkr vegr at þessi ráðagerð." Hún mælti: "Þann ykkarn skal ek eiga," segir
+      hún, "er mér fær fegri hendr í haust ór hernaði." Síðan lögðu þau niðr þessa umræðu, ok
+      lögðust þeir í hernað báðir eptir vanda, ok hætti Ásmundr opt með miklum háska til stórfanga
+      ok aflaði svá fjár ok frama, en Eyvindr var optliga hjá matgerðarmönnum ok lét eigi ganga
+      glófa af hendi sér. En er at hausti kom, sóttu þeir báðir á fund konungsdóttur, hvárr með
+      sínum mönnum. Eyvindr gekk fyrri fram ok bað konungsdóttur líta á sínar hendr. Æsa in fagra
+      mælti: "Vel hafa þessar hendr varðveittar verit ok eru hvítar ok fagrar, hafa lít litat sik í
+      blóði né ófegraðar í höggum. Sjám nú, Ásmundr, þínar hendr," segir hún. Hann rétti fram sínar
+      hendr, ok váru þær öróttar ok heldr dökkvar af blóði ok vápnabiti, ok er hann brá frá
+      klæðunum, þá váru þær hlaðnar hringum gulls til axlar. Þá mælti konungsdóttir: "Þat mun þó
+      mitt atkvæði, at Ásmundar hendr sé fegri með öllu saman, ok ertu, Eyvindr, frá ráðinn þessum
+      ráðahag." Ásmundr mælti: "Þá mun ek til kosinn, frú." Hún segir: "Fyrr skaltu hefna föður
+      míns, því at þann einn samir mér mann at eiga, er þess rekr réttar ok viðr sér frama á
+      Hildibrandi Húnakappa." Þá mælti Ásmundr: "Hversu má hann vinnast, er engi sigrast <pb n="297"
+      /> á honum, eða hvert ráð leggr þú til?" Hún segir: "Heyrt hefi ek, at sverð sé fólgit í
+      Leginum hjá Agnafit, ok heyrt hefi ek ummæli á því, ef þat sverð væri borit í móti því, er
+      Hildibrandr hefir, at hans sverð skyldi undan láta. En í nánd vatninu býr gamall bóndi, vinr
+      minn, ok mun hann gera þér farargreiða með mínu tilstilli." Ásmundr kvað þat mundu á finnast,
+      at hann var gjarn til ráðahags við hana, ef hann segði sik í þessa hættu. Eptir þetta fór
+      Ásmundr einn saman til bóndans ok sagði honum sitt erendi ok orðsending konungsdóttur. Bóndinn
+      bað hann velkominn. Hann horfði mjök á Ásmund of kveldit. Ásmundr mælti: "Hví horfir þú á
+      mik?" Hann kvað sök til vera. Ásmundr mælti: "Hversu lengi hefir þú hér búit?" Hann kveðst þar
+      hafa búit allan aldr sinn, "en þar hygg ek nú at því, at hér gistu fyrir löngu sendimenn Buðla
+      konungs, en þeir fóru með Hildibrand til fóstrs til Hildibrands konungs, en þik hefi ek sét
+      annan vænligastan en hann ok honum líkastan at svip." Ásmundr mælti: "Eigi veit ek, at með
+      okkr sé nein skylda, eða hvat veiztu til sverðs þess, hvar fólgit sé, er afrek er frá sagt?"
+      Hann segir: "Hér var ek, þá er því var sökkt, ok gerla hefi ek mið til, hvar þat er fólgit, ok
+      mun enn ver óspillt, at því er ek hygg." Þá mælti Ásmundr: "Fyrir orðsending konungsdottur þá
+      flyttu mik þangat." Hann kvað svá vera skyldu. Hann hafði með sér flikki stór ok eldiskíð.
+      Ásmundr mælti: "Hvat skal þetta, búandi?" Hann svaraði: "Ærit mun þér kalt, er þú kemr upp,
+      þótt þú bakir þik við þetta." Ásmundr mælti: "Þú ert ráðugr mjök." Síðan fóru þeir á skipi, ok
+      þá er minnst varir Ásmund, mælti búandi: "Hér svána." Síðan hljóp Ásmundr fyrir borð ok
+      kafaði, ok er hann kom upp, þá <pb n="298"/> vildi hann niðr öðru sinni. Bóndi mælti: "Þat
+      hæfir þér eigi, bakastu nú ok snæð," ok svá gerir hann. Ok öðru sinni, er hann kafar, kennir
+      hann stokksins ok lyptir nokkut svá ok fór upp ok bakaðist. Ok nú þriðja sinn kafar hann, ok
+      náir hann stokkinum, ok fluttu þeir hann til lands, ok þá hjó Ásmundr upp stokkinn með öxi, ok
+      gekk af hyrnan, er kom í sverðs eggina. Ásmundr mælti: "Vel hefir þú veitt, karl, ok þigg af
+      mér einn gullhring fyrir þitt starf, ok vitja mín kunnliga, ef þú þarft." Karl þakkaði honum
+      vel, ok skildust. Eptir þat fór Ásmundr heim ok segir konungsdóttur. Hún sagði: "Nú er mikit
+      at unnit, ok muntu vera ágætr maðr. Nú er ráð fyrir hendi: Ek vil senda þik til þeira hertuga
+      í Saxlandi, er ríkit hafa misst fyrir Hildibrandi, ok til systur þeira, því at hún er vitr
+      kona, ok er þat mitt ráð at gerast þaðan til slíkra hluta sem þá vill í hendr bera, því at
+      flesta get ek stopalt ganga fyrir þér við áræði þitt ok góðan vápnakost." Ok síðan fór Ásmundr
+      í braut. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Nú er at segja, hvat í Saxlandi er, at einn dag tók systir hertuga til orða: "Svá vísa mér
+      draumar til sem oss muni sækja heim ágætr maðr, sá er oss muni verða at mikilli hamingju ok
+      váru ríki." Þeir bræðr tóku því vel, ok um kveldit þess dags sá þeir ríða at höllinni mikinn
+      mann með ágætligum vápnum, ok hertugarnir gengu í móti honum ok buðu honum þar. Hann lézt þat
+      þigja mundu. Þeir settu hann milli sín, en systir þeira skenkti ok settist síðan á tal við
+      hann ok bræðr hennar. Hún mælti þá: "Ekki er oss mjök kunnigt um <pb n="299"/> yðra hagi, en
+      sjá kunnu vér þat, at mikill tígnarsvipr er yfir yðr, ok trúum vér, at nokkut gott leiði oss
+      af þér ok þinni hérkvámu. Nú munu þér heyrt hafa, hverja nauð vér þolum fyrir ofríki
+      Hildibrands Húnakappa. Vér gengum fyrst undir skattgjald, en nú skulum vér mæta á hverjum
+      misserum hólmgönguboðum af hans berserkjum, ok skal æ bú standa við hverja hólmgöngu. Höfum
+      vér nú svá misst bæði manna várra ok búa, ok nú eru eigi meir eptir en tólf bú várs
+      hertugadæmis." Ásmundr svarar: "Frú," segir hann, "mikinn skaða kærið þér fyrir mér, ok
+      nauðsyn væri at hepta þenna storm, ok til þess em ek hér kominn at verja yðvart ríki, ef ek
+      fæ." Hertugarnir segja, at skammt mun líða, áðr kraft mun vera hólmgöngu. Ásmundr svarar: "Þá
+      verðr því at svara." Hann er nú þar í góðu yfirlæti. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Nú er at segja frá Lazino konungi ok Hildibrandi Húnakappa, mági hans. Hildibrandr segir:
+      "Mun eigi kominn sá tími, er hólmgöngu skal reyna við hertugana ok menn þeira? Nú væri eigi
+      torsóttligt at ná þeim búum, er eptir eru." Konungr mælti: "Gerum heldr mann til þeira ok
+      vita, ef auðvellligar fáist." Sá maðr hét Vöggr, er sendr var. Frá hans ferð er ekki sagt,
+      fyrr en hann kemr til hertuganna. Hann gekk í höllina ok fyrir borð ok mælti síðan: "Lazinus
+      konungr ok inn ríki Hildibrandr Húnakappi vilja vita, hvárt þit vilið koma til hólmstefnu eða
+      láta þrautlaust þat, er eptir er." Hertugarnir svara: "Svá er nú komit, ef of mikil þykkir vár
+      eiga, at lítit er at missa hjá því sem góðra drengja." Ásmundr mælti: "Hví mæli þit svá? Mun
+       <pb n="300"/> eigi því meiri nauðsyn at halda, er minna er eptir?" Vöggr horfir á hann.
+      Ásmundr mælti: "Hví horfir þú svá þrátt á mik?" Hann segir: "Þat berr til, at ek hefi eigi sét
+      inn þriðja mann jafnvirðuligan sem þit Hildibrandr eruð. Hann er ljósari, en þú ert eigi
+      óharðmannligri, ok spurt hefir Hildibrandr, at ókuðr maðr var hér kominn með góð vápn, ok ek
+      skylda sjá þitt sverð." Ásmundr bað hann ráða. Hann leit nú á ok mælti: "Hér fara vápnin eptir
+      yfirsýn þeira, er eigu. Hitt er bjartara ok gert betr, en eigi er þat snarpara." Ásmundr
+      kveðst eigi þat vita, "en vita munt þú vilja þitt erendi." Hann kvað svá vera. Ásmundr mælti:
+      "Seg svá höfðingjum yðrum, at koma mun maðr af hendi hertuganna til hólmstefnu." Nú reið Vöggr
+      heim ok kvaddi konung ok Hildibrand. Hildibrandr mælti: "Hver svör kanntu at segja af ráðagerð
+      hertuganna?" Vöggr svarar: "Þess er mér ván, at þeir ljúgi eigi hólmstefnu." Hildibrandr
+      mælti: "Þó eru þeir nú mjök herðir, eða veldr því sá inn ókunni maðr, eða með hverjum svip
+      sýndist þér hann? Þú ert glöggþekkinn." Vöggr segir: "Hans yfirbragð er með því, at hann er
+      látaðr vel ok alllíkr yðr í augum, ok sýndist mér líkligr til, at vera muni ofrhugi, ok þat
+      sverð hefir hann, er ek sá ekki jafnlíkt því, sem þú hefir, ok þat hygg ek, at ór einum afli
+      sé borit." Hildibrandr mælti: "Mikit finnst þér um þenna mann. Ætlar þú eigi, at mitt sverð
+      muni vera jafnt hans sverði eða hann muni minn jafningi vera?" Vöggr svarar: "Eigi veit ek,
+      hvárt hann er þinn jafningi. Hitt veit ek, at sá, er berst við hann, at hann kemr í þá raun,
+      at hann er víst dugandi maðr." Hildibrandr mælti: "Framarla segist þér frá." Ok nú lætr
+      Hildibrandr einn af sínum köppum ríða til hólmstefnu. <pb n="301"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Ok nú er Ásmundi sagt, ok nú biðr hann taka sinn hest ok sín herklæði. Hertugar mæltu: "Vér
+      bjóðum þér várt lið." Hann kvað einn skyldu einum í mót koma. Hann ríðr nú þangat, sem
+      hólmstefnan skyldi vera, ok nú riðust þeir at með brugðnum sverðum, ok it fyrsta högg hjó
+      Ásmundr hann sundr í miðju, fleygði síðan hlutunum út á ána ok rak þá fyrir höfuðborg konungs.
+      Hildibrandr mælti: "Seint sækist várum félaga at leysa þenna inn ókunna mann." Síðan mælti
+      maðr einn: "Herra," segir sá, "hér mun kostr at sjá hann, er hann rekr eptir ánni, ok er nú í
+      tveim hlutum." Hann mælti: "Ærit er þessi stórhöggr, ok skipizt nú tveir af várum mönnum ok
+      leysið hann því skjótara af hendi." Þeir kváðu eigi þat mikit verk. Hildibrandr mælti: "Várt
+      gagn er þat, ef þit vinnið skjótt sigr á honum." Ok annan dag eptir riðu þeir til vígvallar
+      tveir móti Ásmundi. Hann mælti: "Hér hafa berserkir fásén lög, er tvau sverð koma í móti einu,
+      en allbúinn em ek at frelsa þetta víg við ykkr tvá." Þeim þótti óvirðuligt at standa tveir
+      fyrir einum ok hjuggu báðir til hans, en hann brá fyrir sik skildi ok hjó sínu höggi hvárn til
+      bana. Síðan reið hann aptr til hertuganna, en þeir gengu í mót honum með fagnaði. Hann kveðst
+      ætla, at aptr hefði unnizt þrjú bú þeim til handa í hans ferð. Þá mælti systir hertuganna:
+      "Eigi hafa villzt várir draumar um þessa manns kvámu." Hann sat nú þar í veg miklum ok hlaut
+      af þessu frægð mikla. Þetta var nú sagt Hildibrandi, ok hann mælti: "Ekki undr þykki mér
+      þetta, þó at einn maðr sigri tvá menn. <pb n="302"/> Nú skal skipa fjórum mönnum í mót honum."
+      Kapparnir kváðu þat auðsætt, at þeir mundu skipta honum í sundr í fjóra staði, ok nú riðu þeir
+      til vígvallarins með góðum hjálmum ok hvítum brynjum ok hvössum sverðum. Nú kómu þessi tíðendi
+      fyrir Ásmund ok hertugana. Þá báðu þeir, at hann skyldi fara með jafnmörgum mönnum. Hann
+      kveðst eigi þat vilja, lét þat vænst, at einn mundi senn einum í móti, en kvað mikit árnast,
+      ef fjögur bú fengist. Ok því næst fundust þeir. Ásmundr mælti: "Þat er auðsætt, at þér þykkizt
+      lítils verðir, ok þér skipizt fjórir í móti einum, ok eigi mega þeir kappar heita, heldr
+      safnaðarmenn." Þeir urðu ákafa reiðir við orð hans ok sóttu at honum þegar, en þat sverð, er
+      hann bar, beit brynjur ok hjálma jafnslétt sem næfr ok eirði ekki mannsbeinum né holdi, en sá
+      reiddi til, er sterkan armlegg hafði ok gott hjarta. Þeir fengu stór sár af honum, ok skammt
+      var í milli, ok drap hann þá fjóra ok rak þá út á ána með hestunum. Nú fréttir Hildibrandr
+      þetta ok mælti: "Er nú annathvárt, at menn várir eru minni til herskapar en vér hugðum, eða
+      elligar er sá forgangsmaðr." Hann kallar þá til sín fimm ina grimmustu kappa, segir ok kvað
+      þeim eigi ofætlat, þótt þeir sigraði einn mann. Þeir kváðust ætla at færa í hóf hans dul ok
+      gefa dýrum hræ hans. Síðan ganga þeir út. En er Ásmundr spyrr þetta, þá mælti hann: "Í dag
+      ætla ek at vinna til borðhalds mér." Þeir kváðust ætla ugga, at hann mundi of mikit ætla sér,
+      en kváðust alla sæmd honum at launa eiga. Síðan hittast þeir ok börðust þegar, ok hjó Ásmundr
+      stórt ok tíðum, ok lauk svá, at hann drap þá alla. En er Hildibrandr spyrr þetta, mælti hann:
+      "Seint dofnar hans hönd, ok skammt skal til, at hann skal ná at berjast." Þá gerist í skálanum
+      ymr mikill af grenjun <pb n="303"/> berserkjanna, er sá einn maðr skal ganga yfir svá marga
+      menn. Þá mælti Hildibrandr: "Búizt nú sex várir menn, ok mætti þér þá vinna þá frægð at hefna
+      várra manna." Síðan fóru þeir til hólms, ok þá er Ásmundr spyrr þetta, bjóst hann skjótt ok
+      mælti: "Þat sverð hefi ek, at jafngott er at drepa með sex menn sem þrjá." Ok síðan fundust
+      þeir. Þá mæltu kapparnir, at hann skyldi laust láta sverðit ok gefast upp. Hann segir: "Þat
+      mun eigi at óhöggnum skildi. Er yðr ok ærin nauðsyn at hefna yðvarra manna." Síðan börðust
+      þeir, ok sóttu hann fast. Hann kunni it sama lag á at höggva sverðsegginni nú ok fyrr, ok þótt
+      hann fengi sár, þá linaði hann ekki sverðshöggunum ok hjó suma sundr í miðju, ok svá lauk, at
+      hann drap þá alla ok fór aptr til hertuganna. Þeir gerðust fjölmennir, er ríkit vannst æ undir
+      þá, ok nú er í hvers manns húsi umræða um þenna kappa. Ok enn kómu þessi tíðendi fyrir
+      Hildibrand, ok mælti hann: "Rýrt verðr nú tal várra manna, eða hvat er nú eptir?" "Herra,"
+      sögðu þeir, "eptir eru sex ok tuttugu." Hildibrandr svarar: "Svá mun nú mega metast heðan í
+      frá, at þessi inn ókunni maðr mun taliðr með stórköppum, ok svá bleðr hann af sem vit munim
+      hittast verða, en senda skal enn sjau, þá er lengi hafa í minni þjónustu verit." Síðan
+      bjuggust þeir. Ásmundi var sagt nú, at eigi mundi setuefni. Hann segir: "Er þat þá eins
+      snæðings hald, ef næðist sjau bú." Síðan fór hann, ok kómu í móti honum sjau kappar. Þá mælti
+      Ásmundr: "Fyrir hví hleypir Hildibrandr út mönnum sínum, en sitr heima sjálfr ok etr á mik
+      smámenni?" Þeir reiddust mjök við orð hans ok kváðu hann í enga raun koma skulu at berjast við
+      Hildibrand. Síðan börðust <pb n="304"/> þeir, ok hversu sem at ortist, þá drap hann þá alla.
+      Síðan hratt hann þeim út á ána. En er Hildibrandr frá þat, þá mælti hann: "Miklu eru nú stærri
+      atburðir orðnir en vér megim láta af hyggjast. Nú skulu at honum átta berserkir, því at engum
+      várum er líft við þat, ef eigi verða hefndir." Síðan grenjuðu þeir mjök ok bitu ór skjöldum,
+      þat er tók. En Ásmundr var með hertugunum, ok kómu honum þessi tíðendi, at enn muni kostr at
+      berjast. Þá mælti systir hertuga: "Sæmd sú, er vér létum, er nú öll aptr komin ok með meira
+      mætti en vér höfum spurdaga til." Ásmundr segir: "Skulum vér til hætta, því at hann vill
+      berserkjunum út egna, en engi máttr er yfir þeim, ok betra mundi, at þeira ríkdómr legðist við
+      várt ríki, því at þér misstuð rangliga." Síðan reið hann í mót þeim, ok þegar þeir fundust,
+      börðust þeir, ok var sá fundr lengstr, en svá lýkr, at hann drepr þá alla. En er Hildibrandr
+      spyrr þetta, eiskraði hann mjök ok mælti: "Sá maðr er hamingjudrjúgr, er ekki tjóar mannmergð
+      í móti. Nú skulu at honum þeir ellifu, sem eptir eru." Ok er Ásmundr spyrr þetta, þá þagnaði
+      hann. Hertugarnir mæltu: "Nú viljum vér skipa liði með þér, en þú ver foringinn, ok mun þér þá
+      sigrast, en þú berst eigi einn við svá marga ofrhuga." Ásmundr svarar engu, ok kom aptann, ok
+      snæða menn ok fóru síðan at sofa. Ásmund dreymdi, at konur stóðu yfir honum með hervápnum ok
+      mæltu: "Hvat veit óttabragð þitt? Þú ert ætlaðr at vera forgangsmaðr annarra, en þú óttast
+      ellifu menn. Vér erum spádísir þínar, ok skulum vér vörn veita þér móti mönnum, er at berjast
+      við hertugana, en þá, er þú hefir at reyna við þik." Við þetta spratt hann upp ok bjóst, en
+      flestir <pb n="305"/> löttu hann. Síðan reið hann í mót köppunum, en þeir þóttust ráð hans í
+      gaupnum hafa ok létu honum betr hent at ganga á hönd Hildibrandi en látast. Hann kvað þá sér
+      eigi ófalari til dauða en þeir, sem fyrr drap hann, ok kvað þat auðvitat, at mikill mundi
+      verða frægðar munur eins ok ellifu. Síðan börðust þeir, ok kringdu um hann, en hann var
+      torsóttr, ok festust vápnin lítt við hann, en sverð hans beit allt þat, sem fyrir varð ok þat
+      tók, ok lauk svá, at hann veitti þeim öllum bana. Hertugarnir höfðu fylgt honum ok kváðu hans
+      afrek aldri mundu fyrnast, ok gerðist þat orð manna, at hann mundi eigi undan víkja, þótt
+      sjálfr Hildibrandr Húnakappi kæmi í móti honum, er manna var frægastr í þann tíma. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Ok er Hildibrandr frá þetta, at kappar hans váru drepnir, þá kom á hann berserksgangr, ok
+      snerist þegar til ferðar ok mælti: "Eigi skal þat mælt, at ek hætta mönnum mínum út, en þora
+      ek eigi sjálfr at berjast." En í vanstilli þessu, er á honum var ok hann var á ferðina kominn,
+      þá sá hann son sinn ok drap hann þegar. Síðan ók hann upp með ánni Rín til móts við Ásmund.
+      Þann skjöld hafði hann, er á váru markaðir menn svá margir sem hann hafði drepit. En er
+      Ásmundr spurði þetta, þá bjóst hann til móts við hann. En þegar er þeir fundust, þá börðust
+      þeir, ok váru flest högg ærit stór. En er þeir höfðu lengi barizt af mikilli reiði, þá neytti
+      Hildibrandr afls ok hjó til Ásmundar af öllu afli tveim höndum, ok í því er sverðit kom í
+      hjálminn, þá brast þat sundr undir hjaltinu, ok fór brandrinn <pb n="306"/> grenjandi niðr í
+      ána, en hann var þá sárr mörgum sárum. Síðan kvað hann vísur þessar: <lg>
+       <l>"Mjök er vandgætt,</l>
+       <l>hvé verða skal</l>
+       <l>of borinn öðrum</l>
+       <l>at banorði.</l>
+       <l>Þik Drótt of bar</l>
+       <l>af Danmörku,</l>
+       <l>en mik sjálfan</l>
+       <l>á Svíþjóðu.</l>
+       <l>Tveir váru þeir</l>
+       <l>tyrvir gjarnir</l>
+       <l>Buðla nautar,</l>
+       <l>nú er brotinn annarr.</l>
+       <l>Svá höfðu dvergar</l>
+       <l>dauðir smíðat</l>
+       <l>sem engi mun</l>
+       <l>áðr né síðan.</l>
+       <l>Stendr mér at höfði</l>
+       <l>hlíf in brotna,</l>
+       <l>eru þar taldir</l>
+       <l>tigar ins átta</l>
+       <l>manna þeira,</l>
+       <l>er ek at morði varð.</l>
+       <l>Liggr þar inn svási</l>
+       <l>sonr at höfði,</l>
+       <l>eptirerfingi,</l>
+       <l>er ek eiga gat,</l>
+       <l>óviljandi</l>
+       <l>aldrs synjaðak.</l>
+       <l>Bið ek þik, bróðir,</l>
+       <l>bænar einnar,</l>
+       <l>einnar bænar,</l>
+       <l>eigi þú synja!</l>
+       <l>Mik skaltu verja</l>
+       <l>váðum þínum,</l>
+       <l>sem fjörs bani</l>
+       <l>fár annars mun.</l>
+       <pb n="307"/>
+
+       <l>Nú verð ek liggja</l>
+       <l>lífs andvana,</l>
+       <l>mæki undaðr,</l>
+       <l>þeims magnar sár."</l>
+      </lg>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Eptir þat dó Hildibrandr Húnakappi, ok gerði Ásmundr virðuliga leiðslu hans ok hugði þá
+      illa sínu verki. Hann hitti þá ekki hertugana ok fór þá á þann bæ, er móðir hans átti ok Æsa
+      in fagra, konungsdóttir. Þá ætlar maðr at biðja hennar. Ásmundr kvað, er hann kom í
+      hallardyrrnar: <lg>
+       <l>"Lítt varði mik</l>
+       <l>laga þeira,</l>
+       <l>at mik manns einskis</l>
+       <l>ófyrr kvæði,</l>
+       <l>þá er mik til kappa</l>
+       <l>kuru Húnmegir</l>
+       <l>átta sinnum</l>
+       <l>fyr jöfurs ríki.</l>
+       <l>Börðumst einn við einn</l>
+       <l>en endr við tvá,</l>
+       <l>fimm ok fjóra</l>
+       <l>fletmegninga,</l>
+       <l>sex ok við sjau</l>
+       <l>senn á velli,</l>
+       <l>einn ek við átta;</l>
+       <l>þó ek enn lifi.</l>
+       <l>Þá hvarflaði</l>
+       <l>hugr í brjósti,</l>
+       <l>er menn ellifu</l>
+       <l>ofrkapp buðu,</l>
+       <l>áðr mér í svefni</l>
+       <l>sögðu dísir,</l>
+       <l>at ek hjörleik þann</l>
+       <l>heyja skyldak.</l>
+       <pb n="308"/>
+
+       <l>Þá kom inn hári</l>
+       <l>Hildibrandr</l>
+       <l>Húnakappi,</l>
+       <l>hann var mér ómakr,</l>
+       <l>ok ek markaða</l>
+       <l>meðan á honum</l>
+       <l>herkumbl harðlig</l>
+       <l>fyr hjálm neðan."</l>
+      </lg> Eptir þat fögnuðu menn honum ve, ok var hann kallaðr Ásmundr kappabani. Konungsdóttir
+      bað hann af sér reiði, þótt hún hefði verit í tilstilli um þetta, ok lét várkunn við sik, en
+      lét mikit atkvæði fylgt hafa vápnunum. En þótt hann hefði reiðzt henni, þá minntist hann ástar
+      hennar ok gerði brúðlaup sitt ok gekk at eiga Æsu ina fögru, en drap þann, er hennar hafði
+      beðit, ok er sá eigi nefndr. Síðan gerðist Ásmundr kappabani víðfrægr ok nafnkunnugr maðr, ok
+      lýkr þar þessari sögu. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

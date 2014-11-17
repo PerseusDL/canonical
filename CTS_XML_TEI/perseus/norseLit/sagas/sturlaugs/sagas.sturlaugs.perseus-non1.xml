@@ -1,0 +1,1615 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sturlaugs saga starfsama</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Sturlaugs saga starfsama</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Sturlaugs_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="311"/>
+
+ALLIR menn, þeir sem sannfróðir eru at um tíðendi,
+vita, at Tyrkir ok Asíamenn byggðu Norðrlönd.
+Hófst þá tunga sú, er síðan dreifðist um öll lönd. Formaðr
+þess fólks hét Óðinn, er menn rekja ætt til.
+Í þann tíma réð sá konungr fyrir Þrándheimi í
+Noregi, er Haraldr gullmuðr hét. Hann átti drottningu.
+Ekki er getit barna þeira. Jarl einn var í ríki hans,
+er Hringr hét. Hann sat fram við sjó í Kaupangi. Hann
+átti dóttur eina, er kölluð var Ása in fagra, því at hún
+bar af öllum jómfrúm henni samtíða sem rauða gull
+af eiri blökku eða sem sól af himintunglum öðrum.
+Ingólfr hét ríkr maðr, er réð fyrir Naumudælafylki.
+Hann átti þann son, er Sturlaugr hét. Hann var snemma
+mjök mikill á vöxt, ljóss á hár ok hörund, kurteisligr
+í öllum háttum ok allr var hans líkami vel skapaðr,
+blíðr í máli við sína menn, hægr í skapi ok örr af peningum;
+því var hann stórum vinsæll. Hann vandi sik
+við skot ok sund ok alls kyns íþróttir. Ingólfr, faðir
+<pb n="312"/>
+
+hans, hafði atsetr á þeim bæ, er heita Skartastaðir. Hann
+var inn mesti rausnarmaðr ok hafði fjölda fólks með
+sér. Annat bú átti hann sér í ey þeiri, er Njarðey heitir,
+var þar ok fjölmenni mikit, ok enn átti hann önnur
+fjögur bú.
+Maðr hét Ásgauti. Hann bjó á bæ þeim, er Tunglaheimr
+heitir. Hann var mikils háttar maðr. Hann átti
+þá konu, er Gríma hét. Þau áttu tvá sonu. Hét annarr
+Jökull, en annarr Guttormr. Þeir váru gildir menn ok
+vel menntir sem faðir þeira. Maðr hét Þórgautr. Hann
+bjó í eyju þeiri, er Loka heitir. Kona hans hét Helga.
+Þau áttu tvá sonu. Hét annarr sonr þeira Sóti, en annarr
+Hrólfr nefja. Þeir váru miklir menn ok sterkir.
+Hrafn hét maðr. Hann var bóndi. Hann bjó í eyju
+þeiri, er Urga heitir. Kona hans hét Helga. Þau áttu
+einn son, er Sighvatr hét. Hann var sterkr at afli ok
+menntr vel. Járngerðr hét kona. Hún bjó á þeim bæ,
+er á Bergi heitir, skammt frá Ingólfi. Hún átti sér þann
+son, er Áki hét. Hann var mikill maðr at afli. Hann
+gekk næst Sturlaugi um allar íþróttir af þeim mönnum,
+sem honum váru samtíða. Þeir lékust við barnleikum
+Áki ok Sturlaugr. Þessir menn lékust allir barnleikum,
+er nú váru taldir, ok námu alls kyns íþróttir, þær sem
+mönnum váru þá tíðar kenna sonum sínum, ok sórust
+þeir í fóstbræðralag. Váru þó allir saman með feðrum
+sínum í góðu meðlæti.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Véfreyja hét kona, mikilhæf ok auðug, ok hafði búit
+á þeim bæ Vé. Sonu átti hún tvá. Hét annarr Rauðr,
+en annarr Hrafn. Báðir váru þeir miklir ok sterkir
+<pb n="313"/>
+
+menn ok vel búnir at vápnum ok klæðum. Fóstri Véfreyju
+hét Svipuðr. Þau váru bæði margvís ok fróð í
+flestu. Hún átti bæ góðan, ok váru tvennar dyrr á. Sat
+hún þar hvern dag ok horfði sinn dag í hverjar dyrr.
+Kom henni fátt óvart. Jafnan spann hún lín. Hún sat
+á stóli. Hún gerðist mjök rauðeygð af elli, en þó sá hún,
+er nokkut fór at garði, hvat sem at fór, því at fátt kom
+henni óvart. Ása in fagra var þar á fóstri, meðan hún
+var ung, ok nam þar kunnáttu. Véfreyja unni henni
+mikit ok hvár annarri þeira.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Einn tíma talar Ingólfr við þá Sturlaug ok fóstbræðr:
+"Hversu lengi skal svá fram fara, at þit fóstbræðr leikizt
+barnleikum við sem meyjar til manna? Væri þat
+heldr röskra drengja siðr at fremja nokkut til frama
+eða biðja sér kvenna at minnsta kosti ok setjast í bú
+ok stýra ríki ok fé með föður sínum." Sturlaugr sagði:
+"Hvert skal ek mér konu biðja, er þú eggjar þess svá
+mjök?" Ingólfr mælti: "Hringr jarl á sér dóttur, er
+heitir Ása in fagra. Hún er væn kona ok vel viti borin."
+Sturlaugr segir: "Ek em enn eigi mjök gamall
+til kvánbæna ok lítt ráðinn í skapi, en þó mun ek þessa
+leita, ok ætla ek þó til lítils koma munu."
+Nú búa þeir ferð sína ok eru saman sex tigir manna,
+vel búnir at vápnum ok klæðum ok hestum. Ríða nú
+leið sína ok koma at kveldi dags til Hrings jarls ok
+fá þar viðtökur góðar. Gerði jarl veizlu góða ok merkiliga
+í móti þeim. Sátu þeir þar þrjár nætr. Ok einn
+dag gengu þeir með jarli til skemmu Ásu, ok hefir
+Sturlaugr frammi erendi sín ok biðr Ásu sér til handa.
+<pb n="314"/>
+
+Jarl víkr til sjálfrar hennar. Nú segir jarl dóttur sinni
+til þeira ok mælti svá: "Biðli áttu hér at svara, dóttir."
+Ása mælti: "Hvat heitir sá?" "Hann heitir Sturlaugr,"
+segir jarl. Ása segir: "Fyrir hví munda ek eiga þann
+mann, er jafnan vinnr heima búverk með móður sinni
+ok gerir ekkert til frama?" Við þessi orð varð Sturlaugr
+reiðr mjök ok ríðr í brott ok heim.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Um várit búa þeir fóstbræðr tíu skip ór landi ok
+herja um Austrlönd ok hafa jafnan sigr, hvar eð þeir
+koma. Þeir létu fara í friði kaupmenn, en brutu undir
+sik spellvirkja ok váru úti á sumrum í víking, en heima
+um vetrum með feðrum sínum. Nú fýsir þá frá þessari
+iðju ok skipta nú öllum herföngum. Taka þeir fóstbræðr
+lausafé ok fara með til feðra sinna, en þeir láta
+liðit liggja í hernaði með skip sín. Sitja þeir Sturlaugr
+ok fóstbræðr nú um kyrrt.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Þat er nú hér næst at segja, at drottning Haralds
+konungs tók sótt ok andaðist. Þat þótti konungi mikill
+skaði, því at hann gerðist nú svá mjök gamall, ok varð
+hann hryggr við líflát hennar. Ráðaneyti ok hirðmenn
+konungs segja honum ráð at biðja sér kvennu til drottningar,
+-- "ok megi þér þá af hyggja afgangi frúinnar,
+en þrá hana eigi lengr." Konungr segir: "Hvar skal ek
+mér konu biðja?" Þeir segja: "Hringr jarl á sér dóttur,
+er Ása heitir. Hana máttu fá, ef þú vilt, þegar þér
+lízt." Konungr segir svá vera skyldu, búa nú ferð sína
+ok hafa hundrað manna.
+<pb n="315"/>
+
+Nú ríða þeir þar til, er þeir koma á fund Hrings
+jarls; hann var úti, ok váru menn á leiki fyrir honum.
+Konungr reið at svá snart, at menn stukku frá tveggja
+vegna. Konungr gerði tvá kosti, at festa honum dóttur
+sína elligar mundi hann þar drepinn í stað. Jarl segir:
+"Förum vér til skemmu Ásu ok tölum við hana, svá
+at vér vitum, hver svör hennar eru." "Nei," segir konungr,
+"eigi vil ek vera vánbiðill dóttur þinnar, ok kjós
+skjótt annat hvárt." Jarl íhugar nú ok þykkist vita, at
+hann muni ofrliði borinn, rétti fram höndina ok festi
+konungi dóttur sína. Skyldi hún sitja í festum þrjá
+vetr. Snýr konungr þegar í brott ok ríðr heim, unandi
+vel við sína ferð. Jarl er eptir ok unir heldr lítt við
+sinn hlut, stendr upp ok gengr til skemmu Ásu, settist
+niðr ok blés mæðiliga. Ása mælti þá: "Hvat er þér at
+meini, faðir minn, er þú ert svá fálátr, eða hefir þú
+nokkur ný tíðendi oss at segja?" "Tíðendi þykkja mér,"
+segir jarl, "at ek hefi þik nauðigr manni festa." "Hverr
+er sá?" segir hún. "Haraldr konungr," segir hann, "hefir
+fest þik, ok skaltu sitja í festum þrjá vetr." Hún
+svarar þá: "Eigi valdist sá inn minnsti til, en eigi má
+vita, hvat þá er tíðenda. Kann vera öðrum sé ætlat,
+ok skipast má á skemmri stundu, ok ver kátr, faðir."
+Jarl mælti: "Betr þætti mér þú gefin Sturlaugi." Hún
+svarar: "Eigi veit ek, hvat fyrir beztu má verða." Nú
+líða stundir, ok er nú kyrrt um hríð
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Einn dag er þess getit, at Hringr jarl var úti á leikvelli
+ok hirðmenn hans með honum. Þeir sáu koma
+ríðandi mann af mörkinni fram, mikinn vexti. Hestr
+<pb n="316"/>
+
+hans var allr brynjaðr ok svá sjálfr hann, svartr skjöldr
+á hlið, höggspjót í hendi. Hann reið svá snart, at menn
+stukku undan tveggja vegna. Hann reið svá fram ok
+sat á hesti sínum ok lagði spjótit fram á milli eyrna
+á hestinum ok mælti: "Heill, herra." Jarl tók kveðju
+hans ok spyrr, hverr hann væri. Hann segir: "Ek heiti
+Kolr krappi, en þat er erendi mitt hingat at biðja Ásu,
+dóttur þinnar, mér til handa." Jarl mælti: "Veiztu
+þat eigi, at hún er festarkona Haralds konungs?" Kolr
+segir: "Eigi þykkir mér verr at eiga hana, ok ger nú
+annat hvárt, at þú gef fram festarnar, elligar rek ek
+spjótit í gegnum þik." Jarl íhugar nú þetta ok þykkist
+nú vita, at eigi muni kostrinn góðr, kýss þat af at lifa,
+þótti einskis utan ills þaðan af ván. Þótti honum eigi
+undir, hversu illt þeir ætti til samans Haraldr konungr
+ok Kolr, ok selr nú fram festarnar. Kolr mælti: "Seg
+Haraldi konungi, at ek skora honum hólmgöngu austr
+við Gautelfi, þá er líðr hávetrinn. Hafi sá meyna, er
+sigr fær, en komi hann eigi né vogi at berjast, þá beri
+hann níðingsorð fyrir hverjum manni svá lengi sem
+hann lifir. Sitið heilir, herra." Síðan snýr Kolr hesti
+sínum ok reið brott ok þóttist vel hafa fram gengit.
+Jarl unir illa við sinn hlut ok sitr eptir nokkura
+stund, stendr síðan upp ok gengr til skemmu dóttur
+sinnar ok settist niðr hjá henni ok má varla mæla. Ása
+mælti: "Ertu sjúkr, faðir minn?" Jarl mælti: "Betr væri
+sótt ok bráðr dauði en fá slíka skömm, at gefa nauðigr
+dóttur sína." Ása mælti: "Hverjum er ek nú gift?" Jarl
+mælti: "Hann heitir Kolr krappi." Hún segir: "Bregðast
+má til betra en eiga inn versta mann, ok verða mun
+betri várr hagr en svá sem nú er ætlat, ok einn mun
+hljóta þenna kost, en eigi tveir. Má ok svá verða, at
+hvárrgi þeira hljóti, ef vel vill, ok ver kátr, faðir," segir
+<pb n="317"/>
+
+hún. Jarl mælti: "Væri vel, ef enn væri sem þú mælir,
+en þat uggir mik, at eigi hljótist þat af, ef þeir drepast
+sjálfir, en þá yrði sem ek vildi." Nú skilja þau at
+sinni.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="7"><p>
+
+Haraldr konungr fregnar nú þessi tíðendi ok þótti
+eigi betr en áðr fyrri, leitaði nú ráðs hér um við sína
+vini. Þat kemr upp, at konungr sendi menn sína á
+fund Hemings at bjóða honum til jólaveizlu ok þat
+með, at hann mundi eigi gjafalauss í brott fara. Hann
+fekk þann mann, er Kolli hét, at fara þessa sendiför.
+Nú fara þeir norðr í Naumudal á fund Hemings ok
+kvöddu hann ok bera fram erendi konungs. Hemingr
+hafði verit inn mesti hólmgöngumaðr, en gerist nú
+hniginn við aldr ok hafði verit í missætti nokkura stund
+við Harald konung. Nú segir sendimaðrinn fram erendi
+sín. Þá svarar Hemingr: "Eigi man ek, at konungr
+hafi mér fyrr heim boðit. Nú eru tveir kostir
+fyrir hendi, at sitja heima ok vanrækja konungs boð
+eða hætta á, hvat undir býr, ok því, at nú er eigi í
+hættu um gamlan mann, þá fari sem má. Er eigi engi
+eptir, meðan Sighvatr, sonr minn, lifir."
+Nú býr Hemingr ferð sína á hans fund við tólfta
+mann, ok koma þeir jólaaptan inn fyrsta ok gengu
+í höll fyrir konung ok kvöddu hann vel. Konungr
+tók vel kveðju þeira ok ruddi öndvegi ok setti Heming
+it næsta sér, ok drukku glaðliga af jólin í góðu yfirlæti.
+En afgöngudag jólanna gekk konungr á málstefnu ok
+Hemingr. Konungr mælti: "Hólmstefna er á hendi
+mér, ok sé ek þar til, at þú munir leysa mik undan við
+Kol krappa." Hemingr segir: "Eigi veit ek þat, at þú
+<pb n="318"/>
+
+hafir veitt mér svá mikit, at ek muni leggja líf mitt
+í hættu fyrir þik. Þykki mér eigi örvænt við hraustan
+mann at eiga, heldr við tröll." Konungr mælti:
+"Því leitaða ek þess við þik, at mér þykkir þú mesta
+kempa verit hafa nær allra hér í landi. Þykki mér þess
+ván, at engi verði til, ef þik brestr, sem þú ert. En
+ef þú kemr aptr ór þessari ferð, þá skal ek þér vel launa
+með gulli eða silfri." Hemingr segir: "Þat er sannast,
+at hér er lítit í hættu um gamlan mann. Er falls ván
+at fornu tré, ok mun ek fara sendiför þessa." Konungr
+segir: "Allra drengja hraustastr á sjó ok landi, var þess
+ván, at þér mundi vel fara."
+Nú býr Hemingr ferð sína ok ríðr í burtu leiðar
+sinnar ok léttir eigi fyrr en hann kemr til Gautelfar
+austr. Var þar Kolr fyrir. En er þeir fundust, spurði
+Kolr, hvat Hemingr skyldi. Hemingr segir: "Ek ætla
+at ganga á hólm við þik." Kolr mælti: "Lítit leggst þá
+fyrir mik, ef þú leggr mik at velli. Fellda hefi ek þá,
+sem sterkari eru ok hafa verit líkari til frama en þú
+ert, ok far heim aptr, en fá mér vápn þín ok segst
+yfirstiginn ok þat, at þú þorir eigi at berjast við mik."
+Hemingr segir: "Heldr vil ek deyja en bera níðingsorð
+fyrir hverjum manni." Kolr mælti: "Eigi skal ek
+þinn hund spara at drepa, er þú vilt þat eina." Um
+kveldit tjölduðu þeir sér búðir ok sofa af um nóttina.
+Um morgininn stendr Hemingr upp ok sér, at Kolr er
+kominn til hólmsins. Ferr hann nú til hólmsins með
+sína menn. Nú kasta þeir feldi undir fætr sér, ok segir
+Kolr upp hólmgöngulög. Síðan ganga þeir saman ok
+börðust, en svá lauk, at þar fell Hemingr fyrir Koli.
+Kolr mælti við menn Hemings: "Nú skulu þér aptr
+fara á konungs fund ok segja honum, at hann geri
+annat hvárt, komi sjálfr til bardaga við mik eða fái
+<pb n="319"/>
+
+þann mann fyrir sik, at nokkur þróttr sé í, ef hann
+ætlar sér konuna, eða mun hann af henni sitja." Menn
+þeir, sem höfðu heiman farit, sneru aptr hvatliga ok
+fóru norðr í Naumudal á fund Haralds konungs ok
+segja honum þessi tíðendi öll ok ummæli Kols krappa.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="8"><p>
+
+Þótti konungi þetta ill tíðendi ok leitar sér enn ráðs,
+ok þat tekr hann enn til ráðs, at hann sendir Kolla sendimann
+til Sturlaugs ok föður hans, ok bjóða þeim til
+hálfsmánaðar veizlu til sín með svá margan mann sem
+þeir vildu með sér hafa. Þessi orð fara á millum þeira
+feðga. Þá spyrr Sturlaugr föður sinn, hvárt þeir skulu
+þiggja veizluna. Faðir hans segir: "Þat vilda ek, at vit
+sætim heima ok færum hvergi." Sturlaugr segir: "Eigi
+nenni ek at vanrækja konungsboðit, en veit ek, at
+nokkut muni undir búa, en þó vil ek fara. Mun lítil
+saga frá oss verða, ef vér skulum eigi koma til annarra
+manna, þá vit erum boðnir. Má þat eigi vita, hvat
+verðr í várri ferð, þat at oss verði til sæmdar." Ingólfr
+segir: "Þér munuð ráða vilja ferðum yðrum, hvárt
+sem ferst vel eða illa."
+Eptir þat búa þeir ferð sína ok eru saman sex tigir
+manna, vel búnir allir at vápnum ok klæðum. Þeir
+ríða nú á fund Haralds konungs ok koma þar jólaaptan
+inn fyrsta. Konungr tók blíðliga við þeim ok
+setti þá í hásæti hjá sér, ok var þá búin in fegrsta
+veizla. En at liðnum jólum gekk konungr á málstefnu
+ok þeir feðgar, Ingólfr ok Sturlaugr. Sturlaugr mælti
+við menn sína: "Búi þér hesta vára, meðan vit tölum."
+Þeir gerðu svá. Konungr mælti: "Hólmstefna er á
+<pb n="320"/>
+
+hendi mér, ok sé ek þar til, Sturlaugr, sem þú ert, at
+þú munir leysa mik undan, því at ek em gamall maðr,
+at ganga á hólm við Kol inn krappa." Sturlaugr mælti:
+"Sel mér í hendr festar þær, er þú tókst af Hringi
+jarli, því at þat mun eigi kauplaust," segir Sturlaugr.
+"Mikit þykkir mér til kaups mælt," segir konungr. "Þá
+mun ek til hætta," segir Sturlaugr, "hversu sem ferr
+með okkr Kol." Konungr segir: "Eigi varði mik, at
+þú mundir þetta til mæla, er mér er mesta svívirðing
+í at játa." Sturlaugr segir: "Hér er um at kjósa, hvárt
+yðr þykkir betra." Konungr mælti: "Þat mun ek þó
+kjósa, at þú gangir á hólm við Kol. Þat ferr með okkr
+sem auðnar." Sturlaugr svarar: "Sel fram festarnar
+áðr." Konungr gerði nú svá, þó at nauðigr væri, því
+at honum sýndist óauðligr flokkr þeira fóstbræðra.
+Ríða þeir á burt ok á fund Hrings jarls. Hann tekr
+vel við þeim ok býðr þeim þiggja þar veizlu. Þeir segja,
+hvar nú var komit þeira máli ok hversu farit hafði
+með þeim Haraldi konungi. Jarl varð nú glaðr við
+þetta, biðr þá ganga til skemmu Ásu, ok svá gera þeir.
+En er þeir koma þar, þá fagnar Ása þeim vel. Hringr
+mælti: "Biðli áttu hér at fagna ok svara, dóttir." "Hverr
+er sá maðr?" segir hún. "Hann heitir Sturlaugr. "Ása
+mælti: "Eigi mun mér nú manna skortr," segir hún.
+Sturlaugr mælti: "Svá hefir nú verit til ætlat, at ek
+mundi eigi vera vánbiðill þinn lengr." Ása segir svá
+vera skyldu sem þeir vildu. Nú er búizt við ágætri
+veizlu ok eigi til sparat þat hafa þurfti. Gengr Sturlaugr
+at eiga Ásu ina fögru, ok er þegar leidd í sömu
+sæng. Veizlan fór vel fram, ok váru menn með góðum
+gjöfum út leystir. Ríða þeir Ingólfr heim, en þau Ása
+ok Sturlaugr eru eptir ok undu allvel sínu ráði.
+<pb n="321"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="9"><p>
+
+Einn morgin, er þau Ása lágu í sæng sinni, mælti
+Ása við Sturlaug: "Er hólmstefna á hendi þér, Sturlaugr?"
+"Satt er þat," segir hann. "Við hvern?" segir
+hún. "Við Kol krappa," segir hann, "eða hvat kanntu
+þar til leggja?" Hún svarar: "Far þú ok finn Véfreyju,
+fóstru mína. Haf hennar ráð, ok mun þér vel duga.
+Hér er fingrgull, er þú skalt henni færa til jarteikna,
+ok seg, at mér þykkir mikit undir, at hún taki vel við
+þér."
+Sturlaugr ferr nú ok þeir tólf saman fóstbræðr, ríða
+nú til þess, er þeir koma at bæ kerlingar. Sturlaugr
+hleypr af baki ok inn í dyrrnar at kerlu ok leggr
+hendrnar um háls henni ok kyssti hana svá mælandi:
+"Heil ok sæl, kerling mín." Hún snarast við honum
+fast ok rekr upp á hann augun: "Hverr er þessi hundsins
+sonrinn, er mik leikr svá háðuliga, ok engi hefir
+slíkt þorat at gera fyrri, ok skal ek þetta grimmliga
+gjalda." Sturlaugr mælti: "Vertu eigi svá reið, kerling
+mín, því at Ása sendi mik hingat til þín." "Hvat er
+þér at Ásu" segir kerling. "Hún er kona mín," segir
+hann. Hún mælti: "Er lokit boðinu?" "Svá er þat," segir
+hann. "Nú eru brögð í" segir kerling, "er mér var
+eigi boðit til boðsins. Þó skal gera sem Ása biðr. Far
+þú af klæðum, ok vil ek sjá bolvöxt þinn." Hann gerir
+svá. Hún strýkr hann allan, ok þykkist hann mikit
+styrkna við. Síðan gefr hún honum ker at drekka ór,
+ganga síðan til stofu. Kerling var in bezta til beina
+um kveldit. Hún spyrr, hvárt Sturlaugr vill liggja einn
+um náttina eða hjá sér, -- "en eigi skal ek at heldr svíkja
+Ásu mína." Sturlaugr segir: "Þess betr þykki mér,
+<pb n="322"/>
+
+kerling, sem ek er nær þér." Þá lét kerling einn stokk
+á milli þeira, en þau lágu á einu hægendi bæði saman
+ok áttu tal saman um nóttina. Sturlaugr mælti: "Hvat
+leggr þú mér til ráðs, því at hólmstefna er á hendi
+mér við Kol inn krappa?" "Óvænliga þykki mér þat
+horfa," segir kerling, "því at á hann bíta engi járn,
+ok kann ek hér varla ráð til at leggja."
+Um morgininn bjuggust þeir fóstbræðr til ferðar,
+ok er þeir váru búnir, þá mælti kerling við Sturlaug:
+"Tak hér við loðkápu einni, er langfeðgar mínir hafa
+átt, ok saxi, ok hefir jafnan gæfa fylgt, ok reyn, hvárt
+nokkurr þróttr er í þér." Sturlaugr tók við ok hjó í einn
+stein, er stóð í hlaðinu, ok tók af steininum hyrnuna.
+Ryð fell af sverðinu, ok var bjart eptir sem silfr. Þá
+mælti kerling: "Þetta sverð skaltu bera á hólm við
+Kol krappa, en eigi máttu sýna honum þetta sverð, ef
+hann biðst at sjá þat, er þú átt at höggva með." Þá
+mælti kerling: "Far þú nú vel, Sturlaugr minn, ok
+gangi þér allt til sigrs ok tíma, á meðan þú lifir, ok
+alla gæfu, þá er várir frændr hafa haft, þá legg ek til
+þín, sem ek má framast. Þó er ek hrædd, hverninn ferr
+með ykkr Kol krappa. En tvá sonu á ek, er ek vilda
+þú tækir í fóstbræðralag." "Svá skal vera," segir Sturlaugr.
+Nú sverjast þeir í fóstbræðralag. Síðan snúa þeir
+í brott. En er þeir váru skammt farnir, kallar kerling
+eptir þeim ok mælti: "Viltu, Sturlaugr minn, at Svipuðr,
+fóstri minn, fari með þér; hann er frár á fæti."
+"Þat vil ek," segir Sturlaugr. Kerling seldi Svipuði í
+hendr pung lítinn. Hann stakk honum næst sér, ok
+síðan hljóp hann fyrir hestum þeira. Ríða nú leiðar
+sinnar ok létta eigi fyrr en þeir koma austr til Gautelfar,
+ok er Kolr eigi kominn. Sturlaugr tjaldar búð
+þá, er Kolr var vanr at tjalda.
+<pb n="323"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="10"><p>
+
+Litlu síðar kom Kolr. Sturlaugr gekk í móti honum
+ok heilsar á hann. Kolr mælti: "Hverr er þessi inn
+vándi bikkjusonrinn, er þorir at tjalda búð þá, er ek
+er vanr at tjalda, ok hann er svá djarfr?" Sturlaugr
+mælti: "Þú munt vita glöggvast, hverr bikkjusonrinn
+er, því at hann var hér engi, áðr þú komst hér, en ef
+þú spyrr at nafni mínu, þá heiti ek Sturlaugr." Kolr
+mælti: "Hvat ætlar þú þér, er þú ert hér kominn?"
+Sturlaugr mælti: "Ek ætla at berjast við þik." Kolr
+mælti: "Nú eru brögð í tafli, ok of djarfr ertu, at þú
+ætlar þér þann mikla dul, þar sem ek hefi svá margan
+dreng felldan, er við mik hefir barizt, eða hvat dregr
+þik til þess?" Sturlaugr segir: "Þat helzt, at Ása in
+fagra er eiginkona mín. Skaltu þar eigi við meyju taka,
+þó at ek falli fyrir þér." Kolr mælti: "Heyr hér á fádæmi,
+hvat þínum herjans syni hefir í hug komit at
+gera, ok fyrir þetta it sama skal ek þér eigi þyrma, ok
+skjótt skaltu þitt líf láta, ok er þó of seint. En þó er
+þat skaði um slíkan mann sem þú ert." Sturlaugr segir:
+"Hvergi skal ek á hæl fyrir þér hopa."
+Nú tjaldar Kolr sér aðra búð um kveldit, en er Kolr
+var kominn til matar, kemr Svipuðr í búð hans ok tekr
+punginn kerlingar ór skikkju sér ok skekr í búðinni,
+ok varð af þessu reykr mikill. Kolr rekr upp augun ok
+mælti: "Far í burt, inn vándi hundr, ok kom hér eigi
+síðan, því at þú munt nokkut illt gera." Svipuðr snýr
+í burt, svá at engi vissi, hvat af honum varð. Sofa þeir
+af um nóttina.
+Um morgininn stendr Sturlaugr upp snemma ok þeir
+fóstbræðr, fara til eyjarinnar, setjast niðr ok bíða Kols.
+<pb n="324"/>
+
+Hrólfr nefja stendr upp ok gengr í skóginn ok höggr
+sér kylfu eina stóra ok mikla ok hefir í hendi sér ok
+gengr til félaga sinna aptr. Kolr stendr upp um morgininn,
+ok skein þá sól um alla völlu. Hann mælti þá:
+"Þat ætla ek sá inn vándi þræll, er hér kom í gærkveld,
+hafi nokkura töfra haft, þá er oss hafa lítill fögnuðr
+at verit, ok þetta má sannliga heita dauðasvefn, er vér
+höfum sofit, ok förum til hólmins." Þeir fara til hólmsins
+ok kasta feldi undir fætr sér. Kolr segir upp hólmgöngulög
+í millum þeira, ok skyldi hvárr við leggja
+tuttugu merkr silfrs. Skyldi þetta hvárr eiga, sem sigr
+fengi.
+En er þeir váru búnir, tekr Kolr til orða: "Sturlaugr
+sveinn, sýn mér sverð þitt, þat er þú hefir." Hann
+gerir svá. Kolr lítr í eggina ok rak við augun ok mælti:
+"Eigi muntu mik með þessu sverði sigra. Far þú heldr
+heim, segst yfirkominn, en fá mér vápn þín ok send
+mér Ásu ina fögru ok seg henni, at þú þorir eigi at
+berjast við mik eða halda henni fyrir mér." Sturlaugr
+segir: "Eigi sigrar þú mik með orðum einum, því at
+þú ert yfirkominn af hræðslu, ok mun þér skammt til
+ills dauða." Kolr varð reiðr við orð hans ok mælti:
+"Þat skaltu finna, inn vándi hundr, at ek skal þér eigi
+þyrma." Þá kastar Sturlaugr því sverði, er hann hafði
+Kol sýnt, en tók Véfreyjunaut undan feldi sínum ok
+brá. Kolr mælti: "Hvaðan kom þér Véfreyjunautr, ok
+eigi munda ek á hólm við þik hafa gengit, hefða ek
+þat vitat." Sturlaugr svarar: "Þat skiptir þik engu, ok
+er þér illa farit, at þú hræðist fyrr en þörf gerist." Þá
+hjó Sturlaugr til Kols ok klauf skjöldinn allan. Kolr
+hjó í mót ok klauf hans skjöld í sama máta. Þá hjó
+Sturlaugr í annat sinn til Kols utan á hjálminn, klauf
+hann allan ok af vangafilluna ok svá á öxlina, at í
+<pb n="325"/>
+
+herðarblaðinu nam staðar. Kolr stóð réttr ok gaf sik
+eigi at. Þá hljóp at Hrólfr nefja með kylfuna ok rak
+á blóðrefilinn, svá at sverðit gekk niðr í búkinn, ok
+fell þar Kolr, en Sturlaugr fekk sigr ok varð frægr af
+þessu verki. Reið Sturlaugr til Véfreyju, ok var kerling
+úti ok fagnaði vel Sturlaugi. Þar var þá fyrir Svipuðr.
+Þar váru þeir um nóttina, ok lét kerling vel yfir þessu
+verki, "ok er þat satt," segir kerling, "at sæl er Ása
+mín, at hún á slíkan mann sem þú ert, ok mun þér
+heðan af hefjast allhyggiligt ráð, ef þú kannt til at gæta,
+en þar er ek hrædd um, hversu ferr, en vilda ek, at
+þér gengi vel, en eigi skal þér kerling þessi verri en
+engi."
+Nú ríðr Sturlaugr burt til móts við Hring jarl. Tók
+hann blíðliga við þeim öllum, ok varð Ása fegin bónda
+sínum. Þessi tíðendi koma fyrir Harald konung. Konungr
+varð svipligr við þenna atburð, sem síðar berr
+raunir á, en allir frændr Sturlaugs þóttust hann ór
+helju heimtan hafa.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="11"><p>
+
+Einn dag sem Hringr jarl var á leiki með menn
+sína, er léku fyrir þeim Hring ok Sturlaugi, þá sáu
+þeir ríða mann af mörkinni á rauðum hesti at þeim,
+brynjaðr allr. Hann var mikill vexti, hjálm á höfði,
+en gyrðr sverði, gullsmeltan skjöld á hlið ok spjót í
+hendi. Hann reið fyrir jarl ok kvaddi hann vel. Hann
+tók ok honum í sama máta, spurði, hverr hann væri.
+Hann segir: "Óvant er nafn mitt, ek heiti Framarr, en
+vit erum hálfbræðr, Kolr inn krappi ok ek, en þat er
+mitt erendi hingat, at ek vil bjóða þér hólmgöngu,
+<pb n="326"/>
+
+Sturlaugr, því at ek vil eigi bera bróður minn í sjóði."
+Sturlaugr segir: "Til hólmgöngu em ek albúinn, þegar
+þú vilt, ok eptir illan áttu at mæla, þar sem Kolr var."
+"Svá var þat," segir Framarr, "en þó var hann mér
+skyldr, ok vil ek því berjast við þik, þar eð Kolr fell
+austr við Gautelfi, þegar líðr hávetrinn." Svá skal
+vera," segir Sturlaugr. Nú ferr Framarr leiðar sinnar,
+en þeir eru eptir, ok leið af sumarit.
+Eina nótt, er þau lágu bæði í hvílu sinni, Sturlaugr
+ok Ása, mælti Ása: "Er hólmganga á hendi þér, Sturlaugr?"
+segir hún. "Svá er víst," segir hann, "eða hvert
+ráð leggr þú á með mér um þetta?" Ása segir: "Far þú
+ok finn Véfreyju, fóstru mína, ok haf hennar ráð um
+þetta." "Svá skal vera," segir Sturlaugr. Hann ferr nú
+á fund Véfreyju. Var kerling úti ok fagnaði þeim vel,
+ok eru þeir þar um nóttina. Um morgininn spyrr Sturlaugr
+kerlingu ráðs um þetta. Kerling mælti: "Við
+hvern skaltu nú á hólm ganga?" "Framarr heitir hann,"
+segir Sturlaugr, "bróðir Kols krappa." Kerling segir:
+"Ólíkir menn," sagði hún, "ok er þat illt, at þit skuluð
+bera banaspjót hvárr á móti öðrum, því at Framarr er
+inn vaskasti maðr ok af inum beztu ættum, en Kolr
+var inn versti maðr ok þræla ættar, ok sæll væri sá, er
+því kæmi til leiðar, at þit væruð heldr vinir en fjandmenn,
+ok kann ek eigi til at leggja, ok mun fara at
+auðnu með ykkr, en fara skal Svipuðr, fóstri minn,
+með þér."
+Nú fara þeir leiðar sinnar ok létta eigi fyrr en þeir
+koma austr til Elfar, ok reið Framarr þá at öðrum
+megin. Hittast þeir ok fréttast almæltra tíðenda, stíga
+af baki, tjalda hvárir búð með öðrum ok sofa af nóttina.
+<pb n="327"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="12"><p>
+
+En um morgininn standa þeir upp snemma ok fara
+til hólmsins ok setjast niðr á lág eina. Framarr mælti:
+"Hvárt viltu, at vit reynum með okkr fyrr en menn
+okkar?" Sturlaugr mælti: "Gott þykki mér at hafa gaman
+af mönnum mínum." Hrólfr nefja stóð upp ok
+mælti: "Ek skal þér í mót, blámaðr." Hrólfr bjó sik
+til glímu allléttiliga. Síðan ráðast þeir á ok takast fangbrögðum
+allsterkliga, ok var þeira atganga bæði hörð
+ok löng. Mikill var aflsmunr með þeim, því at blámaðrinn
+mátti bera Hrólf í fangi sér, hvert er hann
+vildi. Berserkrinn vildi færa Hrólf þá niðr. Hann kom
+þó jafnan fótum undir sik. Þessi blámaðr var mikill
+sem risi, en digr sem naut, blár sem hel. Klær hafði
+hann svá miklar, at þær váru líkari gammsklóm en
+mannanöglum. Nú bar hann Hrólf at láginni, ok vildi
+blámaðrinn færa hann niðr á kylfuna, en Hrólfr stakk
+fótum við svá fast, at þeir hrukku frá í burt báðir, ok
+fell blámaðrinn á bak aptr, ok varð undir honum
+steinn, ok brotnaði hryggr hans, en Hrólfr hljóp skjótt
+á fætr ok þreif kylfuna ok lamdi blámanninn skjótt
+til heljar, en Hrólfr var allr blár ok blóðugr ok rifit
+hold af beinum hans. Sturlaugr þakkaði honum vel
+sína framgöngu.
+Síðan var sá maðr með Framari austan af Svíþjóð,
+er Þórðr hét, mikill maðr ok sterkr. Honum í mót gekk
+Hrafn inn hávi, ok hófu þeir sitt einvígi með stórum
+höggum, en svá lauk, at Hrafn fell fyrir Þórði. Nú
+gekk fram Jökull ok mælti: "Hverr skal mér í móti?"
+Maðr stóð upp, er Frosti hét, ok mælti: "Mun eigi þat
+makligast, at ek gangi þér í móti, því at frostit herðir
+<pb n="328"/>
+
+jökulinn?" Þeir berjast lengi, þar til at Jökull fell fyrir
+Frosta, ok þótti Sturlaugi mikill skaði at um fóstbræðr
+sína, en þat var til skilit, at engi skyldi öðrum lið veita.
+Finnr einn var með Framari, ok var honum skipat í
+mót Svipuð. Þeir gangast nú á móti ok berjast hart ok
+títt, svá at eigi fekk auga á fest, ok hvárrgi kom sári á
+annan. En er þeir litu þar til í annat sinn, þá váru þeir
+þegar horfnir, en þar váru komnir hundar tveir ok bitust
+ákafliga. Ok er minnst varði, váru hundarnir horfnir,
+en menn heyrðu í loftit upp ólæti nokkur, ok líta
+menn við ok sáu, at ernir tveir flugust á í loftinu ok
+rifu af hvárr annars fjaðrir með klóm ok nefjum, svá at
+blóðit fell á jörð. En svá lauk með þeim, at annarr fell
+dauðr niðr á jörð, en annarr fló í braut, ok vissu menn
+eigi, hvárr sá var.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="13"><p>
+
+Framarr mælti: "Nú er ráð, at vit reynum með okkr."
+"Búinn em ek þess," segir Sturlaugr. Nú kasta þeir
+feldi undir fætr sér. Sturlaugr bregðr þá Véfreyjunaut,
+en er Framarr sá þetta, mælti hann: "Hvaðan kom þér
+Véfreyjunautr?" Sturlaugr segir: "Hirtu aldri, hvaðan
+hann kom." Framarr mælti: "Eigi munda ek hafa gengit
+á hólm við þik, ef ek hefða þetta vitat, en þó fekk ek
+eigi fyrr æðru í mitt brjóst." Framarr segir upp hólmgöngulög,
+ok á Sturlaugr at höggva fyrri. Hann hjó til
+Framars ok í hjálm hans ok af hjálminum, þat er nam,
+ok svá í skjöldinn ok klauf hann allan niðr í sporð, svá
+at í jörðu nam staðar, en blóðrefillinn nam bringuna í
+gegnum brynjuna ok í brúnina ok hljóp í beinit, ok
+rann þegar blóð í augun, svá at hann sá eigi, ok þar
+<pb n="329"/>
+
+með blástr mikill. Framarr hjó þá til Sturlaugs ok klauf
+skjöld hans allan. Sturlaugr hjó þá til Framars í annat
+sinn, ok fór á sömu leið, ok var Framarr þá óvígr. Hann
+setr sik þá niðr ok mælti: "Þú hefir í helzta lagi óvin í
+hendi þér, því at sverð þitt er fullt af eitri ok illsku, ok
+högg af mér höfuðit sem fyrst, því at ek vil eigi lifa við
+harmkvæli." Sturlaugr mælti: "Viltu þiggja líf af mér?"
+Framarr segir: "Gott þykki mér at þiggja líf af þér, en
+fyrirkomit gerist nú líf mitt." Þeir flytja hann utan ór
+eyjunni ok inn í búð sína, ok er þá minni ván manns.
+Ok er svá var komit, þá heyrir út dunur miklar, en er
+út var komit, þá var þar komin Véfreyja í vagni ok
+spurði, hversu þeim færi at. Þeir svara, at Framarr var
+kominn at dauða. Kerling segir: "Berið hann út hingat,
+eigi er undir því, hvar hann deyr." Svá var gert sem hún
+bað. Sturlaugr mælti: "Viltu láta fara með þér fleiri
+menn?" "Eigi vil ek þat," segir kerling, "ek er vel fær
+ein," segir hún. Ekr kerling Framari af stað, en þeir
+sitja eptir. Líðr nóttin, en um morgininn býr Sturlaugr
+ferð sína. Frosti gengr at Sturlaugi ok mælti: "Gjarna
+vilda ek vera í ferð með þér ok þínum fóstbræðrum."
+Sturlaugr mælti: "Ek ætla vel goldit fyrir Jökul, þar
+þú kemr í staðinn." Nú gerist hann fóstbróðir Sturlaugs,
+ríða síðan í burtu ok léttu eigi fyrr en þeir kómu til
+Véfreyju. Ok er þeir koma þar, eru þeir Svipuðr ok
+Framarr alheilir báðir. Váru þeir þar um nóttina í góðu
+yfirlæti. Um morgininn tók Véfreyja til orða: "Þat vilda
+ek, Sturlaugr minn, at þit Framarr sværust í fóstbræðralag,
+því at hann er inn fræknasti maðr fyrir allra hluta
+sakir." Sturlaugr svarar: "Þú skalt ráða, kerling, þat
+mun mér beztu gegna." Nú sverjast þeir í fóstbræðralag
+Sturlaugr ok Framarr, ok skal hvárr hefna annars, sem
+þeir séu skilbornir bræðr.
+<pb n="330"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="14"><p>
+
+Eptir þat ríða þeir í burt, til þess er þeir koma nær
+byggðum Hrings jarls. Þykkir þeim kynliga við vinda,
+höllin er öll þakin mönnum. Þar var kominn Haraldr
+konungr við fjögur hundruð manna ok ætlaði at brenna
+inni Hring jarl ok Ásu ina fögru, dóttur hans, sjá nú,
+at logi leikr um allt, ok brennir Haraldr konungr bæinn
+allan. Þá sáu þeir Sturlaugr, hvar menn ganga neðan
+ór jörðu í rjóðri einu, ok þangat snúa þeir, kenna, at
+þar er kominn Hringr jarl með alla sína hirð, ok þar
+var Ása in fagra með honum. Varð þar fagnaðarfundr
+með þeim öllum.
+Ok eptir þetta ríða þeir allir á fund konungs, þar er
+hann var at brennunni. Þeir váru alvápnaðir ok hestar
+þeira brynjaðir. Sturlaugr segir þá: "Heldr finnumst vit
+nú hér, konungr, enn í hafinu, en illa ferr þér, því at þú
+ert bæði huglauss ok lymskr." Konungr svarar: "Eigi
+hirði ek um illmæli þín, en þat er þér at segja, Sturlaugr,
+at þú skalt aldri óhræddr vera hér í landi, nema þú færir
+mér úrarhorn þat, er ek týnda forðum. En nafn mun
+ek gefa þér með sendiförinni. Skaltu heita Sturlaugr inn
+starfsami. Þat mun við þik festast, því at hér ofan á mun
+yðr starfs auðit fóstbræðrum verða, á meðan þér lifið,
+ef þér komið aptr ór þessari för, sem eigi skyldi vera."
+Sturlaugr segir: "Hvert skal ek eptir því leita?" Konungr
+segir: "Hygg þú sjálfr fyrir því." Sturlaugr segir: "Ófallit
+er, at ek fari sendiför þína," segir hann, "en allt, hvat
+þú þykkist þungt fyrir mik leggja, þá skal ek lífinu
+voga." Réð konungr eigi því til bardaga við þá, at honum
+þótti flokkr þeira fóstbræðra harðsnúinn bæði í afli
+ok herklæðum. Báðu hvárigir aðra vel lifa, ok skildu
+<pb n="331"/>
+
+við svá búit. Sturlaugr ok þau öll saman riðu norðr til
+Naumudala ok sátu þar um vetrinn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="15"><p>
+
+Ok einn dag kom Ása at máli við Sturlaug ok mælti:
+"Er sendiför á hendi þér?" "Satt er þat," segir hann,
+"eða hvert ráð leggr þú á með mér, hvert ek skal leita
+at þessu horni." Ása segir: "Finn Véfreyju, fóstru mína,
+ok haf hennar ráð."
+Ok þegar eptir annan dag bjuggust þeir heiman ok
+riðu til Véfreyju, ok er hún úti ok fagnar þeim vel, ok
+eru þeir þar um nóttina. En um morgininn mælti Sturlaugr
+til Véfreyju: "Hvat kanntu at segja mér af horni
+því, er úrarhorn heitir?" Kerling mælti: "Þat er bæði
+ek kann þar eigi frá segja, enda vil ek eigi." Sturlaugr
+mælti: "Veiztu nokkurn þann, er þar kunni frá at segja,
+því at ek vildi þat gjarna vita." Véfreyja segir: "Járngerðr
+heitir kona ok er systir mín. Far til hennar ok vit,
+hvat hún hefir at segja." Þeir ríða nú á brott ok létta eigi
+fyrr sinni ferð en þeir koma þar, sem Járngerðr á fyrir
+at ráða, eru þar um nóttina. Sturlaugr spurði Járngerði,
+hvárt hún kynni at segja frá úrarhorni. Hún segir: "Þar
+kann ek eigi frá at segja, en veit ek konu þá, er vita
+mun." Sturlaugr spurði, hver sú væri. "Snælaug heitir
+systir mín. Hana á Hrólfr konungr á Hundingjalandi,
+en yðr er eigi fært at fara þangat, því at til mikils mun
+verða sú ferð um þat, er þér komið aptr." Ríða þeir fóstbræðr
+heim at svá fregnuðu.
+<pb n="332"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="16"><p>
+
+Þat er þessu næst at segja, at Sturlaugr býr ferð sína
+litlu síðar ok þeir allir fóstbræðr ok hafa hundrað manna
+ok eitt skip. Sturlaugr mælti við Hring jarl ok svá föður
+sinn, biðr þá sjá fyrir ráði Ásu, meðan hann er burt, ok
+gózi hans öllu, því sem eptir var.
+Nú sigla þeir norðr fyrir Hálogaland ok Finnmörk ok
+Vatnsnes ok inn á Austrvík ok kasta akkerum ok liggja
+þar um nóttina ok bjuggust um. Eptir þat hluta þeir
+um vöku, ok hlaut Áki at vaka inn fyrsta þriðjung nætr,
+en Framarr annan, en Sturlaugr inn síðsta.
+Ok er menn váru sofnaðir á skipinu allir nema Áki,
+tók hann bát ok rær með landi fram út með nesinu.
+Hann heyrir, at gengit er uppi í grjótinu. Áki tók þá til
+orða ok mælti: "Hvárt skal ek hér heilsa karlmanni eða
+konu?" Þá var honum svarat: "Víst er þetta kona."
+"Hvat heitir þú, drós?" segir Áki. "Ek heiti Torfa," segir
+hún, "eða hverr er á bátnum?" segir hún. "Áki heitir
+sá," segir hann. "Eigi mun Áki Járngerðarson hér kominn?"
+segir hún. "Sá er maðrinn sami," segir hann.
+"Viltu eiga kaup við mik, Áki minn?" segir hún. "Hvert
+er kaup þat?" segir hann. "Þat, at þú flytir mik til eyjar
+þeirar, er hér er skammt frá landi. Þar hefir látizt faðir
+minn frá miklu fé, en vér erum þrjár systr ok eigum
+arfi at skipta með oss. Vilda ek fyrri koma en þær. Mun
+ek gefa þér tveggja dægra byr, þá er bezt kemr við."
+"Svá skal vera," segir Áki. Nú stígr hún út á bátinn, en
+hann reri út á sundit, ok er hann hefir skammt róit,
+tók hún til orða: "Nú má ek vel vaða til lands, en þú
+far heill ok happadrjúgr, ok skal ek vel efna við þik."
+Nú styttir hún upp skinnkyrtilinn ok stígr fyrir borð.
+<pb n="333"/>
+
+<lg>
+<l>Áki reri eptir þat til skips ok vekr</l>
+<l>upp Framar, en leggst niðr sjálfr</l>
+<l>ok sofnar skjótt.</l>
+<l>Framarr stígr í bátinn ok rær út</l>
+<l>með nesinu. Hann heyrir í grjótinu,</l>
+<l>at gengit er í fjörunni. Framarr</l>
+<l>mælti: "Hvárt er karlmaðr eða</l>
+<l>kona á landi?" Þá var svarat: "Eflaust</l>
+<l>er þetta kona." "Hvat heitir</l>
+<l>þú, in fagra ok fésæla?" segir hann.</l>
+<l>"Hildr heiti ek," segir hún, "ok</l>
+<l>hvat heitir þú, piltr minn?" kvað</l>
+<l>hún. "Framarr heiti ek," segir</l>
+<l>hann. "Eigi mun hér kominn Framarr,</l>
+<l>bróðir Kols ins krappa," segir</l>
+<l>hún. "Sá er maðrinn," segir hann.</l>
+<l>"Ólíkir tveir," segir hún; "ek vilda</l>
+<l>eiga kaup við þik," segir hún.</l>
+<l>"Hverninn er kaupi því háttat?"</l>
+<l>segir Framarr. Hún segir: "Þú skalt</l>
+<l>flytja mik til eyjarinnar hér er</l>
+<l>næst landi. Þar hefir andazt faðir</l>
+<l>minn frá miklu fé, en vér erum</l>
+<l>systr þrjár at taka arf, en ek mun</l>
+<l>afskipt, ef ek kem síðar," segir hún.</l>
+<l>Framarr segir: "Viltu þá gefa mér</l>
+<l>tveggja dægra byr?" "Þat skal vera,"</l>
+<l>segir hún. Nú ferr hún í bátinn,</l>
+<l>ok þótti honum ærit mjök síga</l>
+<l>bátrinn, er hún kom út á. Hún</l>
+<l>mælti: "Viltu, at ek rói með þér?"</l>
+<l>"Eigi eru þau efni í," segir Framarr.</l>
+<l>En er eptir var þriðjungr</l>
+</lg>
+<pb n="334"/>
+
+sunds, þá tók hún til orða: "Eigi þarftu nú lengra út
+at flytja mik, eru nú þeir einir álar til lands, at ek get vel
+vaðit." Hún sté þá fyrir borð ok óð svá til eyjarinnar.
+En Framarr fór aptr til skips ok vekr upp Sturlaug.
+Hann sprettr skjótt á fætr, en Framarr leggst til svefns.
+Sturlaugr stígr á bátinn ok rær fram með nesinu. Ok
+er hann kemr norðr um nesit, heyrir hann, at gengit
+er uppi í grjótinu, ok sér, at eldr hrýtr ór grjótinu
+undan þessu kvikendi. Þat hefir í hendi atgeir einn;
+þat þótti honum sem þat mundi eigi alþýðu vápn vera,
+er þetta skrípi berr. Sturlaugr spyrr: "Hvárt á ek hér
+at heilsa konu eða karlmanni?" Hún segir: "Veiztu
+eigi, hvat þú sér? Kona er þetta," segir hún, "eða hvat
+heitir þú?" "Sturlaugr heiti ek," segir hann. "Hvaðan
+ertu kominn eða hvert ætlar þú, Sturlaugr inn starfsami?"
+segir hún, "en Hornnefja heiti ek," segir hún.
+"Hvat er manna með þér?" kvað hún, "eða er Hrólfr
+nefja nokkut með þér? Svá er mér sagt," sagði hún,
+"at hann sé mikit mannval ok hverju kvikendi fljótari."
+"Mikit er til þess hæft," segir hann. "Þá eru brögð
+í," segir hún, "viltu eiga kaup við mik?" "Hverju viltu
+kaupa?" segir hann. "Ek vil, at þú komir Hrólfi nefju
+til mín, svá at ek megi sjá bolvöxt hans ok yfirliti, því
+at mér er mikit sagt af hans andlits fegrð. Mun ek gefa
+þér til grip þenna, er ek hefi í hendi mér, en þat er
+einn atgeirr." Sturlaugr segir: "Hvat prýðir grip þenna,
+er þú býðr mér?" Hún mælti: "Hann bítr allt þat honum
+er höggvit til. Hann má vera svá lítill, at þú mátt
+nista honum í klæði þínu sem dragnál. Þar muntu
+hvergi koma, at þér mun eigi hægt veita at vinna með
+honum, hvat þik girnir ok þörf gerist." Sturlaugr segir:
+"Þá munu vit kaupast við."
+Sturlaugr fór nú til fóstbræðra sinna ok vekr upp
+<pb n="335"/>
+
+Hrólf nefju ok biðr hann fara með sér. Þeir fara nú
+burt á bergit, þar sem kerla var undir niðri. Hrólfr
+sezt á framanvert bergit ok lætr síga fætr fram. Hann
+var svá búinn, at hann var í geitbjálfa loðnum ok digr
+kálfsbelgr á höfði honum, ok stóð upp rófan ór miðju
+höfði, en ketilhrím var núit um andlit hans allt ok
+skotit kefli í munninn, svá at stórar kúlur váru út af
+kinnunum; uxahorn eitt hafði hann í hendi sinni; svínsbelg
+hafði hann á hvárum fæti, ok er hann var svá búinn,
+þá þótti hann eigi at öllu sjáligr, þar er hann sat
+á berginu ok gapti við tunglinu, því at þat skein glatt.
+Eptir þetta fór Sturlaugr til fundar við Hornnefju.
+Hún fagnar honum vel ok mælti: "Hvar er Hrólfr
+nefja?" Sturlaugr mælti: "Líttu hér upp á bergit ok
+sjá, hvar hann sitr." Hún snarast við fast ok sér, hvar
+hann er kominn. Hún heldr þá hendi fyrir augat ok
+hyggr at vandliga ok mælti: "Þat er þó satt at segja,"
+segir hún, "at allgerviligr err maðrinn, ok hefir eigi ofsögum
+verit frá sagt þessum manni, er svá er tíguligr."
+Nú þrútnar hún í vexti mjök. Síðan teygir kerla sik
+upp í bergit ok þóttist aldri geta hann fullkomliga sét,
+þar er hann var. "Eigi kann ek hér önnur ummæli at
+hafa en mér þætti sú kona sæl, er þenna mann hlyti."
+Þá sér Sturlaugr, at hún muni fá þrifit í fætr honum,
+ok vill eigi þess bíða ok hleypr ór bátinum utan ok á
+einn stein ok leggr at henni með atgeirnum, svá at
+stóð í gegnum hana. Hún lét þá fallast á hann ofan,
+ok fór hann þegar í kaf ok kafaði út undan henni, en
+bátnum hvolfdi. Hún lét þar líf sitt, en hann réttir
+bátinn. Fara þeir aptr við svá búit til félaga sinna ok
+segja þeim, hversu farit hefir. Þeir láta vel yfir.
+<pb n="336"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="17"><p>
+
+Eptir þetta rennr á blásandi byrr fyrir þeim, ok sigla
+þá, þar til er þeir sjá land. Þat var mjök skógi vaxit.
+Þar var einn leynifjörðr, er þeir kómu at, ok sigldu
+þeir inn eptir firðinum ok lögðu í einn leynivág ok
+kasta atkerum. Þá var sól í suðri, ok gengu þeir á land.
+Sturlaugr spurði: "Hvert land ætli þér þetta, er vér
+erum við komnir?" Framarr segir: "Hundingjaland at
+frásögn Kols, bróður míns, ok munum vér á land ganga
+þrír, Sturlaugr, Áki ok ek, en þér skuluð bíða vár hér,
+þar til er þriðja sól er af himni. En ef vér komum þá
+eigi aptr, þá hljóti þér at sjá ráð fyrir yðr."
+Þeir ganga nú á land ok í einn skóg þykkvan ok
+merkja á eikum, hvar þeir fara, ok um síðir koma þeir
+fram ór skóginum ok sjá mörg ok stór heruð, borgir
+ok kastala. Þeir sjá eina borg ok höll miklu meiri en
+aðra. Þangat fóru þeir, ok stóðu menn í dyrum, ok
+var haka þeira gróin í bringuna. Þeir gjöltu sem hundar.
+Þóttust þeir nú vita, hvar þeir váru komnir. Þeir
+bönnuðu þeim inngöngu. Sturlaugr brá Hornnefjunaut
+ok höggr duravörðinn í tvennt, en fóstbræðr hans
+drepa annan.
+Eptir þat gengu þeir í höllina ok standa á utanverðu
+hallargólfi. Áki sér, hvar konur sitja á palli. Ein af
+þeim var auðkennd, því at hún var miklu fegri en
+aðrar. Áki kennir þessa konu at frásögn móður sinnar,
+gengr at pallinum ok upp á skörina ok leggr báðar
+hendr um háls henni ok mælti: "Sæl, frændkona," segir
+hann. Hún tók kveðju hans ok hvarf til hans. Hundólfr
+konungr sér þetta ok bregðr eigi vel við, því at hann
+mátti eigi sjá, at menn horfðu á drottningu hans. Nú
+<pb n="337"/>
+
+má ætla, hversu grimmt honum mundi í hug, er einn
+útlendr maðr hljóp á háls henni ok kyssti hana fyrir
+augum honum ok gerði slíkt ódæmi. Hratt hann nú
+fram borðum ok kallar út hirðsveina, ok kváðu við
+lúðrar um öll stræti. Áki mælti: "Hér er ek kominn
+á þinn fund, frændkona. Vilda ek, at þú segðir mér
+af úrarhorni eða hvert þat er at sækja." Hún mælti:
+"Hverir eru þessir menn? Þeir sögðu nöfn sín. Hún
+mælti: "Illa er þat, at þér eruð hér komnir, því at
+öllum yðr er ætlaðr dauði, ok þarf því eigi at segja
+yðr frá úrarhorni." Áki mælti: "Þó at vér séim þegar
+drepnir, þá þykkir oss betr at vita it sanna, hvat þú
+kannt at segja oss frá horninu." Hún segir: "Þat er
+til máls at taka, at hof eitt stendr á Bjarmalandi. Þat
+er helgat Þór ok Óðni, Frigg ok Freyju, gert með hagleik
+af dýrstum viði. Dyrr eru aðrar á hofinu ór útnorðri,
+en aðrar ór útsuðri. Þar inni er Þórr einn. Þar
+er úrarhorn á borði fyrir honum fagrt at sjá sem gull.
+En Sturlaugr einn skal í hofit ganga, því at honum einum
+mun gæfa til endast, ok skal hann þó eigi berum
+höndum á horninu taka, því at þat er fullt af eitri ok
+fjölkynngi. En til lítils mun yðr koma, af því at þér eruð
+allir ráðnir til dauða, ok er mikill skaði at um slíka
+menn, svá vaskir sem þér eruð fóstbrædr." Sturlaugr
+mælti: "Þat skulu þeir finna Hundingjar, um þat er
+vér erum allir fallnir, þótt vér séum fáir, at þeir skulu
+nokkurir rauðu snýta."
+Ok í því drífa þeir inn í höllina Hundingjar allir
+alvápnaðir ok sækja at þeim karskliga, en þeir verjast
+vel ok drengiliga ok drepa þrjá tigi manna, áðr þeir
+váru handteknir, ok váru þeir flettir klæðum öllum
+nema línbrókum einum ok reknir út af höllinni með
+svipum ok stangaðir með spjótsoddum ok keyrðir út
+<pb n="338"/>
+
+til skógar. Þeir kómu í rjóðr eitt. Þar váru tveir steinar
+holir innan. Þeir váru látnir í inn minna steininn,
+en hvelft yfir inum meira, ok var þeim ætlat at svelta
+þar til bana. Steinar þeir, er þar váru, stóðu á hól einum.
+Nú ganga Hundingjar í burtu ok þóttust vel hafa
+hefnt sinnar svívirðingar.
+Nú er þar til máls at taka, at þeir Sturlaugr váru í
+steininum. Sturlaugr mælti: "Hversu þykkir yðr nú
+komit vera?" Þeir létu vel yfir, á meðan þeir væri allir
+heilir vel. Sturlaugr mælti: "Á hverju stakkst ek áðan
+þar aptan í kálfann, þá vér várum flettir klæðum?"
+Hann tók til hendi sinni ok finnr þar járn lítit, sem
+dragnál væri, ok var þetta atgeirr hans. Hann mælti
+þá, at hann skyldi verða svá mikill, at honum væri
+hægt at vinna með þat, er hann þurfti, ok brátt varð
+hann svá mikill, at hann höggr steininn, þar til er
+hann komst út ok þeir allir, ok hlupu nú til félaga
+sinna, ok varð þá fagnaðarfundr með þeim.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="18"><p>
+
+Búast þeir nú í burt ok flytjast út eptir firðinum.
+Áki mælti: "Þat ætla ek, at mér væri eigi meiri þörf
+byrjar en nú." Þá rennr þegar á blásandi byrr, ok
+sigla þeir, þar til er þeir koma við Bjarmaland ok framan
+at ánni Vínu. Þeir sjá á landit upp fyrir vestan ána,
+at þar váru sléttir vellir ok þar var hof allglæsiligt, svá
+at ljóma þótti um alla völluna, því at þat var með
+gulli búit ok steinum. Sturlaugr mælti: "Nú skulum
+vér snúa skipinu, ok skal skutstafn horfa at landi ok
+einn strengr á landi, ef vér þurfum skjótt til at taka,
+<pb n="339"/>
+
+ok hafa forka úti, ok verum búnir at öllu, en vér skulum
+ganga á land, Framarr ok ek."
+Nú ganga þeir á land upp ok Hrólfr nefja ok fóru
+til hofsins. Ok er þeir kómu at hofinu, var þar svá
+háttat dyrum sem þeim var sagt. Ganga þeir at dyrum
+þeim, sem ór útnorðri á hofinu váru, því at þær
+einar váru opnar. Þá sáu þeir, at fyrir innan þröskuldinn
+var gröf full af eitri ok þar næst ein slá stór ok
+felld ofan fyrir innganginn, en í dyrunum var múrat
+umhverfis gröfina, svá at eigi skyldi spillast umbúnaðr
+af ofgangi eitrsins. Ok svá sem þeir váru komnir at
+dyrum hofsins, þá kemr Hrólfr nefja þar. Sturlaugr
+spurði, hví hann væri þar kominn. Hann sagði: "Ek
+vilda eigi fyrirmuna mér frægð at ganga í hofit með
+þer." "Þess er eigi ván," segir Sturlaugr; "einn skal
+ek í hofit ganga." "Fyrirmuna viltu mér frægðina,"
+segir Hrólfr. "Eigi gengr mér þat til," segir Sturlaugr.
+Hann lítr nú inn í hofit ok sér, hvar Þórr sitr allvöxtuligr
+í öndvegi. Frammi fyrir honum var eitt frábært
+borð með silfri laugat. Þar sér hann, at stendr úrarhornit
+frammi fyrir Þór á borðinu. Þat var svá fagrt
+sem á gull sæi ok fullt af eitri. Taflborð ok tafl sá
+hann þar standa, hvárttveggja af lýsigulli gert. Skínandi
+klæði ok gullhringar váru festir upp á stengr. Sex tigir
+kvenna váru inni í hofinu, ok var sú ein, er af bar
+öllum. Hún var svá stór sem risi ok blá sem hel, en
+digr sem meri, svarteygð ok svipuð illa. Þó var sú kona
+vel búin. Hún þjónaði fyrir borði. Þá kváðu þær
+kveðling þenna, er þær sáu Sturlaug:
+<lg>
+<l>"Kominn er hér Sturlaugr</l>
+<l>inn starfsami</l>
+<l>horn at sækja</l>
+<l>ok hringa fjölda;</l>
+<pb n="340"/>
+
+<l>hér er í horni</l>
+<l>ok at hofblóti</l>
+<l>gull ok gersimar,</l>
+<l>grimmt er oss í hug."</l>
+</lg>
+Þá svaraði hofgyðjan ok sagði: "Hann skal aldri með
+lífi á brott komast, ef ek má ráða eða minni trú eða
+fyrirbónum fyrir koma," ok kvað:
+<lg>
+<l>"Hann skal í helju</l>
+<l>hvíldar njóta</l>
+<l>ok margs konar</l>
+<l>meina bíða;</l>
+<l>þá mun Sturlaugr</l>
+<l>inn starfsami</l>
+<l>með góma knífum</l>
+<l>grafinn í stykki."</l>
+</lg>
+Eptir þetta býr Sturlaugr sik til inngöngu, fyrirbjóðandi
+sínum fóstbræðrum sér at fylgja. En í hofinu
+stóðu hellur þrjár svá hávar, at tóku undir bringspalir,
+ok djúpar grafir fyrir innan í milli, fullar af eitri, ok
+þar var at hlaupa inn yfir, áðr en hann komst þangat,
+sem úrarhorn stóð. Nú hefr Sturlaugr sik upp ok stökkr
+inn yfir allar hellurnar vel ok frækiliga, grípandi hornit
+af borðinu með skyndi án nokkurs tálma, hafði sik
+í burt aptr í veginn. Hofgyðjan stendr hjá bólgin ok
+heldr á saxi tvíeggjuðu. Honum þykkir eldr brenna ór
+eggjum þess. Hún grenjar illa á hann ok nístir tönnum
+á hann allgrimmliga, en verðr þó bilt til hans at
+ráða. Ok er Sturlaugr kemr at hellunum, sér hann, at
+Hrólfr nefja hleypr inn yfir hellurnar. Snýr hann þá
+þangat at, er þeir Þórr ok Óðinn váru fyrir, greip
+taflit ok steypir í kjöltu sér ok hleypr fram eptir hofinu.
+Ok sér hann nú, hvar hofgyðjan hleypr eptir sér
+gnístandi. Hann hleypr nú á hellurnar ok ætlar út yfir,
+<pb n="341"/>
+
+en hofgyðjan þrífr í kyrtil hans ok bregðr honum á
+lopt ok rekr niðr við hellurnar, svá at þegar brotnar
+í honum hryggrinn. Lét Hrólfr nefja þar líf sitt með
+mikilli hreysti.
+Eptir þetta hleypr hofgyðjan út ok æpir með svá
+miklum órum ok ærslum ok ógn, at dvergmála kvað
+í hverjum hamri ok þúfu, er í nánd var. Hún sér nú,
+hvar Sturlaugr ferr, ok sækir eptir honum ok leggr at
+honum. Hann verst vel með stórri hreysti ok kænsku.
+Ok þar næst sér Sturlaugr, hvar maðr ferr ór skóginum,
+annarr ok inn þriði, ok því næst koma menn ór
+öllum áttum. Sturlaugr hopar undan, en hún sækir
+at með því meiri illsku sem hún sér mennina fleiri at
+drífa. Hann hleypr nú at henni með Hornnefjunaut
+ok rekr á hana miðja, svá at oddrinn stóð út um herðarnar.
+Hún bregðr við svá fast, at hann lætr lausan atgeirinn,
+ok dvelst hann þar eptir, en hún fær þegar
+bana. Sturlaugr hleypr nú á skip út ok höggr þegar
+strenginn, en Bjarmar leggja at með magni á skipum
+at skipi Sturlaugs. Framarr mælti þá: "Þat mæli ek um,
+at nú komi byrr sá, er Grímhildr hét mér." Ok þegar
+rann á blásandi byrr, svá at stóð á hverjum streng, ok
+sigla á burt, en Bjarmar heldu eptir, á meðan þeir
+máttu, svá at suma rak undan fyrir ofveðri, en sumir
+létust fyrir vápnum. Þóttust þeir góðu bættir, er aptr
+kómust.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="19"><p>
+
+En þeir Sturlaugr sigla nú í haf. Ekki er nú getit
+um ferðir þeira fyrr en þeir koma við Vermaland,
+lögðu at landi ok spurðu tíðenda. Þeim var sagt, at
+<pb n="342"/>
+
+Hringr jarl var farinn ór landi til Svíþjóðar. Síðan fara
+þeir á fund Haralds konungs, kómu í höll ok gengu
+fyrir konung ok kvöddu hann. Sturlaugr stóð fyrir konungi
+ok helt á úrarhorni. Konungr sat í hásæti sínu,
+bólginn af reiði, svá at hann mátti eigi orð mæla. Sturlaugr
+segir: "Nú em ek aptr kominn, konungr, ór
+þessari sendiför, þó at þú ætlaðir eigi, ok skaltu þat
+sanna ok tak hér við horni því, er ek fer með." Konungr
+svarar engu ok helt at sér höndum. Sturlaugr
+kastar þá horninu á nasir konungi, svá at þegar stökk
+blóð ór nösum hans ok brotnuðu fjórar tennr ór höfði
+honum. Eptir þetta fór Sturlaugr austr til Svíþjóðar ok
+fann þar Hring, mág sinn, ok Ásu, konu sína, ok föður
+sinn. Í þann tíð var sá konungr í Svíaríki, er Ingifreyr
+hét. Sturlaugr tók landvörn fyrir ríki hans ok þeir fóstbræðr
+allir ok herjuðu víða um lönd ok fengu jafnan
+sigr, hvar þeir kómu, ok gekk þetta tólf vetr. Þá gaf
+Ingifreyr konungr Sturlaugi konungs nafn ok mikit
+ríki þar með sér, en þeir fóstbræðr höfðu landvörn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="20"><p>
+
+Á einu sinni lýsir Sturlaugr því yfir, at hann vill til
+Bjarmalands, ok safnar hann at sér liði miklu, ok kómu
+þá til hans fóstbræðr hans. Ok frá þeira ferð er eigi sagt,
+fyrr en þeir koma til Bjarmalands ok brenna þar allt
+ok bræla, sem þeir mega. Þeir gerðu hvert illvirki at
+öðru. Röndólfr, konungr Bjarmalands, varð varr við
+þetta ok safnar þegar liði ok verðr heldr liðfár. Ok
+þegar þeir fundust, slær þar þegar í harðasta bardaga;
+þar mátti sjá marga þykkva skildi klofna, en brynjur
+höggnar, höggspjót af sköptum brotin ok sundr sverðin,
+<pb n="343"/>
+
+en margan höfuðlausan til jarðar hníga. En svá lauk
+þessari orrostu, at þar fell Röndólfr konungr ok margt
+lið með honum. En eptir þetta verk it mikla leggr Sturlaugr
+undir sik allt Bjarmaland. Fekk hann ok náð aptr
+atgeirnum Hornnefjunaut ok mörgum öðrum góðum
+gripum.
+Ok er þessum inum miklu stórvirkjum var lokit, þá
+ætlaði hann at hafa her sinn til Hundingjalands á hendr
+Hundingja konungi. Eptir þetta býr Sturlaugr ferð sína
+at nýju með her sinn, ok er eigi af sagt, fyrr en hann
+kom á Hundingjaland. Þeir drepa menn, en taka fé,
+brenna bæi ok byggð alla, þar sem þeir koma. Þetta
+spyrr Hundólfr konungr ok safnar liði ok ferr þegar
+í móti Sturlaugi. En þegar þeir finnast, slær þegar í
+bardaga með þeim með hörðum atgangi ok stórum
+höggum. Sturlaugr gengr opt í gegnum fylkingar þeira.
+Hann hefir báðar hendr blóðugar til axla, greiðandi
+þeim stórlig högg, svipandi mörgum höfuðlausum til
+jarðar, ok tóku fjándr við þeim. Þat er sagt, at Hundólfr
+konungr gengi vel fram. Sturlaugr sér, at konungr
+höggr merki hans niðr. Þetta eirir honum illa ok veðr
+fram með brugðit saxit Véfreyjunaut ok at Hundólfi
+konungi ok höggr til hans með sverðinu í hjálminn
+ok klauf hann allan ok hausinn ok búkinn ok brynjuna
+ok hestinn sundr í miðjunni. Sverðit nam á jörðu
+staðar. Ok felldi Sturlaugr ok hans fóstbræðr ótal Hundingja,
+ok fekk Sturlaugr konungr fagran sigr. Sneru
+þeir síðan aptr, ok fór Snælaug þá með þeim. Er nú
+eigi sagt frá ferð þeira, fyrr en þeir kómu heim í Svíþjóð.
+<pb n="344"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="21"><p>
+
+En um vetrinn eptir hafði Sturlaugr jólaveizlu ok
+bauð til mörgu stórmenni. Ok er menn váru komnir
+í sæti inn fyrsta jólaaptan, stóð Sturlaugr upp ok mælti:
+"Þat er vani allra manna at efla nýja gleði nokkurum
+þeim til skemmtunar, sem komnir eru. Nú skal hefja
+heitstrenging, ok er hún með því móti, at ek skal víss
+verða, af hverjum rökum úrarhorn er upp runnit, fyrir
+in þriðju jól eða deyja ella." Þá stendr Framarr upp
+ok segist því heita, at hann skal kominn í rekkju Ingibjargar,
+dóttur Ingvars konungs í Görðum austr, ok
+hana kysst hafa fyrir in þriðju jól eða deyja ella. Sighvatr
+inn mikli strengir þess heit at fylgja þeim fóstbræðrum,
+hvert er þeir vilja fara eða hefja farir. Nú
+er eigi getit fleiri manna heitstrenginga. Líða nú jólin,
+ok berr eigi til tíðenda, en eptir veizluna fór hverr
+heim með góðum gjöfum.
+Þess er getit, at Sturlaugr fór til Véfreyju, ok tók
+hún vel við honum. Hann segir henni heitstrenging
+sína. Hún lagði þá holl ráð til, þau sem síðar munu
+birtast. Ferr Sturlaugr heim þaðan ok undi vel við
+sína ferð. Líða nú stundir, ok er allt kyrrt.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="22"><p>
+
+Þat var sagt, at einhvern dag kallar Sturlaugr til sín
+Frosta ok talar við hann: "Sendiför hefi ek þér ætlat."
+Hann spurði at, hver sú væri. "Þú skalt fara norðr á
+Finnmörk ok koma kefli þessu í kné dóttur Snæs konungs."
+Hann játar ferðinni. Eptir þetta býst Frosti á
+<pb n="345"/>
+
+burt ok ferr nú í haf. Hann kemr á Finnmörk ok fyrir
+Snæ konung ok heilsar á hann. Konungr tók vel kveðju
+hans ok spyrr hann at nafni. Hann kveðst Gestr heita,
+"ok biðja verð ek yðr, at þér takið við mér." Konungr
+kveðst svá gera skyldu. Hann var fáskiptinn ok óhlutsamr
+um þat, sem við bar. Var hann þar um vetrinn,
+ok var konungi vel til hans. Skammt frá höllinni var
+skemma ein ok tveir skíðgarðar svá hávir, at eigi komst
+yfir utan fugl fljúgandi. Jafnan sitr Frosti um skíðgarðinn
+ok vildi sjá Mjöll konungsdóttur ok gat þat
+aldri leikit. Líðr vetrinn, ok gerist eigi til tíðenda.
+Ok einn dag, er menn váru á leiki með konungi,
+gengr Frosti til skíðgarðsins ok sér, at opinn er skíðgarðrinn
+ok svá skemman. Hann gengr inn ok sér, at
+þar sitr kona á stóli ok kembir sér með gullkambi.
+Hárit lá á dýnunni hjá henni fagrt sem silki. Hann sér
+nú yfirlit hennar, ok þóttist hann eigi hafa sét fegri
+konu en þessa. Hann mátti eigi kyrr vera, er hann
+mátti eigi fram koma því, er hann vildi, tekr nú keflit
+ok kastar í kné hennar. Hún sópar frá sér hárinu ok
+tekr keflit ok lítr á. Ok er hún hafði á litit ok lesit,
+lítr hún út til skíðgarðsins ok brosti ok þótti allvænliga
+um þat, sem á var ristit keflinu. Kómu nú þjónustumeyjar
+hennar í skemmuna, en Gestr gekk í burt
+ok heim til hallar ok mátti hvárki neyta svefns né matar
+fyrir áhyggju þeiri, er hann hafði á ferð sinni. Ok
+er allir menn váru í svefni, var tekit á brjósti Frosta.
+Hann fylgir upp hendinni. Gullhringr fell fram af
+handleggnum. Hann stendr upp ok gengr út. Þar er
+þá Mjöll konungsdóttir ok mælti: "Er þat satt, er ritat
+er á keflit?" segir hún. "Satt er þat," segir hann. Hún
+mælti: "Saman kemr þat með okkr Sturlaugi, því at
+sá er engi maðr undir heims sólunni, at mér finnist
+<pb n="346"/>
+
+meira til. Vilda ek gjarna vera hans frilla, ef hann
+vildi svá. Munda ek eigi spara alla blíðu honum at
+veita með faðmlögum ok hæverskligum blíðubrögðum,
+kossum ok kærleikum." "Þetta vill hann allt blíðligi
+þiggja," segir hann, "ef þú kemr til hans." "Ertu þá
+búinn, Frosti?" segir hún. "Fyrir löngu em ek albúinn,"
+segir hann. Hún gengr þá at hallardyrum ok
+hefir þar nokkurn formála, áðr hún fari í burt.
+Eptir þat fara þau, ok gat Frosti varla fylgt henni.
+Hún mælti: "Harðla seinfærr ertu, Frosti minn, ok
+taktu undir belti mér." Hann þóttist vindfullr verða,
+svá fór hún hart. Ok er eigi sagt frá ferð þeira, fyrr
+en þau kómu í Svíþjóð. Tóku konur þá Mjöll konungsdóttur
+til sín í skemmu, en Frosti fann Sturlaug ok
+segir honum frá ferðum sínum ok svá sem þá er komit.
+Sturlaugr mælti: "Nú er genginn refr ór skorum. Skaltu
+nú drekka brullaup til hennar ok fara í skrúða minn
+inn bezta. Mun hún hyggja ek sé, því at vit erum menn
+mjök líkir at öllu áliti." Frosti mælti: "Þínum ráðum
+öllum vil ek fram fara." Þá segir Sturlaugr: "Þat vil
+ek, Frosti, þá þú kemr í sæng hjá Mjöll konungsdóttur,
+at þú spyrir hana at, af hverjum rökum úrarhorn
+sé komit, því at hún ein veit þat, en ek mun standa
+undir tjaldinu, meðan þit talið þetta." Hann kveðst
+svá gera skyldu. Nú gengr hann inn í höllina með
+fjölda manns í fögrum skrúða ok sezt í hásæti, ok ætla
+allir Sturlaug. Mjöll lítr allhýrliga til brúðgumans ok
+hyggr allgott til ráðanna.
+Líðr á kveldit, þar til er þau koma í eina sæng. Þá
+snýst brúðrin at bónda sínum ok talar allblíðliga við
+hann. Frosti segir til hennar: "Hversu þykkir þér snúit
+ráði þínu?" "Nú þykkir mér at óskum ganga, Sturlaugr
+minn," segir hún, "eða þykki þér eigi svá?" "Svá er
+<pb n="347"/>
+
+mér ok einninn um gefit," segir hann, "en einn er sá
+hlutr, er ek vilda, at þú segðir mér." "Hverr er sá?" segir
+hún. "Þat er með því móti," segir hann, "at heitstrenging
+er á hendi mér, at ek skylda vita, af hverjum rökum
+úrarhorn er komit." "Þat kann ek at segja þér,"
+segir hún. "Er þar þá fyrst frá at segja, at Haraldr
+konungr herjaði víða um lönd ok fekk jafnan sigr, þar
+sem hann kom, en jafnan kom hallæri mikit víða um
+lönd ok mest á Bjarmaland, svá at bæði eyddi fé ok
+mönnum. Þá tóku þeir dýr eitt ok blótuðu ok kölluðu
+þat úr. Þat gapti á þá kjaptinum, ok köstuðu þeir ofan
+í þat gulli ok silfri, ok svá mögnuðu þeir þat, at þat
+varð hverju dýri meinna ok verra. Þat tók þá bæði at
+eta menn ok fénað, ok allt braut þat undir sik ok eyddi
+allt fyrir vestan ána Vínu, svá at ekkert kvikendi komst
+undan. Engi var sá kappi, at þyrði at ganga á móti
+þessu dýri, þar til at Haraldr konungr frétti þessi tíðendi
+ok þat, at þar var féván mikil, ok heldr þangat
+með þrjú hundruð skipa, ok kómu at Bjarmalandi.
+Þar bar svá til, at Haraldr konungr sofnaði. Kom at
+honum kona ok lét heldr ríkuliga. Hún mælti við konunginn:
+"Hér liggr þú ok ætlar at sigra dýr várt, er
+úr heitir." Konungr mælti: "Hvert er heiti þitt?" "Goðríðr,"
+segir hún, "ok er ek skammt á land upp, en ef
+þú vilt mín ráð hafa, þá skaltu fara á land upp á morgin
+með helming liðs þíns, þá muntu sjá dýrit. Þat mun
+óttast mannfjöldann ok taka undan til sjóvar. Þá skaltu
+at hleypa öllum hinum hernum ok bera at stórtré ok
+lemja þat með. Dýrit mun hlaupa undan út á sjóinn.
+Þá mun Goðríðr renna sér fyrir þat, en þat mun hneppa
+mik á kaf undir sik ok halda niðri. Þat mun eptir þat
+dautt upp koma. Þá skaltu taka þat, en ek skal eiga
+kjörgrip af dýrinu, en þat er horn, er stendr fram ór
+<pb n="348"/>
+
+höfðinu." "Svá skal vera," segir konungr. Leið af nóttin,
+ok allt fór á sömu leið, sem hún sagði, at þeir gátu
+unnit dýrit. Þá kom þar þessi kona ok tók horn þetta.
+"Þat it sama sóttir þú, Sturlaugr minn, til Bjarmalands
+í hofit. Nú hefi ek sagt þér, af hverjum rökum úrarhorn
+er upp runnit." Hann segir: "Vel hefir þú nú
+gert," segir hann.
+Ok eptir þat gengr Sturlaugr í burt, ok er nú eldr
+lagðr í skemmuna ok brennd at köldum kolum Frosti
+ok Mjöll. Létu þau þar svá líf sitt. Váru þetta allt ráð
+Véfreyju, því at Mjöll var svá fjölkunnig, at hún
+mundi þegar kastat hafa fjölkynngi einhverju á þau
+Sturlaug ok Véfreyju, ef hún hefði þetta fyrir vitat.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="23"><p>
+
+Þat er þessu næst at segja, at Sturlaugr konungr ok
+Áki senda Sighvat inn mikla austr til Garðaríkis at
+biðja Ingibjargar konungsdóttur. Hann hefir tíu skip,
+ok eptir þat siglir hann til Gautlands. Honum ferr vel
+ok drengiliga, unz hann kemr til Garðaríkis ok ferr á
+konungsfund ok kveðr hann vel ok virðuliga. Konungr
+tók vel kveðju hans ok spyrr, hverr hann væri. Hann
+svarar: "Ek heiti Sighvatr, ok er þat erendi mitt at
+biðja Ingibjargar, dóttur yðar, til handa Áka, fóstbróður
+mínum." "Bæði er þat," segir konungr, "at þér eruð
+miklir fyrir yðr fóstbræðr, enda þykkizt þér konungum
+meiri, ok þér ætlið, at ek muni kasta svá út fé ok konunni,
+löndum ok þegnum, at gefa þrælum Sturlaugs
+konungs dóttur mína, ok takið þá höndum, ok skulu
+þeir spenna inn hæsta gálga." Sighvatr snaraðist út ór
+höllinni, komst undan til skips, biðr sína menn ferðast
+<pb n="349"/>
+
+skjótt, unz þeir koma heim ok segja Sturlaugi, hvat til
+bar á reisunni. Býst Sturlaugr nú skjótt, ok þeir fóstbræðr
+fylgja honum ok fara vestr til Gautlands. Sturlaugr konungr
+tók Dag konung höndum, því at hann hafði eigi
+liðsafla á móti þeim, ok gerði honum tvá kosti, at hann
+skyldi gifta Áka dóttur sína eða deyja ella. En með því
+at konungr sér sik yfirkominn, þá kaus hann at gifta Áka
+dóttur sína. Áki festir sér Ingibjörgu, ok því næst var
+búit til veizlu, ok gekk Áki at eiga Ingibjörgu konungsdóttur,
+ok dvelst hann þar eptir, ok er hann ór þessari
+sögu. Síðan fór Sturlaugr heim í ríki sitt ok sat um kyrrt.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="24"><p>
+
+Nú er þar til máls at taka, at Framarr vill efna heitstrenging
+sína. Býr hann nú ferð sína ór landi ok hefir sex
+tigi skipa, ok halda í Austrveg ok herjuðu um sumarit ok
+heldu herliði sínu til Aldeigjuborgar. Þar réð fyrir Ingvarr
+konungr. Hann var vitr maðr ok höfðingi mikill.
+Ingigerðr hét dóttir hans. Hún var hverri konu fríðari
+at sjá, en spök at viti, læknir góðr, sóttu ok margir
+menn til hennar, þegar þeir þurftu við græðslu. Svá er
+frá sagt, at hún sjálf skyldi kjósa sér mann til eignar.
+Margir höfðingjar höfðu beðit hennar, ok hafði hún
+þeim öllum með hæverskligum svörum frá vísat.
+Framarr sendi menn sína til Aldeigjuborgar á fund
+Ingvars konungs at biðja dóttur hans honum til handa.
+Konungr segir þeim orðum í móti, at hann mun þing
+stefna ok biðr hann þar koma, -- "ok skal hún sér sjálf
+mann kjósa."
+Framarr dvelst nú þar til, at kemr sá dagr, er þingit
+skyldi vera. Býr Framarr sik með öllum konungsskrúða
+<pb n="350"/>
+
+ok sækir á þingit með mörgu liði. Hann lét setja stól
+undir sik. Ingvarr konungr kemr þar með mörgu stórmenni.
+Konungr spyrr: "Hverr er sá maðr, er svá lætr
+ríkuliga?" "Ek heiti Snækollr," segir hann, "kominn þess
+erendis hingat til yðar at biðja dóttur yðar." Konungr
+segir: "Hvar eru lönd þín ok þegnar, miklir fjárhlutir
+ok fremdir?" "Ek ætla bæði frama ok fjárhluti til þín
+sækja, ef ek mægjumst við þik," segir Framarr. Konungr
+segir: "Hefir þú eigi þat spurt, at hún skal sjálf
+kjósa sér mann?" "Heyrt hefi ek þat," segir hann. Þá
+er sent eptir Ingigerði, ok er hún kom á þingit, kvaddi
+hún föður sinn. Hann tók henni vel ok virðuliga. "Biðli
+áttu hér at heilsa, dóttir," segir hann. "Hverr er sá?"
+segir hún. "Snækollr heitir hann," segir konungr. "Svá
+má jafnt vera," segir hún ok gengr fyrir þenna mann inn
+mikla ok horfir á hann um hríð ok mælti síðan brosandi:
+"Alldrengiligr maðr ertu," segir hún, "enda þykkir
+yðr þat fóstbræðrum, at þér þykkizt konungum meiri
+at metorðum. Kenni ek þik gerla, Framarr," segir hún,
+"ok þarftu eigi at dyljast fyrir mér." Eptir þat var slitit
+þinginu.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="25"><p>
+
+Fór Framarr til skips, ok halda út undir eyjar þær, er
+lágu næst landi. Þar lét Framarr tjalda yfir skipum sínum.
+Síðan tók Framarr sér kaupmanna gerð ok gengr
+til hallar ok biðr sér vetrvistar. Konungr veitir honum
+þat, ok er hann nefndr Gestr. Opt sat hann um at komast
+í skemmu konungsdóttur, en þat gat hann aldri
+leikit.
+Svá bar til einn dag, at hann gekk í burt frá höllinni
+<pb n="351"/>
+
+ok eptir braut einni. Hann heyrði mannamál niðri í
+jörðinni hjá sér. Hann sér jarðhúss munna ok gengr
+niðr ok sér, at þar eru seiðmenn þrír. Hann mælti: "Þat
+er vel, at vér höfum fundizt. Ek skal segja eptir yðr."
+Þeir segja: "Ger eigi þat, Framarr, ok munum vit til
+vinna þat, er þú vilt, ok með hverju móti sem þat er."
+Þá svarar Framarr: "Þú skalt kasta manna líkþrá á mik,
+en ek skal þó þegar heill, er ek vil." "Svá skal vera,"
+segja þeir, "ok er oss eigi fyrir því at vinna þetta til."
+Þá sneru þeir um holdi hans öllu, svá at hann var eigi
+nema hrufur ok þrymlar einar á millum hæls ok hnakka,
+ok hverfr hann í burt ok til skemmu konungsdóttur
+ok settist undir skíðgarðinn. Ingigerðr konungsdóttir
+sendir skemmumey sína eina til hallar, ok er hún sér
+þenna inn auma mann, sneri hún aptr, segjandi konungsdóttur
+þetta um þenna mann, "ok mun hann þurfa
+þinnar miskunnar." Þær ganga til garðsins, ok horfði
+konungsdóttir á hann lengi, þenna mann inn vesala,
+er þær höfðu engan hans líka sét sökum síns krankdæmis.
+Konungsdóttir sagði: "Aumligr er sá maðr ok
+sóttligr mjök, en þó muntu meira þurfa við at hafa
+at vinna mik, áðr en þú fær mik svikit, því at kenna
+mun ek þik, Framarr, meðan heil eru í þér augun
+bæði, hverjum firnum sem þú slær á þik." Gengr hún
+til skemmu sinnar aptr, en Framarr ferr á burt til seiðmanna,
+ok taka þeir af honum mein þat it illa. Ferr
+hann í burt ok hirðir aldri, hvat um líðr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="26"><p>
+
+Hann gengr til skógar ok fram á brautina. Hann sér,
+hvar maðr gengr á móti sér, mikill vexti, ok heldr báðum
+<pb n="352"/>
+
+höndum at kviðnum. Hann var í brynju ok hjálm
+á höfði, en sverðfetillinn hekk við brjóstit framan.
+Þar var kominn Guttormr, fóstbróðir hans. Varð þar
+fagnafundr með þeim. Framarr spyrr, hvaðan hann var
+at kominn. Hann lézt hafa barizt við Snækoll víking,
+kveðst hafa látit þar bæði menn ok fé, en komizt sjálfr
+með sundi í burt ok spyrr, hversu langt nú er til
+skemmu konungsdóttur. Framarr segir: "Þangat er nú
+dagganga." "Þat er harðla langt," segir Guttormr.
+Framarr segir: "Hversu lengi hefir þú svá gengit?"
+Guttormr segir: "Tvá daga, áðr vit fundumst." Framarr
+mælti: "Mikill er munr hreysti okkar. Ek syrgi
+eina jómfrú ok fæ hana eigi, ok hefi ek ekki í nokkurn
+bardaga ratat, en þú gengr, sem sjá má, at úti eru
+í þér iðrin, en ek vilda, at þú kæmir mér í skemmu
+hennar, ef hún tæki við þér." "Svá skal vera, ef ek má,"
+segir Guttormr.
+Fara þeir nú þann sama veg, sem Framarr hafði áðr
+farit, unz þeir koma til skíðgarðsins, ok er þá minni
+ván manns, þar eð Guttormr var. Ok sem þeir eru þar
+komnir, ferr Framarr í burt. Í þenna tíma var einni
+skemmumeyjunni gengit út í garðinn sinna erenda ok
+leit þenna mann, er úti lágu iðrin, ok gengr inn aptr
+í skemmuna ok segir konungsdóttur, hversu sá maðr
+var kominn. Konungsdóttir bregðr við skjótt ok þær
+tólf saman, koma at hurðinni. Sér nú konungsdóttir
+þenna mann inn aumliga ok hversu sárliga hann var
+útleikinn, at iðrin lágu úti. Hún spyrr hann at nafni.
+Hann kveðst Guttormr heita. "Ertu fóstbróðir Sturlaugs
+konungs?" segir hún. "Sá er maðr inn sami,"
+segir hann, "ok vilda ek vera biðjandi, at þú veittir
+mér nokkura hjálp." Hún segir: "Hvat mun ek nær
+mega komast Sturlaugi en græða fóstbróður hans, en
+<pb n="353"/>
+
+svík þú mik eigi." Eptir þat bera þær hann inn í
+skemmuna. Konungsdóttir átti sér læknishús lítit, ok
+var þar harðla ununarsamt inni fyrir sjúkar mannskepnur
+at vera hjá mjúktæku kvenfólki ok meðaumkunarsömu
+at lifa. Guttormr var í læknishúsi konungsdóttur
+nokkura hríð, harðla vel haldinn. Var konungsdóttir
+þar sjálf löngum með sínum skemmumeyjum
+ok læknaði Guttorm með þeiri list ok kænsku,
+sem hún nógliga til hafði ok hafði margan ríkan ok
+fátækan, konur sem karla, læknat ok heilbrigða gert.
+Þat var einn dag, at konungr sendi boð dóttur sinni.
+Fór hún þegar með skemmumeyjar sínar heim til hallarinnar,
+ok verðr opin skemman eptir látin, en aptr skíðgarðrinn,
+en hliðit var eigi læst. Framarr sætir þessu,
+ok kemr þar Guttormr ok leiðir hann inn í skemmuna
+ok í læknishúsit, ok stendr þar undir tjaldinu. Líðr
+á daginn, þar til konungsdóttir kemr í skemmuna,
+ok þegar gengr hún til Guttorms ok leysir til sáranna
+ok váru þá mjök gróin: "Úti hefir þú verit í dag,"
+segir konungsdóttir, "ok muntu nú hafa svikit mik."
+En er þau talast svá við, hleypr Framarr fram undan
+tjaldinu ok tekr annarri hendi undir höku henni ok
+annarri undir hnakka ok kyssti hana einn koss. Hún
+varð við illa ok biðr þá í burtu vera skjótt. "Vil ek eigi,
+at þit séuð hér drepnir fyrir augum mér sem makligt
+væri. Guttormr hefit hér verit um hríð, ok nýtr hann
+Sturlaugs at því, en ærit hafi þér unnit til líftjóns
+með þessu ykkar tiltæki, en mér er vel í þokka við
+Sturlaug sökum hans atgervis." Þeir ganga nú svá
+sem hún mælti. Fór Framarr þegar í burtu ok út til
+skipa sinna, ok halda nú til Svíþjóðar ok segja Sturlaugi
+konungi svá búit sitt mál, biðja hann nú liðsemdar.
+<pb n="354"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="27"><p>
+
+Hann verðr vel við ok lét safna liði um allt sitt
+ríki ok búa skipaflota mikinn, svá at hann fær þrjú
+hundruð skipa vel búin at öllum kostum, halda síðan
+til Garðaríkis með mikilli gleði ok prýði. Ok er þeir
+koma við land, hlaupa þeir upp með herinn, drepa
+ok deyða, brenna ok bræla menn ok fénað. En er svá
+hafði fram farit um hríð, verða þeir varir við liðsafnað,
+ok er þeir Snækollr ok Ingvarr konungr verða
+varir við þetta, þá búast hvárir á móts við aðra. Ok
+sem þeir fundust, varð þar inn harðasti bardagi ok
+snörp atganga, at hvárir veittu öðrum. Sturlaugr gekk
+fram hlífarlauss, sem hann var vanr. Þeir fóstbræðr
+börðust af mikilli dáð ok drengskap. Orrosta sú stóð
+yfir þrjá daga með miklu mannfalli. Þar með fell í
+þessi orrostu fyrir Sturlaugi Ingvarr konungr ok Snækollr.
+Hvítserkr komst undan á flótta ok margt manna
+með honum. Sturlaugr lét þá bregða upp friðskildi
+ok fór til Aldeigjuborgar með allan sinn her. Var þar
+mikill glaumr ok gleði ok sigróps háreysti í liði þeira
+Sturlaugs, ok borgin öll var í þeira valdi. Gekk fólk
+allt til griða ok handa Sturlaugi, þat er í var borginni.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="28"><p>
+
+Síðan gifti Sturlaugr Framari Ingigerði konungsdóttur.
+Var sú veizla virðulig fyrir allra hluta sakir, er
+til þurfti at hafa, en eptir veizluna váru þeir fyrirmenninir
+burt leystir með góðum gjöfum, skildust svá, ok
+<pb n="355"/>
+
+fór hverr heim til síns heimilis. Sturlaugr gaf þá borgina
+Aldeigju með öllu fé á vald Framars, er Ingvarr
+konungr hafði átt, ok þar með konungs nafn. Sezt
+Framarr nú at löndum ok lausum aurum ok stýrir ríki
+sínu með beztu manna ráði í því landi, ok er frá þeim
+Framari ok Ingigerði komin mikil ætt ok margt stórmenni,
+þó at þat greinist eigi í þessari sögu.
+Eptir þetta fór Sturlaugr aptr til Svíþjóðar ok settist
+at sínu ríki ok var margfróðr ok fjáðr, ok alla
+stund var Sturlaugr í sætt við stólkonunginn í Svíþjóð,
+ok þótti konungi hann vera harðfengr í öllum
+raunum, því at fóstbræðr hans heldu vináttu ok tryggð,
+á meðan þeir lifðu allir. Þau Sturlaugr ok Ása áttu
+tvá sonu. Hét annarr Heinrekr, en annarr Ingólfr. Þeir
+váru báðir miklir menn ok vænligir ok koma við margar
+sögur, námu alls konar íþróttir þegar á unga aldri.
+Þeir váru báðir konungar eptir Sturlaug, föður sinn, ok
+eru margar stórar ættir frá þeim komnar. Sturlaugr
+varð ellidauðr eptir Frið-Fróða konung. Endast hér með
+sagan.
+</p></div>
+
+
+</div></body></text>
+</TEI>

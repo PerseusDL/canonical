@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>The Divine Comedy</title>
+                <title type="sub">Machine readable text</title>
+                <author>Dante Alighieri</author>
+                <editor role="translator"> ?</editor>
+                <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Gregory Crane</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leipzig University</publisher>
+                <pubPlace>Leipzig, Germany</pubPlace>
+                <authority>Open Philology Project</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>The Divine Comedy</title>
+                        <author> Dante Alighieri</author>
+                        <editor role="translator">?l</editor>
+                        <imprint>
+                            <pubPlace></pubPlace>
+                            <publisher></publisher>
+                            <date></date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <refsDecl>
+                <refState unit="chapter"/>
+                <refState unit="paragraph"/>
+            </refsDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+        </revisionDesc>
+    </teiHeader>
+<text xml:lang="de"><body><div type="edition">
+    <div type="textpart" subtype="book" n="1">
+        <div type="textpart" subtype="canto" n="1">
+            <div type="textpart" subtype="terza" n="1">
+                <l n="1">Auf halbem Weg des Menschenlebens fand</l>
+                <l n="2">ich mich in einen finstern Wald verschlagen,</l>
+                <l n="3">Weil ich vom rechten Weg mich abgewandt.</l>
+            </div>
+            <div type="textpart" subtype="terza" n="2">
+                <l n="1">Wie schwer ists doch, von diesem Wald zu sagen,</l>
+                <l n="2">Wie wild, rauh, dicht er war, voll Angst und Not;</l>
+                <l n="3">Schon der Gedank erneuert noch mein Zagen.</l>
+            </div>
+            <div type="textpart" subtype="terza" n="3">
+                <l n="1">Nur wenig bitterer ist selbst der Tod;</l>
+                <l n="2">Doch um vom Heil, das ich drin fand, zu künden,</l>
+                <l n="3">Sag ich, was sonst sich dort den Blicken bot.</l>
+            </div>
+            <div type="textpart" subtype="terza" n="4">
+                <l n="1">Nicht weiß ich, wie ich mich hineingewunden,</l>
+                <l n="2">So ganz war ich von tiefem Schlaf berückt,</l>
+                <l n="3">Zur Zeit, da mir der wahre Weg verschwunden.</l>
+            </div>
+            <div type="textpart" subtype="terza" n="5">
+                <l n="1">Doch bis zum Fuß des Hügels vorgerückt,</l>
+                <l n="2">Der an dem Ende lag von jenem Tale,</l>
+                <l n="3">Das mir mit schwerer Furcht das Herz gedrückt,</l>
+            </div>
+            <div type="textpart" subtype="terza" n="6">
+                <l n="1">Schaut ich empor und sah, den Rücken male</l>
+                <l n="2">Ihm der Planet, der uns auf jeder Bahn</l>
+                <l n="3">Gerad zum Ziele führt mit feinem Strahle.</l>
+            </div>
+        </div>
+    </div>
+</div>
+</body></text></TEI>

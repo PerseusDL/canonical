@@ -1,0 +1,2022 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> Ragnars saga loðbrókar ok sona hans</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title> Ragnars saga loðbrókar ok sona hans</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Ragnarslothbrokar_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="95"/>
+
+HEIMIR í Hlymdölum spyrr nú þessi tíðendi, at
+dauðr er Sigurðr ok Brynhildr. En Áslaug, dóttir
+þeira, en fóstra Heimis, var þá þrévetr. Veit hann nú, at
+eptir mun leitat at týna meyjunni ok ætt hennar. Er
+honum svá mikill harmr eptir Brynhildi, fóstru sína, at
+hann gætti ekki ríkis síns né fjár, sér nú, at hann fær
+eigi meyjunni þar leynt; lætr nú gera eina hörpu svá
+mikla, at þar lét hann meyna Áslaugu í koma ok margar
+gersimar í gulli ok silfri ok gengr á brott síðan víða
+um lönd ok um síðir hingat á Norðrlönd. Svá var
+harpa hans hagliga ger, at hana mátti taka í sundr ok
+saman at fellingum, ok var hann því vanr um daga,
+þá er hann fór í hjá vatnföllum ok hvergi í nánd
+bæjum, at hann tók hörpuna í sundr ok þó meyjunni,
+ok hann hafði vínlauk einn ok gaf henni at eta. En
+þat er náttúra þess lauks, at maðr má lengi lifa, þótt
+hann hafi enga aðra fæðu. Ok þá er mærin grét, sló
+hann hörpuna, ok þagnaði hún þá, fyrir því at Heimir
+var vel at íþróttum búinn, þeim er þá váru tíðar. Hann
+<pb n="96"/>
+
+hafði ok mörg klæði dýrlig hjá henni í hörpunni ok
+mikit gull.
+Ok nú ferr hann þangat til, unz hann kemr í Noreg
+ok kemir til eins býjar lítils, þess er heitir á Spangareiði,
+ok bjó þar karl sá, er Áki hét. Hann átti konu,
+ok hét hún Gríma. Þar var eigi fleira manna en þau.
+Þann dag var karl farinn í skóg, en kerling var heima,
+ok heilsar hún Heimi ok spyrr, hvat manna hann væri.
+Hann kveðst vera einn stafkarl ok bað kerlingu húsa.
+Hún segir, at eigi kæmi þar fleira en svá, at hún kveðst
+mundu vel við honum taka, ef hann þættist þurfa þar
+at vera. En er á leið, þá segir hann, at honum þætti
+þat mest beinabót, at eldr væri kveyktr fyrir honum
+ok síðan væri honum fylgt til svefnhúss, þar er hann
+skyldi sofa. Ok þá er kerling hafði kveykt eldinn, þá
+setr hann hörpuna upp í set hjá sér, en kerling var
+óðamálug. Opt varð henni litit til hörpunnar, fyrir
+því at trefr á einu dýrligu klæði kómu út á hörpunni.
+Ok er hann bakaðist við eldinn, þá sér hún einn
+dýrligan gullhring koma fram undan tötrum hans, því
+at hann var illa klæddr. Ok er hann hafði bakazt sem
+hann kunni sér þörf til, þá hafði hann náttverð. En
+eptir þat bað hann kerlingu fylgja sér þangat til, sem
+hann skyldi sofa um nóttina. Þá segir kerling, at honum
+mundi betra vera úti en inni, -- "því at vit karl
+minn erum opt málug, er hann kemr heim." Hann
+biðr hana ráða, gengr nú út ok svá hún. Hann tekr
+hörpuna ok hefir með sér. Kerling gengr út ok ferr
+þar til, er bygghlaða ein er, ok fylgir honum þar til
+ok mælti, at hann skyldi þar um búast, ok kveðst þess
+vænta, at hann mundi þar njóta svefns síns. Ok nú
+gengr kerling í brott ok annast þat, er hún þurfti, en
+hann gerir sér svefn.
+<pb n="97"/>
+
+Karl kemr heim, er aptanninn líðr, en kerling hefir
+fátt unnit þat, er hún þurfti, en hann var móðr, er hann
+kom heim, ok illr viðskiptis, er allt var óbúit þat, er
+hún skyldi annazt hafa. Sagði karl, at mikill væri
+munr sælu, er hann vann hvern dag meira en hann
+mátti, en hún vildi til einkis taka þess, er gagn var
+at. "Ver eigi reiðr, karl minn,"  sagði hún, "fyrir því
+at þat kann at vera, at þú mættir nú skamma stund
+vinna til þess, at vit værim sæl alla ævi." "Hvat er
+þat?" segir karl. Kerling svarar: "Hér er kominn til
+herbergis okkars einn maðr, ok ætla ek, at hann hafi
+allmikit fé með at fara, ok er hniginn á efra aldr ok
+mun verit hafa inn mesti kappi ok er nú þó móðr
+mjök, ok eigi þykkjumst ek hans maka sét hafa, ok
+þó ætla ek hann mæddan ok syfjaðan." Þá segir karl:
+"Þat sýnist mér óráðligt at svíkja þá ina fá, sem hér
+koma." Hún svarar: "Því muntu lengi lítill fyrir þér,
+at þér vex allt í augu, ok ger nú annathvárt, at þú
+drep hann, eða ek tek hann mér til manns, ok munu
+vit reka þik í brott. Ok segja kann ek þér þá ræðu,
+er hann mælti við mik í gærkveld, en lítils mun þér
+þykkja um vert. Hann mælti kvensamliga við mik, ok
+þat mun mitt ráð vera at taka hann mér til manns,
+en reka þik í brott eða drepa, ef þú vill eigi eptir því
+gera, sem ek vil." Ok er þat sagt, at karl hafði kvánríki,
+ok telr hún um þangat til, er hann lætr at eggjan
+hennar, tekr öxi sína ok snarbrýnir mjök. Ok er hann
+er búinn, fylgir kerling honum þar til, er Heimir sefr,
+ok var þar hrytr mikill. Þá mælti kerling til karls, at
+hann skyldi láta verða tilræði sem bezt, -- "ok skunda
+brott með hlaupi, því at ekki máttu standast lát hans
+ok óp, ef hann fær þik höndum tekit." Hún tekr
+hörpuna ok hleypr á brott með. Nú gengr karl þar
+<pb n="98"/>
+
+til, er Heimir sefr. Hann höggr til hans, ok verðr þat
+mikit sár, ok verðr honum laus öxin. Hann hleypr
+þegar í brott sem hann mátti hraðast. Nú vaknar
+hann við áverkann, ok vannst honum at fullu. Ok
+þat er sagt, at svá mikill gnýr varð í hans fjörbrotum,
+at undan gengu súlur í húsinu ok ofan fell húsit allt
+ok varð landskjálfti mikill, ok lýkr þar hans ævi.
+Nú kom karl þar, sem kerling var, segir nú, at hann
+hefir drepit hann, -- "ok þó var þat of hríð, er ek vissa
+eigi, hvé fara mundi, ok þessi maðr var furðu mikill
+fyrir sér, en þó væntir mik, at hann sé nú í helju."
+Kerling mælti, at hann skyldi hafa þökk fyrir verkit,
+-- "ok væntir mik, at nú hafim vit ærit fé, ok skulum
+vit reyna, hvart ek hefi satt sagt." Nú kveykja þau eld,
+en kerling tekr hörpuna ok vildi upp koma ok mátti
+eigi annars kostar en hún varð at brjóta, því at hún
+hafði eigi hagleik til. Ok nú fær hún upp komit hörpunni,
+ok þar sér hún eitt meybarn, at hún þóttist ekki
+slíkt sét hafa, ok þó var mikit fé í hörpunni. Nú mælti
+karl: "Þat mun nú verða sem opt, at illa mun gefast
+at svíkja þann, er honum trúir. Sýnist mér sem komin
+muni ómegð á hendr okkr." Kerling svarar: "Eigi er
+þetta eptir því, sem ek ætla, en þó skal nú ekki um
+sakast." Ok nú spyrr hún, hverrar ættar hún væri.
+En þessi in unga mær svarar engu, svá sem hún hefði
+eigi mál numit. "Nú ferr sem mik varði, at okkart ráð
+mundi illa fara," segir karl. "Vit höfum unnit glæp
+mikinn. Hvat skulum vit sjá fyrir barni þessu?" "Auðvitat
+er þat," sagði Gríma. "Hún skal eptir móður
+minni heita Kráka." Nú mælti karl: "Hvat skulum
+vit sjá fyrir barni þessu?" Kerling svarar: "Ek sé gott
+ráð til: Vit skulum segja hana okkra dóttur ok upp
+fæða." "Því mun engi trúa," sagði karl. "Miklu er barn
+<pb n="99"/>
+
+þetta geðsligra en vit. Erum allóvæn bæði, ok munu
+engi líkendi á þykkja, at vit munum eiga því líkt barn,
+svá endemlig sem vit erum bæði." Nú mælti kerling:
+"Eigi veiztu, nema ek hafa í nokkur brögð, at þetta
+megi eigi óvænt þykkja. Ek mun láta gera henni koll
+ok ríða í tjöru ok öðru, er vænst er, at sízt komi hár
+upp. Hún skal eiga hött síðan. Eigi skal hún ok vel
+klædd vera. Mun þá saman draga vár yfirlit. Má vera, at
+menn trúi því, at ek hafa mjök væn verit, þá er ek
+var ung. Hún skal ok vinna þat, er verst er." En þat
+hugðu þau karl ok kerling, at hún mætti ekki mæla,
+er hún svarar þeim aldri. Nú er þat gert, sem kerling
+hefir fyrir hugat. Nú vex hún þar upp í miklu fátæki.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Herruðr hét jarl ríkr ok ágætr á Gautlandi. Hann
+var kvángaðr. Dóttir hans hét Þóra; hún var allra
+kvenna fríðust sýndum ok kurteisust at sér um alla hluti,
+þat er til handa má bera ok betra er at hafa en án
+vera. Þat var hennar kenningarnafn, at hún var kölluð
+borgarhjörtr, fyrir því at svá bar hún af öllum konum
+at fegrð sem hjörtr af öðrum dýrum. Jarlinn unni
+mikit dóttur sinni. Hann lét gera henni eina skemmu
+skammt frá höll konungs, ok um þá skemmu var skíðgarðr.
+Þat lagði jarl í vanda sinn at senda dóttur sinni
+hvern dag nokkut til skemmtanar, en þat mælti hann,
+at því mundi hann fram halda. Frá því er sagt, at
+hann lét færa henni lítinn lyngorm einnhvern dag,
+ákafliga fagran, ok þessi ormr þótti henni góðr ok lét
+hann í sitt eski ok bar undir hann gull. Skamma stund
+var hann þar, áðr hann óx mikit ok svá gullit undir
+<pb n="100"/>
+
+honum. Þar kemr, at eigi hefir hann rúm í eskinu, ok
+liggr nú í hring um eskit utan. Ok þar kemr of síðir,
+at eigi hefir hann rúm í skemmunni, ok gullit vex
+undir honum jafnt sem ormrinn sjálfr. Nú liggr hann
+utan um skemmuna, svá at saman tók höfuð ok sporðr,
+ok illr gerist hann viðreignar, ok þorir engi maðr at
+koma til skemmunnar fyrir þessum ormi nema sá einn,
+er honum færir fæðslu, ok oxa þarf hann í mál. Jarli
+þykkir mikit mein á þessu ok strengir þess heit, at
+hann mun þeim manni gefa dóttur sína, hvat manna
+sem hann er, ef at bana yrði orminum, ok gull þat,
+er undir honum er, skal vera hennar heimanfylgja.
+Þessi tíðendi spyrjast víða of land, en þó treystist engi
+til at ráða fyrir þessum mikla ormi.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Í þann tíma réð fyrir Danmörku Sigurðr hringr.
+Hann var ríkr konungr ok er frægr orðinn af þeiri
+orrostu, er hann barðist við Harald hilditönn á Brávelli
+ok fyrir honum fell Haraldr, sem kunnigt er orðit
+of alla norðrálfu heimsins. Sigurðr átti einn son, er
+Ragnarr hét. Hann var mikill vexti, vænn yfirlits ok
+vel viti borinn, stórlyndr við sína menn, en grimmr
+sínum óvinum. Þegar hann hafði aldr til, fær hann sér
+liðs ok herskipa, ok gerist hann inn mesti hermaðr,
+svá at varla fæst hans maki. Hann spyrr þetta, er Herruðr
+jarl hafði um mælt; gefr hann at engan gaum
+ok lætr sem hann viti eigi. Hann lætr gera sér föt með
+undarligum hætti, þat eru loðbrækr ok loðkápa, ok
+nú er ger eru, þá lætr hann þau vella í biki. Síðan
+hirðir hann þau. Þat er eitthvert sumar, er hann heldr
+<pb n="101"/>
+
+her sínum til Gautlands ok leggr í leynivág einn skip
+sitt ok var skammt þaðan, þat er jarl réð fyrir. Ok er
+Ragnarr hafði þar eina nótt verit, vaknar hann snemma
+um morgininn, ríss upp ok tekr þessi in sömu vápnföt,
+er áðr var frá sagt, ok ferr í ok tekr spjót mikit
+í hönd sér ok gengr af skipunum einn saman ok þar,
+er sandr er, ok nú veltist hann í sandinum. Ok áðr
+hann gengr í brott, tekr hann geirnagla ór spjóti sínu
+ok ferr nú einn frá skipunum til borgarhliðs jarls ok
+kemr þar snemma dags, svá at allir menn váru í svefni.
+Nú stýrir hann til skemmunnar. Ok er hann kemr í
+skíðgarðinn, þar sem ormrinn var, leggr hann til hans
+með spjóti sínu, ok þá kippir hann at sér spjótinu.
+Ok annat sinn leggr hann. Þat lag kemr í hrygg orminum,
+ok nú vinzt hann við hratt, svá at spjótit gekk
+af skaptinu, ok verðr svá mikill gnýr í hans fjörbrotum,
+at skemman skelfr öll. Ok nú snýr Ragnarr á brott.
+Þá kemr blóðbogi milli herða honum, ok þat sakar
+hann eigi, svá hlífa honum klæði þau, sem hann lét
+gera. En þeir, er í skemmunni váru, vakna við gnýinn
+ok ganga út ór skemmunni. Nú sér Þóra ganga einn
+mann mikinn frá skemmunni ok spyrr hann at nafni
+eða hvern hann vili nú finna. Hann nemr staðar ok
+kvað vísu þessa:
+<lg>
+<l>"Hætt hefik leyfðu lífi,</l>
+<l>litfögr kona, vetra</l>
+<l>vák at foldar fiski</l>
+<l>fimmtán gamall, mínu;</l>
+<l>hafa skalk, böl nema bíti,</l>
+<l>bráðrakinn mér dauða,</l>
+<l>heiðar lax til hjarta</l>
+<l>hringleginn, vel, smýgra."</l>
+</lg>
+Ok nú gengr hann á brott ok mælti ekki fleira við
+hana. En spjótit stóð í sárinu eptir, en hann hefir
+<pb n="102"/>
+
+skaptit með sér. Nú er hún hefir þessa vísu heyrða,
+skildi hún, hvat hann sagði til um sitt erendi ok svá
+hvé gamall hann var. Ok nú hyggr hún at fyrir sér,
+hverr hann mundi vera, ok þykkist hún eigi vita, hvárt
+hann er mennskr maðr eða eigi, fyrir því at henni
+þykkir vöxtr hans vera svá mikill sem sagt er frá
+óvættum á þeim aldri, sem hann hafði, ok snýr hún
+inn í skemmuna ok sofnar. Ok er menn koma út um
+morgininn, verða menn þess varir, at ormrinn var
+dauðr ok hann var lagðr með einu miklu spjóti ok
+þat stóð fast í sárinu. Nú lætr jarl þat í brott taka
+þaðan, ok var þat svá mikit, at fám var vápnhæft. Nú
+íhugar jarl, hvat hann hafði um mælt við þann mann,
+er orminum yrði at bana, ok þykkist eigi vita, hvárt
+mennskr maðr veldr þessu eða eigi, ok réðst nú um
+við vini sína ok dóttur, hvé hann skal eptir leita, ok
+þykkir á því líkendi, at sá mun eptir leita at hafa verðkaupit,
+er til hefir unnit. Þat réð hún at láta kveðja
+þings fjölmenns, -- "ok bið þá svá, at þangat komi
+allir þeir menn, er eigi vilja hafa reiði jarls ok nokkurs
+kostar mega sækja þingstefnu, ok ef sá er nokkurr, er
+við gengr banasári ormsins, skal hafa þat spjótskapt
+þangat, er fylgt hefir spjótinu." Þetta lízt jarli vænligt
+ok lætr nú þings kveðja. Ok er at þeim degi kemr, er
+vera skal þingit, kemr jarl ok margir höfðingjar aðrir.
+Þar verðr mikit fjölmenni.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Þetta spyrst til skipa Ragnars, at þaðan skammt var
+þing stefnt. Ok nú ferr Ragnarr frá skipum náliga með
+allan her sinn til þingsins. Ok er þeir koma þar, nema
+<pb n="103"/>
+
+þeir staðar nakkvat frá öðrum mönnum, því at Ragnarr
+sér nú, at komit var fjölmenni mikit frá því, sem
+vani var til. Þá stendr jarl upp ok kveðr sér hljóðs ok
+talar, biðr menn hafa þökk fyrir, er vel hafa skipazt
+við hans orðsending, ok segir síðan atburð þann, sem
+orðinn er, fyrst frá því, hversu hann hafði um mælt
+við þann mann, er orminum yrði at bana, síðan, at --
+"ormrinn er nú dauðr, ok sá hefir látit eptir standa
+spjótit í sárinu, er unnit hefir þetta frægðarverk. Ok
+ef nokkurr er sá hér kominn til þingsins, er þat skapt
+hafi, er þessu spjóti hæfi, beri hann þat fram ok sanni
+svá sögn sína, þá skal ek þat allt enda, er ek hefi um
+mælt, hvárt sem hann er af meirum stigum eða minnum."
+Ok lýkr hann svá sínu máli, at hann lætr bera
+spjótit fyrir hvern mann, er á er þinginu, ok biðr sér
+segja, hverr sá er, er við þessu gengr eða þat skapt hefir,
+er hér hæfir til. Nú er svá gert. Eigi finnst sá né einn,
+er þat skapt hafi. Nú er komit þar, sem Ragnarr er,
+ok sýnt honum spjótit, ok gengr hann við, at hann
+mun eiga, ok þar hæfir hvárt eptir öðru, skaptit ok
+spjótit. Nú þykkjast menn vita, at hann mun hafa
+orðit orminum at bana, ok verðr hann af þessu verki
+harðla mjök frægr of öll Norðrlönd, ok biðr hann nú
+Þóru, dóttur jarls, ok hann tekr því vel, ok nú er hún
+honum gift, ok er fengit at mikilli veizlu með inum
+beztum föngum í því ríki. At þessi veizlu kvángast
+Ragnarr. Ok er lokit er veizlunni, ferr Ragnarr til
+ríkis síns ok réð fyrir ok ann mikit Þóru. Þau eiga tvá
+sonu; hét Eirekr inn ellri, en Agnarr inn yngri. Þeir
+váru miklir vexti ok fríðir sýnum. Sterkari váru þeir
+miklu en aðrir menn flestir, er þá váru uppi. Þeir
+námu alls konar íþróttir. Þat var eitthvert sinn, at
+Þóra kenndi sér sóttar, ok andast hún ór þessi sótt. En
+<pb n="104"/>
+
+Ragnari þótti þetta svá mikit, at hann vill eigi ráða
+ríkinu ok tekr aðra menn til at ráða ríkinu með sonum
+sínum. En hann tekr nú til iðnar sinnar innar sömu,
+sem hann hafði fyrr haft, ok ræðst nú í hernað, ok
+hvar sem hann ferr, fær hann sigr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Nú er þat eitt sumar, at hann heldr skipum sínum
+til Noregs, því at hann átti þar marga frændr ok vini
+ok vill þá hitta. Hann kemr skipum sínum um kveldit
+í höfn eina litla, en þar var bær skammt þaðan, er
+hét á Spangarheiði, ok lágu þeir þar í höfn þá nótt.
+Ok er morginn kom, skyldu matsveinar fara á land
+at baka brauð. Þeir sjá, at bær er skammt frá þeim,
+ok þótti þeim sér þat betr gegna at fara til húss ok
+vera þar at. Ok er þeir kómu til þess ins litla bæjar,
+þá hitta þeir einn mann at máli, ok er þat kerling, ok
+spurðu, hvárt hún væri húsfreyja eða hvat hún héti.
+Hún segir, at hún sé húsfreyja, -- "ok nafn mitt
+óvant, ek heiti Gríma, eða hverir eru þér?" Þeir sögðu,
+at þeir væri þjónustumenn Ragnars loðbrókar, ok vilja
+þeir færa fram sýslu sína, -- "ok viljum vér, at þú vinnir
+með oss." Kerling svarar, at hendr hennar váru stirðar
+mjök. "En verit hafði þat fyrrum, at ek kunna bjargvel
+sýslu mína, ok á ek mér dóttur þá, er at mun
+vera með yðr ok mun heim koma brátt ok heitir
+Kráka. Er nú svá komit, at ek kem trautt ráði við hana."
+Ok nú er Kráka at fé farin um myrgininn ok sér, at
+skip váru komin við land mörg ok stór, ok nú tekr
+hún ok þvær sér. En kerling hafði henni þat bannat,
+því at hún vildi eigi, at menn sæi fegrð hennar, því at
+<pb n="105"/>
+
+hún var allra kvenna vænst, en hár hennar var svá
+mikit, at tók jörð um hana, ok svá fagrt sem silki þat,
+er fegrst verðr. Ok nú kemr Kráka heim. En þeir
+matsveinar höfðu gert eld, ok nú sér Kráka, at þar
+eru menn komnir, þeir er hún hefir eigi fyrr sét. Hún
+hyggr at þeim ok svá þeir at henni. Ok nú spyrja þeir
+Grímu: "Hvárt er sjá þín dóttir, in fagra mær?" "Eigi
+er til þess logit," segir Gríma, "at sjá er mín dóttir."
+"Furðu ólíkar máttu þit verða," segja þeir, "svá illilig
+sem þú ert. En vér höfum eigi jafnvæna mey sét, ok
+enga sjám vér hana hafa þína mynd, því at þú ert it
+mesta ferlíki." Gríma svarar: "Eigi má nú á mér sjá.
+Brugðit er nú mínum yfirlitum ór því, sem var." Nú
+ræða þeir þetta, at hún vinni með þeim. Hún spyrr:
+"Hvat skal ek vinna?" Þeir kváðust vilja, at hún teygði
+brauð, en þeir mundi baka eptir. Ok tekr hún síðan
+til sinnar iðju, ok vinnst henni vel. En þeir horfðu
+á hana ávallt, svá at þeir gáðu eigi sýslu sinnar ok
+brenndu brauðit. Ok er þeir höfðu lokit verki sínu,
+fóru þeir til skipa. Ok þá er þeir skyldu brjóta upp
+vistir sínar, mæltu allir, at þeir hefði aldri jafnilla
+unnit ok væri hegningar fyrir vert. Ok nú spyrr Ragnarr,
+hví þeir hefði þanninn matbúit. Þeir kváðust sét
+hafa konu svá væna, at þeir gáðu eigi sinnar sýslu, ok
+ætluðu þeir, at engi mundi henni vænni vera í veröldu.
+Ok er þeir tóku svá mikit af of hennar fegrð, þá
+segir Ragnarr ok kveðst þat vita, at sjá mundi eigi jafnvæn
+sem Þóra hafði verit. Þeir kváðu hana eigi óvænni.
+Þá mælti Ragnarr: "Nú mun ek senda þá menn, er
+gerla kunni at sjá. Ef svá er sem þér segið, þá er þetta
+athugaleysi yðr upp gefit, en ef konan er at nokkurum
+hlut óvænni en þér segið frá, munu þér taka hegning
+mikla á yðr." Ok nú sendir hann menn sína til fundar
+<pb n="106"/>
+
+við þessa ina fögru mey, en andviðri var svá mikit,
+at þeir máttu eigi fara þann dag, ok mælti Ragnarr
+við sína sendimenn: "Ef yðr lízt þessi in unga mær
+svá væn sem oss er sagt, biðið hana fara á minn
+fund, ok vil ek hitta hana; vil ek, at hún sé mín.
+Hvárki vil ek, at hún sé klædd né óklædd, hvárki
+mett né ómett, ok fari hún þó eigi ein saman, ok skal
+henni þó engi maðr fylgja." Nú fóru þeir, þar til er
+þeir koma til húss, ok hyggja at Kráku vandliga, ok
+lízt þeim sjá kona svá væn, at þeir hugðu enga aðra
+jafnvæna. Ok nú segja þeir orð herra síns, Ragnars,
+ok svá, hversu hún skyldi búin vera. Kráka hugði at,
+hversu konungr hafði mælt ok hvé hún skyldi búast,
+en Grímu þótti engan veg svá mega vera ok kveðst
+vita, at sjá konungr mundi eigi vera vitr. Kráka segir:
+"Því mun hann svá mælt hafa, at svá mun vera mega,
+ef vér skiljum eptir því, sem hann ætlar til. En víst
+eigi má ek í yðarri ferð vera þenna dag, en ek mun
+koma snemma á morgin til yðarra skipa." Nú fóru
+þeir í brott ok segja Ragnari svá búit, at hún mundi
+koma til fundar þeira. Ok nú er hún heima þá nótt.
+En um myrgininn snemma segir Kráka karli, at þá
+mundi hún fara á fund Ragnars. "En þó mun ek verða
+at breyta búnaði mínum nokkut; þú átt aurriðanet,
+ok mun ek þat vefja at mér, en þar yfir utan læt ek
+falla hár mitt, ok mun ek þá hvergi ber. En ek mun
+bergja á einum lauk, ok er þat lítill matr, en þó má
+þat kenna, at ek hefi bergt. Ok ek mun láta fylgja mér
+hund þinn, ok fer ek þá eigi ein saman, en þó fylgir
+mér engi maðr." Ok er kerling heyrir hennar fyrirætlan,
+þykkir henni hún mikit vit hafa. Ok er Kráka
+er búin, ferr hún leiðar sinnar, þar til er hún kemr
+til skipa, ok var fögr tilsýndar, er hár hennar var bjart
+<pb n="107"/>
+
+ok sem á gull eitt sæi. Ok nú kallar Ragnarr á hana
+ok spyrr, hver hún væri eða hvern hún vildi finna. Hún
+svarar ok kvað vísu:
+<lg>
+<l>"Þorik eigi boð brjóta,</l>
+<l>er báðuð mik ganga,</l>
+<l>né ræsis kvöð rjúfa,</l>
+<l>Ragnarr, við þik stefnu;</l>
+<l>manngi er mér í sinni,</l>
+<l>mitt er bert hörund eigi,</l>
+<l>fylgi hefi ek fullgott,</l>
+<l>fer ek ein saman, mínu."</l>
+</lg>
+Nú sendir hann menn at móti henni ok lætr fylgja
+henni á skip sín. En hún kveðst eigi fara vilja, nema
+henni sé grið gefin ok förunaut hennar. Nú er henni
+fylgt á konungs skip, ok er hún kemr í fyrirrúm,
+seilist hann í mót henni, en hundrinn beit í hönd honum.
+Þeir menn hans hlaupa til ok drepa hundinn ok
+reka bogastreng at hálsi honum, ok fær hann af því
+bana, ok er eigi betr griðum haldit við hana en svá.
+Nú leggr Ragnarr hana í lypting hjá sér ok hjalar við
+hana, ok varð honum vel í skap við hana ok var blíðr
+við hana. Hann kvað vísu:
+<lg>
+<l>"Mundi víst, ef væri</l>
+<l>vörðr föður jarðar</l>
+<l>mætri mildri snótu,</l>
+<l>á mér taka höndum."</l>
+</lg>
+Hún kvað:
+<lg>
+<l>"Vammlausa skalt, vísi,</l>
+<l>ef vilt griðum þyrma,</l>
+<l>heim höfum hilmi sóttan,</l>
+<l>heðan mik fara láta."</l>
+</lg>
+<pb n="108"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Nú segir hann, at honum lízt vel á hana ok ætlar
+víst, at hún skyli með honum fara. Þá kvað hún eigi
+svá vera mega. Þá kvaðst hann vilja, at hún væri þar
+um nótt á skipi. Hún segir, at eigi skal þat vera, fyrr
+en hann kemr heim ór þeiri ferð, sem hann hafði ætlat,
+-- "ok má vera, at þá sýnist yðr annat." Þá kallar Ragnarr
+á féhirði sinn ok bað hann taka serk þann, er Þóra
+hefir átt ok var allr gullsaumaðr, ok færa sér. Þá býðr
+Ragnarr Kráku á þá lund:
+<lg>
+<l>"Viltu þenna þiggja,</l>
+<l>er Þóra hjörtr átti,</l>
+<l>serk við silfr of merkðan;</l>
+<l>sama allvel þér klæði;</l>
+<l>fóru hendr hvítar</l>
+<l>hennar um þessar gervar;</l>
+<l>sú var buðlungi bragna</l>
+<l>blíðum þekk til dauða."</l>
+<l>Kráka kvað á móti:</l>
+<l>"Þorik eigi þann þiggja,</l>
+<l>er Þóra hjörtr átti,</l>
+<l>serk við silfr of merkðan;</l>
+<l>sama ælig mér klæði;</l>
+<l>því em ek Kráka kölluð,</l>
+<l>í kolsvörtum váðum,</l>
+<l>at ek hefi grjót of gengit</l>
+<l>ok geitr með sjá reknar."</l>
+</lg>
+"Ok vil ek víst eigi taka við serknum," segir hún.
+"Vil ek ekki í skraut búast, meðan ek em hjá karli.
+Kann vera, at yðr lítist betr á mik, ef ek búumst betr,
+ok vil ek nú fara heim. En þá máttu gera menn eptir
+<pb n="109"/>
+
+mér, ef þér er þá samt í hug ok vilir þú, at ek fara
+með þér." Ragnarr segir, at eigi mun hugr hans skipast,
+ok ferr hún heim. En þeir fóru, sem þeir höfðu
+ætlat, þegar þeim gaf byr, ok lýkr hann sínum erendum,
+eptir því sem hann hafði ætlat. Ok er hann ferr aptr,
+kemr hann sér í ina sömu höfn, sem hann hafði fyrr
+haft, þá er Kráka kom til hans. Ok þat it sama kveld
+sendir hann menn á fund hennar at segja orð Ragnars,
+at hún færi nú alfari. En hún segir, at hún mun eigi
+fara fyrr en um morgininn. Ríss Kráka upp snemma
+ok gengr til rekkju þeira karls ok kerlingar ok spyrr,
+hvárt þau vaki. Þau kváðust vaka ok spurðu, hvat hún
+vildi. En hún segir, at hún ætlaði á brott ok vera þar
+ekki lengr. "En ek veit, at þit drápuð Heimi, fóstra
+minn, ok á ek engum manni verra at launa en ykkr.
+Ok fyrir þá sök vil ek ykkr ekki illt gera láta, at ek
+hefi lengi með ykkr verit, en nú vil ek þat um mæla,
+at annarr dagr sé ykkr öðrum verri, er yfir ykkr kemr,
+en inn síðasti verstr, ok munu vér nú skilja." Þá gengr
+hún leiðar sinnar til skipa, ok er þar vel við henni
+tekit. Gefr þeim vel veðr. Þann aptan inn sama, er
+menn skulu rekkja undir sér, þá segir Ragnarr, at
+hann vill, at þau Kráka hvíli bæði saman. Hún segir,
+at eigi mátti svá vera, -- "ok vil ek, at þú drekkir brúðlaup
+til mín, þá er þú kemr í ríki þitt, ok þykki mér
+þat mín virðing sem þín ok okkarra erfingja, ef vit
+eigum nokkura. Hann veitti henni sína bæn, ok ferst
+þeim vel. Kemr Ragnarr nú heim í land sitt, ok er
+dýrlig veizla búin í mót honum, ok nú er bæði drukkit
+fagnaðaröl í móti honum ok brúðlaup hans. Ok inn
+fyrsta aptan, er þau koma í eina rekkju, vill Ragnarr
+eiga hjúskaparfar við konu sína, en hún biðst undan,
+því at hún segir, at á baki mundi bera nokkut, ef
+<pb n="110"/>
+
+hún réði eigi. Ragnarr kvaðst ekki trúa mundu á þat,
+kvað þau ekki framvís karl ok kerlingu. Hann spurði,
+hvé lengi svá skyldi vera. Þá kvað hún:
+<lg>
+<l>"Þrjár vit skulum þessar,</l>
+<l>ok þó saman, byggja</l>
+<l>hvárt sér nætr í höllu,</l>
+<l>áðr heilug goð blótim;</l>
+<l>þá munut mein á mínum</l>
+<l>megi til löng of verða;</l>
+<l>heldr ert bráðr at byrja</l>
+<l>þann, er bein hefir engi."</l>
+</lg>
+Ok þó hún kvæði þetta, gaf Ragnarr at því engan
+gaum ok brá á sitt ráð.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="7"><p>
+
+Nú líða stundir fram, ok var samför þeira góð ok
+miklar ástir. En Kráka kennir sér sóttar ok verðr léttari
+ok elr sveinbarn, ok var sveinninn vatni ausinn
+ok nafn gefit ok kallaðr Ívarr. En sá sveinn var beinlauss
+ok sem brjósk væri þar, sem bein skyldu vera.
+Ok þá er hann var ungr, var hann vexti svá mikill,
+at engir váru hans jafningjar. Hann var allra manna
+fríðastr sýnum ok svá vitr, at eigi er víst, hverr meiri
+spekingr hefir verit en hann. Þeim verðr enn fleiri
+barna auðit. Annarr sonr þeira hét Björn, inn þriðji
+Hvítserkr, inn fjórði Rögnvaldr. Þeir váru miklir
+menn allir ok inir fræknustu, ok þegar þeir máttu
+nokkut at hafast, námu þeir alls konar íþróttir. Ok
+hvert sem þeir fóru, lét Ívarr bera sik á stöngum, því
+at hann mátti eigi ganga, ok skyldi hann hafa ráð
+fyrir þeim, hvat sem þeir höfðust at. Nú eru þeir
+<pb n="111"/>
+
+Eirekr ok Agnarr, synir Ragnars, miklir menn fyrir
+sér, svá at trautt finnast þeira jafningjar, ok búa þeir
+á herskipum hvert sumar ok eru ágætir af sínum hernaði.
+Ok nú er þat einn dag, at Ívarr ræðir við bræðr
+sína, Hvítserk ok Björn, hvé lengi svá skal fram fara,
+at þeir skyli heima sitja ok leita sér engrar frægðar.
+En þeir segja, at þeir skyli hans ráðum fram fara um
+þat sem annat. "Nú vil ek," segir Ívarr, "at vér biðim,
+at oss sé fengin skip ok lið, svá at þau sé vel skipuð,
+ok síðan vil ek, at vér aflim oss fjár ok ágætis, ef svá
+vill upp takast." Ok er þeir höfðu þetta ráðit með sér,
+segja þeir Ragnari, at þeir vilja, at hann fái þeim skip
+ok skipi liði því, er reynt sé at herfangi ok búit vel fyrir
+alls sakir. Ok gerir hann þat eptir því, sem þeir beiddu.
+Ok nú er þetta lið er búit, fara þeir ór landi. En
+þar sem þeir berjast við menn, fá þeir meira hlut ok
+fá sér nú bæði mikit lið ok fé. Ok nú segir Ívarr, at
+hann vildi, at þeir heldi þar til, er meira ofrefli er
+fyrir, ok reyndi svá sinn hraustleik. Ok nú spyrja þeir,
+hvar hann vissi þess ván. Ok nú nefnir hann einn
+stað, þann er heitir Hvítabær, en þar höfðu verit blót,
+-- "ok margir hafa til leitat at vinna, ok hafa engir
+sigrazt," ok hafði Ragnarr komit þar ok varð frá at
+hverfa ok fekk ekki at gert. "Hvárt er þat lið svá mikit,"
+segja þeir, "ok svá harðfengt, eða eru þar önnur torveldi?"
+Ívarr segir, at bæði var fjölmenni mikit ok blótstaðr
+mikill ok þat hafði öllum fyrir komit ok engir
+höfðu staðizt. Ok nú mæla þeir, at hann skyldi fyrir
+ráða, hvárt þeir skyldu þangat halda eða eigi. En hann
+segir, at hann vill heldr hætta á, hvárt meira má þeim
+harðfengi eða blótskapr landsmanna.
+<pb n="112"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="8"><p>
+
+Nú halda þeir þangat, ok er þeir koma þar í land,
+búast þeir til uppgöngu. Ok nú þykkir þeim þurfa,
+at liðit gæti sumt skipanna. En Rögnvaldr, bróðir
+þeira, var þá ungr, at þeim þótti hann eigi til færr
+vera í svá mikilli mannraun at vera sem þeim þótti
+líkligt, at vera mundi, ok láta hann gæta skipa með
+sumu liði. En áðr þeir færi frá skipum, segir Ívarr, at
+þeir borgarmenn eigu naut tvau, ok eru þat kvígendi,
+ok menn höfðu því frá horfit, at eigi mátti standast
+lát þeira ok tröllskap. Þá mælti Ívarr: "Verðið við sem
+bezt þótt yðr bjóði nokkurn ótta, því at eigi mun til
+saka." Nú fylkja þeir liði sínu. Ok er þeir nálgast
+borgina, verða þeir varir við, er byggja staðinn, taka
+nú at leysa út naut þessi, er þeir trúðu á. Ok er kvígendin
+eru laus látin, hlaupa þau hart ok láta illa. Nú
+sér Ívarr þetta, þar sem hann er borinn á skildi, ok
+biðr fá sér boga, ok svá var gert. Nú skýtr hann þessi
+in illu kvígendi, svá at hvárttveggja fekk bana, ok var
+nú af hendi leystr þessi ófriðr, er mönnum þótti mestr
+ótti at. Nú tekr Rögnvaldr til orða at skipum ok mælti
+við lið sitt, at þeir menn væri sælir, er slíka skemmtan
+skyldu hafa sem þeir bræðr hans hafa. "Ok gengr þeim
+ekki annat til, er ek skylda eptir vera, en þeir einir
+vilja hafa virðing af. Nú skulu vér ganga upp gervallir."
+Ok nú gera þeir svá. Ok þá er þeir koma eptir
+liðinu, gengr Rögnvaldr hart fram í bardagann, ok
+lýkr svá, at hann fellr. En þeir komast í borgina bræðr,
+ok tekst nú bardagi af nýju, ok lýkr svá, at borgarmenn
+komast á flótta, en þeir reka flóttann. Ok er þeir
+hverfa aptr til borgarinnar, kveðr Björn vísu:
+<pb n="113"/>
+
+<lg>
+<l>"Upp hrundu vér ópi,</l>
+<l>ór bitu meira en þeira,</l>
+<l>satt mun ek til þess segja,</l>
+<l>sverð, í Gnípafirði;</l>
+<l>knátti hverr, er vildi,</l>
+<l>fyr Hvítabæ útan,</l>
+<l>né sitt spari sveinar</l>
+<l>sverð, mannsbani verða."</l>
+</lg>
+Ok er þeir koma aptr í borgina, taka þeir allt lausafé,
+en brenna hvert hús, er í var borginni, ok brjóta alla
+borgarveggi. Ok nú halda þeir skipum sínum þaðan.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="9"><p>
+
+Eysteinn hefir konungr heitit, er réð fyrir Svíþjóðu.
+Hann var kvángaðr ok átti eina dóttur. Sú hét Ingibjörg.
+Hún var allra kvenna fríðust ok vænst sýnum.
+Eysteinn konungr var ríkr ok fjölmennr, illgjarn ok
+þó vitr. Hann hafði atsetu at Uppsölum. Hann var
+blótmaðr mikill, ok at Uppsölum váru blót svá mikil
+í þann tíma, at hvergi hafa verit meiri á Norðrlöndum.
+Þeir höfðu átrúnað mikinn á einni kú, ok kölluðu þeir
+hana Síbilju. Hún var svá mjök blótin, at menn máttu
+eigi standast lát hennar. Ok því var konungr vanr, þá
+er hers var ván, at þessi kýr in sama var fyrir fylkingum,
+ok svá mikill djöfuls kraptr fylgdi henni, at
+óvinir hans urðu svá ærir, þegar þeir heyrðu til hennar,
+at þeir börðust sjálfir ok gáðu sín eigi, ok fyrir þá sök
+var óherskátt á Svíþjóð, at menn treystust eigi við slíkt
+ofrefli at etja. Eysteinn konungr átti vingott við marga
+menn ok höfðingja, ok er þat sagt, at í þann tíma var
+vinátta mikil með þeim Ragnari ok Eysteini konungi
+ok þeir váru því vanir, at sitt sumar skyldi sækja veizlu
+<pb n="114"/>
+
+hvárr þeira til annars. Nú kemr at því, at Ragnarr
+skal sækja veizlu til Eysteins konungs. Ok er hann
+kemr til Uppsala, var honum vel fagnat ok liði hans.
+Ok þá er þeir drekka inn fyrsta aptan, lætr konungr
+dóttur sína byrla sér ok Ragnari. Ok þat mæltu menn
+Ragnars með sér, at engi væri annarr til en hann bæði
+dóttur Eysteins konungs, en hann ætti eigi lengr karlsdóttur.
+Ok nú verðr til einnhverr hans manna at tjá
+þetta fyrir honum, ok því lýkr svá, at honum er heitit
+konunni, ok skyldi hún þó sitja í festum mjök lengi.
+En þá er þeiri veizlu var lokit, býst Ragnarr heim,
+ok ferst honum vel, ok er ekki sagt frá ferð hans, fyrr
+en hann á skammt til borgarinnar, ok liggr leið hans
+um skóg einn. Þeir koma í eitt rjóðr, er var í skóginum.
+Þá lætr Ragnarr nema staðar lið sitt ok kvaddi
+sér hljóðs ok biðr þá menn alla, er í hans ferð höfðu
+verit til Svíþjóðar, at engi skyldi segja hans fyrirætlan,
+er stofnuð var um ráðahag við dóttur Eysteins konungs.
+Nú leggr hann svá ríkt við þetta, ef sá er nokkurr,
+er of þetta geti, at hann skal engu fyrir týna nema
+lífinu. En nú er hann hafði talað slíkt er hann vildi,
+fór hann heim til bæjarins. Ok nú verða menn fegnir,
+er hann kemr aptr, ok þá var drukkit fagnaðaröl í
+móti honum. Ok er hann kemr í hásætit ok hefir setit
+eigi lengi, áðr Kráka kemr í höllina fyrir Ragnar ok
+sezt í kné honum ok leggr hendr um háls honum ok
+spyrr: "Hvat er tíðenda?" En hann kveðst engi kunna
+at segja. Ok er á leið kveldit, taka menn til drykkju,
+ok síðan fara menn til svefns. Ok er þau koma í eina
+rekkju Ragnarr ok Kráka, spyrr hún hann enn tíðenda,
+en hann kveðst engi vita. Nú vill hún hjala margt,
+en hann kveðst vera syfjaðr mjök ok farmóðr. "Nú
+mun ek segja þér tíðendi," segir hún, "ef þú vilt mér
+<pb n="115"/>
+
+engi segja." Hann spyrr, hver þau væri. "Þat kalla ek
+tíðendi," segir hún, "ef konungi er heitit konu, en
+þat er þó sumra manna mál, at hann eigi sér aðra áðr."
+"Hverr sagði þér þetta?" segir Ragnarr. "Halda skulu
+menn þínir lífi ok limum, því at engi sagði mér þinna
+manna," segir hún. "Þér munduð sjá, at fuglar þrír
+sátu í trénu hjá yðr. Þeir sögðu mér þessi tíðendi. Þess
+bið ek, at þú vitir eigi ráða þessa, sem ætlat er. Nú
+mun ek segja þér, at ek em konungs dóttir, en eigi
+karls, ok faðir minn var svá ágætr maðr, at eigi fekkst
+hans jafningi, en mín móðir var allra kvenna fríðust
+ok vitrust, ok hennar nafn mun uppi, meðan veröldin
+stendr." Nú spyrr hann, hverr faðir hennar var, ef
+hún væri eigi dóttir þess ins fátæka karls, er á Spangarheiði
+var. Hún segir, at hún var dóttir Sigurðar
+Fáfnisbana ok Brynhildar Buðladóttur. "Þat þykki mér
+allólíkligt, at þeira dóttir mundi Kráka heita eða þeira
+barn mundi í slíku fátæki upp vaxa sem á Spangarheiði
+var." Þá svarar hún: "Saga er til þess," ok nú
+segir hún ok hefr þar upp sögu, sem þau hittust á
+fjallinu Sigurðr ok Brynhildr ok hún var byrjuð. "Ok
+er Brynhildr varð léttari, var mér nafn gefit, ok var
+ek kölluð Áslaug." Ok nú segir hún allt, sem farit
+hafði frá því, er þau karl hittust. Þá svarar Ragnarr:
+"Þessum mun ek við bregða Áslaugar órunum, er þú
+mælir." Hún svarar: "Þú veizt, at ek em eigi heill maðr,
+ok mun þat vera sveinbarn, er ek geng með, en á
+þeim sveini mun vera þat mark, at svá mun þykkja
+sem ormr liggi um auga sveininum. Ok ef þetta gengr
+eptir, bið ek þess, at þú komir eigi til Svíþjóðar þeirar
+tíðar, at þú fáir dóttur Eysteins konungs. En ef þetta
+rýfst, far þú með sem þú vilt. En ek vil, at sjá sveinn
+sé heitinn eptir feðr mínum, ef í hans auga er þetta
+<pb n="116"/>
+
+frægðarmark, sem ek ætla, at vera muni." Nú kemr at
+þeiri stundu, er hún kennir sér sóttar ok verðr léttari
+ok elr sveinbarn. Nú tóku þjónustukonur sveininn ok
+sýndu henni. Þá mælti hún, at bera skyldi til Ragnars
+ok láta hann sjá. Ok nú er svá gert, at sá inn ungi
+maðr var borinn í höllina ok lagðr í skikkjuskaut
+Ragnars. En er hann sér sveininn, var hann spurðr,
+hvat heita skyldi. Hann kvað vísu:
+<lg>
+<l>"Sigurðr mun sveinn of heitinn,</l>
+<l>sá mun orrostur heyja,</l>
+<l>mjök líkr vera móður</l>
+<l>ok mögr föður kallaðr;</l>
+<l>sá mun Óðins ættar</l>
+<l>yfirbátr vera heitinn,</l>
+<l>þeim er ormr í auga,</l>
+<l>er annan lét svelta."</l>
+</lg>
+Nú dregr hann gull af hendi sér ok gefr sveininum at
+nafnfesti. Ok þá er hann réttir höndina með gullinu,
+kemr við bak sveininum, en þat virðir Ragnarr svá
+sem hann vildi hata gullinu. Ok nú kvað hann vísu:
+<lg>
+<l>"Brynhildar lízt brögnum</l>
+<l>brúnstein hafa fránan</l>
+<l>dóttur mögr inn dýri</l>
+<l>ok dyggligast hjarta;</l>
+<l>sjá berr alla ýta</l>
+<l>undleygs boði magni,</l>
+<l>Buðla niðr, er baugi</l>
+<l>bráðgerr, hatar rauðum."</l>
+<l>Ok enn kvað hann:</l>
+<l>"Sá ek engum sveini</l>
+<l>nema Sigurði einum</l>
+<l>í brúnsteinum brúna</l>
+<l>barðhjarls tauma lagða;</l>
+<l>sjá hefir dagrýrir dýja,</l>
+<pb n="117"/>
+
+<l>dælt er hann at því kenna,</l>
+<l>hvass í hvarmatúni</l>
+<l>hring myrkviðar fengit."</l>
+</lg>
+Nú mælti hann, at þann svein skyldi bera í skemmu
+út. En þá var því lokit, at hann mundi til Svíþjóðar
+fara. Ok nú kemr upp ætt Áslaugar, svá at þat veit
+hverr maðr, at hún er dóttir Sigurðar Fáfnisbana ok
+Brynhildar Buðladóttur.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="10"><p>
+
+Nú er sú stund var liðin, er á var kveðit, at Ragnarr
+skyldi veizluna sækja til Uppsala ok kom hann eigi,
+þótti Eysteini konungi ger til sín svívirðing ok dóttur
+sinnar, ok nú var lokit vinfengi þeira konunganna.
+Ok þá er þeir Eirekr ok Agnarr, synir Ragnars, spyrja
+þetta, þá ræddu þeir með sér, at þeir mundu fá sér
+lið mikit, sem þeir mætti mest, ok mundu herja á
+Svíþjóð. Ok nú draga þeir saman lið mikit ok búa skip
+sín, en þótti mikit undir, at vel tækist til, þá er skip
+skyldi fram setja. Nú verðr þat, at skip Agnars skauzt
+af hlunni, ok varð þar maðr fyrir, ok fær sá bana, ok
+kölluðu þeir þat hlunnroð. Nú þótti þeim eigi vel til takast
+í fyrstu ok vildu ekki láta standa þat fyrir ferð sinni.
+Ok þá er lið þeira var búit, fara þeir með lið sitt til Svíþjóðar,
+ok þar, er þeir koma fyrst í ríki Eysteins konungs,
+fóru þeir herskildi yfir. En landsmenn urðu varir
+við ok fóru til Uppsala ok segja Eysteini konungi, at
+herr var kominn í landit. En konungrinn lætr fara
+örvarboð um ríki sitt ok dregr svá mikinn her saman,
+at furða var at. Ok þann her flytr hann, þar til er
+hann kemr í skóg einn, ok setr þar sínar herbúðir,
+<pb n="118"/>
+
+ok hefir hann nú með sér kúna Síbilju, ok mjök er
+hún nú blótin, áðr en hún vildi fara. Ok er þeir eru
+í skóginum, mælti Eysteinn konungr: "Frétt hefi ek
+til," segir hann, "at synir Ragnars eru á völlunum fyrir
+framan skóginn, en þat er mér sannliga sagt, at þeir
+hafi eigi einn þriðjung liðs við oss. Nú skulu vér skipa
+várar fylkingar til at berjast, ok skal þriðjungr liðs
+várs fara í mót þeim, ok eru þeir svá harðfengnir, at
+þeir munu þykkjast hafa ráð várt í hendi, ok þegar
+eptir skulum vér öllum megin koma at þeim, ok kýrin
+skal fara fyrir liðinu, ok væntir mik, at eigi skuli
+þeir haldast við fyrir lát hennar." Ok nú er svá gert.
+Ok þegar er þeir bræðr sjá lið Eysteins konungs, þótti
+þeim sér ekki ofrefli við at eiga ok ætla eigi meira
+liðit vera munu. Ok þegar hér eptir kemr allt liðit
+ór skóginum, ok kýrin er laus látin, ok hleypr hún
+fyrir liðinu ok lætr grimmliga, ok varð svá mikill
+gnýr at þeim hermönnum, er heyrðu, at þeir börðust
+sjálfir, nema þeir bræðr tveir fengu staðizt. En sú in
+illa vættr vá með hornum sínum margan mann þann
+dag. Ok þótt synir Ragnars væri miklir fyrir sér, þá
+máttu þeir eigi bæði standast ofrefli fjölmennis ok blótskap,
+ok þó veittu þeir harða viðtöku ok vörðust vel ok
+drengiliga ok af mikilli frægð. Þeir Eirekr ok Agnarr
+váru í öndverðri fylkingu þann dag, ok opt gengu þeir
+í gegnum fylkingar Eysteins konungs. Ok nú fell Agnarr.
+Nú sér Eirekr þat ok berst nú allra fræknligast
+ok hirðir nú eigi, hvárt hann kemst í brott eða eigi.
+Ok nú verðr hann ofrliði borinn ok handtekinn. Ok
+nú mælti Eysteinn, at stöðva skyldi bardagann, ok
+bauð Eireki grið. "Ok þat mun ek til leggja," segir
+hann, "við þik, at ek mun gifta þér dóttur mína."
+Eirekr segir ok kvað vísu:
+<pb n="119"/>
+
+<lg>
+<l>"Vilkat boð fyr bróður</l>
+<l>né baugum mey kaupa,</l>
+<l>Eystein kveða orðinn</l>
+<l>Agnars bana, heyra;</l>
+<l>grætr eigi mik móðir,</l>
+<l>munk efstr of val deyja,</l>
+<l>ok geirtré í gögnum</l>
+<l>gerr, látið mik standa."</l>
+</lg>
+Nú segir hann, at hann vill, at þeir menn hafi grið
+ok fari hvert er þeir vilja, er þeim hafa fylgt. "En ek
+vil, at spjót sé tekin sem flest ok sé stungit spjótunum
+í völl niðr, ok þar vil ek mik láta hefja á upp,
+ok þar vil ek láta lífit." Nú segir Eysteinn konungr,
+at eptir því skal gera, sem hann beiðir, þótt hann
+kjósi þat, er verr gegnir hvárumtveggjum. Nú eru
+spjótin niðr sett, ok kvað Eirekr vísu:
+<lg>
+<l>"Munat eins konungs efni,</l>
+<l>svát ek vita dæmi,</l>
+<l>á dýrra beð deyja,</l>
+<l>til dögurðar hrafni;</l>
+<l>mun blóði þá bráðir</l>
+<l>ok brátt yfir gjalla</l>
+<l>bræðra beggja slíta</l>
+<l>blár, þótt illa launi."</l>
+</lg>
+Ok nú gengr hann þar til, er spjótin eru niðr sett, ok
+tekr hring af hendi sér ok kastar til þeira, er honum
+höfðu fylgt ok þá váru grið gefin, ok sendir þá til Áslaugar
+ok kvað visu:
+<lg>
+<l>"Þau berið orð it efra,</l>
+<l>eru austrfarar liðnar,</l>
+<l>at mær hafi mína</l>
+<l>mjó, Áslaugu, bauga;</l>
+<l>þá mun mest af móði,</l>
+<l>er mik spyrja dauðan,</l>
+<l>mín stjúpmóðir mildum</l>
+<l>mögum sínum til segja."</l>
+</lg>
+<pb n="120"/>
+
+Ok nú er hann hafinn upp á spjótin. Þá sér hann,
+hvar hrafn flýgr, ok enn kvað hann:
+<lg>
+<l>"Hlakkar már of höfði</l>
+<l>hér mínu nú sára,</l>
+<l>krefr unda valr augna</l>
+<l>ósýnna hér minna;</l>
+<l>veizt, ef hrafn ór höfði</l>
+<l>höggr brúnsteina mína,</l>
+<l>launar unda valr Ekkils</l>
+<l>illa marga fylli."</l>
+</lg>
+Nú lætr hann líf sitt með mikilli hreysti. En sendimenn
+hans fóru heim ok létta eigi fyrr en þeir koma
+þar, er Ragnarr átti atsetu. Ok þá var hann farinn í
+konungastefnu. Þeir váru ok eigi heim komnir synir
+Ragnars ór hernaði. Nú eru þeir þar þrjár nætr, áðr
+þeir gangi til fundar við Áslaugu. Ok þá er þeir koma
+fyrir hásætit Áslaugar, kveðja þeir hana virðuliga, ok
+tekr hún kveðju þeira, ok hafði hún einn líndúk fyrir
+knjám sér ok ætlaði at kemba sér, ok hárit hafði hún
+leyst. Nú spyrr hún, hverir þeir væri, fyrir því at hún
+hafði þá eigi fyrr sét. Sá, er orð hafði fyrir þeim, sagði,
+at þeir höfðu verit liðsmenn þeira Eireks ok Agnars,
+sona Ragnars. Þá kvað hún vísu:
+<lg>
+<l>"Hvat segið ér ór yðru,</l>
+<l>eru Svíar í landi</l>
+<l>eða elligar úti,</l>
+<l>allnýs konungs spjalli?</l>
+<l>Fregit hefk hitt, at fóru,</l>
+<l>en fremr vitum eigi,</l>
+<l>ok hildingar höfðu</l>
+<l>hlunnroð, Danir sunnan."</l>
+<l>Hann kvað vísu í mót:</l>
+<l>"Þér segjum vér, þínum,</l>
+<l>þat er nauð, kona, dauða,</l>
+<pb n="121"/>
+
+<l>ill eru einkar manni,</l>
+<l>örlög, sonu Þóru;</l>
+<l>þung spjöll vitum önnur</l>
+<l>eigi nýjari en þessi;</l>
+<l>nú hefk fram komit fréttum,</l>
+<l>flaug örn of ná dauðan."</l>
+</lg>
+Nú spyrr hún, hvé farit hafði. Ok nú kvað hann þá
+vísu, er Eirekr hafði kveðit, er hann sendi henni hringinn.
+Nú sjá þeir, at hún felldi tár, en þat var sem
+blóð væri álits, en hart sem haglkorn. Þat hafði engi
+maðr sét, at hún hefði tár fellt, hvárki áðr né síðan. Nú
+segir hún, at hún má ekki til hefnda sýsla, fyrr en
+heim koma aðrir hvárir, Ragnarr eða synir hans. "En
+þér skuluð vera hér þar til, en ekki skal af spara at
+eggja til hefnda, jafnt sem þeir væri mínir synir." Nú
+eru þeir þar. En svá gefr til, at þeir Ívarr koma fyrri
+heim en Ragnarr, ok eru þeir eigi lengi heima, áðr
+Áslaug ferr at finna sonu sína, en Sigurðr var þá þrévetr.
+Hann ferr með móður sinni. Ok þá er hún kemr
+í höll þá, er þeir réðu fyrir bræðr, fagna þeir henni
+vel, ok spyrja hvárir aðra tíðenda, ok segja þeir fyrri
+fall Rögnvalds, sonar hennar, ok frá þeim atburðum,
+er þar höfðu orðit. En ekki fær henni þat mikils ok
+kvað:
+<lg>
+<l>"Kaga létu mik mínir</l>
+<l>mávangs synir löngum,</l>
+<l>ér eruð heim ok heiman</l>
+<l>húsgangs meðalfærir;</l>
+<l>Rögnvaldr tók at rjóða</l>
+<l>rönd í gumna blóði;</l>
+<l>hann kom yngstr til Óðins</l>
+<l>ógndjarfr sona minna.</l>
+</lg>
+Ek kann eigi þat at sjá," segir hún, "at hann mundi
+til meiri frægðar lifa." Nú spyrja þeir, hvat hún segi
+tíðenda. Hún svarar: "Fall þeira Eireks ok Agnars,
+<pb n="122"/>
+
+bræðra yðarra, en stjúpsona minna, þeira manna, er
+ek ætla, at inir beztu drengir hafi verit. Ok er þat
+ókynligt, at þér þolið slíkt eigi ok hefnið miklu. Ok
+þess vil ek biðja yðr ok í öllum atbeina vera með yðr,
+at þessa verði meir hefnt en miðr." Nú segir Ívarr, at
+-- "þat er víst, at til Svíþjóðar kem ek aldri þeirar
+tíðar, at ek berjumst við Eystein konung ok þann blótskap,
+er þar er." Hún fylgir þessu vel, en Ívarr hefir
+orð fyrir þeim ok synjar ávallt fararinnar. Ok nú kvað
+hún vísu:
+<lg>
+<l>"Eigi mundi yðar</l>
+<l>óhefnt vera bræðra</l>
+<l>eitt misseri eptir,</l>
+<l>ef ér dæið fyrri;</l>
+<l>lítt hirðik því leyna,</l>
+<l>ef líf hafa knætti</l>
+<l>Eirekr sitt ok Agnarr,</l>
+<l>óbornir mér niðjar."</l>
+</lg>
+"Eigi er víst," segir Ívarr, "hvárt þat stoðar nakkvat,
+þótt þú kveðir aðra vísu at annarri, eða hvé gerla
+veiztu, hverr fastgarðr þar er fyrir?" "Eigi veit ek þat
+víst," segir hún, "eða hvat kanntu at segja, hver torveldi
+þar er á?" Ívarr segir, at þar er blótskapr svá mikill,
+at hvergi kvaðst hann spurdaga hafa, at þvílíkr mundi
+vera. "Ok sá konungr er bæði ríkr ok illgjarn." "Hvat
+er þat, er hann trúir mest á í blótum?" Hann segir:
+"Þat er kýr ein mikil, ok er hún kölluð Síbilja. Hún
+er svá mjök mögnuð, at þegar er menn heyra lát hennar,
+hafa óvinir hans engir staðizt, ok er trautt sem
+berjast skuli við menn at eins, heldr má til þess ætla,
+at fyrri skal tröllskapnum mæta en konunginum, ok
+vil ek hvárki hætta þar til mér né liði mínu." Hún
+segir: "Á hitt máttu líta, at þú munt eigi bæði mega
+heita mestr maðr ok vinna ekki til." Ok nú er henni
+<pb n="123"/>
+
+þykkir fyrir ván komit, ætlar hún í brott; þótti henni
+þeir eigi mikils meta sín orð. Þá mælti Sigurðr ormr
+í auga: "Segja má ek þér, móðir," segir hann, "hvat
+mér er í hug, en eigi má ek ráða þeira svörum."
+"Heyra vil ek þat," segir hún. Nú kvað hann vísu:
+<lg>
+<l>"Þat skal þriggja nátta,</l>
+<l>ef þik tregar, móðir,</l>
+<l>leið eigu vér langa,</l>
+<l>leiðangr búinn verða;</l>
+<l>skal Uppsölum eigi,</l>
+<l>þótt ófafé bjóði,</l>
+<l>ef oss duga eggjar,</l>
+<l>Eysteinn konungr ráða."</l>
+</lg>
+Ok er hann hafði þessa vísu kveðit, skipast nokkut
+hugr þeira bræðra. Ok nú mælti Áslaug: "Yfir lýsir
+þú nú, sonr minn, at þú vilt gera minn vilja. En þó
+má ek eigi yfir sjá, at vit komim þessu á leið, ef vit
+höfum eigi fullting bræðra þinna, en þat mætti svá
+verða, at mér mætti bezt þykkja, at þessa yrði hefnt,
+ok vel þykki mér þér fara, sonr minn." Ok nú kvað
+Björn vísu:
+<lg>
+<l>"Duga mun hugr ok hjarta</l>
+<l>í hauksnöru brjósti,</l>
+<l>þótt minnr um þat mæli,</l>
+<l>manni innan rifja;</l>
+<l>eigi er oss í augum</l>
+<l>ormr né fránir snákar,</l>
+<l>bræðr glöddu mik mínir,</l>
+<l>mank stjúpsonu þína."</l>
+</lg>
+Ok nú kvað Hvítserkr vísu:
+<lg>
+<l>"Hyggjum at, áðr heitim,</l>
+<l>at hefnt megi verða,</l>
+<l>látum ýmsa illu,</l>
+<l>Agnars bana, fagna;</l>
+<l>skjótum húf á hrannir,</l>
+<pb n="124"/>
+
+<l>höggum ís fyr barði,</l>
+<l>sjám á hitt, hvé snekkjur</l>
+<l>snemmst vér fáim búnar."</l>
+</lg>
+En Hvítserkr ræddi því um þat, at ís skyldi höggva,
+at frost váru á mikil, ok váru skip þeira inni frerin.
+Ok nú tók Ívarr til orða ok segir, at þá var þar komit,
+er hann mundi nokkurn hlut í eiga, ok nú kvað hann
+visu:
+<lg>
+<l>"Hafið ofrhuga ærinn</l>
+<l>ok áræði bæði,</l>
+<l>þess mundi þá þurfa,</l>
+<l>at þrá mikit fylgdi;</l>
+<l>bera mun mik fyr bragna</l>
+<l>beinlausan fram verða,</l>
+<l>þó gatk hönd til hefnda,</l>
+<l>at hváriga nýtak.</l>
+</lg>
+Ok er hitt nú til," segir Ívarr, "at vér leggjum á
+slíkan hug sem vér megum of skipabúnað ok um samdrátt
+herliðs, því at vér munum þess við þurfa at spara
+ekki af, ef vér skulum sigrast." Nú gengr Áslaug í
+brott.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="11"><p>
+
+Sigurðr hefir átt sér einn fóstra, ok annast sá fyrir
+hans hönd bæði skip at búa ok lið til at fá, svá at þau
+væri öll skipuð. Ok nú gengr þeim svá skjótt, at þat
+lið, er Sigurðr skyldi búit hafa, var búit, er þrjár nætr
+váru liðnar, ok hafði hann fimm skip ok öll vel skipuð.
+Ok þá er fimm nætr váru liðnar, hafði Hvítserkr ok
+Björn búin fjórtán skip, en Ívarr hafði tíu skip ok
+Áslaug önnur tíu, þá er sjau nætr váru liðnar frá því,
+er þau höfðu við ræðzt ok þeir höfðu heitit ferðinni.
+<pb n="125"/>
+
+Nú hittast þau öll saman, ok segir hvárt þeira öðru,
+hvé mikit lið hvert hafði fengit. Ok nú segir Ívarr, at
+hann hafði sent landveg riddaralið. Áslaug segir: "Ef
+ek vissa, at þat lið mætti til gagns komast, er land
+færi, þá mætta ek mikit lið hafa sent." "Ekki skal nú
+at því dveljast," segir Ívarr, "með þetta lið skal nú
+fara, sem vér höfum saman dregit." Nú segir Áslaug,
+at hún vill fara með þeim, -- "ok veit ek þá gerst, hver
+stund á er lögð at hefna þeira bræðra." "Þat er víst,"
+segir Ívarr, "at þú kemr eigi á vár skip. Hitt skal vera,
+ef þú vill, at þú ráðir fyrir því liði, er landveg ferr."
+Hún kvað svá vera skulu. Nú er breytt nafni hennar
+ok er nú kölluð Randalín. Nú ferr liðit hvárttveggja,
+ok kvað Ívarr á áðr, hvar þau skyldu finnast. Nú ferst
+þeim vel hvárumtveggjum ok hittast þar, sem ákveðit
+er. Ok hvar sem þau koma við Svíþjóð í ríki Eysteins
+konungs, fara þeir herskildi yfir, svá at þeir brenndu
+allt þat, er fyrir varð, drápu hvert mannsbarn, ok því
+jóku þeir við, at þeir drápu allt þat, er kvikt var.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="12"><p>
+
+Nú er þat eitthvert sinn, at menn komast undan
+á fund Eysteins konungs ok segja honum, at í ríki hans
+var kominn mikill herr ok svá illr viðskiptis, at þeir
+létu ekki ógert ok þeir höfðu eytt allt þar, er þeir
+höfðu yfir farit, ok ekki hús stóð upp. Nú er Eysteinn
+konungr heyrir þessi tíðendi, þykkist hann vita, hverir
+þeir víkingar munu vera. Ok nú lætr hann fara örvarboð
+um allt sitt ríki ok stefnir öllum til, þeim er hans
+menn eru ok honum vilja lið veita ok skildi megu
+valda. "Vér skulum hafa með oss kúna Síbilju, goð
+<pb n="126"/>
+
+várt, ok láta hana hlaupa fyrir liðinu, ok væntir mik,
+at enn fari sem fyrr, at þeir megu eigi standast lát
+hennar. Vil ek allt lið mitt þess eggja, at sem bezt
+dugi, ok rekum af oss þenna inn mikla her ok inn illa."
+Ok nú er svá gert, at Síbilja er laus látin. Ok nú sér
+Ívarr för hennar ok heyrir þau in grimmligu læti, er
+ór henni váru. Mælir hann, at allt liðit skyldi gera
+óhljóð mikit, bæði af vápnum ok herópi, at þeir heyri
+sem sízt rödd hennar, þess ins illa kykvendis, er fór
+í móti þeim. Ívarr mælti við sína burðarmenn, at þeir
+skyldu bera hann á móti, svá sem þeir mætti framast.
+"Ok þá er sjá kýr kemr at oss, kastið mér at henni, ok
+mun þá vera annathvárt, er ek skal láta mitt líf, eða
+hún skal fá bana. Nú skulu þér taka eitt tré mikit ok
+telgja á bogamynd ok skeyti með." Ok nú er honum
+færðr sjá bogi inn sterki ok þau in miklu skeyti, er
+hann hafði gera látit, en engum þótti sér vápnhæft
+annarra. Nú eggjar Ívarr hvern mann, at dugi sem
+bezt. Nú ferr lið þeira með miklum geysingi ok gný,
+en Ívarr var borinn fyrir fylkingum þeira. Nú verðr
+svá mikill gnýr, er Síbilja beljar, at þeir heyrðu jafngerla
+sem þeir þegði ok stæði kyrrir. Nú bregðr þeim
+svá við þetta, at lið þeira vill berjast allt nema þeir bræðr.
+Ok er þessi endemi verða, sjá þeir þat, er Ívar báru,
+at hann dregr svá boga sinn sem hann hefði einn álmsveig
+veikan, ok við því þótti þeim búit, at hann drægi
+fyrir odd örvar sínar. Nú heyra þeir, at strengr gellr hans
+svá hátt, at hann heyrðu þeir aldrigi svá fyrri. Ok nú sjá
+þeir, at hans örvar flugu svá snart sem hann hefði skotit
+af inum sterkasta lásboga ok svá gegnt, at í sitt auga
+kom hvár örin Síbilju. Ok nú fellr hún, ok eptir þat
+ferr hún höfuðsteypu, ok nú eru læti hennar miklu
+verri en fyrri. Ok er hún kemr at þeim, biðr hann kasta
+<pb n="127"/>
+
+sér at henni, ok verðr þeim hann svá léttr sem þeir kasti
+barni litlu, því at þeir váru eigi allnær kúnni, þá er þeir
+köstuðu honum. Ok þá kom hann á hrygg kúnni Síbilju,
+ok varð hann þá svá þungr sem bjarg eitt felli á hana, ok
+hvert bein brotnar í henni, ok fær hún af því bana. Nú
+biðr hann menn sik upp taka sem skjótast. Ok nú er
+hann upp tekinn, ok nú er rödd hans svá hvell, at svá
+þótti öllum herinum, er hann mælti, sem við sjálft væri,
+þótt fjarri væri staddir, ok it bezta hljóð væri til gefit
+hans erendis. Ok svá lýkr hann sinni tölu, at ófriðr sjá,
+nemst þegar af allr, er yfir þá hafði komit, ok þá sakaði
+ekki, því at lið þeira hafði skamma stund barizt. Nú
+eggjar Ívarr, at þeir skyli vinna sem verst verk á þeim.
+"Ok nú þykki mér af inn ólmasti, er kýrin er drepin."
+Ok nú hafa hvárirtveggju fylkt liði sínu, ok sígr saman
+orrostan, ok er bardagi svá harðr, at þat mæltu allir Svíar,
+at þeir hefði aldri í slíkri mannraun verit. Nú ganga
+þeir svá hart fram bræðr, Hvítserkr ok Björn, at engi
+fylking stendr við. Ok nú fellr svá mjök lið Eysteins
+konungs, at minna stendr upp, en sumt kemr á flótta.
+Ok nú lýkr svá þeira bardaga, at Eysteinn konungr
+fellr, en þeir bræðr hafa sigr. Ok nú gefa þeir þeim
+grið, sem eptir váru. Ok nú segir Ívarr, at hann vildi
+eigi herja lengr í því landi, því at þat land var nú höfðingjalaust.
+"Ok vil ek heldr, at vit haldim þar til, er
+meira ofrefli er fyrir." En Randalín fór heim með sumt
+liðit.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="13"><p>
+
+Nú ráða þeir þat með sér, at þeir skulu herja í Suðrríki.
+En Sigurðr ormr í auga, sonr hennar, fór með
+bræðrum sínum í hverja herför síðan. Í þessi för leggja
+<pb n="128"/>
+
+þeir til hverrar borgar, er mikil er, ok unnu svá, at
+ekki stóð við.
+Ok nú spyrja þeir til einnar borgar þeirar, at bæði
+var mikil ok fjölmenn ok harðger. Ok nú segir Ívarr,
+at hann vill þar til stefna. Ok þat var ok sagt, hvat sú
+borg hét ok hverr fyrir ræðr. En sá höfðingi var kallaðr
+Vífill. Af hans nafni var borgin kölluð Vífilsborg. Nú
+fara þeir svá herskildi yfir, at þeir eyða allar borgir, er
+fyrir urðu, þar til er þeir kómu til Vífilsborgar. Höfðinginn
+var eigi heima í borg sinni ok mikit lið með honum.
+Nú setja þeir upp búðir sínar á völlum þeim, er
+hjá borginni váru, ok eru í kyrrðum þann dag, er þeir
+kómu til borgarinnar, ok höfðu mál af borgarmönnum.
+Þeir buðu þeim, hvárt þeir vildu heldr gefa upp borgina,
+ok mundi þá friðr gefinn öllum mönnum, eða þeir
+ynni af sínu ofrefli ok harðfengi, ok munu þá engum
+mönnum grið gefin. En þeir leystu skjótt ór ok sögðu,
+at þá borg fengi þeir aldrigi unnit, svá at þeir gefi hana
+upp. "Ok munu þér verða fyrr at reyna yðr ok sýna oss
+yðvarn fræknleik ok kapp." Líðr nú sú nótt. Ok inn
+næsta dag eptir leita þeir til at vinna borgina ok fá ekki
+at gert. Sitja þeir um þá borg hálfan mánuð ok leita
+til hvern dag, at þeir geti þá borg unnit, ok með ýmsum
+brögðum. En þat ferr því firr sem þeir hafa lengr
+við leitat, ok ætluðu nú frá at hverfa. Ok þá er borgarmenn
+verða við þat varir, at þeir ætla frá at hverfa,
+þá ganga þeir út á borgarveggi ok breiða guðvefjarpell
+of alla borgarveggina ok öll klæði þau, er fegrst váru í
+borginni, ok törruðu fyrir þeim gulli ok gersimum þeim,
+er mestar váru í borginni. Ok nú tekr einn til orða af
+liði þeira ok mælti: "Vér hugðum, at þessir menn, synir
+Ragnars, ok lið þeira væri harðfengnir menn, en vér
+megum þat segja, at þeim hefir eigi nær farit en öðrum."
+<pb n="129"/>
+
+Nú eptir þetta æptu þeir á þá ok börðu á skjölduna
+ok eggjuðu at sér sem þeir máttu mest. Ok er Ívarr heyrir
+þetta, brá honum við mjök, svá at hann fær af þessu
+sótt mikla, svá at hann má hvergi hræra, ok verða þeir
+at bíða, at annathvárt batni honum ella hafi hann bana.
+Hann liggr þenna dag allan til kvelds, svá at hann
+mælti ekki orð. Ok þá mælti hann við þá menn, er hjá
+honum váru, at þeir skyldu segja þeim Birni, Hvítserki
+ok Sigurði, at hann vildi þeira fund hafa ok allra inna
+vitrustu manna. Ok nú er þeir koma allir í einn stað,
+er mestir höfðingjar eru í þeira liði, þá spyrr Ívarr
+þá eptir, ef þeir hefði nokkur ráð sét, þau er líkari væri
+til at sigrast en þau, er þeir höfðu fyrr haft. En þeir
+svara allir, at þeir hefði eigi vit til þess at sjá þau brögð,
+er þeim væri sigr í. "Er nú sem optar, at þinna ráða mun
+njóta verða." Þá svarar Ívarr: "Mér hefir eitt ráð í
+hug komit, þat er vér höfum eigi freistat. Hér er skógr
+mikill eigi langt í brott, ok nú, er náttar, skulu vér fara
+ór tjöldum várum leyniliga til skógar, en herbúðir várar
+skulu standa eptir, ok er vér komum í mörkina, skal
+hverr maðr binda sér byrði. Ok er því er lokit, skulu
+vér fara at borginni öllum megin ok slá eldi í viðinn,
+ok mun þá gerast bál mikit, ok borgarveggir þeira munu
+þá láta lím sitt fyrir þeim eldi, ok skulu vér þá bera
+at valslöngur ok reyna, hvé harðger hún er." Ok nú er
+svá gert, at þeir fara til skógar, eru þar slíka hríð sem
+Ívari sýndist. Nú fara þeir at borginni eptir tilskipun
+hans, ok þá er þeir lustu eldi í viðinn inn mikla, varð
+bál svá mikit, at veggirnir megu eigi standast ok láta
+lím sitt, ok bera þeir þá valslöngur at borginni ok brjóta
+á hlið mörg, ok tekst nú bardagi. Ok þegar er þeir standa
+jafnt at vígi, þá fellr lið borgarmanna, en sumt flýr undan,
+ok svá lýkr þeira skiptum, at þeir drepa hvert mannsbarn,
+<pb n="130"/>
+
+er í var borginni, ok taka brott allt fé, en brenna
+borgina, áðr þeir fari á brott.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="14"><p>
+
+Nú halda þeir í brott þaðan, þar til er þeir koma í
+þá borg, er Lúna hét. Þá höfðu þeir hverja borg ok
+hvern kastala brotit náliga í öllu Suðrríki, ok nú eru
+þeir svá frægir of allan heim, at ekki var svá lítit barn, at
+eigi kynni nafn þeira. Nú ætla þeir at létta eigi fyrr en
+þeir koma til Rómaborgar, af því at sú borg var þeim
+bæði sögð mikil ok fjölmenn ok ágæt ok auðig. En þat
+vissu þeir eigi gerla, hvé löng leið þangat er, en þeir
+höfðu svá mikit lið, at eigi fengust vistir. Ok nú eru
+þeir í þeiri borg Lúna ok ræða með sér of ferð sína. Nú
+kemr þar maðr einn, gamall ok geðsligr. Þeir spyrja, hvat
+manna hann væri, en hann segir, at hann sé einn stafkarl
+ok hafi alla ævi farit yfir land. "Þú munt margt
+kunna tíðenda at segja oss, þat er vér viljum vita."
+Inn gamli maðr svarar: "Eigi veit ek þat víst, af hverjum
+löndum þér vilið spyrja, þess er ek veit eigi at segja yðr."
+"Þat viljum vér, at þú segir oss, hvé löng leið er heðan
+til Rómaborgar." Hann svarar: "Ek kann segja yðr nokkut
+til merkja. Þér meguð hér sjá þessa járnskó, er ek
+hefi á fótum mér, þeir eru nú fornir, ok þá aðra, er ek
+hefi á baki mér, þeir eru nú ok slitnir. En þá er ek fór
+þaðan, batt ek þessa á fætr mér ina slitnu, er ek hefi nú
+á baki mér, ok váru þá nýir báðir, ok á þeiri leið
+hefi ek verit ávallt síðan. En er inn gamli maðr hafði
+þetta mælt, þykkjast þeir sjá, at þeir megu eigi þessu
+á leið koma, er þeir hafa fyrir sér ætlat, til Róms at fara.
+Ok nú snúa þeir frá með her sinn ok unnu margar borgir,
+<pb n="131"/>
+
+þær er aldri höfðu unnar verit fyrr, ok þess jarteinir
+sjást enn í dag.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="15"><p>
+
+Nú er þar til máls at taka, er Ragnarr sitr heima í ríki
+sínu ok hann veit eigi, hvar synir hans eru né Randalín,
+kona hans. Ok þat heyrði hann hvern tala af sínum
+mönnum, at engir mætti jafnast við sonu hans, ok
+hugðist honum svá at, at engir væri jafnfrægir þeim.
+Nú hyggr hann at því, hverrar frægðar hann mætti
+þess leita, er eigi væri skemmr uppi. Nú hyggr hann ráð
+sitt ok fær sér smiða ok lætr fella mörk til tveggja
+skipa mikilla, ok þat skildu menn, at þat váru knerrir
+tveir svá miklir, at engir höfðu slíkir verit gervir á Norðrlöndum,
+ok þar með lætr hann hafa of allt sitt ríki
+mikinn vápnabúnað. Ok með þessi breytni skilja menn
+þat, at hann mun ætla nokkura herferð fyrir sér ór landinu.
+Þetta spyrst víða á lönd þau, er næst váru. Ok nú
+ugga menn þat ok allir konungar, er fyrir landi réðu,
+at þeir mundu eigi í löndum sínum eða ríkjum vera
+mega. Ok nú lætr hverr þeira vera varðhöld um lönd
+sín, ef nokkur beri hann at. Þat er eitt sinn, er Randalín
+spurði Ragnar, hverja för hann ætlaði fyrir sér.
+Hann segir henni, at hann ætlaði til Englands ok hafa
+eigi fleiri skip en tvá knörru ok þat lið, sem á þeim má
+fara. Þá segir Randalín: "Sú för lízt mér óvarlig, er nú
+ætlar þú. Mér þætti þér ráðligra at hafa fleiri skip ok
+smæri." "Þat er ekki ágæti" segir hann, "þótt menn
+fái unnit land með mörgum skipum. En til þessa eru
+eigi dæmi, at með tveimr skipum hafi unnit verit
+slíkt land sem England er. En ef ek fæ ósigr, þess betr
+<pb n="132"/>
+
+sem ek hefi færi skip ór landi." Þá svarar Randalín:
+"Mér sýnist sjá eigi minni fékostnaðr, áðr þessi skip
+sé búin, en þótt þú hefðir langskip mörg til þessarar
+ferðar. En þú veizt þat, at illt er skipum at halda at
+Englandi, ok ef svá verðr, at skip þín týndist, þótt menn
+komist á land, þá eru þeir þegar upp gefnir, ef landherr
+kemr at, en betra er at halda langskipum til hafna
+en knörrum. Nú kveðr Ragnar vísu:
+<lg>
+<l>"Spari manngi röf Rínar,</l>
+<l>ef röskva vill hermenn,</l>
+<l>verr samir horskum hilmi</l>
+<l>hringa fjöld en drengja;</l>
+<l>illt er í borghlið baugi</l>
+<l>brandrauðum fram standa;</l>
+<l>allmarga veit ek jöfra,</l>
+<l>þá er auðr lifir, dauða."</l>
+</lg>
+Nú lætr hann skip sín búa ok fær sér lið, svá at
+þeir knerrir eru mjök skipaðir. Nú er fjölrætt um hans
+fyrirætlan. Ok enn kvað hann vísu:
+<lg>
+<l>"Hvat er þats baugs ór björgum</l>
+<l>brjótr heyrir nú þjóta,</l>
+<l>at muni mundelds meiðir</l>
+<l>mars sviðr ófni hafna?</l>
+<l>Þó skal þeira ráða,</l>
+<l>þorn-Bil, ef goð vilja,</l>
+<l>ægir alnar leygjar</l>
+<l>ókvíðandi bíða."</l>
+</lg>
+Ok er skip hans eru búin ok þat lið, er honum
+skyldi fylgja, ok þá er þat veðr kemr, er honum þótti
+sér vel koma, segir Ragnarr, at þá mundi hann fara
+til skipa. Ok er hann var búinn, leiddi hún hann til
+skipa. Ok áðr þau skiljast, kjeðst hún mundu launa
+honum serk þann, er hann hafði gefit henni. Hann
+spyrr, með hverjum hætti þat væri. En hún kvað vísu:
+<pb n="133"/>
+
+<lg>
+<l>"Þér annk serk inn síða</l>
+<l>ok saumaðan hvergi,</l>
+<l>við heilan hug ofnu</l>
+<l>ór hársíma gránu;</l>
+<l>mun eigi ben blæða,</l>
+<l>né bíta þik eggjar</l>
+<l>í heilagri hjúpu,</l>
+<l>var hún goðum signuð."</l>
+</lg>
+Hann segir, at hann vill þessi ráð þiggja. En þá er
+þau skildust, var auðsætt, at henni þótti mikit fyrir
+þeira skilnaði.
+Nú heldr Ragnarr skipum sínum til Englands, sem
+hann hafði ætlat. Honum gaf byri hvassa, svá at við
+England brýtr hann báða knörru sína, en á land komst
+allt lið hans, ok heldu klæðum sínum ok vápnum. Ok
+þar, sem hann kemr við þorp ok borgir ok kastala, þá
+vinnr hann. En konungr sá hét Ella, er þá réð Englandi.
+Hann hafði haft fréttir til Ragnars, er hann fór ór
+landi. Hann hafði sett menn fyrir, at hann skyldi þegar
+vita, er herrinn kæmi við land. Nú fóru þeir menn
+til fundar við Ellu konung ok segja honum hersögu.
+Nú lætr hann senda boð um allt sitt ríki ok bað til sín
+koma hvern mann, er skildi má valda ok hesti ríða ok
+þori at berjast, ok dregr hann saman svá mikinn her,
+at furða var at. Nú búast þeir til bardaga Ella konungr.
+Þá mælti Ella konungr við lið sitt: "Ef vér sigrumst
+í bardaga þessum ok verði þér við þat varir, at
+Ragnarr er kominn, þá skulu þér eigi bera vápn á hann,
+því at hann á þá sonu eptir, er aldri munu af oss ganga, ef
+hann fellr." Ragnarr býst nú til bardaga, ok hann hafði
+þat klæði, er Randalín hafði gefit honum at skilnaði,
+fyrir brynju ok þat spjót í hendi, er hann vann at orminum,
+er lá um sal Þóru, ok engi þorði annarra, ok
+hann hafði enga hlíf nema hjálm. En þá er þeir hittast
+<pb n="134"/>
+
+tókst bardagi. Ragnarr hafði miklu minna lið. Bardaginn
+hafði eigi lengi verit, áðr lið Ragnars fell mjök.
+En þar, sem hann fór, varð rýrt fyrir, ok gekk hann í
+gegnum fylkingar þann dag, ok þar, sem hann hjó eða
+lagði í skjöldu, brynjur eða hjálma, þá váru svá stór
+högg hans, at ekki vetta stóð við, en aldri var svá til
+hans höggvit eða skotit, at né eitt vápn yrði honum at
+meini, ok fekk hann aldri sár, en hann drap mikinn
+fjölda af liði Ellu konungs. En þó lauk svá bardaga
+þeira, at allt lið Ragnars fell, en at honum váru bornir
+skildir ok svá handtekinn. Nú var hann spurðr, hvat
+manna hann var, en hann þagði við ok svaraði engu.
+Þá mælti Ella konungr: "Sjá maðr mun verða at koma
+í meiri mannraun, ef hann vill eigi segja oss, hverr
+hann er. Nú skal kasta honum í einn ormgarð ok láta
+hann þar sitja mjök lengi, ok ef hann mælir nakkvat
+þat, er vér megim skilja, at hann sé Ragnarr, þá skal
+<pb n="135"/>
+
+hann í brott taka sem skjótast." Nú er honum þangat
+fylgt, ok hann sitr þar mjök lengi, svá at hvergi festast
+ormar við hann. Þá mæltu menn: "Þessi maðr er
+mikill fyrir sér; hann bitu eigi vápn í dag, en nú granda
+honum eigi ormar." Þá mælti Ella konungr, at hann
+væri flettr af klæði því, er hann hafði yzt, ok nú var
+svá gert, ok hengu ormar öllum megin á honum. Þá
+mælti Ragnarr: "Gnyðja mundu nú grísir, ef þeir
+vissi, hvat inn gamli þyldi." Ok þótt hann mælti slíkt,
+þá vissu þeir eigi at gerr, at Ragnarr væri þat heldr
+en annarr konungr. Nú kvað hann vísu:
+<lg>
+<l>"Orrostur hefk áttar,</l>
+<l>þærs ágætar þóttu,</l>
+<l>gerða ek mörgum mönnum</l>
+<l>mein, fimm tigi ok eina;</l>
+<l>eigi hugðak orma</l>
+<l>at aldrlagi mínu;</l>
+<l>verðr mjök mörgu sinni,</l>
+<l>þats minnst varir sjálfan."</l>
+<l>Ok enn kvað hann:</l>
+<l>"Gnyðja mundu grísir,</l>
+<l>ef galtar hag vissi,</l>
+<l>mér er gnótt at grandi,</l>
+<l>grafa inn rönum sínum</l>
+<l>ok harðliga hváta,</l>
+<l>hafa mik sogit, ormar;</l>
+<l>nú munk nár af bragði</l>
+<l>ok nær dýrum deyja."</l>
+</lg>
+Nú lætr hann líf sitt, ok er hann nú færðr á brott
+þaðan. En Ella konungr þykkist vita, at Ragnarr hefir
+líf sitt látit. Nú hyggr hann fyrir sér, hvé hann skyldi
+þess verða varr eða með fara, at hann mætti halda ríki
+sínu eða vita, hvé þeim brygði við sonum Ragnars, er
+þeir spyrja. Hann tekr þat til ráðs, at hann lætr búa
+<pb n="136"/>
+
+skip eitt ok fær þann mann til fyrir at ráða, er bæði
+var vitr ok harðfengr, ok þar fær hann menn til, svá
+at þat skip var vel skipat, ok segir, at hann vill þá
+senda á fund Ívars ok þeira bræðra ok segja þeim fall
+föður þeira. En sjá för lízt flestum óvænlig, svá at fáir
+vildu fara. Þá mælti konungr: "At því skulu þér vandliga
+hyggja, hversu hverjum þeira bræðra bregðr við
+þessi tíðendi. Farit þá leiðar yðarrar síðan, er yðr
+gefr veðr." Svá lætr hann búa ferð þeira, at þeir þurftu
+at engu annarra. Ok nú fara þeir, ok ferst þeim vel.
+En synir Ragnars höfðu herjat of Suðrríki. Þá sneru
+þeir á Norðrlönd ok ætluðu at vitja ríkis síns, þess
+er Ragnarr réð fyrir. En þeir vissu eigi herför hans,
+hversu hún hafði orðit, ok þó er þeim mikil forvitni
+á, hversu hún hafði orðit. Nú fara þeir sunnan of land.
+En hvarvetna, er menn frétta til fara þeira bræðra,
+eyddu menn borgir sínar ok færðu fé sitt á brott ok
+flýðu undan, svá at trautt fengu þeir liði sínu mat.
+Þat er einn morgin, at Björn járnsíða vaknar ok kvað
+vísu:
+<lg>
+<l>"Hér flýgr hverjan morgin</l>
+<l>hress of borgir þessar,</l>
+<l>læzt heill munu af hungri,</l>
+<l>heiðir vals, of deyja;</l>
+<l>hann fari suðr um sanda,</l>
+<l>sára hvar vér létum,</l>
+<l>þar fær dauðs manns dreyra,</l>
+<l>dögg ór skýlihöggum."</l>
+<l>Ok enn kvað hann:</l>
+<l>"Þat var fyrst, er fórum,</l>
+<l>Freys leika tókk heyja,</l>
+<l>þars andvíga áttum</l>
+<l>öld, í Rómaveldi;</l>
+<l>þar létk of grön grána,</l>
+<pb n="137"/>
+
+<l>gall örn of valfalli,</l>
+<l>at mannskæðu morði</l>
+<l>mitt sverð dregit verða."</l>
+</lg>
+</p></div>
+
+<div type="textpart" subtype="chapter" n="16"><p>
+
+Nú berr svá til, at þeir koma fyrri í Danaveldi en
+sendimenn Ellu konungs ok sitja nú kyrrir með lið
+sitt. En sendimenn koma með lið sitt til þeirar borgar,
+er synir Ragnars þiggja veizlu, ok ganga í þá höll,
+er þeir drekka, ok fyrir hásætit, er Ívarr liggr í. Sigurðr
+ormr í auga ok Hvítserkr hvati sitja at hneftafli,
+en Björn járnsíða skefr spjótskepti á hallargólfinu. Ok
+er sendimenn Ellu konungs koma fyrir Ívar, kveðja
+þeir hann virðuliga. En hann tekr kveðju þeira ok
+spyrr, hvaðan þeir sé eða hvat þeir segja tíðenda. Ok
+sá, er fyrir þeim var, segir, at þeir váru enskir menn
+ok þá hefir Ella konungr þangat senda með þau tíðendi
+at segja fall Ragnars, föður þeira. Hvítserkr ok
+Sigurðr láta þegar falla niðr taflit ok hyggja at vandliga
+þessi tíðenda sögn. Björn stendr á hallargólfinu ok
+studdist við spjótskepti sitt. En Ívarr spurði þá vandliga,
+með hverjum atburð líflát hans hafði verit. En
+þeir sögðu allt sem farit hafði þaðan frá, er hann kom
+við England ok til þess, er hann lét líf sitt. Ok nú er
+þessi sögu var þar komit, er hann hafði þetta mælt:
+"Gnyðja mundu grísir," -- þokar Björn höndum sínum
+á spjótskaptinu, ok svá hafði hann tekit fast, at
+handastaðinn sá á eptir. Þá er sendimenn luku frásögn
+þessi, hristir Björn spjótit í sundr, svá at stökk í tvá
+hluti. En Hvítserkr hélt töfl einni, er hann hafði
+drepit, ok hann kreisti hana svá fast, at blóð stökk
+undan hverjum nagli. En Sigurðr ormr í auga hafði
+haldit á knífi einum ok skóf nagl sinn, er þessi tíðendi
+<pb n="138"/>
+
+váru sögð, ok hugði svá vandliga at þessum tíðendum,
+at hann kenndi eigi fyrr en knífrinn stóð í beini, ok
+brást hann ekki við. En Ívarr spyrr at öllu sem gerst,
+en litr hans var stundum rauðr, en stundum blár, en
+lotum var hann bleikr, ok hann var svá þrútinn, at
+hans hörund var allt blásit af þeim grimmleik, er í
+brjósti hans var. Nú tekr Hvítserkr til orða ok sagði,
+at svá mætti hefndina bráðast upp hefja at drepa sendimenn
+Ellu konungs. Ívarr segir: "Þat skal eigi vera.
+Þeir skulu fara í friði, hvert er þeir vilja, ok ef nokkurr
+hlutr er sá, at þá skorti, skulu þeir mér til segja,
+ok skal ek fá þeim." Ok nú er þeir hafa lokit erendi
+sínu, snúa þeir utar eptir höllunni ok til skips síns.
+Ok er þeim gefr byr, láta þeir í haf, ok ferst þeim vel,
+þar til er þeir koma á fund Ellu konungs, ok segja
+honum frá, hversu hverjum þeira hefir við brugðit þessa
+tíðenda sögn. Ok er Ella konungr heyrir þetta, þá mælti
+hann: "Þess er ván, at annathvárt munu vér Ívar þurfa
+at óttast eða engan ella, at því er þér segið frá honum,
+ok mundi þeim gott innan rifja, ok haldit munu
+vér fá ríki váru fyrir þeim." Nú lætr hann varðhöld
+hafa um allt sitt ríki, svá at eigi mátti herr komast á
+óvart honum.
+En er sendimenn Ellu konungs váru brott farnir,
+ganga þeir bræðr á málstefnu, hversu þeir skyldu með
+fara of hefnd eptir Ragnar, föður sinn. Þá mælti Ívarr:
+"Engan hlut mun ek í eiga ok eigi fá lið til, því at
+Ragnarr fór sem mik varði. Hann bjó illa sína sök
+til í upphafi. Hann átti engar sakir við Ellu konung,
+ok hefir þat opt orðit, ef maðr ætlar ofrkapp fyrir sér
+með rangendum, at hann hefir því óvirðuligar niðr
+komit. Ok vil ek þiggja fébætr af Ellu konungi, ef
+hann vill til leggja við mik." En er þeir heyra þetta
+<pb n="139"/>
+
+bræðr hans, verða þeir reiðir mjök ok segja, at aldri
+skyldu þeir svá at klækjum verða, þótt hann vildi svá.
+"Munu þat margir mæla, at oss sé mislagðar hendr í
+kné, ef vér skulum eigi hefna föður várs, en vér höfum
+víða farit um heim með herskildi ok drepit margan
+mann saklausan. Ok enn skal eigi þat verða, heldr skal
+búa hvert skip, er sæfært er í Danaveldi. Skal svá
+gersamliga safna liði, at hverr maðr, er skjöld má bera
+í mót Ellu konungi, skal fara." En Ívarr segir, at hann
+mundi eptir sitja ok þau skip, er hann á fyrir at ráða,
+-- "nema þat eitt, er ek á sjálfr." Ok er þetta spyrst,
+at Ívarr leggr enga stund á, fá þeir miklu minna lið
+ok fara þó eigi at síðr. Ok þegar er þeir kómu við
+England, verðr Ella konungr varr við ok lætr þegar
+lúðr sinn við gjalla ok býðr til sín öllum mönnum,
+er honum vilja fylgja. Ok nú fær hann svá mikit lið,
+at engi maðr mátti tölu á koma, ok ferr í mót þeim
+bræðrum. Ok er þeir finnast, var Ívarr ekki í þeim
+bardaga. Ok svá lýkr þeira bardaga, at synir Ragnars
+koma á flótta, en Ella konungr hefir sigr. Ok er hann
+var at at reka flóttann, segir Ívarr, at hann ætlar ekki
+aptr at hverfa til lands síns, -- "ok vil ek reyna, hvárt
+Ella konungr vill mér nokkurrar sæmdar unna eða
+engrar, ok þykki mér sá betri at þiggja yfirbót af honum
+en fara slíkar ófarar fleiri sem nú fóru vér." Hvítserkr
+segir, at eigi mátti hlut í eiga með honum ok
+hann yrði at fara með sín efni sem hann vill, -- "en
+aldri skulu vér fé taka eptir föður várn." Ívarr segir,
+at þar mundi skilja með þeim, ok bað þá ráða ríki
+því, er þeir áttu allir saman, -- "en þér skuluð senda
+mér lausafé, sem ek kveð á." En er hann hafði
+mælt, bað hann þá vel fara. En hann snýr aptr sinni
+ferð á fund Ellu konungs. Ok er hann kemr fyrir hann,
+<pb n="140"/>
+
+kveðr hann konunginn virðuliga ok hefr svá mál sitt:
+"Ek em kominn á fund yðarn, ok vil ek mæla til sætta
+við þik ok slíkrar sæmdar sem þú vilt gert hafa til
+mín. Ok nú sé ek þat, at ek hefi ekki við þér, ok þykki
+mér þat betra at þiggja af yðr slíka sæmd sem þú vilt
+mér veita en láta mína menn fleiri fyrir yðr eða sjálfan
+mik." Þá svarar Ella konungr: "Þat kalla sumir
+menn, at eigi sé hægt at trúa þér ok þú mælir þá opt
+fagrt, er þú hyggr flátt, ok mun oss vera vant at sjá
+við þér eða bræðrum þínum." "Ek mun til lítils mæla
+við þik, ef þú lætr þat til. Skal ek þat sverja þér á mót,
+at ek skal aldri vera í mót þér." Nú spyrr konungr,
+til hvers hann mælti of yfirbætr. "Ek vil," segir Ívarr,
+"at þú gefir mér þat af landi þínu, er uxahúð tekr
+yfir, en þar utan um skal grundvöll gera, ok mun ek
+eigi til meira mæla við þik, ok þat sé ek, at þú vilt
+mér engrar sæmdar unna, ef þú vilt eigi þetta." "Eigi
+veit ek," segir konungr, "at oss megi þetta at meini
+verða, þótt þú hafir þetta ór mínu landi, ok at vísu
+mun ek fá þér þetta, ef þú vilt þat sverja mér at
+berjast eigi í mót mér, ok eigi uggi ek bræðr þína,
+ef þú ert mér trúr."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="17"><p>
+
+Nú ráða þeir þetta með sér, at Ívarr sverr honum
+eiða, at hann skyldi eigi skjóta í mót honum ok eigi
+ráð leggja til meins honum, en hann skal eignast af Englandi
+þat, sem uxahúð tekr yfir, er hann fengi mesta til.
+Nú fær Ívarr sér öldungshúð eina, ok nú lætr hann
+hana bleyta, ok þrisvar lætr hann hana þenja. Nú lætr
+hann rista hana sem mjóst alla í sundr, ok þá lætr
+hann renna sér hvárt, háram eða holdrosu. Ok er
+<pb n="141"/>
+
+þessu var lokit, var þvengr sjá svá langr, at furða var
+at, ok engum kom í hug, at svá mætti verða. Ok þá
+lætr hann breiða á einum velli, en þat var svá vítt land,
+at þat var mikil borgarvídd, ok þar fyrir utan lætr
+hann marka grundvöll sem til mikilla borgarveggja.
+Ok þá fær hann sér smiði marga ok lætr reisa hús mörg
+á þeim velli, ok þar lætr hann gera borg eina mikla,
+ok er sú kölluð Lundúnaborg. Hún er allra borga
+mest ok ágæzt of öll Norðrlönd. Ok nú er hann hafði
+borg þessa látit gera, hafði hann lausafé upp gefit. En
+hann var svá örr, at hann gaf á tvær hendr, ok þótti
+svá mikit um speki hans, at allir sóttu hann at sínum
+ráðum ok vandamálum. Ok svá skipaði hann öllum
+málum sem hverjum þótti sér bezt gegna, ok gerist
+hann vinsæll, svá at hann á undir hverjum manni vin,
+ok er Ellu konungi mikit lið at honum fyrir landráða
+sakir, svá at konungr lætr hann mörgum ráðum ok
+málum skipa ok þarf eigi til at koma sjálfr. Ok er Ívarr
+hafði svá komit ráði sínu, at þar þykkir til allrar
+spektar at sjá, sendir hann menn á fund bræðra sinna
+þess erendis, at þeir sendi honum gull ok silfr svá
+mikit sem hann kvað á. En er þessir menn koma á
+fund þeira bræðra, segja þeir sín erendi ok svá, hvar
+þá var komit hans ráð, því at menn þóttust þat eigi
+vita, yfir hverjum brögðum hann bjó. Ok svá skildu
+þeir bræðr, at hann hafði ekki skapsmuni eptir því,
+sem hann var vanr. Nú senda þeir slíkt fé sem hann
+á kvæði. Ok er þeir koma til Ívars, gefr hann þau öll
+fé inum stærstum mönnum í landinu ok dregr svá lið
+undan Ellu konungi, ok allir hétu því, at kyrrir mundu
+sitja, þótt hann gerði þangat herför. Ok er Ívarr hefir
+svá lið dregit undir sik, þá sendir hann menn á fund
+bræðra sinna at segja þeim, at vildi hann, at þeir byði
+<pb n="142"/>
+
+út leiðangri of þau lönd öll, er þeira ríki stóð yfir, ok
+þeir skoraði hverjum manni, er þeir fengi. Ok þá er
+þessi orðsending kom til þeira bræðra, kennast þeir
+við skjótt, skilja, at nú mundi honum þykkja mjök
+vænligt um, at nú mundi þeir fá sigr. Nú safna þeir
+liði um alla Danmörk ok Gautland ok öll þau ríki,
+er þeira völd váru yfir, ok draga óvígan her saman
+ok hafa almenning úti. Þá halda þeir skipum sínum til
+Englands bæði nótt ok dag ok vildu nú sem sízt láta
+fara njósn fyrir þeim. Nú er sjá hersaga sögð Ellu konungi.
+Nú safnar hann sér liði ok fær lítit, fyrir því at
+Ívarr hafði mikit lið undan honum dregit. Nú ferr
+Ívarr í mót Ellu konungi ok segir, at hann mundi
+enda þat, er hann hafði svarit. "En eigi má ek ráða
+tiltekju bræðra minna, en því má ek ráða at finna
+þá ok vita, ef þeir vili stöðva her sinn ok gera eigi
+meira illt en þeir hafa áðr gert." Nú ferr Ívarr á fund
+bræðra sinna ok eggjar þá nú mjök, at þeir skyldi sem
+bezt fram ganga ok sem bráðast láta bardaga verða, --
+"því at konungr hefir miklu minna lið." En þeir svara,
+at eigi mundi hann þurfa at eggja þá ok þeim var it
+sama í hug sem fyrr. Nú ferr Ívarr ok hittir Ellu konung
+ok segir honum, at miklu váru þeir ákafari ok óðari
+en þeir vildi á hans orð hlýða. "Ok þá er ek vilda um
+grið leita yðar í milli, æptu þeir í gegn. Nú mun ek
+enda mína svardaga, at ek mun eigi berjast í móti
+þér, ok mun ek vera kyrr hjá ok mitt lið, en bardagi
+gengr með yðr sem verða má." Nú sjá þeir Ella konungr
+lið þeira bræðra, ok ferr svá geyst, at furða var
+at. Þá mælti Ívarr: "Þat er nú til, Ella konungr, at þú
+fylkir liði þínu, en ek get þess, at þeir veiti þér harða
+atsókn nokkura hríð." En þegar þeira lið hittist, verðr
+bardagi mikill, ok ganga þeir hart fram synir Ragnars
+<pb n="143"/>
+
+í gegnum fylkingar Ellu konungs, ok svá eru þeir
+ákafir, at þeir hyggja at því einu at gera at verkum
+sem mest, ok sú orrosta var bæði löng ok hörð. Ok
+hér lauk svá, at Ella konungr ok lið hans kom á flótta
+ok hann varð handtekinn. Ok þá var Ívarr þar í nánd
+ok mælti, at svá skyldi breyta um líflát hans: "Er nú
+þat ráð," segir hann, "at minnast, hvern dauðdaga
+hann valdi föður várum. Nú skal sá maðr, er oddhagastr
+er, marka örn á baki honum sem inniligast, ok
+þann örn skal rjóða með blóði hans." En sá maðr, er
+kvaddr var til þessarar sýslu, gerir sem Ívarr bauð honum,
+en Ella konungr var mjök sárr, áðr þessi sýslu
+lýkr. Lætr hann nú líf sitt, ok þykkjast þeir nú hefnt
+hafa föður síns, Ragnars. Ívarr segir, at hann vill þeim
+gefa ríki þat, er þeir áttu allir saman, en hann kveðst
+ráða vilja fyrir Englandi.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="18"><p>
+
+Eptir þetta fara þeir Hvítserkr ok Björn heim til
+ríkis síns ok Sigurðr, en Ívarr er eptir ok ræðr Englandi.
+Þaðan frá halda þeir miðr saman liði sínu ok
+herjuðu á ýmsi lönd. En Randalín, móðir þeira, varð
+gömul kona. En Hvítserkr, sonr hennar, hafði herjat
+eitthvert sinn í Austrveg, ok kom svá mikit ofrefli í
+mót honum, at hann mátti eigi rönd við reisa, ok varð
+hann handtekinn. En hann kaus sér þann dauðdaga,
+at bál skyldi gera af mannahöfðum; þar skyldi hann
+brenna, ok svá lét hann líf sitt. Ok er Randalín spyrr
+þetta, þá kvað hún vísu:
+<lg>
+<l>"Sonr beið einn, sás áttak,</l>
+<l>í Austrvegi dauða,</l>
+<pb n="144"/>
+
+<l>Hvítserkr var sá heitinn,</l>
+<l>hvergi gjarn at flýja;</l>
+<l>hitnaði hann af höfðum</l>
+<l>höggvins vals at rómu,</l>
+<l>kaus þann bana þengill</l>
+<l>þróttarsnjallr, áðr felli."</l>
+</lg>
+Ok enn kvað hún:
+<lg>
+<l>"Höfðum létu of hrundit</l>
+<l>hundmörgum gram undir,</l>
+<l>at feigum bör folka</l>
+<l>fingi eldr yfir syngja;</l>
+<l>hvat skyldi beð inn betra</l>
+<l>böðheggr und sik leggja;</l>
+<l>olli, deyr við orðstír</l>
+<l>allvaldr, jöfurr falli."</l>
+</lg>
+En frá Sigurði orm í auga er mikill ættbogi kominn.
+Hans dóttir hét Ragnhildr, móðir Haralds ins hárfagra,
+er fyrstr réð öllum Noregi einn. En Ívarr réð fyrir Englandi
+allt til dauðadags ok varð sóttdauðr. Ok þá er hann
+lá í banasótt, mælti hann, at hann skyldi þangat færa, er
+herskátt væri, ok þess kvaðst hann vænta, at þeir mundi
+eigi sigr fá, er þar kæmi at landinu. Ok er hann andast,
+var svá gert sem hann mælti fyrir, ok var þá í haug lagiðr.
+Ok þat segja margir menn, þá er Haraldr konungr Sigurðarson
+kom til Englands, at hann kæmi þar at, er
+Ívarr var fyrir, ok fellr hann í þeiri för. Ok er Vilhjálmr
+bastarðr kom í land, fór hann til ok braut haug Ívars
+ok sá Ívar ófúinn. Þá lét hann gera bál mikit ok lætr
+Ívar brenna á bálinu, ok eptir þat berst hann til landsins
+ok fær gagn. En frá Birni járnsíðu er komit margt
+manna. Frá honum er komin mikil ætt: Þórðr, er bjó
+at Höfða á Höfðaströnd, mikill höfðingi. En þá er synir
+Ragnars váru allir líflátnir, dreifðist lið þeira á ýmsa
+vega, er þeim hafði fylgt, ok þótti þeim öllum, er verit
+<pb n="145"/>
+
+höfðu með sonum Ragnars, einkis vert um aðra
+höfðingja. Þeir váru tveir menn, er fóru víða um lönd
+at leita, ef þeir fyndi nokkurn höfðingja þann, er þeim
+þætti sér eigi svívirðing í at þjóna, ok fóru þeir eigi
+báðir saman.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="19"><p>
+
+Sá atburðr hefir verit út í löndum, at einn konungr
+átti tvá sonu, ok tók hann sótt ok andaðist, en synir
+hans vilja drekka erfi eptir hann. Þeir bjóða til þessar
+veizlu svá, at allir menn skyldu koma þangat, þeir er
+á þrimr vetrum inum næstum spyrja þetta. Nú spyrst
+þetta víða um lönd. Ok á þessum þrimr vetrum búast
+þeir við þessi veizlu. Ok er þat sumar kemr, er erfi
+skyldi drekka, ok sú stund, er ákveðin var, þá verðr svá
+mikit fjölmenni, at engi vissi dæmi til, hvé mikit var,
+ok váru margar stórar hallir skipaðar ok mörg tjöld úti.
+Ok er leið mjök it fyrsta kveld, kemr maðr einn til hallar
+þessarar. Þessi maðr er mikill, svá at þar var engi
+jafnmikill, ok þat sá á búnaði hans, at hann hafði hjá
+tignum mönnum verit. Ok er hann kemr í höllina,
+gengr hann fyrir þá bræðrna ok kveðr þá ok spyrr, hvar
+þeir vísi honum til sætis. Þeim leizt vel á hann ok báðu
+hann sitja á inn æðra bekk. Hann þurfti tveggja manna
+rúm. Ok þegar hann hafði niðr setzt, var honum borin
+drykkja sem öðrum mönnum, ok ekki horn var svá mikit,
+at eigi drykki hann af í einum drykk, ok þat þóttust allir
+sjá, at honum þótti engis um vert um alla aðra. Svá
+verðr enn, at annarr maðr kemr til þessarar veizlu. Sá
+var heldr meiri en inn fyrri. Þessir menn hafa síða höttu.
+Ok er þessi maðr kemr fyrir hásætit inna ungu konunga,
+<pb n="146"/>
+
+kveðr hann þá listuliga ok biðr þá vísa sér til sætis. Þeir
+mæltu, at þessi maðr skyldi innar sitja á inn æðra bekk.
+Nú gengr hann til sætis síns, ok eru þeir svá miklir í
+rúmi báðir saman, at fimm menn hafa upp risit fyrir
+þeim. En sá, er fyrr kom, er þó minni drykkjumaðr.
+En inn síðari drakk svá skjótt, at hann hellti náliga í sik
+af hverju horni, ok eigi finna menn þó, at hann verði
+drukkinn, ok heldr lætr hann óþokkuliga við sínum
+sessunautum ok snýr baki við þeim. Sá, er fyrri kom,
+bað, at þeir skyldi eiga gaman saman, -- "ok mun ek
+fyrri." Hann stakk við honum hendi ok kvað vísu:
+<lg>
+<l>"Seg frá þegnsköpum þínum,</l>
+<l>þik ráðumst ek spyrja:</l>
+<l>hvar sáttu hrafn á hríslu</l>
+<l>hrolla dreyra fullan?</l>
+<l>Optar þáttu at öðrum,</l>
+<l>í öndvegi fundinn,</l>
+<l>en dreyrug hræ drægir</l>
+<l>í dal fyr valfugla."</l>
+</lg>
+Nú þykkir þeim, er utar sat, til leitat við sik í slíku
+tilkvæði ok kvað vísu í móti:
+<lg>
+<l>"Þegi heimdregi heitinn,</l>
+<l>hvat er þik vesallátan,</l>
+<l>hefir aldrigi unnit,</l>
+<l>er ek mega þrotna;</l>
+<l>feitaðir sverðs né sólar</l>
+<l>sæki-tík at leiki,</l>
+<l>gafta hálu hesti,</l>
+<l>hvat rækir þú, drykkju."</l>
+</lg>
+Nú svarar hinn, er fyrri kom:
+<lg>
+<l>"Hafs létum vér hesta</l>
+<l>hlýr stinn á brim renna,</l>
+<l>meðan á bjartar brynjur</l>
+<l>blóði dreif um síður;</l>
+<pb n="147"/>
+
+<l>ylgr gein, arnar, mönnum,</l>
+<l>eyddist gráðr, of svíra,</l>
+<l>harðmeldr gátum heiðan</l>
+<l>hveðnu, blóði roðna."</l>
+</lg>
+Ok nú kvað sá, er síðar kom:
+<lg>
+<l>"Alls engi sák yðarn,</l>
+<l>þars upp lokinn fundum</l>
+<l>Heita vang fyr hvítum</l>
+<l>hesti máva rastar;</l>
+<l>ok við lasi lúðrar</l>
+<l>fyr landi vér undum</l>
+<l>hallar ríka mollu</l>
+<l>hrafns fyr rauðum stafni."</l>
+</lg>
+Ok enn kvað sá, er fyrr kom:
+<lg>
+<l>"Samira okkr at öldrum</l>
+<l>í öndvegi þræta,</l>
+<l>hvat okkarr hefir unnit</l>
+<l>hvaðarr framar öðrum;</l>
+<l>þú stótt, þars bar bára</l>
+<l>brandahjört at sundi,</l>
+<l>en ek sat, þars rá reiddi</l>
+<l>rauðan stafn til hafnar."</l>
+</lg>
+Nú svarar sá, er síðar kom:
+<lg>
+<l>"Fylgdum Birni báðir</l>
+<l>at brandagný hverjum,</l>
+<l>váru reyndir rekkar,</l>
+<l>en Ragnari stundum;</l>
+<l>vark, þars bragnar börðust,</l>
+<l>á Bolgaralandi</l>
+<l>því bark sár á síðu,</l>
+<l>sit innar meir, granni."</l>
+</lg>
+Enda kenndust þeir þá við of síðir ok váru þar síðan
+at veizlu.
+<pb n="148"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="20"><p>
+
+Ögmundr er maðr nefndr, er kallaðr var Ögmundr
+inn danski. Hann fór eitthvert sinn með fimm skipum
+ok lá við Sámsey í Munarvági. Þá er þat sagt, at matsveinar
+fóru á land at gera mat til, en aðrir menn fóru í skóg
+at skemmta sér, ok þar fundu þeir einn trémann fornan,
+ok var fertugr at hæð ok mosavaxinn, ok sá þó öll deili
+á honum, ok ræddu nú um með sér, hverr blótat mundi
+hafa þetta it mikla goð. Ok þá kveðr trémaðrinn:
+<lg>
+<l>"Þat var fyr löngu,</l>
+<l>er í leið megir</l>
+<l>Hæklings fóru</l>
+<l>hlunnalungum</l>
+<l>fram um salta</l>
+<l>slóð birtinga,</l>
+<l>þá varðk þessa</l>
+<l>þorps ráðandi.</l>
+<l>Ok því settumk</l>
+<l>svarðmerðlingar</l>
+<l>suðr hjá salti,</l>
+<l>synir Loðbrókar;</l>
+<l>þá vark blótinn</l>
+<l>til bana mönnum</l>
+<l>í Sámseyju</l>
+<l>sunnanverðri.</l>
+<l>Þar báðu standa,</l>
+<l>meðan strönd þolir</l>
+<l>mann hjá þyrni</l>
+<l>ok mosa vaxinn;</l>
+<l>nú skýtr á mik</l>
+<l>skýja gráti,</l>
+<l>hlýr hvárki mér</l>
+<l>hold né klæði."</l>
+</lg>
+Ok þetta þótti mönnum undarligt ok sögðu síðan frá
+öðrum mönnum.
+</p></div>
+
+
+
+
+</div></body></text>
+</TEI>

@@ -1,0 +1,737 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Hálfdanar saga Eysteinssonar</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Hálfdanar saga Eysteinssonar</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: HalfdanarEysteinssonar_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="285"/> ÞRÁNDR hefir konungr heitit. Við hann er kenndr Þrándheimr í Noregi. Hann var
+      sonr Sæmings konungs, sonar Óðins, er réð fyrir Hálogalandi. Sæmingr átti Naumu, er Naumudalr
+      er við kenndr. Þrándr var mikill höfðingi. Hans kona hét Dagmær, systir Svanhvítar, er
+      Hrómundr Gripsson átti. Þeira sonr hét Eysteinn, en annarr Eirekr inn víðförli, er fann
+      Ódáinsakr. Hans móðir er ekki nefnd. Eysteinn giftist ok fekk dóttur Sigurðar hjartar, er Ása
+      hét. Hennar móðir var Áslaug, dóttir Sigurðar orms í auga. Eysteinn fekk með henni Finnmörk ok
+      Valdres, Þótn ok Haðaland. Hann var ríkr ok stjórnsamr. Þau áttu son, er Hálfdan hét. Hann var
+      ok stjórnsamr ok stilltr vel ok fríðr sýnum ok vandist snemma við allar íþróttir, þær sem
+      karlmann máttu fríða ok betra var at hafa en missa. Hann var vinfastr ok trúlyndr ok
+      vinavandr, gleðimaðr mikill, svá at alla gleði mátti við hann eiga, en ef honum mislíkaði, þá
+      var hann þunglyndr ok langrækr, en eigi mjök bráðskapaðr. Hann óx upp með föður sínum, <pb
+       n="286"/> þar til hann var fimmtán vetra gamall. Þá tók móðir hans sótt ok andaðist. Þótti
+      konungi þat mikill skaði ok öllum öðrum, ok var hennar útferð gerð sæmiliga. Konungr undi lítt
+      í ríki sínu þaðan í frá, ok fór hann í hernað hvert sumar. Maðr er nefndr Svipr. Hann var ríkr
+      bóndi ok meðallagi vinsæll. Hann átti þrjá sonu. Einn hét Úlfkell ok var kallaðr snillingr.
+      Hann var mikill ójafnaðarmaðr ok eigi mjök vitr. Hann var í hernaði með Eysteini konungi ok
+      hafði fimm skip sinna vegna. Konungr helt mikit af honum. Annarr sonr Svips hét Úlfarr. Hann
+      var ráðgjafi konungs. Hann var vinsæll maðr ok trúlyndr, ok þótti hann alls staðar bæta til
+      bæði fyrir konungi ok öðrum. Úlfr hét inn yngsti sonr Svips. Hann var kallaðr Úlfr inn illi.
+      Hann herjaði um Eystrasalt ok um Bjarmaland. Hann hafði mikla ræningjasveit ok var
+      allóvinsæll. Eitt sumar herjaði Eysteinn konungr í Austrveginn. Úlfkell snillingr var þá með
+      honum ok Hálfdan, sonr konungs. Þeir höfðu þrjá tigi skipa vel skipuð, en Úlfarr, bróðir
+      Úlfkels, hafði vald yfir ríki Eysteins konungs, meðan hann var í hernaðinum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Í þenna tíma réð fyrir Aldeigjuborg konungr sá, sem Hergeirr hét. Hann var við aldr.
+      Ísgerðr hét kona hans. Hún var dóttir Hlöðvis konungs af Gautlandi. Bræðr hennar váru þeir
+      Sigmundr, er var stafnbúi Haralds konungs ins hárfagra, ok Oddr skrauti, faðir Gull-Þóris, er
+      getr í Landnámabók á Íslandi. Þau áttu eina dóttur, er Ingigerðr hét. Hún var allra meyja
+      fríðust ok svá <pb n="287"/> stór vexti sem karlmaðr. Flestir hlutir váru henni vel gefnir.
+      Hún var at fóstri með jarli þeim, er Skúli hét. Hann réð fyrir Álaborg ok jarlsríki því, sem
+      þar lá til. Hann var sagðr bróðir Heimis, fóstra Brynhildar Buðladóttur, er getr í sögu
+      Ragnars konungs loðbrókar. Skúli var kappi mikill ok manna vitrastr. Kolr hét maðr. Hann var
+      þræll Skúla. Hann var mikill maðr ok svá sterkr, at hann hafði tólf karla afl, til hvers sem
+      hann gekk. Þat mátti kalla, at hann hefði mest ráð með jarlinum. Hann var honum dyggr. Dóttur
+      átti hann sér. Sú hét Ingigerðr ok var allra meyja fríðust ok mjök lík Ingigerði konungsdóttur
+      bæði á vöxt ok yfirlit, en eigi var náttúra þeira lík, því at Ingigerðr konungsdóttir var vel
+      siðuð, en nafna hennar var in mesta fála, en þó var hún vel mennt, því at konungsdóttir hafði
+      kennt henni hannyrðir, ok var hún iðuliga í skemmu hennar. Skúli jarl unni mikit fóstru sinni.
+      Eigi var Skúli kvángaðr. Íþróttamaðr var hann svá mikill, at engi maðr komast til jafns við
+      hann. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Eysteinn konungr er nú kominn fyrir Aldeigjuborg með her sinn. Hergeirr konungr var
+      fáliðaðr fyrir. Eysteinn konungr gekk at borginni með liði sínu. Hergeirr konungr varði vel ok
+      drengiliga, en þó var hann eigi við bardaga búinn, ok urðu þær málalyktir, at Hergeirr konungr
+      fell ok mestr hluti liðs hans. En þegar konungr var fallinn, bauð Eysteinn konungr grið öllum
+      þeim, sem eptir váru. Gafst þá upp bardaginn, ok gengu þeir til griða, sem eptir váru. Lét
+      konungr <pb n="288"/> þá hreinsa borgina. Síðan lét hann leiða drottningu fyrir sik, en hún
+      var í hörðu skapi. Konungr horfði á hana um stund ok mælti síðan: "Várkunn er þat," sagði
+      hann, "at þér liggi í miklu rúmi þau tíðendi, sem hér hafa orðit öll saman, en bætr liggja til
+      alls, ok vil ek nú vera þér í bónda stað, ok er eigi vanfenginn maðr á mót honum, því at hann
+      var gamall." "Engi lýti váru honum at elli sinni," sagði drottning, "en þat uggir mik, hvárt
+      ek verð þeim trú, sem hann hefir drepit." "Nú er um tvá kosti," sagði konungr, "sá annarr, at
+      ek mun taka þik frillutaki, ok helzt þat slíka stund sem auðit verðr; hinn annarr, at þú gifzt
+      mér ok gef ríkit allt í mitt vald, ok skal ek gera þinn sóma mikinn, ok óttumst ek eigi, at
+      svik þín muni mér at bana verða, þá ek skal deyja." Drottning mælti: "Þat mun sannast it
+      fornkveðna, at hörð verða óyndisórræðin, ok mun ek þann kjósa at eiga þik." Konungr segir sér
+      þat nær skapi. Síðan var þetta mál til lykta snúit, ok tókust þessi ráð, ok er allt seinna en
+      segir. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> En þessu næst kallar konungr saman alla sína menn. Hann mælti þá til Úlfkels snillings ok
+      Hálfdanar, sonar síns: "Svá er mál með vexti," sagði hann, "at Skúli jarl ræðr fyrir norðr í
+      Álaborg. Þar er á fóstri með honum Ingigerðr, dóttir Hergeirs konungs. Skúli er kappi mikill,
+      ok er oss ván, at hann muni koma á hendr oss með her. Því skulu þit fara austr á mót honum ok
+      leggja landit undir ykkr, en færa mér konungsdóttur, ok ef þit getið unnit landit, þá skal
+      Úlfkell vera þar jarl fyrir drengiliga fylgd, er hann hefir mér <pb n="289"/> fylgt, ok skal
+      ek fá honum sæmiligt kvánfang, en Hálfdan skal eiga Ingigerði, ef honum hugnast þat ráð. Þeir
+      bjuggu nú her sinn Úlfkell ok Hálfdan ok léttu eigi fyrr en þeir koma til Álaborgar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Skúli jarl hafði nú frétt þau tíðendi, sem gerzt höfðu í Aldeigjuborg, ok því safnar hann
+      at sér liði miklu. Ok er liðit var saman komit, tók Skúli sótt mikla. Hafði hann þá sanna
+      frétt af her þeira Úlfkels ok Hálfdanar. Hann mælti þá við Kol: "Þat vil ek," sagði Skúli, "at
+      þú gerist höfðingi fyrir liðinu. Tak þú upp merki mitt ok klæði, ok skal ek fá þér jarldóm, ok
+      skal ek gifta þér Ingigerði, fóstru mína, ef þú fær sigr." Kolr kveðst þess albúinn. Sagði
+      Skúli nú fyrir mönnum, hversu breyta skyldu. Hugðu liðsmenn eigi annat en Skúli mundi þat
+      vera, sem Kolr var. Hann ferr nú með liðit á móti þeim Hálfdani ok Úlfkatli. Skúli jarl lá í
+      þorpi einu, ok var honum nú heldr í aptrbata. Ingigerðr konungsdóttir kallar nöfnu sína,
+      Ingigerði Kolsdóttur, til sín ok mælti til hennar: "Ek vil, at þú takir við trúnaði mínum,"
+      sagði hún, "ok látir engan vita, meðan þú lifir. Þú skalt taka við klæðum mínum, því at vit
+      erum mjök líkar. Skaltu kallast dóttir Hergeirs konungs, en ek taka við þínum klæðum ok fara á
+      flótta með öðrum ambáttum, ok skaltu þenna trúnað aldri láta uppi, á meðan vit lifum báðar. En
+      ef þeir sigrast, sem til eru komnir, þá mun Hálfdan konungsson biðja þín, ok ertu þá fullgift,
+      en elligar Úlfkell, ok er þá góðr, hvárr sem upp kemr." Hún kveðst þetta gjarna vilja, ok fór
+      þetta fram. <pb n="290"/> Nú koma þeir Hálfdan ok Úlfkell at með sinn her. Kolr lætr lúka upp
+      borginni ok gengr ut með allan sinn her. Tekst þar bardagi, ok stendr hann með mikilli
+      mannhættu. Kolr var bæði sterkr ok stórhöggr, ok hugðu allir þar Skúla jarl vera, ok gekk hann
+      í gegnum fylkingar þeira. Herbjörn hét frændi Skúla jarls. Hann hafði fylking í mót Hálfdani,
+      ok váru þeira skipti allhraustlig, en svá lauk með þeim, at Herbjörn fell. Brast þá flótti í
+      liði þeira. Hálfdan rak flóttann allt til skógar. Nú er at segja frá viðskiptum þeira Úlfkels
+      ok Kols. Hafði Kolr þá drepit margan mann. Snæúlfr hét merkismaðr Úlfkells. Hann bar djarfliga
+      fram merkit ok barðist drengiliga. Þeir mættust nú Kolr ok Úlfkell, ok váru þeira viðskipti
+      allhraustlig, ok börðust þeir svá lengi, at engi skakkaði með þeim, ok hjuggust af þeim allar
+      hlífar. Kolr hjó þá mikit högg til Úlfkels. Þat kom á hjálminn utarliga ok tók af þat, er nam,
+      ok var þat fjórðungrinn ok þar með eyrat it vinstra, ok var höggit svá mikit, at Úlfkell fell;
+      en Snæúlfr kom þá at ok hjó til Kols, ok kom á andlitit ok tók af nefit ok báðar varrirnar ok
+      hökuna, ok fellu tennrnar niðr í gras. Kolr stóð eigi kyrr, þó at hann hefði fengit sárit. Hjó
+      hann til Snæúlfs á hálsinn, svá at af tók höfuðit. Úlfkell var þá á fætr kominn ok lagði til
+      Kols fyrir brjóstit, svá at út gekk um herðarnar. Fell hann þá dauðr niðr. Brast þá flótti í
+      lið þeira. Úlfkell rak flóttann, en Hálfdan sneri aptr. Hann sér, hvar tveir menn gengu. Þat
+      var karl ok kerling. Menn höfðu mál af þeim, ok spurðu þau, hversu bardaginn hefði gengit, en
+      þeir sögðu af it ljósasta, ok síðan skildu þeir. Karl var svá stirðr, at hann lá á herðum
+      kerlingu, ok drögnuðu þau svá til skógar. Hálfdan spurði menn sína, við hvern þeir hefði
+      talat, en þeir <pb n="291"/> kváðu þat stafkarl veslugan. "At fá verðr of vandliga hugat,"
+      sagði hann, "þar er sá karl, er mér er aptrsjá at ok betr væri drepinn." En þeir kváðu þat
+      níðingsverk. Var hann þá kominn í skóginn, ok tjáði þá eigi eptir þeim at leita. Ríðr Hálfdan
+      nú heim til borgarinnar. Var Úlfkell þá kominn í borgina ok gekk at skemmu þeiri, er Ingigerðr
+      var í, ok var hún þá leidd fyrir hann. Hún mælti þá til Úlfkels: "Þú hefir nú unnit sigr
+      mikinn," sagði hún, "drepit höfðingja borgarinnar. Nú ef þér eruð réttir hermenn, þá munu þér
+      eigi níðast á mér eða þeim mönnum öðrum, sem hér eru höfðingjalausir, ok láta mik ná at finna
+      mína móður." Úlfkell sagði, at -- "þat skal satt vera, því at þat, sem vér höfum af gert,
+      skulum vér góðu bæta, bæði þér ok þinni móður, ef þú vilt vera oss trú ok holl, hlýðin ok
+      eptirlát ok þverúðast eigi við oss." "Svá er nú komit mínu máli," sagði hún, "at ek ætla, at
+      metnaðrinn hafi lítit at gera." Þeir hétu henni góðu þar um. Váru þá loknar upp féhirzlur.
+      Tóku þeir gull ok silfr ok þat annat, er þá lysti, en gáfu grið mönnum öllum. Síðan var veittr
+      umbúningr inum dauðum, ok var búit verðuliga um leiði Skúla jarls, er Kolr var reyndar. Lögðu
+      þeir síðan land allt undir sik ok bjuggust síðan móts við Eystein konung, ok var Ingigerðr í
+      ferð með þeim. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Nú fréttir Eysteinn konungr heimkvámu þeira ok hversu mikinn sigr þeir höfðu fengit. Fagnar
+      hann þeim sæmiliga, ok skemmtu þeir honum frá ferðum sínum. Þakkar konungr þeim vel ok spyrr
+      Hálfdan eptir, hversu <pb n="292"/> honum lízt á konungsdóttur, en hann kveðst eigi mjök
+      kvenskyggn, en sagði þó, at hún væri væn kona. Ingigerðr var nú komin í höll drottningar, ok
+      fagnaði hún henni vel, en þó með minni blíðu en margr ætlaði. Þá lét konungr senda eptir þeim
+      mæðgum. En er þær kómu fyrir hann, mælti hann til Ísgerðar drottningar: "Nú er hér komin
+      dóttir þín," sagði hann, "ok vil ek nú með yðru ráði allan sóma gera bæði þér ok henni. Vili
+      Hálfdan mínum ráðum fara fram, þá líkar mér vel, at hann fái hennar, ef hennar vili fellr þar
+      til ok þinn, drottning." "Svá er hún viti borin," sagði drottning, "at hún má vel hafa sjálf
+      svör fyrir sér um slík mál." Þá mælti Hálfdan: "Eigi hefi ek mjök huglagt at kvænast svá búit.
+      Hefi ek ok eigi margar konungadætr sét, en vel þykki mér sá giftr, sem Ingigerði á, ok
+      eggjandi vil ek þess vera, at þér séð gott ráð fyrir henni." Þá mælti Úlfkell: "Lengi hefi ek
+      yðr þjónat, herra, ok vænti ek af yðr góðs, ok þætti mér mikill sómi, ef þér vilduð gifta mér
+      þessa mey. Hefi ek ok nokkut talat við hana áðr, ok hefir hún engi fjartæki haft um þetta
+      mál." Konungr spyrr nú Ingigerði, hversu henni væri um þetta gefit, en hún kvað hann mestu
+      mundu um ráða, ef móðir hennar legði eigi í móti, -- "ok síðan vili þér, konungr, auka nokkur
+      nafnbót við Úlfkel." En konungr spurði drottningu, hversu henni væri um gefit, en hún kvað sér
+      þat bezt líka, at hann sæi fyrir, sem honum líkar. Eptir þetta gifti konungr Úlfkatli
+      Ingigerði ok gaf honum jarlsnafn ok Álaborg til forráða ok þat ríki, sem þar lá til, ok var þá
+      drukkit brullaup þeira. Ok síðan fór Úlfkell til Álaborgar ok tók undir sik ríkit ok gerðist
+      þar höfðingi yfir ok galt konungi skatt, ok <pb n="293"/> fór svá fram lengi, ok tókust upp
+      ástir með þeim Ingigerði. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Eysteinn konungr sitr nú í sínu ríki. Hann unni mikit Ísgerði drottningu. Hún lét sér alla
+      hluti kvenmannliga verða til hans, ok líða svá þrír vetr. Þat bar til eitt sinn, at kaupskip
+      mikit sigldi austan fyrir Bálagarðssíðu í stórviðri. Þat skip hvarf, ok fannst ekki mannsbarn
+      af, ok ætluðu menn, at stórviðri mundi hafa brotit þetta sama skip. En eptir um haustit var
+      þat einn dag, at tveir menn kómu til hirðar Eysteins konungs. Þeir váru miklir vexti, en eigi
+      vel klæddir. Ekki sáu menn gerla í andlitit þeim, því at þeir höfðu síða höttu. Þeir gengu
+      fyrir konung ok kvöddu hann verðuliga, því at hann var optast blíðr í mali. Hann spurði, hvat
+      manna þeir væri. Þeir sögðust báðir Grímar heita ok vera ættaðir utan af Rússía ok hafa misst
+      peninga sína í skipreika. Þeir báðu konung vetrvistar. Konungr spyrr drottning, hvat henni
+      þætti ráð um, en hún sagði, at hann mundi sjálfr slíku ráða, en kvað þó marga ókunna menn
+      misjafnt gefast, -- "er mér þá eigi af at kenna, ef ek legg ekki til." Konungr kvað hana
+      jafnan litlu vilja sér af skipta um ráðagerðirnar, -- "nenni ek eigi at vísa þeim frá mat, at
+      svá eru langt at komnirr." Var þeim nú skipat sæti þar, sem mætast gestir ok hirðmenn. Þeir
+      váru fáskiptnir við menn, en kómu sér við alla vel. Grímr inn ellri var svá stórr vexti, at
+      fáir váru hans líkar. Hann var sterkr ok fimr við alla leika ok var opt at leikum með
+      konungsmönnum á <pb n="294"/> skotbakka ok at knattleikum. Hann fór vel með afli sínu, lék á
+      engan, en var eigi aflvana, ef aðrir leituðu á hann. Grímr inn yngri var mjúkr í öllum leikum,
+      fimr við skot, en prófaði lítt aflraunir, en skaut allra manna bezt af handboga ok lásboga, en
+      tefldi svá vel, at engi komst til jafns við hann. Hálfdan konungsson lagði opt leik sinn við
+      hann, bæði um tafl ok skotfimi, en svá mikinn vörð helt hann á Grímunum, at enga nótt sváfu
+      þeir svá, at hann vekti eigi ok hefði vitund af þeim, ok leið svá fram vetrinn at jólum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Þat var einn dag á jólum, at menn léku knattleik fyrir konunginum. Hann sat á stóli, en
+      drottningin á öðrum. Grímarnir váru at leikunum, ok gat engi leikit til jafns við inn stærra
+      Grím nema Hálfdan konungsson. Aldri höfðu Grímar talat orð við drottninguna á þeim vetri. Einu
+      sinni sló Grímr inn ellri út knettinum, ok átti Grímr yngri at sækja. Knöttrinn rann allt upp
+      undir stól drottningar. Grímr gruflar eptir knettinum, en þá hann réttist upp, talaði hann
+      nokkur orð í eyra drottningunni, en hún brá nokkut lit við. Á móti dagverðardrykkju gafst upp
+      leikrinn. Tóku menn þá til drykkju. Konungr veitti kappsamliga um daginn, ok fell hverr maðr
+      sofinn niðr í sínu sæti, sá sem eigi færði sik sjálfr til sængr. Konungr drakk lengi um
+      kveldit. Drottning sat hjá honum. Konungr spurði hana, hvat Grímr hefði talat við hana, en hún
+      kveðst eigi hafa hent reiður á því. Konungr sagði, at hún vildi flestar sagnir hjá sér geyma
+      ok um fátt sér vísbending <pb n="295"/> gera. Drottning bað hann vera sem varastan um sik.
+      Gekk hún þá burt. Grímar váru þá sofnaðir. Gekk þá konungr at sofa ok Hálfdan, sonr hans, með
+      honum. En er þeir kómu til skemmunnar, var drottning eigi þar. Konungr lagðist niðr í sængina
+      í klæðum sínum ok lagði sverð sitt fyrir framan sik. Herbergissveinarnir drógu upp
+      skriðljósin, en Hálfdan gekk inn í höll, ok lágu Grímar þar ok sváfu. Hálfdan sá, at inn minni
+      Grímr hafði dregit af sinn glófann, ok var höndin ber. Enga mannshönd þóttist hann slíka sét
+      hafa fyrir fegrðar sakir. Þar fylgdi með gull svá vænt, at eigi þóttist hann sét hafa annað
+      slíkt, mest sakir steins þess, sem í því var, ok hann skildi eigi, hverrar náttúru hann var.
+      Hann lokkar nú gullit af fingrinum ok lét í glófann, en síðan bað hann draga upp ljósin, ok
+      settist hann niðr hjá Grímunum. Var þá myrkt it neðra í höllinni. Hann helt á glófanum í hendi
+      sér. Skjótt fell svefn á hann, en vaknaði við þat, at ljósin váru slokkin, en Grímr inn minni
+      vatt upp ljósi fyrir augu honum svá björtu, at hann þoldi eigi á móti sjá, ok greip af honum
+      glófann ok mælti síðan: "Eptir þessari hendi, gulli ok glófa skaltu leita ok þreyja ok aldri
+      náðir fá, fyrr en sá leggr jafnviljugr aptr í þinn lófa, sem nú tók á burtu." En síðan snarar
+      hann ljósinu til þeira dyranna, sem skemmra var til, en hleypr til hinna sjálfr, sem lengra
+      var til, ok þar út. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Hálfdan sprettr nú á fætr ok hleypr til þeira dyranna, sem ljósinu var til snarat, ok váru
+      þær þá læstar. <pb n="296"/> Snýr hann þá til hinna dyranna ok hét á menn þá, sem inni váru,
+      at þeir skuli vakna. Dyrrnar váru læstar, ok varð at brjóta þær upp, áðr en þeir kæmist þar
+      út. Hálfdan vitjar skemmubúrsins, ok var konungr þar dauðr ok lagin sverði í gegnum ok þrír
+      smásveinarnir, en inn fjórði komst upp á þvertréit ok sagði, at Grímr inn meiri hefði þar
+      komit ok drepit konunginn ok þa alla, sem dauðir váru, ok kallaði síðan: "Segið svá Hálfdani,
+      at Vígfúss ok Ófeigr hafi hefnt Hergeirs konungs," -- ok gekk út síðan. Í þessu kom drottning
+      í skemmuna, ok fengu henni þessi tíðendi svá mikils, at hún fell í óvit, ok þótti henni við
+      dauða búit. Var nú yss mikill í borginni, ok fóru menn at leita Grímanna bæði á sjó ok landi,
+      ok fundust þeir hvergi, ok stóð þessi leit mánuð, ok var víða gátum til dreift. Þó dyrglaðist
+      yfir þetta um síðir. Var þat þá flestra manna vili, at Hálfdan væri til konungs tekinn. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Litlu síðar lætr Hálfdan kveðja þings. En er höfðingjarnir váru komnir, lögðu menn til
+      bænarstað, at Hálfdan væri konungr þeira, en hann svaraði svá, at -- "þau tíðendi hafa hér
+      gerzt fyrir litlu, at mér sómir eigi konungsnafn at bera, á meðan svá stendr, því at eigi er
+      ek óðalborinn til ríkis hér. Mun mörgum þykkja mér betr sóma at hefna föður míns ok leita at
+      þeim, sem hann hafa drepit. Þykki mér ráð, at drottning sendi eptir Sigmundi, bróður sínum, at
+      hann komi hverninn sem þá breytum vér, en ek mun burt fara ok eigi aptr koma, fyrr en ek hefi
+      fundit minn föðurbana, <pb n="297"/> hversu sem mér verðr um auðit hefndina." Drottning sagði,
+      at henni þætti hvergi sitt ríki betr komit en hjá honum. En hvat þar er um talat, er þat af
+      ráðit, at Hálfdan býst ór landi með fimm skip ok valdi með sér góða drengi. Sigldi hann fyrst
+      í Austrveginn, ok varð honum bæði gott til fjár ok mannorðs, en aldri lá hann svá vakandi, at
+      væri eigi honum fyrir augum sú fagra hönd ok þat væna gull, sem hann missti í Aldeigjuborg.
+      Látum hann nú sigla alla fimm vetr, sem hann vill. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> Þar tökum vér nú til, sem Úlfkell sitr norðr í Álaborg ok kona Ingigerðr. Þau frétta nú lát
+      Eysteins konungs ok svá, með hverjum hætti þat hafði orðit. Talar Ingigerðr þá við Úlfkel,
+      hvárt hann vill ekki kalla til ríkis eptir Hergeir konung, föður hennar. Hann kveðst þess
+      albúinn. Síðan bjuggu þau ferð sína ok léttu eigi fyrr en þau kómu til Aldeigjuborgar.
+      Sigmundr var þar fyrir með drottningu. Úlfkell kallar til ríkis í hönd þeim drottningu, en hún
+      sagði, at þau hefði nóg ríki, þó at þau ágirntust eigi meira en þau hefði áðr, ok láta þó vel
+      yfir, ef þau heldi því. Sló þá í heitingar með þeim. Fór Úlfkell þá heim ok safnar liði.
+      Sigmundr fór þegar norðr eptir honum, ok fundust þeir þar, sem heitir Krákunes, ok sló þegar í
+      bardaga með þeim, ok lauk svá, at Úlfkell flýði einskipa með konu sína. Sigldi hann þá fyrst
+      norðr í Noreg ok fann þar Úlfar, bróður sinn, ok sagði honum, hversu þeir Sigmundr höfðu
+      skilit, ok öll þau tíðendi, <pb n="298"/> sem gerzt höfðu í Austrveginum, ok bað nú, at hann
+      skyldi gefa upp ríkit í hans vald, ok sagði, at Hálfdan hefði þó meira hans ríki í
+      Austrveginum. Úlfarr bað hann eigi tala svá mikinn ódrengskap við sik, at hann muni gerast
+      drottinssviki, ok bað hann heldr eflast at liði ok sækja með stríði þat ríki, sem hann þættist
+      eiga í Austrveginum, ok kveðst vildu styrkja hann til þess. Úlfkell lét sér þat ekki nægja, ok
+      sló þá í kappmæli með þeim, ok lauk svá deilu þeira, at Úlfkell drap Úlfar, bróður sinn, en
+      lagði landit allt undir sik, ok gerðist hann þar höfðingi yfir, ok þotti öllum þetta it mesta
+      illvirki, ok varð hann af þessu óþokkasæll öllu saman. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="12">
+     <p> Ok sem Úlfkell hefir at sér tekit ríkit, safnar hann at sér liði ok skipum, ok helt hann
+      þeim í Austrveginn. Hann hafði þrjá tigi langskipa ok dreka einn sjautugan at rúmatali. Hann
+      hafði með sér víkinga ok útilegumenn ok hvert illmenni, sem hann kunni at fá. Ívarr böggull
+      hét sá, er stýrði drekanum. Hann var berserkr ok it mesta illmenni. Bróðir hans hét Hrafnkell.
+      Hann var merkismaðr Úlfkels ok var manna sterkastr. Marga hafði hann aðra stóra menn ok sterka
+      með sér. Þeir fóru óspakliga ok herjuðu á hvert land, þar sem þeir kómu, ok tóku ósparliga
+      strandhögg. Þeir váru nu komnir austr fyrir Hlynskóga, þar sem heitir Klyfandanes. Þaðan er
+      ekki langt til Bjarmalands. Þar sigldu á móti þeim tíu skip. Þau váru öll skipuð hraustum
+      drengjum, ok var þar kominn Hálfdan, sonr Eysteins konungs, ok hafði hann frétt allt um ferðir
+      þeira Úlfkels. <pb n="299"/> En þegar þeir þekktust, spurði Hálfdan, hví Úlfkell hefði níðzt á
+      bróður sínum eða tekit ríki sitt. Úlfkell sagði, at þeir hefði meira sitt ríki í Austrveginum,
+      þat sem hann ætti. Hálfdan sagðist enga ván vita þess, at hann stæði til nokkurs góðs ríkis.
+      Síðan brutu þeir upp vápn sín, ok sló þar þegar í bardaga. En með því at liðsmunr var mikill,
+      þá varð skjótt mannfall mikit í liði Hálfdanar. Sviði hét sá maðr, er mest ráð hafði með
+      Hálfdani. Hann var sterkr maðr. Hann sagði fyrir, hversu tengja skyldi skipin, ok lagði hann
+      þeim svá kænliga saman, at Úlfkell kom ekki öllum sínum skipum við, ok lágu sum í skotmáli.
+      Tekst nú harðr bardagi. Ryðst Hálfdan um fast. Sér hann, at þeim mun eigi duga at berjast til
+      mæði. Því ræðr hann til uppgöngu á drekann til Úlfkels ok þeir Sviði báðir. Þar kom fyrstr á
+      móti þeim Ívarr böggull, ok áttust þeir við hart vápnaskipti. Ívarr hjó til Hálfdanar, ok kom
+      á hjálminn utanverðan ok tók af þat, er nam, en þat var kopprinn fyrir ofan höfuðit, ok rakaði
+      um höfuðit á Hálfdani. Hann hjó á móti til Ívars ok af honum höndina við öxl uppi ok sundr
+      merkisstöngina. Sviði drap stafnbúa Úlfkels, er Egill hét. Þá lagði Ulfkell til Hálfdanar, ok
+      kom á hann óvaran í gegnum skjöldinn ok brynjuna ok renndi út undir höndina. Fekk hann sár á
+      síðunni, ok brotnuðu í honum þrjú rifin. Sviði lagði til Ívars bögguls, ok kom í augat, ok var
+      þat hans bani. Hálfdan hjó til Úlfkels, en hann snerist undan á hæli, en sverðit kom í
+      þiljurnar, ok tók af Úlfkatli ina stærstu tána á inum hægra fæti. Úlfkell lagði þá með kesju
+      til Hálfdanar. Hann stökk upp yfir vindásinn. Kesja kom í lokugatit. Hálfdan hljóp á skaptit
+      ok braut í sundr. Sviði hjó þá til Úlfkels um þverar herðarnar, ok var þat högg <pb n="300"/>
+      svá mikit, at Úlfkell fell á bæði kné. Þá kom steinshögg fyrir brjóst Sviða, svá at hann hraut
+      út af drekanum ok kom í bát, er flaut með borðinu. Í þessu sló Hrafnkell til Hálfdanar með
+      kylfu svá mikit högg, at hann fauk útbyrðis. Sviði var nær staddr ok greip bátshakann ok
+      krækir Hálfdan upp ór kafinu. Hafði Hálfdan þá fengit sex sár ok var þá óvígr ok í óviti. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="13">
+     <p> Nú urðu mörg tíðendi senn. Þá sáu menn, at renndu fram fyrir nesit hálfr þriði tugr skipa.
+      Þau váru öll stór ok herklæddir menn á öllum. Maðr stóð við siglu mikill vexti á einu skipinu
+      ok silkitreyju ermalausri, vel brynjaðr. Hann spurði, hverir hér ætti svá ójafnan leik. Sviði
+      sagði til it sanna ok svá, hvar þá var komit. "Mun Hálfdan vilja þiggja lið af oss?" Sviði
+      spurði, hvat manna hann væri. Hinn kvað hann þat engu varða. Sviði kveðst gjarna lið vilja
+      þiggja af þeim. Tókst þá bardagi í annat sinn ok er nú ákafari en fyrr. Menn Úlfkels váru mjök
+      sárir. Inn mikli maðr á drekanum lagði at drekanum Úlfkels, en Sviði lagði at inum smærum
+      skipunum, ok ruddust þau snart. Sneri nú mannfallinu í lið Úlfkels. Inn mikli maðr réð til
+      uppgöngu á drekann. Úlfkell kom fyrst á móti honum, ok váru þeira viðskipti hörð ok löng. Inn
+      mikli maðr hjó mikit högg til hans ok klauf fyrir honum allan skjöldinn, ok kom sverðit á
+      fótinn ok tók af þrjár tærnar utanfótar. Úlfkell hjó á móti, ok kom í hjálminn, ok stökk
+      sverðit í sundr undir hjöltunum. Sá Úlfkell þá engan sinn kost annan en forða lífinu. Stökk
+      hann þá í þat skip, sem næst honum var, ok flýði. <pb n="301"/> Hrafnkell skaut tveimr kesjum
+      senn at inum mikla manni, en hann tók báðar á lopti ok skaut aptr ok hafði mann fyrir hvárri.
+      Síðan lagði hann með atgeir til Hrafnkels í gegnum skjöldinn ok báða handleggina ok vá hann
+      upp ok kastaði honum út á sjóinn. Síðan ganga þeir svá hart at mönnum Úlfkels, at þeir urðu
+      því fegnastir at biðja griða. Þeim var veitt þat, sem báðu, en eigi vildi inn mikli maðr hafa
+      þeira þjónustu, ok var þeim sleppt fatlausum á land upp. Úlfkell flýði undan einskipa ok kona
+      hans með honum, en hinir tóku skip öll ok herfang, en þeir, sem eptir lifðu af mönnum
+      Hálfdanar, gengu á vald ins mikla manns. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="14">
+     <p> Inn mikli maðr kom þar at, sem Hálfdan lá ok flakti í sundr af sárum. Hann mælti til Sviða:
+      "Svá lízt mér á sár Hálfdanar, at þau mætti græða, ef þau tekr góðr læknir, en eigi ætla ek
+      honum henta hræringar eða sjóferðir, ok því mun ek senda hann á land upp til vinar míns, er
+      Hriflingr heitir. Kona hans heitir Arghyrna. Þau eru læknar góðir, en eiga ómegð mikla ok lifa
+      við handbjörg sína, ok er slíkt kölluð hriflingabjörg. Nú mun Hálfdani ekki lífs auðit, ef þau
+      geta ekki at gert, ok mun hann þá koma til okkar." Hann fekk nú til trúnaðarmenn sína at
+      flytja Hálfdan á land upp ok fekk þeim hundrað marka silfrs ok bað segja þeim karli, at þau
+      legði slíkan hug á at græða hann sem sjálfan sik, ef hann kæmi til þeira, ok þau skulu segja
+      honum fulla vissu, hvert hann ætti þess at vitja, sem hann hafði látit græða. Fara þeir nú ok
+      finna karl ok kerlingu ok segja þeim þat, þeim var <pb n="302"/> boðit, ok færðu þeim féit, en
+      þau sögðu bæði, at þetta væri þeim full skylda. Fóru sendimenn í burtu, en þau hjón tóku til
+      at græða hann, ok var þat torsótt, því at sár hans váru mjök sollin, ok lá hann átján vikur í
+      sárum ok varð þó græddr at heilu, en tólf mánaði varð hann þar at vera, áðr en hann fekk aptr
+      sinn styrk, ok þótti honum sá tími langr, því at honum kom jafnan í hug in fagra hönd ok þat
+      gull ok glófi, sem hann hafði misst. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="15">
+     <p> Tökum vér nú þar til, sem Úlfkell snillingr flýði ór bardaganum. Hann komst til lands við
+      fimmtánda mann, en missti allt sitt lið annat. Hann helt nú spurnum til, hvar Úlfr, bróðir
+      hans, mundi vera, ok spyrst honum svá til, at hann sé á Bjarmalandi. Fór hann nú á hans fund.
+      Hárekr hét sá konungr, er þar réð fyrir. Dóttir hans hét Eðný. Úlfr hafði beðit hennar, en
+      konungr vildi eigi gifta hana. Þá herjaði Úlfr á landi hans. Nú at þeir bræðr fundust, bera
+      þeir ráð sín saman, at þeir skulu fara á fund Háreks konungs. Þeir höfðu sex tigi skipa. En er
+      þeir kómu í hafnir þær, er lágu fyrir konungs höllinni, þá fór Úlfkell snillingr á fund
+      konungs ok kveðr hann sæmiliga. Konungr spurði, hvat manna hann væri. Hann sagði til it sanna.
+      Konungr spurði, hverr stýrði þeim inum mikla her, sem þar var kominn, en Úlfkell sagði, at
+      honum stýrði Úlfr inn illi, -- "en vit erum bræðr. Fór ek því á yðvarn fund, at vit viljum
+      bjóðast til at vera yðrir menn. Ef þú vilt gifta Úlfi dóttur þína, þá vil ek leggja til með
+      Álaborg ok Aldeigjuborg ok öll þau <pb n="303"/> ríki, sem þar fylgja, því at þat er mín eign.
+      Væntir mik, at yðr verði mikill styrkr at okkr bræðrum, en mörgum mun þykkja þröngt fyrir
+      dyrum, ef vér skulum illt þreyta." Konungr bað hann fresta til umráða við menn sína. Úlfkell
+      veitti þat. Konungr spurði dóttur sína, hvat hún leggr til, en hún sagði, at henni þætti
+      mikill vandi um hernað þeira bræðra, -- "en ef víst væri ríkit, þá þætti mér ásjávert," en
+      kveðst einskis ills synja fyrir þá, ef þeim væri synjat, ok urðu þær endalyktir, at Úlfr fekk
+      Eðnýjar, ok tóku þeir bræðr landvörn fyrir Bjarmalandi. Úlfkell helt spurningum til, hverr sá
+      mundi vera, at barizt hefði við hann, þá þeir Hálfdan áttust við, en Hárekr konungr sagði
+      honum, at sá hét Grímr, -- "ok ræðr fyrir austr í Kirjálabotnum ok hefir brotizt þar til
+      ríkis, ok vita menn eigi, hvaðan hann er ættaðr. Honum fylgir fóstrdóttir hans, svá fögr mær,
+      at menn hafa eigi spurn af annarri jafnvænni." "Þar er sá maðr," sagði Úlfkell, "at ek vildi á
+      hefnileið róa, ef kostr væri, ok vilda ek þar til hafa hjálp ok styrk af yðr." Konungr mælti:
+      "Þat má oss vel saman koma, því at þar er sú mær, at ek ætla mér at biðja." Þeir sögðu báðir,
+      at þeir vildu honum þar til standa, ok sögðu, at þeim þótti þat vel stofnat, ok staðfesta með
+      sér, at þeir skulu þangat fara, þegar sumar kemr, ok eigi fyrr í burtu en Grímr væri í helju,
+      en konungr hefði fengit jungfrúna. Sátu þeir nú um kyrrt. En er váraði, bjuggu þeir skip sín.
+      Þeir höfðu ógrynni hers. Með þeim váru tveir konungar finnskir. Hét annarr Fiðr, en annarr
+      Flóki. Þeir váru galdramenn. Fara þeir nú þangat til, at þeir koma austr í Kirjálabotna ok
+      fundu Grím. Þurfti þar eigi at sökum at spyrja. Buðu þeir Grími þegar bardaga eða <pb n="304"
+      /> hitt, at hann gæfist upp í þeira vald ok gæfi konungi ríkit allt ok fóstrdóttur sína. Grímr
+      sagði, at þeim skyldi meira fyrir verða, -- "á konungr þessi engar sakir við oss, en þú,
+      Úlfkell, munt fara verri för en fyrr." Sofa þeir í náðum um nóttina, en um morgun gekk Grímr
+      út af kastalanum með öllu sínu liði, ok tókst þar in snarpasta orrosta, ok helzt sá bardagi
+      til kvelds. Hafði Grímr misst þá margan mann. Fór hann þá aptr í kastalann, en at morgni dags
+      tóku þeir til bardaga, ok var þá engi vápnfærr maðr eptir í kastalanum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="16">
+     <p> Nú er þar til máls at taka, sem Hálfdan konungsson er, at hann er nú gróinn sára sinna ok
+      hefir fengit allan sinn styrk. Kemr hann nú at máli við þau karl ok kerlingu ok sagði, at sik
+      lysti í burtu þaðan, ok spyrr eptir, hvat manna þat mundi vera, er hann hefði þangat sent til
+      lækningar, eða hverjum hann mundi lífgjöf eiga at launa. Hriflingr svarar: "Með því at ek
+      treysti þér til drengskapar, þá má ek gera þér ávísun um, hvar hann er. Grímr heitir maðr, er
+      ræðr fyrir austr í Kirjálabotnum. Hann er kappi mikill. Hann sendi þik hingat til mín. Mættir
+      þú nú launa honum lífgjöfina, því at honum er nú þörf góðra drengja. Þar er nú kominn Hárekr
+      konungr af Bjarmalandi, Úlfr inn illi ok Úlfkell snillingr ok vill hefna þeirar svívirðingar,
+      er hann fekk í yðrum viðskiptum. Eru þeir nú á veg komnir með her sinn, ok er mér sagt, at
+      Hárekr konungr vili fá fóstrdóttur Gríms, er Ingigerðr heitir ok er allra meyja fríðust." "Vel
+      segir þú, fóstri minn," sagði Hálfdan, "en þó er þat annat, at mér þykkir eigi minna á liggja,
+      at <pb n="305"/> þú segðir mér, hverr drepit hefði föður minn." "Glöggt má ek þér þat segja,"
+      sagði karl, "sá maðr heitir Skúli, ok ef ek skal þér satt segja ok eigi ljúga at þér, þá er
+      þetta sá inn sami Grímr, sem þér hefir líf gefit, ok er nú mikit undir drengskap þínum, er þit
+      finnizt. En svá mikill kappi er Skúli, at fullskipat er hverjum manni, sem einvígi á við hann.
+      "Kanntu nokkut at segja mér veg, þann skemmstr er," sagði Hálfdan, "því at þangat vildi ek
+      koma sem skjótast?" "Torsóttir er hér flestir vegir," sagði Hriflingr, "en á skipum má ekki
+      fara skemmr en fimm vikur, ok er þat in mesta mannhætta fyrir sakir víkinga ok hermanna.
+      Annarr vegr liggr it eystra, ok er þar þó at fara fjöll ok eyðimerkr, ok er þat langr vegr ok
+      torsóttr ok óvíst, at fram komist. In þriðja leið er skemmst, ef hún tekst vel, því at hana má
+      fara á þrem vikum, en margt er þar til tálmanar: Fyrst er skógr tuttugu rasta langr, er heitir
+      Kolsskógr. Þar liggr spellvirki sá, er Kolr heitir, ok dóttir hans, er Gullkúla heitir. Engum
+      er þeim lífs at vænta, er þau finnr. Annarr skógr er þaðan skammt, er heitir Klifskógr,
+      fjögurra rasta ok tuttugu. Þar er spellvirki sá, er Hallgeirr heitir. Með honum er einn
+      villigöltr, verri viðreignar en tólf karlar. Þar næst kemr á þann skóg, er kallaðr er
+      Kálfárskógr, sextán rasta ok tuttugu. Þar fæst eigi til matar utan ber ok safi. Er þar sá
+      spellvirki, er Selr heitir, ok með honum einn hundr stórr sem naut. Hann hefir manns vit ok er
+      betri til vígs en tólf karlar. En er þú kemr af skóginum, fellr lögr austan af Kjölunum. Engi
+      veit, hvar hann sprettr upp. Þat er þeira einna manna sund, sem bezt eru syndir, at leggjast
+      yfir löginn, en þaðan er eigi langt til kastala þess, sem Skúli ræðr fyrir. Bæri þér ekki til
+      dvala, þá væri nær <pb n="306"/> hæfi, at þú kæmir þar, þá bardaginn ætti at vera." Hálfdan
+      bað hann búa ferð sína. At morgni dags býr Hálfdan ferð sína. Gekk hann til kerlingar ok bað
+      hana vel lifa. Kerling mælti mörgum fögrum orðum yfir honum. Tók hún þá undan höfðalagi sínu
+      tötrabagga. Þar tók hún ór sax. Þat var fínt sem spegill. Sýndist honum eitr drjúpa ór eggjum
+      þess. Hún sagði honum, at sá mundi jafnan sigr hafa, sem þat bæri, ok þat mundi eigi í höggvi
+      staðar nema, ef vel er til höggvit. Hún tók eitt steinasörvi ok batt um háls honum ok bað hann
+      þess, at þat skyldi eigi ór stað hrærast. Síðan kyssti hann kerlingu. Karl gekk á veg með
+      honum ok sagði honum, hvert hann skyldi stefna. Hann gaf honum skikkjurakka sinn ok bað hann
+      þar eptir fara, sem hann færi undan, ok fara aldri þá götu, sem hann vildi eigi fara, ok kvað
+      hann kunna at forðast byggðir þeira illvirkjanna. Hálfdan kvað ekki spellvirkja verða sér at
+      bana, -- "en ef þér verðr féfátt, þá vitja þú til skálanna, því at ek mun ekki með mér bera,
+      þó at ek gæta kleimt einhvern þeira." Síðan skildu þeir karl, ok bað hvárr vel fyrir öðrum.
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="17">
+     <p> Hálfdan snýr nú á skóginn, ok er hann hafði gengit tvá daga, þá sá hann einn leynistíg.
+      Hundrinn vildi stíginn, en Hálfdan gekk fram brautina, þangat til at hann fann skála. Þar var
+      hnigin hurð á klofa. Hálfdan hratt henni upp, en í því hann gekk inn, þá var Gullkúla þar
+      fyrir, dóttir Kols, ok hjó á háls honum með bitrligri skálm, en þar var undir steinasörvi
+      kerlingar ok brast við hátt, en skálmin stökk í sundr. Hálfdan <pb n="307"/> greip hana upp ok
+      rak hana niðr fall mikit ok greip síðan í annan fótinn á henni ok reif hana sundr at endilöngu
+      ok kastar henni síðan út fyrir dyrr. Kolr kom heim á móti dagsetri, ok er hann laut í dyrrnar,
+      þá setti Hálfdan saxit á hálsinn, ok var þat hans bani. En um nóttina, þá er Hálfdan var í
+      svefni, kómu þau inn bæði, Kolr ok dóttir hans, ok sóttu þau bæði at Hálfdani. Hundrinn hljóp
+      upp ok reif Gullkúlu á náranum ok rakti ór henni þarmana. Hálfdan hljóp undir skálabúann, ok
+      glímdu þeir lengi, en svá lauk, at Hálfdan felldi hann ok braut hann á háls. Síðan tók hann
+      eld ok brenndi þau upp bæði. Þar var hann tvær nætr. Síðan fór hann á burtu ok létti eigi fyrr
+      en hann kom á Klifskóg. Þar fann hann skála stóran, ok var hurðin svá þung, at hann varð alls
+      máttar at kosta, áðr hún gekk upp. Hann sá þar rúm eitt. Þat hafði tvær álnir yfir hans lengd.
+      Ból sá hann þar svá mikit sem báss væri. Þá var sýnt húmat. Hann heyrði út gný mikinn, ok
+      heyrði hann, at göltrinn grenjaði ok lét ófrýnliga. Gekk Hálfdan þá út ór skálanum. Hundrinn
+      hljóp gnöllrandi at geltinum, en göltrinn snerist undan. Hálfdan hjó eptir honum ok ór honum
+      rófuna. Göltrinn snerist aptr ok stakk trýninu á millum fóta Hálfdanar ok vatt honum á lopt,
+      svá at honum varð laust saxit, en þó kom hann standandi niðr. Skálabúi kom þá at ok sló til
+      Hálfdanar með gaddakylfu, en hann snerist undan höggvinu ok gat eigi nát saxinu. Hann greip í
+      fótinn á geltinum ok kippti honum at sér. Höggit kom á millum hlusta geltinum, ok brotnaði
+      haussinn í honum. Hálfdan reif fótinn undan geltinum ok rak hann við eyra spellvirkjanum, svá
+      at hann fell á kné. Hálfdan hljóp þá at honum ok hratt hann um koll. Hann greip þá til
+      Hálfdanar, ok sviptust þeir fast, ok urðu ýmsir undir. Þá hljóp at <pb n="308"/> rakkinn
+      karlsnautr ok beit í nefit á skálabúa ok reif af honum nasirnar. Þá gat Hálfdan nát saxinu ok
+      hjó af skálabúa höfuðit ok brenndi hann síðan upp at báli. Var hann þá stirðr ok móðr. Þar
+      dvelst hann um nóttina. Síðan kom hann at Kálfárskóg ok kemr at skála Sels. Hurð var hnigin á
+      miðjan klofa. Hann hljóp á hurðina þrisvar, áðr en upp gekk. Hann settist í rúm skálabúa. Hann
+      hafði eikarkefli í hendi ok tálgaði hvasst í báða endana ok sveið í eldinum. Hann sá út um
+      dyrrnar, hvar skálabúi ferr, ok hljóp hundrinn fram undan. Hundrinn Hálfdanar brá við þegar ok
+      hljóp upp á þvertréit. Hálfdan gekk út á móti bóndanum, en þegar hundrinn sá hann, hljóp hann
+      á mót honum með gapanda ginit ok lætr allólmliga. Hálfdan rak höndina inn í kjaptinn á honum
+      ok snýr keflinu, svá at annarr endinn horfir upp í góminn, en annarr niðr, ok kom hann ekki
+      saman kjaptinum. Selr kom at í þessu ok hafði bjarndýr á herðunum, en hvalkálf fyrir sér. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="18">
+     <p> Selr kastar niðr byrðinni, en lagði bjarnsviðu til Hálfdanar. Hann hjó á móti með saxinu ok
+      sundr sviðuskaptit ok af honum alla fingrna á annarri hendi. Selr greip upp stein ok snarar at
+      Hálfdani. Hann skauzt undan ok varð svá nær Sel, at hann greip í tönnina, er fram stóð ór
+      múlastykkinu á honum. Hann brá svá hart við, at ór honum gekk tönnin. Hálfdan laust henni á
+      nasir Sel ok braut í honum nefit ok allan tanngarðinn, ok var þursinn þá engum líkr nema
+      sjálfum sér. Greip hann þá til Hálfdanar ok kreisti svá fast at síðum hans, <pb n="309"/> at
+      blóð fell út um eyru hans ok nasir. Hálfdan lék þá Sel hælkrók, ok fell hann á bak aptr. Tönn
+      hans kom á steinasörvit, ok brotnaði einn steinninn. Hálfdan gat nú hvergi hrært sik. Rakkinn
+      karlsnautr hljóp þá framan í nasirnar á Sel ok klóraði ór honum bæði augun. Þá varð Hálfdan
+      lauss, ok hjó hann höfuð af Sel ok kastar honum svá út á móðuna, er þar fell nær. Hann gekk nú
+      at hundinum ok mælti til hans: "Aldri skal þetta kefli ór þínum kjapti ganga, nema þú sér mér
+      jafnhollr sem þú varst áðr Sel." Hundrinn skreið at honum ok sneri upp á sér maganum. Hálfdan
+      tók þá keflit ór kjapti honum. Hundrinn varð svá feginn, at vatn rann ofan eptir trýninu á
+      honum. Hálfdan fekk sér mat ok fór síðan at sofa, en um morguninn bjóst hann í burtu ok fór
+      þangat til, at hann kom at leginum. Hundrinn Selsnautr rann fram með vatninu, þar til at hann
+      fann eina mosahrúgu. Hann krafsar sundr hrúguna, ok var þar í bátr. Hálfdan tók hann ok fór
+      yfir löginn ok gekk eptir þat þann dag til kvelds. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="19">
+     <p> At morgni dags sá Hálfdan kastalann, þann sem honum var til vísat. Þenna morgin var Skúli
+      jarl farinn til bardaga á móti Háreki konungi ok þeim bræðrum, ok var þat langt í burt frá
+      kastalanum. Hann hafði lið miklu minna. Kastalinn var eyddr af vígum mönnum, en konur stóðu í
+      vígskörðum, þá Hálfdan kom þar. Hann sá þar eina jungfrú, þá sem honum fannst mikit um. Hún
+      gekk ofan at portinu ok heilsaði Hálfdani með nafni. Hann tók vel kveðju hennar. Hún mælti þá
+      til hans: "Mál mun þér þykkja at sjá glófann ok gullit, þat <pb n="310"/> sem þú misstir í
+      Aldeigjuborg." "Muntu mega þvívalda?" sagði Hálfdan. "Miklu muntu mega um þat ráða," sagði
+      hún. "Fóstri minn er nú í bardaga, ok væri honum nú liðs þörf ok góðrar hjástöðu, ok munda ek
+      flest til þess vinna, at hann fengi sigr." "Ekki á ek gott at launa fóstra þínum," sagði
+      Hálfdan, "en ef þú vilt handsala mér trú þína, þá mun ek fara til bardagans með fóstra þínum."
+      Hún kastar þá út til hans glófanum ok bað hann hafa þat í festarpeninginn, -- "en gullit mun
+      bíða hjá mér, þangað til vit vinnumst næst, en aldri verðr kastalinn af mönnum unninn, þó at
+      ekki sé til varnar í honum nema konur." </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="20">
+     <p> Hálfdan fór nú til bardagans, ok var þá mikit mannfall. Sviði bar merki Skúla jarls ok gekk
+      fram svá hraustliga, at hann drap merkismann Háreks konungs, er Krabbi hét. Hálfdan var eigi
+      ístöðulauss. Hann réð þar fyrst at, sem fyrir var Flóki Finnakonungr. Konungrinn skaut af boga
+      þrim örum senn, ok var maðr fyrir hverri. Hálfdan réðst á móti honum ok hjó með saxinu á
+      bogann, svá at hann brotnaði, ok tók höndina af Flóka, ok flaug hún í lopt upp. Konungr rétti
+      stúfinn upp á móti, ok kom höndin þar niðr á ok var þá heil. Þetta sá Fiðr Finnakonungr, ok
+      varð hann at hrosshval ok hljóp upp á þá, sem börðust á móti honum, ok urðu undir honum
+      fimmtán menn ok fengu allir bana. Hundrinn Selsnautr hljóp at honum ok reif hann í sundr með
+      tönnunum, en hvalrinn sló í sundr kjaptinum. Hundrinn karlsnautr hljóp inn í kjaptinn ok alla
+      götu niðr í kviðinn ok reif hann innan ok sleit ór <pb n="311"/> honum hjartat, hljóp út síðan
+      ok fell þegar dauðr niðr. Hálfdan reiðir nú saxit ok hjó til Flóka í öðru sinni, en hann blés
+      á móti, svá at saxit fauk ór hendi Hálfdani ok kom fjarri niðr. Flóki hjó til Hálfdanar, ok
+      kom í steinasörvit, ok brotnaði skálmin, en Hálfdan fekk sár á hálsinum, þar sem steinninn var
+      ór brotnaðr, en misst hefði hann höfuðit, ef eigi hefði steinasörvit borgit honum. Hálfdan
+      greip til Flóka ok rak hann niðr fall mikit. Í því kom at Úlfkell snillingr, ok átti Hálfdan
+      þá við mörgu at sjá. Hundrinn kom þá at ok reif allt andlitit af Flóka, en Flóki hryggspennti
+      hundinn ok braut í honum hvert bein, ok lágu þeir þá báðir dauðir. Hálfdan sá þá ekki sitt
+      færi annat en hljóp á Úlfkel ok greip af honum sverðit ok sló því flötu um nasir honum ok bað
+      hann verja sik, ok þá gat Hálfdan nát saxinu. Gengu þeir þá saman ok börðust, ok lauk svá með
+      þeim, at Úlfkell snillingr fekk bana. Skúli jarl hafði þá drepit Úlf inn illa. Þá kom at
+      Hárekr Bjarmakonungr ok sótti at honum, ok áttust þeir við hart vápnaskipti. Hárekr hjó til
+      Skúla ok af honum allan skjöldinn, ok fekk hann sár á fingrna ok ekki mikit. Skúli hjó í móti
+      ok af konungi eyrat ok vangafilluna svá at berir skinu við jaxlarnir. Þá varð Hárekr at
+      flugdreka ok sló Skúla með sporðinum, svá at hann lá í óviti. Þá kom at sá kappi, er Grubs
+      hét, ok hjó fót undan drekanum, en drekinn krækir annarri klónni til Grubs ok reif hann á hol
+      á náranum. Þá kom at Hálfdan ok hjó til drekans á hálsinn, ok var þat hans bani. Brast þá
+      flótti í liðinu, ok flýðu víkingar til skipa ok kómust undan á þremr skipum. Þat skip, sem
+      Ingigerðr, dóttir Kols, var á, hljóp á sker, ok drukknaði hvert mannsbarn, sem á var. Hálfdan
+      snýr nú þangat, sem bardaginn hafði verit, ok var þar miklu herfangi at skipta. <pb n="312"/>
+      Ekki fundu þeir Skúla jarl ok fara svá heim til kastalans. Váru nú bundin sár manna ok fluttr
+      heim fjáraflinn. Ingigerðr fagnar þeim vel. Ok er þrjár nætr váru liðnar, kvaddi hún þings, ok
+      kómu þar allir þeir, sem í kastalanum váru. Ingigerðr kom ok á þingit. Hún settist á kné
+      Hálfdanar ok gaf sik ok alla sína eigu honum í vald ok fekk honum gullit, þat sem fyrr var frá
+      sagt. "Sátt eru vit nú, Ingigerðr," sagði Hálfdan, "ef þú segir mér, hvat þú mæltir við móður
+      þína, áðr en faðir minn var drepinn." "Ek bað, at hún skyldi láta opna skemmuna um nóttina, ok
+      vil ek þat nú allt bæta, sem þér þykkir at um þetta ok allt annat, en þó munu hér í heldrum
+      lögum hvárirtveggju hafa nokkut til síns máls." </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="21">
+     <p> Þessu næst sáu þeir, hvar maðr gekk, ok kenndu menn þar Skúla jarl. Hann var herklæddr vel.
+      Hann gekk fyrir Hálfdan ok tók af sér hjálminn ok mælti: "Nú er svá komit, Hálfdan, at ek vil
+      bjóða þér sættir ok sjálfdæmi fyrir þá hluti, sem ek hefi af brotit við þik. Hér með vil ek
+      bjóða þér fóstbræðralag ok gefa þér þar með Ingigerði, fóstru mína, en ef þú vilt ekki þenna
+      kost, þá mun ek ekki hætta til fleiri funda við þik, ok mun þá hvárr fara með sínu máli sem
+      kann." "Ekki mun þat duga," sagði Hálfdan, "renna ok aptr at sjá. Munda ek ekki frá mörgum
+      tíðendum sagt hafa, þá vér Úlfkell snillingr áttumst við, ef þú hefðir þá eigi sýnt mér
+      drengskap." "Aptr hefir þú nú hann launat," sagði Skúli. Þá lagði Ingigerðr til, at þeir væri
+      sáttir, ok var þat þá auðsótt, ok þótti flestum mönnum <pb n="313"/> þar hvárumtveggja fara
+      drengiliga, ok urðu menn fegnir sætt þeira. Var nú síðan skipt herfangi, ok var þat svá mikit
+      fé, at nú var sá margr fullríkr, sem fyrr hafði verit fátækr. Hálfdan lét þá búast við
+      brullaupi sínu, ok á meðan þat var gert, lét Hálfdan sækja fé sitt, þat sem spellvirkjarnir
+      höfðu, ok var þat svá mikit fé, at fimmtán stór skip váru hlaðin af allra handa gersemum. Hann
+      lét ok sækja Hrifling karl ok allt hans hýski ok gerði hann fullríkan. Hálfdan helt nú
+      brullaupit sitt ok bauð til öllum höfðingjum. Hafði Skúli jarl forsögn hér fyrir, ok fór
+      veizlan sæmiliga fram. Váru allir menn með sæmiligum gjöfum út leystir, ok varð Hálfdan af
+      þessu vinsæll, svá at allir vildu honum þjóna. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="22">
+     <p> Þessu næst hafði Hálfdan þing við landsmenn ok lýsti því, at herför skyldi vera til
+      Bjarmalands innan mánaðar. Menn tóku vel undir þat, ok bjuggust allir af skyndingi ok kómu til
+      Bjarmalands, ok var Skúli jarl þar í ferð. Var þar ekki mikil móttaka. Lögðust þeir land allt
+      undir sik. Eðnýju, dóttur Háreks konungs, tók Hálfdan á sitt vald. Grundi hét sonr Háreks
+      konungs. Hann var þá þrévetr. Hann var á fóstri með Bjartmari jarli, syni Raknars konungs, er
+      gera lét Raknarsslóðann. Hann gerðist Hálfdani handgenginn. Eptir þetta bjóst Hálfdan á burt
+      þaðan ok heim til Aldeigjuborgar. Hafði hann þá í burt verit fimm vetr. Urðu menn honum þar
+      fegnir. Drottning tók vel við dóttur sinni ok þakkaði bæði Hálfdani ok Skúla jarli, hversu vel
+      þeir höfðu til hennar gert. <pb n="314"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="23">
+     <p> Sigmundr Hlöðvisson hafði þá landvörn fyrir Garðariki, bróðir Ísgerðar drottningar. Hann
+      kom til móts við Hálfdan með miklu fjölmenni, ok var honum vel fagnat. Þá lét Hálfdan þings
+      kveðja. Hann tók svá til máls: "Nú hefi ek hér verit í Austrveginum sextán vetr, ok var þat
+      hvárttveggja, at vér kómum hér harðliga inn, enda fengum vér hér mikinn mannskaða, ok hafa hér
+      ýmsir aðra af baki riðit, ok munu vér þat nú at léttu leggja, ef vér skulum vinskap saman
+      eiga. Nú viti þér, at sá orðrómr hefir hér á leikit, at Úlfkell snillingr hafi átt Ingigerði,
+      dóttur Hergeirs konungs, en þau eru nú dauð Úlfkell ok hans kona. Því vil ek nú vita sannendi
+      þessa máls af Ísgerði drottningu ok Sigmundi, bróður hennar, ok Skúla jarli, fóstbróður mínum,
+      hvárt þessi Ingigerðr, er ek hefi hingat flutt, er dóttir Kols eða Hergeirs konungs, því at ek
+      hefða ætlat mér betra kvánfang, ef kostr hefði verit, en eiga dóttur Kols." Þá svarar Ísgerðr
+      drottning: "Þó at vér höfum lengi harðliga saman keypt, þá vil ek þik í engu pretta, Hálfdan,
+      því at þú hefir valit þér inn bezta hlut af várum viðskiptum. Því segi ek þér, at þessi
+      Ingigerðr er mín dóttir ok Hergeirs konungs, sem þú hefir hingat fært, ok hún ein er erfingi
+      réttr til þessa lands, ok því lýsi ek hér, at ek gef mik ok mína dóttur ok þetta ríki Hálfdani
+      til fullrar eignar, ok bæti svá hvárir sinn skaða, en gjarna vilda ek vita, at Skúli jarl
+      hefði sæmiliga kosti, þá sem honum vel líkaði." <pb n="315"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="24">
+     <p> Skúli jarl hefr nú upp sína sögu ok sagði frá því, at hann setti Kol höfðingja fyrir liðit
+      ok hverninn þær nöfnur breyttu ok at þau Ingigerðr hefðu verit sá karl ok kerling, sem flýðu
+      undan Hálfdani við Álaborg ok hann vildi nát hafa; segir nú sik ok sitt ríki í valdi
+      Hálfdanar. Hálfdan mælti þá: "Nú er svá komit, at lönd þessi öll lúta undir mik. Því vil ek nú
+      birta yðr, hversu ek vil vera láta: Ek vil gefa Skúla jarli Ísgerði drottning ok þat ríki, sem
+      hún á hér í Garðaríki. Ek hefi nú í mínu valdi Bjarmaland ok Eðnýju, dóttur Háreks konungs.
+      Þat ríki vil ek gefa Sigmundi ok meyna þar með, ef þat er þeim báðum viljugt." Sigmundr lét
+      sér þetta vel líka, ef meyjan vill því samþykkjast, en Eðný lézt eigi framar bónorðs sér
+      vænta, -- "ok mun mér þetta vel líka." Hálfdan sagðist mundu vitja þess ríkis, sem hann átti í
+      Noregi, -- "ok mun þat hverjum heppnast sem hann til borinn er." Fór þetta nú fram, at þessi
+      brullaup váru drukkin með mjök miklu prís, ok at þeim enduðum fóru höfðingjarnir hverr til
+      síns heima, en Hálfdan sat þar um vetrinn, ok váru góðar ástir með þeim Ingigerði. Sviða inn
+      sókndjarfa sendu þeir austr í Kirjálabotna, ok skyldi hann vera þar höfðingi yfir ok hafa þat
+      ríki af Skúla jarli. En um várit, þegar ísa leysti, safnar Hálfdan at sér bæði skipum ok
+      mönnum, ok bjuggust þeir Sigmundr til Bjarmalands ok Skúli jarl, ok tókst þeim sú ferð vel, ok
+      lá landit laust í þeira valdi, ok gerðist Sigmundr þar höfðingi yfir, en var þó með Hálfdani.
+      Skúli jarl fór heim í Álaborg, ok unnust þau Ísgerðr drottning mikit. <pb n="316"/> Þeira sonr
+      var Hreggviðr, faðir Ingigerðar, er Göngu-Hrólfr átti. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="25">
+     <p> Þat er nú at segja af Hálfdani, at hann býst til Noregs, ok fór Sigmundr með honum ok Oddr
+      skrauti, bróðir hans. Þeir höfðu frítt lið, ok er Hálfdan kom í Noreg, fögnuðu frændr hans
+      honum vel, ok var hann til konungs tekinn yfir Þrándheim ok öll þau ríki, er Eysteinn konungr,
+      faðir hans, hafði átt, ok var hann mikill vinsældamaðr af sínum undirmönnum. Þau Ingigerðr
+      áttu tvá sonu. Hét annarr Þórir hjörtr, en annarr Eysteinn glumra. Oddr skrauti gerðist
+      landvarnarmaðr Hálfdanar ok var inn mesti hreystimaðr. Hann fór til Íslands í elli sinni, ok
+      er þar mikil ætt frá honum komin. Þessu næst kómu austan af Bjarmalandi menn Sigmundar ok
+      sögðu, at víkingar herjuðu á Bjarmaland ok Nógarða. Þeir höfðu drepit Sviða inn sókndjarfa ok
+      lagt undir sik Kirjálabotna ok mikit af Rússlandi. En er þeir fréttu þetta Hálfdan ok
+      Sigmundr, söfnuðu þeir liði ok fóru austr til Bjarmalands. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="26">
+     <p> Í þenna tíma réð sá konungr fyrir Gestrekalandi ok öllum ríkjum fyrir austan Kjöl, er
+      Agnarr hét. Hann átti Hildigunnu, systur Háreks heitins Bjarmakonungs. Þau áttu tvá sonu. Hét
+      annarr Raknarr, en annarr Valr. Þeir váru víkingar ok lágu úti í Dumbshafi ok <pb n="317"/>
+      herjuðu á jötna. Raknarr átti skip þat, sem Raknarsslóði var kallaðr. Þat var tírætt at
+      rúmatali. Þat hefir verit mest langskip gert í Noregi annat en Ormrinn langi. Þat var skipat
+      allra handa illmönnum. Þar váru fimmtán skækjusynir í hverju hálfrúmi. Raknarr lagði undir sik
+      Hellulands óbyggðir ok eyddi þar öllum jötnum. Valr, bróðir hans, lá í Dumbshafi, ok er mikil
+      saga af honum. Þeir bræðr þóttust rétt komnir til Bjarmalands eptir Hárek, móðurbróður sinn.
+      Valr átti tvá sonu. Hét annarr Köttr, en annarr Kisi. Þeir váru stórir menn ok sterkir. Valr
+      hafði drepit Sviða ok lagt undir sik Kirjálabotna. Hann hafði fengit svá mikit gull, at þess
+      kunni engi markatal, ok tók hann þat af Svaða jötni, er bjó í fjalli því, sem Blesanergr
+      heitir. Þat er fyrir norðan Dumbshaf. Svaði var sonr Ása-Þórs. Valr átti sverð þat, sem
+      Hornhjalti hét. Þat var mjök gulli búit ok nam aldri í höggvi stað. Þeir Hálfdan ok Sigmundr
+      koma nú austr til Bjarmalands ok halda fréttum til, hvar Valr er, ok fundu hann fyrir norðan
+      Gandvík, ok sló þar þegar í bardaga. Tveir menn eru nefndir með Sigmundi. Hét annarr Haukr, en
+      annarr Gaukr. Þeir váru stafnbúar á skipi hans. Agnarr, sonr Raknars, lagði skipi sínu á mót
+      Hálfdani, ok váru þeira viðskipti allhraustlig. Þeir Haukr ok Gaukr léku lausir við ok lögðu
+      at þeim skipum, sem yzt váru, ok hruðu þau öll. Valr hljóp upp á skip til Sigmundar ok þeir
+      Köttr ok Kisi með honum, ok ruddust um fast. Valr hjó til Sigmundar ok klauf fyrir honum allan
+      skjöldinn. Sverðit kom á fótinn utarliga ok tók af tvær tærnar. Sigmundr hjó á móti. Valr
+      hafði gylldan hjálm, ok kom sverðit í hann ok stökk í sundr hjöltunum. Valr var þá búinn til
+      höggs ok stóð keikr. Sigmundr hljóp á hann ok hratt <pb n="318"/> honum á bak aptr út yfir
+      borðit, ok fór hann niðr til grunna. En er hann kom upp ór kafinu, drógu menn hans hann upp í
+      eitt skip. Þeir hrukku nú ofan af skipinu Köttr ok Kisi. En er þeir kómu í sitt skip, þá lagði
+      at þeim Oddr skrauti ok Gaukr ok Haukr, ok varð þar hörð sókn með þeim. En með því at Valr var
+      upp gefinn, þá flýðu þeir einskipa, en Oddr lagði eptir þeim ok elti þá til lands, þar sem á
+      mikil fell af björgum ofan ok fram í sjó. Valr var í ferð með þeim. Hann greip upp gullkistur
+      tvær. Þær váru svá þungar, at tveir menn höfðu nóg at bera þær. Oddr hljóp eptir honum, en er
+      þeir kómu at fossinum, steypti Valr sér ofan í hann, ok skildi svá með þeim. Þá kómu þeir at
+      Köttr ok Kisi, Gaukr ok Haukr, ok sem þeir kómu at fossinum, þá greip Köttr Hauk, en Kisi
+      Gauk, ok steyptust með þá ofan í fossinn ok drápu þá báða. Hellir stórr var undir fossinum, ok
+      köfuðu þeir feðgar þangat ok lögðust á gullit ok urðu at flugdrekum ok höfðu hjálma á höfðum,
+      en sverð undir bægslum, ok lágu þeir þar, til þess at Gull-Þórir vann fossinn. Sneri Oddr þá
+      aptr einn saman. Þeir Hálfdan ok Sigmundr höfðu þá drepit alla víkinga, en Agnarr flýði
+      einskipa. Hann kom til Hálogalands ok var inn mesti spellvirki. Hann dró saman fé mikit, ok at
+      síðustu gerði hann sér haug mikinn ok gekk þar í kvikr, sem faðir hans hafði gert, með alla
+      skipshöfn sína ok trylldist á fénu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="27">
+     <p> Þeir Hálfdan ok Sigmundr fóru nú heim til Bjarmalands, ok settist Sigmundr þar at ríki
+      sínu, en Hálfdan <pb n="319"/> fór til Noregs, ok er mikil saga frá honum. Hann varð ellidauðr
+      ok svá Ingigerðr drottning, ok er margt stórmenni frá þeim komit í Noregi ok Orkneyjum. Ok
+      lúkum vér þar þessi frásögu, ok sitið í frið. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

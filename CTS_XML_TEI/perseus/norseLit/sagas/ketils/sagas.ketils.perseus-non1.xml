@@ -1,0 +1,673 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title> Ketils saga hængs</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title> Ketils saga hængs</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Ketils_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="245"/> HALLBJÖRN hét maðr. Hann var kallaðr hálftröll. Hann var sonr Úlfs ins óarga.
+      Hann bjó í eyjunni Hrafnistu. Hún liggr fyrir Raumsdal. Hann var ríkr maðr ok mjök fyrir þeim
+      bændunum norðr þangat. Hann var kvángaðr maðr ok átti þann son, er Ketill hét. Hann var mikill
+      vexti ok karlmannligr maðr ok ekki vænn. En þegar Ketill var nokkurra vetra gamall, lagðist
+      hann í eldahús. Þat þótti þá röskum mönnum athlægi, er svá gerði. Þat var vandi Ketils, þá
+      hann sat við eld, at hann hafði aðra hönd í höfði sér, en með annarri skaraði hann í eldinn
+      fyrir kné sér. Hallbjörn bað hann eigi hafa hönd í höfði sér ok sagði, at þá mundi batna með
+      þeim. Ketill svarar engu. Hann hvarf í burtu nokkuru síðar ok var í burtu þrjár nætr. Þá kom
+      hann heim ok hafði stól á baki sér. Hann var vel gerr. Hann gaf hann móður sinni ok kveðst
+      henni meiri ást eiga at launa en föður sínum. <pb n="246"/> Þat var einn tíma um sumarit,
+      veðrdag góðan, at Hallbjörn lét aka heyi, ok lá mikit undir. Hallbjörn gekk þá í eldaskálann
+      til Ketils ok mælti: "Nú væri ráð, frændi, at duga vel ok aka heyi í dag, því at allir eru í
+      önn nýtir." Ketill spratt þá upp ok gekk út. Hallbjörn fekk honum tvá eyki ok eina konu til
+      verks. Ekr hann nú heyi til garðs ok gengr at svá röskliga, at átta urðu undan at hlaða um
+      síðir, ok þóttust þó allir nóg hafa at gera. En er kveld kom, var borgit öllu heyinu, enda
+      váru þá sprungnir báðir eykirnir. Hallbjörn mælti þá: "Nú þykki mér ráð, frændi, at þú takir
+      við fjárvarðveizlu, því at þú ert nú ungr ok upprennandi ok til alls vel færr, en ek gerumst
+      gamall ok stirðr ok til einkis meir." Ketill kvaðst eigi þat vilja. Hallbjörn gaf honum þá öxi
+      eina harðla stóra ok mjök bitrliga ok furðu gott vápn. Hann mælti: "Einn er sá hlutr, frændi,
+      at ek vara þik mest við, at þegar degi er sett, vil ek, at þú sért lítt úti, ok þó allra
+      helzt, at þú gangir eigi norðr á eyna frá bænum." Margt glósaði Hallbjörn þá fyrir Katli, syni
+      sínum. Björn er maðr nefndr. Hann bjó skammt þaðan. Hann hafði þat jafnan lagt í vanda at dára
+      Ketil ok kallaði hann Ketil Hrafnistufífl. Björn reri jafnan á sjó til fiska. Þat var einn
+      dag, at hann var róinn, at Ketill tók einn fiskibát ok vað ok öngul ok reri ut á mið ok sat
+      til fiska. Þar var Björn fyrir. Ok er þeir sáu Ketil, hlógu þeir mjök ok dáruðu hann fast.
+      Gekk Björn enn mest fyrir þessu, sem hann var vanr. Þeir fiskuðu vel, en Ketill dró eina
+      löngu, heldr kostilla, en ekki fleira fiska. En er þeir Björn höfðu hlaðit, kipptu þeir upp
+      veiðarfærum sínum ok bjuggust heim, ok svá gerði Ketill. Þeir hlógu þá at honum. Ketill mælti
+      þá: "Nu vil ek leggja af við yðr alla mína veiði, ok <pb n="247"/> skal sá yðar eiga, sem
+      fyrst náir." Hann þrífr þá upp lönguna ok sendi á skip þeira. Langan kom við eyrat Birni bónda
+      svá hart, at haussinn lamdist, en Björn hraut útbyrðis ok þegar í kaf ok kom aldri upp síðan.
+      Þá reru hinir at landi ok svá hvárirtveggju. Fátt gaf Hallbjörn sér at þessu. Eitt kveld eptir
+      dagsetr tók Ketill öxi sína í hönd sér ok gekk norðr á eyna. En er hann var kominn eigi
+      allskammt í burt frá bænum, sér hann dreka einn fljúga at sér norðan ór björgunum. Hann hafði
+      lykkju ok sporð sem ormr, en vængi sem dreki. Eldr þótti honum brenna ór augum hans ok gini.
+      Eigi þóttist Ketill slíkan fisk sét hafa eða nokkura óvætti aðra, því at hann vildi heldr eiga
+      at verjast fjölda manna. Dreki sjá sótti at honum, en Ketill varðist með öxinni vel ok
+      karlmannliga. Svá gekk lengi, allt þar til at Ketill gat höggvit á lykkjuna ok þar í sundr
+      drekann. Datt hann þá niðr dauðr. Síðan gekk Ketill heim, ok var faðir hans úti í túni ok
+      heilsar vel syni sínum ok spurði, hvárt hann hefði við nokkura glettivætti varr orðit norðr á
+      eynni. Ketill svarar: "Ekki kann ek at færa í frásagnir, hvar ek sé fiska renna, en satt var
+      þat, at sundr hjó ek einn hæng í miðju, hverr sem hrygnuna veiðir frá." Hallbjörn svarar:
+      "Lítils mun þér síðar vert þykkja um smáhluti, er þú telr slík kvikvendi með smáfiskum. Mun ek
+      nú auka nafn þitt ok kalla þik Ketil hæng." Settust þeir nú um kyrrt. Eldsætinn var Ketill
+      mjök. Hallbjörn sótti mjök veiðiskap, ok beiddist Ketill at fara með honum. En Hallbjörn kvað
+      honum makara at sitja við elda en vera í sjóförum. En er Hallbjörn kom til skips, var Ketill
+      þar fyrir, ok kunni Hallbjörn þá eigi at reka hann aptr. Gekk Hallbjörn þá fyrir framstafn á
+      ferjunni, en <pb n="248"/> bað Ketil ganga fyrir skut ok setja á. Ketill gerði svá, ok gekk
+      hvergi. Hallbjörn mælti: "Ólíkr ertu frændum þínum, ok seint ætla ek, at afl verði í þér. En
+      ek var vanr, áðr en ek eltumst, at setja einn ferjuna." Ketill reiddist þá ok hratt fram
+      ferjunni svá hart, at Hallbjörn hraut fallinn út á fjörugrjótit, en ferjan stöðvaðist ekki
+      fyrri en út á sjó. Hallbjörn mælti þá: "Lítt lætr þú mik njóta frændsemi frá þér, er þú vilt
+      brjóta bein í mér, en þat vil ek nú tala, at ek ætla, at þú sért nógu sterkr, því at ek vilda
+      nú reyna afl þitt, ok stóð ek við sem ek gat fastast, en þú settir fram sem áðr. Þykki mér góð
+      sonareign í þér." Fara þeir nú í veiðistöð. Hallbjörn gætti skála, en Ketill reri á sjó. Hann
+      komst við stór föng. Þá reru at honum tveir menn allvígligir. Þeir báðu hann láta laus föngin.
+      En Ketill neitar því ok spurði þá at nafni. Annarr kveðst heita Hængr, en annarr Hrafn, ok
+      vera bræðr. Þeir sóttu at honum, en Ketill varðist með kylfu ok sló Hæng fyrir borð ok drap
+      hann svá, en Hrafn reri á burt. Ketill fór heim til skála síns, ok gekk faðir hans á mót honum
+      ok spurði, hvárt hann hefði nokkut fundit manna um daginn. Ketill kveðst fundit hafa bræðr
+      tvá, Hæng ok Hrafn. Hallbjörn mælti: "Hversu fóru skipti yður? En gerla veit ek deili á þeim.
+      Þeir eru hraustir menn ok eru útlægir ór byggðinni fyrir óspektir sínar." Ketill kveðst hafa
+      drepit Hæng fyrir borð, en Hrafn hefði flúit. Hallbjörn mælti: "Gjarn ertu, frændi, á
+      stórfiskana, ok því er þó vel til fundit um nafn þitt." Annan dag fóru þeir heim með föng sín.
+      Þá var Ketill ellefu vetra, ok batnaði nú frændsemi þeira. <pb n="249"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Þenna tíma var hallæri mikit á Hálogalandi, en bú þeira eru mjök í sjónum. Ketill kveðst þá
+      vilja fara til fiskjar ok vera eigi allr ómagi. Hallbjörn bauð at fara með honum. Ketill
+      kveðst vera vel einfærr með ferjuna. "Þetta er óráðligt," sagði Hallbjörn, "ok viltu einráðr
+      vera. En þrjá fjörðu mun ek nefna fyrir þér. Heitir einn Næstifjörðr, annarr Miðfjörðr, þriði
+      Vitaðsgjafi, ok hefir nú langt verit, síðan ek fór ór þeim tveim, ok var þá eldr í báðum
+      skálum." Þetta sumar fór Ketill í Miðfjörð, ok lifði þar eldr í skála. Inni í fjarðarbotni
+      fann Ketill stóran skála, ok var bóndinn þar ekki heima, er Ketill kom. Mikinn veiðifanga sá
+      hann þar ok grafir stórar í jörð niðr grafnar, ok reif hann allt upp ór þeim ok kastar út hér
+      ok hvar. Hann fann þar í af hvölum ok hvítabjörnum, selum ok rostungum ok alls konar dýrum, en
+      á botninum í hverri gröf fann hann mannakjöt saltat. Allt rak hann þat út, ok spillti hann þar
+      hvívetna. En er kveldaði, heyrir hann áragang mikinn. Gekk hann þá til sjóvar. Bóndi reri þá
+      til lands. Hann hét Surtr. Mikill var hann ok illiligr. Þegar skipit kenndi grunns, sté hann
+      fyrir borð ok tók skipit ok bar upp í naust, ok náliga óð hann jörðina til knjá. Hann var
+      dimmraddaðr ok mæltist við einn saman: "Hér er illa um gengit," sagði hann, "at hrökt er öll
+      eiga mín með þat þó verst farit, sem bezt er, sem eru mannakrof mín. Væri slíkt launa vert.
+      Hefir nú ok eiga hagliga um skipzt, at Hallbjörn, vinr minn, sitr nú kyrr heima, en Ketill
+      hængr, eldhúsfíflit, er nú hér kominn, enda væri mér aldri við of at launa honum. Væri mér
+      næsta <pb n="250"/> skömm í því at bera eigi langt af honum, þar sem hann hefir vaxit upp við
+      eld ok verit kolbítr." Hann snýr heim til skálans, en Ketill undan ok nemr stað at hurðarbaki
+      með reidda öxina. En er Surtr kemr at skálanum, verðr hann at lúta í dyrunum harðla mjök ok
+      rekr fyrst inn höfuðit ok herðarnar. Ketill höggr þá á hálsinn með öxinni. Hún söng hátt við,
+      er hún sneið af honum höfuðit. Fell jötunninn þá dauðr á skálagólfit. Þar hlóð Ketill ferju
+      sína ok fór heim um haustit. Annat sumar fór hann til Vitaðsgjafa. Hallbjörn latti þess ok
+      kvað gott heilum vagni heim at aka. Ketill kvað ekki duga ófreistat, -- "ok mun ek fara,"
+      sagði hann. "Reimt mun þér þar þykkja," sagði Hallbjörn, "en auðsýnt er þat, at þú vilt mínar
+      eldstóar kanna ok við mik jafnast í hvívetna." Ketill kvað hann rétt geta. Síðan fór hann
+      norðr í Vitaðsgjafa ok fann þar skála ok bjóst um. Þar skorti ekki veiðiskap. Mátti þar taka
+      fiska með höndum sér. Ketill festi fangit í naust sitt ok fór síðan at sofa. En um morguninn,
+      er hann kom til, var í burtu allt fangit. Aðra nótt vakti Ketill. Þá sá hann jötun ganga í
+      naustit, ok batt sér byrði mikla. Ketill gekk at honum ok hjó til hans með öxinni á öxlina, ok
+      fell byrðrin ofan. Jötunninn brást við fast, er hann fekk sárit, svá at Katli varð laus öxin,
+      ok stóð hún föst í sárinu. Jötunninn hét Kaldrani. Hann hljóp inn í fjarðarbotninn ok í helli
+      sinn, en Ketill eptir. Þar sátu tröll við eld ok hlógu mjök ok kváðu Kaldrana hafa fengit
+      makliga skript fyrir sinn tilverknað. Kaldrani kvað sárinu meiri þörf smyrsla en ávíta. Þá kom
+      Ketill í hellinn ok kveðst vera læknir ok bað færa sér smyrsl ok kveðst vilja binda sár hans.
+      Tröllin fóru innar í hellinn. En Ketill þreif öxina ór sárinu ok <pb n="251"/> hjó jötuninn
+      banahögg; fór heim síðan til skála síns ok hlóð ferju sína ok fór heim síðan, ok tók Hallbjörn
+      vel við honum ok spurði, ef hann hefði við nokkut varr orðit. Ketill kvað þat fjarri farit
+      hafa. Hallbjörn kvað þá mjök endr rjóða, -- "ok saztu um kyrrt?" sagði hann. "Já," sagði
+      Ketill. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Um haustit fyrir vetrnætr bjó Ketill ferju sína. Hallbjörn spurði, hvat þá skal at hafast.
+      Ketill kveðst ætla í veiðiför. Hallbjörn kvað þat engra manna hátt, -- "ok gerir þú þetta í
+      óleyfi mínu." Ketill fór ekki at síðr. Ok er hann kom norðr á fjörðu, tók hann ofviðri ok
+      sleit undan til hafs, ok náði ekki höfn, ok rak hann at björgum nokkurum norðr fyrir Finnmörk
+      ok lendi þar, er björgin skildust. Bjóst hann nú um ok sofnar. En hann vaknar við þat, at
+      skipit skalf allt. Hann stóð upp ok sá, at tröllkona tók í stafninn ok hristi skipit. Ketill
+      hljóp í bátinn ok tók upp smjörlaupa nokkura ok hjó festina ok reri í burt. Helzt ofviðrit. Þá
+      lagðist hvalr at honum ok skýldi skipinu við veðrinu, ok þótti honum manns augu í honum vera.
+      Ok þá rak hann at skerjum nokkurum, ok braut hann bátinn ok lagðist í sker nokkur, ok sá hann
+      þá ekki nema sorta til lands, ok lagðist hann þangat eptir hvíld sína ok komst at landi ok
+      hitti götu ór fjörunni ok fann bæ. Þar stóð maðr úti fyrir dyrum ok klauf skíð. Hann hét
+      Brúni. Sá tók við honum vel ok kvað visu: <lg>
+       <l>"Heill kom þú, Hængr!</l>
+       <l>Hér skaltu þiggja</l>
+       <l>ok í allan vetr</l>
+       <pb n="252"/>
+
+       <l>með oss vera.</l>
+       <l>Þér mun ek fastna,</l>
+       <l>nema þú fyrir látir,</l>
+       <l>dóttur mína,</l>
+       <l>áðr dagr komi."</l>
+      </lg> Ketill kvað vísu: <lg>
+       <l>"Hér mun ek þiggja!</l>
+       <l>Hygg ek, at valdi</l>
+       <l>Finns fjölkynngi</l>
+       <l>feikna veðri.</l>
+       <l>Ok í allan dag</l>
+       <l>einn jós ek við þrjá.</l>
+       <l>Hvalr kyrrði haf.</l>
+       <l>Hér mun ek þiggja."</l>
+      </lg> Þeir gengu síðan inn. Þar váru fyrir tvær konur. Brúni spurði, hvárt hann vill ligga hjá
+      dóttur hans eða einn saman. Hún hét Hrafnhildr ok var harðla stór vexti ok þó drengilig. Svá
+      er sagt, at hún hafði alnar breitt andlit. Ketill kveðst hjá Hrafnhildi liggja vilja. Síðan
+      fóru þau í rekkju, ok breiddi Brúni á þau uxahúð efsta. Ketill spurði, hvat því skyldi. "Ek
+      hefi hingat boðit Finnum, vinum mínum," sagði Brúni, "ok vil ek eigi, at þit verðið fyrir
+      sjónum þeira. Þeir skulu nú koma til smjörlaupa þinna." Finnar kómu ok váru eigi mjóleitir.
+      Þeir mæltu: "Mannfögnuðr er oss at smjöri þessu." Síðan fóru þeir í burt. En Ketill var þar
+      eptir ok skemmti sér við Hrafnhildi. Hann fór ok jafnan í skotbakka ok nam íþróttir. Stundum
+      fór hann á dýraveiðar með Brúna. Um vetrinn eptir jól fýstist Ketill í burt. En Brúni kvað
+      eigi þat mega fyrir vetrarríki ok illum veðrum, -- "en Gusir Finna konungr liggr úti á
+      mörkum." Um várit bjuggust þeir Brúni ok Ketill til ferðar. Þeir fóru it fremra um fjörðu. Ok
+      er þeir skildu, mælti <pb n="253"/> Brúni: "Far þú þá leið, sem ek vísa þér, en eigi á
+      skóginn." Hann gaf honum skeyti nokkur ok brodd einn ok bað hann hans neyta, ef hann þyrfti, í
+      nauðsyn sína. Síðan skildu þeir, ok fór Brúni heim. Ketill mæltist við einn saman: "Hví mun ek
+      eigi fara ina skemmri leiðina ok hræðast ekki grýlur Brúna?" Síðan sneri hann á skóginn, ok sá
+      hann mjallroku mikla ok at maðr renndi eptir honum ok hafði tvá hreina ok vagn. Ketill kvaddi
+      hann með vísu: <lg>
+       <l>"Skríð þú af kjálka,</l>
+       <l>kyrr þú hreina,</l>
+       <l>seggr síðförull,</l>
+       <l>seg, hvat þú heitir."</l>
+      </lg> Sá svarar: <lg>
+       <l>"Gusi kalla mik</l>
+       <l>göfgir Finnar.</l>
+       <l>Em ek oddviti</l>
+       <l>allrar þjóðar.</l>
+       <l>Hvat er þat manna,</l>
+       <l>er mér í móti ferr</l>
+       <l>ok skríðr sem vargr af viði?</l>
+       <l>Æðru skaltu mæla,</l>
+       <l>ef þú undan kemsk</l>
+       <l>þrysvar í Þrumufirði.</l>
+      </lg> Því tel ek þik ósnjallan." Þeir fundust fyrir Ófara-Þrumu. Ketill kvað vísu: <lg>
+       <l>"Hængr ek heiti,</l>
+       <l>kominn ór Hrafnistu,</l>
+       <l>hefnir Hallbjarnar.</l>
+       <l>Hví skríðr þú svá, inn armi?</l>
+       <l>Friðmálum mæla</l>
+       <l>munkat ek við Finn ragan,</l>
+       <l>heldr mun ek benda boga,</l>
+       <l>þann mér Brúni gaf."</l>
+      </lg>
+      <pb n="254"/> Gusir þóttist nú vita, hverr Hængr sé, því at hann var frægr mjök. Gusir kvað
+      vísu: <lg>
+       <l>"Hverr er á öndrum</l>
+       <l>öndverðan dag,</l>
+       <l>gjarn til gunnar</l>
+       <l>í grimmum hug?</l>
+       <l>Vit skulum freista</l>
+       <l>flein at rjóða</l>
+       <l>hvárr at öðrum,</l>
+       <l>nema hugr bili."</l>
+      </lg> Ketill kvað: <lg>
+       <l>"Hæng kalla mig</l>
+       <l>hálfu nafni.</l>
+       <l>Mun ek veita þér</l>
+       <l>viðnám heðan.</l>
+       <l>Skaltu víst vita,</l>
+       <l>áðr vit skiljum,</l>
+       <l>at búkörlum</l>
+       <l>bíta örvar."</l>
+      </lg> Gusir kvað: <lg>
+       <l>"Bústu nú við</l>
+       <l>bitri eggþrumu.</l>
+       <l>Haf þú hlíf fyrir þér.</l>
+       <l>Hart mun ek skjóta.</l>
+       <l>Þér mun ek bráðla</l>
+       <l>at bana verða,</l>
+       <l>nema þú af auði</l>
+       <l>öllum látir."</l>
+      </lg> Ketill kvað: <lg>
+       <l>"Mun ek af auði</l>
+       <l>eigi láta</l>
+       <l>ok fyrir einum þér</l>
+       <l>aldri renna.</l>
+       <l>Fyrr skal þér höggvin</l>
+       <l>hlíf fyrir brjósti,</l>
+       <l>en fyr sjónum</l>
+       <l>svart at ganga."</l>
+      </lg> Gusir kvað: <lg>
+       <l>"Skaltattu gulli</l>
+       <l>né gersimum</l>
+       <l>með heilum hug</l>
+       <l>heima ráða.</l>
+       <l>Kemr þér bani</l>
+       <l>brátt at höndum,</l>
+       <l>ef vit skulum úti</l>
+       <l>oddum leika."</l>
+      </lg> Ketill kvað: <lg>
+       <l>"Munkat ek gulli</l>
+       <l>við Gusi skipta</l>
+       <l>né heldr fyrri</l>
+       <l>til friðar mæla.</l>
+       <l>Mér er bráðr bani</l>
+       <l>betri miklu</l>
+       <l>en hugleysi</l>
+       <l>ok heðankváma."</l>
+      </lg> Síðan bendu þeir upp boga sína ok lögðu örvar á streng ok skutust í odda, ok fór svá
+      tylft örva hvárs, at niðr fellu. Fleinn einn var þá eptir, er Gusir átti. Broddr Ketils var ok
+      eptir. Þá tók Gusir fleininn, ok sýndist honum hallr, ok steig hann á. Ketill mælti: <lg>
+       <l>"Feigr er nú</l>
+       <l>Finnr inn ragi,</l>
+       <pb n="255"/>
+
+       <l>at hann fóttreðr</l>
+       <l>flein sinn rangan."</l>
+      </lg> Síðan skutust þeir at, ok mættust nú ekki á fluginum, ok fló broddrinn í brjóst Gusi, ok
+      fekk hann bana. Brúni hafði látit Gusi sýnast hallr fleinninn, því at hann var konungdóminum
+      næstr, ef Gusi yrði nokkut, en þóttist áðr vanhaldinn af skiptum þeira. Gusir hafði haft sverð
+      þat, er Drangvendill hét, allra sverða bezt. Ketill tók þat af Gusi dauðum ok örvarnar Flaug,
+      Hremsu ok Fífu. Ketill fór aptr til Brúna ok sagði honum, hvat í hafði gerzt. Brúni kvað sér
+      nærri höggvit, at bróðir hans var drepinn. Ketill kveðst nú hafa unnit undir hann
+      konungdóminn. Síðan fylgdi Brúni honum í byggðina, ok skildust þeir með miklum kærleikum. Eigi
+      er fyrr sagt af ferðum Ketils en hann kom heim til Hrafnistu. Hann hitti bónda einn ok spurði,
+      hvat skip þau skyldu, er fóru til eyjarinnar. Bóndi kvað þat vera boðsmenn, ok ætti at drekka
+      erfi eptir Ketil, ef þá spyrðist ekki til hans. Ketill fór á vándu skipi til eyjarinnar ok
+      gekk inn í skálann, ok urðu menn honum fegnir. Var nú veizlunni snúit í fagnaðaröl í mót
+      Katli. Var hann nú heima þrjá vetr. Þá kom þar skip við eyna, ok var þar á Hrafnhildr
+      Brúnadóttir ok sonr þeira Ketils, er Grímr hét. Ketill bauð þeim þar at vera. Hallbjörn mælti:
+      "Hví býðr þú trölli þessu hér at vera?" Ok var hann mjök byrstr ok styggr við hennar kvámu.
+      Hrafnhildr kvað hvárigum þeira mein mundu at henni vera, -- "ok mun ek burt heðan fara, en
+      Grímr, sonr okkarr, loðinkinni skal eptir vera." Því var hann svá kallaðr, at kinn hans önnur
+      var loðin, ok með því var hann alinn. Þar festi ekki járn á. Ketill bað Hrafnhildi eigi
+      reiðast fyrir þessa sök. Hún kvað <pb n="256"/> þeim lítt mundu undir þykkja reiði hennar.
+      Síðan fór hún heim ok reri norðr með landi, en bað Grím þar vera þrjá vetr ok kveðst þá mundu
+      koma eptir honum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Bárðr hét maðr, góðr bóndi, ok átti dóttur fríða, er Sigríðr hét. Sá þótti þá beztr kostr.
+      Hallbjörn bað Ketil biðja sér konu ok hyggja svá af Hrafnhildi. Ketill kvað sér ekki hug á
+      kvánföngum, ok var hann jafnan hljóðr, síðan þau Hrafnhildr skildu. Ketill kveðst mundu fara
+      norðr með landi. En Hallbjörn sagðist mundu fara bónorðsför fyrir hann, -- "ok er þat illt, at
+      þú vilt elska tröll þat." Síðan fór Hallbjörn bónorðsför til Bárðar. Bóndi kvað Ketil hafa
+      farit meiri ok torveldari ferðir en biðja sér konu. "Vænir þú mik lygi?" sagði Hallbjörn.
+      Bóndi svarar: "Veit ek, at Ketill væri hér kominn, ef honum væri hugr á þessu, en eigi hefi ek
+      traust til né vilja at synja þér konu." Ok keyptu þeir saman, ok var ákveðin brullaupsstefna.
+      Síðan fór Hallbjörn heim. Ketill spurði ekki at tíðendum. Hallbjörn kvað mörgum meiri á vera
+      um ráðahaginn forvitnina en Katli. En Ketill gaf at því engan gaum, en þó gekk fram þessi
+      ráðastofnun, ok var veizlan góð. Ketill fór ekki af klædum ina fyrstu nótt, er þau kómu í eina
+      sæng. Hún fór ekki at því, ok samdist brátt með þeim. Eptir þetta andaðist Hallbjörn, en
+      Ketill tók við búsforráðum, ok var fjölmennt með honum. Ketill átti dóttur við konu sinni, er
+      Hrafnhildr hét. Ok at liðnum þrim vetrum kom Hrafnhildr Brúnadóttir til fundar <pb n="257"/>
+      við Ketil. Hann bauð henni með sér at vera. En hún kveðst ekki þá mundu dveljast. "Þar hefir
+      þú nú gert fyrir um fundi okkra ok samvistir í lauslyndi þinni ok óstaðfestu." Hún gekk þá til
+      skips, mjök döpr ok þrungin, ok var þat auðsýnt, at henni þótti mikit fyrir skilnaðinum við
+      Ketil. Grímr var eptir. Ketill var ríkastr manna norðr þar, ok þótti þeim mikit traust at
+      honum. Hann fór eitt sumar norðr á Finnmörk at finna þau Brúna ok Hrafnhildi. Þeir fóru á
+      litlu skipi. Þá lágu þeir við bjarg eitt hjá á nokkurri. Ketill bað Grím sækja þeim vatn. Hann
+      fór ok sá tröll við ána. Þat bannaði honum ok vildi taka hann. Grímr hræddist ok hljóp heim ok
+      sagði föður sínum. Ketill fór þá til móts við tröllit ok kvað vísu: <lg>
+       <l>"Hvat er þat býsna,</l>
+       <l>er við berg stendr</l>
+       <l>ok gapir eldi yfir?</l>
+       <l>Búsifjar okkrar</l>
+       <l>hygg ek batna munu.</l>
+       <l>Líttu á ljóðvega."</l>
+      </lg> Tröllit hvarf, en þeir feðgar fóru heim. Þat var á einu hausti, at víkingar kómu til
+      Ketils. Hét annarr Hjálmr, en annarr Stafnglámr. Þeir höfðu herjat víða. Þeir beiddust at hafa
+      þar friðland með Katli, ok þess lét hann þeim kost, ok váru þeir með honum um vetrinn í góðu
+      yfirlæti. Um vetr at jólum strengdi Ketill heit, at hann skal eigi Hrafnhildi, dóttur sína,
+      gifta nauðga. Víkingar báðu hann hafa þar þökk fyrir. Eitt sinn kom þar Áli Uppdalakappi. Hann
+      var upplenzkr at ætt. Hann bað Hrafnhildar. Ketill kveðst eigi vilja gifta hana nauðga, -- "en
+      tala má ek málit við hana." Hrafnhildr kveðst eigi vilja leggja ástarhug við Ála eða binda
+      forlög sín við hann. Ketill <pb n="258"/> sagði Ála svá búit, ok hér fyrir skorar Áli Ketil á
+      hólm, en Ketill kveðst fara mundu. Þeir bræðr, Hjálmr ok Stafnglámr, vildu berjast fyrir
+      Ketil. En hann bað þá halda skildi fyrir sik. En er þeir kómu til vígvallar, hjó Áli til
+      Ketils, ok varð eigi við brugðit skildinum, ok kom blóðrefillinn í enni Ketils ok arði niðr um
+      nefit, ok blæddi mjök. Þá kvað Ketill vísu: <lg>
+       <l>"Hjálmr ok Stafnglámr,</l>
+       <l>hlífið ykkr báðir.</l>
+       <l>Gefið rúm gömlum</l>
+       <l>at ganga framar hóti.</l>
+       <l>Fljúga fólknöðrur.</l>
+       <l>Frækn er Dalakappi.</l>
+       <l>Ljótr er leikr sverða.</l>
+       <l>Litat er skegg á karli.</l>
+       <l>Skrapa skinnkyrtlar.</l>
+       <l>Skjálfa járnserkir.</l>
+       <l>Hristast hringskyrtur.</l>
+       <l>Hræðist biðill meyjar."</l>
+      </lg> Síðan sveiflar Ketill sverðinu til höfuðsins, en Áli brá upp skildinum. En Ketill hjó þá
+      til fótanna ok undan báða, ok fell Áli þar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Litlu síðar gerðist hallæri mikit, fyrir því at fiskrinn firrðist landit, en kornárit
+      brást, en Ketill hafði fjölmennt, ok þóttist Sigríðr þurfa fanga í búit. Ketill kveðst óvanr
+      frýjunni ok stökk á skip sitt. Víkingar spurðu, hvert hann vildi. "Ek skal til veiða," sagði
+      hann. Þeir buðu at fara með honum. En hann kvað sér við engu hætt ok bað þá annast um bú sitt
+      á meðan. Ketil kom þar, sem heitir í Skrofum. Ok er hann kom <pb n="259"/> til hafnar, sá hann
+      á nesinu tröllkonu í berum skinnkyrtli. Hún var nýkomin af hafi ok svört sem bik væri. Hún
+      glotti við sólunni. Ketil kvað vísu: <lg>
+       <l>"Hvat er það flagða,</l>
+       <l>er ek sá á fornu nesi</l>
+       <l>ok glottir við guma?</l>
+       <l>At uppiverandi sólu,</l>
+       <l>hefi ek enga fyrr</l>
+       <l>leiðiligri litit."</l>
+      </lg> Hún kváð: <lg>
+       <l>"Forað ek heiti.</l>
+       <l>Fædd var ek norðarla</l>
+       <l>hraust í Hrafnseyju,</l>
+       <l>hvimleið búmönnum,</l>
+       <l>ör til áræðis,</l>
+       <l>hvatki er illt skal vinna."</l>
+      </lg> Ok enn kvað hún: <lg>
+       <l>"Mörgum manni</l>
+       <l>hefik til moldar snúit,</l>
+       <l>þeim er til fiskjar fór.</l>
+       <l>Hverr er sjá inn köprmáli,</l>
+       <l>er kominn er í skerin?"</l>
+      </lg> Hann svarar: "Kalla mik Hæng," sagði hann. Hún svarar: "Nær væri þér at vera heima í
+      Hrafnistu en dratta einum til útskerja." Ketill kvað vísu: <lg>
+       <l>"Einhlítr ek þóttumst,</l>
+       <l>áðr en hér kómum</l>
+       <l>of farir várar,</l>
+       <l>hvat er flögð mæla.</l>
+       <l>Lasta ek dreng dasinn.</l>
+       <l>Dreg ek á vit fanga.</l>
+       <l>Lætkat ek fyrir vinnast,</l>
+       <l>hvat er Forað mælir.</l>
+       <l>Nauðir mik hvöttu.</l>
+       <l>Nánum er at bjarga.</l>
+       <l>Hætta ek eigi</l>
+       <l>á hólm til sela,</l>
+       <l>ef í eyju</l>
+       <l>ærnir væri."</l>
+      </lg> Hún svarar: <lg>
+       <l>"Synja ek þess eigi,</l>
+       <l>seggr inn víðförli,</l>
+       <l>at þú líf hafir</l>
+       <l>langt of aðra,</l>
+       <l>ef þú fund okkarn</l>
+       <pb n="260"/>
+
+       <l>fyrðum óblauðum,</l>
+       <l>sveinn lítill, segir.</l>
+       <l>Sé ek þinn huga skjálfa."</l>
+      </lg> Ketill kvað: <lg>
+       <l>"Ungr var ek heima.</l>
+       <l>Fór ek einn saman</l>
+       <l>opt í útveri.</l>
+       <l>Marga myrkriðu</l>
+       <l>fann ek á minni götu.</l>
+       <l>Hræddumkat flagða fnösun.</l>
+       <l>Langleit ertu, fóstra,</l>
+       <l>ok lætr róa nefit,</l>
+       <l>leitat ek ferligra flagð."</l>
+      </lg> Hún þokaði at honum við ok kvað: <lg>
+       <l>"Gang hóf ek upp í Angri.</l>
+       <l>Eigraðak þá til Steigar.</l>
+       <l>Skálm glamrandi skrapti.</l>
+       <l>Skarmtak þá til Karmtar.</l>
+       <l>Elda munk á Jaðri</l>
+       <l>ok at Útsteini blása.</l>
+       <l>Þá munk austr við Elfi,</l>
+       <l>áðr dagr á mik skíni,</l>
+       <l>ok með brúðkonum beigla</l>
+       <l>ok brátt gefin jarli."</l>
+      </lg> Sjá leið er fyrir endilangan Noreg. Hún spurði: "Hvat skaltu nú at hafast?" "Sjóða slátr
+      ok búast til matar," sagði hann. Hún kvað: <lg>
+       <l>"Seyði þínum mun ek snúa,</l>
+       <l>en sjálfum þér gnúa,</l>
+       <l>unz þik gríðr of grípr."</l>
+      </lg> "Þess er nú at henni ván," sagði Ketill. Hún fálmaði þá til hans. Ketill kvað þá vísu: <lg>
+       <l>"Örum trúi ek mínum,</l>
+       <l>en þú afli þínu.</l>
+       <l>Fleinn mun þér mæta,</l>
+       <l>nema þú fyrir hrökkvir."</l>
+      </lg> Hún kveðr vísu: <lg>
+       <l>"Flaug ok Fífu</l>
+       <l>hugða ek fjarri vera,</l>
+       <pb n="261"/>
+
+       <l>ok hræðumst ek eigi</l>
+       <l>Hremsu bit."</l>
+      </lg> Svá hétu örvar Ketils. Hann lagði ör á streng ok skaut at henni, en hún brást í
+      hvalslíki ok steyptist í sjóinn, en örin kom undir fjöðrina. Þá heyrði Ketill skræk mikinn. Þá
+      sá hann gríði ok tók til orða: "Rennt mun nú þeim sköpunum, at Forað eigi jarlinn, ok
+      ógirnilig er nú rekkja hennar." Síðan kom Ketill við föng ok hlóð ferju sína. Þat var eina
+      nótt, at hann vaknar við brak mikit í skóginum. Hann hljóp út ok sá tröllkonu, ok fell fax á
+      herðar henni. Ketill mælti: "Hvert ætlar þú, fóstra?" Hún reigðist við honum ok mælti: "Ek
+      skal til tröllaþings. Þar kemr Skelkingr norðan ór Dumbshafi, konungr trölla, ok Ófóti ór
+      Ófótansfirði ok Þorgerðr Hörgatröll ok aðrar stórvættir norðan ór landi. Dvel eigi mik, því at
+      mér er ekki um þik, síðan þú kveittir hann Kaldrana." Ok þá óð hún út á sjóinn ok svá til
+      hafs. Ekki skorti gandreiðir í eyjunni um nóttina, ok varð Katli ekki mein at því, ok fór hann
+      heim við svá búit ok sat nú um kyrrt nokkura hríð. Þessu næst kom við Hrafnistu Framarr,
+      víkinga konungr. Hann var blótmaðr, ok bitu eigi járn. Hann átti ríki í Húnaveldi á
+      Gestrekalandi. Hann blótaði Árhaug. Þar festi eigi snjó á. Böðmóðr hét sonr hans, er átti
+      mikit bú við Árhaug, ok var vinsæll maðr. Allir báðu Framari ills. Þat hafði Óðinn skapat
+      Framari, at hann bitu eigi járn. Framarr bað Hrafnhildar, ok hafði Ketill þau svör fyrir sér,
+      at hún skyldi sér sjálf mann kjósa. Hún kvað nei við Framari, -- "vilda ek eigi Ála kjósa mér
+      til bónda, þá mun ek hálfu síðr kjósa þetta tröll." Ketill sagði Framari svör hennar. Hann
+      reiddist mjök fyrir þessi svör. Skoraði Framarr Ketil á hólm <pb n="262"/> við Árhaug
+      jóladaginn fyrsta, -- "ok ver hvers manns níðingr, ef þú kemr eigi." Ketill kveðst koma mundu.
+      Þeir Hjálmr ok Stafnglámr buðu honum at fara með honum. Ketill kveðst einn fara vilja. Litlu
+      fyrir jól lét Ketill flytja sik á land í Naumudal. Hann var í loðkápu ok stígr á skíð sín ok
+      fór upp eptir dalnum ok svá yfir skóg til Jamtalands ok svá austr yfir Skálkskóg til
+      Helsingjalands ok svá austr yfir Eyskógamörk, -- hún skilr Gestrekaland ok Helsingjaland, --
+      ok er hann tuttugu rasta langr, en þriggja breiðr ok er illr yfirferðar. Þórir hét maðr, er
+      bjó við skóginn. Hann bauð Katli fylgd sína ok sagði illvirkja liggja á skóginum: "Sá er fyrir
+      þeim, er heitir Sóti. Hann er svikall ok harðfengr." Ketill kvað sér ekki mein mundu at þeim
+      verða. Síðan fór hann á skóginn ok kemr at skála Sóta. Hann var ekki heima. Ketill kveykti upp
+      eld fyrir sér. Sóti kom heim ok heilsar ekki Katli ok setti vist fyrir sik. Ketill sat við eld
+      ok mælti: "Ertu matníðingr, Sóti?" sagði hann. Sóti kastaði þá stykkjum nokkurum at Katli. Ok
+      er þeir váru mettir, lagðist Ketill niðr hjá eldi ok hraut mjök. Þá spratt Sóti upp, en Ketill
+      vaknaði ok mælti: "Hví sveimar þú hér, Sóti?" Hann svarar: "Blæs ek at eldi, er næsta var
+      slokinn." Ketill sofnaði öðru sinni. Þá hljóp Sóti enn upp ok tvíhendi öxina. Ketill spratt þá
+      upp ok mælti: "Stórum viltu nú brytja," sagði hann. Síðan sat Ketill upp um nóttina. Um
+      morguninn beiddi Ketill, at Sóti færi með honum á skóginn, ok hann fór. Ok þá náttaði, lögðust
+      þeir undir eik eina. Kefill sofnar, at því er Sóti hugði, því at hann hraut hátt. Sóti spratt
+      upp ok hjó til Ketils, svá at af hrauf kápuhattrinn, en Ketill var ekki í kápunni. Ketill
+      vakti ok vildi reyna Sóta. Hann hljóp upp ok mælti: "Nú skulu vit reyna fangbrögð <pb n="263"
+      /> með okkr." Ketill kippti Sóta um lág eina ok hjó af honum höfuðit ok fór síðan leið sína ok
+      kom jólaaptan til Árhaugs. Hann var blótaðr af Framari ok landsmönnum til árs. Þá var kafa
+      hríð. Ketill gekk upp á hauginn ok settist í mót veðrinu. Þá er menn kómu í sæti at Böðmóðs,
+      þá tók hann til orða: "Hvárt mun Ketill kominn til Árhaugs?" Menn kváðu þess enga ván. Böðmóðr
+      mælti: "Þar er sá maðr, at ek kann einkis til at geta. Farið nú ok vitið um hann ok bjóðið
+      honum til vár." Þeir fóru nú til haugsins ok fundu Ketil eigi ok segja Böðmóði svá komit.
+      Böðmóðr kvað hann kominn mundu upp á hauginn. Fór hann síðan til haugsins ok upp á hauginn ok
+      sér þar hrúgald mikit á norðanverðum hauginum. Böðmóðr kvað vísu: <lg>
+       <l>"Hverr er sá inn hávi,</l>
+       <l>er á haugi sitr</l>
+       <l>ok horfir veðri við?</l>
+       <l>Frostharðan mann</l>
+       <l>hygg ek þik feiknum vera,</l>
+       <l>hvat þér hvergi hlýr."</l>
+      </lg> Ketill kvað vísu: <lg>
+       <l>"Ketill ek heiti,</l>
+       <l>kominn ór Hrafnistu.</l>
+       <l>Þar var ek upp of alinn;</l>
+       <l>hugfullt hjarta</l>
+       <l>veit ek hlífa mér.</l>
+       <l>Þó vilda ek gisting geta."</l>
+      </lg> Böðmóðr kvað: <lg>
+       <l>"Upp skaltu rísa</l>
+       <l>ok ganga haugi af</l>
+       <l>ok sækja mína sali.</l>
+       <l>Málsefnis</l>
+       <l>ann ek þér margan dag,</l>
+       <l>ef þú vilt þiggja þar."</l>
+      </lg>
+      <pb n="264"/> Ketill kvað vísu: <lg>
+       <l>"Upp mun ek nú rísa</l>
+       <l>ok ganga haugi af,</l>
+       <l>alls mér Böðmóðr býðr.</l>
+       <l>Bróðir minn</l>
+       <l>þótt sæti brautu nær,</l>
+       <l>mundi eigi betr of boðit."</l>
+      </lg> Böðmóðr tók í hönd Katli. Ok er hann stóð upp, skriðnuðu honum fætr á hauginum. Þá kvað
+      Böðmóðr vísu: <lg>
+       <l>"Reyndr ertu, fóstri,</l>
+       <l>at ganga hervígis til</l>
+       <l>ok berjast við Framar til fjár.</l>
+       <l>Á léttum aldri</l>
+       <l>gaf honum Óðinn sigr.</l>
+       <l>Mjök kveð ek hann vígum vanan."</l>
+      </lg> Þá reiddist Ketill, er hann nefndi Óðin, því at hann trúði ekki á Óðin, ok kvað vísu: <lg>
+       <l>"Óðin blóta</l>
+       <l>gerða ek aldrigi,</l>
+       <l>hefik þó lengi lifat.</l>
+       <l>Framar falla</l>
+       <l>veit ek fyrr munu</l>
+       <l>en þetta it háva höfuð."</l>
+      </lg> Síðan fór Ketill með Böðmóði ok var með honum um nóttina ok sat honum it næsta. Ok um
+      morguninn bauð Böðmóðr at fara með honum eða fá mann í móti Framari. Ketill vildi eigi þat.
+      "Þá mun ek fara með þér," sagði Böðmóðr. Þat vildi Ketill, ok fóru þeir til Árhaugs. Framarr
+      fór grenjandi til haugsins, ok váru þeir Böðmóðr ok Ketill þar fyrir fjölmennir. Þá sagði
+      Framarr upp hólmgöngulög. Böðmóðr helt skildi fyrir Katli, en engi fyrir Framar. Hann mælti:
+      "Þá skaltu nú vera minn fjandmaðr heldr en sonr." Böðmóðr kvað hann hafa sundr sagt frændsemi
+      með þeim í fjölkynngi <pb n="265"/> sinni. Ok áðr þeir börðust, fló örn af skógi at Framari ok
+      sleit af honum klæðin. Þá kvað Framarr vísu: <lg>
+       <l>"Illr er örn í sinni,</l>
+       <l>emka ek sár at kvíða,</l>
+       <l>færir hann greipr sínar</l>
+       <l>gular í blóðæðar.</l>
+       <l>Hlakkar hreggskornir,</l>
+       <l>hvers er hann forkunnigr,</l>
+       <l>opt hefi ek ara gladdan,</l>
+       <l>óðr em ek valgöglum."</l>
+      </lg> Þá sótti örninn svá fast, at hann varð vápnum at verjast. Þá kvað hann vísu: <lg>
+       <l>"Veifir þú vængjum,</l>
+       <l>vápnum mun ek þér heita.</l>
+       <l>Vafrar þú, víðflogull,</l>
+       <l>sem vitir mik feigan.</l>
+       <l>Villr ertu, vígstari,</l>
+       <l>vit munum sigr hafa.</l>
+       <l>Hverf þú at Hængi,</l>
+       <l>hann skal nú deyja."</l>
+      </lg> Sá átti fyrr at höggva, sem á var skorat. Ketill hjó á öxl Framari. Hann stóð fyrir
+      kyrr, sverðit beit ekki á, en vatzt þó við, at höggit var svá mikit. Framarr hjó til Ketils í
+      skjöldinn. Ketill hjó á aðra öxl Framari, ok beit enn ekki. Ketill kvað vísu: <lg>
+       <l>"Dregst þú nú, Dragvendill,</l>
+       <l>við krás arnar.</l>
+       <l>Mætir þú meingöldrum,</l>
+       <l>máttat þú bíta.</l>
+       <l>Hæng þess eigi varði,</l>
+       <l>at hrökkva mundi</l>
+       <l>eggjar eitrherðar,</l>
+       <l>þó at Óðinn deyfði."</l>
+      </lg> Ok enn kvað hann vísu: <lg>
+       <l>"Hvat er þér, Dragvendill,</l>
+       <l>hví ertu slær orðinn?</l>
+       <l>Til hefi ek nú höggvit.</l>
+       <l>Tregt er þér at bíta.</l>
+       <l>Hliðar þú at hjörþingi,</l>
+       <l>hefirat þér fyrr orðit</l>
+       <l>bilt í braki málma,</l>
+       <l>þar er bragnar hjuggusk."</l>
+      </lg> Framarr kvað vísu: <lg>
+       <l>"Skelfr nú skegg á karli.</l>
+       <l>Skeika vápn gömlum.</l>
+       <l>Frýr hann hjör hvössum.</l>
+       <l>Hræðist faðir meyjar.</l>
+       <pb n="266"/>
+
+       <l>Brýndusk benteinar,</l>
+       <l>svá at bíta mætti</l>
+       <l>höldum hugprúðum,</l>
+       <l>ef þér hugr dygði."</l>
+      </lg> Ketill kvað: <lg>
+       <l>"Þarftattu oss at eggja,</l>
+       <l>eigu mér sjaldan</l>
+       <l>fyrðar flugtrauðir</l>
+       <l>frýja stórhöggva.</l>
+       <l>Bít þú nú, Dragvendill,</l>
+       <l>eða brotna ella.</l>
+       <l>Báðum er okkr heill horfin,</l>
+       <l>ef þú bilar sinn þriðja."</l>
+      </lg> Ok enn kvað hann: <lg>
+       <l>"Hræðiskat faðir meyjar,</l>
+       <l>meðan heill er Dragvendill.</l>
+       <l>Vita ekki víst þykkjumst:</l>
+       <l>verðrat honum bilt þrysvar."</l>
+      </lg> Þá sneri hann sverðinu í hendi sér ok hverfði fram eggina aðra. Framarr stóð kyrr, er
+      sverðit reið á öxlina, ok nam eigi staðar fyrr en í mjöðminni, ok flakti frá síðan. Þá kvað
+      Framarr vísu: <lg>
+       <l>"Hugr er í Hængi,</l>
+       <l>hvass er Dragvendill,</l>
+       <l>beit hann orð Óðins,</l>
+       <l>sem ekki væri.</l>
+       <l>Brást nú Baldrs faðir,</l>
+       <l>brigt er at trúa honum.</l>
+       <l>Njóttu heill handa!</l>
+       <l>Hér munum skiljast."</l>
+      </lg> Þá dó Framarr, en Böðmóðr fylgdi Katli af vetfangi. Þá mælti Böðmóðr: "Nú með því ef þú
+      þykkist mér eiga at launa nokkura liðveizlu, þá vil ek, at þú giftir mér dóttur þína." Ketill
+      tók því vel ok sagði Böðmóð góðan dreng. Eptir þetta unnit fór Ketill heim ok var frægr mjök
+      af sínum stórvirkjum. Hann gifti Hrafnhildi Böðmóði. Ketill réð fyrir Hrafnistu, meðan hann
+      lifði, en Grímr loðinkinni eptir hann. Örvar-Oddr var sonr Gríms. Ok lýkr hér þessari sögu.
+     </p>
+    </div>
+
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

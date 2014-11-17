@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Hrómundar saga Gripssonar</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Hrómundar saga Gripssonar</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Hromundar_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="273"/> SÁ konungr réð fyrir Görðum í Danmörk, er Óláfr hét. Hann var sonr
+      Gnóðar-Ásmundar. Hann var maðr frægr. Bræði tveir, Kári ok Örnúlfr, váru landvarnarmenn
+      konungs, hermenn miklir. Þar bjó einn ríkr bóandi. Sá hét Gripr. Hann átti þá konu er Gunnlöð
+      hét, dóttir Hróks ins svarta. Þau áttu níu sonu, er svá hétu: Hrólfr, Haki, Gautr, Þröstr,
+      Angantýr, Logi, Hrómundr, Helgi, Hrókr. Þeir váru allir efniligir menn. Þó var Hrómundr fyrir
+      þeim öllum. Hann kunni eigi at hræðast. Hann var augnafagr, hárbjartr ok herðamikill, mikill
+      ok sterkr, líktist mjoök Hróki, móðurföður sínum. Með konungi váru tveir menn. Hét einn Bíldr,
+      annarr Váli. Þeir váru illir ok undirförulir. Konungr matti þá mikils. Eitt sinn helt Óláfr
+      konungr austr fyrir Noreg með her sinn, ok heldu at Úlfaskerjum, herjuðu ok lágu við eitt
+      eyland. Konungr býðr Kára ok Örnúlfi at ganga upp á eyjuna ok vita, hvárt þeir sæi engi
+      herskip. Þeir <pb n="274"/> gengu upp á landit ok litu sex herskip undir hömrum nokkurum. Þar
+      var einn dreki allskrautligr. Kári kallar til þeira ok spyrr, hverr fyrir skipunum réði. Einn
+      dólgr stóð upp á drekanum ok kvaðst Hröngviðr heita, -- "eða hvert er nafn þitt?" Kári sagði
+      til sín ok síns bróður ok mælti: "Ek veit engan verri en þik, ok þar fyrir skal ek höggva þik
+      í smá stykki." Hröngviðr mælti: "Ek hefi herjat sumar ok vetr í þrjú ok þrjá tigi ár ok háð
+      sex tigi orrostur ok fengit jafnan sigr. Mitt sverð heitir Brynþvari, er aldri hefir
+      sljóvgazt. Kom þú hér á morgun, Kári, ek skal slíðra hann í þínu brjósti." Kári kveðst eigi
+      bila mundu. Hröngviðr mátti kjósa hvern dag mann fyrir sverðsins oddi. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Þeir bræðr kómu aptr til konungs ok sögðu honum tíðendin. Konungr bauð at halda til
+      orrostu, ok svá var gert. Hittust þeir, ok tókst þar harðr bardagi. Þeir bræðr gengu vel fram.
+      Kári hafði jafnan átta eða tólf í hverju höggi. Hröngviðr sá þetta. Hljóp hann upp á konungs
+      skip til Kára ok lagði sverðinu í gegnum hann. Þegar Kári hafði fengit sárit, segir hann til
+      konungs: "Lifið heilir, herra, ek mun hjá Óðni gista." Hröngviðr vá Örnúlf upp á spjóti sínu.
+      Eptir fall þeira bræðra kallar Hröngviðr, at þeir skuli upp gefast. Er þá illr kurr í liði
+      konungs. Engi járn bitu Hröngvið. Nú er þess getit, at Hrómundr Gripsson var í fylgd með
+      konungi. Hann tekr sér kylfu í hönd, bindr sér grátt ok sítt geitarskegg ok setr síðan hatt á
+      höfuð sér, veðr svá fram ok finnr þá bræðr báða dauða, tekr upp merki konungs ok lemr með
+      kylfunni blámenn til <pb n="275"/> dauða. Hröngviðr spyrr, hverr sá væri, -- "eða er þetta
+      nokkut faðir hans illa Kára?" Hrómundr segir nafn sitt ok kveðst hefna vilja þeira bræðra, --
+      "en eigi var Kári mér skyldr. Samt skal ek drepa þik." Ok í því gaf hann Hröngviði kylfuhögg
+      svá mikit, at hann bar hallt höfuð eptir ok mælti: "Ek hefi verit víða í bardögum ok aldri
+      fengit þvílíkt högg." Annat högg sló Hrómundr til Hröngviðar, svá at haussinn brotnaði. Í
+      þriðja höggi missti hann lífit. Eptir þat gengu þeir, sem eptir lifðu, allir á hendr konungi,
+      ok lyktaðist svá bardaginn. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Nú kannar Hrómundr skipin ok finnr einn mann hallast upp við í stafni. Hann spyrr þann mann
+      at nafni. Sá kveðst Helgi heita inn frækni, bróðir Hröngviðar, -- "ok nenni ek eigi friðar at
+      biðja." Hrómundr lét græða Helga inn frækna. Hann sigldi þar eptir í Svíþjóð ok gerðist
+      landvarnarmaðr. Þar eptir helt Óláfr konungr liði sínu vestr til Suðreyja, gengu þar á land ok
+      tóku strandhögg. Karl einn bjó þar nærri. Konungmenn höfðu tekit kýr hans ok ráku undan sér.
+      Lét hann mjök aumliga um þann missi. Hrómundr kemr at ok spyrr, hverr sá væri. Karlinn segir,
+      at byggð sín væri allskammt þaðan, ok kvað meiri fremd at brjóta hauga ok ræna drauga fé.
+      Þessi kvaðst Máni at nafni. Hrómundr bað hann segja sér, ef hann vissi nokkut um soddan. Máni
+      sagðist víst vita ok mælti: "Þráinn, sem vann Valland ok var þar konungr, berserkr mikill ok
+      sterkr, fullr galdra, hann var settr í haug með sverði, herklæðum ok fé miklu, en fáir fýsast
+       <pb n="276"/> þangat." Hrómundr spyrr, hverja leið sigla skal þangat. Hann segir, at hann má
+      sigla rétt suðr í sex daga. Hrómundr þakkar karli fregn þessa, gaf honum fé ok lét hann taka
+      kýr sínar. Sigldu þeir svá þaðan eptir því, sem karl vísaði þeim til, ok at sex daga fresti
+      sáu þeir hauginn rétt fyrir framstafni. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Þeir kómu vestan at Vallandi ok fundu hauginn ok rufu þegar. Ok at liðnum sex dögum kómu
+      þeir glugga á hauginn. Sáu þeir, at þar sat á stóli dólgr mikill, blár ok digr, allr gulli
+      klæddr, svá at leiptraði af. Rumdi hann mjök ok blés at eldi. Hrómundr spyrr, hverr nú vill
+      ganga í hauginn, ok sá skuli kjósa sér þrjá gripi. Váli kvað: "Engi mundi vilja gefa líf sitt
+      við því. Eru hér nú sex tigir manna, ok mun tröll þetta öllum dauða veita." Hrómundr mælti:
+      "Vogat mundi Kári hafa þetta, ef lífs væri," -- ok kvað makligt, þótt sér væri niðr sleppt í
+      festi, þótt betra sé at fást við átta aðra. Fór svá Hrómundr niðr í festinni. Var þat á nóttu.
+      Ok er hann kom niðr, bar hann saman fé mikit ok batt í festarenda. Þráinn hafði verit á fyrri
+      dögum konungr yfir Vallandi ok vann allt með göldrum, gerði margt illt af sér, ok þá hann var
+      svá gamall, at hann kunni eigi at stríða lengr, lét hann setja sik lifanda í hauginn ok mikit
+      fé með sér. Nú sér Hrómundr, hvar sverðit hangir uppi á einni súlu. Hann kippir því ofan,
+      gyrðist með ok gengr fram at stólnum ok mælti: "Mér mun vera mál ór hauginum, fyrst engi
+      hamlar, eða hverninn vegnar þér, þú hérna, <pb n="277"/> inn gamli? Sástu eigi, at ek bar
+      saman fé þitt, en þú höktir kyrr, hundr leiðr, eða hvat var þér í augum, er þú horfðir á, at
+      ek tók sverðit ok menit ok fjölda þinna annarra gripa?" Þráinn kvað sér einskis um vert
+      þykkja, ef hann léti sik kyrran sitja á stóli sinum, -- "ek kunna áðr fyrr at berjast. Er ek
+      þá orðinn nógu ragr, ef þú einn skalt ræna mik auði, ok vil ek synja þér gripanna. Máttu sjá
+      við mér dauðum." Þá mælti Hrómundr: "Rigaðu þér á fætr, ragr ok blauðr, ok tak þú sverðit aptr
+      af mér, ef þú þorir." Draugr mælti: "Þat er engi fremd at bera sverð á mik vápnlausan. Heldr
+      vil ek reyna afl við þik ok glímu." Hrómundr kastar þá sverðinu ok treysti afli sínu. Þráinn
+      sá þetta ok leysti ofan ketil sinn, er hafði uppi. Hann var þá eigi frýnligr, blés þá at eldi,
+      er hann var búinn at eta ór katlinum. Funi mikill var í milli fóta honum, en ketillinn fullr í
+      búki. Hann var í stakki gullfáguðum. Báðar hendr hans váru brenglaðar, ok beygðust neglr fyrir
+      góma. Hrómundr mælti: "Skríddu af stóli, skálkr argr, sviptr öllu fé." Þá sagði draugr: "Nú
+      mun mál vera at fara á fætr, fyrst þú frýjar mér hugar." Dagr líðr, en kveldar, ok gerðist þá
+      myrkt í hauginum. Hann gekk þá til glímu við Hrómund, en kastaði niðr katli sínum. Neytti þá
+      Hrómundr afls, ok svá gengust þeir hart at, at grjót ok steinar gengu upp. Þá datt draugrinn á
+      annat kné ok mælti: "Þú stjakar mér, ok víst ertu hraustr maðr." Hrómundr sagði: "Stattu
+      stuðningslaust á fætr aptr. Miklu ertu linari en Máni karl sagði." Þá tók Þráinn at tryllast,
+      ok fylltist upp haugrinn með illan daun. Setti hann þá klær sínar á hnakka Hrómundi ok sleit
+      hold af beinum á lendar ofan ok mælti: "Kvarta eigi um, þótt gráni leikrinn ok sárni kroppr
+      þinn, því at nú skal ek rífa þik kvikan <pb n="278"/> í sundr." "Eigi veit ek," sagði
+      Hrómundr, "hvaðan soddan kattakyn er komit í haug þenna." Draugrinn mælti: "Þú munt fæddr vera
+      af Gunnlöðu. Eru fáir þínir líkar." "Illt mun vera," sagði Hrómundr, "at þú klórir mik lengi."
+      Glímdu þeir hart ok lengi, svá at allt skalf, þat nærri var, þar til um síðir, at Hrómundr
+      felldi hann á fótarbragði. Þá var orðit mjök dimmt. Þá mælti draugr: "Nú vannstu mik með ráðum
+      ok tókst sverð mitt. Þat skipti með okkr leikum. Lengi hefi ek lifat í haugi mínum ok lafat á
+      fé, en eigi er gott at trúa gripum sínum, þótt góðir þykki, of mjök, ok aldri hefi ek ætlat,
+      at þú, Mistilteinn, mitt góða sverð, mundir verða mér til meins." Varð Hrómundr þá lauss ok
+      náði sverðinu ok mælti: "Herm mér nú, hvat marga menn í hólmgöngu þú vannst með Mistilteini."
+      "Hundrað fjóra ok tuttugu," kvað draugrinn, "ok fekk ek aldri skeinu. Semingr konungr, er var
+      í Svíþjóð, ok ek reyndum okkrar íþróttir, ok hugði hann ek mundi seint unninn verða." "Lengi
+      hefir þú," sagði Hrómundr, "verit mönnum til meins, ok mun þat happaverk at láta þik sem fyrst
+      deyja." Hjó hann svá höfuðit af draugnum ok brenndi hann upp allan á báli, fór svá ór
+      hauginum. Spurðu menn þá, hverninn Þráinn ok hann hefðu skilit. Hann kvað þat hafa gengit í
+      kjör, -- "því at ek hjó af honum höfuðit." Eignaðist Hrómundr þá þrjá gripi, er hann sótti í
+      hauginn, hring, men ok Mistiltein. Allir fengu þeir of fjár. Sigldi Óláfr konungr svá þaðan ok
+      norðr til síns ríkis, settist síðan at landi sínu um kyrrt. <pb n="279"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Eptir þetta var Hrómundr mjök frægr, vinsæll ok stórgjöfull. Hann gaf einum manni, þeim er
+      Hrókr hét, eitt sinn gullhring góðan, er vá eyri. Þat fekk Váli at vita ok drap Hrók á
+      náttartíma, en tók hringinn. En sem konungr vissi þetta, kvaðst hann skyldu launa Vála
+      einhvern tíma hans hrekki. Konungr átti tvær systr. Önnur þeira hét Dagný, en hin Svanhvít. Sú
+      var framar at öllu, ok var engi hennar líki millum Svíþjóðar ok Hálogalands. Hrómundr Gripsson
+      var nú heima ok gerði sér kátt við Svanhvít ok forðast hvárki Vála né Bíld. Hún mælti eitt
+      sinn við Hrómund ok segir Váli ok Bíldr muni rægja hann við konung. Hann mælti: "Ek hræðumst
+      engar argar fýlur, ok svá lengi þú vilt unna mér viðtals, þá mun ek tala við þik." Svá varð
+      megn þessi rógburðr, at Hrómundr ok hans bróðir urðu at rýma frá konungs hirð ok fóru heim til
+      föður síns. Lítit hér eptir talar Svanhvít við Óláf konung ok sagði: "Nú er Hrómundr dæmdr í
+      brott frá konungs hirð, hverr vára sæmd jók þó mest, en aptr í staðinn hafi þér með yðr þá
+      tvá, er hvárki rækja frægð né dáð." Konungr svarar: "Heyrt hefi ek getit hann mundi fífla þik,
+      ok skal sverðit skilja ykkar ást." "Lítt manstu nú," sagði hún, "þegar hann einn gekk í
+      hauginn, en engi annarr þorði, ok fyrr mun Váli ok Bíldr hengdr verða," sagði hún, gekk síðan
+      snúðugt í brott. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Nokkuru síðar kómu tveir konungar af Svíþjóð. Hétu báðir Haldingjar. Helgi Hröngviðsbróðir
+      var með <pb n="280"/> þeim. Þeir buðu Óláfi konungi til orrostu vestr á Vænisís. Hann vill nú
+      heldr mæta þeim en flýja óðal sitt, gerir nú orð Hrómundi ok bræðrum hans at fylgja sér. Þá
+      vildi Hrómundr hvergi fara, kvað Bíld ok Vála vel duga ok vinna allt með konungi. Konungr fór
+      af stað með lið sitt. Svanhvít klökknaði við ok fór heim til Hrómundar. Hann tók henni vel.
+      "Virð nú til bæn mína," sagði hún, "meir en beiðni bróður míns ok veit nú lið konungi. Ek vil
+      gefa þér einn skjöld með því bandi, er honum fylgir. Mun þik eigi saka, meðan þú hefir þat."
+      Hrómundr þakkar henni gjöf þessa. Gladdist hún þá. Hann bjóst til ferðar ok bræðr hans átta.
+      Nú kemr konungr með lið sitt til Vænisíss. Var þar fyrir Svía lið. En at morgni, þegar
+      vígljóst var, vápnast þeir á ísnum, ok sóttu Svíar hart fram. Strax sem bardaginn hófst, var
+      Bíldr veginn, en Váli kom þar eigi. Óláfr konungr ok konungr Haldingr varð sárr. Hrómundr
+      hafði sett hrauktjald hinum megin vatnsins. Bræðr hans herklæðast snemma um morguninn.
+      Hrómundr mælti: "Illa hefir mik dreymt í nótt, ok mun eigi ganga allt at óskum, ok mun ek ekki
+      fara í dag til orrostu." Bræðr hans sögðu þat væri stór skömm at þora eigi at veita konungi
+      lið, en vera þó kominn þess erendis. Þeir kómu til orrostu ok gengu hart fram, ok fell hverr
+      um þveran annan, er þeim mætti af liði Haldingja. Ein fjölkynngiskona var þar komin í álptar
+      ham. Hún gólaði með svá miklum galdralátum, at engi gáði at verja sik Óláfs manna. Flaug hún
+      yfir þá Gripssyni ok söng hátt. Hún hét Lára. Helgi inn frækni mætti þeim bræðrum þat sama
+      sinn ok drap þá alla átta saman. <pb n="281"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Í því bili kom Hrómundr í bardagann. Helgi inn frækni þekkti hann ok mælti: "Nú er sá
+      kominn hér, sem vá Hröngvið, bróður minn. Megi þér nú sjá við hans sverði, sem hann sótti í
+      hauginn. Varstu nú fjarri, er ek drap bræðr þína." Hrómundr mælti: "Eigi þarftu, Helgi, at
+      frýja mér hugar, því at annathvárt ek eða þú skulum nú falla." Helgi sagði: "Mistilteinn er
+      svá þungt vápn, at þú fær eigi valdit. Vil ek ljá þér þat annat sverð, er þú getr valdit."
+      Hrómundr mælti: "Eigi þarftu at bregða mér um hugleysi. Muna muntu þat högg, er ek gaf
+      Hröngviði, þá hauss hans molaðist." Helgi sagði: "Þú, Hrómundr, hefir bundit um þína hönd
+      sokkaband meyjar einnar. Skil þik við skjöld þann, er þú berr. Þú fær engi sár, meðan þú berr
+      þetta, ok held ek fyrir satt þú trúir á þá meyju." Hrómundr þoldi eigi þessi skapraunarorð ok
+      kastaði niðr skildinum. Helgi frækni hafði jafnan sigr haft ok vann með fjölkynngi. Frilla
+      hans hét Lára, sú sem þar var í álptarlíki. Helgi reiddi svá hátt sverð sitt upp yfir sik, at
+      þat tók sundr fótlegg álptarinnar, ok renndi sverðit ofan í völlinn upp at hjöltum, ok mælti:
+      "Nú er mín heill farin, ok illa tókst til, er ek missta þín." Hrómundr mælti: "Þú vannst,
+      Helgi, it mesta slys, er þú drapst sjálfr frillu þína, ok farin mun þín heill." Datt Lára dauð
+      niðr. En af því höggi, er Helgi hjó til Hrómundar, svá at sverðit hljóp at hjöltum ofan, snart
+      oddr sverðsins kvið Hrómundar ok risti niðr, en Helgi laut eptir högginu. Var þá Hrómundr eigi
+      seinn ok höggr Mistilteini í höfuð Helga, klauf hjálminn ok hausinn, svá at staðar nam í
+      herðum. Brotnaði þá skarð <pb n="282"/> í sverðit. Eptir þat tók Hrómundr tygilkníf sinn ok
+      stakk á kviðinn á sér í sársbrúnirnar raufir, hratt svá inn ístrunni, er út hangdi, rifjar þar
+      með saman kviðinn með bandi ok batt klæðin hart at, barðist svá í ákafa ok felldi hvern um
+      annan þveran ok barðist fram til miðrar nætr. Flýði þat lið, sem eptir var af Haldingjum. Lýkr
+      þar með orrostu. Hrómundr sér þá, at einn maðr stendr þar á ísnum. Veit hann sá sami muni hafa
+      með göldrum gert ísinn á vatnit. Þekkti hann, at þetta var Váli. Hann kvað eigi óskylt at
+      launa honum, hljóp til hans, reiddi Mistiltein ok vildi höggva hann. Váli blés sverðit ór
+      hendi honum, ok hitti þat fyrir vök eina ok sökk niðr til grunns. Þá hló Váli ok mælti: "Nú
+      ertu feigr, er þú misstir Mistiltein ór hendi þinni." Hrómundr sagði: "Fyrr muntu deyja en
+      ek." Hljóp hann þá at Vála ok greip hann upp, færði niðr við ísinn, svá at hálsbeinit
+      brotnaði. Lá þessi galdrarumr þar dauðr. En Hrómundr settist niðr á ísinn. Hann mælti: "Ek
+      hafði eigi ráð meyjarinnar. Því hefi ek nú fengit fjórtán undir, ok þó þar til fellu bræðr
+      mínir átta, ok mitt góða sverð, Mistilteinn, fell í vatnit, ok þess fæ ek aldri bætr, at ek
+      missti sverðit." Gekk hann síðan þaðan ok heim at tjaldi sínu ok tók nokkura hvíld. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Nú eru konungs systr sóttar. Kannar Svanhvít sár Hrómundar ok saumar kviðinn saman ok
+      leitar honum hægenda. Hún lét færa hann karli þeim til græðslu, er Hagall hét. Kerling hans
+      var klók. Þau tóku vel við honum ok græddu hann at heilu. Þat fann Hrómundr, <pb n="283"/> at
+      þessi hjón váru margkunnug. Karl var vanr at veiða fiska, ok eitt sinn, er hann var at
+      veiðiskap sínum, dró hann eina geddu, ok er hann kom heim ok krufði hana, fann hann í hennar
+      maga Mistiltein, sverð Hrómundar, ok fekk honum þat. Hrómundr varð glaðr við ok kyssti á hjölt
+      sverðsins ok umbunaði vel karli. Einn maðr var sá með Haldings konungs her, sem hét Blindr inn
+      illi. Hann sagði konungi, at Hrómundr væri lífs ok græddr á laun hjá Hagali karli ok konu
+      hans. Konungr kvað ótrúligt, at þau mundu þora at leyna honum. Konungr bauð at leita hans.
+      Blindr fór með nokkura menn til húsa þeira Hagals ok spurði, ef Hrómundr væri þar geymdr.
+      Kerling sagði hann mundi eigi þar finnast. Blindr leitaði vandliga ok fann eigi, því at
+      kerling hafði falit Hrómund undir hitunarkatli sínum. Blindr ok hans félagar gengu þaðan, ok
+      er þeir váru á leið komnir, sagði Blindr: "Eigi er ferð vár fræg orðin, ok skulum vér aptr
+      snúa." Þeir gerðu svá, kómu heim ok fundu kerlingu. Sagði Blindr hún væri brögðótt, ok hefði
+      hún geymt Hrómund undir katli sínum. "Leitið ok takið hann þar þá," kvað hún. En því sagði hún
+      þetta, at þegar hún sá þeir sneru aptr, færði hún Hrómund í kvenskrúða ok lét hann mala ok
+      snúa kvörn. Þeir leita nú í húsunum. Ok þegar þeir koma þar mærin sneri kvörninni, snuðruðu
+      þeir allt um kring, en sú sama leit óhýrt til konungsmanna, sneru svá í brott, at þeir fundu
+      eigi. Ok er þeir váru á leið komnir, sagði Blindr, at kerling mun hafa villt sjónir fyrir þeim
+      ok sér þykki grunsamt, at Hrómundr muni hafa verit þat, sem sneri kvörninni í kvenklæðum, --
+      "ok sé ek oss hefir yfir sézt. Dugir oss eigi at þreyta við kerlingu, því at hún er oss
+      klókari." Báðu <pb n="284"/> þeir henni ills ok fóru heim aptr til konungs við svá búit. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Um vetrinn eptir bar margt fyrir Blind í svefni, ok segir konungi eitt sinn draum sinn ok
+      mælti svá: "Mér þótti vargr einn renna austan. Hann beit yðr, konungr, ok veitti yðr áverka."
+      Konungr kvaðst ráða þenna draum svá: "Hér mun koma konungr af nokkurum stað, ok mun fundrinn
+      verða skæðr fyrst, en falla þó niðr til sátta." Enn kvað Blindr sik dreymt hafa, at honum
+      þótti margir haukar sitja í einu húsi, -- "ok þekkti ek þar fálka þinn, herra. Hann var allr
+      fjaðralauss ok flettr hamnum." Konungr mælti: "Vindr mun koma af skýjum ok skelfa vára borg."
+      Þriðja draum sagði Blindr sváleiðis: "Mörg svín sá ek renna sunnan at konungs höllu, rótuðu
+      jörðinni upp með rananum." Konungr mælti: "Þat er fyrir sjóvar ólgu, vátviðrum ok grasvexti
+      þeim, er grær at vatnsins vökva, er sólin skínn í heiði." Fjórða draum sagði Blindr: "Mér
+      þótti einn ógurligr hriki koma austan at. Hann beit yðr stóra und." Konungr mælti: "Sendimenn
+      frá nokkurum konungi munu koma í mína höll. Þeir munu bíta upp öllum sínum vápnum, ok þar af
+      mun ek reiðast." "Fimmti draumr er sá," sagði Blindr, "at mér þótti liggja um Svíaveldi
+      grimmligr ormr." "Hér mun koma at landi," sagði konungr, "dreki vænn, hlaðinn gersemum."
+      "Sétta sinn dreymdi mik," sagði Blindr, "at mér þótti koma af landi svört ský með klóm ok
+      vængjum, ok flugu brott með þik, konungr. Þá dreymdi mik enn, at ormr einn væri hjá Hagali
+      karli. Sá beit menn grimmliga. Át hann bæði mik ok yðr upp ok alla konungs menn, <pb n="285"/>
+      eða hvat mun þetta þýða?" Konungr mælti: "Heyrt hefi ek skammt frá hýbýlum Hagals liggi
+      híðbjörn nokkurr. Ek mun fara at vinna björninn, ok mun hann þá byrstast mjök." "Hér næst
+      dreymdi mik, at dreka hamr væri dreginn um konungs höll, ok hekk þar við lindi Hrómunds."
+      Konungr mælti: "Þat veiztu, at Hrómundr missti sverðit ok linda í vatninu, eða ertu nú hræddr
+      við Hrómund?" Fleiri drauma dreymdi Blind, hverja hann sagði konungi, en konungr réð þá alla
+      sér í vil, en engan svá sem merking til höfðu. Nú segir Blindr enn einn draum sinn, þann er
+      hann sjálfan snerti, ok mælti: "Mér þótti járnhringr settr á minn háls." Konungr sagði: "Þat
+      er þýðing þess draums, at þú munt hengdr verða, ok þar með munu vit báðir feigir." </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Eptir þetta safnar Óláfr konungr liði, helt síðan til Svíþjóðar. Hrómundr fylgdi honum.
+      Kómu þeir óvart at höllu Haldings konungs. Hann lá í útiskemmu einni. Hann varð eigi fyrr varr
+      við en upp var brotin skemmuhurðin. Haldingr hrópar á menn sína ok spyrr, hverir um nætr
+      stríða. Hrómundr sagði til sín. Konungr sagði: "Þú munt vilja hefna þinna bræðra." Hrómundr
+      kvað hann skyldi fátt tala um fall bræðra sinna, -- "skaltu nú þess gjalda ok hér lífit
+      missa." Þá hljóp upp einn kappi Haldings konungs svá storr sem risi. Hrómundr drap þann.
+      Haldingr konungr verst í hvílunni, en fekk ekkert sár, því at hvert sinn Hrómundr hjó til
+      hans, kom sverðit flatt á konung. Þá tók Hrómundr kylfu ok lamdi Halding konung í hel. Þá
+      mælti Hrómundr: "Hér hefi ek felldan Halding konung, <pb n="286"/> ok hefi ek eigi sét frægra
+      mann." Karlinn Blindr, er hét Bavis, var bundinn ok hengdr, ok rættist svá draumr hans. Tóku
+      þeir þar mikit gull ok annat fé, heldu síðan heim. Óláfr konungr gifti Hrómundi Svanhvít. Þau
+      unntust vel, áttu sonu ok dætr til samans ok váru afbragð annarra. Eru af þeim komnar konunga
+      ættir ok kappar miklir, ok lýkr hér sögu Hrómundar Gripssonar. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

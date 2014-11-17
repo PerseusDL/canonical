@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Gríms saga loðinkinna</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Gríms saga loðinkinna</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Grims_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="269"/> SVÁ er sagt af Grími loðinkinna, at hann var bæði mikill ok sterkr ok inn mesti
+      garpr. Því var hann loðinkinni kallaðr, at kinn hans önnur var vaxin með dökkt hár, ok með því
+      var hann alinn. Ekki beit þar járn á. Grímr tók við búi í Hrafnistu eptir Ketil hæng, föður
+      sinn. Hann gerðist ríkr at fé. Hann réð ok náliga einn öllu um allt Hálogaland. Haraldr hét
+      einn hersir ríkr ok ágætr í Vík austr. Hann átti Geirhildi, dóttur Sölga konungs, Hrólfssonar
+      konungs ór Bergi af Upplöndum. Dóttir þeira hét Lopthæna. Hún var kvenna fríðust ok vel mennt.
+      Þangat fór Grímr loðinkinni á skútu við átjánda mann ok bað Lopthænu sér til handa. Var þat at
+      ráðum ráðit, ok skyldi hann sækja brullaupit um haustit. En sjau nóttum fyrr hvarf Lopthæna
+      burt, ok vissi engi, hvat af henni varð. En er hann kom til brullaupsins, saknar hann vinar í
+      stað, er brúðrin var í burtu, ok þóttist hann þó vita, at faðir hennar olli þar engu um. Þar
+      sat hann þrjár nætr, ok drukku þeir ok þó með <pb n="270"/> lítilli kæti. Síðan fór hann heim
+      í Hrafnistu. Þat hafði borit til fimm árum fyrr, at kona Haralds hersis hafði andazt, en hann
+      fekk ári síðar norðan af Finnmörk Grímhildar Jösursdóttur ok hafði hana heim til sín. Skjótt
+      þótti hún þar öllu spilla. Illa var hún til Lopthænu, stjúpdóttur sinnar, sem síðar bar raun
+      á. Grímr undi lítt við hag sinn, er hann spurði ekki til Lopthænu, festarkonu sinnar. Þat bar
+      þá til sem optar, at hallæri mikit kom á Hálogaland. Grímr loðinkinni bjóst þá heiman ok fór á
+      ferju sinni við þriðja mann. Hann helt norðr fyrir Finnmörk ok svá austr til Gandvíkr. Ok er
+      hann kom í víkina, sá hann, at þar var nógr veiðifangi. Setti hann þar upp skip sitt ok gekk
+      síðan til skála ok kveykti upp eld fyrir sér. En er þeir váru í svefn komnir um nóttina,
+      vöknuðu þeir við þat, at kominn var stormr með svartahríð. Svá mikil grimmd fylgdi veðri
+      þessu, at allt sýldi, bæði úti ok inni. Um morguninn, er þeir váru klæddir, gengu þeir út ok
+      til sjóvar. Sáu þeir þá, at á burtu var allr veiðifangi, svá at hvergi sá staði. Þóttust þeir
+      nú ekki vel staddir, en ekki gaf á burtu. Gengu þeir nú heim til skála ok váru þar um daginn.
+      Um nóttina vaknar Grímr við þat, at hlegit var úti hjá skálanum. Hann spratt þá upp skjótt ok
+      tók öxi sína ok gekk út. Hann hafði ok með sér sem ávallt endrarnær örvarnar Gusisnauta, er
+      Ketill hængr, faðir hans, hafði gefit honum. En er hann kom út, sá hann tvær tröllkonur við
+      skip niðri, ok tók í sinn stafninn hvár þeira ok ætluðu at hrista í sundr skipit. Grímr mælti
+      ok kvað vísu: <lg>
+       <l>"Hvat heita þær</l>
+       <l>hrauns íbúur,</l>
+       <l>er skaða vilja</l>
+       <pb n="271"/>
+
+       <l>skipi mínu?</l>
+       <l>Ykkr hefi ek</l>
+       <l>einar sénar</l>
+       <l>ámátligastar</l>
+       <l>at yfirlitum."</l>
+      </lg> Sú kvað vísu, er nær honum stóð: <lg>
+       <l>"Feima ek heiti,</l>
+       <l>fædd var ek norðarla,</l>
+       <l>Hrímnis dóttir</l>
+       <l>ór háfjalli.</l>
+       <l>Hér er systir mín,</l>
+       <l>hálfu fremri,</l>
+       <l>Kleima at nafni,</l>
+       <l>komin til sjóvar."</l>
+      </lg> Grímr kvað: <lg>
+       <l>"Þrífist hvergi</l>
+       <l>Þjaza dóttir,</l>
+       <l>brúðir verstar.</l>
+       <l>Brátt skal ek reiðast.</l>
+       <l>Ykkr skal ek rétt,</l>
+       <l>áðr röðull skíni,</l>
+       <l>vörgum senda</l>
+       <l>víst til bráðar."</l>
+      </lg> Kleima kvað: <lg>
+       <l>"Þat var fyrri,</l>
+       <l>at faðir okkarr</l>
+       <l>burtu seiddi</l>
+       <l>báru hjarðir.</l>
+       <l>Skuluð aldrigi,</l>
+       <l>nema sköp ráði,</l>
+       <l>heilir heðan</l>
+       <l>heim of komast."</l>
+      </lg> Grímr kvað: <lg>
+       <l>"Skal ek ykkr báðum</l>
+       <l>skjótla heita</l>
+       <l>oddi ok eggju</l>
+       <l>í upphafi.</l>
+       <pb n="272"/>
+
+       <l>Munu þá reyna</l>
+       <l>Hrímnis mellur,</l>
+       <l>hvárt at betr dugir</l>
+       <l>broddr eða krumma."</l>
+      </lg> Grímr tók þá eina af Gusisnautum ok skaut þá, er firr honum stóð, svá at hún fekk þegar
+      bana. Feima mælti: "Illa fór nú, Kleima systir." Hún veðr þá upp at Grími. Hann höggr þá til
+      hennar með öxinni, ok kom á herðarblaðit. Hún kvað við hátt ok hljóp inn með fjörum. Grími
+      varð laus öxin við höggit, ok stóð hún föst í sárinu. Grímr hljóp eptir, ok bar hvárki með
+      þeim sundr né saman, ok allt þar til at þau kómu at björgum stórum. Þar sá hann framan í
+      björgunum helli mikinn. Þar var einstigi upp at ganga, ok hljóp hún þar upp sem sléttan völl.
+      Ok í því er hún hóf sik til hlaups upp í björgin, hraut öxin ór sárinu. Grímr tók hana þegar
+      upp, ok varð hann at krækja öxinni í annat sporit, er hann stóð í öðru, ok las sik svá eptir
+      skaptinu, ok svá komst hann upp í hellinn. Þar sá hann brenna bjartan eld, ok sátu tvau tröll
+      við eldinn. Þat var karl ok kerling. Þau spyrndust í iljar. Þau váru í stuttum ok skörpum
+      skinnstökkum bæði. Gerla sá hann, hversu þau váru í sköpun bæði í millum fótanna. Hann hét
+      Hrímnir, en hún Hyrja. En er Feima kom inn í hellinn, heilsuðu þau henni ok spurðu, hvar
+      Kleima, systir hennar, væri. Hún svarar: "Gettu þessna, hún liggr dauð út með fjörum, en ek
+      særð banasári. En þit liggið inni ok fletizt hér við eld." Jötunninn mælti: "Þetta hefir verit
+      lítit fremdarverk, at drepa ykkr, aðra sex vetra, en hina sjau. Eða hverr hefir gert þetta?"
+      Feima svarar: "Þetta hefir gert illmennit Grímr loðinkinni. Eru þeir feðgar meir lagðir til
+      þess en aðrir menn at drepa niðr tröll ok bergbúa. En þó at <pb n="273"/> hann hafi nú þetta
+      gert, þá mun hann þó aldri ná Lopthænu, konu sinni. Ok er þat nú gaman, svá skammt sem nú er á
+      millum þeira." Hrímnir mælti þá: "Því veldr Grímhildr, systir mín, ok er henni flest til
+      mennta gefit." Þá mæddi Feimu blóðrás, ok fell hún dauð niðr. Í því gekk Grímr inn í hellinn
+      ok hjó til Hrímnis karls svá hart, at af tók höfuðit. Þá spratt Hyrja kerling upp ok rann á
+      hann, ok tóku þau at glíma, ok var þeira atgangr bæði harðr ok langr, því at hún var it mesta
+      tröll, en Grímr var rammr at afli. En þó lauk svá, at hann brá henni á loptmjöðm, svá at hún
+      fell. Hjó hann þá af henni höfuðit ok gekk af henni dauðri, fór síðan til skála síns. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Annan dag eptir var veðr gott. Gengu þeir þá um fjörur ok sáu, hvar rekin var reyðr mikil.
+      Gengu þeir þangat ok tóku til hvalskurðar. Litlu síðar sá Grímr, hvar tólf menn gengu. Þá bar
+      brátt at. Grímr heilsar þeim ok spyrr at nafni. Sá kveðst heita Hreiðarr inn hvatvísi, er
+      fyrir þeim var, ok spurði, hví Grímr vildi ræna hann eigu sinni. Grímr kveðst fyrr hafa fundit
+      hvalinn. "Veiztu eigi," sagði Hreiðarr, "at ek á hér reka alla?" "Eigi veit ek þat," sagði
+      Grímr, "en hversu sem er, þá höfum at helmingi." "Eigi vil ek þat," sagði Hreiðarr. "Þér
+      skuluð gera annathvárt, ganga frá hvalnum ella munu vér berjast." "Fyrr gerum vér þat," sagði
+      Grímr, "en missa allan hvalinn," fóru síðan til ok börðust, ok gerðist þar in harðasta sókn.
+      Hreiðarr ok hans menn váru bæði stórhöggvir ok vápnfimir, ok innan lítils tíma fellu báðir
+      menn Gríms. <pb n="274"/> Var þá bardagi inn harðasti, en þó lauk svá, at Hreiðarr fell ok
+      allir menn hans. Grímr fell ok bæði af sárum ok mæði. Lá hann þar nú í valnum í fjörunni ok
+      ætlaði sér ekki nema dauða. En er hann hafði eigi lengi legit, sá hann, hvar kona gekk, ef svá
+      skyldi kalla. Hún var eigi hæri en sjau vetra gamlar stúlkur, en svá digr, at Grímr hugði, at
+      hann mundi eigi geta feðmt um hana. Hún var langleit ok harðleit, bjúgnefjuð ok baröxluð,
+      svartleit ok svipilkinnuð, fúlleit ok framsnoðin. Svört var hún bæði á hár ok á hörund. Hún
+      var í skörpum skinnstakki. Hann tók eigi lengra en á þjóhnappa henni á bakit. Harðla ókyssilig
+      þótti honum hún vera, því at hordingullinn hekk ofan fyrir hváptana á henni. Hún gengr þangat
+      at, sem Grímr lá, ok mælti: "Lágt fara nú höfðingjarnir Háleygjanna, eða viltu, Grímr, þiggja
+      líf af mér?" Grímr svarar: "Varla kann ek þat, svá ámátlig sem þú ert, eða hvert er nafn
+      þitt?" Hún svarar: "Ek heiti Geirríðr Gandvíkrekkja. Máttu þat ætla, at ek er hér nokkurs
+      ráðandi um víkina, ok ger þik greiðan í öðru hváru." Grímr svarar: "Þat er fornt orð, at frekr
+      er hverr til fjörsins, ok mun ek þat kjósa at þiggja líf af þér." Hún greip hann þá upp undir
+      skinnstakkinn ok hljóp með hann sem eitt lébarn ok svá hart, at hann var vinds fullr. Hún
+      létti eigi fyrri en þau kómu at helli einum stórum, ok er hún lét hann niðr, sýndist Grími hún
+      slíkt at ámátligri en fyrr. "Nú ertu hér kominn," sagði hún, "ok vil ek, at þú launir mér, at
+      ek barg þér ok bar hingat, ok kyssir mik nú." "Þat má ek engan veg gera," sagði Grímr, "svá
+      fjándliga sem mér lízt nú á þik." "Þá mun ek enga þjónustu þér veita," sagði Geirríðr, "ok sé
+      ek, at þá ertu skjótt sem dauðr." "Þat mun þá þó vera <pb n="275"/> verða," sagði Grímr, "þó
+      at mér sé þat mjök í móti skapi." Hann gekk þá at henni ok kyssti hana. Eigi þótti honum hún
+      svá ill viðkvámu sem hún var hrímuglig at sjá. Þá var komit at kveldi. Bjó Geirríðr þá sæng ok
+      spurði, hvárt Grímr vill liggja einn saman eða hjá sér. Grímr kvaðst heldr vilja liggja einn
+      saman. Hún kveðst þá enga stund vilja á leggja at græða hann. Grímr sá, at þat mátti honum
+      eigi nægja, ok kveðst þá heldr mundu hjá henni liggja, ef sá væri á baugi. Gerði hann þá svá.
+      Batt hún áðr öll sár hans, ok þóttist hann hvárki kenna sviða né sárinda. Þat þótti honum
+      undarligast, hversu mjúkfingruð hún var, svá ljótar hendr sem honum sýndist hún hafa, því at
+      honum þótti þær gammsklóm líkari en mannshöndum. En þegar er þau kómu í sæng, sofnaði Grímr.
+      En er hann vaknar, sá hann konu svá fagra liggja í sænginni hjá sér, at slíka þóttist hann
+      varla sét hafa. Hann undraðist, hversu lík hún mátti vera sköpuð Lopthænu, festarkonu hans.
+      Niðri fyrir stokkinum sá hann, hvar lá sá inn illiligi tröllkonuhamr, er Geirríðr
+      Gandvíkrekkja hafði haft. Raun-máttlítil var þá þessi kona. Hann stóð upp skjótt ok dró haminn
+      fram í eldinn ok brenndi upp at kolum. Síðan fór hann til ok dreypti á konuna, þar til at hún
+      raknaði við ok mælti: "Nú hefir hvárttveggja okkar vel: Ek gaf þér líf fyrir öndverðu, en þú
+      komt mér ór ánauðum." "Hversu komtu hér, eða með hverju móti er um hag þinn?" sagði Grímr. Hún
+      svarar: "Litlu síðar en þú vart farinn ór Vík austan frá Haraldi, föður mínum, mætti
+      Grímhildr, stjúpmóðir mín, mér, svá talandi: "Nú skal ek þat launa þér, Lopthæna, at þú hefir
+      sýnt mér þrjózku ok þverúð, síðan er ek kom í ríkit. Læt ek þat verða um mælt, at þú verðir at
+      inni ljótustu tröllkonu ok hverfir norðr <pb n="276"/> til Gandvíkr ok byggir þar afhelli ok
+      sitir þar í stóðrenni við Hrímni, bróður minn, ok eigizt þit við bæði margt ok illt, ok hafi
+      þat verr, sem verr herðir sik. Þú skalt ok vera hvimleið öllum, bæði tröllum ok mönnum. Þú
+      skalt ok," sagði hún, "í þessari ánauð vera alla þína ævi ok aldri ór komast, nema nokkurr
+      mennskr maðr játi þér þeim þrim hlutum, sem þú beiðir, sem ek veit, at engi mun vera. Sá er
+      inn fyrsti at þiggja at þér líf, sá annarr at kyssa þik, ok sá er inn þriði at byggja eina
+      sæng ok þú, sem öllum mun first um fara." Nú hefir þú þessa hluti alla við mik gerva, enda var
+      þér ok skyldast. Nú vil ek, at þú færir mik í Vík austr til föður míns ok drekkir til mín
+      brullaup eptir því, sem ætlat var." Síðan fóru þau heim til skála Gríms, ok var þá nógr
+      veiðifangi. Lá þá hvalr í hverri vík. Hlóð hann nú ferju sína, ok er hann var búinn, helt hann
+      frá landi, ok váru þau tvau á skipi, Grímr ok Lopthæna. Tók hann þá til listar þeirar, er haft
+      hafði Ketill hængr, faðir hans, ok aðrir Hrafnistumenn, at hann dró upp segl í logni, ok rann
+      þegar byrr á. Sigldi hann þá heim í Hrafnistu, ok þóttust menn hann hafa heimtan ór helju.
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Litlu síðar kom Grímr í Vík austr, ok fór Lopthæna með honum. Grímhildr réð þá náliga öllu
+      ein austr þar. En þegar Grímr kom, lét hann Grímhildi verða tekna ok færðan belg á höfuð henni
+      ok barða grjóti í hel, því at hann hafði áðr sagt Haraldi hersi, hversu farit hefði. Gerði
+      hann þá brullaup til Lopthænu ok <pb n="277"/> fór heim síðan í Hrafnistu. En Haraldr hersir
+      kvæntist í þriðja sinn ok fekk Þórgunnar Þorradóttur. Eigi höfðu þau Grímr ok Lopthæna lengi
+      ásamt verit, áðr þau áttu dóttur þá, er Brynhildr hét. Hún óx upp í Hrafnistu ok var in
+      fegrsta mær. Unni Grímr henni ok mikit. En er hún var tólf ára gömul, bað hennar sá maðr, er
+      Sörkvir hét ok var Svaðason, Rauðfeldssonar, Bárðarsonar, Þorkelssonar bundinfóta. Hún vildi
+      ekki ganga með honum, ok fyrir þat skorar Sörkvir Grím á hólm. Grímr játar því. Sörkvir var
+      sygnskr at móðurætt, ok þar átti hann búum at stýra. Á hálfsmánaðar fresti átti hólmgangan at
+      vera. Ásmundr hefir hersir heitit í Noregi. Hann réð fyrir þeim bæ, er á Berurjóðri heitir.
+      Hann var kvángaðr maðr ok átti þann son, er Ingjaldr hét. Hann var inn fræknasti maðr ok var
+      löngum með Grími loðinkinna, ok var með þeim vinátta mikil, en þó var Ingjaldr þeira eldri, en
+      miklu sterkari var Grímr. Ingjaldr fekk þeirar konu, er Dagný hét, dóttur Ásmundar, er við
+      Gnóð var kenndr, en systur Óláfs liðsmanna konungs. Við henni átti hann þann son, er Ásmundr
+      hét, er síðan var fóstbróðir Odds ins víðförla, er var með Sigurði hring á Brávelli, er öðru
+      nafni hét Örvar-Oddr. Í nefndan tíma kom Sörkvir til hólmsins við tólfta mann. Þat váru allt
+      berserkir. Þar var Grímr þá ok kominn ok Ingjaldr með honum ok margir háleygskir bændr. Gengu
+      þeir á hólm, ok átti Grímr fyrr at höggva. Hann hafði sverðit Dragvendil, er faðir hans hafði
+      átt. Sá hét Þröstr, er skildi helt fyrir Sörkvi. Grímr hjó svá mikit it fyrsta högg, at hann
+      klauf skjöldin at endilöngu, en blóðrefillinn nam vinstri öxl á Þresti ok sneiddi svá um þvert
+      manninn í sundr fyrir ofan mjöðmina ina hægri, ok hljóp svá sverðit á lærit Sörkvi, <pb
+       n="278"/> at tók undan honum báða fæturna, annan fyrir ofan kné, en annan fyrir neðan, ok
+      fell hann dauðr niðr. Þeir Ingjaldr snúa nú at þeim tíu, sem eptir váru, ok léttu eigi, fyrr
+      en þeir váru allir drepnir. Þá kvað Grímr vísu: <lg>
+       <l>"Hér höfum fellt</l>
+       <l>til foldar</l>
+       <l>tírarlausa</l>
+       <l>tólf berserki.</l>
+       <l>Þó var Sörkvir</l>
+       <l>þróttrammastr</l>
+       <l>þeira seggja,</l>
+       <l>en Þröstr annarr."</l>
+      </lg> Ok enn kvað hann: <lg>
+       <l>"Fyrst mun ek líkja</l>
+       <l>ept feðr mínum:</l>
+       <l>skalat mín dóttir,</l>
+       <l>nema skör höggvist,</l>
+       <l>nauðig gefin</l>
+       <l>neinum manni,</l>
+       <l>guðvefs þella,</l>
+       <l>meðan Grímr lifir."</l>
+      </lg> Fór Grímr nú heim eptir hólmgönguna, en Ingjaldr til Berurjóðrs. Litlu seinna andaðist
+      faðir hans, ok tók hann þá við öllum eignum ok gerðist gildr bóndi ok inn mesti búrisnumaðr.
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Nokkurum vetrum fyrr hafði andazt Böðmóðr Framarsson ok átti eina dóttur við Hrafnhildi,
+      konu sinni, er Þórný hét. Hennar sonr var Þorbjörn tálkni, faðir Ketils breiðs, föður
+      Þórnýjar, er átti Hergils hnapprass. <pb n="279"/> Hrafnhildr fór þá heim í Hrafnistu til
+      Gríms, bróður síns. Þorkell er nefndr ágætr maðr. Hann var jarl yfir Naumdælafylki. Hann fór
+      til Hrafnistu ok bað Hrafnhildar. Hún var honum gift. Þeira sonr var Ketill hængr, er inni
+      brenndi Hárek ok Hrærek, Hildiríðar sonu, fyrir þat, at þeir rægðu Þórólf, frænda hans. Eptir
+      þat fór Ketill til Íslands ok nam þar land milli Þjórsár ok Markarfljóts ok bjó at Hofi. Sonr
+      hans var Hrafn, inn fyrsti lögmaðr á Íslandi. Annarr sonr hans var Helgi, faðir Helgu, er átti
+      Oddbjörn askasmiðr. Inn þriði var Stórólfr, faðir Orms ins sterka ok Hrafnhildar, er átti
+      Gunnarr Baugsson. Þeira sonr var Hámundr, faðir Gunnars á Hlíðarenda, en dóttir Arngunnr, er
+      átti Hróarr Tungugoði. Þeira sonr var Hámundr inn halti. Veðrormr, sonr Vémundar ins gamla,
+      var hersir ríkr. Hann bað Brynhildar, dóttur Gríms loðinkinna. Hún gekk með honum. Þeira sonr
+      var Vémundr, faðir Veðrorms, er stökk fyrir Haraldi konungi austr á Jamtaland, ok ruddu þar
+      mörk til byggðar. Hans sonr var Hólmfastr, en systir Veðrorms hét Brynhildr; hennar sonr
+      Grímr, er hét eptir Grími loðinkinna. Þeir frændr, Grímr ok Hólmfastr, fóru í vestrvíking ok
+      drápu í Suðreyjum Ásbjörn jarl skerjablesa, en tóku þar at herfangi Ólofu, konu hans, ok
+      Arneiði, dóttur hans, ok hlaut Hólmfastr hana ok seldi Veðrormi, frænda sínum, ok var hún þar
+      ambátt, til þess at Ketill þrymr fekk hennar ok hafði hana út til Íslands. Við hana eru
+      kenndir Arneiðarstaðir í Austfjörðum. Grímr fekk Ólofar, dóttur Þórðar vagalda, er jarl hafði
+      átta. Grímr fór til Íslands ok nam Grímsnes allt upp til Svínavatns ok bjó í Öndverðunesi
+      fjóra vetr, en síðan <pb n="280"/> at Búrfelli. Hans sonr var Þorgils, er átti Helgu, dóttur
+      Gests Oddleifssonar. Þeira synir váru þeir Þórarinn at Búrfelli ok Jörundr á Miðengi. Grímr
+      fell á hólmi undir Hallkelshólum fyrir Hallkatli, bróður Ketilbjarnar at Mosfelli. Grímr
+      loðinkinni sat í Hrafnistu, sem fyrr segir. Hann átti son við konu síðarla, er Oddr hét. Hann
+      var fóstraðr hjá Ingjaldi á Berurjóðri. Hann var síðan kallaðr ýmist Örvar-Oddr eða Oddr inn
+      víðförli. Grímr þótti mikill maðr fyrir sér. Hann var rammr at afli ok fullhugi inn mesti ok
+      bjó þó mjök einn um sitt. Hann varð ellidauðr maðr. Ok lýkr hér sögu Gríms loðinkinna. En hér
+      hefr upp Örvar-Odds sögu, ok er mikil saga. </p>
+    </div>
+
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

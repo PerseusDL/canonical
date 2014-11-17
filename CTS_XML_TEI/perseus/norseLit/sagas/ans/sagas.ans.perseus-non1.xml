@@ -1,0 +1,645 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Áns saga bogsveigis</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Áns saga bogsveigis</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Ans_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="403"/> Í ÞANN tíma, er fylkiskonungar váru í Noregi, hófst þessi saga. Þá réðu feðgar
+      tveir fyrir einu fylki. Hét Óláfr inn eldri, en Ingjaldr inn yngri; þó var Ingjaldr fulltíða,
+      er sjá saga gerðist. Ólíkt var þeim feðgum farit. Óláfr konungr var vinsæll, en Ingjaldr var
+      undirhyggjumaðr inn mesti. Björn ok Ketill hétu hirðmenn þeira; hann var kallaðr Björn inn
+      sterki. Þeir váru lyndislíkir ok Ingjaldr konungr, uppivöðslumiklir ok tilleitnir. Dóttur átti
+      Óláfr konungr, þá er Ása hét, kvenna fríðust ok vel at sér. Þeir feðgar réðu fyrir
+      Naumdælafylki. Óláfr konungr var þá gamall, er hér var komit sögunni. Hann hafði átt tvær
+      drottningar, ok var önduð hvártveggi. Hét sú Dís, er hann átti síðar; hana hafði fyrr átt
+      Önundr konungr uppsjá af Firðafylki ok átti við henni tvá sonu, ok hétu Úlfr hvárrtveggi. Þeir
+      réðu nú fyrir Firðafylki, ok þóttist Ingjaldr eiga þat ríki hálft við bræðr sína í erfð eptir
+      móður sína. Átti hann við þá tvær orrostur ok hafði í hvárritveggja ósigr. <pb n="404"/> Björn
+      er bóndi nefndr. Hann bjó í Hrafnistu; hún liggr fyrir Naumudölum. Björn var í inni meiri
+      bóndatölu norðr þar. Kona hans hét Þorgerðr. Hún var dóttir Böðmóðs Framarssonar ok
+      Hrafnhildar Ketils dóttur hængs. Þau Björn áttu þá dóttur, er Þórdís hét. Hana átti Gautr á
+      Hamri, gildr maðr fyrir sér. Þau áttu þann son, at Grímr hét. Hann var snemma bæði mikill ok
+      sterkr. Áttu þau Björn ok Þorgerðr fleiri börn. Þórir hét sonr þeira inn eldri, vænn maðr ok
+      kurteis ok vel at sér um alla hluti. Hann var hirðmaðr Óláfs konungs ok hafði mikil metorð af
+      honum, ok þat til marks um, at Óláfr konungr gaf Þóri sverð þat, er þeir frændr höfðu langan
+      tíma átt ok miklar menjar af haldit. Þat hét Þegn; þat var bæði langt ok breitt ok beit allra
+      sverða bezt; þat var þrískafit. Löngum sat Þórir annan vetr með konungi, en annan hjá feðr
+      sínum. Inn yngri sonr Bjarnar hét Án. Hann var snemma mikill vexti ok ekki vænn ok heldr
+      seinligr, en um afl hans var mönnum ekki kunnigt, því at hann reyndi þat aldri. Heldr þótti
+      hann heimsligr. Lítit ástríki hafði hann af feðr sínum, en móðir hans unni honum mikit. Ekki
+      þótti mönnum hann vera líkr um neitt inum fyrrum frændum sínum, sem var Ketill hængr ok aðrir
+      Hrafnistumenn, nema á vöxt. Ekki lagðist Án í eldaskála, en þó var hann afglapi kallaðr af
+      sumum mönnum. Við engar vandist hann íþróttir. Leið svá fram, þar til at hann var níu vetra.
+      Hann var þá ekki minni en Þórir, bróðir hans. Hann var harðla ósinniligr. Lítt var hann ok
+      settr at klæðum, því at úti váru á honum bæði kné ok olbogar. En er hann var tólf vetra, hvarf
+      hann á burtu þrjár nætr, svá at engi vissi, hvat af honum varð. Án gekk í eitt skógarrjóðr.
+      Hann sá þar stein einn standa mikinn ok mann hjá einum læk. Hann hafði <pb n="405"/> heyrt
+      nefnda dverga ok þat með, at þeir væri hagari en aðrir menn. Án komst þá á millum steinsins ok
+      dvergsins ok vígir hann utan steins ok sagði hann aldri skulu sínu inni ná, nema hann smíðaði
+      honum boga svá stóran ok sterkan sem við hans hæfi væri ok þar með fimm örvar. Þat skyldi þeim
+      fylgja, at hann skyldi um sinn hæfa með hverri, þat er hann skyti til eptir sínum vilja. Innan
+      þriggja nátta skyldi þetta gert vera, ok beið Án þar meðan. Svá gerði dvergrinn sem fyrir var
+      skilit ok með engum álögum, en dvergrinn hét Litr. Án gaf honum skotsilfr nokkut, er móðir
+      hans hafði gefit honum. Stól vænan gaf dvergrinn Án. Síðan fór hann heim ok bar stólinn á baki
+      sér. Hlógu menn þá mjök at honum. Án gaf móður sinni stólinn ok kveðst henni eiga bezt at
+      launa. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Þá er Án var átján vetra, var hann öllum mönnum stærri norðr þar. Hvárki hafði honum þá enn
+      vaxit vit né kurteisi. Þann vetr hafði Þórir setit í Hrafnistu ok hafði þá fengit
+      kenningarnafn af sverði sínu, ok var hann kallaðr Þórir þegn. En um várit bjóst Þórir at fara
+      á konungs fund. Án biðr at fara með honum, en Þórir neitar því þverliga. En er hann fór út til
+      skips, kom Án þar farandi. Þórir spyrr, hvat hann vili þá. Án segist með honum fara skulu,
+      hvárt er hann leggi þar nokkut loforð til eða ekki. Þórir segir hann hvergi fara skyldu, --
+      "kann þú ekki at vera hjá höfðingjum," segir hann, "at varla má við þína siðu hæfa heima hér."
+      Hann tók þá Án ok batt hann við eina eik heldr sterkliga. Ekki brauzt Án við. Síðan fór hann
+      ok eigi langt, áðr hann sá, at Án fór þar ok dró eptir <pb n="406"/> sér eikina; hafði hann
+      kippt henni upp með rótum. Þórir mælti þá: "Undramaðr ertu, frændi, at afli, en eigi lízt mér
+      þó ráð, at þú farir á konungs fund með þvílíka skapsmuni sem þú hefir." Þórir skar þá af honum
+      böndin ok mælti: "Lítils viltu virða mín orð." Hann brá þá sverðinu Þegn ok ógnaði honum með:
+      "Þetta sverð mun kenna þér sannsýni, er þú hefir enga áðr, ok mun þat þik ekki mikils meta ok
+      stemma ferð fyrir þér." Án mælti: "Ekki muntu hræða mik sem sprotabörn, ok at þú vitir, hvers
+      ek á kosti við þik, þá skaltu nú sjá þat." Án þreif þá til Þóris ok brá honum á lopt ok hristi
+      hannsem barn ok mælti: "Sjá nú, hvat þú átt undir þér, ef okkr þykkir eigi einn veg." Hann lét
+      hann þá lausan, ok sá Þórir þá, hvert efni í manninum var. Fóru þeir þá út á skip, en at því
+      hugði Án, hvar hann skyldi þess koma sér, at öllum þætti sér mest mein at. Kaupmenn spurðu
+      hverr annan, hverr sjá maðr væri. Án mælti: "Hví spyri þér mik eigi at? Ek kann at segja yðr.
+      Ek heiti Án ok ættaðr ór Hrafnistu, bróðir Þóris þegns," en þeir kváðust ekki trúa því. Hann
+      kvað þat satt, er hann segði. Þeir létu hann skyldu þar velkominn. Án var klæddr lítt. Þórir
+      bað skera vöru til klæða honum, svá at hann væri eigi svá afleitinn, ok svá var gert. Kom
+      honum þat ekki mjök at haldi, því at hann festi ófimliga á sik, ok varð honum engi búningsbót
+      at þessu. Vel váru skipverjar til Áns. Kunni hann ok eigi annat í móti at leggja. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Þeir Þórir kómu við Naumdælafylki ok spurðu þar þau tíðendi, at andaðr var Óláfr konungr,
+      en Ingjaldr var þá einn konungr yfir því ríki, er þeir höfðu báðir <pb n="407"/> átt. Þórir
+      mælti þá: "Sá lézt þar, er maðr var fremri, ok munda ek eigi norðan hafa farit, ef ek hefði
+      vitat þessi skipti." Þórir kemr nú at konungs bænum. Án hafði með sér boga sinn, ok er þeir
+      kómu at höllinni, bendir Án upp bogann, er ákafliga var sterkr. Þórir spyrr, hvat þat skyldi.
+      Án kvað þat brátt mundu sýnast. Hann lét koma strenginn fyrir brjóst sér, en bogann um
+      herðarnar, skeyti hafði hann í hendi sér. Ok er þeir kómu at hallardyrunum, gáfu dyraverðirnir
+      rúm Þóri, en um ferð Áns varð skarkalamikit, því at hann breytti ekki búningi sínum. Síðan
+      gekk hann at dyrunum fast, en boginn skagði um herðarnar, ok vannst ekki rúm til í dyrunum, ok
+      varð boginn annathvárt at brotna eða beygjast mjök, því at dyrrnar stóðust atgönguna. Þá komst
+      Án í höllina; bendist boginn, en brotnaði ekki. Án sezt utarliga niðr, en Þórir gekk fyrir
+      konung ok kvaddi hann. Konungr tók því vel ok bað hann fara til öndvegis gegnt sér. "Skulu þér
+      hér velkomnir með oss, eða hverr var í för með þér, eða hví skilr þessi maðr svá skjótt við
+      þik?" Þórir mælti: "Sá maðr er bróðir minn ok hefir varla á sér alþýðu hátt." Konungr mælti:
+      "Hann skal hér velkominn, ok siti hann it næsta þér. Gerum vér þat fyrir þínar sakir, ok heyrt
+      höfum vér getit Áns, ok er hann undramaðr í mörgum greinum." Þórir hittir Án ok segir honum
+      konungs orð, -- "ok snú til þín sómahlut, frændi." Án svarar: "Ekki munu vér um rúm skipta,
+      enda liggr mér meira til at þiggja vetrvist." Þórir kveðst hyggja, at hún mundi til reiðu.
+      Eigi at síðr gekk Þórir fyrir konung ok mælti: "Vetrvistar vil ek beiða fyrir Án frænda at
+      hans vilja, þó at sæti sé kyrrt." Konungr mælti: "Til reiðu er honum vetrvist, en hvat er
+      honum annat sæti betra en hjá þér?" Þórir kvaðst engan hlut mega í eiga við <pb n="408"/>
+      hann, -- "hæfir honum þetta gerr fyrr at vilja einn ráða, ok því var ek tregr til, at hann
+      færi með mér, at ek vissa, at honum var kynliga varit." Þórir sagði Án konungs orð. Án mælti:
+      "Þá er nú vel orðit, ok gakktu, bróðir, til rúms þíns." Þórir gerir svá. Án var fálátr ok
+      ósiðblendinn; var hann lengstum í rúmi sínu, nema þá hann gekk erenda sinna. Hirðmenn hlógu at
+      honum mjök, ok var Ketill foringi at því. Án daufheyrðist við þat, ok leið svá fram til jóla.
+      Þá lýsti konungr yfir því, at hann mundi gefa jólagjafir, sem faðir hans hafði gert, kvaðst
+      svá vilja sína menn at sér hylla. Ok affangakveld jóla vitjuðu menn gjafanna allir nema Án.
+      Konungr spurði, hví Án vitjaði eigi gjafanna; "skal hann eigi gjafir þiggja sem aðrir?" Þetta
+      var sagt Án. Örglaðist hann þá upp ok mælti: "Gott þykkir mér gull at þiggja." Ekki var
+      maðrinn sinniligr, þar er hann skauzt fram fyrir konunginn. Furðu var hann mikill at sjá.
+      Konungr mælti: "Í hverju gall svá hátt, Án, er þú gekkst hér inn um dyrr í fyrsta sinn?" "Í
+      boga mínum," sagði Án, "því at svá váru litlar hallardyrr yðar, konungr, at hann bendist allr
+      saman, er ek hafða hann á herðunum, áðr ek komst inn, ok lét í hátt, er aptr hljóp." "Þú
+      skalt," sagði konungr, "heita Án bogsveigir." "Hvat gefr þú mér at nafnfesti?" sagði Án.
+      "Eignast hér gullhring í allt saman," sagði konungr, "í nafnfesti ok jólagjöf, því at ek
+      heyrða, hvat þú mæltir áðan, enda muntu allsterkr maðr, svá stórr sem þú ert." "Þat ætla ek,"
+      kvað Án, "at ek sé allsterkr, en ekki veit ek til." Án tók við ok þakkaði ekki. Hann lék sér
+      at hringinum ok setti á brynju sér. Hann tók gaupnunum til fyrir neðan, ok eitt sinn skauzt
+      hringrinn í brott. Hann fór at leita í forstofuna, en er hann kom aptr, var hann því líkastr
+       <pb n="409"/> sem hann hefði í saurnum laugazt. Sessunautar hans spyrja, hví hann væri svá
+      ferligr. Hann kvað varla at spyrjanda, enn síðr segjanda, -- "en segja munda ek þér, ef þú
+      leyndir." Hann kveðst leyna mundu. Án sagði: "Hér mun sannast þat, er sagt er: "Afgjarnt verðr
+      öfundar fé"; týnt er nú hringinum." Sessunautr hans mælti: "Látum kyrrt yfir því." Án mælti:
+      "Svá skal vera, en ekki er mér þetta ætlat, ok vil ek gefa þeim, sem finnr." Þetta kom fyrir
+      hirðina, ok sagði hverr öðrum, en Ketill hló at mjök ok kvað farit hafa sem ván var at at gefa
+      fóli því gull. Hann fór þá ok leitar at hringinum með hirðinni. Þeir þrengdust fast í
+      forstofunni. Án mælti þá: "Hverju sætir, at menn ganga hér á höndum ok starfa í sauri, enda
+      heldr hér við sviptingar?" Honum var sagt, at menn vildu bæta slys hans ok finna hringinn. Án
+      mælti: "Eigi em ek til minnugr. Hér er nú hringrinn á hendi mér, en nú galt ek yðr einn tíma,
+      er þér hafið mik opt dárat." Hirðmenn kváðust mjök spottaðir. Án kvað svá eiga at vera. Síðan
+      var hvíld á gabbit, en þó dró til ins sama, ok var Ketill mest at því. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Einn dag var þat, at þeir bræðr váru tveir úti hjá höllinni. Þá kómu hirðmenn út ok mæltu:
+      "Þú munt sterkr maðr vera, Án." Hann svarar: "Vera má, at svá sé, en ekki hefi ek reynt þat."
+      Þeir mæltu: "Viltu glíma við Björn?" Hann svarar: "Þar skal yðr kost á gera. Þér skuluð þjóna
+      mér ok gera eld stóran fyrir mér." Þeir gera svá ok buðu honum til at bakast. Hann kvað sér
+      meiri þörf mundu, þá er hann kemr frá fanginu, at <pb n="410"/> mýkja sik. Síðan bjuggust þeir
+      til glímu í höllinni. Án var þá kominn í loðkápu, er móðir hans hafði gefit honum. Ekki hafði
+      hann belti um sik, en hún var svá síð, at hann dró hana eptir sér meir en alnarlangt; tóku
+      ermar fram af höndum honum. Björn hljóp þá at Án, en hann stóð kyrr fyrir. Björn var allra
+      manna sterkastr. Hann greip Án upp ok kastar honum utar á bálit, svá at hann kom at herðunum í
+      eldinn niðr, en fætrnir skullu utar á bálkinn. Þá varð hlátr mikill. Án stóð seint upp. Ekki
+      sakar hann eldrinn sakir loðkápunnar. Konungr mælti þá: "Eigi þykkir mér þú, Án, jafnsterkr
+      sem þú lézt." Án mælti: "Sá þykki mér, konungr, sterkari, er fyrri fellr." Konungr hló þá. Án
+      lét at sér belti ok stytti sik upp ok braut upp ermarnar. Þeir hlaupast þá at í annat sinn. Án
+      dró þá Björn at sér ok veifir honum sem barni ok slöngvar honum síðan utar á eldinn ok lét
+      hann svá lausan. Hirðmenn hlupu til ok kipptu honum af eldinum, ok var Björn brunninn mjök.
+      Þeir kváðu mann þenna ærit sterkan. Þat fell Án vel í skap sínum, at hann var sterkr kallaðr,
+      ok kvað nú mega sjá, at hann vildi, at Björn bakaðist við eldinn, ok kvað honum meiri þörf en
+      sér. Án kvað þá vísu: <lg>
+       <l>"Skelldi mér, sem skyldit,</l>
+       <l>skelkinn maðr við belki;</l>
+       <l>við máttak þá vættki</l>
+       <l>vinna; svei þeim manni;</l>
+       <l>varð í fang at fallast,</l>
+       <l>felldum eldsmat nokkut;</l>
+       <l>honum synjaðak heiðri</l>
+       <l>heldr; svei þeim æ manni."</l>
+      </lg> Nú leið á vetrinn, ok einn dag váru þeir bræðr enn úti staddir tveir saman. Þá mælti
+      Þórir: "Unir þú eigi illa við hingatferð þína, þar sem þú hefir sótt hingat <pb n="411"/> háð
+      ok spott?" Án kveðst eigi illa við una, -- "hefi ek hér þegit gull ok vetrvist góða, en ek
+      hirði eigi um spott þeira." Þórir sagði: "Ek mun raun til gera, hversu mér þykkir. Ek mun gefa
+      þér sverðit Þegn, at þú drepir einhverja tvá konungsmenn, ok setjast sjálfr fyrir sökina." Án
+      mælti: "Ek vil sjá sverðit, ok mun ek þat þiggja, en ekki mun ek heita þeim launum." Ok annan
+      dag um drykkjumál reis Án upp ok snýst at þeim, sem honum sat næst, ok horfir á hann, ok svá
+      gerði hann við alla í höllinni; fyrir konungi stóð hann lengst. Síðan gekk hann fyrir Þóri ok
+      leggr sverðit á borð fyrir hann ok kveðst ekki hafa vilja. Þar varð at hlátr mikill, en Þóri
+      þótti stórilla. Einn tíma fundust þeir bræðr tveir saman, ok spyrr Þórir: "Hví fórtu svá
+      óskapfelliliga, bróðir, ok allt öðruvís en ek hugða?" Án sagði: "Ek hugða at, hver hefnd mér
+      þótti í konungs mönnum, ok þótti mér engi. En því horfða ek lengst á konung, at þar var helzt
+      reik á ráðinu, hvárt ek munda af ráða." Þórir mælti: "Of heimskr ertu, því at konungr er þér
+      velviljaðr." Án sagði: "Ekki þurfu vit um hann at ræða, því at ek hygg, at engi mun verri maðr
+      upp vaxa í Noregi en konungr sjá." Skildu þeir þá tal sitt, ok leið at vári. Þá lætr Ingjaldr
+      konungr þings kveðja. Hann stóð upp á þinginu ok mælti: "Þat er mönnum kunnigt, at faðir minn
+      er dauðr ok ek á ríkit þetta, ok vil ek því lýsa, at ek vil þeim öllum yfirbætr veita, er ek
+      hefi af gert við, ok gefa þeim ok öllum yðr góð lög. En til ferðar skylda ek yðr, mína þegna,
+      ok sækja á fund bræðra minna, ok vér mættum semja friðsamliga vár ríki, ok mun ek fá mínum
+      mönnum vistir ok mungát." Hér verðr at góðr rómr. Þá mælti Án: "Vel mun þér þykkja konungr
+      mæla, bróðir." Þórir kvað þat upp á finnast. <pb n="412"/> Án sagði: "Ek kann þér þat at
+      segja, at nú er hann þeim verst viljaðr ok þykkist þann veginn mestu illu mega á leið koma við
+      þá." Þórir kvað hann ekki afhugaðan við konung. Eptir þat búast þeir. Án spyrr Þóri, hvárt
+      hann vill, at hann fari með hirðinni, -- "ok yðr ok konungi. Er ok lítit erendit, ef ek ferr
+      svá búinn í burt, ok allósýnt, hversu mér tekst hér vistin meðan. Em ek fúsari at fara með
+      yðr, þat mun lengst uppi ok gegna verst." Þórir kveðst vilja, at hann færi, ok halda þeir
+      norðr með konungi ok liggja undir eyjum nokkurum. Þá mælti konungr, at skyldi reisa
+      hafnarmerki. Þá kvað Án vísu: <lg>
+       <l>"Vel þér, selja,</l>
+       <l>stendr þú sævi nær</l>
+       <l>laufguð harðla vel;</l>
+       <l>maðr skekr af þér</l>
+       <l>morgindöggvar,</l>
+       <l>en ek at Þegni</l>
+       <l>þrey nátt sem dag."</l>
+      </lg> Þórir mælti: "Eigi skaltu þess þurfa, því at ek mun gefa þér sverðit Þegn." Án segir:
+      "Ekki þrey ek at þeim þegni." Ketill sagði þá: "Ek ætla, at þú þreyir at karlmanni nokkurum,
+      ok viltu serða hann," ok gerðu þeir at þessu gys mikit ok dáraskap. "Eigi er svá," sagði Án,
+      "ekki þrey ek at þeim þegni, ek þrey at Þóri þegn, bróður mínum, því at hann er svá
+      grunnhygginn, at hann trúir konungi þessum, en ek veit, at hann mun honum at bana verða."
+      Síðan koma þeir við Firðafylki. Þá sagði Ingjaldr konungr: "Ek hygg, at vér séum nú komnir í
+      ríki bræðra minna, ok hefi ek þat spurt, at þeir vilja eigi við oss sættast, ok þykki mér
+      vænst, at vér munum berjast ok frelsa oss svá af mótgangi þeira." Margir vildu þá heldr <pb
+       n="413"/> hafa heima setit en þar komit. En er þeir bræðr spyrja þat, safna þeir liði í mót
+      Ingjaldi konungi. En Ingjaldr konungr bað gefa mönnum at drekka, svá at þeir sé framgjarnir.
+      Þá kom at Án mikit uxahorn. Hann kvað vísu: <lg>
+       <l>"Því betra mér þykkir,</l>
+       <l>ef þó skal valr falla,</l>
+       <l>at fráligar færum</l>
+       <l>fót at geira móti;</l>
+       <l>drekkum allt af uxa</l>
+       <l>enni geira hlenni,</l>
+       <l>vera mun snarpra sverða</l>
+       <l>svipun, ef ek skal ráða."</l>
+      </lg> Konungr mælti: "Þetta er vel ort, ok er sá eigi berskjaldaðr, er þú gengr á aðra hönd."
+      Án mælti: "Ekki vænti ek, at þat verði því nýt í dag, þó at ek kunna fylgd at veita." Konungr
+      kvaðst ekki vita, hvat þegna hann væri. Án lét hvárutveggja þeira sýnast mundu. Hann lagðist
+      niðr á skipi, þá aðrir gengu upp at berjast. Þórir mælti: "Allillr er þinn hlutr, hafa fyrst
+      farit hingat ok liggja nú á skipi, er liðs er þörf; ek ætlaða, at hugr mundi þik fríða." Án
+      kvað eigi hirða um orð hans. Konungr gekk upp, ok kom landherrinn á móti þeim. Hittust þeir
+      við skóg nokkurn ok börðust. Án stóð upp ok gekk til skógar ok á einn stofn. Hann sá þaðan
+      yfir liðit hvárttveggja ok tvau merki fram borin fyrir bræðrum Ingjalds konungs. Án mæltist
+      við einn saman: "Hví mun eigi þat ráð at veita lið Ingjaldi konungi ok þat þó, at honum er
+      mest óþörf at ok hann girnist sjálfr? Ek mun skjóta, ok er meiri ván, at ek hæfa, því at þat
+      sagði sá, er mér gaf bogann ok örvar þessar, at ek munda beinskeytr verða, en þat var
+      dvergrinn, sá er ek hitta fyrr í skóginum í Hrafnistu, en menn ætluðu <pb n="414"/> mik
+      horfinn, at vit dvergrinn skiptumst þessu við, ok skal nú reyna smíðina, er hann leysti sik ok
+      sitt höfuð, en áðr vígða ek hann utan steins. Lét hann mik skjóta mundu þrjú frægðarskot ok
+      eitt sinn með hverju skeyti." Hann skaut ok stefndi á annan þeira Úlfanna, ok fló örin í
+      gegnum hann ok í kjörr at baki honum. Fell þá þegar merkit. Án náði örinni ok strauk til
+      skipanna. Ok er menn sáu þat, þá sögðu þeir konungi, at hann mundi snærisspjóti lagðr eða
+      skotinn. Um kveldit kómu menn til skipa. Var þá alltíðrætt um skotit. Án heyrði þat ok kvað þá
+      mega sækjast, -- "ef nú er hálfunnit". Um morguninn eggjaði konungr menn til uppgöngu ok
+      kveðst vænta sigrs. Án var eptir, ok kvaddi hann engi til uppgöngu. Honum kom í hug, at
+      Ingjaldr konungr mundi þurfa liðs. Hann skaut ör annarri. Kom sú fyrir brjóst Úlfi, ok var
+      hann því óharðskeytari en fyrr, at örin stóð þar föst. Kenndu menn skeytit ok ætluðu þat, sem
+      var, at einn maðr mundi eiga bæði skeytin, þótt þat sæist eigi. Konungr mælti: "Fyrir löngu
+      vissa ek, at Án mundi atgervismaðr vera." Konungr sendi eptir honum ok segir, at hann ætti
+      ágæt laun fyrir at hafa. Sendimenn sáu, at Án var þá kominn á bát ok eigi allnæri þeim. Þeir
+      sögðu honum konungs orð ok kveðju, at hann mundi virðingu mæta fyrir framgöngu sína. Án mælti:
+      "Ek mun eigi fara á konungs fund, því at hann mun mér unna gálgans fyrir mitt starf." Menn
+      kómu aptr ok sögðu konungi. Hann segir: "Eigi var hann fjargætr, ok vilda ek, at eigi gerði
+      hann fleiri launvígin við göfga menn, ok ætlaða ek bræðrum mínum líf ok eiga ríki undir þeim."
+      Þórir mælti: "Illa ferr þér; vildir þú heldr sjálfr gert hafa. Ekki var þat um hríð, at eigi
+      vildir þú þá feiga." Konungr svarar: "Hefði hann upp <pb n="415"/> gengit með oss, væri hann
+      verðr sæmdar, en fyrir launvíg væri hann verðr bana." Þórir kveðst ætla, at jöfn laun mundi
+      hann honum fyrir hyggja. Ingjaldr tók eignir bræðra sinna ok setti menn yfir fylkit. Síðan var
+      orpinn haugr eptir þá, er heitir Úlfahaugr. Konungr var á skipum ok búinn til burtfarar.
+      Ketill kveðst vilja hitta vin sinn, er skammt bjó þaðan í burt. Konungr svarar: "Lát eigi sein
+      at þér, því at vér siglum snart." Ketill hafði skeyti Áns í hendi sér. Hann kom at bæ bónda
+      eins skammt frá skipunum. Ekki var honum sá kunnr. Bóndi heilsaði honum ok spurði at nafni.
+      Hann svarar: "Ek heiti Án bogsveigir, er þú munt nú heyrt hafa getit af skotum mínum." Bóndi
+      svarar: "Án mættum vér hafa verit þinna skota hér, því at höfðingjar várir váru vinhollir. En
+      ver með oss í nótt." Hann kvað þat mundu þekkjast. Ekki var þar fleira manna en kona hans ok
+      dóttir. Hún hét Drífa. Nú er at segja frá Án, at hann rær á einn leynivág ok kom at þeim sama
+      bæ ok nam nú staðar ok hlýðir til tals manna. Gestrinn tók til orða: "Er sjá dóttir þín,
+      bóndi?" "Svá er satt," sagði hann. "Ek ætla mér at byggja rekkju með henni í nótt, ok mun yðr
+      eigi betr boðit." Karli kveðst ekki mikit um þat. Ketill kveðst gert hafa meiri stórvirki en
+      ná rekkju hennar. Ok er Án heyrir þetta, drap hann högg á dyrr ok gekk at dyrunum. Þræll gekk
+      til hurðar ok allt út mjök, áðr hann sá manninn. Hann spyrr hinn at nafni. Sá kveðst Án heita.
+      Þrællinn sagði: "Hér er mikit um ánagang, svá hét ok sá, er kominn er inni." Án sagði svá vera
+      mega ok gekk inn ok settist gegnt Katli. Bóndi spyrr hann at nafni. Þessi nefndist Án. Bóndi
+      sagði: "Hér er ánótt mjök, eða viltu með oss vera?" Hann kveðst þat þiggja mundu, "en hafa
+      verð ek dvöl nokkura, <pb n="416"/> áðr en ek mötumst, eða hefir hann Án nefnzt Ketill?" Hann
+      sagði: "Ek brá því í gaman." Án mælti: "Þetta hefir vel at móti borit um fundi okkra. Várum
+      vit í einni vist báðir, ok leitaðir þú eptir nokkurum hlutum um atgervi mína, ok þóttist þú
+      ekki af því sjá, heldr hitt, at ek væra skiptingr, en ek em þó atgervismaðr, ok kann ek
+      lækning at gera vel at kvensemi. Ek heyrða áðan, at þú leitaðir eptir við dóttur bónda um
+      hjáhvílur." Hann tók nú í lyrg honum ok lét hann skurka út ok kvað vísu: <lg>
+       <l>"Þat munt finna,</l>
+       <l>er þú flór mokar,</l>
+       <l>at þú eigi ert</l>
+       <l>Án bogsveigir;</l>
+       <l>þú ert brauðsveigir</l>
+       <l>heldr en bogsveigir,</l>
+       <l>ostasveigir</l>
+       <l>en álmsveigir."</l>
+      </lg> Hann batt hann ok rak af honum hárit ok bar í tjöru ok mælti, at svá skyldi hverr fljúga
+      sem fjaðraðr væri. Hann stakk ór honum annat augat, síðan geldi hann hann. Eptir þat leysti
+      hann hann ok fekk honum tvá stafi, -- "en ek mun taka við skeyti mínu." Án mælti: "Þat kalla
+      menn konungs gersimi, ef nokkut er annars afbragð. En þér er nú brugðit nokkut, ok því sendi
+      ek þik nú svá búinn Ingjaldi konungi, ok geld ek honum þik fyrir annan bróður sinn, hvé nær
+      sem fyrir annan er goldit." Ketill leitar til skipanna ok sagði konungi, ok báru honum vitni
+      stafir hans, at hann var stirðr orðinn, en sjón var sögu ríkari um augu hans ok eistu, at á
+      burt var hvárttveggja. "Afhendr ertu mér," sagði konungr ok rak hann á burt frá sér. <pb
+       n="417"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Nú er at segja frá Án, at hann mælti við bónda: "Þér tókuð vel við mér, ok skyldir þú eigi
+      illt af mér hljóta. Skulu vit eyða bæinn ok fara í skóg, því at konungsmenn munu brátt koma
+      hér," ok svá gerðu þeir. Án var þessu nærgætr, því at konungr sendi menn þegar um nóttina, ok
+      brenndu þeir upp bæinn ok fóru aptr síðan. Konungr mælti við sína menn: "Ef Án hefir undan
+      komizt, þá legg ek þrjár merkr silfrs til höfuðs honum, ok geri ek hann útlægan um allan
+      Noreg." Þetta spyrst nú víða. Konungr kom heim í sitt ríki. Án var með karli ok húsar upp bæ
+      hans um sumarit. Án var svá búinn hversdagliga, at hann var í hvítu pilsi; þat var svá sítt,
+      at þat nam hæl. Þá var hann í grám pilsungi; hann tók ofan á miðjan kálfann. Þá var hann í
+      rauðum kyrtli; hann tók ofan á kné. Yzt var hann í vándum vöruváðarstakki; hann tók ofan á
+      mitt lær. Hann hafði hatt á höfði ok viðaröxi í hendi. Maðrinn var furðu stórr ok karlmannligr
+      ok ekki dávænn. Þat var einn dag, at Án mætti úti Drífu karlsdóttur. Þrjár konur gengu með
+      henni. Hún var kvenna vænst ok vel búin. Hún var í rauðum kyrtli ermalöngum ok ekki niðr
+      víðum, síðum ok miðþröngum. Hún hafði hlað um enni ok hærð kvenna bezt. Þær hlógu at honum
+      mjök ok dáruðu klæðabúnað hans. Drífa mælti þá: "Hvaðan gekktu at nú, ferfaldr?" "Frá smíðum,"
+      sagði Án. Í því kom bóndi at ok bað þær eigi skúlka hann. Án kvað þá vísu: <lg>
+       <l>"Meyjar spurðu,</l>
+       <l>er mik fundu,</l>
+       <l>hvíthaddaðar:</l>
+       <pb n="418"/>
+
+       <l>"Hvaðan komtu, ferfaldr?"</l>
+       <l>En ek svaraða</l>
+       <l>silki-Gunni</l>
+       <l>heldr hæðinni:</l>
+       <l>"Hvaðan er logn úti?""</l>
+      </lg> "Ekki þykkir mér," sagði Án, "kyrtill þinn fara betr en stakkr minn, því at hann liggr
+      neðan at bakstakki þínum." Síðan skildu þau at sinni. En er upp var húsaðr bærinn, talar bóndi
+      til Áns um haustit, at honum væri heimilt þar at vera um vetrinn, -- "ok hefir þú vel til þess
+      unnit." Án kvað þat þiggja mundu. Honum leizt vel á karlsdóttur, þó at hún hefði kallsat hans
+      klæðasniðit, ok var hann sér um þat várkunnlátr. En um várit lýsti hann yfir því, at hann
+      mundi á burtu ok annat fyrir sik leggja. "En ef svá verðr sem mér er grunr á, at dóttir þín sé
+      með barni, þá eru þar fáir blóramenn, ok vil ek ganga við faðerni. Ok ef þat er sveinn, þá
+      sendið til mín, þá er þér spyrið nokkura mína staðfestu, ok fylgi hringr þessi til jartegna,
+      en sjá þú sjálfr fyrir, ef mær er." Ok síðan ferr hann á burt ok austr á skóg. Þar liggr úti
+      stígamaðr, er Garan heitir. Ok um daginn, er Án gengr um skógargötuna, sá hann, at maðr gekk í
+      svig við hann. Sá hafði svartan skjöld ok hjálm á höfði, en boga í hendi, örvamæli á bak. Hann
+      sá inn nýkomna ok skaut þegar í skjöld hans broddör ok vart í gegnum skjöldinn. Án gerði
+      hæfing eptir ok skaut í gegnum skjöldinn, ok kom í aflvöðvann á honum, svá at hann varð sárr.
+      Stígamaðr mælti honum þótti þessi þörfum harðskeytari ok lagði vápn sín ok hitti þenna mann ok
+      spurði hann at nafni. Hann kveðst Án heita. Garan segist heyrt hafa nafn hans, -- "ok ertu
+      víðfrægr." Án sagði: "Heyrt hefi ek ok þín getit ok jafnan <pb n="419"/> at illu." Garan
+      sagði: "Fyrir góðu muntu verða af mér. Vil ek bjóða þér til mín, ok eigum félag saman, ok munu
+      vit miklu áleiðis koma." Án sagði: "Ærit mun um þat, ef vit viljum illa gera." Þeir kómu til
+      skála, er stóð í skóginum, ok var þar hnigin hurð á gátt. Þeir gengu inn, ok skorti þar eigi
+      fé, vápn eða hlífar. Án sá þar steina tvá, annan hæra en annan. Án spyrr, hvat þeir skyldi.
+      Garan sagði: "Þar hefi ek reynt hryggafl nokkura manna, er mik hafa heimsótt." Án sagði:
+      "Illmannliga bjóttu við þína gesti, eða hvárr mundi þér hæfiligri steinninn at láta á
+      hallast?" Hann kveðst ekki á því ætlun haft hafa, en lét sér þó inn hæra betr fallinn vera
+      fyrir hæðar sakir. Þá er liðit á dag mjök. Garan sagði: "Nú skulum vit matbúa, eða hvárt viltu
+      heldr taka vatn eða gera eld?" Án kvað þat sjálft á leggjast, at hann gerði eldinn, því at
+      hann kveðst því vanr verkinu. Ok er hann var lagztr niðr, þá kastaði hann sverðinu á bak sér,
+      at hann hafði at vápni. Hann heyrði hvin upp yfir sér, hjó stígamaðrinn til hans, ok kom á
+      sverðit, ok þat hlífði honum. Þá hljóp hann upp ok mælti: "Eigi ertu nú trúr, ok vildir þú nú
+      skjótt skipta félaginu, ok hafða ek þó lítit til saka. Má vera, at nú gistir þú bóndasteininn
+      há í kveld." Þar var hörð sókn, ok vildi hvárr firra sik steininum. Þá bar Garan at steininum.
+      Án sté á rist honum, en rak hendrnar á bringu honum ok bendi hann um steininn; gekk þá í sundr
+      hryggrinn í honum. Án gekk af honum dauðum. Hann hjó af honum höfuðit ok dró hann út ok stakk
+      nefinu í klof honum, at hann gengi eigi dauðr. Leið af nóttin. Án var þar um sumarit ok gerði
+      engum manni mein ok lét ekki sjá sik. En er haustaði, læsti hann aptr skálanum ok fór í burt
+      ok vildi aðra vetrvist hafa. <pb n="420"/> Hann kom aptan dags til ekkju einnar auðigrar, er
+      Jórunn hét. Hann var þar um nóttina ok duldist. En er húsfreyja kom í skála, spurði hún
+      gestinn at nafni. Hann sagði slíkt er honum sýndist. Hún gekk frá ok sneri aptr ok mælti: "Hví
+      fórtu hingat? Þat er mitt hugboð, at þú munt vera Án bogsveigir." Hann lét þat satt. "Hví
+      fórtu hingat?" segir hún, "þér er þetta ekki traust fyrir konungi." Án kveðst ætla, at eigi
+      mundi meira við þurfa, -- "mun ek til hætta at vera, ef þér gefið leyfi til." Hún mælti: "Ekki
+      mun ek spara mat við þik." Þar var hann um hríð ok var tiltakasamr ok sá um bú hennar, ok var
+      þat með miklu ráði. Án mælti: "Hér vilda ek vera í vetr með yðr ok gerast eigi setumaðr með
+      öllu." Hún kvað honum eigi þar hent, -- "er konungr er í eptirsjá um þik; vér megum þér
+      lítit." Hann lézt ætla, at lngjaldr konungr mundi honum ekki grand gera. "Eigi mun ek mat
+      spara við þik," en lét hann sjálfan mundu gæta sín. Hann gerðist umsýslumaðr inn mesti. Síðan
+      tekst tal með þeim. Hann segir, at honum lýstr því í skap at mæla til ráðahags við hana. Hún
+      kvað þat mundu gert at frænda ráði ok mjök nær hennar hugþokka, en enginn latti, ok tókust
+      ráðin. Án var inn mesti umgangsmaðr ok stórhagr. Hann átti naust í skógi skammt frá bænum ok
+      smíðaði þar skip. Jók brátt mikinn framdrátt fjár ok virðingar. Hann átti fjögur bú stór, ok
+      með honum var þrír tigir vígra manna á hverju búi. Fylkismenn þeir, er þar váru, höfðu hann
+      sér at forstjóra. Hann var vinsæll ok stórlyndr. Ingjaldr konungr spyrr þetta ok leitar eptir
+      honum. Þórir, bróðir hans, fór opt austr þangat með sættarboðum, ok var ástúðigt með þeim
+      bræðrum. Þá var andaðr Björn, faðir þeira, í Hrafnistu, ok varðveitti búit Gautr, mágr þeira,
+      ok Þórdís, systir þeira. Grímr, <pb n="421"/> sonr þeira, var mikill, vænn ok sterkr ok kvað
+      engan af sínum frændum sér jafnskapfelldan sem Án. Hann fór á fund hans. Án tók vel við honum,
+      ok dvaldist hann þar lengi. Hann var vinsæll. Þórir bað opt Án, at hann skyldi vægja til við
+      konung, -- "ok stoðar þér ekki, bróðir, af því at ek sé gerla hans skaplyndi grimmt til þín."
+      "Auðna mun ráða með okkr konungi," sagði Án, "en þú trúir honum til vel. Vilda ek heldr, at þú
+      varðveittir bú okkur." En þat varð ekki. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Maðr hét Ívarr, upplenzkr at ætt ok ættgöfugr. Hann kom til hirðar Ingjalds konungs, ok tók
+      hann vel við honum; ekki var hann þar, þá at Án var með konungi. Ívarr var gerviligr maðr.
+      Hann lagði hug mikinn á Ásu ok hafði tilmæli við hana um ráðahag. Konungr tók því seinliga.
+      Þau töluðu þetta mál með sér. Konungr mælti þá: "Mjök leitar þú eptir þessu, ok mun ek gera á
+      kost. Þú skalt fara á fund Áns ok færa mér höfuð hans, en er þú kemr aptr, áttu þessa ráða
+      ván, er þú beiðist, því at þá muntu kallaðr mikilmenni ok makligr konungs mágr." Ívarr kvað
+      eigi auðsóttligt, -- "eða gefr þú, konungs systir, jáyrði til þessa máls?" Hún svarar: "Ek
+      ætla vera á valdi bróður míns, ef þú kemr þessu erendi fram." Við þetta fór hann austr í land
+      ok á fund Áns ok skorar á hann til vetrvistar. Án spyrr, hverr hann væri, ok kveðst varla vita
+      kunna, með hverjum hug hverr væri, en lézt óvanr at synja matar; "ek beiðumst ok ekki
+      forgiftar, fyrr en ek veit, hversu þegit er eða veitt er." Ívarr var honum fylgisamr til smíða
+      ok annars. <pb n="422"/> Þat var eitt kveld, at þeir gengu heim, at Ívari kom í hug, hvat hann
+      átti at annast. Hann hljóp þá at Án ok hjó til hans. Án gekk skjótara en Ívarr hugði ok var
+      stórfetaðri, ok hjó hann í jörðina ok allt í viðarrætr. Án fann nú atgöngu hans ok snýr aptr
+      ok sagði, at honum þótti eigi vel í hald koma vistarlaunin. Án batt hann með bogastreng ok rak
+      hann heim fyrir sér. Hann setti Ívar í fjötur um nóttina. En er menn vissu þetta, báðu þeir
+      drepa hann ok segja hann til þess gert hafa. Án kvað eigi þat skyldu. "Mun þat þá mælt, at ek
+      gerumst fjandmaðr konungs, ef menn vita eigi sanna sögu. Vil ek þing láta stefna fjölmennt ok
+      konungsmaðr segi sögu sína ok geri fyrir öllum bert þetta vandræði," -- ok svá var gert. Kom
+      Án á þingit ok leiðir Ívar eptir sér. Án mælti: "Seg nú fram allt erendi þitt." Ívarr gerði
+      svá. Þá mæltu allir, at hann hafi sér dauða ráðit. Án mælti: "Nei," sagði hann, "þat skal eigi
+      vera. Ek veit, hvers hann á heim at vitja, sem þér heyrðuð." Hann lét brjóta fótleggi hans
+      allt til knés ok lét síðan græða ok snúa fótunum öðruvís en áðr; horfðu þá tær á bak aptr. Án
+      mælti: "Stattu nú fyrir mér," ok svá gerir hann. Án mælti: "Nú ertu konungs gersimi, er þú ert
+      frá því, sem aðrir menn." Síðan snýr hann andliti hans nokkut ok mælti: "Nú ertu til
+      hvárstveggja enda afbragð annarra manna, vænn at yfirliti, enda eigi fættr sem aðrir menn.
+      Hittu nú Ingjald konung, geld ek þik fyrir annan bróðurinn, enda á hann nú hingat einkis at
+      vitja." Ívarr hitti konung ok sagði eigi sína slétta. Konungr mælti: "Þat hefi ek vitat, at
+      menn hafa drepit niðr menn hverr fyrir öðrum, hitt veit ek varla, at slíkar meiðslar hafi
+      gervar verit, ok kalla þat konungs gersimar, ok þykki mér engi gersimi í þér, ok far til eigna
+      þinna." Konungs systir mælti: "Viltu <pb n="423"/> nú eigi unna honum ráðahagsins við mik?"
+      Konungr kvað þat eigi sama, lét Ívar sér ofr framarla treyst hafa, at hann mundi þessu á leið
+      koma, -- "ok váru því engi fjartök í höfð við þik." Þórir var þá eigi löngum heima. Eptir
+      þetta sendi konungr tólf menn til höfuðs Áni ok mælti svá: "Ek vil senda yðr með þeim hætti á
+      fund Áns, at þér beiðið hann vetrvistar, en hann er stórlyndr ok mun spyrja, hví þér farið svá
+      margir saman. En þér skuluð segja, at þér eigið fé allir saman ok þér trúið engum til at
+      skipta með yðr nema honum. Ok ef hann tekr við yðr, dragið undir yðr aðra jafnmarga af mönnum
+      hans með fégjöfum, ok kalla ek þá sjálfrátt, at þér látið hann eigi rekast undan." Síðan fóru
+      þeir á fund Áns, ok fóru svá orð með þeim sem konungr gat til. Hann tók þó við þeim, ok váru
+      þeir þar fram um jólin. Eitt kveld mælti Jórunn við Án. "Hvat gestum hyggr þú þetta vera, er
+      þik hafa heimsótt?" Hann sagði: "Þat hygg ek, at þeir séu góðir menn, ok til þess ætlum vér."
+      Hún kveðst eigi þat ætla, at þeir muni dyggvir menn heita mega, -- "ok gruna ek þat, hvárt
+      þeir hafa unnit illvirki eða ætla þeir til, því at hvert sinn er þú gengr frá rúmi þínu, þá
+      sjá þeir eptir þér ok bregða lit við." Hann kveðst eigi þat ætla. "En ber ek meiri önn fyrir
+      þér en ek ætlaða," sagði hún, "ek vil þú gangir frá húsi á morgin, ok ef þeir gera engan grun
+      á sér, þá mun þetta ekki vera. Seg, at þú skalt heim í kveld ok at þú vilir einn fara, ok ef
+      þeir gera nokkurn grun á sér, þá má vita, hverir þeir eru." Án kvað svá vera skulu. Um
+      morguninn gekk Án frá húsi, ok er vetrgestir sáu þat, hyggja þeir þá færi á Án ok fóru heiman
+      í tveim stöðum, sex í hvárum stað, en sex váru heima af njósnarmönnum ok sex af húskörlum, er
+      fé tóku til höfuðs Áni. Váru sex af hvárum í fyrirsátrinu. <pb n="424"/> Þeir settust hjá götu
+      Áns. Jórunn hittir Grím ok sagði, at henni þótti grunsamlig för þeira, -- "ok far þú á njósn".
+      Hann kvaðst þess búinn ok fór í skóg með marga menn, svá at hinir vissu eigi, en sáu þeir
+      hvergi. Leið nú á kveldit, ok sýndist þeim mest nauðsyn at fara heim ok gæta tímans, at eigi
+      yrði í ráðit um atförina. Þeir kómu heim. Án var þá kominn í öndvegi ok ekki frýnn. Grímr var
+      þá ok heim kominn. Án mælti: "Þat mun nú hæfa vetrgestum várum at segja erendi sín ok hvern
+      þeir ætluðu mér dauðann í dag. Ek veit nú ráð yður, ok fyrir löngu vissa ek svik yður við mik,
+      en eigi hefi ek dyggt hjónaval." Þeir urðu við at ganga. Án mælti: "Eigi mun ek drepa hjón
+      mín, ok fari þau á burt. En konungsmenn gef ek í vald Grími, frænda mínum, ok hafi hann af
+      þeim gaman í dag." Grímr kvað slíkt vel mælt. Hann fór til skógar með þá ok spyrti þá saman
+      alla á einn gálga. Þetta spyrr Ingjaldr konungr ok líkar mjök illa. Þórir var þá kominn til
+      hirðarinnar. Hann var hljóðr ok þótti mjök þrútna málit. Konungr spyrr, hví hann væri svá
+      hljóðr, -- "vel viljum vér til þín gera sem fyrr". Þórir sagði: "Ekki frý ek á þat, en varla
+      verðr þat með hallkvæmd." Konungr spyrr: "Hvat skortir at um þat, sem faðir minn gerði?" "Ekki
+      leita ek á þetta," sagði Þórir "en stærrum gaf faðir þinn mér, sem er sverð þetta." Konungr
+      sagði: "Er þat gersimi mikil?" "Sjá þú," sagði Þórir. Konungr tók við ok brá sverðinu ok
+      mælti: "Ekki er þetta ótigins manns eiga." Þórir sagði: "Þiggi þér þá, herra." Konungr sagði:
+      "Eigi vil ek þat; þú skalt eiga ok þér lengst fylgja." Hann gekk at Þóri í hásætinu ok lagði í
+      gegnum hann ok lét þar standa sverðit í sárinu. Hann mælti: "Ýmsar munu vit Án sendast
+      sendingar á milli." Síðan bjó <pb n="425"/> hann skip, ok váru á sex tigir manna, ok bað þá
+      fara á fund Áns ok leggja í lægi hans ok teygja hann á skip, -- "ok segið, at þar sé kominn
+      Þórir, bróðir hans, ok vili leita um sættir. En ef hann kemr í greipr yðr, þá drepið hann, ok
+      er þá goldit nokkut fyrir mína bræðr, ef þessir koma fyrir þá. Komið snemma dags til Áns."
+      Þetta verk mæltist mjök illa fyrir, ok var hann nú kallaðr Ingjaldr inn illi af hverjum manni.
+      Síðan fóru þeir veg sinn. En áðr um nóttina en þeir kómu við land, þá dreymdi Án ok sagði
+      Jórunni: "Mér þótti Þórir hér kominn daprligr mjök, en ávallt hefir hann komit, er mik hefir
+      dreymt hann. En eigi vilda ek, at þeir færi erendislausir, er hann færa hingat með slíku mótí
+      er mér segir hugr um, því at hann sýndist mér allr blóðugr, ok stóð sverð í gegnum hann." Hún
+      kvað svá vera mega, at skýrir væri draumar hans. Án spratt upp ok sagði, at menn mundu koma.
+      Hann lét búa fjögur skip, ok váru tvau við útey, en önnur tvau í leynivági hjá læginu fyrir
+      bænum. Án sendi menn í byggðina eptir mönnum at drekka fagnaðaröl á mót Þóri, ef hann kemr
+      glaðr ok heill, elligar reyna vápn sín. Án var á bænum, en menn hans á skipum, ok beið hann
+      búinn þess, er at höndum kæmi. Eptir þat sjá þeiri at skip renndi á lægit fyrir bæinn ok
+      rauðir skildir á. Skipamenn sendu Án orð, at hann kæmi ofan ok fyndi Þóri, bróður sinn, er þar
+      var kominn at leita um sættir. Án mælti: "Opt hefir hann ekki þann mun metit at ganga heim, ok
+      lætr hann nú lítit á skorta." Þeir kváðu honum svefnhöfugt. Án kveðst ganga mundu ofan at
+      skipi, en eigi lengra. Þeir treystust eigi at ganga at honum ok skutu Þóri af skipi upp ok
+      báðu Án taka við vinsending Ingjalds konungs. Án tók Þóri upp ok mælti: "Goldit hefir þú
+      grunnýðgi <pb n="426"/> þinnar, er þú trúðir konungi vel, en annat mun nú skyldara en at ávíta
+      þik." Hann skaut honum í hellisskúta, en hljóp út á skipit ok brá upp rauðum skildi. Hann
+      leggr nú at þeim, ok börðust þeir, ok fellu mjök menn Ingjalds konungs. Einn maðr barðist á
+      knjánum. Grímr sótti at honum, en sá maðr hjó til hans á knésbótina ok af kálfann með
+      hælbeininu ok lét hann mundu stirðfættan, áðr en grætt væri. Þeir drápu hvert manns barn. Án
+      lét haug gera ok skip í setja ok Þóri í lypting, en konungsmenn á hvárttveggja borð, til þess
+      at þat sýndist í því, at honum skyldu allir þjóna. Grímr var græddr. Konungr spyrr nú þessi
+      tíðendi ok þótti enn eigi mjök aukizt hafa sinn sómi eða sæmd. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Þat var einn morgin, at Án var heima á bæ sínum, at hann mælti: "Þat hygg ek," sagði hann,
+      "at menn sé í skóginum mjök margir, ok má vera, at komi at því, sem mælt er, at mikit er
+      konungs ríkit ok mikil er konungs gifta." Án vekr nú upp húskarla sína ok mælti: "Opt finnst
+      þat á, at ek er vel kvángaðr. Jórunn hefir opt varat mik við, at ek skylda eigi sitja hér við
+      mótþykki konungs, en ek vilda láta drífa um stafn, sem verða mætti." Síðan tók hann ás einn ok
+      hjó í sundr ok telgir handarhald á báðum hlutunum. Án sagði: "Þá er vér komum út, mun hringr
+      sleginn um oss, en mér þykkir illt at flýja. En vit Grímr munum eigi vápnum við koma," ok bað
+      hann taka annan trélurkinn, ok svá gerðu þeir. Þeir sneru nú til sjóvar. Þá var konungr þar
+      kominn með mikinn mannfjölda. <pb n="427"/> Þeir Án ruddu götu fyrir sér ok lömdu á tvær
+      hendr. Þótti konungs mönnum þar eigi gott at búa undir, en húskarlar sóttu þar eptir, ok váru
+      margir drepnir, en konur kómust á náðir Jórunnar. Þeir Án ok Grímr kómust á eina róðrarskútu
+      ok sáu konungsflotann umhverfis sik, en út miðsyndis var ein njósnarskúta. Án sagði, at honum
+      þætti vel, at þeir gerði þeim nokkurn öfundarkrók, -- "sem oss eru settir til meins". Án skaut
+      einum fork, er járni var búinn, undir rangbyrðit á skútunni, ok gerðist þat skipti á, at sjór
+      kolblár kom í staðinn, ok kölluðu menn á konungs skipin, at þeir hjálpi þeim. Án sótti undan
+      út á millum þeira. Án sagði, at meiri mundi róðr Gríms, ef báðir fætr hans væri jafnir. Hann
+      kvað einkis skyldu í sakna. Án fann eigi fyrr en hlummarnir á árunum skullu millum herða
+      honum, en Grímr var sprunginn af róðrinum. Án sté nú fyrir borð ok vildi þat sízt, at konungs
+      menn hefði hendr at honum. Þeir sáu, at maðrinn var fyrir borð stiginn, en annarr lá dauðr í
+      austrinum. Þeir segja konungi þetta. Hann sagði: "Þess var ván, at Án fyrirmyndi oss at hafa
+      hendr at honum, en þó skal honum fyrir allt eitt koma, ok setjum vörðu allt með sjónum, at
+      hann komist eigi á land." Þetta kom Án í hug ok snýr þvers til eyjar einnar, er lá utan fyrir,
+      ok komst þar upp ok var þá allmáttfarinn. Erpr hét sá, er þar bjó, ok kona hans. Ekki var þar
+      fleira manna. Erpr kannar fjörur ok fór með eyk ok sá, at maðr lá mikill á ströndinni. Bóndi
+      ætlaði hann dauðan ok gekk illa at honum. Án bað hann fara djarfliga. Erpr sagði: "Þú munt
+      hafa hægri sæng haft heima hjá Jórunni." Hann ekr honum nú heim, ok skögðu fætrnir út af
+      vagninum. Kerling bað hann eigi dauðum manni heim aka. Erpr kvað önnur efni í <pb n="428"/>
+      vera ok sagði henni. Hún mælti, at þat mundi gott til fjár, ef við góðan dreng ætti um. Án
+      hresstist þar nú mjök. lngjaldr konungr hugði Án dauðan, ok fór hann heim. Án var með karli,
+      ok er hann var heill, flytr Erpr hann til lands. Án kvað þeim vel farit hafa ok gaf kerlingu
+      gull, en Erpi eyna ok lét þó meira skyldu verðkaup þeira í tómi. Síðan kom Án heim. Jórunn
+      hafði nokkut snúit áleiðis á meðan, ok skorti þó mikit á, at risna mætti haldast. Menn fögnuðu
+      vel Án, en hann svarar húsfreyju: "Ekki höfum vér jafnir verit um fjárhagina hingat til við
+      þik." Hún kvaðst ekki at því telja, ef hann heldist við. Honum kom nú í hug, at eigi mundi
+      óráðligt at vitja fjárins í skála Garans, því at honum þótti nú nauðsyn til bera. Hann lét þat
+      nú heim færa ok sagði Jórunni: "Hér máttu líta á mína eigu," ok segir allan tilburðinn. Þótti
+      hann þá eigi félauss, sem menn ætluðu. Kom nú í samt lag um fé þeira sem áðr eða meira. Án
+      setr nú njósnir alla vega frá sér. Ingjaldr konungr frétti þetta, ok hafði hann gæzlur á sér
+      ok svaf í skála hjá hirð sinni. Án fylgdi smíðum sínum sem fyrr. Ok eitt kveld, sem hann gekk
+      frá smíðinni, sá hann í ey einni eld brenna. Honum kom í hug, at konungr mundi enn vitja eða
+      snöttungar mundu leggjast á fé hans. Hann forvitnast um ok fór til sjóvar einn saman ok tók
+      sér bát ok rær til eyjarinnar. Hann sá þar mann sitja við eldstó, ungligan ok mikinn. Sá var í
+      skyrtu ok línbrók. Hann mataðist. Silfrdiskr stóð fyrir honum. Hann hafði kníf tannskeptan ok
+      stakk upp ór katlinum ok át af slíkt er honum sýndist, en kastar aptr í, er kólnaði, en tók þá
+      annat upp. Án þótti hann eigi varliga búa um sik. Hann skaut til hans, ok kom í stykkit, er
+      hann vó upp ór katlinum, <pb n="429"/> ok datt þat í ösku niðr. Hann leggr skeytit niðr hjá
+      sér ok mataðist sem áðr. Án skaut ör annarri, ok kom hún í diskinn fyrir hann, ok fell hann í
+      tvá hluti. Þessi sat ok gaf engan gaum at þessu. Þá skaut Án inni þriðju, ok kom sú í
+      knífskeptit, er aptr stóð ór hendi honum, ok fló heptit í tvá hluti. Þá mælti sjá inn ungi
+      maðr: "Þessi maðr gerði mér mein, en sér lítit gagn, er hann spillti knífi mínum." Hann þreif
+      upp boga sinn, en Án kom í hug, at eigi var víst, hvar óskytin ör geigaði. Hann gekk öðrum
+      megin eikarinnar ok lét hana á millum þeira. Sjá inn ungi maðr skaut inni fyrstu ör, svá at Án
+      hugði, at koma mundi á hann miðjan, ef hann hefði beðit; önnur þótti honum sem komit mundi
+      hafa fyrir bringspalir honum, en in þriðja í augat, ok stóðu svá allar til í eikinni, þar sem
+      Án hafði staðit. Þá mælti sá inn ungi maðr: "Hitt er þeim ráð, er skaut at mér, at sýna sik
+      nú, ok hittumst við, ef hann á við mik sakir." Síðan gekk Án fram, ok tóku til at glíma, ok
+      var þeira atgangr mjök sterkligr. Án mæddist skjótara, því at hinn var stinnleggjaðr ok
+      sterkr. Án bað þá hvílast, en inn ungi maðr lézt búinn til hvárstveggja, ok þó réð Án. Hann
+      spyrr: "Hvert er nafn þitt?" Hann kvaðst Þórir heita, en sagði föður sinn heita Án, -- "eða
+      hverr ertu?" "Ek heiti Án," sagði hann. Ungi maðr sagði: "Þat mun satt vera, at margs góðs
+      muntu án vera, ok ertu nú án sauðarins þess, er ek tók." Án sagði: "Hirðum ekki um heiptarmál,
+      ok er þetta lítils vert, eða hverjar hefir þú jartegnir, ef þú finnr föður þinn?" "Ek ætla
+      finnast muni sönn merki sögu minnar, en þó em ek eigi skyldr þér at sýna," sagði Þórir. Án lét
+      þat betr sama at sýna, hvat til marks væri um faðerni hans. Þórir sýnir honum hringinn. Án
+      sagði: "Sönn eru þessi merki, at <pb n="430"/> föður þinn hefir hér fyrir hitt, ok förum heim
+      ok vitjum betra herbergis." Þeir gera nú svá ok koma heim, ok sátu menn hans ok biðu eptir
+      honum með ugg ok ótta, því at þeir vissu eigi, hvat af honum var orðit. Án settist í öndvegi
+      ok Þórir hjá honum. Jórunn spyrr, hverr sjá maðr væri inn ungi. Án bað hann sjálfan segja til
+      nafns síns. Hann sagði: "Þórir heiti ek, ok em ek sonr Áns." Hún mælti: "Kemr at því, sem mælt
+      er, at hverr er auðgari en þykkist. Ekki sagðir þú mér, at þú ættir þenna son, en þó hygg ek
+      ekki aukasmíði vera munu at honum, ok togið af honum, eða hversu gamall ertu?" "Átján vetra,"
+      sagði Þórir. Hún sagði: "Þat ætla ek, at ek muna kalla þik hálegg, því at ek hefi engum sét
+      hæra til knés." Hann sagði: "Þetta nafn líkar mér, ok muntu gefa mér nokkut í nafnfesti, at
+      menn kalli mik svá." Hún sagði þat skyldu satt ok gaf honum gull mikit. Án spyrr Þóri at um
+      uppfæði hans með karli. Hann kvað þat orð á hafa verit, at þar fæddist upp dóttir, "því at
+      Ingjaldr konungr vildi drepa mik, ok flýði ek því norðan, sem verða mátti." Þar var Þórir um
+      vetrinn. Án mælti eitt sinn: "Eigi nenni ek at fæða þik upp sitjanda lengr, ef þú leggr ekki
+      fram." Hann kveðst eigi til hafa í fémunum nema hringinn. Án kvað sér betra þykkja at hafa
+      sendiför nokkura, -- "sýnist mér sem þú værir skyldr til at hefna nafns þíns á Ingjaldi
+      konungi. Ætla ek, at þér verði auðit helzt af várri ætt, því at þat er reynt, at vit konungr
+      leggjumst aldri hendr á. Ok ekki þarftu hingat at vitja, nema hefndin komi fram, hvárt sem þú
+      átt skylt við mik eða eigi. Sverðit Þegn skaltu eiga, ok ef þú kemr þessu verki fram, þá er
+      þar systir konungs. Haf þú hana með þér <pb n="431"/> ok gjalt henni son fyrir bróður." Þórir
+      kvað þetta gera mundu ok helt með skip albúit í hernað, en at hausti hafði hann fimm skip vel
+      skipuð. Hann var yfrit djarfr maðr ok sterkr ok inn mesti hervíkingr. Hann kom á bæ Ingjalds
+      konungs á náttarþeli ok bar eld at skálanum. Vöknuðu menn við reykinn. Ingjaldr konungr spyrr,
+      hverr fyrir eldinum réði. Hann kvað Þóri hálegg þar vera. Konungr segir: "Vera má, at þessi
+      gneisti hafi flogit af Drífu karls dóttur, því at þar hefir mér lengi grunr á verit, ok má
+      vera, at oss verði fullelda um þat lýkr." Þórir kveðst á þat viljaðr, at sjatnaði illvirki
+      hans. Ingjaldr konungr lét þá brjóta upp stokkana ok bera á skálahurðina ok kvað eigi vilja
+      inni brenna. Þá hlupu menn út. Þórir var nær staddr, þá er konungr kom út, ok hjó hann
+      banahögg. Hann tók burt Ásu ok hafði með sér ok mikit fé ok sendi hvárttveggja föður sínum.
+      Hann tók vel við Ásu, en Þórir leggst í hernað ok vann mörg framaverk. Hann var ágætr maðr ok
+      þótti líkr föður sínum. Þórir kom með þat til Áns, at hann var orðinn stórauðigr, ok fekk þar
+      góðar viðtökur. Hann var þar um vetrinn. En at vári sagði hann Án, at hann vill á burt ráðast
+      -- "ok gef ek þér upp eignir allar, en þú girnst eigi eignir þær, sem Ingjaldr konungr hefir
+      átt, því at skammt mun at bíða, at eytt mun fylkiskonungum. Ok er betra at gæta sinnar sæmdar
+      en at setjast í hæra stað ok þaðan minnkast. En ek mun fara norðr í Hrafnistu til eigna minna.
+      Erp skaltu annast ok fóstra þinn ok móður." Síðan fór Án norðr, en Þórir varð gildr maðr. Án
+      kom norðr í eyna, ok átti hann þar dóttur, þá er Mjöll hét, móður Þorsteins, Ketils sonar
+      raums, föður Ingimundar ins gamla í Vatnsdal. Án átti opt at berja um þær skinnkyrtlur norðr
+      þar, ok þótti hann <pb n="432"/> inn mesti maðr fyrir sér. Sonr Þóris var Ögmundr akraspillir,
+      faðir Sigurðar bjóðaskalla, ágæts manns í Noregi. Ok lýkr hér við sögu Áns bogsveigis. </p>
+    </div>
+
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

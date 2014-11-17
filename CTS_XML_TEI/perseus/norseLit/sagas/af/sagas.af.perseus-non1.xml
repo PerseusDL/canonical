@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Af Upplendinga konungum</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Af Upplendinga konungum</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Af_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="153"/> ÓLÁFR, sonr Ingjalds konungs illráða af Svíaríki, ruddi Vermaland. Hann var
+      kallaðr Óláfr trételgja. Hann var fæddr í Vestra-Gautlandi með þeim manni, er Bófi hét. Saxi
+      hét sonr Bófa, er kallaðr var flettir. Móðir Óláfs var Gauthildr, dóttir Algauta konungs, en
+      hann var sonr Gautreks konungs ins milda, sonar Gauts, er Gautland er við kennt. Álöf var
+      móðir Gauthildar, dóttir Óláfs konungs skyggna, konungs af Næríki. En þá er Ívarr víðfaðmi
+      hafði lagt undir sik allt Danaveldi ok Svíaríki, þá flýði Óláfr ok mikill fjöldi þeira manna,
+      er útlaga urðu fyrir Ívari konungi. Þeir fara norðr um Væni ok ruddu þar markir ok byggðu þar
+      stór heruð ok kölluðu þat Vermaland, ok kölluðu Svíar því Óláf trételgju, ok var hann þar
+      konungr til elli. Kona hans hét Sölva. Hún var systir Sölva ins gamla, er fyrstr ruddi
+      Sóleyjar. Óláfr ok Sölva áttu tvá syni, hét annarr Ingjaldr, en annarr Hálfdan. Ingjaldr var
+      konungr í Vermalandi eptir föður sinn, en Hálfdan var fæddr upp í Sóleyjum með Sölva,
+      móðurbróður sínum. Hann var kallaðr Hálfdan hvítbein. Hann var konungr í Sóleyjum eptir Sölva
+      konung. Hann fékk Ásu, dóttur Eysteins konungs illráða af Heið. Sá Eysteinn lagði undir sik
+      Eynafylki í Þrándheimi ok fekk þeim til konungs þar hund sinn, er Sórr hét; við hann er kenndr
+      Sórshaugr. Þau Hálfdan ok <pb n="154"/> Ása áttu tvá syni, Eystein ok Guðröð. Hálfdan hvítbein
+      eignaðist Raumaríki ok mikit af Heiðmörk. Hann varð sóttdauðr á Þótni, ok var hann fluttr á
+      Heiðmörk ok heygðr þar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Guðröðr, sonr Hálfdanar, var konungr á Heiðmörk eptir föður sinn. Hans sonr var Helgi,
+      faðir Ingjalds, föður Óláfs hvíta, er átti Unni ina djúpúðgu, dóttur Ketils flatnefs. Þeira
+      sonr var Þorsteinn rauðr, er jarl var í Skotlandi ok fell þar. Eysteinn, sonr Hálfdanar
+      hvítbeins, var konungr á Raumaríki. Hann átti dóttur Eiríks Agnarssonar, er konungr var á
+      Vestfold. Eiríkr átti engan son. Agnarr, faðir Eiríks, var sonr Sigtryggs konungs af Vindli.
+      Eysteinn konungr fell fyrir borð, ok sló hann beitiáss í sundi einu mjóvu. Hálfdan hét sonr
+      hans, er konungdóm tók eptir hann. Gerðist hann ríkr maðr ok hermaðr mikill. Hann gaf gull í
+      mála hirð sinni svá mikit sem aðrir menn gáfu silfr, en hann tímdi eigi at gefa mönnum sínum
+      mat. Því var hann kallaðr Hálfdan inn mildi ok inn matarilli. Hann átti Lifu, dóttur Dags
+      konungs af Vestmörum. Hann var sóttdauðr á Vestfold, ok er hann þar heygðr. Guðröðr hét sonr
+      þeira, er konungdóm tók eptir föður sinn. Hann var kallaðr Guðrödr inn göfugláti. Hann átti
+      Ásu, dóttur Haralds konungs granrauða, er konungr var á Ögðum. Þau áttu tvá sonu. Hét annarr
+      Hálfdan, en annarr Óláfr. Guðröðr inn göfugláti var drepinn á Geirstöðum á Vestfold, svá at
+      hann var lagðr með kesju, er hann gekk af skipi sínu í Stíflusundi seint um kveldit. Hafði
+      Ása, kona hans, eggjat mann til at drepa <pb n="155"/> hann, því at Guðröðr konungr hafði áðr
+      drepa látit Harald konung, föður hennar, ok Gyrð, son hans. Guðröðr konungr hafði fyrr átt
+      dóttur Alfarins af Álfheimum ok hafði heiman með henni hálfa Vingulmörk. Þeira sonr var Óláfr.
+      Hann var þá fulltíða, er faðir hans fell, ok tók hann þá konungdóm eptir föður sinn. Hann var
+      allra manna mestr ok sterkastr ok fríðastr sýnum. Hann var kallaðr Óláfr Geirstaðaálfr. Ása in
+      stórráða fór norðr á Agðir með Hálfdan, son sinn, hann var þá vetrgamall, ok helt hún þá því
+      ríki, er faðir hennar hafði átt. Hálfdan óx upp með Ásu, móður sinni, ok var hann brátt mikill
+      maðr ok sterkr ok svartr á hár, ok því var hann kallaðr Hálfdan svarti. Eptir fall Guðröðar
+      konungs tók Álfgeirr konungr undir sik Vingulmörk ok setti þar yfir son sinn, er kallaðr var
+      Gandálfr. Þeir feðgar eignuðust ok mestan hluta Raumaríkis. En Eysteinn konungr, sonr Högna
+      Eysteinssonar ins ríka ok ins illráða, lagði þá undir sik alla Heiðmörk ok Sóleyjar, en Óláfr
+      Geirstaðaálfr hafði Grenland ok Vestfold. Hann Óláfr andaðist af fótarverk á Geirstöðum ok er
+      þar heygðr. Sonr hans var Rögnvaldr, er kallaðr var heiðum-hæri. Hann var konungr á Grenlandi
+      eptir föður sinn. Um hann orti Þjóðólfr hvinverski Ynglingatal, ok segir þar frá þeim
+      konungum, er komnir váru frá Yngvi-Frey í Svíþjóð, ok af hans nafni eru Ynglingar kallaðir.
+     </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

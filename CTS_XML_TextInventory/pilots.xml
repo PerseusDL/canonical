@@ -451,6 +451,46 @@
             </edition>
         </work>
     </textgroup>
+    <!--added as translation exercise for Monica Berti's Digital Editing class -->
+    <textgroup projid="itaLit:dante">
+        <groupname>Dante</groupname>
+        <work projid="itaLit:dc" xml:lang="de">
+            <title xml:lang="eng">The Divine Comedy</title>
+            <edition projid="itaLit:perseus-ger1.xml">
+                <label>The Divine Comedy</label>
+                <description xml:lang="eng">The Divine Comedy </description>
+                <online docname="/db/repository/itaLit/dante/dc/dante.dc.perseus-ger1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="canto" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="terza" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:div[@n='?']"/>
+                                </citation>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            <translation projid="itaLit:perseus-eng1">
+                <label>The Divine Comedy</label>
+                <description xml:lang="eng">The Divine Comedy </description>
+                <online docname="/db/repository/itaLit/dante/dc/dante.dc.perseus-eng1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="canto" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="terza" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:div[@n='?']"/>
+                                </citation>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+        </work></textgroup>
     <!--added for Maryam Foradi and Saeed Majidi, Open Philology Project -->
     <textgroup projid="farsiLit:hafez">
         <groupname>Hafez</groupname>

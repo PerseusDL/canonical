@@ -1,0 +1,994 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Gautreks saga</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Gautreks saga</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Gautreks_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="3"/> ÞAR hefjum vér eina kátliga frásögn af einum konungi, þeim er Gauti hét; hann var
+      vitr maðr ok vel stilltr, mildr ok máldjarfr. Hann réð fyrir Vestra-Gautlandi. Þat liggr milli
+      Noregs ok Svíþjóðar fyrir austan Kjölu alla, ok skilr Gautelfr milli Upplanda ok Gautlands.
+      Þar eru stórar merkr ok illt yfirferðar, þá er þelalaust er. Þessi konungr, er fyrr nefndum
+      vér, fór optliga með hauka sína ok hunda á mörkina, því at hann var inn mesti veiðimaðr, ok
+      þótti honum þat in mesta skemmtan. Í þann tíma var víða byggt, þar sem miklir skógar váru
+      umhverfis, því at margir menn ruddu mörkina, þar sem fjarlæg var almannabyggð, ok gerðu sér
+      þar alhýsi sumir, þeir sem flýit höfðu af almannaveg fyrir nokkur sín ranglig tiltæki. Sumir
+      flýðu fyrir ljóðæsku eða nokkur ævintýr ok þóttust þá síðr spottaðir eða hæddir verða, ef þeir
+      væri fjarri annarra manna athlátri, ok lifðu svá út allan sinn aldr, at þeir fundu enga aðra
+      menn en þá, sem hjá þeim váru. Þeir höfðu ok <pb n="4"/> margir leitat sér staðar langt frá
+      almannaveg, ok kómu því engir menn þá heim at sækja, utan þat varð stundum, at villtust á
+      mörkum, at menn hrötuðu þá til þeira heimkynna, þótt menn vildu þar gjarna aldri komit hafa.
+      Þessi konungr Gauti, er fyrr nefndum vér, var farinn við sinni hirð at veiða dýr á mörkinni
+      með sínum inum beztum veiðihundum. Konungrinn gat at líta einn fagran hjört, ok þetta sama dýr
+      vill hann gjarna veiða ok slær lausum sínum veiðihundum ok eltir þetta sama dýr með svá miklu
+      kappi, meðan dagrinn vannst til nætr. Hann var nú einn sinna manna ok var kominn svá langt á
+      mörkina, at hann vissi, at hann mátti eigi komast til sinna manna sakir náttmyrkrs ok langrar
+      leiðar, er hann hafði farit allan daginn; þat ok með, at hann hafði skotit þetta dýr með
+      spjóti sínu, ok stóð þat fast í sárinu, en konungr vildi þat með engu móti láta, ef hann mætti
+      ná, ok þótti skömm, ef hann nædi eigi vápni sínu. Hér hafði hann á lagt svá mikit kapp, at
+      hann hafði af sér kastat öllum klæðum nema línklæðum; berfættr var hann ok hafði enga skúa, ok
+      hafði víða rifit hans leggi ok iljar bæði grjót ok skógrinn. Ekki náir hann dýrinu. Tekr nú at
+      myrkva af nótt, svá at aldri veit hann, hvert hann stefnir, nemr nú stað ok hlýðir til, ef
+      hann heyrði til nokkurs, ok litla stund hefir hann stað numit, áðr hann heyrir hundsgá, ok
+      þangat gengr hann, sem hann heyrir hundinn geyja, því at honum þótti þar helzt manna ván. Því
+      næst sér konungr húsabæ lítinn. Þat sá hann, at maðr stóð úti ok helt á viðaröxi. Þegar hann
+      sér, at konungr stefnir til bæjar, hleypr hann at ok drepr hundinn ok mælti: "Eigi skaltu
+      optar vísa gestum á garð várn, því at þat sé ek gerla, at sjá maðr er svá mikill <pb n="5"/>
+      vexti, at hann mun upp eta alla eigu bónda, ef hann kemr hér innan veggja. Skal þat ok aldri
+      verða, ef ek má ráða." Konungr heyrði orð hans ok brosti at; hugsar hann þat með sér, at hann
+      var lítt við búinn úti at liggja, en þótti eigi vísar viðtökur, ef hann biði þess, er honum
+      væri inn boðit, gengr nú djarfliga at dyrunum. Hinn ferr fyrir dyrrnar ok vill hann eigi inn
+      láta. Konungr lætr hann kenna aflsmunar ok gengr ór dyrum þann, er fyrir stóð. Konungr gekk
+      til stofu. Þar váru fyrir fjórir karlar ok fjórar konur. Ekki var þar heilsat Gauta konungi;
+      þó sezt hann niðr. Sá tók til orða, er honum sýndist bóndaligastr, ok mælti: "Hví léztu þenna
+      mann hér inn koma?" Þrællinn svaraði, sá er í dyrunum hafði staðit: "Þessi maðr var svá
+      sterkr, at ek hafða ekki afl við honum." "Ok hvat gerðir þú, þá er hundrinn gó?" Þrællinn
+      svaraði: "Ek drap hundinn, því at ek vilda eigi, at hann vísaði fleirum slíkum gaurum at garði
+      sem mér lízt þessi maðr vera." Bóndi mælti: "Dyggr þræll ertu, ok má eigi þér um kenna, þó at
+      þessir ófimligleikar hafi orðit, ok er vandlaunat þér þín umsjá, ok vil ek á morgin gefa þér
+      verðkaup, ok skaltu þá með mér fara." Hús váru þar vel búin ok menn vænir ok hæfiliga miklir.
+      Þat fann konungr, at þeir óttuðust hann. Bóndi lét setja borð, ok var matr á borinn. Ok er
+      konungr sér, at honum mun ekki boðinn matr, stígr hann undir borð hjá bónda, tekr til matar ok
+      snæðir djarfliga. Ok er bóndi sér þetta, hættir hann at matast ok dregr hattinn fyrir augu
+      sér. Hvárugir tala hér við aðra, ok er konungr var mettr, lyptir bóndi upp hetti sínum ok bað
+      bera diska af borði, -- "því at nú mun eigi mat at varðveita." Síðan fór fólk at sofa. Konungr
+      lagðist ok til svefns. Ok er hann hafði litla <pb n="6"/> hríð legit, þá kom kona til hans ok
+      mælti: "Mun eigi ráðligt, at þú þiggir beina at mér?" Konungr svarar: "Þetta horfir vænliga,
+      er þú vilt tala við mik, því at hér eru dauflig hýbýli." "Eigi þarftu þat at undra, því at vér
+      höfum aldri gest átt á ævi várri, ok þess get ek, at þú sér bónda engi aufúsugestr." Konungr
+      mælti: "Vel mætti ek launa bónda fyrir allan þann kostnað, er hann hefir fyrir mér haft, þá er
+      ek kem til míns heimilis." Hún svaraði: "Til meira get ek mun um draga en vér fáim sæmd af þér
+      í móti þessu tilfelli." Konungr mælti: "Ek bið, at þú gerir mér kunnigt, hversu fólk yðvart
+      heitir." Hún svarar: "Faðir minn heitir Skafnörtungr. Því hefir hann þat nafn, at hann er svá
+      glöggr um kost sinn, at hann má eigi sjá, at þverri hvárki matr né annat, þat er hann á. Móðir
+      min heitir Tötra. Því hefir hún þat nafn, at hún vill aldri önnur klæði hafa en þat, sem áðr
+      er slitit ok at spjörum orðit, ok þykkir henni þat mikil hagspeki." Konungr spurði: "Hvat
+      heita bræðr þínir?" Hún svaraði: "Einn heitir Fjölmóðr, annarr heitir Imsigull, þriði
+      Gillingr." Konungr mælti: "Hvat heitir þú eða systr þínar?" Hún svaraði: "Ek heiti Snotra.
+      Hefi ek því þat nafn, at ek þótta vísust allra vár. Systr mínar heita Hjötra ok Fjötra. Hér er
+      sá hamarr við bæ várn, er heitir Gillingshamarr, ok þar í hjá er stapi sá, er vér köllum
+      Ætternisstapa. Hann er svá hár ok þat flug fyrir ofan, at þat kvikendi hefir ekki líf, er þar
+      gengr fyrir niðr. Því heitir þat Ætternisstapi, at þar með fækkum vér várt ætterni, þegar oss
+      þykkir stór kynsl við bera, ok deyja þar allir várir foreldrar fyrir utan alla sótt ok fara þá
+      til Óðins, ok þurfu vér af engu váru forellri þyngsl at hafa né þrjózku, því at þessi
+      sældarstaðr hefir öllum verit jafnfrjáls várum ættmönnum, <pb n="7"/> ok þurfum eigi at lifa
+      við fjártjón eða fæðsluleysi né engi önnur kynsl eða býsn, þótt hér beri til handa. Nú skaltu
+      þat vita, at föður mínum þykkja þetta vera in mestu undr, er þú hefir komit til húsa várra.
+      Væri þat mikil býsn, þótt ótiginn maðr hefði hér mat etit, en þetta eru með öllu undr, at
+      konungr, kalinn ok klæðlauss, hefir komit til húsa várra, því at til þessa munu engi dæmi
+      finnast, ok því ætlar faðir minn ok móðir á morgin at skipta arfi með oss systkinum, en þau
+      vilja síðan ok þrællinn með þeim ganga fyrir Ætternisstapa ok fara svá til Valhallar. Vill
+      faðir minn eigi tæpiligar launa þrælnum þann góðvilja, at hann ætlaði at reka þik ór dyrum, en
+      nú njóti hann sælu með honum. Þykkist hann ok víst vita, at Óðinn mun eigi ganga í mót
+      þrælnum, nema hann sé í hans föruneyti." Konungr mælti: "Sé ek, at þú munt hér vera málfimust,
+      ok skaltu hafa mína hollustu. Þykkjumst ek sjá, at þú munt mær vera, ok skaltu sofa í hjá mér
+      í nótt." Hún bað konung því ráða. Um morguninn, sem konungr vaknar, mælti hann: "Þik kveð ek
+      at þessu, Skafnörtungr, ek gekk til yðvars bæjar berfættr, ok því vil ek nú skúa af þér
+      þiggja." Hann svarar engu ok fær honum skúa ok dró ór þvengina. Þá kvað konungr: <lg>
+       <l>"Skúa tvá,</l>
+       <l>er mér Skafnörtungr gaf,</l>
+       <l>þvengjum er hann þá nam;</l>
+       <l>ills manns</l>
+       <l>kveð ek aldri verða</l>
+       <l>grandalausar gjafir."</l>
+      </lg> Síðan bjóst konungr á brutt, ok leiddi Snotra hann á götu. Konungr mælti: "Bjóða vil ek
+      þér með mér at fara, því at mér er grunr á, at nokkut gerist af okkrum <pb n="8"/> fundi, ok
+      ef þú ferr með sveinbarn, þá láttu Gautrek heita, ok drag svá af nafni mínu ok rekstri þeim,
+      er ek hefi haft til hýbýla yðvarra." Hún svarar: "Vís ván þykki mér á því, at þú getir þessu
+      nær, en ekki má ek með þér fara at sinni, því at í dag skal skipta arfi með oss systkinum
+      eptir föður várn ok móður, því at þau ætla at ganga fyrir Ætternisstapa." Konungr bað hana vel
+      lifa ok bað hana koma á sinn fund, svá sem henni þætti tími til. Ferr konungr þar til, er hann
+      kemr til sinna manna, ok sezt nú um kyrrt. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Nú er frá því at segja, þá er Snotra kom heim, sat faðir hennar yfir fé sínu ok mælti: "Með
+      oss hafa orðit býsn mikil, er konungr sjá hefir komit til várra hýbýla ok etit upp fyrir oss
+      mikla eigu ok þat, sem oss henti sízt at láta. Má ek eigi sjá, at vér megum halda öllu váru
+      hyski fyrir takfæðar sakir, ok því hefi ek saman borit alla mína eigu, ok ætla ek at skipta
+      arfi með yðr sonum mínum, en ek ætla mér ok konu minni ok þræli til Valhallar. Má ek eigi
+      þrælnum betra launa sinn trúleika en hann fari með mér. Gillingr skal hafa uxa minn inn góða
+      ok þau Snotra, systir hans. Fjölmóðr skal hafa gullhellur mínar ok þau Hjötra, systir hans.
+      Imsigull skal hafa korn allt ok akra ok þau Fjötra, systir hans. En þess bið ek yðr, börn mín,
+      at eigi fjölgið þér lið yðvart, svá at fyrir þat megi þér eigi halda arfi mínum." Ok er
+      Skafnörtungr hafði talat slíkt er hann vildi eða honum líkaði, fóru þau öll upp á
+      Gillingshamar, ok leiddu börnin föður sinn ok móður ofan fyrir Ætternisstapa, ok fóru þau glöð
+      ok kát til Óðins. <pb n="9"/> Nú er þau systkin váru í búi, þykkjast þau þurfa at hagræða sér.
+      Þau taka sér spýtur ok spýta vaðmál at sér, svá at ekki þeira kemr við annat bert. Þótti þeim
+      þá trúast um unnit, at eigi mundi fólk þeira fjölgast. Snotra fann með sjálfri sér, at hún fór
+      með barni. Þokaði hún þá spýtunni í vaðmálinu, svá at ná mátti hendi til. Hún lét sem hún
+      svæfi. En er Gillingr vaknaði eða raumskaði af svefni, varp hann hendinni frá sér ok kom við
+      kinn hennar. Ok er hann vaknaði, mælti hann: "Hér hefir ófimliga til tekizt, er ek skal hafa
+      grand gert þér. Mér sýndist sem þú sért miklu digrari en verit hefir." Hún svarar: "Leyn þú
+      þessu sem þú mátt." Hann svarar: "Þat endemi mun ek ekki gera, því at þetta má með engu móti
+      leynast, síðan er fólk okkart fjölgast." Litlu síðar fæddi Snotra eitt fagrt sveinbarn ok gaf
+      nafn ok kallaði Gautrek. Gillingr mælti: "Stór býsn berr nú við, ok má nú eigi leyna, ok skal
+      ek fara at segja bræðrum mínum." Þeir mæltu: "Allt ráð várt vill nú fyrir farast af býsnum
+      þessum, sem við berr, ok er þetta mikit lagabrot." Gillingr kvað: <lg>
+       <l>"Heimsliga</l>
+       <l>er ek veik hendi til,</l>
+       <l>er ek kom við kinn konu;</l>
+       <l>lítil lyf</l>
+       <l>kveða höfð til lýða sona,</l>
+       <l>af því var hann Gautrekr getinn."</l>
+      </lg> Þeir kveða hann eigi mega um kunna, er hann iðraðist ok vildi aldri, at þetta hefði
+      orðit. Hann kveðst gjarna vilja ganga fyrir Ætternisstapa ok kvað talin smæri býsn. Þeir báðu
+      hann bíða, hvat við bæri fleira. Fjölmóðr sat at fé um daga ok bar með sér gullhellur sínar,
+      hvert sem hann fór, ok einn dag sofnaði <pb n="10"/> hann ok vaknar við þat, at sniglar tveir
+      svartir höfðu skriðit á gullhellur hans. Honum þótti dala eptir, þar sem dökknat hafði gullit,
+      ok sýndist honum mikit þorrit hafa. Hann mælti: "Mikit er at verða fyrir þessu fjártjóni, ok
+      ef svá berr optar til, þá mun eigi gott at fara snauðr til Óðins, ok mun ek ganga fyrir
+      Ætternisstapa ok verða eigi optar fyrir þessari fjárauðn, því at aldri hefir orðit
+      jafnkolsvart um mitt efni, síðan faðir minn miðlaði mér fé." Hann segir bræðrum sínum þessi
+      býsn, er við hafði borit, ok bað þá skipta arfi. Hann kvað þá: <lg>
+       <l>"Stuttir sniglar</l>
+       <l>átu steina fyr mér,</l>
+       <l>nú vill oss hvetvetna hata;</l>
+       <l>snauðr mun ek snópa,</l>
+       <l>því at sniglar hafa</l>
+       <l>gull mitt allt grafit."</l>
+      </lg> Síðan fór hann ok hans kona á Gillingshamar ok gengu síðan fyrir Ætternisstapa. Þat var
+      einn dag, at Imsigull gekk um akra sína. Sá hann fyrir sér þann fugl, er spörr heitir; hann er
+      á vöxt sem tittlingr. Honum leizt nú horfa skaðavænliga, gekk með akrinum ok sá, at fuglinn
+      hafði tekit ór axinu eitt kornit. Þá kvað hann: <lg>
+       <l>"Þat var spell,</l>
+       <l>ok spörr of vann</l>
+       <l>á akri Imsiguls;</l>
+       <l>axi var skatt,</l>
+       <l>ór var korn numit,</l>
+       <l>þat mun æ Tötru ætt of trega."</l>
+      </lg> Síðan fór hann ok hans kona, ok gengu þau glöð fyrir Ætternisstapa ok vildu eigi fá
+      optar slíkan skaða. Gautrekr var þá úti, er hann sá uxann góða. Hann <pb n="11"/> var sjau
+      vetra. Honum varð þat fyrir, at hann lagði uxann með spjóti til bana. Ok er Gillingr sá þetta,
+      þá kvað hann: <lg>
+       <l>"Ungr sveinn</l>
+       <l>drap uxa fyr mér;</l>
+       <l>þetta eru banvæn býsn;</l>
+       <l>mun ek aldri eiga</l>
+       <l>síðan jafngóligan</l>
+       <l>grip, þó ek gamall verða."</l>
+      </lg> Hann mælti: "Nú er eigi viðsæmanda." Fór hann síðan á Gillingshamar ok gekk þaðan fyrir
+      Ætternisstapa. Nú váru þau tvau eptir, Snotra ok Gautrekr, sonr hennar. Hún býr sik ok bæði
+      þau til bruttferðar, fara nú þangat til, er þau finna Gauta konung, ok tekr hann vel við þeim
+      syni sínum. Fæddist hann þar upp með hirð föður síns ok var bráðgerr á allan þroska, ok líða
+      nú svá fram nokkurir vetr, þar til er Gautrekr var mjök fullkominn at þroska. Þá bar svá til,
+      at Gauti konungr tók sótt ok kallaði til sín vini sína. Konungr mælti: "Þér hafið verit mér
+      hlýðnir ok eptirlátir í öllu, en nú þykki mér mikil ván, at þessi sótt, er ek hefi, skili vára
+      vingan. Vil ek ríki þetta, er ek hefi átt, gefa Gautreki, syni mínum, ok þar með konungs
+      nafn." Þeim líkaði þetta vel, ok eptir andlát Gauta konungs var Gautrekr til konungs tekinn
+      yfir Gautland, ok er hans víða getit í fornum sögum. En nú víkr þessi sögu nokkura stund norðr
+      í Noreg, ok segir frá þeim fylkiskonungum, er þar váru í þann tíma, ok frá þeira afkvæmi. En
+      þá síðan víkr þessi sögu aptr til Gautlands til Gautreks konungs ok sona hans. Svá it sama
+      gengr þessi saga um Svíaríki ok víða annars staðar. <pb n="12"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Húnþjófr hét konungr, er ráðit hefir fyrir Hörðalandi. Hann var sonr Friðþjófs ins frækna
+      ok Ingibjargar innar fögru. Hann átti þrjá sonu. Herþjófr hét sonr hans, er síðan var konungr
+      á Hörðalandi, annarr hét Geirþjófr Upplendinga konungr, þriði var Friðþjófr Þelamerkr konungr.
+      Þessir váru allir ríkir konungar ok hermenn miklir, en þó var Herþjófr konungr fyrir þeim at
+      viti ok ráðagerð. Hann var löngum í hernaði, ok varð hann af því frægr mjök. Í þenna tíma var
+      sá konungr á Ögðum, er Haraldr hét. Hann var ríkr konungr. Hann var kallaðr Haraldr inn
+      egðski. Víkarr hét sonr hans. Hann var þá ungr ok efniligr. Stórvirkr hét maðr; hann var sonr
+      Starkaðar Áludrengs. Starkaðr var hundvíss jötunn. Hann tók ór Álfheimum Álfhildi, dóttur Álfs
+      konungs. Álfr konungr hét þá á Þór, at Álfhildr skyldi aptr koma. Þá drap Þórr Starkað, en
+      flutti Álfhildi heim til föður síns, ok var hún þá með barni. Hún fæddi son þann, er Stórvirkr
+      hét, er áðr er nefndr. Hann var fríðr maðr sýnum ok þó svartr á hár, meiri ok sterkari en
+      aðrir menn. Hann var víkingr mikill. Hann kom til hirðar Haralds konungs á Ögðum ok gerðist
+      hans landvarnarmaðr. Haraldr konungr gaf honum ey þá, er Þruma heitir, á Ögðum, ok þar bjó
+      Stórvirkr. Hann var löngum í hernaði, en stundum var hann með Haraldi konungi. Stórvirkr nam á
+      brutt Unni, dóttur Freka jarls af Hálogalandi, ok fór síðan heim til bús síns í Þrumu. Þau
+      áttu son, er Starkaðr hét. Synir Freka jarls, Fjöri ok Fýri, fóru at Stórvirk ok kómu á bæ
+      hans um nótt á óvart með her ok brenndu bæinn ok Stórvirk <pb n="13"/> inni ok Unni, systur
+      sína, ok alla menn, þá er þar váru, því at þeir þorðu eigi dyrr upp at lúka ok hræddust, at
+      Stórvirkr mundi út komast. Þeir sigldu þegar á brutt um nóttina ok norðr með landi, ok annan
+      dag eptir, er á leið, gerði at þeim storm, ok sigldu þeir í boða fyrir Staði, ok týndist þar
+      öll skipshöfn þeira. Starkaðr, sonr Stórvirks, var þá ungr, er faðir hans lézt, ok fekk
+      Haraldr konungr honum þá fóstr með hirð sinni. Svá segir Starkaðr frá: <lg>
+       <l>"Þá var ek ungr,</l>
+       <l>er inni brann</l>
+       <l>flotna fjöld</l>
+       <l>með feðr þjóðu,</l>
+       <l>þrár nær vági</l>
+       <l>fyr Þrumu innan</l>
+       <l>herhröðuðr</l>
+       <l>Haralds ins egðska.</l>
+       <l>Ok menbrota</l>
+       <l>mágar véltu</l>
+       <l>Fjöri ok Fýri,</l>
+       <l>Freka arfþegar,</l>
+       <l>Unnar bræðr,</l>
+       <l>eiðu minnar."</l>
+      </lg>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Herþjófr Hörðalands konungr fór með her at Haraldi konungi um nótt á óvart ok drap hann í
+      tryggðum, en tók í gísling Víkar, son hans. Herþjófr konungr lagði undir sik ríki þat allt, er
+      átt hafði Haraldr konungr, ok tók margra ríkra manna sonu með valdi ok í gísling, en tók
+      skatta af öllu ríki. Grani hét einn ríkr maðr í liði Herþjófs konungs. Hann var kallaðr
+      Hrosshárs-Grani. Hann bjó í ey þeiri <pb n="14"/> á Hörðalandi, er Fenhring heitir, á þeim bæ,
+      er á Aski heitir. Hann tók at herfangi Starkað Stórvirksson ok flutti heim í Fenhring. Þá var
+      Starkaðr þrévetr. Hann var níu vetr í Fenhring með Hrosshárs-Grana. Svá segir Starkaðr: <lg>
+       <l>"Þá er Herþjófr</l>
+       <l>Harald um vélti,</l>
+       <l>sér ójafnan</l>
+       <l>sveik í tryggðum,</l>
+       <l>Egða dróttin</l>
+       <l>öndu rænti,</l>
+       <l>en hans sonum</l>
+       <l>haftbönd sneri.</l>
+       <l>Þrévetran mik</l>
+       <l>þaðan of flutti</l>
+       <l>Hrosshárs-Grani</l>
+       <l>til Hörðalands;</l>
+       <l>nam ek á Aski</l>
+       <l>upp at vaxa,</l>
+       <l>sákat niðja</l>
+       <l>á níu vetrum."</l>
+      </lg> Herþjófr konungr var hermaðr mikill ok var löngum í hernaði, ok var þá mjök herskátt í
+      ríki hans. Hann lét hlaða vita á fjöllum ok setti menn til at gæta ok skjóta upp vitum, ef
+      ófriðr kæmi. Víkarr gætti vitanna á Fenhring við þriðja mann, ok skyldi þann vita fyrst upp
+      kynda, ef herr væri sénn, en síðan hvern at öðrum. En er Víkarr hafði skamma stund vitans
+      gætt, gekk hann einn morgin á Ask út ok fann Starkað, fóstbróður sinn, Stórvirksson. Hann var
+      furðuliga mikill. Hann var hímaldi ok kolbítr ok lá í fleti við eld. Þá var hann tólf vetra
+      gamall. Víkarr reisti hann upp ór fletinu ok fekk honum vápn ok klæði ok mældi vöxt hans, því
+      at honum þótti hann undarliga mikit <pb n="15"/> vaxit hafa, síðan hann kom á Ask. Fengu þeir
+      Víkarr sér skip ok fóru í brutt þaðan. Svá segir Starkaðr: <lg>
+       <l>"Afl gat ek ærit,</l>
+       <l>uxu tjálgur,</l>
+       <l>langir leggir</l>
+       <l>ok ljótt höfuð,</l>
+       <l>en hímaldi</l>
+       <l>af hagli sat,</l>
+       <l>fás forvitinn,</l>
+       <l>í fleti niðri,</l>
+       <l>Unz Víkarr kom</l>
+       <l>frá vita innan,</l>
+       <l>gísli Herþjófs,</l>
+       <l>gekk inn í sal;</l>
+       <l>hann kenndi mik,</l>
+       <l>hann kvaddi mik</l>
+       <l>upp at standa</l>
+       <l>ok andsvara.</l>
+       <l>Hann mældi mik</l>
+       <l>mundum ok spönnum,</l>
+       <l>alla arma</l>
+       <l>til úlfliða,</l>
+       <l>-- -- -- -- --</l>
+       <l>vaxit hári</l>
+       <l>á höku niðri."</l>
+      </lg> Hér segir Starkaðr frá því, at hann hafði þá skegg, er hann var tólf vetra. Síðan reis
+      Starkaðr upp, ok fekk Víkarr honum vápn ok klæði, ok fóru síðan til skips. Eptir þetta safnaði
+      Víkarr liði, ok urðu þeir saman tólf. Þeir váru allir kappar ok hólmgöngumenn. Svá segir
+      Starkaðr: <lg>
+       <l>"Þá safnaði</l>
+       <l>Sörkvi ok Gretti</l>
+       <l>Haralds arfþegi,</l>
+       <l>Hildigrími,</l>
+       <l>Erp ok Úlfi,</l>
+       <pb n="16"/>
+
+       <l>Áni ok Skúmu,</l>
+       <l>Hróa ok Hrotta</l>
+       <l>Herbrands syni,</l>
+       <l>Styr ok Steinþóri</l>
+       <l>frá Staði norðan;</l>
+       <l>þar var inn gamli</l>
+       <l>Gunnólfr blesi;</l>
+       <l>þá várum vér</l>
+       <l>þrettán saman;</l>
+       <l>fær varliga</l>
+       <l>fríðri drengi."</l>
+      </lg> Síðan fór Víkarr konungr með lið sitt á fund Herþjófs konungs. En er konungr spurði
+      ófrið þenna, þá lét hann lið sitt til búast. Herþjófr konungr átti mikinn húsabæ, ok var þar
+      gott vígi, svá at þat var náliga kastali eða borg. Þar var fyrir sjautigi vígra manna ok
+      ótalit allr verkalýðr ok þjónustumenn. En þegar er víkingar kómu at, gerðu þeir svá harða
+      atgöngu, at þeir hristu grindr ok hurðir ok hjuggu á gættin, svá at frá gengu lokur ok
+      slagbrandar, er innan váru fyrir hliðunum, en konungsmenn hrukku frá, ok náðu víkingar
+      inngöngu. Tókst þar þá bardagi mikill. Svá segir Starkaðr: <lg>
+       <l>"Svá kómum vér</l>
+       <l>til konungs garða,</l>
+       <l>hristum grindr,</l>
+       <l>hjuggum gætti;</l>
+       <l>brutum borglokur,</l>
+       <l>brugðum sverðum,</l>
+       <l>þar er sjau tigir</l>
+       <l>seggir stóðu</l>
+       <l>kostum góðir</l>
+       <l>fyr konungi;</l>
+       <l>þó var um aukit</l>
+       <l>öllum þrælum,</l>
+       <l>verkalýðum</l>
+       <l>ok vatndrögum."</l>
+      </lg>
+      <pb n="17"/> Herþjófr konungr varðist lengi með liði sínu, því at hann hafði marga frækna
+      menn, en með því að Víkarr hafði valit lið með sér ok ágæta kappa, þá varð rýrt fyrir þeim lið
+      Herþjófs konungs. Víkarr var jafnan framast sinna manna. Svá segir Starkaðr: <lg>
+       <l>"Var Víkari</l>
+       <l>vant at fylgja</l>
+       <l>því at fremstr ok fyrstr</l>
+       <l>í flokki stóð;</l>
+       <l>hjuggum hjálma</l>
+       <l>með höfuðgnípum,</l>
+       <l>brynjur sneiddum</l>
+       <l>ok brutum skjöldu."</l>
+      </lg> Starkaðr sótti hart fram með Víkari á hendr Herþjófi konungi, ok þeir veittu honum bana.
+      Allir kappar Víkars sóttu hart fram. Fellu þar margir menn, en sumir váru særðir. Svá segir
+      Starkaðr: <lg>
+       <l>"Var Víkari</l>
+       <l>vegs um auðit,</l>
+       <l>en Herþjófi</l>
+       <l>heiptir goldnar,</l>
+       <l>særðum seggi,</l>
+       <l>en suma drápum,</l>
+       <l>stóðkat ek fjarri,</l>
+       <l>þá er fell konungr."</l>
+      </lg> Þar fekk Víkarr sigr, en Herþjófr konungr fell, svá sem áðr er sagt, ok þrír tigir manna
+      með honum, en margir sárir til ólífis, en engir fellu af Víkars mönnum. Eptir þat tók Víkarr
+      skip þau öll, er Herþjófr konungr hafði átt, ok allt lið, þat er hann fekk, fór síðan austr
+      með landi með allt lið, þat er honum vildi fylgja. Ok er hann kom á Agðir, kómu til hans þeir,
+      er verit höfðu vinir föður hans. Varð hann þá brátt fjölmennr. Var hann þá til konungs tekinn
+      yfir Agðir allar ok <pb n="18"/> Jaðar, ok hann lagði undir sik Hörðaland ok Harðangr ok allt
+      ríki þat, er Herþjófr konungr hafði átt. Víkarr konungr gerðist brátt ríkr ok inn mesti
+      hermaðr. Hann var hvert sumar í hernaði. Víkarr konungr fór með her sinn í Vík austr ok gekk á
+      land austan fjarðar ok herjaði upp á Gautland ok vann þar mikit hervirki. En er hann kom upp í
+      Væni, þá kom þar á móti honum konungr sá, er Sísarr hét. Hann var austan ór Kænugarði. Hann
+      var kappi mikill ok hafði lið mikit. Þeir Víkarr konungr ok Sísarr áttu þar bardaga harðan, ok
+      gekk Sísarr hart fram ok drap margt manna af liði Víkars konungs. Þar var Starkaðr með Víkari
+      konungi. Hann gekk fram móti Sísari, ok áttust þeir lengi við vápnaskipti, ok þurfti hvárrgi
+      öðrum at frýja stórra högga. Sísarr hjó af Starkaði skjöldinn ok veitti honum tvau sár í höfði
+      mikil með sverði ok í sundr viðbeinit. Starkaðr fekk ok sár fyrir ofan mjöðmina á síðunni. Svá
+      segir Starkaðr: <lg>
+       <l>"Vart þú eigi</l>
+       <l>með Víkari</l>
+       <l>austr í Væni</l>
+       <l>árdag snemma,</l>
+       <l>þá er sóttu vér</l>
+       <l>Sísar á velli,</l>
+       <l>þat var þrekvirki</l>
+       <l>þokks megnara.</l>
+       <l>Mik lét sverði hann</l>
+       <l>sáru höggvinn</l>
+       <l>skarpeggjuðu</l>
+       <l>skjöld í gegnum,</l>
+       <l>hjálm af höfði,</l>
+       <l>en haus skorat</l>
+       <l>ok kinnkjálka</l>
+       <l>klofinn í jaxla;</l>
+       <l>en it vinstra</l>
+       <l>viðbein lamit."</l>
+      </lg> Starkaðr fekk ok holsár á annarri síðunni af atgeiri þeim, er Sísarr vó með. Svá segir
+      Starkaðr: <lg>
+       <l>"Ok á síðu</l>
+       <l>sverði beitti</l>
+       <l>mér öflugr</l>
+       <l>fyrir mjöðm ofan,</l>
+       <l>en í aðra</l>
+       <l>atgeir lagði</l>
+       <l>köldum broddi,</l>
+       <l>svát á kafi yddi;</l>
+       <l>þau sér merki</l>
+       <l>á mér gróin."</l>
+      </lg>
+      <pb n="19"/> Starkaðr hjó Sísar með sverði ok sneið svá um þvera síðu honum ok veitti honum
+      mikit sár á fæti fyrir neðan kné, ok at lyktum hjó hann af honum annan fótinn í ökkla, ok þá
+      fell Sísarr konungr. Svá segir Starkaðr: <lg>
+       <l>"Sneidda ek honum</l>
+       <l>síðu aðra</l>
+       <l>bitrum brandi</l>
+       <l>um búk þveran;</l>
+       <l>svá ek af heiptum</l>
+       <l>hjörvi beittak,</l>
+       <l>at alls megins</l>
+       <l>áðr kostaðak."</l>
+      </lg> Í bardaga þeim varð mannfall mikit, ok fekk Víkarr konungr sigr, en Kænir lögðu á
+      flótta, þeir er eptir lifðu. Eptir sigr þenna fór Víkarr konungr heim í ríki sitt. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Víkarr konungr spyrr, at Geirþjófr konungr hafði liðsafnað mikinn á Upplöndum ok ætlaði með
+      þann her at Víkari konungi ok hefna Herþjófs konungs, bróður síns. Þá bauð Víkarr konungr út
+      almenningi af ríki sínu, fór með þat lið til Upplanda móti Geirþjófi konungi. Þeir áttu mikla
+      orrostu, svá at þeir börðust sjautján daga samfast, ok þá fell Geirþjófr konungr, en Víkarr
+      konungr hafði sigr. Þá vann Víkarr konungr undir sik Upplönd ok Þelamörk, því at Friðþjófr
+      Þelamerkr konungr var ekki heima í ríki sínu. Þess getr Starkaðr, at sú var in þriðja orrosta
+      Víkars konungs, er hann hafði unnit á Upplöndum: <lg>
+       <l>"Lét þreksamr</l>
+       <l>þriðja sinni</l>
+       <l>Hildar leik</l>
+       <pb n="20"/>
+
+       <l>háðan verða,</l>
+       <l>áðr Upplönd</l>
+       <l>unnin yrði</l>
+       <l>ok Geirþjófr</l>
+       <l>of gefinn helju."</l>
+      </lg> Síðan setti Víkarr menn yfir þat ríki, er hann hafði unnit á Upplöndum, en hann fór heim
+      í Agðir ok gerðist bæði ríkr ok fjölmennr. Hann fekk sér konu ok átti við henni tvá sonu. Hét
+      Haraldr inn ellri, en inn yngri hét Neri. Hann var manna vitrastr, ok varð þat allt at ráði,
+      er hann lagði til, en svá var hann sínkr, at hann mátti engan hlut svá gefa, at honum væri
+      eigi þegar eptirsjár at. Svá segir Starkaðr: <lg>
+       <l>"Átti sér</l>
+       <l>erfivörðu</l>
+       <l>tírsamr tvá</l>
+       <l>tiggi alna;</l>
+       <l>hét hans sonr</l>
+       <l>Haraldr inn ellri;</l>
+       <l>setti hann þann</l>
+       <l>at Þelamörku.</l>
+       <l>Var sínkgjarn</l>
+       <l>sagðr af gulli</l>
+       <l>Neri jarl,</l>
+       <l>nýtr í ráðum,</l>
+       <l>Víkars sonr,</l>
+       <l>vanr í sóknum;</l>
+       <l>sá réð einn</l>
+       <l>Upplendingum."</l>
+      </lg> Neri jarl var hermaðr mikill, en svá sínkr, at til hans hefir jafnat verit öllum þeim,
+      er sínkastir hafa verit ok sízt hafa öðrum veitt. En er Friðþjófr frétti fall bræðra sinna,
+      fór hann til Upplanda ok tók þat ríki undir sik, er Víkarr hafði fyrr unnit. Þá sendi hann <pb
+       n="21"/> Víkari orð, at hann skyldi skatt gjalda af sínu ríki eða þola her hans. Svá segir
+      Starkaðr: <lg>
+       <l>"Réð Friðþjófr</l>
+       <l>fyrst at senda</l>
+       <l>heiptar boð</l>
+       <l>horskum jöfri,</l>
+       <l>hvárt Víkarr</l>
+       <l>vildi gjalda</l>
+       <l>hilmi skatt</l>
+       <l>eða her þola."</l>
+      </lg> En er þessi orðsending kom Víkari, þá stefndi hann þing ok átti tal við ráðuneyti sitt
+      at svara þessu vandmæli. Þeir báru saman ráð sín ok réðu lengi um. Svá segir Starkaðr: <lg>
+       <l>"Réðum um,</l>
+       <l>ræddum lengi,</l>
+       <l>urðum vit</l>
+       <l>ekki dælir;</l>
+       <l>þat kaus herr,</l>
+       <l>at konungr skyldi</l>
+       <l>ríkr með her</l>
+       <l>rómu knýja."</l>
+      </lg> Þau orð váru send Friðþjófi konungi, at Víkarr konungr vildi verja land sitt. Fór þá
+      Friðþjófr konungr með her sinn ok ætlaði at herja á Víkar konung. Óláfr inn skyggni hét
+      konungr einn í Svíþjóð, þar sem heitir Nærríki. Hann var ríkr ok hermaðr mikill. Hann bauð út
+      almenning af sínu ríki ok fór til liðveizlu við Víkar konung. Þeir höfðu mikit lið ok fara með
+      her þann móti Friðþjófi konungi ok svínfylktu liði sínu til bardaga. Svá segir Starkaðr: <lg>
+       <l>"Réð Óláfr</l>
+       <l>austr inn skyggni,</l>
+       <l>sældar gramr,</l>
+       <pb n="22"/>
+
+       <l>fyr Svíaríki;</l>
+       <l>hann bauð út</l>
+       <l>almenningi;</l>
+       <l>mikill var hans</l>
+       <l>helmingr talinn."</l>
+      </lg> Þar tókst harðr bardagi, ok gengu menn Víkars konungs vel fram, því at þar váru margir
+      kappar í liði með þeim. Þar var inn fyrsti kappi Starkaðr Stórvirksson, annarr Úlfr ok Erpr ok
+      margir aðrir góðir drengir ok miklir kappar. Víkarr konungr gekk hart fram. Starkaðr var
+      brynjulauss ok gekk í gegnum fylkingar ok hjó tveim höndum, sem hér segir: <lg>
+       <l>"Gengum fram</l>
+       <l>í glam vápna</l>
+       <l>konungs menn</l>
+       <l>kappi gnægðir;</l>
+       <l>þar var Úlfr</l>
+       <l>ok Erpr litinn;</l>
+       <l>hjó ek brynjulauss</l>
+       <l>báðum höndum."</l>
+      </lg> Ok er Víkarr konungr sótti hart fram með kappa sína á hendr Friðþjófi konungi, þá helt
+      við los á fylking hans. Þá beiddi hann friðar Víkar konung. Svá segir Starkaðr: <lg>
+       <l>"Réð Friðþjófr</l>
+       <l>friðar at biðja,</l>
+       <l>því at Víkarr</l>
+       <l>vægði ekki</l>
+       <l>ok Starkaðr</l>
+       <l>Stórvirksson</l>
+       <l>almátt fram</l>
+       <l>allan lagði."</l>
+      </lg> Þar var inn mesti bardagi ok inn snarpasti, ok fell mikill hluti liðs Friðþjófs konungs,
+      en er hann beiddi friðar, stöðvaði Víkarr konungr her sinn. Gekk þá <pb n="23"/> Friðþjófr
+      konungr til sætta við Víkar konung. Skyldi þá Óláfr konungr semja sáttmál milli þeira, ok var
+      sú sætt, at Friðþjófr konungr gaf upp ríki sitt allt á Upplöndum ok Þelamörk, en hann fór ór
+      landi. Setti Víkarr konungr yfir þessi ríki sonu sína. Gaf hann Haraldi konungsnafn yfir
+      Þelamörk, en Nera jarlsnafn ok ríki á Upplöndum. Hann vingaðist við Gautrek konung á
+      Gautlandi, ok þat segir í sumum bókum, at Neri heldi nokkut ríki af Gautreki konungi, þann
+      hluta Gautlands er honum var nálægastr, ok væri hann ok jarl Gautreks konungs ok í ráðum með
+      honum, þegar þess þyrfti við. Eptir þetta fór Víkarr konungr heim í ríki sitt ok varð frægr
+      mjök af sigri þeim, ok skildu þeir Óláfr konungr með vináttu ok heldu þat jafnan síðan. Fór
+      hann heim austr í Svíaríki. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Rennir hét maðr ok var bóndi einn ríkr. Hann hafði atsetr í ey þeiri, er síðan er Rennisey
+      kölluð. Sú ey liggr fyrir Noregi norðr undan Jaðri. Hann hafði verit víkingr mikill, áðr hann
+      settist í búnað. Konu átti hann sér ok einn son barna. Sá hét Refr. Þá er hann var ungr,
+      lagðist hann í eldaskála ok beit hrís ok börk af trjám. Hann var furðuliga mikill vexti. Ekki
+      færði hann saur af sér, ok til einskis rétti hann sínar hendr, svá at öðrum væri til gagns.
+      Faðir hans var fjárorkumaðr mikill, ok líkaði honum illa óþrifnaðr sonar síns. Refr varð frægr
+      mjök at engum snotrleik né frama, heldr at því, at hann gerði sik athlægi annarra sinna
+      hraustra frænda, ok þótti föður hans hann ólíkligr til nokkurs frama, sem öðrum ungum mönnum
+      var þá <pb n="24"/> títt. Rennir bóndi átti einn þann grip, er hann hafði meiri mætur á en
+      öðrum sínum fjárhlutum. Þat var einn uxi. Hann var bæði mikill ok skrautligr fyrir horna
+      sakir. Ristin váru horn á honum ok rennt gulli í skurðina ok í stiklana ok svá silfri. Af
+      silfri var festr meðal horna uxanum ok þar á þrír gullhringar. Þessi uxi bar langt af öðrum
+      uxum, þeim sem í landinu váru, sakir vaxtar ok alls kostar umbúðar. Var Rennir bóndi svá
+      vandlátr um hann, at hann skyldi aldri geymslulauss vera. Rennir var jafnan í bardögum með
+      Víkari konungi, ok var þeim vingott. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Víkarr konungr gerðist hermaðr mikill ok hafði marga kappa með sér, þá er ágætir váru, en
+      Starkaðr var mest metinn af öllum þeim ok kærastr konungi, þar hann var öndvegismaðr hans ok
+      ráðgjafi ok landvarnarmaðr. Hann þá margðar gjafir af konungi. Víkarr konungr gaf honum
+      gullhring þann, er stóð þrjár merkr, en Starkaðr gaf honum eyna Þrumu, er Haraldr konungr
+      hafði gefit Stórvirki, föður hans. Hann var fimmtán sumur með Víkari konungi, sem hann segir: <lg>
+       <l>"Mér gaf Víkarr</l>
+       <l>valamálm,</l>
+       <l>hring inn rauða,</l>
+       <l>er ek á hendi ber,</l>
+       <l>mér þrímerking,</l>
+       <l>en ek Þrumu honum,</l>
+       <l>fylgda ek fylki</l>
+       <l>fimmtán sumur."</l>
+      </lg> Víkarr konungr sigldi af Ögðum norðr á Hörðaland ok hafði lið mikit. Hann lá í hólmum
+      nokkurum lengi <pb n="25"/> ok fekk andviðri mikit. Þeir felldu spán til byrjar, ok fell svá,
+      at Óðinn vildi þiggja mann at hlutfalli at hanga ór hernum. Þá var skipt liðinu til hlutfalla,
+      ok kom upp hlutr Víkars konungs. Við þat urðu allir hljóðir, ok var ætlat um daginn eptir, at
+      ráðsmenn skyldu eiga stefnu um þetta vandmæli. Um nóttina nær miðri nótt vakti Hrosshárs-Grani
+      Starkað, fóstra sinn, ok bað hann fara með sér. Þeir taka bát einn lítinn ok reru til eyjar
+      einnar inn frá hólminum. Þeir gengu upp til skógar ok fundu þar rjóðr eitt í skóginum. Í
+      rjóðrinu var fjölmenni mikit, ok var þar þing sett. Þar sátu ellifu menn á stólum, en inn
+      tólfti var auðr. Þeir gengu fram á þingit, ok settist Hrosshárs-Grani á stólinn inn tólfta.
+      Þar heilsuðu allir Óðni. Hann mælti, at dómendr skyldi þá dæma örlög Starkaðs. Þá tók Þórr til
+      orða ok mælti: "Álfhildr, móðir föður Starkaðs, kaus föður at syni sínum hundvísan jötun heldr
+      en Ásaþór, ok skapa ek þat Starkaði, at hann skal hvárki eiga son né dóttur ok enda svá ætt
+      sína." Óðinn svaraði: "Þat skapa ek honum, at hann skal lifa þrjá mannsaldra." Þórr mælti:
+      "Hann skal vinna níðingsverk á hverjum mannsaldri." Óðinn svaraði: "Þat skapa ek honum, at
+      hann skal eiga in beztu vápn ok váðir." Þórr mælti: "Þat skapa ek honum, at hann skal hvárki
+      eiga land né láð." Óðinn mælti: "Ek gef honum þat, at hann skal eiga of lausafjár." Þórr
+      mælti: "Þat legg ek á hann, at hann skal aldri þykkjast nóg eiga." Óðinn svaraði: "Ek gef
+      honum sigr ok snilld at hverju vígi." Þórr svaraði: "Þat legg ek á hann, at hann fái í hverju
+      vígi meiðslasár." Óðinn mælti: "Ek gef honum skáldskap, svá at hann skal eigi seinna yrkja en
+      mæla." Þórr mælti: "Hann skal ekki muna eptir, þat er hann yrkir." Óðinn mælti: <pb n="26"/>
+      "Þat skapa ek honum, at hann skal þykkja hæstr inum göfgustum mönnum ok inum beztum." Þórr
+      mælti: "Leiðr skal hann alþýðu allri." Þá dæmdu dómendr allt þetta á hendr Starkaði, er þeir
+      höfðu um mælt, ok sleit svá þinginu. Fóru þeir Hrosshárs-Grani ok Starkaðr til báts síns. Þá
+      mælti Hrosshárs-Grani til Starkaðs: "Vel muntu nú launa mér, fóstri, liðsemd þá, er ek veitta
+      þér." "Vel," sagði Starkaðr. Þá mælti Hrosshárs-Grani: "Þá skaltu nú senda mér Víkar konung,
+      en ek mun ráðin til leggja." Starkaðr játar þessu. Þá fekk Hrosshárs-Grani geir í hönd honum
+      ok sagði, at þat mundi sýnast reyrsproti. Þá fóru þeir út til liðsins, ok var þá komit at
+      degi. Um morguninn eptir gengu ráðgjafar konungs á stefnu til umráða. Kom þat ásamt með þeim,
+      at þeir skyldu gera nokkura minning blótsins, ok sagði Starkaðr upp ráðagerðina. Þar stóð fura
+      ein hjá þeim ok stofn einn hár nær furunni. Neðarliga af furunni stóð einn kvistr mjór ok tók
+      í limit upp. Þá bjuggu þjónustusveinar mat manna, ok var kálfr einn skorinn ok krufðr.
+      Starkaðr lét taka kálfsþarmana. Síðan steig Starkaðr upp á stofninn ok sveigði ofan þann inn
+      mjóva kvistinn ok knýtti þar um kálfsþörmunum. Þá mælti Starkaðr til konungs: "Nú er hér búinn
+      þér gálgi, konungr, ok mun sýnast eigi allmannhættligr. Nú gakktu hingat, ok mun ek leggja
+      snöru á háls þér." Konungr mælti: "Sé þessi umbúð ekki mér hættuligri en mér sýnist, þá vænti
+      ek, at mik skaði þetta ekki, en ef öðruvís er, þá mun auðna ráða, hvat at gerist." Síðan steig
+      hann upp á stofninn, ok lagði Starkaðr virgulinn um háls honum ok steig síðan ofan af
+      stofninum. Þá stakk Starkaðr sprotanum á konungi ok mælti: "Nú gef ek þik Óðni." Þá lét
+      Starkaðr lausan furukvistinn. Reyrsprotinn <pb n="27"/> varð at geir, ok stóð í gegnum
+      konunginn. Stofninn fell undan fótum honum, en kálfsþarmarnir urðu at viðju sterkri, en
+      kvistrinn reis upp ok hóf upp konunginn við limar, ok dó hann þar. Nú heita þar síðan
+      Víkarshólmar. Af þessu verki varð Starkað mjök óþokkaðr af alþýðu, ok af þessu verki varð hann
+      fyrst landflótti af Hörðalandi. Eptir þat strauk hann brutt ór Noregi ok austr í Svíaveldi ok
+      var þar lengi með Uppsala konungum, Eireki ok Alreki, sonum Agna Skjálfarbónda, ok var í
+      herförum með þeim. Ok er Alrekr spurði Starkað, hvat hann kunni tíðenda at segja frá frændum
+      sínum eða sjálfum sér, þá orti Starkaðr kvæði þat, er heitir Víkarsbálkr. Þar segir svá frá
+      drápi Víkars konungs: <lg>
+       <l>"Fylgda ek fylki,</l>
+       <l>þeim er framast vissak,</l>
+       <l>þá unda ek bezt</l>
+       <l>ævi minni,</l>
+       <l>áðr fóru vér,</l>
+       <l>en því flögð ullu,</l>
+       <l>hinzta sinni</l>
+       <l>til Hörðalands.</l>
+       <l>Þess eyrendis,</l>
+       <l>at Þórr um skóp</l>
+       <l>mér níðings nafn,</l>
+       <l>nauð margs konar;</l>
+       <l>hlaut ek óhróðigr</l>
+       <l>illt at vinna.</l>
+       <l>Skylda ek Víkar</l>
+       <l>í viði hávum</l>
+       <l>Geirþjófsbana</l>
+       <l>goðum of signa;</l>
+       <l>lagða ek geiri</l>
+       <l>gram til hjarta,</l>
+       <l>þat er mér harmast</l>
+       <l>handaverka.</l>
+       <l>Þaðan vappaða ek</l>
+       <l>villtar brautir,</l>
+       <l>Hörðum leiðr,</l>
+       <l>með huga illan,</l>
+       <l>hringa vanr</l>
+       <l>ok hróðrkvæða,</l>
+       <l>dróttinlauss,</l>
+       <l>dapr alls hugar.</l>
+       <l>Nú sótta ek</l>
+       <l>til Svíþjóðar,</l>
+       <l>Ynglinga sjöt,</l>
+       <l>til Uppsala;</l>
+       <l>hér láta mik,</l>
+       <l>sem ek lengi man,</l>
+       <l>þöglan þul</l>
+       <l>þjóðans synir."</l>
+      </lg> Þat má finna á Starkaði, at honum þykkir þetta eitthvert verk sitt verst ok óskapligast
+      orðit hafa, er hann <pb n="28"/> drap Víkar konung, ok ekki höfum vér frásagnir heyrðar, at
+      hann hafi ílendr orðit í Noregi síðan. En er Starkaðr var at Uppsölum, þá váru þar tólf
+      berserkir málamenn ok váru mjök ágjarnir ok spottsamir við hann, ok váru óðastir at því bræðr
+      tveir, Ulfr ok Ótryggr. Starkaðr var þögull, en berserkir kölluðu hann endrborinn jötun ok
+      níðing, svá sem hér segir: <lg>
+       <l>"Hér settu mik</l>
+       <l>sveina milli,</l>
+       <l>heldr hæðinn</l>
+       <l>ok hvítbráan,</l>
+       <l>skelkja skatnar</l>
+       <l>ok skop draga</l>
+       <l>ofs óframir</l>
+       <l>at jöfurs greppi.</l>
+       <l>Sjá þykkjast þeir</l>
+       <l>á sjálfum mér</l>
+       <l>jötunkuml,</l>
+       <l>átta handa,</l>
+       <l>er Hlórriði</l>
+       <l>fyr hamar norðan</l>
+       <l>Hergrímsbana</l>
+       <l>höndum rænti.</l>
+       <l>Hlæja rekkar,</l>
+       <l>er mik séa,</l>
+       <l>ljótan skolt,</l>
+       <l>langa trjónu,</l>
+       <l>hár úlfgrátt,</l>
+       <l>hangar tjálgur,</l>
+       <l>hrjúfan háls,</l>
+       <l>húð jótraða."</l>
+      </lg> En er Eirekr konungr ok Alrekr settust heima, þá fór Starkaðr í hernað með skip þat, er
+      Eirekr konungr hafði gefit honum ok hafði skipat með Norðmönnum ok Dönum. Fór hann víða um
+      lönd ok framdi orrostur <pb n="29"/> ok einvígi ok hafði jafnan sigr, ok er hann ekki lengr
+      við þessa sögu. Alrekr konungr varð skammlífr, en þat varð með þeim atburði, at Eirekr
+      konungr, bróðir hans, sló hann í hel með beizli, er þeir höfðu riðit at temja hesta sína.
+      Eptir þat réð Eirekr konungr einn Svíþjóðu lengi síðan, sem enn mun síðar sagt í þessi sögu af
+      samskiptum þeira Hrólfs Gautrekssonar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Nú ferr tveim fram sögunum. Skal nú segja fyrst frá því, er áðr var frá horfit, at Gautrekr
+      konungr stýrir Gautlandi ok gerðist mikill höfðingi ok inn mesti bardagamaðr. Þat þótti
+      konunginum vanta mjök á sína ríkisstjórn, at hann var maðr ókvæntr, ok vildi hann leita sér
+      ráðs. Haraldr er konungr nefndr. Hann réð fyrir Vindlandi. Hann var vitr maðr ok ekki mikill
+      bardagamaðr. Hann átti sér drottning ok eina dóttur væna ok vel siðuga, er Álfhildr hét.
+      Gautrekr konungr býr ferð sína til Vindlands ok biðr dóttur Haralds konungs. Því máli var vel
+      svarat, ok svá margt, sem þeir töluðu hér um, varð sá endir á, at Gautrekr konungr skal fá
+      meyna. Flytr hann hana heim í Gautland ok drekkr til hennar brullaup. Ok er þau höfðu eigi
+      lengi ásamt verit, fæðir Álfhildr dóttur eina fríða. Þeiri var nafn gefit, ok heitir hún
+      Helga. Hún var snemma bráðger. Hún óx upp með föður sínum, ok þótti hún inn bezti kostr þar í
+      Gautlandi. Gautrekr konungr hafði margt manna með sér, þeira er mikilhæfir váru. Hrosskell hét
+      maðr. Hann var vinr Gautreks. Hann var mikill víkingr. Hann þá einn tíma heimboð með Gautreki
+      konungi, ok at skilnaði gaf <pb n="30"/> Gautrekr konungr honum sæmiligar gjafir. Hann gaf
+      Hrosskeli stóðhross góð, hest grán ok með fjögur merhross. Þau voru öll silkibleik ok in
+      vænustu. Hrosskell þakkaði konungi gjafirnar, ok skildu þeir með mikilli vináttu. Gautrekr
+      konungr stýrir nú ríki sínu um mörg ár ok sitr nú um kyrrt, þar til at drottning kennir
+      sóttar, ok eigi lyktar fyrr hennar sótt en drottning er dauð út borin. Gautreki konungi þótti
+      þetta inn mesti harmr. Konungr lætr verpa haug eptir drottningu. Honum fekk þetta svá mikils,
+      at hann gáði eigi ríkisstjórnar. Hann sat á haugi hvern dag ok beitti þaðan hauki sínum ok
+      gerði sér þar af skemmtan ok dægrastytting. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Nú er frá því at segja, at Neri jarl hafði ríkisstjórn á Upplöndum, sem fyrr er sagt, ok er
+      hann fréttir dráp Víkars konungs, föður síns, hefir hann stefnu við Harald konung, bróður
+      sinn, ok er þeir finnast, tala þeir um arfskipti sín í milli. Kemr þat ásamt með þeim, með því
+      at Haraldr var ellri þeira bræðra, at hann skal taka ríki þau öll undir sik, er Víkarr konungr
+      hafði fyrir ráðit, ok vera þar konungr yfir, en Neri jarl skal hafa Upplönd sem áðr ok
+      Þelamörk, þat ríki, sem áðr hafði stýrt Haraldr konungr, bróðir hans, ok skildust þeir bræðr
+      með góðu samþykki. Neri jarl var svá vitr, at eigi fekkst hans maki. Varð þat allt at ráði, er
+      hann lagði til, um hvat sem þeir áttu at vera. Aldri vildi hann gjafir þiggja, því at hann var
+      svá sínkr, at hann tímdi engu at launa. Þess er getit við, er áðr var frá sagt, at Rennir
+      bóndi gekk einn dag um eldaskála. Hann rasaði um leggi <pb n="31"/> Refs, sonar síns, ok mælti
+      til hans: "Mikil skömm er at slíkum syni, er þú vill þik til ills eins hafa. Nú skaltu verða á
+      bruttu ok koma eigi optar fyrir augu mér eða í augsýn, meðan þú ferr þessi fólsku fram." Refr
+      svarar: "Með því attu rekr mik frá þér, þá mun þat makligra, at fari sá gripr með mér, er þú
+      átt beztan ok þér þykkir mest at láta." Rennir mælti: "Engi gripr er sá í minni eign, at ek
+      vilda eigi til þess gefa, at ek sæja þik aldri, því at þú ert athlægi ættar þinnar." Eptir þat
+      skildu þeir tal sitt. Ok eigi miklu síðar einn veðrdag góðan stendr Refr upp ok býst í brutt.
+      Hann tekr ok uxann góða ok leiðir til strandar. Hann hrindr fram einu skipi ok ætlar á land.
+      Ekki hirðir hann, þótt uxinn vökni nokkut. Síðan sezt hann við árar, en bindr uxann við skipit
+      ok rær svá til lands. Hann var í stuttum feldi ok í ökulbrókum, ok er hann kemr á land, leiðir
+      hann uxann eptir sér, ferr fyrst austr eptir Jaðri ok svá sem leið liggr til Upplanda. Eigi
+      léttir hann fyrr sinni ferð en hann kemr til bæjar þess, er Neri jarl átti fyrir at ráða.
+      Hirðmenn jarls sögðu honum, at þar var kominn Refr Rennisfífl ok leiðir eptir sér uxann góða.
+      Jarl bað þá ekki gabba hann. Ok er Refr kom at hallardyrum þeim, sem jarl var vanr at sitja í,
+      bað hann dyravörðu kalla á jarl til tals við sik. Þeir svöruðu: "Eigi lætr þú dvöl á
+      fólskunni, ok er jarl eigi því vanr at hlaupa til tals við þorpara." Refr mælti: "Komi þér
+      orðum mínum, en hann ráði svörum." Síðan gengu þeir til móts við jarl ok sögðu, at Refr inn
+      heimski beiddi hann út koma. Jarl mælti: "Segi þér, at ek mun hitta Ref; eigi veit, hverju
+      heilli hverrgi kemr." Gekk jarl út, ok kvaddi Refr hann vel. Jarl mæltu: "Hví ertu hér
+      kominn?" Refr svaraði: "Faðir minn hefir mik brutt rekit, en hér <pb n="32"/> er einn uxi, er
+      ek á, ok hann vil ek þér gefa." Jarl svaraði: "Hefir þú eigi spurt, at ek þigg engar gjafir,
+      því at ek vil engum manni launa." Refr svaraði: "Spurt hefi ek sínku þína, at engi þarf til
+      fjár móti at ætla, þótt þér sé gefit, en þó vil ek, at þú þiggir þenna grip, ok má vera, at þú
+      gerir mér gagn í orðum þínum, hverr sem peninga laun verða." Jarl mælti: "Þiggja mun ek uxann
+      við þessi þín ummæli, ok gakk þú inn ok ver hér fyrst í nótt." Refr lét lausan uxann ok gekk
+      inn. Jarl bað fá honum klæði, svá at skammlaust væri. Síðan þó Refr sér, ok var hann inn
+      drengiligasti maðr. Hann sat þar um hríð. Öll höll jarls var búin með skjöldum, svá at hverr
+      tók annan, þar sem þeir váru upp festir. Jarl tók einn skjöld, sá var allr lagðr með gull,
+      þann gaf hann Refi. Ok er jarl gekk til dagdrykkju, horfði hann í hliðit, þar sem skjöldrinn
+      hafði hangit. Hann kvað þá vísu: <lg>
+       <l>"Skein inn skrautligi raunar,</l>
+       <l>skjöldr hekk áðr á tjöldum,</l>
+       <l>oss verðr opt af þessu</l>
+       <l>angr mest, er ek lít þangat;</l>
+       <l>skarð erat skapligt orðit;</l>
+       <l>skjótt mun ek snauðr af auði,</l>
+       <l>er braut með gjöf gautar</l>
+       <l>grandlaust bera randir."</l>
+      </lg> Jarl lét snúa hásæti sínu, svá fekk honum mikils, at skjöldrinn var í bruttu. Ok er Refr
+      fann þetta, gekk hann fyrir jarl ok hafði skjöldinn í hendi sér ok mælti: "Herra," segir hann,
+      "ver kátr, því at hér er skjöldr sá, er þér gáfuð mér. Hann vil ek nú yðr gefa, því at mér
+      kemr hann at engu haldi, þar sem ek hefi ekki fleira vápna." Jarl mælti: "Gefðu allra drengja
+      heilastr, því at þat er <pb n="33"/> mikil prýði höll minni at hafa hann aptr í þann stað, sem
+      hann hekk áðr, en hér er einn gripr, er ek vil gefa þér, ok má vera, at þér verði at gagni, ef
+      þú ferr mínum ráðum fram." Jarl fekk honum í hendr eitt heinbrýni, -- "ok mun þér þykkja þessi
+      gjöf ekki fémikil." Refr mælti: "Eigi veit ek, at hverju haldi mér kemr þetta." Jarl mælti:
+      "Svá er þó mál með vexti, at ek vil engan mann sitjanda fæða, svá at eigi starfi nokkut. Nú
+      vil ek senda þik til Gautreks konungs, ok sel þú honum í hendr heinarbrýni þetta." Refr mælti:
+      "Ekki em ek vanr at fara á milli tíginna manna, ok eigi veit ek, hvat konungi skal þetta
+      brýni. Jarl mælti: "Ekki þyrfti at geta vitsmuna minna, ef ek sæja eigi lengra fram en þú, en
+      engi frama raun mun þér í þessu vera, at hitta konunginn, því at þú skalt ekki við hann mæla.
+      Mér er sagt, at konungr sé opt á haugi drottningar ok beitir þaðan hauki sínum, ok optliga, er
+      á líðr daginn, þá lezt haukrinn. Þá lætr konungr sveipa höndina hjá stólnum, ef hann finnr
+      nokkut at kasta til hans. Nú ef svá ferr, ef konungr fær ekki at kasta til hauksins, þá stikk
+      þú brýninu í hönd honum, en tak við, ef hann réttir nokkut þér í hönd ok far þá aptr til mín."
+      Síðan fór Refr at tilvísun jarls ok kom þar, sem konungr sat á hauginum, ok fór þat svá sem
+      Neri gat til, at konungr fleygði öllu til hauksins, því er hann fekk til. Refr settist hjá
+      stólinum at baki konungi. Síðan sér hann, hvar komit var. Konungr réttir höndina á bak sér
+      aptr. Refr stingr brýninu í hönd honum, en konungr kastar þegar á bak haukinum, ok flýgr hann
+      upp snart, er heinin kom við hann. Konungi þótti vel sigrazt hafa ok vildi eigi, at sá missti
+      síns, er honum hafði gert greiða, ok rétti á bak sér gullbaug ok sá eigi til hans meðan. Refr
+       <pb n="34"/> tók við ok fór til fundar við jarl. Hann spurði, hversu farizt hefði. Refr sagði
+      ok sýndi honum bauginn. Jarl mælti: "Þetta er góðr gripr, ok er eigi seta nýtri en afla
+      slíks." Þar var Refr um vetrinn, en er váraði, þá mælti jarl: "Hvat skaltu nú at hafast?" Refr
+      mælti: "Mun nú eigi hægt um, ek má nú selja bauginn til lausafjár." Jarl mælti: "Til mun ek
+      enn hlutast með þér. Konungr heitir Ella. Hann ræðr fyrir Englandi. Honum skaltu gefa bauginn.
+      Mun þér þat eigi frá fé verða, en kom til mín at hausti. Mat ok ráð mun ek eigi við þik spara,
+      þótt engi verði önnur uxalaunin." Refr mælti: "Eigi vilda ek, at þú gætir þess." Síðan fór
+      hann til Englands ok gekk fyrir Ellu konung ok kvaddi hann sæmiliga. Var Refr þá vel búinn
+      bæði at vápnum ok klæðum. Konungr spurði, hverr þessi maðr var. Hann svaraði: "Ek heiti Refr,
+      ok vilda ek, at þér þægið af mér gullbaug þenna," ok lagði á borðit fyrir konunginn. Konungr
+      leit á ok mælti: "Þetta er mikil gersemi, eða hverr gaf þér?" Refr svaraði: "Gautrekr konungr
+      gaf mér bauginn." Konungr mælti: "Hvat gaftu honum?" Refr svaraði: "Eitt lítit heinarbrýni."
+      Konungr mælti: "Mikit er um örleik Gautreks konungs, er hann gefr gull við grjóti. Þiggja vil
+      ek hringinn," sagði konungr, "ok býð ek þér hér at vera." Refr mælti: "Hafið þökk, herra,
+      fyrir boð yðvart, en aptr ætla ek mér til Nera jarls, fóstra míns." Konungr mælti: "Dveljast
+      verðr þú hér um stund." Konungr lét búa eitt skip, ok einn dag bað hann Ref ganga með sér.
+      Konungr mælti: "Hér er eitt skip, er ek vil gefa þér með öllum þeim farmi, er þér má bezt
+      henta, ok mönnum svá mörgum sem þú þarft. Vil ek eigi, at þú sért lengr annarra farþegi at
+      fara hvert er þér líkar, ok er þetta <pb n="35"/> þó lítit hjá því, sem Gautrekr konungr
+      launaði þér heinarbrýnit." Refr mælti: "Þetta er allstórmannliga launat." Síðan bjó Refr sik
+      til skips með nógum efnum ok þakkaði konungi með mörgum fögrum orðum. Konungr mælti: "Hér eru
+      rakkar tveir, er ek vil gefa þér." Þeir váru harðla litlir ok fagrir, ok enga hafði Refr slíka
+      sét. Viðjar váru á þeim af gulli, ok spennt gullhring um háls hvárum þeira ok sjau smáhringar
+      á festinni milli þeira. Eigi þóttust menn sét hafa slíkar gersimar í þeiri tegund. Síðan fór
+      Refr á brutt ok kom í ríki Nera jarls. Hann gekk í móti honum ok bað hann vel kominn, -- "ok
+      far til mín með alla menn þína." Refr mælti: "Ek hefi nú nógan kaupeyri fyrir oss at leggja."
+      Jarl mælti: "Þat er vel, en ekki skal þat kaupeyri þinn skerða, en af váru borði skaltu mat
+      eta, þó eru eigi mikil uxalaunin." Refr mælti: "Þat eina þykki mér at, er þú getr þess." Nú er
+      Refr með jarli um vetrinn ok verðr allvinsæll, ok váru með honum margir sporgöngumenn. Ok er
+      váraði, mælti jarl við Ref: "Hvat skal nú at hafast?" Refr mælti: "Mun nú eigi hægt, því at fé
+      skortir nú eigi, at ráðast í víking eða kaupferðir?" Jarl mælti: "Svá er þat, en til mun ek
+      hlutast enn með þér. Nú skaltu fara suðr til Danmerkr á fund Hrólfs konungs kraka ok færa
+      honum rakkana, því at þeir eru ekki ótíginna manna eign, ok mun enn eigi frá fé verða, ef hann
+      vill þiggja." Refr mælti: "Þú skalt ráða, en eigi er mér nú féfátt." </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Nú býst Refr ok siglir til Danmerkr. Hann finnr Hrólf konung ok gengr fyrir hann ok fagnar
+      honum. <pb n="36"/> Konungr spyrr hann, hverr hann væri. Hann kveðst Refr heita. Konungr
+      svaraði: "Ertu kallaðr Gjafa-Refr?" Hann svaraði: "Þegit hefi ek gjafir af mönnum ok þó enn
+      gefit stundum." Refr mælti: "Rakka þessa ina litlu vil ek, herra, gefa yðr með búnaði sínum."
+      Konungr mælti ok leit til: "Slíkt eru stórar gersimar, eða hverr gaf þér?" Refr svaraði: "Ella
+      konungr." Hrólfr konungr mælti: "Hvat gaftu honum?" Refr svaraði: "Gullbaug." "Eða hverr gaf
+      þér hann?" Refr svaraði: "Gautrekr konungr." "Eða hvat gaftu honum?" Refr svaraði:
+      "Heinarbrýni." Hrólfr konungr mælti: "Mikit er um örleik Gautreks konungs, er hann gefr gull
+      við grjóti, en þiggja mun ek rakkana, ok ver með oss." Refr svaraði: "Aptr skal ek at hausti
+      til Nera jarls, fóstra míns." Hrólfr konungr svaraði: "Svá má vel vera." Var hann nú með
+      konungi um hríð. Nú býr Refr skip sitt at hausti. Þá mælti konungr: "Laun hefi ek hugat þér.
+      Skip skaltu af mér þiggja svá sem af Englakonungi, skal þat vera með inum bezta farmi ok
+      mönnum." Refr mælti: "Hafið mikla þökk fyrir stórmannliga gjöf," ok bjóst síðan. Hrólfr
+      konungr mælti: "Hér eru gripir tveir, Refr, er þú skalt af mér þiggja, þat er hjálmr ok
+      brynja." Refr tekr við gripunum. Þeir váru báðir af rauðu gulli gervir, ok skiljast þeir
+      Hrólfr konungr með mikilli blíðu, ok ferr Refr nú til móts við Nera jarl, ok stýrði hann þá
+      tveimr skipum. Jarl tók vel við honum ok sagði, at enn hafði heldr vaxit féit, -- "ok skulu
+      þér allir til mín í vetr, ok eru þó lítil laun fyrir uxann, en eigi hæfir mér at spara orð mín
+      til gagns þér." Refr svaraði: "Þíns tilstillis nýt ek at öllu þessu." Ok var Refr þar um
+      vetrinn í góðu yfirlæti ok gerðist frægr maðr. <pb n="37"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> En um várit spurði jarl Ref: "Hvat skal nú í sumar at hafast?" Refr svaraði: "Herra, þér
+      skuluð fyrir sjá, en eigi er mér nú féfátt." Jarl mælti: "Ek ætla þat satt; nú er ein ferðin
+      sú, er ek vil fyrir þik leggja. Konungr heitir Óláfr ok liggr í hernaði. Hann hefir átta tigu
+      skipa. Hann liggr úti vetr ok varmt sumar á sjó. Hann er inn frægasti herkonungr. Honum skaltu
+      færa hjálm ok brynju, ok ef hann þiggr, þá væntir mik, at hann biði þik kjósa laun fyrir, en
+      þú skalt kjósa at ráða fyrir liði hans hálfan mánuð ok halda þangat, sem þér líkar. En maðr er
+      sá með konungi, er Ref-nefr heitir. Hann er it mesta illmenni. Hann er ráðgjafi konungs. En
+      þat sé ek trautt, hvárt þar má meira gæfa þín eða tröllskapr hans, en þar mun þó verða til at
+      hætta, hvern veg verðr. Síðan skaltu halda hingat öllu liðinu, ok má þá verða, at ek fá launat
+      þér uxann góða." Refr mælti: "Til opt þykkir mér þú hans geta." Síðan skildu þeir. Fór Refr nú
+      at leita Óláfs konungs ok fann hann þar, sem hann lá með skipaflota sínum, ok leggr þegar at
+      konungs skipinu, gengr upp á skipit ok kvaddi konunginn. Óláfr konungr spurði, hverr hann
+      væri. Refr sagði til sín. Konungr mælti: "Ertu kallaðr Gjafa-Refr?" Hann svaraði: "Gefit hafa
+      mér stundum göfgir menn, ok ek hefi jafnan gefit nokkut í mót. En hér eru tveir gripir, er ek
+      vil þér gefa; þat er hjálmr ok brynja, því at yðr munu þessir gripir fullvel hæfa." Konungr
+      mælti: "Hverr gaf þér gersimar þessar, er ek hefi eigi sét slíkar ok at síðr sét, at ek hefi
+      enga spurn af haft, ok hefi ek þó farit víða um lönd?" Refr svaraði: <pb n="38"/> "Hrólfr
+      konungr kraki gaf mér þessa gripi." Konungr mælti: "En hvat gaftu honum?" Refr mælti: "Rakka
+      tvá með gullviðjum, er Ella Englakonungr gaf mér." "En hvat gaftu Ellu konungi?" sagði Óláfr
+      konungr. "Gullbaug einn, er Gautrekr konungr gaf mér ok launaði mér fyrir eitt heinarbrýni."
+      Óláfr konungr mælti: "Mikit er um örleik slíkra konunga, ok berr Gautrekr konungr þó yfir
+      þeira örleik allra, eða hvárt skal ek þiggja þessa gripi, Refnefr, eða eigi?" Hann svaraði:
+      "Eigi þykki mér ráð, at þú þiggir, ef þú hefir eigi vit til at launa," ok í því þrífr hann
+      gripina ok steypist fyrir borð með. Refr sér, at skjótt mun hann illa leikinn, ef hann missir
+      gripanna, ok ferr eptir honum, ok er harðr þeira atgangr, ok lýkr svá, at Refr náir brynjunni,
+      en Refnefr hefir hjálminn ok leggst til botns ok tryllist á honum á grunnum niðri, en Refr
+      kemr upp mjök máttfarinn. Þá var þetta kveðit: <lg>
+       <l>"Ráð þykki mér</l>
+       <l>Refnefs vera</l>
+       <l>nokkuru verri</l>
+       <l>en Neri kenndi,</l>
+       <l>varpat sínu</l>
+       <l>á sæ féi</l>
+       <l>Gautrekr, er gaf</l>
+       <l>gullhring Refi."</l>
+      </lg> Óláfr konungr mælti: "Þú ert inn ágætasti maðr." Refr mælti þá: "Nú vilda ek, at þú
+      þægir þenna grip, sem nú er eptir." Óláfr konungr mælti: "Ek vil víst þiggja ok kunna nú eigi
+      minni þökk annars en áðr beggja, ok var þat missýni, er ek þá eigi báða í fyrstu. Er þat nú
+      eigi at undrast, þar sem ek hlýdda ills manns ráði, ok kjós þér laun fyrir." Refr svaraði: "Ek
+      vil ráða fyrir skipum þínum ok liði í einn hálfan mánuð <pb n="39"/> ok halda þangat, sem ek
+      vil." Konungr mælti: "Kynligt kjör er þetta, en þó skulu skip til reiðu." Síðan heldu þeir til
+      Gautlands til móts við Nera jarl. Þeir kómu þar síð dags. Refr gerir Nera jarli menn á laun,
+      at hann vill hitta hann. Jarl ferr til fundar við Ref, ok segir hann honum allt um sínar
+      ferðir. "Nú er þar komit, fóstri," sagði jarl, "at nú er í ráði, hverr giftumaðr þú verðr, því
+      at nú vilda ek koma þér í mægðir við Gautrek konung, at þú fengir dóttur hans." Refr bað hann
+      einn forsjá at hafa. Jarl mælti: "Nú skaltu, næst er vit finnumst, bregðast eigi ókunnigr við,
+      hvat sem ek mæli, ok andstefna eptir því, sem ég bý í hendr þér." Síðan reið jarl í burt ok
+      létti eigi sinni ferð, fyrr en hann kom á fund Gautreks konungs. Jarl kom þar um miðnætti ok
+      segir honum, at herr óvígr er kominn í ríki hans, -- "ætla þessir menn at taka þik af lífi ok
+      taka undir sik ríkit." Konungr spyrr: "Hverr er höfðingi fyrir herinum?" Jarl svaraði: "Sá, er
+      oss mundi eigi þykkja líkligr til, at at engu mundi vilja hafa mín ráð, þat er Refr, fóstri
+      minn." Konungr mælti: "Þú munt enn miklu við hann ráða, eða mun eigi ráðligra at safna her í
+      móti?" Jarl mælti: "Ef þér komið engum sættum á við þá, þá þykki mér mikil ván, at þeir geri
+      hér mikit hervirki, áðr þú kemr liði at þér, ok vil ek heldr fara með boðum sæmiligum ok vita,
+      ef sætt tækist með yðr, því at mér þykkir mitt ríki fyrst á forgörðum, er þeir eru þar nær
+      komnir." Konungr svaraði: "Lengi höfum vér þínum ráðum hlýtt." "En þat vil ek," sagði jarl,
+      "at þú, konungr, heyrir upp á viðtal várt." Konungr bað hann því ráða. Síðan fóru þeir við
+      nokkura menn, þar til er þeir nálguðust skipin. Sá konungr, at þeir höfðu fjölda hermanna, ok
+      þótti torvelt í móti at standa. Jarl mælti ok kallaði af <pb n="40"/> landi á skipamenn:
+      "Hvárt er fóstri minn formaðr hers þessa?" "Svá er víst," sagði hann. "Eigi ætlaða ek þat,
+      fóstri, at þú mundir herja á ríki mitt eða svá it sama á ríki Gautreks konungs. Skal nokkut
+      til undanlausnar, at friðr mætti verða? Vil ek þat allt til vinna, at þín sæmd væri þá meiri
+      en áðr, ok þykkist ek vita, at konungr mun svá vilja fyrir sitt efni. Vilda ek, at þú þægir af
+      konungi sæmdir ok létir þá í náðum hans ríki; en ek veit, at mikilþægr muntu at vera, ok er
+      þat eigi undarligt, því at ríkr jarl var móðurfaðir þinn, en faðir þinn öruggr kappi." Refr
+      svaraði: "Þiggja skal ek góð boð, ef mér eru boðin." "Veit ek," segir jarl, "at eigi mun þik
+      með litlu mega tryggja. Sé ek, hvar hugr þinn mun á horfa um þetta mál. Þú munt vilja hafa
+      jarlsríki þat, er ek hefi haldit af Gautreki konungi; þar með muntu vilja, at konungr gefi þér
+      dóttur sína." Refr svaraði: "Sjándi ferr þú, jarl, eptir um þetta, ok þessu mun ek játa, ef
+      konungr vill þetta samþykkja." Jarl mælti til konungs: "Svá sýnist mér sem þat sé ráðligra at
+      taka þessa sætt en vér hættim út lífi váru undir þessa heljarmenn, ok sé eigi ólíkligt, at
+      þeir vinni fyrst ríki þetta, en taki þá dóttur þína at herfangi. Er þat ok it sæmiligasta at
+      gifta dóttur þína jarlbornum manni, en ek mun leggja til með Ref ráð mín, ok sé hann forstjóri
+      fyrir ríki þínu, ok fari fram vili yðvarr um þetta mál." Gautrekr konungr svaraði: "Jafnan
+      hefir oss, jarl, vel dugat þín ráð, ok vil ek þína forsjá á hafa. Lízt mér ok ofrefli mikit at
+      eiga við her þenna." Jarl mælti: "Þann veg mun ek nú helzt setja ráðit at láta Ref styrkja
+      ríki þitt ok hefja hann til ráðs." Síðan fór þetta fram með eiðum, ok skildi jarl fyrir allri
+      sætt þeira, ok fór Gautrekr konungr heim. Refr mælti þá: "Nú hefir þú, Óláfr konungr, <pb
+       n="41"/> veitt mér mikit lið, skaltu nú fara leiðar þinnar, hvert er þér líkar." Óláfr
+      konungr svaraði: "Vitrir menn hafa hér hlut at átt, sem þér eruð." Síðan sigldi Óláfr konungr
+      á braut. Ok er flotinn var á bruttu, þá mælti Gautrekr konungr: "Hér hefi ek átt við slæga
+      menn um, en ekki mun ek nú rjúfa eiða mína." Þá mælti jarl til Refs: "Nú eru þínir menn einir
+      eptir, ok máttu nú sjá, at hverju liði ek hefi þér komit, ok er ráð þetta þér hentiligt. Má
+      vera, at þér sé launaðr uxinn, ok hefi ek óframar launat þér, því at þú gaft mér alla eigu
+      þína, en ek á stóreignir eptir." Nú lét Gautrekr konungr búa til veizlu, ok gekk nú Refr at
+      eiga Helgu, dóttur Gautreks konungs. Þar með gaf Gautrekr konungr honum jarls nafn, ok þótti
+      inn frægasti at öllum vaskleik, var ok ætt hans af tígnum mönnum, en faðir hans inn mesti
+      víkingr ok kappi. Refr stýrði þessu jarls ríki ok varð ekki gamall. Neri jarl varð bráðdauðr,
+      ok segir ekki í þessi sögu frá honum lengra. Lét Gautrekr konungr drekka erfi eptir hann. Tók
+      konungr þá heldr at þyngjast fyrir aldrs sakir. Var hann meir ágætr at örleik sínum ok
+      framgöngu, en eigi er þat sagt, at hann væri djúpvitr, en þó var hann vinsæll ok stórgjöfull
+      ok inn hæverskligasti at sjá. Ok lýkr hér Gjafa-Refs sögu. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

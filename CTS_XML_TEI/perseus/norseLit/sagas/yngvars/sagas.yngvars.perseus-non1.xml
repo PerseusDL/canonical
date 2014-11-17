@@ -1,0 +1,668 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Yngvars saga víðförla</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Yngvars saga víðförla</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Yngvars_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="363"/> EIRÍKR hét konungr, er réð fyrir Svíþjóðu. Hann var kallaðr Eiríkr inn sigrsæli.
+      Hann átti Sigríði ina stórráðu ok skildi við hana sakir óhægenda skapsmuna hennar, því at hún
+      var kvenna stríðlyndust um allt þat, er við bar. Hann gaf henni Gautland. Þeira sonr var Óláfr
+      svenski. Í þann tíma réð Hákon jarl fyrir Noregi ok átti margt barna, en frá einni hans dóttur
+      munu vér nokkut segja, þeiri er Auðr hét. Eiríkr konungr átti ok dóttur, er eigi er nefnd.
+      Hennar bað sá höfðingi af Svíþjóð, er Áki hét, en konungi sýndist varboðit at gifta ótignum
+      manni dóttur sína. Litlu síðar bað hennar einn fylkiskonungr austan ór Garðaríki, ok sýndist
+      konungi at gifta honum meyna, ok fór hún með honum austr í Garðaríki. Nokkuru síðar kom Áki
+      þar á óvart ok drap konunginn, en hafði í burt með sér konungs dóttur ok heim í Svíþjóð ok
+      gerir brúðkaup til hennar. At þessu ráði bundust átta höfðingjar með Áka ok sitja <pb n="364"
+      /> þar um hríð undir reiði konungs, því at konungr vildi ekki berjast við þá eða gera svá
+      mikit mannspell innan lands á sínum mönnum. Þau Áki áttu son, er Eymundr hét. Eptir þetta býðr
+      Áki konungi sættir fyrir þetta bráðræði. Konungr tók því vel, ok nú, er svá var komit, biðr
+      Eiríkr konungr Auðar, dóttur Hákonar jarls ór Noregi. Var þeim málum vel svarat, ok lét jarl
+      sér þó þykkja betra, ef hann léti eigi nauðmág sinn sitja jafnhátt sér í Svíþjóð. Nú var
+      konunni heitit ok ákveðin brullaupsstefna, ok nú fara orð af nýju í millum þeira Áka ok
+      konungs, ok býðr Áki konungi sjálfdæmi fyrir utan sektir, ok sættast at því. Konungr býst nú
+      við brúðkaupi sínu ok býðr til höfðingjum innan lands ok nefnir fyrstan til Áka, mág sinn, ok
+      þá átta höfðingja, er honum fylgdu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> At á nefndum degi kom Hákon jarl af Noregi til Svíþjóðar, ok verðr þar mikit fjölmenni at
+      Uppsölum, því at þar váru allir inir beztu menn ór Svíþjóð. Þar váru margir skálar ok stórir,
+      fyrir því at þar váru margir höfðingjar fjölmennir saman komnir, þó at Áki væri fjölmennastr,
+      þegar leið Eirík konung ok Hákon jarl. Því var Áka sá skáli búinn, er mestr var annarr. Ekki
+      var dóttir konungs þar né sonr þeira, því at ótrúligt þótti vera boð konungs. Nú sitja menn at
+      boði um hríð með mikilli gleði ok kæti. Öndverða veizluna hafði Áki mikil varðhöld á sér, en
+      því minni sem meir leið á brullaupit, þar til at ein nótt var eptir veizlunnar. Þá kemr Eiríkr
+      konungr <pb n="365"/> þar at þeim öllum óvörum ok drap þá alla átta höfðingjana, er at
+      mótgangi höfðu verit við konung, ok einn veg Áka. Eptir þetta sleit veizluna. Fór Hákon jarl
+      til Noregs ok hverr til sinna heimkynna. Þessi ráð kenna sumir menn Hákoni jarli, en sumir
+      segja, at hann væri sjálfr at drápi þeira. Nú kastar konungr sinni eign á allar jarðir ok
+      lausafé þat, er þeir átta höfðingjar höfðu átt. Hann hafði heim til sín Eymund ok móður hans.
+      Eymundr vex upp með konungi í góðri virðingu, þar til at Eiríkr konungr andaðist. Síðan tók
+      Óláfr ríkit ok helt inni sömu virðingu við Eymund sem faðir hans hafði gert. En er Eymundr var
+      roskinn, þá minntist hann harma sinna, því at hann sá hvern dag sínar eigur fyrir augum sér ok
+      þóttist sviptr allri sæmd, því at konungr tók alla skatta af eignum hans. Óláfr konungr átti
+      dóttur, er Ingigerðr hét. Þau Eymundr unnust mikit fyrir frændsemi sakir, því at hún var vel
+      at sér um alla hluti. Eymundr var mikill maðr vexti ok ramr at afli ok inn bezti riddari.
+      Eymundr hugsar nú sitt mál ok þótti seinlig leiðrétting sinna harma ok þótti betra at bíða
+      bráðan dauða en lifa við skemmd. Verðr nú þat hans ráð, at þá er hann varð varr við, at tólf
+      menn af hirð konungs höfðu farit eptir skatti í þau heruð ok ríki, er faðir hans hafði átt, þá
+      ferr hann með tólf menn á þann skóg, er leið þeira lá konungs manna, ok börðust þeir þar, ok
+      varð þat harðr bardagi með þeim. Þenna dag inn sama fór Ingigerðr eptir þeim skógi ok fann þá
+      alla líflátna nema Eymund, ok var hann þó mjök sárr. Síðan lét hún leggja hann í vagn sinn ok
+      ók honum með sér ok lét græða hann á laun. En þá er Óláfr konungr frá þessi tíðendi, kvaddi
+      hann þings ok gerði Eymund sekan <pb n="366"/> ok útlægan ór öllu sínu ríki. Ok er Eymundr var
+      heill orðinn, þá fekk Ingigerðr honum skip á laun, ok leggst hann í hernað ok verðr gott til
+      fjár ok manna. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Nokkurum vetrum síðar bað sá konungr Ingigerðar, er Jarizleifr hét ok réð fyrir Garðaríki.
+      Hún var honum gefin, ok hún fór austr með honum. En er Eymundr spurði þau tíðendi, þá ferr
+      hann austr þangat, ok tekr Jarizleifr konungr vel við honum ok þau Ingigerðr, því at þá var
+      ófriðr mikill í Garðaríki, því at Burizleifr, bróðir Jarizleifs konungs, gekk á ríkit. Við
+      hann átti Eymundr fimm bardaga, en í inum síðasta var Burizleifr handtekinn ok blindaðr ok
+      færðr konungi. Þar fekk hann of fjár í gulli ok silfri ok margs konar gersemum ok góðum
+      gripum. Þá sendi Ingigerðr menn á fund Óláfs konungs, föður síns, ok beiddi, at hann gæfi upp
+      jarðir þær, sem Eymundr átti, ok væri þeir sáttir, heldr en hann ætti hers ván at honum; ok
+      mátti svá kalla, at þat lof fengist. Á því meli var Eymundr í Hólmgarði ok háði opt bardaga ok
+      hafði sigr í öllum ok vann aptr mikit skattland undir konunginn. Þá fýsti Eymund at vitja
+      eigna sinna ok hefir mikit lið ok vel búit, því at hvárki skorti til fé né vápn. Nú fór
+      Eymundr ór Garðaríki með mikilli sæmd ok virðingu af allri alþýðu ok kemr nú til Svíþjóðar ok
+      sezt at ríki sínu ok eignum, ok brátt aflar hann sér kvánfangs ok fær ríks manns dóttur, ok
+      gat hann við henni einn son, er Yngvarr hét. Þetta frá Óláfr Svíakonungr, at Eymundr var við
+       <pb n="367"/> land kominn með miklu liði ok nógum fjárhlut ok hafði setzt í þau ríki, er átt
+      hafði hans faðir ok þeir átta höfðingjar, ok þótti honum mikils um vert, en treystist þó eigi
+      at at gera, því at hvern dag heyrir hann mörg stórræði frá Eymundi sögð. Ok sitja nú hvárir um
+      kyrrt, því at hvárrgi vill til hneigja við annan. Eymundr sitr nú í ríki sínu, skipar því ok
+      stýrir, sem konungar eru vanir, ok æxlar ríki sitt, því at hann gerðist fjölmennr. Hann lét
+      reisa sér höll mikla ok búa vegliga ok heldr þar borð hvern dag með miklu fjölmenni, því at
+      hann hafði marga riddara ok nógan skipaher. Sitr hann nú um kyrrt. Vex Yngvarr nú upp heima
+      með föður sínum, þar til at hann var níu vetra gamall. Þá bað Yngvarr föður sinn at fara á
+      fund konungs ok annarra höfðingja í Svíþjóð. Hann leyfði honum at fara ok bjó ferð hans með
+      sæmd. Yngvarr tók hjálm föður síns, er hann átti beztan, -- hann var gullroðinn ok settr
+      gimsteinum, -- ok sverð gullbúit, ok margar hafði hann aðrar gersemar. Fór Yngvarr nú með
+      fimmtánda mann frá feðr sínum, ok váru allir þeira hestar brynjaðir ok svá þeir sjálfir ok
+      skjaldaðir, ok höfðu gyllta hjálma ok öll vápn gulli búin ok silfri. Ok við svá búit lið ferr
+      hann austan eptir Svíþjóð. Spyrst nú víða til ferðar hans, ok sækja höfðingjar víða í mót
+      honum ok bjóða honum til veizlu. Hann þekkist þat, ok gefa þeir honum góðar gjafir, en hann
+      þeim. Nú ferr Yngvars frægð víða um Svíþjóð ok kemr til eyrna Óláfi konungi. Hann átti þann
+      son, er Önundr hét ok var it vænsta mannsefni ok eigi fjarri jafnaldri Yngvars. Hann bað föður
+      sinn at fara á mót Yngvari, frænda sínum, ok fagna honum með sæmd, ok þá hann <pb n="368"/>
+      þat, er hann bað, ok fór í mót Yngvari með mikilli sæmd, ok varð þar fagnafundr mikill. Síðan
+      fara þeir til konungs fundar, ok gekk hann í mót þeim ok fagnaði þeim vel ok Yngvari ok leiðir
+      hann í höll sína ok velkominn ok allt hans föruneyti. Hann kveðst þar mundu dveljast um hríð.
+      Síðan berr hann fram þá gripi, sem fyrr var getit, hjálminn, sverðit, ok mælti svá: "Þessar
+      gjafir sendi faðir minn þér til styrks friðar ok fastrar vináttu." Konungr tók þakksamliga við
+      gripunum, en kvað Eymund eigi sér sent hafa. Þar var Yngvarr þann vetr allan ok var bezt virðr
+      allra manna af konungi. At vári bjóst Yngvarr til heimferðar ok Önundr með honum. Þá gaf
+      konungr Yngvari góðan hest ok söðul gylltan ok skip fagrt. Nú ferr Yngvarr ok Önundr á burt
+      með góðu yfirlæti af Óláfi konungi ok fara nú til Eymundar. Ok er þeir koma á bæ Eymundar, þá
+      var honum sagt, hverir komnir váru, en hann lét eigi sem hann heyrði. Nú koma þeir at
+      höllinni, ok vildi Önundr af baki stíga, en Yngvarr bað þá ríða í höllina. Þeir gera svá, at
+      þeir ríða allt innar fyrir hásæti Eymundar. Hann heilsar þeim vel ok spyrr tíðenda eða hví
+      þeir dirfðist at fara með svá miklum styr, at ríða í höll hans. Þá svarar Yngvarr: "Þá ek kom
+      til Óláfs konungs, gekk hann í móti mér með alla hirð sína ok fagnaði mér vel ok virðuliga, en
+      þú vilt nú enga sæmd gera hans syni, er hann sækir þik heim. Nú vittu, at fyrir þetta reið ek
+      í höll þína." Þá spratt Eymundr upp ok tók Önund í fang sér af hestinum ok kyssti hann ok
+      setti niðr ok kvað alla skyldu honum þjóna innan hallar. Síðan færði Yngvarr gjafirnar föður
+      sínum, þær er hann sagði, at Óláfr konungr hafði sent honum til fasts <pb n="369"/> friðar. Er
+      þat hestr ok söðull ok skip. Þá sagði Eymundr, at Óláfr konungr hafði eigi honum sent, en þó
+      lofaði hann mjök, at hann hafði svá virðuligar gjafir gefit Yngvari. Var Önundr þar þann vetr.
+      At vári bjóst hann heim at fara ok Yngvarr með honum. Þá gefr Eymundr Önundi hauk þann, at
+      gullslitr var á fjöðrum, ok fara þeir burt við svá búit ok koma á fund Óláfs konungs, ok
+      fagnar hann þeim vel ok verðr feginn þeira aptrkvámu. Þá færði Önundr honum haukinn ok kvað
+      Eymund hafa hann sendan honum. Þá roðnaði konungr ok kvað Eymund hafa mátt nefna sik, þá hann
+      gaf haukinn, -- "en þó kann vera, at hann hafi þat hugat." Nokkuru síðar kallar hann til sín
+      Önund ok Yngvar ok mælti: "Nú skulu þit fara aptr ok færa Eymundi þat, er ek gef honum; en þat
+      er merki, því at ek hefi eigi svá aðrar dýrligar gjafir at gefa honum sem þessi er. Þat fylgir
+      því, at sá mun jafnan sigr sýnt hafa, er þat er fyrir borit, ok skal þetta vera sáttarmerki
+      vár á milli." Nú fara þeir aptr ok færðu Eymundi merkit með vingjarnligum orðum konungs.
+      Eymundr tók þakksamliga við gjöf konungsins ok kvað þá skjótt skyldu aptr fara ok bjóða Óláfi
+      konungi til sín ok mæla svá: "Eymundr, þjónn þinn, býðr þér til veizlu með góðvilja ok kann
+      þökk, at þú farir." Þeir fóru ok fundu Óláf konung ok sögðu honum boð Eymundar. Þá varð Óláfr
+      konungr harðla feginn ok fór með miklu fjölmenni. Eymundr tók vel við honum ok með mikilli
+      sæmd, ok mæltu þeir til fastrar vináttu með sér ok heldu vel. Síðan fór konungr heim með góðum
+      gjöfum, ok var Yngvarr jafnan með konungi, því at hann unni honum eigi minna en sínum syni.
+      Yngvarr var mikill maðr <pb n="370"/> vexti, vænn ok sterkr ok bjartlitaðr, vitr ok
+      málsnjallr, mildr ok stórgjöfull við sína vini, en grimmr við sína óvini, kurteiss ok inn
+      hraðligsti í öllu viðbragði, svá sem vitrir menn hafa honum til jafnat um atgervi við
+      Styrbjörn, frænda sinn, eða Óláf konung Tryggvason, sem frægastr maðr hefir verit ok mun vera
+      á Norðrlöndum um aldr ok ævi, bæði fyrir guði ok mönnum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Þá er þeir frændr váru frumvaxta, Önundr ok Yngvarr, var sú þjóð í missætti við Óláf
+      konung, er Seimgalir heita ok höfðu ekki skatt goldit um hríð. Þá sendi Óláfr konungr Önund ok
+      Yngvar með þrimr skipum at heimta skatt. Koma þeir við land ok stefna þing við landsmenn ok
+      heimtu þar skatt af konungi þeira. Sýndi Yngvarr þar mikla atgervi í sinni málsnilld, svá at
+      konungi ok mörgum öðrum höfðingjum sýndist ekki annat ráð en gjalda skattinn, sem til var
+      kallat, fyrir utan þrjá höfðingja, þá er eigi vildu fylgja konungs ráði ok bönnuðu at gjalda
+      skattinn ok drógu lið saman. En er konungrinn heyrði þeira tiltekjur, bað hann þá Önund ok
+      Yngvar berjast við þá ok fekk þeim lið. Þeir börðust, ok varð þar mikit mannfall, áðr þeir
+      flýðu höfðingjarnir. Í þeim flótta var sá tekinn, er mest hafði í móti staðit, at skattinn
+      skyldi gjalda, ok festu þeir hann upp, en tveir komust undan. Þeir tóku þar miklar eigur at
+      herfangi ok heimtu út skatta alla ok fara við svá búit aptr til fundar við Óláf konung ok
+      færðu honum mikinn fjárhlut í gulli ok silfri ok góðum gripum, ok hafði mikit aukizt virðing
+       <pb n="371"/> Yngvars í þessi ferð, svá at konungr setti hann yfir aðra höfðingja í Svíþjóð.
+      Yngvarr tók sér frillu ok gat við henni son þann, er Sveinn hét. Með þessi virðingu var
+      Yngvarr með Óláfi konungi, þar til at hann var tvítugr. Þá ógladdist hann, svá at hann kvað
+      aldri orð frá munni. Á því þótti konungi mikit mein ok spyrr, hvat veldr. Yngvarr svarar: "Ef
+      þér þykkir mein at ógleði minni ok þú vilt mér svá vel sem þú lætr, þá gef mér konungs nafn
+      með tign." Konungr svarar: "Hverja hluti aðra, sem þú beiðir, í tign eða fjárhlutum, mun ek
+      gera. En þetta má ek eigi, því at ek er eigi vitrari várum frændum, ok eigi kann ek betr en
+      várir fyrri frændr." Þessi hlutr varð þeim til sundrþykkis, því at Yngvarr bað jafnan
+      konungsnafns ok fekk eigi. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Þá bjóst Yngvarr ór landi at leita sér útlends ríkis ok valdi sér lið ór landi ok þrjá tigi
+      skipa, öll alskipuð. Þetta frá nú Óláfr konungr, at Yngvarr var ferðar búinn, ok sendi menn á
+      fund Yngvars ok bað hann dveljast ok þiggja konungs nafn. Yngvarr kvaðst þat mundu þegit hafa,
+      ef þess hefði fyrr kostr verit, en kveðst nú búinn at sigla, þegar byrr gefr. Litlu síðar
+      sigldi Yngvarr ór Svíþjóð með þrjá tigi skipa, ok lögðu eigi fyrr seglin en þeir kómu í
+      Garðaríki, ok tók Jarizleifr konungr við honum með mikilli sæmd. Þar var Yngvarr þrjá vetr ok
+      nam þar margar tungur at tala. Hann heyrði umræðu á því, at þrjár ár fellu austan um Garðaríki
+      ok var sú mest, sem í <pb n="372"/> miðit var. Þá fór Yngvarr víða um Austrríki ok frétti, ef
+      nokkurr maðr vissi, hvaðan sú á felli, en engi kunni þat at segja. Þá bjó Yngvarr ferð sína ór
+      Garðaríki ok ætlaði at reyna ok kanna lengd ár þessarar. Hann lét biskup vígja sér boljárn ok
+      tinnu. Fjórir menn eru nefndir með Yngvari til ferðar: Hjálmvígi ok Sóti, Ketill, er kallaðr
+      var Garða-Ketill, hann var íslenzkr, ok Valdimarr. Eptir þat heldu þeir í ána með þrjátigi
+      skipa, ok snýr Yngvarr stöfnum í austr ok lagði ríkt við, at engi skyldi á land ganga utan
+      hans leyfi. En ef nokkurr færi, þá skyldi sá láta hönd eða fót. Maðr skyldi vaka um nótt á
+      hverju skipi. Þá er þeir höfðu farit nokkura hríð eptir ánni, er frá því sagt, at Ketill átti
+      vörð at halda eina nótt, ok þótti honum langt, þá er alþýðan svaf, ok forvitnaði hann á land
+      at ganga at sjást um ok varð gengit lengra en hann ætlaði. Hann nam staðar ok hlýddist um.
+      Hann sá fram fyrir sik hús eitt hátt ok gekk þangat til ok inn í húsit, ok þar sá hann
+      silfrketil yfir eldi ok þótti þat undarligt. Hann tók ketilinn ok rann á leið til skipa. Ok er
+      hann hafði farit um hríð, sá hann á bak sér ógurligan risa hlaupa eptir sér. Ketill gæddi þá
+      ferðinni, ok dró þó saman með þeim. Hann setr niðr ketilinn ok tók ór hödduna ok hleypr þá sem
+      hann má ok sér þó aptr stundum. Hann sér, at risinn nemr staðar, er hann kemr at katlinum.
+      Gengr hann stundum at honum, en stundum frá, tók þó upp loksins ketilinn ok gekk til hússins,
+      en Garða-Ketill gekk til skipa ok braut sundr hödduna ok lagði í fótakistu sína. En um
+      morguninn, er menn vöknuðu ok gengu á land, þá sáu menn slóð liggja frá skipunum, því at <pb
+       n="373"/> dögg hafði fallit, ok sögðu Yngvari. Hann bað Ketil segja, ef hann hefði þar farit,
+      því at hann kvað engan annan til, ok kveðst eigi mundu drepa hann, ef hann segði it sanna til.
+      Hann sagði ok bað sér líknar fyrir óhlýðni ok sýndi honum hödduna. Yngvarr bað hann eigi optar
+      svá gera, ok sættust at því. Síðan sigldu þeir marga daga ok um mörg heruð ok þar til, at þeir
+      sáu annan sið ok lit á dýrum, ok af því skildu þeir, at þeir fjarlægðust sín heruð eða lönd.
+      Einn aptan sáu þeir langt frá sér sem hálft tungl stæði á jörðunni. Um nóttina eptir helt
+      Valdimarr vörð. Hann gengr á land á leit þess staðar, er þeir höfðu sét. Hann kom at þar, sem
+      upphæð varð fyrir honum, sú er gullslitr var á, ok sá hann, hvat því olli, því at þar var allt
+      þakit ormum. En fyrir því at þeir sváfu, þá rétti hann spjótskepti sitt þar til, sem einn
+      gullhringr var, ok dró hann at sér. Þá vaknaði einn yrmlingr, ok vakti sá þegar aðra hjá sér,
+      unz Jakúlus var vaktr. Þá skundar Valdimarr til skipa ok sagði Yngvari it sanna allt. Nú bað
+      Yngvarr menn við búast orminum ok leggja skipunum til annarrar hafnar um þvera ána, ok svá
+      gera þeir. Síðan sjá þeir hræðiligan dreka fljúga þangat yfir ána. Margir fálust fyrir hræðslu
+      sakir. Ok er Jakúlus kom yfir skip þat, sem prestar tveir stýrðu, þá spjó hann svá eitri, at
+      bæði týndust skip ok menn. Síðan fló hann aptr yfir þvera ána til stöðva sinna. Síðan ferr
+      Yngvarr marga daga eptir ánni. Þá hófust upp borgir ok stórar byggðir, ok þá sjá þeir ágæta
+      borg. Hún var ger af hvítum marmarasteinum. En er þeir nálguðust borgina, þá sáu þeir mikinn
+      fjölda kvenna ok karlmanna. Þeim þótti mikils um vert fegrð þá, sem þar var, ok kvenna
+      kurteisi, því at margar váru ágætligar sýnum. Þó bar ein af öllum bæði fyrir búnaðar <pb
+       n="374"/> sakir ok fegrðar. Sú in virðuliga kona teiknaði þeim Yngvari, at þeir sækti fund
+      hennar. Þá gekk Yngvarr af skipi ok á fund þeirar innar tíguligu konu. Hún spurði, hverir þeir
+      væri eða hvert þeir gerðist, en Yngvarr svarar engu, því at hann vildi freista, ef hún kynni
+      fleiri tungur at tala; ok svá reyndist, at hún kunni at tala rómversku, þýversku, dönsku ok
+      girsku ok margar aðrar, er gengu um Austrveg. En er Yngvarr skildi hana þessar tungur mæla, þá
+      sagði hann henni nafn sitt og spurði hana at nafni ok hverrar tignar hún væri. "Ek heiti
+      Silkisif," sagði hún, "ok em ek drottning þessa lands ok ríkis." Þá bauð hún Yngvari til
+      borgar með sér ok öllu liði hans. Hann þá þat. En borgarmenn taka skip þeira með öllum reiða
+      ok báru upp undir borgina. Yngvarr bjó eina höll öllu liði sínu ok lukti hana vandliga, því at
+      fullt var af blótskap allt umhverfis. Yngvarr bað þá við varast allt samneyti heiðinna manna,
+      ok öllum konum bannaði hann at koma í sína höll utan drottningu. Nokkurir menn gáfu lítinn
+      gaum at hans máli, ok lét hann þá drepa, ok síðan treystist engi at brjóta þat, er hann bauð.
+      Þann vetr var Yngvarr þar í góðu yfirlæti, því at drottning sat hvern dag á tali við hann ok
+      hennar spekingar, ok sagði hvárt þeira öðru mörg tíðendi. Jafnan sagði Yngvarr henni af
+      almætti guðs, ok fell henni vel í skap sú trúa. Svá unni hún mikit Yngvari, at hún bauð honum
+      at eignast allt ríkit ok konungs nafn, ok sjálfa sik gaf hún at lyktum í hans vald, ef hann
+      vildi þar staðfestast, en hann kveðst fyrst vilja rannsaka lengd árinnar ok þiggja þann kost
+      síðan. Þá er váraði, bjóst Yngvarr brutt, en bað drottningu heila sitja með sínu fólki.
+      Yngvarr fór þar til eptir ánni, at hann kemr at fossi miklum ok þröngum <pb n="375"/>
+      gljúfrum. Þá váru hávir hamrar, svá at þeir drógu upp í festum skip sín. Síðan drógu þeir þau
+      aptr á ána ok fóru svá lengi, at þeir urðu við ekki varir. En er leið sumarit, sáu þeir fjölda
+      skipa róa í mót sér. Þau váru öll kringlótt ok umhverfis árar fyrir borðum. Þeir lögðu svá í
+      mót, at Yngvarr átti einskis kost nema bíða í stað, því at svá fóru skip þeira sem fugl flygi.
+      En áðr en þeir fundust, reis einn maðr upp ór þessu liði. Sá var skrýddr konungs skrúða ok
+      mælti margar tungur. Yngvarr þagði við. Þá mælti hann nokkur orð á girsku. Yngvarr skildi, at
+      hann hét Jólfr ok var ór borginni Heliópólim. Ok er konungr vissi nafn Yngvars ok hvaðan hann
+      var kominn eða hvert hann gerðist at fara, þá bauð hann honum með sér til sinnar borgar
+      vetrlangt. Yngvarr lét sér eigi hæfa at dveljast ok neitaði. Konungr skildi hann þá til
+      þarvistar þann vetr. Yngvarr kvað svá vera skyldu. Þá fóru þar til með lið sitt til hafnar ok
+      gengu á land ok til borgarinnar. Ok er þeim varð aptr litit, sáu þeir, at borgarmenn báru skip
+      þeira á herðum sér upp undir borgina, þar er læsa mátti. Þar sáu þeir um öll stræti mikinn
+      blótskap. Yngvarr bað sína menn vera bænrækna ok trúfasta. Eina höll gaf Jólfr þeim, ok þann
+      vetr geymdi Yngvarr svá sína menn, at engi spilltist af kvenna viðskiptum eða öðrum heiðnum
+      dómi. En þá er þeir fóru nauðsynja sinna, gengu þeir alvápnaðir ok læstu höllina á meðan. Engi
+      maðr skyldi þar inn koma nema konungr. Hann sat hvern dag á tali við Yngvar, ok sagði hvárr
+      þeira öðrum mörg tíðendi ór sínu landi, ný eða forn. Yngvarr spurði, ef hann vissi, hvaðan á
+      sú felli, en Jólfr kveðst þat vita með sannleik, at hún fell ór uppsprettu þeiri, "er vér
+      köllum Lindibelti. Þaðan fellr ok önnur til Rauðahafs, ok er <pb n="376"/> þar mikill svelgr,
+      sá er Gapi er kallaðr. Á milli sjóvar ok árinnar er nes þat, er Siggeum heitir. Áin fellr
+      skammt, áðr hún fellr af bjargi í Rauðahaf, ok köllum vér þar enda heims. En í þessi áinni, er
+      þú hefir farit eptir, liggja úti illgerðamenn á stórum skipum ok hafa öll skipin hulin reyri,
+      svá at menn hyggja þat eyjar, ok hafa alls konar vápn ok skoteld, ok meir eyða þeir mönnum með
+      eldi en vápnum." En borgarmönnum þótti konungr sinn einskis gá þess, er þeir þurftu, fyrir
+      Yngvari ok heituðust at reka hann af ríkinu, en taka sér annan konung. Ok er Yngvarr heyrði
+      þetta, bað hann konung gera vilja lýðs síns. Hann gerði svá. Konungr bað Yngvar, at hann
+      veitti honum lið at berjast við bróður sinn. Hann var þeira máttkari ok veitti mikinn ójafnað
+      bróður sínum. Yngvarr hét liðveizlu, er hann færi aptr. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> At liðnum vetri heldr Yngvarr liði sínu öllu heilu ór ríki Jólfs. Ok er þeir höfðu farit um
+      stund, kómu þeir at fossi einum miklum. Af honum stóð stormr svá mikill, at þeir urðu at landi
+      at leggja. En er þeir kómu at landi, sáu þeir spor ógurligs risa. Þat var átta feta langt. Þar
+      váru svá hávir hamrar, at þeir máttu eigi í festum upp draga skipin. Þeir lögðu fram með
+      björgunum skipum sínum, þar sem af sveif ánni ok strauminum. Var þar hlið lítit á björgunum,
+      ok gengu þeir þar á land, ok var þar sléttlent ok blautlent. Yngvarr bað þá fella við ok gera
+      graftól, ok svá gerðu þeir; tóku síðan at grafa, en mæltu dýpt ok breidd díkisins þaðan frá,
+      er áin skyldi á hlaupa. At þessu váru þeir svá, at mánuðum skipti, áðr þeir máttu þar skipum
+      fara. <pb n="377"/> Ok er þeir höfðu lengi farit, sá þeir hús eitt ok hræðiligan risa hjá svá
+      illiligan, at þeir hugðu, at fjándinn væri. Þeir urðu mjök hræddir ok báðu guð sér miskunnar.
+      Þá bað Yngvarr Hjálmvíga syngja sálma guði til dýrðar, því at hann var klerkr góðr, ok hétu
+      sex dægra föstu með bænahaldi. Síðan gekk risinn burt frá húsinu annan veg með ánni. En er
+      hann var burtu, þá gengu þeir til hússins ok sáu þar ramligt virki. Ok er þeir gengu í húsit,
+      sáu þeir, at einn stólpi helt því upp; hann var smíðaðr ór leiri. Síðan tóku þeir at höggva
+      stólpann umhverfis allt við jörðina, þar til at húsit skalf, þegar þeir hristu. Yngvarr bað þá
+      taka stóra steina ok bera til hússins. Þeir gerðu svá. En er aptnaði, bað Yngvarr þá ganga í
+      virkit ok fela sik í reyr. Ok er á leið kveldit, sáu þeir risann koma, ok hafði marga menn
+      undir belti sér festa. Hann byrgði vandliga virkit ok svá húsit. Síðan mataðist hann. En er
+      stund leið, forvitnuðust þeir, hvat hann hafðist at, ok heyrðu til hans hryt mikinn. Þá bað
+      Yngvarr þá í burt taka steina þá, sem þeir höfðu þangat borit, ok börðu stólpann, svá at ofan
+      fell húsit. Risinn brauzt um fast, svá at undan komst annarr fótr hans. Þá gekk Yngvarr til ok
+      hans förunautar ok hjuggu af risanum fótinn með bolöxum, því at hann var svá harðr sem tré. Ok
+      er því var lokit, skildu þeir, at hann var dauðr. Þeir drógu fótinn til skips ok söltuðu í
+      hvítasalti. Þeir fóru nú þar til, at ánni skýtr í sundr, ok sjá þeir fimm eyjar hrærast ok
+      fara á mót þeim. Yngvarr bað menn sína við búast. Hann lét taka eld með vígðu eldsvirki. Brátt
+      kom at þeim ein eyin ok veitti þeim harða grjóthríð, en þeir hlífðu sér ok skutu í móti. En er
+      víkingar fundu, at fast var fyrir, þá tóku þeir at blása smiðbelgjum at ofni þeim, sem eldr
+      var í, ok varð <pb n="378"/> af því mikill gnýr. Þar stóð ok ein eirtrumba, ok ór henni fló
+      eldr mikill á eitt skipit, ok brann þat á lítilli stundu, svá at allt varð at fölska. En er
+      Yngvarr sá þetta, harmaði hann skaða sinn ok bað færa sér tundr með vígðum eldi. Síðan bendi
+      hann upp boga sinn ok lagði ör á streng ok lét koma á örvaroddinn tundrit með vígðum eldi. En
+      sú ör fló af boganum með eldinn í trumbuna, þá er stóð ór ofninum, ok snýst eldrinn á sjálfa
+      heiðingja, ok brann á litlu augbragði eyin með öllu saman, mönnum ok skipum. Ok eru aðrar
+      eyjarnar at komnar. En þegar Yngvarr heyrir smiðbelgjablástrinn, skaut hann vígðum eldi ok
+      eyddi svá því djöfulsfólki með guðs fulltingi, at þat varð at engu utan fölska. Litlu síðar
+      kom Yngvarr til þeirar uppsprettu, er áin fell af. Þar sáu þeir dreka þann, at slíkan höfðu
+      eigi fyrr sét fyrir vaxtar sakir, ok mikit gull liggja undir honum. Þeir lendu þar skammt í
+      frá ok gengu allir á land upp ok kómu þar at, sem drekinn var vanr at skríða til vatns. Sú
+      gata var harðla breið. Þá bað Yngvarr, at þeir sæði salti eptir götunni ok draga þangat
+      risafótinn, ok kveðst þat ætla, at þar mundi drekinn at dveljast um hríð. Þeir váru hljóðlátir
+      ok leituðu sér hælis. En er sú tíð var komin, at drekinn var vanr at skríða til vatns, ok er
+      hann kom á götuna, sá hann, at salt var á götunni fyrir honum, ok tók hann at sleikja. Ok er
+      hann kom þar, sem risafótrinn lá, svalg hann hann þegar. Hann var nú lengr á veginum en hann
+      átti vanda til, því at þrysvar hvarf hann aptr at drekka, þá hann var miðleiðis. En Yngvarr ok
+      föruneyti hans fóru til bælis drekans ok sáu þar mikit gull ok svá heitt sem nýrunnit í afli.
+      Síðan hjuggu þeir af staupinu með bolöxum, ok var þat óf fjár, er þeir <pb n="379"/> fengu
+      þar. Þá sáu þeir, at drekinn nálgaðist. Sneru þeir á burt með mikit fé ok fálu þat. Þar var
+      reyri vaxit. Yngvarr bað þá ekki forvitnast um drekann. Þeir gjörðu sem hann bauð, utan fáir
+      menn stóðu ok sáu, at drekinn varð illa við skaða sinn. Hann reistist á sporðinn ok lét sem þá
+      maðr blístrar ok snerist í hring á gullinu. Þeir sögðu slíkt er þeir sáu ok fellu síðan dauðir
+      niðr. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Eptir þenna atburð fóru þeir Yngvarr á burt ok könnuðu nes þat, er þeir váru við komnir.
+      Þeir fundu þar einn kastala ok sáu þar í standa mikla höll. Ok er þeir kómu í höllina, sáu
+      þeir hana vel innan búna ok fundu þar mikinn fjárhlut ok margar gersemar. Þá spurði Yngvarr,
+      ef nokkurr vildi þar eptir vera um nóttina ok vita, hverra tíðenda hann kynni víss at verða.
+      Sóti kveðst þat eigi spara. En er aptnaði, fór Yngvarr með lið sitt til skipa, en Sóti fal sik
+      einhvers staðar. En er síð var orðit, sýndist honum djöfullinn koma í manns ásjónu ok mælti:
+      "Siggeus hét maðr styrkr ok máttugr. Hann átti þrjár dætr. Þeim gaf hann mikit gull. En er
+      hann dó, var hann þar grafinn, sem nú sáu þér drekann. Eptir hann dauðan fyrirmundi in elzta
+      sínum systrum gulls ok gersema. Hún spillti sér sjálf. Hennar dæmi hafði önnur systirin. In
+      þriðja lifði þeira lengst ok tók arf eptir föður sinn ok forræði þessa staðar, eigi at eins
+      meðan hún lifði. Hún gaf nafn nesinu ok kallaði Siggeum. Hún skipar hverja nótt höllina með
+      fjölda djöfla, ok em ek einn af þeim, sendr at segja þér tíðendi. En drekar átu hræ konungs ok
+      dætra <pb n="380"/> hans, en sumir menn ætla, at þau sé at drekum orðin. Þat skaltu vita,
+      Sóti, ok segja konungi yðrum, Yngvari, at Haraldr Svíakonungr fór fyrir löngu þessa leið, ok
+      fórst hann í Rauðahafs svelg með sínu föruneyti, ok er hann nú kominn hér til forráða. Ok til
+      vitnis sögu minnar er hér varðveitt merki hans í höllinni, ok skal Yngvarr þat með sér hafa ok
+      senda þat til Svíþjóðar, til þess at þeir gangi eigi duldir, hvat af konungi þeira er orðit.
+      Þat skaltu ok segja Yngvari, at hann mun í þessi ferð deyja með miklum hluta liðs síns. En þú,
+      Sóti, ert ranglátr ok trúlauss, ok því skaltu með oss eptir dveljast; en Yngvarr mun hjálpast
+      af trú þeiri, er hann hefir til guðs." Þá þagnaði djöfullinn, er hann hafði þetta mælt. Alla
+      náttina var þar þyss mikill ok kall. En er morgnaði, kom Yngvarr þar, ok sagði Sóti honum þat,
+      er hann hafði sét ok heyrt. Ok er Sóti hafði lokit sinn frásögn, at öllum ásjáendum fell hann
+      dauðr niðr. Nú tekr Yngvarr merkit, er stóð í höllinni, ok ferr til skipa sinna síðan með liði
+      sínu. Snýr hann nú aptr stöfnum ok gaf nafn þeim inum mikla forsi ok kallaði Belgsóta. Þá
+      gerðust engi tíðendi, áðr en þeir kómu í ríki Hrómundar konungs, er Jólfr hét öðru nafni. Ok
+      er þeir sigla at borginni í annat sinn Helíópólim, þá lagði Jólfr konungr í mót þeim fjölda
+      skipa ok bað Yngvar þá lægja seglin, -- "því at nú skaltu veita mér lið í móti Bjólfi, bróður
+      mínum, er Sölmundr er kallaðr öðru nafni, því at hann sjálfr ok synir hans átta vilja ræna mik
+      ríkinu." Þá fór Yngvarr til borgarinnar, ok bjuggust til bardaga. Yngvarr lét reisa stór hjól
+      ok öll sett utan með hvössum tindum ok broddum; þar með lét hann slá herspora. Nú safna
+      konungar báðir liði ok koma til þess staðar, <pb n="381"/> er þeir höfðu ákveðit sín á millum.
+      Ok er Yngvarr hafði um búizt, var Bjólfr sýnu fjölmennari. Jólfr konungr fylkti liði sínu í
+      móti bróður sínum. En er hvárirtveggju váru búnir, æptu þeir heróp. Þeir Yngvarr hleyptu á þá
+      hjólunum með öllum herbúnaði, ok varð af því mikit mannspell, ok raufst fylkingin. Þá kom
+      Yngvarr þeim í opna skjöldu ok drap alla sonu Bjólfs konungs, en hann sjálfr flýði undan.
+      Jólfr konungr sótti eptir fast ok rak flóttann, en Yngvarr bað sína menn eptir dveljast ok
+      fara eigi svá frá skipum sínum, -- "at óvinir várir megi þeim ná. Heldr takið hér fjárhlut
+      mikinn af óvinum várum, þeim vér höfum hér drepit!" Þar tóku þeir margs konar gersemar ok
+      mikinn fjárhlut ok báru til skipa. Þá kom Jólfr með herinn ok fylkir liði sínu ok lýstr upp
+      herópi, en Yngvari kom þetta á óvart ok lætr hefjast undan. Þá lét hann kasta hersporum fyrir
+      fætr þeim. Þat kunnu þeir eigi at varast ok hlupu þar á. Ok er þeir kenndu hvassleik
+      broddanna, hugðust þeir orðnir fyrir fjölkynngi. En Yngvarr var eptir við herbúðir, ok kjöru
+      þar óf gersema. Þá sáu þeir mikinn kvennaflokk ganga til herbúðanna, ok tóku at leika fagrt.
+      Yngvarr bað þá svá varast konurnar sem ina verstu eitrorma. En er aptna tók ok herrinn bjóst
+      til svefns at fara, gekk kvenfólkit í herbúðir til þeira, en sú, er tignust var, skipaði sér
+      rekkju hjá Yngvari. Þá reiddist hann ok tók tygilkníf ok lagði til hennar í kvensköpin. En er
+      liðit sá hans tiltekjur, tóku þeir at reka frá sér þessar óvendiskonur, ok þó váru nokkurir
+      þeir, at ei stóðust þeira blíðlæti af djöfulligri fjölkynngi ok lágu hjá þeim. En er Yngvarr
+      heyrði þetta, þá snerist fagnaðr silfrs ok gleði víns í mikinn harm, því at um morguninn lágu
+      átján menn dauðir, þá er þeir könnuðu lið sitt. Síðan bað Yngvarr jarða þá, sem dauðir váru.
+       <pb n="382"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> En eptir þetta býst Yngvarr af skyndingu í burt með öllu liði sínu, ok snúa nú áleiðis ok
+      fara nú daga ok nætr, svá sem þeir mega við komast. En svá tekr sótt at vaxa í liði þeira, at
+      dó allt it bezta fólk þeira, ok meiri hlutr var fallinn en lifði. Yngvarr tók ok sóttina, ok
+      váru þeir þa komnir í riki Silkisifjar. Hann heimti þá til sín lið sitt ok bað þá jarða þá,
+      sem dauðir váru. Þá kallaði hann til sín Garða-Ketil ok aðra vini sína ok sagði: "Ek hefi sótt
+      tekit, ok get ek, at hún leiði mik til bana, ok hefi ek þá þann stað, sem ek hefi til unnit.
+      En með guðs miskunn vænti ek, at guðs sonr veiti mér sitt fyrirheit, því at af öllu hjarta fel
+      ek mik guði á hendi á hverju dægri, sál mína ok líkama, ok ek gætta svá þessa lýðs sem ek
+      kunna bezt. En þat vil ek, at þér vitið, at af réttum guðs dómi eru vér lostnir þessi
+      drepsótt, ok allra mest er sjá drepsótt ok fjölkynngi til mín ger, því at þegar sem ek em
+      dauðr, þá mun hverfa af sóttin. En þess vil ek biðja yðr ok allra helzt þik, Ketill, at þér
+      færið líkama minn til Svíþjóðar ok látið jarða at kirkju. En fjárhlut mínum, þeim er ek hefi
+      hér í gulli ok silfri ok dýrligum klæðum, því vil ek skipta láta í þrjá staði: Einn þriðjung
+      gef ek kirkjum ok kennimönnum, annan gef ek fátækum mönnum, inn þriðja skal hafa faðir minn ok
+      sonr minn. Berið Silkisif drottningu kveðju mína! En fyrir allra hluta sakir vil ek biðja, at
+      þér séit samþykkir. En ef yðr skilr á, hverja stefnu hafa skal, þá látið Garða-Ketil ráða, því
+      at hann er yðvar minnigastr." Síðan bað hann þá vel lifa ok finnast á feginsdegi. Hann mæltist
+      marga vega vel fyrir ok lifði síðan fá daga. <pb n="383"/> Þeir búa vandliga um líkam hans ok
+      lögðu í kistu ok sneru síðan áleiðis um ferð sína ok lendu við borgina Citopolim. En er
+      drottningin kenndi skip þeira, gekk hún í móti þeim með miklum sóma. Ok er hún sá þá á land
+      ganga, ógladdist hún, ok sýndist henni sem mikit mundi at orðit, ok þann mátti hún eigi sjá,
+      henni var meira at en um alla aðra. Hún spurði þá tíðenda ok inniliga frá atburðum um líflát
+      Yngvars ok hvar þeir létu líkama hans. Þeir kváðust hann í jörð grafit hafa. Hún sagði þá
+      ljúga ok kveðst mundu láta drepa þá, ef þeir segði eigi it sanna til. Þá sögðu þeir henni,
+      hverja meðferð at Yngvarr bauð þeim at hafa með sinn líkama ok fjárhlut. Síðan fengu þeir
+      henni líkama Yngvars. Hún lét bera hann til borgarinnar með miklum sóma ok með dýrligum
+      smyrslum til graftar búa. Þá bað drottning þá fara í guðs frið ok Yngvars. "Er sá minn guð,
+      sem yðvarr er. Biðið heila frændr Yngvars, er þér komið til Svíþjóðar, ok biðið nokkurn þeira
+      hingat koma með kennimönnum ok kristna þenna lýð, ok þá skal hér kirkju gera, þá er Yngvarr
+      skal hvíla at. En þá er Yngvarr andaðist, var liðit frá burð Jesú Kristí MXL ok einn vetr. Þá
+      var hann hálfþrítugr, er hann dó. Þat var ellefu vetrum eftir fall Ólafs konungs ins helga
+      Haraldssonar. Þeir Ketill bjuggust á burt ok báðu drottningu vel lifa, sneru nú áleiðis ok
+      höfðu tólf skip. Ok er þeir höfðu farit um hríð, skildi þá á um veginn, ok skildust þeir, með
+      því at engi vildi eptir öðrum fara. En Ketill hafði rétta stefnu ok kom í Garða, en Valdimarr
+      kom einskipa út í Miklagarð. Þá vitum vér eigi víst at segja, hvar önnur skip hafa niðr komit,
+      því at menn hyggja flest farizt hafa, ok kunnu vér ekki at segja af Yngvari fleira. En þó
+      vitum vér, at mörg stórvirki hefir hann <pb n="384"/> gert í þessi ferð, þau at fróðir menn
+      munu mikit hafa frá sagt. Ketill, er vér sögðum frá, var um vetrinn í Garðaríki ok fór eptir
+      um sumarit í Svíþjóð ok sagði þau tíðendi, sem gerzt höfðu í þeira ferð, ok færði þangat
+      fjárhlut Yngvars syni hans, er Sveinn hét, ok bar honum kveðju drottningar ok orðsending.
+      Sveinn var á ungum aldri ok var mikill vexti. Hann var sterkr maðr ok inn líkasti föður sínum.
+      Hann reisti í hernað ok vildi reyna sik fyrst. Ok er nokkurir vetr váru liðnir, kom hann með
+      miklu liði í Garða austr ok sat þar um vetrinn. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Enn er sagt, at þann vetr gekk Sveinn í þann skóla, at hann nam margar tungur at tala, þær
+      er menn vissu um Austrveg ganga. Síðan bjó hann þrjá tigi skipa ok kveðst halda vilja því liði
+      á fund drottningar. Hann hafði með sér marga kennimenn. Var þeira æðstr biskup sá, er Róðgeirr
+      hét. Biskup vígði þrysvar hluti ok hlutaði þrysvar, ok hlutaðist svá til í hvert sinn, at guð
+      vildi, at hann færi. Biskup kveðst þá feginn fara vilja. Nú byrjar Sveinn ferð sína ór
+      Garðaríki. En er þeir höfðu farit tvá daga eptir ánni, kómu heiðingjar á þá óvara með níutigi
+      skipa; þat kalla Norðmenn galeiðar. Heiðingjar búast þegar til bardaga ok svá hvárirtveggju,
+      en hvárigir skildu, hvat aðrir sögðu. En á meðan þeir herklæddust, skaut Sveinn máli sínu til
+      guðs ok lét hluta, hvárt guðs vili sé, at þeir berist eða flýi við svá mikit ofrefli. En
+      hlutrinn bauð þeim at berjast, ok hét Sveinn at leggja niðr hernað, ef guð gæfi honum þá <pb
+       n="385"/> sigr. Eptir þetta tóku þeir at berjast, ok drápu þeir Sveinn svá heiðingja sem þeir
+      vildu, ok at lyktum flýðu heiðingjar undan á tutttugu skipum, en allt annat var drepit, ok
+      fekk Sveinn lítit manntjón, en fé svá mikit sem mest vildu þeir hafa í gulli ok alls kyns
+      gripum. Síðan fóru þeir leiðar sinnar, þar til at þeir kómu við land, þar sem Ketill hafði nát
+      höddunni. Þá bað Sveinn mestan hluta liðs síns herklæðast, ok svá gerðu þeir. Ok skamma stund
+      fóru þeir, áðr þeir sáu bæ mikinn ok þar hjá mikinn mann, ok sá kallaði hræðiligri röddu.
+      Síðan dreif at hvaðanæva lið. Þess kyns lýð kalla menn Cyclopes. Þeir höfðu lurka stóra í
+      höndum, sem ásar væri. Þeir böllruðust saman ok höfðu hvárki hlífar né vápn. Þá bað Sveinn, at
+      bogmenn skyldu skjóta á þá sem hvatligast, ok kvað þeim eigi hæfa at bíða ór stað, -- "því at
+      þeir eru svá sterkir sem it óarga dýr ok hávir sem hús eða skógar." Síðan skutu þeir á þá ok
+      drápu marga, en særðu suma. Þá varð undarligr atburðr, því at þá flýðu þeir, sem meira máttu.
+      Sveinn bannaði þeim eptir at hlaupa ok kvað eiga mundu hæli. Síðan runnu þeir í bæinn ok ræntu
+      þar miklu fé í skinnum ok klæðum ok silfri ok öllum dýrum málmi ok fóru nú til skipa ok sneru
+      áleiðis. Þá er þeir höfðu lengi farit, þá sá Sveinn, at fjörðr skarst inn í landit. Hann bað
+      þá þangat leggja skipunum. Þeir váru þess fúsir, því at þar váru margir ungir menn. Ok er þeir
+      nálguðust landit, sáu þeir kastala ok marga bæi. Átta menn sáu þeir renna ok undruðust ferð
+      þeira. Einn þeira landsmanna hafði fjöðr í hendi ok rétti fjáðrstafinn ok síðar sjálfa
+      fjöðrina. Þetta sýndist þeim friðarmark. Þá gerði Sveinn ok friðarmark af sinni hendi. Síðan
+      lögðu þeir at landi, en landsmenn flykktust saman undir einum hamri með ýmsum kaupskap. <pb
+       n="386"/> Sveinn bað sína menn á land ganga, ok keyptust þeir við ok landsmenn, ok skildu þó
+      hvárigir, hvat aðrir mæltu. Á öðrum degi gengu menn Sveins enn til kaupa við landsmenn, ok
+      keyptust við um hríð. Þá vildi einn girskr maðr ripta skinnakaup þat, er þeir höfðu nýkeypt.
+      Þá reiddist heiðinginn ok laust knefa sínum á nasir honum, svá at blóð stökk á jörð. Þá brá
+      inn girski sverði ok hjó heiðingjann í tvá hluti. Þá hlupu landsmenn á burt með miklu ópi ok
+      kalli, ok því næst kom saman herr óvígr. Þá bað Sveinn sína menn herklæðast ok ganga á mót
+      þeim, ok tókst með þeim harðr bardagi ok ákafr, ok fell fjöldi heiðingja, því at þeir váru
+      allir hlífarlausir. En er þeir sáu sik ofrliði borna, þá flýðu þeir undan, en þeir Sveinn tóku
+      þar mikinn fjárhlut, er hinir höfðu frá hlaupit, ok báru til skipa. En eptir þenna atburð
+      halda þeir Sveinn í burt þaðan ok lofuðu guð fyrir sigr sinn. Þeir fara nú um hríð, þar til at
+      þeir sáu svínaflokk mikinn á einu nesi undir gnípu einni við ána, ok hljupu nokkurir menn á
+      land ok vildu drepa þau, ok svá gerðu þeir. Þá tóku þau at hrína hátt, sem undan kómust, ok
+      hljupu á land upp. En því næst sáu þeir mikinn her fara af landi ofan til skipanna, ok fór
+      einn maðr nokkut svá frá liðinu fram. Sá hafði þrjú epli ok varp einu í lopt upp, ok kom þat
+      niðr fyrir fætr Sveini, ok þegar öðru eptir; þat kom ok í sama stað. Þá kveðst Sveinn eigi
+      mundu bíða ins þriðja eplisins: "Þessu fylgir nokkurr djöfulligr kraptr ok rammr átrúnaðr."
+      Sveinn lagði ör á streng ok skaut at honum. Örin kom á nef honum. Þá var því líkast at heyra,
+      sem þá horn brestr í sundr, ok vatt hann upp við höfðinu, ok sáu þeir, at hann hafði fugls
+      nef. Síðan <pb n="387"/> æpir hann hátt ok hljóp í mót liði sínu ok svá hverr á land upp, sem
+      fara mátti, þá er þeir sáu síðast til. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Eptir þetta snýr Sveinn til skipa sinna, ok fara nú leið sína. Ok er þeir höfðu skamma
+      stund farit, þá er frá því sagt, at þeir sáu um daginn, at tíu menn leiða eptir sér kvikendi
+      nokkut. Þat þótti þeim nokkut undarligt, því at mikinn turn af viðum gervan sáu þeir standa á
+      baki dýrinu. Þá gengu á land fimm tigir manna, þeira er mest forvitni var á, hverja náttúru
+      dýrit hafði. En er þeir sáu skipaliðit, er dýrit leiddu, fálust þeir ok fyrirlétu dýrit. En
+      Sveins menn gengu til dýrsins ok vildu leiða eptir sér, en þat drap höfðinu niðr, svá at þat
+      gekk eigi ór stað, þó at þeir tæki allir at toga þær taugir, er á váru höfðinu dýrsins. Þá
+      hugðu þeir, at með nokkurum vélum mundi um búit, þeim er þeir skildu ekki, at þeir tíu gátu
+      leitt dýrit. Þá leituðu þeir sér ráðs ok gengu frá dýrinu ok fálust í reyri, svá at þeir máttu
+      sjá öll tíðendi til dýrsins. Ok nokkuru síðar risu landsmenn upp ok gengu til dýrsins. Þeir
+      tóku togit ok lögðu tveggja vegna aptr með hálsinum ok svá í gegnum eitt þvertré, er stóð í
+      turninum, ok heimta svá upp höfuð dýrsins, því at leikandi var í borunni. En er Sveins menn
+      sáu dýrit rétt standa, hlaupa þeir þangat til sem hvatast. Þeir tóku þá ok leiddu dýrit
+      þangat, sem þeir vildu. En með því at þeir vissu eigi náttúru dýrsins ok hvat því þurfti til
+      matar at ætla, þá lögðu þeir dýrit spjótum, til þess at þat fell dautt. Síðan fóru þeir ofan
+      til skipa ok tóku þá róðrarleiði. <pb n="388"/> En því næst sau þeir fjölda heiðingja á landit
+      upp, ok ganga fram á ströndina ok gera þeim Sveini friðarmark, en þeir leggja þegar at landi
+      skipunum. Þar var höfn góð. Ok nú leggja þeir mót sín á millum, ok keypti Sveinn þar margar
+      gersemar. Þá buðu heiðingjar sínum kaupunautum í eitt hús til veizlu, ok þat þágu þeir. En er
+      þeir kómu í húsit, sáu þeir alls konar krásir fram settar ok nógt ins bezta drykkjar. En er
+      Sveins menn settust undir borðit, signdu þeir sik; en er heiðingjarnir sáu þá gera krossmark,
+      þá ærðust þeir ok hljupu at þeim. Sumir börðu þá með hnefunum, en sumir reittu þá, ok kölluðu
+      þá hvárirtveggja sér til liðs. Ok er Sveinn heyrði kall sinna manna ok sá viðskipti þeira, þá
+      mælti hann: "Hverr veit, nema sjá samkunda snúist oss í mikla ógleði?" Sídan gerðist hann
+      eptir þeim ok biðr alla sína menn herklæðast. En er Sveinn hafði fylkt liði sínu, þá sáu þeir
+      ok, hvar heiðingjar höfðu sínu liði fylkt ok at þeir báru mann blóðgan fyrir liðinu ok höfðu
+      hann fyrir merki. Þá ráðgast Sveinn um við Róðgeir biskup, hvat til ráða skyldi taka. Biskup
+      mælti: "Ef heiðingjar vænta sér sigrs af líkneskju nokkurs vonds manns, hyggjum þá at, hvé
+      skyldugt oss er at vænta fulltingis af himni, þar er sjálfr Kristr drottinn lifir ok líknar;
+      sá er höfðingi allrar kristni ok geymandi allra lifendra ok dauðra. Fyrirberi þér sigrmark
+      Krists várs ins krossfesta fyrir liðinu með ákalli hans nafns, ok væntum oss þaðan sigrs, en
+      heiðingjum aldrtila." Eptir þessa áeggjun biskups tóku þeir heilagan kross með líkneskju
+      drottins ok höfðu þat fyrir merki ok báru fyrir liðinu. Þá gengu þeir óhræddir í mót
+      heiðingjum, en lærðir menn til bænar. Ok er saman laust liðinu, urðu heiðingjar blindir ok
+      margir felmsfullir ok flýðu brátt undan, ok hljóp sinn veg hverr, sumir í ána, <pb n="389"/>
+      en sumir í fen eða skóga. Þar fórust margar þúsundir heiðingja. En er flóttinn var rekinn, þá
+      lét Sveinn jarða lík þeira, er þar höfðu fallit; en þá er þetta var gert, bað Sveinn lið sitt
+      þat varast at forvitnast heiðinna manna siðu, "því at meir hefir," sagði hann, "aflazt í
+      þessari ferð manntjóns en ávaxtar." </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> Síðan fór Sveinn á brott ok allt þar til þeim sýndist sem hálft tungl stæði á jörðu. Þar
+      leggja þeir at landi ok ganga þar á land. Þá segir Ketill Sveini þau tíðendi, sem gerzt höfðu,
+      þá er þeir Yngvarr váru þar. Síðan bað Sveinn lið sitt frá skipum drífa til fundar við
+      drekann. Síðan fara þeir ok koma í skóg einn mikinn, er stóð við drekabælit, ok fálust þar.
+      Síðan sendir Sveinn nokkura unga menn til drekans at forvitnast, hvat þar væri títt. Þeir sáu,
+      at ormarnir sváfu ok váru harðla margir. Þó lá Jacúlus í hring um þá alla aðra. Þá tók einn
+      þeira at rétta spjótskapt sitt til gulhrings nokkurs, ok kom skaptit við einn yrmling. En er
+      sá vaknar, þá vakti sá aðra hjá sér, ok því næst vaknaði hverr at öðrum, unz Jacúlus reistist
+      upp. Sveinn stóð við eik eina mikla ok lagði ör á streng, en tundr var sett á örvaroddinn svá
+      mikit sem mannshöfuð með vígðum eldi. En er Sveinn sá, at Jacúlus færðist á loft ok hann
+      stefndi á skip þeira ok flaug með gapanda munni, skýtr Sveinn örinni með eldinum vígða í munn
+      orminum, ok rann svá til hjartans, at á einni svipstundu fell hann dauðr niðr. En er þeir
+      Sveinn sáu þat, þá lofuðu þeir guð með fagnaði. <pb n="390"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="12">
+     <p> Eptir þenna atburð bað Sveinn, at þeir hvötuðu í burt frá daun þeim ok fýlu, er af varð.
+      Síðan snúa þeir til skipa hvatliga á braut, ok gerðu svá flestir allir fyrir utan sex menn, er
+      til drekans gengu fyrir forvitnissakir, ok fellu þeir niðr dauðir. Þó angraði enn nú marga
+      menn mjök sá daunn, þó at eigi fengi fleiri líflát þar af. Þá bjóst Sveinn þaðan hvatliga ok
+      ferr, unz hann kemr í ríki Silkisifjar drottningar. Hún gengr í móti þeim með mikilli sæmd. En
+      þegar þeir Sveinn ganga af skipum, þá gengr Ketill þeira fyrstr í mót drottningu, en hún gaf
+      ekki at honum gaum ok sneri at Sveini ok vildi kyssa hann, en hann hratt henni frá sér ok
+      kvaðst eigi vilja kyssa hana, heiðna konu, -- "eða fyrir hví viltu mik kyssa?" Hún svarar:
+      "Því, at þú einn hefir augu Yngvars, at því er mér sýnist." Síðan var við þeim tekit með sæmd
+      ok virðingu. En síðan er hún vissi, at biskup var þar kominn, þá varð hún fegin. Þá talaði
+      biskup trú fyrir henni, ok höfðu þau túlk í milli sín, því at biskup kunni eigi þá tungu at
+      mæla, er hún mælti, ok fekk hún brátt skilning andligrar speki ok lét skírast. En at þeim
+      mánaði sama var skírðr allr borgarlýðrinn. Eigi miklu síðar stefndi drottning þing fjölmennt
+      með umráði landsmanna. Ok er þar var mikit fjölmenni saman komit, þá var Sveinn Yngvarsson
+      skrýddr purpura ok síðan sett kóróna á höfuð honum, ok kölluðu allir hann konung sinn; ok þar
+      með giftist drottning honum. <pb n="391"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="13">
+     <p> Eptir þessa veizlu fór Sveinn konungr fjölmennr um ríki sitt ok svá drottning. Þar er ok
+      biskup í ferð ok lærðir menn, því at Sveinn konungr lætr kristna landit ok öll þau ríki, sem
+      drottning hafði áðr stjórnat. En er sumra tók ok svá hafði megnazt kraptr guðligrar miskunnar
+      í því landi, at þat var allt alkristit orðit, þá vildi Sveinn konungr ok hans föruneyti búa
+      ferð sína heim til Svíþjóðar ok láta vita frændr sína sannendi um hans ferð. En er drottning
+      varð vör þessarar ætlanar, þá bað hún, at hann sendi lið sitt heim, en hann sæti kyrr sjálfr.
+      Sveinn svarar: "Eigi vil ek senda lið mitt frá mér, því at þeim er þat mikill háski í mörgu
+      lagi, er til þessarar ferðar skulu ráðast, svá sem fyrr reyndist, er engi var foringi ok
+      fyrirfórst allt liðit ok villtist ýmsa vegu." En er drottning heyrði þessi orð konungs ok sá
+      þar vilja með, þá mælti hún: "Ekki skaltu svá fara skyndiliga, ef ek má ráða, því at svá má
+      vera, at þú eigi viljir vitja þessa ríkis eða týnist þú í svá mikilli háskaferð sem þú segir
+      sjálfr í frá. Ok sjá, hvat þér hlýðir at styrkja kristnina ok láta kirkjur reisa, því at fyrst
+      skaltu kirkju láta gera innan borgar mikla ok virðuliga, ok ef sú verðr svá sem at ek vilda,
+      þá skal at þeiri jarða líkama föður þíns. En er þrír vetr eru liðnir, þá skaltu fara í friði."
+      Nú er svá gert sem drottning beiðir, at Sveinn konungr dvaldist þar þrjá vetr at sinni. En at
+      inum þriðja vetri var alger mikil kirkja í borginni. Þá bað drottning biskup til koma. En er
+      biskup var skrýddr, þá spurði hann: "Í hvers nafni viltu, drottning, láta vígja kirkjuna?" Hún
+      svarar. "Til dýrðar heilögum Yngvari konungi, <pb n="392"/> þess er hér hvílir, skal þessa
+      kirkju vígja." Biskup svarar: "Hví viltu svá, drottning? Eða hefir Yngvarr jarteiknum skinit
+      eptir dauða sinn? Því at þá eina köllum vér helga, er þá skína jarteiknum, er líkamir þeira
+      eru í jörð grafnir." Hún svarar: "Af yðrum munni heyrða ek, at meira væri verð fyrir guði
+      staðfesti réttrar trúar ok vani heilagrar ástar en dýrð jarteikna; en ek dæmi, sem ek reyndi,
+      at Yngvarr var staðfastr í heilagri ást við guð." Þá er drottning kvað á, at svá skyldi vera,
+      vígði biskup musterit guði til dýrðar ok öllum helgum með nafni Yngvars. Síðan var höggvin ný
+      steinþró ok lagðr í líkami Yngvars ok settr yfir kross dýr með virðuligum búnaði. Þá lét
+      biskup messu syngja optliga fyrir sál Yngvars ok leyfði þó fólkinu at kalla Yngvarskirkjuna.
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="14">
+     <p> At þessum hlutum af liðnum býst Sveinn til burtferðar ok ferr sunnan, unz hann kemr í
+      Svíþjóð. Landsmenn tóku við honum með fagnaði ok mikilli sæmd. Var honum landit boðit. En er
+      hann heyrði þat, þá neitaði hann því skjótt ok kvaðst aflat hafa sér betra lands ok ársælla ok
+      lézt enn mundu þess vitja. En er tveir vetr váru úti, siglir Sveinn ór Svíþjóðu, en Ketill
+      dvaldist þar eptir, ok lézt hann svá heyra sagt, at Sveinn væri í Görðum um vetrinn ok bjóst
+      um várit þaðan ok sigldi at sumarmagni ór Garðaríki, ok vissu menn þat síðast til hans, at
+      hann sigldi í ána. En Ketill fór til Íslands á fund frænda sinna ok staðfestist þar ok sagði
+      fyrstr frá þessu, en þat vitum vér, at nokkurir sagnamenn segja, at Yngvarr hafi verit <pb
+       n="393"/> sonr Eymundar Óláfssonar, því at þeim þykkir honum þat meiri sæmd at segja hann
+      konungsson. En gjarna vildi Önundr gefa til allt sitt ríki, ef hann mætti Yngvars líf aptr
+      kaupa, því at allir höfðingjar í Svíþjóðu vildu hann gjarna konung hafa yfir sér. En þess
+      verðr enn nú af sumum mönnum spurt, fyrir hví at Yngvarr væri eigi sonr Eymundar Óláfssonar,
+      en því viljum vér þá leið svara: Eymundr, sonr Óláfs, átti son, er Önundr hét. Sá var inn
+      líkasti Yngvari í margri náttúru ok allra helzt í víðförli sinni, svá sem til vísar í bók
+      þeiri, er heitir Gesta Saxonum ok er svá ritat: "Fertur, quod Emundus, rex Sveonum, misit
+      filium suum, Onundum, per Mare balzonum, qui, postremo ad amazones veniens, ab eis interfectus
+      est." Svá segja sumir menn, at þeir Yngvarr færi tvær vikur, at þeir sáu ekki, nema þeir
+      tendruðu kerti, því at saman luktust björgin yfir ánni, ok var sem þeir reri í helli þann
+      hálfan mánuð. En vitrum mönnum þykkir þat ekki sannligt vera mega, nema áin felli svá þröngt,
+      at gnúpar tæki saman eða væri skógar svá þröngir, at saman tæki þess á meðal, er gnípur
+      stæðist á. En þó at þetta megi vera, þá er þó eigi sannligt. En þessa sögu höfum vér heyrt ok
+      ritat eptir forsögn þeirar bækr, at Oddr munkr inn fróði hafði gera látit at forsögn fróðra
+      manna, þeira er hann segir sjálfr í bréfi sínu, því er hann sendi Jóni Loptssyni ok Gizuri
+      Hallssyni. En þeir, er vita þykkjast innvirðuligar, auki við, þar sem nú þykkir á skorta.
+      Þessa sögu segist Oddr munkr heyrt hafa segja þann prest, er Ísleifr hét, ok annan Glúm
+      Þorgeirsson, ok inn þriði hefir Þórir heitit. Af þeira frásögn hafði hann þat, er honum þótti
+      merkiligast. En Ísleifr sagðist heyrt hafa Yngvars sögu af einum kaupmanni, en sá kveðst hafa
+      numit hana í hirð <pb n="394"/> Svíakonungs. Glúmr hafði numit at föður sínum, en Þórir hafði
+      numit af Klökku Sámssyni, en Klakka hafði heyrt segja ina fyrri frændr sína. Ok þar lyktum vér
+      þessa sögu. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

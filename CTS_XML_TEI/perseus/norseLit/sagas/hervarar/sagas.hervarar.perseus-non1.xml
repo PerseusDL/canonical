@@ -1,0 +1,1546 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Hervarar saga ok Heiðreks</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Hervarar saga ok Heiðreks</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Hervarar_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="191"/> SIGRLAMI hét konungr, er réð fyrir Garðaríki. Hans dóttir var Eyfura, er allra
+      meyja var fríðust. Þessi konungr hafði eignazt sverð þat af dvergum, er Tyrfingr hét ok allra
+      var bitrast, ok hvert sinn, er því var brugðit, þá lýsti af svá sem af sólargeisla. Aldri
+      mátti hann svá hafa beran, at eigi yrði hann manns bani, ok með vörmu blóði skyldi hann jafnan
+      slíðra. En ekki var þat kvikt, hvárki menn né kvikvendi, er lifa mætti til annars dags, ef sár
+      fekk af honum, hvárt sem var meira eða minna. Aldri hafði hann brugðizt í höggi eða staðar
+      numit, fyrr en hann kom í jörð, ok sá maðr, er hann bar í orrostu, mundi sigr fá, ef honum var
+      vegit. Þetta sverð er frægt í öllum fornsögum. Maðr hét Arngrímr; hann var víkingr ágætr. Hann
+      sótti austr í Garðaríki ok dvaldist um hríð með Sigrlama konungi ok gerðist forstjóri fyrir
+      liði hans, bæði lands at gæta ok þegna, því at konungr var nú gamall. Arngrímr gerðist nú svá
+      mikill höfðingi, at konungr <pb n="192"/> gifti honum dóttur sína ok setti hann mestan mann í
+      ríki sínu. Hann gaf honum þá sverðit Tyrfing. Konungr settist þá um kyrrt, ok er ekki frá
+      honum sagt fleira. Arngrímr fór með konu sinni, Eyfuru, norðr til ættleifða sinna ok nam
+      staðar í ey þeiri, er Bólmr hét. Þau áttu tólf sonu. Inn ellsti ok inn ágætasti hét Angantýr,
+      annarr Hjörvarðr, þriði Hervarðr, fjórði Hrani ok Haddingjar tveir; eigi eru nefndir fleiri.
+      Allir váru þeir berserkir, svá sterkir ok miklir kappar, at aldri vildu þeir fleiri fara í
+      hernað en tólf, ok kómu þeir aldri svá til orrostu, at eigi hefði þeir sigr. Af þessu urðu
+      þeir ágætir um öll lönd, ok engi konungr var sá, er eigi gæfi þeim þat, er þeir vildu hafa.
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Þat var tíðenda eitthvert sinn jólaaptan, at menn skyldu heit strengja at bragarfulli, sem
+      siðr er til. Þá strengdu heit Arngríms synir. Hjörvarðr strengdi þess heit, at hann skyldi
+      eiga dóttur Ingjalds Svíakonungs, þá mey, er fræg var um öll lönd at fegrð ok atgervi, eða
+      enga konu ella. Þat sama vár gera þeir bræðr ferð sína tólf ok koma til Uppsala ok ganga fyrir
+      konungs borð, ok þar sat dóttir hans hjá honum. Þá segir Hjörvarðr erendi sitt konungi ok
+      heitstrenging, en allir hlýddu, þeir er inni váru. Hjörvarðr biðr konung segja skjótt, hvert
+      erendi hann skal þangat eiga. Konungr hugsar þetta mál ok veit, hversu miklir þeir bræðr váru
+      fyrir sér ok af ágætu kyni komnir. Í því bili stígr fram yfir konungs borðit sá maðr, er hét
+      Hjálmarr inn hugumstóri, ok mælti til konungs: "Herra konungr, minnizt <pb n="193"/> þér nú,
+      hvé mikinn sóma ek hefi yðr veitt, síðan er ek kom í þetta land, ok hversu margar orrostur ek
+      átta at vinna ríki undir yðr, ok hefi ek yðr látit heimila mína þjónustu. Nú bið ek yðr, at
+      þér veitið mér til sæmdar ok gefið mér dóttur yðra, er minn hugr hefir jafnan á leikit. Ok er
+      þat makligra, at þér veitið mér þessa bæn heldr en berserkjunum, þeim er illt eitt hafa gert
+      bæði í yðru ríkir ok margra annarra konunga." Nú hugsar konungr hálfu meir ok þykkir nú þetta
+      mikit vandamál, er þessir tveir höfðingjar keppast svá mjök um dóttur hans. Konungr segir á
+      þessa leið: Hvártveggi sjá er svá mikill maðr ok vel ættborinn, at hvárigum vill hann synja
+      mægða, ok biðr hana kjósa, hvárn hún vill eiga. Hún segir svá, at þat er jafnt, ef faðir
+      hennar vill gifta hana, þá vill hún þann eiga, er henni er kunnr at góðu, en eigi hinn, er hún
+      hefir sögur einar frá ok allar illar sem frá Arngríms sonum. Hjörvarðr býðr Hjálmari á hólm
+      suðr í Sámsey ok biðr hann verða hvers manns níðing, ef hann gengr fyrr at eiga frúna en þetta
+      einvígi er reynt. Hjálmarr kveðr sik ekki skulu dvelja. Fara nú Arngríms synir heim ok segja
+      feðr sínum sitt erendi, en Arngrímr kveðst aldri fyrr hafa óttazt um ferð þeira. Þessu næst
+      fara þeir bræðr til Bjarmars jarls, ok gerir hann í móti þeim veizlu mikla. Ok nú vill
+      Angantýr fá dóttur jarls, er Sváfa hét, ok var nú drukkit brúðlaup þeira. Ok nú segir Angantýr
+      jarli draum sinn: Honum þótti þeir bræðr staddir í Sámsey, ok fundu þar fugla marga ok drápu
+      alla. Þá sneru þeir annan veg á eyna, ok flugu í móti þeim ernir tveir, ok þóttist hann ganga
+      í móti öðrum, ok áttu þeir hart viðskipti, ok settust niðr báðir, áðr létti. En annarr örninn
+      átti við bræðr hans ellefu, ok þótti honum örninn efri verða. <pb n="194"/> Jarl segir, at
+      þann draum þurfti ekki at ráða ok þar væri honum sýnt fall rikra manna. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> En er þeir bræðr koma heim, búast þeir til hólmstefnu, ok leiðir faðir þeira þá til skips
+      ok gaf þá sverðit Tyrfing Angantý. "Hygg ek," segir hann, "at nú muni þörf vera góðra vápna."
+      Hann biðr þá nú vel fara; eptir þat skiljast þeir. Ok er þeir bræðr koma í Sámsey, sjá þeir,
+      hvar tvau skip liggja í höfn þeiri, er Munarvágr hét. Þau skip hétu askar. Þeir þóttust vita,
+      at Hjálmarr mundi þessi skip eiga ok Oddr inn víðförli, er kallaðr var Örvar-Oddr. Þá brugðu
+      Arngríms synir sverðum ok bitu í skjaldarrendr, ok kom á þá berserksgangr. Þeir gengu þá sex
+      út á hvárn askinn. En þar váru svá góðir drengir innan borðs, at allir tóku sín vápn, ok engi
+      flýði ór sínu rúmi, ok engi mælti æðruorð. En berserkirnir gengu með öðru borði fram, en öðru
+      aptr ok drápu þá alla. Síðan gengu þeir á land upp grenjandi. Hjálmarr ok Oddr höfðu gengit
+      upp á eyna at vita, ef berserkirnir væri komnir. Ok er þeir gengu ór skóginum til skipa sinna,
+      þá gengu berserkir út af skipum þeira með blóðgum vápnum ok brugðnum sverðum, ok var þá
+      genginn af þeim berserksgangrinn. En þá verða þeir máttminni en þess á milli sem eptir nokkurs
+      kyns sóttir. Þá kvað Oddr: <lg>
+       <l>"Þá var mér ótti</l>
+       <l>einu sinni,</l>
+       <l>er þeir grenjandi</l>
+       <l>gengu af öskum</l>
+       <l>(ok emjandi</l>
+       <pb n="195"/>
+
+       <l>í ey stigu)</l>
+       <l>tírarlausir,</l>
+       <l>váru tólf saman."</l>
+      </lg> Þá mælti Hjálmarr til Odds: "Sér þú nú, at fallnir eru menn okkrir allir, ok sýnist mér
+      nú líkast, at vér munum allir Óðin gista í kveld í Valhöllu." Ok þat eitt segja menn, at
+      Hjálmarr hafi mælt æðruorð. Oddr svarar: "Þat mundi mitt ráð vera, at vit flýðim undan á skóg,
+      ok munu vit ekki mega tveir berjast við þá tólf, er drepit hafa tólf ina fræknustu menn, er
+      váru í Svíaríki." Þá mælti Hjálmarr: "Flýjum vit aldri undan óvinum okkrum ok þolum heldr vápn
+      þeira; fara vil ek at berjast við berserki." Oddr svaraði: "En ek nenni eigi at gista Óðin í
+      kveld, ok skulu þessir allir dauðir berserkir, áðr kveld sé, en vit tveir lifa." Þetta
+      viðrmæli þeira sanna þessar vísur, er Hjálmarr kvað: <lg>
+       <l>"Fara halir hraustir</l>
+       <l>af herskipum,</l>
+       <l>tólf menn saman</l>
+       <l>tírarlausir;</l>
+       <l>vit munum í aptan</l>
+       <l>Óðin gista</l>
+       <l>tveir fóstbræðr,</l>
+       <l>en þeir tólf lifa."</l>
+      </lg> Oddr segir: <lg>
+       <l>"Því mun orði</l>
+       <l>andsvör veita:</l>
+       <l>Þeir munu í aptan</l>
+       <l>Óðin gista</l>
+       <l>tólf berserkir,</l>
+       <l>en vit tveir lifa."</l>
+      </lg> Þeir Hjálmarr sá, at Angantýr hafði Tyrfing í hendi, því at lýsti af sem sólargeisla.
+      Hjálmarr mælti: "Hvárt viltu eiga við Angantý einn eða við bræðr hans ellefu?" <pb n="196"/>
+      Oddr segir: "Ek vil berjast við Angantý. Hann mun gefa stór högg með Tyrfingi, en ek trúi betr
+      skyrtu minni en brynju þinni til hlífðar." Hjálmarr mælti: "Hvar kómu vit þess til orrostu, at
+      þú gengir fram fyrir mik? Því viltu berjast við Angantý, at þér þykkir þat meira þrekvirki. Nú
+      em ek höfuðsmaðr þessar hólmgöngu; hét ek öðru konungsdóttur í Svíþjóðu en láta þik eða annan
+      ganga í þetta einvígi fyrir mik, ok skal ek berjast við Angantý," -- ok brá þá sverðinu ok
+      gekk fram í móti Angantý, ok vísaði hvárr öðrum til Valhallar. Snúast þeir í móti, Hjálmarr ok
+      Angantýr, ok láta skammt stórra höggva á milli. Oddr kallar á berserki ok kvað: <lg>
+       <l>"Einn skal við einn</l>
+       <l>eiga, nema sé deigr,</l>
+       <l>hvatra drengja,</l>
+       <l>eða hugr bili."</l>
+      </lg> Þá gekk fram Hjörvarðr, ok áttust þeir Oddr við hart vápnaskipti. En silkiskyrta Odds
+      var svá traust, at ekki vápn festi á, en hann hafði sverð svá gott, at svá beit brynju sem
+      klæði. Ok fá högg hafði hann veitt Hjörvarði, áðr hann fell dauðr. Þá gekk til Hervarðr ok fór
+      sömu leið, þá Hrani, þá hverr at öðrum, en Oddr veitti þeim svá harða atsókn, at alla felldi
+      hann þá ellefu bræðr. En frá leik þeira Hjálmars er þat at segja, at Hjálmarr fekk sextán sár,
+      en Angantýr fell dauðr. Oddr gekk þar til, er Hjálmarr var, ok kvað: <lg>
+       <l>"Hvat er þér, Hjálmarr?</l>
+       <l>Hefir þú lit brugðit.</l>
+       <l>Þik kveð ek mæða</l>
+       <l>margar undir;</l>
+       <l>hjálmr er þinn höggvinn,</l>
+       <l>en á hlið brynja,</l>
+       <l>nú kveð ek fjörvi</l>
+       <l>of farit þínu."</l>
+      </lg> Hjálmar kvað: <lg>
+       <l>"Sár hefi ek sextán,</l>
+       <pb n="197"/>
+
+       <l>slitna brynju,</l>
+       <l>svart er mér fyr sjónum,</l>
+       <l>séka ek ganga;</l>
+       <l>hneit mér við hjarta</l>
+       <l>hjörr Angantýs,</l>
+       <l>hvass blóðrefill,</l>
+       <l>herðr í eitri."</l>
+      </lg> Ok enn kvað hann. <lg>
+       <l>"Áttak at fullu</l>
+       <l>fimm tún saman,</l>
+       <l>en ek því aldri</l>
+       <l>unda ráði;</l>
+       <l>nú verð ek liggja</l>
+       <l>lífs andvani,</l>
+       <l>sverði undaðr,</l>
+       <l>í Sámseyju.</l>
+       <l>Drekka í höllu</l>
+       <l>húskarlar mjöð</l>
+       <l>menjum göfgir</l>
+       <l>at míns föður;</l>
+       <l>mæðir marga</l>
+       <l>mungát fira,</l>
+       <l>en mik eggja spor</l>
+       <l>í eyju þjá.</l>
+       <l>Hvarf ek frá hvítri</l>
+       <l>hlaðs beðgunni</l>
+       <l>á Agnafit</l>
+       <l>utanverðri;</l>
+       <l>saga mun sannast,</l>
+       <l>sú er hún sagði mér,</l>
+       <l>at aptr koma</l>
+       <l>eigi mundak.</l>
+       <l>Drag þú mér af hendi</l>
+       <l>hring inn rauða,</l>
+       <l>færðu inni ungu</l>
+       <l>Ingibjörgu;</l>
+       <l>sá mun henni</l>
+       <l>hugfastr tregi,</l>
+       <l>er ek eigi kem</l>
+       <l>til Uppsala.</l>
+       <l>Hvarf ek frá fögrum</l>
+       <l>fljóða söngvi</l>
+       <l>ótrauðr gamans</l>
+       <l>austr við Sóta;</l>
+       <l>för skundaðak</l>
+       <l>ok fórk í lið</l>
+       <l>hinzta sinni</l>
+       <l>frá hollvinum.</l>
+       <l>Hrafn flýgr austan</l>
+       <l>af hám meiði,</l>
+       <l>flýgr honum eptir</l>
+       <l>örn í sinni;</l>
+       <l>þeim gef ek erni</l>
+       <l>efstum bráðir,</l>
+       <l>sá mun á blóði</l>
+       <l>bergja mínu."</l>
+      </lg> Eptir þat deyr Hjálmarr. Oddr segir þessi tíðendi heim í Svíþjóð, en konungsdóttir má
+      eigi lifa eptir hann ok ræðr sér sjálf bana. Angantýr ok bræðr hans váru lagðir í haug í
+      Sámsey með öllum vápnum sínum. <pb n="198"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Dóttir Bjarmars var með barni; þat var mær einkar fögr. Sú var vatni ausin ok nafn gefit ok
+      kölluð Hervör. Hún fæddist upp með jarli ok var sterk sem karlar, ok þegar hún mátti sér
+      nokkut, tamdist hún meir við skot ok skjöld ok sverð en við sauma eða borða. Hún gerði ok
+      optar illt en gott, ok er henni var þat bannat, hljóp hún á skóga ok drap menn til fjár sér.
+      Ok er jarl spyrr til þessa stigamanns, fór hann þangat með liði sínu ok tók Hervöru ok hafði
+      heim með sér, ok dvaldist hún þá heima um stund. Þat var eitt sinn, er Hervör var úti stödd
+      því nær, er þrælar nokkurir váru, ok gerði hún þeim illt sem öðrum. Þá mælti í þrællinn: "Þú,
+      Hervör, vilt illt eitt gera, ok ills er at þér ván, ok því bannar jarl öllum mönnum at segja
+      þér þitt faðerni, at honum þykkir skömm, at þú vitir þat, því at inn versti þræll lagðist með
+      dóttur hans, ok ertu þeira barn." Hervör varð við þessi orð æfar reið ok gengr þegar fyrir
+      jarl ok kvað: <lg>
+       <l>"Áka ek várri</l>
+       <l>vegsemd hrósa,</l>
+       <l>þótt hún Fróðmars</l>
+       <l>fengi hylli;</l>
+       <l>föður hugðumst ek</l>
+       <l>fræknan eiga,</l>
+       <l>nú er sagðr fyr mér</l>
+       <l>svína hirðir."</l>
+      </lg> Jarl kvað: <lg>
+       <l>"Logit er margt at þér</l>
+       <l>lítil of efni,</l>
+       <l>frækn með firðum</l>
+       <l>var faðir þinn taliðr;</l>
+       <l>stendr Angantýs</l>
+       <l>ausinn moldu</l>
+       <l>salr í Sámsey</l>
+       <l>sunnanverðri."</l>
+      </lg> Hún kvað: <lg>
+       <l>"Nú fýsir mik,</l>
+       <l>fóstri, at vitja</l>
+       <l>fram genginna</l>
+       <l>frænda minna;</l>
+       <l>auð mundu þeir</l>
+       <pb n="199"/>
+
+       <l>eiga nógan,</l>
+       <l>þann skal ek öðlast,</l>
+       <l>nema ek áðr förumst.</l>
+       <l>Skal skjótliga</l>
+       <l>um skör búa</l>
+       <l>blæju líni,</l>
+       <l>áðr braut fari;</l>
+       <l>mikit býr í því,</l>
+       <l>er á morgin skal</l>
+       <l>skera bæði mér</l>
+       <l>skyrtu ok ólpu."</l>
+      </lg> Síðan mælti Hervör við móður sína ok kvað: <lg>
+       <l>"Bú þú mik at öllu</l>
+       <l>sem þú bezt kunnir,</l>
+       <l>sannfróð kona,</l>
+       <l>sem þú son mundir;</l>
+       <l>satt eitt mun mér</l>
+       <l>í svefn bera,</l>
+       <l>fæ ek ekki hér</l>
+       <l>yndi it næsta."</l>
+      </lg> Síðan bjóst hún í brott ein saman ok tók sér karlmanns gervi ok vápn ok sótti þar til,
+      er víkingar nokkurir váru, ok fór með þeim um hríð ok nefndist Hervarðr. Litlu síðar tók þessi
+      Hervarðr forræði liðsins, ok er þeir kómu til Sámseyjar, þá beiddist Hervarðr at fara upp á
+      eyna ok sagði, at þar mundi vera féván í haugi. En allir liðsmenn mæla í móti ok segja, at svá
+      miklar meinvættir gangi þar öll dægr, at þar er verra um daga en víða um nætr annars staðar.
+      Þat fæst um síðir, at kastat var akkerum, en Hervarðr sté í bát ok reri til lands ok lendi í
+      Munarvági í þann tíma, er sól settist, ok hitti þar mann þann, er hjörð helt. Hann kvað: <lg>
+       <l>"Hverr er ýta</l>
+       <l>í ey kominn?</l>
+       <l>Gakk þú sýsliga</l>
+       <l>gistingar til."</l>
+       <l>"Munka ek ganga</l>
+       <l>gistingar til,</l>
+       <l>þvít ek engi kann</l>
+       <l>eyjarskeggja;</l>
+       <l>segðu elligar,</l>
+       <l>áðr vit skiljum:</l>
+       <l>Hvar eru Hjörvarðs</l>
+       <l>haugar kenndir?"</l>
+      </lg> Hann kvað: <lg>
+       <l>"Spyrjattu at því,</l>
+       <l>spakr ertu eigi,</l>
+       <pb n="200"/>
+
+       <l>vinr víkinga,</l>
+       <l>ertu vanfarinn;</l>
+       <l>förum fráliga,</l>
+       <l>sem okkr fætr toga;</l>
+       <l>allt er úti</l>
+       <l>ámátt firum."</l>
+      </lg> Hún kvað: <lg>
+       <l>"Hirðum eigi at fælast</l>
+       <l>við fnösun slíka,</l>
+       <l>þótt um alla ey</l>
+       <l>eldar brenni;</l>
+       <l>látum okkr eigi</l>
+       <l>lítit hræða</l>
+       <l>rekka slíka,</l>
+       <l>ræðumst fleira við."</l>
+      </lg> Hann kvað: <lg>
+       <l>"Heimskr þykki mér,</l>
+       <l>sá er heðan ferr,</l>
+       <l>maðr einn saman</l>
+       <l>myrkvar grímur;</l>
+       <l>hyrr er á sveimun,</l>
+       <l>haugar opnast,</l>
+       <l>brenn fold ok fen,</l>
+       <l>förum harðara."</l>
+      </lg> Enda tók hann þá hlaup heim til bæjar, ok skildi þar með þeim. Nú sér hún því næst út á
+      eyna, hvar haugaeldrinn brenn, ok gengr hún þangat til ok hræðist ekki, þótt allir haugar væri
+      á götu hennar. Hún óð fram í þessa elda sem í myrkva, þar til er hún kom at haugi
+      berserkjanna. Þá kvað hún: <lg>
+       <l>"Vaki þú, Angantýr,</l>
+       <l>vekr þik Hervör,</l>
+       <l>eingadóttir</l>
+       <l>ykkr Sváfu;</l>
+       <l>seldu ór haugi</l>
+       <l>hvassan mæki,</l>
+       <l>þann er Sigurlama</l>
+       <l>slógu dvergar.</l>
+       <l>Hervarðr, Hjörvarðr,</l>
+       <l>Hrani, Angantýr,</l>
+       <l>vek ek yðr alla</l>
+       <l>und viðar rótum,</l>
+       <l>hjálmi ok með brynju,</l>
+       <l>hvössu sverði,</l>
+       <l>rönd ok með reiði,</l>
+       <l>roðnum geiri.</l>
+       <l>Mjök eru orðnir</l>
+       <l>Arngríms synir</l>
+       <l>megir meingjarnir</l>
+       <l>at moldarauka,</l>
+       <l>er engi gerir</l>
+       <l>sona Eyfuru</l>
+       <l>við mik mæla</l>
+       <l>í Munarvági.</l>
+       <l>Hervarðr, Hjörvarðr,</l>
+       <l>Hrani, Angantýr,</l>
+       <l>svá sé yðr öllum</l>
+       <l>innan rifja</l>
+       <l>sem þér í maura</l>
+       <l>mornið haugi,</l>
+       <l>nema sverð selið,</l>
+       <l>þat er sló Dvalinn;</l>
+       <l>samir eigi draugum</l>
+       <l>dýrt vápn bera."</l>
+      </lg>
+      <pb n="201"/> Þá kvað Angantýr: <lg>
+       <l>"Hervör dóttir,</l>
+       <l>hvat kallar svá,</l>
+       <l>full feiknstafa?</l>
+       <l>Ferr þú þér at illu;</l>
+       <l>ær ertu orðin</l>
+       <l>ok örviti,</l>
+       <l>vill hyggjandi,</l>
+       <l>vekr upp dauða menn.</l>
+       <l>Grófat mik faðir</l>
+       <l>né frændr aðrir;</l>
+       <l>þeir höfðu Tyrfing</l>
+       <l>tveir, er lifðu,</l>
+       <l>varð þó eigandi</l>
+       <l>einn um síðir."</l>
+      </lg> Hún kvað: <lg>
+       <l>"Segir þú eigi satt,</l>
+       <l>svá láti áss þik</l>
+       <l>heilan í haugi sitja,</l>
+       <l>sem þú hafir eigi</l>
+       <l>Tyrfing með þér;</l>
+       <l>trauðr ertu</l>
+       <l>arf at veita</l>
+       <l>eingabarni."</l>
+      </lg> Þá opnaðist haugrinn, ok var sem eldr ok logi væri allr haugrinn. Þá kvað Angantýr: <lg>
+       <l>"Hnígin er helgrind,</l>
+       <l>haugar opnast,</l>
+       <l>allr er í eldi</l>
+       <l>eybarmr at sjá;</l>
+       <l>atalt er úti</l>
+       <l>um at lítast,</l>
+       <l>skyntu, mær, ef þú mátt,</l>
+       <l>til skipa þinna."</l>
+      </lg> Hún svarar: <lg>
+       <l>"Brennið eigi svá</l>
+       <l>bál á nóttum,</l>
+       <l>at ek við elda</l>
+       <l>yðra hræðumst;</l>
+       <l>skelfr eigi meyju</l>
+       <l>muntún hugar,</l>
+       <l>þótt hún draug sjái</l>
+       <l>fyr durum standa."</l>
+      </lg> Þá kvað Angantýr: <lg>
+       <l>"Segi ek þér, Hervör,</l>
+       <l>hlýð þú til enn,</l>
+       <l>vísa dóttir,</l>
+       <l>þat er verða mun:</l>
+       <l>Sjá mun Tyrfingr,</l>
+       <l>ef þú trúa mættir,</l>
+       <l>ætt þinni, mær,</l>
+       <l>allri spilla.</l>
+       <l>Muntu son geta,</l>
+       <l>þann er síðan mun</l>
+       <l>Tyrfing hafa</l>
+       <l>ok trúa magni;</l>
+       <l>þann munu Heiðrek</l>
+       <l>heita lýðar,</l>
+       <l>sá mun ríkstr alinn</l>
+       <l>und röðuls tjaldi."</l>
+      </lg> Þá kvað Hervör: <lg>
+       <l>"Maðr þóttumst ek</l>
+       <l>mennskr til þessa,</l>
+       <l>áðr ek sali yðra</l>
+       <l>sækja hafðak;</l>
+       <l>seldu mér ór haugi</l>
+       <pb n="202"/>
+
+       <l>þann, er hatar brynjur,</l>
+       <l>hlífum hættan</l>
+       <l>Hjálmars bana."</l>
+      </lg> Þá kvað Angantýr: <lg>
+       <l>"Liggr mér und herðum</l>
+       <l>Hjálmars bani,</l>
+       <l>allr er hann utan</l>
+       <l>eldi sveipinn;</l>
+       <l>mey veit ek enga</l>
+       <l>fyr mold ofan,</l>
+       <l>at hjör þann þori</l>
+       <l>í hönd bera."</l>
+      </lg> Hervör kvað: <lg>
+       <l>"Ek mun hirða</l>
+       <l>ok í hönd nema</l>
+       <l>hvassan mæki,</l>
+       <l>ef ek hafa mættak;</l>
+       <l>uggi ek eigi</l>
+       <l>eld brennanda,</l>
+       <l>þegar loga lægir,</l>
+       <l>er ek lít yfir."</l>
+      </lg> Þá kvað Angantýr: <lg>
+       <l>"Heimsk ertu, Hervör,</l>
+       <l>hugar eigandi,</l>
+       <l>er þú at augum</l>
+       <l>í eld hrapar;</l>
+       <l>heldr vil ek selja þér</l>
+       <l>sverð ór haugi,</l>
+       <l>mær in unga,</l>
+       <l>mák þér eigi synja."</l>
+      </lg> Hervör kvað: <lg>
+       <l>"Vel gerðir þú,</l>
+       <l>víkinga niðr,</l>
+       <l>er þú seldir mér</l>
+       <l>sverð ór haugi;</l>
+       <l>betr þykkjumst nú,</l>
+       <l>bragningr, hafa</l>
+       <l>en ek Noregi</l>
+       <l>næðak öllum."</l>
+      </lg> Angantýr kvað: <lg>
+       <l>"Veizt eigi þú,</l>
+       <l>vesöl ertu máls,</l>
+       <l>feiknfull kona,</l>
+       <l>hví þú fagna skalt;</l>
+       <l>Sjá mun Tyrfingr,</l>
+       <l>ef þú trúa mættir,</l>
+       <l>ætt þinni, mær,</l>
+       <l>allri spilla."</l>
+      </lg> Hún segir: <lg>
+       <l>"Ek mun ganga</l>
+       <l>til gjálfrmara,</l>
+       <l>nú er hilmis mær</l>
+       <l>í hugum góðum;</l>
+       <l>lítt rækik þat,</l>
+       <l>lofðunga niðr,</l>
+       <l>hvé synir mínir</l>
+       <l>síðan deila."</l>
+      </lg> Hann kvað: <lg>
+       <l>"Þú skalt eiga</l>
+       <l>ok una lengi,</l>
+       <l>hafðu á huldu</l>
+       <l>Hjálmars bana;</l>
+       <l>takattu á eggjum,</l>
+       <l>eitr er í báðum,</l>
+       <l>sá er manns mjötuðr</l>
+       <l>meini verri.</l>
+       <pb n="203"/>
+
+       <l>Far vel, dóttir,</l>
+       <l>fljótt gæfak þér</l>
+       <l>tólf manna fjör,</l>
+       <l>ef þú trúa mættir,</l>
+       <l>afl ok eljun,</l>
+       <l>allt it góða,</l>
+       <l>þat er synir Arngríms</l>
+       <l>at sik leifðu."</l>
+      </lg> Hún kvað: <lg>
+       <l>"Búi þér allir,</l>
+       <l>brott fýsir mik,</l>
+       <l>heilir í haugi,</l>
+       <l>heðan vil ek skjótla;</l>
+       <l>helzt þóttumst nú</l>
+       <l>heima í millim,</l>
+       <l>er mik umhverfis</l>
+       <l>eldar brunnu."</l>
+      </lg> Síðan gekk hún til skipa. Ok er lýsti, sá hún, at skipin váru brottu; höfðu víkingar
+      hræðzt dunur ok elda í eynni. Fær hún sér far þaðan, ok ekki getit um hennar ferð, fyrr en hún
+      kemr á Glasisvöllu til Guðmundar, ok var hún þar um vetrinn ok nefndist enn Hervarðr. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Einn dag, er Guðmundr lék skáktafl ok hans tafl var mjök svá farit, þá spurði hann, ef
+      nokkurr kynni honum ráð til at leggja. Þá gekk til Hervarðr ok lagði litla stund til, áðr
+      Guðmundar var vænna. Þá tók maðr upp Tyrfing ok brá; þat sá Hervarðr ok þreif af honum sverðit
+      ok drap hann ok gekk út síðan. Menn vildu hlaupa eptir honum. Þá mælti Guðmundr: "Verið
+      kvirrir, ekki mun svá mikil hefnd í manninum sem þér <pb n="204"/> ætlið, því at þér vitið
+      ekki, hverr hann er; mun þessi kvenmaðr yðr dýrkeyptr, áðr þér fáið hans líf." Síðan var
+      Hervör langa stund í hernaði ok varð mjök sigrsæl. Ok er henni leiddist þat, fór hún heim til
+      jarls, móðurföður síns; fór hún þá fram sem aðrar meyjar, at vandist við borða ok hannyrðir.
+      Þetta spyrr Höfundr, sonr Guðmundar, ok ferr hann ok biðr Hervarar ok fær ok flytr heim.
+      Höfundr var manna vitrastr ok svá réttdæmr, at hann hallaði aldri rétum dómi, hvárt sem í hlut
+      áttu innlenzkir eða útlenzkir, ok af hans nafni skyldi sá höfundr heita í hverju ríki, er mál
+      manna dæmdi. Þau Hervör áttu tvá syni. Hét annarr Angantýr, en annarr Heiðrekr. Báðir váru
+      þeir miklir menn ok sterkir, vitrir ok vænir. Angantýr var líkr feðr sínum at skaplyndi ok
+      vildi hverjum manni gott. Höfundr unni honum mikit ok þar með öll alþýða. Ok svá margt gott
+      sem hann gerði, þá gerði Heiðrekr enn fleira illt. Hervör unni honum mikit. Fóstri Heiðreks
+      hét Gizurr. Ok einn tíma, er Höfundr gerði veizlu, var öllum höfðingjum til boðit í hans ríki
+      utan Heiðreki. Honum líkaði þat illa ok fór allt at einu ok kveðst skyldu gera þeim nokkut
+      illt. Ok er hann kom í höllina, stóð Angantýr upp móti honum ok bað hann sitja hjá sér.
+      Heiðrekr var ekki kátr ok sat lengi við drykkju um kveldit. En er Angantýr, bróðir hans, gekk
+      út, þá talaði Heiðrekr við þá menn, er honum váru næstir, ok kom hann svá sinni ræðu, at þeir
+      urðu rangsáttir, ok mælti hvárr illt við annan. Þá kom Angantýr aptr ok bað þá þegja. Ok enn í
+      annat sinn, er Angantýr var út genginn, þá minnti Heiðrekr þá á, hvat þeir höfðu við mælzt, ok
+      kom þá svá, at annarr sló annan með hnefa. Þá kom Angantýr til ok bað þá sátta vera til
+      morgins. Enn þriðja sinn, er Angantýr gekk í brott, <pb n="205"/> þá spurði Heiðrekr þann, er
+      höggit hafði fengit, hvárt hann þyrði eigi at hefna sín. Svá kom hann þá sinni fortölu, at inn
+      lostni hljóp upp ok drap sessunaut sinn, ok þá kom Angantýr at. En er Höfundr varð þessa varr,
+      bað hann Heiðrek burt ganga ok gera eigi fleira illt í þat sinn. Síðan gekk Heiðrekr út ok
+      Angantýr, bróðir hans, ok í garðinn ok skildust þar. Þá er Heiðrekr hafði litla hríð gengit
+      frá bænum, þá hugsaði hann, at hann hafði þar of lítit illt gert, snýr þá aptr til hallarinnar
+      ok tók upp stein einn mikinn ok kastaði þangat, sem hann heyrði menn nokkura talast við í
+      myrkrinu. Hann fann, at steinninn mundi eigi manninn misst hafa, ok gekk til ok fann mann
+      dauðan ok kenndi Angantý, bróður sinn. Heiðrekr gekk þá í höllina fyrir föður sinn ok segir
+      honum þetta. Höfundr kveðr hann skulu verða í brottu ok koma aldri honum í augsýn ok kvað hitt
+      makligra, at hann væri drepinn eða hengdr. Þá mælti Hervör drottning ok segir, at Heiðrekr
+      hefir illa til gert, enda er mikil hefndin, ef hann skal aldri koma í ríki föður síns ok fara
+      svá eignalauss í brott. En orð Höfundar stóðust svá mikils, at þat gekk fram, sem hann dæmdi,
+      ok engi var svá djarfr, at móti þyrði at mæla eða Heiðreki friðar at biðja. Drottning bað þá
+      Höfund ráða honum nokkur heilræði at skilnaði þeira. Höfundr kveðst fá ráð mundu honum kenna
+      ok kveðst hyggja, at honum mundi illa í hald koma. "En þó, er þú biðr þessa, drottning, þat
+      ræð ek honum it fyrsta ráð, at hann hjálpi aldri þeim manni, er drepit hefir lánardrottin
+      sinn. Þat ræð ek honum annat, at hann gefi þeim manni aldri fríun, er myrðan hefir félaga
+      sinn; þat it þriðja, at hann láti eigi opt konu sína vitja frænda sinna, þótt hún beiði þess;
+      þat it fjórða, at hann <pb n="206"/> sé eigi síð úti staddr hjá frillu sinni; þat it fimmta,
+      at hann ríði eigi inum bezta hesti sínum, ef hann þarf mjök at skynda; þat it sétta, at hann
+      fóstri aldri göfugra manns barn en hann er sjálfr. En meiri ván þykkir mér, at þú munir þetta
+      eigi hafa." Heiðrekr sagði, at hann hefði við illan hug ráðit, ok kvað sér mundu óskylt at
+      hafa. Gengr þá Heiðrekr út ór höllinni. Móðir hans stendr þá upp ok gengr út með honum ok
+      fylgir honum ór garðinum ok mælti: "Nú hefir þú svá fyrir þér búit, sonr minn, at þú munt ekki
+      aptr ætla; þá hefi ek lítil föng á at hjálpa þér. Mörk gulls er hér ok eitt sverð, er ek vil
+      gefa þér, en þat heitir Tyrfingr ok hefir átt Angantýr berserkr, móðurfaðir þinn. Engi maðr er
+      svá ófróðr, at eigi hafi heyrt hans getit. Ok ef þú kemr þar, er menn skiptast höggum, láttu
+      þér hugkvæmt vera, hversu Tyrfingr hefir opt sigrsæll verit." Nú biðr hún hann vel fara, ok
+      skiljast síðan. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> En er Heiðrekr hefir skamma hríð farit, þá hittir hann menn nokkura ok einn bundinn.
+      Spyrjast þeir tíðenda, ok spyrr Heiðrekr, hvat þessi maðr hefði gert, er svá var við búit.
+      Þeir segja, at hann hefir svikit lánardrottin sinn. Heiðrekr spyrr, ef þeir vili taka fé fyrir
+      hann, en þeir játa því. Hann fær þeim hálfa mörk gulls, en þeir láta hann lausan. Sá býðr
+      Heiðreki sína þjónustu, en hann segir: "Hví muntu mér heldr trúr, ókunnum manni, en þú sveikt
+      lánardrottin þinn, ok far þú brott frá mér." Litlu síðar hittir Heiðrekr enn nokkura menn ok
+      einn bundinn. Hann spyrr, hvat sá hefir rangt gert. Þeir segja hann hafa myrðan félaga <pb
+       n="207"/> sinn. Hann spyrr, ef þeir vildi fé fyrir hann. Þeir játa því. Hann gaf þeim aðra
+      hálfa mörk gulls. Sá býðr Heiðreki sína þjónustu, en hann neitar. Síðan ferr Heiðrekr langar
+      leiðar ok kemr þar, er hét Reiðgotaland. Þar réð fyrir konungr sá, er Haraldr hét, gamall
+      mjök, ok hafði átt mikit ríki til forráða. Hann átti engan son. En með því minnkaðist hans
+      ríki, at jarlar nokkurir fóru á hendr honum með her, en hann hafði barizt við þá ok fengit
+      jafnan ósigr. En nú höfðu þeir sætzt með því móti, at konungr galt þeim skatt á hverjum tólf
+      mánuðum. Heiðrekr nam þar staðar ok dvaldist með konungi um vetrinn. Svá bar at eitt sinn, at
+      til konungs kom mikit lausafé. Þá spyrr Heiðrekr, hvárt þat væri skattar konungs. Konungr
+      segir, at þat veit annan veg við: "Skal ek þetta fé gjalda í skatt." Heiðrekr segir, at þat
+      væri ósæmiligt, at konungr sá, er svá hefði haft mikit ríki, gyldi skatt vándum jörlum; væri
+      meira snjallræði at halda orrostu í mót þeim. Konungr segir, at hann hefði þess freistat ok
+      farit ósigr. Heiðrekr mælti: "Svá munda ek yðr mega helzt launa gott yfirlæti at vera
+      höfuðsmaðr þessar farar, ok þat hugða ek, ef ek hefða liðskost, at mér mundi ekki mikit þykkja
+      at berjast einn við tignari menn en þessir eru." Konungr segir: "Ek mun fá þér liðskost, ef þú
+      vilt berjast við jarla, ok mun þat vera þín gæfuför, ef þú ferr góða för; mest ván ok, at þú
+      finnir sjálfan þik fyrir, ef þú mælir þér dul." Eptir þat lætr konungr safna her miklum, ok
+      var þat lið búit til herferðar. Þar var Heiðrekr höfðingi fyrir liðinu, fóru síðan á hendr
+      jörlum þessum, herja þegar ok ræna, er þeir koma í ríki þeira. En er jarlar spyrja þetta, þá
+      fóru þeir í mót þeim með mikinn her, ok er þeir finnast, þá varð orrosta mikil. Var <pb
+       n="208"/> Heiðrekr þá í öndverðri fylking ok hafði Tyrfing í hægri hendi, en við því sverði
+      stóð ekki, hvárki hjálmr né brynja, ok drap hann þá alla, er honum váru næstir. Ok þá hljóp
+      hann fram ór fylkingu ok hjó til beggja handa, ok svá fór hann langt í herinn, at hann drap
+      báða jarla, ok síðan flýði sumt lið, en mestr hluti var drepinn. Heiðrekr fór þá yfir ríkit ok
+      skattaði allt landit undir Harald konung, sem fyrr hafði verit, ferr heim við svá búit með
+      ógrynni fjár ok mikinn sigr. Haraldr konungr lætr þá ganga í mót honum með mikilli sæmd ok
+      býðr honum með sér at vera ok hafa svá mikit ríki sem hann beiðist sjálfr. Þá bað Heiðrekr
+      dóttur Haralds konungs, er Helga hét, ok hún var honum gift. Tók þá Heiðrekr til forráða hálft
+      ríki Haralds konungs. Heiðrekr gat son við konu sinni. Sá hét Angantýr. Haraldr konungr gat
+      son í elli sinni, ok er sá ekki nefndr. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Í þann tíma kom hallæri mikit á Reiðgotaland, svá at til landauðnar þótti horfa. Þá váru
+      gervir hlutir af vísendamönnum ok felldr blótspánn til, en svá gekk frétt, at aldri mundi ár
+      koma fyrr á Reiðgotaland en þeim sveini væri blótat, er æðstr væri á landinu. Haraldr konungr
+      segir, at sonr Heiðreks væri æðstr, en Heiðrekr segir, at sonr Haralds konungs væri æðstr. En
+      ór þessu mátti engi leysa fyrr en þangat væri farit, er allar órlausnir váru trúar, til
+      Höfundar konungs. Heiðrekr er inn fyrsti maðr til þessar ferðar tekinn ok margir aðrir ágætir
+      menn. Sem Heiðrekr kom á fund föður síns, þá var honum þar vel fagnat. Hann sagði <pb n="209"
+      /> öll erendi sín föður sínum ok beiðir dóms af honum. En Höfundr segir svá, at Heiðreks sonr
+      var ágætastr á því landi. Heiðrekr segir: "Svá lízt mér sem þú dæmir minn son til dráps, eða
+      hvat dæmir þú mér þá fyrir sonarskaða minn?" Þá mælti Höfundr konungr: "Þú skalt beiðast, at
+      inn fjórði hverr maðr sé á þínu valdi, sá er við blótit er staddr, ella muntu son þinn eigi
+      láta til blóts. Mun þá eigi þurfa at kenna þér ráð síðan, hvat þú skalt at hafast." Nú er
+      Heiðrekr kom heim í Reiðgotaland, þá var þings kvatt. Heiðrekr tekr svá til orðs: "Þat var
+      atkvæði Höfundar konungs, föður míns, at minn sonr sé ágætastr á þessu landi, ok er hann til
+      blóts kosinn. En þar í mót vil ek eiga forráð á inum fjórða hverjum manni, er kominn er til
+      þings þessa ok vil ek þér lofið mér þetta." Nú var svá gert. Síðan heimtast þeir í lið hans.
+      Eptir þat lét hann blása saman liðinu ok setr upp merki, veitir nú atgöngu Haraldi konungi, ok
+      verðr þar mikill bardagi, ok fellr þar Haraldr konungr ok margt lið hans. Heiðrekr leggr nú
+      undir sik allt ríki þat, er átt hafði Haraldr konungr, ok gerðist þar konungr yfir. Heiðrekr
+      kveðst nú gjalda fyrir son sinn þetta lið allt, er drepit var, ok gaf hann nú þennan val Óðni.
+      Kona hans var svá reið eptir fall föður síns, at hún hengdi sik sjálf í dísarsal. Þat var eitt
+      sumar, at Heiðrekr konungr fór með her sinn suðr í Húnaland ok barðist við konung þann, er
+      Humli hét, ok fekk sigr ok tók þar dóttur hans, er Sifka hét, ok hafði heim með sér. En at
+      öðru sumri sendi hann hana heim,ok var hún þá með barni, ok var sá sveinn kallaðr Hlöðr ok var
+      allra manna fríðastr sýnum, ok fóstraði hann Humli, móðurfaðir hans. <pb n="210"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Á einu sumri fór Heiðrekr konungr með her sinn til Saxlands. En er Saxakonungr spyrr þat,
+      þá býðr hann honum til veizlu ok biðr hann taka af löndum sínum slíkt er hann vill, ok þat
+      þiggr Heiðrekr konungr. Þar sá hann dóttur hans, fríða ok fagra at áliti, ok þessar meyjar
+      biðr Heiðrekr, ok hún var honum gift. Var þá aukin veizlan, ok síðan fór hann heim með konu
+      sína ok tók með henni ógrynni fjár. Heiðrekr konungr gerðist nú hermaðr mikill ok eykr á marga
+      vega mjök sitt ríki. Kona hans beiðist opt at fara til föður síns, ok þat lét hann eptir
+      henni, ok fór með henni Angantýr, stjúpsonr hennar. Eitt sumar, er Heiðrekr konungr var í
+      hernaði, þá kemr hann til Saxlands í ríki mágs síns. Hann leggr skipum sínum í leynivág
+      nokkurn ok gengr á land ok einn maðr með honum, ok koma um nótt á konungsbæinn ok venda at
+      skemmu þeiri, er kona hans var vön at sofa í, ok urðu varðhaldsmenn ekki varir við kvámu
+      þeira. Hann gengr í skemmuna ok sér, at maðr hvíldi hjá henni ok hafði hár fagrt á höfði. Sá
+      maðr, er með konungi var, segir, at hann var hefnisamr um minni sakar. Hann svarar: "Eigi mun
+      ek þat gera nú." Konungr tók sveininn Angantý, er lá í annarri sæng, ok hann skar lepp mikinn
+      ór hári þess manns, er hvíldi í faðmi konu hans, ok hafði hvárttveggja með sér, hárleppinn ok
+      sveininn, gekk síðan til skipa sinna. Um morguninn leggr konungr í lægit, ok gengr í móti
+      honum allt fólkit, ok var þar veizla búin. Heiðrekr lætr þá þings kveðja, ok þá váru honum
+      sögð mikil tíðendi, at Angantýr, sonr hans, var bráðdauðr orðinn. Heiðrekr konungr mælti:
+      "Sýni mér <pb n="211"/> líkit." Drottning segir þat auka mundu harm hans. Honum var þó þangat
+      fylgt. Þar var dúkr, vafðr saman ok hundr innan í. Heiðrekr konungr mælti: "Illa hefir sonr
+      minn nú skipazt, ef hann er orðinn at hundi." Síðan lét konungr leiða sveininn á þingit ok
+      sagði, at hann hefði reynt mikil svik at drottningu, ok tjáði allan atburð, biðr þangat stefna
+      öllum mönnum, er sækja mætti þingit. Ok er mjök var alþýða komin, þá mælti konungr: "Eigi er
+      enn gullkárinn kominn." Þá var enn leitat, ok fannst maðr í steikara húsi ok band um höfuð.
+      Margir undruðust, hví hann skyldi til þings, þræll einn vándr. En er hann kom til þings, þá
+      mælti Heiðrekr konungr: "Hér megu þér nú þann sjá, er konungsdóttir vill eiga heldr en mik."
+      Hann tók nú leppinn ok bar við hárit, ok átti þat saman at fara. "En þú, konungr," segir
+      Heiðrekr, "hefir oss gott gert jafnan, ok skal af því ríki þitt standa í friði fyrir oss, en
+      dóttur þína vil ek eigi lengr eiga." Heiðrekr fór nú heim í ríki sitt ok sonr hans. Á einu
+      sumri sendir Heiðrekr konungr menn í Garðaríki þess erendis at bjóða syni Garðakonungs heim
+      til fóstrs ok vill nú reyna at brjóta öll heilræði föður síns. Sendimenn koma á fund
+      Garðakonungs ok segja honum erendit ok vináttumál. Garðakonungr kvað þess enga ván, at hann
+      fengi þeim manni í hendr son sinn, er kenndr er mörgum illum hlutum. Þá mælti drottning: "Mæl
+      þú eigi svá, herra; heyrt hafi þér, hvé mikill maðr hann er ok sigrsæll, ok er meiri vizka at
+      taka vel hans sóma, ella stendr eigi þitt ríki í friði." Konungr mælti: "Þú munt mikit á þessu
+      vinna." Nú er sveinninn seldr í hendr sendimönnum, ok fara þeir heim. Heiðrekr konungr tekr
+      vel við sveininum ok veitir honum góða uppfæðslu ok ann mikit. Sifka <pb n="212"/> Humladóttir
+      var þá í annat sinn með konungi, en honum var það ráðit, at hann skyldi engan hlut henni
+      segja, þann er leyna skyldi. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Eitt sumar sendir Garðakonungr Heiðreki orð, at hann kæmi austr þangat at þiggja veizlu ok
+      vináttuboð at honum. Heiðrekr býst nú með miklu fjölmenni ok konungssonr með honum ok Sifka.
+      Heiðrekr kom nú austr í Garðaríki ok tók þar ágæta veizlu. Einn dag þessarar veizlu fóru
+      konungar á skóg ok margt lið með þeim at beita hundum ok haukum. En er þeir höfðu lausum
+      slegit hundunum, fara sér hverir um skóginn. Þá urðu þeir tveir saman fóstrar. Þá mælti
+      Heiðrekr við konungsson: "Hlýð þú boði mínu, fóstri. Hér er bær skammt í frá. Farðu þangat ok
+      fel þik ok þigg til hring þenna. Vertu þá heim búinn, er ek læt sækja þik." Sveinninn kveðst
+      ófúss þessarar ferðar, en gerði þó sem konungr beiddi. Heiðrekr kom heim um kveldit ok var
+      ókátr ok sat skamma stund við drykkju. En er hann kom í sæng, mælti Sifka: "Hví eru þér
+      ókátir, herra, hvat er yðr, eru þér sjúkir, segið mér." Konungr segir: "Vandi er mér at segja
+      þetta, því at þar liggr við líf mitt, ef eigi er leynt." Hún kveðst leyna mundu ok gerist blíð
+      við hann ok fór eptir ástsamliga: Þá segir hann henni: "Vit konungssonr várum staddir tveir
+      hjá eik einni. Þá beiddist fóstri minn eplis, er ofarliga var á trénu. Síðan brá ek Tyrfingi,
+      ok hjó ek ofan eplit, ok var þat fyrr gert en ek gætta til, hvat á lá, at manns bani skyldi
+      verða, ef brugðit væri, en vit tveir til. Síðan drap ek sveininn." Um daginn <pb n="213"/>
+      eptir við drykkju spyrr drottning Garðakonungs Sifku, hví Heiðrekr væri svá ókátr. Hún segir:
+      "Ærit er til, hann hefir drepit son konungs ok þinn," segir síðan allan atburð. Drottning
+      segir: "Þat eru mikil tíðendi, ok látum eigi upp komast." Gekk þá drottning í burt þegar ór
+      höllinni með harmi miklum. Konungr finnr þetta ok kallar Sifku til sín ok mælti: "Hvat rædduzt
+      þit drottning við, er henni fekk svá mikils?" "Herra," segir hún, "mikit er til gert, Heiðrekr
+      hefir drepit son ykkarn, ok meiri ván, at eptir vilja hans færi, ok er hann dauða verðr."
+      Garðakonungr biðr taka Heiðrek ok fjötra, -- "ok er nú orðit eptir því, er ek gat til." En
+      Heiðrekr konungr var þar orðinn svá vinsæll, at þetta vildi engi gera. Þá stóðu tveir menn í
+      höllinni ok kváðu eigi skyldu þar við nema, ok lögðu þeir fjötur á hann. En þá menn hafði
+      Heiðrekr leyst frá dauða báða. Þá sendi Heiðrekr menn leyniliga eptir konungssyni. En
+      Garðakonungr lætr þá blása saman fólki sínu ok segir þeim, at hann vill láta Heiðrek festa á
+      gálga. Ok í því kemr konungssonr hlaupandi at föður sínum ok biðr hann eigi þat níðingsverk
+      fyrir ætlast at drepa inn ágætasta menn ok sinn fóstrföður. Heiðrekr er nú leystr, ok nú býst
+      hann þegar til heimferðar. Þá mælti drottning: "Herra, lát eigi Heiðrek svá í brott fara, at
+      þit séð ósáttir. Eigi gegnir ríki þínu þat. Bjóð honum heldr gull eða silfr." Konungr gerir
+      svá, lætr bera fé mikit til Heiðreks konungs ok kveðst vilja gefa honum ok eiga enn við hann
+      vingan. Heiðrekr segir: "Ekki skortir mik fé." Garðakonungr segir drottningu. Hún mælti: "Bjóð
+      honum þá ríki ok eigur stórar ok fjölmenni." Konungr gerir svá. Heiðrekr konungr segir: "Ærnar
+      á ek eigur ok fjölmenni." <pb n="214"/> Garðakonungr segir enn drottningu. Hún mælti: "Bjóð
+      honum þat þá, sem hann mun þiggja, en þat er dóttir þín." Konungr segir: "Þat hugða ek, at mik
+      mundi eigi þat henda, en þó skaltu ráða." Þá fór Garðakonungr á fund Heiðreks konungs ok
+      mælti: "Heldr en vit skiljum ósáttir, vil ek, at þú fáir dóttur minnar með svá miklum sóma sem
+      þú kýss sjálfr." Heiðrekr þiggr nú þetta blíðliga, ok fór nú dóttir Garðakonungs heim með
+      honum. Nú er Heiðrekr konungr heim kominn ok vill nú flytja Sifku í brott ok lætr taka hest
+      sinn inn bezta, ok var þat síð um kveld. Nú koma þau at á einni. Þá þyngist hún fyrir honum,
+      svá at hestrinn sprakk, en konungr gekk af fram. Þá skyldi hann bera hana yfir ána. Þá gerast
+      engi föng á öðru en hann steypir henni af öxl sér ok brýtr í sundr hrygg hennar ok skilr svá
+      við hana, at hana rekr dauða eptir ánni. Heiðrekr konungr lætr þá efna til veizlu mikillar ok
+      gengr at eiga dóttur Garðakonungs. Dóttir þeira hét Hervör. Hún var skjaldmær ok fæddist upp í
+      Englandi með Fróðmari jarli. Heiðrekr konungr sezt nú um kyrrt ok gerist höfðingi mikill ok
+      spekingr at viti. Heiðrekr konungr lét ala gölt mikinn. Hann var svá mikill sem öldungar þeir,
+      er stærstir váru, ok svá fagr, at hvert hár þótti ór gulli vera. Konungrinn leggr hönd sína á
+      höfuð geltinum, en aðra á burst ok sverr þess, at aldri hefir maðr svá mikit af gert við hann,
+      at eigi skuli hann hafa réttan dóm spekinga hans, en þeir tólf skulu gæta galtarins, eða ella
+      skal hann bera upp gátur þær, er hann gæti eigi ráðit. Heiðrekr konungr gerist ok nú inn
+      vinsælasti. <pb n="215"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Maðr hét Gestumblindi, ríkr ok mikill óvinr Heiðreks konungs. Konungr sendi honum orð, at
+      hann kæmi á fund hans at sættast við hann, ef hann vill halda lífinu. Gestumblindi var ekki
+      spekingr mikill, ok fyrir þá sök, at hann veit sik vanfæran til at skipta orðum við konunginn,
+      hann veit ok, at þungt mun vera at hlíta dómi spekinganna, því at sakir eru nógar, þat ráð
+      tekur Gestumblindi, at hann blótar Óðin til fulltings sér ok biðr hann líta á sitt mál ok
+      heitr honum miklum gæðum. Eitt kveld er þar drepit á dyrr síðla, ok gengr Gestumblindi til
+      hurðar ok sér mann kominn. Hann spyrr þann at nafni, en hann nefndist Gestumblindi ok mælti,
+      at þeir skyldu klæðum skipta, ok svá gera þeir. Bóndi ferr nú í brott ok felr sik, en
+      komandinn gengr inn, ok þykkjast allir þar kenna Gestumblinda, ok líðr af nóttin. Um daginn
+      eptir gerir sjá Gestumblindi för sína á fund konungs, ok hann kvaddi vel konunginn. Konungr
+      þagði. "Herra," segir hann, "því kom ek hingat, at ek vil við yðr sættast." Þá svarar konungr:
+      "Viltu þola dóm spekinga minna?" Hann segir: "Er ekki fleiri undanlausnir?" Konungr mælti:
+      "Vera skulu fleiri, ef þú þykkist til færr at bera upp gátur." Gestumblindi segir: "Lítt mun
+      ek til þess færr, enda mun harðr á annat borð þykkja." "Viltu," segir konungr, "heldr þola dóm
+      spekinga minna?" "Þat kýs ek," segir hann, "at bera fyrr upp gáturnar." "Þat er rétt ok vel
+      fallit," segir konungr. Þá mælti Gestumblindi: <pb n="216"/>
+      <lg>
+       <l>"Hafa vildak</l>
+       <l>þat er ek hafða í gær,</l>
+       <l>vittu, hvat þat var:</l>
+       <l>Lýða lemill,</l>
+       <l>orða tefill</l>
+       <l>ok orða upphefill.</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> Konungr segir: "Góð er gáta þín, Gestumblindi, getit er þessar. Færi honum mungát. Þat
+      lemr margra vit, ok margir eru þá margmálgari, er mungát ferr á, en sumum vefst tungan, svá at
+      ekki verðr at orði." Þá mælti Gestumblindi: <lg>
+       <l>"Heiman ek fór,</l>
+       <l>heiman ek för gerða,</l>
+       <l>sá ek á veg vega;</l>
+       <l>var þeim vegr undir</l>
+       <l>ok vegr yfir</l>
+       <l>ok vegr á alla vega.</l>
+       <l>Heiðrekr konungr</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þar fórtu yfir árbrú, ok var árvegr
+      undir þér, en fuglar flugu yfir höfði þér ok hjá þér tveim megin, ok var þat þeira vegr." Þá
+      mælti Gestumblindi: <lg>
+       <l>"Hvat er þat drykki,</l>
+       <l>er ek drakk í gær,</l>
+       <l>varat þat vín né vatn</l>
+       <l>né in heldr mungát</l>
+       <l>né matar ekki,</l>
+       <l>ok gekk ek þorstalauss þaðan?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. <pb n="217"/> Þar lagðist þú í forsælu,
+      er dögg var fallin á grasi, ok kældir svá varir þínar ok stöðvaðir svá þorsta þinn." Þá mælti
+      Gestumblindi: <lg>
+       <l>"Hverr er sá inn hvelli,</l>
+       <l>er gengr harðar götur</l>
+       <l>ok hefir hann þær fyrr of farit,</l>
+       <l>mjök fast kyssir,</l>
+       <l>sá er hefir munna tvá</l>
+       <l>ok á gulli einu gengr?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat er hamarr sá, er hafðr er at
+      gullsmíð; hann kveðr hátt við, er hann kemr á harðan steðja, ok þat er hans gata." Þá mælti
+      Gestumblindi: <lg>
+       <l>"Hvat er þat undra,</l>
+       <l>er ek úti sá</l>
+       <l>fyr Dellings durum;</l>
+       <l>ókvikvir tveir</l>
+       <l>andalausir</l>
+       <l>sáralauk suðu?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat eru smiðbelgir; þeir hafa engan
+      vind, nema þeim sé blásit ok eru þeir dauðir sem annat smíði, en fyrir þeim má líkt smíða
+      sverð sem annat." Þá mælti Gestumblindi: <lg>
+       <l>"Hvat er þat undra,</l>
+       <l>er ek úti sá</l>
+       <l>fyr Dellings durum;</l>
+       <l>fætr hefir átta,</l>
+       <l>en fjögur augu</l>
+       <l>ok berr ofar kné en kvið?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg>
+      <pb n="218"/> "Þat er köngurváfur." Þá mælti Gestumblindi: <lg>
+       <l>"Hvat er þat undra,</l>
+       <l>er ek úti sá</l>
+       <l>fyr Dellings durum;</l>
+       <l>höfði sínu vísar</l>
+       <l>á helvega,</l>
+       <l>en fótum til sólar snýr?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat er laukr. Höfuð hans er fast í
+      jörðu, en hann kvíslar, er hann vex upp." Þá mælti Gestumblindi: <lg>
+       <l>"Hvat er þat undra,</l>
+       <l>er ek úti sá</l>
+       <l>fyr Dellings durum;</l>
+       <l>horni harðara,</l>
+       <l>hrafni svartara,</l>
+       <l>skildi hvítara,</l>
+       <l>skapti réttara?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> Heiðrekr mælti: "Smækkast nú gáturnar, Gestumblindi, hvat þarf lengr yfir þessu at
+      sitja? Þat er hrafntinna, ok skein á hana sólargeisli." Þá mælti Gestumblindi: <lg>
+       <l>"Báru brúðir</l>
+       <l>bleikhaddaðar</l>
+       <l>ambáttir tvær</l>
+       <l>öl til skemmu;</l>
+       <l>varat þat höndum horfit</l>
+       <l>né hamri at klappat,</l>
+       <l>þó var fyrir eyjar utan</l>
+       <l>örðigr sá, er gerði.</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg>
+      <pb n="219"/> "Góð er gáta þín, Gestumblindi, getit er þessar. Þar fara svanbrúðir til hreiðrs
+      síns ok verpa eggjum; skurm á eggi er eigi höndum gert né hamri klappat, en svanr er fyrir
+      eyjar utan örðigr, sá er þær gátu eggin við." Þá mælti Gestumblindi: <lg>
+       <l>"Hverjar eru þær rýgjar</l>
+       <l>á reginfjalli,</l>
+       <l>elr við kván kona,</l>
+       <l>þar til er mög of getr,</l>
+       <l>ok eigut þær varðir vera?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat eru hvannir tvær ok hvannarkálfr á
+      milli þeira." Þá mælti Gestumblindi: <lg>
+       <l>"Fara ek sá</l>
+       <l>foldar moldbúa,</l>
+       <l>á sat naðr á nái;</l>
+       <l>blindr reið blindum</l>
+       <l>brimreiðar til,</l>
+       <l>þá jór var andar vanr.</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þar fanntu hest dauðan á ísjaka ok orm
+      dauðan á hestinum, ok rak þat allt saman eptir ánni." Þá mælti Gestumblindi: <lg>
+       <l>"Hverir eru þeir þegnar,</l>
+       <l>er ríða þingi at</l>
+       <l>sáttir allir saman;</l>
+       <l>lýða sína</l>
+       <l>senda þeir lönd yfir</l>
+       <l>at byggja bólstaði?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg>
+      <pb n="220"/> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat er Ítrekr ok Andaðr, er
+      þeir sitja at tafli sínu." Þá mælti Gestumblindi: <lg>
+       <l>"Hverjar eru þær brúðir,</l>
+       <l>er sinn drottin</l>
+       <l>vápnlausan vega;</l>
+       <l>inar jarpari hlífa</l>
+       <l>um alla daga,</l>
+       <l>en inar fegri fara?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat er hnettafl; inar dekkri verja
+      hnefann, en hvítar sækja." Þá mælti Gestumblindi: <lg>
+       <l>"Hverr er sá inn eini,</l>
+       <l>er sefr í ösgrúa</l>
+       <l>ok af grjóti einu gerr;</l>
+       <l>föður né móður</l>
+       <l>á sá inn fagrgjarni,</l>
+       <l>þar mun hann sinn aldr ala?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Þat er eldr fólginn á arni, ok tekr ór tinnu." Þá mælti Gestumblindi: <lg>
+       <l>"Hverr er sá inn mikli,</l>
+       <l>er líðr mold yfir,</l>
+       <l>svelgr hann vötn ok við;</l>
+       <l>glygg hann óast,</l>
+       <l>en gumna eigi</l>
+       <l>ok yrkir á sól til saka?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat er myrkvi; hann líðr yfir jörðina,
+      svá at ekki sér fyrir honum ok eigi sól, en hann er af, þegar vind gerir á." <pb n="221"/> Þá
+      mælti Gestumblindi: <lg>
+       <l>"Hvat er þat dýra,</l>
+       <l>er drepr fé manna</l>
+       <l>ok er járni kringt utan;</l>
+       <l>horn hefir átta,</l>
+       <l>en höfuð ekki,</l>
+       <l>ok fylgja því margir mjök?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Þat er húnn í hnettafli." Þá mælti Gestumblindi: <lg>
+       <l>"Hvat er þat dýra,</l>
+       <l>er Dönum hlífir,</l>
+       <l>berr blóðugt bak,</l>
+       <l>en bergr firum,</l>
+       <l>geirum mætir,</l>
+       <l>gefr líf sumum,</l>
+       <l>leggr við lófa</l>
+       <l>lík sitt guma?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Þat er skjöldr; hann verðr opt blóðugr í bardögum ok hlífir vel þeim mönnum, er
+      skjaldfimir eru." Þá mælti Gestumblindi: <lg>
+       <l>"Hverjar eru þær leikur,</l>
+       <l>er líða lönd yfir</l>
+       <l>at forvitni föður,</l>
+       <l>hvítan skjöld</l>
+       <l>þær of vetr bera,</l>
+       <l>en svartan of sumar?"</l>
+      </lg> "Þat eru rjúpur; þær eru hvítar um vetr, en svartar um sumar." Þá mælti Gestumblindi: <lg>
+       <l>"Hverjar eru þær snótir,</l>
+       <l>er ganga syrgjandi</l>
+       <l>at forvitni föður;</l>
+       <pb n="222"/>
+
+       <l>mörgum mönnum</l>
+       <l>hafa þær at meini orðit,</l>
+       <l>við þat munu þær aldr ala?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Þat eru Hlés brúðir, er svá heita." Þá mælti Gestumblindi: <lg>
+       <l>"Hverjar eru þær meyjar,</l>
+       <l>er ganga margar saman</l>
+       <l>at forvitni föður;</l>
+       <l>hadda bleika</l>
+       <l>hafa þær, inar hvítfölduðu,</l>
+       <l>ok eigut þær varðir vera?"</l>
+      </lg> "Þat eru bylgjur, er svá heita." Þá mælti Gestumblindi: <lg>
+       <l>"Hverjar eru þær ekkjur,</l>
+       <l>er ganga allar saman</l>
+       <l>at forvitni föður;</l>
+       <l>sjaldan blíðar</l>
+       <l>eru þær við seggja lið</l>
+       <l>ok eigu þær í vindi vaka?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Þat eru Ægis ekkjur, svá heita öldur." Þá mælti Gestumblindi: <lg>
+       <l>"Mjök var forðum</l>
+       <l>nösgás vaxin,</l>
+       <l>barngjörn sú er bar</l>
+       <l>bútimbr saman;</l>
+       <l>hlífðu henni</l>
+       <l>hálms bitskálmir,</l>
+       <l>þó lá drykkjar</l>
+       <l>drynhraun yfir."</l>
+      </lg> "Þar hafði önd búit hreiðr sitt í milli nautskjálka, ok lá haussinn ofan yfir." Þá mælti
+      Gestumblindi: <pb n="223"/>
+      <lg>
+       <l>"Hverr er sá inn mikli,</l>
+       <l>er mörgu ræðr</l>
+       <l>ok horfir til heljar hálfr;</l>
+       <l>höldum bergr</l>
+       <l>ok við jörð sakast,</l>
+       <l>ef hann hefir sér vel traustan vin?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat er akkeri með góðum streng; ef
+      fleinn hans er í grunni, þá bergr þat." Þá mælti Gestumblindi: <lg>
+       <l>"Hverjar eru þær brúðir,</l>
+       <l>er ganga í brimskerjum</l>
+       <l>ok eiga eptir firði för;</l>
+       <l>harðan beð hafa þær</l>
+       <l>inar hvítfölduðu konur</l>
+       <l>ok leika í logni fátt."</l>
+      </lg> "Þat eru bárur, en beðir þeira eru sker ok urðir, en þær verða lítt sénar í logni." Þá
+      mælti Gestumblindi: <lg>
+       <l>"Sá ek á sumri</l>
+       <l>sólbjörgum á,</l>
+       <l>bað ek vel lifa</l>
+       <l>vilgi teiti,</l>
+       <l>drukku jarlar</l>
+       <l>öl þegjandi,</l>
+       <l>en æpanda</l>
+       <l>ölker stóð.</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Þar drukku grísir gylti, en hún hrein við." Þá mælti Gestumblindi: <lg>
+       <l>"Hvat er þat undra,</l>
+       <l>er ek úti sá</l>
+       <l>fyrir Dellings durum;</l>
+       <l>tíu hefir tungur,</l>
+       <pb n="224"/>
+
+       <l>tuttugu augu,</l>
+       <l>fjóra tigu fóta,</l>
+       <l>fram líðr sú vættr?</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> Konungr mælti þá: "Ef þú ert sá Gestumblindi, sem ek hugða, þá ertu vitrari en ek
+      ætlaða. En frá gyltinni segir þú nú úti í garðinum." Þá lét konungr drepa gyltina, ok hafði
+      hún níu grísi, sem Gestumblindi sagði. Nú grunar konung, hverr maðrinn mun vera. Þá mælti
+      Gestumblindi: <lg>
+       <l>"Fjórir hanga,</l>
+       <l>fjórir ganga,</l>
+       <l>tveir veg vísa,</l>
+       <l>tveir hundum varða,</l>
+       <l>einn eptir drallar</l>
+       <l>ok jafnan heldr saurugr.</l>
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Góð er gáta þín, Gestumblindi, getit er þessar. Þat er kýr." Þá mælti Gestumblindi: <lg>
+       <l>"Sat ek á segli,</l>
+       <l>sá ek dauða menn</l>
+       <l>blóðugt hold bera</l>
+       <l>í börk viðar."</l>
+      </lg> "Þar saztu á vegg ok sátt val bera æði í hamra." Þá mælti Gestumblindi: <lg>
+       <l>"Hverir eru þeir tveir,</l>
+       <l>er tíu hafa fætr,</l>
+       <l>augu þrjú</l>
+       <l>ok einn hala?</l>
+       <pb n="225"/>
+
+       <l>Heiðrekr konungr,</l>
+       <l>hyggðu at gátu."</l>
+      </lg> "Þat er þá, er Óðinn ríðr Sleipni." Þá mælti Gestumblindi: <lg>
+       <l>"Segðu þat þá hinzt,</l>
+       <l>ef þú ert hverjum konungi vitrari:</l>
+       <l>Hvat mælti Óðinn</l>
+       <l>í eyra Baldri,</l>
+       <l>áðr hann væri á bál hafiðr?"</l>
+      </lg> Heiðrekr konungr segir: "Þat veiztu einn, rög vættr." Ok þá bregðr Heiðrekr Tyrfingi ok
+      höggr til hans, en Óðinn brást þá í valslíki ok fló á brott. En konungr hjó eptir ok af honum
+      vélifiðrit aptan, ok því er valr svá vélistuttr ávallt síðan. Óðinn mælti þá: "Fyrir þat,
+      Heiðrekr konungr, er þú rétt til mín ok vildir drepa mik saklausan, skulu þér inir verstu
+      þrælar at bana verða." Eptir þat skilr með þeim. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> Þat er sagt, at Heiðrekr konungr átti þræla nokkura, þá er hann hafði tekit í vestrvíking.
+      Þeir váru níu saman. Þeir váru af stórum ættum ok kunnu illa ófrelsi sínu. Þat var á einni
+      nótt, þá er Heiðrekr konungr lá í svefnstofu sinni ok fátt manna hjá honum, þá tóku þrælarnir
+      sér vápn ok gengu fyrir konungs herbergi ok drápu fyrst útvörðuna. Því næst gengu þeir at ok
+      brutu upp konungs herbergit ok drápu þar Heiðrek konung ok alla þá, er inni váru. Þeir tóku
+      sverðit Tyrfing ok allt fé þat, er inni var, ok höfðu á brott með sér, ok engi vissi fyrst,
+      hverir þetta höfðu gert eða <pb n="226"/> hvert hefnda skyldi leita. Þá lét Angantýr, sonr
+      Heiðreks konungs, kveðja þings, ok á því þingi var hann til konungs tekinn yfir öll þau ríki,
+      er Heiðrekr konungr hafði átt. Á þessu þingi strengdi hann heit, at aldri skyldi hann fyrr
+      setjast í hásæti föður síns en hann hefði hefnt hans. Litlu eptir þingit hverfr Angantýr á
+      brott einn saman ok ferr víða at leita þessa manna. Eitt kveld gengr hann ofan til sjávar með
+      á þeiri, er Grafá hét. Þar sá hann þrjá menn á fiskibát, ok því næst sá hann, at maðr dró fisk
+      ok kallar, at annarr skyldi fá honum agnsaxit at höfða fiskinn, en sá kveðst eigi laust mega
+      láta. Hinn mælti: "Taktu sverðit undan höfðafjölinni ok fá mér," en sá tók ok brá ok sneið
+      höfuð af fiskinum, ok þá kvað hann vísu: <lg>
+       <l>"Þess galt hún gedda</l>
+       <l>fyr Grafár ósi,</l>
+       <l>er Heiðrekr var veginn</l>
+       <l>und Harvaða fjöllum."</l>
+      </lg> Angantýr kenndi þegar Tyrfing. Gekk hann þá brott í skóg ok dvaldist þar, til þess er
+      myrkt var. En þessir fiskimenn reru at landi ok fara til tjalds þess, er þeir áttu, ok lögðust
+      til svefns. En nær miðri nótt kom Angantýr þar ok felldi á þá tjaldit ok drap þá alla níu
+      þræla, en tók sverðit Tyrfing, ok var þat þá til marks, at hann hafði hefnt föður síns. Ferr
+      Angantýr nú heim. Því næst lætr Angantýr gera veizlu mikla á Danparstöðum á þeim bæ, er
+      Árheimar heita, at erfa föður sinn. Þá réðu þessir konungar löndum, er hér segir: <lg>
+       <l>"Ár kváðu Humla</l>
+       <l>Húnum ráða,</l>
+       <l>Gizur Gautum,</l>
+       <l>Gotum Angantý,</l>
+       <pb n="227"/>
+
+       <l>Valdar Dönum,</l>
+       <l>en Völum Kjár,</l>
+       <l>Alrekr inn frækni</l>
+       <l>enskri þjóðu."</l>
+      </lg> Hlöðr, sonr Heiðreks konungs, fæddist upp með Humla konungi, móðurföður sínum, ok var
+      allra manna fríðastr sýnum ok drengiligastr. En þat var fornt mál þann tíma, at maðr væri
+      borinn með vápnum eða hestum. En þat var til þess haft, at þat var mælt um þau vápn, er þá
+      váru ger þann tíma, at maðrinn var fæddr, svá ok fé, kykvendi, yxn eða hestar, ef þat var þá
+      fætt, ok var þat allt fært saman til virðingar tignum mönnum, sem hér segir um Hlöð
+      Heiðreksson: <lg>
+       <l>"Hlöðr var þar borinn</l>
+       <l>í Húnalandi</l>
+       <l>saxi ok með sverði,</l>
+       <l>síðri brynju,</l>
+       <l>hjálmi hringreifðum,</l>
+       <l>hvössum mæki,</l>
+       <l>mari vel tömum</l>
+       <l>á mörk inni helgu."</l>
+      </lg> Nú spyrr Hlöðr fráfall föður síns ok þat með, at Angantýr, bróðir hans, var til konungs
+      tekinn yfir allt þat ríki, sem faðir þeira hafði átt. Nú vilja þeir Humli konungr ok Hlöðr, at
+      hann fari at krefja arfs Angantý, bróður sinn, fyrst með góðum orðum, sem hér segir: <lg>
+       <l>"Hlöðr reið austan,</l>
+       <l>Heiðreks arfi,</l>
+       <l>kom hann at garði,</l>
+       <l>þar er Gotar byggja,</l>
+       <l>á Árheima</l>
+       <l>arfs at kveðja,</l>
+       <l>þar drakk Angantýr</l>
+       <l>erfi Heiðreks."</l>
+      </lg>
+      <pb n="228"/> Nú kom Hlöðr í Árheima með miklu liði, sem hér segir: <lg>
+       <l>Segg fann hann úti</l>
+       <l>fyr sal hávum</l>
+       <l>ok síðförlan</l>
+       <l>síðan kvaddi:</l>
+       <l>"Inn gakktu, seggr,</l>
+       <l>í sal hávan,</l>
+       <l>bið mér Angantý</l>
+       <l>andspjöll bera."</l>
+      </lg> Sá gekk inn fyrir konungsborð ok kvaddi Angantý konung vel ok mælti síðan: <lg>
+       <l>"Hér er Hlöðr kominn,</l>
+       <l>Heiðreks arfþegi,</l>
+       <l>bróðir þinn</l>
+       <l>inn böðskái;</l>
+       <l>mikill er sá maðr ungr</l>
+       <l>á mars baki,</l>
+       <l>vill nú, þjóðann,</l>
+       <l>við þik tala."</l>
+      </lg> En er konungr heyrði þetta, þá varpaði hann knífinum á borðit, en sté undan borðinu ok
+      steypti yfir sik brynju ok hvítan skjöld í hönd, en sverðit Tyrfing í aðra hönd. Þá gerðist
+      gnýr mikill í höllinni, sem hér segir: <lg>
+       <l>"Rymr var í ranni,</l>
+       <l>risu með góðum,</l>
+       <l>vildi hverr heyra,</l>
+       <l>hvat Hlöðr mælti</l>
+       <l>ok þat, er Angantýr</l>
+       <l>andsvör veitti."</l>
+      </lg> Þá mælti Angantýr: "Vel þú kominn, Hlöðr bróðir, gakk inn með oss til drykkju, ok
+      drekkum mjöð eptir föður okkarn fyrst til sama ok öllum oss til vegs með öllum <pb n="229"/>
+      várum sóma." Hlöðr segir: "Til annars fóru vér hingat en at kýla vömb vára." Þá kvað Hlöðr: <lg>
+       <l>"Hafa vil ek hálft allt,</l>
+       <l>þat er Heiðrekr átti,</l>
+       <l>al ok af oddi,</l>
+       <l>einum skatti,</l>
+       <l>kú ok af kálfi,</l>
+       <l>kvern þjótandi;</l>
+       <l>þý ok af þræli</l>
+       <l>ok þeira barni.</l>
+       <l>Hrís þat it mæra,</l>
+       <l>er Myrkviðir heita,</l>
+       <l>gröf þá ina helgu,</l>
+       <l>er stendr á götu þjóðar;</l>
+       <l>stein þann inn mæra,</l>
+       <l>er stendr á stöðum Danpar,</l>
+       <l>hálfar herváðir,</l>
+       <l>þær er Heiðrekr átti,</l>
+       <l>lönd ok lýða</l>
+       <l>ok ljósa bauga."</l>
+      </lg> Þá segir Angantýr: "Eigi ertu til lands þessa kominn með lögum, ok rangt viltu bjóða."
+      Þá kvað Angantýr: <lg>
+       <l>"Bresta mun fyrr, bróðir,</l>
+       <l>in blikhvíta lind</l>
+       <l>ok kaldr geirr</l>
+       <l>koma við annan</l>
+       <l>ok margr gumi</l>
+       <l>í gras hníga</l>
+       <l>en ek mun Humlung</l>
+       <l>hálfan láta</l>
+       <l>eða Tyrfing</l>
+       <l>í tvau deila."</l>
+      </lg> Ok enn kvað Angantýr: <lg>
+       <l>"Ek mun bjóða þér</l>
+       <l>bjartar vigrar,</l>
+       <l>fé ok fjölð meiðma,</l>
+       <pb n="230"/>
+
+       <l>sem þik fremst tíðir;</l>
+       <l>tólf hundruð gef ek þér manna,</l>
+       <l>tólf hundruð gef ek þér mara,</l>
+       <l>tólf hundruð gef ek þér skálka,</l>
+       <l>þeira er skjöld bera.</l>
+       <l>Manni gef ek hverjum</l>
+       <l>margt at þiggja,</l>
+       <l>annat æðra</l>
+       <l>en hann á ráði;</l>
+       <l>mey gef ek hverjum</l>
+       <l>manni at þiggja,</l>
+       <l>men spenni ek hverri</l>
+       <l>meyju at hálsi.</l>
+       <l>Mun ek um þik sitjanda</l>
+       <l>silfri mæla,</l>
+       <l>en ganganda þik</l>
+       <l>gulli steypa,</l>
+       <l>svát á vega alla</l>
+       <l>velti baugar;</l>
+       <l>þriðjung Goðþjóðar,</l>
+       <l>því skaltu einn ráða."</l>
+      </lg>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="12">
+     <p> Gizurr Grýtingaliði, fóstri Heiðreks konungs, var þá með Angantý konungi ok var þá
+      ofrgamall. Ok er hann heyrði boð Angantýs, þótti honum hann of mikit bjóða ok kvað þá: <lg>
+       <l>"Þetta er þiggjanda</l>
+       <l>þýjar barni,</l>
+       <l>barni þýjar,</l>
+       <l>þótt sé borinn konungr;</l>
+       <l>þá hornungr</l>
+       <l>á haugi sat,</l>
+       <l>er öðlingr</l>
+       <l>arfi skipti."</l>
+      </lg>
+      <pb n="231"/> Hlöðr reiddist nú mjök, er hann var þýbarn ok hornungr kallaðr, ef hann þægi boð
+      bróður síns, ok sneri hann þá þegar í brott með alla sína menn, til þess er hann kom heim í
+      Húnaland til Humla konungs, frænda síns, ok sagði honum, at Angantýr, bróðir hans, hefði eigi
+      unnt honum helmingaskiptis. Humli spyrr nú allt tal þeira; varð hann þá reiðr mjök, ef Hlöðr,
+      dóttursonr hans, skyldi ambáttarsonr heita, ok kvað þá: <lg>
+       <l>"Sitja skulum í vetr</l>
+       <l>ok sælliga lifa,</l>
+       <l>drekka ok dæma</l>
+       <l>dýrar veigar;</l>
+       <l>kenna Húnum</l>
+       <l>hervápn búa,</l>
+       <l>þau er fræknliga</l>
+       <l>skulum fram bera."</l>
+      </lg> Ok enn kvað hann: <lg>
+       <l>"Vel skulum þér, Hlöðr,</l>
+       <l>herlið búa</l>
+       <l>ok framliga</l>
+       <l>fylki týja</l>
+       <l>með tólf vetra mengi</l>
+       <l>ok tvævetrum fola,</l>
+       <l>svá skal Húna</l>
+       <l>her of samna."</l>
+      </lg> Þenna vetr sátu þeir Humli ok Hlöðr um kyrrt. Um várit drógu þeir her saman svá mikinn,
+      at aleyða var eptir vígra manna í Húnalandi. Allir menn fóru tólf vetra ok ellri, þeir er
+      herfærir váru at vápnum, ok hestar þeira allir fóru tvævetrir ok ellri. Varð svá mikill fjöldi
+      manna þeira, at þúsundum mátti telja, en eigi færi en þúsundir í fylkingar. En höfðingi var
+      settr yfir þúsund hverja, en merki yfir fylking hverja, en fimm þúsundir í hverri fylking,
+      þeira er þrettán <pb n="232"/> hundruð váru í hverri, en hvert hundrað fernir fjórir tigir, en
+      þessar fylkingar váru þrjár ok þrír tigir. Sem þessi herr kom saman, riðu þeir skóg þann, er
+      Myrkviðr heitir, er skilr Húnaland ok Gotaland. En sem þeir kómu af skóginum, þá váru byggðir
+      stórar ok vellir sléttir, ok á völlunum stóð borg ein fögr. En þar réð fyrir Hervör, systir
+      Angantýs konungs, ok Ormarr, fóstri hennar; varu þau sett þar til landgæzlu fyrir her Húna, ok
+      höfðu þau þar mikit lið. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="13">
+     <p> Þat var einn morgun í sólarupprás, at Hervör stóð upp á kastala einum yfir borgarhliði. Hún
+      sá jóreyki stóra suðr til skógarins, svá at löngum fal sólina. Því næst sá hún glóa undir
+      jóreyknum, sem á gull eitt liti, fagra skjöldu ok gulli lagða, gyllta hjálma ok hvítar
+      brynjur. Sá hún þá, at þetta var herr Húna ok mikill fjöldi. Hervör gekk ofan skyndiliga ok
+      kallar lúðrsvein ok bað blása saman lið. Ok síðan mælti Hervör: "Takið vápn yður ok búizt til
+      orrostu, en þú, Ormarr, ríð í mót Húnum ok bjóð þeim orrostu fyrir borgarhliði inu syðra.
+      Ormarr kvað: <lg>
+       <l>"Skal ek víst ríða</l>
+       <l>ok rönd bera,</l>
+       <l>Gota þjóðum</l>
+       <l>gunni heyja."</l>
+      </lg> Þá reið Ormarr af borginni ok í mót hernum. Hann kallaði hátt ok bað þá ríða til
+      borgarinnar, -- "ok úti fyrir borgarhliðinu suðr á völlunum þar býð ek yðr til orrostu; bíði
+      þeir þar annarra, er fyrr koma." Nú reið Ormarr aptr til borgarinnar, ok var þá Hervör <pb
+       n="233"/> albúin ok allr herr. Riðu þau nú út af borginni með hernum móti Húnum, ok hófst þar
+      allmikil orrosta. En með því at Húnar hafa lið miklu meira, sneri mannfallinu í lið þeira
+      Hervarar, ok um síðir fell Hervör ok mikit lið umhverfis hana. En er Ormarr sá fall hennar,
+      flýði hann ok allir þeir, er lífit þágu. Ormarr reið dag ok nótt, sem mest mátti hann, á fund
+      Angantýs konungs í Árheima. Húnar taka nú at herja um landit víða ok brenna. Og sem Ormarr kom
+      fyrir Angantý konung, þá kvað hann: <lg>
+       <l>"Sunnan em ek kominn</l>
+       <l>at segja spjöll þessi:</l>
+       <l>sviðin er öll mörk</l>
+       <l>ok Myrkviðar heiðr,</l>
+       <l>drifin öll Goðþjóð</l>
+       <l>gumna blóði."</l>
+      </lg> Ok enn kvað hann: <lg>
+       <l>"Mey veit ek Heiðreks,</l>
+       <l>systur þína,</l>
+       <l>svigna til jarðar;</l>
+       <l>hafa Húnar</l>
+       <l>hana fellda</l>
+       <l>ok marga aðra</l>
+       <l>yðra þegna.</l>
+       <l>Léttari gerðist hún at böð</l>
+       <l>en við biðil ræða</l>
+       <l>eða í bekk at fara</l>
+       <l>at brúðar gangi."</l>
+      </lg> Angantýr konungr, þá er hann heyrði þetta, brá hann grönum ok varð seint til orða ok
+      mælti þetta um síðir: <lg>
+       <l>"Óbróðurliga vartu leikin,</l>
+       <l>in ágæta systir."</l>
+      </lg>
+      <pb n="234"/> Ok síðan leit hann yfir hirðina, ok var ekki margt liðs með honum. Hann kvað þá: <lg>
+       <l>"Mjök váru vér margir,</l>
+       <l>er vér mjöð drukkum,</l>
+       <l>nú eru vér færi,</l>
+       <l>er vér fleiri skyldum.</l>
+       <l>Sék eigi mann</l>
+       <l>í mínu liði,</l>
+       <l>þótt ek biðja</l>
+       <l>ok baugum kaupa,</l>
+       <l>er muni ríða</l>
+       <l>ok rönd bera</l>
+       <l>ok þeira Húna</l>
+       <l>herlið finna."</l>
+      </lg> Gizurr gamli sagði: <lg>
+       <l>"Ek mun þik einkis</l>
+       <l>eyris krefja</l>
+       <l>né skjallanda</l>
+       <l>skarfs ór gulli;</l>
+       <l>þó mun ek ríða</l>
+       <l>ok rönd bera,</l>
+       <l>Húna þjóðum</l>
+       <l>herstaf bjóða."</l>
+      </lg> Þat váru lög Heiðreks konungs, ef herr var í landi, en landskonungr haslaði völl ok
+      lagði orrostustað, þá skyldu víkingar ekki herja, áðr orrosta væri reynd. Gizurr herklæddist
+      með góðum hervápnum ok hljóp á hest sinn, sem ungr væri. Þá mælti hann til konungs: <lg>
+       <l>"Hvar skal ek Húnum</l>
+       <l>hervíg kenna?"</l>
+      </lg> Angantýr kvað: <lg>
+       <l>"Kenndu at Dylgju</l>
+       <l>ok á Dúnheiði,</l>
+       <l>ok á þeim öllum</l>
+       <pb n="235"/>
+
+       <l>Jassarfjöllum;</l>
+       <l>þar opt Gotar</l>
+       <l>gunni háðu</l>
+       <l>ok fagran sigr</l>
+       <l>frægir vágu."</l>
+      </lg> Nú reið Gizurr í brott ok þar til, er hann kom í her Húna. Hann reið eigi nær en svá, at
+      hann mátti tala við þá. Þá kallar hann hári röddu ok kvað: <lg>
+       <l>"Felmtr er yðru fylki,</l>
+       <l>feigr er yðarr vísir,</l>
+       <l>gnæfar yðr gunnfáni,</l>
+       <l>gramr er yðr Óðinn."</l>
+      </lg> Ok enn: <lg>
+       <l>"Býð ek yðr at Dylgju</l>
+       <l>ok á Dúnheiði</l>
+       <l>orrostu undir</l>
+       <l>Jassarfjöllum;</l>
+       <l>hræ sé yðr</l>
+       <l>at hái hverjum,</l>
+       <l>ok láti svá Óðinn flein fljúga,</l>
+       <l>sem ek fyrir mæli."</l>
+      </lg> Þá er Hlöðr hafði heyrt orð Gizurar, þá kvað hann: <lg>
+       <l>"Taki þér Gizur</l>
+       <l>Grýtingaliða,</l>
+       <l>mann Angantýs,</l>
+       <l>kominn af Árheimum."</l>
+      </lg> Humli konungr sagði: <lg>
+       <l>"Eigi skulum</l>
+       <l>árum spilla,</l>
+       <l>þeim er of fara</l>
+       <l>einir saman."</l>
+      </lg> Gizurr mælti: "Eigi gera Húnar oss felmtraða né hornbogar yðrir." Gizurr drap þá hest
+      sinn með sporum <pb n="236"/> ok reið á fund Angantýs konungs ok gekk fyrir hann ok kvaddi
+      hann vel. Konungr spyrr, hvárt hann hefði fundit konunga. Gizurr mælti: "Talaða ek við þá, ok
+      stefnda ek þeim á vígvöll á Dúnheiði í Dylgjudölum." Angantýr spyrr, hvat mikit lið Húnar
+      hafa. Gizurr mælti: "Mikit er þeira mengi: <lg>
+       <l>Sex ein eru</l>
+       <l>seggja fylki,</l>
+       <l>í fylki hverju</l>
+       <l>fimm þúsundir,</l>
+       <l>í þúsund hverri</l>
+       <l>þrettán hundruð,</l>
+       <l>í hundraði hverju</l>
+       <l>halir fjórtaldir."</l>
+      </lg> Angantýr spyrr nú til Húna hers. Þá sendi hann alla vegu menn frá sér ok stefndi hverjum
+      manni til sín, er honum vildi lið veita ok vápnum mætti valda. Fór hann þá á Dúnheiði með lið
+      sitt, ok var þat allmikill herr. Kom þá á móti honum herr Húna, ok höfðu þeir lið hálfu meira.
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="14">
+     <p> At öðrum degi hófu þeir sína orrostu ok börðust allan þann dag ok fóru at kveldi í herbúðir
+      sínar. Þeir börðust svá átta daga, at höfðingjar váru enn heilir, en engi vissi manntal, hvat
+      margt fell. En bæði dag ok nótt dreif lið til Angantýs af öllum vegum, ok þá kom svá, at hann
+      hafði eigi færa fólk en í fyrstu. Varð nú orrostan enn ákafari. Váru Húnar allákafir ok sá þá
+      sinn kost, at sú ein var lífs ván, ef þeir sigruðust, ok illt mundi Gota griða at biðja. Gotar
+      vörðu frelsi sitt ok fóstrjörð fyrir Húnum, stóðu því fast, ok eggjaði <pb n="237"/> hverr
+      annan. Þá er á leið daginn, gerðu Gotar atgöngu svá harða, at fylkingar Húna svignuðu fyrir.
+      Ok er Angantýr sá þat, gekk hann fram ór skjaldborginni ok í öndverða fylking ok hafði í hendi
+      Tyrfing ok hjó þá bæði menn ok hesta. Raufst þá skjaldborg fyrir Húna konungum, ok skiptust
+      þeir bræðr höggum við. Þá fell Hlöðr ok Humli konungr, ok þá brast flótti á Húnum, en Gotar
+      drápu þá ok felldu svá mikinn val, at ár stemmdust ok fellu ór vegum, en dalir váru fullir af
+      hestum ok dauðum mönnum ok blóði. Angantýr konungr gekk þá at kanna valinn ok fann Hlöð,
+      bróður sinn. Þá kvað hann: <lg>
+       <l>"Bauð ek þér, bróðir,</l>
+       <l>basmir óskerðar,</l>
+       <l>fé ok fjölð meiðma,</l>
+       <l>sem þik fremst tíddi;</l>
+       <l>nú hefir þú hvárki</l>
+       <l>hildar at gjöldum</l>
+       <l>ljósa bauga</l>
+       <l>né land ekki."</l>
+      </lg> Ok enn: <lg>
+       <l>"Bölvat er okkr, bróðir,</l>
+       <l>bani em ek þinn orðinn,</l>
+       <l>þat mun æ uppi,</l>
+       <l>illr er dómr norna."</l>
+      </lg>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="15">
+     <p> Angantýr var lengi konungr í Reiðgotalandi. Hann var ríkr ok hermaðr mikill, ok eru frá
+      honum komnar konunga ættir. Sonr hans var Heiðrekr úlfhamr, er síðan var lengi konungr í
+      Reiðgotalandi. Hann átti dóttur, er Hildr hét. Hún var móðir Hálfdanar snjalla, föður Ívars
+      ins víðfaðma. Ívarr inn víðfaðmi kom með <pb n="238"/> her sinn í Svíaveldi, sem segir í
+      konunga sögum, en Ingjaldr konungr inn illráði hræddist her hans ok brenndi sik sjálfr inni
+      með allri hirð sinni á þeim bæ, er á Ræningi heitir. Ívarr inn víðfaðmi lagði þá undir sik
+      allt Svíaveldi. Hann vann ok Danaveldi ok Kúrland, Saxland ok Eistland ok öll austrríki allt
+      til Garðaríkis. Hann réð ok vestra Saxlandi ok vann hlut Englands; þat er kallat
+      Norðumbraland. Ívarr lagði þá undir sik allt Danaveldi, ok síðan setti hann þar yfir Valdar
+      konung ok gifti honum Álfhildi, dóttur sína. Þeira sonr var Haraldr hilditönn ok Randvér, er
+      fell í Englandi. En Valdarr andaðist í Danmörk; tók þá Randvér Danaríki ok gerðist konungr
+      yfir. En Haraldr hilditönn lét gefa sér konungsnafn í Gautlandi, ok síðan lagði hann undir sik
+      öll framar nefnd ríki, er Ívarr konungr inn víðfaðmi hafði átt. Randvér konungr fekk Ásu,
+      dóttur Haralds konungs ins granrauða norðan ór Noregi. Sonr þeira var Sigurðr hringr. Randvér
+      konungr varð bráðdauðr, en Sigurðr hringr tók konungdóm í Danmörk. Hann barðist við Harald
+      konung hilditönn á Brávelli í eystra Gautlandi, ok þar fell Haraldr konungr ok mikill fjöldi
+      liðs með honum. Þessar orrostur hafa í fornum sögum frægastar verit ok mest mannfall orðit ok
+      sú, er Angantýr ok hans bróðir börðust á Dúnheiði. Sigurðr konungr hringr réð Danaríki til
+      dauðadags, en eptir hann Ragnarr konungr loðbrók, sonr hans. Sonr Haralds hilditannar hét
+      Eysteinn inn illráði. Hann tók Svíaríki eptir föður sinn ok réð því, þar til er synir Ragnars
+      konungs felldu hann, svá sem segir í hans sögu. Þeir synir Ragnars konungs lögðu þá undir sik
+      Svíaveldi, en eptir dauða Ragnars konungs tók Björn, sonr hans, járnsíða Svíaveldi, en Sigurðr
+      Danaveldi, <pb n="239"/> Hvítserkr Austrríki, Ívarr inn beinlausi England. Synir Bjarnar
+      járnsíðu váru þeir Eiríkr ok Refill. Hann var herkonungr ok sækonungr, en Eiríkr konungr réð
+      Svíaríki eptir föður sinn ok lifði litla hríð. Þá tók ríkit Eiríkr, sonr Refils; hann var
+      mikill hermaðr ok allríkr konungr. Eiríks synir, Bjarnar sonar, váru þeir Önundr uppsali ok
+      Björn konungr. Þá kom Svíaríki enn í bræðra skipti; þeir tóku ríki eptir Eirík Refilsson.
+      Björn konungr efldi þann bæ, er at Haugi heitir; hann var kallaðr Björn at Haugi. Með honum
+      var Bragi skáld. Eiríkr hét sonr Önundar konungs, er ríki tók eptir föður sinn at Uppsölum;
+      hann var ríkr konungr. Á hans dögum hófst til ríkis í Noregi Haraldr hárfagri, er fyrstr kom
+      einvaldi í Noreg sinna ættmanna. Björn hét sonr Eiríks konungs at Uppsölum; hann tók ríki
+      eptir föður sinn ok réð lengi. Synir Bjarnar váru þeir Eiríkr inn sigrsæli ok Óláfr; þeir tóku
+      ríki eptir föður sinn ok konungdóm. Óláfr var faðir Styrbjarnar ins sterka. Á þeira dögum
+      andaðist Haraldr konungr inn hárfagri. Styrbjörn barðist við Eirík konung, föðurbróður sinn, á
+      Fýrisvöllum, ok þar fell Styrbjörn. Síðan réð Eiríkr Svíaríki til dauðadags. Hann átti Sigríði
+      ina stórráðu. Óláfr hét sonr þeira, er til konungs var tekinn í Svíþjóð eptir Eirík konung.
+      Hann var þá barn, ok báru Svíar hann eptir sér; því kölluðu þeir hann skautkonung, en síðan
+      Óláf sænska. Hann var lengi konungr ok ríkr. Hann tók fyrst kristni Svíakonunga, ok um hans
+      daga var Svíþjóð kölluð kristin. Önundr hét sonr Óláfs konungs sænska, er konungdóm tók eptir
+      hann ok varð sóttdauðr. Á hans dögum fell Óláfr konungr inn helgi á Stiklastöðum. Eymundr hét
+      annarr sonr Óláfs sænska, er konungdóm <pb n="240"/> tók eptir bróður sinn. Um hans daga heldu
+      Svíar illa kristnina. Eymundr var litla hríð konungr. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="16">
+     <p> Steinkell hét ríkr maðr í Svíaríki ok kynstórr; móðir hans hét Ástríðr, dóttir Njáls
+      Finnssonar ins skjálga af Hálogalandi, en faðir hans var Rögnvaldr inn gamli. Steinkell var
+      fyrst jarl í Svíþjóð, en eptir dauða Eymundar konungs tóku Svíar hann til konungs. Þá gekk
+      konungdómr ór langfeðgaætt í Svíþjóð inna fornu konunga. Steinkell var mikill höfðingi. Hann
+      átti dóttur Eymundar konungs. Hann varð sóttdauðr í Svíþjóð nær því, er Haraldr konungr fell á
+      Englandi. Ingi hét sonr Steinkels, er Svíar tóku til konungs næst eptir Hákon. Ingi var þar
+      lengi konungr ok vinsæll ok vel kristinn. Hann eyddi blótum í Svíþjóð ok bað fólk allt <pb
+       n="241"/> þar kristnast, en Svíar höfðu of mikinn átrúnað á heiðnum goðum ok heldu fornum
+      siðum. Ingi konungr gekk at eiga konu þá, er Mær hét. Bróðir hennar hét Sveinn. Inga konungi
+      þokknaðist enginn maðr svá vel, ok varð hann í Svíþjóð inn ríkasti maðr. Svíum þótti Ingi
+      konungr brjóta forn landslög á sér, er hann vandaði um þá hluti, er Steinkell hafði standa
+      látit. Á þingi nokkuru, er Svíar áttu við Inga konung, gerðu þeir honum tvá kosti, hvárt hann
+      vildi heldr halda við þá forn lög eða láta af konungdómi. Þá mælti Ingi konungr ok kveðst eigi
+      mundu kasta þeiri trú, sem rétt væri. Þá æptu Svíar ok þröngdu honum með grjóti ok ráku hann
+      af lögþinginu. Sveinn, mágr konungs, var eptir á þinginu. Hann bauð Svíum at efla blót fyrir
+      þeim, ef þeir gæfi honum konungdóm. Því játa þeir allir; var Sveinn þá til konungs tekinn yfir
+      alla Svíþjóð. Þá var fram leitt hross eitt á þingit ok höggvit í sundr ok skipt til áts, en
+      roðit blóðinu blóttré. Köstuðu þá allir Svíar kristni, ok hófust blót, en þeir ráku Inga
+      konung á brott, ok fór hann í vestra Gautland. Blót-Sveinn var þrjá vetr konungr yfir Svíum.
+      Ingi konungr fór með hirð sína ok sveit nokkura ok hafði lítinn her. Hann reið austr um
+      Smáland ok í eystra Gautland ok svá í Svíþjóð. Hann reið bæði dag ok nótt ok kom óvart Sveini
+      snemma morguns. Þeir tóku hús á þeim ok slógu eldi í ok brenndu lið þat, er inni var. Þjófr
+      hét maðr lendr, er þar brann inni; hann hafði áðr fylgt Sveini. Blót-Sveinn gekk út ok var
+      þegar drepinn. Ingi tók svá konungdóm yfir Svíum ok réttleiddi þá enn kristnina ok réð ríkinu
+      til dauðadags ok varð sóttdauðr. Hallsteinn hét sonr Steinkels konungs, bróðir Inga konungs,
+      er konungr var með Inga konungi, bróður sínum. Synir Hallsteins <pb n="242"/> váru þeir
+      Philippus ok Ingi, er konungdóm tóku í Svíþjóð eptir Inga konung gamla. Philippus átti
+      Ingigerði, dóttur Haralds konungs Sigurðarsonar; hann var skamma stund konungr. </p>
+    </div>
+
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

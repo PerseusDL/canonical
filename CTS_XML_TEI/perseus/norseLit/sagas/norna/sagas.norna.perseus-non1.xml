@@ -1,0 +1,873 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> Norna-Gests þáttr</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title> Norna-Gests þáttr</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Norna_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="167"/>
+
+SVÁ er sagt, at á einum tíma, þá er Óláfr konungr
+Tryggvason sat í Þrándheimi, bar svá til, at einn
+maðr kom til hans at áliðnum degi ok kvaddi hann
+sæmiliga. Konungr tók honum vel ok spurði, hverr
+hann væri, en hann sagðist Gestr heita. Konungr svarar:
+"Gestr muntu hér vera, hversu sem þú heitir."
+Gestr svarar: "Satt segi ek til nafns míns, herra,
+en gjarna vilda ek at yðr gisting þiggja, ef kostr væri."
+Konungr sagði honum þat til reiðu vera. En með því
+at áliðinn var dagr, vildi konungr ekki tala við gestinn,
+því at hann gekk þá skjótt til aptansöngs ok síðan
+til borðs ok þá til svefns ok náða.
+Ok á þeiri sömu nótt vakti Óláfr konungr Tryggvason
+í sæng sinni ok las bænir sínar, en aðrir menn allir
+sváfu í því herbergi. Þá þótti konungi einn álfr eða
+andi nokkurr koma inn í húsit ok þó at luktum dyrum
+öllum. Hann kom fyrir rekkju hvers manns, er þar svaf,
+ok at lyktum kom hann til sængr eins manns, er þar
+lá utarliga. Þá mælti álfrinn ok nam staðar: "Furðu
+<pb n="168"/>
+
+sterkr láss er hér fyrir tómu húsi, ok er konungr eigi
+jafnvíss um slíkt sem aðrir láta, er hann sé allra manna
+spakastr, er hann sefr nú svá fast." Eptir þatt hverfr
+sá á brott at luktum dyrum.
+En snemma um morgininn eptir sendi konungr skósvein
+sinn at verða víss, hverr þessa sæng hafði byggt
+um nóttina; prófaðist svá, at þar hafði legit gestrinn.
+Konungr lét kalla hann fyrir sik ok spurði, hvers son
+hann væri. En hann svarar: "Þórðr hét faðir minn ok var
+kallaðr þingbítr, danskr at kyni. Hann bjó á þeim bæ
+í Danmörk, er Græningr heitir." "Þrifligr maðr ertu,"
+segir konungr. Gestr sjá var djarfr í orðum ok meiri
+en flestir menn aðrir, sterkligr ok nokkut hniginn í
+efra aldr. Hann biðr konung at dveljast þá lengr með
+hirðinni. Konungr spurði, ef hann væri kristinn. Gestr
+lézt vera prímsigndr, en eigi skírðr. Konungr sagði
+honum heimilt at vera með hirðinni, -- "en skamma
+stund muntu með mér óskírðr." En því hafði álfrinn
+svá til orðs tekit um lásinn, at Gestr signdi sik um
+kveldit sem aðrir menn, en var þó reyndar heiðinn.
+Konungr mælti: "Ertu nokkurr íþróttamaðr?" Hann
+kvaðst leika á hörpu eða segja sögur, svá at gaman þætti
+at. Konungr sagði þá: "Illa gerir Sveinn konungr þat,
+at hann lætr óskírða menn fara ór ríki sínu landa á
+meðal." Gestr svarar: "Ekki er þat Dana konungi at
+kenna, því at miklu fyrr fór ek burt ór Danmörk en
+Ottó keisari lét brenna Danavirki ok kúgaði Harald
+konung Gormsson ok Hákon blótjarl at taka við kristni."
+Margra hluta spyrr konungr Gest, en hann leysti flest
+vel ok vitrliga. Svá segja menn, at Gestr þessi kæmi á
+þriðja ári ríkis Óláfs konungs til hans. Á því ári kómu
+ok til hans þeir menn, er Grímar hétu ok váru sendir
+af Guðmundi af Glasisvöllum. Þeir færðu konungi
+<pb n="169"/>
+
+horn tvau, er Guðmundr gaf honum. Þau kölluðu þeir
+ok Gríma. Þeir höfðu ok fleiri erendi til konungs,
+sem síðar mun sagt verða. Nú er þat at segja, at Gestr
+dvaldist með konungi. Er honum skipat utar frá gestum.
+Hann var siðsamr maðr ok látaðr vel. Var hann
+ok þokkasamr af flestum mönnum ok virðist vel.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Litlu fyrir jól kom Úlfr heim inn rauði ok sveit
+manna með honum. Hann hafði verit um sumarit í
+konungs erendum, því at hann var settr til landsgæzlu
+um haustit í Víkinni við áhlaupum Dana. Var hann
+jafnan vanr at vera með Óláfi konungi um hávetri.
+Úlfr hafði at færa konungi marga góða gripi, er
+hann hafði aflat um sumarit, ok einn gullhring hafði
+hann aflat, er Hnituðr hét. Hann var hnitaðr saman
+í sjau stöðum, ok var með sínum lit hverr hlutrinn.
+Miklu var hann gullbetri en aðrir hringar. Þann hring
+hafði gefit Úlfi einn bóndi, er Loðmundr hét, en þenna
+hring hafði átt áðr Hálfr konungr, er Hálfsrekkar eru
+frá komnir ok við kenndir, er þeir höfðu kúgat fé af
+Hálfdani konungi í Ylfing. En Loðmundr beiddi Úlf
+í móti, at hann mundi halda bænum fyrir honum
+með fulltingi Óláfs konungs. Úlfr játaði honum því.
+Heldr konungr nú jól sín ríkuliga ok sitr í Þrándheimi.
+En inn átta dag jóla gefr Úlfr inn rauði hringinn
+Hnituð Óláfi konungi. Konungr þakkar honum gjöfina
+ok alla sína trúlynda þjónustu, er hann hefði jafnan
+veitt honum. Ferr þessi hringr víða um herbergi, þar
+er menn drukku inni, því at þá váru eigi hallir smíðaðar
+í þann tíma í Noregi. Sýnir nú hverr öðrum, ok
+<pb n="170"/>
+
+þykkjast menn eigi sét hafa jafngott gull sem í hringnum
+var. Ok at lyktum kemr hann á gestabekk ok svá
+fyrir Gest inn ókunna. Hann lítr á ok selr aptr hringinn
+yfir þvera höndina, þá er hann helt áðr á kerinu.
+Finnst honum fátt til ok talar ekki til þessa gripar, en
+hefir gamanræður sem áðr við sína félaga. Einn herbergis
+sveinn skenkti utar á bekkinn gestanna. Hann
+spyrr: "Lízt yðr vel á hringinn?" "Allvel," sögðu þeir,
+"utan Gesti inum nýkomna. Honum finnst ekki til,
+ok þat hyggjum vér, at hann kunni ekki til at sjá, at
+hann anzar ekki um slíka hluti." Herbergis sveinninn
+gengr innar fyrir konung ok segir honum þessi in sömu
+orð gestanna ok þessi inn komni gestr, hversu
+hann anzaði lítt til þessa gripar, er honum var sýnd
+slík gersimi. Konungr sagði þá: "Gestr inn komni mun
+fleira vita en þér munuð æetla, ok skal hann koma til
+mín í morgin ok segja mér nokkura sögu." Nú talast
+þeir við gestirnir utar á bekkinn. Þeir spyrja inn nýkomna
+gest, hvar hann hefir sét jafngóðan hring eða
+betra. Gestr svarar: "Með því at yðr þykkir undarligt,
+at ek tala svá fátt til, þá hefi ek víst sét þat gull, at
+engum mun er verra, nema betra sýnist." Nú hlæja
+konungsmenn mjök ok segja, at þar horfist til gamans
+mikils, -- "ok muntu vilja veðja við oss, at þú hafir
+sét jafngott gull sem þetta, svá at þú megir þat sanna.
+Skulu vér við setja fjórar merkr gangsilfrs, en þú kníf
+þinn ok belti, ok skal konungr um segja, hvárir sannara
+hafa." Gestr sagði þá: "Eigi skal nú hvárttveggja
+gera, vera í kallsi með yðr, enda halda eigi ummæli
+þau, sem þér biðið, ok skal víst veðja hér um ok svá
+mikit við leggja sem þér hafið mælt, en konungr skal
+um segja, hvárir sannara hafa." Hætta þeir nú sínu
+tali. Tekr Gestr hörpu sína ok slær vel ok lengi
+<pb n="171"/>
+
+um kveldit, svá at öllum þykkir unað í á at heyra, ok
+slær þó Gunnarsslag bezt. Ok at lyktum slær hann
+Guðrúnarbrögð in fornu. Þau höfðu menn eigi fyrr
+heyrt. Ok eptir þat sváfu menn af um nóttina.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Konungr stendr snemma upp um morguninn ok
+hlýðir tíðum. Ok er þeim er lokit, gengr konungr til
+borðs með hirð sinni. Ok er hann er kominn í hásæti,
+gengr gestasveitin innar fyrir konung ok Gestr með
+þeim ok segja honum sín ummæli öll ok veðjan þá,
+sem þeir höfðu haft áðr. Konungr svarar: "Lítit er
+mér um veðjan yðra, þó at þér setið peninga yðra við.
+Get ek þess til, at yðr hafi drykkr í höfuð fengit, ok
+þykki mér ráð, at þér hafið at engu, allra helzt ef Gesti
+þykkir svá betr." Gestr svarar: "Þat vil ek, at haldist
+öll ummæli vár." Konungr mælti: "Svá lízt mér á þik,
+Gestr, at mínir menn muni hafa mælt sik í þaular um
+þetta mál meir en þú, en þó mun þat nú skjótt reynt
+verða."
+Eptir þat gengu þeir í brott, ok fóru menn at drekka.
+Ok er drykkjuborð váru upp tekin, lætr konungr kalla
+Gest ok talar svá til hans: "Nú verðr þú skyldr til at
+berta fram gull nokkut, ef þú hefir til, svá at ek megi
+segja um veðjanina með yðr." "Þat munu þér vilja,
+herra," sagði Gestr. Hann þreifar þá til sjóðs eins, er
+hann hafði við sik, ok tók þar upp eitt knýti ok leysir
+til ok fær í hendr konungi. Konungr sér, at þetta er
+brotit af söðulhringju, ok sér, at þetta er allgott gull.
+Hann biðr þá taka hringinn Hnituð. Ok er svá var
+gert, berr konungr saman gullit ok hringinn ok mælti
+<pb n="172"/>
+
+síðan: "Víst lízt mér þetta betra gull, er Gestr hefir
+fram borit, ok svá mun lítast fleirum mönnum, þó, at
+sjái." Sönnuðu þetta þá margir menn með konungi.
+Síðan sagði hann Gesti veðféit. Þóttust gestirnir þá
+ósvinnir við orðnir um þetta mál. Gestr mælti þá:
+"Takið fé yðvart sjálfir, því at ek þarf eigi at hafa,
+en veðit ekki optar við ókunna menn, því at eigi viti
+þér, hvern þér hittið þann fyrir, at bæði hefir fleira
+sét ok heyrt en þér. En þakka vil ek yðr, herra, órskurðinn."
+Konungr mælti þá: "Nú vil ek, at þú segir,
+hvaðan þú fekkt gull þat, er þú ferr með." Gestr
+svarar: "Trauðr em ek þess, því at þat mun flestum
+þykkja ótrúligt, er ek segi þar til." "Þó viljum vér
+heyra," segir konungr, "með því at þú hefir oss áðr
+heitit sögu þinni." Gestr svarar: "Ef ek segi yðr, hversu
+farit er um gullit, þá get ek, at þér vilið heyra aðra
+sögu hér með." "Vera má þat," segir konungr, "at rétt
+getir þú þessa."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+"Þá mun ek segja frá því, er ek fór suðr í Frakkland.
+Vilda ek forvitnast um konungs siðu ok mikit
+ágæti, er fór frá Sigurði Sigmundarsyni um vænleik
+hans ok þroska. Varð þá ekki til tíðenda, fyrr en ek kom
+til Frakklands ok til móts við Hjálprek konung. Hann
+hafði mikla hirð um sik. Þar var þá Sigurðr Sigmundarson,
+Völsungssonar, ok Hjördísar Eylimadóttur. Sigmundr
+fell í orrostu fyrir Hundings sonum, en Hjördís
+giftist Hálfi, syni Hjálpreks konungs. Vex Sigurðr
+þar upp í barnæsku ok allir synir Sigmundar konungs.
+Váru þeir um fram alla menn um afl ok vöxt, Sinfjötli
+<pb n="173"/>
+
+ok Helgi, er drap Hunding konung, ok því var hann
+Hundingsbani kallaðr. Þriði hét Hámundr. Sigurðr var
+þó allra þeira bræðra framast. Er mönnum þat ok
+kunnigt, at Sigurðr hefir verit göfgastr allra herkonunga
+ok bezt at sér í fornum sið. Þá var ok kominn
+til Hjálpreks konungs Reginn, sonr Hreiðmars. Hann
+var hverjum manni hagari ok dvergr á vöxt, vitr maðr,
+grimmr ok fjölkunnigr. Reginn kenndi Sigurði marga
+hluti ok elskaði hann mjök. Hann sagði þá frá foreldrum
+sínum ok svá atburðum undarligum, er þar höfðu
+gerzt. Ok er ek hafða skamma stund þar verit, gerðumst
+ek þjónustumaðr Sigurðar sem margir aðrir. Allir
+elskuðu hann mjök, því at hann var bæði blíðr ok lítillátr
+ok mildr af fé við oss.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Þat var einn dag, at vér kómum til húsa Regins, ok
+var Sigurði þá vel fagnat. Þá kvað Reginn vísu þessa:
+<lg>
+<l>"Kominn er hingat</l>
+<l>konr Sigmundar,</l>
+<l>seggr inn snarráði,</l>
+<l>til sala várra,</l>
+<l>megn hefir mikit,</l>
+<l>en ek maðr gamall,</l>
+<l>er mér fangs ván</l>
+<l>af frekum úlfi."</l>
+</lg>
+Ok enn kvað hann:
+<lg>
+<l>"Ek mun fræða</l>
+<l>fólkdjarfan gram.</l>
+<l>Nú er Yngva konr</l>
+<l>með oss kominn.</l>
+<pb n="174"/>
+
+<l>Sjá mun ræsir</l>
+<l>ríkstr und sólu,</l>
+<l>frægr um lönd öll</l>
+<l>með lofi sínu."</l>
+</lg>
+Sigurðr var þá jafnan með Regin, ok hann sagði honum
+margt af Fáfni, er hann lá á Gnitaheiði í orms líki
+ok at hann var undarliga mikill vexti. Reginn gerði
+Sigurði sverð, er Gramr hét. Þat var svá snarpeggjat,
+at hann brá því í ána Rín ok lét reka ofan at
+ullarlagð fyrir strauminum, ok tók í sundr lagðinn.
+Síðan klauf Sigurðr steðja Regins með sverðinu. Eptir
+þat eggjaði Reginn Sigurð at drepa Fáfni, bróður sinn,
+ok kvað vísu þessa:
+<lg>
+<l>"Hátt munu hlæja</l>
+<l>Hundings synir,</l>
+<l>þeir er Eylima</l>
+<l>aldrs vörnuðu,</l>
+<l>ef mik tegar</l>
+<l>meir at sækja</l>
+<l>hringa rauða</l>
+<l>en hefna föður."</l>
+</lg>
+Eptir þetta býr Sigurðr ferð sína ok ætlar at herja á
+Hundings sonu, ok fær Hjálprekr konungr honum margt
+lið ok nokkur herskip. Í þeiri ferð var með Sigurði Hámundr,
+bróðir hans, ok Reginn dvergr. Ek var ok þar,
+ok kölluðu þeir mik þá Norna-Gest. Var Hjálpreki
+konungi kunnleiki á mér, þá er hann var í Danmörk
+með Sigmundi Völsungssyni. Þá átti Sigmundr Borghildi,
+ok skildu þau svá, at Borghildr drap Sinfjötla,
+son Sigmundar, með eitri. Síðan fekk Sigmundr suðr
+í Frakklandi Hjördísar Eylima dóttur, er Hundings
+synir drápu, ok átti Sigurðr bæði at hefna föður síns
+ok móðurföður. Helgi Sigmundarson, er Hundingsbani
+<pb n="175"/>
+
+var kallaðr, var bróðir Sigurðar, er síðan var kallaðr
+Fáfnisbani. Helgi, bróðir Sigurðar, hafði drepit Hunding
+konung ok sonu hans þrjá, Eyjólf, Herröð, Hjörvarð.
+Lyngvi komst undan ok tveir bræðr hans, Álfr
+ok Hemingr. Váru þeir inir frægstu menn um alla
+atgervi, ok var Lyngvi fyrir þeim bræðrum. Þeir váru
+mjök fjölkunnigir. Þeir höfðu kúgat marga smákonunga
+ok marga kappa drepit ok margar borgir brennt
+ok gerðu it mesta hervirki í Spáníalandi ok Frakklandi.
+En þá var eigi keisararíki komit norðr hingað yfir
+fjallit. Hundings synir höfðu tekit undir sik þat ríki,
+er Sigurðr átti í Frakklandi, ok váru þeir þar mjök
+fjölmennir.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Nú er at segja frá því, er Sigurðr bjóst til bardaga
+í mót Hundings sonum. Hann hafði mikit lið ok vel
+vápnat. Reginn hafði mjök ráðagerð fyrir liðinu. Hann
+hafði sverð þat, er Riðill hét, er hann hafði smíðat.
+Sigurðr bað Regin ljá sér sverðit. Hann gerði svá ok
+bað hann drepa Fáfni, þá er hann kæmi aptr ór þessi
+ferð. Sigurðr hét honum því. Síðan sigldu vér suðr
+með landi. Þá fengu vér gerningaveðr stór, ok kenndu
+þat margir Hundings sonum. Síðan sigldu vér nokkuru
+landhallara. Sá sám vér mann einn á bjargsnös
+nokkurri, er gekk fram af sjóvarhömrum. Hann var í
+heklu grænni ok blám brókum ok kneppta skó á fótum
+uppháva ok spjót í hendi. Þessi maðr ljóðar á oss
+ok kvað:
+<lg>
+<l>"Hverir ríða hér</l>
+<l>Rævils hestum</l>
+<l>hávar unnir,</l>
+<pb n="176"/>
+
+<l>haf glymjanda?</l>
+<l>Eru segl yður</l>
+<l>sjóvi stokkin.</l>
+<l>Munat vágmarar</l>
+<l>vind of standask."</l>
+</lg>
+Reginn kvað í móti:
+<lg>
+<l>"Hér eru vér Sigurðr</l>
+<l>á sjá komnir.</l>
+<l>Er oss byrr gefinn</l>
+<l>við bana sjálfan.</l>
+<l>Fellr brattr breki</l>
+<l>bröndum hæra.</l>
+<l>Hlunnvigg hrapa.</l>
+<l>Hverr spyrr at því?"</l>
+</lg>
+Heklumaðrinn kvað:
+<lg>
+<l>"Hnikar hétu mik,</l>
+<l>þá er hugin gladdi</l>
+<l>Völsungr víða</l>
+<l>ok vegit hafði.</l>
+<l>Nú máttu kalla</l>
+<l>karl á bjargi</l>
+<l>Feng eða Fjölni.</l>
+<l>Far vil ek þiggja."</l>
+</lg>
+Þá viku vér at landi, ok lægði skjótt veðrit, ok bað
+Sigurðr karl ganga út á skipit. Hann gerði svá. Þá fell
+þegar veðrit, ok gerði inn bezta byr. Karl settist niðr
+fyrir kné Sigurði ok var mjök makráðr. Hann spurði,
+ef Sigurðr vildi nokkut ráð af honum þiggja. Sigurðr
+kveðst vilja, sagðist þat ætla, at hann mundi verða ráðdrjúgr,
+ef hann vildi mönnum gagn gera. Sigurðr kvað
+til heklumanns:
+<lg>
+<l>"Segðu mér þat, Hnikarr,</l>
+<l>alls þú hvárttveggja veizt,</l>
+<l>goða heill ok guma:</l>
+<pb n="177"/>
+
+<l>Hverjar eru beztar,</l>
+<l>ef berjast skal,</l>
+<l>heillir at sverða svipan?"</l>
+</lg>
+Hnikarr kvað:
+<lg>
+<l>"Mörg eru góð,</l>
+<l>ef gumnar vitu</l>
+<l>heill at sverða svipan.</l>
+<l>Dyggva fylgju</l>
+<l>hygg ek ins dökkva vera</l>
+<l>af hrottameiði hrafns.</l>
+<l>Þat er annat,</l>
+<l>ef þú ert út of kominn</l>
+<l>ok til brottferðar búinn:</l>
+<l>Tvá þú lítr</l>
+<l>á tái standa</l>
+<l>hróðrfulla hali.</l>
+<l>Þat er it þriðja,</l>
+<l>ef þú þjóta heyrir</l>
+<l>úlf und asklimum.</l>
+<l>Heilla auðit</l>
+<l>verðr þér af hjálmstöfum,</l>
+<l>ef þú lítr þá fyrr fara.</l>
+<l>Engi skal gumna</l>
+<l>í gegn vega</l>
+<l>síð skínandi</l>
+<l>systur Mána.</l>
+<l>Þeir sigr hafa,</l>
+<l>er sjá kunnu,</l>
+<l>hjörleiks hvatir,</l>
+<l>eða hamalt fylkja.</l>
+<l>Þat er fár mikit,</l>
+<l>ef þú fæti drepr,</l>
+<l>þá er at vígi vegr:</l>
+<l>Tálar dísir</l>
+<l>standa þér á tvær hliðar</l>
+<l>ok vilja þik sáran sjá.</l>
+<pb n="178"/>
+
+<l>Kembdr ok þveginn</l>
+<l>skal kennast hverr</l>
+<l>ok at morgni mettr,</l>
+<l>því at óvíst er,</l>
+<l>hvat at aptni kemr.</l>
+<l>Illt er fyr heill at hrapa."</l>
+</lg>
+Ok eptir þat sigldu vér suðr fyrir Hollsetuland ok fyrir
+austan Frísland ok þar at landi. Þegar fregna Hundings
+synir um ferð vára ok safna liði ok verða brátt
+fjölmennir. Ok er vér finnumst, tekst harðr bardagi.
+Var Lyngvi þeira bræðra fremstr í allri framgöngu.
+Sóttu þó allir fast fram. Sigurðr sækir í móti svá hart,
+at allt hrökk fyrir honum, því at sverðit Gramr verðr
+þeim skeinuhætt, en Sigurði þarf eigi hugar at frýja.
+Ok er þeir Lyngvi finnast, skiptust þeir mörgum höggum
+við ok berjast alldjarfliga. Verðr þá hvíld á bardaganum,
+því at menn horfa á þetta einvígi. Þat var
+langa hríð, at hvárrgi þeira kom sári á annan, svá váru
+þeir vígfimir. Síðan sækja bræðr Lyngva fast fram ok
+drepa margan mann, en sumir flýja. Þá snýr Hámundr,
+bróðir Sigurðar, í móti þeim ok ek með honum. Verðr
+þá nokkur móttaka. En svá lýkr með þeim Sigurði ok
+Lyngva, at Sigurðr gerir hann handtekinn, ok var hann
+settr í járn. En er Sigurðr kom til vár, þá verða skjót
+umskipti. Falla þá Hundings synir ok allt lið þeira,
+enda myrkvir þá af nótt. Ok þá er lýsti um morgininn,
+var Hnikarr horfinn ok sást eigi síðan. Hyggja menn,
+at þat hafi Óðinn verit. Var þá um þat talat, hvern
+dauða Lyngvi skyldi hafa. Reginn lagði þat til ráðs,
+at rísta skyldi blóðörn á baki honum. Tók Reginn þá
+við sverði sínu af mér ok reist með því bak Lyngva,
+svá at hann skar rifin frá hryggnum ok dró þar út
+<pb n="179"/>
+
+lungun. Svá dó Lyngvi með mikilli hreysti. Þá kvað
+Reginn:
+<lg>
+<l>"Nú er blóðugr örn</l>
+<l>breiðum hjörvi</l>
+<l>bana Sigmundar</l>
+<l>á baki ristinn.</l>
+<l>Fár var fremri,</l>
+<l>sá er fold rýðr,</l>
+<l>hilmis nefi,</l>
+<l>ok hugin gladdi."</l>
+</lg>
+Þar var allmikit herfang. Tóku liðsmenn Sigurðar þat
+allt, því at hann vildi ekki af hafa. Var þar mikit fé í
+klæðum ok vápnum. Síðan drap Sigurðr þá Fáfni ok
+Regin, því at hann vildi svíkja hann. Tók Sigurðr þá
+gull Fáfnis ok reið á burt með. Var hann síðan kallaðr
+Fáfnisbani. Eptir þat reið hann upp á Hindarheiði
+ok fann þar Brynhildi, ok fóru svá þeira skipti sem
+segir í sögu Sigurðar Fáfnisbana.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="7"><p>
+
+Síðan fær Sigurðr Guðrúnar Gjúkadóttur. Var hann
+þá um hríð með Gjúkungum, mágum sínum. Ek var með
+Sigurði norðr í Danmörk. Ek var ok með Sigurði, þá er
+Sigurðr konungr hringr sendi Gandálfs sonu, mága sína,
+til móts við Gjúkunga, Gunnar ok Högna, ok beiddi, at
+þeir mundi lúka honum skatt eða þola her ella, en
+þeir vildu verja land sitt. Þá hasla Gandálfs synir Gjúkungum
+völl við landamæri ok fara aptr síðan. En
+Gjúkungar biðja Sigurð Fáfnisbana fara til bardaga með
+sér. Hann sagði svá vera skyldu. Ek var þá enn með
+Sigurði. Sigldu vér þá enn norðr til Hollsetulands
+ok lendum þar, sem Járnamóðir heitir. En skammt frá
+höfninni váru settar upp heslistengr, þar sem orrostan
+<pb n="180"/>
+
+skyldi vera. Sjám vér þá mörg skip sigla norðan. Váru
+Gandálfs synir fyrir þeim. Sækja þá hvárirtveggja. Sigurðr
+hringr var eigi þar, því at hann varð at verja land
+sitt, Svíþjóð, því at Kúrir ok Kvænir herjuðu þangat.
+Sigurðr var þá gamall mjök. Síðan lýstr saman liðinu, ok
+verðr þar mikil orrosta ok mannskæð. Gandálfs synir
+gengu fast fram, því at þeir váru bæði meiri ok sterkari
+en aðrir menn.
+Í þeira liði sást einn maðr, mikill ok sterkr. Drap
+þessi maðr menn ok hesta, svá at ekki stóð við, því at
+hann var líkari jötnum en mönnum. Gunnarr bað Sigurð
+sækja í móti mannskelmi þessum, því at hann kvað
+eigi svá mundu duga. Sigurðr réðst nú í móti þeim mikla
+manni ok nokkurir menn með honum, ok váru þá flestir
+þess ófúsir. "Finnum vér þá skjótt inn mikla mann,"
+segir Gestr, ok frétti Sigurðr hann at nafni ok hvaðan
+hann væri. Hann kveðst Starkaðr heita Stórverksson
+norðan af Fenhring ór Noregi. Sigurðr kveðst hans heyrt
+hafa getit ok optast at illu. "Eru slíkir menn eigi sparandi
+til ófagnaðar." Starkaðr mælti: "Hverr er þessi
+maðr, er mik lýtir svá mjök í orðum?" Sigurðr sagði til
+sín. Starkaðr mælti: "Ertu kallaðr Fáfnisbani?" "Svá er,"
+segir Sigurðr. Starkaðr vill þá undan leita, en Sigurðr
+snýr eptir ok færir á lopt sverðit Gram ok lamdi hann
+með hjöltunum jaxlgarðinn, svá at hrutu ór honum
+tveir jaxlar. Var þat meiðsla högg. Sigurðr bað þá mannhundinn
+brott dragast þaðan. Starkaðr snarast þá í brott
+þaðan. En ek tók annan jaxlinn ok hefi ek með mér.
+Er sá nú hafðr í klukkustreng í Danmörk ok vegr sjau
+aura. Þykkir mönnum forvitni at sjá hann þar. Eptir
+flótta Starkaðar flýa Gandálfs synir. Tóku vér þá
+mikit herfang, ok fóru síðan konungar heim í ríki sitt
+ok setjast þar um hríð.
+<pb n="181"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="8"><p>
+
+Litlu síðar heyrðu vér getit níðingsvígs Starkaðar, er
+hann hafði drepit Ála konung í laugu. Var þat einn
+dag, at Sigurðr Fáfnisbani reið til einhverrar stefnu, þá
+reið hann í einhverja veisu, en hestrinn Grani hljóp
+upp svá hart, at í sundr stökk brjóstgjörðin ok fell niðr
+hringjan. En er ek sá, hvar at hún glóaði í leirinum, tók
+ek upp ok færða ek Sigurði, en hann gaf mér. Hafi þér
+nú fyrir litlu sét þetta sama gull. Þá stökk Sigurðr af
+baki, en ek strauk hest hans, ok þó ek leir af honum,
+ok tók ek einn lepp ór tagli hans til sýnis vaxtar hans."
+Sýndi Gestr þá leppinn, ok var hann sjau álna hár. Óláfr
+konungr mælti: "Gaman mikit þykki mér at sögum
+þínum." Lofuðu nú allir frásagnir hans ok frækleik.
+Vildi konungr, at hann segði miklu fleira um atburði
+frænda sinna. Segir Gestr þeim marga gamansamliga
+hluti allt til aptans. Fóru menn þá at sofa. En um morgininn
+eptir lét konungr kalla Gest ok vill enn fleira
+tala við Gest. Konungr mælti: "Eigi fæ ek skilit til fulls
+um aldr þinn, hver líkendi þat má vera, at þú sér
+maðr svá gamall, at værir við staddr þessi tíðendi. Verðr
+þú at segja sögu aðra, svá at vér verðim sannfróðari
+um slíka atburði. Gestr svarar: "Vita þóttumst ek þat
+fyrir, at þér mundið heyra vilja aðra sögu mína, ef ek
+segða um gullit, hversu farit væri." Konungr mælti:
+"Segja skaltu víst."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="9"><p>
+
+"Þá er nú enn at segja," segir Gestr, "at ek fór norðr
+til Danmerkr, ok settumst ek þar at föðurleifð minni,
+því at hann andaðist skjótt. Ok litlu síðar frétta ek dauða
+<pb n="182"/>
+
+Sigurðar ok svá Gjúkunga, ok þótti mér þat mikil tíðendi."
+Konungr mælti: "Hvat varð Sigurði at bana?"
+Gestr svarar: "Sú er flestra manna sögn, at Guttormr
+Gjúkason legði hann sverði í gegnum sofanda í
+sæng Guðrúnar. En þýverskir menn segja Sigurð drepinn
+hafa verit úti á skógi. En igðurnar sögðu svá, at
+Sigurðr ok Gjúka synir hefði riðit til þings nokkurs
+ok þá dræpi þeir hann. En þat er alsagt, at þeir vágu
+at honum liggjanda ok óvörum ok sviku hann í tryggð."
+En hirðmaðr einn spyrr: "Hversu fór Brynhildr þá
+með?" Gestr svarar: "Þá drap Brynhildr sjau þræla sína
+ok fimm ambáttir, en lagði sik sverði í gegnum ok bað
+sik aka með þessa menn til báls ok brenna sik dauða.
+Ok svá var gert, at henni var gert annat bál, en Sigurði
+annat, ok var hann fyrri brenndr en Brynhildr. Henni
+var ekit í reið einni, ok var tjaldat um guðvef ok purpura,
+ok glóaði allt við gull, ok svá var hún brennd."
+Þá spurðu menn Gest, hvárt Brynhildr hefði nokkut
+kveðit dauð. Hann kvað þat satt vera. Þeir báðu hann
+kveða, ef hann kynni. Þá mælti Gestr: "Þá er Brynhildi
+var ekit til brennunnar á helveg, ok var farit með hana
+nær hömrum nokkurum. Þar bjó ein gýgr. Hún var úti
+fyrir hellis dyrum ok var í skinnkyrtli ok svört yfirlits.
+Hún hefir í hendi sér skógarvönd langan ok mælti:
+"Þessu vil ek beina til brennu þinnar, Brynhildr,
+ok væri betr, at þú værir lifandi brennd fyrir ódáðir
+þínar þær, at þú lézt drepa Sigurð Fáfnisbana, svá ágætan
+mann, ok opt var ek honum sinnuð, ok fyrir þat
+skal ek ljóða á þik með hefndarorðum þeim, at öllum
+sér þú at leiðari, er slíkt heyra frá þér sagt. Eptir þetta
+ljóðast þær á, Brynhildr ok gýgr. Gýgr kvað:
+<pb n="183"/>
+
+<lg>
+<l>"Skaltu í gegnum</l>
+<l>ganga eigi</l>
+<l>grjóti studda</l>
+<l>garða mína.</l>
+<l>Betr sæmdi þér</l>
+<l>borða at rekja</l>
+<l>heldr en at vitja</l>
+<l>várra ranna.</l>
+<l>Hvat skaltu vitja</l>
+<l>af Vallandi,</l>
+<l>hverflynt höfuð,</l>
+<l>húsa minna?</l>
+<l>Þú hefir vörgum,</l>
+<l>ef þín vitja,</l>
+<l>mörgum til matar</l>
+<l>manns blóð gefit."</l>
+</lg>
+Þá kvað Brynhildr:
+<lg>
+<l>"Bregðu mér eigi,</l>
+<l>brúðr ór steini,</l>
+<l>þótt væra ek fyrr</l>
+<l>í víkingu.</l>
+<l>Ek mun okkar</l>
+<l>æðri þykkja,</l>
+<l>hvars eðli menn</l>
+<l>okkart kunnu."</l>
+</lg>
+Gýgr kvað:
+<lg>
+<l>"Þú ert, Brynhildr</l>
+<l>Buðladóttir,</l>
+<l>heilli verstu</l>
+<l>í heim borin.</l>
+<l>Þú hefir Gjúka</l>
+<l>of glatat börnum</l>
+<l>ok búi þeira</l>
+<l>brugðit góðu."</l>
+</lg>
+Brynhildr kvað:
+<lg>
+<l>"Ek mun segja þér</l>
+<l>sanna ræðu,</l>
+<l>vélgjarnt höfuð,</l>
+<l>ef þik vita lystir,</l>
+<l>hvé gerðu mik</l>
+<l>Gjúka arfar</l>
+<l>ástalausa</l>
+<l>ok eiðrofa.</l>
+<l>Lét mik af harmi</l>
+<l>hugfullr konungr,</l>
+<l>átta systur</l>
+<l>undir eik búa.</l>
+<l>Var ek vetra tólf,</l>
+<l>ef þik vita lystir,</l>
+<l>þá er ek ungum gram</l>
+<l>eiða svarðak.</l>
+<l>Ek lét gamlan</l>
+<l>gýgjar bróður,</l>
+<l>Hjálmgunnar, næst</l>
+<l>heljar ganga.</l>
+<l>Gaf ek ungum sigr</l>
+<l>Auða bróður.</l>
+<l>Þar var mér Óðinn</l>
+<l>ofgreypr fyrir.</l>
+<l>Lauk hann mik skjöldum</l>
+<l>í Skatalundi</l>
+<l>rauðum ok hvítum.</l>
+<l>Randir snurtust.</l>
+<l>Þann bað hann slíta</l>
+<l>svefni mínum,</l>
+<l>er hvergi lands</l>
+<l>hræðask kynni.</l>
+<l>Lét hann um sal minn</l>
+<l>sunnanverðan</l>
+<l>hávan brenna</l>
+<l>hrotgarm viðar.</l>
+<l>Þar bað hann þegar einn</l>
+<l>yfir um ríða,</l>
+<l>þann er færði mér</l>
+<l>Fáfnis dýnu.</l>
+<pb n="184"/>
+
+<l>Reið góðr Grana</l>
+<l>gullmiðlandi,</l>
+<l>þar er fóstri minn</l>
+<l>fletjum stýrði.</l>
+<l>Einn þótti hann þar</l>
+<l>öllum betri</l>
+<l>víkingr Dana</l>
+<l>í verðungu.</l>
+<l>Sváfum vit ok undum</l>
+<l>í sæing einni,</l>
+<l>sem hann bróðir minn</l>
+<l>of borinn væri.</l>
+<l>Hvárki mátti</l>
+<l>hönd yfir annat</l>
+<l>átta nóttum</l>
+<l>okkart leggja.</l>
+<l>Því brá mér Guðrún</l>
+<l>Gjúkadóttir,</l>
+<l>at ek Sigurði</l>
+<l>svæfa í armi,</l>
+<l>Þá varð ek þess vís,</l>
+<l>at ek vilda eigi,</l>
+<l>at þau véltu mik</l>
+<l>í verfangi.</l>
+<l>Munu við ofstríð</l>
+<l>alls til lengi</l>
+<l>konur ok karlar</l>
+<l>kvikvir fæðask.</l>
+<l>Vit skulum okkrum</l>
+<l>aldri slíta,</l>
+<l>Sigurðr, saman.</l>
+<l>Sökkstu nú, gýgr."</l>
+</lg>
+Þá æpti gýgr ógurligri röddu ok hljóp inn í bjargit."
+Þá sögðu hirðmenn konungs: "Gaman er þetta, ok
+segðu enn fleira." Konungr mælti: "Eigi er nauðsyn
+at segja fleira frá þvílíkum hlutum." Konungr mælti:
+"Vartu nokkut með Loðbrókar sonum?" Gestr svarar:
+"Skamma stund var ek með þeim. Ek kom til þeira,
+þá er þeir herjuðu suðr at Mundíafjalli ok brutu
+Vífilsborg. Þá var allt við þá hrætt, því at þeir höfðu
+sigr, hvar sem þeir kómu, ok þá ætluðu þeir at fara
+til Rómaborgar.
+Þat var einn dag, at maðr nokkurr kom fyrir Björn
+konung járnsíðu ok heilsar honum. Konungr tekr honum
+vel ok spurði, hvaðan hann væri at kominn. Hann
+sagðist kominn sunnan frá Rómaborg. Konungr spurði:
+"Hvé langt er þangat?" Hann svaraði: "Hér máttu sjá,
+konungr, skó, er ek hefi á fótum." Tekr hann þá járnskó
+af fótum sér, ok váru allþykkir ofan, en mjök slitnir
+neðan. "Svá er löng leið heðan til Rómaborgar sem
+þér meguð nú sjá á skóm mínum, hversu hart at þeir
+<pb n="185"/>
+
+hafa þolat." Konungr mælti: "Furðu löng leið er þetta
+at fara, ok munu vér aptr snúa ok herja eigi á Rómaríki."
+Ok svá gera þeir, at þeir fara eigi lengra, ok
+þótti hernum þetta undarligt, at snúa svá skjótt sínu
+skapi við eins manns orð, er þeir höfðu áðr allt ráðs
+fyrir gert. Fóru Loðbrókar synir við þetta aptr ok
+heim norðr ok herjuðu eigi lengra suðr. Konungr
+sagði: "Auðsýnt var þat, at helgir menn í Róma vildu
+eigi yfirgang þeira þangat, ok mun sá andi af guði sendr
+verit hafa, at svá skiptist skjótt þeira fyrirætlan at gera
+ekki spellvirki inum helgasta stað Jesú Kristí í Rómaborg."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="10"><p>
+
+Enn spurði konungr Gest: "Hvar hefir þú þess komit
+til konunga, er þér hefir bezt þótt?" Gestr segir: "Mest
+gleði þótti mér með Sigurði ok Gjúkungum. En þeir
+Loðbrókar synir váru menn sjálfráðastir at lifa sem
+menn vildu. En með Eireki at Uppsölum var sæla mest.
+En Haraldr konungr hárfagri var vandastr at hirðsiðum
+allra fyrrnefndra konunga. Ek var ok með Hlöðvé konungi
+á Saxlandi, ok þar var ek prímsigndr, því at ek
+mátti eigi þar vera elligar, því at þar var kristni vel
+haldin, ok þar þótti mér at öllu bezt." Konungr mælti:
+"Mörg tíðendi muntu segja kunna, ef vér viljum
+spyrja." Konungr fréttir nú margs Gest. En Gestr segir
+þat allt greiniliga, ok um síðir talar hann svá: "Nú
+má ek segja yðr, hví at ek em Norna-Gestr kallaðr."
+Konungr sagðist þat heyra vilja.
+<pb n="186"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="11"><p>
+
+"Þat var, þá er ek var fæddr upp með föður mínum
+í þeim stað, er Græningr heitir. Faðir minn var ríkr
+at peningum ok helt ríkuliga herbergi sín. Þar fóru
+þá um landit völur, er kallaðar váru spákonur ok
+spáðu mönnum aldr. Því buðu menn þeim ok gerðu
+þeim veizlur ok gáfu þeim gjafir at skilnaði. Faðir minn
+gerði ok svá, ok kómu þær til hans með sveit manna,
+ok skyldu þær spá mér örlög. Lá ek þá í vöggu, er
+þær skyldu tala um mitt mál. Þá brunnu yfir mér tvau
+kertisljós. Þær mæltu þá til mín ok sögðu mik mikinn
+auðnumann verða mundu ok meira en aðra mína
+foreldra eða höfðingja syni þar í landi ok sögðu
+allt svá skyldu fara um mitt ráð. In yngsta nornin þóttist
+of lítils metin hjá hinum tveimr, er þær spurðu
+hana eigi eptir slíkum spám, er svá váru mikils verðar.
+Var þar ok mikil ribbalda sveit, er henni hratt ór sæti
+sínu, ok fell hún til jarðar. Af þessu varð hún ákafa
+stygg. Kallar hún þá hátt ok reiðiliga ok bað hinar hætta
+svá góðum ummælum við mik, -- "því at ek skapa
+honum þat, at hann skal eigi lifa lengr en kerti þat
+brennr, er upp er tendrat hjá sveininum." Eptir þetta
+tók in ellri völvan kertit ok slökkti ok biðr móður
+mína varðveita ok kveykja eigi fyrr en á síðasta degi
+lífs míns. Eptir þetta fóru spákonur í burt ok bundu
+ina ungu norn ok hafa hana svá í burt, ok gaf faðir
+minn þeim góðar gjafir at skilnaði. Þá er ek em roskinn
+maðr, fær móðir mín mér kerti þetta til varðveizlu.
+Hefi ek þat nú með mér." Konungr mælti: "Hví fórtu
+nú hingað til vár?" Gestr svarar: "Þessu sveif mér í
+skap. Ætlaða ek mik af þér nokkura auðnu hljóta
+<pb n="187"/>
+
+mundu, því at þér hafið fyrir mér verit mjök lofaðir
+af góðum mönnum ok vitrum." Konungr sagði: "Viltu
+nú taka helga skírn?" Gestr svarar: "Þat vil ek gera at
+yðru ráði." Var nú svá gert, ok tók konungr hann í
+kærleika við sik ok gerði hann hirðmann sinn. Gestr
+varð trúmaðr mikill ok fylgdi vel konungs siðum. Var
+hann ok vinsæll af mönnum.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="12"><p>
+
+Þat var einn dag, at konungr spurði Gest: "Hversu
+lengi vildir þú nú lifa, ef þú réðir?" Gestr svarar:
+"Skamma stund heðan af, ef guð vildi þat." Konungr
+mælti: "Hvat mun líða, ef þú tekr nú kerti þitt?" Gestr
+tók nú kerti sitt ór hörpustokki sínum. Konungr bað
+þá kveykja, ok svá var gert. Ok er kertit var tendrat,
+brann þat skjótt. Konungr spurði Gest: "Hversu gamall
+maðr ertu?" Gestr svarar: "Nú hefi ek þrjú hundruð
+vetra." "Allgamall ertu," sagði konungr. Gestr lagðist
+þá niðr. Hann bað þá ólea sik. Þat lét konungr gera.
+Ok er þat var gert, var lítit óbrunnit af kertinu. Þat
+fundu menn þá, at leið at Gesti. Var þat ok jafnskjótt,
+at brunnit var kertit ok Gestr andaðist, ok þótti öllum
+merkiligt hans andlát. Þótti konungi ok mikit mark
+at sögum hans, ok þótti sannast um lífdaga hans, sem
+hann sagði.
+</p></div>
+
+
+
+</div></body></text>
+</TEI>

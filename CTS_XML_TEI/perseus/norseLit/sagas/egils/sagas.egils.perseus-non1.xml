@@ -1,0 +1,740 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Egils saga einhenda ok Ásmundar berserkjabana</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Egils saga einhenda ok Ásmundar berserkjabana</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Egils_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="155"/> HERTRYGGUR hefir konungr heitit. Hann réð fyrir austr í Rússía. Þat er mikit
+      land ok fjölbyggt ok liggr milli Húnalands ok Garðaríkis. Hann var kvángaðr. Hann átti tvær
+      dætr. Hét hvártveggi Hildr. Þær váru vænar ok vel skapi farnar ok váru sæmiliga upp fæddar.
+      Konungr unni mikit dætrum sínum. Einn tíma bar þat til tíðenda, at konungr fór á dýraveiðar,
+      en in eldri Hildr á hnotskóg ok konur hennar. Hún var kölluð Brynhildr. Kom þat til þess, at
+      hún vandist við riddara íþróttir. Nú sem þær búast heim ór skóginum, kemr eitt mikit dýr, þat
+      er hjasi heitir, fram at þeim. Þat var mikit vexti ok grimmt. Þat á lengstan aldr af dýrum, ok
+      er þat fornmæli, at sá, sem gamall er, sé aldraðr sem einn hjasi. Þat er skapt sem
+      glatúnshundr ok hefir eyru svá stór, at þau nema jörð. En er þær sá dýrit, hljóp síns vegar
+      hver, en dýrit greip konungsdóttur ok hljóp í skóginn, en konurnar sögðu heim þessi tíðendi.
+      Varð konungr mjök hryggr ok lætr leita, ok finnst hún hvergi. Kemr engi sá, at <pb n="156"/>
+      honum kunni þar til at segja. Dofnar hér yfir sem annat, ok líðr til jóla. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> At jólum helt konungr veizlu dýrliga. Hildr in yngri nam hannyrðir ok sat í skemmu, ok var
+      hún Bekkhildr kölluð. Hún var vitr. Inn fyrsta dag jóla sendir konungr eptir dóttur sinni, ok
+      nú býr hún sik ok sínar skemmumeyjar, ok ganga út á strætit, ok fylgdu þeim sæmiligir hofmenn.
+      En er þær váru komnar fyrir grasgarð nokkurn, heyrðu þær gný mikinn ok sá fljúga einn
+      ógurligan gamm. Sýndust þeim hans vængir breiðast út yfir borgina, ok kemr mikit myrkr, en
+      þessi gammr tók konungsdóttur ok flýgr burt með hana, en laust til bana tvá hennar
+      þjónustumenn, en allir urðu ógurliga hræddir. Kómu þessi tíðendi nú í höllina, ok varð konungr
+      dapr mjök. Hann mælti: "Seint vill frá hefja um þann mannskaða, sem vér fáum. Kann ek eigi at
+      skilja, hverjar óvættir á munu liggja. Því skal þau mín orð mega bera, at hverr, sem þat vill
+      vinna til minna dætra at leita eptir þeim, þá skal sá, sem þær finnr, eiga þær ok þriðjung
+      míns ríkis, en ef þær finnast dauðar, skal sá hafa inn bezta jarlsdóm í mínu ríki ok þá
+      gifting, sem hann vill." En margir sögðu, at mikit væri út gefit, enda væri til mikils at
+      vinna. Líða nú jólin, ok ferr hverr heim til síns heimilis, ok þykkir mörgum mikils verð þessi
+      tíðendi. Líðr nú vetrinn ok sumarit eptir, ok at áliðnu hausti bar þar til tíðenda, at þar kom
+      skip eitt lítit vexti, en allt gulli búit fyrir ofan sjó. Þar váru á þrír tigir manna ok
+      þjónustumenn at auki. Konungr var fyrir í höfninni. <pb n="157"/> Þeir gengu fyrir konung ok
+      kvöddu hann. Hann tók vel kveðju þeira ok spurði, hverir þeir væri, en sá kveðst Ásmundr heita
+      ok kallaðr berserkjabani, er fyrir þeim var. "Hversu gamall maðr ertu?" sagði konungr. "Sextán
+      vetra," sagði Ásmundr. "Þik hefi ek gildastan sét," sagði konungr, "á þeim aldri, eða hvaðan
+      ertu at kominn?" "Ór hernaði," sagði Ásmundr, "en nú er komit at vetri, ok viljum vér hafa hér
+      friðland í vetr. Skortir oss eigi fé at leggja fyrir vára menn." Konungr segir þat til reiðu.
+      Lætr Ásmundr færa föng sín af skipi, ok var þeim fengit sæmiligt herbergi at geyma sitt góz,
+      en optast drakk Ásmundr í konungs höll. Hugnaðist Ásmundr þar vel ok hans menn. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Þá er Ásmundr hafði verit þar mánuð, var þat einn dag, at konungr sat yfir drykkju, at menn
+      kómu í höllina átján saman, allir mjök sárir. Sá hét Rögnvaldr, er fyrir þeir var,
+      landvarnarmaðr konungs. Hann kvaddi konung. Konungr tók vel kveðju hans ok spurði, hverr hann
+      hefði svá harðliga leikit. "Maðr er einn kominn í land yðvart," sagði Rögnvaldr. "Sá heitir
+      Egill. Hann er illr viðreignar. Hann rænti land yðvart, ok fór ek til móts við hann, ok hafði
+      ek fimm skip vel skipuð, en Egill hafði eitt skip ok á þrjá tigi manna. Þóttumst ek hafa ráð
+      hans í hendi mér, en svá skildu vit, at ek kom á flótta, ok váru drepnir menn mínir allir utan
+      þessir. En Egill þessi hefir aðra hönd ok er kallaðr Egill einhendi, ok vinnr hann meira sigr
+      með þeiri, sem af er. Er þar búit um eitt sverð, ok er þat dverga smíði, ok er því læst at
+      fyrir ofan úlflið, en hans högg standast <pb n="158"/> engir menn." Gekk Rögnvaldr þá til
+      sætis ok datt dauðr niðr. Konungr mælti: "Eigi má ek þat þola, at þín sé óhefnt." Ásmundr
+      svarar: "Svá mætta ek helzt launa yðr gott yfirlæti at finna Egil þenna." "Þat vil ek gjarna,"
+      sagði konungr, "ok hafið svá mikit lið sem þér vilið." "Ekki em ek vanr at auka liði við
+      jafnmarga menn," sagði Ásmundr, "en ef Egill hefir meira lið, þá munu landsmenn veita oss."
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Ásmundr fór nú til móts við Egil ok bað sína menn róa vápnaða at þeim. Egill var ekki
+      varbúinn ok spurði, hverr þar gerði svá gildan atróðr. Ásmundr sagði til sín, -- "ok á ek við
+      þik erendi." "Lát heyra þau," sagði Egill. "Ek vil skipta við þik vápnum," sagði Ásmundr, "ok
+      gefa sverð mót öxum." "Eigi viljum vér þess synja," sagði Egill, "eða er mikit fé á skipum
+      yðrum?" Ásmundr sagði eigi vera, -- "viljum vér afla þar nokkurs, sem þér eruð, eða hverju
+      vili þér bæta konungi fyrir rán?" "Ekki erum vér vanir," sagði Egill, "at leggja peninga
+      fyrir, þótt sveinar taki sér slátrsauði." "Þá munu vér eptir leita," sagði Ásmundr, "því at
+      konungr sendi mik eptir höfði þínu." "Hann vill þik þá feigan," sagði Egill, "ok gerumst heldr
+      fóstbræðr ok drepum konung ok göngum at eiga dætr hans." "Eigi eru þær lausar fyrir," sagði
+      Ásmundr, "því at þær hafa verit stolnar frá honum." "Þat er skaði, ef menn okkrir drepast
+      niðr," sagði Egill, "ok berjumst tveir heldr." Ásmundr kveðst þess albúinn. Þeir ganga nú á
+      land ok reyndu sínar íþróttir, ok var nær um með liðsmönnum <pb n="159"/> þeira, ok um kveldit
+      settust þeir í samdrykkju ok sváfu af um nóttina. En um morguninn tóku þeir Ásmundr ok Egill
+      vápn sín ok börðust sterkliga, ok þrimr skjöldum spillti hvárr fyrir öðrum. Var þá sól í fullu
+      suðri. Egill mælti þá: "Viltu eiga leik þenna lengr?" "Eigi er enn mikit um þreytt," sagði
+      Ásmundr, "ok eigi mun konungi þykkja rekit sitt erendi, ef vit hættum svá búit." "Þú munt
+      ráða," sagði Egill. "Hversu gamall maðr ertu?" sagði Ásmundr. "Átján vetra," sagði Egill. "Tak
+      vápn þín, ef þú vilt lengr lifa," sagði Ásmundr. Berjast þeir nú öðru sinni, ok sýnist æ sem
+      þeim sé dauðinn víss, sem til er höggvit. Ok sem sól er komin í útsuðr, mælti Egill: "Betra
+      ætla ek okkr at hætta þessum leik." "Hræðsla gengr þér til þess," sagði Ásmundr. Hann hafði þá
+      fengit eitt sár. "Ver þik nú þá," sagði Egill. Sóttust þeir þá í þriðja sinn. Átti Ásmundr þá
+      ekki annat at gera en hlífa sér, ok fengit hafði hann nú þrjú sár. Sér hann nú, at eigi mun
+      svá búit duga, kastar nú sverðinu ok hleypr á Egil. Verðr honum nú bág höndin, ok berast þeir
+      víða um völlinn, en svá kemr, at Egill fellr. Hafði hvárr slitit hjálminn af öðrum. "Eigi
+      nenni ek," sagði Ásmundr, "at bíta sundr í þér barkann, er sverð mitt er fjarri." "Sá er þér
+      nú beztr," sagði Egill. "Þat mun nú voga verða," sagði Ásmundr. Hljóp hann þá eptir sverði
+      sínu ok hljóp at Agli, en hann lá svá kyrr sem hár hans væri skorit. Ásmundr mælti: "Engum
+      manni ertu líkr, Egill. Stattu nú upp, ok vil ek nú boð þat, er þú hefir áðr boðit mér, at
+      vera þinn fóstbróðir." "Mikit þykki mér fyrir því," sagði Egill, "á ek þá at launa þér
+      lífgjöf." "Eigi mun ek drepa þik," sagði Ásmundr, "en þat vil ek, at þú farir með <pb n="160"
+      /> mér til konungs." Kómu þá menn þeira beggja ok báðu þá sættast. Takast þeir nú í hendr ok
+      sverjast í fóstbræðralag eptir fornum sið. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Þeir búa nú ferð sína ok koma til Tryggva konungs. Ásmundr kvaddi konung, en hann tók honum
+      vel ok spurði, hvárt hann hefði fundit Egil inn einhenda. Ásmundr kveðst hann fundit hafa, --
+      "ok hefi ek eigi sét vaskara mann, ok vill hann nú ganga í stað Rögnvalds ok vit báðir, at
+      verja land þitt." "Ef þú vilt selja mér trú þína," sagði konungr, "at þit gangið í hans stað,
+      þá mun ek taka sættir af ykkr." Ásmundr kveðst þat gera vilja. Var Egill þá til kallaðr, ok
+      gerðust þeir Ásmundr landvarnarmenn konungs ok sátu þar um vetrinn. At jólum hafði konungr
+      vinaboð, ok jóladag inn fyrsta spurði konungr eptir, hvárt nokkurr væri sá þar kominn, at
+      honum kynni at segja, hvat orðit mundi af dætrum hans, en þat kunni engi at segja. Lýsti
+      konungr þá þeim skilmála, sem hann hafði á gert. Egill sagði: "Þat væri röskum mönnum gott til
+      fjár at vinna." Eptir jólin fór hverr til síns heimilis. Þegar hávetri var liðit, settu þeir
+      Egill ok Ásmundr skip sitt á sjó ok völdu á fjóra menn ok tuttugu, en sá hét Víglogi, sem þeir
+      settu fyrir þá, sem eptir váru, en þeir sögðust mundu leita konungsdætranna ok eigi aptr koma,
+      fyrr en þær fyndist annathvárt lífs eða dauðar. Sigldu þeir nú í haf ok vissu aldri, hvert
+      þeir skyldu fara. Könnuðu þeir eyjar ok útsker ok fjallbyggðir ok fóru svá allt sumarit, en at
+      vetri váru þeir komnir norðr at Jötunheimum, ok lögðu þeir þar undir skóg einn <pb n="161"/>
+      ok bjuggust þar um ok settu upp skip sitt. Sögðu þeir sínum mönnum, at þeir skyldu þar
+      dveljast um vetrinn. "Skulu vit Egill," sagði Ásmundr "kanna land þetta, en ef vit komum eigi
+      aptr at sumri, þá skulu þér fara, hvert sem yðr lystir." Ganga þeir nú á mörkina ok skjóta dýr
+      ok fugla til matar sér. Váru þeir á mörkum, svá at mánuðum skipti, ok fengu stundum engan mat.
+      Eitt sinn kómu þeir í dal einn. Á ein var þar ok eyrar sléttar, en upp yfir skógr ok hamrar.
+      Þar sá þeir margt geitfé ok feita hafra. Ráku þeir saman féit ok tóku einn feitan hafr ok
+      sögðust skyldu skera hann, ok því næst heyra þeir kvæklat upp yfir sik. Stukku þá burt allar
+      geitrnar, ok varð þeim lauss hafrinn. Þeir sá kvikendi uppi í hömrunum. Þat var meira á
+      þverveginn en hæðina. Þat var svá hvellt sem bjalla ok spurði, hverir svá djarfir væri, at
+      stela vildu hafri drottningarinnar. Ásmundr mælti: "Hver ertu, in fagra ok in bólfimliga, eða
+      hvar ræðr drottning þín?" "Skinnnefja heiti ek," sagði hún, "en móðir mín Arinnefja. Hún er
+      drottning hér í Jötunheimum ok býr skammt burt heðan. Mættu þit finna hana heldr en stela."
+      "Satt segir þú þat," sagði Ásmundr. Tók hann þá fingrgull ok gaf Skinnnefju. "Eigi þori ek at
+      þiggja," sagði hún, "at þér, því at ek veit, at móðir mín segir, at þat sé hvílutollr minn."
+      "Eigi er ek vanr at taka aptr þat, sem ek gef," sagði Ásmundr, "en þiggja munu vit, at þú
+      umgangir okkr greiða." Síðan fór hún heim undan ok finnr móður sína. Kerling spurði, hví hún
+      væri svá sein. Hún kveðst hafa fundit tvá menn beinaþurfi, -- "ok gaf annarr þeira mér gull ok
+      bað mik vísa þeim til gistingar." "Hví þáttu gull?" sagði hún. "Ek ætlaða hjá þér til
+      launanna," sagði Skinnnefja. "Hví battu þá ekki hingat <pb n="162"/> fara?" sagði kerling. "Ek
+      vissa eigi, hversu þér var um þat gefit," sagði hún. "Bjóð þeim hingat," sagði kerling.
+      Skinnnefja hljóp þegar ok mælti: "Móðir mín bað ykkr koma til sín. Skulu þit vera léttir af
+      tíðendum. Mun hún á flestu kunna grein at gera." Nú finna þeir kerlingu. Hún spurði þá at
+      nafni. Þeir sögðu it sanna til. Kerling var starsýn á Egil. Þeir sögðust eigi hafa etit mat á
+      sjau dögum. Kerling var at at renna mjólk. Hún átti fimm tigi geita, ok mjólkuðu sem kýr. Hún
+      átti ketil stóran, ok tók hann alla mjólkina. Hún átti hveitiakr stóran. Tók hún þar svá mikit
+      mjöl, at hún gerði hvern dag graut í katlinum, ok höfðu þær þat til viðrlífis. "Þú,
+      Skinnnefja," sagði hún, "tak hrís ok ger eld brenniligan. Mun eigi of vel plagat, þótt þeir
+      eti grautinn." Skinnnefja hafði í flýti. En kerling bað þá herða á, þat fyrst sem til væri.
+      Kom þar fram dýra hold ok fugla. Kerling mælti: "Verum eigi hljóð, þó at eigi verði svá vel
+      plagat sem vera skyldi. Mun langt, áðr en grautrinn er búinn, ok seg þú ævisögu þína, Ásmundr,
+      en þá skal Egill við taka, en þá mun ek skemmta til borðprýði af því, sem yfir mik hefir
+      borit, ok forvitnar mik at vita, hverrar ættar þit eruð eða hvat undir ferðum ykkrum býr."
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Ásmundr tók þá til orða: "Óttarr hét konungr. Hann réð fyrir Hálogalandi. Sigríður hét
+      drottning hans, dóttir Óttars jarls af Jótlandi í Danmörk. Þau áttu einn son. Sá hét Ásmundr.
+      Hann var mikill vexti. Vandist hann við íþróttir, ok þá hann var tólf vetra, <pb n="163"/>
+      þótti hann af bera öllum þeim, sem þar váru. Helt hann marga leiksveina. Eitt sinn, er þeir
+      váru á skóg riðnir, fann Ásmundr einn hera. Hann sleppti hundum sínum til hans. Herinn hljóp
+      undan, ok gátu hundarnir ekki farit hann. Ásmundr gaf ekki fyrr upp en hestrinn fell af mæði.
+      Hljóp hann þá ok elti dýrit með hundunum. Lauk svá, at herinn steypti sér ofan fyrir
+      sjóvarhamra. Ásmundr sneri þá til hestsins ok fann hann eigi. Var þá komit kveld. Svaf Ásmundr
+      af um nóttina, en at morgni var komin þoka svá myrk, at hann vissi eigi, hvar hann var kominn.
+      Þrjá daga villtist hann á skóginum. Þá sá hann mann ganga á móti sér mikinn ok fríðan í
+      skarlatskyrtli, en hárit gult sem silki. Eigi þóttist Ásmundr vænna mann sét hafa. Heilsar nú
+      hvárr öðrum. Ásmundr spurði hann at nafni. Hann kveðst Árán heita, sonr Róðíáns konungs af
+      Tattaríá, -- "hefi ek verit í hernaði." "Hversu gamall ertu?" sagði Ásmundr. "Tólf vetra,"
+      sagði Árán. "Þar munu ekki fleiri þínir líkar," sagði Ásmundr. "Engum var ek þar líkr," sagði
+      Árán, "ok því strengda ek þess heit at koma eigi aptr, fyrr en ek hefða fundit annan minn líka
+      at aldri ok íþróttum. Nú hefi ek frett til eins manns, er Ásmundr heitir, sonr konungs af
+      Hálogalandi, eða kanntu nokkut at segja mér til hans, því at mér er sagt, at þar muni skammt
+      manna á milli?" "Þann mann þekki ek gerla," sagði Ásmundr, "ok talar hann nú við þik." "Þá
+      gengr at óskum," sagði Árán, "ok megu vit nú prófa okkra fimleika." Ásmundr kveðst þess búinn.
+      Síðan frömdu þeir allar íþróttir, þær ungum mönnum váru tíðar í þær mundir, ok váru þeir svá
+      jafnir, <pb n="164"/> at ekki mátti á millum sjá. Síðast tóku þeir fang, ok váru harðar
+      sviptingar með þeim, ok mátti eigi mun gera, hvárr sterkari var, ok skildu svá, at þeir váru
+      báðir móðir. Þá talaði Árán til Ásmundar: "Ekki skulu vit vápnaskipti prófa, því at þat verðr
+      skaði okkar beggja. Vil ek, at vit sverjumst í fóstbræðralag, at hvárr skal annars hefna ok
+      eiga fé saman, fengit ok ófengit." Þat fylgdi ok svardaga þeira, at hvárr, sem lengr lifði,
+      skyldi láta verpa haug eptir annan ok láta þar í svá mikit fé sem þeim þætti sóma. Síðan skal
+      sá, sem lengr lifir, sitja hjá inum dauða þrjár nætr í haugi ok fara síðan burt, ef hann
+      vildi; vöktu sér síðan blóð ok létu renna saman. Heldu menn þat þá eiða. Árán bauð honum nú at
+      fara til skipa með sér ok sjá sinn fararblóma. En með því at Ásmundr var þá í Jótlandi með
+      Óttari jarli, móðurföður sínum, þá lét hann Árán ráða. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Þeir fara nú til skipa Áráns, ok váru þau tíu langskip með góðum drengjum skipuð. Árán gaf
+      Ásmundi helming liðs ok skipa. Ásmundr bað, at þeir mundu sigla til Hálogalands, ok vildi hann
+      hafa þaðan sitt lið ok skip. Árán sagðist fyrst vilja sigla til síns lands ok koma svá til
+      Hálogalands, at landsmenn mætti sjá, at þeir væri ekki stafkarlar. Ásmundr bað hann ráða.
+      Sigldu þeir síðan í haf, ok gaf þeim vel byri. Ásmundr spurði, hvárt Róðíán konungr ætti ekki
+      fleiri barna. Árán sagði, at hann ætti son, er Herrauðr hét, við dóttur konungs af Húnalandi,
+      -- "er hann bæði vaskr maðr ok vinsæll, ok stendr hann til ríkis í Húnalandi. Faðir <pb
+       n="165"/> minn á bræðr tvá. Heitir annarr Hrærekr, en annarr Siggeirr. Þeir eru berserkir ok
+      illir viðreignar ok ekki þokkasælir af landsmönnum. Konungr hefir mikit traust á þeim, því at
+      þeir gera þat, er hann vill. Þeir liggja í hernaði ok færa konungi gersimar." Er nú eigi getit
+      um þeira ferð, fyrr en þeir koma við hafnir Róðíáns konungs. Þar sá þeir fljóta tólf herskip
+      ok tvá dreka svá væna, at enga sá þeir slíka. Þar váru komnir bræðr tveir utan af
+      Blökkumannalandi. Hét annarr Bolabjörn, en annarr Vísinn. Gormr jarl hét faðir þeira. Þeir
+      höfðu drepit Róðíán konung ok eytt víða landit ok gert mikit hervirki. En er þeir fóstbræðr
+      urðu þessa varir, þá létu þeir kveða við lúðra. En þegar landsmenn urðu varir, at Árán var
+      kominn, dreif at honum múgr ok margmenni. Víkingar drifu til skipa, ok tókst bæði harðr
+      bardagi ok mannskæðr, ok var þat langa stund, at eigi mátti millum sjá. Árán hljóp á skip til
+      Bolabjarnar ok ruddist um fast, ok hrökk allt undan honum. Bolabjörn réðst mót honum. Árán hjó
+      til hans í beran skallann, en sverðit beit eigi, en duptit hraut ór skallanum, ok stökk
+      sverðit sundr undir hjöltunum. Bolabjörn hjó í mót í skjöldinn Áráns ok klauf hann at
+      endilöngu, ok fekk Árán sár mikit á bringuna. Stokklaust akkeri lá á þilfarinu, ok greip Árán
+      þat upp ok rak í höfuð Bolabirni, svá at flýit sökk, ok kippti Árán honum út af borðinu, ok
+      sökk hann til grunna. Vísinn hljóp á skip til Ásmundar ok skaut at honum tveim kesjum í senn.
+      Ásmundr skaut skildi fyrir aðra, ok hljóp hún í gegnum skjöldinn ok í handlegg Ásmundar fyrir
+      framan olbogann, svá at í beini stóð. Aðra kesjuna tók Ásmundr á lopti ok skaut aptr á Vísin
+      ok hæfði í ginit á honum, svá at út gekk um hnakkann <pb n="166"/> ok upp á mitt skaptit.
+      Spjótit hljóp í siglutréit, svá at langt gekk upp á fjöðrina, ok hekk Vísinn þar dauðr. Eptir
+      þat gáfust víkingar upp, en Árán lét höggva alla fyrir borð, gengu síðan í borgina, ok fögnuðu
+      landsmenn Áráni, ok váru bundin sár þeira, en síðan er Áráni gefit konungsnafn. Lýsti hann þá
+      skildaga þeira Ásmundar ok gaf honum allt hálft við sik. En er þeir höfðu eigi fullan mánuð
+      heima verit, þá varð Árán bráðdauðr einn dag, er hann gekk í höll sína. Var þá búit um lík
+      hans eptir þeira sið. Ásmundr lét verpa haug eptir hann ok setti hjá honum hest hans með söðli
+      ok beizli, merki ok öll herklæði, hauk ok hund. Árán sat á stóli í öllum herklæðum. Ásmundr
+      lét færa stól sinn í hauginn ok settist þar á. Haugrinn var þá byrgðr. En ina fyrstu nótt reis
+      Árán af stólinum ok drap haukinn ok hundinn ok át hvárttveggja. Aðra nótt stóð Árán upp ok
+      drap hestinn ok sundraði ok tók á tannagangi miklum ok át hestinn, svá at blóð fell um kjapta
+      honum. Bauð hann Ásmundi til matar með sér, en Ásmundr þagði. Ina þriðju nótt tók Ásmund at
+      syfja. Varð hann þá eigi fyrr varr við en Árán greip í eyrun á honum ok sleit þau af honum
+      bæði. Ásmundr brá þá saxi ok hjó höfuð af Áráni. Tók hann síðan eld ok brenndi Árán at ösku ok
+      gekk síðan til festar. Var hann þá upp dreginn, en haugrinn byrgðr, ok hafði Ásmundr með sér
+      þat fé, sem lagt var í hauginn. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Litlu síðar hafði Ásmundr þing við landsmenn ok spurði, hvat þeir vildu halda af því, sem
+      þeir Árán höfðu saman bundit, en menn lögðu þar misjafnt til. Þeir menn, er Árán hafði gefit
+      Ásmundi, vildu honum <pb n="167"/> at fylgja. Þessu næst varð þeim litit til hafs, ok sáu menn
+      þá skip sigla at landi, ok váru þar komnir þeir bræðr, berserkirnir Hrærekr ok Siggeirr, ok
+      hugðu allir illt til þess. Ásmundr bauð þeim sína forstöðu, en engir váru til at rísa á mót
+      þeim. Fór Ásmundr til skipa sinna við sína menn. En er berserkirnir vissu þau tíðendi, sem þar
+      váru orðin, kölluðu þeir sér land allt. Ásmundr sagði þeim einkamál þeira Áráns ok kallaði sér
+      hálft landit. Berserkirnir báðu hann burt verða, ef hann vildi halda lífinu. Ásmundr bauð
+      einvígi hvárum, sem vildi, ok lægi þar land undir, en þeir grenjuðu í móti ok báðu menn sína
+      vápnast, ok tókst þá bardagi með þeim. Hafði Ásmundr lið minna, en landsmenn þorðu honum eigi
+      lið at veita. Fellu menn Ásmundar allir, ok varð hann handtekinn. Var þá komit at kveldi. Urðu
+      þeir á þat sáttir, at um morguninn skyldi höggva hann á haugi Áráns ok gefa hann Óðni til
+      sigrs sér. Var hann þá bundinn við vindásinn, en menn fóru allir til lands ok sváfu af um
+      nóttina í herbúðum ok bundu sár sín. Þeir bræðr lágu í litlu tjaldi skammt frá herbúðunum ok
+      fátt manna með þeim. Nú er at segja frá Ásmundi, at hann sat upp við vindásinn. Hann sá
+      járnloku eina, er fram stóð ór vindásnum. Þar hafði komit í högg mikit, ok reis á röndinni úfr
+      hvass. Þar gneri Ásmundr við strengnum, ok skarst hann í sundr, því at járnit var hvasst. Var
+      Ásmundr þá lauss. Braut hann nú fjöturinn af fótum sér. Vindr stóð á land. Ásmundr hjó
+      strenginn, ok rak skipit upp at skóginum, ok því næst var Ásmundr á landi. Kom honum nú í hug
+      at glettast nokkut við berserkina, áðr hann færi í skóginn. Ferr hann nú til tjalds þess, sem
+      þeir sváfu inni, ok fellir á þá tjaldit. <pb n="168"/> Þeir spruttu upp, sem inni váru, ok
+      varð þeim ógreið útgangan, því at tjaldit flæktist fyrir þeim. Ásmundr hjó í höfuð Hræreki ok
+      klauf niðr í jaxla. Siggeirr komst út ok vildi hlaupa í skóginn. Ásmundr hljóp eptir honum.
+      Siggeirr drap fæti, en Ásmundr hjó eptir honum á hrygginn fyrir neðan þat, sem hann var
+      mjóstr, ok tók hann þar sundr. Síðan fór Ásmundr í skóginn. Drepit hafði hann tíu menn með
+      berserkjunum. Menn leituðu hans ok fundu hann eigi, en áðr en dagrinn var úti, kom Herrauðr
+      konungsson með tuttugu skipum, ok urðu honum allir fegnir. Spurt hafði hann öll þau tíðendi,
+      sem þar höfðu orðit, en síðan átti hann þing við landsmenn ok lýsti sinni eign á landinu ok
+      beiddist viðtöku, en engi mælti á mót, ok var hann til konungs tekinn yfir allt landit, en
+      menn þeir, sem fylgt höfðu berserkjunum, váru burt reknir, en Herrauðr tók fé þeira. Þá kom
+      Ásmundr á fund Herrauðs. Hann kvaddi konung. Herrauðr spurði, hvat manna hann væri. Hann sagði
+      til it sanna. Herrauðr spurði, hvárt hann hefði drepit berserkina. Hann kvað þat satt vera.
+      "Hví fórtu þá á minn fund?" sagði hann. "Ek sá minn engan betra," sagði Ásmundr, "en ek
+      þóttumst þá drepa fleski í kál þitt. Fór ek því á þinn fund, at ek vissa, at mér mundi eigi
+      tjá at forðast þik, ok vil ek nú vita minn hlut, hverr vera skal. Mun ek verja mik, meðan ek
+      get, ef ek á lífi at forða, en þiggja betri kosti, ef boðnir eru." "Frétt hefi ek ummæli ykkur
+      Áráns," sagði Herrauðr, "ok ætla ek vel fallt at taka þik í bróður stað, því at miklar
+      meinvættir þótti mér af ráðnar, er berserkirnir váru drepnir" Síðan var Ásmundr með Herrauði,
+      ok kom þeim vel saman. Því næst bað Ásmundr hann fá sér skip ok vill fara í hernað, ok
+      Herrauðr bað hann <pb n="169"/> velja bæði skip ok menn svá marga sem ek vilda ok bað hann
+      sitja hjá sér þeim stundum, sem hann vildi. Ásmundr valdi þrjá tigu manna af liði hans ok
+      hafði eitt skip. Skildu þeir með vináttu ok lofuðu, at þeir skyldu bræðr hittast, hvar sem
+      þeir fyndust. Kölluðu þeir hann nú Ásmund berserkjabana, ok endast þar nú mín saga, at ek er
+      þessi sami Ásmundr." "Mikil þykki mér saga þín," sagði kerling, "eða hvat líðr nú grautnum,
+      genta?" "Nú er komin á vella," sagði Skinnnefja. "Langt mun þá, áðr en búinn er," sagði
+      drottning, "eða hvat segir þú til, Egill?" </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> "Þat er upphaf minnar sögu," sagði Egill, "at Hringr hét konungr. Hann réð fyrir Smálöndum.
+      Ingibjörg hét kona hans. Hún var dóttir Bjarkmars jarls af Gautlandi. Þau áttu tvau börn.
+      Egill hét sonr þeira, en Æsa dóttir. Egill óx upp með hirð föður síns, þar til at hann var
+      tólf vetra gamall. Hann var mikill fyrir sér ok óstýrilátr, kappsamr ok ódæll. Hann lagði lag
+      sitt við drengi ok lagðist út á skóga at skjóta dýr ok fugla. Vatn mikit var í skóginum, ok
+      váru þar í eyjar margar. Þar fóru þeir Egill á sund jafnan, því at þeir vöndu sik mjök við
+      íþróttir. Eitt sinn ræddi Egill um við þá, hverr lengst mundi geta lagizt í vatnit, því at svá
+      var langr vegrinn í þá ey, sem first var landi, at hana sá eigi, utan þeir gengi upp í há tré
+      til. Nú leggjast þeir á vatnit, ok váru saman þrír tigir. Skyldi þar hverr eptir vera, sem
+      hann treysti sér eigi lengra at fara. Leggjast þeir nú um vatnit, ok váru sum sundin breið
+      mjök. Egill var fljótastr <pb n="170"/> á sundinu, ok gat engi fylgt honum. Ok er þeir váru
+      langt frá landi komnir, þá kom þoka svá myrk, at engi sá annan, ok gerði þá vind kaldan.
+      Villtust þeir nú á sundinu, ok eigi vissi Egill, hvat af sínum mönnum varð. Hvarflaði hann nú
+      um vatnit tvau dægr. Kom hann þá at landi ok var svá máttdreginn, at hann varð at skríða á
+      land, ok reytti hann á sik mosa ok lá þar um nóttina, en at morgni var honum nokkut hitnat.
+      Kom þá ór mörkinni risi einn mikill. Hann tók Egil upp undir hönd sér ok mælti: "Þat er vel,
+      Egill, at vit höfum hér fundizt. Eru tveir kostir við þik af minni hendi, annathvárt, at ek
+      drep þik, elligar hitt, at þú geymir geita minna, svá lengi sem ek lifi, ok sverir mér þar at
+      eið." Egill dvaldi þat eigi, því at þá var ór vöndu at ráða. Fóru þeir nú margar dagleiðir ok
+      þar til, er þeir kómu til hellis, er jötunninn átti fyrir at ráða. Jötunninn átti hundrað
+      hafra ok margt geitfé annat. Lét hann þat standa á niðrlögum sínum, at þeir skyldu aldri færi
+      vera. Egill tók við fjárgeymslu, ok váru geitrnar óspakar. Fór svá fram lengi. En er Egill
+      hafði þar verit tólf mánaði, þá hljóp hann burt eitt sinn. En er jötunninn varð varr þess, fór
+      hann eptir honum, því at hann var svá margvíss, at hann rakti spor líka á sjó sem á fönnu.
+      Jötunninn fann hann í helli einum. Hafði hann nú fjóra daga á burt verit. Jötunninn sagði, at
+      hann hafði verr gert en hann átti skilit. "Skaltu nú," sagði hann, "hafa þat, sem þér er
+      verra." Síðan tók hann tvá steina, ok vágu hálfvætt báðir. Þar váru fastar við járnhespur.
+      Hann læsti þær at fótum Agli ok sagði, at hann skyldi þetta draga. Þetta erfiði átti Egill
+      sjau vetr, en jötunninn var svá varr um sik, at hann sá aldri færi sitt á at drepa hann. <pb
+       n="171"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Þat var eitt sinn, at Egill fór at leita geita sinna. Hann fann einn kött í skóginum. Egill
+      gat nát kettinum ok hafði heim með sér. Kom hann nú seint heim um kveldit. Þá var fallinn
+      fölski á eldinn. Jötunninn spurði, hví hann hefði svá seint heim komit, en Egill sagðist eigi
+      vera létt búinn til gangsins, en kvað geitrnar víða rása. "Mik undrar," sagði jötunninn, "at
+      þú finnr þat, sem þú leitar at, í myrkrinu." "Því valda gullaugu mín," sagði Egill. "Áttu
+      önnur augu en þau, sem ek hefi sét?" sagði jötunninn. "Á ek víst," sagði Egill. "Sýn mér,"
+      sagði jötunninn, "gersimar þessar." "Ræntu mik þeim þá eigi," sagði Egill. "Mér mun eigi gagn
+      at þeim," sagði jötunninn. "Engum gagnast þau," sagði Egill, "nema ek búi um." Síðan fletti
+      Egill upp stakkinum. Sá jötunninn þá í glyrnur kettinum innar yfir eldinn, ok var sem stjörnur
+      skini. "Þetta eru fagrir gripir," sagði jötunninn, "eða viltu selja mér augun?" "Þá er ek verr
+      birgr eptir," segir Egill, "en ef þú vilt gefa mér frelsi ok leysa af mér fjötrana, þá mun ek
+      selja þér augun." "Muntu koma þeim svá til lags," sagði jötunninn, "at mér verði gagn at?"
+      "Við þat mun ek leita," sagði Egill, "en sinasárt mun þér þykkja," sagði Egill, "at þola
+      atgerðirnar, því at spretta verðr til hátt hvörmunum ok búa þar um, sem þau skulu liggja.
+      Skaltu þau ávallt burt taka, þá er lýsir, ok eigi inn setja, fyrr en dimmt er, ok mun ek binda
+      þik hér við súluna." "Þá muntu drepa mik," sagði jötunninn, "ok er þat níðingsverk." "Þat skal
+      ek eigi gera," sagði Egill. Þessu kaupa þeir. Tekr jötunninn nú af honum hespurnar. <pb
+       n="172"/> "Nú hefir þú vel gert," sagði Egill, "enda vil ek nú því heita þér, at ek skal þér
+      þjóna, meðan þú lifir." Síðan bindr Egill jötuninn ok tók einn tvíangaðan flein ok rekr í bæði
+      augun á jötninum, svá at þau liggja út á kinnarbeinunum. Við þat varð jötninum svá illt, at
+      hann brá svá hart við, at hann sleit af sér öll böndin ok fálmaði til Egils ok reif af honum
+      alla yfirhöfnina. "Nú ertu gæfulauss," sagði Egill, "þar fellu gullaugun ofan í eldinn, ok
+      nýtr þeira nú hvárrgi okkar." "Illa hefir þú mik dárat," sagði jötunninn. "Skaltu hér nú inni
+      svelta ok aldri út komast." Hljóp jötunninn þá í dyrnar ok lætr þær aptr sterkliga. Þykkist
+      Egill nú illa staddr. Er hann nú svá fjórar nætr í hellinum, at hann fær engan mat, því at
+      jötunninn geymir at hellinum. Þat verðr nú hans ráð, at hann drepr inn stærsta hafrinn ok flær
+      af honum belg ok ferr í sjálfr ok saumar at sér sem þröngvast. Inn fjórða morgin rekr hann
+      hafrana til dyranna. Jötunninn hafði sperrt þumalfingrinum upp undir bergit, ok tók þá inn
+      minnsti ofan á þresköldinn, ok áttu hafrarnir at renna í greipr honum, ok hlammaði mjök við á
+      hellisgólfinu. Jötunninn mælti: "Vind veit nú á, at brakar í klaufum á kjappa mínum." Renna nú
+      hafrarnir út milli handa honum. Egill fór seinast, ok heyrði ekki klaufagang hans. "Hægt
+      hokrar þú nú, Hornskeggi," sagði jötunninn, "ok heldr þykkr um bóguna." Tók hann þá í lagðana
+      tveim höndum, en Egill brá við svá hart, at rifnaði hafrstakan, ok varð hann lauss. "Nauztu nú
+      þess, at ek var blindr," sagði jötunninn, "ok er þat illa, at vit skulum svá skilja, at þú
+      hafir þess engar menjar, svá lengi sem þú hefir mér þjónat, ok þigg hér nú gullhring." Þat var
+      mikil gersemi. Agli sýndist fagr hringrinn ok seilist í móti. En <pb n="173"/> er jötunninn
+      fann, at hann tók í hringinn, þá kippti hann at sér ok hjó til Egils ok af honum eyrat it
+      hægra. Naut Egill þess, at jötunninn var blindr. Egill hjó af jötninum höndina hægri ok náði
+      hringnum. "Nú skal ek halda orð mín," sagði Egill, "ok drepa þik ekki. Skaltu lifa við
+      harmkvæli, ok sé sá þinn dagr verstr, er síðast kemr yfir þik." Skildi þar með þeim, ok fór
+      Egill í burtu. Lá hann úti á skógum. En er hann kom fram ór skóginum, váru fyrir honum
+      víkingaskip nokkur. Hét sá Borgarr, er fyrir þeim réð. Egill gekk í lið með þeim ok reyndist
+      inn vaskasti maðr. Váru þeir í hernaði um sumarit. Þeir börðust í Svíaskerjum við berserk
+      þann, er Glammaðr hét. Hann átti kjörvápn, einn brynþvara, ok mátti kjósa mann fyrir, þegar
+      hann vissi nafn hans. En þegar í öndverðum bardaganum hljóp Glammaðr á skip til Borgars ok
+      lagði brynþvaranum í gegnum hann. Egill var nær staddr ok hafði brotit spjót sitt af skapti.
+      Hann reiddi upp spjótskaptsbrotit ok rak við eyra Glammaði, svá at hann fauk útbyrðis, ok sökk
+      Glammaðr ok brynþvarinn, ok kom hvárki upp síðan. Víkingar gáfust nú upp. Gera þeir nú Egil
+      höfðingja sinn, ok valdi hann af þeim tólf menn ok tuttugu. Herjaði Egill nú í Austrveg, ok
+      bar margt til tíðenda í hans hernaði. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> Eina nótt lá Egill í höfn nokkurri, ok gaf honum ekki at sigla. Hann gekk á land einn
+      saman. Hann kom í eitt rjóðr í skóginum. Hann sá þar á hól einum jötun mikinn ok eina
+      flagðkonu. Þau drógust um einn <pb n="174"/> gullhring, ok varð hún orkuvana fyrir honum, ok
+      fór hann hrakliga með hana, ok mátti þar sjá viðrlita mikil sköp, því at hún var stuttklædd.
+      Hún loddi á hringinum eptir megni. Egill hjó til jötunsins, ok kom á öxlina. Jötunninn
+      snaraðist við, ok renndi sverðit ofan eptir handleggnum ok tók ór aflvöðvann, ok var þat svá
+      mikit stykki, at einn maðr mundi eigi meira lypta. Jötunninn hjó til Egils, ok kom á höndina
+      við úlfliðinn ok tók af. Fell á jörð bæði höndin ok sverðit. Jötunninn bjóst til at veita högg
+      annat. Sá Egill þá ekki annan sinn kost en at flýja. Jötunninn elti hann at skóginum, ok
+      skildi þar með þeim, ok komst Egill undan í skóginn. Kom hann nú svá til sinna manna, at eptir
+      var hönd hans. Sigldu þeir þá í burt þaðan. Egill fekk mikinn verk í höndina. En er tvær nætr
+      váru liðnar, kom hann í höfn eina, ok lágu þar um nóttina. Gat Egill þá ekki borit af sér
+      verkinn. Stóð hann þá upp ór sænginni, ok gekk Egill upp á skóginn. Kom hann þá at bekk einum.
+      Þótti honum þat helzt frói at hafa höndina niðri í læknum ok láta strauminn leika um sárit.
+      Því næst sá Egill, út ór einum steini hvar kom eitt dvergsbarn. Þat sótti vatn í skjólu. Egill
+      tók fingrgull af hendi sér með tönnunum ok lét reka í skjóluna fyrir barnit, en þat hljóp inn
+      í steininn. Litlu síðar kom dvergrinn út ok spurði, hvar maðr væri, er glatt hefði barn sitt.
+      Egill sagði til sín ok sagði sér lítit skulu gull, meðan hann væri þanninn farandi. "Þat er
+      illt at vita," sagði dvergrinn, "ok far með mér inn í steininn." Egill gerði svá. Tók
+      dvergrinn þá at binda um stúfinn, ok tók ór verk allan, ok var gróinn um morguninn. Tók
+      dvergrinn þá at smíða honum eitt sverð, en upp frá hjöltunum gerði hann fal svá langan, at upp
+      tók <pb n="175"/> yfir olbogann, ok mátti þar spenna at, ok var Agli svá hægt at höggva með
+      því sverði sem heil væri höndin. Dvergrinn gaf honum marga góða gripi, ok skildu þeir með
+      vináttu. Fór Egill þá til sinna manna. Ok er nú lokit svá sögu minni at sinni," sagði Egill,
+      "at ek var þessi inn sami Egill sem nú hefi ek frá sagt um stund." "Í miklar þrautir þykki mér
+      þú komit hafa," sagði drottning, "eða hvat líðr nú grautnum, genta?" "Ek ætla, at hann sé
+      fullvelldr," sagði hún, "en þó er hann svá heitr, at hann er engum manni ætr, meðan hann er
+      slíkr." "Þat mun næri hafa," sagði drottning, "at hann sé kólnaðr, er ek hafi sagt mitt
+      ævintýr, því at ekki hefir margt yfir mik drifit." </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="12">
+     <p> "Öskruðr hét jotunn," sagði hún. "Hann var kominn ór Jötunheimum. Kúla hét drottning hans.
+      Bræðr hans váru þeir Gautr ok Hildir. Faðir minn, Öskruðr, ok móðir áttu átján dætr, ok var ek
+      yngst af þeim, ok var þat allra manna mál, at ek væri vænst af þeim. Faðir minn ok móðir tóku
+      sótt ok dóu bæði, ok váru þau tyrfð ok tröllum gefin, en vér systr tókum allt lausafé öll, en
+      þeir Gautr ok Hildir áttu landit, ok urðu þeir lítt ásáttir. Faðir minn hafði átt þrjá
+      kostgripi. Þat var horn ok tafl ok gullhringr. Þeir bræðr tóku hornit ok taflit af oss
+      systrum, en hringinum gátum vit haldit, ok er þat góðr gripr. Systr mínar vildu bjóða yfir
+      mik, ok varð ek ein at þjóna allt, en ef ek mælti á móti, þá börðu þær á mér. Þóttumst ek þá
+      eigi mega við vera. Hét ek þá á Þór at gefa honum hafr þann, <pb n="176"/> sem hann vildi
+      velja, en hann skyldi jafna með oss systrum. Þórr kom til vár. Hann lagðist með systur minni
+      inni elztu ok lá hjá henni um nóttina, en þær systr öfunduðu hana ok drápu hana um morguninn.
+      Svá gerði Þórr við allar systr mínar, at hann lá þær allar, ok váru allar drepnar, en þat
+      kunni hver þeira at mæla við aðra, ef nokkurri yrði þess auðit at eiga barn við Þór, at þat
+      skyldi hvárki vaxa né vel dafna. Síðan lá Þórr hjá mér ok gerði mér stúlku þessa, sem nú megið
+      þit hér sjá, ok hefir þat hrinit á henni, sem þær báðu, því at hún er nú alin minni en þá er
+      hún kom til. Þórr gaf mér allan arfinn eptir þær systr. Hefir hann ávallt verit mér í liðsinni
+      síðan. Tók ek þá undir mik alla peningana. Sótti mik nú svá mikil ergi, at ek þóttumst eigi
+      mannlaus lifa mega. Hringr hét sonr konungs af Smálöndum. Hann einn sá ek svá af mönnum, at
+      mér leizt vel á. Gerða ek þá ferð mína til móts við hann, en hann var þá farinn til Gautlands
+      at biðja Ingibjargar, dóttur Bjarkmars jarls. Flýtta ek þá ferðinni, ok kom ek til Gautlands.
+      Var Hringr konungsson at drekka þá sitt brullaup, ok kom ek, þá er brúðina skyldi inn leiða.
+      Lögðumst ek þá niðr á strætit, ok ætlaða ek gera henni nokkur vélendi, en hún sá mik fyrri ok
+      spyrndi sínum fótum við mér ok braut í mér báða lærleggina. Var hún síðan leidd í höll ok sett
+      í sæti sitt. Ek kom inn í höllina, ok varð ek at einni flugu, ok fór ek upp undir hennar
+      klæði, ok ætlaða ek at rífa hana á hol á náranum. Hún þekkti mik þegar ok keyrir knífskapt
+      sitt á síðu mér ok braut í mér þrjú rifin, ok var mér til þess annast at fara í burtu. Líðr nú
+      á daginn, ok var brúðrin til sængr leidd, en því næst var brúðguminn út leiddr. Tók ek hann þá
+       <pb n="177"/> í fang mér, ok þóttumst ek hlaupa fram á sjóvarhamra, ok ætlaða ek at drekkja
+      honum, svá at engi skyldi mega njóta hans. En þá er ek þóttumst sleppa honum ofan fyrir
+      hamrana, þá varð eigi betr en svá, at ek kasta honum þá upp yfir fortjaldit, ok kom hann niðr
+      í sængina hjá brúðinni, en ek var fangin griðalaus, ok mátta ek þá hvergi undan komast. Skylda
+      ek þá leysa líf mitt, ok skylda ek fara í undirheima ok sækja þrjá kostgripi: skikkju þá, sem
+      eigi mætti í eldi brenna, ok horn þat, er aldrigi yrði allt af drukkit, ok tafl þat, sem
+      sjálft léki sér, þegar nokkurr léki annars vegar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="13">
+     <p> Nú fór ek í undirheima, ok fann ek Snjá konung, ok gaf ek honum sex tigi hafra ok pund
+      gulls ok keypta ek svá hornit, en drottningu hans var búinn eitrdrykkr í tólf tunna bikar, ok
+      drakk ek þat fyrir hennar skyld, ok hefi ek síðan haft nokkurn lítinn brjóstsviða. Þaðan fór
+      ek í Lúkánusfjall. Þar fann ek þrjár konur, ef svá skyldi kalla, því at ek var barn hjá þeim
+      at vexti. Þær höfðu taflit at geyma. Ek gat nát því hálfu frá þeim, en þær söknuðu ok fundu
+      mik ok báðu mik leggja aptr taflit, en ek sögðumst þat eigi gera, ok bað ek eina þeira af mér
+      taka ok leggja þar undir taflit, en ek byrði mína af gulli. Þótti þeim þat ekki ofrefli. Hljóp
+      þá ein á mik ok greip í mitt hár ok reif af mér öðrum megin reikar ok þar með alla
+      vangafilluna ok eyrat it vinstra. Varð hún mér harðtæk. Ek stóð eigi fyrir, ok rak ek fingrna
+      í augun á henni, ok krækti ek þau bæði ór henni. Snera ek henni þá til sveiflu, ok festi hún
+      fótinn í bjargrifu, ok sleit ek hana ór augakörlunum, ok skildi svá með okkr. Önnur hljóp nú
+      at mér ok rak <pb n="178"/> hnefann á nasir mér ok braut í mér nefit, ok þykkir þat nokkur
+      lítil lýti á mér síðan, ok þar fylgdu með þrjár tennrnar, en ek greip í brjóstin á henni, ok
+      reif ek þau bæði af henni niðr at bringuteinum. Þar fylgdi ok með magállinn ok iðrin. Þá hljóp
+      at mér in þriðja, ok var sú minnst fyrir sér. Ætlaða ek at stinga ór henni augun sem inni
+      fyrri, en hún beit af mér tvá fingrna. Lék ek henni þá hælkrók, ok fellr hún á bak aptr. Hún
+      bað mik þá miskunnar, en ek sagða, at hún fengi ekki líf, utan hún fengi mér allt taflit, en
+      hún dvaldi þat ekki. Lét ek hana þá upp standa, ok gaf hún mér at skilnaði eitt gler, ok er
+      þat með þeiri náttúru, at hverr, sem í þat lítr, má vera þeim líkr, sem ek vil, en ef mik
+      lystir, þá má ek þann verða láta blindan, sem í lítr. Fór ek nú niðr í undirdjúp at sækja
+      skikkjuna. Fann ek þá höfðingja myrkranna. En er hann sá mik, mælti hann til samfara við mik.
+      Þótti mér sem þat mundi Óðinn vera, því at hann var einsýnn. Bað hann mik eiga skikkjuna, ef
+      ek vilda þat til vinna at sækja hana þangat, sem hún væri. Var þangat at hlaupa yfir eitt
+      mikit bál. Lá ek fyrst hjá Óðni, ok hljóp ek síðan yfir bálit, ok fekk ek skikkjuna, ok er ek
+      síðan skinnlaus um allan kroppinn. Fór ek við svá búit heim aptr. Fann ek þau Hring ok
+      Ingibjörgu, ok færða ek þeim gripina, ok skildu vér eigi fyrr en ek sór at hefna þessa aldri.
+      Fór ek þá heim eigi erendi fegin, ok skal ek muna þá ina gauzku mey, meðan ek má lifa, en frá
+      smáleikum þeim, sem ek hefi átt við bræðr mína, mun ek síðar segja, eða hvat líðr nú grautnum,
+      genta?" "Ek ætla, at hann sé nú hófliga heitr," sagði hún. "Ber hann hingat þá," sagði
+      kerling. Síðan luku þau máltíð sinni, ok var þeim fóstbræðrum fengin sæng, ok sváfu af um
+      nóttina. <pb n="179"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="14">
+     <p> Um morguninn vöknuðu þeir bræðr snemma. Kom kerling þá til þeira, ok spurðu þeir, hversu
+      framorðit væri, en hún sagði, at þeir mættu þar dveljast um daginn. Stóðu þeir þá upp ok
+      klæddu sik, ok var kerling in beinasta í öllu. Fóru þeir þá til borða. Hafði kerling nú mungát
+      ok góða matgerð. Spurði kerling nú, hvert þeir ætluðu at fara eða hver erendi þeir ætti. Þeir
+      sögðu henni nú öll sín erendi ok spurðu hana, hvárt hún kynni enga grein á at gera, hvat orðit
+      væri af dætrum Tryggva konungs. "Eigi veit ek," sagði hún, "hvers ykkr verðr um auðit at ná
+      þeim, en þat mun ek fyrst segja ykkr, at eptir andlát Öskruðs jötuns þá urðu þeir bræðr ekki
+      ásáttir, hvárr konungr skyldi vera. Þóttust báðir til komnir. Kom þat ásamt með þeim, at sá
+      skyldi konungr verða, sem ágætari konungsdóttur gæti fengit ok hagari, ok fór Gautr heiman
+      fyrri ok tók Hildi ina eldri, dóttur Tryggva konungs, en Hildir fór seinna ok tók Bekkhildi,
+      ok eru þær nú báðar hér í Jötunheimum, en eigi þykki mér víst um, hvárt þær liggja lausar
+      fyrir, en nú í vetr at jólum á at vera brullaup þeira, ok eiga þá öll tröll saman at koma ok
+      dæma, hvár þeira systra hagari er." "Mikit batnar nú um," sagði Ásmundr, "þegar vit vitum,
+      hvar þær eru niðr komnar, ok væri mikit undir um, ef þú værir í liðsinni með okkr." "Svá at
+      eins er frændsemi vár góð," sagði hún, "at ek á þeim lítit gott upp at inna, ef eigi nyti meir
+      manndyggðar minnar en tilverknaðar þeira, en hér munu þit hvílast í dag, ok mun ek sýna ykkr í
+      féhirzlur mínar." Þeir létu vel yfir því. En þá borð váru ofan tekin, leiddi kerling þá í
+      afhelli mikinn. Váru þar inni margar <pb n="180"/> kistur, ok lauk hún þeim upp, ok váru þar í
+      margir góðir gripir ok fásénir. Þótti þeim þat gott á at líta. Síðast tók kerling upp eitt
+      eski. Hún lauk því upp, ok kenndi þar góðan ilm at. Þar þekkti Egill hönd sína ok þat gull,
+      sem á henni átti at vera. Sýndist honum höndin heit, ok rauk af, ok þöfta æðarnar. Kerling
+      mælti: "Þykkist þú nokkut, Egill, þekkja höndina?" "At vísu," sagði Egill, "ok kenni ek gull
+      þetta, er móðir mín gaf mér, eða hversu komstu at hendinni?" "Segja má ek þér þat," sagði
+      kerling. "Gautr, bróðir minn, kom til mín ok falaði at mér gullhringinn inn góða, sem ek vilda
+      eigi selja honum. En nokkuru síðar, er dóttir mín fór til geita, kom hann at henni ok gaf
+      henni þann drykk, at hún æpti einart ok skyldi aldri huggast mega, fyrr en ek færða henni
+      hringinn þangat á hólinn, sem hún lá. En þá ek kom með hringinn, kom Gautr þar ok vildi taka
+      af mér hringinn, en ek spornaða við, ok urðu með okkr sviptingar miklar. En er við lá, at ek
+      munda missa hringinn, kom maðr ór skóginum, ok sýndist mér þér líkr, Egill. Hann hjó jötuninn
+      mikit högg, en jötunninn hjó af honum höndina, en síðan hlupu þeir til skógar, en ek tók upp
+      höndina, ok hefi ek geymt hana síðan, ok lagða ek hjá lífsgrös, svá at hún mátti ekki deyja.
+      Þykki mér bera saman með okkr, Egill, at þú munir þessi maðr verit hafa, eða muntu voga, at ek
+      vekja upp undina ok bera ek mik at græða við höndina?" "Mér þykkir litlu til týna," sagði
+      Egill. Síðan tók hún falinn af Agli ok deyfði höndina, ok varð Agli ekki sárt við, at hún skar
+      af framan. Síðan lagði hún yfir lífsgrös ok sveipaði um silki ok helt at allan daginn. Fann
+      Egill þá, at líf færðist í. Síðan lagði kerling hann í sæng ok sagði, at þeir skyldu þar
+      dveljast, <pb n="181"/> þar at hann væri gróinn. En at liðnum þremr nóttum var Egill gróinn,
+      ok var honum eigi ómjúkari höndin en þá hún var heil, en svá var sem rauðr þráðr lægi um.
+      Spurðu þeir þá kerlingu, hver ráð hún legði til með þeim, en hún sagði, at þeir skyldu þar
+      bíða brullaups, -- "er héðan skammt fylgjumaðr minn, er Skröggr heitir, ok ef vér ynnum nokkut
+      á við þá bræðr, þætti mér vel til standa, at vit nytum þess." Líðr nú til jóla. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="15">
+     <p> Þar er nú til at taka, at þeir bræðr, Gautr ok Hildir, láta þing stefna. Kom þar til fólk
+      um alla Jötunheima. Þar var ok Skröggr, því at hann var lögmaðr tröllanna, ok váru nú þangat
+      leiddar konungsdætrnar ok gersimar þær, sem þær höfðu gervar. Brynhildr hafði gert eitt klæði.
+      Þat var með þeiri náttúru, at þat mátti líða Í lofti ok þar niðr koma, sem vildi. Mátti þar
+      færa á mikla byrði. Bekkhildr hafði gert eina skyrtu, ok festi ekki vápn á, ok eigi mátti sá á
+      sundi mæðast, er í henni var. Nú er í orð lagit, hvár þeira systra hagari væri. Var þá lagit í
+      dóm allra trölla, en þau urðu eigi ásátt ok dæmdu undir Skrögg lögmann, en hann lagði sinn
+      órskurð á, at Brynhildr væri fríðari ok á klæðinu væri meiri hagleikr, --,ok því skal Gautr
+      konungr vera ok eiga Brynhildi, en hálfu landi skyldi stýra hvárr." Sleit nú með því þinginu.
+      Buðu þeir bræðr þá höfðingjunum í brullaup sín ok þeim, sem mest mark var at. Kemr Skröggr nú
+      heim ok sagði kerlingu, hvat dæmt hafði verit á þinginu ok nær brullaupin eiga at vera. <pb
+       n="182"/> Síðan váru þau lengi á tali, ok sagði hún honum, at hún vill veita þeim bræðrum,
+      biðr hann svá búast við um fjölmenni ok aðra hluti, en Skröggr kvað svá vera skyldu. En móti
+      því brullaupin skyldu vera, býst kerling heiman ok þeir fóstbræðr með henni. Skal annarr heita
+      Fjalarr, en annarr Frosti. Kerling lét þá líta í glerit, ok sýndust þeir þá svá stórir, at
+      þeir váru tröllum líkir, en miklu váru þeir fríðari en aðrir menn. Hún fekk þeim sæmilig
+      klæði, ok fara þau nú ok koma þar, sem þeir bræðr réðu fyrir. Þat hét á Gjallandibrú. Sátu
+      þeir þá við drykkju. Kerling gekk í hellinn, en hverr leit til annars. Hún gekk fyrir Gaut ok
+      kvaddi hann vel. Hann tók kveðju hennar ok mælti: "Hér er nýtt at komit, at þú gengr hingat á
+      várar náðir." Hún svarar: "Þat stendr eigi svá af sér sem vant er. Með oss hefir verit fæð
+      nokkur hér til, ok dyl ek eigi, at ek sé þess valdandi. Sé ek nú, Gautr frændi, at gæfan styðr
+      þik, ok hefir þú nú fengit ágætt kvánfang, ok nú vil ek til leggja af mínum mun þat, sem vár
+      hefir áðr í millum farit. Vil ek nú gefa þér hringinn góða, sómir hann vel konu þinni í
+      bekkjargjöf, ok með vináttu mína. Heyrir þat okkarri frændsemi, at vit skiptumst góðu við."
+      Gautr sagðist þess þakkir kunna, -- "eða hvar hefir þú fengit menn þessa ina vænu?" Hún sagði,
+      at þeir váru synir Dumbs konungs ór Dumbshafi, -- "ok munu slíkir menn varla finnast í
+      Jötunheimum, ef hæversku þarf at reyna. Hefi ek ætlat þá til at þjóna í brullaupi þínu." Tekr
+      hún nú hringinn ok fekk Gauti, en hann þakkaði henni, ok skal hún þjóna í brullaupinu, ok öllu
+      skyldi svá haga sem þeir Fjalarr ok Frosti vildi vera láta, ok váru þeim fengnir lyklar at
+      öllum féhirzlum. <pb n="183"/> Því næst koma boðsmenn, ok verðr þar fjölmenni mikit. Skipaði
+      kerling fyrir, ok varð þat at standa, sem hún talaði. Skröggr lögmaðr var þar fremstr
+      virðingarmanna. Kerling sagði þeim systrum í hljóði, hverir þeir menn váru, er með henni fóru,
+      -- "megið þit vera glaðar." Urðu þær nú kátar, því at þær hugðu illt til ráðahagsins, en
+      jötnunum þótti mikit batna, þegar þær váru kátar, ok þökkuðu frændkonu sinni sinn umgang. En
+      er fólki var niðr skipat ok brúðgumarnir niðr settir, þá váru brúðirnar inn leiddar. Skorti þá
+      eigi skjarkala ok gálaskap, er flögðin höfðu. Skröggr lögmaðr sat á annan bekk ok bændasveitin
+      með honum, en Gautr ok Hildir á annan ok þeira menn. Arinnefja sat hjá brúðum ok hafði allan
+      setning á þeira háttum ok margar aðrar stórskornar konur. Fjalarr ok Frosti skenktu brúðunum,
+      ok skorti eigi áfengan drykk. Líðr nú á kveldit, ok gerast menn drukknir. Þá stendr Arinnefja
+      upp ok kallar til sín lögmanninn ok þá fóstbræðr ok segir, at þeir skulu bera inn
+      bekkjargjafir. Var þá inn borit klæðit ok skyrtan, tafl þat it góða, er þeir bræðr höfðu átt,
+      ok hringrinn inn góði, er kerling hafði átt, ok margar gersimar aðrar. Skröggr lögmaðr afhenti
+      bekkjargjafirnar, en kerling tók við ok geymdi. Tók hún þá klæðit ok breiddi niðr á völlinn ok
+      lét þar upp á góðgripina. Setti hún þar til Skinnnefju, dóttur sína, at bera þangat gull ok
+      silfr, en hún gekk í hellinn ok biðr Frosta ganga með sér. Koma þau nú þar, sem þau skyldu
+      liggja Gautr ok Brynhildr. Segir hún honum, at þar með hans sængarstokki skal hann finna sverð
+      þat it góða, er Gautr átti, segir, at ekki vápn beit á hann annat, en Fjalarr ok Hildir munu
+      fara í annan stað, ok segir, at þeir munu svá við mega búast sem þeir komi í mannraun mikla.
+      Síðan ferr <pb n="184"/> kerling inn í hellinn ok kallar, at brúðunum væri mál til sængr. Taka
+      þeir Fjalarr ok Frosti í hendr brúðunum ok leiða þær út ok setja þær niðr á klæðit. Síðan less
+      kerling upp klæðit, en fær dóttur sinni glerit ok biðr hana ganga til hellisdyra ok bera
+      glerit yfir hvern mann, sem út gengr, en þær líða upp í lopt með klæðit ok allt þat, sem á
+      var. Nú kemr mikill dansleikr í hellinn, er brúðgumana skal út leiða. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="16">
+     <p> Þrjár váru dyrr á hellinum, ok var Skröggr lögmaðr fyrir einum með sína sveit, en
+      Skinnnefja var fyrir þeim dyrum, sem almúginn skyldi út ganga. Brúðgumarnir váru leiddir um
+      inar þriðju. Þar úti fyrir var sinn afhellir til hvárrar handar, ok skyldu þeir þar hvíla.
+      Váru þeir vel tjaldaðir. Nú er þeir skyldu út ganga, fór í sinn helli hvárr. Ganga þeir Egill
+      ok Hildir í annan. Egill gekk fyrir. En er Hildir gekk inn, snerist Egill aptr í mót honum ok
+      greip í hár honum ok reiddi upp saxit, er hann hafði við sik, ok ætlar at höggva á hálsinn, en
+      Hildir kippir honum svá snart, at hann hrapar á hellisbergit, ok sprakk á honum ennit, ok var
+      þat sár mikit ok blæddi mjök. Saxit kom á nef jötuns ok tók af nefit, ok var þat svá mikit
+      stykki, at þat var nóg klyf. Komst Hildir nú út ok sagðist vera svikinn. Heyra þetta tröllin,
+      þau sem í hellinum váru, ok hlaupa út, ok varð þeim eigi greiðfært um þær dyrr, sem Skröggr
+      lögmaðr var fyrir, því at hann drap hvern, sem út vildi. En Skinnnefja var fyrir öðrum dyrunum
+      með glerit ok setti hvern blindan, sem þat leit. Hvarfla þeir aptr ok fram ok fátu hvergi, ok
+      var þá at heyra óp mikit ok <pb n="185"/> gný. Heyrir Gautr nú þat ok þykkist vita, hvat um
+      er. En er hann kemr í sitt hús, sér hann, at brúðrin er eigi þar. Hleypr hann þá at sænginni
+      ok vill taka sverð sitt, ok missti hann þess. Ásmundr reiðir upp sverðit ok hjó til Gauts ok
+      gáði eigi, at hellirinn var lágr, ok kom sverðit í hellisbergit, ok beit þat bjargit, en
+      blóðrefillinn kom á brún Gauts, reist niðr í augat ok niðr allt kinnbeinit ok viðbeinit ok
+      reist niðr alla bringuna ok tók sundr rifin. Gautr komst út ok fekk einn stein stóran ok
+      kastaði til Ásmundar, ok kom fyrir brjóst honum, svá at hann fell. Gautr vildi hlaupa at
+      honum, en iðrin flæktust um fætr honum, ok fell hann dauðr niðr. Ásmundr stóð upp ok leitar at
+      Agli. Kom hann þar, sem þeir gengust at. Blóð rann í augu Agli af sári því, sem hann hafði
+      fengit, ok varð hann þó sýnt orkuvana. Ásmundr greip undan Hildi báða fætrna, en Egill helt í
+      höfuðit, ok brutu þeir hann ór hálsliðunum, ok urðu þat hans ævilok. En síðan fara þeir
+      þangat, sem Skröggr lögmaðr var. Hafði hann drepit níutigi trölla, en þau báðu griða, sem
+      eptir váru, en þau, sem eptir váru ok þar vildu út ganga, sem Skinnnefja var fyrir, gengu
+      fyrir hamra ok drápu sik. Váru þeir þar um nóttina, ok kom Arinnefja til þeira. Um morguninn
+      tóku þeir fé ór hellinum ok ræntu öllu ok fóru síðan heim með kerlingu, ok váru þær systr þar
+      fyrir, ok urðu þær fegnar þeim. Sátu þeir þar um vetrinn í góðu yfirlæti. En um várit bjuggust
+      þeir í burt at finna menn sína, en at skilnaði gáfu þeir Arinnefju ok Skröggi lögmanni
+      Jötunheima, ok skildu þau með vináttu. Höfðu þeir í burtu þær gersimar allar, sem áðr váru
+      greindar. Síðan fóru þeir móts við menn sína ok kómu til þeira í síðustu viku vetrar, ok urðu
+      með þeim fagnafundir miklir, <pb n="186"/> en þegar byr gaf, sigldu þeir í haf ok léttu eigi
+      fyrr en þeir fundu Tryggva konung. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="17">
+     <p> Tryggvi konungr fagnaði þeim vel ok dætrum sínum. Þeir færðu konungi margar gersimar ok
+      sögðu honum allt it sannasta af ferðum sínum. Þakkaði konungr þeim margfaldliga sína ferð.
+      Litlu síðar lét konungr stefna þing, ok á því þingi lýsti konungr fyrir mönnum þeim
+      einkamálum, sem hann hafði lofat þeim, sem fyndi dætr hans, nema þeir vildu annat heldr, þá
+      vill hann launa þeim í gulli ok silfri, en þeir svöruðu báðir senn, at þeir vildu þær eiga, ef
+      þat væri þeira vili, en þær þóttust þeim lífgjöf launa eiga ok sögðu, at eigi mundu þær aðra
+      menn kjósa, ef þeira væri kostr, ok urðu þær endalyktir, at Egill fekk Bekkhildi, en Ásmundr
+      Brynhildi. Lét konungr nú búast við brullaupi, en Egill kveðst fyrst vilja finna föður sinn,
+      ef hann lifði, ok vita, til hvers hann mátti ætla um ríki þat, sem hann þóttist eiga, en
+      Ásmundr sagðist vilja fara austr í Tattaríá at bjóða Herrauði, fóstbróður sínum, í sitt
+      brullaup. Var nú ákveðin brullaupsstefna ok nær þeir skulu aptr koma. Er eigi annars getit en
+      þeim tækist þessi ferð vel. En er Egill kom til Gautlands, fór hann á fund föður síns, ok
+      brást hann ókunnigr við, því at hann hugði hann löngu dauðan. Sagði hann nú föður sínum allt,
+      hvé farit hafði ok áðr hefir sagt verit, ok sýndi honum örit á hendi sinni, þar sem hún hafði
+      verit af höggvin, ok svá sverð þat, sem dvergrinn hafði gert honum ok falrinn var á. Létu þeir
+      Regin dverg gera nú á þat meðalkafla, ok var þat góðr gripr. <pb n="187"/> Egill bauð nú föður
+      sínum til brullaupsins, ok fóru þeir ok móðir Egils ok systir. En er þau kómu á fund Tryggva
+      konungs, váru þeir Herrauðr ok Ásmundr þar komnir. Konungr fagnar þeim nú öllum vel, ok var
+      eigi langt at bíða, áðr þar reis upp sæmilig veizla. Mátti þar heyra margs konar hljóðfæri ok
+      sjá margan hofmann. Var þar ok engi hlutr sparaðr af þeim beztum föngum, sem fást máttu í þeim
+      löndum. At þessari veizlu höfðu menn þat til skemmtunar, at þeir Egill ok Ásmundr sögðu frá
+      ferðum sínum, ok til sannenda um sögu þeira segir svá, at þær váru þar báðar Skinnnefja ok
+      Arinnefja ok sönnuðu sögu þeira, ok þekkti Ingibjörg drottning Arinnefju, ok sættust þær þá
+      heilum sáttum. Stóð veizlan yfir fullan mánuð. En at liðinni veizlunni fór hverr til síns
+      heimilis, ok váru mönnum valdar sæmiligar gjafir. Egill gaf Herrauði skyrtuna, þá sem
+      Bekkhildr hafði gert, en Ásmundr gaf honum hringinn Kerlingarnaut ok sverð þat, sem Gautr
+      hafði átt. Tryggvi konungr var þá maðr gamall, ok bað hann Egil þar sitja. Kveðst hann ekki
+      lengi mundu lifa þaðan af. Egill kveðst fyrst verða at fara heim til Gautlands, en koma aptr
+      innan tólf mánaða. Lofaði konungr honum þat. Ásmundr bað Herrauð fara með sér til Hálogalands,
+      ok veitti Herrauðr honum þat. Arinnefja fór heim aptr í Jötunheima, ok gaf Ingibjörg drottning
+      henni smjörtrog svá mikit sem hún gat lypt, ok sagði hún, at sá gripr mundi torgætr þykkja í
+      Jötunheimum, en Ásmundr gaf henni tvö galtarflikki, ok váru þau svá þung, at þau vágu
+      skippund. Þótti kerlingu þessir gripir betri en þótt þeir hefði gefit henni byrði sína af
+      gulli. Skildu þau með vináttu. <pb n="188"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="18">
+     <p> Því næst fóru þeir Ásmundr ok Herrauðr á skip, ok höfðu þeir dreka þá ina góðu, sem þeir
+      höfðu átt Vísinn ok Bolabjörn. Er eigi getit um þeira ferð, fyrr en þeir koma norðr á
+      Hálogaland. Ok er landsmenn sá dreka þeira, þá sagðist Óttarr konungr vita, at þessir menn
+      mundu langt at komnir. En þegar þeir váru landfastir, slógu þeir tjöldum. Ásmundr gekk á fund
+      föður síns við tólfta mann. Hann kvaddi konung virðuliga. Konungr þekkti hann eigi, en móðir
+      hans þekkti hann, þegar hún sá hann, ok hvarf til hans. Óttarr spurði, hverr sá maðr væri, er
+      hún léti svá líkliga við, en Ásmundr sagði til it sanna. Reis þar nú upp ágæt veizla, ok sátu
+      þar mánuð í miklum fagnaði ok sögðu konungi frá ferðum sínum, ok þótti konungi þeim vel hafa
+      til tekizt ok gæfusamliga. Sagði Herrauðr þá Ásmundi, at hann vildi, at þeir sigldi austr til
+      Gautlands at biðja Æsu, dóttur Hrings konungs. Ásmundi þótti þat vel stofnat. En þegar þeim
+      gaf byr, sigldu þeir austr í Gautland, ok fagnar Egill þeim vel ok þeir Hringr konungr. Hafði
+      Herrauðr þá uppi orð sín ok bað Æsu, ok var þeim málum vel svarat, ok var hún honum gift með
+      sæmiligri heimanfylgju. Var þegar drukkit brullaup þeira, ok fór þat vel fram. En at þeiri
+      veizlu liðinni, þá sigldu þeir Egill ok Herrauðr í Austrveg, en Ásmundr skyldi hafa vald yfir
+      Gautlandi, þegar Hrings konungs missti við. En þá þeir kómu í Tattaríá, þá var Tryggvi konungr
+      andaðr, ok var Egill þar til konungs tekinn, ok bjuggu þau Bekkhildr þar síðan, en Herrauðr
+      settist at ríki sínu síðan, ok kómu þeir ekki norðr hingat síðan. <pb n="189"/> Ásmundr fór
+      heim til Hálogalands, ok stýrði hann þar lengi. Ármóðr hét sonr hans. Hann átti Eðnýju, dóttur
+      Hákonar konungs Hámundarsonar ór Danmörk, ok er þaðan mikil ætt komin. Þenna Ármóð drap
+      Starkaðr inn gamli í laugu, ok var þat it síðasta óskapaverk hans. Brynhildr lifði ekki lengi,
+      ok giftist Ásmundr síðan ok fekk dóttur Soddáns konungs af Serklandi ok átti at sækja brullaup
+      sitt á einu skipi, því at þeir vildu svíkja hann, ok lét Ásmundr þá gera skip þat, er Gnoð
+      hét, ok hefir þat skip stærst gert verit, svá at menn viti, fyrir norðan Grikklandshaf. Af því
+      skipi tók Ásmundr nafn ok var kallaðr Gnoðar-Ásmundr, ok þykkir hann hafa verit mestr af
+      fornkonungum þeim, sem ekki stýrðu þjóðlöndum. Hann tapaðist við Hlésey ok með honum meir en
+      þrjár þúsundir manna, ok segja menn, at Óðinn legði hann með geiri í gegnum, þá hann hljóp
+      fyrir borð, en Gnoð sökk til grunna með öllum farmi sínum, ok hefir síðan engi hlutr fundizt
+      af henni ok engu því, sem þar var á, ok lúkum vér þar þessi sögu. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>
