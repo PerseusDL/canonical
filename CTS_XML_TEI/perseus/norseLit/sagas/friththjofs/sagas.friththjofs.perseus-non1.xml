@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Friðþjófs saga ins frækna</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Friðþjófs saga ins frækna</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Friththjofs_non.xml,v $
+Revision 1.1  2009-12-09 18:06:28  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="249"/> BELI hefir konungr heitit, er réð fyrir Svignafylki. Hann átti tvá sonu ok eina
+      dóttur. Helgi hét sonr hans, en annar Hálfdan. Dóttir hans er Ingibjörg nefnd. Hún var væn ok
+      vitr ok at öllu fremst konungs barna. Drottning Bela konungs var önduð. Þaðan frá skammt fyrir
+      vestan fjörðinn var sá staðr er þeir kölluðu Baldrshaga. Þat var griðastaðr ok hof mikit.
+      Ingibjörg konungsdóttir var fóstruð með þeim manni, er Hildingr hét. Hann var ríkr bóndi.
+      Þorsteinn hét ágætr maðr, er bjó í Sogni. Hans sonr hét Friðþjófr. Hann var manna vænstr ok
+      inn mesti íþróttamaðr ok langt fyrir konungs sonum. Friðþjófr var jafnan með Hildingi, ok váru
+      þau konungsdóttir fóstrsystkin, ok báru þau langt af öðrum mönnum. Tveir menn eru nefndir til
+      sögunnar. Hét annarr Björn, en annarr Ásmundr. Ekki váru þeir stórættaðir. Þeir váru fóstbræðr
+      Friðþjófs <pb n="250"/> ok honum vel viljaðir. Konungr var sér ekki gnógr um lausafé, en
+      Þorsteinn hersir hafði þriðjung af ríkinu ok skyldi vera landvarnarmaðr fyrir konung. Hann
+      gerði konungi veizlu it þriðja hvert ár, ok váru þær veizlur inar stormannligustu. Beli
+      konungr tók sótt ok heimti sonu sína til sín ok mælti: "Þessi sótt mun heimta mik af ríki mínu
+      ok lífinu með. Vil ek biðja ykkr, at þit hafið þá vini, sem ek hefi áðr haft, því at mér
+      sýnist ykkr skorta allt við þá feðga, ok munu þeir vinhollir, ef þit kunnið til at gæta. Ekki
+      skal fé bera í haug hjá mér. Haugr minn skal standa hjá firðinum. En skammt mun okkars
+      Þorsteins í millum verða, ok er vel, at vit köllumst á." Ok síðan dó hann. Ok þá tók Þorsteinn
+      sótt ok mælti: "Þess vil ek biðja þik, Friðþjófr, at þú sveigir til við konungs syni, þótt
+      sért þér eigi ónægri en þeir, því at svá á vera fyrir tígnar sakir, ok vel segir mér hugr um
+      þitt mál." Síðan dó hann, ok var hann heygðr gegnt Bela haugi. Björn mat Friðþjófr mest, en
+      Ásmundr þjónaði þeim. Skip átti Friðþjófr, er Elliði hét. Annarr gripr var hringr, er engi var
+      slíkr. Þat lék orð á, at Friðþjófr þótti eigi minni sómamaðr fyrir utan konungstign en konungs
+      synir, ok fundu menn þat á, at með þeim konungsdóttur ok Friðþjófi var vel ástúðigt í milli.
+      Þat fundu þeir konungs synir ok líkaði allilla, ok gerðist fæð á með þeim Friðþjófi. Nú kom at
+      því, at konungs synir áttu at sækja þangat veizluna, ok gekk hún at vanda fram. Friðþjófr
+      talaði opt við Ingibjörgu konungsdóttur, ok þá mælti hún: "Góðan hring áttu," segir hún. Hann
+      svarar: "Ekki á ek þat, er ek hefi eigi aflat." Hún svarar: "Þat er mál manna, at sá eigi fé,
+      sem lifir, en ekki dauðir menn." <pb n="251"/> Hann svarar: "Kostr mun þér at eiga hringinn ok
+      lóga eigi; send mér aptr, ef þér leiðist at eiga hann." Hún svarar: "Þú skalt hafa í móti
+      hringinn, er ek á," ok svá var. Eptir þat skildu þau. Hann var nú fámálugr. Björn, fóstbróðir
+      hans, spurði, hvat honum væri. Hann svaraði: "Kvánfang er mér í hug. Þótt mér sé þat oftígn,
+      þá em ek þó eigi minna háttar." Björn sagði: "Hví skulu vér þá eigi fara ok prófa þetta mál?"
+      Síðan fóru þeir. Konungarnir sátu á haugi föður síns. Friðþjófr kvaddi þá ok mælti: "Þat er
+      erendi mitt hingat til yðar, at ek vil biðja systur yðvarrar." Þeir svöruðu: "Eigi er þessa
+      virðuliga leitat, at gefa hana ótígnum manni, ok ekki vitum vit þess á henni, at hún mun
+      ótígnum manni gefin verða." Hann svarar: "Þá er skjótt sagt, at ek mun yðr aldri lið veita."
+      "Þat hirðum vit aldri," sögðu þeir. Hann kom heim aptr, ok tók Friðþjófr aptr gleði sína. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Hringr hét konungr, er réð fyrir Svíþjóð. Hann mælti einn tíma heimugliga við vini sína:
+      "Þat hefi ek spurt, at synir Bela konungs hafa slitit vinfengi við Friðþjóf, er ágætastr er
+      allra þeira. Nú vil ek senda menn mína á fund þeira, at þeir gangi á hönd mér, ella mun ek
+      gera lið á hendr þeim, ok mun laust fyrir liggja, því at þeir hafa hvárki við mér liðsafla né
+      vitsmuni, ok er gott á gamals aldri at vinna þá yfir." Sendimenn kómu til Bela sona ok mæltu
+      svá: "Svíakonungr sendir ykkr orð ok vill, at þit gjaldið þeim skatt eða berizt við hann ella.
+      En þeir sögðust eigi vilja þjóna honum á unga aldri við skömm ok svívirðing, ok fóru sendimenn
+       <pb n="252"/> með þeim orðum aptr til konungs síns. En konungs synir söfnuðu liði ok fengu
+      lítit lið ok sendu orð Friðþjófi ok báðu hann liðs, en hann sat at tafli, er sendimenn kómu
+      til hans. Þeir mæltu: "Konungar várir sendu þér kvedju ok vildu þiggja liðsinni þitt til
+      orrostu með sér." Hann svaraði engu ok mælti við Björn: "Leita ráðs fyrir at tefla, því at
+      tvíkostr er þér á tvá vega," sagði hann. Þá mæltu sendimenn: "Heyrir þú várt mál?" Friðþjófr
+      svarar þeim, hann kveðst löngu heyra, -- "en lið mun ek þeim aldri veita." Síðan fóru
+      sendimenn aptr ok sögðu svá búit þeim bræðrum. Eptir þat bjuggust þeir til ferðarinnar ok
+      kváðu þat mundu ráð að flytja systur sína í Baldrshaga ok átta konur með henni, -- "því at þar
+      er engi svá djarfr, at þar grandi neinu," því at þar var hof mikit ok goðablót ok skíðgarðr um
+      hofit, ok skyldi þar ekki saman koma konur ok karlar. Konungarnir fóru í hernað í móti Hringi
+      konungi, sem fyrr var sagt. Þat var einn tíma, er konungar báðir váru á burt farnir, at
+      Friðþjófr bað sína menn at setja fram skipit Elliða, -- "ok vitum, hvárt hann kann ekki at
+      skríða í Baldrshaga." Nú kómu þeir þar, ok váru viðtektir góðar. Settist Friðþjófr hjá
+      konungsdóttur, ok allir hans menn skipuðu sæti. Konungsdóttir mælti: "Fast sækir þú,
+      Friðþjófr, er þú vilt halda hér fjórtánmenning í Baldrshaga." Hann svarar: "Ekki hirði ek um
+      Baldr eða blót yður. Jafngóðir eru mér þínir málsendar hér sem heima." Þar skorti ekki drykk
+      ok góða gleði. Fór nú svá fram hvern dag, á meðan konungar eru í burtu, at þeir fóru þangat at
+      skemmta sér. <pb n="253"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p>
+      <lg>
+       <l>Nú er at segja</l>
+       <l>frá viðskiptum konunga,</l>
+       <l>er þeir fundust,</l>
+       <l>at Hringr konungr</l>
+       <l>hafði miklu</l>
+       <l>meira lið en þeir</l>
+       <l>bræðr. Gengu þá í</l>
+       <l>milli vinir beggja ok</l>
+       <l>báðu þá sættast. Þá</l>
+       <l>mælti Hringr konungr:</l>
+       <l>"Vilja konungarnir</l>
+       <l>ganga á</l>
+       <l>mitt vald ok gifta</l>
+       <l>mér systur sína ok</l>
+       <l>gefa henni lausafé,</l>
+       <l>svá at henni sómi</l>
+       <l>vel?" En með því at</l>
+       <l>konungarnir höfðu</l>
+       <l>lítit lið, þá játuðu</l>
+       <l>þeir þessu ok bundu</l>
+       <l>þetta með svardögum,</l>
+       <l>ok skildust þeir</l>
+       <l>vinir, ok fóru þeir</l>
+       <l>bræðr heim.</l>
+       <l>Nú er at ræða</l>
+       <l>um Friðþjóf. Hann</l>
+       <l>mælti til konungsdóttur:</l>
+       <l>"Vel hafi</l>
+       <l>þér oss fagnat, en nú</l>
+       <l>mun ek heim fara</l>
+      </lg>
+      <pb n="254"/> at sinni, en ef konungarnir eru heim komnir, þá gerið oss vissu á einhvern
+      hátt." En konungsdóttir svarar: "Ekki gerir þú at dæmum þeira viðvörun, en at vísu eigum vér
+      vinum várum at fagna, ef þér komið aptr." Eptir þat fóru þeir heim, ok um morguninn gekk
+      Friðþjófr út ok mælti: "Nú má vera, Björn félagi, at fyrst hepti skemmtanarferðum várum í
+      Baldrshaga." Nú koma konungarnir heim ok fregna, hvat fram hefir farit, á meðan þeir váru í
+      burtu. Gerðu þeir sik stórliga reiða ok sögðu sér gerða mikla svívirðing. Fóru þá enn vinir
+      þeira í millum ok báðu Friðþjóf at gera nokkura yfirbót við konungana. Hann mælti: "Sá einn
+      hlutr er í friðargerð af minni hendi at gera minningar við ina fyrri menn, en engan trúleik
+      munu vér þeim sýna." Þá mæltu sendimenn: "Þat vilja konungar taka í sætt, at þér heimtið skatt
+      af jarlinum Angantý, er ræðr fyrir Orkneyjum, því at sá skattr hefir lengi niðri legit."
+      Friðþjófr sagði: "Þá viljum vér, at fé várt hafi frið," ok því var heitit honum. Síðan
+      bjuggust þeir Friðþjófr ok menn hans þrettán til skipsins Elliða. Svá var til ætlat, at Hringr
+      konungr skyldi sækja konungsdóttur um haustit. Ok er Friðþjófr var í burtu farinn, þá mælti
+      Helgi: "Þat mun bezt vera, bróðir, at Friðþjófr taki nú hegning. Munu vit brenna bú hans."
+      Síðan brenndu þeir bæinn á Framnesi. Eptir þat keyptu þeir at fjölkunnigum konum, at þær gerði
+      æðiveðr at þeim Friðþjófi ok mönnum hans. Nú sem þeir kómu skammt frá landi, þá ókyrrði
+      sjóinn, ok gerði storm mikinn. Þá kvað Friðþjófr vísu: <lg>
+       <l>"Þat var forðum</l>
+       <l>á Framnesi:</l>
+       <l>rera ek opt á tal</l>
+       <l>við Ingibjörgu.</l>
+       <pb n="255"/>
+
+       <l>Nú skal ek sigla</l>
+       <l>i svölu veðri</l>
+       <l>ok láta létt und mér</l>
+       <l>lögdýr bruna.</l>
+      </lg> Ok mun nú kostr," sagði hann, "at reyna góða liðsmenn, ok er þetta eindælla en í
+      Baldrshaga." Björn sagði: "Slíks er ván, at eptir mundi koma, ok tökum þessu enn vel." Ok
+      síðan kafaði stórliga skipit, en þeir burgust ágæta vel, því at góðum drengjum var saman
+      safnat. Þá kvað Friðþjófr vísu: <lg>
+       <l>"Eigi of sér til Alda,</l>
+       <l>erum vestr í haf komnir,</l>
+       <l>allr þykki mér ægir</l>
+       <l>sem eimyrju hræri.</l>
+       <l>Hrynja hávar bárur,</l>
+       <l>haug verpa svanflaugar;</l>
+       <l>nú er Elliði orpinn</l>
+       <l>í ákafa báru."</l>
+      </lg> Björn sagði: "Svá er, fóstbróðir," sagði hann. "Ekki sakar enn, þótt þær glumri á
+      borðunum." Ok enn kvað Friðþjófr vísu: <lg>
+       <l>"Mjök drekkr á mik.</l>
+       <l>Mær mun klökkva,</l>
+       <l>ef ek skal sökkva</l>
+       <l>í svana brekku, --</l>
+       <l>austr er orðinn</l>
+       <l>í Elliða, --</l>
+       <l>þó lá blæja</l>
+       <l>á bliki nokkurt."</l>
+      </lg> Björn mælti: "Þess minnir þik. Ætlar þú inar sygnsku meyjar tárfelldar eptir þik?" Hann
+      svarar: "Kemr mér þat í hug." Síðan eptir þetta gerði svá mikinn storminn, at fell fossum inn
+      á bæði borð. Þá kvað Björn vísu: <pb n="256"/>
+      <lg>
+       <l>"Er em at sem ekki</l>
+       <l>at austr fyr oss drekki</l>
+       <l>björt baug vara</l>
+       <l>biði nær fara.</l>
+       <l>Sölt er augu</l>
+       <l>ef soka í laugu.</l>
+       <l>Bilskorðs arma</l>
+       <l>birtist mér í hvarma."</l>
+      </lg> Friðþjófr mælti: "Svá mun þér þykkja. Ýmist verðr at freista." Þá kvað Ásmundr vísu: <lg>
+       <l>"Þá var svarf við siglu,</l>
+       <l>er sær of mér gnúði,</l>
+       <l>ek varð einn með átta</l>
+       <l>innan borðs at vinna.</l>
+       <l>Dælla er til dyngju</l>
+       <l>dagverð konum at færa</l>
+       <l>en sjó Elliða at ausa</l>
+       <l>á úrigri báru."</l>
+      </lg> Þá mælti Friðþjófr: "Nú brá þér í þrælaættina." Friðþjófr kvað: <lg>
+       <l>"Sat ek á bólstri</l>
+       <l>í Baldrshaga,</l>
+       <l>kvað, hvat ek kunna,</l>
+       <l>fyr konungs dóttur.</l>
+       <l>Nú skal ek Ránar</l>
+       <l>raunbeð troða,</l>
+       <l>en annar mun</l>
+       <l>Ingibjargar."</l>
+      </lg> Björn mælti: "Nú eru kvíður stórar í, fóstbróðir. Mæl aldri slíkt, at æðra sé í orðum
+      þínum." Friðþjófr svarar: "Eigi er þat nú traust, at mér komi þat eigi í hug." Hann kvað: <lg>
+       <l>"Þess hefik gangs of goldit.</l>
+       <l>Gekk mér, en þér eigi,</l>
+       <l>með ambáttir átta</l>
+       <l>Ingibjörg at þingi.</l>
+       <pb n="257"/>
+
+       <l>Saman höfum brennda bauga</l>
+       <l>í Baldrshaga lagða.</l>
+       <l>Varat vilgi fjarri</l>
+       <l>vörðr Hálfdanar garða."</l>
+      </lg> Björn mælti: "Við slíkt er nú at una, fóstbróðir." Ok í því kom svá mikit áfall á, at ór
+      laust borðin, ok fórust fjórir menninir. Þá mælti Friðþjófr: "Nú er víst, at til Ránar skal
+      fara, ok búumst vaskliga, ok skal hverr gull hafa á sér ok höggva í sundr hringinn
+      Ingibjargarnaut, ok skiptum með oss." Ok þá kvað hann vísu: <lg>
+       <l>"Nú hefir fjórum</l>
+       <l>of farit várum</l>
+       <l>lögr lagsmönnum,</l>
+       <l>þeim er lifa skyldu,</l>
+       <l>en Rán gætir</l>
+       <l>röskum drengjum,</l>
+       <l>siðlaus kona,</l>
+       <l>sess ok rekkju."</l>
+      </lg> Björn mælti: "Eigi er slíks örvænt, enda eigi vísa ván." Þá kvað Friðþjófr: <lg>
+       <l>"Þann skal hring of höggva,</l>
+       <l>en Hálfdanar átti,</l>
+       <l>áðr oss tapi Ægir,</l>
+       <l>auðigr faðir, rauðan.</l>
+       <l>Sjá skal gull á gestum,</l>
+       <l>ef vér gistingar þurfum.</l>
+       <l>Þat dugir rausnar rekkum</l>
+       <l>í Ránar sal miðjum."</l>
+      </lg> Nú fundu þeir, at skriðr varð á skipinu mikill, en ókunnigt var þeim, hvar þeir váru
+      komnir. Síðan fór Friðþjófr upp í tré ok kom ofan aptr ok mælti: "Sá ek nú mjök kynliga sýn.
+      Hvalr einn liggr í hring um skip várt, ok vér eigum landa ván nær oss, ok get ek hann vilji
+      banna oss landit, ok hygg ek þá Helga ok <pb n="258"/> Hálfdan búa við oss eigi vingjarnliga,
+      ok munu þeir hafa sent oss enga vinsending. Tvær konur sá ek á baki hvalnum gera oss
+      fararbann. Nú munu vér til hætta, hvárt meira má gifta vár eða trölldómr þeira, ok stýrum at
+      þeim." Ok þá kvað hann vísu: <lg>
+       <l>"Sé ek tröllkonur</l>
+       <l>tvær á báru;</l>
+       <l>þær hefir Helgi</l>
+       <l>hingat sendar.</l>
+       <l>Þeim skal sníða</l>
+       <l>sundr í miðju</l>
+       <l>hrygg Elliði,</l>
+       <l>áðr af hafi skríði."</l>
+      </lg> Síðan eggjaði hann fast sína menn, ok kom svá at með frækleik hans, at þeir brutu hrygg
+      ok leggi í hvárritveggi hamhleypunni. Síðan kyrrði sjóinn, ok marði þá skipit uppi, ok váru
+      þeir þá komnir at landi, en svá nær var þeim ekit, er eptir lifðu, at Friðþjófr kom þeim öllum
+      á land, nema Björn einn gat borgit sér. Friðþjófr breiddi á þá seglit ok kvað vísu: <lg>
+       <l>"Ek bar átta</l>
+       <l>til eldstaðar</l>
+       <l>dæsta drengi</l>
+       <l>í drifaveðri.</l>
+       <l>Nú hefik segli</l>
+       <l>á sand komit;</l>
+       <l>er eigi hafs megin</l>
+       <l>hægt at reyna."</l>
+      </lg> Ok enn kvað hann: <lg>
+       <l>"Þurfum eigi, drengir,</l>
+       <l>dauða at kvíða,</l>
+       <l>verið þjóðglaðir,</l>
+       <l>þegnar mínir.</l>
+       <l>Þat mun verða,</l>
+       <pb n="259"/>
+
+       <l>ef vitu draumar,</l>
+       <l>at ek eiga mun</l>
+       <l>Ingibjörgu."</l>
+      </lg> Björn mælti: "Enn kemr þér hún í hug. Dælla er nú, ok gerir þú nú mannliga." Þar skammt
+      í frá réð fyrir Angantýr jarl, en bar til nýlundu, at maðr drakk víti sitt, er Hallvarðr hét,
+      ok skyldi sitja á skála urn nóttina í móti veðri. Hann helt á horni ok sést um ok getr at líta
+      ferðir manna ok kvað vísu: <lg>
+       <l>"Erat á skála</l>
+       <l>skjól at drekka</l>
+       <l>vestrvíkingi</l>
+       <l>sem vera inni.</l>
+       <l>Eru hraustari</l>
+       <l>þeir, er hlunngota,</l>
+       <l>drengir, ausa</l>
+       <l>í drifaveðri."</l>
+      </lg> Enn kvað hann: <lg>
+       <l>"Sex sé ek ausa,</l>
+       <l>en sjau róa,</l>
+       <l>dæsta drengi</l>
+       <l>í drifaveðri.</l>
+       <l>Þar er gunnhvötum</l>
+       <l>glíkt í stafni,</l>
+       <l>er Friðþjófr fram í</l>
+       <l>fellr við árar."</l>
+      </lg> Síðan gekk hann at byrlaranum ok kvað vísu: <lg>
+       <l>"Tak þú af gólfi,</l>
+       <l>gangfögr kona,</l>
+       <l>horn hválfanda,</l>
+       <l>hefik af drukkit.</l>
+       <l>Menn sék á mar,</l>
+       <l>þá er munu þurfa</l>
+       <l>hreggmóðir liðs,</l>
+       <l>áðr höfn taki."</l>
+      </lg>
+      <pb n="260"/> Jarlinn mælti: "Hvat er til tíðenda?" "Herra," segir hann, "menn dragast at
+      landi, ok hygg ek vera allgóða drengi." Jarl mælti: "Gangið vel fram í móti þeim, ef þar er
+      kominn Friðþjófr, er einn er ágætastr." Atli hét víkingr. Þeir váru tólf saman. Hann mælti:
+      "Þat er mér sagt, at Friðþjófr hafi þess heit strengt, at hann muni engan fyrr friðar biðja,
+      ok er nú þat at reyna, ef svá kemr til." Hallvarðr kvað þat óskylt at reyna. Síðan kómu þeir
+      at, í því er Friðþjófr vaknaði, því at honum hafði höfgat nokkut. Atli mælti: "Hitt er nú ráð,
+      Friðþjófr, at verða vel við ok sanna it fornkveðna, at öndverðir skulu ernir klóast, enda
+      muntu ekki þykkjast þurfa griða at biðja." Friðþjófr kvað vísu: <lg>
+       <l>"Þér munuð ekki</l>
+       <l>oss of kúga,</l>
+       <l>æðrufullir</l>
+       <l>eyjarskeggjar.</l>
+       <l>Heldr mun ek ganga</l>
+       <l>en griða biðja</l>
+       <l>einn til ógnar</l>
+       <l>við yðr tíu."</l>
+      </lg> Síðan kom Hallvarðr ok mælti: "Hættið þessi ræðu. Allir séu þeir hér velkomnir, svá vill
+      jarl várr, ok farið til hallar." Friðþjófr kvað sér þat vel líka, en sæma þó virðing hvárra
+      tveggja." Hallvarðr mælti: "Heyrt hefi ek getit þín, enda erum vér at sönnu komnir, ok hafi
+      þér komit í mikla mannraun." Eptir þat fóru þeir heim. Friðþjófr gekk fyrir jarli ok kvaddi
+      hann hæfiliga. Jarl tók honum ágætliga ok spurði hann at ferðum sínum, en hann sagði allt it
+      sannasta. Jarl mælti: "Illa er slíkum konungi farit sem Helgi er, ok þeir bræðr báðir eru
+      einskis háttar, en sýna sik í slíkri illsku við svá ágæta menn." Björn kvað vísu: <pb n="261"/>
+      <lg>
+       <l>"Jusum vér, en yfir fell</l>
+       <l>úrsvöl bára,</l>
+       <l>teitir á tvau borð</l>
+       <l>tíu dægr ok átta.</l>
+       <l>Þat var kynför</l>
+       <l>kænna drengja,</l>
+       <l>hversu vér fórum</l>
+       <l>með Friðþjófi."</l>
+      </lg> Nú váru þeir í góðu yfirlæti. Friðþjófr gerðist ókátr. Jarlinn mælti: "Hví ertu svá
+      fálátr, Friðþjófr, því at vér viljum vel til þín gera? Ok ef þú ferr skatt at heimta, þá
+      liggja þar skjót svör fyrir, at konungarnir þeir fá engan skatt ok engan góðan hlut af oss, er
+      einskis góðs verðir eru af oss, en þú skalt þat fá, sem þú beiðir, ok ger þat af fénu, sem þér
+      vel líkar, en ekki hræðumst ek þá." "Enn mun ek þat þiggja," segir Friðþjófr, ok var hann þar
+      í góðu yfirlæti hjá jarlinum. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Nú er at segja frá því, at Hringr konungr kom til veizlunnar ok gekk at brúðhlaupi sínu, en
+      þat hafði orðit til tíðenda, at inar fjölkunnigu konur höfðu fallit ofan at seiðhjalli sínum.
+      Ok er veizlan var úti, sá Hringr konungr hringinn Friðþjófsnaut á hendi Ingibjargar ok mælti:
+      "Hvaðan kom þér hringr sá?" Hún kvað þat vera erfð sína. "Nei," segir hann, "Friðþjófr mun
+      hafa gefit þér hann heldr. Ekki skaltu hafa gull hans, því at fá muntu gull í mínu ríki."
+      Síðan fekk hún hringinn í hönd konu Helga ok bað hana senda Friðþjófi, sem þau höfðu með sér
+      mælt. Eptir þat fór konungr heim í ríki sitt ok Ingibjörg með honum. En Friðþjófr bjóst í burt
+      ór Orkneyjum, ok lét jarl bæta skip hans, ok skildust þeir með inni mestu <pb n="262"/> blíðu
+      Angantýr jarl ok Friðþjófr. Síðan kómu þeir aptr til Noregs ok í Sogn ok fyrir bæ þann, er átt
+      hafði Friðþjófr. Þá mælti hann: "Sortnat hafa nú byggðirnar hér, á meðan vér höfum í burt
+      verit." Hann hefir nú mál við sína menn, ok verða honum allir fegnir ok sögðu honum tiltekju
+      konunganna. Hann kvað þá vísu: <lg>
+       <l>"Drukkum forðum</l>
+       <l>á Framnesi,</l>
+       <l>fræknir drengir,</l>
+       <l>með föður mínum.</l>
+       <l>Nú sé ek brenndan</l>
+       <l>bæ þann vera.</l>
+       <l>Á ek öðlingum</l>
+       <l>illt at gjalda."</l>
+      </lg> Hann spurði þá at, hvar konungarnir váru, en honum var sagt, at þeir væri í Baldrshaga
+      ok blótuðu goð sín. Þá mælti Friðþjófr: "Hvat sýnist þér, Björn," segir hann, "hversu með skal
+      fara?" Björn mælti: "Þik læt ek hafa ráð fyrir oss," segir hann. "Þá ætla ek at færa þeim
+      skatt sinn, hversu sem af hendi verðr leystr." Ok svá gerðu þeir ok gengu frá skipi. Þá mælti
+      Friðþjófr við Björn: "Vit munum ganga upp á land, en þeir skulu brjóta skip þeira á meðan, því
+      at svá eins mun af hendi greindr skattr þeira, at ólíkligt er, at oss þykki einn veg öllum."
+      Þá kvað Friðþjófr vísu: <lg>
+       <l>"Einn mun ek ganga</l>
+       <l>upp frá ströndu, --</l>
+       <l>þarf ek lítit lið, --</l>
+       <l>lofða at finna.</l>
+       <l>Verpi þér eldi</l>
+       <l>í jöfra bæ,</l>
+       <l>ef ek kem eigi</l>
+       <l>aptr at kveldi."</l>
+      </lg> Björn mælti: "Þetta er vel kveðit." Konungarnir sátu í húsinu goða sinna, en konur þeira
+      bökuðu goðin við <pb n="263"/> eldinn. Síðan gekk Friðþjófr inn fyrir Helga ok mælti: "Nú
+      muntu vilja hafa skattinn," ok færði upp sjóðinn ok rak á nasir honum ok braut ór honum tvær
+      tennrnar, ok fell hann í óvit, en Friðþjófr gekk at eldinum ok sá hringinn á hendi konu Helga
+      ok greip til hennar, ok dragnaðist hún, en goðit valt út á eldinn, ok er hann kom at dyrunum,
+      raknaði hringrinn af hendi henni. En Friðþjófr gekk út ok kvað vísu: <lg>
+       <l>"Tak þú við skatti,</l>
+       <l>skatna drottinn,</l>
+       <l>fremstum tönnum,</l>
+       <l>nema þú framar beiðir.</l>
+       <l>Silfr er á botni</l>
+       <l>belgjar niðri,</l>
+       <l>sem vit Björn höfum</l>
+       <l>báðir of ráðit."</l>
+      </lg> Eptir þat gekk Friðþjófr út ok kvað vísu: <lg>
+       <l>"Hafa skal ek baug</l>
+       <l>brenndan í höndum</l>
+       <l>ór svefnhúsi</l>
+       <l>Svölnis meyja;</l>
+       <l>sá er hugr á mér</l>
+       <l>af þeim hringi digrum:</l>
+       <l>verðr þeim, er varðar,</l>
+       <l>við lítilmagna."</l>
+      </lg> Björn mælti: "Nú skiptir þú at höguðum, at hún dvelist eptir, en þú hafir hringinn."
+      Síðan ganga þeir til skipa, ok varð Friðþjófi litit aptr ok kvað vísu: <lg>
+       <l>"Gekk ek því frá garði</l>
+       <l>grunskjöldunga tveggja,</l>
+       <l>at ek illsögur ætti</l>
+       <l>enn í minna grandi.</l>
+       <l>Nær var ek nála Gunni</l>
+       <l>und nistingu fundinn, --</l>
+       <l>þat rak mik frá húsi, --</l>
+       <l>heldr meir en skyldi."</l>
+      </lg>
+      <pb n="264"/> Helgi raknaði við ok bað menn út ganga, -- "ok hefir sjá maðr fyrirgert sér, er
+      eigi hlífir griðastöðum." Ok er þeir koma út, bað hann fá sér boga sinn, ok er hann sveigði
+      bogann, brast boginn í sundr. Friðþjófr kvað vísu, er hann sá þetta, sté á skip ok tók til ára
+      ok braut báðar senn í einu: <lg>
+       <l>"Kyssta ek unga</l>
+       <l>Ingibjörgu</l>
+       <l>Beladóttur</l>
+       <l>í Baldrshaga.</l>
+       <l>Svá skulu árar</l>
+       <l>á Elliða</l>
+       <l>báðar brotna</l>
+       <l>sem bogi Helga."</l>
+      </lg> Síðan fóru þeir til skipanna, en þau váru öll brotin. Nú mælti Björn við Friðþjóf: "Hvat
+      skal nú at hafast, fóstbróðir?" "Ek ætla nú ráðligt," sagði Friðþjófr, "at kanna hermanna siðu
+      ok ráðast í víkingu." Ok svá gerðu þeir, lágu nú í víkingu um hríð, ok gerðist Friðþjófr ágæta
+      maðr. Hann drap illmenni, en bændr lét hann í friði fara, ok urðu þeir stórauðigir af þessu.
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Þat er sagt eitt sinn, at Friðþjófr mælti til Bjarnar: "Leiðist mér nú sjá iðn. Ætla ek nú
+      skiljast við yðr, ok vil ek hitta Hring konung, ok vitit mín þó aptr at sumri." Björn mælti:
+      "Óvænlig ætlan er þat, en þó muntu ráða verða, eða viltu eigi aptr ok drepa konungana?"
+      Friðþjófr kvað þat til einskis vera ok kvað vísu: <pb n="265"/>
+      <lg>
+       <l>"Mankat ek hýrra</l>
+       <l>en hugaðsræður</l>
+       <l>Bela dóttur</l>
+       <l>í Baldrshaga.</l>
+       <l>Því skal ek hitta</l>
+       <l>Hring at máli,</l>
+       <l>hversu at fylkir,</l>
+       <l>fagnar greppi."</l>
+      </lg> "Ófúss em ek til þess, sagði Björn, "at hætta þér einum á vald hans." Hann kveðst ráða
+      vilja, -- "ok flytið mik þangat," ok svá gerðu þeir. Ok er hann kom nær bænum, tók hann sér
+      saltkarlskufl einn mikinn ok steypti honum yfir sik. Hann var mikill maðr vexti ok stórligr,
+      fríðr sýnum. Síðan hitti hann hirða nokkura ok fór óframliga ok spurði, hvaðan þeir væri. Þeir
+      kváðust vera frá bæ Hrings konungs. Hann spurði: "Er hann ríkr konungr?" Þeir svöruðu: "Svá
+      lízt okkr sem þú munt hafa aldr til at stýra vitsmunum þínum svá at vita, hvert veldi Hringr
+      konungr hefir." Hann svaraði: "Meir hefi ek hugsat at fága saltkatla en spyrja at konunga
+      tignum." Síðan gekk hann til hallarinnar ok kom inn ok nam staðar utarliga við dyrr. Konungr
+      mælti, er hann sá manninn: "Drottning," segir hann "maðr gekk inn í höllina." Drottning
+      svarar: "Þat er lítil tíðendi hér," segir hún. "Svá er víst," segir hann. "Gakk, sveinn, ok
+      spyr, hverr hann er eða hvaðan hann kom eða hvar hann á kyn." Sveinninn kom fyrir hann ok
+      spurði: "Hvat heitir þú, eða hvar ertu ættaðr, eða hvar vartu í nótt?" Hann svarar: "Tíðum
+      berr þú at, eða muntu nokkura grein kunna at gera, þótt ek segi þér? Þjófr heiti ek, at Úlfs
+      var ek í nótt, en í Angri var ek upp fæddr." Sveinninn segir þetta konunginum. "Þér skilst
+      vel," segir konungr. "Veit ek herað heita í Angri, ok má vera, at manninum sé eigi opt
+      hughægt. Þat má ok <pb n="266"/> vera, at stytt sé nafn hans, ok hafi verit með ótryggum
+      mönnum um hríð. Þykki mér mikit um manninn vert." "Hvers er vert um stafkarla?" segir
+      drottning. Konungr mælti: "Forvitni er mér á at sjá hann, ok sé ek hann hugsar margt ok
+      skyggnist um." Síðan sendi konungr eptir honum, ok kom hann fyrir konung. Konungr mælti: "Hvat
+      heitir sjá inn mikli maðr?" Hann sagði it sama til. Konungr mælti: "Svá má vera. Hversu viltu,
+      drottning, fagna honum?" Hún svarar: "Svá sem öðrum stafkörlum." "Nei," sagði konungr, "hann
+      mun verit hafa á skógi í nótt, er hann kveðst úlf gista, ok mun hann þurfa beina. Sit hér á
+      millum okkar drottningar." Hún mælti: "Gamalærr gerist þú, at þú skipar saltkörlum at sitja."
+      Konungr mælti: "Eigi er þat ráð, kasta kuflinum, Þjófr." Hann kvað þat eigi hæfa, -- "ok em ek
+      óframr maðr." Konungr mælti: "Ger sem ek býð, ek verð at ráða." Síðan fór hann ór kuflinum, ok
+      var maðrinn stórliga vel búinn. "Nú kalla ek betr fara at fá honum skikkju sæmiliga." Hún kvað
+      svá vera skyldu, -- "en lítit er mér um hann." Konungr mælti: "Hring hefir þú góðan, Þjófr, ok
+      lengi muntu salt þar til hafa brennt." Hann segir þat föðurarf sinn vera. Konungr mælti: "Þat
+      má vera." Konungr settist síðan í hásæti, en drottningu setti fram dreyrrauða ok vildi engu
+      við hann skipta, en konungr var allglaðr, ok kunni hann honum margt at segja, ok þokkaðist
+      hann mönnum vel, ok var hann í góðu yfirlæti um vetrinn. Drottning mælti fátt við hann. Þess
+      er getit eitthvert sinn, at konungr skyldi fara til veizlu, ok þá mælti konungr: "Viltu fara
+      með oss, Þjófr." "Já, herra," svarar hann. Síðan fóru þau, ok var þeim konungi ok drottningu
+      ekit um ísinn. Þjófr mælti: "Fari þér varliga, því at ótraustr er íssinn." <pb n="267"/>
+      Konungr mælti: "Opt finnst þat á, at þér er hugr um oss." Ok litlu síðan brast íssinn, en
+      Þjófr hljóp at vagninum, ok bjargaði hann konunginum ok öllu því, er í var, en drottningin
+      varð eptir, ok kippti hann henni upp ór ísbrotunum. Konungr mælti: "Vel var nú borgit. Eigi
+      mundi Friðþjófr betr hafa hjá staðit, ok eru slíkt góðir fylgdarmenn." Nú várar vel, ok einn
+      dag mælti konungr: "Göngum vit út nú í dag ok sjáumst um; hér er fagrt landsleg." Síðan gengu
+      þeir tveir saman, konungr ok Þjófr, ok kómu í skóg einn. Konungr mælti: "Syfjar mik nú." Þjófr
+      mælti: "Far heim heldr, herra. Þat sómir betr tígn yðvarri." "Nei," sagði konungr, "eigi má
+      svá vera," ok lagðist niðr ok hraut fast. Þjófr sat hjá ok dró sverðit ór slíðrum ok fleygði
+      því langt í burt, en konungr vaknaði ok mælti: "Var svá, Friðþjófr, at ýmist kom í skapit, ok
+      vel skaltu hér kominn, ok þegar kennda ek þik it fyrsta kveld, er ek sá þik, ok ekki máttu svá
+      skjótt í burt fara. Mikit nokkut mun fyrir þik leggjast." Hann svarar: "Vel hafi þér gert við
+      mik ok ágætliga, en burt skal nú fara skjótt." Eptir þat gengu þeir heim. Ok um morguninn var
+      drepit á skemmudyrr konungs. Hann spyrr, hverr þar væri. "Hér er Friðþjófr, ok ætla ek nú til
+      ferðar." Ok þá kvað hann vísu: <lg>
+       <l>"Nú skal þér of þakka.</l>
+       <l>Þú hefir prúðliga veitta, --</l>
+       <l>búinn er greppr at ganga, --</l>
+       <l>gisting ara nisti.</l>
+       <l>Ek man Ingibjörgu</l>
+       <l>æ, meðan vit lifum bæði, --</l>
+       <l>siti hún heil, -- en hljótum</l>
+       <l>hnossir fyr koss at senda."</l>
+      </lg>
+      <pb n="268"/> Konungr mælti: "Ok varð svá, at henni var þökkuð betr veizlan en mér. Ekki hefir
+      hún betr gert til þín en ek. Snæðum nú allir saman, áðr þú farir, ok verum kátir; sit þú upp,
+      drottning." Hún kveðst eigi nenna. "Nei," sagði konungr, "vér skulum öll sömun matast," ok svá
+      varð at vera. Konungr mælti: "Hér vilda ek þik dvelja, Friðþjófr." Þá kvað hann vísu ok mælti
+      áðr: "Í burt ætla ek nú." <lg>
+       <l>"Bú þú, Hringr konungr,</l>
+       <l>heill ok lengi,</l>
+       <l>æðstr öðlinga,</l>
+       <l>und Ýmis hausi.</l>
+       <l>Gættu, vísir, vel</l>
+       <l>vífs ok landa;</l>
+       <l>skulu vit Ingibjörg</l>
+       <l>aldri finnast."</l>
+      </lg> Þá kvað konungr: <lg>
+       <l>"Far þú eigi svá,</l>
+       <l>Friðþjófr, heðan,</l>
+       <l>dýrstr drengr,</l>
+       <l>í döprum huga.</l>
+       <l>Mun ek þér gjafir</l>
+       <l>þínar launa</l>
+       <l>víst betr en þik</l>
+       <l>of varir sjálfan."</l>
+      </lg> Ok enn kvað hann: <lg>
+       <l>"Gef ek fræknum</l>
+       <l>Friðþjófi konu</l>
+       <l>ok alla með</l>
+       <l>eigu mína."</l>
+      </lg> Friðþjófr kvað vísu: <lg>
+       <l>"Mun ek þær gjafir</l>
+       <l>þiggja eigi,</l>
+       <pb n="269"/>
+
+       <l>nema þú hafir, frægr,</l>
+       <l>fjörsótt tekit."</l>
+      </lg> Konungr svarar: "Eigi mundi ek þetta hafa gefit þér, nema þat væri, ok em ek sjúkr, enda
+      ann ek þér þess ráðs bezt ok henni þín at njóta, því at þit eruð fyrir flestum mönnum, ok nú
+      mun ek gefa þér konungs nafn, því at bræðr hennar munu eigi unna þér slíkrar virðingar, ok
+      fastna þú þér nú sjálfr konu." Friðþjófr mælti: "Hafi þér þökk fyrir, herra, en eigi vil ek
+      hæri nafnbót bera en jarlsnafn." Síðan andaðist konungr, en Friðþjófr gerði brúðhlaup sitt, og
+      var þá drukkit erfi eptir konunginn. Síðan settist hann at landráðum ok þótti vera inn mesti
+      ágætismaðr, ok áttu þau Ingibjörg börn saman. Var Friðþjófr jarl kallaðr. Ok er þetta frétta
+      bræðr hennar, mælti Helgi til bróður síns: "Slíkt er firn mikil, at ótíginn maðr skal eiga
+      systur okkra. Nú förum ok gerum her á hendr honum ok rennum þessum ósköpum." Ok svá gerðu
+      þeir, söfnuðu miklu liði ok fóru á hendr Friðþjófi. Ok er hann frétti þetta, mælti hann til
+      drottningar: "Nú eigum vér starfs ván fyrir höndum. Hversu sem gengr til, þá vilda ek, at þér
+      mislíkaði eigi." Hún svarar: "Nú er þar komit, er ek vil þín sízt missa." Síðan fóru þeir til
+      bardaga, ok gekk Friðþjófr svá hart fram, at hann var fremstr af sínum mönnum, ok mættust þeir
+      Helgi ok borðust harðliga, en svá lauk með þeim, at Helgi fell, ok var þá blásit sigrópi. Þá
+      mælti Friðþjófr: "Tveir eru kostir, Hálfdan, at taka sættir eða þola dauða. Sýnist þat nú enn,
+      at betri málaefnin hefi ek en þit bræðr." Hálfdan kveðst mundu þann kost taka, ok fór hann
+      heim til ríkis síns, ok var hann skattgildr undir Friðþjófi alla ævi síðan, en Friðþjófr
+      settist nú <pb n="270"/> at löndum ok var inn frægasti af sinni hreysti, ok átti hann margt
+      barna með konu sinni ok varð gamall maðr. <lg>
+       <l>Ok endist svá sjá saga</l>
+       <l>at vár herra gefi oss alla góða daga</l>
+       <l>ok vér megum fá þann frið,</l>
+       <l>allt gott gangi oss í lið.</l>
+       <l>Geymi oss María móðir</l>
+       <l>og mektugir englar góðir.</l>
+       <l>Leiði lausnarinn þjóðir</l>
+       <l>lífs á himna slóðir.</l>
+       <l>Ljúfstr mun oss minn lávarð senda</l>
+       <l>mér lífit gott án enda,</l>
+       <l>í frið fyrir farsæld venda.</l>
+       <l>Amen ad eterne</l>
+       <l>et mi pater et mater,</l>
+       <l>bona soror et frater.</l>
+      </lg>
+     </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

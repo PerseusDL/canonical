@@ -1,0 +1,944 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Viðbætir (Additional small texts)</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Viðbætir (Additional small texts)</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Vithbaetir_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.2  2005/03/14 01:22:35  mimno
+a few xml problems
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+<div type="textpart" subtype="chapter" n="0"><p>
+
+<pb n="435"/>
+
+<lg>
+<l>VÍG JÖRMUNREKS, SÖRLA OG HAMÐIS.</l>
+<l>(Sbr. Völsunga sögu, 42. kap.).</l>
+<l>Knátti eðr við illan</l>
+<l>Jörmunrekkr at vakna</l>
+<l>með dreyrfáar dróttir</l>
+<l>draum í sverða flaumi.</l>
+<l>Rósta varð í ranni</l>
+<l>Randvés höfuðniðja,</l>
+<l>þás hrafnbláir hefndu</l>
+<l>harma Erps of barmar.</l>
+<l>Flaut of set, við sveita,</l>
+<l>sóknar alfs í golfi</l>
+<l>hræva dögg, þars höggnar</l>
+<l>hendr sem fætr of kenndusk.</l>
+<l>Fell í blóði blandinn</l>
+<l>brunn ölskála, runna</l>
+<l>þat's á Leifa landa</l>
+<l>laufi fátt, at höfði.</l>
+<l>Þar, svát gerðu gyrðan</l>
+<l>golfhölkvis sá fylkis,</l>
+<l>segls Naglfara siglur</l>
+<l>saums andvanar standa.</l>
+<l>Urðu snemmst ok Sörli</l>
+<l>samráða þeir Hamðir</l>
+<l>hörðum herðimýlum</l>
+<l>Hergauts vinu barðir.</l>
+<l>Mjök lét stála stökkvir</l>
+<l>styðja Gjúka niðja</l>
+<l>flaums, þás fjörvi næma</l>
+<l>Foglhildar mun vildu,</l>
+<l>ok bláserkjar birkis,</l>
+<l>ball, fagrgötu allir,</l>
+<l>ennihögg ok eggjar,</l>
+<l>Jónakrs sonum launa.</l>
+<l>Þat segik fall á fögrum</l>
+<l>flotna randar botni;</l>
+<l>Ræs göfumk reiðar mána</l>
+<l>Ragnarr ok fjöld sagna.</l>
+<l>(Úr Ragnarsdrápu Braga ins gamla Boddasonar).</l>
+<pb n="436"/>
+
+<l>KRÁKUMÁL.</l>
+<l>(Sbr. Ragnars sögu loðbrókar).</l>
+<l>1. Hjoggum vér með hjörvi.</l>
+<l>Hitt vas æ fyr löngu,</l>
+<l>es á Gautlandi gengum</l>
+<l>at grafvitnis morði;</l>
+<l>þá fengum vér Þóru,</l>
+<l>þaðan hétu mik fyrðar,</l>
+<l>es lyngölun lagðak,</l>
+<l>Loðbrók at því vígi;</l>
+<l>stakk á storðar lykkju</l>
+<l>stáli bjartra mála.</l>
+<l>2. Hjoggum vér með hjörvi.</l>
+<l>Heidr vask ungr, es skífðum</l>
+<l>austr í Eyrasundi</l>
+<l>undarn frekum vargi,</l>
+<l>ok fótgulum fugli</l>
+<l>fengum vér, þars sungu</l>
+<l>við háseymda hjálma</l>
+<l>hörð járn, mikils verðar;</l>
+<l>allr vas ægir sollinn,</l>
+<l>óð hrafn í valblóði.</l>
+<l>3. Hjoggum vér með hjörvi.</l>
+<l>Hátt bárum þá geira,</l>
+<l>es tvítugir töldumk,</l>
+<l>ok tjör ruðum víða;</l>
+<l>unnum átta jarla</l>
+<l>austr fyr Dínu mynni;</l>
+<l>gera fengum þá gnóga</l>
+<l>gisting at því vígi;</l>
+<l>sveiti fell í sollinn</l>
+<l>sæ, týndi lið ævi.</l>
+<l>4. Hjoggum vér með hjörvi.</l>
+<l>Heðins kvánar varð auðit,</l>
+<l>þás Helsingja heimtum</l>
+<l>til heimsala Óðins;</l>
+<l>lögðum upp í Ívu,</l>
+<l>oddr náði þá bíta;</l>
+<l>öll vas unda gjalfri</l>
+<l>á sú roðin heitu;</l>
+<l>grenjaði brandr við brynjur,</l>
+<l>bensildr klufu skildi.</l>
+<l>5. Hjoggum vér með hjörvi.</l>
+<l>Hygg engan þá frýðu,</l>
+<l>áðr á Heflis hestum</l>
+<l>Herröðr í styr felli;</l>
+<l>klýfrat ægis öndrum</l>
+<l>annarr jarl in frægri</l>
+<pb n="437"/>
+
+<l>lunda völl til lægis</l>
+<l>á langskipum síðan;</l>
+<l>sá bar siklingr víða</l>
+<l>snart fram í styr hjarta.</l>
+<l>6. Hjoggum vér með hjörvi.</l>
+<l>Herr kastaði skjöldum,</l>
+<l>þás rægagarr renndi</l>
+<l>ræstr at gumna brjóstum;</l>
+<l>beit í Skarpaskerjum</l>
+<l>skærubíldr at hjaldri;</l>
+<l>roðinn vas randar máni</l>
+<l>áðr Rafn konungr felli;</l>
+<l>dreif ór hölda hausum</l>
+<l>heitr á brynjur sveiti.</l>
+<l>7. Hjoggum vér með hjörvi.</l>
+<l>Hátt grenjuðu rottar,</l>
+<l>áðr á Ullarakri</l>
+<l>Eysteinn konungr felli;</l>
+<l>gengum golli fáðir</l>
+<l>grundar vals af bröndum,</l>
+<l>rækyndill smó rauðar</l>
+<l>rítr, at hjalma móti;</l>
+<l>svíra virtr ór sárum</l>
+<l>sveif of hjarna kleifar.</l>
+<l>8. Hjoggum vér með hjörvi.</l>
+<l>Hafa gátu þá rafnar</l>
+<l>fyr Inndyriseyju</l>
+<l>ærna bráð at slíta;</l>
+<l>fengum Fálu hestum</l>
+<l>fullan verð at sinni,</l>
+<l>illt vas eins at gæta,</l>
+<l>með uppruna sólar;</l>
+<l>strenghömlur sák stíga,</l>
+<l>stökk malmr á skör hjalmi.</l>
+<l>9. Hjoggum vér með hjörvi.</l>
+<l>Háðum rendr í dreyra,</l>
+<l>þás benstara bræddum</l>
+<l>fyr Borgundarhólmi;</l>
+<l>hreggský slitusk hringa,</l>
+<l>hratt almr af sér malmi;</l>
+<l>Völnir fell at vígi,</l>
+<l>vasat einn konungr meiri;</l>
+<l>val rak vítt of strandir,</l>
+<l>vargr fagnaði tafni.</l>
+<l>10. Hjoggum vér með hjörvi.</l>
+<l>Hildr vas sýnt í vexti,</l>
+<l>áðr Freyr konungr felli</l>
+<l>í Flæmingja veldi;</l>
+<l>náði blár at bíta</l>
+<l>blóði smeltr í gylltan</l>
+<l>Högna kufl at hjaldri</l>
+<l>harðr bengrefill forðum;</l>
+<l>mær grét morginskæru</l>
+<l>mörg, en tafn fekkst vörgum.</l>
+<l>11. Hjoggum vér með hjörvi.</l>
+<l>Hundruðum frák liggja</l>
+<l>á Eynæfis öndrum,</l>
+<l>þars Englanes heitir;</l>
+<l>sigldum vér til snerru</l>
+<l>sex dægr, áðr lið felli;</l>
+<l>áttum odda messu</l>
+<l>við uppruna sólar;</l>
+<l>varð fyr várum sverðum</l>
+<l>Valþjófr í styr hníga.</l>
+<pb n="438"/>
+
+<l>12. Hjoggum vér með hjörvi.</l>
+<l>Hrundi dögg af sverðum</l>
+<l>brún í Barðafirði</l>
+<l>bleika ná fyr hauka,</l>
+<l>umdi almr, þars oddar</l>
+<l>allstrítt bitu skyrtur</l>
+<l>at slíðrloga sennu,</l>
+<l>Svölnis hamri þæfðar;</l>
+<l>renndi ormr til unda,</l>
+<l>eitrhvass, drifinn sveita.</l>
+<l>13. Hjoggum vér með hjörvi.</l>
+<l>Heldum Lakkar tjöldum</l>
+<l>hátt at Hildar leiki</l>
+<l>fyr Hjaðninga-vági;</l>
+<l>sjá knáttu þá seggir,</l>
+<l>es sundruðum skjöldu</l>
+<l>at hræsíldar hjaldri,</l>
+<l>hjalm slitnaðan gotna;</l>
+<l>vasat sem bjarta brúði</l>
+<l>í bing hjá sér leggja.</l>
+<l>14. Hjoggum vér með hjörvi.</l>
+<l>Hörð kom ríð á skjöldu,</l>
+<l>nár fell niðr til jarðar</l>
+<l>á Norðimbralandi;</l>
+<l>vasat of eina óttu</l>
+<l>öldum þörf at frýja</l>
+<l>Hildar leiks, þars hvassir</l>
+<l>hjalmstofn bitu skjómar;</l>
+<l>vasat sem unga ekkju</l>
+<l>í öndvegi kyssa.</l>
+<l>15. Hjoggum vér með hjörvi.</l>
+<l>Herþjófi varð auðit</l>
+<l>í Suðreyjum sjálfum</l>
+<l>sigrs á várum mönnum;</l>
+<l>varð í randar regni</l>
+<l>Rögnvaldr fyrir hníga,</l>
+<l>sá kom hæstr of hölda</l>
+<l>harmr at sverðr gusti;</l>
+<l>hvasst kastaði hristir</l>
+<l>hjalms strenglágar palmi.</l>
+<l>16. Hjoggum vér með hjörvi.</l>
+<l>Hverr lá þverr of annan;</l>
+<l>glaðr varð geira hríðar</l>
+<l>gaukr at sverða leiki;</l>
+<l>léta örn né ygli,</l>
+<l>sás Írlandi stýrði,</l>
+<l>mót varð malms ok rítar,</l>
+<l>Marstan konungr fasta;</l>
+<l>varð í Veðrarfirði</l>
+<l>valtafn gefit hrafni.</l>
+<l>17. Hjoggum vér með hjörvi.</l>
+<l>Hundmargan sák falla</l>
+<l>morginstund fyr mæki</l>
+<l>mann í odda sennu;</l>
+<l>syni mínum hneit snimma</l>
+<l>slíðra þorn við hjarta;</l>
+<l>Egill lét Agnar ræntan</l>
+<l>óblauðan hal lífi;</l>
+<l>glumdi geirr við Hamðis</l>
+<l>gránserk, bliku merki.</l>
+<l>18. Hjoggum vér með hjörvi.</l>
+<l>Haldorða sák brytja</l>
+<l>ekki smátt fyr ulfa</l>
+<l>Endils niðja bröndum;</l>
+<pb n="439"/>
+
+<l>vasat á Víkaskeiði</l>
+<l>sem vín konur bæri;</l>
+<l>hroðinn vas ægis asni</l>
+<l>ófár í dyn geira;</l>
+<l>skorin vas Sköglar kápa</l>
+<l>at skjöldunga hjaldri.</l>
+<l>19. Hjoggum vér með hjörvi.</l>
+<l>Háðum sverðs at morgni</l>
+<l>leik fyr Lindiseyri</l>
+<l>við lofðunga þrenna;</l>
+<l>fár átti því fagna,</l>
+<l>fell margr í gin vargi,</l>
+<l>haukr sleit hold með ulfi,</l>
+<l>at heill þaðan kæmi;</l>
+<l>Íra blóð í ægi</l>
+<l>ærit fell of skæru.</l>
+<l>20. Hjoggum vér með hjörvi.</l>
+<l>Hárfagran sák rökkva</l>
+<l>meyjar dreng of morgin</l>
+<l>ok málvini ekkju;</l>
+<l>vasat sem varmar laugar</l>
+<l>vínkers Njörun bæri</l>
+<l>oss í Álasundi,</l>
+<l>áðr Örn konungr felli;</l>
+<l>böðmána sák bresta,</l>
+<l>brá því fira lífi.</l>
+<l>21. Hjoggum vér með hjörvi.</l>
+<l>Há sverð bitu skjöldu,</l>
+<l>þás gullhroðinn glumdi</l>
+<l>geirr við Hildar næfri;</l>
+<l>sjá mun í Öngulseyju</l>
+<l>of aldr mega síðan,</l>
+<l>hversu at lögðis leiki</l>
+<l>lofðungar fram gengu;</l>
+<l>roðin vas út fyr eyri</l>
+<l>ár flugdreki sára.</l>
+<l>22. Hjoggum vér með hjörvi.</l>
+<l>Hví sé drengr at feigri,</l>
+<l>at hann í odda éli</l>
+<l>öndurðr látinn verði?</l>
+<l>Opt sýtir sá ævi,</l>
+<l>es aldrigi nistir,</l>
+<l>illt kveða argan eggja,</l>
+<l>örn at sverða leiki;</l>
+<l>hugblauðum kemr hvergi</l>
+<l>hjarta sitt at gagni.</l>
+<l>23. Hjoggum vér með hjörvi.</l>
+<l>Hitt telk jafnt, at gangi</l>
+<l>at samtogi sverða</l>
+<l>sveinn í móti einum;</l>
+<l>hrökkvit þegn fyr þegni,</l>
+<l>þat vas drengs aðal lengi;</l>
+<l>æ skal ástvinr meyja</l>
+<l>einarðr í dyn sverða.</l>
+<l>24. Hjoggum vér með hjörvi.</l>
+<l>Hitt sýnisk mér raunar,</l>
+<l>at forlögum fylgjum,</l>
+<l>fár gengr of sköp norna;</l>
+<l>eigi hugðak Ellu</l>
+<l>at aldrlagi mínu,</l>
+<l>þás blóðvali bræddak</l>
+<l>ok borð á lög keyrðak;</l>
+<l>vítt fengum þá vargi</l>
+<l>verð í Skotlands fjörðum.</l>
+<pb n="440"/>
+
+<l>25. Hjoggum vér með hjörvi.</l>
+<l>Hitt lægir mik, jafnan</l>
+<l>at Baldrs föður bekki</l>
+<l>búna veitk at sumblum;</l>
+<l>drekkum bjór af bragði</l>
+<l>ór bjúgviðum hausa;</l>
+<l>sýtira drengr við dauða</l>
+<l>dýrs at Fjölnis húsum;</l>
+<l>eigi kemk með æðru</l>
+<l>orð til Viðris hallar.</l>
+<l>26. Hjoggum vér með hjörvi.</l>
+<l>Hér vildi nú allir</l>
+<l>burir Áslaugr bröndum</l>
+<l>bitrum Hildi vekja,</l>
+<l>ef vandliga vissi</l>
+<l>of viðfarar ossar,</l>
+<l>hvé ófáir ormar</l>
+<l>eitrfullir mik slíta;</l>
+<l>móðernis fekk mínum</l>
+<l>mögum, svát hjörtu dugðu.</l>
+<l>27. Hjoggum vér með hjörvi.</l>
+<l>Harðla líðr at ævi,</l>
+<l>grimmt stendr grand af naðri,</l>
+<l>góinn byggvir sal hjarta;</l>
+<l>væntum hins, at Viðris</l>
+<l>vöndr í Ellu standi;</l>
+<l>sonum mínum mun svella</l>
+<l>sinn föður ráðinn verða;</l>
+<l>munut snarpir sveinar</l>
+<l>sitt kyrrt vesa láta.</l>
+<l>28. Hjoggum vér með hjörvi.</l>
+<l>Hefir fimm tigum sinna</l>
+<l>fólkorrostur framdar</l>
+<l>fleinþings boði ok eina;</l>
+<l>minnst hugða ek manna,</l>
+<l>at mér vesa skyldi,</l>
+<l>ungr namk odd at rjóða,</l>
+<l>annarr konungr fremri;</l>
+<l>oss munu Æsir bjóða,</l>
+<l>esat sýtandi dauði.</l>
+<l>29. Fýsumk hins at hætta,</l>
+<l>heim bjóða mér dísir,</l>
+<l>þærs frá Herjans höllu</l>
+<l>hefir Óðinn mér sendar;</l>
+<l>glaðr skalk öl með Ásum</l>
+<l>í öndvegi drekka;</l>
+<l>lífs eru liðnar vánir,</l>
+<l>læjandi skalk deyja.</l>
+<pb n="441"/>
+
+<l>VIÐBÓT VIÐ HEIÐREKS GÁTUR</l>
+<l>(Sbr. Hervarar sögu ok Heiðreks, 10. kap.).</l>
+<l>"Hverr byggir háfjöll,</l>
+<l>hverr fellr í djúpa dali,</l>
+<l>hverr andalauss lifir,</l>
+<l>hverr æva þegir?</l>
+<l>Heiðrekr konungr,</l>
+<l>hygg þú at gátu."</l>
+</lg>
+"Góð er gáta þín, Gestumblindi. Hrafn byggir jafnan á hám
+fjöllum, en dögg fellr jafnan í djúpa dali, fiskr lifir andalauss,
+en þjótandi foss þegir aldrigi."
+Gestumblindi mælti:
+<lg>
+<l>"Hvat er þat undra,</l>
+<l>er ek úti sá</l>
+<l>fyr döglings durum;</l>
+<l>hvítir fljúgendr</l>
+<l>hellu ljósta,</l>
+<l>en svartir í sand grafast?</l>
+<l>Heiðrekr konungr,</l>
+<l>hygg þú at gátu."</l>
+</lg>
+"Góð er gáta þín, Gestumblindi. Smækkast nú gáturnar, en
+þat er hagl ok regn, því at hagli lýstr á stræti, en regns dropar
+sökkva í sand ok sækja í jörð."
+Gestumblindi mælti:
+<lg>
+<pb n="442"/>
+
+<l>"Svartan gölt</l>
+<l>ek sá í sauri vaða</l>
+<l>ok reis honum eigi burst á baki.</l>
+<l>Heiðrekr konungr,</l>
+<l>hygg þú at gátu."</l>
+</lg>
+"Góð er gáta þín. Þat er tordýfill, ok er nú margt til týnt,
+er tordýflar eru ríkra manna spurningar."
+Gestumblindi mælti:
+<lg>
+<l>"Hvat er þat undra,</l>
+<l>er ofarliga flýgr,</l>
+<l>armlöð gellr,</l>
+<l>harðar eru, hilmir?</l>
+<l>Heiðrekr konungr,</l>
+<l>hygg þú at gátu."</l>
+</lg>
+"Góð er gáta þín. Ör er þat," segir konungr.
+Gestumblindi mælti:
+<lg>
+<l>"Hvat er þat, er lýðum lýsir,</l>
+<l>en logi gleypir</l>
+<l>ok keppast of þat vargar ávallt?</l>
+<l>Heiðrekr konungr,</l>
+<l>hygg þú at gátu."</l>
+</lg>
+"Góð er gáta þín. Þat er sól. Hún lýsir lönd öll ok skínn
+yfir alla menn, en Skalli ok Hatti heita vargar; þat eru úlfar,
+er annarr þeira ferr fyrir, en annarr eptir sólu."
+Gestumblindi mælti:
+<lg>
+<l>"Hest sá ek standa,</l>
+<l>hýddi meri,</l>
+<l>dúði dindil,</l>
+<l>drap hlaun und kvið,</l>
+<l>ór skal draga</l>
+<l>ok gjöfta at góða stund.</l>
+<pb n="443"/>
+
+<l>Heiðrekr konungr,</l>
+<l>hygg þú at gátu."</l>
+</lg>
+Þá svarar konungr: "Þessa gátu skulu ráða hirðmenn mínir."
+Þeir gátu margs til ok eigi fagrs mjök. Þá mælti konungr, sem
+hann sá, at þeir gerðu ekki at: "Hest þann kallar þú línvef,
+en skeið meri hans, er upp ok ofan skal hrista vefinn."
+Gestumblindi mælti:
+<lg>
+<l>"Meyjar ek sá</l>
+<l>moldu líkar,</l>
+<l>váru þeim at beðjum björg,</l>
+<l>svartar ok sámar</l>
+<l>í sólviðri,</l>
+<l>en þess at fegri,</l>
+<l>er færa of sér.</l>
+<l>Heiðrekr konungr,</l>
+<l>hygg þú at gátu."</l>
+</lg>
+"Góð er gáta þín. Þat eru glæður fölnaðar á arni."
+Gestumblindi mælti:
+<lg>
+<l>"Hvat mælti Óðinn</l>
+<l>í eyra Baldri,</l>
+<l>áðr hann var á bál hafðr?"</l>
+</lg>
+Konungr svarar:
+<lg>
+<l>"Undr ok argskap</l>
+<l>ok alla bleyði,</l>
+<l>en engi vissi þín þau orð</l>
+<l>utan þú einn,</l>
+<l>ill vættr ok örm."</l>
+</lg>
+Konungr brá þá Tyrfingi ok hjó til Gestumblinda, en hann
+brást í valslíki ok fló út gegnum hallarglugg einn. En sverðit
+kom á vélit valsins, ok er hann því vélstuttr jafnan síðan, svá
+sem heiðnir menn trúa. Ok var nú Óðinn honum reiðr orðinn,
+síðan hann hjó til hans, ok á þeiri nótt var konungr drepinn.
+(Hauksbók).
+<pb n="444"/>
+
+<lg>
+<l>BJARKAMÁL IN FORNU</l>
+<l>(Sbr. Hrólfs sögu kraka).</l>
+<l>Dagr es upp kominn,</l>
+<l>dynja hana fjaðrar,</l>
+<l>mál es vílmögum</l>
+<l>at vinna erfiði;</l>
+<l>vaki ok æ vaki</l>
+<l>vina höfuð,</l>
+<l>allir inir æztu</l>
+<l>Aðils ofsinnar.</l>
+<l>Hár inn harðgreipi,</l>
+<l>Hrólfr skjótandi,</l>
+<l>ættum góðir menn,</l>
+<l>þeir es ekki flýja;</l>
+<l>vekka yðr at víni,</l>
+<l>né at vífs rúnum,</l>
+<l>heldr vekk yðr at hörðum</l>
+<l>Hildar leiki.</l>
+<l>Hniginn es í hadd jarðar</l>
+<l>Hrólfr inn stórláti.</l>
+<l>Gramr inn gjöflasti</l>
+<l>gæddi hirð sína</l>
+<l>Fenju forverki,</l>
+<l>Fáfnis miðgarði,</l>
+<l>Glasis glóbarri,</l>
+<l>Grana fagrbyrði,</l>
+<l>Draupnis dýrsveita,</l>
+<l>dúni Grafvitnis.</l>
+<l>Ýtti örr hilmir,</l>
+<l>aldir við tóku,</l>
+<l>Sifjar svarðfestum,</l>
+<l>svelli dalnauðar,</l>
+<l>tregum Otrs gjöldum,</l>
+<l>tárum Mardallar,</l>
+<l>eldi Órunar,</l>
+<l>Iðja glysmálum.</l>
+<l>Gladdi gunnveitir,</l>
+<l>gengum fagrbúnir,</l>
+<l>Þjaza þingskilum</l>
+<l>þjóðir hermargar,</l>
+<l>Rínar rauðmalmi,</l>
+<l>rógi Niflunga,</l>
+<l>vísi inn vígdjarfi,</l>
+<l>varði hann Baldr þeygi.</l>
+<l>Svá skalk hann kyrkja</l>
+<l>sem inn kámleita</l>
+<l>véli viðbjarnar</l>
+<l>veggja aldinna.</l>
+<pb n="445"/>
+
+<l>HJAÐNINGAVÍG.</l>
+<l>(Sbr. Sörla þátt eða Heðins sögu ok Högna).</l>
+<l>Ok ofþerris æða</l>
+<l>ósk-Rán at þat sínum</l>
+<l>til fárhuga færa</l>
+<l>feðr veðr boga hugði,</l>
+<l>þás hristi-Sif hringa</l>
+<l>hals, in böls of fyllda,</l>
+<l>bar til byrjar drösla</l>
+<l>baug örlygis draugi.</l>
+<l>Bauða sú til bleyði</l>
+<l>bæti-Þrúðr at móti</l>
+<l>malma mætum hilmi</l>
+<l>men dreyrugra benja;</l>
+<l>svá lét ey, þótt etti,</l>
+<l>sem orrostu letti,</l>
+<l>jöfrum ulfs at sinna</l>
+<l>með algífris lifru.</l>
+<l>Letrat lýða stillir</l>
+<l>landa vanr á sandi,</l>
+<l>þá svall heipt í Högna,</l>
+<l>hönd glamma mun stöðva,</l>
+<l>es þrimregin þremja</l>
+<l>þróttig Heðin sóttu,</l>
+<l>heldr an Hildar svíra</l>
+<l>hringa þeir of fingi.</l>
+<l>Ok fyr hönd í holmi</l>
+<l>hveðru brynju Viðris</l>
+<l>fengeyðandi fljóða</l>
+<l>fordæða nam ráða;</l>
+<l>allr gekk herr und hurðir</l>
+<l>Hjarranda fram kyrrar</l>
+<l>reiðr af Reifnis skeiði</l>
+<l>raðaralfs mari bráðum.</l>
+<l>Þá má sókn á Svölnis</l>
+<l>salpenningi kenna;</l>
+<l>Ræs göfumk reiðar mána</l>
+<l>Ragnarr ok fjöld sagna.</l>
+<l>(Úr Ragnarsdrápu Braga ins gamla Boddasonar.)</l>
+</lg>
+<pb n="446"/>
+
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="1"><p>
+
+<l>EIREKS SAGA VÍÐFÖRLA</l>
+
+ÞRÁNDR er nefndr konungr sá, er fyrstr réð fyrir Þrándheimi.
+Hann átti son þann, er Eirekr hét. Hann var vinsæll
+maðr þegar á unga aldri. Hann var rammr at afli, frækn
+ok framr at öllu, drengiligr í vexti.
+Þess er getit eitt jólakveld, þá strengdi Eirekr þess heit at
+fara um allan heim at leita, ef hann fyndi stað þann, er
+heiðnir menn kalla Ódáinsakr, en kristnir menn jörð lifandi
+manna eða Paradísum. Þessi heitstrenging verðr fræg um allan
+Noreg.
+Á næsta sumri eptir býr Eirekr skip eitt skrautligt af Noregi
+ok helt til Danmerkr. Þeir váru tólf á skipi. Danakonungr átti
+sér son. Sá hét ok Eirekr. Þeir feðgar buðu Eireki Þrándarsyni
+með sér at vera þann vetr, ok þá hann þat. Þeir nafnar
+lögðu lag sitt saman, ok var með þeim vel, ok at mörgu váru
+þeir líkir. Ok um várit eptir réðst Eirekr danski í ferð með
+nafna sínum. Váru þeir ok tólf saman. Sigldu nú ok ætla til
+Miklagarðs, ok þar koma þeir í þann tíma, sem Grikkja konungr
+bauð út her í móti víkingum, er gengu mjök á ríki hans.
+Ok er Grikkja konungr frétti kvámu Norðmanna, býðr hann
+þeim til sín ok tók við þeim vegliga, frétti þá eptir, hverir þeir
+sé eða hvaðan þeir væri komnir eða hvert þeir ætlaði at fara.
+Eirekr segir, at þeir væri Norðmenn ok konunga synir ok ætlaði
+at kanna víða heim. Þá tígnaði Grikkja konungr þá forkunnar
+vel í öllum hlutum. En er þeir höfðu þar verit nokkura
+hríð, þá unnu þeir mörg stórvirki með vitrlgum ráðum ok
+<pb n="447"/>
+
+miklum röskleika ok studdu stórliga vel ríki Grikkja konungs.
+En er konungr sá, at þeir váru sterkari en vel flestir aðrir landsmenn,
+þá virðir hann þá í öllu framar ok lagði á þá mikla virðing
+ok gerði þá sína þjónustumenn ok gaf þeim mestan mála
+allra sinna manna. Svá er sagt, at þar af gerðist fyrst Norðmanna
+sómi út í Miklagarði.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Þat var sagt, at einn dag spurði Eirekr norræni konung, hverr
+gert hefði himin eða jörð. Konungr segir: "Einn gerði hvárttveggja."
+Eirekr spurði: "Hverr er sá?" Konungr svarar: "Guð
+almáttigr, sá er einn í guðdómi, en þrennr í greiningu."
+Eirekr mælti: "Hverjar eru þær þrjár greiningar?" Konungr
+segir: "Líttu í sólina. Í henni eru þrjár greinir, eldr, birti ok
+vermir, ok er þó ein sól. Svá er ok í guði faðir ok sonr ok
+heilagr andi, ok er hann þó einn í sínum almætti." Eirekr
+mælti: "Þó er mikill guð sjá, er gerði himin ok jörð. Seg mér
+nú nokkut af mikilleik hans." Konungr mælti: "Guð er einn
+óumbræðiligr ok óyfirstíganligr. Hann er yfir öllum hlutum ok
+þolir alla hluti, ok hann heldr öll endimörk jarðar með sinni
+hendi." Eirekr mælti: "Hvárt veit guð alla hluti?" Konungr
+segir: "Einn veit hann allt, sem í hans augliti sé." En er konungr
+hafði þetta mælt, þá undraðist Eirekr mikilleik guðs.
+Eirekr mælti: "Hvárt býr guð á himni eða jörðu?" Konungr
+segir: "Á himnum ríkir hann, ok þar er hans veldi. Þar er
+eigi sótt né þytr, eigi dauði, eigi hryggleikr ok eigi vesöld. Þar
+er jafnan fagnaðr ok eilíf sæla ok gleði með himneskum krásum
+án enda." Eirekr mælti: "Hverir eru þar með guði?" Konungr
+segir: "Helgir englar eru þar. Þá skapaði guð sér til þjónustu
+í fyrstu. Guð almáttigr gerði sér bjarta höll; þá höll kallaði
+hann himnaríki. Síðan gerði hann myrkvastofu; þat er þessi
+heimr, er vér byggjum. Í honum setti guð djúpa gröf; þat er
+helvíti. Í þeim stað er hvers kyns vesöld með eldi, ok þar kveljast
+andir ranglátra manna. Fyrir þeiri gröf ræðr Satan, óvinr
+<pb n="448"/>
+
+alls mannkyns, en guð almáttigr batt hann rammliga eptir písl
+sína. Síðan reis hann upp á þriðja degi eptir sinn líkams dauða.
+En á fertuganda degi steig hann upp til himnaríkis, er öllum
+völdum guðs er fyrir búit, riddarum ok hirðsveitum, ok þar
+er öllum skylt til at stunda ok fylla þat skarð, er þá varð, er
+englarnir spilltust, en guð mun þá tölu fylla með hreinlífismönnum."
+Eirekr mælti: "Hver er gröf sú, er þú mæltir, at í
+jörðu væri?" Konungr segir: "Þat er jörð dauðans, er fyrir er
+búin syndugum mönnum, ok kallast þat helviti. Í þeim stað er
+hvers kyns vesöld með eldi eilífum. Þar kveljast vándir menn."
+Eirekr mælti: "Hverir eru þeir?" Konungr segir: "Heiðnir
+menn allir ok guðníðingar." Eirekr mælti: "Hví eru allir
+heiðnir menn illir?" Konungr segir: "Því, at þeir vilja eigi
+göfga guð, skapara sinn." Eirekr mælti: "Er eigi þat guð, er
+vér göfgum?" Konungr segir: "Eigi er þat guð, því at frá þeim
+er sagt vesölum, hve illa þeir dó eða hversu glæpafullt líf þeir
+fram leiddu, meðan þeir lifðu. Þeira andir eru nú í eilífum eldi
+ok óslökkvanligum kvölum." Eirekr mælti þá: "Aldri heyrða
+ek slíka hluti fyrr frá þeim sagða." Konungr segir: "Villr ertu
+í trúnni, at þú heyrðir eigi slíkt sagt, en ef þú vill á eilífan guð
+trúa, þann er í þrenningu er, þá muntu eptir dauðann með
+honum fara í eilífa sælu." Eirekr mælti: "Þess æski ek, at ek
+öðlist eilíft líf eptir dauðann." Konungr mælti: "Þessi ósk veitist
+þér, ef þú trúir á eilífan guð í þrenningu ok takir þá heilaga
+skírn, ok verðr þú þá lífgaðr af holdi hans ok blóði ok gerist
+þú vinr guðs. Tak við kristni ok heiðra hann í öllum hlutum
+réttiliga." Eirekr mælti: "Þat samir at gera, sem þú eggjar. Seg
+þú mér þat, er ek spyr þik: Hvar er helvíti?" Konungr segir:
+"Undir jörðu." Eirekr mælti: "Hvat er yfir jörðu." Konungr
+segir: "Lopt." Eirekr mælti: "Hvat er yfir lopti?" Konungr
+segir: "Festingarhiminn. Í þeim himni eru öll himintungl svá
+sem brennandi eldr." Eirekr mælti: "Hvat er yfir festingarhimni?"
+Konungr mælti: "Vötn eru þar fest sem ský." Eirekr
+mælti: "Hvat er yfir þeim vötnum?" Konungr segir: "Andligr
+himinn, ok því trúa menn, at englar búi þar." Eirekr mælti:
+"Hvat er yfir þeim himni?" Konungr svarar: "Skilningarhiminn.
+<pb n="449"/>
+
+Í þeim himni má líta sjálfan guð ok hans veldi, þeir sem
+þess eru makligir." Þá undrast Eirekr, hversu vitr konungr
+var ok mælti: "Þó er mikil ok háleit ok óyfirstíganlig þín spekt.
+Seg þú, ef þú veizt, hversu mikil er breidd jarðarinnar." Konungr
+segir: "Forvitinn ertu, Eirekr, ok margra hluta viltu víss
+verða, þeira sem ónauðsynligir eru ok fáheyrðir ok mjök
+ókunnir. En til þess at ek fylli spurning þína, þá heyr þú, hvat
+er ek segi þér, ok nem eptir. Umhverfis jörðina telja fróðir
+menn hundrað þúsunda rasta ok átta tigi þúsunda, ok halda
+henni engir stólpar upp, heldr guðligr almáttr." Eirekr mælti:
+"Hversu langt er milli himins ok jarðar?" Konungr svarar: "Forvitinn
+ertu. Þat er kallat, at af jörðu sé allt til ins efsta himins
+hundrað þúsunda mílna ok þrjú hundruð ok hálfr níundi tögr
+mílna." Eirekr mælti: "Hvat er utan um jörðina?" Konungr
+segir: "Mikill sjór, er oceanum heitir." Eirekr mælti: "Hvert
+er yzt land í suðrhálfu heimsins?" Konungr svarar: "Indíaland
+segjum vér enda á löndum í þá hálfu heims." Eirekr mælti:
+"Hvar er sá staðr, er Ódáinsakr heitir?" Konungr segir: "Paradisum
+köllum vér svá eða jörð lifandi." Eirekr mælti: "Hvar
+er sá staðr?" Konungr segir: "Í austr er land frá Indíalandi
+inu yzta." Eirekr mælti: "Má komast þangat?" "Víst eigi,"
+segir konungr, "því at eldligr veggr stendr fyrir, sá tekr allt
+til himins upp."
+En er þetta ok margt annat hafði konungr sagt Eireki, þá
+lét hann fallast til fóta konungi ok mælti: "Ek bið þik, inn
+bezti konungr, at fyrir fullting yðvart greiðist ferð mín, því
+at mér er nauðsyn á hendi at efna heitstrenging mína, því at
+ek strengdi þess heit at fara suðr í heima at leita Ódáinsakrs,
+en ek veit, at ek má at engum kosti komast þangat, utan ek
+njóti yðvars fulltings við." Konungr segir: "Vertu hér þrjá
+vetr með oss ina næstu ok far síðan, því at nauðsyn er, at þér
+verði hjálp at mínum ráðum, ok hlýð þú mínum fortölum í
+öllu. Tak við skírn, ok mun ek þá fulltingja þér." Eirekr
+spurði konung vandliga at ömbun réttlætis eða píslum helvítis.
+Hann spurði ok at yfirbragði þjóða ok grein landa, frá höfum
+ok útlöndum ok frá allri austrálfu heimsins ok suðrálfu, frá
+<pb n="450"/>
+
+konungum stórum ok frá ýmissum eyjum, frá auðn landa ok
+frá þeim stöðum, er þeir áttu ferð yfir, frá mönnum undarligum
+ok búningi þeira ok siðum margra þjóða, frá höggormum
+ok flugdrekum ok alls kyns dýrum ok fuglum, frá
+gnótt gulls ok gimsteina. Þessar spurningar ok margar aðrar
+leysti konungr vel ok fróðliga. Eptir þetta váru þeir skírðir
+Eirekr ok hans menn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+At liðnum þrem vetrum, þá er Eirekr hafði numit slíkan
+fróðleik ok margan annan, þá fóru þeir með lið sitt til Sýrlands
+ok höfðu innsigli Grikkja konungs, en eptir þat fara
+þeir ýmist á skipum eða hestum, en gengu þó optast, fara svá
+nokkura vetr til þess, at þeir koma til ins yzta Indíalands. En
+hvar sem þeir koma á ókunnig lönd, þá var við þeim vel tekit,
+ok allr lýðr greiddi ferð þeira, því at þeir höfðu með sér bréf
+ok innsigli Grikkja konungs ok patriarche ór Miklagarði, ritat
+á allar tungur þeira þjóða, sem ván var, at þeir mundi koma
+til. Þat var ok sagt, hverir þeir váru eða hvert þeir ætlaði at
+fara, ok sýndist í því, hversu mikil guðs gifta þeim fylgdi ok
+hverr guðs vinr Grikkja konungr var, at hvar sem hans bréf
+sást, þá skyldi þeim sæmdir veita, en hvergi grand gera, því
+at guðs miskunn hlífði þeim Eireki ok hans förunautum, ok
+gæfa Grikkja konungs skýldi þeim mjök af spakligum ráðum
+hans við erfiði leiðarinnar.
+En er þeir höfðu svá lengi farit um heruð Indíalands fjórar
+mílur ins fimmta tigar, þá koma þeir um síðir til myrkva
+heraða, þeira sem jafnglöggt sá stjörnu um daga sem nætr.
+Víða þar á landi fundu þeir gullstaup mikil. Þar litu þeir ok
+mörg undr á því landi, en er þeir höfðu lengi gengit þykkva
+skóga ok undarliga háva, þá koma þeir um síðir fram ór
+mörkinni. Þá tók at lýsa ok ljóst at gera ok litu fyrir sér á
+mikla. Á henni var steinbogi. Öðrum megin árinnar sá þeir
+land fagrt með miklum blóma ok gnótt hunangs ok kenndu
+<pb n="451"/>
+
+þaðan sætan ilm. Þangat var bjart at líta. Enga sá þeir þar hæð
+né hól né fjall á því landi. Þat skilr Eirekr, at á sú mun skilja
+þessi lönd at frásögn Grikkja konungs. Þat kom honum í
+hug, at á sú mundi falla ór Paradiso ok heita Phison. En er
+þeir drógust at steinboganum, þá sá þeir, at dreki ógurligr
+lá á honum ok gapti munninum, ok þótti þeim hann gífrliga
+láta. Þá sneri Eirekr þar til ok ætlaði nokkurs konar yfir ána
+at komast. En er Eirekr danski sá þetta, þá bannaði hann
+nafna sínum at fara ok kvað drekann mundu svelgja hann
+þegar. Eirekr inn norræni sagðist eigi óttast mundu drekann,
+"ok eigi skal hann hefta ferð mína." Eirekr danski mælti:
+"Ek bið þik, inn bezti vin, at þú sel þik eigi til dauða, heldr
+far þú aptr með oss, því at þú munt þegar deyja, at þú stígr
+fram." Eirekr kveðst eigi mundu aptr hverfa, ok mæltu hvárir
+þá vel fyrir öðrum. Nú bregðr Eirekr norræni sverði ok heldr
+á því inni hægri hendi, en tekr inni vinstri í hönd förunaut
+sínum einum. Þeir ráða til ok hlaupa í munn drekanum, ok
+sýndist Eireki danska sem drekinn sylgi þá báða. Snýr hann
+nú aptr með sínum förunautum ina sömu leið, ok eptir marga
+vetr liðna kemr hann til sinna áttjarða. Sagði síðan, hvat hann
+lézt síðast sét hafa til Eireks norræna. Nú verðr þessi maðr
+frægr af ferð sinni, ok þótti inn mesti rausnarmaðr, ok lýkr
+þar frá honum at segja.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+En er Eirekr norræni ok hans förunautr höfðu hlaupit í
+munn drekanum, þá þótti þeim sem þeir væði reyk, ok er þeir
+liðu ór þeim reyk, þá sá þeir fagrt land, grösin hvít sem purpuri
+við sætum ilm ok miklum blóma, ok flutu hunangslækir um
+alla vegu landsins. Þetta land var langt ok slétt. Sólskin var
+þar, svá at aldri var þar myrkt ok aldri bar skugga á. Logn
+var þar í lopti, en lítill vindr á jörðu, til þess at þá kenndi
+inn sæta ilm heldr en áðr. Þeir gengu mjök lengi ok hugðu
+at, ef þeir sæi þar nokkurar byggðir eða heruð eða mætti þeir
+<pb n="452"/>
+
+vita, hversu vítt at væri land þetta. Sá þeir þá því líkast sem
+stöpull væri ok hengi í loptinu ok engir stólpar undir. Þeir
+nálgast þangat. Þar sá þeir, at hekk á turn í loptinu á engum
+stólpum. Sunnan við turninn stóð stigi. Þeir undruðust mjök
+þenna krapt ok þótti þetta kynligt. Gengu síðan upp í stigann
+ok kómu í turninn. Þeir sá hann inum fegrstum guðvefjar
+pellum búinn. Þar stóð borð búit fagrt, ok stóð á silfrdiskr.
+Á honum váru alls konar krásir, ok hann var hlaðinn af hvítu
+brauði með sætum ilm. Kanna var þar sett með gulli ok gimsteinum.
+Kaleikr var þar fullr af víni. Rekkjur váru þar vel
+búnar ok breiddar gullofnum klæðum ok guðvefjar pellum.
+Þá mælti Eirekr: "Sé hér Ódáinsakr, er vér leitaðum með
+miklu erfiði margan veg." Þeir lofuðu guð ok mæltu: "Mikill
+er guð ok góðr, er hann lætr okkr slíkt sjá." En eptir þat neyttu
+þeir fæðslu ok fóru til svefns síðan.
+En er Eirekr sofnaði, þá vitraðist honum ungr drengr, vænn
+ok bjartr. Sá mælti við hann: "Mikil er staðfesti trúar þinnar,
+Eirekr. Seg þú mér, hversu þér lízt land þetta." Eirekr segir:
+"Óskavel, ok hverju landi líkar mér þetta betr, en hverr er
+þú, er við mik mælir? Ok skilr mikit okkra vizku, er þú kennir
+mik ok nefnir mik á nafn, en ek veit eigi, hverr þú ert." Þá
+lét inn ungi maðr við hann blíðliga ok mælti: "Ek er engill
+guðs ok einn af þeim, er varðveita Paradísar hlið. Ek var
+nær staddr, þá er þú strengdir heit at fara suðr í heim at leita
+Ódáinsakrs. Eggjaða ek þik at sigla til Miklagarðs, ok at guðs
+forsjá ok mínum vilja tók þú skírn, ok fyrir því tel ek þik
+sælan, at þú hlýddir þrifsamligum áminningum Grikkja konungs
+ok ráðum ok tókt innsigli af honum ok þótt þik í inni
+helgu Jórdan. En drottinn sendi mik til þín. Ek er varðhaldsengill
+þinn, ok ek hefi þér hlíft á sjó ok á landi ok við allri
+háskasamligri ferð ok varðveitt þik við öllum illum hlutum.
+En vér erum eigi menn, heldr andar byggjandi á himneskri
+fóstrjörðu. En sá staðr, er þú sér hér, er sem eyðimörk til at
+jafna við Paradisum, en skammt heðan er sá staðr, ok fellr
+þaðan á sú, er þú sátt. Þangat skulu engir lífs koma, ok skulu
+þar byggja andir réttlátra manna. En sá staðr, er þú hefir
+<pb n="453"/>
+
+hittan, heitir jörð lifandi manna. En áðr þú komt hingat,
+bauð guð oss at vakta þenna stað ok sýna þér jörð lifandi
+manna með nokkurri mynd ok gera þér veizlu ok launa þér
+erfiði þitt." Þá spurði Eirekr engilinn: "Hvar býr þú?" Engillinn
+segir: "Vér búum á himni, þar sem vér sjám andligan guð,
+en fyrir nauðsynja sakir eru vér sendir í heiminn at veita
+mönnum vára þjónustu, sem þú skalt eigi gruna. Eirekr mælti:
+"Hvat heldr upp þessum stöpli, er mér sýnist hanga í lopti?"
+Engillinn segir: "Einn saman guðs kraptr heldr honum upp. Af
+slíkum táknum skaltu eigi gruna, at guð skapaði alla hluti af
+engu." Eirekr mælti: "Eigi skal ek þat gruna." Engillin spurði
+Eirek: "Hvárt viltu hér vera eptir eða viltu aptr hverfa til
+þinna áttjarða?" Eirekr svarar: "Aptr vil ek hverfa." Engillinn
+mælti: "Hví viltu þat?" Eirekr segir: "Því, at ek vil segja
+kunningjum mínum frá slíkum dýrðarverkum drottinsligs máttar,
+en ef ek kem eigi aptr, þá munu þeir því trúa, at ek hafi
+illum dauða dáit." Engillinn mælti: "Þó at nú sé goðablót á
+Norðrlöndum, þá mun þó koma sú tíð, at þat fólk mun leysast
+frá villu, ok mun guð kalla þat til sinnar trúar. Nú gef ek
+þér leyfi til aptr at fara til þinna ættjarða ok at segja þínum
+vinum frá guðs miskunn, þeiri sem þú sátt ok heyrðir, því at
+skjótara munu þeir trúa guðs erendi ok öllum hans boðorðum,
+er þeir heyra þvílíkar sögur. Vertu opt á bænum. Mun ek þá
+koma eptir þér nokkurum vetrum síðar ok bera önd þína í
+fagnað ok varðveita bein þín í þeim stað, sem þau skulu dóms
+bíða. Vertu hér sex daga ok hvílið ykkr ok takið síðan leiðarnest
+ok farið norðr aptr síðan." Nú þótti honum engillinn
+hverfa sér at sýn. Eirekr gerði alla hluti sem engillinn hafði
+boðit honum um þarvist sína ok brottferð.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Eptir ákveðna tíð stigu þeir ór turninum ok fara, unz þeir
+koma til árinnar. Þá slær yfir þá myrkva miklum. Þeir koma
+fram ór munni drekanum ok hefja síðan upp ferð sína ok sjá
+<pb n="454"/>
+
+mörg undr, ok þó er þeim at öngum mein ok verða vísir margs
+fróðleiks ok koma eptir fjóra vetr liðna til Miklagarðs, ok segir
+Eirekr konungi sína ferð ok þótti harðla vænt um, er hann var
+aptr kominn, ok lætr konungr Eirek þar vera þrjá vetr. Eptir
+þat býr Eirekr ferð sína ór Miklagarði ok ferr norðr í Noreg,
+ok verðr allr lýðr honum feginn. Hann var þar tíu vetr, ok á
+inum ellifta vetri einnhvern dag snemma fór hann til bænar.
+Þá greip hann guðs andi, ok var hans leitat, ok fannst hann eigi.
+Eirekr hafði sagt förunaut sínum draum sinn, þann er hann
+hafði dreymt í turninum, ok þetta sagði sá maðr, ok trúði sá
+maðr, at engill guðs mundi tekit hafa Eirek ok varðveitt hann.
+Þessi Eirekr var kallaðr Eirekr inn víðförli. Þessa sögu hafa
+margir sannfróðliga eptir orðum hans sjálfs. Nú lúkum vér
+þar sögu þessi.
+
+En því setti sá þetta ævintýr fyrst í þessa bók, er hana skrifaði,
+at hann vill, at hverr maðr viti þat, at ekki er traust trútt
+nema af guði, því at þó at heiðnir menn fái frægð mikla af sínum
+afreksverkum, þá er þat mikill munr, þá er þeir enda þetta
+it stundliga líf, at þeir hafa þá tekit sitt verðkaup af orðlofi
+manna fyrir sinn frama, en eigu þá ván hegningar fyrir sín
+brot ok trúleysi, er þeir kunnu eigi skapara sinn, en hinir, sem
+guði hafa unnat ok þar allt traust haft ok barizt fyrir frelsi
+heilagrar kristni, hafa þó af inum vitrastum mönnum fengit
+meira lof, en þat at auk, at mest er, at þá er þeir hafa fram
+gengit um almenniligar dyrr dauðans, sem ekki hold má forðast,
+hafa þeir tekit sitt verðkaup, þat er at skilja, eilíft ríki með
+allsvaldanda guði utan enda sem þessi Eirekr, sem nú var
+frá sagt.
+</p></div>
+
+
+</div></body></text>
+</TEI>

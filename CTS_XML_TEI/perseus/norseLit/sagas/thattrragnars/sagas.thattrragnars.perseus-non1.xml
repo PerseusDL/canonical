@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> Þáttr af Ragnars sonum</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title> Þáttr af Ragnars sonum</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: ThattrRagnars_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="151"/>
+
+EPTIR dauða Hrings konungs tók Ragnarr, sonr
+hans, konungdóm yfir Svía veldi ok Dana. Þá gengu
+margir konungar á ríkin ok lögðu undir. En því at
+hann var ungr maðr ok þeim sýndist hann lítt fallinn
+til ráðagerðar eða landstjórnar, þá var einn jarl í Vestra-Gautlandi,
+er Herrauðr hét. Hann var jarl Ragnars
+konungs. Manna var hann vitrastr ok hermaðr mikill.
+Hann átti eina dóttur, er Þóra borgarhjörtr var kölluð.
+Hún var allra kvenna fríðust, þeira er konungr hafði
+spurt til. Jarlinn, faðir hennar, hafði gefit henni einn
+yrmling í morgingjöf. Hún fæddi hann fyrst í eski
+sínu. En þessi ormr varð svá mikill um síðir, at hann
+lá í kring um skemmuna ok beit í sporð sér. Hann
+gerðist þá svá ólmr, at menn þorðu eigi at koma nær
+skemmunni nema þeir, er honum gáfu mat eða þjónuðu
+jarls dóttur, en hann át uxa um dag. Fólkit óttaðist
+mjök, ok vissu, at hann mundi mikinn skaða gera,
+svá mikill ok ólmr sem hann var þá orðinn. Jarl
+strengdi þá þess heit at bragarfulli, at hann skyldi þeim
+<pb n="152"/>
+
+einum manni gifta dóttur sína, Þóru, er dræpi orminn
+eða þyrði at ganga til tals við hana fyrir orminum. Ok er
+Ragnarr konungr spyrr þessi tíðendi, þá ferr hann í
+Vestra-Gautland. Ok er hann átti skammt til býjar
+jarlsins, þá fór hann í rögguð klæði, brækr ok kápu,
+ok ermar á ok höttr. Þau klæði váru þæfð með sand
+ok tjöru ok tók í hönd sér eitt mikit spjót, en var
+gyrðr sverði, ok gekk svá einn frá sínum mönnum ok
+til býjar jarlsins ok skemmu Þóru. Ok þegar ormrinn
+sá, at þar var kominn ókunnr maðr, þá reistist hann
+upp ok blés eitri móti honum. En hann skaut móti
+skildinum ok gekk at honum djarfliga ok lagði hann
+með spjóti í hjartat. Ok síðan brá hann sínu sverði ok
+hjó af orminum höfuðit, ok fór þat svá sem segir í sögu
+Ragnars konungs, at hann fekk síðan Þóru borgarhjört.
+Ok síðan lagðist hann í hernað ok frelsti allt sitt ríki.
+Hann átti með Þóru tvá syni. Hét annarr Eiríkr, en
+annarr Agnarr. Ok er þeir váru nokkurra vetra gamlir,
+þá tekr Þóra sótt ok andaðist. Síðan fekk Ragnarr
+Áslaugar, er sumir kalla Randalín, dóttur Sigurðar
+Fáfnisbana ok Brynhildar Buðladóttur. Þau áttu fjóra
+syni. Ívarr beinlausi var ellstr, þá Björn járnsíða, þá
+Hvítserkr, þá Sigurðr. Þat var mark í auga honum, at
+svá var sem ormr lægi um sjáldrit, ok því var hann
+kallaðr Sigurðr ormr í auga.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Nú er synir Ragnars váru vaxnir, þá herjuðu þeir
+víða um lönd. Þeir bræðr Eiríkr ok Agnarr fóru í
+öðrum stað, en í þriðja stað fóru þeir Ívarr ok þeir
+inir yngri bræðr hans með honum, ok gerði hann ráð
+<pb n="153"/>
+
+fyrir þeim, því at hann var forvitri. Þeir lögðu undir
+sik Selund ok Reiðgotaland, Eygotaland ok Eyland ok
+öll smálönd í hafinu. Settist þá Ívarr með inum yngrum
+bræðrum sínum af Hleiðru á Selundi, ok var þat
+þó móti vilja Ragnars konungs. Fóru synir hans með
+hernaði allir, því at þeir vildu eigi ófrægri vera en
+Ragnarr konungr, faðir þeira. Þat líkaði Ragnari konungi
+illa, er synir hans heldu móti honum ok tóku
+skattlönd hans móti hans vilja. Hann setti þann konung
+yfir Upp-Svíaveldi, er Eysteinn beli hét, ok bað
+hann halda því ríki sér til handa, en verja fyrir sonum
+sínum, ef þeir kallaði til. Þat var eitt sumar, er Ragnarr
+konungr var farinn með her í Austrveg, at
+Eiríkr ok Agnarr, synir hans, kómu til Svíþjóðar ok
+heldu skipum sínum upp í Löginn. Gerðu þeir þá
+boð Eysteini konungi til Uppsala, at hann kæmi til
+þeira. Ok er þeir fundust, sagði Eiríkr, at hann vildi,
+at Eysteinn konungr heldi Svíaríki undir þá bræðr,
+ok kveðst þá fá vilja Borghildar, dóttur hans, ok segir,
+at þá megu þeir vel halda því ríki fyrir Ragnari konungi.
+Eysteinn kveðst þetta vilja tjá innanlands höfðingjum,
+ok skildust þeir svá. Ok er Eysteinn konungr
+bar þetta mál upp, þá urðu allir landsmenn á þat sáttir
+at verja landit fyrir sonum Ragnars, ok dregst nú
+saman óvígr herr, ok ferr Eysteinn konungr móti Ragnars
+sonum. Ok er þeir finnast, verðr þar mikil orrosta,
+ok verða nú synir Loðbrókar ofrliði bornir, ok fellr
+svá lið þeira bræðra, at fátt eitt stóð upp. Þá fell ok
+Agnarr, en Eiríkr varð handtekinn. Eysteinn konungr
+bauð Eiríki grið ok svá mikit fé af Uppsala veldi fyrir
+Agnar, bróður sinn, sem sjálfr vildi hann, ok þar með
+dóttur sína, þá er áðr hafði hann beðit. Eiríkr vildi
+engar fébætr ok eigi konungs dóttur, ok eigi kveðst
+<pb n="154"/>
+
+hann vilja lifa eptir þann ósigr, er hann hafði fengit,
+en þat kveðst hann þiggja vilja, at hann kjósi sér sjálfr
+dauðdaga. Ok af því at Eysteinn konungr mátti enga
+sætt fá af Eiríki, þá játtar hann honum þat. Eiríkr
+bað, at þeir tæki undir hann spjótsoddum ok hefi
+hann svá upp yfir allan valinn. Þá kvað Eiríkr:
+<lg>
+<l>"Vilkat boð fyr bróður</l>
+<l>né baugum mey kaupa,</l>
+<l>Eystein kveða orðinn</l>
+<l>Agnars bana, heyra;</l>
+<l>grætr eigi mik móðir,</l>
+<l>munk efstr of val deyja,</l>
+<l>ok geirtré í gögnum</l>
+<l>gerr, látið mik standa."</l>
+</lg>
+Ok áðr hann væri hafinn upp á spjótin, þá sá hann
+einn mann ríða mikit. Þá kvað hann:
+<lg>
+<l>"Þau berið orð it efra,</l>
+<l>eru austrfarar liðnar,</l>
+<l>at mær hafi mína</l>
+<l>mjó, Áslaugu, bauga;</l>
+<l>þá mun mest af móði,</l>
+<l>ef mik spyrja dauðan,</l>
+<l>mín stjúpmóðir mildum</l>
+<l>mögum sínum til segja."</l>
+</lg>
+Var nú svá gert, at Eiríki var lypt upp á spjótsoddunum,
+ok dó hann svá uppi yfir valnum. Ok er þessi
+tíðendi spyrjast út á Selund til Áslaugar, þá ferr hún
+þegar á fund sona sinna ok segir þeim þessi tíðendi.
+Þeir Björn ok Hvítserkr léku tafl, en Sigurðr stóð at
+framan. Þá kvað Áslaug:
+<lg>
+<l>"Eigi mundi yðar,</l>
+<l>ef ér dæið fyrri,</l>
+<l>eitt misseri eptir</l>
+<l>óhefnt vera, bræðra;</l>
+<pb n="155"/>
+
+<l>lítt ráðumk því leyna,</l>
+<l>ef líf hafa knætti</l>
+<l>Eiríkr sitt ok Agnarr</l>
+<l>óbornir mér niðjar."</l>
+</lg>
+Þá svaraði Sigurðr ormr í auga:
+<lg>
+<l>"Þat skal þriggja vikna,</l>
+<l>ef þik tregar, móðir,</l>
+<l>leið eigu vér langa,</l>
+<l>leiðangr búinn verða;</l>
+<l>skal Uppsölum eigi</l>
+<l>þótt ófafé bjóði,</l>
+<l>ef oss duga eggjar</l>
+<l>Eysteinn beli ráða."</l>
+</lg>
+Þá kvað Björn járnsíða:
+<lg>
+<l>"Duga mun hugr ok hjarta</l>
+<l>í hauksnöru brjósti,</l>
+<l>þótt minnr um þat mæli,</l>
+<l>manni innan rifja;</l>
+<l>eigi er oss í augum</l>
+<l>ormr né fránir snákar,</l>
+<l>bræðr glöddu mik mínir,</l>
+<l>mank stjúpsonu þína."</l>
+</lg>
+Þá svaraði Hvítserkr:
+<lg>
+<l>"Hyggjum at, áðr heitim,</l>
+<l>at hefnt megi verða;</l>
+<l>látum ýmsa illu,</l>
+<l>Agnars bana, fagna;</l>
+<l>hrindum húf á hrannir,</l>
+<l>höggum ís fyr barði,</l>
+<l>sjám á hitt, hvé snekkjur</l>
+<l>snemmst vér fáim búnar."</l>
+</lg>
+Þá kvað Ívarr beinlausi:
+<lg>
+<l>"Hafið ofrhuga ærinn</l>
+<l>ok áræði bæði,</l>
+<l>þess mundi þá þurfa,</l>
+<pb n="156"/>
+
+<l>at þrá mikit fylgdi;</l>
+<l>bera mun mik fyr bragna</l>
+<l>beinlausan fram verða,</l>
+<l>þó gatk hönd til hefnda,</l>
+<l>at hváriga nýtak."</l>
+</lg>
+Eptir þat drógu Ragnars synir saman óvígan her. Ok
+er þeir váru búnir, þá fóru þeir með skipaher til Svíþjóðar,
+en Áslaug drottning ferr með fimmtán hundruðum
+riddara landveg, ok var þat fólk allvel búit. Sjálf
+bar hún herklæði ok var formaðr þess hers ok kallaðist
+Randalín, ok mætast þau í Svíþjóð ok ræna ok brenna,
+hvar sem þau fara yfir. Þetta spyrr Eysteinn konungr
+ok safnar her í móti þeim, hverjum þeim manni, er
+vígr var í hans ríki. Ok er þeir mætast, verðr þar mikil
+orrosta, ok fá Loðbrókar synir sigr, en Eysteinn konungr
+fell, ok spyrst þetta ok verðr mjök frægt. Ragnarr
+konungr, þar sem hann var í hernaði, spyrr þetta ok
+líkar stórilla við sonu sína, at þeir létu eigi hefndina
+bíða hans. Ok er hann kom heim í ríki sitt, þá segir
+hann Áslaugu, at hann skal gera eigi minna frægðarverk
+en synir hans höfðu þá gert. "Hefi ek nú flest
+allt þat ríki aptr unnit undir mik, er mínir forellrismenn
+hafa átt, utan England eigi, ok því hefi ek nú
+látit gera knörru tvá í Líðum á Vestfold," -- því at
+hans ríki stóð allt til Dofrafjalls ok Líðandisness. Áslaug
+svaraði: "Mörg langskip máttu þér hafa gera látit
+með verði þessa knarra. Vitu þér ok, at stórskipum er
+ekki gott at halda at Englandi sakir straums ok útgrynnis,
+ok er þetta ekki vitrliga ráðit." En allt at einu
+ferr Ragnarr konungr með þessum knörrum vestr til
+Englands með fimm hundruð manna ok brýtr bæði
+skipin við England, en sjálfr hann ok allr herr hans
+<pb n="157"/>
+
+kom heill á land. Tekr hann nú at herja, hvar sem
+hann ferr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Í þann tíma réð sá konungr fyrir Norðhumbrulandi,
+er Ella hét. Ok er hann spyrr, at herr er kominn í
+ríki hans, þá safnar hann miklu liði ok ferr móti honum
+með óvígan her, ok verðr þar orrosta mikil ok hörð.
+Ragnarr konungr var yzt í silkihjúp þeim, er Áslaug
+gaf honum at skilnaði. En því at landherrinn var
+mikill, svá at ekki mátti við haldast, þá fell náliga allt
+fólk hans, en hann gekk sjálfr vel fjórum sinnum í
+gegnum fylking Ellu konungs, en ekki járn festi á silkiskyrtu
+hans. Varð hann um síðir handtekinn ok settr í
+einn ormgarð, ok vildu ormarnir ekki koma nær honum.
+Ella konungr sá, at hann bitu eigi járn um daginn,
+er þeir börðust, ok nú vildu eigi ormarnir granda
+honum. Þá lét hann fletta af honum klæði þat, er hann
+hafði yzt haft um daginn, ok þegar hengu ormarnir á
+honum alla vega, ok lét hann þar líf sitt með miklum
+hraustleik.
+Ok er synir Ragnars konungs spyrja þessi tíðendi, þá
+fara þeir vestr til Englands ok berjast við Ellu konung.
+Ok af því at Ívarr vildi eigi berjast ok ekki hans fólk,
+en landherrinn var drjúgr, þá fengu þeir ósigr ok flýðu
+til skipa ok fóru við svá búit heim til Danmarkar.
+En Ívarr var eptir í Englandi ok fór á fund Ellu konungs
+ok beiddist af honum bóta fyrir föður sinn. Ok
+því at Ella konungr sá, at Ívarr vildi eigi berjast með
+bræðrum sínum í móti honum, þá þótti honum trúligt
+at gera sætt við hann. Ívarr bað konung gefa honum
+svá mikit af landi í föðurgjöld sem hann breiddi
+<pb n="158"/>
+
+yfir ina mestu öldungshuð, því at hann segir sér eigi
+vel munu fritt at fara heim fyrir bræðrum sínum.
+Ellu þótti þetta eigi ótrúligt, ok bundu þeir með
+þessu sætt sína. Tekr Ívarr nú húðina hráblauta ok
+lætr þenja sem mest. Ok síðan lætr hann rista húðina
+í inn mjóvasta streng ok klýfr síðan sér hvárt, hárham
+ok holdrosu. Síðan lætr hann draga um einn sléttan
+völl ok marka þar um utan grundvöll. Hann reisir þar
+á sterka borgarveggi, ok er sú borg nú kölluð Jórvík.
+Hann vingaðist við allt landsfólk ok mest við höfðingja,
+ok svá kom, at allir höfðingjar hétu honum
+trúnaði ok bræðrum hans. Síðan sendir hann boð til
+bræðra sinna ok segir, at þá er meiri ván, at þeir megi
+hefna föður síns, ef þeir koma með her til Englands.
+Ok er þeir spyrja þat, bjóða þeir her út ok halda til
+Englands. Ok er Ívarr verðr þess varr, ferr hann þegar
+á fund Ellu konungs ok segir, at hann vill eigi leyna
+hann slíkum tíðendum, en segir, at hann má eigi berjast
+móti bræðrum sínum, en þó vill hann fara á fund
+þeira ok leita um sættir. Konungr þiggr þetta. Kemr
+Ívarr á fund bræðra sinna ok eggjar þá at hefna föður
+síns ok ferr síðan aptr til Ellu konungs ok segir, at
+þeir eru svá ólmir ok óðir, at þeir vilja fyrir hvetvetna
+fram berjast. Konungi sýnist þetta inn mesti
+trúleiki, er Ívarr gerði. Ferr hann nú móti þeim bræðrum
+með sinn herr. Ok er þeir koma saman, þá snerust
+margir höfðingjar frá konunginum ok til Ívars. Varð
+konungr þá borinn ofrliði, svá at mikill þorri liðs hans
+fell, en sjálfr varð hann handtekinn. Ívarr ok þeir
+bræðr minntust nú, hversu faðir þeira var píndr. Létu
+þeir nú rista örn á baki Ellu ok skera síðan rifin öll
+frá hrygginum með sverði, svá at þar váru lungun út
+dregin. Svá segir Sighvatr skáld í Knútsdrápu:
+<pb n="159"/>
+
+<lg>
+<l>"Ok Ellu bak</l>
+<l>at lét hinns sat</l>
+<l>Ívarr ara</l>
+<l>Jórvík skorit."</l>
+</lg>
+Eptir þessa orrostu gerðist Ívarr konungr yfir þeim
+hluta Englands, sem hans frændr höfðu fyrri átt. Hann
+átti þá tvá bræðr frilluborna, en annarr hét Yngvarr,
+en annarr Hústó. Þeir pínuðu Játmund konung inn
+helga eptir boði Ívars, ok lagði hann síðan undir sik
+hans ríki. Loðbrókar synir fóru um mörg lönd með
+hernaði: England ok Valland ok Frakkland ok út um
+Lúmbardí. En svá er sagt, at þar hafi þeir framast
+komit, er þeir unnu þá borg, er Lúna heitir. Ok um
+eina stund ætluðu þeir at fara til Rómaborgar ok vinna
+hana, ok hefir þeira hernaðr frægstr verit um öll Norðrlönd
+af danskri tungu. Ok er þeir koma aptr í Danmörk
+í ríki sitt, þá skipta þeir löndum með sér. Tók
+Björn járnsíða Uppsala ríki ok alla Svíþjóð ok þat,
+er þar til heyrir, en Sigurðr ormr í auga hafði Selund
+ok Skáni ok Halland ok alla Víkina ok Agðir til Líðandisness
+ok mikinn þorra af Upplöndum, en Hvítserkr
+hafði Reiðgotaland ok Vindland. Sigurðr ormr
+í auga átti Blæju, dóttur Ellu konungs. Þeira sonr var
+Knútr, er kallaðr var Hörða-Knútr, er ríki tók eptir
+föður sinn í Selund, Skáni ok Hallandi, en Víkin hvarf
+þá undan honum. Hann átti þann son, er Gormr hét.
+Hann var heitinn eptir fóstra hans, syni Knúts fundna.
+Hann helt allt land af sonum Ragnars, meðan þeir
+váru í hernaði. Gormr Knútsson var allra manna mestr
+ok sterkastr ok inn mesti atgervimaðr um alla hluti,
+en ekki var hann svá vitr sem verit höfðu inir fyrri
+frændr hans.
+<pb n="160"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Gormr tók konungdóm eptir föður sinn. Hann fekk
+Þyri, er kölluð var Danmarkarbót, dóttur Klakk-Haralds,
+er konungr var í Jótlandi. En er Haraldr
+var andaðr, þá tók Gormr þat ríki allt undir sik.
+Gormr konungr fór með her yfir allt Jótland ok eyddi
+öllum neskonungum allt suðr til Slés, ok svá vann hann
+mikit af Vindlandi, ok margar orrostur átti hann við
+Saxa, ok gerðist hann inn ríkasti konungr. Hann átti
+tvá syni. Hét inn ellri Knútr, en Haraldr inn yngri.
+Knútr var allra þeira manna fegrstr, er menn hafa sét.
+Konungr unni honum um fram hvern mann ok þar
+með öll alþýða. Hann var kallaðr Danaást. Haraldr
+líktist í móðurætt sína, ok unni móðir hans honum
+eigi minna en Knúti. Ívarr inn beinlausi var lengi
+konungr í Englandi. Hann átti ekki barn, því at hann
+var svá skapaðr, at honum fylgdi engi girnd né ást, en
+eigi skorti hann spekt eða grimmd, ok varð hann ellidauðr
+á Englandi ok var þar heygðr. Þá váru allir Loðbrókar
+synir dauðir. Eptir Ívar tók konungdóm í Englandi
+Aðalmundr. Hann var bróðursonr Játmundar ins
+helga, ok kristnaði hann víða England. Hann tók skatta
+af Norðhumrulandi, því at þat var heiðit. Eptir hann
+tók konungdóm sonr hans, er Aðalbrigt hét. Hann var
+góðr konungr ok varð gamall. Ofarliga á hans dögum
+kom Danaherr til Englands, ok váru formenn hersins
+Knútr ok Haraldr, synir Gorms konungs. Þeir lögðu
+undir sik mikit ríki í Norðhumrulandi, þat er Ívarr
+hafði átt. Aðalbrigt konungr fór móti þeim, ok börðust
+þeir fyrir norðan Kliflönd, ok fell þar margt af
+Dönum. Ok nokkuru síðar gengu Danir upp við
+<pb n="161"/>
+
+Skarðaborg ok börðust þar ok fengu sigr. Síðan fóru
+þeir suðr til Jórvíkr, ok gekk þar undir þá allt fólk,
+ok uggðu þeir þá ekki at sér. Ok einn dag, er heitt
+veðr var, fóru menn á sund. Ok svá sem konungssynir
+váru á sundi millim skipanna, hlupu menn af landi
+ofan ok skutu á þá. Var þá Knútr lostinn öru til bana,
+ok tóku þeir líkit ok fluttu út á skip. Ok er landsmenn
+spyrja þetta, safnast þeir saman, svá at síðan fá
+Danir engar uppgöngur sakir safnaðar landsmanna ok
+fara síðan heim aptr til Danmarkar. Gormr konungr
+var þá á Jótlandi. Ok er hann spurði þessi tíðendi,
+þá hné hann aptr ok sprakk af harmi annan dag eptir
+at jafnlengd. Þá tók konungdóm eptir hann yfir Danaveldi
+Haraldr, sonr hans. Hann tók fyrstr trú ok skírn
+sinna ættmanna.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Sigurðr ormr í auga ok Björn járnsíða ok Hvítserkr
+höfðu herjat víða um Frakkland. Þá sneri Björn heim
+til ríkis síns. Eptir þat barðist Örnúlfr keisari við þá
+bræðr, ok fell þá af Dönum ok Norðmönnum hundrað
+þúshundraða. Þar fell þá Sigurðr ormr í auga, ok Guðröðr
+hét annarr konungr, er þar fell. Hann var sonr
+Óláfs Hringssonar, Ingjaldssonar, Ingasonar, Hringssonar,
+er Hringaríki er við kennt. Hann var sonr Dags
+ok Þóru drengjamóður. Þau áttu níu syni, ok er af
+þeim komin Döglinga ætt. Helgi hvassi hét bróðir
+Guðröðar. Hann hafði brott ór orrostunni merki Sigurðar
+orms í auga ok sverð hans ok skjöld. Hann fór
+heim til Danmarkar með sínu liði ok fann þar Áslaugu,
+<pb n="162"/>
+
+móður Sigurðar, ok sagði henni tíðendin. Þá kvað
+Áslaug vísu:
+<lg>
+<l>"Sitja veiðivitjar</l>
+<l>vals á borgar halsum,</l>
+<l>böl er, þats hefir of hafnat</l>
+<l>hrafn Sigurðar nafni;</l>
+<l>blása nýtinjótar</l>
+<l>nás í spán at hánum,</l>
+<l>ofsnemma lét Óðinn</l>
+<l>álf valmeyjar deyja."</l>
+</lg>
+En af því at Hörða-Knútr var ungr, þá var Helgi þar
+með Áslaugu lengi til landvarnar. Sigurðr ok Blæja áttu
+dóttur. Hún var tvíbura við Hörða-Knút. Áslaug gaf
+henni nafn sitt ok fæddi hana upp síðan ok fóstraði.
+Hana fekk síðan Helgi hvassi. Þeira sonr var Sigurðr
+hjörtr. Hann var allra þeira manna fríðastr ok mestr
+ok sterkastr, er menn höfðu sét. Þeir váru jafngamlir
+Gormr Knútsson ok Sigurðr hjörtr. En er Sigurðr var
+tólf vetra, þá drap hann berserk þann í einvígi, er
+Hildibrandr hét, ok þá tólf saman. Eptir þat gifti
+Klakk-Haraldr honum dóttur sína, er Ingibjörg hét.
+Þau áttu tvau börn, Guðþorm ok Ragnhildi. Þá spurði
+Sigurðr, at Fróði konungr, föðurbróðir hans, var dauðr.
+Fór hann þá norðr til Noregs ok gerðist konungr yfir
+Hringaríki, ættleifð sinni. Frá honum er löng saga,
+því at hann vann margs kyns þrekvirki. En þat er at
+segja frá lífláti hans, at hann reið út á eyðimerkr at
+veiða dýr, sem vandi hans var til, ok kom þar móti
+honum Haki Haðaberserkr með þrjá tigu manna alvápnaðra
+ok barðist við hann. Þar fell Sigurðr ok hafði
+drepit áðr tólf menn, en Haki konungr hafði látit
+hönd sína hægri ok hafði þó þrjú sár önnur. Eptir
+þat reið Haki konungr með sínum mönnum á Hringaríki
+<pb n="163"/>
+
+til Steins, sem bú Sigurðar var, ok tók brott Ragnhildi,
+dóttur hans, ok son hans, Guðþorm, ok mikit góz
+annat ok flutti heim með sér á Haðaland. Ok litlu
+síðar lét hann efna til veizlu mikillar ok ætlaði at gera
+brullaup sitt, en þat dvaldist, því at sár hans höfðust
+illa. Ragnhildr var þá fimmtán vetra gömul, en Guðþormr
+fjórtán vetra. Leið svá haustit ok vetrinn fram
+um jól, at Haki lá í sárum. Þá var Hálfdan konungr
+svarti á Heiðmörk at búum sínum. Hann sendi Hárek
+gand ok með honum hundrað manna, ok fóru þeir
+yfir um ís á Mjörs á Haðaland á einni nótt ok kómu
+í dagan á bæ Haka konungs ok tóku allar dyrr á þeim
+skála, er hirðmenn sváfu í. Ok síðan gengu þeir til
+svefnskemmu Haka konungs ok tóku þar Ragnhildi ok
+Guðþorm, bróður hennar, ok allt þat fé, er þar var,
+ok hafa brott með sér. Þeir brenndu skálann ok
+þar inni í alla hirðina ok fara síðan brott. En Haki
+konungr stóð upp ok klæddi sik ok gekk eptir þeim
+um hríð. Ok er hann kom at vatnsísinum, þá sneri
+hann niðr hjöltunum á sverðinu ok lagðist á blóðrefilinn
+ok fekk þar bana ok er þar heygðr á vatnsbakkanum.
+Hálfdan konungr sá, at þeir óku yfir ísinn með
+vagn tjaldaðan, ok þóttist vita, at þeira erendi mundi
+orðit hafa slíkt sem hann vildi. Lét hann þá senda boð
+um alla byggð ok bauð til öllu stórmenni á Heiðmörk
+ok gerði þann dag mikla veizlu. Gerði hann þá brullaup
+til Ragnhildar, ok váru þau saman síðan marga
+daga. Þeira sonr var Haraldr konungr inn hárfagri, er
+fyrstr varð einvaldskonungr yfir öllum Noregi.
+</p></div>
+
+
+
+</div></body></text>
+</TEI>

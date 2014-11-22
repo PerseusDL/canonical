@@ -1,0 +1,994 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Hálfs saga ok Hálfsrekka</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Hálfs saga ok Hálfsrekka</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Halfs_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="159"/> ALREKR hét konungr, er bjó á Alreksstöðum. Hann réð fyrir Hörðalandi. Hann átti
+      Signýju, dóttur konungs af Vörs. Kollr hét hirðmaðr hans, ok fylgdi hann konungi norðr í Sogn
+      ok sagði konungi allmikit frá vænleik Geirhildar Drífsdóttur, því at hann hafði sét hana við
+      mungátsgerð, ok kveðst honum unna þess ráðs. Til fundar við Geirhildi kom Höttr, er Óðinn var
+      reyndar, þá er hún var at léreptum. Hann keypti því við hana, at Alrekr konungr skyldi eiga
+      hana, en hún skyldi á hann heita til alls. Konungr sá hana, er hann fór heim, ok gerði
+      brúðlaup til hennar it sama haust. Konungr launaði Koll vel trúleik sinn ok gaf honum jarlsdóm
+      ok atsetu í Kollsey fyrir sunnan Harðsæ, ok er þat fjölbyggt herað. Alrekr konungr mátti eigi
+      eiga þær báðar fyrir ósamþykki þeira ok kveðst þá þeira eiga skyldu, er betra öl gerði mót
+      honum, er hann kæmi heim ór leiðangri. Þær kepptust um ölgerðina. Signý hét á Freyju, en
+      Geirhildr á Hött. Hann lagði fyrir dregg hráka sinn ok kveðst vilja fyrir tilkvámu <pb n="160"
+      /> sína þat, er var milli kersins ok hennar. En þat reyndist gott öl. Þá kvað Alrekr: <lg>
+       <l>"Geirhildr, getta,</l>
+       <l>gott er öl þetta,</l>
+       <l>ef því andmarkar</l>
+       <l>engir fylgja.</l>
+       <l>Ek sé hanga</l>
+       <l>á hávum gálga</l>
+       <l>son þinn, kona,</l>
+       <l>seldan Óðni."</l>
+      </lg> Á þeim misserum var fæddr Víkarr, sonr Alreks ok Geirhildar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Ögvaldr Rogalands konungr bjó á Roga á Jösurheiði. Hún er í milli Rogalands ok Þelamarkar.
+      Þat kalla menn nú Viði. Hann fór á dýraveiði. Honum fylgdi hirð hans, ok þar fæddi drottning
+      svein þann, er Jösurr hét. Þann fóstraði Gunnvaldr Storðarjarl. Hæklingr víkingr kom með her
+      sinn á hendr Ögvaldi konungi. Í þeiri orrostu fell Ögvaldr konungr, ok var hann heygðr á
+      Ögvaldsnesi. Finnr inn auðgi af Akranesi, landnámamaðr, lá við Ögvaldsnes ok búinn til Íslands
+      ok spurði, hversu fyrir löngu Ögvaldr konungr fell. Hann heyrði vísu þessa kveðna í hauginn: <lg>
+       <l>"Þat var fyr löngu,</l>
+       <l>er leið heldu</l>
+       <l>heldr hundmargir</l>
+       <l>Hæklings firar,</l>
+       <l>sigldu um salta</l>
+       <l>slóð birtinga.</l>
+       <l>Þá varð ek þessa</l>
+       <l>þorps ráðandi."</l>
+      </lg>
+      <pb n="161"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Gunnvaldr jarl ok Kollr báðu einnar konu báðir, ok fekk Gunnvaldr. Eptir þat kom Kollr með
+      lið mikit í Storð á laun, ok lögðu eld í hús Gunnvalds Roga. Gunnvaldr gekk út ok var drepinn.
+      Þá hafði Jösurr verit konungr nokkura stund. Síðar fór hann með lið mikit at hefna fóstra
+      síns. Ok er Kollr sá sigling hans, þá hljóp hann á herskip sín ok sigldi norðr um Harðsæ í
+      Grafdalsvág. Þá kom Alrekr konungr til móts við Koll fámennr, því at hann vissi eigi ófriðar
+      ván. Þá börðust þeir Jösurr konungr, ok fellu þeir Alrekr konungr ok mestr hlutr liðs þeira.
+      Víkarr, sonr Alreks, kom eigi fyrr ór liðsafnaði en Jösurr konungr var brott farinn. Í þeiri
+      ferð lagði Jösurr undir sik ríki þat allt, er átt hafði Kollr. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Mörgum vetrum síðar kom Víkarr konungr fjölmennr á hendr Jösur, þá er hann var í því ríki,
+      er Kollr hafði átt, ok áttu þeir orrostu, ok þá fell Jösurr konungr fyrir ok allir bændr þess
+      heraðs. Því heitir þat Kvennaherað, at þar byggðu ekkjur einar eptir. Síðan eignaðist Víkarr
+      ríki þat allt, er átt hafði Kollr. Fyrir þat fór Hjörr Jösursson móti Víkari til orrostu, ok
+      áttu þeir langa hríð sín í millum, ok höfðu ýmsir betr, ok sættust um síðir. Sonr Víkars var
+      Vatnarr, er heygðr var í Vatnarshaugi; hans synir váru þeir Snjallr ok Hjallr, er liggja í
+      Bræðrahaugi. <pb n="162"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Hjörr konungr Jösursson var ríkr konungr ok varð sóttdauðr ok var heygðr á Rogalandi. Hans
+      sonr var Hjörleifr Hörðalands konungr. Hann réð ok fyrir Rogalandi ok var allríkr konungr.
+      Hann var kallaðr Hjörleifr inn kvensami. Hann átti Æsu ina ljósu, dóttur Eysteins jarls af
+      Valdresi. Hjörleifi brustu lausafé fyrir örleika. Hann lét gera skip af virktum og fór til
+      Bjarmalands. Högni inn auðgi bjó í Njarðey fyrir Naumudalsmynni. Hann tók vel við Hjörleifi
+      konungi, ok var hann þar þrjár nætr ok gekk at eiga Hildi ina mjóvu, dóttur Högna, áðr hann
+      fór brott, ok fór hún með honum til Bjarmalands ok Sölvi, bróðir hennar. En er Hjörleifr
+      konungr kom í Vínuminni, skipti hann liði sínu í þrjá þriðjunga. Á skipi hans váru níu tigir
+      manna. Þriðjungr liðs helt upp bardaga með honum við landsmenn, annarr þriðjungr liðs
+      varðveitti skip með stýrimanni, en þriði þriðjungr braut haug með stafnbúa, ok fengu þeir
+      mikit fé. Á sunnanverðri Finnmörk í Gjarðeyjargeima lá Hjörleifr konungr um nótt, ok höfðu
+      sveinar eld á landi, ok fóru tveir menn at sækja vatn til lækjar, er fell af bjargi fram. Þar
+      sá þeir brunnmiga ok sögðu Hjörleifi konungi. Síðan heitir konungr broddspjót í eldi ok skaut
+      til hans. Konungr kvað: <lg>
+       <l>"Gakktu frá brunni,</l>
+       <l>gletzt lítt við mik,</l>
+       <l>þræll herfiligr,</l>
+       <l>þíns innis til.</l>
+       <l>Mun ek senda þér</l>
+       <l>sveiðanda spjót,</l>
+       <pb n="163"/>
+
+       <l>þat er gyrja mun</l>
+       <l>granir þínar."</l>
+      </lg> Þá tóku þeir vatn, en þursinn skauzt inn í bjargit. Þá er þau sátu við eld, þá kvað þurs
+      af bjargi annat ljóð: <lg>
+       <l>"Veit eigi görla</l>
+       <l>víf þitt, konungr,</l>
+       <l>hvat hnekkja mun</l>
+       <l>hennar sælu.</l>
+       <l>Vér undum þér</l>
+       <l>-- -- --</l>
+       <l>Hildr, Hjörleifi</l>
+       <l>haltu nær loga."</l>
+      </lg> Þá skaut Hjörleifr inu sama spjóti í auga því trölli. Högni bauð Sölva ok Hildi at vera
+      þar eptir, en konungr vildi þat eigi. Síðan fóru ambáttir tvær með Hildi, en tuttugu karlar
+      með Sölva. Æsa varð ófegin konungi ok hans föruneyti, en allir aðrir fegnir. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Hjörleifr konungr fór með skipi sínu til Konungahellu, því sem hann helt til Bjarmalands.
+      Þeir Hreiðarr, Sjólands konungr, settu búðir sínar it næsta þar. Heri, sonr Hreiðars konungs,
+      gerði sér kært við Hjörleif konung. Á þeim fundi eggjaði hann föður sinn at bjóða heim
+      Hjörleifi konungi. Hreiðarr konungr sagði, at þat mundi at engri gæfu verða, en lagði þó leyfi
+      til ok fjármuni. Þeir höfðu samflot til Danmerkr. At því boði sá Hjörleifr konungr Hringju,
+      dóttur Hreiðars konungs,ok bað hennar. Heri fýsti þess ráðs, ok fylgdi henni skipshöfn manna
+      ok farmr allr. Í Jótlandshafi lá Hjörleifr konungr í lognrétt. Ok er hann fór í sólar upprás,
+      sá hann í norðr koma upp <pb n="164"/> ór sjónum mikit fjall ok jafnt vaxit sem mann. Þat
+      kvað: <lg>
+       <l>"Ek sé Hringju</l>
+       <l>haug of orpinn,</l>
+       <l>en Hera hníga</l>
+       <l>hvátinn spjóti.</l>
+       <l>Sék Hjörleifi</l>
+       <l>haptbönd snúin,</l>
+       <l>en Hreiðari</l>
+       <l>höggvinn gálga."</l>
+      </lg> Þá gengu ekki skipin. Þá bað konungr taka til ára. Þá kenndi Hringja sér sóttar. Þeir
+      lögðu upp árar. Hún andaðist at jafnlengd þess, er hún hafði sótt tekit, ok varð skotit kistu
+      hennar fyrir borð, en hún fór svá skjótt suðr aptr sem róit væri sexærðu skipi. Heri fann
+      kistuna rekna skammt frá naustum föður síns ok sagði honum til ok kvað Hjörleif konung mundu
+      hafa myrt hana. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Þetta haust reru feðgar tveir á fiski ok drógu marmennil, ok hét annarr Handir, en annarr
+      Hrindir. Þeir færðu hann Hjörleifi. Konungr fekk hann í hendr hirðkonu einni ok bað hana gera
+      vel við hann. Engi maðr fekk orð af honum. Kertisveinar glímdu ok slökktu ljósin. Í því bili
+      sló Hildr horni á skikkju Æsu. Konungr sló hana með hendi sinni, en Hildr sagði hundinn valda,
+      er lá á gólfinu. Þá laust konungr hundinn. Þá hló marmennill. Konungr spurði, hví hann hló.
+      Hann svarar: "Því, at þér varð heimskliga, því at þau munu þér líf gefa." Konungr spurði hann
+      fleira. Hann svarar engu. Síðan lézt konungr mundu flytja <pb n="165"/> hann til sjóvar ok bað
+      hann segja sér þat, er hann þyrfti at vita. Hann kvað, er hann fór til sjóvar: <lg>
+       <l>"Ek sé lýsa</l>
+       <l>langt suðr í haf:</l>
+       <l>Vill danskr konungr</l>
+       <l>dóttur hefna.</l>
+       <l>Hann hefir úti</l>
+       <l>ótal skipa,</l>
+       <l>býdr han Hjörleifi</l>
+       <l>hólmstefnu til.</l>
+       <l>Varastu víti,</l>
+       <l>ef þú vilt ....</l>
+       <l>vil ek aptr í sjó."</l>
+      </lg> En er þeir reru þangat með hann, sem þeir höfðu hann upp dregit, þá kvað hann: <lg>
+       <l>"Sögu kann ek segja</l>
+       <l>sonum Háleygja</l>
+       <l>vilgi góða,</l>
+       <l>ef þér vilið heyra:</l>
+       <l>Hér ferr sunnan</l>
+       <l>Svarðar dóttir,</l>
+       <l>of drifin dreyra,</l>
+       <l>frá Danmörku.</l>
+       <l>Hefir sér á höfði</l>
+       <l>hjálm upp spenntan,</l>
+       <l>herkumbl harðligt,</l>
+       <l>Heðins af létta.</l>
+       <l>Skammt mun sveinum,</l>
+       <l>sé þat sem er,</l>
+       <l>Hildar at bíða</l>
+       <l>hér á ferli.</l>
+       <l>Bresta mun baugröst,</l>
+       <l>brá mær augum</l>
+       <l>um heruð hingat</l>
+       <l>hegna til þegna.</l>
+       <pb n="166"/>
+
+       <l>Hafa skal hverr drengr</l>
+       <l>hjör ok mörg spjót,</l>
+       <l>áðr komi mikil fram</l>
+       <l>málmahríð síðan.</l>
+       <l>Þó munu, ef þat er satt,</l>
+       <l>þá ferr illa,</l>
+       <l>hafa allir alkeypt</l>
+       <l>ár, þá er kemr vár."</l>
+      </lg> Þá lét Hjörleifr konungr hann utan borðs. Þá tók einn maðr í hönd honum ok spurði: "Hvat
+      er manni bezt?" Marmennill svarar: <lg>
+       <l>"Kalt vatn augum,</l>
+       <l>en kvett tönnum,</l>
+       <l>lérept líki,</l>
+       <l>lát mik aptr í sjó!</l>
+       <l>Dregr mik engi</l>
+       <l>í degi síðan</l>
+       <l>maðr upp í skip</l>
+       <l>af mararbotnum."</l>
+      </lg> Konungr gaf þeim Handi ok Hrindi land at búa á ok þar með þræl ok ambátt. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Síðan lét Hjörleifr konungr fara örvarboð ok safnaði liði at sér. Um nóttina kom Hreiðarr
+      konungr með her sinn ok sló hring um bæ Hjörleifs konungs. Þá ina sömu nótt gó hundr hans
+      Flóki, er aldri gó, nema hann vissi konungi ótta vánir. Hjörleifr konungr hleypti á
+      manngarðinn ok skaut aptr spjóti til liðsins. Þá heyrði hann kallat fall Hera. Konungr sá ór
+      skógi bæjarbruna sinn ok brottsigling Hreiðars konungs með herfangi miklu. Þetta sama haust
+      kom Hjörleifr konungr einskipa <pb n="167"/> um nótt á bæ Hreiðars konungs ok gekk einn til
+      svefnhúss, en allar konur váru ór rekkju brottu nema Æsa ein. Konungr bað hana koma sér við
+      Hreiðar konung. Hún læsti hann í váðkeri sínu ok sagði síðan Hreiðari konungi ok kvað Hjörleif
+      þar vera. Hjörleifr konungr var upp festr í konungs höll með skóþvengjum sínum sjálfs millum
+      elda tveggja at ráði Æsu, en hirðin sat við drykkju. Á meðan vakti Hildr ok jós mungáti í
+      eldana. Hún leysti hann svá, at hún hjó með sverði skóþvengina. Hreiðarr konungr sat sofandi í
+      hásætinu, en Æsa sat í knjám honum. Hjörleifr konungr lagði í brjóst honum ok gekk síðan til
+      skips eptir liði sínu ok lét binda hirð Hreiðars konungs ok gaf grið, en Hreiðar konung lét
+      hann hengja dauðan á gálga þann, er hann hafði honum ætlat. Þann inn sama aptan, er Hjörleifr
+      konungr kom, heyrði Hreiðarr konungr kveðit: <lg>
+       <l>"Minntist Hreiðarr,</l>
+       <l>hvar Hera fellduð.</l>
+       <l>Vá vaktist þar</l>
+       <l>fyr vestrdurum.</l>
+       <l>Enn mun hún sinna</l>
+       <l>til sala þinna,</l>
+       <l>byrsæl kona,</l>
+       <l>bíð þú enn, konungr!"</l>
+      </lg> Hjörleifr konungr lagði undir sik ríki þat allt, er átt hafði Hreiðarr konungr, ok setti
+      þar Sölva Högnason ok gaf honum jarlsdóm, en Hjörleifr konungr fór til Noregs ok hafði með sér
+      Hildi ok Æsu ok kvaddi þings. Þat dæmdi landsfólkit, at Æsu væri drekkt í mýri, en Hjörleifr
+      konungi sendi hana upp á land með heimanfylgju sína. Sonr Hjörleifs ok Æsu var Óblauðr, faðir
+      Ótryggs, föður Högna ins hvíta, föður Úlfs ins skjálga, er Reyknesingar eru frá komnir. <pb
+       n="168"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Hjörleifr konungr ok Hildr in mjóva áttu tvá sonu. Hét inn ellri Hjörólfr, en inn yngri
+      Hálfr. Hjörleifr konungr fell í víkingu. Ásmundr hét konungr. Hann fekk Hildar innar mjóvu ok
+      fóstraði sonu Hjörleifs konungs. Þá er Hjörólfr var þrettán vetra, þá bjóst hann at fara í
+      hernað. Hann hafði hvert skip, er hann fekk, smá ok stór, ný ok forn, ok hvern mann, er hann
+      fekk, frjálsan ok nauðgan. Þeir höfðu margt til vápna: stengr ok stafi, klumbur ok kraka.
+      Fyrir þá sök er þat kallat síðan Hjörólfsfæri, er ófimligt er. En er hann kom til orrostu við
+      víkinga, þá treystist hann liðsfjölda ok lagði til orrostu. Hann hafði lið ókænt ok vápnlaust,
+      ok fell margt lið hans, en sumt flýði, ok kom við þat aptr at hausti, ok varð hann lítill maðr
+      fyrir sér. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Eptir um várit var Hálfr tólf vetra gamall, ok var engi maðr jafnmikill eða jafnsterkr sem
+      hann. Þá bjóst hann at fara í hernað, ok hafði hann eitt skip nýtt ok vel búit. Á Hörðalandi
+      var jarl sá, er Álfr inn gamli hét. Hann átti Gunnlöðu, dóttur Hrómundar berserks, systur
+      Hámundar hersis ins frækna. Synir þeira váru tveir, ok hét hvárrtveggi Steinn. Inn ellri var
+      þá átján vetra gamall. Hann var þá ráðgjafi Hálfs konungs. Engi skyldi fara yngri en hann eða
+      bernskari. Steinn mikill stóð í garðinum. Engi skyldi fara, sá sem eigi fengi hafit <pb
+       n="169"/> steininn af jörðu. Engi skyldi sá fara, at eigi væri hreystimaðr, svá at aldri
+      kvíddi eða mælti æðru eða brygði grönum fyrir sára sakir. Steinn inn yngri Gunnlaðarson var
+      eigi færr fyrir aldrs sakir, því at hann var tólf vetra gamall. Hámundr hersir átti tvá sonu,
+      ok hét annarr Hrókr inn svarti, en annarr Hrókr inn hvíti. Þeir váru valdir til ferðar þessar.
+      Áslákr hét ríkr bóndi. Hans synir váru þeir Egill ok Erlingr. Þeir váru ágætir menn. Vémundr
+      hét merkismaðr Hálfs konungs. Fjórir menn fylgdu honum ór hirðinni. Þá var leitat um ellefu
+      fylki. Fengust þar tólf menn. Þar váru bræðr tveir Haukr ok Valr, Styrr inn sterki, Dagr inn
+      prúði, Börkr ok Brynjólfr, Bölverkr ok Haki, Hringr ok Hálfdan, Stari ok Steingrímr, Stúfr ok
+      Gauti, Bárðr ok Björn. Þeir váru tuttugu ok þrír, er þeir ýttu. It fyrsta kveld, er þeir lögðu
+      til hafnar, þá var regn mikit. Þá bað Steinn tjalda. Konungr svarar: "Viltu enn tjalda hús sem
+      heima?" Síðan kölluðu þeir hann Innsteinn. En um daginn eptir reru þeir fyrir andnes eitt í
+      hvössu veðri. Maðr stóð á nesinu ok bað fars. Konungr bað hann standa á stýristöngu til
+      kvelds. Hann kvað þat vel mælt ok kvað sér þá þykkja skipat nær konunginum. Svá var gert.
+      Þessi maðr var Steinn Gunnlaðarson inn yngri. Hann var síðan kallaðr Utsteinn. Margt var gert
+      til varnaðar þeira lögum fyrir kapps sakir. Þat var eitt, at engi þeira skyldi hafa lengra
+      sverð en alnar, svá skyldi nær ganga. Þeir létu gera söx til þess, at þá skyldi höggin stærri.
+      Engi þeira hafði minna afl en tólf meðalmenn. Aldri hertóku þeir konur né börn. Engi skyldi
+      sár binda fyrr en at jafnlengd annars dags. Við engum var þeim tekit, er minni var at afli eða
+      hreysti en nú var sagt. Þeir herjuðu víða <pb n="170"/> um lönd ok höfðu jafnan sigr. Hálfr
+      konungr var átján sumr í hernaði. Þat var siðr þeira at liggja jafnan fyrir andnesjum. Þat var
+      annarr siðr þeira at tjalda aldri á skipi ok aldri hálsa segl fyrir ofviðri. Þeir váru
+      kallaðir Hálfsrekkar, ok hafði hann aldri fleiri á skipi en sex tigi. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> Hálfr konungr fór til ríkis síns ór hernaði. Þeir fengu storm mikinn í hafi. Skip þeira
+      varð ekki ausit. Þá var þat ráðs tekit at hluta mann fyrir borð, en þess þurfti eigi, því at
+      hverr bauð sínum félaga fyrir borð at fara. En er þeir stigu fyrir borð, þá mæltu þeir:
+      "Strálaust er fyrir stokkum." En er Hálfr konungr kom til Hörðalands, þá fór Ásmundr konungr á
+      fund hans ok gerðist hans maðr ok sór honum eiða ok bauð honum til veizlu ok hálfu liði hans.
+      En annan morgin, er konungr bjóst ok sagði, at helmingr liðs skyldi eptir vera á skipum, kvað
+      Innsteinn: <lg>
+       <l>"Upp mundum vér</l>
+       <l>allir ganga,</l>
+       <l>skatna beztir,</l>
+       <l>af skipum várum,</l>
+       <l>láta brenna</l>
+       <l>bragninga sveit</l>
+       <l>ok Ásmundar lið</l>
+       <l>aldri týna."</l>
+      </lg> Konungr kvað: <lg>
+       <l>"Vér skulum hálfir</l>
+       <l>herjar þessa</l>
+       <l>sáttir sækja</l>
+       <l>frá sjó neðan.</l>
+       <l>Ásmundr hefir</l>
+       <l>oss of boðna</l>
+       <l>hringa rauða,</l>
+       <l>sem hafa viljum."</l>
+      </lg> Innsteinn kvað: <lg>
+       <l>"Sér eigi þú allan</l>
+       <l>Ásmundar hug,</l>
+       <l>hefir fylkir sá</l>
+       <l>flærð í brjósti.</l>
+       <l>Mundir þú, þengill,</l>
+       <l>ef vér því réðim,</l>
+       <l>mági þínum</l>
+       <l>mjök lítt trúa."</l>
+      </lg>
+      <pb n="171"/> Konungr kvað: <lg>
+       <l>"Ásmundr hefir</l>
+       <l>oss of unnit</l>
+       <l>margar tryggðir,</l>
+       <l>sem menn vitu.</l>
+       <l>Mun eigi góðr konungr</l>
+       <l>ganga á sáttir</l>
+       <l>né gramr annan</l>
+       <l>í griðum véla."</l>
+      </lg> Innsteinn kvað: <lg>
+       <l>"Þér er orðinn</l>
+       <l>Óðinn til gramr,</l>
+       <l>ef þú Ásmundi</l>
+       <l>allvel trúir.</l>
+       <l>Hann mun alla</l>
+       <l>oss of véla,</l>
+       <l>nema þú veittar</l>
+       <l>viðsjár fáir."</l>
+      </lg> Konungr kvað: <lg>
+       <l>"Æ lystir þik</l>
+       <l>æðru at mæla,</l>
+       <l>munat sá konungr</l>
+       <l>sáttir rjúfa.</l>
+       <l>Gull eigum þar</l>
+       <l>ok gersimar,</l>
+       <l>hringa rauða,</l>
+       <l>frá hans búum,"</l>
+      </lg> Innsteinn kvað: <lg>
+       <l>"Hálfr, dreymdi mik, --</l>
+       <l>hyggðu at slíku, --</l>
+       <l>at logi léki</l>
+       <l>of liði váru,</l>
+       <l>illt væri þar</l>
+       <l>ór at leysast.</l>
+       <l>Hvat kveðr þú, þengill,</l>
+       <l>þann draum vita?"</l>
+      </lg> Konungr kvað: <lg>
+       <l>"Gefa mun ek hverjum</l>
+       <l>hjálm gullroðinn</l>
+       <l>fræknra drengja,</l>
+       <l>er fylgja mér.</l>
+       <l>Þat mun at líta</l>
+       <l>sem logi brenni</l>
+       <l>skjöldungs liði</l>
+       <l>of skarar fjöllum."</l>
+      </lg> Innsteinn kvað: <lg>
+       <l>"Enn dreymdi mik</l>
+       <l>öðru sinni:</l>
+       <l>hugðak á öxlum</l>
+       <l>elda brenna.</l>
+       <l>Gruna tek ek nokkut,</l>
+       <l>at þat gott viti.</l>
+       <l>Hvat kveðr þú, þengill,</l>
+       <l>þann draum vita?"</l>
+      </lg> Konungr kvað: <lg>
+       <l>"Hrynja um herðar</l>
+       <l>þeim, er hamalt fylkja,</l>
+       <l>grams verðungu,</l>
+       <l>gylldar brynjur.</l>
+       <l>Þat mun á öxlum</l>
+       <l>öðlings vinum</l>
+       <l>ljóst at líta,</l>
+       <l>sem logi brenni."</l>
+      </lg> Innsteinn kvað: <lg>
+       <l>"Þat dreymdi mik</l>
+       <l>þriðja sinni,</l>
+       <l>at vér í kaf niðr</l>
+       <l>komnir værim.</l>
+       <l>Eiga mun allstórt</l>
+       <l>um at véla.</l>
+       <l>Hvat kveðr þú, þengill,</l>
+       <l>þann draum vita?"</l>
+      </lg>
+      <pb n="172"/> Konungr kvað: <lg>
+       <l>"Fulllangt er sjá</l>
+       <l>fíflskapr talaðr,</l>
+       <l>vera kveð ek ekki</l>
+       <l>undir slíku.</l>
+       <l>Segðu enga,</l>
+       <l>svá at heyri,</l>
+       <l>drauma þína</l>
+       <l>í degi síðan."</l>
+      </lg> Innsteinn kvað: <lg>
+       <l>"Hlýði Hrókar</l>
+       <l>í her konungs</l>
+       <l>orðum mínum,</l>
+       <l>Útsteinn þriði:</l>
+       <l>Göngum allir</l>
+       <l>upp frá ströndu,</l>
+       <l>kunnum ekki</l>
+       <l>konungs mál of þat."</l>
+      </lg> Útsteinn kvað: <lg>
+       <l>"Konung látum vér</l>
+       <l>keppinn ráða</l>
+       <l>fyrir í fólki</l>
+       <l>um farir várar.</l>
+       <l>Hættum, bróðir,</l>
+       <l>svát honum líki,</l>
+       <l>fjörvi okkru</l>
+       <l>með frömum vísi."</l>
+      </lg> Innsteinn kvað: <lg>
+       <l>"Hlítt hefir fylkir</l>
+       <l>í förum úti</l>
+       <l>mínum ráðum</l>
+       <l>mörgu sinni.</l>
+       <l>Nú kveð ek engu,</l>
+       <l>er ek mæli,</l>
+       <l>hlýða vilja,</l>
+       <l>síz hingat kómum."</l>
+      </lg>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="12">
+     <p> Hálfr konungr gekk upp til bæjar Ásmundar konungs með helming liðs síns. Þar var fyrir
+      fjölmenni mikit. Veizla var kappsamlig ok drykkr svá sterkr, at Hálfsrekkar sofnuðu fast.
+      Ásmundr konungr ok hirðin lögðu eld í höllina. En sá, er fyrst vaknaði af Hálfsrekkum, sá
+      höllina nær fulla af reyk. Hann mælti: "Rjúka mun um hauka vára nú," sagði hann. Síðan lagðist
+      hann niðr ok svaf. Þá vaknaði annarr ok sá, at höllin logaði, ok mælti: "Drjúpa mun nú vax af
+      söxum." Sá lagðist niðr. Ok þá vaknaði Hálfr konungr. Hann stóð upp ok vakti liðit ok bað þá
+      vápnast. Þeir hlupu þá á veggina, svá at af gengu nafarnar af timbrstokkunum. Þá kvað
+      Innsteinn: <pb n="173"/>
+      <lg>
+       <l>"Rýkr um hauka</l>
+       <l>í höll konungs,</l>
+       <l>ván er, at drjúpi</l>
+       <l>vax af söxum.</l>
+       <l>Mál er gulli</l>
+       <l>ok görsimum,</l>
+       <l>hjálmum skipta</l>
+       <l>með Hálfsrekkum.</l>
+       <l>Hins fýsi ek nú,</l>
+       <l>at Hálfr vaki;</l>
+       <l>er eigi af eklu</l>
+       <l>eldar kyndir.</l>
+       <l>Áttu, menbrjótr,</l>
+       <l>mági þínum</l>
+       <l>grimmlunduðum</l>
+       <l>gjafir at launa.</l>
+       <l>Hrindum heilir</l>
+       <l>hallar bjóri.</l>
+       <l>Nú taka súlur</l>
+       <l>í sundr þoka.</l>
+       <l>Æ mun uppi,</l>
+       <l>meðan öld lifir,</l>
+       <l>Hálfsrekka för</l>
+       <l>til hertoga.</l>
+       <l>Hart skulum ganga</l>
+       <l>ok hliða ekki við,</l>
+       <l>verðr vísis lið</l>
+       <l>at vega með söxum.</l>
+       <l>Þeir skulu sjálfir</l>
+       <l>á sér bera</l>
+       <l>blóðgar benjar,</l>
+       <l>áðr braki létti.</l>
+       <l>Snúizt snarliga,</l>
+       <l>snyrtidrengir,</l>
+       <l>út ór eldi</l>
+       <l>með auðbrota.</l>
+       <l>Engi er ýta,</l>
+       <l>sá er æ lifir.</l>
+       <l>Munat baugbroti</l>
+       <l>við bana kvíða."</l>
+      </lg>
+      <pb n="174"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="13">
+     <p> Svá er hér sagt, at Hálfr konungr ok Hálfsrekkar kæmist út ór eldinum ok Hálfr konungr
+      felli fyrir ofrefli liðs ok sveit hans. Innsteinn kvað, er konungr var fallinn: <lg>
+       <l>"Hér sá ek alla</l>
+       <l>einum fylgja</l>
+       <l>jafnröskliga</l>
+       <l>öðlings syni.</l>
+       <l>Hittumst heilir,</l>
+       <l>þá heðan líðum,</l>
+       <l>er eigi léttara</l>
+       <l>líf en dauði."</l>
+      </lg> Þá komu Hálfsrekkar til orrostu, þeir sem við skip höfðu verit. Þar fell mikill hlutr
+      Hálfsrekka. Orrostan helzt allt til nætr, ádr Innsteinn fell. Innsteinn kvað: <lg>
+       <l>"Hrókr er fallinn</l>
+       <l>með hertoga</l>
+       <l>frækn at fótum</l>
+       <l>fólks oddvita.</l>
+       <l>Eigum Óðni</l>
+       <l>illt at gjalda,</l>
+       <l>er hann slíkan konung</l>
+       <l>sigri rænti.</l>
+       <l>Ek hefi úti</l>
+       <l>átján sumur</l>
+       <l>fylgt fullhuga</l>
+       <l>flein at rjóða.</l>
+       <l>Skal ek eigi annan</l>
+       <l>eiga drottin</l>
+       <l>gunnar gjarnan</l>
+       <l>né gamall verða.</l>
+       <l>Hér mun Innsteinn</l>
+       <l>til jarðar hníga</l>
+       <pb n="175"/>
+
+       <l>horskr at höfði</l>
+       <l>hers oddvita.</l>
+       <l>Þat munu seggir</l>
+       <l>at sögum gera,</l>
+       <l>at Hálfr konungr</l>
+       <l>hlæjandi dó."</l>
+      </lg>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="14">
+     <p> Gunnlöð fór til valsins um nóttina at leita sona sinna. Hún fann Innstein dauðan, en
+      Útstein særðan til ólífis ok Bárð ok Björn. Hún ók þeim til bæjar ok græddi þá á laun ok sendi
+      þá siðan suðr til Svíþjóðar. Fóru þeir Björn ok Bárðr á fund Sölva konungs, móðurbróður Hálfs
+      konungs, en Útsteinn fór til Danmerkr til Eysteins konungs, frænda síns. Hrókr inn svarti
+      hafði mörg sár ok stór. Hann gekk um nóttina frá orrostu ok kom til kotbónda eins, er Skógkarl
+      hét. Þar var hann, ok váru bundin sár hans. Karl flutti hann norðr í Sogn til Geirmundar
+      hersis, föðurbróður síns. Þar var hann græddr á laun ok fór um haustit til Upplanda ok austr
+      til Gautlands. Hann kom til Haka konungs á Skáney ok var með honum um vetrinn. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="15">
+     <p> Útsteinn var með Eysteini konungi. Úlfr inn rauði hét ráðgjafi Eysteins konungs. Hann átti
+      átta sonu, ok váru þeir allir inir mestu kappar ok öfundsamir. Þeir váru illa til Útsteins, ok
+      sló með þeim í kappmæli við drykkju. Hitt var fyrr, at Útsteinn sagði frá falli Hálfs konungs.
+      Hann kvað þá: <pb n="176"/>
+      <lg>
+       <l>"Hitt hlægir mik</l>
+       <l>helzt í máli:</l>
+       <l>mun eigi Ásmundi</l>
+       <l>öll vá sofa.</l>
+       <l>Þrír eru fallnir</l>
+       <l>af því liði,</l>
+       <l>Eynefs synir,</l>
+       <l>en einn lifir."</l>
+      </lg> Útsteinn kvað, er Úlfr jafnaði sér við hann ok eggjaði hann: <lg>
+       <l>"Upp skulum rísa,</l>
+       <l>út skulum ganga</l>
+       <l>ok rammligar</l>
+       <l>randir knýja.</l>
+       <l>Hygg við hjálmum</l>
+       <l>hingat komnar</l>
+       <l>til Danmerkr</l>
+       <l>dísir várar."</l>
+      </lg> Úlfr kvað: <lg>
+       <l>"Yðr munu dauðar</l>
+       <l>dísir allar,</l>
+       <l>heill kveð ek horfna</l>
+       <l>frá Hálfs rekkum.</l>
+       <l>Dreymdi mik í morgin,</l>
+       <l>at megir várir</l>
+       <l>öfri yrði,</l>
+       <l>hvars ér mættizt."</l>
+      </lg> Útsteinn kvað: <lg>
+       <l>"Sigrs væntik mér</l>
+       <l>sýnu betra</l>
+       <l>en Úlfr vili</l>
+       <l>æskja Steini.</l>
+       <l>Yðr mun snimma</l>
+       <l>at sverðtogi</l>
+       <l>hauss of höggvinn,</l>
+       <l>en háls roðinn."</l>
+      </lg> Úlfr kvað <lg>
+       <l>"Munu þeir öfri verða</l>
+       <l>Úlfs synir:</l>
+       <l>Oddr ok Örnólfr,</l>
+       <l>Áti inn svarti,</l>
+       <l>Börkr ok Brynjólfr,</l>
+       <l>Búi, Harðskafi,</l>
+       <l>Rauðr inn rammi,</l>
+       <l>ef þú reynir til."</l>
+      </lg> Útsteinn kvað: <lg>
+       <l>"Mundi eigi Steini</l>
+       <l>með Stara þykkja</l>
+       <l>ógn at etja</l>
+       <l>við Úlfs sonu,</l>
+       <l>því at eigi var</l>
+       <l>órum bróður</l>
+       <l>við dritmenni þitt</l>
+       <l>dramb at setja.</l>
+       <l>Þótti eigi Hrókum</l>
+       <l>né Hálfdani</l>
+       <l>raun at berjast</l>
+       <l>við ragmenni,</l>
+       <l>þá er vér fjórir</l>
+       <l>falla létum</l>
+       <l>átta jarla</l>
+       <l>fyr Annisnesi.</l>
+       <pb n="177"/>
+
+       <l>Fari Úlfs synir</l>
+       <l>út at berjast,</l>
+       <l>átta drengir,</l>
+       <l>við eitt höfuð.</l>
+       <l>Mun eigi stökkva,</l>
+       <l>þótt Steinn hafi</l>
+       <l>færa nokkut</l>
+       <l>í flokki lið.</l>
+       <l>Hálfr, dreymdi mik,</l>
+       <l>hvatti, at ek berðumst,</l>
+       <l>ok kvaðst mér frækn konungr</l>
+       <l>fylgja skyldu, --</l>
+       <l>hefir mér gramr verit</l>
+       <l>góðr í draumi, --</l>
+       <l>hvars vér orrostu</l>
+       <l>eiga skyldim."</l>
+      </lg> Þá gengu þeir Úlfs synir ok Útsteinn út ok börðust. Hann drap alla Úlfs sonu ok gekk
+      síðan inn fyrir konung ok kvað: <lg>
+       <l>"Nú emk inn kominn</l>
+       <l>Úlfi at segja,</l>
+       <l>at hans synir</l>
+       <l>höggnir liggja.</l>
+       <l>Nú fari, Eysteinn,</l>
+       <l>ef ér vilið,</l>
+       <l>fleiri at freista</l>
+       <l>við fleina við."</l>
+      </lg> Eysteinn kvað: <lg>
+       <l>"Sjálft mun letja</l>
+       <l>slíks at freista:</l>
+       <l>Hálfs eru rekkar</l>
+       <l>hverjum meiri.</l>
+       <l>Þik veit ek manna</l>
+       <l>miklu fremstan,</l>
+       <l>einn snjallastan,</l>
+       <l>er þú átta vátt."</l>
+      </lg> Útsteinn kvað <lg>
+       <l>"Alla munda ek</l>
+       <l>Eysteins liða</l>
+       <l>sverði beita</l>
+       <l>at sömu hófi,</l>
+       <l>ef ek mér þarfir</l>
+       <l>þess verks sæja,</l>
+       <l>eða illt með oss</l>
+       <l>áðr of væri.</l>
+       <l>Magni fýsir engi</l>
+       <l>við mik at deila,</l>
+       <l>því at mér var ungum</l>
+       <l>aldr skapaðr.</l>
+       <l>Ek hefi hjarta</l>
+       <l>hart í brjósti,</l>
+       <l>síz mér í æsku</l>
+       <l>Óðinn framdi."</l>
+      </lg>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="16">
+     <p> Hrókr inn svarti var með Haka konungi. Dóttir Haka konungs var Brynhildr. Sveinn inn
+      sigrsæli hét sá konungr, er beðit hafði Brynhildar, en Haki konungr <pb n="178"/> synjaði.
+      Sveinn strengdi heit at verða bani þess manns, er ætti Brynhildi, ok svá föður hennar. Heðinn
+      hét jarl Haka konungs, en Vífill sonr hans. Hann bað Brynhildar, ok var honum heitit, ef hann
+      verði land fyrir Sveini. Hrókr inn svarti var þar ekki kenndr, ok var hann í engum metnaði ok
+      sat í gestasæti. Þat var einn dag, at hirðin fór á dýraveiðar, en konur á hnetskóg. Brynhildr
+      konungsdóttir sá, hvar maðr stórr stóð við eik eina. Hun heyrði at hann kvað: <lg>
+       <l>"Nú mun segja</l>
+       <l>sonr Hámundar,</l>
+       <l>hvert öðli var</l>
+       <l>okkart bræðra:</l>
+       <l>Minn var faðir</l>
+       <l>miklu fremri,</l>
+       <l>haukr görr at hug,</l>
+       <l>en Haki yðvarr.</l>
+       <l>Vildi engi</l>
+       <l>við Vífil jafnast,</l>
+       <l>þó at Hámundar</l>
+       <l>hjarðar gætti.</l>
+       <l>Sá ek engan þar</l>
+       <l>svínahirði</l>
+       <l>huglausara</l>
+       <l>en Heðins arfa.</l>
+       <l>Mín var ævi</l>
+       <l>miklu æðri,</l>
+       <l>þá er vér Hálfi konungi</l>
+       <l>horskum fylgdum.</l>
+       <l>Bárum allir</l>
+       <l>eitt ráð saman</l>
+       <l>ok herjuðum</l>
+       <l>hvert land yfir.</l>
+       <l>Höfðu vér allir</l>
+       <l>haukmanna lið,</l>
+       <l>hvar sem fróðhugaðr</l>
+       <l>frama kostaði.</l>
+       <l>Gengu vér í gögnum</l>
+       <l>með grá hjálma</l>
+       <l>fullstór öll</l>
+       <l>fóstrlönd níu.</l>
+       <l>Hálf sá ek höggva</l>
+       <l>höndum báðum,</l>
+       <l>hafði eigi hilmir</l>
+       <l>hlífskjöld fyr sér.</l>
+       <l>Finnr engi maðr,</l>
+       <l>þótt fari víða,</l>
+       <l>hæfra hjarta</l>
+       <l>ok hugprúðara.</l>
+       <l>Mæla virðar,</l>
+       <l>þeir er vitu eigi,</l>
+       <l>at Hálfs frami</l>
+       <l>heimsku sætti.</l>
+       <l>Kann eigi sá</l>
+       <l>konung háleygskan,</l>
+       <l>er heimsku þrótt</l>
+       <l>honum eignaði.</l>
+       <l>Bað hann eigi við dauða</l>
+       <l>drengi kvíða</l>
+       <l>né æðruorð</l>
+       <l>ekki mæla.</l>
+       <l>Engi skyldi</l>
+       <l>jöfri fylgja,</l>
+       <l>nema forlögum</l>
+       <l>fylkis heldi.</l>
+       <pb n="179"/>
+
+       <l>Skyldi eigi stynja,</l>
+       <l>þó at stór hlyti</l>
+       <l>sár í sóknum</l>
+       <l>siklings vinir,</l>
+       <l>né benjar sér</l>
+       <l>binda láta,</l>
+       <l>fyrr en annars dags</l>
+       <l>jafnlengd kæmi.</l>
+       <l>Bað hann eigi í her</l>
+       <l>höptu græta</l>
+       <l>né manns konu</l>
+       <l>mein at vinna.</l>
+       <l>Mey bað hann hverja</l>
+       <l>mundi kaupa,</l>
+       <l>fögru gulli,</l>
+       <l>at föður ráði.</l>
+       <l>Váru eigi svá margir</l>
+       <l>menn á skeiðum,</l>
+       <l>at vér á flótta</l>
+       <l>fyrir heldim,</l>
+       <l>þó at miklu lið</l>
+       <l>minna hefðim,</l>
+       <l>svá at ellifu</l>
+       <l>einum gegndi.</l>
+       <l>Höfðum vér allir</l>
+       <l>inn öfra hlut,</l>
+       <l>hvar sem Hildar</l>
+       <l>hlífar knúði;</l>
+       <l>einn vissa ek</l>
+       <l>jafnsnjallan gram:</l>
+       <l>Sigurð konung</l>
+       <l>at sölum Gjúka.</l>
+       <l>Margir váru</l>
+       <l>menn á skeiðum</l>
+       <l>góðir ok fræknir</l>
+       <l>með gram sjálfum:</l>
+       <l>Börkr ok Brynjólfr,</l>
+       <l>Bölverkr ok Haki,</l>
+       <l>Egill ok Erlingr</l>
+       <l>Ásláks synir.</l>
+       <l>Mest váru mér</l>
+       <l>manna hugðir</l>
+       <l>Hrókr, bróðir minn,</l>
+       <l>ok Hálfr konungr,</l>
+       <l>Styrr ok Steinarr,</l>
+       <l>sterkir báðir,</l>
+       <l>snarráðir menn,</l>
+       <l>synir Gunnlaðar.</l>
+       <l>Hringr ok Hálfdanr,</l>
+       <l>haukar báðir,</l>
+       <l>réttir dómendr.</l>
+       <l>Dagr inn prúði,</l>
+       <l>Stari ok Steingrímr,</l>
+       <l>Styrr ok Gauti.</l>
+       <l>Finnr þú aldri</l>
+       <l>fríðari drengi.</l>
+       <l>Valr ok Haukr</l>
+       <l>í víkingu</l>
+       <l>báðir fræknir,</l>
+       <l>buðlungs vinir.</l>
+       <l>Fáir mundu þeim</l>
+       <l>fylkis rekkum</l>
+       <l>hæfri þykkja</l>
+       <l>ór Haka veldi.</l>
+       <l>Hvergi þóttak</l>
+       <l>í því liði</l>
+       <l>opt aukvisi</l>
+       <l>ættar minnar.</l>
+       <l>Mik kváðu þeir</l>
+       <l>mann snarpastan,</l>
+       <l>því at hverr öðrum</l>
+       <l>hróðrs leitaði.</l>
+       <l>Vé bar Vémundr,</l>
+       <l>er vega þorði,</l>
+       <l>Björn ok Bersi,</l>
+       <l>fyr buðlungi.</l>
+       <l>Fylkti sínu</l>
+       <l>sá framligast</l>
+       <l>lofðungr liði,</l>
+       <l>meðan lifa mátti.</l>
+       <pb n="180"/>
+
+       <l>Naut eigi svá</l>
+       <l>aldrs sem skyldi</l>
+       <l>frækn landreki</l>
+       <l>við frama dáðir.</l>
+       <l>Tólf vetra nam</l>
+       <l>tiggi at herja,</l>
+       <l>en þá var þengill</l>
+       <l>þrítugr, er dó.</l>
+       <l>Slíkt kennir mér</l>
+       <l>at sofa lítit</l>
+       <l>marga grímu</l>
+       <l>ok mjök vaka,</l>
+       <l>er bróðir minn</l>
+       <l>brenna skyldi</l>
+       <l>kvikr í eldi</l>
+       <l>með konungs rekkum.</l>
+       <l>Sá hefir dagr of mik</l>
+       <l>daprastr komit</l>
+       <l>miklu í heimi,</l>
+       <l>svá at menn vitu.</l>
+       <l>Una þykkjumst vér</l>
+       <l>aldri síðan,</l>
+       <l>er fylgja máttum</l>
+       <l>frændum hollum.</l>
+       <l>Alls mundi mér</l>
+       <l>angrs léttara,</l>
+       <l>ef ek Hálfs konungs</l>
+       <l>hefna mættak,</l>
+       <l>svá at Ásmundi</l>
+       <l>eggfránum hjör,</l>
+       <l>baugbrjóts bana,</l>
+       <l>brjóst raufaðak.</l>
+       <l>Hefnt mun verða</l>
+       <l>Hálfs ins frækna,</l>
+       <l>því at þeir göfgan gram</l>
+       <l>í griðum véltu.</l>
+       <l>Olli morði</l>
+       <l>ok mannskaða</l>
+       <l>Ásmundr konungr</l>
+       <l>illu heilli.</l>
+       <l>Þá mun reyna</l>
+       <l>ok raun gefa,</l>
+       <l>ef við Svein komum</l>
+       <l>saman í rómu,</l>
+       <l>hvárir í vígi</l>
+       <l>verða hæfri,</l>
+       <l>Hámundar burr</l>
+       <l>eða Haka þegnar.</l>
+       <l>Segi ek svá kveðit</l>
+       <l>snotru vífi,</l>
+       <l>at ek Brynhildar</l>
+       <l>biðja mundak,</l>
+       <l>ef vita þættumst,</l>
+       <l>at vildi hún</l>
+       <l>Hróki unna</l>
+       <l>Hámundar bur.</l>
+       <l>Ván væri mér</l>
+       <l>vitra manna,</l>
+       <l>snarpra seggja,</l>
+       <l>ef vér saman ættim,</l>
+       <l>því at ek fann eigi mey</l>
+       <l>margsvinnari</l>
+       <l>hvergi landa</l>
+       <l>en Haka dóttur.</l>
+       <l>Fann ek aldri,</l>
+       <l>þó hefik farit víða,</l>
+       <l>hugþekkri mey</l>
+       <l>en Haka dóttur.</l>
+       <l>Hún er at öllu</l>
+       <l>sem ek æskja mun.</l>
+       <l>Hér þykki ek nú</l>
+       <l>í Haka veldi</l>
+       <l>hornungr vera</l>
+       <l>hverrar þjóðar.</l>
+       <l>Allir eigu</l>
+       <l>innar at sitja</l>
+       <l>hallar gumnar</l>
+       <l>en Hálfsrekkar."</l>
+      </lg>
+      <pb n="181"/> Brynhildr, dóttir Haka konungs, sagði föður sínum þat, er hún hafði heyrt, ok
+      kvað þar mundu kominn einn af Hálfsrekkum. En er konungr vissi þat, þá leiddi hann Hrók til
+      sætis í öndugi, ok var hann þá í inum mesta kærleik við konung. Hrókr inn svarti fekk
+      Brynhildar, dóttur Haka konungs. Eptir um várit fór Hrókr með her í móti Sveini inum sigrsæla,
+      ok áttu þeir orrostu. Þar fell Sveinn, en Hrókr kom aptr með sigri til Haka konungs. Eptir um
+      sumarit höfðu þeir her úti Sölvi konungr ok Haki konungr ok Hrókr inn svarti, Eysteinn konungr
+      ok Útsteinn með honum. Þeir fóru til Noregs, áttu orrostu við Ásmund konung ok felldu hann.
+      Hjörr hét sonr Hálfs konungs, er þá var konungr yfir Hörðalandi. Hrókr ok Útsteinn váru lengi
+      síðan í víkingu ok váru inir mestu ágætismenn. Dóttir Hróks ins svarta ok Brynhildar var
+      Gunnlöð, móðir Hrómundar Gripssonar. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="17">
+     <p> Hjörr konungr Hálfsson átti Hagnýju, dóttur Haka konungs Hámundarsonar. Hjörr konungr fór í
+      konungastefnu, en meðan fæddi Hagný tvá sonu, ok váru svartir ok furðu ljótir, ok hét annarr
+      Hámundr, en annarr Geirmundr. Þá fæddi ambátt ok son, ok hét Leifr Hann var inn fríðasti.
+      Drottning keypti um sonu við ambátt ok færði þann konungi. Konungr fór enn annat sinn í
+      leiðangr. Þá váru sveinarnir þrévetrir. Leifr guggnaði, svá sem á aldr hans leið, en Hámundr
+      ok Geirmundr váru geysimiklir ok orðvísir. Bragi skáld kom þar at heimboði. Þat var einn dag,
+      at karlar allir fóru á skóg, en konur á hnetskóg, ok var ekki <pb n="182"/> heima manna í
+      höllinni, nema Bragi sat í öndugi, en drottning leyndist þar ok var hulin klæðum. Leifr sat í
+      hásæti ok lék sér at gulli, en Hámundr ok Geirmundr váru í hálminum niðri á gólfinu. Þá fóru
+      þeir til Leifs ok skúfuðu honum ór sætinu, ok tóku þeir af honum gullit allt. Hann grét þá. Þá
+      stóð Bragi upp ok gekk þar til, er drottning lá, ok drap staf ofan á klæðin ok kvað: <lg>
+       <l>"Tveir eru inni,</l>
+       <l>trúik vel báðum,</l>
+       <l>Hámundr ok Geirmundr,</l>
+       <l>Hjörvi bornir,</l>
+       <l>en Leifr þriði</l>
+       <l>Loðhattarsonr.</l>
+       <l>Fæddir eigi þú</l>
+       <l>þann mög, kona."</l>
+      </lg> Síðan skipti Hagný aptr sveinunum við ambátt. En er Hjörr konungr kom heim, þá bar hún
+      sveinana til hans ok sagði, at þeir váru hans synir. Konungr svarar: "Ber í burt!" sagði hann,
+      "eigi sá ek slík heljarskinn." Þeir váru báðir svá kallaðir síðan. Þeir váru miklir afreksmenn
+      at afli, ok mikil ætt er frá þeim komin á Íslandi. Þórir á Espihóli var sonr Hámundar. Þaðan
+      eru komnir Esphælingar. Geirmundr heljarskinn nam Meðalfellsströnd í Breiðafirði. Yri hét
+      dóttir hans, ok er þaðan mikil ætt komin. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

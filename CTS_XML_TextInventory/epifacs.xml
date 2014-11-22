@@ -27,6 +27,21 @@
     </textgroup>
     <textgroup projid="ig:ii_2" urn="urn:cts:ig:ii_2">
         <groupname xml:lang="eng">IG II (2)</groupname>
+        <work projid="ig:5768" xml:lang="grc" urn="urn:cts:ig:ii_2.5768">
+            <title xml:lang="eng">5768 Stratonides</title>
+        </work>
+        <work projid="ig:12825" xml:lang="grc" urn="urn:cts:ig:ii_2.12825">
+            <title xml:lang="eng">12825</title>
+        </work>
+        <work projid="ig:7863" xml:lang="grc" urn="urn:cts:ig:ii_2.7863">
+            <title xml:lang="eng">Archaeological Museum 856</title>
+        </work>
+        <work projid="ig:11103" xml:lang="grc" urn="urn:cts:ig:ii_2.11103">
+            <title xml:lang="eng">Archaeological Museum 1115</title>
+        </work>
+        <work projid="ig:10672" xml:lang="grc" urn="urn:cts:ig:ii_2.10672">
+            <title xml:lang="eng">Archaeological museum 2698</title>
+        </work>
         <work projid="ig:12974" xml:lang="grc" urn="urn:cts:ig:ii_2.12974">
             <title xml:lang="eng">Mus. Nat. 3696</title>
             <edition projid="ig:perseus-grc1" urn="urn:cts:ig:ii_2.12974.perseus-grc1">

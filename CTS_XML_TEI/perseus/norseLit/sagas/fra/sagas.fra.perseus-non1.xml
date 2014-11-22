@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Frá Fornjóti ok hans ættmönnum</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Frá Fornjóti ok hans ættmönnum</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Fra_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="137"/> NÚ skal segja dæmi til, hversu Noregr byggðist í fyrstu eða hversu konunga ættir
+      hófust þar eða í öðrum löndum eða hví þeir heita Skjöldungar, Buðlungar, Bragningar, Öðlingar,
+      Völsungar eða Niflungar, sem konunga ættirnar eru af komnar. Fornjótr hét maðr. Hann átti þrjá
+      sonu; var einn Hlér, annarr Logi, þriði Kári. Hann réð fyrir vindum, en Logi fyrir eldi, Hlér
+      fyrir sjó. Kári var faðir Jökuls, föður Snæs konungs, en börn Snæs konungs váru þau Þorri,
+      Fönn, Drífa ok Mjöll. Þorri var konungr ágætr. Hann réð fyrir Gotlandi, Kænlandi ok Finnlandi.
+      Hann blótuðu Kænir til þess, at snjóva gerði ok væri skíðfæri gott. Þat er ár þeira. Þat blót
+      skyldi vera at miðjum vetri, ok var þaðan af kallaðr Þorra mánaðr. Þorri konungr átti þrjú
+      börn. Synir hans hétu Nórr ok Górr, en Gói dóttir. Gói hvarf á brott, ok gerði Þorri blót
+      mánaði síðar en hann var vanr at blóta, ok kölluðu þeir síðan þann mánað, er þá hófst, Gói.
+      Þeir Nórr ok Górr leituðu systur sinnar. Nórr átti bardaga stóra fyrir vestan Kjölu, ok fellu
+      fyrir honum þeir konungar, er svá heita: Véi ok Vei, Hundingr ok Hemingr, <pb n="138"/> ok
+      lagði Nórr þat land undir sik allt til sjóvar. Þeir bræðr fundust í þeim firði, er nú er
+      kallaðr Norafjörðr. Nórr fór þaðan upp á Kjölu ok kom þar, sem heita Ulfamóar, þaðan fór hann
+      um Eystri-Dali ok síðan í Vermaland ok með vatni því, er Vænir heitir, ok svá til sjóvar.
+      Þetta land allt lagði Nórr undir sik, allt fyrir vestan þessi takmörk. Þetta land er nú
+      kallaðr Noregr. At miðjum vetri kómu þeir í Heiðmörk. Þar var sá konungr fyrir, er Hrólfr í
+      Bergi hét. Hann var sonr Svaða jötuns norðan af Dofrum ok Áshildar, dóttur Eysteins konungs,
+      er lengi hafði ráðit fyrir Heiðmörk. Hrólfr í Bergi hafði tekit Gói ok gengit at eiga hana. En
+      er hún spurði til Nórs, bróður síns, þá fór hun í mót honum ok þau Hrólfr, ok gaf hann sik upp
+      í vald Nórs ok gerðist hans maðr. Eptir þat fór Nórr til veizlu til mágs síns, ok fekk Nórr
+      Höddu, dóttur Svaða jötuns, systur Hrólfs. Eptir þat fór Nórr konungr vestr aptr til sjóvar,
+      ok þá hitti hann Gór, bróður sinn. Hann var þá kominn norðan ór Dumbshafi ok hafði eignazt
+      eyjar allar á þeiri leið, bæði byggðar ok óbyggðar. Þá skiptu þeir bræðr ríkinu með sér, svá
+      at Nórr skyldi hafa meginland allt norðan frá Jötunheimum ok suðr til Álfheima, þat heitir nú
+      Noregr, en Górr skyldi hafa eyjar allar, þær er lágu á bakborða elliða hans, er hann færði
+      norðan með landi. Þeir váru synir Górs sækonungs: Beiti ok Heiti, Meitir ok Geitir. Beitir
+      sækonungr fór með elliða inn í Þrándheim ok inn í Beitsjó. Hann lét gera skipsleða undir
+      elliðann, en snjór var mikill ok sleðfæri gott. Þá settist Beitir í lypting ok lagði stýri í
+      lag ok lét draga upp segl ok lét menn sína draga elliðann norðr um Elliðaeið til Naumudals ok
+      eignaði sér land allt þat, er lá á bakborða. <pb n="139"/> Beiti sækonungr var faðir Heita
+      sækonungs, föður Svaða, en Geitir var faðir Glamma ok Gylfa. Meiti sækonungr var faðir Mæfils
+      ok Myndils. Myndill var faðir Ekkils ok Skekkils. Nórr var faðir þessara manna, en Hödd,
+      dóttir Svaða, móðir Þrándar ok Garðs, er kallaðr var agði. En er þeir skiptu arfi, þá hlaut
+      Þrándr Þrándheim, ok heitir því svá. Garðr agði var faðir þeira, er svá heita: Hörðr, Rúgálfr,
+      Þrymr, Végarðr, Freygarðr, Þorgarðr ok Grjótgarðr. Hörðr hlaut Hörðaland ór skipti. Hans sonr
+      var Jöfurr eða Jösurr, faðir Hjörs konungs, föður Hjörleifs ins kvensama. Rúgálfr átti
+      Rogaland. Hans sonr var Rögnvaldr, faðir Ögvalds konungs. Þrymr átti Agðir. Hans sonr var Agði
+      ok Agnarr, faðir Ketils þryms, er bú átti í Þrumu. Végarðr átti Sygnafylki. Hann var faðir
+      Veðrorms, föður Vémundar ins gamla, er Sygnatrausti kallaðist. Freygarðr átti Fjörðu ok
+      Fjalir. Hans synir váru þeir Freysteinn gamli, er bú átti á Gaulum, ok Freybjörn, faðir
+      Auðbjarnar, föður Árinbjarnar Firðajarls. Þorgarðr átti Sunnmæri. Hans sonr var Þorviðr, faðir
+      Arnviðar tréserkjabana, föður þeira Slæviðar ok Bráviðar. Grjótgarðr átti Norðmæri. Hans sonr
+      var Salgarðr, faðir Grjótgarðs, föður Sölva, föður Högna í Njarðey, föður Sölva víkings ok
+      Hildar innar mjóvu, er átti Hjörleifr inn kvensami. Hálfr berserkr var þeira sonr. Annarr
+      þeira sona Grjótgarðs var Sigarr, faðir Signýjar, er átti Haraldr Naumdælajarl, faðir
+      Herlaugs, föður Grjótgarðs, föður Hákonar jarls, föður Sigurðar jarls, föður Hákonar
+      Hlaðajarls. Raumr, sonr Nórs konungs, tók ríki eptir feðr sinn. Hann átti Álfheima ok svá vítt
+      ríki sem ár þær falla, er þar spretta upp. Þaðan fellr Lögrinn austan um dal í Mjörs, en þaðan
+      Vermá í Raumelfi, en hún til sjóvar. Af Vermá fellr Raumá ofan eptir Raumsdal. <pb n="140"/>
+      Af Vermá fellr Eystri-Elfr um Eystri-Dali ok í Væni, en þaðan Gautelfr til sjóvar. Raumr
+      konungr átti samdrykkju um jól við Bergfinn, son Þryms jötuns af Vermá, ok gekk þá í rekkju
+      Bergdísar, systur hans. Ok eptir þat gat hún þrjá sonu, Björn, Brand ok Álf. Hann fóstraði
+      Bergfinnr, ok var kallaðr Finnálfr. Björn var með móður sinni ok var kallaðr Jötunbjörn. Brand
+      sendi hún Rauma, föður hans, en hann gaf hann guðunum, ok var hann kallaðr Guðbrandr. Honum
+      gaf Raumr konungr dali þá, er Guðbrandsdalir heita, Jötunbirni gaf hann Raumsdal, en Álfi
+      Eystri-Dali ok allt fyrir norðan Væni ok frá Gautelfi ok norðr til Raumelfar. Þat váru þá
+      kallaðir Álfheimar. Guðbrandr Dalakonungr var faðir Auðleifs, föður Guðmundar konungs. Hans
+      sonr var Guðbrandr, er eigi vildi láta kalla sik konung ok lét gefa sér jarls nafn fyrir því,
+      at hann vildi vera ríkastr jarl á Norðrlöndum. Hans sonr var Geirmundr jarl, faðir Hróðgeirs
+      jarls, föður Guðbrands, er eigi vildi vera konungr né jarl ok lét gefa sér hersis nafn ok réð
+      þó löndum sem konungr, ok at engu var hann óríkari. Hans allir ættmenn váru síðan hersar.
+      Jötunbjörn inn gamli var faðir Raums konungs, föður Hrossbjarnar, föður Orms skeljamola, föður
+      Knattar, föður þeira Þórólfs hálma ok Ketils raums. Synir Þórólfs váru þeir Helgi, faðir
+      Bersa, föður Þormóðs, föður Þórlaugar, móður Tungu-Odds. Finnálfr inn gamli fekk Svanhildar,
+      er kölluð var gullfjöðr. Hún var dóttir Dags Dellingssonar, er kölluð var gullfjöðr. Hún var
+      dóttir Dags Dellingssonar ok Sólar, dóttur Mundilfara. Sonr þeira var Svanr inn rauði, faðir
+      Sæfara, föður Úlfs, föður Álfs, föður þeira Ingimundar ok Eysteins. Raumr inn gamli fekk síðar
+      Hildar, dóttur Guðröðar ins gamla, sonar Sölva <pb n="141"/> konungs, er fyrstr ruddi þar, sem
+      nú heita Sóleyjar. En synir hans váru þeir Guðröðr, Haukr, Haddingr ok Hringr. Guðröðr var
+      konungr eptir feðr sinn, ok konungar váru allir hans ættmenn. Eysteinn illráði var hans sonr.
+      Hann setti Inn-Þrændum hund sinn fyrir konung, er Saurr hét, fyrir þat er þeir höfðu drepit
+      Önund, son hans, er hann hafði þar sett til landsgæzlu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Ættartala frá Höð. Höðr átti þar ríki, er kallat er Haðaland. Hans sonr var Höddbroddr,
+      faðir Hrólfs, föður Hrómundar berserks, föður þeira Hámundar, Haka ok Gunnlaðar, móður þeira
+      Útsteins ok Innsteins. Hámundr var Hörðajarl. Hann var faðir Hróks ins svarta ok Hróks ins
+      hvíta. Haki var faðir Hróðgeirs, föður Hróðmars, föður Haka berserks. Gunnlöð var dóttir Hróks
+      ins svarta, en móðir Hrómundar Gripssonar. Haddingr, sonr Rauma, átti Haddingjadal ok
+      Þelamörk. Hans sonr var Haddingr, faðir Haddings, föður Högna ins rauða. Eptir hann tóku ríki
+      Haddingjar þrír, ok var hverr þeira eptir annan. Helgi Haddingjaskati var með einum þeira.
+      Hringr konungr, sonr Rauma, átti Hringaríki ok Valdres. Hann fekk dóttur Vífils sækonungs.
+      Þeira sonr var Hálfdan gamli. Ok þá er hann tók konungdóm, gerði hann blót mikit at miðjum
+      vetri ok blótaði til þess, at hann skyldi mega lifa þrjú hundruð vetra í konungdómi sínum, sem
+      sagt var, at lifat hefði Snær inn gamli. En fréttin sagði honum svá, at hann mundi <pb n="142"
+      /> lifa ekki meir en einn mannsaldr, en þat mundi vera þrjú hundruð vetra, ok at engi mundi
+      vera ótiginn maðr í hans ætt ok engi kona. Hann var hermaðr mikill ok herjaði víða um
+      Austrveg. Þar drap hann þann konung, er Sigtryggr hét, í einvígi. Hann gekk at eiga Álfnýju,
+      dóttur Eymundar konungs ór Hólmgarði. Þau áttu níu sonu. Hét einn Þengill, er kallaðr var
+      Mannaþengill, Ræsir, Gramr, Gylfi, Hilmir, Jöfurr, Tiggi, Skyli ok Harri. Þessir níu, er sagt,
+      at allir væri jafngamlir, ok urðu svá ágætir, at í öllum fræðum eru þeira nöfn höfð fyrir
+      tignar nöfn ok konunga nöfn. Svá er sagt, at engi þeira ætti börn, ok fellu allir senn í
+      orrostu. Enn áttu þau aðra níu sonu. Hétu þeir Hildir, Næfill, Auði, Skelfir, Dagr, Bragi,
+      Buðli, Lofði, Sigarr. Hildir, Sigarr ok Lofði váru allir herkonungar, Auði, Buðli ok Næfill
+      væru sækonungar, Dagr, Skelfir ok Bragi sátu at löndum. Dagr átti Þóru drengjamóður, ok áttu
+      þau níu sonu. Hét einn Óli, annarr Ámr, þriði Jöfurr, fjórði Arngrímr. Óli var faðir Dags,
+      föður Óleifs, föður Hrings, föður Óláfs, föður Helga, föður Sigurðar hjartar, föður
+      Ragnhildar, móður Haralds ins hárfagra. Sú ætt Haralds var kölluð Döglingar. Arngrímr átti
+      Eyfuru. Þeira sonr var Angantýr berserkr. Bragi gamli var konungr á Valdresi. Hann var faðir
+      Agnars, föður Álfs, föður Eireks, föður Hildar, móður Hálfdanar ins milda, föður Guðröðar,
+      föður Hálfdanar svarta, föður Haralds ins hárfagra. Þessi ætt Haralds heita Bragningar.
+      Skelfir var konungr á Vörs. Hans sonr var Skjöldr, faðir Eireks, föður Alreks, föður Eireks
+      ins málspaka, föður Alreks ins frækna, föður Víkars, föður Vatnars, föður þeira Ímalds ok
+      Eireks, föður Gyðu, er átti Haraldr <pb n="143"/> inn hárfagri. Þat heitir Skilfinga ætt eða
+      Skjöldunga ætt. Hildir var inn fjórði sonr Halfdanar.* Hann var faðir Hildibrands, föður
+      Vígbrands, föður Hildis ok Herbrands, föður Haralds ins grenska, föður Ásu innar stórráðu,
+      móður Hálfdanar svarta, föður Haralds ins hárfagra. Sigarr var faðir Siggeirs, er átti
+      Signýju, dóttur Völsungs konungs. Sigarr var ok faðir Sigmundar, er átti Hildi, dóttur
+      Grjótgarðs konungs af Mæri. Hans sonr hét Sigarr, faðir Signýjar. Hann lét hengja Hagbarð. Þat
+      heitir Siklinga ætt. Lofði var konungr mikill. Þat herlið, er honum fylgdi, eru Lofðar
+      kallaðir. Hann herjaði á Reiðgotaland ok varð þar konungr. Hans synir váru þeir Skekkill
+      sækonungr ok Skyli, faðir Egðis, föður Hjálmþés, föður Eylima, föður Hjördísar, móður Sigurðar
+      Fáfnisbana, föður Áslaugar, móður Sigurðar orms í auga, föður Áslaugar, móður Sigurðar
+      hjartar, föður Ragnhildar, móður Haralds ins hárfagra. Þessir ættmenn Haralds eru kallaðir
+      Lofðungar. Auði ok Buðli váru sækonungar ok fóru báðir saman með her sinn. Þeir kómu með liði
+      sínu til Saxlands ok herjuðu þar víða, lögðu undir sik Valland ok Saxland, settust þar at
+      löndum. Auði hafði Valland ok var faðir Fróða, föður Kjárs, föður Ölrúnar. Þat eru kallaðir
+      Öðlingar. Buðli hafði Saxland. Hann var faðir Attils, föður Vífils, föður Læfa, föður Buðla,
+      föður Sörla eða Serla ok Atla ok Brynhildar, móður Áslaugar, ok er sú ætt Haralds ins hárfagra
+      kölluð Buðlungar. Næfill konungr var faðir Heimars, föður Eynefs, föður * Leiðr. -- inn fimmti
+      sonr Dags hdr. <pb n="144"/> Rakna, föður Gjúka, föður þeira Gunnars ok Högna, Guðrúnar,
+      Guðnýjar ok Gullrandar, ok er þat kölluð Niflunga ætt. Nú eru taldar konur þær, er fyrst kómu
+      í ætt Hálfdanar gamla. En þá er in fyrsta kona kom í ættina, var liðit þrjú hundruð vetra frá
+      blótinu, er Hálfdan blótaði til aldrs sér ok ríkis. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Ættartala. Álfr konungr inn gamli réð fyrir Álfheimum. Hann var faðir Álfgeirs, föður
+      Gandálfs, föður Álfhildar; Álfhildr var móðir Ragnars loðbrókar, föður Sigurðar orms í auga,
+      föður Áslaugar, móður Sigurðar hjartar, föður Ragnhildar, móður Haralds ins hárfagra. Haraldr
+      inn gamli, sonr Valdars ins milda Hróarssonar, átti Hervöru Heiðreksdóttur konungs. Þeira sonr
+      var Hálfdan snjalli, faðir Ívars víðfaðma, föður Auðar innar djúpauðgu. Hana átti Hrærekr
+      slöngvanbaugi. Þeira sonr var Haraldr hilditönn. Síðar átti Auði Ráðbarðr konungr. Þeira sonr
+      var Randvér, faðir Sigurðar hrings, föður Ragnars loðbrókar, föður Sigurðar, föður Áslaugar,
+      móður Sigurðar, föður Ragnhildar, móður Haralds ins hárfagra, er fyrstur var einvaldskonungr
+      yfir Noregi. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Ættartala Haralds frá Óðni. Burri hefir konungr heitit, er réð fyrir Tyrklandi. Hans sonr
+      var Burr, er var faðir Óðins Ásakonungs, föður Freys, föður Njarðar, föður Freys, föður
+      Fjölnis, <pb n="145"/> föður Sveigðis, föður Vanlanda, föður Vísburs, föður Dómalda, föður
+      Dómars, föður Dyggva, er vér köllum Tryggva, föður Dags, föður Agna Skjálfarbónda, föður
+      Alreks, föður Yngva, föður Jörmunfróða, er vér köllum Jörund, föður Ána ins gamla, er vér
+      köllum Aun, er níu vetr drakk horn fyrir elli sakir, áðr hann dó. Aunn var faðir Egils
+      Tunnadólgs, föður Óttars vendilskráku, föður Aðils at Uppsölum, föður Eysteins, föður Yngvars
+      ins hára, föður Braut-Önundar, föður Ingjalds ins illráða, föður Óláfs trételgju, föður
+      Hálfdanar hvítbeins, föður Eysteins, föður Hálfdanar ins milda ok matarilla, föður Guðröðar
+      veiðikonungs, föður Hálfdanar svarta, föður Haralds ins hárfagra. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Ættartala. Skjöldr hét sonr Óðins Ásakonungs. Hann var faðir Friðleifs, föður Frið-Fróða,
+      föður Friðleifs, föður Hávarðs ins handramma, föður Fróða, föður Vermundar ins vitra, föður
+      Óláfs ins lítilláta, föður Dans ins mikilláta, föður Fróða ins friðsama, föður Friðleifs,
+      föður Fróða ins frækna, föður Ingjalds Starkaðarfóstra, föður Hræreks hnöggvanbauga, föður
+      Hálfdanar, föður Hræreks slöngvanbauga, föður Haralds hilditannar. Bróðir Haralds var Randvér,
+      faðir Sigurðar hrings. Er þá slík ættartala til Haralds konungs hárfagra, sem fyrr segir. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> Ætt Haralds frá Adam. Adam skapaði guð fyrst allra manna. Seth var sonr <pb n="146"/> hans,
+      hans sonr Enos, hans sonr Kaynán, hans sonr Malaleel, hans sonr Phareth, hans sonr Enoch, hans
+      sonr Mathusalem inn gamli, hans sonr Lámech, -- þá var úti inn fyrsti heimsaldr, -- hans sonr
+      var Nói, er örkina smíðaði, hans sonr Japhet, hans sonr Japhan, hans sonr Zechim, hans sonr
+      Ciprus, hans sonr Cretus eða Celius, hans sonr Saturnus í Krít, hans sonr Jupiter, hans sonr
+      Darius, hans sonr Erichonius, hans sonr Troeg, hans sonr Ilus, hans sonr Lamidon, hans sonr
+      Príamus höfuðkonungr. Munnon eða Mennon hét konungr í Tróju. Hann átti Troánam, dóttur Priami
+      konungs: hans sonr hét Tror, er vér köllum Þór, hans sonr var Loricha, er vér köllum Hlórriða,
+      hans sonr Eredei, er vér köllum Eindriða, hans sonr Vingiþórr, hans sonr Vinginer, hans sonr
+      Móði, hans sonr Mági, er vér köllum Magna, hans sonr Seseph, hans sonr Beduigg, hans sonr
+      Atra, hans sonr Trinán, hans sonr Heremoth, er vér köllum Hermóð, hans sonr Skjaldin, er vér
+      köllum Skjöldr, hans sonr Beaf, er vér köllum Bjár, hans sonr Goðólfr, hans sonr Burri, er vér
+      köllum Finn, hans sonr Frjalafr, er vér köllum Bors, hans sonr Voden, er vér köllum Óðin. Hann
+      var Tyrkja konungr. Hans sonr Skjöldr, hans sonr Friðleifr, hans sonr Frið-Fróði, hans sonr
+      Herleifr, hans sonr Hávarr inn handrammi, hans sonr Fróði, hans sonr Vémundr inn vitri, hans
+      dóttir Ólof. Hún var móðir Fróða ins friðsama. Hans sonr Friðleifr, hans sonr Fróði inn
+      frækni, hans sonr Hálfdan, hans sonr Hróarr, hans sonr Valdarr inn mildi, hans sonr Haraldr
+      gamli, hans sonr Hálfdan snjalli, hans sonr Ívarr víðfaðmi, hans dóttir Auðr in djúpauðga,
+      hennar sonr Randvér, hans sonr Sigurðr hringr, hans sonr Ragnarr loðbrók, hans sonr Sigurðr
+      ormr í auga, hans dóttir Áslaug, hennar sonr Sigurðr hjörtr, <pb n="147"/> hans dóttir
+      Ragnhildr, hennar sonr Haraldr konungr inn hárfagri. Verðr þessi tala einum manni fátt í sjau
+      tugu at meðtöldum bæði Adam ok Haraldi. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Hverir konungar stýrt hafa Noregi. Sonr Haralds hárfaga hét Sigurðr hrísi, hans sonr
+      Hálfdan, hans sonr Sigurðr sýr, hans sonr Haraldr inn harðráði, bróðir Ólafs ins helga, hans
+      sonr Óláfr kyrri, hans sonr Magnús berbeinn, hans sonr Haraldr gilli, hans sonr Sigurðr munnr,
+      hans sonr Sverrir magnus, hans sonr Hákon harmdauði, hans sonr Hákon gamli, hans sonr Magnús,
+      er lögbók sendi til Íslands, þá er kölluð er Jónsbók, hans sonr Hákon háleggr, hans dóttir
+      Ingibjörg, hennar sonr Magnús góði Eiríksson langa hertoga, hans sonr Hákon, hans sonr Óláfr,
+      er þá var tíu vetra, er faðir hans andaðist. Hann var konungr yfir Noregi, Danmörk ok öllum
+      þeim skattlöndum, er þar liggja til, ok réttr erfingi alls Svíaríkis, er Albrikt, sonr
+      Mækinborgargreifa, helt; hann var systursonr Magnúss konungs góða, föðurföður Óláfs. Þessi
+      Óláfr var heitinn eptir inum heilaga Óláfi konungi Haraldssyni eptir sjálfs hans tilvísan.
+      Hann var þá konungr, er sjá bók var skrifuð. Þá var liðit frá hingatburð várs herra Jesú
+      Kristí mccclxxx ok vij ár. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> Capitulum. Þessir hafa stýrt Noregi: Óláfr konungr, sem nú sagði, þá Hákon konungr, þá
+      Magnús konungr góði, <pb n="148"/> þá Hákon háleggr, þá Eirekr ok Magnús, þá Magnús, er bókina
+      setti, þá Hákon ungi jafnfram Hákoni gamla, föður sínum, þá Ingi Bárðarson ok Erlingr
+      steinveggr ok Philippus Baglakonungr, þá Hákon harmdauði, þá Sverrir magnus ok margr
+      lygikonungr um hans daga, þá Magnús Erlingsson ok Eysteinn birkibeinn, þá Hákon herðibreiðr,
+      þá Ingi krypplingr ok Eysteinn ok Sigurðr munnr, þá Haraldr gillikristr ok Magnús blindi ok
+      Sigurðr slembidjákn, þá Sigurðr Jórsalafari, Eysteinn ok Óláfr, þá Magnús berbeinn ok Hákon
+      Þórisfóstri, þá Óláfr inn kyrri ok Magnús, faðir Hákonar Þórisfóstra, þá Haraldr inn harðráði,
+      þá Magnús inn ríki, sonr Óláfs ins helga, þá óforsynju-konungr Sveinn Alfífuson ok Knútr inn
+      ríki, þá Óláfr inn helgi Haraldsson, þá Eirekr jarl, Sveinn jarl ok Hákon jarl, þá Óláfr
+      Tryggvason, þá Hákon blótjarl inn ríki, þá Haraldr gráfeldr, þá Hákon Aðalsteinsfóstri, þá
+      Eirekr blóðöx, þá Haraldr inn hárfagri, er fyrstr var einvaldskonungr yfir öllum Noregi, svá
+      at sögur finnist til. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Hvarf Óláfs konungs Hákonarsonar. Ári síðar en fyrr segir hvarf Óláfr konungr Hákonarson.
+      Sögðu Danir hann dauðan, en Norðmenn vildu ekki trúa því. Þá var tekin til ríkisstjórnar yfir
+      Noreg ok Danmörk drottning Margréta, móðir Óláfs konungs, en dóttir Valdamars Danakonungs,
+      eptir er hún lét fanga Albrikt. FUNDINN NOREGR </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p> FORNJÓTR hefir konungr heitit. Hann réð fyrir Gotlandi*, er kallat er Finnland ok Kvenland.
+      Þat er fyrir austan hafsbotn þann, er gengr til móts við Gandvík; þat köllum vér
+      Helsingjabotn. Fornjótr átti þrjá syni. Hét einn Hlér, er vér köllum Ægi, annarr Logi, þriði
+      Kári. Hann var faðir Frosta, föður Snæs ins gamla. Hans sonr hét Þorri. Hann átti tvá syni,
+      hét annarr Nórr, en annarr Górr, dóttir hans hét Gói. Þorri var blótmaðr mikill. Hann hafði
+      blót á hverju ári at miðjum vetri; þat kölluðu þeir Þorrablót. Af því tók mánaðrinn heiti. Þat
+      var tíðenda einn vetr at Þorrablóti, at Gói hvarf í brott, ok var hennar leita farit, ok
+      finnst hún eigi. Ok er sá mánaðr leið, lét Þorri fá at blóti ok blóta til þess, er þeir yrði
+      vísir, hvar Gói væri niðr komin; þat kölluðu þeir Góiblót. Einskis urðu þeir vísir um hana at
+      heldr. Þrim vetrum síðar strengdu þeir bræðr heit, at þeir skyldu hennar leita ok skipta svá
+      leitinni, at Nórr skyldi leita um löndin, en Górr skyldi leita um útsker ok eyjar, ok fór hann
+      á skipum. Hvárrtveggi þeira bræðra var fjölmennr. Helt Górr skipum sínum út eptir hafsbotnum
+      og svá í Allanzhaf. Síðan kannar hann víða Svíasker ok allar eyjar, er liggja í Eystrasalti,
+      eptir þat í Gautasker ok þaðan til Danmerkr ok * Jótlandi hdr. <pb n="150"/> kannar þar allar
+      eyjar. Hann fann þar frændr sína, þá er komnir váru af Hlé inum gamla ór Hlésey, ok helt hann
+      þá enn fram ferðinni ok spyrr ekki til systur sinnar. En Nórr, bróðir hans, beið þess, er snjó
+      lagði á heiðar ok skíðfæri gerði gott. Eptir þat fór hann af Kvenlandi ok fyrir innan
+      hafsbotninn, ok kómu þar, er þeir menn váru, er Lappir heita; þat er á bak Finnmörk. En Lappir
+      vildu banna þeim yfirför, ok tókst þar bardagi, ok sá kraptr ok fjölkynngi fylgdi þeim Nór, at
+      óvinir þeira urðu at gjalti, þegar þeir heyrðu heróp ok sá vápnum brugðit, ok lögðu Lappir á
+      flótta. En Nórr fór þaðan vestr á Kjölu ok var lengi úti ok svá, at þeir vissu ekki til manna,
+      ok skutu dýr ok fugla til matar sér, fóru þar til, er vötn hnigu til vestrættar af fjöllum. Þá
+      fara þeir með vötnunum ok kómu at sjá. Þar var fyrir þeim fjörðr mikill, sem hafsbotn væri.
+      Þar váru byggðir miklar, ok dalir stórir gengu at firðinum. Þar var safnaðr fyrir þeim, ok
+      réðu þeir þegar til bardaga við Nór, ok fór þeira skipti eptir vana, allt fólk fell þar eða
+      flýði, en Nórr ok hans menn gengu yfir sem lok yfir akra. Fór Nórr um allan fjörðinn ok lagði
+      undir sik ok gerðist konungr yfir þeim heruðum, er þar lágu innan fjarðar. Nórr dvaldist þar
+      um sumarit, þar til er snjávaði á heiðar. Þá stefndi hann upp eptir dalnum þeim, er suðr gengr
+      af firðinum. Sá fjörðr er nú kallaðr Þrándheimr. Suma menn sína lætr hann fara it fremra um
+      Mærina. Hann lagði undir sik, hvar sem hann fór, ok þá er hann kemr suðr yfir fjallit þat, er
+      var fyrir sunnan dalsbotninn, sótti hann suðr eptir dölunum, þar til er hann kom at vatni
+      miklu, er þeir kölluðu Mjörs. Þá snýr hann enn vestr á fjallit, því at honum var sagt, at menn
+      hans höfðu farit ósigr fyrir <pb n="151"/> konungi þeim, er Sókni hét. Þá kómu þeir í þat
+      herað, er þeir kölluðu Valdres. Þaðan fóru þeir til sjóvar ok kómu í langan fjörð ok mjóvan,
+      er nú heitir Sogn. Þar var fundr þeira Sókna, ok áttu þeir þar orrostu mikla, því at Sókna brá
+      ekki við fjölkynngi þeira. Nórr gekk fram hart, ok skiptust þeir Sókni höggum við. Þar fell
+      Sókni ok margt lið hans. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Ferð Nórs eptir Noregi at leita systur sinnar. Eptir þat fór Nórr í fjörð þann, er norðr
+      gengr af Sogni. Þar hafði Sókni fyrir ráðit, er nú heitir Sóknadalr. Þar dvaldist Nórr lengi,
+      ok heitir þar nú Nórafjörðr. Þar kom til móts við hann Górr, bróðir hans, ok hafði þá hvárrgi
+      þeira spurt til Gói. Górr hafði ok undir sik lagt land allt it ytra, er hann hafði sunnan
+      farit, ok þá skiptu þeir löndum með sér bræðr. Hafði Nórr meginland allt, en Górr skal hafa
+      eyjar þær allar, er hann ferr stjórnföstu skipi milli ok meginlands. Ok eptir þat ferr Nórr
+      til Upplanda ok kom þar, sem nú heitir Heiðmörk. Þar réð sá konungr fyrir, er hét Hrólfr ór
+      Bjargi. Hann var sonr Svaða jötuns norðan af Dofrum. Hrólfr hafði numit á brott af Kvenlandi
+      Gói Þorradóttur. Hann fór þegar til móts við Nór ok bauð honum til einvígis. Þeir börðust
+      lengi, ok varð hvárrgi sárr. Eptir þat sættust þeir, ok fekk Nórr systur Hrólfs, en Hrólfr
+      fekk Gói. Þaðan sneri Nórr aptr norðr til ríkis þess, er hann hafði undir sik lagt. Þat
+      kallaði hann Norveg. Réð hann því ríki, meðan hann lifði, en synir hans eptir hann, ok skipta
+      þeir landi með sér, ok tóku <pb n="152"/> svá ríki at smækkast sem konungar tóku fjölgast ok
+      greindust svá í fylki. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Beitir fekk Noreg. Górr hefir ok verit kallaðr sækonungr. Hans synir váru þeir Heiti ok
+      Beiti. Þeir váru sækonungar ok ofstopamenn miklir. Þeir gengu mjök á ríki sona Nórs, ok áttu
+      þeir margar orrostur, ok sigruðust ýmsir. Beitir lagði inn í Þrándheim ok herjaði þar. Hann lá
+      þar, er nú heitir Beitisær eða Beitistöð. Þar lét hann draga skip ór Beitistöð innanverðri ok
+      norðr yfir Eiskrueið; þar ganga Naumudalir at norðan. Hann settist í lypting ok helt um
+      hjálmvöl ok eignaðist land allt þat, er var á bakborða, ok eru þar margar byggðir. Heitir,
+      sonr Górs, var faðir Sveiða sækonungs, föður Hálfdanar ins gamla, föður Ívars Upplendinga
+      jarls, föður Eysteins glumru, föður Rögnvalds jarls ins ríka ok ins ráðsvinna. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

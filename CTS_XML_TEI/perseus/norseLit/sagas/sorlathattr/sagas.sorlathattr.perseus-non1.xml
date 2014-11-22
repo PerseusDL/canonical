@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sörla þáttr eða Heðins saga ok Högna</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Sörla þáttr eða Heðins saga ok Högna</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: SorlaThattr_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="97"/>
+
+FYRIR austan Vanakvísl í Asía var kallat Asíaland
+eða Asíaheimr, en þat fólk var kallat Æsir, er
+þar byggðu, en höfuðborgina kölluðu þeir Ásgarð.
+Óðinn var þar nefndr konungr yfir. Þar var blótstaðr
+mikill. Njörð ok Frey setti Óðinn blótgoða. Dóttir
+Njarðar hét Freyja. Hún fylgdi Óðni ok var friðla hans.
+Menn þeir váru í Asía, er einn hét Álfrigg, annarr
+Dvalinn, þriði Berlingr, fjórði Grérr. Þeir áttu heima
+skammt frá höll konungs. Þeir váru menn svá hagir,
+at þeir lögðu á allt gerva hönd. Þess háttar menn, sem
+þeir váru, kölluðu menn dverga. Þeir byggðu einn stein.
+Þeir blönduðust þá meir við mannfólk en nú.
+Óðinn unni mikit Freyju, enda var hún allra kvenna
+fegrst í þann tíma. Hún átti sér eina skemmu. Hún
+var bæði fögr ok sterk, svá at þat segja menn, at ef hurðin
+var aptr ok læst, at engi maðr mætti koma í skemmuna
+án vilja Freyju. Þat var einn dag, er Freyju varð gengit
+til steinsins, hann var þá opinn. Dvergarnir váru at
+smíða eitt gullmen. Þat var þá mjök fullgert. Freyju
+<pb n="98"/>
+
+leizt vel á menit. Dvergunum leizt ok vel á Freyju.
+Hún falaði menit at dvergunum, bauð í móti gull ok
+silfr ok aðra góða gripi. Þeir kváðust ekki féþurfi, sagðist
+hverr vilja sjálfr sinn part selja í meninu ok ekki
+annat fyrir vilja hafa en hún lægi sína nótt hjá hverjum
+þeira. Ok hvárt sem hún lét at þessu komast betr
+eða verr, þá keyptu þau þessu. Ok at liðnum fjórum
+náttum ok enduðum öllum skildaga, afhenda þeir
+Freyju menit. Fór hún heim í skemmu sína ok lét kyrrt
+yfir sér, sem ekki hefði í orðit.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Maðr hét Fárbauti. Hann var karl einn ok átti sér
+kerlingu þá, er Laufey er nefnd. Hún var bæði mjó
+ok auðþreiflig; því var hún Nál kölluð. Þau áttu sér
+einn son barna. Sá var Loki nefndr. Hann var ekki
+mikill vöxtum, orðskár var hann snemma ok skjótligr
+í bragði. Hann hafði fram yfir aðra menn vizku þá, er
+slægð heitir. Hann var mjök kyndugr þegar á unga
+aldri, því var hann kallaðr Loki lævíss. Hann réðst til
+Óðins í Ásgarð ok gerðist hans maðr. Óðinn mælti
+hvatvetna eptir honum, hvat sem hann tók til, enda
+lagði hann opt stórar þrautir fyrir hann, ok leysti hann
+þær allar vánu betr af höndum. Hann varð ok náliga
+alls víss, þess er við bar, sagði hann ok allt Óðni, þat
+er hann vissi.
+Þat er ok sagt, at Loki varð víss, er Freyja hafði fengit
+menit ok svá, hvat hún hafði móti gefit; sagði hann
+þetta Óðni. En er Óðinn varð þess víss, sagði hann,
+at Loki skyldi ná meninu ok fá sér. Loki kvað þat óvænligt
+sakir þess, at engi maðr má í skemmuna komast
+<pb n="99"/>
+
+fyrir utan vilja Freyju. Óðinn sagði, at hann skyldi
+fara verða ok eigi aptr koma, fyrr en hann hefði nát
+meninu. Loki sneri þá í brottu æpandi. Flestir urðu
+við þat kátir, er Loka gekk lítt til. Hann gengr til
+skemmu Freyju, ok var hún læst. Hann leitaði við inn
+at komast ok gat eigi. Kuldaveðr var úti mikit, ok tók
+honum fast at kólna. Hann varð þá at einni flugu.
+Hann flökti þá um alla lása ok með öllum fellum ok
+gat hvergi lopt fundit, svá at hann mætti inn komast.
+Uppi allt hjá burstinni ok þó eigi meiri boru fann
+hann en sem stinga mætti í nál; þá boru bograr hann
+inn. En er hann kom inn, var hann flenneygr mjök
+ok hugði at, ef nokkurir vekti, en hann gat þat sét, at
+allt svaf í skemmunni. Hann ferr þá innar at sænginni
+Freyju ok skynjar þá, at hún hefir menit á hálsi sér
+ok at nistin horfðu niðr á. Loki verðr þá at einni fló.
+Hann sezt á kinn Freyju ok höggr svá, at Freyja vaknar
+ok snerist við ok sofnar aptr. Þá dregr Loki af sér
+flóar haminn, lokkar þá af henni menit, lýkr þá upp
+skemmunni ok ferr í burt ok færir Óðni.
+Freyja vaknar um morgininn ok sér, at opnar eru
+dyrrnar, en ekki brotit, en menit var í brottu it góða.
+Hún þykkist vita, hver brögð í munu vera, gengr inn
+í höllina, þegar hún er klædd, fyrir Óðin konung ok
+talar um, at hann hafi illa látit gera at stela frá henni
+góðgrip hennar ok biðr hann fá sér aptr góðgrip sinn.
+Óðinn segir, at hún skal þat aldri fá, svá at eins hefir
+hún at því komizt, -- "nema þú orkir því, at þeir konungar
+tveir, at tuttugu konungar þjóna hvárum, verði
+missáttir ok berist með þeim álögum ok atkvæðum, at
+þeir skulu jafnskjótt upp standa ok berjast sem þeir áðr
+falla, utan nokkurr maðr kristinn verði svá röskr ok
+honum fylgi svá mikil gifta síns lánardrottins, at hann
+<pb n="100"/>
+
+þori at ganga í bardaga þeira ok vega með vápnum þessa
+menn. Þá it fyrsta skal þeira þraut lyktast, hverjum höfðingja
+sem þat verðr lagit at leysa þá svá ór ánauð ok
+erfiði sinna fárligra framferða." Freyja játtaði því ok
+tók við meninu.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Í þann tíma, er liðnir váru frá falli Frið-Fróða fjórir
+vetr ok tuttugu, réð sá konungr Upplöndum í Noregi,
+at Erlingr hét. Hann átti sér drottningu ok tvá sonu. Hét
+Sörli sterki inn ellri, en Erlendr inn yngri. Þeir váru
+efniligir menn. Sörli var þeira sterkari. Þeir lögðu í
+hernað, þegar þeir höfðu aldr til. Þeir börðust við Sindra
+víking Sveigisson, Hákasonar sækonungs í Elfarskerjum,
+ok fell þar Sindri víkingr ok allt lið hans. Í þeiri orrostu
+fell ok Erlendr Erlingsson. Eptir þat helt Sörli í it Eystra
+salt ok herjaði þar ok vann svá mörg stórvirki, at seint
+er öll at skrifa.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Hálfdan hefir konungr heitit. Hann réð fyrir Danmörk.
+Hann sat í stað, er Hróiskelda heitir. Hann
+átti Hveðnu ina ellri. Þeira synir váru þeir Högni ok
+Hákon. Þeir váru afburðarmenn á vöxt ok afl ok alla
+atgervi. Þeir lögðu í hernað, þegar þeir váru þroskaðir.
+Nú er þar til at taka, at Sörli er, at á einu hausti heldr
+hann til Danmerkr. Hálfdan konungr hafði þá ætlat í
+konungastefnu. Hann var þá mjök hniginn í efra aldr,
+er sjá saga gerðist. Hann átti dreka svá góðan, at eigi
+<pb n="101"/>
+
+fannst annarr slíkr á Norðrlöndum sakir sterkleika ok
+alls hagleiks. Hann flaut um strengi í höfninni, en Hálfdan
+konungr var á landi ok hafði látit heita fararmungát
+sitt. En er Sörli sá drekann, rann í hjarta hans eigingirnd
+mikil, svá at hann vildi drekann eiga fyrir hvern
+mun ok einn, enda er þat ok flestra manna sögn, at eigi
+hafi betri gripr verit í skipi en í þessu at fráteknum
+drekanum Elliða ok Gnoð ok Orminum langa á Norðrlöndum.
+Hann talaði þá við menn sína, at þeir skyldu
+búast til bardaga, -- "því at vér skulum drepa Hálfdan
+konung, en eignast drekann." Máli hans svarar sá maðr,
+er Sævarr hét; hann var stafnbúi hans ok stallari: "Þat
+er eigi ráð, herra," segir hann, "því at Hálfdan er höfðingi
+mikill ok frægr maðr. Hann á ok sonu þá tvá, er
+ráðnir eru til hefnda, því at þeir eru nú einir hverir
+frægastir menn." "Þó at þeir sé goðunum fremri," sagði
+Sörli, "þá skal ek einn veg berjast ok áðr." Búast þeir nú
+til bardaga. Kemr nú njósn Hálfdani konungi. Bregðr
+hann við ok ferr til skipa ok menn hans allir, búast þegar
+til bardaga. Lögðu þat sumir menn til með Hálfdani,
+at honum væri óráð í at berjast ok hann skyldi flýja sakir
+liðsmunar. Konungr sagði, at fyrr skyldi hverr falla
+um annan þveran en hann skyldi flýja. Búast nú hvárirtveggju
+til orrostu, ok slær nú í inn harðasta bardaga,
+ok lýkr með því, at Hálfdan konungr fellr ok allt lið
+hans. Síðan tók Sörli drekann ok allt þat, er á honum
+var fémætt.
+Síðan spurði Sörli, at Högni var kominn ór hernaði
+ok lá við Óðinsey. Þangat heldr Sörli skipum sínum, ok
+þegar þeir finnast, sagði hann honum fall Hálfdanar, föður
+síns, ok býður honum sættir ok sjálfdæmi ok þar með
+fóstbræðralag, en Högni neitaði því öllu. Síðan börðust
+þeir, sem segir í Sörlastikka. Gekk Hákon allvel fram ok
+<pb n="102"/>
+
+drap Sævar, merkjamann Sörla ok stafnbúa. Eptir þat
+drap Sörli Hákon, en Högni drap Erling konung, föður
+Sörla. Síðan börðust þeir Högni ok Sörli, ok fell Sörli
+fyrir Högna af mæði ok sárum, ok lét Högni síðan
+græða hann, ok svörðust þeir í fóstbræðralag ok heldu
+þat vel, meðan þeir lifðu báðir. En Sörli lifði þeira
+skemmr ok fell í Austrvegi fyrir víkingum, sem segir í
+Sörlastikka ok hér segir:
+<lg>
+<l>"Fell inn forsnjalli</l>
+<l>fyrst inn víglysti</l>
+<l>ýgr í Austrvegi</l>
+<l>allr á helpalla,</l>
+<l>dauðr um dalreyðar</l>
+<l>dáðkunnr miskunnar,</l>
+<l>beit at brandmóti</l>
+<l>brynstingr víkingum."</l>
+</lg>
+En sem Högni frétti fall Sörla, herjaði hann í Austrveg
+á sama sumri ok hafði alls staðar sigr ok varð þar
+konungr yfir, ok segja menn svá, at tuttugu konungar
+urðu skattgildir undir Högna konung ok heldu af honum
+ríki. Högni varð svá frægr af sínum stórvirkjum
+ok hernaði, at hans nafn var jafnvel kunnigt norðr
+við Finnabú sem út í París ok allt þar í milli.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Hjarrandi hefir konungr heitit. Hann réð fyrir Serklandi.
+Hann átti sér drottningu ok einn son, þann er
+Heðinn er nefndr. Hann var snemma afreksmaðr at
+afli, vexti ok atgervi. Hann lagði í hernað á æskualdri
+ok gerðist sækonungr ok herjaði víða um Spanía ok
+Græcia ok öll nálæg ríki, svá at hann skattgildi undir
+<pb n="103"/>
+
+sik tuttugu konunga, svá at allir heldu af honum land
+ok lén. Heðinn sat á vetrum heima í Serklandi.
+Þat er sagt einhvern tíma, at Heðinn fór á skóg með
+hirð sinni. Hann varð staddr í rjóðri einn sinna manna.
+Hann sá konu sitja á stóli í rjóðrinu, mikla vexti ok
+fríða sjónum. Hún kvaddi Heðin kurteisliga. Hann
+spurði hana at nafni, en hún nefndist Göndul. Síðan
+talast þau við, spyrr hún hann at stórvirkjum sínum,
+en hann sagði henni allt af létta ok spurði hana, hvárt
+hún vissi nokkurn konung sér jafnan at hreysti ok
+harðræði, frægðum ok framkvæmdum. Hún kveðst
+þann vita, er ekki skyrti við hann ok eigi þjónuðu síðr
+tuttugu konungar en honum, ok kvað hann Högna
+heita ok sitja norðr í Danmörk. "Þat veit ek," sagði
+Heðinn, "at þat skulum vit reyna, hvárr okkar fremri
+er." "Mál mun þér," segir Göndul, "til manna þinna;
+þeir munu leita þín." Síðan skilja þau, ferr hann til
+manna sinna, en hún sat þar eptir. Þegar at várdögum
+býr Heðinn ferð sína, hefir einn dreka ok á þrjú hundruð
+manna. Hann heldr norðr í heima; hann siglir þat
+sumar ok þann vetr. At várdögum kom hann í Danmörk.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Högni konungr sat þá heima. Ok er hann spyrr, at
+ágætr konungr er þar við land kominn, býðr hann
+honum heim til ágætrar veizlu. Heðinn þekktist þat.
+Ok er þeir sátu við drykk, spurði Högni, hvert eyrendi
+Heðinn hefði, er hann fýstist svá langt norðr í heima.
+Heðinn sagði þat sitt eyrendi, at þeir reyndi með sér
+hug ok hreysti, íþróttir ok alla atgervi. Högni lézt
+þess búinn. Ok annan dag árla fóru þeir á sund ok í
+<pb n="104"/>
+
+skotbakka. Þeir frömdu ok burtreið ok vápnfimi ok
+allar íþróttir ok váru svá jafnir á alla atgervi, at engi
+þóttist mega í milli sjá, hvárr fremri væri. Eptir þetta
+gert sverjast þeir í fóstbræðralag ok skyldu allt eiga at
+helmingi. Heðinn var ungr ok ókvæntr, en Högni var
+nokkuru ellri. Hann átti Hervöru Hjörvarðsdóttur,
+Heiðrekssonar úlfhams. Högni átti dóttur, er Hildr hét.
+Hún var allra kvenna vænst ok vitrust. Hann unni mikit
+dóttur sinni. Ekki átti hann barna fleira.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="7"><p>
+
+Þat er sagt, at nokkuru síðar færi Högni í hernað,
+en Heðinn sat eptir ok skyldi geyma ríkis. Þat var einn
+dag, at Heðinn fór á skóg at skemmta sér. Þá var blítt
+veðr. Honum varð enn vikit í burt frá mönnum sínum.
+Hann kom í eitt rjóðr. Þar sá hann sitja konu á
+stóli þá sömu, er hann sá fyrr á Serklandi, ok leizt
+honum sem hún væri nú allt fegri en fyrr. Hún kastaði
+enn orðum fyrr á hann ok gerði sik blíða í máli.
+Hún helt á einu horni, ok var lok yfir. Konungi rann
+hugr til hennar. Hún bauð honum at drekka, en konungr
+var þyrstr, því at honum var varmt orðit, tekr
+við ok drekkr. En er hann hafði drukkit, brá honum
+mjök undarliga við, því at hann mundi engan hlut
+þann, sem áðr hafði yfir gengit. Hann settist þá niðr,
+ok töluðust þau við. Hún spurði, hvárt honum hefði
+nokkut svá reynzt sem hún hafði sagt honum fyrr um
+íþróttir Högna ok harðræði. Heðinn sagði þat satt vera,
+-- "því at hann skorti ekki við mik neina atgervi, er
+vit reyndum, ok því höfum vit kallazt jafnir." "Ekki
+eru þit þó jafnir," segir hún. "Hvat finnr þú til þess?"
+<pb n="105"/>
+
+segir hann. "Þat finn ek til," segir hún, "at Högni á
+sér drottningu af stórum ættum, en þú átt þér enga
+konu." Hann svarar: "Högni giftir mér þegar Hildi,
+dóttur sína, er ek vil biðja, ok er ek þá ekki verr kvæntr
+en hann." "Minnkast þá metnaðr þinn" segir hún, "ef
+þú biðr Högna mægða. Hitt væri heldr til, ef þik skyrti
+hvárki hug né hreysti, sem þú lætr at sé, at nema Hildi
+í burtu, en drepa drottningu með því móti at taka hana
+ok leggja hana niðr fyrir barðit á drekanum ok láta
+hann sníða hana sundr, þá er hann er fram settr." Svá
+var Heðinn fanginn í illsku ok óminni af öli því, er
+hann hafði drukkit, at honum sýndist ekki annat ráð
+en þetta, ok ekki mundi hann til, at þeir Högni væri
+fóstbræðr.
+Síðan skildu þau, ok fór Heðinn til manna sinna.
+Þetta var at áliðnu sumri. Heðinn skipar þá mönnum
+sínum at búa til drekann, því at hann kveðst heim vilja
+til Serklands. Síðan gekk hann til skemmu ok tók sinni
+hendi hvára, drottningu ok Hildi, ok gengr út með
+þær. Menn tóku klæði ok gripi Hildar. Þeir einir váru
+menn í ríkinu, at ekki þorðu at gera sakir Heðins ok
+manna hans, því at hann var mjök ófrýnligr. Hildr
+spurði Heðin, hvat er hann ætlaði, en hann sagði henni.
+Hún bað hann eigi svá gera, -- "því at faðir minn
+mun gifta mik þér, ef þú vilt biðja mín." "Eigi vil ek
+þat gera," segir Heðinn, "at biðja þín." "Ok þó at þat
+sé," segir hún, "at þú vilir ekki annat en flytja mik
+í burt, þá munu þit faðir minn þó sættast, en ef þú
+gerir svá illa ok ómannliga, at þú vinnir bana móður
+minni, þá munu þit faðir minn aldri sættast, ok þessliga
+hafa mér draumar gengit sem þit munið berjast
+ok drepast niðr, ok þó muni þar annat þyngra á koma,
+ok mun mér þat mikill harmr, ef ek skal horfa upp á
+<pb n="106"/>
+
+föður minn, at hann skuli standa undir meingerðum
+ok miklum álögum, en mér er þó engi gleði í at sjá
+þik í illendum ok erfiðismunum." Heðinn kveðst aldri
+hirða, hvat er bak kæmi, ok sagðist gera mundu sem
+áðr. "Eigi máttu nú at gera," segir Hildr, "því at þér
+er eigi sjálfrátt um." Síðan gekk Heðinn til strandar.
+Var þá settr fram drekinn. Skaut hann þá drottningu
+niðr fyrir barðit. Lét hún þar líf sitt, en Heðinn gengr
+út á drekann.
+Ok er hann er albúinn, fýsir hann at ganga á land
+einn sinna manna ok í þann sama skóg, sem fyrr hafði
+hann gengit. Ok er hann kom fram í rjóðrit, sá hann
+þar Göndul sitja á stóli. Þau kvöddust kunnliga. Heðinn
+sagði henni frá framferðum sínum; hún lét vel yfir.
+Hún hafði þar hornit þat, er hún fór fyrr með, ok
+bauð honum at drekka af. Hann tók við ok drakk, en
+er hann hafði drukkit, seig at honum svefn, ok hallaði
+hann sér í kné henni. En er hann var sofnaðr, fór hún
+undan höfði honum ok mælti: "Nú vígi ek þik undir
+öll þau atkvæði ok skildaga, sem Óðinn fyrir mælti,
+ok ykkr Högna báða ok allt lið ykkart." Síðan vaknaði
+Heðinn ok sá svipinn af Göndul ok sýndist honum þá
+svört ok mikil. Heðinn mundi nú allt ok þótti mikit slys
+sitt, hugsar nú at fara nokkut langt í burt, svá at hann
+mætti eigi dagliga heyra brigzli sinna vándra framferða,
+ferr nú til skips, lætr skjótt ór landfestum, stendr
+byrr af landi, ok siglir svá í burt með Hildi.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="8"><p>
+
+Nú kemr Högni heim, verðr nú víss ins sanna, at
+Heðinn hefir siglt í brott með Hildi ok drekann Hálfdanarnaut,
+<pb n="107"/>
+
+en drottning lá dauð eptir. Högni varð við
+þetta mjök reiðr ok bað menn við bregða þegar ok
+sigla eptir Heðni. Gera þeir nú ok svá ok fá inn bezta
+byr, koma æ þar at kveldi á þær hafnir, sem Heðinn
+hafði burt siglt áðr um morgininn.
+Þat var einn dag, er Högni helt til hafnar, at þá váru
+segl Heðins at sjá við hafi. Þá halda þeir Högni þegar
+eptir. Þat er sannliga sagt, at þá fekk Heðinn andviðri
+í móti sér, en Högna helzt inn sami byrr. Heðinn leggr
+þá upp at eyju þeiri, er Há heitir, ok leggr þar í lægi.
+Bráðliga kemr Högni eptir, ok er þeir finnast, kveðr
+Heðinn hann blíðliga. "Þat er þér at segja, fóstbróðir,"
+segir Heðinn, "at mik hefir hent svá mikit slys, at þat
+má engi bæta nema þú. Ek hefi hertekit dóttur þína
+ok dreka, en veitt líflát drottningu þinni ok þó eigi
+af eiginligri illsku minni, heldr af vándum spám ok
+illum álögum. Vil ek nú, at þú skerir einn ok skapir
+okkar í milli. Þat vil ek ok bjóða þér at leggja bæði
+af Hildi ok drekann, menn alla ok fé, en fara svá langt
+út í heima, at ek koma aldri til Norðrlanda né þér
+í augsýn, meðan ek lifi." Högni svarar: "Ek hefða gift
+þér Hildi, ef þú hefðir hennar beðit. Nú þó ok, at þú
+hefðir hertekit Hildi, þá mættim vit þó sættast fyrir
+þat. En nú, er þú hefir gert svá mikit óverkan, at þú
+hefir níðzt á drottningu ok drepit hana, er engi ván
+á, at ek vili sættum taka. Skulu vér ok reyna þegar í
+stað, hvárir stærst kunna at höggva." Heðinn svarar:
+"Hitt er ráð, ef þú vilt ekki annat en berjast, at vit
+reynim tveir með okkr, því at hér áttu við engan mann
+sakir nema við mik. Dugir þat eigi, at ómakligir menn
+gjaldi glæpa minna ok illgerða." Fylgdarmenn þeira
+svöruðu allir sem eins munni, at þeir skyldu fyrr falla
+hverr á fætr öðrum, heldr en þeir næði höggum við
+<pb n="108"/>
+
+at skiptast. En er Heðinn sá, at Högni vildi ekki annat
+en berjast, þá bað hann sína menn á land ganga. "Skal
+ek eigi lengr bila við Högna né biðjast undan bardaga,
+ok dugi nú hverr eptir drengmennsku.
+"Ganga þeir nú á land ok berjast. Er Högni allæfr,
+en Heðinn bæði vápnfimr ok stórhöggr. Þat er með
+sannendum sagt, at svá mikil atkvæði ok illska fylgdi
+þessum álögum, at þó at þeir klyfist í herðar niðr, þá
+stóðu þeir upp sem áðr ok börðust. Hildr sat í einum
+lundi ok sá upp á þenna leik. Þessi armæða ok ánauð
+gekk alla stund frá því, at þeir tóku til at berjast, ok
+framan til þess, er Óláfr Tryggvason varð konungr at
+Noregi. Segja menn, at þat væri fjórtán tigir ára ok
+þrjú ár, áðr en þessum ágæta manni, Óláfi konungi,
+yrði þat lagit, at hans hirðmaðr leysti þá frá þessu
+aumliga áfelli ok skaðligum skapraunum.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="9"><p>
+
+Á fyrsta ári ríkis Óláfs konungs er sagt, at hann
+kæmi við eyna Há ok lagði þar í lægi eitt kveld. Sá
+var þar vani við fyrr sagða ey, at þar hurfu hverja nátt
+varðmenn, svá at engi vissi, hvat af varð. Ívarr ljómi
+átti vörð at halda þessa nótt. En er allir menn váru
+sofnaðir á skipum, tók Ívarr sverðit, er átt hafði Járnskjöldr,
+en Þorsteinn, sonr hans, hafði gefit honum,
+ok öll herklædi sín ok gekk upp á eyna. En er hann
+er upp kominn á eyna, sá hann mann ganga í mót
+sér. Sá var mikill vexti ok allr blóðugr, með miklum
+áhyggjusvip. Ívarr spurði þenna mann at nafni. Hann
+kvaðst Heðinn heita ok vera Hjarrandason, kynjaðr
+utan ór Serklandi. "Er þér þat satt at segja, at þó at
+<pb n="109"/>
+
+hér hafi horfit vökumenn, at þat er mér at kenna ok
+okkr Högna Hálfdanarsyni, því at vit erum orðnir
+fyrir svá miklum atkvæðum ok ánauðum ok okkrir
+menn, at vér berjumst bæði nætr ok daga, ok hefir
+þessu gengit marga mannsaldra, en Hildr Högnadóttir
+sitr ok sér upp á. En Óðinn hefir þetta lagit á oss ok
+ekki annat til undanlausnar en nokkurr kristinn maðr
+berist við oss, þá skal sá eigi upp standa, er hann drepr,
+ok þá er hverr sá leystr frá sinni ánauð. Nú vilda ek
+biðja þik, at þú færir til bardaga með oss, því at ek
+veit, at þú ert vel kristinn, svá ok at konungr sá, er
+þú þjónar, er mikillar hamingju. Segir mér ok svá
+hugr um, at vér munum af honum ok hans mönnum
+nokkut gott hljóta." Ívarr játtar at fara með honum.
+Heðinn varð glaðr við þat ok mælti: "Þess skaltu varast
+at ganga eigi framan at Högna ok þess annars at
+drepa mik eigi fyrr en Högna sakar þess, at þat er
+einkis mennsks manns at ganga framan at Högna eða
+drepa hann, ef ek er áðr dauðr, því at hann hefir ægishjálm
+í augum ok hlífir engu vætta, ok því er þat
+eina til, at ek gangi at honum framan ok berjumst
+ek við hann, en þú gangir at baki honum ok veitir
+honum banatilræði, því at þér mun lítit fyrir verða
+at bana mér, þó at ek lifi vár allra lengst."
+Síðan ganga þeir til bardaga, ok sér Ívarr, at þetta
+er allt satt, sem Heðinn hafði sagt honum. Gengr hann
+at baki Högna ok höggr í höfuð honum ok klýfr hann
+í herðar niðr. Fellr Högni þá dauðr ok stóð aldri upp
+síðan. Síðan drap hann þar þá menn alla, er at bardaganum
+váru, en síðast Heðinn, ok varð honum lítit
+fyrir því. Síðan gekk hann til skipa, ok varð þá lýst
+af degi. Hann fór til konungs ok sagði honum. Konungr
+lét vel yfir verki hans ok sagði honum giftuliga
+<pb n="110"/>
+
+tekizt hafa. Eptir um daginn gengu þeir á land ok
+þar til, sem bardaginn hafði verit, ok sá þar engan
+stað þeira tíðenda, er þar höfðu verit, en sást blóð á
+sverði Ívars til merkja, ok aldri hurfu þar varðhaldsmenn
+síðan. Konungr fór heim eptir þetta í ríki sitt.
+</p></div>
+
+
+</div></body></text>
+</TEI>

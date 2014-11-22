@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Tóka þáttr Tókasonar</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Tóka þáttr Tókasonar</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Toka_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="429"/>
+
+Í þann tíma, er Óláfr konungr sat í Sarpsborg, bar
+þat til einn tíma, at mikill maðr ok ókunnr gekk
+fyrir konunginn ok kvaddi hann, en konungr tók honum
+vel ok spurði hann at nafni. En hann nefndist
+Tóki ok kveðst vera Tókason, Tókasonar ins gamla.
+Hann beiddi konunginn at vera með hirðinni nokkurt
+skeið. Konungr veitti honum þat ok skipaði honum
+sæmiligt sæti. Tóki var fáskiptinn ok drakk löngum
+lítit. Hann var siðugr ok viðfellinn ok þokkaðist hverjum
+manni vel. Þat fann konungr, at Tóki var bæði
+fróðr ok fréttinn, leysti hann ok ór öllu vel ok vitrliga.
+Þótti konungi in mesta skemmtan at ræðum hans. Þat
+sá menn, at Tóki var gamall maðr, en þó sá þeir, at
+hann hafði verit afburðarmaðr at vexti ok vænleika.
+Þat var einn dag, er konungr talaði við Tóka ok
+spurði, hversu gamall maðr Tóki væri. Hann sagðist
+þat ógerla vita, -- "en hitt veit ek, at mér var aldr skapaðr,
+<pb n="430"/>
+
+at ek skylda lifa tvá mannsaldra, ok þykki mér ván,
+at þeir sé brátt endaðir, at því sem flestra manna aldrar
+gerast." Konungr mælti: "Muna muntu þá Hálf konung
+ok rekka hans eða Hrólf kraka ok kappa hans."
+Tóki svarar: "Man ek þá hváratveggju, því at ek var
+með þeim báðum." Konungr spurði: "Hvárir þóttu þér
+þar frægri?" Tóki svarar: "Þat skulu þér dæma, herra,
+en ek skal segja yðr þar til einn ævintýr. Þá var ek sem
+ernastr maðr, ok fór ek landa á milli, ok hafða ek sveit
+manna valda með mér eptir því, sem mér þótti standa
+ok við mitt hæfi vera, því at ek þótti þá þeim fram
+fylgja, er í fræknara lagi váru. Var þat ok satt, at mér
+þótti þá fátt ófært. Fór ek þá víða um lönd, ok vilda
+ek reyna örleik höfðingja ok frægðir kappa þeira. Var
+þat ok lagit á mik með aldrinum, at ek skylda hvergi
+una lengr en tólf mánuðr ok vissa ek, at þat gekk eptir.
+Þá spurða ek til Hrólfs kraka, örleika hans ok mildi,
+frægða ok framaverka ok hraustleika kappa hans, at
+þeir váru ólíkr öllum öðrum at afli ok allri atgervi.
+Gerðumst ek fúss at finna þenna konung ok kappa hans.
+Tók ek þá ok sveitungar mínir þar til, at ek kom fram
+í Danmörku ok á fund Hrólfs konungs. Gekk ek fyrir
+hann, ok kvadda ek hann. En hann tók mér vel ok spurði,
+hvat manna ek væri, en ek sagða honum. Hann spurði mik
+at erendum, en ek sögðumst vilja þiggja at honum vetrvist.
+En hann kveðst við engan mann mat spara ok eigi
+mundi hann við mik fyrstan eða sveitunga mína. Ek
+spurða þá, hvar ek skyldi sitja. Hann bað mik þar sitja,
+sem ek gæta rutt mér til rúms ok kippt manni ór sæti.
+Ek bað hann hafa þökk fyrir. Treysta ek mér þá harðla
+vel. Réð ek þar þegar á, er sat Böðvarr bjarki. Konungr
+skildi þat til, at þeir skyldu ekki móti brjótast. Tók ek
+þá í hendr Böðvari, ok setta ek fætrna í fótskemmilinn.
+<pb n="431"/>
+
+Lét ek síga herðarnar, en ek herða handleggina. Treysta
+ek þá á af öllu afli, en hann sat kyrr, svá at hvergi gat
+ek honum vikit. En stundum var hann rauðr sem blóð,
+en stundum bleikr sem bast eða blár sem hel eða fölr
+sem nár, svá at ýmsir þessir litir færðust í hann, svá brá
+honum við. Síðan tók ek í hendr Hjalta inum hugprúða.
+Herti sik þar hvárr sem gat, hann ok ek. Honum
+gat ek kippt á framanverðan stokk, en þá gat hann
+ávallt við rétt ok settist niðr aptr fyrir mér. Gekk þessu
+nokkura stund, þar til at ek gáfumst upp. Tók ek þá til
+Hvítserks ins hvata, ok treysta ek á, sem ek orkaða. Gat
+ek honum þá fram kippt ok svá hverjum at öðrum. Fór
+ek svá í kringum höllina, ok gekk þaðan af hverr ór
+sínu sæti. Síðan sat ek þar, er mér líkaði, ok mínir menn.
+Höfðum vér allir in sæmiligstu sæti. Var þar in mesta
+mikilmennska á öllu, ok þar hefi ek svá verit, at mér
+hefir bezt þótt at öllum hlutum. En er sumar kom, gekk
+ek fyrir Hrólf konung, ok þakkaði ek honum vetrvistina,
+ok sagða ek, at ek munda þá í brottu vera. En hann
+bauð mér með sér at vera, en ek unda því eigi.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Fór ek þá enn víða ok þar til, at ek spurða til Hálfs
+konungs ok rekka hans. Var mikit af sagt, hvílíkir
+hreystimenn þeir váru. Fór ek þá enn þar til, at ek kom
+hingat í Noreg ok á fund Hálfs konungs. Gekk ek fyrir
+hann, ok kvaddi ek hann, en hann tók mér harðla vel.
+En ek beidda hann vetrvistar, en hann kvað mér þat
+til reiðu at sitja þar svá lengi sem ek vilda verit hafa.
+Ek spurði þá, hvar ek skylda sæti hafa ok mínir menn.
+Hann bað mik þar sitja, sem ek gæta kippt manni ór
+<pb n="432"/>
+
+rúmi með jöfnum skildaga ok Hrólfr kraki gerði. Geng
+ek þar at, sem sat Útsteinn jarl á aðra hönd konungi.
+Tók ek í hendr honum, ok ætlaða ek honum ór sæti at
+kippa. Herta ek mik þá af öllu megni, ok gat ek ekki
+at gert. Síðan gekk ek til Innsteins, þá til Hróks ins
+svarta, þá til Bjarnar, svá til Bárðar. Gat ek engum þeira
+fram kippt. Þann veg fór ek innan um alla höllina, at
+ek gat þar engum ór sæti kippt. Ok þat er yðr sannast
+at segja, herra, at eigi brá þar sér meir við inn yzti
+maðr ok inn minnsti heldr en Böðvarr bjarki. Síðan
+gekk ek aptr fyrir konung, ok spurða ek þá, hvar ek
+skylda sitja, með því at ek gæta hvergi rutt mér til
+rúms. Hann sagði þá, at ek yrða at sitja skör lægra en
+hans menn. Fór ek þá til sætis, þar sem mér var skipat,
+ok mínir menn. Skorti þar engan fögnuð, þann sem
+hafa þurfti, ok þar þótti mér ekki at nema þat eina,
+er ek átti þar upp at sjá til annarra manna, en aðrir
+menn niðr til mín, ella hefði mér þar bezt þótt. Skulu
+þér nú segja, herra, hvárir frægri váru."
+"Auðsét er þat," kvað konungr, "at miklu sterkari
+hafa verit rekkar Hálfs konungs, en engi þykki mér
+verit hafa konungrinn samtíða örvari ok betr at sér en
+Hrólfr kraki. En hvárt ertu skírðr maðr eða eigi?" Tóki
+svarar: "Ek er prímsigndr, en eigi skírðr, sakar þess at
+ek hefi verit ýmist með heiðnum mönnum eða kristnum,
+en þó trúi ek á Hvítakrist. Er ek nú ok þess erendis
+kominn á yðvarn fund, at ek vil skírast ok þann boðskap
+hafa, sem þér bjóðið, því at mér þykkir eigi víst,
+at ek muna þat af betra manni fá mega." Konungr
+varð við þat glaðr, er hann vildi skírn taka ok guði
+þjóna. Var Tóki síðan skírðr af hirðbyskupi Óláfs konungs
+ok andaðist í hvítaváðum.
+</p></div>
+
+
+</div></body></text>
+</TEI>

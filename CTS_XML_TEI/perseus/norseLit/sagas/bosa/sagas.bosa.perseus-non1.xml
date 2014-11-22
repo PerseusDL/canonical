@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Bósa saga ok Herrauðs</title>
+    <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+    <respStmt>
+     <resp> Prepared under the supervision of: </resp>
+     <name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>Bósa saga ok Herrauðs</title>
+      <editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+      <imprint>
+       <pubPlace>Reykjavík</pubPlace>
+       <publisher>Bókaútgáfan Forni</publisher>
+       <date>1943-1944</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl>
+    <refState unit="chapter" n="chunk"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language ident="non">Old Norse</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: Bosa_non.xml,v $
+Revision 1.1  2009-12-09 18:06:29  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:24  mimno
+TEIzed sagas
+
+</item>
+</change>
+-->
+   <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="non">
+  <body>
+   <div type="edition">
+
+
+    <div type="textpart" subtype="chapter" n="1">
+     <p>
+      <pb n="465"/> HRINGR hefir konungr heitit, er réð fyrir Eystra-Gautlandi. Hann var sonr Gauta
+      konungs, sonar Óðins, er konungr var í Svíþjóð ok kominn var utan af Asíam ok frægastar
+      konungaættir eru frá komnar hér á Norðrlöndum. Þessi konungr, Hringr, var bróðir Gautreks ins
+      milda at faðerni, en móðerni átti hann göfugt. Hringr konungr átti Sylgju, dóttur Sæfara jarls
+      af Smálöndum; hún var fríð kona ok vel skapi farin. Bræðr hennar váru þeir Dagfari ok
+      Náttfari. Þeir váru hirðmenn Haralds konungs hilditannar, er þá réð fyrir Danmörk ok mestum
+      hluta Norðrlanda. Þau áttu einn son, er Herrauðr hét. Hann var mikill vexti ok fríðr sýnum,
+      sterkr at afli ok vel at íþróttum búinn, svá at fáir menn máttu við hann jafnast. Hann var
+      vinsæll af öllum mönnum, en ekki hafði hann mikit ástríki af feðr sínum, ok olli þat því, at
+      konungr átti <pb n="466"/> annan son frilluborinn, ok unni hann honum meira. Sá er nefndr
+      Sjóðr. Konungr átti hann í æsku sinni, ok var hann nú fulltíða maðr. Konungr fekk honum lén
+      mikit, ok var hann ráðgjafi konungs ok tók saman skatta hans, leiðangr ok landskyldir, ok var
+      hann fyrir öllum inntektum ok útlátum, ok þótti flestum hann frekr í útheimtunum, en fastr í
+      lyktum ok launum, en hollr var hann konungi ok vildi hans jafnan fullastan, ok hófst af því sá
+      málsháttr af hans nafni, at sá er öðrum kallaðr sjóðfelldr, er honum sér mesta hagsmuni ok
+      geymir bezt eptir. Sjóðr samdi til þess punga þá, er síðan váru kallaðir fésjóðar, at geyma í
+      silfr þat, er tekit var í skuldir konungs. En þat, sem hann tók meira en til stóð, þá gerði
+      hann þar at smápunga, ok kallaði hann þat slæg, ok umvendi hann því til kostnaðar, en
+      landaurum var óbrigt. Ekki var Sjóðr þokkasæll af mönnum, en konungr unni honum mikit ok lét
+      hann einn öllu ráða. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="2">
+     <p> Maðr er nefndr Þvari ok var kallaðr Bryn-Þvari. Hann bjó skammt frá konungs atsetum. Hann
+      hafði verit víkingr mikill inn fyrri hlut ævi sinnar, ok þá er hann var í víkingu, mætti hann
+      skjaldmey einni, er Brynhildr hét. Hún var dóttir Agnars konungs ór Nóatúnum. Þau börðust, ok
+      bárust sár á Brynhildi, þangat til at hún var óvíg. Tók Þvari hana þá til sín ok mikinn
+      fjárhlut með henni. Hann lét græða hana at heilu, ok var hún síðan hnýtt ok bömluð, ok var hún
+      því kölluð Brynhildr baga. Þvari gerði brúðlaup til hennar, ok sat hún á brúðbekk með hjálm ok
+      brynju, en þó váru ástir þeira góðar. Lagði Þvari þá af hernað ok settist í bú, ok áttu tvá
+      sonu, ok <pb n="467"/> hét Smiðr inn eldri; hann var eigi mikill maðr vexti, manna fríðastr
+      sýnum ok slyngr við allar íþróttir ok svá hagr, at hann lagði á allt gerva hönd. Bósi hét
+      annarr sonr þeira. Hann var mikill vexti ok sterkr at afli, dökklitaðr ok ekki mjök fríðr ok
+      líkr móður sinni at skaplyndi ok sköpun, kátr var hann ok keskimáll ok þráfylginn því, sem
+      hann tók upp, ok eigi mjök fyrirleitinn við hvern sem hann átti. Móðir hans unni honum mikit,
+      ok var hann kenndr við hana ok kallaðr Bögu-Bósi. Hafði hann ok margar tiltekjur til þess bæði
+      í orðum ok verkum, at honum var þetta sannnefni. Busla hét kerling. Hún hafði verit frilla
+      Þvara karls. Hún fóstraði sonu hans. Hún kunni margt í töfrum. Smiðr var henni miklu
+      eptirlátari, ok nam hann margt at henni. Hún bauð Bósa at kenna honum galdra, en Bósi sagðist
+      eigi vilja, at þat væri skrifat í sögu hans, at hann ynni nokkurn hlut með sleitum, þann sem
+      honum skyldi með karlmennsku telja. Mjök var nær um aldr þeira Herrauðar konungssonar ok
+      karlssona, ok var vingott með þeim, ok var Bósi jafnan í konungsgarði, ok lögðu þeir Herrauðr
+      lag sitt saman. Sjóðr vandaði um þat, at Herrauðr gaf Bósa klæði af sér, því at hans váru
+      jafnan í sundr rifin. Bósi þótti ok harðleikinn, ef hann var at gamni með þeim, en engi þorði
+      um at vanda fyrir Herrauð, því at hann mælti allt eptir Bósa. Nú beiddi Sjóðr, at hirðmenn
+      skyldi lemja hann ór leik. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="3">
+     <p> Þat var nú eitthvert sinn, at hirðin hafði soppleik, ok léku menn með kappi miklu, ok gerðu
+      þeir nú leik til Bósa, en hann tók hart í móti, ok gekk hönd ór liði á einum konungsmanni. <pb
+       n="468"/> Annan dag braut hann fót í öðrum. Inn þriðja dag veittust at honum tveir menn, en
+      margir óþægðu honum. Sló hann þá augat ór einum með soppinum, en annan felldi hann, ok
+      brotnaði hann á háls. Hlupu þeir þá til vápna ok vildu drepa Bósa, en Herrauðr stóð hjá honum
+      með þá menn, sem hann gat fengit, ok var búit við sjálft, at þeir mundu berjast, áðr en
+      konungr kom til. En fyrir tillögu Sjóðs gerði konungr Bósa útlægan, en Herrauðr kom honum
+      undan, svá at honum varð eigi nát. Litlu síðar beiddi Herrauðr föður sinn at fá sér herskip ok
+      röskva menn til fylgdar, því at hann létzt vilja ór landi ok afla sér meiri frægðar, ef þess
+      verðr auðit. Konungr bar þat mál fyrir Sjóð, en hann kveðst ætla, at sneyðast mundi
+      féhirzlurnar, áðr en Herrauðr er svá heiman gerr sem honum líkar. Konungr sagði, at þeir
+      skyldu við þat leita, ok varð svá at vera sem konungr vildi, ok var nú búin ferð Herrauðar með
+      miklum fékostnaði, ok var hann vandr at öllu, ok kom þeim bræðrum lítt saman. Hafði hann fimm
+      skip ór landi, ok váru þau flest öll forn. Vaska menn hafði hann með sér ok mikit fé í gulli
+      ok silfri, ok sigldi hann nú burt af Gautlandi ok suðr til Danmerkr. Einn dag í miklu veðri þá
+      stóð maðr á bjargi ok beiddi fars. Herrauðr sagðist eigi gera sétr króka til hans, en segir
+      far til reiðu, ef hann náir skipinu. Þessi maðr stökk af bjarginu ok kom niðr á sveifinni
+      fyrir utan stýrit, ok var þat fimmtán álna langt hlaup. Þar þekktu menn Bósa. Herrauðr fagnar
+      honum vel ok segir hann skyldu vera stafnbúa á skipi sínu. Þaðan sigldu þeir til Saxlands ok
+      herjuðu, hvar sem þeir fóru. Þeim varð gott til fjár, ok fóru þeir svá fimm vetr. <pb n="469"
+      />
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="4">
+     <p> Nú er þar til at taka heima í Gautlandi, þá er Herrauðr var í burt farinn, skoðaði Sjóðr
+      féhirzlur föður síns. Váru þá tómar kistur allar ok svá töskur, ok varð honum opt it sama á
+      munni: "Man ek þat," sagði hann, "at öðruvís var í þenna sjóð at líta." Síðan bjóst Sjóðr
+      heiman at taka saman konungs skatta ok landskyldir, ok var hann þá frekr í flestum útheimtum.
+      Hann kemr til Þvara karls ok beiddi þar leiðangrs sem annars staðar. Þvari sagðist frá eldr
+      herferðum ok sagðist leiðangr eigi gera. Sjóðr sagði hann meira leiðangr eiga at gera en aðra
+      menn ok kvað hann því ollat hafa, at Herrauðr fór ór landi, ok beiddi bóta fyrir þá menn, er
+      Bósi hafði meitt. En Þvari sagði, at maðr ætti at ábyrgjast sik sjálfr, ef hann gengr til
+      leiks, ok kvaðst eigi ausa út fé sínu fyrir slíkt, ok sló þá í deilu með þeim. Braut Sjóðr þá
+      upp útibúr Þvara karls ok tók í burt tvær gullkistur ok mikit fé annat í vápnum ok klæðum, ok
+      skildu þeir við svá búit. Fór Sjóðr heim ok hafði mikinn fjárhlut, ok sagði hann konungi frá
+      ferðum sínum. Konungr kvat þat illa, er hann hafði rænt Þvara karl, ok kveðst ætla, at honum
+      mundi þat illa gegna. Sjóðr kveðst eigi sakast um þat. Nú er at segja frá Herrauði ok Bósa, at
+      þeir búast at sigla heim ór hernaði. Þá höfðu þeir frétt, at Sjóðr hafði rænt Þvara karl.
+      Ætlaði Herrauðr þá at friða fyrir Bósa ok sætta hann við konung. Þeir fengu veðr svá mikil, at
+      skip þeira skildust, ok týndust þau öll, sem Herrauðr hafði heiman haft, en hann komst með
+      tvau skip í Elfarsker, en Bósa rak til Vindlands einskipa. Þar lá fyrir Sjóðr með tvau skip,
+      nýkominn ór Austrvegi, ok hafði hann keypt konungi dýrgripi. En er Bósi vissi <pb n="470"/>
+      þat, bað hann menn sína vápnast, ok lagði hann til fundar víð Sjóð ok spurði, hverju hann
+      vildi bæta, er hann hafði rænt Þvara karl. Sjóðr kvað hann firna djarfan, er hann þorði slíkt
+      at mæla, þar sem hann var áðr útlagi konungs, ok kvað honum vel yfir at láta, ef hann missti
+      eigi meira. Þá tóku hvárirtveggju til vápna, ok sló í bardaga með þeim, ok lauk svá, at Bósi
+      varð banamaðr Sjóðs. Gaf hann þá grið þeim, sem eptir váru, en tók at sér skipit ok allt þat,
+      er á var. En er honum gaf byr, siglir hann undir Gautland ok fann þar Herrauð, fóstbróður
+      sinn, ok sagði honum tíðendin, en Herrauðr sagði honum, at þat mundi eigi bæta um vinsældir
+      hans við konung, -- "eða hví fórtu á minn fund, svá nærri mér sem þú hefir höggvit?" "Ek
+      vissa," sagði Bósi, "at mér mundi eigi tjá at forðast þik, ef þú vildir illu til þín slá, en
+      ek þóttumst þar allt traust eiga, sem þú vart." "Kalla má," segir Herrauðr, "at lítill
+      mannskaði væri at Sjóð, þó at mér væri skyldr, ok mun ek fara á fund föður míns ok freista, ef
+      ek gæti sætt ykkr." Bósi kvaðst eigi vænta mikils létta af konungi, en Herrauðr sagði, at eigi
+      dygði ófreistat. Fór hann á fund föður síns ok gekk fyrir hann ok kvaddi hann virðuliga. Faðir
+      hans tók honum fáliga, því at hann hafði frétt áðr sameign þeira Bósa ok Sjóðs. Herrauðr mælti
+      til föður síns: "Þar er til bóta at sjá, sem þér eruð, við Bósa, félaga minn, því at hann
+      hefir hent slys mikit. Hann hefir vegit Sjóð, son þinn, þó at sakir væri nokkurar til, ok
+      viljum vér bjóða sættir ok fé svá mikit sem þú vilt sjálfr kjósa ok þar með várt fylgi ok
+      hylli ok slíka þjónustu sem þér vilið hann krefja." Konungr svarar þá reiðuliga: "Mikit kapp
+      leggr þú á, Herrauðr, at fylgja illmenni þessu, ok mundi mörgum þykkja þér betr standa at
+      hefna bróður þíns ok várrar <pb n="471"/> svívirðu." Herrauðr svarar þá: "Lítill mannskaði var
+      at Sjóð. Veit ek ok eigi, hvárt hann var minn bróðir eða eigi, þó at þú heldir mikit til hans,
+      ok þykkir mér þú eigi virða mik mikils, at þú vilt eigi taka sættir fyrir mínar bænir, en ek
+      þykkjumt þá bjóða betra mann í stað Sjóðs í þá þjónustu, sem hann hafði." Þá mælti konungr
+      reiðr mjök: "Allt þitt formæli, sem þú veitir Bósa, skal mikit spilla til, ok þegar ek get
+      honum nát, skal hann uppi hanga miklu hæra en menn viti dæmi til, at nokkurr þjófr hafi svá
+      hátt hangit." Þá svarar Herrauðr reiðr mjök: "Þat munu margir mæla, at þér kunnið eigi sóma
+      yðvarn at þiggja. Nú með því, at þú vilt mik einskis virða, þá máttu til þess ætla, at eitt
+      skal yfir okkr Bósa ganga, ok skal ek svá verja hann sem sjálfan mik ok mér endist líf til ok
+      karlmennska, ok munu þat þó margir mæla, at nógu dýrt muni þá keyptr einn ambáttarsonr, ef þér
+      gefið oss við." Snýr Herrauðr þá í burt reiðr mjök ok létti eigi fyrr en hann fann Bósa ok
+      sagði honum, hversu þeir feðgar höfðu skilit. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="5">
+     <p> Hringr konungr lætr nú blása saman liði sínu ok ferr til móts við þá fóstbræðr, ok sló þar
+      þegar í bardaga með þeim ok hafði konungr lið hálfu meira eða þrjú slík. Þeir Herrauðr ok Bósi
+      gengu vel fram ok drápu margan mann, en þó urðu þeir ofrliði bornir ok váru teknir ok settir í
+      fjötra ok kastat í myrkvastofu, en konungr var svá reiðr, at hann vildi þegar láta drepa þá,
+      en Herrauðr var svá vinsæll, at allir mæltu hann undan, ok var þá fyrst skipt herfangi ok
+      grafnir inir dauðu. Váru margir menn á dagþingan við konung, at hann <pb n="472"/> skyldi taka
+      sættir af Herrauð, ok var hann leiddr fyrir konung. Konungr bauð honum grið, ok lögðu margir
+      þar vel til, en Herrauðr segist eigi grið vilja þiggja, nema Bósi hafi bæði lífs grið ok lima,
+      en konungr sagði þess enga ván. Herrauðr sagðist þess manns bani skyldu verða, sem réði
+      lífláti Bósa, ok eigi konungi hlífa heldr en öðrum. Konungr segir þá, at þat færi eigi illa,
+      at sá hefði brek, er beiðist. Var konungr þá svá reiðr, at eigi mátti orðum við hann koma, ok
+      bað leiða Herrauð aptr í myrkvastofuna ok skyldi þá báða drepa um morguninn, því at konungr
+      vildi eigi annat, ok þótti nú flestum óvænliga horfa. Þetta kveld kom Busla kerling at máli
+      við Þvara karl ok spurði, hvárt hann ætlaði ekki at bjóða fé fyrir son sinn, en hann sagðist
+      eigi vilja ausa út fé sínu ok sagðist vita, at hann gæti eigi keypt þeim manni líf, sem deyja
+      skyldi ok feigr væri, ok spurði, hvar nú væri komit töfrum hennar, at hún veitti eigi Bósa
+      nokkut lið, en hún sagði sér eigi mega göngumannligar fara en honum. Þetta kveld it sama kom
+      Busla í þat herbergi, sem Hringr konungr svaf í, ok hóf upp bæn þá, er síðan er kölluð
+      Buslubæn, ok hefir hún víðfræg orðit síðan, ok eru þar í mörg orð ok ill, þau sem kristnum
+      mönnum er þarfleysa í munni at hafa, en þó er þetta upphaf á henni: <lg>
+       <l>"Hér liggr Hringr konungr,</l>
+       <l>hilmir Gauta,</l>
+       <l>einráðastr</l>
+       <l>allra manna;</l>
+       <l>ætlar þú son þinn</l>
+       <l>sjálfr at myrða,</l>
+       <l>Þau munu fádæmi</l>
+       <l>fréttast víða.</l>
+       <l>Heyr þú bæn Buslu,</l>
+       <l>brátt mun hún sungin,</l>
+       <l>svá at heyrast skal</l>
+       <l>um heim allan,</l>
+       <l>ok óþörf öllum,</l>
+       <l>þeim sem á heyra,</l>
+       <l>en þeim þó fjándligust,</l>
+       <l>sem ek vil fortala.</l>
+       <pb n="473"/>
+
+       <l>Villist vættir,</l>
+       <l>verði ódæmi,</l>
+       <l>hristist hamrar,</l>
+       <l>heimr sturlist,</l>
+       <l>versni veðrátta,</l>
+       <l>verði ódæmi,</l>
+       <l>nema þú, Hringr konungr,</l>
+       <l>Herrauð friðir</l>
+       <l>ok honum Bósa</l>
+       <l>bjargir veitir.</l>
+       <l>Svá skal ek þjarma</l>
+       <l>þér at brjósti,</l>
+       <l>at hjarta þitt</l>
+       <l>höggormar gnagi,</l>
+       <l>en eyru þín</l>
+       <l>aldregi heyri</l>
+       <l>ok augu þín</l>
+       <l>úthverf snúist,</l>
+       <l>nema þú Bósa</l>
+       <l>björg of veitir</l>
+       <l>ok honum Herrauð</l>
+       <l>heipt upp gefir.</l>
+       <l>Ef þú siglir,</l>
+       <l>slitni reiði,</l>
+       <l>en af stýri</l>
+       <l>stökkvi krókar,</l>
+       <l>rifni reflar,</l>
+       <l>reki segl ofan,</l>
+       <l>en aktaumar</l>
+       <l>allir slitni,</l>
+       <l>nema þú Herrauð</l>
+       <l>heipt upp gefir</l>
+       <l>ok svá Bósa</l>
+       <l>biðir til sátta.</l>
+       <l>Ef þú ríðr,</l>
+       <l>raskist taumar,</l>
+       <l>heltist hestar,</l>
+       <l>en hrumist klárar,</l>
+       <l>en götur allar</l>
+       <l>ok gagnstígar</l>
+       <l>troðist allar</l>
+       <l>í tröllhendr fyrir þér,</l>
+       <l>nema þú Bósa</l>
+       <l>bjargir veitir</l>
+       <l>ok Herrauð</l>
+       <l>heipt upp gefir.</l>
+       <l>Sé þér í hvílu</l>
+       <l>sem í hálmeldi,</l>
+       <l>en í hásæti</l>
+       <l>sem á hafbáru;</l>
+       <l>þó skal þér seinna</l>
+       <l>sýnu verra,</l>
+       <l>en ef þú vilt við meyjar</l>
+       <l>manns gaman hafa,</l>
+       <l>villist þú þá vegarins;</l>
+       <l>eða viltu þulu lengri?"</l>
+      </lg> Þá svarar konungr: "Þegi þú, vánd vættr, ok vert í burtu, elligar mun ek láta meiða þik
+      fyrir forbænir þínar." "Svá höfum vit nú fundizt," segir Busla, "at vit munum eigi skilja,
+      fyrr en ek hefi minn vilja." Konungr vildi þá upp standa, ok var hann þá fastr við sængina, en
+      smásveinar vöknuðu eigi. Busla lét þá frammi annan þriðjung bænarinnar, ok mun ek láta þat um
+      líða at skrifa hann, því at þat er öllum þarfleysa at hafa <pb n="474"/> hann eptir, en þó má
+      svá sízt eptir hafa hann, at hann sé eigi skrifaðr. En þó er þetta þar upphaf á: <lg>
+       <l>"Tröll ok álfar</l>
+       <l>ok töfrnornir,</l>
+       <l>búar, bergrisar</l>
+       <l>brenni þínar hallir,</l>
+       <l>hati þik hrímþursar,</l>
+       <l>hestar streði þik,</l>
+       <l>stráin stangi þik,</l>
+       <l>en stormar æri þik,</l>
+       <l>ok vei verði þér,</l>
+       <l>nema þú vilja minn gerir."</l>
+      </lg> En er sú þula var úti, mælti konungr til hennar: "Fyrr en þú illmælir mér lengr, þá mun
+      ek gefa Herrauði líf, en Bósi fari ór landi ok sé dræpr, nær ek get hann áhent." "Þá skal taka
+      þér fram betr," segir Busla. Hóf hún þá upp þat vers, er Syrpuvers er kallat ok mestr galdr er
+      í fólginn ok eigi er lofat at kveða eptir dagsetr, ok er þetta þar í nærri endanum: <lg>
+       <l>"Komi hér seggir sex,</l>
+       <l>seg þú mér nöfn þeira</l>
+       <l>öll óbundin,</l>
+       <l>ek mun þér sýna:</l>
+       <l>getr þú eigi ráðit,</l>
+       <l>svá at mér rétt þykki,</l>
+       <l>þá skulu þik hundar</l>
+       <l>í hel gnaga,</l>
+       <l>en sál þín</l>
+       <l>sökkvi í víti."</l>
+      </lg> Ráð nú þessi nöfn, svá at rétt sé, elligar hríni allt þat á þér, sem ek hefi verst
+      beðit, nema þú gerir minn vilja." En er Busla hafði úti bænina, vissi konungr varla, hverju
+      hann vildi svara fyrir fortölum hennar. "Hverr er nú þinn vili?" segir konungr. "Sentu þá
+      forsending," segir <pb n="475"/> kerling, "þá sem tvísýni er á, hversu þeim gengr, ok ábyrgist
+      þeir sik sjálfir." Konungr bað hana þá í burt fara, en hún vildi þat eigi, fyrr en konungr sór
+      henni trúnaðareið, at hann skyldi halda þat, sem hann hafði henni lofat, en þá skyldi Buslubæn
+      ekki á honum hrína. Hvarf kerling þá í burtu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="6">
+     <p> At morgni dags er konungr snemma uppi ok lét blása til þings, ok váru þeir þangat leiddir
+      Herrauðr ok Bósi. Konungr spyrr þá ráðgjafa sína, hvat við þá skyldi gera, en flestir báðu
+      hann vægja við Herrauð. Þá mælti konungr til hans: "Lítils viltu virða mik," segir hann, "en
+      nú vil ek gera þat fyrir bæn vina minna, at Bósi skal hafa lífs grið ok lima, ok skal hann
+      fara ór landi ok koma eigi aptr, fyrr en hann fær mér þat gammsegg, at skrifat er allt með
+      gullstöfum utan, ok erum vit þá sáttir, en elligar skal hann heita hvers manns níðingr. En
+      Herrauðr fari hvárt, er hann vill, at fylgja Bósa, eða geri hvert ráð fyrir sér, sem hann
+      vill, því at eigi munum vit samvistum saman vera at svá búnu." Váru þeir þá leystir báðir, ok
+      fóru þeir þá til Þvara karls ok váru hjá honum um vetrinn. En er váraði, bjuggu þeir ferð sína
+      ór landi ok höfðu eitt skip ok á fjóra menn ok tuttugu, ok fóru þeir mjök at tilvísan Buslu,
+      ok heldu þeir í Austrveg ok kómu undir Bjarmaland ok lögðu undir einn eyðiskóg. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="7">
+     <p> Hárekr hét sá konungr, er þar réð þá fyrir. Hann var kvángaðr ok átti tvá sonu. Hét annarr
+      Hrærekr, en annarr <pb n="476"/> Siggeirr. Þeir váru kappar miklir ok hirðmenn Goðmundar
+      konungs á Glæsisvöllum ok landvarnarmenn hans. Dóttir konungs hét Edda. Hún var fríð sýnum ok
+      um flesta hluti vel kunnandi. Nú er at segja frá þeim fóstbræðrum, at þeir váru komnir undir
+      Bjarmaland ok þann skóg, er Vínuskógr heitir. Þeir reistu tjald á landi mjök fjarri
+      mannavegum. Um morguninn sagði Bósi mönnum sínum, at þeir Herrauðr mundu ganga á land ok kanna
+      skóginn ok vita, hvers þeir yrði vísir. "En þér skuluð bíða okkar hér mánuð, en ef vit komum
+      þá eigi aptr, þá skuluð þér sigla, hvert sem þér vilið." Mönnum þeira þótti mikit fyrir þessu,
+      en þó varð svá at vera sem þeir vildu. Síðan ganga þeir fóstbræðr á skóginn ok höfðu þat eitt
+      til matar, sem þeir skutu, dýr ok fugla, en stundum höfðu þeir ekki nema ber ok safa. Skógrinn
+      ónýtti mjök klæði þeira. Einn dag kómu þeir at húsabæ einum. Þar stóð karl úti ok klauf skíð.
+      Hann heilsar þeim ok spyrr þá at nafni. Þeir sögðu til it sanna ok spurðu, hvat karl hét, en
+      hann kveðst heita Hóketill. Hann sagði þeim til reiðu nætrgreiða, ef þeir vildu, en þeir þágu
+      þat. Karl fylgir þeim til stofu, ok var þar fámennt. Húsfreyja var við aldr. Dóttur áttu þau
+      væna, ok dró hún klæði af gestum, ok váru þeim fengin þurr klæði. Síðan váru handlaugar fram
+      látnar, ok var þeim reist borð ok gefit gott öl at drekka, ok skenkti bóndadóttir. Bósi leit
+      opt hýrliga til hennar ok sté fæti sínum á rist henni, ok þetta bragð lék hún honum. Um
+      kveldit var þeim fylgt at sofa með góðum umbúningi. Bóndi lá í lokrekkju, en bóndadóttir í
+      miðjum skála, en þeim fóstbræðrum var skipat í stafnsæng við dyrr utar. En er fólk var sofnat,
+      stóð Bósi upp ok gekk til sængr bóndadóttur <pb n="477"/> ok lypti klæðum af henni. Hún spyrr,
+      hverr þar væri. Bósi sagði til sín. "Hví ferr þú hingat?" sagði hún. "Því, at mér var eigi
+      hægt þar, sem um mik var búit," ok kveðst því vilja undir klæðin hjá henni. "Hvat viltu hér
+      gera?" sagði hún. "Ek vil herða jarl minn hjá þér," segir Bögu-Bósi. "Hvat jarli er þat?"
+      sagði hún. "Hann er ungr ok hefir aldri í aflinn komit fyrri, en ungan skal jarlinn herða."
+      Hann gaf henni fingrgull ok fór í sængina hjá henni. Hún spyrr nú, hvar jarlinn er. Hann bað
+      hana taka milli fóta sér, en hún kippti hendini ok bað ófagnað eiga jarl hans ok spurði, hví
+      hann bæri með sér óvæni þetta, svá hart sem tré. Hann kvað hann mýkjast í myrkholunni. Hún bað
+      hann fara með sem hann vildi. Hann setr nú jarlinn á millum fóta henni. Var þar gata eigi mjök
+      rúm, en þó kom hann fram ferðinni. Lágu þau nú um stund, sem þeim líkar, áðr en bóndadóttir
+      spyrr, hvárt jarlinum mundi hafa tekizt herzlan. En hann spyrr, hvárt hún vill herða optar, en
+      hún kvað sér þat vel líka, ef honum þykkir þurfa. Greinir þá ekki, hversu opt at þau léku sér
+      á þeiri nótt, en hins getr, at Bósi spyrr, hvárt hún vissi ekki til, -- "hvert at leita skyldi
+      at gammseggi því, sem vit fóstbræðr erum eptir sendir ok gullstöfum er ritat utan." Hún kvaðst
+      eigi minna mundu launa honum gullit ok góða nætrskemmtan en segja honum þat, sem hann vill
+      vita, -- "en hverr var þér svá reiðr, at þik vill feigan ok senda þik forsending?" "Eigi gengr
+      illt til alls, ok verðr engi frægr af engu," segir hann, "eru þeir ok margir hlutir, at opt
+      snúast til gæfu, þó at háskasamliga sé stofnaðir." <pb n="478"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="8">
+     <p> "Hér í skógi þessum stendr hof mikit. Þat á Hárekr konungr, er hér ræðr fyrir Bjarmalandi.
+      Þar er göfgat goð þat, er Jómali heitir. Þar er gull mikit ok gersemar. Fyrir því hofi ræðr
+      móðir konungs, er Kolfrosta heitir. Hún er mögnuð af blótskap, svá at henni kemr engi hlutr á
+      óvart. Hún veit þat fyrir með konstrum sínum, at hún á eigi at lifa út allan þenna mánuð, ok
+      því fór hún hamfari austr á Glæsisvöllu ok nam í burt Hleiði, systur Goðmundar konungs, ok
+      ætlar, at hún skuli vera hofgyðja eptir sik. En þat er þó skaði mikill, því at hún er allra
+      meyja fríðust ok kurteisust, ok væri betr, at þat færist undan." "Hvat er til vandhæfa í
+      hofinu?" sagði Bósi. "Gammr er þar," sagði hún, "svá bölvaðr ok grimmr, at hann drepr allt
+      þat, er fyrir verðr hans ódæmum. Hann horfir beint í móti dyrum ok þekkir hvat, er inn kemr,
+      ok er því engu lífs at vænta, sem verðr fyrir hans klóagangi eða eitri. Þræll einn er í
+      hofinu; hann vaktar mat gyðjunni. Tvævetra kvígu þarf hún í mál. Undir þessum gammi er egg
+      þat, sem þú ert eptir sendr. Griðungr einn er í hofinu, trylldr ok blótaðr. Hann er bundinn
+      með járnviðjum. Hann skal skjóta kvíguna, ok blandast þá ólyfjan við hana, ok tryllast þeir
+      allir, sem af eta. Hana skal matgera fyrir Hleiði konungs systur, ok verðr hún þá líka tröll,
+      sem hofgyðjan var áðr. Nú þykkir mér óvænt um, að þú munir sigra óvætti þessa, við svá mikinn
+      tröllskap sem um er at eiga." Bósi þakkar henni nú sögu sína ok gerði henni góðan danganda í
+      skemmtanarlaun, ok fór þá báðum vel, ok sváfu þau nú allt til dags. En at morgni fór hann til
+      Herrauðar ok sagði <pb n="479"/> honum, hvat hann hafði frétt, ok dvöldust þeir þar þrjár
+      nætr, ok sagði bóndadóttir þeim, hvat þeir skyldu stefna til hofsins, ok bað hún vel fyrir
+      þeim at skilnaði. Fara þeir nú leið sína. Ok einn morgin snemma sá þeir, hvar maðr fór mikill
+      vexti í grám kufli. Hann leiddi með sér naut. Þeir þóttust vita, at þat mundi vera þrællinn,
+      ok stilltu þeir þeir nú at honum. Bósi sló hann kylfuhögg svá stórt, at þat var hans bani.
+      Síðan drápu þeir kvíguna ok flógu af henni belg ok stöppuðu upp með mosa ok lyng. Herrauðr fór
+      í kufl þrælsins ok leiddi eptir sér kvígubelginn, en Bósi steypti kápu sinni yfir þrælinn ok
+      bar hann á baki sér, þangað til at þeir sá hofit. Þá tók Bósi spjót sitt ok rak í rass þrælnum
+      ok neðan eptir honum endilöngum, svá at oddrinn kom út við herðarnar. Ganga þeir nú at hofinu.
+      Herrauðr gekk inn í hofit í búningi þrælsins. Hofgyðjan var þá í svefni. Hann leiðir kvíguna á
+      básinn, en leysir griðunginn. Hann hljóp upp á kvíguna. Mosabelgrinn varð léttr fyrir, ok rak
+      griddi höfuðit út á múrinn ok braut af sér bæði hornin. Herrauðr greip þá í bæði eyrun á honum
+      ok í granirnar ok snaraði hann svá ór hálsliðinum. Þá vaknaði gýgrin ok hljóp á fætr. Í þessu
+      kom Bósi inn í hofit ok bar þrælinn uppi yfir höfði sér á spjótinu. Gammrinn brá nú við skjótt
+      ok steypti sér ofan ór hreiðrinu ok vildi gleypa þann, sem inn var kominn. Svalg hann nú
+      þrælinn ofan at mitti. Bósi þrýsti þá spjótinu, svá at þat gekk upp í háls gamminum, þar til
+      at stóð í hjartanu. Gammrinn setti nú klærnar í þjóin á þrælsskrokkinum ok setti vænghnúfana
+      við eyrat á Bósa, svá at hann fell í óvit. Fell gammrinn þá ok ofan á hann, ok váru hans
+      fjörbrot ógurliga mikil. Herrauðr réðst á móti hofgyðjunni, ok var þeira <pb n="480"/> atgangr
+      inn harðasti, ok hafði kerling illa skornar negl, ok reif hún hold hans niðr at beini. Þau
+      bárust þangat at, sem Bósi var fallinn, ok var þar blóðugt mjök. Kerlingu varð hált í
+      gammsblóðinu, ok fell hún á bak aptr, ok váru þá sviptingar miklar með þeim, svá at ýmsi váru
+      undir. Bósi raknaði þá við ok greip höfuð griðungsins ok rak á nasir gýginni. Herrauðr sleit
+      þá af henni höndina í axlarliðinum. Tók henni þá at dafna leikrinn, en í fjörbrotum hennar
+      varð landskjálfti mikill. Þeir gengu nú um hofit ok rannsökuðu þat. Í hreiðri gammsins fundu
+      þeir eggit, ok var þat allt með gullstöfum ritat. Þar fundu þeir gull svá mikit, at þeir höfðu
+      nóg at bera. Þeir kómu at stalla þeim, sem Jómali sat á. Af honum tóku þeir gullkórónu, setta
+      með tólf gimsteinum, ok men þat, sem kostaði þrjú hundruð marka gulls, ok ór knjám honum tóku
+      þeir silfrbolla svá stóran, at engir fjórir menn mundu af drekka. Hann var fullr af
+      rauðagulli. En pell þat, sem tjaldat var um Jómalann, var meira vert en þrír farmar af
+      drómundi þeim, er ríkastr skríðr um Grikklandshaf. Þetta tóku þeir allt til sín. Þeir fundu
+      afstúku eina í hofinu, ok var hún komin mjök leyniliga. Þar var fyrir steinhurð sterkliga
+      læst, ok váru þeir at allan daginn at brjóta hana upp, áðr en þeir kómust inn. Þeir sá þar
+      konu sitja á stóli. Eigi höfðu þeir aðra vænni sét. Hár hennar var bundit við stólbrúðir; þat
+      var fagrt sem hálmr barinn eða gull teint. Járnfestr var um hana miðja vandliga læst at henni.
+      Hún var grátin mjök. En er hún sá mennina, spurði hún, hvat olli ókyrrleika þeim, "er verit
+      hefir í morgin, eða hví þykkir ykkr líf ykkart svá illt, at þit fýsizt hingat í trölla hendr,
+      því at þeir, sem hér ráða <pb n="481"/> fyrir, munu þegar drepa ykkr, er þit sjáizt hér?" En
+      þeir sögðu, at mörgu svaraði frestin. Þeir spurðu at, hvat hún hét ok hví hún væri þar svá
+      harðliga haldin. Hún sagðist Hleiðr heita ok vera systir Goðmundar konungs austr á
+      Glæsisvöllum. "En tröllkona sú, sem hér ræðr fyrir, sótti mik þangat með fjölkynngi ok ætlar,
+      at ek skuli ganga fyrir blótum í hofinu ok vera hér abbadís, þá hún er dauð, en ek vilda fyrr
+      vera brennd." "Góð mundir þú vera þeim manni," segir Herrauðr, "er þik frelsaði heðan." Hún
+      segist vita þat mundi engi gert geta. Herrauðr mælti: "Viltu eiga mik, ef ek kem þér heðan?"
+      "Engan veit ek svá leiðan mennskan mann," segir hún, "at ek mundi eigi heldr vilja eiga en at
+      vera blótuð hér í hofinu, eða hvert er nafn þitt." "Herrauðr heiti ek," segir hann, "sonr
+      Hrings konung af Eystra-Gautlandi, en eigi þarft þú at óttast hofgyðjuna, því at vit Bósi
+      höfum sungit yfir hausamótum hennar, en til þess máttu ætla, at ek þykkjumst sæmda af þér
+      verðr, ef ek leysi þik heðan." "Ekki hefi ek meira í veð at setja en sjálfa mik," segir hún,
+      "ef þat er vili frænda minna." "Eigi mun ek til þeira giftingar leita," segir Herrauðr, "ok
+      vil ek hér engan undandrátt í hafa, því at ek þykkjumst í engu þér varboðinn ok skal leysa þik
+      sem áðr." "Eigi veit ek þann mann," segir hún, "at ek vil heldr eiga en þik, af þeim, sem ek
+      hefi sét." Þeir leysa hana nú. Herrauðr spyrr, hvárt hún vill heldr fara heim með þeim ok geri
+      hann brúðlaup til hennar eða senda hana austr til bróður síns ok sjái hún hann aldri síðan. En
+      hún kjöri at fara með honum, ok lofaði hvárt öðru trú sinni. Eptir þat báru þeir út gull ok
+      gersemar ór hofinu, en síðan lögðu þeir eld í hofit ok brenndu upp at <pb n="482"/> ösku, svá
+      at enga örmul sá nema öskuna, ok fóru síðan burt með þat, sem þeir höfðu fengit, ok léttu eigi
+      fyrr en þeir kómu til Hóketils karls ok dvöldust þar eigi lengi ok gáfu honum fé mikit ok báru
+      á mörgum hestum gull ok gersemar til skips, ok urðu menn þeira þeim fegnir. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="9">
+     <p> Þessu næst sigldu þeir burt af Bjarmalandi, sem byr gaf, ok er þá eigi getit um ferð þeira,
+      fyrr en þeir kómu heim í Gautland, ok höfðu þeir þá tvá vetr í burt verit. Þeir gengu nú fyrir
+      konung, ok færði Bósi honum eggit, ok var þá brotin rauf á skurninu, ok váru þar í tíu merkr
+      gulls, ok hafði konungr skurnit fyrir borðker. Bósi gaf konungi þat kerit, er hann tók af
+      Jómalanum, ok váru þeir nú sáttir. Í þenna tíma kómu þeir til hirðar konungs Dagfari ok
+      Náttfari, bræðr drottningar, ok váru þeir sendir af Haraldi konungi hilditönn í liðsbón, því
+      at þá var settr tími til bardagans á Brávöllum, er mestr hefir verit á Norðrlöndum, sem segir
+      í sögu Sigurðar hrings, föður Ragnars loðbrókar. Hringr konungr bað Herrauð fara fyrir sik, en
+      kveðst skyldu geyma brúðar hans á meðan, ok skyldu þeir þá vera sáttir um allt þat, sem þeira
+      hafði í millum farit. Herrauðr gerði nú sem hans faðir beiddi, ok fóru þeir Bósi með þeim
+      bræðrum með fimm hundruð manna ok fundu Harald konung. Í þessi orrostu fell Haraldr konungr ok
+      með honum fimmtán konungar annars hundraðs, sem segir í sögu hans, ok margir aðrir kappar,
+      þeir sem konungum váru meiri. Þar fellu þeir Dagfari ok Náttfari, en þeir Herrauðr <pb n="483"
+      /> ok Bósi urðu báðir sárir ok kómust þó báðir ór bardaganum. Þá höfðu orðit þau umskipti í
+      Gautlandi, sem síðar mun sagt verða, meðan þeir váru á burtu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="10">
+     <p> Nú af því, at eigi má í senn segja meir en eitt, þá verðr nú þat at skýra, sem fyrr hefir
+      til borit í sögunni, ok er þar nú til at taka fyrst, at Hleiðr, systir Goðmundar konungs,
+      hvarf í burt af Glæsisvöllum. Ok sem konungr saknar hennar, lætr hann leita hennar bæði á sjó
+      ok landi, ok kunni hana engi upp at frétta. Þeir bræðr váru þá með konungi, Hrærekr ok
+      Siggeirr. Konungr bað Siggeir bindast fyrir um eptirleit Hleiðar ok vinna þat til eiginorðs
+      við hana. Siggeirr kvaðst ætla, at þat mundi eigi auðvelt at finna hana, ef hofgyðjan á
+      Bjarmalandi vissi ekki til hennar. Þeir bjuggust nú ór landi ok höfðu fimm skip ok fóru til
+      Bjarmalands ok fundu Hárek konung ok sögðu honum sín erendi, en hann bað þá fara til hofsins
+      ok kvað eigi mundu laust fyrir liggja, ef Jómali eða gyðjan vissu ekki til hennar. Þeir fóru
+      nú til hofsins ok fundu þar öskudyngjuna, ok sást engi örmul neins þess, er þar átti at vera.
+      Fóru þeir nú um skóginn ok kómu til byggða Hóketils karls ok fréttu eptir, hvárt þau vissu
+      ekki til, hverr hofinu hefði grandat. En karl kvaðst þat eigi vita, en hann sagði þó, at tveir
+      gauzkir menn hefði legit undir Vínuskógi mjök lengi, ok hét annarr Herrauðr, en annarr
+      Bögu-Bósi, ok kvað hann þá sér þykkja líkasta til at hafa gert slíkt stórræði. En bóndadóttir
+      sagðist hafa fundit þá á veginum, þá þeir fóru til skips, ok þeir höfðu með sér Hleiði, systur
+      Goðmundar <pb n="484"/> konungs af Glæsisvöllum, ok sögðu hennar til sín leita mega, ef
+      nokkurr vildi hana finna. Ok sem þeir urðu þessa vísir, sögðu þeir þetta konungi, ok söfnuðu
+      þeir nú liði um allt Bjarmaland ok fengu þar þrjú skip ok tuttugu ok sigldu síðan til
+      Gautlands ok kómu þar þann tíma, sem þeir fóstbræðr váru í bardaganum á Brávöllum, ok var
+      Hringr konungr fámennr heima, ok buðu þeir honum þegar bardaga eða gefa upp meyna. Konungr
+      kjöri heldr at berjast, ok urðu þar skjót umskipti. Fell þar Hringr konungr ok mestr hluti
+      liðs hans. Tóku þeir nú meyna, en ræntu fé öllu ok fóru í burt síðan ok léttu eigi, fyrr en
+      þeir kómu heim á Glæsisvöllu, ok varð Goðmundr konungr feginn systur sinni ok þakkaði þeim vel
+      fyrir ferðina, ok þótti hún orðin in frægasta. Siggeirr biðr nú Hleiðar, en hún var treg til
+      þess ok kvað þat makligt, at sá nyti sín, er hana frelsaði ór tröllahöndum. Konungr kvað
+      Siggeir vel hafa til hennar unnit ok segist eiga at ráða gifting hennar, -- "ok skal eigi
+      útlendum höfðingjum gagnast at eiga þik, ef þú vilt eigi várum ráðum hlíta," ok varð nú svá at
+      vera sem konungr vildi. Ok látum þá nú búast við brúðlaupi sínu, því at þeir hyggja nú gott
+      til sín, en þat mætti verða, at beinaspjöll yrði á boðinu. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="11">
+     <p> Þar er nú til máls at taka, at þeir Herrauðr ok Bósi kómu heim í Gautland hálfum mánuði
+      síðar en þeir Siggeirr sigldu í burt. Sakna þeir nú vinar í stað ok taka nú ráðagerðir sínar,
+      ok sótti Bósi föður sinn at ráðum, en hann sagði, at þeir mundu verða of seinir, <pb n="485"/>
+      ef þeir söfnuðu liði miklu, ok því sagði hann, at þeir mundu heldr ná konungsdóttur með
+      djúpsettum ráðum ok snörum atburðum, ok var nú þetta ráðit, at þeir bjuggu eitt skip ok á þrjá
+      tigi manna. Smiðr skyldi nú fara með þeim ok hafa alla forsögn um þeira ferð. Karl lagði þeim
+      mörg ráð ok þau Busla. Sigldu þeir nú, þegar þeir váru búnir. Smiðr hafði byr ávallt, þá er
+      hann stýrði, ok varð þeira ferð með meira flýti en líkendi mundi á þykkja, ok kómu þeir nú
+      vánum bráðara austr á Glæsisvöllu ok lögðu skipi sínu undir einn eyðiskóg. Smiðr hafði
+      hulinshjálm yfir skipi þeira. Þeir gengu á land upp Herrauðr ok Bósi. Þeir kómu at húsabæ
+      litlum ok kyrfiligum. Þar bjó karl ok kerling. Þau áttu dóttur væna ok vel kunnandi. Bóndi
+      bauð þeim nætrgreiða; þat þágu þeir. Þar váru góð hýbýli. Þeim var unninn góðr beini, ok váru
+      tekin upp borð ok gefit mungát at drekka. Bóndi var fálátr ok óspurull. Bóndadóttir var þar
+      mannúðigust, ok skenkti hún gestum. Bósi var glaðkátr ok gerði henni smáglingrur; hún gerði
+      honum ok svá í móti. Um kveldit var þeim fylgt at sofa, en þegar at ljós var slokit, þá kom
+      Bögu-Bósi þar, sem bóndadóttir lá, ok lypti klæði af henni. Hún spurði, hvat þar væri, en
+      Bögu-Bósi sagði til sín. "Hvat viltu hingat?" sagði hún. "Ek vil brynna fola mínum í vínkeldu
+      þinni," sagði hann. "Mun þat hægt vera, maðr minn?" sagði hún; "eigi er hann vanr þvílíkum
+      brunnhúsum, sem ek hefi." "Ek skal leiða hann at fram," sagði hann, "ok hrinda honum á kaf, ef
+      hann vill eigi öðruvísi drekka." "Hvar er folinn þinn, hjartavinrinn minn?" sagði hún. "Á
+      millum fóta mér, ástin mín," kvað hann, "ok tak þú á honum ok þó kyrrt, því at hann er mjök
+      styggr." Hún tók nú um göndulinn á honum ok strauk um ok mælti: "Þetta <pb n="486"/> er
+      fimligr foli ok þó mjök rétt hálsaðr." "Ekki er vel komit fyrir hann höfðinu," sagði hann, "en
+      hann kringir betr makkanum, þá hann hefir drukkit." "Sjá nú fyrir öllu," segir hún. "Ligg þú
+      sem gleiðust," kvað hann, "ok haf sem kyrrast." Hann brynnir nú folanum heldr ótæpiliga, svá
+      at hann var allr á kafi. Bóndadóttur varð mjök dátt við þetta, svá at hún gat varla talat.
+      "Muntu ekki drekkja folanum?" sagði hún. "Svá skal hann hafa sem hann þolir mest," sagði hann,
+      "því at hann er mér opt óstýrinn fyrir þat hann fær ekki at drekka sem hann beiðist." Hann er
+      nú at, sem honum líkar, ok hvílist síðan. Bóndadóttir undrast nú, hvaðan væta sjá mun komin,
+      sem hún hefir í klofinu, því at allr beðrinn lék í einu lauðri undir henni. Hún mælti: "Mun
+      ekki þat mega vera, at folinn þinn hafi drukkit meira en honum hefir gott gert ok hafi hann
+      ælt upp meira en hann hefir drukkit?" "Veldr honum nú eitthvat," kvað hann, "því at hann er
+      svá linr sem lunga." "Hann mun vera ölsjúkr," sagði hún, "sem aðrir drykkjumenn." "Þat er
+      víst," kvað hann. Þau skemmta sér nú sem þeim líkar, ok var bóndadóttir ýmist ofan á eða
+      undir, ok sagðist hún aldri hafa riðit hæggengara fola en þessum. Ok eptir margan gamanleik
+      spyrr hún, hvat manni hann sé, en hann segir til it sanna ok spurði á móti, hvat þar væri títt
+      í landinu. Hún segir, at þat væri nú nýjast, at þeir bræðr Hrærekr ok Siggeirr höfðu nát
+      Hleiði konungs systur, en drepit Hring konung í Gautlandi, -- "ok svá eru þeir nú frægir
+      orðnir af för þessi, at engir þykkja nú þeim líkir í Austrvegi, ok hefir konungr gefit systur
+      sína Siggeir, ok er þat þó á móti hennar vilja, ok á nú brúðlaupit at vera innan þriggja
+      nátta. En þeir eru svá varir um sik, at þeir <pb n="487"/> hafa njósn á hverri götu ok í
+      hverri höfn, ok má þeim ekki á óvart koma, en þeim þykkir aldri örvænt, nær þeir Herrauðr ok
+      Bósi koma at vitja meyjarinnar. Konungr hefir látit gera sér höll svá mikla, at á henni eru
+      hundrað dyra, ok er jafnt langt í millum allra; hundrað manns má rúmliga sitja í millum hverra
+      dyra; tveir dyrverðir eru við hverjar dyrr, ok á þar engi inn at ganga, sá sem eigi er þekktr
+      við einhverjar dyrrnar, en þann, sem við engar er þekktr, skal taka ok hafa í varðhaldi, þar
+      til at prófað er, hverr maðr hann er. Sæng stendr á miðju hallargólfi, ok er þar fimm palla
+      upp at ganga. Þar skal liggja brúðrin ok brúðguminn, en hirðin öll skal vaka um kringum, ok má
+      þeim því ekki á óvart koma." "Hverir eru með konungi," segir Bósi, "þeir sem hann heldr mest
+      af?" "Sá heitir Sigurðr," sagði hún, "hann er ráðgjafi konungs ok svá mikill meistari til
+      hljóðfæra, at hans líki er engi, þó at allvíða sé leitat, ok þó mest á hörpuslátt. Hann er nú
+      farinn til frillu sinnar; hún er ein bóndadóttir hér við skóginn, ok lætr hann sauma sér klæði
+      ok semr hljóðfæri sín." Ok fellr þar nú tal þeira, ok sofa þau af um náttina. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="12">
+     <p> Um morguninn snemma kemr Bósi til Herrauðar ok segir honum, hvat hann hefir frétt um
+      náttina, ok síðan bjuggust þeir frá bónda, ok gaf Bósi dóttur hans fingrgull, ok fóru þeir nú
+      at tilvísan hennar, þar til at þeir sá þann bæ, er Sigurðr var á. Þeir sá nú, hvar hann fór ok
+      einn sveinn með honum ok stefndu heim til hallarinnar. Þeir gengu nú á veginn fyrir Sigurð.
+       <pb n="488"/> Bósi rak spjótit í gegnum hann, en Herrauðr kyrkti sveininn til bana. Síðan fló
+      Bósi belg af þeim báðum ok fór síðan til skips, ok sögðu Smið, hvat þeir höfðu afrekat. Þeir
+      gerðu nú ráð sín. Smiðr færði Bósa í aðra nágrímuna, en fór sjálfr í aðra ok í þann búning,
+      sem sveinninn hafði haft, en Bósi í þann, er Sigurðr hafði átt. Þeir sögðu Herrauð fyrir allt,
+      hversu hann skyldi bera sik at, ok fara þeir nú heim til borgarinnar ok kómu at þeim
+      hallardyrum, sem Goðmundr konungr var fyrir. Þóttist hann þar kenna Sigurð, ok fagnar hann
+      honum vel ok leiðir hann inn, ok tók hann þegar við féhirzlum konungs ok ölgögnum ok kjallara
+      ok hefir skipan á, hvert öl fyrst skal ganga, ok segir byrlurum fyrir, hversu ákaft þeir skulu
+      skenkja. Sagði hann, at þat varðar mestu, at menn verði it fyrsta kveld sem drukknastir, því
+      at þar eimir lengst af. Þessu næst var höfðingjum í sæti skipat ok brúðrin inn leidd ok á bekk
+      sett ok með henni margar meyjar hæverskar. Goðmundr konungr sat í hásæti ok brúðguminn hjá
+      honum. Hrærekr þjónaði brúðgumanum. Eigi er greint, hversu höfðingjum var skipat, en þess
+      getr, at Sigurðr sló hörpu fyrir brúðunum. En er minni váru inn borin, sló Sigurðr svá, at
+      menn sögðu, at eigi mundi fást hans líki, en hann kvað þar lítit mark at fyrst. Konungr bað
+      hann eigi af spara. Ok sem inn kom þat minni, sem signat var Þór, þá skipti Sigurðr um
+      slagina, ok tók þá at ókyrrast allt þat, sem laust var, hnífar ok borðdiskar ok allt þat, sem
+      engi helt á, ok fjöldi manna stukku upp ór sínum sætum ok léku á gólfinu, ok gekk þetta langa
+      stund. Því næst kom þat minni inn, er helgat var öllum Ásum. Sigurðr skipti þá enn um slagina
+      ok stillti þá svá hátt, at dvergmála kvað í höllunni. Stóðu þá upp allir þeir, sem inni váru,
+      nema <pb n="489"/> brúðguminn ok brúðrin ok konungrinn, ok var nú allt á ferð ok för innan um
+      alla höllina, ok gekk því langa stund. Konungr spyrr nú, hvárt hann kann nokkut fleiri slagi,
+      en hann segir eptir vera nokkura smáleika ok bað fólkit hvílast fyrst. Settust menn nú til
+      drykkju. Sló hann þar Gýgjarslag ok Drömbuð ok Hjarrandahljóð. Því næst kom inn Óðins minni.
+      Þá lauk Sigurðr upp hörpunni. Hún var svá stór, at maðr mátti standa réttr í maganum á henni;
+      hún var öll sem á gull sæi. Þar tók hann upp hvíta glófa gullsaumaða. Hann sló nú þann slag,
+      sem Faldafeykir heitir, ok stukku þá faldarnir af konunum, ok léku þeir fyrir ofan þvertréin.
+      Stukku þá upp konurnar ok allir menninir, ok engi hlutr var þá sá, at kyrr þoldi. En er þetta
+      minni var af gengit, kom inn þat minni, er signat var Freyju, ok átti þat síðast at drekka.
+      Tók Sigurðr þá þann streng, er lá um þvera strengina, ok bað konung búast við Rammaslag. En
+      konungi brá svá við, at hann stökk upp ok svá brúðguminn ok brúðrin, ok léku nú engir vakrara
+      en þau, ok gekk þessu langa stund. Smiðr tók nú í hönd brúðinni ok lék allra vakrast. Hann tók
+      borðbúnað af stólnum ok kastaði upp í sængina, þegar hann sá sér færi á. En frá Herrauði er
+      þat at segja, at hann lætr menn sína meiða öll þau skip, sem með sjónum váru, svá at ekki var
+      sjófært. Suma hafði hann heima í borginni, ok báru þeir til sjóvar gull ok gersemar, er Smiðr
+      hafði lagit þeim til handargagns. Var nú mjök húmat. Sumir váru uppi á höllunni ok skynjuðu,
+      hvat inni var, ok drógu út um gluggann þat, sem upp var kastat í sængina, en sumir færðu til
+      skipa ok sneru stöfnum frá landi. <pb n="490"/>
+     </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="13">
+     <p> Þat berr nú til nýlundu, at þá þeir léku sem glaðast í höllunni, at maðr gekk inn í
+      höllina. Sá var mikill vexti ok fríðr sýnum. Hann var í rauðum skarlatskyrtli ok silfrbelti um
+      sik ok gullhlað um enni. Hann var slyppr ok fór leikandi sem aðrir, þar til er hann kom fyrir
+      konung. Hann reiðir þá upp hnefann ok dregr svá snöggt um nasir konungi, at ór honum hrutu
+      þrjár tennrnar, en blóð stökk ór nösum hans ok munni, en hann fell sjálfr í öngvit. Sigurðr
+      sér nú þetta. Hann kastar nú hörpunni upp í sængina, en rak báða hnefana í millum herða
+      kvámumanninum, en hann sneri undan, en Sigurðr eptir honum ok þeir Siggeirr ok allir aðrir, en
+      sumir styrmdu yfir konunginum. Smiðr tók í hönd brúðinni ok leiddi hana upp í sængina ok læsti
+      hana innan í maga hörpunnar, en þeir drógu hana út um glugginn, sem úti váru, ok svá Smið með,
+      ok flýttu sér til skips ok gengu síðan út á þat. Þá var sá þar kominn, er konunginn hafði
+      slegit. Sigurðr gekk ok út á skipit, er hann kom at, en Siggeirr eptir honum með brugðit
+      sverð. Sigurðr snýr þá aptr í móti honum ok hratt honum á kaf; urðu hans menn at draga hann á
+      land verr en dauðan. En Smiðr hjó landfestina, ok drógu menn segl upp ok gerðu bæði at sigla
+      ok róa ok létu ganga út á haf slíkt er mátti. Hrærekr hljóp til skips ok margir menn aðrir með
+      honum, en er skipum var fram hrundit, fell þar inn kolblár sjór, ok urðu þeir at landi at
+      leggja ok urðu at hafa sitt hugarmót svá búit, váru ok allir menn verr en ráðlausir af
+      drykkjuskap. Konungr raknar nú við ok var þó lítils máttar, ok leituðu menn við at næra hann,
+      en hann var mjök máttdreginn. Snerist nú veizlan í sút ok sorg. En <pb n="491"/> þá konungr
+      hresstist, gerðu þeir ráð sín, ok kom þeim þat saman at slíta eigi fjölmenninu ok búast sem
+      skjótast at fara eptir þeim fóstbræðrum. Ok látum þá nú búast, en víkjum sögunni aptr til
+      þeira kumpána, at þeir sigla, þangat til at vegir skiljast ok annarr lá til Bjarmalands. Þá
+      bað Bósi Herrauð sigla heim til Gautlands, en hann kvaðst eiga erendi til Bjarmalands.
+      Herrauðr segist eigi við hann skilja, -- "eða hvat er í erendum þínum þangat?" Hann segir þat
+      mundu síðar sýnast. Smiðr bauð at bíða þeira fimm nætr. Bósi sagði, at þeim mundi þat vel
+      duga, ok fóru þeir nú á bátnum til lands tveir saman ok földu bátinn í leyni nokkuru, en þeir
+      gengu til byggða, þar sem karl bjó ok kerling. Þau áttu dóttur væna. Þar var vel við þeim
+      tekit ok gefit gott vín at drekka um kveldit. Bögu-Bósi leit hýrliga til bóndadóttur, en hún
+      var mjök tileygð til hans á móti. Litlu síðar fóru menn til svefns. Bósi kom til sængr
+      bóndadóttur. Hún spyrr, hvat hann vill. Hann bað hana hólka stúfa sinn. Hún spyrr, hvar
+      hólkrinn væri. Hann spurði, hvárt hún hefði engan. Hún sagðist engan hafa, þann sem honum væri
+      hæfiligr. "Ek get rýmt hann, þó at þröngr sé," sagði hann. "Hvar er stúfinn þinn?" sagði hún.
+      "Ek get nærri, hvat ek má ætla hólkborunni minni." Hann bað hana taka á millum fóta sér. Hún
+      kippti at sér hendinni ok bað ófagnað eiga stúfa hans. "Hverju þykkir þér þetta líkt?" sagði
+      hann. "Pundaraskapti föður míns ok sé brotin aptan af því kringlan." "Tilfyndin ertu," sagði
+      Bögu-Bósi; hann dró gull af hendi sér ok gaf henni. Hún spyrr, hvat hann vill á móti hafa. "Ek
+      vil sponsa traus þína," sagði hann. "Ekki veit ek, hvernig þat er," segir hún. "Ligg þú sem
+      breiðast," kvað hann. Hún gerði sem hann bað. Hann ferr nú á millum fótanna á henni ok leggr
+      síðan neðan í <pb n="492"/> kviðinn á henni, svá at allt gekk upp undir bringspölu. Hún brá
+      við hart ok mælti: "Þú hleyptir inn sponsinu um augat, karlmaðr," kvað hún. "Ek skal ná því ór
+      aptr," segir hann, "eða hversu varð þér við?" "Svá dátt sem ek hefði drukkit ferskan mjöð,"
+      kvað hún "ok haf þú sem vakrast í auganu þvegilinn," sagði hún. Hann sparir nú ekki af, þar
+      til at hana velgdi alla, svá at henni lá við at klígja, ok bað hann þá at hætta. Þau tóku nú
+      hvíld, ok spyrr hún nú, hvat manna hann væri. Hann sagði it sanna ok spyrr, hvárt hún væri
+      nokkut í kærleikum við Eddu konungsdóttur. Hún sagðist opt koma í skemmu konungsdóttur ok vera
+      þar vel tekin. "Ek mun hafa þik at trúnaðarmanni," sagði hann, "ok vil ek gefa þér til þrjár
+      merkr silfrs, at þú komir konungsdóttur í skóginn til mín." Hann tók nú ór pungi sínum þrjár
+      valhnetr. Þær váru sem á gull sæi. Hann fekk henni þær ok bað hana segja konungsdóttur, at hún
+      vissi einn þann lund í skóginum, at slíkar hnetr væri nógar. Hún sagði konungsdóttur eigi
+      upporpna fyrir einum ok sagði henni fylgja at jafnaði gelding þann, "er Skálkr heitir ok er
+      svá sterkr, at hann hefir tólf karla afl, hvat sem reyna þarf." Bósi kvaðst þat eigi hirða, ef
+      ekki væri við fleirum at sjá. Um morguninn snemma fór hún at finna konungsdóttur ok sýnir
+      henni gullhnetrnar ok sagðist vita, hvar slíkar mætti nógar finna. "Förum þangat sem fyrst,"
+      segir konungsdóttir, "ok þrællinn með okkr." Ok svá gera þau. Þeir kompánar váru nú komnir í
+      skóginn ok snúa til móts við þau. Bósi heilsar jungfrúnni ok spyrr, hví hún ferr svá einmana.
+      Hún kvað eigi hættligt um þat. "Þat er nú sem takast vill," segir Bósi, "ok ger nú hvárt er þú
+      vilt, at fara með mér viljug eða geri ek skyndibrúðlaup til þín hér í skóginum." Þrællinn
+      spyrr <pb n="493"/> nú, hverr gaurr svá firna djarfr er, at slíkt lofar sér at gleypa.
+      Herrauðr bað hann þegja, fúlan slána. Þrællinn sló með stórri kylfu til Herrauðar, en hann brá
+      við skildinum. Höggit var svá þungt, at hann brotnaði allr. Herrauðr hljóp undir þrælinn, en
+      hann tók fast í móti, ok váru þeira sviptingar sterkligar, ok fór þrællinn hvergi á hæl. Bósi
+      kom þá at ok tók fætrna undan þrælnum, ok lögðu síðan snöru á háls honum ok hengdu hann þar á
+      eikunum. Síðan setti Bósi konungsdóttur á handlegg sér ok bar hana til skips, ok létu frá
+      landi ok fóru þar til, er þeir fundu Smið. Konungsdóttir barst lítt af, en þegar Smiðr hafði
+      orð við hana, tók af henni allan óhug, ok sigldu heim í Gautland. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="14">
+     <p> Þat byrjast nú, sem þeir bræðr höfðu fullbúit sitt lið ok höfðu ógrynni liðs. En svá hafði
+      Goðmundi konungi orðit þungr pústrinn Herrauðar, at hann var eigi ferðugr at fara þessa ferð,
+      ok skyldu þeir bræðr hafa af veg ok vanda. Þeir höfðu fjóra tigi skipa af Glæsisvöllum, en
+      juku þó mörgum við í ferðinni. Þeir kómu til Bjarmalands ok fundu Hárek konung, föður sinn, ok
+      váru þeir Herrauðr ok Bósi nýfarnir þaðan. Hafði Hárekr konungr þá fulla vissu af því, at þeir
+      höfðu tekit í burtu dóttur hans. Hafði hann þá búit lið sitt ok hafði fimmtán stór skip. Slæst
+      hann nú í ferð með þeim bræðrum, ok höfðu þeir alls sex tigi skipa ok sigla nú til Gautlands.
+      Nú er at segja af þeim Herrauði ok Bósa, at þeir safna liði, þegar eð þeir koma heim, ok vildu
+      vera búnir, ef þeim væri eptirför veitt, en halda þá brúðlaupin, <pb n="494"/> er gott tóm
+      væri til. Þvari karl hafði látit smíða spjót ok öxar ok örvar, á meðan þeir váru í burtu, ok
+      kom þar nú saman mikit fjölmenni. Þeir frétta nú, at þeir eru við land komnir Hárekr konungr
+      ok synir hans, ok var nú eigi þusulaust. Lét Herrauðr nú leggja út skipum sínum á móti þeim;
+      hafði hann lið mikit ok frítt ok þó miklu minna en þeir Hárekr. Lagði sínu skipi á móti
+      konungi Smiðr Þvarason, en Bósi móti Hræreki, Herrauðr á móti Siggeiri, ok þurfti þar eigi at
+      sökum at spyrja, ok tekst með þeim bardagi mjök harðr, ok váru hvárirtveggju inir áköfustu. Ok
+      er bardaginn hafði eigi lengi staðit, réð Siggeirr til uppgöngu á skip Herrauðs ok varð skjótt
+      mannsbani. Sniðill hét stafnbúi Herrauðar. Hann skaut spjóti at Siggeiri. Hann tók spjótit á
+      lopti ok skaut aptr at þeim, er sendi. Spjótit flaug í gegnum Sniðil ok svá langt í
+      skipsstafninn, at hann nisti hann þar við. Herrauðr sneri nú í móti Siggeiri ok leggr til hans
+      með atgeir, svá at gekk í gegnum skjöldinn, en Siggeirr snaraði svá hart skjöldinn, at
+      Herrauði varð lauss atgeirrinn, en hann hjó til Herrauðar, ok kom á hjálminn ok tók af
+      fjórðunginn, ok fylgdi þar it hægra eyrat. En Herrauðr greip upp eina stóra ruddu af þiljunum
+      ok laust á nasir honum, svá at hjálmblikit gekk at andlitinu, ok brotnaði í honum nefit ok ór
+      honum allar tennrnar, ok stökk hann öfugr aptr á skip sitt ok fell þá í óvit ok lá mjök lengi.
+      Smiðr barðist drengiliga. Hárekr konungr komst upp á skip hans við tólfta mann ok ryðst um
+      fast. Smiðr snýr nú á mót honum ok hjó til hans með saxi því, sem Busla kerling hafði gefit
+      honum, því at hann bitu eigi atkvæðalaus vápn. Höggit kom framan um þverar tennrnar, ok
+      brotnuðu þær ór honum allar, gómbeinit brotnaði ok varrirnar <pb n="495"/> sprungu báðar, ok
+      hljóp þar ór blóð mikit. En við þetta högg brá honum svá, at hann varð at flugdreka ok spjó
+      eitri yfir skipit, ok fengu margir menn bana. Hann steypti sér niðr at Smið ok gleypti hann ok
+      svelgir honum niðr í sik. Þeir sáu nú, hvar fugl fló af landi ofan, sá er skergípr heitir.
+      Hann hefir höfuð svá mikit ok hræðiligt, at honum er jafnat til fjándans, ok réðst á móti
+      drekanum, ok var þeira atgangr hræðiligr. En svá lauk þeira viðskiptum, at þeir fellu báðir
+      niðr, ok fell skergíprinn niðr í sjóinn, en drekinn kom niðr í skipi Siggeirs. Herrauðr var
+      þar þá kominn ok lét ganga kylfuna á báðar hendr. Hann sló til Siggeirs, ok kom höggit undir
+      eyrat, ok brotnaði í honum allr haussinn, en hann hraut fyrir borð ok kom aldri upp síðan.
+      Hárekr konungr raknar nú við ok varð at einum gelti ok greip til Herrauðar með tönnunum ok
+      reif af honum alla brynjuna ok festi tennrnar í brjóstinu á honum ok reif af honum báðar
+      geirvörturnar niðr at beini, en hann hjó í móti á trýnit á geltinum, ok tók af fyrir framan
+      augun. Var Herrauðr þá svá móðr, at hann fell á bak aptr, en galtinn trað hann undir fótum
+      sér, en gat eigi bitit, er af var trýnit. Þá kom at glatunshundtík mikil á skipit ok hafði
+      stórar vígtenn. Hún reif gat á náranum á geltinum ok rakti þar út þarmana ok hljóp fyrir borð.
+      En Hárekr var þá í mannslíki ok steypti sér fyrir borð eptir henni, ok sukku þau til grunna,
+      ok kom hvárki upp síðan, ok þótti mönnum sem þat mundi verit hafa Busla kerling, því at hún
+      sást aldri síðan. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="15">
+     <p> Bögu-Bósi er nú kominn upp á skip Hræreks ok barðist alldrengiliga. Hann sá, hvar faðir
+      sinn flaut <pb n="496"/> með borðinu mjök máttdreginn. Stökk hann nú fyrir borð ok hjálpaði
+      honum ok kom honum upp í skip sitt. Þá var Hrærekr kominnn á skipit ok hafði drepit margan
+      mann. Bósi kom þá upp á skipit ok var mjök móðr, en þó réðst hann í móti Hræreki ok hjó í
+      skjöld hans ok klauf hann allan niðr í gegnum ok af honum fótinn í ristarliðnum. Sverðit kom í
+      vindásinn ok stökk sundr í miðju. Hrærekr hjó á móti. Bósi snerist undan á hæli. Sverðit slapp
+      af hjálminum ok niðr á herðarnar ok reif af honum alla brynjuna, ok fekk hann sár á
+      herðablöðunum, ok gekk svá niðr um allt bakit, at öll klæðin rifnuðu af honum, svá at hann var
+      nakinn allr eptir, ok af vinstra fæti hælbeinit. Bósi þreif upp ás einn, en Hrærekr vildi þá
+      hlaupa fyrir borð. Bósi sló hann í sundr við hástokkinum, svá at sér fell hvárr hlutrinn. Var
+      nú ok fallinn mestr hluti liðs þeira, en þeir þágu grið, sem eptir lifðu. Þeir kanna nú lið
+      sitt, ok var eigi eptir meir en hundrað manns liðfært, ok áttu þeir fóstbræðr nú miklum sigri
+      at hrósa. Skiptu menn nú herfangi, en þeir váru græddir, sem græðandi váru. </p>
+    </div>
+
+    <div type="textpart" subtype="chapter" n="16">
+     <p> Síðan bjuggust þeir við brúðlaupum sínum Herrauðr ok Bósi, ok skorti nú eigi tilföng bæði
+      nóg ok góð, ok stóð veizlan mánuð, ok váru menn með virðuligum gjöfum á burt leystir. Tók
+      Herrauðr þá konungsnafn yfir öllum þeim ríkjum, sem faðir hans hafði stýrt. Litlu síðar
+      söfnuðu þeir liði ok fóru til Bjarmalands, ok beiddi Bósi sér þar viðtöku ok taldi þat til, at
+      Edda ætti land allt eptir föður sinn, er nú var orðin eiginkona hans, ok segist hann svá helzt
+      mega bæta landsmönnum þann <pb n="497"/> mannskaða, sem þeir höfðu af honum fengit, at vera
+      konungr yfir þeim ok styrkja þá með lögum ok réttarbótum. Ok med því at þeir váru
+      höfðingjalausir, þá sá þeir engan sinn kost vænna en taka hann sér til konungs. Var Edda þeim
+      kunnig áðr at öllum góðum siðum. Gerðist Bósi nú konungr yfir Bjarmalandi. Hann átti son við
+      frillu sinni, þeiri er hann herti jarlinn hjá. Sá hét Sviði inn sókndjarfi; hann var faðir
+      Vilmundar viðutan. Bósi fór austr á Glæsisvöllu ok sætti þá Goðmund konung ok Herrauð. Þau
+      Hleiðr unnust mikit. Þeir dóttir var Þóra borgarhjörtr, er Ragnarr loðbrók átti. Svá hefir
+      sagt verit, at í gammsegginuu því, sem þeir sóttu til Bjarmalands, hafi fundizt yrmlingr sá,
+      er gullslitr var á, ok gaf Herrauðr konungr hann dóttur sinni í tannfé, en hún lét leggja gull
+      undir hann, ok óx hann svá mikit, at hann lá í hring um skemmu hennar ok varð svá grimmr, at
+      engi þorði nærri honum at koma nema konungr ok sá, er honum færði mat. Uxa gamlan þurfti
+      ormrinn í mál, ok þótti hann in mesta meinvættr. Heitstrengdi Herrauðr konungr þess at gifta
+      þeim einum manni Þóru, dóttur sína, sem þyrði at ganga í skemmuna til máls við hana ok af réði
+      orminn. En þat þorði engi fyrr at gera en til kom Ragnarr, sonr Sigurðar hrings. Sá Ragnarr
+      var síðan kallaðr loðbrók, ok tók hann nafn af klæðum sínum, er hann lét gera sér, þá er hann
+      vann orminn, ok lúkum vér hér nú sögu Bögu-Bósa. </p>
+    </div>
+
+
+   </div>
+  </body>
+ </text>
+</TEI>

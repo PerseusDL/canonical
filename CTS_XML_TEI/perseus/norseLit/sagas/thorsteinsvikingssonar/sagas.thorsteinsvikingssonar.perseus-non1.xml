@@ -1,0 +1,2212 @@
+<?xml version="1.0"?>
+
+
+
+
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Þorsteins saga Víkingssonar</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<respStmt><resp> Prepared under the supervision of: </resp><name>Dr. Zoe Borovsky, server.fhp.uoregon.edu/norse/ </name></respStmt>
+</titleStmt>
+ <publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>Þorsteins saga Víkingssonar</title>
+<editor>Guðni Jónsson and Bjarni Vilhjálmsson</editor>
+<imprint>
+<pubPlace>Reykjavík</pubPlace>
+<publisher>Bókaútgáfan Forni</publisher>
+<date>1943-1944</date>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+ 
+<encodingDesc>
+<refsDecl>
+<refState unit="chapter" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+ 
+<profileDesc>
+<langUsage>
+<language ident="non">Old Norse</language>
+</langUsage>
+</profileDesc>
+<revisionDesc><!--
+<change><date>12/10/04</date>
+<respStmt><resp> Prepared under the supervision of: </resp><name>BDK</name><name>ed.</name></respStmt>
+<item>
+$Log: ThorsteinsVikingssonar_non.xml,v $
+Revision 1.1  2009-12-09 18:06:27  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/12/13 20:17:25  mimno
+TEIzed sagas
+
+</item>
+</change>
+--> <change when="2014-11-13" who="Stella Dee">converted to EpiDoc</change></revisionDesc>
+</teiHeader>
+<text xml:lang="non"><body><div type="edition">
+
+
+<div type="textpart" subtype="chapter" n="1"><p>
+<pb n="185"/>
+
+ÞAT er upphaf þessarar sögu, at Logi hefir konungr
+heitit. Hann réð fyrir því landi, er norðr er af
+Noregi. Logi var stærri ok sterkari en nokkurr annarr
+í því landi. Var lengt nafn hans, ok var kallaðr Hálogi.
+Af honum tók landit nafn ok var kallat Hálogaland.
+Logi var allra manna fríðastr. Brá honum um afl ok
+vöxt í ætt sína, því at hann var risakyns. Hann átti
+Glöð, dóttur Gríms ór Grímsgörðum norðan ór Jötunheimum,
+er þá váru kallaðir fyrir norðan í Elivágum.
+Grímr var inn mesti berserkr. Hann átti Alvöru, systur
+Álfs ins gamla. Hann réð fyrir því ríki, er liggr í
+milli á tveggja. Þær tóku nafn af honum, ok var kölluð
+elfr hvártveggi. Var sú kölluð Gautelfr, er fyrir sunnan
+var við land Gauta konungs ok skildi við Gautland.
+En sú var kölluð Raumelfr, er fyrir norðan var ok
+kennd var við Raum konung. Ríki þat var kallat
+Raumaríki. Þat váru kallaðir Álfheimar, er Álfr konungr
+réð fyrir, en þat fólk er allt álfakyns, er af honum
+er komit. Váru þat fríðari menn en aðrar þjóðir næst
+<pb n="186"/>
+
+risafólki. Álfr konungr átti Bryngerði, dóttur Raums
+konungs af Raumaríki. Hún var stór kona, en ekki
+væn, því at Raumr konungr var ljótr. Er þat kallat,
+at þeir menn sé miklir raumar, sem ljótir eru ok stórir.
+Hálogi konungr átti tvær dætr við Glöð, drottningu
+sinni. Hét önnur Eisa, en önnur Eimyrja. Þær váru
+fríðari meyjar en nokkurar aðrar í því landi. Þær áttu
+til þess kyn, svá var faðir þeira ok móðir. En sakir
+þess, at eldr ok ljós birtir þar, sem áðr er myrkt, tóku
+þessir hlutir nafn af fyrrgreindu fólki.
+Jarlar tveir váru með Háloga. Hét annarr Vífill, en
+annarr Véseti. Þeir váru báðir miklir menn ok sterkir.
+Þeir vörðu land konungs. Þat var einn dag, at jarlarnir
+gengu fyrir konung, ok bað Vífill Eimyrju, en Véseti
+Eisu. Konungr synjaði þeim báðum. Þeir urðu við þat
+mjök reiðir, svá at litlu síðar tóku þeir þær í burt ok
+stukku ór landi ok firrðust fund hans, því at hann
+gerði þá útlæga af ríki sínu, ok lét hann gera til þess
+galdra, at þeir yrði þar aldri innlenzkir, ok lagði hann
+á, at þeira ættmenn yrði jafnan útlægir af sínum eignum.
+Véseti settist í ey þá eða hólm, er kallaðr er Borgundarhólmr.
+Hann var faðir Búa ok Sigurðar kápu.
+Vífill sigldi austr lengra ok settist í þá ey, er Vífilsey
+heitir. Hann átti son við Eimyrju, konu sinni, er Víkingr
+hét. Hann var snemma mikill vexti ok sterkari en
+aðrir menn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="2"><p>
+
+Hringr hét konungr. Hann var fylkiskonungr í Svíaveldi.
+Hann átti drottningu ok eina dóttur barna, er
+Húnvör hét. Hún var allra kvenna fríðust ok bezt
+mennt. Hún helt skemmu mikla ok kvenna sveit. Sú
+<pb n="187"/>
+
+hét Ingibjörg, er næst henni gekk, dóttir Herfinns jarls
+af Ullarakri. Þat töluðu flestir menn, at Ingibjörgu
+skorti ekki við konungs dóttur nema burði ok speki,
+því at þat bar hún yfir hvern mann þar í landi. Margir
+konungar ok konungasynir báðu hennar, ok vísaði hún
+öllum frá. Ór hófi þótti öllum ganga metnaðr hennar ok
+ofstopi. Töluðu þat ok margir menn, at henni mundi
+koma nokkurr hnekkir. Gekk nú svá fram nokkura tíma.
+Fjall eitt var at baki konungs atsetunni. Þat var svá
+hátt, at þar lágu engir manna vegir yfir. Þat var einn
+dag, at ofan af fjallinu gekk einn maðr, ef mann skyldi
+kalla. Hann var meiri ok illiligri en menn hefði fyrr
+sét. Hann var líkari jötni en mennskum manni. Hann
+hafði í hendi flein tvíoddaðan. Þetta var þann tíma,
+er konungr sat yfir borðum. Þessi raumr gekk at hallardyrum
+ok beiddist inn at ganga, en dyraverðir synjuðu.
+Sjá lagði til þeira fleininum, ok sinn oddrinn kom
+fyrir brjóst hvárum ok svá út um bakit, ok hóf þá
+báða yfir höfuð sér ok kastar þeim báðum langt á völlinn
+dauðum, gekk inn síðan ok fyrir hásæti konungs
+ok mælti: "Með því, Hringr konungr, at ek hefi virt
+þik svá mikils, at ek hefi sótt yðr heim, þá þykki mér
+skylt, at þér gerið mitt erendi." Konungr spyrr, hvat
+þat væri eða hvat hann héti. Hann svarar: "Ek heiti
+Hárekr járnhauss. Er ek sonr Kols konungs kroppinbaks
+af Indíalandi, en erendi mitt er þat, at ek vil, at þér
+gefið í mitt vald dóttur yðra, land ok þegna. Munu
+þat ok flestir kalla, at betr sé standanda ríkit, at ek
+stýri en þú afgamall ok mannskaparlauss. En með því
+at þér þykkir nokkur mótgerð í því at láta ríkit, þá
+skal ek þat veita þér í móti at ganga at eiga dóttur
+þína, Húnvöru, en ef þér líkar þá eigi, þá mun ek
+drepa þik, en eiga ríkit ok hafa Húnvöru fyrir frillu."
+<pb n="188"/>
+
+Konungi þótti nú at höndum kominn vandi mikill, því
+at allt fólk varð hryggt við tal þeira. Konungr mælti
+þá: "Mér þykkir ráð, at vit vitum, hverju hún vill
+svara." Hárekr kvað sér þat vel líka. Var þá sent eptir
+Húnvöru, ok þetta var borit upp fyrir henni. Hún
+mælti: "Vel lízt mér á þenna mann, en verða þykki
+mér mega, at mér verðr hann stórr í skapsmunum, en
+fullkosta er mér í honum í allan máta, en þó vil ek
+at því spyrja, hvárt ekki skal til undanlausnar." "Eigi
+skal þat," segir Hárekr, "ef konungr vill ganga á hólm
+við mik at þriggja nátta fresti eða fá mann fyrir sik,
+þá skal sá ráða öllum hlutum, er annan fellir á hólmi."
+"Víst mun þat," segir Húnvör, "at sá mun engi fást,
+at þik sigri í einvígi, en þó mun ek því játa." Hárekr
+snýr síðan út, en Húnvör fór til skemmu ok grét sárt.
+Konungr spurði eptir sína menn, hvárt engi vildi
+vinna þat til ráðahags við dóttur sína at berjast við
+Hárek. En þótt ráðit þætti gott, vildi engi til vinna,
+því at öllum þótti víss dauðinn. Töluðu þat ok margir,
+at þetta væri henni makligt, svá mörgum sem hún
+hefði frá vísat, ok mundi nú lægjast metnaðr hennar,
+ef hún skyldi eiga Hárek.
+Eymundr hét þjónustumaðr hennar. Hann var henni
+hollr ok trúr í öllum ráðum. Þenna kallaði hún til
+þegar um daginn ok mælti: "Ekki mun tjá kyrru fyrir
+at halda. Vil ek senda þik, skaltu taka skip ok róa til
+eyjar þeirar, er liggr út undan Ullarakri, er Vífilsey
+heitir. Þar stendr bær í eynni. Þangat skaltu fara ok
+koma þar annat kveld um dagsetrs skeið. Skaltu ganga
+inn í bæinn vestri dyrr, ok er þú kemr inn, muntu sjá
+roskinn mann hvatligan ok aldraða konu. Ekki mun
+þar fleira manna. Son eiga þau, er Víkingr heitir. Hann
+er nú fimmtán vetra, manna gerviligastr. Eigi mun
+<pb n="189"/>
+
+hann á vaðbergi vera. Annathvárt munum vér þaðan
+fá leiðrétting várra mála, ella þykki mér seinligt um.
+Láttu ekki sjá þik, en ef svá kann til at bera, at þú
+sjáir inn þriðja manninn, þá kasta þú þessu bréfi í kné
+honum ok far síðan heim."
+Eymundr bregðr við skjótt ok ferr á skip við tólfta
+mann ok kemr í Vífilsey, en gengr einn á land ok til
+bæjar ok finnr eldaskálann ok stendur at hurðarbaki.
+Bóndi sitr við eld ok húsfreyja. Lízt honum bóndi
+drengiligr. Fölski var fallinn á eldinn, ok sá eigi glöggt.
+Húsfreyja tók til orða: "Þat ætla ek, Vífill minn, at okkr
+dugi, at Víkingr, sonr okkar, komi fram, því at engir
+munu koma í móti, ok er skjótt komit at því, er hólmstefnan
+á at vera Háreks." "Þat þykki mér eigi ráð,
+Eimyrja," segir hann, "því at sonr okkarr er ungr ok
+álitalítill, framgjarn ok óforsjáll. Er þat bráðr bani hans,
+ef hann lætr ginna sik til at berjast við Hárek, en þó
+muntu þessu ráða." Litlu síðar spratt upp hurð at baki
+bónda, ok gekk þar fram maðr furðuliga mikill vexti ok
+settist niðr hjá móður sinni. Eymundr varpaði bréfinu í
+kné Víking ok hljóp út síðan ok til skips ok kom til Húnvarar
+ok segir sitt erendi. Hún segir, at auðna mundi
+ráða. Víkingr tók bréfit, ok var þar á kveðja konungsdóttur
+ok þat með, at hann berðist við Hárek járnhaus
+ok hún mundi ganga með honum. Víkingr brá lit við,
+ok er Vífill sá þat, þá spurði hann, hvat þat væri.
+Víkingr sýndi honum bréfit. "Þat vissa ek," segir Vífill,
+"ok hefði betra verit, at ek hefði ráðit áðan, Eimyrja,
+eða hvat ætlar þú til?" Víkingr segir: "Mun eigi gott
+at frelsa konungsdóttur?" Vífill mælti: "Þat er þinn bráðr
+bani, ef þú berst við Hárek." "Til þess skal hætta," segir
+Víkingr. "Ekki mun þá verða við gert," segir Vífill,
+"en segja má ek þér frá ætt hans ok honum sjálfum.
+<pb n="190"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="3"><p>
+
+Tírus inn mikli var konungr yfir Indíalandi. Hann
+var ágætr höfðingi sakir allra hluta. Hann átti sér ágæta
+drottning ok eina dóttur barna, er Tróna hét. Hún var
+allra kvenna fríðust, ólík flestum konum fyrir sakir
+vizku; bar hún af öllum konungadætrum.
+Þann mann er at nefna til sögunnar, er Kolr hét.
+Margt gott er af honum at segja, þat fyrst, at hann var
+stórr sem jötunn, ljótr sem fjándinn ok svá fjölkunnigr,
+at hann fór í jörðu ok á ok límdi saman stóð ok
+stjönur. Hann var svá mikil hamhleypa, at hann brást
+í ýmissa kvikenda líki. Hann fór ýmist með vindum
+eða í sjó. Hann hafði svá mikinn hring á herðdum, at
+ef hann stóð réttr, bar hæra kryppuna en höfuðit.
+Hann fór til Indíálands með mikinn her ok felldi Tírus
+frá landi, en gekk at eiga Trónam ok tók undir sik
+land ok þegna ok gerðist konungr yfir. Hann átti mörg
+börn við Trónu, ok brá þeim meir í föður ætt en
+móður.
+Kolr var kallaðr kroppinbakr. Hann átti þrjá kostgripi:
+Þat var sverð, svá góðr gripr, at ekki var betra
+borit í þann tíma. Sverðit hét Angrvaðíll. Annarr gripr
+var gullhringr, er Glæsir hét. Þriði var horn. Þat var
+náttúra drykkjar þess, er í var neðra gólfi, at hverr,
+sem af drakk, fekk vanheilsu þá, er lepra heitir, ok
+óminni svá mikit, at hann mundi engan þann hlut,
+sem áðr hafði verit, en ef drukkit var af efra hlut hornsins,
+þá bættist þegar.
+Elzt barn þeira var Björn blátönn. Tönn hans var
+blá at lit ok stóð hálfrar annarrar alnar fram ór munni
+hans. Opt banaði hann þar með mönnum í bardögum
+<pb n="191"/>
+
+eða þá hann var reiðr. Dís hét dóttir Kols. It þriðja
+barn þeira hét Hárekr. Þá hann var sjau vetra, var
+hann sköllóttr um allt höfuð. Hauss hans var svá harðr
+sem stál. Því var hann járnhauss kallaðr. It fjórða barn
+þeira hét Ingjaldr. Vörr hans in efri var alnar löng frá
+nefi. Því var hann kállaðr Ingjaldr trana. Þat var gaman
+þeira bræðra, þá þeir váru heimá, at Björn blátönn
+hjó, sem hann gat, tönn sinni í haus Háreki, bróður
+sínum, ok skaðaði hann ekki. Ekki festi vápn á vörr
+Ingjalds trönu. Kolr kroppinbakr lét seiða til þess, at
+ekki vápn skyldi at bana verða öllu hans afsprengi utan
+sverðit Angrvaðill. Ekki járn bítr þau annat.
+En þá Kolr var fullgamall, dó hann illuni dauða.
+Þá var Tróna vanheil ok varð léttari ok átti son, er
+Kolr hét eptir föður sínum. Hann var svá líkr föður
+sínum sem hann var honum skyldr. Þegar Kolr var
+vetrgamall, var hann mjök illskiptinn við ungmenni.
+Var hann kallaðr Kolr inn krappi. Dís giftist Jökli
+járnhrygg Hann var blár berserkr. Þau systkin skiptu
+arfi eptir föður sinn. Hlaut Dís hornit, en Björn blátönn
+sverðit, Hárekr hringinn, Ingjaldr konungdóm,
+en Kolr lausafé. Þrim vetrum eptir dauða Kols konungs
+giftist Tróná Herfinni jarli, syni Hróðmars konungs
+af Marseralandi, ok átti son við henni á fyrsta vetri, er
+Framarr hét. Hann var efniligr ok ólíkr bræðrum sínum.
+Nú þykki mér svá," segir Vífill, "at þú hættir eigi
+lífi þínu undir heljarmann þenna, sem engi bíta
+járn." "Eigi skal þat," segir Víkingr, "til skal hætta,
+hversu er ferr." Ok er Vífill sér, at honum er alvara
+í at berjast við Hárek, þá mælti hann: "Enn má ek
+segja fleira af Kolssonum: Vit Véseti höfðum landvörn
+með Háloga konungi. Heldum vit í hernað á sumrum.
+<pb n="192"/>
+
+Þat var eitt sinn, at vit mættum Birni blátönn í Græningjasundi,
+ok börðumst vér með því móti, at Véseti
+sló með kylfu sinni á hönd Birni, svá at sverðit fellr
+ór hendi honum, ok náða ek þá sverðinu, ok keyrða
+ek hann í gegnum, ok lét hann svá líf sitt. Hefik borit
+síðan sverðit ok nú vil ek gefa þér þat, frændi." Hann
+sótti þá sverðit ok fekk Víking. Honum leizt vel á
+sverðit.
+Síðan bjóst Víkingr ok fór einn á báti. Þann sama
+dag kom hann til konungs hallar, er hólmstefnan átti
+at vera. Var þar allt tvist ok daprt. Gekk Víkingr fyrir
+konung ok kvaddi hann. Konungr spyrr hann at nafni.
+Víkingr segir til it sanna. Húnvör sat á aðra hönd konungi.
+Víkingr spyrr, hvárt hún beiddi hann at koma
+þar. Hún segir þat satt vera. Víkingr spyrr, með hverjum
+hætti hann skal á hólm ganga við Hárek. Konungr
+mælti: "Þú skalt eiga dóttur mína með sæmiligum
+mundi." Þessu játar Víkingr. Fastnar hann sér þá Húnvöru.
+Þótti flestum sem feigð mundi kalla at Víking,
+ef hann berðist við Hárek.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="4"><p>
+
+Síðan fór Víkingr til hómsins. Fylgdi konungr honum
+með hirð sinni. Þar kom Hárekr ok spyrr, hverr
+við sik skyldi berjast. Víkingr gekk fram ok mælti:
+"Hér er sjá." Hárekr mælti: "Lítilræði þykki mér at
+fella þik at velli, því af ek veit, at þú ert dauðr, ef ek
+slæ þik með hnefa mínum." "En ek ætla, at þú telir
+tormerki á at berjast við mik," segir Víkingr, "er þú
+æðrast, er þú sér mik." Hárekr segir: "Eigi er þat, ok
+þarf ek at forða lífi þínu, er þú vilt sjálfr ganga í
+<pb n="193"/>
+
+opinn munn heljar, ok högg þú fyrri, seim hólmgongu
+lög eru til, því at ek hefi einvígi boðit, en ek mun
+standa kyrr fyrir á meðan, því at óhræddr er ek fyrir
+því, at mik muni þat saka." Víkingr brá nú Angrvaðli,
+ok var því líkt sem elding brygði af honum. En er
+Hárekr sá þat, mælti hann: "Við þik skyldi ek aldri
+barizt hafa, hefðak vitat, at þú hefðir Angrvaðil haft.
+Er því líkast, at svá fari sem faðir minn sagði, at vér
+systkin munum skammlíf verða nema sá einn, er hans
+nafn bæri. Var þat it mesta slys, er Ángrvaðill gekk ór
+várri ætt." Ok í því hjó Víkingr ofan í haus Háreki
+ok klauf hann allan at endilöngu, svá at sverðit hljóp
+niðr í jörðina allt at hjöltum. Konungs menn æptu
+þá sigróp mikit. Fór konungr heim til hallar með fagnaði.
+Var þá um talat, at við brullaupi skyldi búast, en
+Víkingr sagðist eigi þat vildu, -- "skal hún sitja í festum
+þrjá vetr, en ek skal fara í hernað". Var nú svá
+gert, at Víkingr helt ór landi með tveimr skipuin, ok
+tókst þat vel, því at hann hafði sigr í hverri orrostu.
+Ok er hann hafði tvá vetr í víkingu verit, lagði hann
+um haustit at ey nokkurri. Þá var veðr gott ok hiti
+mikill.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="5"><p>
+
+Þenna sama dag gengr Víkingr á land einn at
+skemmta sér. Hann snýor til skógar. Varð honum þá
+varmt mjök. Ok er hann kom í eitt rjóðr fagrt, settist
+hann niðr ok sér, hvar kona gengr. Hún var harðlá
+fögr. Hún gekk at honum ok heilsar upp á hann harðla
+sæmiliga, en hann tók henni vel. Þau töluðust við
+langa stund, ok fór ræða þeira heldr vinsamliga. Hann
+<pb n="194"/>
+
+frétti hana at nafni, en hún kvaðst Sólbjört heita Hún
+spyrr, hvárt hann þyrsti ekki, því at hann hafi langt
+gengit til. Víkingr kvað þat eigi vera. Hún tók horn
+undan yfirhöfn sinni ok bauð honum at drekka, en
+hann tók við ok drakk ok eptir þat syfar hann ok
+hallast þá í kné Sólbjartar ok svaf. En er hann vaknar,
+vár hún öll í burtu. Honum var heldr orðit kynlight
+við drykkinn. Hann hafði hroll mikinn í búknum.
+Veðrit var gustkalt, ok nær mundi hann engan hlut,
+sem aðr hafði verit, en sízt til Húnvarar. Fór hann til
+skips ok helt í burt. Tók hann þá krankleika mikinn
+ok lagðist í rekkju af sótt þeiri, er líkþrá heitir. Heldu
+þeir víða fyrir land fram, því at þeir vildu hvergi ílendast.
+En er hann hafði tólf mánuði legit í þessum sjúkleika,
+tók mjök at honum at þrengja, ok fellu mörg
+sár á líkam hans.
+Þat var einn dag, at þeir lögðu at landi, at þeir sáu
+sjau skip sigla fyrir höfnina. Ok er þeir fundust, spurðu
+hvárir aðra at nafni. Víkingr sagði til sín, en sá nefndist
+Hálfdan, er fyrir var, ok vera Úlfsson. Hálfdan var
+stórr maðr ok sterkligr, ok þegar hann veit, hversu
+háttat er Víking, gekk hann á skip til Víkings, ok var
+þá lítill máttr hans. Hálfdan spyrr, hversu at hefði
+borizt um mein hans. Víkingr segir allt, sem orðit
+hafði. Hálfdan svarar: "Þar hefir hamhleypan Dís Kolsdóttir
+komit með metum sínum. Þykki mér seinligt at
+rétta sinn hluta á henni, því at hún mun þykkjast hafa
+hefnt Háreks járnhauss, bróður síns. Nú vil ek bjóða
+þér fóstbræðralag ok vita, hvárt vit getum ekki hefnt
+á Dísi." Víkingr svarar: "Enga ván veit ek mér á því
+at fyrir koma Dísi eða Jökli járnhrygg, bónda hennar,
+sakir vanmættis míns, en svá lízt mér á þik, at þó at
+ek væri vel til reika, væri mér þetta vel boðit sakir
+<pb n="195"/>
+
+karlmennsku þinnar." Var þetta nú staðfest, at þeir
+gerðust nú fóstbræðr.
+Hálfdan átti dreka stóran, ok var hann kallaðr Járnbarði.
+Hann var allr járni varðr fyrir ofan sjó, borðhár
+ok inn bezti gripr. Ekki höfðu þeir þar lengi verit,
+áðr þeir fóru burt ok heim í Svafa. Minnkaði þá mátt
+Víkings, svá at hann gerðist banvænn. En er þeir kómu
+við land, gekk Hálfdan einn frá skipum, þar til hann
+kom í rjóðr eitt. Þar stóð steinn einn stórr. Hann gekk
+at honum ok klappar á með sprota sínum. Þar gekk
+út dvergr sá, er þar átti heima, er Litr hét. Þeir váru
+vinir miklir. Hann heilsar honum blíðliga ok fréttir,
+hvat at erendum væri. Hálfdan segir: "Nú þykki mér
+mikit á liggja, fóstri, at þú gerir nú erendi mitt." "Hvat
+er þat fóstri minn?" segir Litr. "Ek vilda, at þú næðir
+horninu góða Dísar Kolsdóttur." "Kosta þú," segir Litr,
+"því at þat er minn bani, ef ek leita við þat, en ek
+fæ þat ekki þess heldr, því at þú veizt, at ekki tröll er
+slíkt í veröldinni sem Dís." "Hér þykki mér á liggja
+nú," segir Hálfdan. "Hví mun ek þá eigi hætta," segir
+Litr, "þótt ek gefi mitt líf við?" "Vel muntu gera,"
+segir Hálfdan. Skildu þeir þá at sinni. Gekk Hálfdan
+þá til skipa ok dvaldist þar um hríð.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="6"><p>
+
+Nú er at segja frá Hringi konungi, at hann sitr í
+sínu veldi ok Húnvör, dóttir hans, eptir fall Háreks járnhauss.
+Þótti öllum þat mikit þrekvirki verit hafa. Þessi
+tíðendi spurðust til Indíalands, ok þótti Ingjaldi trönu
+mikit fráfall hans. Tók hann at skera upp herör ok
+sendi um allt landit ok safnaði múg ok margmenni.
+<pb n="196"/>
+
+Margar óþjóðir hafði hann í her sínum ok stefndi öllum
+þessum her til Svíþjóðar. Eigi kemr njósn fyrir
+honum. Hann býðr konungi til bardaga. Hann bregðr
+við skjótt ok hefir fátt manna, ferr þó til bardaga, ok
+verða þar skjót umskipti. Þar fell Hringr konungr ok
+öll hans hirð, en Ingjaldr tók burt Húnvöru ok hafði
+til Indíalands. Jökull járnhryggr leitar at þeim
+fóstbræðrum ok vill hefna Háreks, mágs síns.
+Nú er þar til at taka, at þeir Víkingr ok Hálfdan
+eru í Svafa. Þá er liðnar váru sjau nætr, kemr Litr til
+móts við Hálfdan ok hefir hornit. Verðr Hálfdan nú
+glaðr ok ferr til Víkings, ok þótti flestum þá lítit at
+honum. Hálfdan dreypir þá á varrir honum af inum
+efra hlut hornsins. Raknar Víkingr þá við, ok er hann
+tók at magnast, var því líkt sem hann vaknaði af svefni.
+En svá fell óhreinendi burt af honum sem hreistr af
+fiski, þar til er honum batnar dag frá degi, til þess er
+hann var heill.
+Þá bjuggust þeir í burt af Svafa ok heldu norðr fyrir
+Bálagarðssíðu. Sáu þeir þar átján skip ok öll stór,
+tjölduð svörtum tjöldum. Hálfdan mælti: "Hér trúi
+ek fyrir liggja Jökull járnhryggr ok hamhleypan kona
+hans. Veit ek eigi, hversu þau Litr hafa skilit. Var hann
+mjök máttlauss. En nú mun ráð at halda til bardaga.
+Skal bera fjárhlut af skipum, en grjót í staðinn." Var
+nú svá gert. Greiddu þeir síðan harðan atróðr ok fréttu,
+hverir fyrir ætti at ráða. Jökull segir til sín ok spyrr,
+hverir þeir væri. Hálfdan ok Víkingr segja til sín. Þarf
+þá eigi at sökum at spyrja. Tóku nú til bardaga. Var
+orrosta in ákafasta. Sneri mannfallinu á þá fóstbræðr,
+því at Jökull var stórhöggr. Þá réð Víkingr til uppgöngu
+á dreka Jökuls ok Hálfdan þar eptir honum.
+Var þá mikit mannfall á drekanum. Mættust þeir Jökull
+<pb n="197"/>
+
+ok Hálfdan ok áttust við vápnaskipti, ok var Jökull
+sterkari, en þó kom Hálfdan sverðshöggi á Jökul um
+þvert bakit, ok beit ekki á. Var Jökull þó í engri
+brynju. Ok í því kom Víkingr at ok hjó til Jökuls.
+Þat högg kom á öxlina ok leysti frá síðuna ok höndina
+ok báða fætrna, en annan fyrir ofan kné. Fell Jökull
+þá ok var eigi dauðr ok mælti: "Vissa ek þat, er Dís
+var horfin at heillum, at mikit illt mundi at baki vera.
+Var þat fyrst, at ófagnaðrinn Litr sveik hana ok kom
+þar við metum sínum at stela horninu frá henni, en
+meiddi hana, ok liggr hún nú í rekkju af viðreign þeira,
+enda þætti mér ván, at hann mundi ekki gott hafa af
+fengit. Mundi eigi svá farit hafa, ef hún hefði verit
+á fótum. En þat hlægir mik, at þit hafið eigi náð Húnvöru
+konungsdóttur af Ingjaldi trönu, mági mínum."
+Litlu síðar deyr hann. Var þar þá æpt sigróp ok gefin
+grið þeim mönnum, er græðandi váru. Tóku þeir þar
+mikit herfang, en fundu á landi Dísi ódauða at eins
+af sameign þeira Lits. Þeir tóku hana ok drógu belg
+á höfuð henni ok grýttu hana til heljar. Síðan heldu
+þeir heim í Svafa ok létu græða menn sína. Ok þá er
+þeir váru búnir með fjögur ok tuttugu skip, öll vel búin
+at mönnum ok vápnum, lýstu þeir því, at þeir ætla
+at halda til Indíalands.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="7"><p>
+
+Ingjaldr trana hefir mikinn viðbúnað, lét styrkja
+borgarveggi ok safnar at sér múg ok margmenni ok illþýði.
+Þegar þeir fóstbræðr koma við land, brenna þeir
+ok herja. Var allt hrætt við þá. Gera þeir hervirki it
+mesta, áðr Ingjaldr fréttir. Ferr hann nú í móti þeim,
+ok er þeir fundust, tóku þeir til bardaga. Í enga þóttust
+<pb n="198"/>
+
+þeir Hálfdan ok Víkingr komit hafa slíka mannraun.
+Þeir fóstbræðr dugðu mannliga, en er á leið bardagann,
+sneri mannfallinu á Ingjald. Stóð þessi orrosta
+fjóra daga. Þar kom um síðir, at Ingjaldr stóð einn
+upp. Kómu þeir engu sári á hann, ok náliga þótti þeim
+hann fara í lopti sem á jörðu. Þar kom um síðir, at
+þeir báru at honum skjöldu ok handtóku hann. Var
+hann þá settr í fjötur ok bogastrengr á hendr honum.
+Var þá svá myrkt af nótt, at þeim þótti eigi veganda
+at honum, en Víkingr vill eigi náttvíg vega. Þeir hlupu
+í borgina ok tóku Húnvöru ok Ingibjörgu ok fluttu
+til skipa ok lágu þar um nottina, en um morguninn
+váru varðmenn dauðir, en Ingjaldr á burtu, en járnin
+lágu eptir óbrotin, en bönd óleyst. Ekki sást járnafar
+á varðmönnum. Þótti Ingjaldr hafa sýnt trölldóm sinn.
+Drógu nú upp segl ok sigldu í haf ok heim til Svíþjóðar.
+Lét Víkingr þá búast við brullaupi ok gekk at eiga
+Húnvöru. Þá hafði Hálfdan uppi orð sín ok bað Ingibjargar
+jarlsdóttur. Var þá send orð Herfinni jarli á
+Ullarakr. En er jarl kom, tók hann þessu vel. Var þat
+at ráðum gert, at Hálfdan fekk Ingibjargar, ok var þegar
+við veizlu búizt ok gerr samgangr þeira. Sátu þeir
+þar um vetrinn. At sumri lögðu þeir í hernað ok höfðu
+tíu skip ok herjuðu um Austrveg ok varð gott til fjár
+ok heldu heim at hausti. Þrjú sumur váru þeir í hernaði
+ok heldu heim at vetrum. Váru engir menn frægri
+en þeir.
+Þat var eitt sumar, at þeir heldu til Danmerkr. Herjuðu
+þeir þar ok lögðu inn á Limafjörð. Þar sáu þeir
+liggja níu skip, dreka it tíunda. Þeir lögðu þegar at
+skipunum ok spyrja, hverr fyrir réði. Hann nefndist
+Njörfi, -- "ok á ek at ráða fyrir Upplöndum í Noregi.
+Hefik nú tekit við föðurleifð minni, en hvert er heiti
+<pb n="199"/>
+
+þeira, er til eru komnir?" Þeir segja til sín. Hálfdan
+segir: "Ek mun bjóða yðr kosti tvá sem öðrum víkingum,
+at þér leggið af fé yðvart, skip ok vápn, en gangið
+lausir á land." Njörfi svarar: "Þat þykki mér harðr
+kostr. Mun ek heldr kjósa at verja fé mitt ok falla með
+drengskap, ef þess verðr auðit, heldr en flýja félausum
+með svívirðing, þott þér hafið lið meira ok skip
+fleiri ok stærri." Víkingr segir: "Ekki skal hafa ódrengskap
+við ok leggja at yðr fleirum skipum en þér hafið,
+ok skulu hjá liggja fimm vár skip." Njörfi segir: "Þat
+er drengiliga mælt." Bjuggust þeir þá til orrostu ok
+tóku til bardaga ok börðust um stafna á skipum sínum.
+Var þar in ákafasta sókn, því at Njörfi barðist alldjarfliga,
+en þeir fóstbræðr gengu hart fram.
+Þrjá daga börðust þeir. Þóttust menn eigi vita, hvárir
+sigrast mundu. Víkingr mælti: "Er mikit fé á skipum
+yðrum?" Njörfi kvað þat eigi vera, -- "því at þar, sem
+vér höfum herjat í sumar, hafa bændr flúit undan með
+fé sitt. Hefir því orðit lítit til fjár." "Óvitrligt þykki
+mér þat," segir Víkingr, "at berjast ekki nema fyrir
+kapp eitt ok spilla þar til margs manns blóði, eða viltu,
+at vit gerum félag með okkr?" "Gott mun mér við þik
+félag at leggja," segir Njörfi, "þótt þú sért eigi konungborinn.
+Veit ek, at faðir þinn var jarl ok ágætr maðr.
+Vil ek með því fóstbræðralag binda, at þú heitir jarl,
+en ek konungr, sem vit erum til bornir, hvárt vit erum
+í mínu ríki eða öðrum." Hálfdan þagði hjá, er þeir
+töluðust við. Víkingr spyrr, hví hann væri svá tillagafár.
+Hálfdan mælti: "Mér þykkir sem vel sé, þótt þit
+játið slíku, en eigi kemr mér þat á óvart, þótt þú kennir
+nokkurn þunga af einhverjum þeim, er Njörfi er nástæðr.
+Vil ek hér engan hlut í eiga, hvárki letja né
+fýsa."
+<pb n="200"/>
+
+Var þetta gert, at Njörfi ok Víkingr sættust ok sórust
+í fóstbræðralag eptir þvílíkum skildaga sem áðr var
+sagt ok lögðu í hernað um sumarit ok öfluðu mikils
+fjár ok skildu at hausti. Helt Njörfi til Noregs, en Víkingr
+til Svíþjóðar. Var Hálfdan í ferð með honum.
+En er Víkingr hafði eigi lengi heima verit, tók Húnvör
+sótt ok andaðist. Þau áttu eptir einn son, er Hringr
+hét. Hann óx upp í Svíaveldi, þar til sem hann var
+fulltíða at aldri, ok varð þar konungr ok var skammlífr,
+ok er margt manna frá honum komit. En þeir
+lágu í hernaði hvert sumar fóstbræðr ok urðu frægir
+ok safna fjölda skipa, svá at þeir höfðu fjóra tigi skipa.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="8"><p>
+
+Þat er at segja frá Ingjaldi trönu, at hann safnar
+ógrynni hers ok leitar at þeim fóstbræðrum, Víkingi
+ok Hálfdani. Þat var eitt sumar, at þeir fundust í Austrvegi.
+Hafði Ingjaldr fjóra tigi skipa. Slær þar í bardaga.
+Berjast þeir svá, at ekki mátti í milli sjá, hvárir
+vinna mundu. Um síðir réð Víkingr til uppgöngu á
+dreka Ingjalds ok Njörfi þegar eptir honum ok Hálfdan,
+ok ruddust um fast, svá at þeir drepa hvern mann
+eptir annan. Þá veðr Ingjaldr aptr eptir drekanum ok
+hafði atgeir stóran at vega með. Sóttu þeir fóstbræðr
+nú at Ingjaldi, ok var þat lengi dags, at þeir kómu
+engu sári á hann, ok þá er Ingjaldi þótti fast at herða,
+stökk hann fyrir borð ok Njörfi ok Hálfdan eptir honum,
+ok leggjast hvárir, er meira geta. Víkingr létti eigi
+fyrr en hann hafði drepit hvern mann á drekanum.
+Síðan hljóp hann í bát ok reri til lands. Ingjaldr lagðist
+þar til, er hann kemst at landi. Þá kómu þeir framan
+í lágarða Hálfdan ok Njörfi. Ingjaldr greip upp stein
+<pb n="201"/>
+
+ok fleygði til Hálfdanar, en hann skýtr sér undan í
+kaf. Njörfi komst á land í því ok Hálfdan í öðrum stað.
+Sóttu þeir at Ingjaldi í ákafa, ok er þat hafði gengit
+lengi, þá heyrðu þeir gný mikinn. Litu þeir þangat,
+sem þeim heyrðist gnýrinn, en er þeir litu aptr, var
+Ingjaldr horfinn, en í staðinn kominn grimmligr göltr
+ok lét ekki ógert. Sótti hann þá at þeim, svá at þeir
+máttu ekki annat gera en verja sik. Ok er þat hafði
+gengit nokkura stund, sneri göltrinn at Hálfdani ok
+greip allan kálfann af vinstra fæti honum. Í því kom
+Víkingr at ok höggr um þvera burstina á geltinum, svá
+at í sundr tók hrygginn. Sáu þeir, at Ingjaldr lá þar
+dauðr. Tóku þeir síðan eld ok brenndu hann upp at
+köldum kolum; fóru nú til skipa sinna ok binda sár
+Hálfdanar.
+Eptir þat halda þeir í burt ok norðr til eyjar þeirar,
+er Þruma heitir. Þar réð fyrir sá maðr, er Refill hét,
+sonr Mæfils sækonungs. Hann átti þá dóttur, er Finna
+hét. Hún var kvenna fríðust ok bezt at sér ger um
+alla hluti. Hálfdan bað hennar, ok með atgangi Njörfa
+konungs, en vaskleika Víkings, fekk hann þetta ráð.
+Léttu þeir fóstbræðr þá hernaði sínum. Settist ok Njörfi
+konungr at ríki sínu. Staðfestist Víkingr þar ok varð
+jarls hans, en Hálfdan gerðist hersir ríkr ok bjó á þeim
+bæ, er í Vágum hét. Þar var stórr fjallvegr í millum,
+er Víkingr jarl átti fyrir at ráða. Heldu þeir sinni vináttu,
+meðan þeir lifðu, en færa var með þeim Hálfdani
+ok Njörfa.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="9"><p>
+
+Sá konungr réð fyrir Firðafylki, er Óláfr hét ok var
+Eysteinsson, bróðir Önundar, föður Ingjalds illráða.
+<pb n="202"/>
+
+Allir váru þeir ótryggvir ok illir viðrskiptis. Hann átti
+sér dóttur þá, er Bryngerðr hét. Njörfi fekk hennar ok
+hafði hana með sér ok átti við henni níu sonu: Jökull
+var elztr þeira bræðra, Óláfr hét annarr, Grímr, Geitir,
+Teitr, Tyrfingr, Björn, Geirr, Grani ok Tóki. Þeir váru
+allir efniligir menn. Þó var Jökull langt fyrir þeim um
+alla atgervi. Metnaðarmaðr var hann svá mikill, at honum
+þótti ekki koma til jafns við sik. Óláfr gekk næst
+honum um allar íþróttir, en óeirinn ok ódæll um allt
+ok ójafnaðarfullr. Svá mátti kalla þá alla bræðr, ok
+váru miklir menn fyrir sér.
+Víkingr átti ok níu sonu: Þorsteinn hét inn elzti sonr
+hans, annarr Þórir, Finnr, Úlfr, Steinn, Hrómundr,
+Finnbogi, Eysteinn ok Þorgeirr. Váru þeir efniligir menn
+ok íþróttamenn miklir. Þó var Þorsteinn fyrir þeim
+um alla hluti. Hann var manna mestr ok sterkastr, vingóðr
+ok vinfastr, tryggr ok trúr í öllum hlutum, seinþreyttr
+til allra vandræða, en galt grimmliga, ef hans
+var leitat. Varla þóttust menn vita hversdagliga, hvárt
+honum þótti vel eða illa, þótt mót honum væri gert,
+en löngu síðar lét hann sem nýgert væri. Þórir var
+skjótlyndr ok ákafamaðr inn mesti. Svall honum allt
+á æði, ef honum var mein gert eða í móti skapi. Sást
+hann ok ekki fyrir, við hverja sem um var at eiga eða
+hvat eptir kom, ok lét þat allt verða fram at ganga, er
+honum kom í hug at gera. Allra manna var hann fimastr
+á alla leika ok manna sterkastr. Hann gekk næst
+Þorsteini, bróður sínum.
+Þessir ungu menn óxu upp allir senn í ríkinu.
+Á fjallveg þeim, er millum var byggða Víkings ok
+Hálfdanar, var ein gjá furðu djúp. Þrjátigi alna var
+þar yfir gjána, er stytzt var. Kómust þar engir menn
+yfir, ok því váru engir vegir yfir þat fjall. Þat höfðu
+<pb n="203"/>
+
+þeir Njörvi konungr ok Víkingr jarl ok Hálfdan prófat,
+hversu þeim gekk at hlaupa yfir gjána, ok gekk Víkingr
+í öllum herklæðum sínum, en Njörfi bjó sik sem
+léttligast til, en Hálfdan með því einu, at Víkingr tæki
+í móti honum.
+Sátu þeir nú allir um kyrrt langan tíma. Rénaði aldri
+vinátta þeira Víkings jarls ok Njörfa konungs.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="10"><p>
+
+Þeir Njörfi ok Víkingr gerðust gamlir at aldri. Tóku
+synir þeira mjök at vaxa. Jökull gerðist ofstopamaðr
+mikill ok óeirinn um alla hluti. Nær var um aldr þeira
+Njörfasona ok Víkingssona. Váru þá, er þessi saga gerðist,
+inir yngstu tólf vetra, en þeir Þorsteinn ok Jökull
+á tvítugs aldri. Þeir lögðu leika með sér Njörfasynir
+ok Víkingssynir, ok gekk engu verr Víkingssonum. Á
+því lék konungssonum mikill metnaðr. Var Jökull í
+því sem öllu öðru inn kappsamasti. Var þat auðsét, at
+Þorsteinn eirði undan í öllum hlutum. Ekki varð Þorsteini
+þat til ámælis. Þorsteinn bar langt af bræðrum
+sínum ok öllum öðrum, þeim er menn til vissu. Hafði
+Víkingr jarl varat við sonu sína, at þeir skyldi eigi halda
+til kapps við konungssonu um neina leika, spara heldr
+afl sitt ok framgirni.
+Þat var einn dag, at þeir höfðu knattleika konungssynir
+ok Víkingssynir. Gekk þá enn með miklu kappi
+fyrir þeim Njörfasonum. Hlífðist Þorsteinn þá enn við
+eptir vanda. Þeim Jökli var skipat saman, en þeim Óláfi
+ok Þóri ok svá hverjum sem aldr hafði til. Gekk nú
+svá um daginn. Þat bar til, at Þórir setti niðr knöttinn
+svá hart, at hann stökk yfir Óláf ok kom fjarri niðr.
+Óláfr reiddist þá ok þótti Þórir gera leik til sín. Sótti
+<pb n="204"/>
+
+hann þá knöttinn. En er hann kom aptr, váru menn í
+leysingu ok ætluðu heim at fara. Óláfr sló þá með
+knatttrénu til Þóris, en er hann sá þat, hljóp hann
+undir höggit, ok kom tréit í höfuðit, ok sprakk fyrir.
+Þorsteinn hljóp þá í milli ok fleiri menn aðrir. Urðu
+þeir þá skildir. Jökull mælti: "Eigi mun yðr þetta
+mikils þykkja vert, þótt Þórir fengi einn hnekkistikil
+í höfuðit." Þórir roðnaði við orð Jökuls, ok skildu við
+svá búit. Þórir mælti þá: "Mér hafa legit eptir glófar
+mínir. Mun Jökull virða mér til hræðslu, ef ek þori
+ekki at sækja þá." Þorsteinn mælti: "Eigi þykki mér
+þat ráð, at þit Óláfr finnizt." "Fara mun ek sem áðr,"
+segir Þórir, "því at þeir eru heim farnir." Þórir gekk
+þá snúðigt aptr, ok er hann kom aptr á leikvöllinn,
+váru þeir allir á burt. Þórir gekk þá heim á veg til
+hallarinnar. Þat var allt jafnsnemma, at konungssynir
+kómu heim til hallarinnar ok stóðu undir hallarveggnum.
+Þórir snaraðist þá at Óláfi ok lagði at honum miðjum
+með spjóti, svá at í gegnum stóð. Snerist hann þá
+á burt, ok festu þeir eigi fang á honum. Styrmdu þeir
+þá yfir Óláfi dauðum, en Þórir fór, til þess er hann
+fann bræðr sína. Þorsteinn spyrr þá: "Hví er blóð á
+spjóti þínu, frændi?" "Því," segir Þórir, "at ek veit eigi,
+nema hann Óláfr hafi skeinzt á oddinum." "Þá muntu
+segja hann dauðan," segir Þorsteinn. "Mér þykkir verða
+mega," segir Þórir, "þótt Jökull sé atgervismaðr um
+flest, at þó fái hann eigi grætt Óláf, bróður sinn." "Illa
+er nú orðit," segir Þorsteinn, "því at ek veit, at föður
+mínum mislíkar."
+En er þeir kómu heim, var Víkingr jarl úti ok var
+allfálátr. Hann mælti: "Svá fór sem mik varði um þik,
+Þórir, at þú mundir mestr ógæfumaðr af öllum mínum
+sonum. Þykkir mér þú nú þat hafa sýnt, er þú
+<pb n="205"/>
+
+hefir orðit at bana sjálfum konungssyninum." "Þat er
+nú ráð, faðir, at hjálpa syni þínum, þótt hann hafi
+hrapat í ógiftu. Hefir þú nóg brögð til þess. Þykki mér
+þú þat enn sýnt hafa, er þú vissir fyrir víg Óláfs ok
+sagði þér þat engi." Víkingr sagði: "Eigi vinn ek þat
+til lífs Þóris at rjúfa eiða mína, því at vit Njörfi konungr
+höfum þat svarit báðir, at hvárr skyldi öðrum
+trúr ok hollr bæði leyniliga ok opinberliga. Þat hefir
+hann haldit í öllum greinum. Nú vil ek því eigi hafa
+verr en hann, at ek haldi stríði í móti honum, því at
+þat var eitt skeið, at mér var Njörfi konungr ekki
+óástfólgnari en synir mínir. Þarf ok ekki um þat at
+tala, at ek veiti Þóri enga hjálp. Skal hann ok burt
+verða ok koma aldri fyrir mín augu." Þorsteinn mælti:
+"Hví munu vér þá ekki allir í burt fara bræðr, því at
+ekki munu vér við Þóri skilja? Skal ok eitt yfir okkr
+ganga." "Því ræðr þú, frændi," segir jarl, "en mikil
+þykki mér ógifta Þóris, ef þat hlýzt af honum, at ek
+missi sonu mína alla ok þar með vináttu konungs, er
+bezt er at sér gerr um alla hluti, ok hér með þat lítils
+er vert, at ek missi lífit. En þat eina gleðr mik, at
+engum mun lagit verða at standa yfir þínum höfuðsvörðum,
+en þó mun þér nær ekit verða, ok muntu
+þat allt af Þóri hljóta, en þó er skaði at honum nokkurr
+fyrir karlmennsku sakir. Nú er hér sverð, Þorsteinn
+frændi, er ek vil gefa þér, er Angrvaðill heitir, ok hefir
+jafnan fylgt því sigr. Þat tók faðir minn af Birni blátönn
+dauðum. Ekki hefik fleira vápna, svá at afbragð
+sé á, utan kesju forna, er ek tók af Háreki járnhaus,
+ok veit ek, at hún er engum manni vápnfær. Nú ef
+þú vilt burt fara, Þorsteinn frændi, þá legg ek þat til
+með þér, at þú farir upp til vatns þess, er heitir Vænir.
+Þar mun standa bátr einn í hrófi, er ek á. Far á honum
+<pb n="206"/>
+
+í hólm þann, er liggr í vatninu. Þar mun vera í
+skáli ok svá mikill kostr ok klæði, at yðr megi nægja
+um tólf mánuði. Geymið vel bátinn, því at ekki eru
+fleiri skip í nánd."
+Síðan skildu þeir feðgar. Allir höfðu þeir góð klæði
+ok herklæði, er faðir þeira hafði fengit þeim, áðr þetta
+varð. Þorsteinn fór ok bræðr hans, þar til er þeir fundu
+bátinn, reru í hólminn ok fundu skálann. Var þar allnóg
+þat, er hafa þurfti, ok settust þar um kyrrt.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="11"><p>
+
+Nú er þar til at taka, at Jökull ok þeir bræðr sögðu
+víg Óláfs föður sínum, -- "ok er eigi til annat," segir
+Jökull, "en safna liði, fara heim at Víking ok brenna
+hann inni ok sonu hans alla, ok væri þó varla fullhefnt
+Óláfs." Njörfi segir: "Þat banna ek með öllu,
+at nokkurt mein sé Víking gert. Veit ek, at þetta eru
+ekki hans ráð um líf sonar míns. Eru hér allir saklausir
+af nema Þórir. En vit Víkingr höfum svarizt í
+fóstbræðralag. Hefir hann þat allt bezt haldit. Skal ek
+ok engan ófrið efla honum á hendr. Þykki mér Óláfr
+ekki at bættari, þótt Þórir sé drepinn ok aukinn svá
+harmr Víkingi." Fekk Jökull nú engan styrk af föður
+sínum til þessa. Var Óláfr heygðr eptir vanda fornum.
+Tók Jökull þá at halda sveit manna. Njörfi konungr
+tok fast at eldast, svá at Jökull hafði landvörn at mestu.
+Þat var einn dag, at tveir menn gengu fyrir Njörfa,
+ok váru báðir í bláum heklum. Þeir kvöddu konung.
+Konungr spurði þá af heiti. Annarr nefndist Gautan,
+en annarr Ógautan. Þeir beiddu konung vetrvistar.
+Konungr sagði: "Illa lízt mér á ykkr. Mun ek ekki
+<pb n="207"/>
+
+við ykkr taka." Jökull mælti: "Eruð þit íþróttamenn
+nokkurir?" Ógautan mælti: "Lítit er allt um þat, en
+þó vitum vit fleira en okkr er sagt." "Þá þykki mér
+ráð," segir Jökull, "at þit farið í flokk minn ok verið
+með mér." Svá gerðu þeir. Jökull gerði við þá vel.
+Þat hafði frétzt til konungs hallar, at Víkingr hafði
+rekit burtu sonu sína. Jökull vildi því ekki trúa ok
+fór til Víkings með mikit fjölmenni. Víkingr frétti,
+hvat hann vildi. Jökull spyrr, hvat hann vissi til óhappamannsins
+Þóris. Víkingr kvaðst hafa rekit þá burt ok
+þeir væri ekki þar. Jökull beiddist at rannsaka herbergi.
+Víkingr lét þat til reiðu, en segir konung þat eigi ætlat
+hafa, at hann mundi bregðast sér. Rannsökuðu þeir
+húsin ok fundu eigi, sem ván var, ok fóru heim við
+svá búit. Þótti Jökli illa, er hann spyrr ekki til þeira
+bræðra. Jökull mælti þá til þeira Ógautans: "Muntu
+ekki víss verða með listum þínum, hvar þeir bræðr
+eru niðr komnir?" "Eigi mun þat," segir Ógautan. "Þú
+skalt fá okkr bræðrum eitt hús at sofa í, ok þar skal
+engi koma fyrr en þú ok þó eigi fyrr en á þriggja
+daga fresti." Lét Jökull svá gera. Var þeim fengin ein
+skemma at sofa í. Jökull lagði ríkt við, ef nokkurr
+nefndi þá, ok skyldi engu fyrir týna nema lífinu.
+Snemma þenna dag kom Jökull í skemmuna til þeira
+bræðra. Ógautan mælti þá: "Þú ert bráðlátr, Jökull,
+því at ek er nývaknaðr, en þó má ek segja þér til Víkingssona.
+Þú munt vita, hvar vatn þat er, sem Vænir
+heitir. Þar stendr í hólmr ok skáli. Þar eru þeir
+Víkingssynir." Jökull mælti: "Ef þetta er sem þú segir,
+þá sé ek enga ván til, at þeim verði nát " Ógautan
+mælti: "Allt þykki mér þér verða sem móðurlausu
+barni, ok litlu ætla ek þú orkir, ef þú ert einn at. Nú
+vil ek," segir Ógautan, "segja þér, at ek á einn belg,
+<pb n="208"/>
+
+þann er veðrbelgr heitir, en ef ek hristi hann, þá stendr
+ór honum stormr ok vindr með svá stórri grimmd ok
+kulda, at innan þriggja nátta skal lagðr svá sterkr íss
+á vatnit, at ríða skal mega hestum, þótt vili." "Þat er
+þó satt at segja," sagði Jökull, "at þú er mikill listarmaðr,
+ok má með þessu einu komast í hólmann, því
+at skip eru ekki nema við sjó, ok færir þau engi svá
+langan veg." Eptir þat tók Ógautan belg sinn ok hristi.
+Kom þar ór mikil óveðran sakir fjúks grimmdar, at
+engi maðr mátti úti vera. Þótti mönnum þetta undrum
+gegna. En at liðnum þremr nóttum var hvert vatn
+ok fjörðr lagðr. Jökull safnar mönnum saman, ok verða
+þrír tigir manna. Ekki var Njörfa konungi um þessa
+ferð, sagði sér svá hugr um segja, at honum mundi
+aukast harmr, en minnka eigi, -- "mun ek missa í þessari
+ferð flesta alla sonu mína ok marga menn aðra.
+Mundi svá betr hafa verit, er ek vildi í fyrstu, at vér
+hefðim sætzt við Þóri ok haft vináttu Víkings jarls ok
+sona hans."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="12"><p>
+
+Nú býst Jökull við þrjá tigi manna ok at auk Gautan
+ok Ógautan. Þenna morgun vaknar Þorsteinn í skála
+sínum ok mælti: "Vakir þú, Þórir?" "Vaki ek," segir
+hann, "en sofit hefi ek hér til." "Þat vil ek," segir
+Þorsteinn, "at vér búumst burt ór skálanum, því at
+ek veit, at Jökull kemr hér í dag við marga menn."
+"Ekki hygg ek þat," segir Þórir, "ok vil hvergi fara,
+eða hvat hefir þú at marki?" "Mik dreymdi," segir
+Þorsteinn, "at hingat runnu þrjátigi vargar, ok váru
+sjau bjarndýr ok inn áttundi rauðkinni, hann var mikill
+<pb n="209"/>
+
+ok grimmligr, ok at auk tvær refkeilur. Þær fóru fyrir
+flokkinum ok váru heldr illiligar, ok á þeim var mér
+mestr óþokki. Vargarnir sóttu at oss allir, ok þótti mér
+þar koma um síðir, at þeir rifu í sundr alla bræðr mína
+nema þik einn, ok þó felltu. Marga þótti mér vér drepa
+björnuna, en alla drap ek vargana ok ina minni refkeiluna,
+enda fell ek þá." "Hvat ætlar þú merkja draum
+þenna?" segir Þórir. "Þat ætla ek," segir Þorsteinn, "at
+rauðkinni sá inn stóri sé fylgja Jökuls, en birnirnir sé
+fylgjur bræðra hans, en vargarnir munu mér sýnzt hafa
+svá margir sem menn munu vera með þeim, því at
+þeir munu hafa varga hug á oss, en þar at auk váru
+refkeilur tvær. Þekki ek ekki þá menn, er þær fylgjur
+munu eiga. Þat ætlak, at þeir sé nýkomnir til Jökuls
+ok munu vera óþokkasælir af flestum mönnum. Nú
+hefik sagt þér þessa ætlan, ok munu vár skipti svá fara
+sem mér hefir þótt í svefninum. Vilda ek, at vér forðuðumst
+vandræði." "Ekki ætla ek þetta nema draumaskrímsl,"
+segir Þórir, "ok hugarboð þitt, enda væri eigi
+ógaman, þótt vér reyndum með oss." "Ekki þykki mér
+svá," kvað Þorsteinn, "ok hygg ek, at ójafnliga sé til
+ætlat. Vilda ek, at vér bjuggumst í burt." Þórir kveðst
+þat eigi vilja, ok varð svá at vera. Þorsteinn stóð upp
+ok tók vápn sin ok svá bræðr hans allir. Þórir var inn
+tómlátasti.
+Var þat allt jafnsnemma, er þeir váru búnir, at Jökull
+kom at með menn sína. Tvær dyrr váru á skálanum.
+Varði Þorsteinn dyrr aðrar ok þrír bræðr hans, en Þórir
+aðrar við fimmta mann. Tókst þá sókn in harðasta.
+Vörðust þeir bræðr harðla vel, en Jökull sótti svá fast
+at þeim dyrum, sem Þórir var við, at þá fellu þrír bræðr
+hans, en einn hrökk ór dyrunum ok þangat, sem Þorsteinn
+var. Varði Þórir þá enn nokkura stund dyrrnar,
+<pb n="210"/>
+
+en vildi með engu móti hopa. Snarast hann þá út ór
+dyrunum ok komst fram á ísinn hjá þeim. Slá þeir þá
+hring í kringum hann, en hann verst ágæta vel. En er
+Þorsteinn sá þat, hleypr hann út ór skálanum ok bræðr
+hans, þeir er eptir lifðu, ofan á ísinn, þar sem Þórir
+var. Varð þá enn hörð hríð. Þorsteinn ok Þórir váru
+mjök stórhöggvir. Þar kom um síðir at, at allir bræðr
+Þorsteins váru fallnir nema Þorsteinn ok Þórir. Fallnir
+váru ok Njörfa synir allir nema Jökull ok Grímr. Þorsteinn
+gerðist þá furðu móðr, svá at hann gat varla
+staðit. Sér hann þá, at hann mun falla. Váru ok allir
+fallnir nema Gautan ok Ógautan af hinum. Þórir var
+þá bæði móðr ok sárr. Þá tók at dimma fast af nótt.
+Þorsteinn snarast þá at Gautan ok leggr Angrvaðli í
+gegnum hann, enda fellr hann þá í valnum. Stóðu þeir
+þá þrír upp Jökull, Grímr ok Ógautan. Leituðu þeir
+þá Þorsteins í valnum. Þóttust þeir þá finna hann, en
+þat var Finnr, bróðir Þorsteins, því at þeir váru svá
+líkir, at hvárugan mátti frá öðrum kenna. Grímr segir
+Þorstein dauðan. Ógautan segir, at þat skyldi ekki um
+grun gera, ok hjó af honum höfuðit, ok blæddi eigi,
+því at Finnr var dauðr. Síðan fóru þeir burt ok heim.
+Spyrr Njörfi konungr, hversu farit hefði með þeim.
+Lét konungr lítt yfir ferð þeira ok kveðst nú hafa fengit
+meiri skaða en þótt hann missti Óláfs, sonar síns, látit
+nú sjau sonu sína ok fjölda annarra manna. Settist
+Jökull nú um kyrrt.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="13"><p>
+
+Þat er nú þessu næst, at Þorsteinn liggr í valnum
+ok má sér ekki fyrir mæði, en lítt var hann sárr. En er
+á leið nottina, heyrði hann, at vagn gekk eptir ísnum.
+<pb n="211"/>
+
+Þar næst sá hann, at maðr fylgdi vagninum. Hann
+kenndi þar föður sinn. Ok er hann kom at valnum,
+ruddist hann um fast ok kastaði þeim dauðu frá sér
+ok öllum harðara konungs sonum. Sá hann, at allir
+váru dauðir nema Þorsteinn ok Þórir. Spurði hann þá,
+hvárt þeir mætti nokkut mæla. Þórir kvað þat satt vera.
+Þó sá Víkingr, at hann flakti sundr af sárum. Þorsteinn
+kvaðst ekki sárr vera, en móðr mjök. Víkingr tók Þóri
+í fang sér. Þótti Þorsteini hann þá enn sterkliga til
+taka, þótt hann væri gamall. Þorsteinn gekk sjálfr at
+vagninum ok lagði sik upp í með vápnum sínum. Síðan
+leiddi Víkingr vagninn. Veðrit tók at þykkna ok blána,
+ok svá skjótt skipaðist um, at í senn á lítilli stundu
+þótti Víking sem allr íssinn færi í burt. Var þat mjök
+jafnsnemma, at þeir kómu at landi ok íssinn var allr
+af vatninu. Síðan fór Víkingr heim í svefnskála sinn.
+Þar var jarðhúss munni hjá rekkju hans, ok lét hann
+þá þar í niðr. Var þar nóg drykkr ok vist ok klæðnaðr
+ok allt þat hafa þurfti. Græddi Víkingr Þóri, son sinn,
+því at hann var góðr læknir. Annarr endir á húsinu
+var í skógi. Þar varaði Víkingr syni sína við sem mest,
+at þeir skyldi aldri ór jarðhúsinu koma, því at hann
+kvað Ógautan þegar vísan verða, at þeir væri á lífi,
+"eigum vér þá skjótt ván ófriðar." Þeir hétu góðu um
+þat. Leið nú þar til, at Þórir var alheill.
+Gekk þat nú um öll heruð, at þeir væri nú allir
+dauðir Víkingssynir. Þó kom á nokkurr pati af Ógautan,
+at eigi væri víst, hvárt Þórir væri dauðr. Bað Jökull
+hann þá eptir leita, ef hann mætti víss verða, hvar
+Þórir væri niðr kominn. Lagðist Ógautan þá djúpt ok
+var þó aldri vísari heldr um Þóri.
+Þat var einn dag, at Þórir mælti við Þorstein: "Daufligt
+þykki mér hér í jarðhúsinu. Nú er veðr gott, ok
+<pb n="212"/>
+
+vil ek, at vit förum á skóg at skemmta okkr." "Eigi
+vil ek þat," segir Þorsteinn, "því at vit brjótum þá
+boðorð föður okkars." "Fara skal ek sem áðr," segir
+Þórir. Þorsteinn nennti eigi eptir at vera. Fóru þeir
+þá á skóginn um daginn ok skemmtu sér. En um kveldit,
+er þeir ætluðu heim at ganga, sáu þeir, hvar ein refkeila
+lítil fór. Hún viðraði í allar ættir ok snuðraði
+undir hverja eik. Þórir mælti: "Hverr ófagnaðr er þetta,
+frændi, er hér ferr?" "Eigi veit ek þat gerla," segir
+Þorsteinn. "Ek þykkist einn tíma hafa sét þat kvikendi,
+er þessu er líkt, en þat var um nóttina í skálanum, áðr
+Jökull kom þar, ok er þat ætlan mín, at þetta sé bikkjustakkrinn
+Ógautan." Tók hann þá spjót ok skaut at
+refkeilunni, en hún smó niðr í jörðina. Ganga þeir nú
+heim í jarðhúsit ok létu sem ekki sé í orðit. Litlu síðar
+kom Víkingr jarl þar ok mælti: "Nú hafið þit illa
+gert, er þit hafið brotit boð mitt ok verit úti af jarðhúsinu,
+ok er Ógautan víss orðinn, at þit eruð hér.
+Þykki mér ván, at þeir bræðr komi hér skjótt með
+ófriði."
+</p></div>
+
+<div type="textpart" subtype="chapter" n="14"><p>
+
+Litlu síðar kom Ógautan at máli við Jökul ok mælti:
+"Þat er þó sannast, at ek er þér önnur höndin ok eigi
+in vinstri." "Hvat er nú um þat?" segir Jökull. "Þat,"
+segir Ógautan, "at ek er nú víss orðinn, at þeir bræðr
+Þórir ok Þorsteinn eru á lífi ok eru hjá Víkingi á
+laun." "Þá skal ek," segir Jökull, "safna mönnum ok
+létta eigi fyrr en vér höfum þeira líf." Fekk Jökull
+átta tigi manna. Váru þar í þrír tigir hirðmanna konungs.
+Váru þessir allvel búnir at klæðum. Váru þeir
+búnir um kveldit ok ætluðu at fara um morguninn.
+<pb n="213"/>
+
+Þar váru komnir tveir umferðapiltar. Hét annarr
+Vöttr, en annarr Þumall. En er þeir váru komnir í
+sæng um kveldit, mælti Vöttr til Þumals: "Þykki þér
+ekki ráð, bróðir, at vit stöndum upp ok förum til Víkings
+ok segjum honum fyrirætlan Jökuls, því at ek veit,
+at þat er bani Víkings, ef þeir koma honum á óvart,
+en vit erum skyldir at koma honum at liði." Þumall
+segir: "Allheimskr ertu, þykki þér eigi sem varðmenn
+munu verða varir við okkr, ef vit förum um nætr, ok
+erum vit þá drepnir ok komum vit þá Víking at engu
+liði?" "Jafnan sýnir þú þat," segir Vöttr, "at þú ert
+dáðlauss, ok þótt þú þorir hvergi at hræra þik, þá skal
+ek þó fara ok gera Víking varan við, því at mér þætti
+þá vel keypt, þótt ek fengi bana, ef Víkingr heldi lífi
+sínu ok synir hans, því at hann hefir mér opt gott
+gert." Stóð Vöttr þá upp ok klæddist, ok svá gerði
+Þumall, því at hann nennti þá eigi eptir at liggja. Fóru
+þeir síðan leið sína, ok kómu þeir til Víkings um miðnætti
+ok vöktu hann af svefni. Sagði Vöttr honum, at
+Jökuls var þangat ván með mikit fjölmenni. Víkingr
+mælti: "Vel hefir þú gert, Vöttr minn, svá at launa
+væri vert." Kallar Víkingr saman menn af næstum
+byggðum. Fekk hann þrjá tigi manna. Hann gekk þá
+ofan í jarðhúsit til sona sinna ok sagði þeim, hvat þá
+var um at vera. Þórir mælti: "Þeir skulu fá viðnám,
+ef þeir koma. Munum vér ganga upp ór jarðhúsinu
+ok berjast með þér." "Eigi skal þat," segir Víkingr,
+"vér skulum sjá fyrst, hversu gengr með oss, ok ef mér
+þykkir óvænliga horfa, þá mun ek fara upp á, þar er
+jarðhús ykkart er undir, ok gera mikit um mik. Skuluð
+þit þá veita mér lið." Þorsteinn segist svá gera skyldu.
+Síðan gekk Víkingr á burt. Var þá dagr. Vápnaðist hann
+þá ok allir hans menn. Hann tók þá kesjufleininn
+<pb n="214"/>
+
+Háreksnaut í hönd sér. Ætluðu allir, at hann mundi ekki
+vápnhæfr sakir þunga, svá gamall sem hann var. Þótti
+þá undarliga við bregða, af því at þá er Víkingr var
+kominn í herklæði sín, þótti hann vera ungr í annat
+sinn. Hlaðgarðr hár ok víðr var fyrir bæ Víkings, ok
+var þat it bezta vígi. Þar bjóst hann fyrir ok menn
+hans. Vápn váru fengin Vetti ok Þumli.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="15"><p>
+
+Nú er þar til at taka, at Jökull bjóst snemma um
+morguninn með allt sitt lið ok léttir eigi fyrr en hann
+kom til byggða Víkings. Stóð Víkingr úti fram á
+hlaðgarðinum ok bauð Jökli ok öllum hans mönnum. Jökull
+segir: "Annars ertu makligr frá oss en vér þiggjum
+boð þitt. Er þat erindi várt hingat, at þú selir fram
+óhappamennina Þorstein ok Þóri." "Eigi mun ek þat
+gera," segir Víkingr, "en þó mun ek eigi þræta, at hér
+váru synir mínir báðir, en þó mun ek þá eigi yfirgefa
+heldr en sjálfan mik. Megið þér nú at sækja, ef þér
+vilið, en ek mun verja ok mínir menn." Þeir gerðu þá
+harða atsókn, en Víkingr varði röskliga ok hans menn.
+Gekk svá nokkura hríð. Þá réð Jökull til uppgöngu
+á garðinn. Þeir Víkingr drápu marga menn. Tóku þá
+at falla allir menn hans. Fór Víkingr þá upp á jarðhúsit
+ok berr hart á skjöldinn ok gerði mikit hark af
+sér. Þórir heyrir þat ok mælti við Þorstein, at þeir skyldi
+flýta sér -- "ok munu vit þó vera seinir, því at ek
+hygg, at faðir okkarr sé fallinn." Þorsteinn kvaðst albúinn,
+ok er þeir kómu út, stóðu eigi fleiri menn með
+Víkingi en Vöttr ok Þumall ok þrír menn aðrir. Ekki
+var Víkingr þó enn sárr, en mjök var hann móðr. Þegar
+<pb n="215"/>
+
+þeir bræðr kómu út, snaraðist Þorsteinn þar at, sem
+Jökull var fyrir, en Þórir þar at, sem Ógautan var fyrir
+ok hans menn. Tólf menn Njörfa konungs þeir sóttu
+at Víkingi ok hans mönnum. Víkingr varði sik, en
+sætti ekki áverkum við þá. Björn hét sá, er fyrir þeim
+var. Á lítilli stundu drap Þórir alla fylgdarmenn
+Ógautans ok hjó til hans, en Ógautan steyptist niðr í jörðina,
+svá at í iljar hans var at sjá. Þorsteinn sótti at Jökli.
+Vöttr mælti: "Þat er vel, at þit reynið með ykkr, hvárr
+fræknari er, því at Jökull hefir þat aldri mátt heyra,
+at Þorsteinn hafi verit um nokkura hluti til líka við
+Jökul." Var nú orrosta in harðasta með þeim Þorsteini
+ok Jökli. Svá lauk, at Jökull hrökk út af hlaðgarðinum
+með mörgum stórum sárum. En er Jökull var
+burt farinn, gaf Víkingr líf hirðmönnum konungs,
+þeim er eptir lifðu, ok sendi þá burt með sæmiligum
+gjöfum ok bað þá bera Njörfa konungi vinsamliga
+kveðju sína. Ok er Jökull kom heim, var Ógautan heim
+kominn. Jökull taldi fast á hann, því hann hefði fyrr
+flúit en aðrir, en Ógautan segir, at eigi hefði lengr
+verit vært, -- "má þat ok kalla, at heldr væri þar at
+eiga við tröll en menn," en Jökull kvað mikit mælt
+í því.
+Nokkuru síðar komu heim menn Njörfa konungs, er
+þeir Víkingr höfðu grið gefit, ok sögðu Njörfa konungi
+kveðju Víkings ok allan hans velgerning, er hann
+hafði þeim gert. Konungr svarar: "Ólíkr er Víkingr
+flestum mönnum sakir síns drengskapar ok alls vaskleika.
+Er þat ok satt at segja, Jökull frændi, at ek set
+þvert bann fyrir, at nokkurr ófriðr sé gerr Víkingi heðan
+af." Jökull svarar: "Eigi nenni ek því, at bræðrabanar
+mínir sé í næsta garði mér. Er þat ok skjótt at
+segja, at Víkingr skal aldri í friði fyrir mér né synir
+<pb n="216"/>
+
+hans. Skal ek aldri gefa upp, fyrr en þeir eru í helju."
+"Þá mun ek prófa," segir konungr, "hvárr okkar vinsælli
+er, því at ek skal fara með alla þá, er mér vilja
+fylgja, ok veita Víkingi lið. Þykki mér miklu varða
+um, at þú verðir eigi banamaðr Víkings, því at þá verð
+ek annathvárt at gera, láta drepa þik, ok mun þat illa
+fyrir mælast, eða rjúfa eiða mína, er ek hefi svarit, at
+hefna Víkings, ef ek lifða honum lengr." Lauk hann
+svá sínu tali.
+Víkingr kom at máli við sonu sína ok mælti: "Ekki
+hefi ek traust til at halda ykkr hér fyrir ríki Jökuls,
+en hitt er þó meira, at ek vil ekki, at nokkurt misþykki
+komi millum okkar Njörfa konungs." Þorsteinn
+mælti: "Hvert ráð viltu þá sjá fyrir okkr?" Víkingr
+mælti: "Hálfdan heitir maðr ok ræðr fyrir Vágum. Þat
+er öðrum megin fjalls þess, er hér stendr. Hann er fornvinr
+minn ok fóstbróðir. Þangat sendi ek ykkr til
+trausts. Þó eru margar torfærur á veginum, skálabúar
+tveir, hvárr öðrum verri viðreignar. Heitir annarr Sámr,
+en annarr Fullafli. Gramr heitir hundr Fullafla ok er
+litlu betri viðreignar en skálabúi. Nú þótt þit komizt
+undan þeim báðum, þykki mér eigi víst, hvárt þit komizt
+til Vága, því at gjá ein gengr eptir fjallinu djúp
+ok breið, at ek veit enga menn hafa yfir komizt nema
+oss fóstbræðr. Þó þykki mér líkara, at Þorsteinn mundi
+yfir komast, en eigi treysti ek Þóri." Litlu síðar bjuggust
+þeir bræðr til ferðar ok höfðu vápn sín öll. Þá gaf
+Víkingr Þóri kesjuna. Gull eitt fekk hann Þorsteini
+syni sinum ok bað hann fá Hálfdani til jarteikna.
+"Vertu, Þórir frændi, þolinmóðr," segir Víkingr, "þótt
+Hálfdan sé styggr við þik eða taki lítt á þér ok þínum
+erendum." Skildu þeir feðgar þá. Þótti Víkingi svá
+mikit, at vatnit fór niðr eptir kjálkunum á honum.
+<pb n="217"/>
+
+Víkingr leit eptir þeim ok mælti: "Ekki mun ek sjá
+ykkr á ævi minni. Þó muntu verða gamall maðr, Þorsteinn
+frændi, ok inn mesti frægðarmaðr. Farið nú
+heilir ok vel."
+Sneri karl þá heim, en þeir gengu upp á fjallit ok
+kómu at einum skála um kveldit. Þar var hnigin hurð
+á miðjan klofa. Þórir gekk at hurðinni ok hratt upp
+ok varð þó öllu afli at kosta. Ok er þeir kómu í skálann,
+sáu þeir, at mikill varningr var þar ok alls konar
+birgðir. Sæng stór var þar. Ok er kom at dagsetri,
+kom skálabúi heim ok heldr ófrýnligr. Hann mælti:
+"Ok eru hér komnir óhappamenninir Víkingssynir,
+Þorsteinn ok Þórir, er drepit hafa sjau sonu Njörfa.
+Skal hér ok endir verða á þeira óhöppum, því at mér
+mun lítit fyrir verða at leggja ykkr at velli." "Hverr er
+sá," segir Þórir, "at svá lætr gífrliga upp á okkr?"
+Skálabúinn sagði: "Ek heiti Sámr, sonr Svarts. Fullafli heitir
+bróðir minn, er hér ræðr öðrum skálanum." Þorsteinn
+mælti: "Þat sé ek, at feigð kallar at okkr bræðrum, ef
+þú einn drepr okkr báða, því at ek hirði eigi, þó at
+vit reynum okkr, en Þórir sé hjá." Í því rennr Sámr
+undir Þorstein svá snart, at Þorsteinn varð örtaka fyrir,
+en fell þó eigi. Þórir hleypr þá at ok leggr kesjunni á
+síðuna ok út um aðra. Datt Sámr þá dauðr niðr. Þar
+váru þeir um nóttina ok höfðu góðar náðir, því at
+matr var nógr. Gerðu þeir heitt í skálanum ok höfðu
+ekki fjár þaðan.
+Fóru þeir um morguninn, en at kveldi þess dags
+fundu þeir annan skála. Var sá sýnu stærri. Hurð var
+hnigin á klofa. Þórir gekk at hurðinni ok ætlaði upp
+at hrinda, ok gekk eigi. Hann gekk at með öllu afli,
+ok gekk eigi at heldr. Þorsteinn fór at hurðinni ok
+hratt upp, ok gengu inn. Hlaði með vöru var þar á
+<pb n="218"/>
+
+aðra hönd, en skíðahlaði á aðra. Sæng stór stóð innar
+um þvert, svá at þeim þótti ór hófi ganga vöxtr hennar.
+Öðrum megin var flet mikit, sem rúm væri, kringlótt at
+vexti. Þat þóttust þeir skilja, at hundrinn Gramr
+mundi þar í liggja. Þeir settust þá niðr ok kveyktu
+eld upp fyrir sér. En er langt var af dagsetri, heyrðu
+þeir, at fast var niðr stigit. Því næst var hurðinni upp
+lokit. Þar gekk inn risi furðuliga mikill. Hann hafði
+bjarndýr mikit bundit á bak sér, en fuglakippu fyrir.
+Hann lagði niðr byrðina á gólfit ok mælti: "Fussum!
+Ok eru hér komnir vandræðamenninir Víkingssynir,
+er nú hafa verst orð um landit sakir óhappa sinna.
+Hversu kómuzt þit ór höndum Sáms, bróður míns?"
+"Svá kómumst vit," sagði Þorsteinn, "at Sámr lá eptir
+dauðr." "Í svefni hafið þit svikit hann," segir Fullafli.
+"Eigi var þat," segir Þorsteinn, "því at vit börðumst,
+ok felldi Þórir, bróðir minn, hann." "Ekki skal níðast
+á ykkr í nótt," segir Fullafli. "Skuluð þit bíða morguns
+ok hafa mat sem ykkr líkar." Síðan sundraði skálabúi
+veiði sína ok tók borð ok bar á mat. Tóku þeir þá
+allir til matar. Eptir þat fóru þeir allir til svefns. Lágu
+þeir bræðr tveir saman í vararfeldum. Illa lét hundrinn,
+þá þeir fóru hjá honum. Hvárigir leituðu þar til
+svika við aðra.
+Um morguninn stóðu þeir snemma upp hvárirtveggju.
+Þá mælti Fullafli: "Nú skulum vit Þorsteinn
+reyna með okkr, en Þórir við hund minn í öðrum stað."
+"Þessu muntu ráða," segir Þorsteinn. Gengu þeir þá
+út ok fram á völlinn. Hundrinn hleypr þegar móti Þóri
+með gapanda gini, ok áttu ina hörðustu sókn, því at
+rakkinn sló af sér hvert högg með halanum, en ef hann
+stakk með kesjunni, beit hann af sér hvert lag. Sóttust
+þeir svá eykt dags, at Þórir kom engu sári á hann. Þat
+<pb n="219"/>
+
+var einn tíma, at Grámr skauzt at Þóri ok greip í kálfann
+ok þar ór siga. Í því lagði Þórir kesjunni á hundinn ok
+nísti niðr við vellinum, ok dó Gramr litlu síðar.
+Þat er frá Fullafla at segja, at hann hefir mæki stóran
+í hendi, en Þorsteinn sverð sitt. Þeir áttu bæði harða
+sókn ok langa, því at Fullafli var stórhöggr, en sakir
+þess at Angrvaðill beit svá hlífar sem hold, þá fell Fullafli
+dauðr, en Þorsteinn var ekki sárr.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="16"><p>
+
+Nú búast þeir bræðr í burt ok fóru veg sinn, allt
+þar til þeir kómu at gjá mikilli. Sýndist Þorsteini hún
+vera ill yfirferðar. Þó réð hann til hlaups ok hljóp
+yfir gjána, Þórir þegar eptir. Var þat allt jafnsnemma,
+at Þorsteinn snerist á gjábakkanum ok Þórir var kominn
+framan í gjábakkann ok var búinn at falla bak
+aptr. Í því gat Þorsteinn gripit til hans ok kippti honum
+upp á gjábakkann. Þorsteinn mælti: "Jafnan sýnir
+þú þat, frændi, at þú ert óbilgjarn. Var enn svá, því
+at þat máttir þú vita, at þat var bráðr bani, ef þú fellt
+ofan í gjána." "Nú var eigi þat," segir Þórir, "ok naut
+ek enn þín sem optar."
+Gengu þeir nú veg sinn, allt þar til er þeir kómu
+at móðu einni. Hún var bæði djúp ok ströng. Þorsteinn
+bað þá fyrir leitast, hvar vaðit mundi vera. Þórir
+ferr þegar út á ána, ok er hann kom skammt frá landi,
+kenndi hann ekki niðr. Varð hann þá at kosta sunds.
+Þorsteinn nennti eigi á landi at standa, lagðist út á
+ána eptir honum. Lögðust þeir þá at landi ok undu
+klæði sín. En meðan þeir váru at því, varð grimmd
+svá mikil, at klæði þeira freri ok urðu sem steinn.
+<pb n="220"/>
+
+Máttu þeir ekki í þau komast. Gerði þá hríð mikla.
+Ætla menn, at því veðri muni Ógautan ollat hafa.
+Þorsteinn spyrr Þóri, hvat til ráða væri. "Þykki mér
+ráð," segir Þórir, "at vit stingum klæðum okkrum niðr
+í móðuna, því at í kuldavatni raknar skjótt." Svá gerðu
+þeir, ok með þessu bragði kómust þeir í klæðin, gengu
+síðan, þar til þeir kómu heim á bæinn í Vágum. Læst
+var hurð. Kómust þeir ekki inn. Þá var kveldtími.
+Þeir börðu lengi á dyrum, ok var ekki til gengit. Áss
+lá í túninu tvítugr. Hann tóku þeir ok báru upp á
+húsin ok riðu honum, svá at braka tók í hverju tré.
+Allt fólk var hrætt, er í bænum var, svá at í sína hyrning
+hljóp hverr. Hálfdan gekk þá til dyra ok gekk fram
+á hlaðit. Þeir bræðr gengu þá at honum ok heilsuðu
+upp á hann. Hálfdan svaraði þeim fáliga, en þó spyrr
+hann þá at nafni. Þeir nefndu sik ok sögðust vera synir
+Víkings jarls, segja hann hafi heilsat honum. Hálfdan
+segir: "Ekki kann ek at kalla fóstbræðralagit með okkr.
+Þykki mér sem margr haldi þat til meðallags, en ekki
+betr. Þykki mér sem þit látið þat ekki langt í ættir
+ganga, er þit hafið drepit flestalla sonu Njörfa konungs.
+Þó megið þit inn ganga ok vera hér í nótt, ef þit
+vilið. Gekk hann þá inn undan snúðugt, en þeir eptir.
+Þeir kómu í stofuna. Var þar fátt manna. Ekki váru
+klæði af þeim dregin. Sátu þeir svá um kveldit, þar til
+farit var at hátta. Þá var settr trygill fyrir þá á borðit
+ok grautr í ok sinn spánn í hvárn enda. Þórir tók til
+ok hóf. Þorsteinn mælti: "Misjafnt er þér varit um
+stórlæti þitt." Hann tók upp trygilinn ok kastar utar
+á gólfit, svá at hann brotnaði í sundr. Síðan fóru menn
+til hátta. Höfðu þeir bræðr enga sæng. Var þeim ekki
+svefnsamt um nóttina.
+Þeir stóðu upp snemma um morgin ok bjuggust til
+<pb n="221"/>
+
+<lg>
+<l>ferðar. Ok er þeir kómu út</l>
+<l>fyrir dyrr, kom karl þar ok</l>
+<l>mælti: "Hvat sögðu þit í gær,</l>
+<l>eða hvers synir sögðuzt þit</l>
+<l>vera?" Þórir segir: "Hvat</l>
+<l>muntu nú gerr vita en þá vit</l>
+<l>sögðum þér, at vit várum synir</l>
+<l>Víkings jarls?" Þorsteinn</l>
+<l>mælti: "Hér er fingrgull, er</l>
+<l>hann bað mik fá þér." Þórir</l>
+<l>mælti: "Ek ætla, at sá hafi</l>
+<l>verr, at honum sýnir þar af."</l>
+<l>Þorsteinn mælti: "Vertu eigi</l>
+<l>svá styggr, bróðir. Hér er gullit</l>
+<l>til jarteikna, at þú mundir</l>
+<l>taka við okkr, svá at vit hefðim</l>
+<l>hér traust hjá þér." Hálfdan</l>
+<l>tók við gullinu ok varð glaðr</l>
+<l>við ok mælti: "Hví munda ek</l>
+<l>eigi taka við ykkr ok allt gott</l>
+<l>gera, þat er ek má? Er þat</l>
+<l>skylt sakir Víkings, vinar míns.</l>
+<l>Lízt mér giftuliga á ykkr."</l>
+<l>Þórir mælti: "Satt er þat, sem</l>
+<l>mælt er, at gott er at hafa tvá</l>
+<l>hváptana ok sitt með hvárum</l>
+<l>mæla. Léztu öðruvís við okkr</l>
+<l>í gærkveld, er vit kómum hér.</l>
+<l>Muntu vera in mesta skræfa,</l>
+<l>ok hvervetna ertu slægr." Þorsteinn</l>
+<l>mælti: "Höfum við þol,</l>
+<l>Hálfdan, við bróður minn,</l>
+<l>þó at hann illyrði þik, því at</l>
+</lg>
+<pb n="222"/>
+
+hann er ófyrirleitinn í orðum ok gerðum." "Frétt
+hefi ek þat," segir Hálfdan, "at þú ert manna gerviligastr,
+en Þórir bráðr ok ófyrirleitinn, en þó virðist
+mér sem þú munir vera í öllu stórlyndari." Fóru þeir
+inn, ok váru dregin af þeim klæði ok veittr inn bezti
+beini. Sátu þeir þar um vetrinn í góðu yfirlæti.
+En er várdagar kómu, þá mælti Þorsteinn við Hálfdan:
+"Nú munu vit burtu leita heðan af." "Hvat viltu
+helzt ráða?" segir Hálfdan. "Ek vilda, at þú fengir
+mér skip," segir Þorsteinn, "ok menn á. Mun ek halda
+í hernað ok afla mér fjárhlutar." Hálfdan sagði svá
+skyldu vera. Bjuggust þeir síðan suðr með landi. Þar
+kómu í móti honum tvau skip, er faðir hans hafði sent
+honum, hlaðin af mönnum ok góðum vápnum. Þorsteinn
+sendi aptr þat skip, er Hálfdan hafði fengit
+honum, ok mennina með, en sínu skipi stýrði hvárr
+þeira bræðra. Þeir herjuðu víða um sumarit, ok varð
+þeim gott til fjár ok metnaðar.
+Um haustit kómu þeir at einni ey. Þar réð fyrir sá
+bóndi, er Grímr hét. Hann bauð þeim at sitja þar um
+vetrinn, ok þat þágu þeir. Grímr var kvángaðr ok átti
+sér eina dóttur, er Þóra hét. Hún var mikil vexti ok
+væn at yfirliti. Þórir lagði hug á hana ok sagði Þorsteini,
+bróður sínum, at hann vildi fá hana sér til eiginkonu.
+Þorsteinn ræddi þetta mál við Grím bónda.
+Grímr tók því fjarri. Þorsteinn mælti: "Þá býð ek þér
+á hólm, ok ráði sá okkar dóttur þinni, sem annan vinnr
+á hólmi." Grímr kvaðst þess albúinn. Annan dag eptir
+tóku þeir feld ok köstuðu undir fætr sér ok börðust
+alldrengiliga ok skildu at kveldi, svá at hvárrgi var sárr.
+Börðust þeir dag annan ok þriðja, ok fór á sama veg.
+Þat var einn dag, at Þórir spyrr bóndadóttur, hvat
+valda mundi, at Grímr yrði ekki sigraðr. Hún segir,
+<pb n="223"/>
+
+at steinn sá stæði framan í hjálminum, at því ylli, at
+hann má eigi sigrast, á meðan steininum verðr eigi
+af honum nát. Þetta segir Þórir Þorsteini. Ok inn
+fjórða dag, er þeir börðust, kastar Þorsteinn sverðinu,
+en greip hjálminn tveim höndum svá fast, at slitnuðu
+hjálmböndin. Litlu síðar réð hann á Grím, ok kenndi
+þá aflsmunar. Hafði Þorsteinn hann þá undir ok gaf
+honum líf. Þá spyrr Grímr, hverr hefði sett ráð til
+at taka hjálminn. Þorsteinn segir, at Þóra hefði sagt
+Þóri. "Giftast vill hún þá," segir Grímr. "Skal ok svá."
+Var þat þá ráðit, at Þórir fekk Þóru. Ok at várdögum
+lagðist Þorsteinn í hernað, en Þórir sat eptir. Tókust
+þar upp ástir góðar með þeim Þóru. Þau áttu einn son
+barna, er Haraldr hét. Hann tók kesjufleininn síðan
+eptir föður sinn, ok af honum tók hann nafn ok var
+kallaðr Haraldr kesja.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="17"><p>
+
+Skati hefir konungr heitit. Hann var Eiríksson,
+Myndilssonar, Meitálfssonar. Skati konungr réð fyrir
+í Sogni. Hann átti sér drottningu ok tvau börn. Beli
+hét sonr hans, inn mesti ágætismaðr. Ingibjörg hét dóttir
+hans. Hún var þá eigi í ríkinu, því at hún hafði fyrir
+álögum orðit. Skati hafði verit berserkr ok inn mesti
+víkingr ok ruddi sér til ríkis í Sogni. Þorgrímr hét
+landvarnarmaðr hans. Hann var inn mesti kappi ok
+mikill garpr, en í meðallagi trúr. Mikil vinátta var
+með þeim Þorgrími ok Bela konungssyni. Beli var inn
+frægasti maðr um öll lönd.
+Þat hafði borit til tíðenda, at þá Skati konungr var
+aldaðr mjök ok börn hans bæði ung, kómu víkingar
+tveir við land. Hét annarr Gautan, en annarr Ógautan.
+<pb n="224"/>
+
+Þeir kómu mjök á óvart ok buðu konungi til bardaga,
+eða skyldi hann gerast jarl þeira ok gefa upp land sitt.
+Skati konungr hafði ekki liðsafla við þeim, en þó vildi
+hann heldr deyja með sæmd en lifa með skömm ok falla
+í konungdómi sínum heldr en þjóna fjandmönnum
+sínum. Fór hann til bardaga ok hafði ekki fleira lið
+en hirð sína. Þorgrímr komst í burt með Bela konungsson,
+en Ingibjörg sat eptir í skemmu sinni. Skati
+konungr fell fyrir Ógautan með góðan orðstír, en
+menn hans, þeir sem eptir lifðu, flýðu á skóga.
+Settist Ógautan nú at ríki ok lét gefa sér konungs
+nafn. Hann bað Ingibjörgu at ganga með sér, en hún
+neitaði þverliga ok sagðist fyrr skyldu drepa sik sjálf
+en eiga föðurbana sinn ok slíkt illmenni sem Ógautan
+er, -- "þar sem þú ert líkari fjánda en manni." Ógautan
+varð reiðr við ok mælti: "Ek skal launa þér illyrði
+þín, ok legg ek þat á þik, at þú sért þvílík at vexti ok
+yfirlitum sem Skellinefja, systir mín, ok allri náttúru
+þeiri, sem þú mátt bera, byggir helli þann, sem við
+Djúpamóðu er, ok komist aldri ór þessum álögum, fyrr
+en nokkurr velborinn maðr verðr til þess at eiga þik
+ok játi því ok þó aldri fyrr en ek er dauðr, en systir
+mín taki við yfirlitum þínum." "Þat læt ek um mælt,"
+segir Ingibjörg, "at þú njótir þessa ríkis bæði illa ok
+skamma stund." Varð þetta at áhrínsorðum, er Ógautan
+mælti, at Ingibjörg hvarf í burt. Litlu síðar kom
+þar aptr Beli konungsson ok Þorgrímr með marga menn
+um náttartíma, ok báru eld at lopti því, er þeir bræðr
+sváfu í, ok brenndu inni alla þá menn, utan þeir bræðr
+fóru ina neðri leið ok kómust svá í burt, léttu eigi
+fyrr en þeir kómu fram í hirð Njörfa konungs, en Beli
+tók aptr við ríki sínu ok gerðist þar konungr yfir. Þorgrímr
+var enn landvarnarmaðr hans.
+<pb n="225"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="18"><p>
+
+Vilhjálmr hefir konungr heitit, er réð fyrir Vallandi,
+vitr konungr ok vinsæll. Hann átti dóttur þá, er Ólof
+hét, kvenna kurteisust.
+Nú er þar til at taka, sem Jökull Njörfason er, at
+eptir þat er þeir Víkingssynir váru burt farnir, gerði
+hann Þorstein ok Þóri útlæga fyrir endilangan konungdóm
+sinn. Ekki samþykkti Njörfi konungr þat, því at
+þeir Víkingr heldu vináttu sinni, meðan þeir lifðu.
+Eitt sinn kom Ógautan at máli við Jökul ok spyrr,
+hvárt hann vill ekki kvángast. Jökull frétti eptir, hvar
+hann sæi þar jafnaðarkvánfang. Ógautan mælti: "Vilhjálmr
+í Vallandi á dóttur, er Ólof heitir. Þar þætti
+mér vaxa þinn heiðr, ef þú fengir þat ráð." "Hví skulum
+vit eigi þar til ráða?" segir Jökull.
+Bjuggust þeir þá til ferðar með sex tigi manna ok
+fóru síðan til Vallands ok fundu Vilhjálm konung. Tók
+hann vel við Jökli, því at Njörfi, faðir hans, var nafnkunnigr
+um öll lönd. Jökull hefr upp bónorð sitt til
+Ólofar sér til handa. Ógautan fylgdi fast bónorðinu,
+en konungr skaut til dóttur sinnar. Ok er þeir höfðu
+þetta talat, gengu inn í höllina þrír tigir manna heldr
+röskligir. Sá var mestr ok fríðastr, er fyrir þeim var.
+Hann gekk fyrir konung ok kvaddi hann. En þegar
+Ógautan sér þessa menn, þá hljóðnar um hann ok drap
+niðr hökuskegginu ok mælti við Jökul ok aðra menn
+sína, at þeir skyldu ekki nefna sik, meðan þeir væri
+þar í landi. Konungr spyrr ina miklu menn at heiti,
+en formaðr þeira kvaðst Beli heita ok vera sonr Skata
+konungs, er réð fyrir í Sogni, -- "er þat erendi mitt
+hingat, at ek vil biðja dóttur þinnar." Konungr segir:
+<pb n="226"/>
+
+"Hér er kominn áðr Jökull Njörfason ok biðr hennar.
+Mun ek nú þann veg á gera, at hún kjósi, hvárn hún
+vill eiga." Skipaði konungr Bela á aðra hönd sér. Var
+þar veizla in bezta. At þrem nóttum liðnum gengu þeir
+út til skemmu ok fréttu konungsdóttur eptir, með hvárum
+hún vildi ganga, Jökli eða Bela. Skjótt var þat
+auðfundit á henni, at hún vildi heldr eiga Bela, en í
+því varpaði Ógautan kefli í kné henni, en svá brá
+henni við þat, at hún neitaði Bela, en gekk at eiga
+Jökul. Sneri Beli þá til skipa. Vináttumál hafði farit
+áðr milli þeira Jökuls ok Bela, svá at þat segja sumir, at
+Beli mun hafa tekit fé til höfuðs þeim bræðrum, Þorsteini
+ok Þóri. Gaf Beli Jökli enga skuld á, þótt
+konungsdóttir vildi hann ekki eiga, með því at undir hennar
+órskurð kom. Síðan fór Beli heim til ríkis síns. Jökull
+bjóst heim, þegar úti var brullaup hans, ok Ógautan
+með honum.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="19"><p>
+
+Nú er þar til at taka, er Þorsteinn heldr heim ór
+hernaði ok ætlar til Gríms bónda, því at Þórir, bróðir
+hans, sat þar í eynni. Jökull hafði nú fregn af ferðum
+hans. Hann mælti þá til Ógautans ok bað hann reyna
+listir sínar ok gera veðr at Þorsteini, svá at hann drukknaði
+ok allir hans menn. Ógautan kveðst til þess hætta,
+hversu sem tækist. Gerði hann þá svá mikit kyngiveðr
+at Þorsteini, at skip hans týndust í sjávargangi ok hverr
+maðr, er á var. Þorsteinn dugði lengi vel, ok kom þar
+um síðir, at hann þreyttist á sundi. Var hann þá kominn
+í lágarða. Dró hann þá niðr. Í því sá hann, hvar
+kerling ein stór óð út at honum ok var í skorpnum
+<pb n="227"/>
+
+skinnstakki. Hann var síðr í fyrir, en stuttr á bak. Hún
+var stórskorin mjök ok heldr grepplig í ásjónu ok gekk
+at honum ok greip hann ór sjónum ok mælti: "Viltu
+þiggja líf af mér, Þorsteinn?" Hann segir: "Hví munda
+ek eigi vilja, eða hvat heitir þú?" Hún segir: "Óvant
+er nafn mitt, ek heiti Skellinefja, en muntu nokkut
+verða til at vinna lífgjafarinnar." "Hvat er þat?" segir
+hann. "At veita mér bæn þá, er ek vil biðja þik," segir
+hún. "Þú munt þeirar einnar biðja," segir Þorsteinn,
+"at mér mun þat vel vegna, eða nær skal hún til
+koma?" "Ekki at sinni," segir hún. Síðan bar hún hann
+til lands, ok var hann þá kominn í ey þá, er Grímr átti
+fyrir at ráða. Sló hún þá á við hann glímu nokkurri,
+þar til honum gerði heitt. Skildi hún þá við hann,
+ok bað hvárt vel fyrir öðru. Ferr hún þá leiðar sinnar,
+því at hún kveðst víðara verða við at koma, en Þorsteinn
+fór heim til bæjar. Var þar fagnafundr með
+þeim bræðrum. Sat Þorsteinn þar um vetrinn í góðu
+yfirlæti.
+Nú er þar til at taka, er þeir sigla heim Jökull ok
+Ógautan, at þat var einn dag í góðu veðri, at miklu
+myrkri sló yfir skipit með svá mikilli grimmd ok frosti,
+at engi maðr á skipinu þorði á móti at sjá. Klæddu
+allir menn andlit sitt, þeir sem á skipunum váru. En
+er af leið myrkrinu, sáu þeir, hvar Ógautan var hengdr
+upp við húnboru. Var hann þá dauðr. Þótti Jökli þat
+inn mesti skaði ok helt heim í ríki sitt ok sezt um kyrrt.
+Þeir Þorsteinn ok Þórir bjuggust snemma um várit
+ok ætla at sækja heim Víking, föður sinn. Ok er þeir
+koma at Djúpamóðu, urðu þeir eigi fyrr varir við en
+Jökull kom þar at þeim með þrjá tigi manna. Slær
+þegar í bardaga með þeim. Var Jökull inn ákafasti ok
+svá Grímr, bróðir hans. Þórir ok Þorsteinn vörðust vel.
+<pb n="228"/>
+
+Gekk svá lengi, at þeir kómu engu sári á þá bræðr.
+Var þá hvárttveggja, at Þorsteinn var stórhöggr, enda
+beit Angrvaðill járn sem klæði. Þórir varðist ágæta vel
+ok hafði eigi kesjuna, því at hún hafði heima eptir
+legit. Þeir Grímr mættust ok börðust alldrengiliga, en
+þó lauk með því, at Grímr hné dauðr til jarðar. Þá
+hafði Þorsteinn drepit nítján menn, enda var hann þá
+bæði móðr ok sárr ok svá Þórir. Snerust þeir bræðr þá
+bökum at ok vörðust þá enn vel. Jökull sótti at við
+ellefu menn ok gerði svá harða hríð, at Þórir fell. Þá
+varðist Þorsteinn nú karlmannliga ok allt þar til þeir
+váru eigi fleiri en Jökull ok þrír aðrir. Jökull lagði
+þá til Þorsteins ok kom í lærit heldr ofarliga, en með
+því at Jökull var sterkr ok gekk fast á lagit, en Þorsteinn
+móðr mjök ok stóð framarliga á árbakkanum,
+þá hrapaði hann ofan fyrir hamrana, en Jökull gat sem
+næfrligast stöðvat sik. Leitaði Jökull síðan heim ok
+þóttist hafa drepit Þorstein ok Þóri. Settist hann nú
+um kyrrt.
+Nú er þar til at taka, er Þorsteinn fell ofan fyrir
+hamrana. Varð þar undir tó, er Þorsteinn kom niðr, en
+sakir mæði ok sára mátti hann ekki hræra sik, en þó
+hafði hann vit sitt, er hann kom niðr. Angrvaðill hraut
+ór hendi honum ok ofan í móðuna. Lá Þorsteinn þá
+milli heims ok heljar ok vætti sér þá ekki nema dauða.
+Ok er hann hafði eigi lengi legit, sér hann, hvar gengr
+Skellinefja ok var í skinnstakki sínum ok engu fegri
+en fyrr. Hún kemr þar at, sem Þorsteinn liggr, ok
+mælti: "Eigi þykki mér ór steini hefja fyrir þér um
+slysferðir þínar, Þorsteinn. Sýnist mér nú liðit at þér,
+eða viltu nú veita bæn þá, er ek keypta at þér fyrri?"
+Þorsteinn segir: "Ek sé mik nú fátt mega gera, þat
+veizlumunr sé í." "Sú er bæn mín," segir hún, "at þú
+<pb n="229"/>
+
+játir at eiga mik. Mun ek þá leita við at græða þik."
+Þorsteinn segir: "Eigi veit ek, hvárt ek skal þat til
+vinna, því at mér sýnist þú ferlig at sjá." "Þar skaltu
+þó eiga um at kjósa," segir hún, "hvárt viltu heldr
+eiga mik eða láta lífit ok rjúfa þó eið þinn við mik, er
+þú hézt at veita mér bæn mína, þá er ek gaf þér líf
+við Grímsey." Þorsteinn segir: "Mikit er satt í því,
+ok mun þat bezt at halda orð sín, ok vil ek því játa
+at eiga þik. Muntu verða mér inn mesti bjargvættr,
+en þó vilda ek þat til kjósa við þik, at þú náir sverði
+mínu, ef mér verðr lífs auðit, svá at ek mega bera þat."
+Hún segir svá vera skyldu ok tók hann upp í skinnstakk
+sinn ok hljóp upp hamrana, sem hún væri laus,
+þar til er hellir stór varð fyrir þeim. Þar fór hún inn
+í ok bindr sár Þorsteins ok leggr hann í hæga sæng,
+ok innan sjau nátta var hann gróinn at mestu.
+Þat var einn dag, at Skellinefja var í burt ór hellinum,
+ok um kveldit kom hún aptr með sverðit, ok
+var þá vátt mjök, ok fekk Þorsteini ok mælti: "Nú hefi
+ek gefit þér tvá tíma líf ok fengit þér aptr sverð þitt,
+er þú hefir mestar mætur á, ok þat it fjórða, er okkr
+er mest veitt í, at ek hengda Ógautan. En þó hefir þú
+þetta fullu launat mér, því at þú hefir komit mér ór
+álögum þeim, er Ógautan lagði á mik. Heiti ek Ingibjörg,
+dóttir Skata konungs, en systir Bela, en mér
+varð þat til undanlausnar um ánauð mína, ef nokkurr
+velborinn maðr játar at eiga mik. Nú vartu til þessa,
+ok er ek nú laus af ánauð minni. Skaltu nú búast í
+burt af hellinum ok fara fram mínum ráðum, ok muntu
+finna Bela, bróður minn, við fimmta mann. Þar mun
+vera Þorgrímr kobbi, landvarnarmaðr hans, með honum.
+Þeir hafa tekit fé til höfuðs þér af Jökli. Munu
+þeir slá til bardaga við þik. Hirði ek eigi, þótt þú drepir
+<pb n="230"/>
+
+Þorgrím ok förunauta hans, en gef líf Bela, bróður
+mínum. Vilda ek, at þit yrðuð fóstbræðr. Ok ef þér er
+þat í hug at fá mín, far þú heim í Sogn með honum
+ok bið mín, ok mun ek þar þá fyrir vera. Má vera, at
+ek lítist þér öðru vís at sjá en nú."
+Skilja þau nú. Ok er hann var skammt kominn, kom
+Beli móti honum við fimmta mann, ok er þeir fundust,
+mælti Þorgrímr: "Þat er vel, Þorsteinn, er vér
+fundumst. Skal nú vinna til fjár þess, er Jökull hefir
+lagt til höfuðs þér." "Þat þætti mér verða mega, at
+þú misstir fjárins, en létir lífit," segir Þorsteinn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="20"><p>
+
+Nú er þar til at taka, at þeir sækja at Þorsteini, en
+hann varðist vel ok drengiliga, en svá lýkr, at Þorgrímr
+fell ok þrír förunautar hans. Þá börðust þeir Þorsteinn
+ok Beli á nýjan leik. Varði Þorsteinn sik, en vildi ekki
+særa Bela, en Beli sótti at, þar til at Þorsteinn greip
+til hans ok setti hann niðr hjá sér ok mælti: "Alls á
+ek kosti við þik, en ek vil gefa þér nú líf ok þat með,
+at vit verðum fóstbræðr. Skaltu konungr vera, en ek
+hersir. Ek vil ok biðja Ingibjargar, systur þinnar, ok
+hafa heiman með henni eignir í Sogni." "Eigi er þat
+it hægra," segir Beli, "af því at systir mín er horfin í
+burt, svá at engi veit, hvat af henni er orðit." "Þat
+má vera," segir Þorsteinn, "at hún sé aptr komin."
+"Eigi sé ek," segir Beli, "at hún fái röskara mann en
+þik, ok vil ek þenna kost allan."
+Bundu þeir þetta með fastmælum ok fóru nú heim í
+Sogn. Varð Beli þess snart varr, at systir hans var aptr
+<pb n="231"/>
+
+komin með öllum þvílíkum blóma sem hún hafði áðr
+haft í æsku sinni. Þorsteinn hefr upp orð sín ok biðr
+Ingibjargar sér til handa. Var þat ráðum ráðit. Hafði
+hún heiman eignir þær, er lágu öðrum megin fjarðarins.
+Hét sá bær at Framnesi, er Þorsteinn réð fyrir,
+en sá á Sýrströnd, er Beli réð fyrir.
+Þeir Þorsteinn lögðust í hernað um várit ok höfðu
+fimm skip. Herjuðu þeir víða um sumarit ok varð
+gott til fjár, en heldu heim at hausti ok höfðu sjau
+skip.
+Annat sumar lögðu þeir í hernað ok varð illt til fjár,
+því at víkingar allir forðuðust þá. Ok er þeir koma
+at skerjum þeim, er Elfarsker heita, lögðu þeir at höfn
+um kveldit, ok gengu þeir á land Þorsteinn ok Beli
+ok yfir þvert nesit, þat er þeir lágu undir. En er þeir
+kómu yfir nesit, sáu þeir tólf skip liggja tjölduð svörtum
+tjöldum. Þeir sáu tjöld á landi, ok rauk af. Þeir
+þóttust þat vita, at þat mundi vera matsveinar. Þeir
+köstuðu yfir sik dulklæðum ok gengu þangat, ok er
+þeir kómu þar at tjalddyrunum, færðust þeir báðir í
+dyrrnar, svá at ekki náði út at leggja reykinn. Þeir váru
+harðorðir, er mat gerðu, ok spyrja, hvat stafkörlum
+þetta væri, at svá váru kyndugir, at þá vildu brenna
+inni eða kæfa. Þeir létu endemliga ok svöruðu með
+dimmri raust ok sögðu, at þeir vildu afla sér matar,
+-- "eða hverr er sá inn ágæti, er þessum flota ræðr, er
+hér liggr við land?" "Þit munuð vera heimskir karlar,"
+segja þeir, "at þit hafið eigi heyrt getit Úfa, er kallaðr
+er Slysa-Úfi, sonr Herbrands ins höfuðmikla. Þeir
+eru bræðr ok Ötunfaxi. Ek veit enga frægri en þá undir
+sólunni." "Vel segið þit," segir Þorsteinn. Litlu síðar
+fóru þeir burt til manna sinna.
+Snemma um morguninn bjuggust þeir ok reru fram
+<pb n="232"/>
+
+fyrir nesit. Æptu þeir þegar heróp. Hinir bjuggust þá
+skjótt við ok tóku til vápna sinna, ok tókst þar harðr
+bardagi. Hafði Úfi lið meira ok var sjálfr inn harðfengasti.
+Börðust þeir svá lengi, at ekki mátti í milli sjá,
+hvárir sigruðust. Inn þriðja dag réð Þorsteinn til
+uppgöngu á dreka þann, er Slysa-Úfi stýrði, ok Beli þegar
+eptir honum, ruddust um drengiliga, drápu hvern mann
+fyrir framan siglu. Þá réð Úfi ór lyptingunni mót Bela,
+ok áttust þeir við vápnaskipti nokkura stund. Bárust
+þá sár á Bela, því at Úfi var bæði vápnfimr ok stórhöggr.
+Í því kom Þorsteinn at með Angrvaðil ok höggr
+til Úfa. Þat högg kom í hjálminn ok klauf allan búkinn
+ok brynjaðan manninn at endilöngu, en sverðit
+kom í siglubitann, ok fal báða eggteinana. Beli mælti:
+"Þetta þitt högg, fóstbróðir, mun uppi vera, meðan
+Norðrlönd eru byggð." Síðan buðu þeir víkingum tvá
+kosti, hvárt þeir vildu gefast upp ok halda lífi eða eiga
+bardaga við þá. Þeir beiddust heldr at þiggja líf af
+þeim. Gáfu þeir þá öllum grið, því at þeir vildu þat
+gjarna þiggja. Fengu þeir þá mikit herfang. Lágu þeir
+þar þrjár nætr ok græddu menn sína ok heldu heim
+at hausti.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="21"><p>
+
+At várdögum bjuggust þeir fóstbræðr heiman ok
+höfðu fimmtán skip. Stýrði Beli dreka þeim, er átt hafði
+Slysa-Úfi. Þat var góðr gripr, skornir svírarnir ok grafnir
+ok gylltir mjök. Beli konungr hlaut drekann, því at
+hann var beztr gripr í herfangi þeira, er þeir fengu eptir
+Úfa, en þat var vani þeira, at Beli tók jafnan góðgripi
+<pb n="233"/>
+
+þeira, er þeir fengu í herfangi. Eigi þótti annat skip
+betra en drekinn utan Elliðinn, er átti Ötunfaxi, bróðir
+hans. Þessi skip höfðu þeir erft eptir Herbrand, föður
+sinn, ok var Elliði því betri, at hann hafði byr, hvert
+er hann vildi sigla. Kunni hann náliga mannsmáli. En
+því hafði Ötunfaxi heldr hlotit Elliða en Úfi, at Úfa
+hafði hent þat slys, at hann hafði drepit föður sinn
+ok móður, ok þótti Ötunfaxa hann hafa fyrirgert arfi
+sínum, ef at réttu skyldi fara. Var Ötunfaxi fyrir þeim
+bræðrum sakir afls ok vaxtar ok fjölkynngi.
+Nú láta þeir fóstbræðr í hernað ok herjuðu víða um
+Austrveg ok finna fátt víkinga, því at allir stukku undan
+þeim, er til fréttu. Váru þá engir frægri menn í
+hernaði en Þorsteinn ok Beli.
+Þat var einn dag, at þeir lögðust at andnesi einu.
+Þeir fóstbræðr sjá öðrum megin undir nesinu liggja
+tólf skip ok öll stór. Þeir róa skjótliga móti skipunum
+ok spyrja, hverr fyrir liði sé. Maðr stóð upp við siglu
+ok mælti: "Angantýr heiti ek, sonr Hermundar jarls
+af Gautlandi." "Þú ert efniligr maðr," segir Þorsteinn,
+"eða hversu gamall maðr ertu?" Hann svarar: "Ek er
+nú nítján vetra." "Hvárt viltu heldr," segir Beli, "gefa
+upp skip þín ok fé eða halda bardaga móti oss?" "Því
+skjótara skal kjósa," segir Angantýr, "sem kostir eru
+ójafnari. Vil ek heldr verja fé mitt ok falla með drengskap,
+ef þess verðr auðit." "Þá búst við," segir Beli,
+"en vér munum at sækja." Bjuggust þá hvárirtveggju
+ok brjóta upp vápn sín. Þorsteinn mælti við Bela: "Þat
+er lítil drengmennska at sækja at þeim með fimmtán
+skipum, en þeir hafa eigi meir en tólf." "Hví skulum
+vér eigi láta liggja hjá þrjú skip?" segir Beli. Gerðu þeir
+svá. Var þar harðr bardagi. Svá var lið Angantýs harðfengt,
+<pb n="234"/>
+
+at þeir Beli ok Þorsteinn þóttust eigi í meiri
+mannraun komit hafa. Börðust þeir þann dag til kvelds,
+svá at ekki mátti milli sjá, hvárir sigrast mundu.
+Annan dag bjuggust þeir til orrostu. Þá mælti Angantýr:
+"Þat þykki mér ráð, Beli konungr, at vit spillum
+eigi mönnum okkrum lengr ok berjumst tveir á
+hólmi, ok hafi sá sigr, er annan vinnr." Beli játar þessu;
+gengu síðan á land ok köstuðu feldi undir fætr sér ok
+börðust drengiliga, allt þar til at Beli mæddist. Þá bárust
+sár á hann. Þóttist Þorsteinn sjá, at Beli mundi ekki
+sigrast á Angantý, ok svá kom, at Beli var bæði móðr
+ok mjök at þrotum kominn. Þá mælti Þorsteinn: "Þat
+þykki mér ráð, Angantýr, at þit léttið ykkrum bardaga,
+því at ek sé, at Beli er yfirkominn af mæði, en ek vil
+eigi hafa ódrengskap til at níðast á þér, en veita honum,
+en svá mun þat fara, ef þú verðr banamaðr hans,
+at þá mun ek bjóða þér á hólm, ok ætla ek, at okkar
+sé eigi minni mannamunr en ykkar Bela. Mun ek fella
+þik á hólmi, ok er þat mikill skaði, ef þit látizt báðir.
+Nú vil ek bjóða þér þann kost, ef þú gefr Bela líf, at
+vit sverjumst í fóstbræðralag." Angantýr segir: "Þat
+þykki mér jafnaðarboð, at vit Beli gerumst fóstbræðr,
+en í því þykki mér mikit veitt, ef ek skal vera þinn
+fóstbróðir." Var þetta síðan bundit fastmælum. Þeir
+vöktu sér blóð í lófum ok gengu undir jarðarmen ok
+sóru þar eiða, at hverr skyldi annars hefna, ef nokkurr
+þeira yrði með vápnum veginn. Síðan könnuðu þeir
+lið sitt, ok váru hroðin tvau skip af hvárum. Þeir
+græddu menn sína, þá er sárir váru. Eptir þat heldu
+þeir í burt þaðan þrim skipum ok tuttugu ok heldu
+heim um haustit ok sátu um kyrrt um vetrinn með
+mikilli virðingu. Þóttu nú engir menn frægri í sínum
+hernaði en þeir fóstbræðr.
+<pb n="235"/>
+
+</p></div>
+
+<div type="textpart" subtype="chapter" n="22"><p>
+
+Nú er várdagar kómu, bjuggust þeir heiman fóstbræðr
+ok höfðu þrjá tigi skipa. Heldu þeir í Austrveg
+ok herjuðu þar ok um Svíþjóð ok allt it Eystra
+salt. Fóru þeir vel með hernaði sínum, sem þeir váru
+vanir, drápu víkinga ok ránsmenn, hvar sem þeir gátu
+þá hent, en létu bændr ok kaupmenn fara í friði.
+Nú er þar til at taka í öðrum stað, er Ötunfaxi fréttir
+fall Úfa, bróður síns. Þótti honum þat mikill skaði.
+Þat er af honum at segja, at hann leitar þrjú sumur
+samfleytt þeira fóstbræðra.
+Nú er þat at segja, at þeir Beli konungr leggja einn
+dag at skerjum þeim, er Brennieyjar heita. Leggja þeir
+í lægi ok búast vel um. Eptir þat ganga þeir fóstbræðr
+þrír á land ok þar til, er þeir koma at einum bæ litlum.
+Þar stóð maðr fyrir dyrum ok klauf skíð. Hann
+var í grænni heklu ok furðu digr. Hann heilsar Þorsteini
+með nafni. Þorsteinn segir: "Okkar er mikill
+kennispeki munr, þú heilsar mér með nafni, en ek man
+eigi, at ek hafi sét þik, eða hvat heitir þú?" "Óvant
+er nafn mitt," segir hann, "ek heiti Brennir, ok er ek
+Vífilsson, bróðir Víkings, föður þíns. Átti hann mik,
+þá er hann var í hernaði, er hann átti heima hjá Háloga.
+Hefi ek hér upp vaxit í eynni ok búit hér síðan.
+En hefir þú nokkut, Þorsteinn frændi, frétt til Ötunfaxa
+víkings?" "Eigi," segir Þorsteinn, "eða hvat kanntu
+af honum at segja?" "Þat," sagði Brennir, "at hann hefir
+leitat þín um þrjú ár, ok liggr hann hér öðrum megin
+eyjanna með öllum sínum flota. Vill hann hefna SlysaÚfa,
+bróður síns. Hann hefir fjóra tigi skipa ok öll
+stór. Hann er stórr sem tröll, en bíta engi járn." "Hvat
+<pb n="236"/>
+
+er nú til ráða?" segir Þorsteinn. "Engi ráð kann ek þér
+at gefa," segir Brennir, "nema þú getir fundit Sindra
+dverg, því at ek veit, at honum er illa við hann, enda
+mun honum sízt ráðaskortr." "Hvert er hans at vænta?"
+segir Þorsteinn. "Hann á heima í eyjunni, er hér liggr
+skammt undan landi, er heitir in minni Brenniey. Hann
+býr í einum steini, en óvænligt þykki mér, at þú getir
+hann fundit, en til reiðu er þér hér í nótt." "Hitt mun
+fyrir liggja," segir Þorsteinn, "at halda eigi kyrru fyrir."
+Gengu þeir þá til skipa sinna.
+Síðan setti Þorsteinn fram bát ok reri til eyjarinnar.
+Þorsteinn gekk þar einn á land. Ok er hann kom at
+einum læk, sá hann, at tvau börn léku sér við lækinn,
+piltr ok stúlka. Þorsteinn frétti þau at nafni. Sveinninn
+nefndist Herrauðr, en píkan Herríðr. "Hefi ek týnt
+gulli mínu," segir hún. "Veit ek þat muni Sindra, föður
+mínum, illa líka. Mun ek eiga ván hirtingar." Þorsteinn
+segir: "Hér er eitt gull, er ek vil gefa þér." Hún tók
+við gullinu ok varð gglöð við, -- "ok skal ek þetta fá
+föður mínum, eða má ek ekki þat gera, ef þér væri bati
+í?" "Eigi er þat," segir Þorsteinn, "ok kom þú hingat
+föður þínum til tals við mik ok fylg svá, at hann sé
+í ráðum með mér um þá hluti, er mik varðar." "Því at
+eins get ek þat gert," segir Herríðr, "at Herrauðr, bróðir
+minn, fylgi mínum vilja, því at Sindri má ekki móti
+honum láta." "Veiztu þat," segir Herrauðr, "at ek fylgi
+þér um alla hluti." Þorsteinn spretti af sér silfrbelti
+ok gaf honum. Þar fylgdi búinn knífr. Sveinninn mælti:
+"Þetta var vel gefit. Skal ek allan hug á leggja, at þitt
+mál gangi fram. Bíð hér, til þess við systkin komum
+aptr." Nú gerði Þorsteinn svá.
+En er stund löng var liðin, kom þar Sindri dvergr
+ok þau systkin með honum. Sindri heilsar Þorsteini
+<pb n="237"/>
+
+glaðliga ok mælti "Hvat viltu mér, Þorsteinn?" "Þat,"
+segir Þorsteinn, "at ek vilda, at þú legðir ráð á með
+mér, hversu ek gæti unnit Ötunfaxa víking." "Þar sé
+ek ekki ráð til," segir Sindri, "at nokkurr mennskr maðr
+geti Faxa unnit. Miklu er hann verri viðreignar en
+nokkurr annarr. Vil ek letja þik þess at halda til orrostu
+við hann, því at þú lætr þar menn þína, ok er þér bezt
+at halda í burt í nótt undan eyjunum." "Þat skal aldri
+verða," segir Þorsteinn. "Þótt ek viti þat fyrir, at ek
+missa lífit, þá vil ek þat þó heldr en flýja at óreyndu."
+"Þat sé ek," segir Sindri, "at þú ert in mesta kempa.
+Legg ek þat til með þér, at þú affermir öll skip þín í
+nótt ok berir fjárhlut á land, en hlaðir skipin af trjám
+ok grjóti. Síðan haf þú þik snemma at á morgin ok
+kom fyrr at þeim en þeir vakna. Megið þit kemba þeim
+ekki hagligar tjaldkúlur. Þurfið þit þess alls við, ef
+þér getið nokkurn bug á Faxa unnit, því at þat vil ek
+segja þér, at því síðr bíta hann nokkur járn, at hann
+bítr eigi sverðit Angrvaðill. Hér er einn tygilknífr, er
+Herríðr, dóttir mín, vill gefa þér ok launa þér svá
+gullit, ok þat ætla ek, at hann bíti á Ötunfaxa, ef þú
+kemr honum hagliga við. Herrauðr, sonr minn, mun
+því launa þér beltit, at þú skalt nefna mik á nafn, ef
+þér þykkir nokkut á bresta. Munu vit nú skilja fyrst
+at sinni, ok far þú vel ok heill. Þat mæli ek um, at
+mínar dísir sé þér jafnan til fylgis."
+Síðan fór Þorsteinn til báts síns ok reri til sinna
+manna. Bjóst hann við þegar um nóttina ok færði fé
+af skipum, en grjót í staðinn. Ok er þat var gert, kom
+Brennir karl af bæ ofan ok hafði kylfu stóra í hendi,
+alla slegna af járni ok stórum járngöddum. Hún var
+svá þung, at varla gat meðalmaðr lypt af jörðu. Brennir
+mælti: "Handvápn þetta vil ek gefa þér, Þorsteinn
+<pb n="238"/>
+
+frændi, ok mun þér einum vápnhæft sakir þunga, en
+þó mun hún heldr létt við Ötunfaxa. Þykki mér nú
+ráð, at Angantýr hafi sverðit Angrvaðil, en þú berist
+með kylfunni. Þó at hún sé ekki fimligt meðfæri, þá
+mun hún þó mannskæð vera. Vilda ek nú, frændi, geta
+veitt þér meira lið, en eigi hefi ek föng á því." Snýr
+hann þá á land upp.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="23"><p>
+
+Síðan greiddu þeir róðr fram fyrir nesit, er þeir váru
+búnir, ok geta þá at líta, hvar Ötunfaxi liggr með
+öllu sínu skipaliði. Létu þeir þegar ganga grjótflaugina
+svá hart ok ákaft, at þeir drápu meir en hundrað
+manna, áðr þeir vöknuðu, en frá því er liðit vaknaði,
+tóku þeir snarpliga við. Var þá bardagi inn mannskæðasti.
+Fell margt manna af þeim fóstbræðrum, því at
+svá mátti at kveða, at Faxi skyti af hverjum fingri. Gekk
+svá allt til nætr. Váru þá hroðin tíu skip þeira fóstbræðr.
+Annan dag eptir tóku þeir til orrostu, ok gekk með
+þvílíku móti mannfallit sem inn fyrra dag. Réðu þeir
+jafnan til uppgöngu á skip Faxa ok gerðu mikinn mannskaða
+hvert sinn, en á drekann Elliða kómust þeir aldri
+fyrir vörn Faxa ok þess, at hann var svá borðhár. En
+um kveldit váru hroðin öll skip þeira fóstbræðra nema
+drekinn Úfanautr.
+Þat sáu þeir báða daga, at sinn maðr kom fram á
+hvárn hamarinn ok skaut í ákafa út á skip Faxa. Þar
+sáu þeir Sindra dverg, ok varð maðr fyrir hverri ör.
+Fekk Faxi af því mikinn mannskaða. Á öðrum hamrinum
+var Brennir ok skaut heldr bogmannliga út á
+skipin. Eigi var traust, at eigi fyki steinar á skipin, ok
+<pb n="239"/>
+
+leituðu þeir allir grunns, er hann kastaði. Sukku af
+því mörg skipin fyrir Faxa. Var þá ok svá komit, at
+öll skip hans váru hroðin nema Elliði.
+Þetta var þann tíma, er nótt var björt, ok heldu þeir
+bardaga alla nóttina. Þorsteinn réð til uppgöngu á drekann
+ok Angantýr ok Beli, en margt var manna eptir á
+Elliða. Faxi hleypr fram á móti þeim fóstbræðrum, Angantý
+ok Bela. Þeir eigast við hart vápnaskipti. Bitu Faxa
+engi járn, en eigi höfðu þeir lengi barizt, áðr sár
+bárust á þá báða. Í því kom Þorsteinn at ok sló með
+kylfunni sem honum var hægast utan við vangann á
+Faxa, en hann laut hvergi við. Þá sló Þorsteinn annat
+ok engu minna. Þá leiddust Faxa höggin, ok stökk fyrir
+borð ok í kaf, svá at í iljar honum var at sjá. Þeim
+varð bilt báðum, Bela ok Angantý, eptir at fara. Þorsteinn
+hljóp þegar fyrir borð ok lagðist eptir Faxa, en
+hann undan. Var því líkast sem hvalr legðist þar, sem
+Faxi fór. Gekk svá lengi ok þar til, er Faxi kom á land.
+En þeir fóstbræðr börðust við menn, sem eptir váru,
+ok léttu eigi fyrr en þeir höfðu drepit þá alla, er á
+drekanum váru. Síðan tóku þeir sér bát ok reru til
+lands at þeim Faxa ok Þorsteini.
+Nú sem Faxi er á land kominn, en Þorsteinn lagðist
+at framan, þreif Faxi upp stein ok sendi at Þorsteini,
+en hann fór í kaf undan ok lagðist út undan, ok varð
+mikit áfall af því, at steinninn kom niðr. Upp tók hann
+annan ok inn þriðja, ok fóru allir á eina leið. Ok í
+því kómu þeir fóstbræðr, Angantýr ok Beli. Þorsteinn
+kastaði eptir kylfunni á drekanum, er hann hljóp fyrir
+borð, ok hafði Beli tekit upp kylfuna ok kom þar at,
+sem Ötunfaxi stendr, ok slær með kylfunni aptan undir
+hnakkann ok þegar annat eptir, en Angantýr grýtti
+hann með stórum steinum.
+<pb n="240"/>
+
+Tók Faxa nú heldr at sárna skallinn ok leiddist at
+búa undir þeira höggum ok steypti sér í kaf ofan af
+hamrinum. Lagðist hann þá á haf ok Þorsteinn eptir,
+ok er Faxi sá þat, sneri hann í móti Þorsteini, ok takast
+þeir til á sundinu. Höfðu þeir þá sviptingar miklar
+ok stórar. Færðu hvárir aðra í kaf. Þó kenndi Þorsteinn
+aflsmunar. Þar kom, at Faxi færði Þorstein til grunna.
+Tók þá af honum sundlætin. Þorsteinn þóttist þá vita,
+at Faxi ætlar at bíta sundr barkann í honum. Þorsteinn
+mælti: "Hvat mun mér annan tíma meiri þörf á þér,
+Sindri dvergr, en nú?" Þorsteinn varð við þat varr, at
+gripit var á herðar Faxa svá hart, at því næst var hann
+við grunni niðri ok Þorsteinn ofan á honum. Hann var
+þá mjök móðr ok þjakaðr af umfangi þeira. Þorsteinn
+tekr þá tygilknífinn, sem Sindri gaf honum. Hann
+stingr honum fyrir bringspalir Faxa, svá at sökk allt
+upp at skapti. Reist hann þá niðr allan kviðinn at smáþörmum.
+Þó fann hann, at Faxi var eigi dauðr, því at
+hann mælti þá: "Mikil þrekvirki hefir þú unnit, Þorsteinn,
+er þú hefir mér fyrir komit, því at ek hefi átt
+níutigi orrostur ok haft í öllum sigr nema í þessi. Ek
+hefi sigrazt átta tigi sinna í einvígum, svá at ek hefi á
+hólm gengit, en ek er nú níu tigi ára gamall." Ekki
+þótti Þorsteini gagn, at hann fleipraði fleira, ef hann
+mátti at gera. Rak hann þá ór honum innan þat laust
+var.
+Nú er at segja af þeim Angantý ok Bela, at þeir
+tóku sér skip ok reru fram á sjóinn ok leita at þeim
+Faxa ok Þorsteini ok finna þá hvergi langan tíma. Þá
+kómu þeir þar at, sem sjórinn var blandinn ok rauðr
+af blóði. Þóttust þeir þá vita, at þar mundi Faxi á
+grunni niðri ok Þorstein drepit hafa. Ok er stund leið,
+sáu þeir, at flaut á sjónum nokkut óþokkaligt. Þeir fóru
+<pb n="241"/>
+
+þangat ok sáu þar fljóta innyfli mikil ok ósélig. Litlu
+síðar kom Þorsteinn upp ok var þá svá lúinn ok yfirkominn,
+at eigi gat hann flotit á sjónum. Reru þeir
+þá at honum ok drógu hann upp í skipit. Var honum
+þá minni ván lífs, en ekki var hann mjök sárr, en
+hlaupit var niðr hold af beinum í hnykla. Fóru þeir
+ok leituðu honum hægenda. Raknaði hann þá skjótt.
+Fóru þeir aptr til eyjanna ok könnuðu valinn, ok váru
+eigi meir en þrjátigi manna græðandi. Fóru þeir þá
+til Brennis karls ok þökkuðu honum liðsemd sína. Svá
+fór Þorsteinn til innar minni Brennieyjar at finna
+Sindra dverg ok gaf honum góðar gjafir, ok skildu með
+inni mestu vináttu. Tók Þorsteinn drekann Elliða í sitt
+hlutskipti, en Beli hafði drekann Úfanaut, en Angantýr
+tók svá mikit gull ok silfr sem honum líkaði í sitt
+hlutskipti. Gaf Þorsteinn Brenni, frænda sínum, öll
+þau skip, er þeir kómust ekki með, en þeir heldu burt
+á þrim skipum heim í Sogn ok sátu þar um vetrinn.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="24"><p>
+
+At várdögum heldu þeir í hernað. Angantýr spyrr,
+hvert þá skyldi halda, segist hyggja, at eytt mundi víkingum
+í Eystrasalti. "Þá skulum vér," segir Beli konungr,
+"halda vestr um haf, því at þangat höfum vér
+ekki herjat áðr," segir hann. Nú gera þeir svá. Þegar
+þeir koma til Orkneyja, ganga þeir þar á land ok herja,
+brenna byggðir, en ræna fé. Gera þeir mikit hervirki,
+en allt var hrætt við þá ok stökk undan. Herrauðr hét
+jarl sá, er stýra átti eyjunum. En er hann spyrr þetta
+hervirki, safnar hann liði í móti þeim ok fór nætr sem
+daga, þar til þeir fundust við ey þá, er heitir Papey.
+<pb n="242"/>
+
+Þar slær þegar í bardaga með þeim. Var þar engi liðsmunr.
+Þeir börðust svá tvá daga, at ekki mátti milli
+sjá, hvárir sigrast mundu. Þar kom um síðir, at mannfallinu
+hallaði á Herrauð. Hruðust þá skip hans. Náðu
+þeir bræðr þá uppgöngu, ok þar kom um síðir, at Herrauðr
+jarl fell ok flestallt lið hans. Síðan fóru þeir um
+allar eyjar ok lögðu undir sik. Eptir þat bjuggust þeir
+til heimferðar. Bauð Beli konungr Þorsteini eyjarnar
+ok gerast þar jarl yfir, en hann kveðst þat ekki vilja,
+-- "vil ek heldr vera hersir ok skilja ekki við þik en
+heita jarl ok vera fjarlægr þér at vistum." Þá bauð hann
+Angantý at vera þar jarl yfir, ok þat þá hann, ok gerðist
+hann jarl yfir eyjunum ok skyldi lúka skatt árliga.
+Síðan heldu þeir heim í Sogn ok sátu þar þann vetr.
+Þeir heldu menn sína vel, bæði at vápnum ok klæðum.
+Þóttu nú engir menn framari en þeir fóstbræðr. Þeim
+varð barna auðit. Hét Helgi ok Hálfdan synir Bela, en
+Ingibjörg dóttir. Var hún yngst þeira systkina. Þorsteinn
+átti þann son, er Friðþjófr hét. Haraldr óx upp í eyjunni
+hjá Grími, en þegar hann hafði aldr til, lagðist
+hann í hernað ok varð inn frægasti maðr, þótt hans sé
+lítt getit í þessi sögu. Helt hann nafni sínu ok var
+kallaðr Haraldr kesja, ok er margt manna frá honum
+komit. Þeir Þorsteinn ok Beli, Grímr ok Haraldr heldu
+vináttu sinni, meðan þeir lifðu.
+</p></div>
+
+<div type="textpart" subtype="chapter" n="25"><p>
+
+Nú er þar til at taka, sem Jökull Njörfason er, at
+hann stýrði Upplöndum, þá er þeir váru báðir dauðir,
+Njörfi ok Víkingr. Höfðu þeir vel haldit vináttu sinni
+allt til dauðadags. Jökull aflaði sér skipa ok fjár ok var
+<pb n="243"/>
+
+inn harðasti víkingr ok fór í meðallagi með her sínum,
+en ekki betr. Gekk svá fram nokkur ár, at hann var inn
+nafnfrægasti. Hann lá í hernaði mest um Eystrasalt.
+Eigi höfðu þeir Þorsteinn ok Beli lengi heima verit,
+áðr þeir bjuggust í hernað, ok heldu suðr með landi,
+svá í gegnum Eyrarsund, ok herjuðu á Saxland um
+sumarit ok gerðu mikit hervirki ok fengu þar mikit
+fé í gulli ok silfri ok mörgum öðrum gersimum. Síðan
+ætluðu þeir at sigla heim, sem þeir gerðu. Ok er þeir
+kómu fyrir mynni á Limafirði, þá kemr at þeim stormr
+veðrs ok rak þá til hafs, ok skilja skjótliga skipin. Tekr
+þá sjór at ganga á bæði borð, ok stóðu allir menn í
+austri. Þar kemr, at þessi stormr rekr upp nauðreka
+drekann Elliða at Borgundarhólmi einskipa.
+Þar kemr við land þann tíma Jökull með tíu skipum
+ok öll vel búin sakir vápna ok manna. Þarf þá eigi
+at sökum at spyrja, at Jökull lét sækja at Þorsteini ok
+mönnum hans. Þorsteinn var lítt við búinn, því at þeir
+váru mjök dasaðir af mæði ok sjávargangi. Þessi bardagi
+var bæði harðr ok mannskæðr. Var Jökull inn
+ákafasti ok eggjaði fast menn sína ok segir, at þeir
+mundu aldri í betra færi komast við Þorstein, -- "mun
+oss ok ævinlig brigzl í vera, ef Þorsteinn kemst nú
+undan." Sóttu þeir þá at Þorsteini ok mönnum hans
+ok léttu eigi fyrr við en menn hans váru allir fallnir,
+svá at engi maðr stóð á drekanum nema Þorsteinn
+einnsaman. Hann varðist þá enn karlmannliga. Var þat
+þá langan tíma, at þeir kómu engu sári á hann. Þar
+kom þó um síðir, at þeir kómu svá nærri honum, at
+þeir kómu á hann spjótalögum, ok hjó hann þau flest öll
+af sér, því at sverðit Angrvaðill beit sem vant var.
+Jökull sótti þá fast at ok lagði til hans spjóti í gegnum
+lærit. Í því hjó Þorsteinn til Jökuls. Þat högg kom á
+<pb n="244"/>
+
+höndina fyrir framan olboga ok tók af höndina. Í því
+gátu þeir borit skjöldu at Þorsteini ok tekit hann. Þá
+var komit at kveldi, svá at þeim þótti eigi vígt at honum.
+Var þá settr fjöturr á fætr honum, en bogastrengr
+á hendr. Váru þá fengnir til tólf menn at geyma hans
+um nóttina. Ok er allir váru á land komnir nema þeir
+tólf ok Þorsteinn, mælti hann: "Hvárt vilið þér heldr
+skemmta mér eða ek skemmti yðr?" Þeir kváðu honum
+óvant um skemmtun, at hann skyldi deyja þegar á
+morgin. Þorsteinn hugsaði nú sitt ráð ok þóttist eigi
+vel staddr vera. Hann mælti þá hljótt fyrir munni sér:
+"Hvat mun ek nú í annan tíma þurfa þín meir, Sindri
+félagi, en nú, ef eigi væri lokit allri okkar vináttu?"
+Sló þá dimmu yfir varðmennina, ok því næst sofnuðu
+þeir allir. Þá sá Þorsteinn, hvar Sindri fór eptir skipinu
+ok at honum ok mælti: "Lítt ertu staddr nú, Þorsteinn
+félagi, ok mun ráð at bjarga þér." Hann blés
+upp lásinn. Síðan hjó hann af honum bogastrenginn.
+Var Þorsteinn þá lauss. Tók hann þá sverðit, því at
+hann vissi, hvar hann hafði við þat skilit. Sneri hann
+þá til varðmanna ok drap þá alla.
+Síðan hvarf Sindri í burt, en Þorsteinn tók sér bát
+ok reri í land ok fór burt ok heim í Sogn. Var þar
+fagnafundr með þeim Bela, ok þóttist hann Þorstein
+ór helju heimt hafa. Jökull vaknar snemma um morgininn
+ok hugði gott til at taka bandingjann ok drepa.
+En er þeir kómu þar, var bandinginn burtu, en varðmenn
+dauðir. Þóttust þeir þá sakna vinar í stað. Helt
+Jökull heim ok undi lítt við sína ferð, missi Þorsteins,
+en fengit þau örkuml, at hann varð aldri heill. Var
+hann kallaðr síðan Jökull inn einhendi.
+Þeir fóstbræðr, Beli konungr ok Þorsteinn, söfnuðu
+liði ok fóru til Upplanda ok gerðu orð Jökli ok hösluðu
+<pb n="245"/>
+
+honum völl til orrostu. Jökull safnaði mönnum,
+ok sátu þó margir heima, þeir er lýðskyldugir váru
+undir Jökul, ok gerðu þat fyrir vináttu sakir við Þorstein.
+Ok er Jökull fekk fátt manna, þá treystist hann
+eigi að halda til orrostu við þá, ok stökk hann ór landi
+ok fór þá til Vallands til Vilhjálms, mágs síns. Tók hann
+þar þriðjung ríkis til forráða. Beli konungr ok Þorsteinn
+lögðu undir sik Upplönd ok fóru heim síðan ok
+settust um kyrrt.
+Nokkuru síðar kómu menn af Vallandi til móts við
+Þorstein, þeir er Jökull sendi. Var þat at erendum, at
+Jökull bauð Þorsteini sættir, ok skyldu þeir finnast á
+Limafirði ok hafa þrjú skip hvárir ok tengja saman
+sættir. Þorsteini fellst þetta vel í geð, sagðist nauðigr
+hafa átt ófrið við Jökul sakir Njörfa konungs ok vináttu
+þeira Víkings.
+Var þetta nú staðráðit. Fóru sendimenn heim, en
+Þorsteinn bjóst heiman um sumarit ok hafði drekann
+Elliða ok tvau skip önnur. Bela þótti sjá ferð ekki vænlig,
+þótti Jökull svikull ok ótrúr. Þat var ráð hans, at
+hann sendi undan njósnarmenn at vita, hvárt allt væri
+tryggt af hendi Jökuls, ok færi svá aptr í móti þeim
+til Eyrasunds. Svá gerðu þeir ok kómu aptr ok sögðu
+þeim, at þeir lægi á Limafirði með þrim skipum ok allt
+væri kyrrt um þá. Heldu þeir þá fram ferðinni á fjörðinn,
+ok fundust í nefndum stað, ok gengu þar saman
+sættir með þeim at svá fyrir skildu, at mannalát, áverkar
+ok bardagar skyldi vera jafnt, en Jökull skyldi taka
+aptr ríki sitt ok skyldi eigi vera skattgildr undir nokkurn
+mann. Ríki þat, er Þorsteinn átti at Upplöndum,
+skyldi falla undir Jökul fyrir handarhöggit. Með þessu
+skyldu þeir vera sáttir. Fór Jökull þá heim í ríki sitt
+ok settist þar um kyrrt.
+<pb n="246"/>
+
+Þeir Þorsteinn ok Beli fóru heim í Sogn ok settust
+nú at ríkjum sínum ok léttu öllum hernaði. Önduð var
+Ingibjörg, kona Þorsteins, ok hafði Ingibjörg Beladóttir
+hennar nafn. Friðþjófr óx upp með föður sínum. Þorsteinn
+átti dóttur, er Véfreyja hét. Hún var þá roskin,
+er hér var komit sögunni, því at hún var getin í hellinum
+hjá Skellinefju, ok þar var hún fædd. Brá henni
+um vísdóm til móður sinnar. Hún tók Angrvaðil eptir
+Þorstein, föður sinn. Ok er margt ágætra manna frá
+Þorsteini komit. Þótti öllum mönnum Þorsteinn vera
+inn frægasti maðr ok inn ágætasti af þeim mönnum,
+sem honum váru samtíðis.
+Lúkum vér hér nú sögu Þorsteins Víkingssonar með
+þessu efni, ok er in gamansamligasta.
+</p></div>
+
+
+</div></body></text>
+</TEI>
