@@ -456,7 +456,7 @@
         <groupname>Dante</groupname>
         <work projid="itaLit:dc" xml:lang="de">
             <title xml:lang="eng">The Divine Comedy</title>
-            <edition projid="itaLit:perseus-ger1.xml">
+            <edition projid="itaLit:perseus-ger1">
                 <label>The Divine Comedy</label>
                 <description xml:lang="eng">The Divine Comedy </description>
                 <online docname="/db/repository/itaLit/dante/dc/dante.dc.perseus-ger1.xml">
