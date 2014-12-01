@@ -778,6 +778,34 @@
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </translation>
         </work>
+        <work projid="greekLit:tlg034" urn="urn:cts:greekLit:tlg0086.tlg034" xml:lang="grc">
+            <title xml:lang="eng">Ars Poetica</title>
+            <edition projid="greekLit:digicorpus-grc1" urn="urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc1">
+                <label xml:lang="eng">Ars Poetica</label>
+                <description xml:lang="eng">Aristotelis Opera, ed. Immanuel Bekker. Oxford, Oxford University Press, 1837. </description>
+                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="chapter" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+                    </citationMapping>
+                </online>
+               
+            </edition>
+            <translation projid="greekLit:digicorpus-ara1" xml:lang="eng" urn="urn:cts:greekLit:tlg0086.tlg034.digicorpus-ara1">
+                <label xml:lang="eng">Ars Poetica</label>
+                <description xml:lang="eng">Arisṭūṭālīs: Fann al-šiʿr, maʿa l-tarǧamah al-ʿarabīyah al-qadīmah wa-šurūḥ
+                    al-Fārābī wa-Ibn Sīnā wa-Ibn Rušd. ed.  ʿAbd al-Raḥmān Badawī. Cairo, Maktabat al-nahḍah al-miṣrīyah, 1953. </description>
+                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-ara1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="chapter" xpath="/div[@n='?']" scope="/TEI/text/body"/>
+                    </citationMapping>
+                </online>
+          
+            </translation>
+        </work>
         <work projid="greekLit:tlg035" urn="urn:cts:greekLit:tlg0086.tlg035" xml:lang="grc">
             <title xml:lang="eng">Politics</title>
             <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0086.tlg035.perseus-grc1">

@@ -193,6 +193,39 @@
             </translation>
         </work>
     </textgroup>
+    <textgroup projid="greekLit:tlg0086">
+        <groupname xml:lang="eng">Aristotle</groupname>
+        <work projid="greekLit:tlg034">
+            <title xml:lang="eng">Ars Poetica</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="eng">Ars Poetica</label>
+                <description xml:lang="eng">Aristotelis Opera, ed. Immanuel Bekker. Oxford, Oxford University Press, 1837. </description>
+                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-grc1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                       
+                            <citation label="chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                       
+                    </citationMapping>
+                </online>
+            </edition>
+            <translation projid="greekLit:perseus-ara1" xml:lang="ar">
+                <label xml:lang="eng">Ars Poetica</label>
+                <description xml:lang="eng">Arisṭūṭālīs: Fann al-šiʿr, maʿa l-tarǧamah al-ʿarabīyah al-qadīmah wa-šurūḥ
+                    al-Fārābī wa-Ibn Sīnā wa-Ibn Rušd. ed.  ʿAbd al-Raḥmān Badawī. Cairo, Maktabat al-nahḍah al-miṣrīyah, 1953. </description>
+                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-ara1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        
+                        <citation label="chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                        
+                    </citationMapping>
+                </online>
+            </translation>
+        </work>
+    </textgroup>
         <textgroup projid="greekLit:tlg0012">
         <groupname xml:lang="eng">Homer</groupname>
         <work projid="greekLit:tlg001">
