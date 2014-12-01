@@ -1,0 +1,18 @@
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiversion="3.0.rc1">
+    <textgroup projid="arabicLit:alm0001">
+        <groupname xml:lang="eng">al-Muqaddasī</groupname>
+        <work projid="arabicLit:alm001">
+            <title xml:lang="en">Aḥsan al-taqāsīm fī maʿrifat al-taqālīm</title>
+            <edition projid="arabicLit:alpheios-text-ara1">
+                <label xml:lang="eng">Aḥsan al-taqāsīm fī maʿrifat al-taqālīm</label>
+                <online docname="/db/repository/arabicLit/alm0001/alm001/alm0001.alm001.perseus-ara1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Chapter" xpath="/div1[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+</TextInventory>

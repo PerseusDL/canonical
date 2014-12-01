@@ -1,0 +1,48 @@
+<?xml-model href="../../TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiid="epifacs" tiversion="3.0.rc1">
+    <ctsnamespace abbr="test" ns="http://data.perseus.org/ns/cts/test">
+        <description xml:lang="eng">Test Inscriptions</description>
+    </ctsnamespace>
+    <collection id="test">
+        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Test</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Test</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="">TBD</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">TBD</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under the terms of Creative Commons attribution-share-alike license.</rights>
+    </collection>
+    <citationSchemes>
+        <scheme projid="poeticline" type="logical">
+            <label>line</label>
+            <description xml:lang="eng">Epigram cited by individual lines.</description>
+        </scheme>
+    </citationSchemes>
+    <textgroup projid="test:tg1" urn="urn:cts:test:tg1">
+        <groupname xml:lang="eng">Test Inscriptions</groupname>
+        <work projid="test:wk1" xml:lang="grc" urn="urn:cts:test:tg1.wk1">
+            <title xml:lang="eng">Work 1</title>
+        </work>
+        <work projid="test:wk2" xml:lang="grc" urn="urn:cts:test:tg1.wk2">
+            <title xml:lang="eng">Work 2</title>
+            <edition projid="test:perseus-grc1" urn="urn:cts:test:tg1.wk2.perseus-grc1">
+                <label xml:lang="eng">Work 2 Edition Test</label>
+                <online docname="tg1.wk2.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
+                    </citationMapping>
+                </online>
+                <memberof collection="test"/>
+            </edition>
+            <translation projid="test:perseus-eng1" xml:lang="eng" urn="urn:cts:test:tg1.wk2.perseus-eng1">
+                <label xml:lang="eng">Work 2 English Translation Test</label>
+                <online docname="tg1.wk2.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
+                    </citationMapping>
+                </online>
+                <memberof collection="test"/>
+            </translation>
+        </work>
+    </textgroup>
+</TextInventory>

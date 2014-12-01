@@ -9,7 +9,6 @@
         <description xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">Inventory of texts in the Alpheios text repository. </description>
         <rights xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">TBD - Creative Commons License info</rights>
     </collection>
-    <!--
     <textgroup projid="greekLit:tlg0001">
         <groupname xml:lang="en">Apollonius Rhodius</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
@@ -29,11 +28,9 @@
             </edition>
         </work>
     </textgroup>
-    -->
-    <!--
     <textgroup projid="greekLit:tlg0011">
         <groupname xml:lang="en">Sophocles</groupname>
-       <work projid="greekLit:tlg002" xml:lang="grc">
+       <!-- <work projid="greekLit:tlg002" xml:lang="grc">
             <title xml:lang="eng">Antigone</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="eng">Antigone</label>
@@ -46,7 +43,7 @@
                     </citationMapping>
                 </online>
             </edition>
-        </work>
+        </work> -->
         <work projid="greekLit:tlg002" xml:lang="grc">
         <title xml:lang="eng">Oedippus Tyrannus</title>
         <edition projid="greekLit:perseus-grc1">
@@ -62,7 +59,6 @@
         </edition>
         </work>
     </textgroup>
-    -->
     <textgroup projid="greekLit:tlg0012">
         <groupname xml:lang="eng">Homeric Poems</groupname>
         <work projid="greekLit:tlg001" xml:lang="eng">
@@ -149,23 +145,39 @@
             </edition>
         </work>
     </textgroup>
-     <textgroup projid="greekLit:tlg0006">
+   <textgroup projid="greekLit:tlg0006">
         <groupname xml:lang="en">Euripides</groupname>
-        <work projid="greekLit:tlg001" xml:lang="grc">
-            <title xml:lang="en">Cyclops</title>
+      <work projid="greekLit:tlg003" xml:lang="grc">
+            <title xml:lang="en">Medea</title>
             <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Cyclops</label>
+                <label xml:lang="en">Medea</label>
                 <description xml:lang="eng">Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600, Euripides. Euripides, with an English translation by David Kovacs. Cambridge. Harvard University Press. forthcoming.</description>
-                <online docname="/db/repository/greekLit/tlg0006/tlg001/tlg0006.tlg001.perseus-grc1.xml">
+                <online docname="/db/repository/greekLit/tlg0006/tlg003/tlg0006.tlg003.perseus-grc1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
                     </citationMapping>
+                    <memberof collection="Perseus:collection:Greco-Roman-protected"/>
                 </online>
             </edition>
         </work>
-        <!--
+       <work projid="greekLit:tlg005" xml:lang="grc">
+            <title xml:lang="en">Hippolytus</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Hippolytus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,32167765, Perseus:bib:isbn,0674995333, Euripides. Euripides, with an English translation by David Kovacs. Cambridge. Harvard University Press. forthcoming.</description>
+                <online docname="/db/repository/greekLit/tlg0006/tlg005/tlg0006.tlg005.perseus-grc1.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                    <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+                </online>
+            </edition>
+        </work>
+       
        <work projid="greekLit:tlg008" xml:lang="grc">
            <title xml:lang="en">Suppliants</title>
            <edition projid="greekLit:perseus-grc1">
@@ -211,11 +223,10 @@
                </online>
            </edition>
        </work>
-       -->
     </textgroup>
+
     <textgroup projid="greekLit:tlg0019">
         <groupname xml:lang="en">Aristophanes</groupname>
-        <!--
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="en">Acharnians</title>
             <edition projid="greekLit:perseus-grc1">
@@ -248,25 +259,20 @@
                 </online>
             </edition>
         </work>
-        -->
-        <work projid="greekLit:tlg003"
-            urn="urn:cts:greekLit:tlg0019.tlg003"
-            xml:lang="grc">
-            <title xml:lang="eng">Clouds</title>
-            <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg003.perseus-grc2">
-                <label xml:lang="eng">Clouds</label>
-                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml">
+        <work projid="greekLit:tlg003" xml:lang="grc">
+            <title xml:lang="en">Clouds</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Clouds</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907. </description>
+                <online docname="/db/repository/greekLit/tlg0019/tlg003/tlg0019.tlg003.perseus-grc1.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
                     </citationMapping>
                 </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
         </work>
-        <!--
         <work projid="greekLit:tlg004" xml:lang="grc">
             <title xml:lang="en">Wasps</title>
             <edition projid="greekLit:perseus-grc1">
@@ -295,42 +301,34 @@
                 </online>
             </edition>
         </work>
-        -->
-        <work projid="greekLit:tlg006"
-        urn="urn:cts:greekLit:tlg0019.tlg006"
-        xml:lang="grc">
-        <title xml:lang="eng">Birds</title>
-        <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg006.perseus-grc2">
-            <label xml:lang="eng">Birds</label>
-            <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-            <online docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml">
-                <validate schema="teia.xsd"/>
-                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                <citationMapping>
-                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                </citationMapping>
-            </online>
-            <memberof collection="Perseus:collection:Greco-Roman"/>
-        </edition>
-        </work>
-        <work projid="greekLit:tlg007" xmlns:cts="http://chs.harvard.edu/xmlns/cts/ti"
-            urn="urn:cts:greekLit:tlg0019.tlg007"
-            xml:lang="grc">
-            <title xml:lang="eng">Lysistrata</title>
-            <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg007.perseus-grc2">
-                <label xml:lang="eng">Lysistrata</label>
+        <work projid="greekLit:tlg006" xml:lang="grc">
+            <title xml:lang="en">Birds</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Birds</label>
                 <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml">
+                <online docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-grc1.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
                     </citationMapping>
                 </online>
-                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </edition>
         </work>
-        <!--
+        <work projid="greekLit:tlg007" xml:lang="grc">
+            <title xml:lang="en">Lysistrata</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Lysistrata</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online docname="/db/repository/greekLit/tlg0019/tlg007/tlg0019.tlg007.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
         <work projid="greekLit:tlg008" xml:lang="grc">
             <title xml:lang="en">Thesmophoriazusae</title>
             <edition projid="greekLit:perseus-grc1">
@@ -359,25 +357,22 @@
                 </online>
             </edition>
         </work>
-        -->
-        <work projid="greekLit:tlg010"
-            urn="urn:cts:greekLit:tlg0019.tlg010"
-            xml:lang="grc">
-            <title xml:lang="eng">Ecclesiazusae</title>
-            <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg010.perseus-grc2">
-                <label xml:lang="eng">Ecclesiazusae</label>
-                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                <online docname="/db/repository/greekLit/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml">
+        <work projid="greekLit:tlg010" xml:lang="grc">
+            <title xml:lang="en">Ecclesiazusae</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Ecclesiazusae</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
+                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
+                    Oxford. Clarendon Press, Oxford. 1907. </description>
+                <online docname="/db/repository/greekLit/tlg0019/tlg010/tlg0019.tlg010.perseus-grc1.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body"/>
                     </citationMapping>
                 </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
         </work>
-        <!--
         <work projid="greekLit:tlg011" xml:lang="grc">
             <title xml:lang="en">Plutus</title>
             <edition projid="greekLit:perseus-grc1">
@@ -392,12 +387,11 @@
                 </online>
             </edition>
         </work>
-        -->
     </textgroup>
-    <!--
+   
     <textgroup projid="greekLit:tlg0020">
         <groupname xml:lang="en">Hesiod</groupname>
-        <work projid="greekLit:tlg002" xml:lang="grc">
+        <!-- <work projid="greekLit:tlg002" xml:lang="grc">
             <title xml:lang="en">Works and Days</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="en">Works and Days</label>
@@ -416,7 +410,7 @@
                     </citationMapping>
                 </online>
             </edition>
-        </work> 
+        </work> -->
         <work projid="greekLit:tlg003" xml:lang="grc">
             <title xml:lang="en">Shield of Heracles</title>
             <edition projid="greekLit:perseus-grc1">
@@ -432,7 +426,50 @@
             </edition>
         </work>
     </textgroup>
-    -->
+    
+   <!-- <textgroup projid="greekLit:tlg0026">
+        <groupname xml:lang="en">Aeschines</groupname>
+        <work projid="greekLit:tlg001" xml:lang="grc">
+            <title xml:lang="en">Against Timarchus</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Against Timarchus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,41252169, Perseus:bib:isbn,0674991184, Aeschines. Aeschines with an English translation by Charles Darwin Adams, Ph.D. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1919.
+                </description>
+                <online docname="/db/repository/greekLit/tlg0032/tlg001/tlg0026.tlg001.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                     <citationMapping>
+                           <citation label="speech" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                               <citation label="section" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                                    
+                               </citation>
+                           </citation>
+                       </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup> -->
+    <!-- <textgroup projid="greekLit:tlg0027">
+        <groupname xml:lang="en">Andocides</groupname>
+        <work projid="greekLit:tlg004" xml:lang="grc">
+            <title xml:lang="en">Against Alicibiades</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Against Alcibiades</label>
+                <description xml:lang="eng">Perseus:bib:oclc,1241542, Perseus:bib:isbn,0674993403, Andocides. Minor Attic Orators in two volumes 1, Antiphon Andocides, with an English translation by K. J. Maidment, M.A. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1968.
+                </description>
+                <online docname="/db/repository/greekLit/tlg0027/tlg004/tlg0027.tlg004.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                           <citation label="speech" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                               <citation label="section" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>     
+                               </citation>
+                           </citation>
+                       </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup> -->
     <textgroup projid="greekLit:tlg0032">
         <groupname xml:lang="en">Xenophon</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
@@ -476,6 +513,60 @@
                 </online>
             </edition>
         </work>
+        <!--   <work projid="greekLit:tlg003" xml:lang="grc">
+            <title xml:lang="en">Economics</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Economics</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 2, 2nd ed. Oxford, Clarendon Press. 1921 (repr. 1971).</description>
+                <online docname="/db/repository/greekLit/tlg0032/tlg003/tlg0032.tlg003.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="chapter" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']">
+                                <citation label="section" xpath="/div3[@n='?']" scope="/TEI.2/text/body/div1[@n='?']/div2[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>-->
+        <!--   <work projid="greekLit:tlg004" xml:lang="grc">
+            <title xml:lang="en">Symposium</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Symposium</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 2, 2nd ed. Oxford, Clarendon Press. 1921 (repr. 1971).</description>
+                <online docname="/db/repository/greekLit/tlg0032/tlg004/tlg0032.tlg004.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="chapter" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']">
+                                <citation label="section" xpath="/div3[@n='?']" scope="/TEI.2/text/body/div1[@n='?']/div2[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>-->
+        <!--   <work projid="greekLit:tlg005" xml:lang="grc">
+            <title xml:lang="en">Apology</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Apology</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 2, 2nd ed. Oxford, Clarendon Press. 1921 (repr. 1971).</description>
+                <online docname="/db/repository/greekLit/tlg0032/tlg005/tlg0032.tlg005.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="chapter" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']">
+                                <citation label="section" xpath="/div3[@n='?']" scope="/TEI.2/text/body/div1[@n='?']/div2[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>-->
         <work projid="greekLit:tlg006" xml:lang="grc">
             <title xml:lang="en">Anabasis</title>
             <edition projid="greekLit:perseus-grc1">
@@ -512,20 +603,6 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg005" xml:lang="grc">
-            <title xml:lang="en">Apology</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Apology</label>
-                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 2, 2nd ed. Oxford, Clarendon Press. 1921 (repr. 1971).</description>
-                <online docname="/db/repository/greekLit/tlg0032/tlg005/tlg0032.tlg005.perseus-grc1.xml">
-                    <validate schema="documentschema.rng"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
         <!-- <work projid="greekLit:tlg008" xml:lang="grc">
             <title xml:lang="en">Hiero</title>
             <edition projid="greekLit:perseus-grc1">
@@ -535,13 +612,12 @@
                     <validate schema="documentschema.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                       
                             <citation label="chapter" xpath=""
                                 scope="">
-                                <citation label="section" xpath=""
-                                    scope=""/>
+                                <citation label="section" xpath="" scope=""/>
                             </citation>
-                        </citation>
+                        
                     </citationMapping>
                 </online>
             </edition>
@@ -555,21 +631,310 @@
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="chapter" xpath=""
-                                scope="">
+                        
+                            <citation label="chapter" xpath="" scope="">
+                                <citation label="section" xpath=""scope=""/>
+                            </citation>
+                        
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>-->
+        <!--<work projid="greekLit:tlg011" xml:lang="grc">
+            <title xml:lang="en">Ways and Means</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Ways and Means</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 5. Oxford, Clarendon Press. 1920 (repr.1969).</description>
+                <online docname="tlg0032.tlg011.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                      
+                            <citation label="chapter" xpath="" scope="">
                                 <citation label="section" xpath=""
                                     scope=""/>
                             </citation>
-                        </citation>
+                        
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>-->
+             <!--<work projid="greekLit:tlg012" xml:lang="grc">
+            <title xml:lang="en">Art of Horsemanship</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Art of Horsemanship</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 5. Oxford, Clarendon Press. 1920 (repr.1969).</description>
+                <online docname="tlg0032.tlg012.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                       
+                            <citation label="chapter" xpath=""scope="">
+                                <citation label="section" xpath=""scope=""/>
+                            </citation>
+                       
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>-->
+        <!--<work projid="greekLit:tlg014" xml:lang="grc">
+            <title xml:lang="en">On Hunting</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">On Hunting</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5877369, Perseus:bib:isbn,019814556X, Xenophon. Xenophontis opera omnia, vol. 5. Oxford, Clarendon Press. 1920 (repr.1969).</description>
+                <online docname="tlg0032.tlg014.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                            <citation label="chapter" xpath="" scope="">
+                                <citation label="section" xpath=""scope=""/>
+                            </citation>
                     </citationMapping>
                 </online>
             </edition>
         </work>-->
     </textgroup>
+    <textgroup projid="greekLit:tlg0033">
+        <groupname xml:lang="en">Pindar</groupname>
+        <work projid="greekLit:tlg001" xml:lang="grc">
+            <title xml:lang="en">Olympian Odes</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Odes</label>
+                <description xml:lang="eng">Perseus:bib:oclc,2519477, Perseus:bib:isbn,0674995643, Perseus:bib:isbn,0674995341, Pindar. The Odes of Pindar including the Principal Fragments with an Introduction and an English Translation by Sir John Sandys, Litt.D., FBA. Cambridge, MA., Harvard University Press; London, William Heinemann Ltd. 1937.
+                </description>
+                <online docname="/db/repository/greekLit/tlg0033/tlg001/tlg0033.tlg001.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body/div1"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <!-- <work projid="greekLit:tlg002" xml:lang="grc">
+            <title xml:lang="en">Pythian Odes</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Pythian Odes</label>
+                <description xml:lang="eng">Perseus:bib:oclc,2519477, Perseus:bib:isbn,0674995643, Perseus:bib:isbn,0674995341, Pindar. The Odes of Pindar including the Principal Fragments with an Introduction and an English Translation by Sir John Sandys, Litt.D., FBA. Cambridge, MA., Harvard University Press; London, William Heinemann Ltd. 1937.
+                </description>
+                <online docname="/db/repository/greekLit/tlg0033/tlg002/tlg0033.tlg002.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body/div1"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg003" xml:lang="grc">
+            <title xml:lang="en">Nemean Odes</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Nemean</label>
+                <description xml:lang="eng">Perseus:bib:oclc,2519477, Perseus:bib:isbn,0674995643, Perseus:bib:isbn,0674995341, Pindar. The Odes of Pindar including the Principal Fragments with an Introduction and an English Translation by Sir John Sandys, Litt.D., FBA. Cambridge, MA., Harvard University Press; London, William Heinemann Ltd. 1937.
+                </description>
+                <online docname="/db/repository/greekLit/tlg0033/tlg003/tlg0033.tlg003.perseus-grc1.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                   <citationMapping>
+                        <citation label="line" xpath="//l[@n='?']" scope="/TEI.2/text/body/div1"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+    </textgroup>
     <textgroup projid="greekLit:tlg0059">
         <groupname xml:lang="en">Plato</groupname>
-        <work projid="greekLit:tlg030" xml:lang="grc">
+        <!-- <work projid="greekLit:tlg002" xml:lang="grc">
+            <title xml:lang="en">Apology</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Apology</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg002/tlg0059.tlg002.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="//div[@n='?']" scope="/TEI.2/text/body”/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg003" xml:lang="grc">
+            <title xml:lang="en">Crito</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Crito</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg003/tlg0059.tlg003.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                       <citation label="section" xpath="//div[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg006" xml:lang="grc">
+            <title xml:lang="en">Theaetetus</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Theaetetus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg006/tlg0059.tlg006.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                       <citation label="section" xpath="//div[@n='?']" scope="/TEI.2/text/body”/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg010" xml:lang="grc">
+            <title xml:lang="en">Philebus</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Philebus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg010/tlg0059.tlg010.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="//div[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg011" xml:lang="grc">
+            <title xml:lang="en">Symposium</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Symposium</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg011/tlg0059.tlg011.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="//div[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg012" xml:lang="grc">
+            <title xml:lang="en">Phaedrus</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Phaedrus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg012/tlg0059.tlg012.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                            <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+            <!-- <work projid="greekLit:tlg013" xml:lang="grc">
+            <title xml:lang="en">Alcibiades 1</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Alcibiades 1</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg013/tlg0059.tlg013.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                      
+                           
+                                <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                            
+                  
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg014" xml:lang="grc">
+            <title xml:lang="en">Alcibiades 2</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Alcibiades 2</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg014/tlg0059.tlg014.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        
+                           
+                                <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                            
+                    
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg019" xml:lang="grc">
+            <title xml:lang="en">Laches</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Laches</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg019/tlg0059.tlg019.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                     <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg022" xml:lang="grc">
+            <title xml:lang="en">Protagoras</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Protagoras</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg022/tlg0059.tlg022.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                             <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg023" xml:lang="grc">
+            <title xml:lang="en">Gorgias</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Gorgias</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg023/tlg0059.tlg023.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                         <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg024" xml:lang="grc">
+            <title xml:lang="en">Meno</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Meno</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg024/tlg0059.tlg024.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                         <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg027" xml:lang="grc">
+            <title xml:lang="en">Ion</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Ion</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg027/tlg0059.tlg027.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg030" xml:lang="grc">
             <title xml:lang="en">Republic</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="en">Republic</label>
@@ -579,140 +944,27 @@
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/div[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/div[@n='?']"/>
+                         <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/text[@n='?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
+        <!-- <work projid="greekLit:tlg031" xml:lang="grc">
+            <title xml:lang="en">Timaeus</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Timaeus</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg031/tlg0059.tlg031.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="" scope="">
+                            <citation label="section" xpath="" scope=""/>
                         </citation>
                     </citationMapping>
                 </online>
             </edition>
-            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0059.tlg030.perseus-eng1">
-                <label xml:lang="eng">Republic</label>
-                <description xml:lang="eng">Perseus:bib:oclc,1886340, Perseus:bib:isbn,0674992628, Perseus:bib:isbn,0674993047, Plato. Plato in Twelve Volumes, Vols. 5 &amp;amp; 6 translated by Paul Shorey. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1969.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg030/tlg0059.tlg030.perseus-eng1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="book" xpath="/div[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body/div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </translation>
-        </work> 
-        <work projid="greekLit:tlg002" xml:lang="grc">
-            <title xml:lang="en">Apology</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Apology</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg002/tlg0059.tlg002.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg003" xml:lang="grc">
-            <title xml:lang="en">Crito</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Crito</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg003/tlg0059.tlg003.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                       <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg006" xml:lang="grc">
-            <title xml:lang="en">Theaetetus</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Theaetetus</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg006/tlg0059.tlg006.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                       <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg010" xml:lang="grc">
-            <title xml:lang="en">Philebus</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Philebus</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg010/tlg0059.tlg010.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg011" xml:lang="grc">
-            <title xml:lang="en">Symposium</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Symposium</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg011/tlg0059.tlg011.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg012" xml:lang="grc">
-            <title xml:lang="en">Phaedrus</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Phaedrus</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg012/tlg0059.tlg012.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg013" xml:lang="grc">
-            <title xml:lang="en">Alcibiades 1</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Alcibiades 1</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg013/tlg0059.tlg013.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg014" xml:lang="grc">
-            <title xml:lang="en">Alcibiades 2</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Alcibiades 2</label>
-                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
-                <online docname="/db/repository/greekLit/tlg0059/tlg014/tlg0059.tlg014.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>         
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-        <!--
+        </work> -->
         <work projid="greekLit:tlg034" xml:lang="grc">
             <title xml:lang="en">Laws</title>
             <edition projid="greekLit:perseus-grc1">
@@ -727,11 +979,43 @@
                 </online>
             </edition>
         </work>
-        -->
+        <!-- <work projid="greekLit:tlg036" xml:lang="grc">
+            <title xml:lang="en">Epistles</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Epistles</label>
+                <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed. John Burnet. Oxford University Press. 1903.</description>
+                <online docname="/db/repository/greekLit/tlg0059/tlg036/tlg0059.tlg036.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Letter" xpath="/div1[@n='?']" scope="/TEI.2/text/body"">
+                            <citation label="section" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
     </textgroup>
     <textgroup projid="greekLit:tlg0086">
         <groupname xml:lang="en">Aristotle</groupname>
-        <!--
+        <!-- <work projid="greekLit:tlg014" xml:lang="grc">
+            <title xml:lang="en">Historia Animalium</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="en">Historia Animalium</label>
+                <description xml:lang="eng">Aristotle.,creator Bekker, Immanuel,1785-1871,editor</description>
+                <online docname="/db/repository/greekLit/tlg0086/tlg014/tlg0086.tlg014.opp-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                           
+                                <citation label="section" xpath="/div3[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                            
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> -->
         <work projid="greekLit:tlg025" xml:lang="grc">
             <title xml:lang="en">Metaphysics</title>
             <edition projid="greekLit:perseus-grc1">
@@ -750,118 +1034,8 @@
                 </online>
             </edition>
         </work>
-        -->
-        <work projid="greekLit:tlg029" urn="urn:cts:greekLit:tlg0086.tlg029" xml:lang="grc">
-            <title xml:lang="eng">Economics</title>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0086.tlg029.perseus-grc1">
-                <label xml:lang="eng">Economics (perseus-grc1)</label>
-                <description xml:lang="eng">Perseus:bib:oclc,37210208, Perseus:bib:isbn,0674993179, Aristotle. Aristotle in 23 Volumes, Vol. 18. Harvard University Press, Cambridge, Mass., London. 1935.</description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg029/tlg0086.tlg029.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="bekker page" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0086.tlg029.perseus-eng1">
-                <label xml:lang="eng">Economics (perseus-eng1)</label>
-                <description xml:lang="eng">Perseus:bib:oclc,37210208, Perseus:bib:isbn,0674993179, Aristotle. Aristotle in 23 Volumes, Vol. 18, translated by G.C. Armstrong. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1935.</description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg029/tlg0086.tlg029.perseus-eng1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="bekker page" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </translation>
-        </work>
-        <work projid="greekLit:tlg034" urn="urn:cts:greekLit:tlg0086.tlg034" xml:lang="grc">
-            <title xml:lang="eng">Ars Poetica</title>
-            <edition projid="greekLit:digicorpus-grc1" urn="urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc1">
-                <label xml:lang="eng">Ars Poetica</label>
-                <description xml:lang="eng">Aristotelis Opera, ed. Immanuel Bekker. Oxford, Oxford University Press, 1837. </description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="chapter" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-               
-            </edition>
-            <translation projid="greekLit:digicorpus-ara1" xml:lang="eng" urn="urn:cts:greekLit:tlg0086.tlg034.digicorpus-ara1">
-                <label xml:lang="eng">Ars Poetica (Arabic)</label>
-                <description xml:lang="eng">Arisṭūṭālīs: Fann al-šiʿr, maʿa l-tarǧamah al-ʿarabīyah al-qadīmah wa-šurūḥ
-                    al-Fārābī wa-Ibn Sīnā wa-Ibn Rušd. ed.  ʿAbd al-Raḥmān Badawī. Cairo, Maktabat al-nahḍah al-miṣrīyah, 1953. </description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-ara1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="chapter" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-          
-            </translation>
-        </work>
-        <work projid="greekLit:tlg035" urn="urn:cts:greekLit:tlg0086.tlg035" xml:lang="grc">
-            <title xml:lang="eng">Politics</title>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0086.tlg035.perseus-grc1">
-                <label xml:lang="eng">Politics (perseus-grc1)</label>
-                <description xml:lang="eng">Perseus:bib:oclc,29604983, Aristotle. ed. W. D. Ross, Aristotle&amp;apos;s Politica. Oxford, Clarendon Press. 1957.</description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg035/tlg0086.tlg035.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="bekker page" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0086.tlg035.perseus-eng1">
-                <label xml:lang="eng">Politics (perseus-eng1)</label>
-                <description xml:lang="eng">Perseus:bib:oclc,29752140, Perseus:bib:isbn,0674992911, Aristotle. Aristotle in 23 Volumes, Vol. 21, translated by H. Rackham. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1944.</description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg035/tlg0086.tlg035.perseus-eng1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="bekker page" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </translation>
-        </work>
-        <work projid="greekLit:tlg010" urn="urn:cts:greekLit:tlg0086.tlg010" xml:lang="grc">
-            <title xml:lang="eng">Nicomachean Ethics</title>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0086.tlg010.perseus-grc1">
-                <label xml:lang="eng">Nicomachean Ethics (perseus-grc1)</label>
-                <description xml:lang="eng">Perseus:bib:oclc,6838264, ed. J. Bywater, Aristotle&amp;apos;s Ethica Nicomachea. Oxford, Clarendon Press. 1894.</description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg010/tlg0086.tlg010.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="bekker page" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0086.tlg010.perseus-eng1">
-                <label xml:lang="eng">Nicomachean Ethics (perseus-eng1)</label>
-                <description xml:lang="eng">Perseus:bib:oclc,39541390, Perseus:bib:isbn,0674990811, Aristotle in 23 Volumes, Vol. 19, translated by H. Rackham. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1934.</description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg010/tlg0086.tlg010.perseus-eng1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="bekker page" xpath="/div[@n='?']" scope="/TEI.2/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
-            </translation>
-        </work>
+  
     </textgroup>
-    <!--
     <textgroup projid="greekLit:tlg0099">
         <groupname xml:lang="en">Strabo</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
@@ -886,267 +1060,4 @@
             </edition>
         </work>
     </textgroup>
-    -->
-    <textgroup projid="latinLit:phi0474" urn="urn:cts:latinLit:phi0474">
-        <groupname>Cicero</groupname>
-        <work projid="latinLit:phi002" urn="urn:cts:latinLit:phi0474.phi002" xml:lang="lat">
-            <title xml:lang="eng">For Sextus Roscius of Ameria</title>
-            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0474.phi002.perseus-lat1">
-                <label xml:lang="eng">For Sextus Roscius of Ameria</label>
-                <description xml:lang="eng">Perseus:bib:oclc,26994431, M. Tullius Cicero. M. Tulli Ciceronis Orationes: Recognovit brevique adnotatione critica instruxit Albertus Curtis Clark Collegii Reginae Socius. Albert Curtis Clark. Oxonii. e Typographeo Clarendoniano. 1908. Scriptorum Classicorum Bibliotheca Oxoniensis.</description>
-                <online docname="/db/repository/latinLit/phi0474/phi002/phi0474.phi002.perseus-lat1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-        <work projid="latinLit:phi024" urn="urn:cts:latinLit:phi0474.phi024" xml:lang="lat">
-            <title xml:lang="eng">For Marcus Caelius</title>
-            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0474.phi024.perseus-lat1">
-                <label xml:lang="eng">For Marcus Caelius</label>
-                <description xml:lang="eng">Perseus:bib:oclc,26994431, M. Tullius Cicero. M. Tulli Ciceronis Orationes: Recognovit brevique adnotatione critica instruxit Albertus Curtis Clark Collegii Reginae Socius. Albert Curtis Clark. Oxonii. e Typographeo Clarendoniano. 1908. Scriptorum Classicorum Bibliotheca Oxoniensis.</description>
-                <online docname="/db/repository/latinLit/phi0474/phi024/phi0474.phi024.perseus-lat1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-        
-    </textgroup>
-    <textgroup projid="latinLit:phi1348" urn="urn:cts:latinLit:phi1348">
-        <groupname>Suetonius</groupname>
-        <work projid="latinLit:abo012" urn="urn:cts:latinLit:phi1348.abo012" xml:lang="lat">
-            <title xml:lang="lat">Divus Augustus</title>
-            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi1348.abo012.perseus-lat1">
-                <label xml:lang="lat">Divus Augustus</label>
-                <description xml:lang="eng">Perseus:bib:oclc,38471332, Perseus:bib:isbn,3519018276</description>
-                <online docname="/db/repository/latinLit/phi1348/abo012/phi1348.abo012.perseus-lat1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                            <citation label="chapter" xpath="/div[@n='?']" scope="/TEI/text/body">
-                                <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body/div[@n='?']"/>
-                            </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="greekLit:tlg0028" urn="urn:cts:greekLit:tlg0028">
-        <groupname>Antiphon</groupname>
-        <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0028.tlg001" xml:lang="grc">
-            <title xml:lang="eng">Against the Stepmother for Poisoning</title>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0028.tlg001.perseus-grc1">
-                <label xml:lang="eng">Against the Stepmother for Poisoning</label>
-                <description xml:lang="eng">Perseus:bib:oclc,5331826, Perseus:bib:isbn,0674993403</description>
-                <online docname="/db/repository/greekLit/tlg0028/tlg001/tlg0028.tlg001.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="greekLit:tlg0062">
-        <groupname xml:lang="en">Lucian</groupname>
-        <work projid="greekLit:tlg020" xml:lang="grc">
-            <title xml:lang="en">Prometheus</title>
-            <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Prometheus</label>
-                <description xml:lang="eng">Perseus:bib:oclc,, Lucian. ed. A. M. Harmon,
-                    Works. Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</description>
-                <online docname="/db/repository/greekLit/tlg0062/tlg020/tlg0062.tlg020.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        
-                                <citation label="section" xpath="/tei:div[@n='?']"
-                                    scope="/tei:TEI/tei:text/tei:body/tei:div"/>
-                         
-                    </citationMapping>
-                </online>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="greekLit:tlg0540" urn="urn:cts:greekLit:tlg0540">
-        <groupname>Lysias</groupname>
-        <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0540.tlg001" xml:lang="grc">
-            <title xml:lang="eng">On the Murder of Eratosthenes</title>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg001.perseus-grc1">
-                <label xml:lang="eng">On the Murder of Eratosthenes</label>
-                <description xml:lang="eng">Perseus:bib:oclc,7623486, Perseus:bib:isbn,0674992695, Lysias. Lysias with an English translation by W.R.M. Lamb, M.A. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1930.</description>
-                <online docname="/db/repository/greekLit/tlg0540/tlg001/tlg0540.tlg001.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg014" urn="urn:cts:greekLit:tlg0540.tlg014" xml:lang="grc">
-            <title xml:lang="eng">Against Alcibiades 1</title>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg014.perseus-grc1">
-                <label xml:lang="eng">Against Alcibiades 1</label>
-                <description xml:lang="eng">Perseus:bib:oclc,7623486, Perseus:bib:isbn,0674992695, Lysias. Lysias with an English translation by W.R.M. Lamb, M.A. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1930.</description>
-                <online docname="/db/repository/greekLit/tlg0540/tlg014/tlg0540.tlg014.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-        <work projid="greekLit:tlg015" urn="urn:cts:greekLit:tlg0540.tlg015" xml:lang="grc">
-            <title xml:lang="eng">Against Alcibiades 2</title>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg015.perseus-grc1">
-                <label xml:lang="eng">Against Alcibiades 2</label>
-                <description xml:lang="eng">Perseus:bib:oclc,7623486, Perseus:bib:isbn,0674992695, Lysias. Lysias with an English translation by W.R.M. Lamb, M.A. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1930.</description>
-                <online docname="/db/repository/greekLit/tlg0540/tlg015/tlg0540.tlg015.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body"/>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-        
-    </textgroup>
-    <textgroup projid="latinLit:phi1020" urn="urn:cts:latinLit:phi1020">
-        <groupname>Statius, P. Papinius (Publius Papinius)</groupname>
-        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1020.phi001" xml:lang="lat">
-            <title xml:lang="eng">Thebais</title>
-            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1020.phi001.perseus-lat2">
-                <label xml:lang="eng">Thebais</label>
-                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol I-II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. OCR.</description>
-                <online docname="/db/repository/latinLit/phi1020/phi001/phi1020.phi001.perseus-lat2.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="latinLit:phi1035" urn="urn:cts:latinLit:phi1035">
-        <groupname xml:lang="eng">Valerius Flaccus, Gaius</groupname>
-        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1035.phi001" xml:lang="lat">
-            <title xml:lang="eng">Argonautica</title>
-            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1035.phi001.perseus-lat2">
-                <label xml:lang="eng">Argonautica</label>
-                <description xml:lang="eng">C. Valerius Flaccus. Otto Kramer. C. Valeri Flacci Setini Balbi Argonauticon Libri Octo. Leipzig. Teubner. 1913.</description>
-                <online docname="/db/repository/latinLit/phi1035/phi001/phi1035.phi001.perseus-lat2.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="latinLit:phi1345" urn="urn:cts:latinLit:phi1345">
-        <groupname xml:lang="eng">Silius Italicus, Tiberius Catius</groupname>
-        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1345.phi001" xml:lang="lat">
-            <title xml:lang="eng">Punica</title>
-            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1345.phi001.perseus-lat2">
-                <label xml:lang="eng">Punica</label>
-                <description xml:lang="eng">Silius Italicus. Corpus Poetarum Latinorum, Vol 2. Walter Coventry Summers. John Percival Postgate. London. Sumptibus G. Bell et Filiorum. 1905. Keyboarding.</description>
-                <online docname="/db/repository/latinLit/phi1345/phi001/phi1345.phi001.perseus-lat2.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="latinLit:phi0690" urn="urn:cts:latinLit:phi0690">
-        <groupname xml:lang="eng">Virgil</groupname>
-        <work projid="latinLit:phi003" urn="urn:cts:latinLit:phi0690.phi003" xml:lang="lat">
-            <title xml:lang="eng">Aeneid</title>
-            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0690.phi003.perseus-lat1">
-                <label xml:lang="eng">Aeneid</label>
-                <description xml:lang="eng">Perseus:bib:oclc,22858571, Vergil. Bucolics, Aeneid, and Georgics Of Vergil. J. B. Greenough. Boston. Ginn &amp;amp; Co. 1900.</description>
-                <online docname="/db/repository/latinLit/phi0690/phi003/phi0690.phi003.perseus-lat1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="latinLit:phi0959" urn="urn:cts:latinLit:phi0959">
-        <groupname xml:lang="eng">Ovid</groupname>
-        <work projid="latinLit:phi006" urn="urn:cts:latinLit:phi0959.phi006" xml:lang="lat">
-            <title xml:lang="eng">Metamorphoses</title>
-            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi006.perseus-lat1">
-                <label xml:lang="eng">Metamorphoses</label>
-                <description xml:lang="eng">Perseus:bib:oclc,32116154, Ovid. Metamorphoses. Hugo Magnus. Gotha (Germany). Friedr. Andr. Perthes. 1892.</description>
-                <online docname="/db/repository/latinLit/phi0959/phi006/phi0959.phi006.perseus-lat1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-    </textgroup>
-    <textgroup projid="latinLit:phi0917" urn="urn:cts:latinLit:phi0917">
-        <groupname xml:lang="eng">Lucan</groupname>
-        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi0917.phi001" xml:lang="lat">
-            <title xml:lang="eng">Civil War</title>
-            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0917.phi001.perseus-lat1">
-                <label xml:lang="eng">Pharsalia</label>
-                <description xml:lang="eng">Pharsaliae Libri X. M. Annaeus Lucanus. Carolus Hermannus Weise. Leipzig. G. Bassus. 1835.</description>
-                <online docname="/db/repository/latinLit/phi0917/phi001/phi0917.phi001.perseus-lat1.xml">
-                    <validate schema="teia.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-                <memberof collection="Perseus:collection:Greco-Roman"/>
-            </edition>
-        </work>
-    </textgroup>
-</TextInventory>
+</TextInventory> 

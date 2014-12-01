@@ -1,0 +1,161 @@
+<?xml-model href="../../TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiid="epifacs" tiversion="3.0.rc1">
+    <ctsnamespace abbr="ig" ns="http://data.perseus.org/ns/cts/ig">
+        <description xml:lang="eng">Inscriptions cataloged by Inscriptiones_Graecae</description>
+    </ctsnamespace>
+    <ctsnamespace abbr="ceg" ns="http://data.perseus.org/ns/cts/ceg">
+        <description xml:lang="eng">Inscriptions cataloged in Carmina epigraphica graeca saeculorum</description>
+    </ctsnamespace>
+    <collection id="epifacs">
+        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Marie-Claire's Eipgrams</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Marie-Claire Beaulieu</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="">TBD</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">TBD</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under the terms of Creative Commons attribution-share-alike license.</rights>
+    </collection>
+    <citationSchemes>
+        <scheme projid="poeticline" type="logical">
+            <label>line</label>
+            <description xml:lang="eng">Epigram cited by individual lines.</description>
+        </scheme>
+    </citationSchemes>
+    <textgroup projid="ig:ii" urn="urn:cts:ig:ii">
+        <groupname xml:lang="eng">IG II</groupname>
+        <work projid="ig:1257" xml:lang="grc" urn="urn:cts:ig:ii.1257">
+            <title xml:lang="fr">Fragment de deux décrets en l'honneur de Lysiklès et d'Euthycritos</title>
+        </work>
+    </textgroup>
+    <textgroup projid="ig:ii_2" urn="urn:cts:ig:ii_2">
+        <groupname xml:lang="eng">IG II (2)</groupname>
+        <work projid="ig:12974" xml:lang="grc" urn="urn:cts:ig:ii_2.12974">
+            <title xml:lang="eng">Mus. Nat. 3696</title>
+            <edition projid="ig:perseus-grc1" urn="urn:cts:ig:ii_2.12974.perseus-grc1">
+                <label xml:lang="eng">Mus. Nat. 3696 Transcription Tufts Students Fall 2013</label>
+                <online docname="ii_2.12974.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ig:perseus-eng1" xml:lang="eng" urn="urn:cts:ig:ii_2.12974.perseus-eng1">
+                <label xml:lang="eng">Mus. Nat. 3696 Translation by Tufts Students Fall 2013</label>
+                <online docname="ii_2.12974.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
+        </work>
+    </textgroup>
+    <textgroup projid="ig:vii" urn="urn:cts:ig:vii">
+        <groupname xml:lang="eng">IG VII</groupname>
+        <work projid="ig:115-117" xml:lang="grc">
+            <title xml:lang="eng">115-117: Three epigrams on a sarcophagus (Megara, IVth-Vth century AD.)</title>
+        </work>
+        <work projid="ig:2543-2545" xml:lang="grc" urn="urn:cts:ig:vii.2543-2545">
+            <title xml:lang="eng">2543-2545: Epitaph of Nedymos (Thebes)</title>
+            <edition projid="ig:perseus-grc1" urn="urn:cts:ig:vii.2543-2545.perseus-grc1">
+                <label xml:lang="eng">Transcription by Marie-Claire Beaulieu</label>
+                <online docname="/db/repository/ig/vii/vii.2543-2545.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="textpart" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/">
+                            <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ig:perseus-eng1" xml:lang="eng" urn="urn:cts:ig:vii.2543-2545.perseus-eng1">
+                <label xml:lang="eng">English Translation by Marie-Claire Beaulieu</label>
+                <online docname="/db/repository/ig/vii/vii.2543-2545.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Paragraph" xpath="/tei:body//tei:div[@n='?']" scope=""/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
+        </work>
+    </textgroup>
+    <textgroup projid="ig:ix" urn="urn:cts:ig:ix">
+        <groupname xml:lang="eng">IG IX</groupname>
+        <work projid="ig:2_532" xml:lang="grc" urn="urn:cts:ig:ix.2_532">
+            <title xml:lang="fr">Liste des vainqueurs aux jeux thessaliens dis des Sténa</title>
+        </work>
+    </textgroup>
+    <textgroup projid="ig:xii" urn="urn:cts:ig:xii">
+        <groupname xml:lang="eng">IG XII</groupname>
+        <work projid="ig:8_600" xml:lang="grc" urn="urn:cts:ig:xii.8_600">
+            <title xml:lang="eng">8,600 Thasos, on a sarcophagus IInd century AD.</title>
+        </work>
+        <work projid="ig:8_441" xml:lang="grc" urn="urn:cts:ig:xii.8_441">
+            <title xml:lang="fr">8,441 Épigramme funéraire pour Antiphôn, fils de Sophoklès, frère d'Eurymènides</title>
+        </work>
+        <work projid="ig:8_441_C_B" xml:lang="grc" urn="urn:cts:ig:xii.8_441_C_B">
+            <title xml:lang="fr">8,441, C. B. Épigramme  funéraire pour Eurymenidès, fils de Sophoklès, frère d'Antiphôn</title>
+        </work>
+    </textgroup>
+    <textgroup projid="ceg:ceg" urn="urn:cts:ceg:ceg">
+        <groupname xml:lang="eng">CEG Inscriptions</groupname>
+        <work projid="ceg:509" xml:lang="grc" urn="urn:cts:ceg:ceg.509">
+            <title xml:lang="eng">509, Mus. Nat. 1962</title>
+        </work>
+        <work projid="ceg:490" xml:lang="grc" urn="urn:cts:ceg:ceg.490">
+            <title xml:lang="eng">490, Demetria</title>
+        </work>
+        <work projid="ceg:524" xml:lang="grc" urn="urn:cts:ceg:ceg.524">
+            <title xml:lang="eng">524, Archippos Skambonides</title>
+            <edition projid="ceg:perseus-grc1" urn="urn:cts:ceg:524.perseus-grc1">
+                <label xml:lang="eng">CEG 524 Transcription Tufts Students Fall 2013</label>
+                <online docname="ceg.524.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ceg:perseus-eng1" xml:lang="eng" urn="urn:cts:ceg:ceg.524.perseus-eng1">
+                <label xml:lang="eng">CEG 524 Translation by Tufts Students Fall 2013</label>
+                <online docname="ceg.524.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
+        </work>
+        <work projid="ceg:595" xml:lang="grc" urn="urn:cts:ceg:ceg.595">
+            <title xml:lang="eng">595, Funerary monument for isoteleis Gerus, his wife Nico, and Theophilos</title>
+        </work>
+        <work projid="ceg:518" xml:lang="grc" urn="urn:cts:ceg:ceg.518">
+            <title xml:lang="eng">518, Pausimache, daughter of Phainippe and Pausanias</title>
+            <edition projid="ceg:perseus-grc1" urn="urn:cts:ceg:ceg.518.perseus-grc1">
+                <label xml:lang="eng">CEG 518 Transcription Tufts Students Fall 2013</label>
+                <online docname="ceg.518.perseus-grc1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </edition>
+            <translation projid="ceg:perseus-eng1" xml:lang="eng" urn="urn:cts:ceg:ceg.518.perseus-eng1">
+                <label xml:lang="eng">CEG 518 Translation by Tufts Students Fall 2013</label>
+                <online docname="ceg.518.perseus-eng1.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="epifacs"/>
+            </translation>
+        </work>
+    </textgroup>
+</TextInventory>

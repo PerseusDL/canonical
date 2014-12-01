@@ -1,0 +1,24 @@
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiversion="3.0.rc1">
+    <!-- This is a TextInventory for Epigraphical texts which are being edited on the Perseids Platform -->
+    <collection id="Perseus:collection:Greco-Roman" isdefault="yes">
+        <title xml:lang="eng">Greek and Roman Materials</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">The Perseus Digital Library</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
+            and Rome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
+            and Rome</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under a Creative Commons Attribution-ShareAlike 3.0 United States License</rights>
+    </collection>
+    <ctsnamespace abbr="pdlepi" ns="http://data.perseus.org/ns/cts/pdlepi">
+        <description xml:lang="eng">Epigraphical Texts in the Perseus Digital Library (Pilot)</description>
+    </ctsnamespace>
+    <textgroup projid="pdlepi:greekEpi">
+        <groupname>Greek Epigraphy Collection at Perseus Digital Library</groupname>
+    </textgroup>
+    <textgroup projid="pdlepi:latinEpi">
+        <groupname>Latin Epigraphy Collection at Perseus Digital Library</groupname>
+    </textgroup>
+    <textgroup projid="pdlepi:eagle">
+        <groupname>Epigraphy Collection Aggregated by EAGLE</groupname>
+    </textgroup>
+</TextInventory>
