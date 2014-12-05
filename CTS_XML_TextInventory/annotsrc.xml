@@ -919,7 +919,24 @@
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
         </work>
-        
+        <work projid="latinLit:phi013" urn="urn:cts:latinLit:phi0474.phi013" xml:lang="lat">
+            <title xml:lang="eng">Against Catiline</title>
+            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0474.phi013.perseus-lat1">
+                <label xml:lang="eng">Against Catiline</label>
+                <description xml:lang="eng">Perseus:bib:oclc,26994431, M. Tullius Cicero. M. Tulli Ciceronis Orationes: Recognovit brevique adnotatione critica instruxit Albertus Curtis Clark Collegii Reginae Socius. Albert Curtis Clark. Oxonii. e Typographeo Clarendoniano. 1908. Scriptorum Classicorum Bibliotheca Oxoniensis.</description>
+                <online docname="/db/repository/latinLit/phi0474/phi013/phi0474.phi013.perseus-lat1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                            <citation label="speech" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body">
+                                <citation label="chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                </citation>
+                            </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
     </textgroup>
     <textgroup projid="latinLit:phi1348" urn="urn:cts:latinLit:phi1348">
         <groupname>Suetonius</groupname>
