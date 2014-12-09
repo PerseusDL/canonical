@@ -46,7 +46,7 @@
             <title xml:lang="eng">Mus. Nat. 3696</title>
             <edition projid="ig:perseus-grc1" urn="urn:cts:ig:ii_2.12974.perseus-grc1">
                 <label xml:lang="eng">Mus. Nat. 3696 Transcription Tufts Students Fall 2013</label>
-                <online docname="ii_2.12974.perseus-grc1.xml">
+                <online docname="/db/repository/ig/ii_2/12974/ii_2.12974.perseus-grc1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
@@ -56,7 +56,7 @@
             </edition>
             <translation projid="ig:perseus-eng1" xml:lang="eng" urn="urn:cts:ig:ii_2.12974.perseus-eng1">
                 <label xml:lang="eng">Mus. Nat. 3696 Translation by Tufts Students Fall 2013</label>
-                <online docname="ii_2.12974.perseus-eng1.xml">
+                <online docname="/db/repository/ig/ii_2/12974/ii_2.12974.perseus-eng1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
@@ -75,7 +75,7 @@
             <title xml:lang="eng">2543-2545: Epitaph of Nedymos (Thebes)</title>
             <edition projid="ig:perseus-grc1" urn="urn:cts:ig:vii.2543-2545.perseus-grc1">
                 <label xml:lang="eng">Transcription by Marie-Claire Beaulieu</label>
-                <online docname="/db/repository/ig/vii/vii.2543-2545.perseus-grc1.xml">
+                <online docname="/db/repository/ig/vii/2543-2545/vii.2543-2545.perseus-grc1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="textpart" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/">
@@ -88,7 +88,7 @@
             </edition>
             <translation projid="ig:perseus-eng1" xml:lang="eng" urn="urn:cts:ig:vii.2543-2545.perseus-eng1">
                 <label xml:lang="eng">English Translation by Marie-Claire Beaulieu</label>
-                <online docname="/db/repository/ig/vii/vii.2543-2545.perseus-eng1.xml">
+                <online docname="/db/repository/ig/vii/2543-2545/vii.2543-2545.perseus-eng1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Paragraph" xpath="/tei:body//tei:div[@n='?']" scope=""/>
@@ -128,7 +128,7 @@
             <title xml:lang="eng">524, Archippos Skambonides</title>
             <edition projid="ceg:perseus-grc1" urn="urn:cts:ceg:524.perseus-grc1">
                 <label xml:lang="eng">CEG 524 Transcription Tufts Students Fall 2013</label>
-                <online docname="ceg.524.perseus-grc1.xml">
+                <online docname="/db/repository/ceg/ceg/524/ceg.524.perseus-grc1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
@@ -138,7 +138,7 @@
             </edition>
             <translation projid="ceg:perseus-eng1" xml:lang="eng" urn="urn:cts:ceg:ceg.524.perseus-eng1">
                 <label xml:lang="eng">CEG 524 Translation by Tufts Students Fall 2013</label>
-                <online docname="ceg.524.perseus-eng1.xml">
+                <online docname="/db/repository/ceg/ceg/524/ceg.524.perseus-eng1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
@@ -154,7 +154,7 @@
             <title xml:lang="eng">518, Pausimache, daughter of Phainippe and Pausanias</title>
             <edition projid="ceg:perseus-grc1" urn="urn:cts:ceg:ceg.518.perseus-grc1">
                 <label xml:lang="eng">CEG 518 Transcription Tufts Students Fall 2013</label>
-                <online docname="ceg.518.perseus-grc1.xml">
+                <online docname="/db/repository/ceg/ceg/518/ceg.518.perseus-grc1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:lg"/>    
@@ -164,7 +164,7 @@
             </edition>
             <translation projid="ceg:perseus-eng1" xml:lang="eng" urn="urn:cts:ceg:ceg.518.perseus-eng1">
                 <label xml:lang="eng">CEG 518 Translation by Tufts Students Fall 2013</label>
-                <online docname="ceg.518.perseus-eng1.xml">
+                <online docname="/db/repository/ceg/ceg/518/ceg.518.perseus-eng1.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Paragraph" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
