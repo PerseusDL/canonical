@@ -132,8 +132,7 @@ Added to repository.
 <body>
 
 
-<div1 type="act" n="1">
-<div2 type="scene" n="prol">
+<div1 type="act" n="prol.">
 
 <sp><speaker>Mercvrivs</speaker>
 <l n="1">Vt vos in vostris voltis mercimoniis</l>
@@ -287,8 +286,9 @@ Added to repository.
 <l n="149">a portu ill&iacute;c nunc cum lanterna &aacute;dvenit.</l>
 <lb ed="actscene" n="150"/><l n="150">abigam iam ego illum advenientem ab aedibus.</l>
 <l n="151">adeste: erit operae pretium h&iacute;c spectantibus</l>
-<l n="152">Iovem et Mercurium facere h&iacute;strioniam.</l></sp></div2>
+<l n="152">Iovem et Mercurium facere h&iacute;strioniam.</l></sp></div1>
 
+<div1 type="act" n="1">
 <div2 type="scene" n="1">
 <sp><speaker>Sosia</speaker>
 <l n="153">Qui me &aacute;lter est aud&aacute;cior homo a&uacute;t qui confid&eacute;ntior,</l>
