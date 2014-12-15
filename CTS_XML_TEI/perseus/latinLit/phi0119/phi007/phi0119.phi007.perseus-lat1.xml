@@ -606,8 +606,10 @@ Added to repository.
 
 <sp><speaker>Serv.</speaker>
 <l n="252">Quid tu ergo <gap/> te manuleo</l>
-<l n="253"><gap/> </l>
-<l part="I" n="273">{(&amp;7Alc&amp;.)} Quid si amo? <gap/> </l></sp>
+<l n="253"><gap/> </l></sp>
+
+<sp><speaker>(Alc.)</speaker>
+<l part="I" n="273">Quid si amo? <gap/> </l></sp>
 
 <sp><speaker>(T.)</speaker>
 <l part="M" n="273.1"><gap/> est amor</l>
@@ -621,8 +623,10 @@ Added to repository.
 <lb ed="actscene" n="55"/><l n="279">Immo maxumus.</l>
 <l n="280">nam qu&iacute; amant stulte atque inmodeste atque inprobe</l>
 <l n="281"><gap/> ne ament.</l>
-<l n="282"><gap/> </l>
-<l part="I" n="283">{(&amp;7Alc&amp;.)} <gap/> ubi tu es?</l></sp>
+<l n="282"><gap/> </l></sp>
+
+<sp><speaker>(Alc.)</speaker>
+<l part="I" n="283"><gap/> ubi tu es?</l></sp>
 
 <sp><speaker>Serv.</speaker>
 <l part="M" n="283.1">Ecce me.</l></sp>
@@ -895,8 +899,10 @@ Added to repository.
 <l n="458">quamquam hominem <gap/> </l>
 <l n="459">verba dare <gap/> </l>
 <l n="460">non illa <gap/> qui frangant foedera</l>
-<lb ed="actscene" n="150"/><l n="461"><gap/> eos <gap/> </l>
-<l n="462">{(&amp;7Sel&amp;.)} dabis.&mdash;</l></sp>
+<lb ed="actscene" n="150"/><l n="461">eos <gap/> </l></sp>
+
+<sp><speaker>(Sel.)</speaker>
+<l n="462">dabis.&mdash;</l></sp>
 
 <sp><speaker>Alc.</speaker>
 <l n="463">At eg&oacute; nec do n&eacute;que te am&iacute;ttam hodie, nisi qua&eacute; volo tec&uacute;m loqui</l>
@@ -925,13 +931,19 @@ Added to repository.
 
 <sp><speaker>Alc.</speaker>
 <l n="473">Nescia <gap/> </l>
-<l n="474"><gap/> {(&amp;7Mel&amp;.)} nugas agis.</l>
+<l part="I" n="474"><gap/> </l></sp>
+
+<sp><speaker>(Mel.)</speaker>
+<l part="M" n="474.1">nugas agis.</l>
 <l n="475"><gap/> </l></sp>
 
 <sp><speaker>Alc.</speaker>
 <lb ed="actscene" n="165"/><l n="477">Supplicium dabo <gap/> </l>
 <l n="478">quo modo ego <gap/> </l>
-<l n="479"><gap/> {(&amp;7Mel&amp;.)} quia es nactus novam,</l>
+<l part="I" n="479"><gap/> </l></sp>
+
+<sp><speaker>(Mel.)</speaker>
+<l part="M" n="479.1">quia es nactus novam,</l>
 <l n="480">quae <gap/> quaedam quasi tu nescias.</l>
 <l part="I" n="481"><gap/> </l></sp>
 
@@ -952,11 +964,17 @@ Added to repository.
 <l n="486">nunc hoc si tibi commodumst, quae <gap/> </l></sp>
 
 <sp><speaker>Alc.</speaker>
-<lb ed="actscene" n="175"/><l n="487">Instruxi illi aurum atque vestem. {(&amp;7Mel&amp;.)} <gap/> </l>
+<lb ed="actscene" n="175"/><l part="I" n="487">Instruxi illi aurum atque vestem. <gap/> </l></sp>
+
+<sp><speaker>(Mel.)</speaker>
+<l part="M" n="487.1"><gap/></l>
 <l n="488">siquidem amabas, <gap/> illi instrui.</l>
 <l n="489">sed sino. iam hoc mihi responde quod <add>ego</add> te rogavero:</l>
 <l n="490">instruxisti <gap/> </l>
-<l n="491">tibi ita ut voluisti <gap/> {(&amp;7Alc&amp;.)} quod volo.</l></sp>
+<l part="I" n="491">tibi ita ut voluisti <gap/> </l></sp>
+
+<sp><speaker>(Alc.)</speaker>
+<l part="M" n="491.1">quod volo.</l></sp>
 
 <sp><speaker>Mel.</speaker>
 <lb ed="actscene" n="180"/><l n="492">Eo <abbr expan="facetus es">facetu's</abbr> quia tibi aliast sponsa locuples Lemnia.</l>

@@ -729,8 +729,10 @@ Added to repository.
 <lb ed="actscene" n="5"/><l n="186">qualis volo vetulos duo.</l>
 <l n="187">iam ego m&eacute; convortam in hir&uacute;dinem atque eorum &eacute;xsugebo s&aacute;nguinem,</l>
 <l n="188">sen&aacute;ti qui colum&eacute;n cluent.</l>
-<l n="188a"><gap/> </l>
-<l part="I" n="189-190">{(&amp;7Ap&amp;.)} c&oacute;ntinuo ut maritus fiat.</l></sp>
+<l n="188a"><gap/> </l></sp>
+
+<sp><speaker>(Ap.)</speaker>
+<l part="I" n="189-190">c&oacute;ntinuo ut maritus fiat.</l></sp>
 
 <sp><speaker>Per.</speaker>
 <l part="M" n="189-190.1">Laudo consilium tuom.</l>
@@ -1213,8 +1215,10 @@ Added to repository.
 
 <sp><speaker>Str.</speaker>
 <l part="M" n="356.1">Euge.</l>
-<l n="356a"><gap/> </l>
-<l part="I" n="357">{(&amp;7Ep&amp;.)} ea iam domist pro filia.</l></sp>
+<l n="356a"><gap/> </l></sp>
+
+<sp><speaker>(Ep.)</speaker>
+<l part="I" n="357">ea iam domist pro filia.</l></sp>
 
 <sp><speaker>Str.</speaker>
 <l part="M" n="357.1"><add>Iam</add> teneo.</l></sp>
