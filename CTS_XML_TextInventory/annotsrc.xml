@@ -1012,15 +1012,14 @@
             </edition>
         </work>
     </textgroup>
-    <!--
     <textgroup projid="greekLit:tlg0060" urn="urn:cts:greekLit:tlg0060">
         <groupname>Diodorus Siculus</groupname>
         <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0060.tlg001" xml:lang="grc">
-            <label xml:lang="eng">Historical Library</label>
-            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0060.tlg001.perseus-grc1">
+            <title xml:lang="eng">Historical Library</title>
+            <edition projid="greekLit:perseus-grc3" urn="urn:cts:greekLit:tlg0060.tlg001.perseus-grc3">
                 <label xml:lang="eng">Library</label>
                 <description xml:lang="eng">Perseus:bib:oclc,24758311, Perseus:bib:isbn,0674994132, Perseus:bib:isbn,0674994221, Perseus:bib:isbn,0674994396, Perseus:bib:isbn,0674994280, Perseus:bib:isbn,0674994647, Diodorus Siculus. Diodorus of Sicily in Twelve Volumes with an English Translation by C. H. Oldfather. Vol. 4-8. Cambridge, Mass.: Harvard University Press; London: William Heinemann, Ltd. 1989.</description>
-                <online docname="/db/repository/greekLit/tlg0060/tlg001/tlg0060.tlg001.perseus-grc1.xml">
+                <online docname="/db/repository/greekLit/tlg0060/tlg001/tlg0060.tlg001.perseus-grc3.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -1035,7 +1034,6 @@
             </edition>
         </work>
     </textgroup>
-    -->
     <textgroup projid="greekLit:tlg0540" urn="urn:cts:greekLit:tlg0540">
         <groupname>Lysias</groupname>
         <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0540.tlg001" xml:lang="grc">
