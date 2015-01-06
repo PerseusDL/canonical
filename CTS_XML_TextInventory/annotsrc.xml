@@ -975,6 +975,21 @@
                 <memberof collection="Perseus:collection:Greco-Roman-protected"/>
             </edition>
         </work>
+        <work projid="greekLit:tlg005" urn="urn:cts:greekLit:tlg0028.tlg005" xml:lang="grc">
+            <title xml:lang="eng">On the murder of Herodes</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0028.tlg005.perseus-grc1">
+                <label xml:lang="eng">On the murder of Herodes</label>
+                <description xml:lang="eng">Perseus:bib:oclc,5331826, Perseus:bib:isbn,0674993403</description>
+                <online docname="/db/repository/greekLit/tlg0028/tlg005/tlg0028.tlg005.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+            </edition>
+        </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0062">
         <groupname xml:lang="en">Lucian</groupname>
@@ -997,6 +1012,30 @@
             </edition>
         </work>
     </textgroup>
+    <!--
+    <textgroup projid="greekLit:tlg0060" urn="urn:cts:greekLit:tlg0060">
+        <groupname>Diodorus Siculus</groupname>
+        <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0060.tlg001" xml:lang="grc">
+            <label xml:lang="eng">Historical Library</label>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0060.tlg001.perseus-grc1">
+                <label xml:lang="eng">Library</label>
+                <description xml:lang="eng">Perseus:bib:oclc,24758311, Perseus:bib:isbn,0674994132, Perseus:bib:isbn,0674994221, Perseus:bib:isbn,0674994396, Perseus:bib:isbn,0674994280, Perseus:bib:isbn,0674994647, Diodorus Siculus. Diodorus of Sicily in Twelve Volumes with an English Translation by C. H. Oldfather. Vol. 4-8. Cambridge, Mass.: Harvard University Press; London: William Heinemann, Ltd. 1989.</description>
+                <online docname="/db/repository/greekLit/tlg0060/tlg001/tlg0060.tlg001.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="chapter" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']">
+                                <citation label="section" xpath="/div3[@n='?']" scope="/TEI.2/text/body/div1[@n='?']/div2[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
+    -->
     <textgroup projid="greekLit:tlg0540" urn="urn:cts:greekLit:tlg0540">
         <groupname>Lysias</groupname>
         <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0540.tlg001" xml:lang="grc">
@@ -1054,6 +1093,23 @@
                 <label xml:lang="eng">Thebais</label>
                 <description xml:lang="eng">Statius, P. Papinius. Statius, Vol I-II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. OCR.</description>
                 <online docname="/db/repository/latinLit/phi1020/phi001/phi1020.phi001.perseus-lat2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+        <work projid="latinLit:phi003" urn="urn:cts:latinLit:phi1020.phi003" xml:lang="lat">
+            <title xml:lang="eng">Achilleis</title>
+            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1020.phi003.perseus-lat2">
+                <label xml:lang="eng">Achilleis</label>
+                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. Keyboarding.</description>
+                <online docname="/db/repository/latinLit/phi1020/phi003/phi1020.phi003.perseus-lat2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
