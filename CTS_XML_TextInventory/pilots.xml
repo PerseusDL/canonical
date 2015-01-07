@@ -443,6 +443,23 @@
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
         </work>
+        <work projid="latinLit:phi003" urn="urn:cts:latinLit:phi1020.phi003" xml:lang="lat">
+            <title xml:lang="eng">Achilleis</title>
+            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1020.phi003.perseus-lat2">
+                <label xml:lang="eng">Achilleis</label>
+                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. Keyboarding.</description>
+                <online docname="/db/repository/latinLit/phi1020/phi003/phi1020.phi003.perseus-lat2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
     </textgroup>
     <textgroup projid="latinLit:phi1035" urn="urn:cts:latinLit:phi1035">
         <groupname xml:lang="eng">Valerius Flaccus, Gaius</groupname>
