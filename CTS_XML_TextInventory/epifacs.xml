@@ -121,6 +121,12 @@
         <work projid="ceg:509" xml:lang="grc" urn="urn:cts:ceg:ceg.509">
             <title xml:lang="eng">509, Mus. Nat. 1962</title>
         </work>
+        <work projid="ceg:493" xml:lang="grc" urn="urn:cts:ceg:ceg.493">
+            <title xml:lang="eng">493</title>
+        </work>
+        <work projid="ceg:592" xml:lang="grc" urn="urn:cts:ceg:ceg.592">
+            <title xml:lang="eng">592</title>
+        </work>
         <work projid="ceg:490" xml:lang="grc" urn="urn:cts:ceg:ceg.490">
             <title xml:lang="eng">490, Demetria</title>
         </work>
