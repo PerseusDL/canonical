@@ -1,7 +1,6 @@
 <!--Texts that don't yet load are commented out -->
 
-
-<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiversion="3.0.rc1">
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts" tiid="annotsrc" tiversion="5.0.rc1">
     <collection id="demo">
         <title xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">Alpheios CTS Repository template</title>
         <creator xmlns="http://purl.org/dc/elements/1.1">The Alpheios Project, Ltd.</creator>
@@ -10,7 +9,7 @@
         <rights xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">TBD - Creative Commons License info</rights>
     </collection>
     <!--
-    <textgroup projid="greekLit:tlg0001">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0001">
         <groupname xml:lang="en">Apollonius Rhodius</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="eng">Argonautica</title>
@@ -31,7 +30,7 @@
     </textgroup>
     -->
     <!--
-    <textgroup projid="greekLit:tlg0011">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0011">
         <groupname xml:lang="en">Sophocles</groupname>
        <work projid="greekLit:tlg002" xml:lang="grc">
             <title xml:lang="eng">Antigone</title>
@@ -63,11 +62,11 @@
         </work>
     </textgroup>
     -->
-    <textgroup projid="greekLit:tlg0012">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0012" urn="urn:cts:greekLit:tlg0012">
         <groupname xml:lang="eng">Homeric Poems</groupname>
-        <work projid="greekLit:tlg001" xml:lang="eng">
+        <work projid="greekLit:tlg001" xml:lang="eng" urn="urn:cts:greekLit:tlg0012:tlg001">
             <title xml:lang="eng">Iliad</title>
-            <edition projid="greekLit:perseus-grc1">
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0012:tlg001:perseus-grc1">
                 <description xmlns="" xml:lang="en">Perseus:bib:oclc,29448041, Homer. Homeri Opera in five volumes. Oxford, Oxford University Press. 1920.</description>
                 <label xml:lang="eng">Iliad -  perseus-grc1</label>
                 <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-grc1.xml">
@@ -98,7 +97,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="greekLit:tlg0016">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0016">
         <groupname xml:lang="en">Herodotus</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="eng">The Histories</title>
@@ -123,7 +122,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="greekLit:tlg0003">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0003">
         <groupname xml:lang="en">Thucydides</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="en">The Peloponnesian War</title>
@@ -149,7 +148,7 @@
             </edition>
         </work>
     </textgroup>
-     <textgroup projid="greekLit:tlg0006">
+     <textgroup tiid="annotsrc" projid="greekLit:tlg0006">
         <groupname xml:lang="en">Euripides</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="en">Cyclops</title>
@@ -213,7 +212,7 @@
        </work>
        -->
     </textgroup>
-    <textgroup projid="greekLit:tlg0019">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0019">
         <groupname xml:lang="en">Aristophanes</groupname>
         <!--
         <work projid="greekLit:tlg001" xml:lang="grc">
@@ -395,7 +394,7 @@
         -->
     </textgroup>
     <!--
-    <textgroup projid="greekLit:tlg0020">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0020">
         <groupname xml:lang="en">Hesiod</groupname>
         <work projid="greekLit:tlg002" xml:lang="grc">
             <title xml:lang="en">Works and Days</title>
@@ -433,7 +432,7 @@
         </work>
     </textgroup>
     -->
-    <textgroup projid="greekLit:tlg0032">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0032">
         <groupname xml:lang="en">Xenophon</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="en">Hellenica</title>
@@ -567,7 +566,7 @@
             </edition>
         </work>-->
     </textgroup>
-    <textgroup projid="greekLit:tlg0059">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0059">
         <groupname xml:lang="en">Plato</groupname>
         <work projid="greekLit:tlg030" xml:lang="grc">
             <title xml:lang="en">Republic</title>
@@ -729,7 +728,7 @@
         </work>
         -->
     </textgroup>
-    <textgroup projid="greekLit:tlg0086">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0086">
         <groupname xml:lang="en">Aristotle</groupname>
         <!--
         <work projid="greekLit:tlg025" xml:lang="grc">
@@ -862,7 +861,7 @@
         </work>
     </textgroup>
     <!--
-    <textgroup projid="greekLit:tlg0099">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0099">
         <groupname xml:lang="en">Strabo</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="en">Geography</title>
@@ -887,7 +886,7 @@
         </work>
     </textgroup>
     -->
-    <textgroup projid="latinLit:phi0474" urn="urn:cts:latinLit:phi0474">
+    <textgroup tiid="annotsrc" projid="latinLit:phi0474" urn="urn:cts:latinLit:phi0474">
         <groupname>Cicero</groupname>
         <work projid="latinLit:phi002" urn="urn:cts:latinLit:phi0474.phi002" xml:lang="lat">
             <title xml:lang="eng">For Sextus Roscius of Ameria</title>
@@ -938,7 +937,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="latinLit:phi1348" urn="urn:cts:latinLit:phi1348">
+    <textgroup tiid="annotsrc" projid="latinLit:phi1348" urn="urn:cts:latinLit:phi1348">
         <groupname>Suetonius</groupname>
         <work projid="latinLit:abo012" urn="urn:cts:latinLit:phi1348.abo012" xml:lang="lat">
             <title xml:lang="lat">Divus Augustus</title>
@@ -958,7 +957,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="greekLit:tlg0028" urn="urn:cts:greekLit:tlg0028">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0028" urn="urn:cts:greekLit:tlg0028">
         <groupname>Antiphon</groupname>
         <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0028.tlg001" xml:lang="grc">
             <title xml:lang="eng">Against the Stepmother for Poisoning</title>
@@ -976,7 +975,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="greekLit:tlg0062">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0062">
         <groupname xml:lang="en">Lucian</groupname>
         <work projid="greekLit:tlg020" xml:lang="grc">
             <title xml:lang="en">Prometheus</title>
@@ -997,7 +996,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="greekLit:tlg0540" urn="urn:cts:greekLit:tlg0540">
+    <textgroup tiid="annotsrc" projid="greekLit:tlg0540" urn="urn:cts:greekLit:tlg0540">
         <groupname>Lysias</groupname>
         <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0540.tlg001" xml:lang="grc">
             <title xml:lang="eng">On the Murder of Eratosthenes</title>
@@ -1046,7 +1045,7 @@
         </work>
         
     </textgroup>
-    <textgroup projid="latinLit:phi1020" urn="urn:cts:latinLit:phi1020">
+    <textgroup tiid="annotsrc" projid="latinLit:phi1020" urn="urn:cts:latinLit:phi1020">
         <groupname>Statius, P. Papinius (Publius Papinius)</groupname>
         <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1020.phi001" xml:lang="lat">
             <title xml:lang="eng">Thebais</title>
@@ -1066,7 +1065,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="latinLit:phi1035" urn="urn:cts:latinLit:phi1035">
+    <textgroup tiid="annotsrc" projid="latinLit:phi1035" urn="urn:cts:latinLit:phi1035">
         <groupname xml:lang="eng">Valerius Flaccus, Gaius</groupname>
         <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1035.phi001" xml:lang="lat">
             <title xml:lang="eng">Argonautica</title>
@@ -1086,7 +1085,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="latinLit:phi1345" urn="urn:cts:latinLit:phi1345">
+    <textgroup tiid="annotsrc" projid="latinLit:phi1345" urn="urn:cts:latinLit:phi1345">
         <groupname xml:lang="eng">Silius Italicus, Tiberius Catius</groupname>
         <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1345.phi001" xml:lang="lat">
             <title xml:lang="eng">Punica</title>
@@ -1106,7 +1105,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="latinLit:phi0690" urn="urn:cts:latinLit:phi0690">
+    <textgroup tiid="annotsrc" projid="latinLit:phi0690" urn="urn:cts:latinLit:phi0690">
         <groupname xml:lang="eng">Virgil</groupname>
         <work projid="latinLit:phi003" urn="urn:cts:latinLit:phi0690.phi003" xml:lang="lat">
             <title xml:lang="eng">Aeneid</title>
@@ -1126,7 +1125,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="latinLit:phi0959" urn="urn:cts:latinLit:phi0959">
+    <textgroup tiid="annotsrc" projid="latinLit:phi0959" urn="urn:cts:latinLit:phi0959">
         <groupname xml:lang="eng">Ovid</groupname>
         <work projid="latinLit:phi006" urn="urn:cts:latinLit:phi0959.phi006" xml:lang="lat">
             <title xml:lang="eng">Metamorphoses</title>
@@ -1146,7 +1145,7 @@
             </edition>
         </work>
     </textgroup>
-    <textgroup projid="latinLit:phi0917" urn="urn:cts:latinLit:phi0917">
+    <textgroup tiid="annotsrc" projid="latinLit:phi0917" urn="urn:cts:latinLit:phi0917">
         <groupname xml:lang="eng">Lucan</groupname>
         <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi0917.phi001" xml:lang="lat">
             <title xml:lang="eng">Civil War</title>
