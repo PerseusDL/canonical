@@ -632,9 +632,6 @@
             <title xml:lang="grc">Psalms</title>
         </work>
     </textgroup>
-    <textgroup projid="greekLit:tlg0031" urn="urn:cts:greekLit:tlg0031">
-        <groupname xml:lang="eng">New Testament</groupname>
-    </textgroup>
     <textgroup projid="pdllatmc:medms" urn="urn:cts:pdllatmc:medms">
         <groupname xml:lang="eng">Miscellany Manuscripts</groupname>
         <work projid="pldlatmc:boh01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.boh01">
