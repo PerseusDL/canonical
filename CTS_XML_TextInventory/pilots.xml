@@ -634,22 +634,22 @@
     </textgroup>
     <textgroup projid="pdllatmc:medms" urn="urn:cts:pdllatmc:medms">
         <groupname xml:lang="eng">Miscellany Manuscripts</groupname>
-        <work projid="pldlatmc:boh01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.boh01">
+        <work projid="pdllatmc:boh01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.boh01">
             <title xml:lang="eng">Book of Hours</title>
         </work>
-        <work projid="pldlatmc:cath01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.cath01">
+        <work projid="pdllatmc:cath01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.cath01">
             <title xml:lang="eng">Catholicon</title>
         </work>
-        <work projid="pldlatmc:miss01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.miss01">
+        <work projid="pdllatmc:miss01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.miss01">
             <title xml:lang="eng">French Missal 01</title>
         </work>
-        <work projid="pldlatmc:miss02" xml:lang="lat" urn="urn:cts:pdllatmc:medms.miss02">
+        <work projid="pdllatmc:miss02" xml:lang="lat" urn="urn:cts:pdllatmc:medms.miss02">
             <title xml:lang="eng">Italian Missal 02</title>
         </work>
-        <work projid="pldlatmc:comm01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.comm01">
+        <work projid="pdllatmc:comm01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.comm01">
             <title xml:lang="eng">Commentary on Ovid</title>
         </work>
-        <work projid="pldlatmc:moral01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.moral01">
+        <work projid="pdllatmc:moral01" xml:lang="lat" urn="urn:cts:pdllatmc:medms.moral01">
             <title xml:lang="eng">Moralia</title>
         </work>
         
