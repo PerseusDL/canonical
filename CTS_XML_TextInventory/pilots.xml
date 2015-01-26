@@ -21,6 +21,9 @@
     <ctsnamespace abbr="farsiLit" ns="http://data.perseus.org/ns/cts/mc">
         <description xml:lang="eng">Farsi literary texts in the Perseus Digital Library (Pilot)/</description>
     </ctsnamespace>
+    <ctsnamespace abbr="pdllatmc" ns="http://data.perseus.org/ns/cts/pdllatmc">
+        <description xml:lang="eng">Texts from the Miscellany Collection</description>
+    </ctsnamespace>
     <textgroup projid="pdlmc:cdf">
         <groupname>carta de foresta</groupname>
         <work projid="pdlmc:flc" xml:lang="lat">
@@ -598,5 +601,5 @@
                 </online>
             </translation>
         </work>
-    </textgroup>
+    </textgroup>   
 </TextInventory>
