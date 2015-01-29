@@ -98,6 +98,24 @@
             </edition>
         </work>
     </textgroup>
+    <textgroup projid="greekLit:tlg0013" urn="urn:cts:greekLit:tlg0013">
+        <groupname xml:lang="eng">Homeric Hymns</groupname>
+        <work projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0013:tlg002" xml:lang="grc">
+            <title xml:lang="eng">Hymn 2 to Demeter</title>
+\                <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0013.tlg002.perseus-grc1">
+                    <label xml:lang="eng">Hesiod The Homeric hymns. And Homerica</label>
+                    <description xml:lang="eng">Hymni Homerici, creator; Hesiod, creator; Homer, creator; Evelyn-White, Hugh G. (Hugh Gerard), d. 1924, editor; Evelyn-White, Hugh G. (Hugh Gerard), d. 1924, translator</description>
+                    <online docname="/db/repository/greekLit/tlg0013/tlg002/tlg0013.tlg002.perseus-grc1.xml">
+                        <validate schema="documentschema.rng"/>
+                        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                        <citationMapping>
+                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                        </citationMapping>
+                    </online>
+                    <memberof collection="Perseus:collection:Greco-Roman"/>
+                </edition>
+        </work>
+    </textgroup>
     <textgroup projid="greekLit:tlg0016">
         <groupname xml:lang="en">Herodotus</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
