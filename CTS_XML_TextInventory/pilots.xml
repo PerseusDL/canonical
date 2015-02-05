@@ -3,23 +3,28 @@
     <collection id="Perseus:collection:Greco-Roman" isdefault="yes">
         <title xml:lang="eng">Greek and Roman Materials</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">The Perseus Digital Library</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
-            and Rome</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
-            and Rome</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under a Creative Commons Attribution-ShareAlike 3.0 United States License</rights>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary
+            sources for the study of ancient Greece and Rome</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary
+            sources for the study of ancient Greece and Rome</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under a Creative
+            Commons Attribution-ShareAlike 3.0 United States License</rights>
     </collection>
     <ctsnamespace abbr="pdlmc" ns="http://data.perseus.org/ns/cts/mc">
-        <description xml:lang="eng">Magna Carta Texts in the Perseus Digital Library (Pilot)</description>
+        <description xml:lang="eng">Magna Carta Texts in the Perseus Digital Library
+            (Pilot)</description>
     </ctsnamespace>
     <ctsnamespace abbr="pdlpsci" ns="http://data.perseus.org/ns/cts/mc">
-        <description xml:lang="eng">Political Science Texts in the Perseus Digital Library (Pilot)</description>
+        <description xml:lang="eng">Political Science Texts in the Perseus Digital Library
+            (Pilot)</description>
     </ctsnamespace>
     <ctsnamespace abbr="croala" ns="http://data.perseus.org/ns/cts/mc">
-        <description xml:lang="eng">Texts from Croatiae auctores Latini http://www.ffzg.unizg.hr/klafil/croala/</description>
+        <description xml:lang="eng">Texts from Croatiae auctores Latini
+            http://www.ffzg.unizg.hr/klafil/croala/</description>
     </ctsnamespace>
     <ctsnamespace abbr="farsiLit" ns="http://data.perseus.org/ns/cts/mc">
-        <description xml:lang="eng">Farsi literary texts in the Perseus Digital Library (Pilot)/</description>
+        <description xml:lang="eng">Farsi literary texts in the Perseus Digital Library
+            (Pilot)/</description>
     </ctsnamespace>
     <ctsnamespace abbr="pdllatmc" ns="http://data.perseus.org/ns/cts/pdllatmc">
         <description xml:lang="eng">Texts from the Miscellany Collection</description>
@@ -30,16 +35,17 @@
             <title xml:lang="eng">Forest Law Compendium</title>
             <edition projid="pdlmc:perseus-lat1">
                 <label>carta de foresta - Medieval Latin Class Transcription</label>
-                 <online docname="/db/repository/pdlmc/cdf/flc/cdf.flc.perseus-lat1.xml">
-                     <validate schema="tei-epidoc.rng"/>
-                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                     <citationMapping>
-                         <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                             <!-- Add sections and lines once they are encoded -->
-                             <!--citation label="Section" xpath="/tei:lg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/-->
-                         </citation>
-                     </citationMapping>
-                 </online>
+                <online docname="/db/repository/pdlmc/cdf/flc/cdf.flc.perseus-lat1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Chapter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <!-- Add sections and lines once they are encoded -->
+                            <!--citation label="Section" xpath="/tei:lg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/-->
+                        </citation>
+                    </citationMapping>
+                </online>
             </edition>
             <translation projid="pdlmc:perseus-eng1" xml:lang="eng">
                 <label>Forest Law Compendium - Medieval Latin Class Translation</label>
@@ -47,7 +53,8 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                        <citation label="Chapter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <!-- Add sections and lines once they are encoded -->
                             <!--citation label="Section" xpath="/tei:lg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/-->
                         </citation>
@@ -66,8 +73,10 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -78,8 +87,10 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -90,8 +101,10 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -104,19 +117,141 @@
             <title xml:lang="en">The Peloponnesian War</title>
             <edition projid="greekLit:perseus-grc2">
                 <label xml:lang="en">The Peloponnesian War (Oxford 1942 Epidoc)</label>
-                <description xml:lang="eng">Thucydides. Historiae in two volumes. Oxford, Oxford University Press. 1942.</description>
-                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml">
+                <description xml:lang="eng">Thucydides. Historiae in two volumes. Oxford, Oxford
+                    University Press. 1942.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
-                                <citation label="Section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="Section" xpath="/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
+                                />
                             </citation>
                         </citation>
                     </citationMapping>
                 </online>
             </edition>
+            <translation projid="greekLit:perseus-eng4">
+                <label xml:lang="en">The Peloponnesian War</label>
+                <description xml:lang="eng">The English works of Thomas Hobbes of Malmesbury.
+                    Thucydides. Thomas Hobbes. translator. London. Bohn. 1843.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng4.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="Section" xpath="/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
+                                />
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:perseus-eng5">
+                <label xml:lang="en">The Peloponnesian War</label>
+                <description xml:lang="eng">Thucydides translated into English; with introduction,
+                    marginal analysis, notes, and indices. Volume 1. Thucydides. Benjamin Jowett.
+                    translator. Oxford. Clarendon Press. 1881</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng5.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="Section" xpath="/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
+                                />
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:perseus-eng6">
+                <label xml:lang="en">The Peloponnesian War </label>
+                <description xml:lang="eng">Thucydides. The Peloponnesian War. London, J. M. Dent;
+                    New York, E. P. Dutton. 1910.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng6.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="Section" xpath="/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
+                                />
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:opp-ger1">
+                <label xml:lang="en">The Peloponnesian War</label>
+                <description xml:lang="eng">Geschichte des Peloponnesischen Kriegs. Vol. 1. Ed. A.
+                    Warmund. 1864</description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger1.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:opp-ger2">
+                <label xml:lang="en">The Peloponnesian War</label>
+                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides.
+                    Vol. 1. Ed. T. Braun. 1917 </description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger2.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:opp-ger3">
+                <label xml:lang="en">The Peloponnesian War</label>
+                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides.
+                    Vol. 2. Ed. T. Braun. 1917 </description>
+                <online
+                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        </citation>
+
+                    </citationMapping>
+                </online>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0006">
@@ -125,31 +260,40 @@
             <title xml:lang="en">Cyclops</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="en">Cyclops</label>
-                <description xml:lang="eng">Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600, Euripides. Euripides, with an English translation by David Kovacs. Cambridge. Harvard University Press. forthcoming.</description>
-                <online docname="/db/repository/greekLit/tlg0006/tlg001/tlg0006.tlg001.perseus-grc1.xml">
+                <description xml:lang="eng">Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600,
+                    Euripides. Euripides, with an English translation by David Kovacs. Cambridge.
+                    Harvard University Press. forthcoming.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0006/tlg001/tlg0006.tlg001.perseus-grc1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                        <citation label="line" xpath="//tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
                     </citationMapping>
                 </online>
             </edition>
         </work>
     </textgroup>
 
-     <textgroup projid="greekLit:tlg0085">
+    <textgroup projid="greekLit:tlg0085">
         <groupname xml:lang="en">Aeschylus</groupname>
         <work projid="greekLit:tlg003" xml:lang="grc">
             <title xml:lang="en">Prometheus Bound</title>
-             <edition projid="greekLit:perseus-grc2">
+            <edition projid="greekLit:perseus-grc2">
                 <label xml:lang="en">Prometheus Bound</label>
-                <description xml:lang="eng">Perseus:bib:oclc,13109528, Perseus:bib:isbn,0674991605, Aeschylus. Aeschylus, with an English translation by Herbert Weir Smyth, Ph. D. in two volumes. 1.Prometheus. Cambridge. Cambridge, Mass., Harvard University Press; London, William Heinemann, Ltd. 1926.</description>
-                <online docname="/db/repository/greekLit/tlg0085/tlg003/tlg0085.tlg003.perseus-grc2.xml">
+                <description xml:lang="eng">Perseus:bib:oclc,13109528, Perseus:bib:isbn,0674991605,
+                    Aeschylus. Aeschylus, with an English translation by Herbert Weir Smyth, Ph. D.
+                    in two volumes. 1.Prometheus. Cambridge. Cambridge, Mass., Harvard University
+                    Press; London, William Heinemann, Ltd. 1926.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0085/tlg003/tlg0085.tlg003.perseus-grc2.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                         <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
-                     </citationMapping>
+                        <citation label="line" xpath="//tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+                    </citationMapping>
                 </online>
             </edition>
         </work>
@@ -160,36 +304,45 @@
             <title xml:lang="eng">Deipnosophistae</title>
             <edition projid="greekLit:perseus-grc3">
                 <label xml:lang="eng">Deipnosophistae (Kaibel 1887)</label>
-                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml">
+                <online
+                    docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
             </edition>
             <edition projid="greekLit:perseus-grc4">
                 <label xml:lang="eng">Deipnosophistae (Heinemann 1927)</label>
-                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml">
+                <online
+                    docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
             </edition>
             <translation projid="greekLit:perseus-eng2" xml:lang="en">
                 <label xml:lang="eng">The Deipnosophists (trans. Yonge, Bohn 1854)</label>
-                <online docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml">
+                <online
+                    docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@type='book' and @n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="Book" xpath="/tei:div[@type='book' and @n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -202,46 +355,56 @@
             <title xml:lang="eng">Ars Poetica</title>
             <edition projid="greekLit:digicorpus-grc1">
                 <label xml:lang="eng">Ars Poetica</label>
-                <description xml:lang="eng">Aristotelis Opera, ed. Immanuel Bekker. Oxford, Oxford University Press, 1837. </description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-grc1.xml">
+                <description xml:lang="eng">Aristotelis Opera, ed. Immanuel Bekker. Oxford, Oxford
+                    University Press, 1837. </description>
+                <online
+                    docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-grc1.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                       
-                            <citation label="chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                       
+
+                        <citation label="chapter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body"/>
+
                     </citationMapping>
                 </online>
             </edition>
             <translation projid="greekLit:digicorpus-ara1" xml:lang="ar">
                 <label xml:lang="eng">Ars Poetica (Arabic)</label>
-                <description xml:lang="eng">Arisṭūṭālīs: Fann al-šiʿr, maʿa l-tarǧamah al-ʿarabīyah al-qadīmah wa-šurūḥ
-                    al-Fārābī wa-Ibn Sīnā wa-Ibn Rušd. ed.  ʿAbd al-Raḥmān Badawī. Cairo, Maktabat al-nahḍah al-miṣrīyah, 1953. </description>
-                <online docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-ara1.xml">
+                <description xml:lang="eng">Arisṭūṭālīs: Fann al-šiʿr, maʿa l-tarǧamah al-ʿarabīyah
+                    al-qadīmah wa-šurūḥ al-Fārābī wa-Ibn Sīnā wa-Ibn Rušd. ed. ʿAbd al-Raḥmān
+                    Badawī. Cairo, Maktabat al-nahḍah al-miṣrīyah, 1953. </description>
+                <online
+                    docname="/db/repository/greekLit/tlg0086/tlg034/tlg0086.tlg034.digicorpus-ara1.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        
-                        <citation label="chapter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                        
+
+                        <citation label="chapter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body"/>
+
                     </citationMapping>
                 </online>
             </translation>
         </work>
     </textgroup>
-        <textgroup projid="greekLit:tlg0012">
+    <textgroup projid="greekLit:tlg0012">
         <groupname xml:lang="eng">Homer</groupname>
         <work projid="greekLit:tlg001">
             <title xml:lang="eng">Iliad</title>
             <edition projid="greekLit:perseus-grc2">
-                <description> Perseus:bib:oclc,29448041, Homer. Homeri Opera in five volumes. Oxford, Oxford University Press. 1920.</description>
+                <description> Perseus:bib:oclc,29448041, Homer. Homeri Opera in five volumes.
+                    Oxford, Oxford University Press. 1920.</description>
                 <label xml:lang="eng">Iliad</label>
-                <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml">
+                <online
+                    docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml">
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                     <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="Line" xpath="/tei:l[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -249,92 +412,106 @@
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0019" urn="urn:cts:greekLit:tlg0019">
-               <groupname xml:lang="eng">Aristophanes</groupname>
-               <work projid="greekLit:tlg003"
-                         urn="urn:cts:greekLit:tlg0019.tlg003"
-                         xml:lang="grc">
-                        <title xml:lang="eng">Clouds</title>
-                        <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg003.perseus-grc2">
-                            <label xml:lang="eng">Clouds</label>
-                            <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                            <online docname="/db/repository/greekLit/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml">
-                                <validate schema="teia.xsd"/>
-                                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                                <citationMapping>
-                                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                                </citationMapping>
-                            </online>
-                            <memberof collection="Perseus:collection:Greco-Roman"/>
-                        </edition>
-                    </work>
-               <work projid="greekLit:tlg006"
-                         urn="urn:cts:greekLit:tlg0019.tlg006"
-                         xml:lang="grc">
-                        <title xml:lang="eng">Birds</title>
-                        <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg006.perseus-grc2">
-                            <label xml:lang="eng">Birds</label>
-                            <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                            <online docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml">
-                                <validate schema="teia.xsd"/>
-                                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                                <citationMapping>
-                                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                                </citationMapping>
-                            </online>
-                            <memberof collection="Perseus:collection:Greco-Roman"/>
-                        </edition>
-                    </work>
-               <work projid="greekLit:tlg007" xmlns:cts="http://chs.harvard.edu/xmlns/cts/ti"
-                         urn="urn:cts:greekLit:tlg0019.tlg007"
-                         xml:lang="grc">
-                        <title xml:lang="eng">Lysistrata</title>
-                        <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg007.perseus-grc2">
-                            <label xml:lang="eng">Lysistrata</label>
-                            <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                            <online docname="/db/repository/greekLit/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml">
-                                <validate schema="teia.xsd"/>
-                                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                                <citationMapping>
-                                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                                </citationMapping>
-                            </online>
-                            <memberof collection="Perseus:collection:Greco-Roman-protected"/>
-                        </edition>
-                    </work>
-               <work projid="greekLit:tlg010"
-                         urn="urn:cts:greekLit:tlg0019.tlg010"
-                         xml:lang="grc">
-                        <title xml:lang="eng">Ecclesiazusae</title>
-                        <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg010.perseus-grc2">
-                            <label xml:lang="eng">Ecclesiazusae</label>
-                            <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</description>
-                            <online docname="/db/repository/greekLit/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml">
-                                <validate schema="teia.xsd"/>
-                                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                                <citationMapping>
-                                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
-                                </citationMapping>
-                            </online>
-                            <memberof collection="Perseus:collection:Greco-Roman"/>
-                        </edition>
-                    </work>
-            </textgroup>
+        <groupname xml:lang="eng">Aristophanes</groupname>
+        <work projid="greekLit:tlg003" urn="urn:cts:greekLit:tlg0019.tlg003" xml:lang="grc">
+            <title xml:lang="eng">Clouds</title>
+            <edition projid="greekLit:perseus-grc2"
+                urn="urn:cts:greekLit:tlg0019.tlg003.perseus-grc2">
+                <label xml:lang="eng">Clouds</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
+                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
+                    Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+        <work projid="greekLit:tlg006" urn="urn:cts:greekLit:tlg0019.tlg006" xml:lang="grc">
+            <title xml:lang="eng">Birds</title>
+            <edition projid="greekLit:perseus-grc2"
+                urn="urn:cts:greekLit:tlg0019.tlg006.perseus-grc2">
+                <label xml:lang="eng">Birds</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
+                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
+                    Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+        <work projid="greekLit:tlg007" xmlns:cts="http://chs.harvard.edu/xmlns/cts/ti"
+            urn="urn:cts:greekLit:tlg0019.tlg007" xml:lang="grc">
+            <title xml:lang="eng">Lysistrata</title>
+            <edition projid="greekLit:perseus-grc2"
+                urn="urn:cts:greekLit:tlg0019.tlg007.perseus-grc2">
+                <label xml:lang="eng">Lysistrata</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
+                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
+                    Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+            </edition>
+        </work>
+        <work projid="greekLit:tlg010" urn="urn:cts:greekLit:tlg0019.tlg010" xml:lang="grc">
+            <title xml:lang="eng">Ecclesiazusae</title>
+            <edition projid="greekLit:perseus-grc2"
+                urn="urn:cts:greekLit:tlg0019.tlg010.perseus-grc2">
+                <label xml:lang="eng">Ecclesiazusae</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
+                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
+                    Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
     <textgroup projid="greekLit:tlg0062">
         <groupname xml:lang="en">Lucian</groupname>
         <work projid="greekLit:tlg020" xml:lang="grc">
             <title xml:lang="en">Prometheus</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="en">Prometheus</label>
-                <description xml:lang="eng">Perseus:bib:oclc,, Lucian. ed. A. M. Harmon,
-                    Works. Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</description>
-                <online docname="/db/repository/greekLit/tlg0062/tlg020/tlg0062.tlg020.perseus-grc1.xml">
+                <description xml:lang="eng">Perseus:bib:oclc,, Lucian. ed. A. M. Harmon, Works.
+                    Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0062/tlg020/tlg0062.tlg020.perseus-grc1.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        
+
                         <citation label="section" xpath="/tei:div[@n='?']"
                             scope="/tei:TEI/tei:text/tei:body/tei:div"/>
-                        
+
                     </citationMapping>
                 </online>
             </edition>
@@ -350,7 +527,8 @@
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
+                        <citation label="Line" xpath="/tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
                     </citationMapping>
                 </online>
             </edition>
@@ -363,7 +541,8 @@
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
+                        <citation label="Line" xpath="/tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg"/>
                     </citationMapping>
                 </online>
             </edition>
@@ -379,8 +558,9 @@
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="parabola" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
-                        
+                        <citation label="parabola" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div"/>
+
                     </citationMapping>
                 </online>
             </edition>
@@ -398,26 +578,27 @@
             <title xml:lang="lat">De consolatione liber</title>
         </work>
     </textgroup>
-     <textgroup projid="croala:pannonius">
+    <textgroup projid="croala:pannonius">
         <groupname xml:lang="hrv">Pannonius, Andreas Duditius</groupname>
         <work projid="croala:01" xml:lang="lat">
             <title xml:lang="lat">De morte Barbarae matris</title>
         </work>
     </textgroup>
-      <textgroup projid="croala:sizgoric">
+    <textgroup projid="croala:sizgoric">
         <groupname xml:lang="hrv">Šižgorić, Juraj</groupname>
         <work projid="croala:eleg01" xml:lang="lat">
             <title xml:lang="lat">Elegia de Sibenicensis agri vastatione</title>
             <edition projid="croala:lat1">
-                 <label xml:lang="eng">Hanc editionem electronicam curavit (Veljko Gortan) </label>
-                 <online docname="/db/repository/croala/sizgoric/eleg01/sizgoric.eleg01.lat1.xml">
-                     <validate schema="tei-xl.rng"/>
-                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                     <citationMapping>
-                         <citation label="Line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:lg"/>
-                     </citationMapping>
-                 </online>
-             </edition>
+                <label xml:lang="eng">Hanc editionem electronicam curavit (Veljko Gortan) </label>
+                <online docname="/db/repository/croala/sizgoric/eleg01/sizgoric.eleg01.lat1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:lg"/>
+                    </citationMapping>
+                </online>
+            </edition>
         </work>
     </textgroup>
     <!-- added for Elisa Nury, Kings College -->
@@ -431,15 +612,21 @@
         <groupname>Statius, P. Papinius (Publius Papinius)</groupname>
         <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1020.phi001" xml:lang="lat">
             <title xml:lang="eng">Thebais</title>
-            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1020.phi001.perseus-lat2">
+            <edition projid="latinLit:perseus-lat2"
+                urn="urn:cts:latinLit:phi1020.phi001.perseus-lat2">
                 <label xml:lang="eng">Thebais</label>
-                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol I-II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. OCR.</description>
-                <online docname="/db/repository/latinLit/phi1020/phi001/phi1020.phi001.perseus-lat2.xml">
+                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol I-II. John Henry
+                    Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928.
+                    OCR.</description>
+                <online
+                    docname="/db/repository/latinLit/phi1020/phi001/phi1020.phi001.perseus-lat2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -448,15 +635,21 @@
         </work>
         <work projid="latinLit:phi003" urn="urn:cts:latinLit:phi1020.phi003" xml:lang="lat">
             <title xml:lang="eng">Achilleis</title>
-            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1020.phi003.perseus-lat2">
+            <edition projid="latinLit:perseus-lat2"
+                urn="urn:cts:latinLit:phi1020.phi003.perseus-lat2">
                 <label xml:lang="eng">Achilleis</label>
-                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol II. John Henry Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928. Keyboarding.</description>
-                <online docname="/db/repository/latinLit/phi1020/phi003/phi1020.phi003.perseus-lat2.xml">
+                <description xml:lang="eng">Statius, P. Papinius. Statius, Vol II. John Henry
+                    Mozley. London: William Heinemann; New York: G.P. Putnam&amp;apos;s Sons. 1928.
+                    Keyboarding.</description>
+                <online
+                    docname="/db/repository/latinLit/phi1020/phi003/phi1020.phi003.perseus-lat2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -468,15 +661,20 @@
         <groupname xml:lang="eng">Valerius Flaccus, Gaius</groupname>
         <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1035.phi001" xml:lang="lat">
             <title xml:lang="eng">Argonautica</title>
-            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1035.phi001.perseus-lat2">
+            <edition projid="latinLit:perseus-lat2"
+                urn="urn:cts:latinLit:phi1035.phi001.perseus-lat2">
                 <label xml:lang="eng">Argonautica</label>
-                <description xml:lang="eng">C. Valerius Flaccus. Otto Kramer. C. Valeri Flacci Setini Balbi Argonauticon Libri Octo. Leipzig. Teubner. 1913.</description>
-                <online docname="/db/repository/latinLit/phi1035/phi001/phi1035.phi001.perseus-lat2.xml">
+                <description xml:lang="eng">C. Valerius Flaccus. Otto Kramer. C. Valeri Flacci
+                    Setini Balbi Argonauticon Libri Octo. Leipzig. Teubner. 1913.</description>
+                <online
+                    docname="/db/repository/latinLit/phi1035/phi001/phi1035.phi001.perseus-lat2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -488,15 +686,21 @@
         <groupname xml:lang="eng">Silius Italicus, Tiberius Catius</groupname>
         <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi1345.phi001" xml:lang="lat">
             <title xml:lang="eng">Punica</title>
-            <edition projid="latinLit:perseus-lat2" urn="urn:cts:latinLit:phi1345.phi001.perseus-lat2">
+            <edition projid="latinLit:perseus-lat2"
+                urn="urn:cts:latinLit:phi1345.phi001.perseus-lat2">
                 <label xml:lang="eng">Punica</label>
-                <description xml:lang="eng">Silius Italicus. Corpus Poetarum Latinorum, Vol 2. Walter Coventry Summers. John Percival Postgate. London. Sumptibus G. Bell et Filiorum. 1905. Keyboarding.</description>
-                <online docname="/db/repository/latinLit/phi1345/phi001/phi1345.phi001.perseus-lat2.xml">
+                <description xml:lang="eng">Silius Italicus. Corpus Poetarum Latinorum, Vol 2.
+                    Walter Coventry Summers. John Percival Postgate. London. Sumptibus G. Bell et
+                    Filiorum. 1905. Keyboarding.</description>
+                <online
+                    docname="/db/repository/latinLit/phi1345/phi001/phi1345.phi001.perseus-lat2.xml">
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/tei:l[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -516,10 +720,15 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="canto" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
-                                <citation label="terza" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
-                                    <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="canto" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="terza" xpath="/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="line" xpath="/tei:l[@n='?']"
+                                        scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:div[@n='?']"
+                                    />
                                 </citation>
                             </citation>
                         </citation>
@@ -533,17 +742,23 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="canto" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
-                                <citation label="terza" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
-                                    <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="canto" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="terza" xpath="/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="line" xpath="/tei:l[@n='?']"
+                                        scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:div[@n='?']"
+                                    />
                                 </citation>
                             </citation>
                         </citation>
                     </citationMapping>
                 </online>
             </translation>
-        </work></textgroup>
+        </work>
+    </textgroup>
     <!--added for Maryam Foradi and Saeed Majidi, Open Philology Project -->
     <textgroup projid="farsiLit:hafez">
         <groupname>Hafez</groupname>
@@ -551,15 +766,23 @@
             <title xml:lang="eng">Divān</title>
             <edition projid="farsiLit:perseus-far1">
                 <label>Divān</label>
-                <description xml:lang="eng">Perseus:bib:oclc, 254557372. Diwan-i Hwaga Sams-ad-Din Muhammad Hafiz Sirazi qaddas sarra-yi al-aziz ba tamam. edited by Muhammad Qazwini and Qasim Gani as available on ganjoor.net. Tehran, Caphana-i Maglis. 1941.   </description>
+                <description xml:lang="eng">Perseus:bib:oclc, 254557372. Diwan-i Hwaga Sams-ad-Din
+                    Muhammad Hafiz Sirazi qaddas sarra-yi al-aziz ba tamam. edited by Muhammad
+                    Qazwini and Qasim Gani as available on ganjoor.net. Tehran, Caphana-i Maglis.
+                    1941. </description>
                 <online docname="/db/repository/farsiLit/hafez/divan/hafez.divan.perseus-far1.xml">
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="letter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
-                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
-                                    <citation label="seg" xpath="/tei:seg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"/>
+                        <citation label="letter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="seg" xpath="/tei:seg[@n='?']"
+                                        scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"
+                                    />
                                 </citation>
                             </citation>
                         </citation>
@@ -568,15 +791,23 @@
             </edition>
             <translation projid="farsiLit:perseus-eng1">
                 <label>Divān (English)</label>
-                <description xml:lang="eng">Perseus:bib:oclc, 559481156. The Dīvān .Translated for the first time out of the Persian into English prose, with critical and explanatory remarks, with an introductory preface, with a note on Ṣūfīism, and with a life of the author, by H. Wilberforce Clarke. Calcutta, India. 1891.   </description>
+                <description xml:lang="eng">Perseus:bib:oclc, 559481156. The Dīvān .Translated for
+                    the first time out of the Persian into English prose, with critical and
+                    explanatory remarks, with an introductory preface, with a note on Ṣūfīism, and
+                    with a life of the author, by H. Wilberforce Clarke. Calcutta, India. 1891. </description>
                 <online docname="/db/repository/farsiLit/hafez/divan/hafez.divan.perseus-eng1.xml">
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="letter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
-                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
-                                    <citation label="seg" xpath="/tei:seg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"/>
+                        <citation label="letter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="seg" xpath="/tei:seg[@n='?']"
+                                        scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"
+                                    />
                                 </citation>
                             </citation>
                         </citation>
@@ -585,15 +816,22 @@
             </translation>
             <translation projid="farsiLit:perseus-ger1">
                 <label>Divān (German)</label>
-                <description xml:lang="eng">Perseus:bib:oclc, 6773200. Mohammed Schemsed-din Hafis, Der Diwan, Aus dem Persischen zum erstenmal ganz übersetzt von Joseph von Hammer-Purgstall. Stuttgart and Tübingen, 1812.   </description>
+                <description xml:lang="eng">Perseus:bib:oclc, 6773200. Mohammed Schemsed-din Hafis,
+                    Der Diwan, Aus dem Persischen zum erstenmal ganz übersetzt von Joseph von
+                    Hammer-Purgstall. Stuttgart and Tübingen, 1812. </description>
                 <online docname="/db/repository/farsiLit/hafez/divan/hafez.divan.perseus-ger1.xml">
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="letter" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
-                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
-                                    <citation label="seg" xpath="/tei:seg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"/>
+                        <citation label="letter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']">
+                                    <citation label="seg" xpath="/tei:seg[@n='?']"
+                                        scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']/tei:l[@n='?']"
+                                    />
                                 </citation>
                             </citation>
                         </citation>
@@ -601,5 +839,5 @@
                 </online>
             </translation>
         </work>
-    </textgroup>   
+    </textgroup>
 </TextInventory>
