@@ -297,7 +297,22 @@
             <translation projid="greekLit:opp-ger3">
                 <label xml:lang="en">The Peloponnesian War</label>
                 <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides. Vol. 2. Ed. T. Braun. 1917 </description>
-                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger2.xml">
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger3.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Chapter" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </translation>
+            <translation projid="greekLit:opp-frn1">
+                <label xml:lang="en">The Peloponnesian War</label>
+                <description xml:lang="eng">Histoire de la Guerre du Péloponnése, vol. 1, Traduit par Marie Charles Zévort (1852) Paris: Charpentier. </description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-frn1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
