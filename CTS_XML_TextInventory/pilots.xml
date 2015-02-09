@@ -138,10 +138,8 @@
             </edition>
             <translation projid="greekLit:perseus-eng4">
                 <label xml:lang="en">The Peloponnesian War</label>
-                <description xml:lang="eng">The English works of Thomas Hobbes of Malmesbury.
-                    Thucydides. Thomas Hobbes. translator. London. Bohn. 1843.</description>
-                <online
-                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng4.xml">
+                <description xml:lang="eng">The English works of Thomas Hobbes of Malmesbury. Thucydides. Thomas Hobbes. translator. London. Bohn. 1843.</description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng4.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -159,11 +157,8 @@
             </translation>
             <translation projid="greekLit:perseus-eng5">
                 <label xml:lang="en">The Peloponnesian War</label>
-                <description xml:lang="eng">Thucydides translated into English; with introduction,
-                    marginal analysis, notes, and indices. Volume 1. Thucydides. Benjamin Jowett.
-                    translator. Oxford. Clarendon Press. 1881</description>
-                <online
-                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng5.xml">
+                <description xml:lang="eng">Thucydides translated into English; with introduction, marginal analysis, notes, and indices. Volume 1. Thucydides. Benjamin Jowett. translator. Oxford. Clarendon Press. 1881</description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng5.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -180,11 +175,9 @@
                 </online>
             </translation>
             <translation projid="greekLit:perseus-eng6">
-                <label xml:lang="en">The Peloponnesian War </label>
-                <description xml:lang="eng">Thucydides. The Peloponnesian War. London, J. M. Dent;
-                    New York, E. P. Dutton. 1910.</description>
-                <online
-                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng6.xml">
+                <label xml:lang="en">The Peloponnesian War</label>
+                <description xml:lang="eng">Thucydides. The Peloponnesian War. London, J. M. Dent; New York, E. P. Dutton. 1910.</description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng6.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -202,8 +195,7 @@
             </translation>
             <translation projid="greekLit:opp-ger1">
                 <label xml:lang="en">The Peloponnesian War</label>
-                <description xml:lang="eng">Geschichte des Peloponnesischen Kriegs. Vol. 1. Ed. A.
-                    Warmund. 1864</description>
+                <description xml:lang="eng">Geschichte des Peloponnesischen Kriegs. Vol. 1. Ed. A. Warmund. 1864</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -212,15 +204,13 @@
                             scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
-
                         </citation>
                     </citationMapping>
                 </online>
             </translation>
             <translation projid="greekLit:opp-ger2">
                 <label xml:lang="en">The Peloponnesian War</label>
-                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides.
-                    Vol. 1. Ed. T. Braun. 1917 </description>
+                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides. Vol. 1. Ed. T. Braun. 1917 </description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger2.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -230,16 +220,13 @@
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
-
                     </citationMapping>
                 </online>
             </translation>
             <translation projid="greekLit:opp-ger3">
                 <label xml:lang="en">The Peloponnesian War</label>
-                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides.
-                    Vol. 2. Ed. T. Braun. 1917 </description>
-                <online
-                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger3.xml">
+                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides. Vol. 2. Ed. T. Braun. 1917 </description>
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger3.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -248,15 +235,13 @@
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
-
                     </citationMapping>
                 </online>
             </translation>
-            <translation projid="greekLit:opp-frn1">
+            <translation projid="greekLit:opp-fre1">
                 <label xml:lang="en">The Peloponnesian War</label>
                 <description xml:lang="eng">Histoire de la Guerre du Péloponnése, vol. 1, Traduit par Marie Charles Zévort (1852) Paris: Charpentier. </description>
-                <online
-                    docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-frn1.xml">
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-fre1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -265,7 +250,6 @@
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
-                        
                     </citationMapping>
                 </online>
             </translation>

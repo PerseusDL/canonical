@@ -215,11 +215,11 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
                                 <citation label="Section" xpath="/tei:div[@n='?']"
-                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
                                 />
                             </citation>
                         </citation>
@@ -234,11 +234,11 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
                                 <citation label="Section" xpath="/tei:div[@n='?']"
-                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
                                 />
                             </citation>
                         </citation>
@@ -253,11 +253,11 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
                                 <citation label="Section" xpath="/tei:div[@n='?']"
-                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
                                 />
                             </citation>
                         </citation>
@@ -272,9 +272,9 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -287,9 +287,9 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -302,24 +302,24 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
             </translation>
-            <translation projid="greekLit:opp-frn1">
+            <translation projid="greekLit:opp-fre1">
                 <label xml:lang="en">The Peloponnesian War</label>
                 <description xml:lang="eng">Histoire de la Guerre du Péloponnése, vol. 1, Traduit par Marie Charles Zévort (1852) Paris: Charpentier. </description>
-                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-frn1.xml">
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-fre1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
