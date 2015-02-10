@@ -266,7 +266,7 @@
                     </citationMapping>
                 </online>
             </edition>
-            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0007.tlg012.perseus-eng2">
+            <translation projid="greekLit:perseus-eng2" urn="urn:cts:greekLit:tlg0007.tlg012.perseus-eng2">
                 <label xml:lang="eng">Pericles (English. Perrin. translator.</label>
                 <description xml:lang="eng">Plutarch, creator; Plutarch, creator; Perrin, Bernadotte, translator; Perrin, Bernadotte, translator</description>
                 <online
