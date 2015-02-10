@@ -395,7 +395,7 @@
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
                             scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            <citation label="Line" xpath="/tei:l[@n='?']"
+                            <citation label="Line" xpath="//tei:l[@n='?']"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
