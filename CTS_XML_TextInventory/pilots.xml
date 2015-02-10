@@ -247,7 +247,7 @@
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0007" urn="urn:cts:greekLit:tlg0007">
-        <groupname xml:lang="eng">Pseudo-Plutarch</groupname>
+        <groupname xml:lang="eng">Plutarch</groupname>
         <work projid="greekLit:tlg012" urn="urn:cts:greekLit:tlg0007.tlg012" xml:lang="grc">
             <title xml:lang="grc">Pericles</title>
             <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0007.tlg012.perseus-grc1">
@@ -266,6 +266,19 @@
                     </citationMapping>
                 </online>
             </edition>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0007.tlg012.perseus-eng2">
+                <label xml:lang="eng">Pericles (English. Perrin. translator.</label>
+                <description xml:lang="eng">Plutarch, creator; Plutarch, creator; Perrin, Bernadotte, translator; Perrin, Bernadotte, translator</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0007/tlg012/tlg0007.tlg012.perseus-eng2.xml">
+                    <validate schema="tei-xl.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="chapter" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                    </citationMapping>
+                </online>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0085">
