@@ -107,7 +107,7 @@
     </textgroup>
     <textgroup projid="greekLit:tlg0012">
         <groupname xml:lang="eng">Homeric Poems</groupname>
-        <work projid="greekLit:tlg001" xml:lang="eng">
+        <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="eng">Iliad</title>
             <edition projid="greekLit:perseus-grc1">
                 <description xmlns="" xml:lang="en">Perseus:bib:oclc,29448041, Homer. Homeri Opera in five volumes. Oxford, Oxford University Press. 1920.</description>
@@ -123,7 +123,7 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg002" xml:lang="eng">
+        <work projid="greekLit:tlg002" xml:lang="grc">
             <title xml:lang="eng">Odyssey</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="eng">Odyssey</label>
