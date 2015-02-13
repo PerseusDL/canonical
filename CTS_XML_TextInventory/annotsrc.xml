@@ -107,7 +107,7 @@
     </textgroup>
     <textgroup projid="greekLit:tlg0012">
         <groupname xml:lang="eng">Homeric Poems</groupname>
-        <work projid="greekLit:tlg001" xml:lang="eng">
+        <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="eng">Iliad</title>
             <edition projid="greekLit:perseus-grc1">
                 <description xmlns="" xml:lang="en">Perseus:bib:oclc,29448041, Homer. Homeri Opera in five volumes. Oxford, Oxford University Press. 1920.</description>
@@ -123,7 +123,7 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg002" xml:lang="eng">
+        <work projid="greekLit:tlg002" xml:lang="grc">
             <title xml:lang="eng">Odyssey</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="eng">Odyssey</label>
@@ -208,18 +208,18 @@
                 </online>
             </edition>
             <translation projid="greekLit:perseus-eng4">
-                <label xml:lang="en">The Peloponnesian War</label>
+                <label xml:lang="en">The Peloponnesian War (English - Thomas Hobbes translator)</label>
                 <description xml:lang="eng">The English works of Thomas Hobbes of Malmesbury. Thucydides. Thomas Hobbes. translator. London. Bohn. 1843.</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng4.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
                                 <citation label="Section" xpath="/tei:div[@n='?']"
-                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
                                 />
                             </citation>
                         </citation>
@@ -227,18 +227,18 @@
                 </online>
             </translation>
             <translation projid="greekLit:perseus-eng5">
-                <label xml:lang="en">The Peloponnesian War</label>
+                <label xml:lang="en">The Peloponnesian War (English - Benjamin Jowett translator)</label>
                 <description xml:lang="eng">Thucydides translated into English; with introduction, marginal analysis, notes, and indices. Volume 1. Thucydides. Benjamin Jowett. translator. Oxford. Clarendon Press. 1881</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng5.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
                                 <citation label="Section" xpath="/tei:div[@n='?']"
-                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
                                 />
                             </citation>
                         </citation>
@@ -246,18 +246,18 @@
                 </online>
             </translation>
             <translation projid="greekLit:perseus-eng6">
-                <label xml:lang="en">The Peloponnesian War</label>
+                <label xml:lang="en">The Peloponnesian War (English - E.P. Dutton)</label>
                 <description xml:lang="eng">Thucydides. The Peloponnesian War. London, J. M. Dent; New York, E. P. Dutton. 1910.</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng6.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']">
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
                                 <citation label="Section" xpath="/tei:div[@n='?']"
-                                    scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:div[@n='?']"
+                                    scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']"
                                 />
                             </citation>
                         </citation>
@@ -265,61 +265,31 @@
                 </online>
             </translation>
             <translation projid="greekLit:opp-ger1">
-                <label xml:lang="en">The Peloponnesian War</label>
+                <label xml:lang="en">The Peloponnesian War (German. Ed. A. Warmund)</label>
                 <description xml:lang="eng">Geschichte des Peloponnesischen Kriegs. Vol. 1. Ed. A. Warmund. 1864</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
             </translation>
-            <translation projid="greekLit:opp-ger2">
-                <label xml:lang="en">The Peloponnesian War</label>
-                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides. Vol. 1. Ed. T. Braun. 1917 </description>
-                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger2.xml">
-                    <validate schema="tei-xl.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-            </translation>
-            <translation projid="greekLit:opp-ger3">
-                <label xml:lang="en">The Peloponnesian War</label>
-                <description xml:lang="eng">Geschichte des Peloponnesischen Krieges von Thukydides. Vol. 2. Ed. T. Braun. 1917 </description>
-                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger3.xml">
-                    <validate schema="tei-xl.xsd"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
-                            <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
-                        </citation>
-                    </citationMapping>
-                </online>
-            </translation>
-            <translation projid="greekLit:opp-frn1">
-                <label xml:lang="en">The Peloponnesian War</label>
+            <translation projid="greekLit:opp-fre1">
+                <label xml:lang="en">The Peloponnesian War (French. Marie Charles Zévort translator.)</label>
                 <description xml:lang="eng">Histoire de la Guerre du Péloponnése, vol. 1, Traduit par Marie Charles Zévort (1852) Paris: Charpentier. </description>
-                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-frn1.xml">
+                <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-fre1.xml">
                     <validate schema="tei-xl.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body">
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="Chapter" xpath="/tei:div[@n='?']"
-                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
