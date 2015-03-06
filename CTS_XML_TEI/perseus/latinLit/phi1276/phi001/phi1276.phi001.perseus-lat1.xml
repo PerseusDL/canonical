@@ -1,36 +1,23 @@
-<?xml version="1.0"?>
-<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
-<!ENTITY % TEI.XML "INCLUDE">
-<!ENTITY % PersVerse PUBLIC "-//Perseus P4//DTD Perseus Verse//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersVerse.dtd" >
-%PersVerse;
-]>
-<TEI.2>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader type="text" status="new">
 		<fileDesc>
 			<titleStmt>
-				<title type="work">Satires</title>
-				<title type="sub">Machine readable text</title>
-				<author n="Juv.">Juvenal</author>
+				<title>Satires</title>
+				<author>Juvenal</author>
 				<editor role="editor" n="Ramsay">G. G. Ramsay</editor>
-				&responsibility;
-				&fund.Tufts;
-			</titleStmt>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      
 			<publicationStmt>
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
 				<availability status="free">
-					<p>This text may be freely distributed, subject to the following restrictions: <list>
-							<item>You credit Perseus, as follows, whenever you use the document:
-									<quote>Text provided by Perseus Digital Library, with funding
-									from Tufts University. Original version available for viewing
-									and download at
-								http://www.perseus.tufts.edu/hopper/.</quote></item>
-							<item>You leave this availability statement intact.</item>
-							<item>You use it for non-commercial purposes only.</item>
-							<item>You offer Perseus any modifications you make.</item>
-						</list>
-					</p>
+					<!-- Creative Common statement instead of Non Commercial one ? -->
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -39,6 +26,7 @@
 						<author>Juvenal</author>
 						<title>Juvenal and Persius: With An English Translation</title>
 						<editor role="editor" n="Ramsay">G. G. Ramsay</editor>
+						<date>1918</date>
 						<imprint>
 							<pubPlace>London</pubPlace>
 							<pubPlace>New York</pubPlace>
@@ -49,35 +37,34 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc>
-			<refsDecl doctype="TEI.2">
-				<step refunit="book" from="DESCENDANT (1 DIV1 N %1)" to="DITTO"/>
-				<step delim="." refunit="poem" from="DESCENDANT (1 DIV2 TYPE POEM N %1)"/>
-				<step refunit="line" from="DESCENDANT (1 L N %2)"/>
-			</refsDecl>
+
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <refState unit="book"/>
+        <refState unit="poem"/>
+        <refState unit="line"/>
+      </refsDecl>
 			<metDecl type="met" pattern="(hexameter|pentameter)*">
 				<p>If applicable, the meter of a textual unit is to be specified with one of following:</p>
 			</metDecl>
-		</encodingDesc>
-		<profileDesc>
-			<langUsage>
-				<language id="la">Latin</language>
-				<language id="greek">Greek</language>
-			</langUsage>
-		</profileDesc>
-		<revisionDesc>
-			<change>
-				<date>2010/03/02</date>
-				<respStmt>
-					<name>J. Matthew Harrington</name>
-					<resp>ed.</resp>
-				</respStmt>
-				<item> mark up text in XML, proofread</item>
-			</change>
-		</revisionDesc>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage default="false">
+        <language ident="eng">English</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2010-03-02" who="J. Matthew Harrington">Mark up text in XML, proofread</change>
+      <change when="2015-03-06" who="Thibault Clérice">converted to EpiDoc/CTS/Unicode</change>
+    </revisionDesc>
+
 	</teiHeader>
-	<text lang="la">
-		<body>
+<text n="urn:cts:latinLit:phi1276.phi001.perseus-lat1" xml:lang="lat">
+	<body>
+		<div type="edition">
 			<div1 type="book" n="1" org="uniform" sample="complete">
 				<div2 type="poem" n="1" met="hexameter" org="uniform" sample="complete">
 					<head>Satura I</head>
@@ -115,10 +102,10 @@
 <l>causidici nova cum veniat lectica Mathonis</l>
 <l>plena ipso, post hunc magni delator amici</l>
 <l>et cito rapturus de nobilitate comesa</l>
-<l n="35">quod superest, quem Massa timet, quem munere palpat<note><hi rend="italics"><foreign lang="la">palpat</foreign></hi> is omitted by P.</note></l>
+<l n="35">quod superest, quem Massa timet, quem munere palpat<note><hi rend="italics"><foreign lang="lat">palpat</foreign></hi> is omitted by P.</note></l>
 <l>Carus et a trepido Thymele summissa Latino?</l>
 <l>cum te summoveant qui testamenta merentur</l>
-<l>noctibus,<note><hi rend="italics"><foreign lang="la">noctibus</foreign></hi> Vind. <foreign lang="greek">*y</foreign> : <hi rend="italics"><foreign lang="la">non tibi</foreign></hi> P.</note> in caelum quos evenit optima summi</l>
+<l>noctibus,<note><hi rend="italics"><foreign lang="lat">noctibus</foreign></hi> Vind. <foreign lang="grc">Ψ</foreign> : <hi rend="italics"><foreign lang="lat">non tibi</foreign></hi> P.</note> in caelum quos evenit optima summi</l>
 <l>nunc via processus, vetulae vesica beatae?</l>
 <l n="40">unciolam Proculeius habet, sed Gillo deuncem,</l>
 <l>partes quisque suas ad mensuram inguinis heres,</l>
@@ -147,7 +134,7 @@
 <l>quadrivio, cum iam sexta cervice feratur</l>
 <l n="65">hinc atque inde patens ac nuda paene cathedra</l>
 <l>et multum referens de Maecenate supino</l>
-<l>signator falsi<note><hi rend="italics"><foreign lang="la">falsi</foreign></hi> P: <hi rend="italics"><foreign lang="la">falso</foreign></hi> <foreign lang="greek">*y</foreign></note>, qui se lautum atque beatum </l>
+<l>signator falsi<note><hi rend="italics"><foreign lang="lat">falsi</foreign></hi> P: <hi rend="italics"><foreign lang="lat">falso</foreign></hi> <foreign lang="grc">Ψ</foreign></note>, qui se lautum atque beatum </l>
 <l>exiguis tabulis et gemma fecerit uda?</l>
 <l>Occurrit matrona potens, quae molle Calenum</l>
 <l n="70">porrectura viro miscet sitiente rubetam</l>
@@ -182,20 +169,20 @@
 <l>agnitus accipies, iubet a praecone vocari</l>
 <l n="100">ipsos Troiugenas, nam vexant limen et ipsi</l>
 <l>nobiscum, <q>da praetori, da deinde tribuno.</q></l>
-<l>sed libertinus prior est. <q>prior</q> inquit &lsquo;ego adsum.</l>
+<l>sed libertinus prior est. <q>prior</q> inquit ‘ego adsum.</l>
 <l>cur timeam dubitemve locum defendere? quamvis</l>
 <l>natus ad Euphraten, molles quod in aure fenestrae</l>
 <l n="105">arguerint, licet ipse negem, sed quinque tabernae</l>
 <l>quadringenta parant, quid confert purpura maior</l>
 <l>optandum, si Laurenti custodit in agro</l>
 <l>conductas Corvinus oves, ego possideo plus</l>
-<l>Pallante et Licinis?&rsquo; expectent ergo tribuni,</l>
+<l>Pallante et Licinis?’ expectent ergo tribuni,</l>
 <l n="110">vincant divitiae, sacro ne cedat honori</l>
 <l>nuper in hanc urbem pedibus qui venerat albis,</l>
 <l>quandoquidem inter nos sanctissima divitiarum</l>
 <l>maiestas, etsi funesta pecunia templo</l>
-<l>nondum habitas<note><hi rend="italics"><foreign lang="la">habitas</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">habitat</foreign></hi> P Vind. OT Büch. Housman</note>, nullas nummorum ereximus aras, </l>
-<l n="115">ut colitur Pax atque<note>In place of the dull <hi rend="italics"><foreign lang="la">atque</foreign></hi> of P<foreign lang="greek">*y</foreign>, Postgate, supported by the reading <hi rend="italics"><foreign lang="la">firma</foreign></hi> found in the MS. II, has made the brilliant conj. <hi rend="italics"><foreign lang="la">Fama</foreign></hi>, approved by L. Havet. See Class. Quart, iii. p. 67.</note> Fides Victoria Virtus </l>
+<l>nondum habitas<note><hi rend="italics"><foreign lang="lat">habitas</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">habitat</foreign></hi> P Vind. OT Büch. Housman</note>, nullas nummorum ereximus aras, </l>
+<l n="115">ut colitur Pax atque<note>In place of the dull <hi rend="italics"><foreign lang="lat">atque</foreign></hi> of P<foreign lang="grc">Ψ</foreign>, Postgate, supported by the reading <hi rend="italics"><foreign lang="lat">firma</foreign></hi> found in the MS. II, has made the brilliant conj. <hi rend="italics"><foreign lang="lat">Fama</foreign></hi>, approved by L. Havet. See Class. Quart, iii. p. 67.</note> Fides Victoria Virtus </l>
 <l>quaeque salutate crepitat Concordia nido.</l>
 <l>Sed cum summus honor finito conputet anno,</l>
 <l>sportula quid referat, quantum rationibus addat,</l>
@@ -205,8 +192,8 @@
 <l>languida vel praegnas et circumducitur uxor.</l>
 <l>hic petit absenti nota iam callidus arte</l>
 <l>ostendens vacuam et clausam pro coniuge sellam</l>
-<l n="125"><q>Galla mea est</q> inquit, &lsquo;citius dimitte, moraris?</l>
-<l>profer, Galla, caput, noli vexare, quiescit.&rsquo; <note><hi rend="italics"><foreign lang="la">quiescit</foreign></hi> Vind.<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">quiescaet</foreign></hi> P: <hi rend="italics"><foreign lang="la">quiescet</foreign></hi> Büch. Housman.</note></l>
+<l n="125"><q>Galla mea est</q> inquit, ‘citius dimitte, moraris?</l>
+<l>profer, Galla, caput, noli vexare, quiescit.’ <note><hi rend="italics"><foreign lang="lat">quiescit</foreign></hi> Vind.<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">quiescaet</foreign></hi> P: <hi rend="italics"><foreign lang="lat">quiescet</foreign></hi> Büch. Housman.</note></l>
 <l>Ipse dies pulchro distinguitur ordine rerum:</l>
 <l>sportula, deinde forum iurisque peritus Apollo</l>
 <l>atque triumphales, inter quas ausus habere</l>
@@ -223,24 +210,24 @@
 <l n="140">luxuriae sordes? quanta est gula quae sibi totos</l>
 <l>ponit apros, animal propter convivia natum!</l>
 <l>poena tamen praesens, cum tu deponis amictus</l>
-<l>turgidus et crudum<note>P has <hi rend="italics"><foreign lang="la">crudus</foreign></hi>: <hi rend="italics"><foreign lang="la">crudum</foreign></hi> <foreign lang="greek">*y</foreign> etc.</note> pavonem in balnea portas, </l>
+<l>turgidus et crudum<note>P has <hi rend="italics"><foreign lang="lat">crudus</foreign></hi>: <hi rend="italics"><foreign lang="lat">crudum</foreign></hi> <foreign lang="grc">Ψ</foreign> etc.</note> pavonem in balnea portas, </l>
 <l>hinc subitae mortes atque intestata senectus;</l>
-<l n="145">it<note>So AL and Housman: Büch. follows the <hi rend="italics"><foreign lang="la">et</foreign></hi> of P.</note> nova nec tristis per cunctas fabula cenas: </l>
+<l n="145">it<note>So AL and Housman: Büch. follows the <hi rend="italics"><foreign lang="lat">et</foreign></hi> of P.</note> nova nec tristis per cunctas fabula cenas: </l>
 <l>ducitur iratis plaudendum funus amicis.</l>
 <l>Nil erit ulterius quod nostris moribus addat</l>
 <l>posteritas, eadem facient cupientque minores,</l>
 <l>omne in praecipiti vitium stetit, utere velis,</l>
-<l n="150">totos pande sinus, dicas<note><hi rend="italics"><foreign lang="la">dicas</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">dices</foreign></hi> PO: Housman prefers <hi rend="italics"><foreign lang="la">dicas</foreign></hi>; see Journal of Phil. No. 67, p. 43.</note> hic forsitan &lsquo;unde </l>
+<l n="150">totos pande sinus, dicas<note><hi rend="italics"><foreign lang="lat">dicas</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">dices</foreign></hi> PO: Housman prefers <hi rend="italics"><foreign lang="lat">dicas</foreign></hi>; see Journal of Phil. No. 67, p. 43.</note> hic forsitan ‘unde </l>
 <l>ingenium par materiae? unde illa priorum</l>
 <l>scribendi quodcumque animo flagrante liberet</l>
-<l>simplicitas? &ldquo;cuius non audeo dicere nomen?</l>
-<l>quid refert, dictis ignoscat Mucius an non?&rdquo;&rsquo;</l>
-<l n="155">pone Tigellinum: taeda lucebis<note>P has <hi rend="italics"><foreign lang="la">lucebit</foreign></hi>: so also GT</note> in illa </l>
-<l>qua stantes ardent qui fixo gutture<note>Büch. (1893 edn.) reads <hi rend="italics"><foreign lang="la">pectore</foreign></hi>, as do PAO and Owen: <hi rend="italics"><foreign lang="la">gutture</foreign></hi> is read by Vind.GLTU. So Housman; see Journal of Phil. No. 67, p. 							45.</note> fumant, </l>
-<l>et latum media sulcum deducis<note>So pO: <hi rend="italics"><foreign lang="la">deducit</foreign></hi> P Housman: Büch. (1910) conj. <hi rend="italics"><foreign lang="la">ducetis</foreign></hi>. Owen conj. <hi rend="italics"><foreign lang="la">dent lucis</foreign></hi>, reading <hi rend="italics"><foreign lang="la">ut</foreign></hi> for <hi rend="italics"><foreign lang="la">et</foreign></hi>. Housman supposes a line dropped out after 1.156, containing the word <hi rend="italics"><foreign lang="la">cadaver</foreign></hi> which becomes the subject to <hi rend="italics"><foreign lang="la">deducit</foreign></hi>.</note> harena. </l>
+<l>simplicitas? “cuius non audeo dicere nomen?</l>
+<l>quid refert, dictis ignoscat Mucius an non?”’</l>
+<l n="155">pone Tigellinum: taeda lucebis<note>P has <hi rend="italics"><foreign lang="lat">lucebit</foreign></hi>: so also GT</note> in illa </l>
+<l>qua stantes ardent qui fixo gutture<note>Büch. (1893 edn.) reads <hi rend="italics"><foreign lang="lat">pectore</foreign></hi>, as do PAO and Owen: <hi rend="italics"><foreign lang="lat">gutture</foreign></hi> is read by Vind.GLTU. So Housman; see Journal of Phil. No. 67, p. 							45.</note> fumant, </l>
+<l>et latum media sulcum deducis<note>So pO: <hi rend="italics"><foreign lang="lat">deducit</foreign></hi> P Housman: Büch. (1910) conj. <hi rend="italics"><foreign lang="lat">ducetis</foreign></hi>. Owen conj. <hi rend="italics"><foreign lang="lat">dent lucis</foreign></hi>, reading <hi rend="italics"><foreign lang="lat">ut</foreign></hi> for <hi rend="italics"><foreign lang="lat">et</foreign></hi>. Housman supposes a line dropped out after 1.156, containing the word <hi rend="italics"><foreign lang="lat">cadaver</foreign></hi> which becomes the subject to <hi rend="italics"><foreign lang="lat">deducit</foreign></hi>.</note> harena. </l>
 <l>Qui dedit ergo tribus patruis aconita, vehatur</l>
 <l>pensilibus plumis atque illinc despiciat nos?</l>
-<l n="160">&lsquo;cum veniet contra, digito compesce labellum:</l>
+<l n="160">‘cum veniet contra, digito compesce labellum:</l>
 <l>accusator erit qui verbum dixerit <quote>hic est.</quote></l>
 <l>securus licet Aenean Rutulumque ferocem</l>
 <l>committas, nulli gravis est percussus Achilles</l>
@@ -248,9 +235,9 @@
 <l n="165">ense velut stricto quotiens Lucilius ardens</l>
 <l>infremuit, rubet auditor cui frigida mens est</l>
 <l>criminibus, tacita sudant praecordia culpa,</l>
-<l>inde ira<note><hi rend="italics"><foreign lang="la">ira</foreign></hi> Housman following AGLO: Büch. reads <hi rend="italics"><foreign lang="la">irae</foreign></hi> from P.</note> et lacrimae. tecum prius ergo voluta</l>
+<l>inde ira<note><hi rend="italics"><foreign lang="lat">ira</foreign></hi> Housman following AGLO: Büch. reads <hi rend="italics"><foreign lang="lat">irae</foreign></hi> from P.</note> et lacrimae. tecum prius ergo voluta</l>
 <l>haec animo ante tubas: galeatum sero duelli</l>
-<l n="170">paenitet.&rsquo; experiar quid concedatur in illos,</l>
+<l n="170">paenitet.’ experiar quid concedatur in illos,</l>
 <l>quorum Flaminia tegitur cinis atque Latina.</l>
 				</div2>
 				<div2 type="poem" n="2" met="hexameter" org="uniform" sample="complete">
@@ -291,15 +278,15 @@
 <l>nonne igitur iure ac merito vitia ultima fictos</l>
 <l n="35">contemnunt Scauros et castigata remordent?</l>
 <l>Non tulit ex illis torvum Laronia quendam</l>
-<l>clamantem totiens <q>ubi nunc, lex Iulia? dormis?</q> <note>Housman punctuates <hi rend="italics"><foreign lang="la">ubi nunc, lex Iulia, dormis?</foreign></hi></note></l>
-<l>atque ita subridens: &lsquo;felicia tempora, quae te</l>
+<l>clamantem totiens <q>ubi nunc, lex Iulia? dormis?</q> <note>Housman punctuates <hi rend="italics"><foreign lang="lat">ubi nunc, lex Iulia, dormis?</foreign></hi></note></l>
+<l>atque ita subridens: ‘felicia tempora, quae te</l>
 <l>moribus opponunt. habeat iam Roma pudorem,</l>
 <l n="40">tertius e caelo cecidit Cato. sed tamen unde</l>
 <l>haec emis, hirsuto spirant opobalsama collo</l>
 <l>quae tibi? ne pudeat dominum monstrare tabernae,</l>
-<l>quod si vexantur leges ac iura<note><hi rend="italics"><foreign lang="la">ac iura</foreign></hi> <foreign lang="greek">*y</foreign> (see 1. 72): <hi rend="italics"><foreign lang="la">acturae</foreign></hi> P.</note>, citari</l>
+<l>quod si vexantur leges ac iura<note><hi rend="italics"><foreign lang="lat">ac iura</foreign></hi> <foreign lang="grc">Ψ</foreign> (see 1. 72): <hi rend="italics"><foreign lang="lat">acturae</foreign></hi> P.</note>, citari</l>
 <l>ante omnes debet Scantinia: respice primum</l>
-<l n="45">et scrutare viros; faciunt nam<note><hi rend="italics"><foreign lang="la">nam</foreign></hi> Housman from O: <hi rend="italics"><foreign lang="la">hi</foreign></hi> Vinci.<foreign lang="greek">*y</foreign> and Büch.: <hi rend="italics"><foreign lang="la">qui</foreign></hi> Büch. (1910).</note> plura, sed illos </l>
+<l n="45">et scrutare viros; faciunt nam<note><hi rend="italics"><foreign lang="lat">nam</foreign></hi> Housman from O: <hi rend="italics"><foreign lang="lat">hi</foreign></hi> Vinci.<foreign lang="grc">Ψ</foreign> and Büch.: <hi rend="italics"><foreign lang="lat">qui</foreign></hi> Büch. (1910).</note> plura, sed illos </l>
 <l>defendit numerus iunctaeque umbone phalanges,</l>
 <l>magna inter molles concordia, non erit ullum</l>
 <l>exemplum in nostro tam detestabile sexu.</l>
@@ -317,15 +304,15 @@
 <l n="60">dives erit magno quae dormit tertia lecto;</l>
 <l>tu nube atque tace: donant arcana cylindros.</l>
 <l>de nobis post haec tristis sententia fertur?</l>
-<l>dat veniam corvis, vexat censura columbas.&rsquo;</l>
+<l>dat veniam corvis, vexat censura columbas.’</l>
 <l>Fugerunt trepidi vera ac manifesta canentem</l>
 <l n="65">Stoicidae; quid enim falsi Laronia? sed quid</l>
 <l>non facient alii, cum tu multicia sumas,</l>
 <l>Cretice, et hanc vestem populo mirante perores</l>
 <l>in Proculas et Pollittas? est moecha Fabulla,</l>
 <l>damnetur, si vis, etiam Carfinia: talem</l>
-<l n="70">non sumet damnata togam. &lsquo;sed Iulius ardet,</l>
-<l>aestuo.&rsquo; nudus agas: minus est insania turpis,</l>
+<l n="70">non sumet damnata togam. ‘sed Iulius ardet,</l>
+<l>aestuo.’ nudus agas: minus est insania turpis,</l>
 <l>en habitum quo te leges ac iura ferentem</l>
 <l>vulneribus crudis populus modo victor, et illud</l>
 <l>montanum positis audiret vulgus aratris.</l>
@@ -334,7 +321,7 @@
 <l>acer et indomitus libertatisque magister,</l>
 <l>Cretice, perluces. dedit hanc contagio labem</l>
 <l>et dabit in plures, sicut grex totus in agris</l>
-<l n="80">unius scabie cadit et porrigine<note><hi rend="italics"><foreign lang="la">prurigine</foreign></hi> P.</note> porci </l>
+<l n="80">unius scabie cadit et porrigine<note><hi rend="italics"><foreign lang="lat">prurigine</foreign></hi> P.</note> porci </l>
 <l>uvaque conspecta livorem ducit ab uva.</l>
 <l>Foedius hoc aliquid quandoque audebis amictu;</l>
 <l>nemo repente fuit turpissimus, accipient te</l>
@@ -354,18 +341,18 @@
 <l>caerulea indutus scutulata aut galbina rasa,</l>
 <l>et per Iunonem domini iurante ministro;</l>
 <l>ille tenet speculum, pathici gestamen Othonis,</l>
-<l n="100">Actoris Aurunci spolium<note>The words <hi rend="italics"><foreign lang="la">Actoris Aurunci spolium</foreign></hi> are a quotation from Virg. Aen. 12.94.</note>, quo se ille videbat </l>
+<l n="100">Actoris Aurunci spolium<note>The words <hi rend="italics"><foreign lang="lat">Actoris Aurunci spolium</foreign></hi> are a quotation from Virg. Aen. 12.94.</note>, quo se ille videbat </l>
 <l>armatum, cum iam tolli vexilla iuberet,</l>
 <l>res memoranda novis annalibus atque recenti</l>
 <l>historia, speculum civilis sarcina belli;</l>
 <l>nimirum summi ducis est occidere Galbam</l>
 <l n="105">et curare cutem; summi constantia civis</l>
-<l>Bebriacis campis spolium<note><hi rend="italics"><foreign lang="la">spolium</foreign></hi> <foreign lang="greek">*y</foreign>O: <hi rend="italics"><foreign lang="la">solium</foreign></hi> Herwerd. Housman.</note> adfectare Palati,</l>
-<l>et pressum in faciem<note><hi rend="italics"><foreign lang="la">faciem</foreign></hi> Clausen and Willis, so P1, AKLO; <hi rend="italics"><foreign lang="la">facie</foreign></hi> P2, GHTUZ</note> digitis extendere panem,</l>
+<l>Bebriacis campis spolium<note><hi rend="italics"><foreign lang="lat">spolium</foreign></hi> <foreign lang="grc">Ψ</foreign>O: <hi rend="italics"><foreign lang="lat">solium</foreign></hi> Herwerd. Housman.</note> adfectare Palati,</l>
+<l>et pressum in faciem<note><hi rend="italics"><foreign lang="lat">faciem</foreign></hi> Clausen and Willis, so P1, AKLO; <hi rend="italics"><foreign lang="lat">facie</foreign></hi> P2, GHTUZ</note> digitis extendere panem,</l>
 <l>quod nec in Assyrio pharetrata Samiramis orbe,</l>
 <l>maesta nec Actiaca fecit Cleopatra carina,</l>
 <l n="110">hic nullus verbis pudor aut reverentia mensae,</l>
-<l>hic turpis<note><hi rend="italics"><foreign lang="la">turpis</foreign></hi> PVind.<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">turpes</foreign></hi> TParis.</note> Cybeles et fracta voce loquendi</l>
+<l>hic turpis<note><hi rend="italics"><foreign lang="lat">turpis</foreign></hi> PVind.<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">turpes</foreign></hi> TParis.</note> Cybeles et fracta voce loquendi</l>
 <l>libertas et crine senex fanaticus albo</l>
 <l>sacrorum antistes, rarum ac memorabile magni</l>
 <l>gutturis exemplum conducendusque magister,</l>
@@ -386,10 +373,10 @@
 <l>traditur ecce viro clarus genere atque opibus vir,</l>
 <l n="130">nec galeam quassas, nec terram cuspide pulsas,</l>
 <l>nec quereris patri? vade ergo et cede severi</l>
-<l>iugeribus campi, quem neglegis. &lsquo;Officium cras</l>
-<l>primo sole mihi peragendum in valle Quirini.&rsquo;</l>
-<l><q>quae causa officii?</q> &lsquo;quid quaeris? nubit amicus</l>
-<l n="135">nec multos adhibet.&rsquo; liceat modo vivere, fient,</l>
+<l>iugeribus campi, quem neglegis. ‘Officium cras</l>
+<l>primo sole mihi peragendum in valle Quirini.’</l>
+<l><q>quae causa officii?</q> ‘quid quaeris? nubit amicus</l>
+<l n="135">nec multos adhibet.’ liceat modo vivere, fient,</l>
 <l>fient ista palam, cupient et in acta referri,</l>
 <l>interea tormentum ingens nubentibus haeret</l>
 <l>quod nequeant parere et partu retinere maritos,</l>
@@ -404,7 +391,7 @@
 <l>omnibus ad podium spectantibus, his licet ipsum</l>
 <l>admoveas cuius tunc munere retia misit.</l>
 <l>Esse aliquos manes et subterranea regna</l>
-<l n="150">Cocytum<note><hi rend="italics"><foreign lang="la">et contum</foreign></hi> ΣVind.<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">et pontum</foreign></hi> PSTU. Housman reads <hi rend="italics"><foreign lang="la">Cocytum</foreign></hi> after Luitprandus, Antapodosis 5 B.</note> et Stygio ranas in gurgite nigras, </l>
+<l n="150">Cocytum<note><hi rend="italics"><foreign lang="lat">et contum</foreign></hi> ΣVind.<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">et pontum</foreign></hi> PSTU. Housman reads <hi rend="italics"><foreign lang="lat">Cocytum</foreign></hi> after Luitprandus, Antapodosis 5 B.</note> et Stygio ranas in gurgite nigras, </l>
 <l>atque una transire vadum tot milia cumba</l>
 <l>nec pueri credunt, nisi qui nondum aere lavantur.</l>
 <l>sed tu vera puta: Curius quid sentit et ambo</l>
@@ -413,7 +400,7 @@
 <l>tot bellorum animae, quotiens hinc talis ad illos</l>
 <l>umbra venit? cuperent lustrari, si qua darentur</l>
 <l>sulpura cum taedis et si foret umida laurus,</l>
-<l>illic<note><hi rend="italics"><foreign lang="la">illic</foreign></hi> Vind.GL: <hi rend="italics"><foreign lang="la">illuc</foreign></hi> ATU and appar. P.</note> heu miseri traducimur. arma quidem ultra </l>
+<l>illic<note><hi rend="italics"><foreign lang="lat">illic</foreign></hi> Vind.GL: <hi rend="italics"><foreign lang="lat">illuc</foreign></hi> ATU and appar. P.</note> heu miseri traducimur. arma quidem ultra </l>
 <l n="160">litora Iuvernae promovimus et modo captas</l>
 <l>Orcadas ac minima contentos nocte Britannos;</l>
 <l>sed quae nunc populi fiunt victoris in urbe,</l>
@@ -422,7 +409,7 @@
 <l n="165">mollior ardenti sese indulsisse tribuno.</l>
 <l>aspice quid faciant commercia: venerat obses,</l>
 <l>hic fiunt homines, nam si mora longior urbem</l>
-<l>indulsit<note><hi rend="italics"><foreign lang="la">induerit</foreign></hi> Willis, following Nisbet</note> pueris, non umquam<note><hi rend="italics"><foreign lang="la">non umquam</foreign></hi> GLOT Housman: <hi rend="italics"><foreign lang="la">non numquam</foreign></hi> PUBüch.</note> derit amator, </l>
+<l>indulsit<note><hi rend="italics"><foreign lang="lat">induerit</foreign></hi> Willis, following Nisbet</note> pueris, non umquam<note><hi rend="italics"><foreign lang="lat">non umquam</foreign></hi> GLOT Housman: <hi rend="italics"><foreign lang="lat">non numquam</foreign></hi> PUBüch.</note> derit amator, </l>
 <l>mittentur bracae cultelli frena flagellum;</l>
 <l n="170">sic praetextatos referunt Artaxata mores.</l>
 				</div2>
@@ -445,10 +432,10 @@
 <l n="15">(omnis enim populo mercedem pendere iussa est</l>
 <l>arbor et eiectis mendicat silva Camenis).</l>
 <l>in vallem Egeriae descendimus et speluncas</l>
-<l>dissimiles veris, quanto praesentius<note><hi rend="italics"><foreign lang="la">praestantius</foreign></hi> p<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">presentius</foreign></hi> Vind.</note> esset </l>
+<l>dissimiles veris, quanto praesentius<note><hi rend="italics"><foreign lang="lat">praestantius</foreign></hi> p<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">presentius</foreign></hi> Vind.</note> esset </l>
 <l>numen aquis, viridi si margine clauderet undas</l>
 <l n="20">herba, nec ingentium violarent marmora tofum.</l>
-<l>Hic tunc Vmbricius <q>quando artibus,</q> inquit, &lsquo;honestis</l>
+<l>Hic tunc Vmbricius <q>quando artibus,</q> inquit, ‘honestis</l>
 <l>nullus in urbe locus, nulla emolumenta laborum,</l>
 <l>res hodie minor est here quam fuit atque eadem cras</l>
 <l>deteret exiguis aliquid, proponimus illuc</l>
@@ -464,8 +451,8 @@
 <l>quondam hi cornicines et municipalis harenae</l>
 <l n="35">perpetui comites notaeque per oppida buccae</l>
 <l>munera nunc edunt et, verso pollice vulgus</l>
-<l>cum<note><hi rend="italics"><foreign lang="la">quem</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">cum</foreign></hi> PAUBüch. and Housman</note> iubet, occidunt populariter; inde reversi </l>
-<l>conducunt foricas, et cur non omnia, cum sint <note>Büch. punctuates <hi rend="italics"><foreign lang="la">et cur non? omnia cum sint.</foreign></hi></note></l>
+<l>cum<note><hi rend="italics"><foreign lang="lat">quem</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">cum</foreign></hi> PAUBüch. and Housman</note> iubet, occidunt populariter; inde reversi </l>
+<l>conducunt foricas, et cur non omnia, cum sint <note>Büch. punctuates <hi rend="italics"><foreign lang="lat">et cur non? omnia cum sint.</foreign></hi></note></l>
 <l>quales ex humili magna ad fastigia rerum</l>
 <l n="40">extollit quotiens voluit Fortuna iocari?</l>
 <l>Quid Romae faciam? mentiri nescio: librum,</l>
@@ -536,7 +523,7 @@
 <l>a facie, iactare manus, laudare paratus,</l>
 <l>si bene ructavit, si rectum minxit amicus,</l>
 <l>si trulla inverso crepitum dedit aurea fundo.</l>
-<l>Praeterea sanctum nihil est neque<note>P defective here. Most MSS. have <hi rend="italics"><foreign lang="la">aut</foreign></hi> for <hi rend="italics"><foreign lang="la">est</foreign></hi>. Housman reads <hi rend="italics"><foreign lang="la">aut tibi</foreign></hi>.</note> ab inguine tutum, </l>
+<l>Praeterea sanctum nihil est neque<note>P defective here. Most MSS. have <hi rend="italics"><foreign lang="lat">aut</foreign></hi> for <hi rend="italics"><foreign lang="lat">est</foreign></hi>. Housman reads <hi rend="italics"><foreign lang="lat">aut tibi</foreign></hi>.</note> ab inguine tutum, </l>
 <l n="110">non matrona Laris, non filia virgo, neque ipse</l>
 <l>sponsus levis adhuc, non filius ante pudicus;</l>
 <l>horum si nihil est, aviam resupinat amici,</l>
@@ -568,8 +555,8 @@
 <l>numinis Idaei, procedat vel Numa vel qui</l>
 <l>servavit trepidam flagranti ex aede Minervam:</l>
 <l n="140">protinus ad censum, de moribus ultima fiet</l>
-<l>quaestio. &lsquo;quot pascit servos? quot possidet agri</l>
-<l>iugera? quam multa magnaque paropside cenat?&rsquo;</l>
+<l>quaestio. ‘quot pascit servos? quot possidet agri</l>
+<l>iugera? quam multa magnaque paropside cenat?’</l>
 <l>quantum quisque sua nummorum servat in arca,</l>
 <l>tantum habet et fidei, iures licet et Samothracum</l>
 <l n="145">et nostrorum aras, contemnere fulmina pauper</l>
@@ -581,11 +568,11 @@
 <l>atque recens linum ostendit non una cicatrix?</l>
 <l>nil habet infelix paupertas durius in se,</l>
 <l>quam quod ridiculos homines facit. <quote>exeat,</quote> inquit,</l>
-<l>&ldquo;si pudor est, et de pulvino surgat equestri</l>
+<l>“si pudor est, et de pulvino surgat equestri</l>
 <l n="155">cuius res legi non sufficit, et sedeant hic</l>
 <l>lenonum pueri quocumque ex fornice nati;</l>
 <l>hic plaudat nitidi praeconis filius inter</l>
-<l>pinnirapi cultos iuvenes iuvenesque lanistae&rdquo;:</l>
+<l>pinnirapi cultos iuvenes iuvenesque lanistae”:</l>
 <l>sic libitum vano, qui nos distinxit, Othoni.</l>
 <l n="160">quis gener hic placuit censu minor atque puellae</l>
 <l>sarcinulis impar? quis pauper scribitur heres?</l>
@@ -637,15 +624,15 @@
 <l>et divina opici rodebant carmina mures,</l>
 <l>nil habuit Codrus, quis enim negat? et tamen illud</l>
 <l>perdidit infelix totum nihil, ultimus autem</l>
-<l n="210">aerumnae est cumulus, quod nudum et frusta rogantem<note><hi rend="italics"><foreign lang="la">est</foreign></hi> PRAO</note></l>
+<l n="210">aerumnae est cumulus, quod nudum et frusta rogantem<note><hi rend="italics"><foreign lang="lat">est</foreign></hi> PRAO</note></l>
 <l>nemo cibo, nemo hospitio tectoque iuvabit.</l>
 <l>Si magna Asturici cecidit domus, horrida mater,</l>
 <l>pullati proceres, differt vadimonia praetor,</l>
 <l>tum gemimus casus urbis, tunc odimus ignem,</l>
 <l n="215">ardet adhuc, et iam accurrit qui marmora donet,</l>
 <l>conferat inpensas; hic nuda et candida signa,</l>
-<l>hic aliquid praeclarum<note><hi rend="italics"><foreign lang="la">praeclarum</foreign></hi> P: Housman conj. <hi rend="italics"><foreign lang="la">praedarum</foreign></hi>.</note> Euphranoris et Polycliti, </l>
-<l>hic<note><hi rend="italics"><foreign lang="la">hic</foreign></hi> conj. by Jahn and confirmed by O and Vind.: <hi rend="italics"><foreign lang="la">haec</foreign></hi> P Büch.: Housman conj. <hi rend="italics"><foreign lang="la">aera</foreign></hi>.</note> Asianorum vetera ornamenta deorum, </l>
+<l>hic aliquid praeclarum<note><hi rend="italics"><foreign lang="lat">praeclarum</foreign></hi> P: Housman conj. <hi rend="italics"><foreign lang="lat">praedarum</foreign></hi>.</note> Euphranoris et Polycliti, </l>
+<l>hic<note><hi rend="italics"><foreign lang="lat">hic</foreign></hi> conj. by Jahn and confirmed by O and Vind.: <hi rend="italics"><foreign lang="lat">haec</foreign></hi> P Büch.: Housman conj. <hi rend="italics"><foreign lang="lat">aera</foreign></hi>.</note> Asianorum vetera ornamenta deorum, </l>
 <l>hic libros dabit et forulos mediamque Minervam,</l>
 <l n="220">hic modium argenti, meliora ac plura reponit</l>
 <l>Persicus, orborum lautissimus et merito iam</l>
@@ -661,10 +648,10 @@
 <l>unius sese dominum fecisse lacertae.</l>
 <l>Plurimus hic aeger moritur vigilando (set ipsum</l>
 <l>languorem peperit cibus inperfectus et haerens</l>
-<l>ardenti stomacho), nam quae<note>Housman adopts the conj. <hi rend="italics"><foreign lang="la">quem</foreign></hi> (Hadr. Valesius): <hi rend="italics"><foreign lang="la">quae</foreign></hi> PALO.</note> meritoria somnum </l>
+<l>ardenti stomacho), nam quae<note>Housman adopts the conj. <hi rend="italics"><foreign lang="lat">quem</foreign></hi> (Hadr. Valesius): <hi rend="italics"><foreign lang="lat">quae</foreign></hi> PALO.</note> meritoria somnum </l>
 <l n="235">admittunt? magnis opibus dormitur in urbe.</l>
 <l>inde caput morbi, raedarum transitus arto</l>
-<l>vicorum in flexu<note>Büch. and Owen read <hi rend="italics"><foreign lang="la">inflexu</foreign></hi>, after PVind.<foreign lang="greek">*y</foreign>: Housman <hi rend="italics"><foreign lang="la">in flexu</foreign></hi>. See Journal of Phil. No. 67, p. 40.</note> et stantis convicia mandrae </l>
+<l>vicorum in flexu<note>Büch. and Owen read <hi rend="italics"><foreign lang="lat">inflexu</foreign></hi>, after PVind.<foreign lang="grc">Ψ</foreign>: Housman <hi rend="italics"><foreign lang="lat">in flexu</foreign></hi>. See Journal of Phil. No. 67, p. 40.</note> et stantis convicia mandrae </l>
 <l>eripient somnum Druso vitulisque marinis.</l>
 <l>si vocat officium, turba cedente vehetur</l>
 <l n="240">dives et ingenti curret super ora Liburna</l>
@@ -719,11 +706,11 @@
 <l>si rixa est, ubi tu pulsas, ego vapulo tantum,</l>
 <l n="290">stat contra starique iubet: parere necesse est;</l>
 <l>nam quid agas, cum te furiosus cogat et idem</l>
-<l>fortior? <quote>unde venis? </quote>, exclamat, &lsquo;cuius aceto,</l>
+<l>fortior? <quote>unde venis? </quote>, exclamat, ‘cuius aceto,</l>
 <l>cuius conche tumes? quis tecum sectile porrum</l>
 <l>sutor et elixi vervecis labra comedit?</l>
 <l n="295">nil mihi respondes? aut dic aut accipe calcem.</l>
-<l>ede ubi consistas; in qua te quaero proseucha?&rsquo;</l>
+<l>ede ubi consistas; in qua te quaero proseucha?’</l>
 <l>dicere si temptes aliquid tacitusve recedas,</l>
 <l>tantumdem est: feriunt pariter, vadimonia deinde</l>
 <l>irati faciunt, libertas pauperis haec est:</l>
@@ -749,18 +736,18 @@
 <l>Roma tuo refici properantem reddet Aquino,</l>
 <l n="320">me quoque ad Helvinam Cererem vestramque Dianam</l>
 <l>converte a Cumis, saturarum ego, ni pudet illas,</l>
-<l>auditor<note><hi rend="italics"><foreign lang="la">auditor</foreign></hi> PVind. Büch. (1910): <hi rend="italics"><foreign lang="la">adiutor</foreign></hi> <foreign lang="greek">*y</foreign>Büch. (1893).</note> gelidos veniam caligatus in agros.&rsquo;</l>
+<l>auditor<note><hi rend="italics"><foreign lang="lat">auditor</foreign></hi> PVind. Büch. (1910): <hi rend="italics"><foreign lang="lat">adiutor</foreign></hi> <foreign lang="grc">Ψ</foreign>Büch. (1893).</note> gelidos veniam caligatus in agros.’</l>
 				</div2>
 				<div2 type="poem" n="4" met="hexameter" org="uniform" sample="complete">
 					<head>Satura IV</head>
 <l>Ecce iterum Crispinus, et est mihi saepe vocandus<note>Willis rejects 4.1-36, following Ribbeck</note></l>
 <l>ad partes, monstrum nulla virtute redemptum</l>
 <l>a vitiis, aegrae solaque libidine fortes</l>
-<l>deliciae; viduas tantum aspernatus.<note><hi rend="italics"><foreign lang="la">aspernatur</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">aspernatus</foreign></hi> Vind. etc. and Housman: <hi rend="italics"><foreign lang="la">sper. natur</foreign></hi> PSA.</note> adulter, </l>
+<l>deliciae; viduas tantum aspernatus.<note><hi rend="italics"><foreign lang="lat">aspernatur</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">aspernatus</foreign></hi> Vind. etc. and Housman: <hi rend="italics"><foreign lang="lat">sper. natur</foreign></hi> PSA.</note> adulter, </l>
 <l n="5">quid refert igitur, quantis iumenta fatiget</l>
 <l>porticibus, quanta nemorum vectetur in umbra,</l>
 <l>iugera quot vicina foro, quas emerit aedes?</l>
-<l><del>nemo malus felix, minime<note><hi rend="italics"><foreign lang="la">minime</foreign></hi> PVind.<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">quin sit</foreign></hi> <foreign lang="greek">*s</foreign>: Housman conj. <hi rend="italics"><foreign lang="la">qum sit</foreign></hi>.</note> corruptor et idem</del> <note>Clausen rejects, following Jahn</note></l>
+<l><del>nemo malus felix, minime<note><hi rend="italics"><foreign lang="lat">minime</foreign></hi> PVind.<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">quin sit</foreign></hi> <foreign lang="grc">*s</foreign>: Housman conj. <hi rend="italics"><foreign lang="lat">qum sit</foreign></hi>.</note> corruptor et idem</del> <note>Clausen rejects, following Jahn</note></l>
 <l>incestus, cum quo nuper vittata iacebat</l>
 <l n="10">sanguine adhuc vivo terram subitura sacerdos.</l>
 <l>Sed nunc de factis levioribus, et tamen alter</l>
@@ -777,7 +764,7 @@
 <l>nil tale expectes: emit sibi. multa videmus</l>
 <l>quae miser et frugi non fecit Apicius; hoc tu,</l>
 <l>succinctus patria quondam, Crispine, papyro?</l>
-<l n="25">hoc pretio squamas<note>P has <hi rend="italics"><foreign lang="la">squamae</foreign></hi>. So Büch.</note>? potuit fortasse minoris </l>
+<l n="25">hoc pretio squamas<note>P has <hi rend="italics"><foreign lang="lat">squamae</foreign></hi>. So Büch.</note>? potuit fortasse minoris </l>
 <l>piscator quam piscis emi; provincia tanti</l>
 <l>vendit agros, sed maiores Apulia vendit,</l>
 <l>qualis tunc epulas ipsum gluttisse putamus</l>
@@ -818,10 +805,10 @@
 <l>ut cessit, facili patuerunt cardine valvae;</l>
 <l>exclusi spectant admissa obsonia patres.</l>
 <l n="65">itur ad Atriden. tum Picens <q>accipe,</q> dixit,</l>
-<l>&lsquo;privatis maiora focis, genialis agatur</l>
-<l>iste dies, propera stomachum laxare sagina<note><hi rend="italics"><foreign lang="la">saginam</foreign></hi> PS: <hi rend="italics"><foreign lang="la">saginis</foreign></hi> <foreign lang="greek">*y</foreign> Vind.</note>, </l>
+<l>‘privatis maiora focis, genialis agatur</l>
+<l>iste dies, propera stomachum laxare sagina<note><hi rend="italics"><foreign lang="lat">saginam</foreign></hi> PS: <hi rend="italics"><foreign lang="lat">saginis</foreign></hi> <foreign lang="grc">Ψ</foreign> Vind.</note>, </l>
 <l>et tua servatum consume in saecula rhombum.</l>
-<l>ipse capi voluit.&rsquo; quid apertius? et tamen illi</l>
+<l>ipse capi voluit.’ quid apertius? et tamen illi</l>
 <l n="70">surgebant cristae; nihil est quod credere de se</l>
 <l>non possit cum laudatur dis aequa potestas.</l>
 <l>sed derat pisci patinae mensura, vocantur</l>
@@ -831,7 +818,7 @@
 <l><q>currite, iam sedit</q> rapta properabat abolla</l>
 <l>Pegasus, attonitae positus modo vilicus urbi.</l>
 <l>anne aliud tum praefecti? quorum optimus atque</l>
-<l>interpres legum sanctissimus omnia, quamquam<note><hi rend="italics"><foreign lang="la">quamquam</foreign></hi> Vind.<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">quamque</foreign></hi> P.</note></l>
+<l>interpres legum sanctissimus omnia, quamquam<note><hi rend="italics"><foreign lang="lat">quamquam</foreign></hi> Vind.<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">quamque</foreign></hi> P.</note></l>
 <l n="80">temporibus diris, tractanda putabat inermi</l>
 <l>iustitia, venit et Crispi iucunda senectus,</l>
 <l>cuius erant mores qualis facundia, mite</l>
@@ -876,18 +863,18 @@
 <l>belua, sic pugnas Cilicis laudabat et ictus</l>
 <l>et pegma et pueros inde ad velaria raptos.</l>
 <l>Non cedit Veiento, set ut fanaticus oestro</l>
-<l>percussus, Bellona, tuo divinat et &lsquo;ingens</l>
-<l n="125">omen habes,&rsquo; inquit, &lsquo;magni clarique triumphi.</l>
+<l>percussus, Bellona, tuo divinat et ‘ingens</l>
+<l n="125">omen habes,’ inquit, ‘magni clarique triumphi.</l>
 <l>regem aliquem capies, aut de temone Britanno</l>
 <l>excidet Arviragus. peregrina est belua, cernis</l>
-<l>erectas in<note>Housmam conj. <hi rend="italics"><foreign lang="la">per</foreign></hi> for <hi rend="italics"><foreign lang="la">in</foreign></hi>.</note> terga sudes?&lsquo; hoc defuit unum </l>
+<l>erectas in<note>Housmam conj. <hi rend="italics"><foreign lang="lat">per</foreign></hi> for <hi rend="italics"><foreign lang="lat">in</foreign></hi>.</note> terga sudes?‘ hoc defuit unum </l>
 <l>Fabricio, patriam ut rhombi memoraret et annos.</l>
-<l n="130"><q>Quidnam igitur censes? conciditur?</q> &lsquo;absit ab illo</l>
-<l>dedecus hoc,&rsquo; Montanus ait, &lsquo;testa alta paretur,</l>
+<l n="130"><q>Quidnam igitur censes? conciditur?</q> ‘absit ab illo</l>
+<l>dedecus hoc,’ Montanus ait, ‘testa alta paretur,</l>
 <l>quae tenui muro spatiosum colligat orbem,</l>
 <l>debetur magnus patinae subitusque Prometheus,</l>
 <l>argillam atque rotam citius properate; sed ex hoc</l>
-<l n="135">tempore iam, Caesar, figuli tua castra sequantur.&rsquo;</l>
+<l n="135">tempore iam, Caesar, figuli tua castra sequantur.’</l>
 <l>vicit digna viro sententia, noverat ille</l>
 <l>luxuriam inperii veterem noctesque Neronis</l>
 <l>iam medias aliamque famem, cum pulmo Falerno</l>
@@ -951,7 +938,7 @@
 <l>Virro tenet phialas: tibi non committitur aurum,</l>
 <l n="40">vel si quando datur, custos adfixus ibidem,</l>
 <l>qui numeret gemmas, ungues observet acutos.</l>
-<l>da veniam, praeclara illi<note><hi rend="italics"><foreign lang="la">illic</foreign></hi> <foreign lang="greek">*y</foreign>.</note> laudatur iaspis; </l>
+<l>da veniam, praeclara illi<note><hi rend="italics"><foreign lang="lat">illic</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note> laudatur iaspis; </l>
 <l>nam Virro, ut multi, gemmas ad pocula transfert</l>
 <l>a digitis, quas in vaginae fronte solebat</l>
 <l n="45">ponere zelotypo iuvenis praelatus Iarbae.</l>
@@ -983,13 +970,13 @@
 <l>servatur domino, dextram cohibere memento,</l>
 <l>salva sit artoptae reverentia, finge tamen te</l>
 <l>inprobulum, superest illic qui ponere cogat:</l>
-<l>&lsquo;vis tu consuetis, audax conviva, canistris</l>
-<l n="75">impleri panisque tui novisse colorem?&rsquo;</l>
-<l>&lsquo;scilicet hoc fuerat, propter quod saepe relicta</l>
+<l>‘vis tu consuetis, audax conviva, canistris</l>
+<l n="75">impleri panisque tui novisse colorem?’</l>
+<l>‘scilicet hoc fuerat, propter quod saepe relicta</l>
 <l>coniuge per montem adversum gelidasque cucurri</l>
 <l>Esquilias, fremeret saeva cum grandine vernus</l>
-<l>Iuppiter et multo stillaret paenula nimbo.&rsquo;</l>
-<l n="80">Aspice quam longo distinguat<note><hi rend="italics"><foreign lang="la">distinguat</foreign></hi> P Vind.: <hi rend="italics"><foreign lang="la">distendat</foreign></hi> <foreign lang="greek">*y</foreign>.</note> pectore lancem </l>
+<l>Iuppiter et multo stillaret paenula nimbo.’</l>
+<l n="80">Aspice quam longo distinguat<note><hi rend="italics"><foreign lang="lat">distinguat</foreign></hi> P Vind.: <hi rend="italics"><foreign lang="lat">distendat</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note> pectore lancem </l>
 <l>quae fertur domino squilla, et quibus undique saepta</l>
 <l>asparagis qua despiciat convivia cauda,</l>
 <l>dum venit excelsi manibus sublata ministri.</l>
@@ -1017,15 +1004,15 @@
 <l n="105">vernula riparum, pinguis torrente cloaca.</l>
 <l>et solitus mediae cryptam penetrare Suburae.</l>
 <l>Ipsi pauca velim, facilem si praebeat aurem.</l>
-<l>&lsquo;nemo petit, modicis quae mittebantur amicis</l>
+<l>‘nemo petit, modicis quae mittebantur amicis</l>
 <l>a Seneca, quae Piso bonus, quae Cotta solebat</l>
 <l n="110">largiri; namque et titulis et fascibus olim</l>
 <l>maior habebatur donandi gloria, solum</l>
 <l>poscimus ut cenes civiliter, hoc face et esto,</l>
-<l>esto, ut nunc multi, dives tibi, pauper amicis.&rsquo;</l>
+<l>esto, ut nunc multi, dives tibi, pauper amicis.’</l>
 <l>Anseris ante ipsum magni iecur, anseribus par</l>
 <l n="115">altilis, et flavi dignus ferro Meleagri</l>
-<l>spumat<note><hi rend="italics"><foreign lang="la">spumat</foreign></hi> PSA: <hi rend="italics"><foreign lang="la">fumat</foreign></hi> <foreign lang="greek">*y</foreign>.</note> aper. post hunc tradentur tubera, si ver </l>
+<l>spumat<note><hi rend="italics"><foreign lang="lat">spumat</foreign></hi> PSA: <hi rend="italics"><foreign lang="lat">fumat</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note> aper. post hunc tradentur tubera, si ver </l>
 <l>tunc erit et facient optata tonitrua cenas</l>
 <l>maiores. <q>tibi habe frumentum,</q> Alledius inquit,</l>
 <l><q>o Libye, disiunge boves, dum tubera mittas.</q></l>
@@ -1044,8 +1031,8 @@
 <l>quadringenta tibi si quis deus aut similis dis</l>
 <l>et melior fatis donaret homuncio, quantus,</l>
 <l>ex nihilo, quantus fieres Virronis amicus!</l>
-<l n="135">&lsquo;da Trebio, pone ad Trebium. vis, frater, ab ipsis</l>
-<l>ilibus?&rsquo; o nummi, vobis hunc praestat honorem,</l>
+<l n="135">‘da Trebio, pone ad Trebium. vis, frater, ab ipsis</l>
+<l>ilibus?’ o nummi, vobis hunc praestat honorem,</l>
 <l>vos estis fratres, dominus tamen et domini rex</l>
 <l>si vis tu fieri, nullus tibi parvolus aula</l>
 <l>luserit Aeneas nec filia dulcior illo;</l>
@@ -1075,9 +1062,9 @@
 <l>nec male coniectat: quis enim tam nudus, ut illum</l>
 <l>bis ferat, Etruscum puero si contigit aurum</l>
 <l n="165">vel nodus tantum et signum de paupere loro?</l>
-<l>spes bene cenandi vos decipit: &lsquo;ecce dabit iam</l>
+<l>spes bene cenandi vos decipit: ‘ecce dabit iam</l>
 <l>semesum leporem atque aliquid de clunibus apri,</l>
-<l>ad nos iam veniet minor altilis.&rsquo; inde parato</l>
+<l>ad nos iam veniet minor altilis.’ inde parato</l>
 <l>intactoque omnes et stricto pane tacetis.</l>
 <l n="170">ille sapit qui te sic utitur, omnia ferre</l>
 <l>si potes, et debes, pulsandum vertice raso</l>
@@ -1116,7 +1103,7 @@
 <l>tempestate paras, iamque a tonsore magistro</l>
 <l>pecteris, et digito pignus fortasse dedisti,</l>
 <l>certe sanus eras; uxorem, Postume, ducis?</l>
-<l>dic, qua Tisiphone, quibus exagitare<note><hi rend="italics"><foreign lang="la">exagitare</foreign></hi> P<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">exagitere</foreign></hi> O.</note> colubris?</l>
+<l>dic, qua Tisiphone, quibus exagitare<note><hi rend="italics"><foreign lang="lat">exagitare</foreign></hi> P<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">exagitere</foreign></hi> O.</note> colubris?</l>
 <l n="30">ferre potes dominam salvis tot restibus ullam,</l>
 <l>cum pateant altae caligantesque fenestrae,</l>
 <l>cum tibi vicinum se praebeat Aemilius pons?</l>
@@ -1137,7 +1124,7 @@
 <l>delicias hominis! Tarpeium limen adora</l>
 <l>pronus et auratam Iunoni caede iuvencam,</l>
 <l>si tibi contigerit capitis matrona pudici.</l>
-<l n="50">paucae adeo Cereris<note><hi rend="italics"><foreign lang="la">Cereris</foreign></hi> P<foreign lang="greek">*y</foreign>: Housman conj. <hi rend="italics"><foreign lang="la">teretis</foreign></hi>.</note> vittas contingere dignae,</l>
+<l n="50">paucae adeo Cereris<note><hi rend="italics"><foreign lang="lat">Cereris</foreign></hi> P<foreign lang="grc">Ψ</foreign>: Housman conj. <hi rend="italics"><foreign lang="lat">teretis</foreign></hi>.</note> vittas contingere dignae,</l>
 <l>quarum non timeat pater oscula: necte coronam</l>
 <l>postibus et densos per limina tende corymbos.</l>
 <l>unus Hiberinae vir sufficit? ocius illud</l>
@@ -1213,7 +1200,7 @@
 <l>prostitit auratis titulum mentita Lyciscae</l>
 <l>ostenditque tuum, generose Britannice, ventrem,</l>
 <l n="125">excepit blanda intrantis atque aera poposcit;</l>
-<l><del>continueque iacens cunctorum absorbuit ictus.</del><note> omitted by PR<foreign lang="greek">*y</foreign>.</note></l>
+<l><del>continueque iacens cunctorum absorbuit ictus.</del><note> omitted by PR<foreign lang="grc">Ψ</foreign>.</note></l>
 <l>mox lenone suas iam dimittente puellas</l>
 <l>tristis abit, et quod potuit tamen ultima cellam</l>
 <l>clausit, adhuc ardens rigidae tentigine volvae,</l>
@@ -1233,19 +1220,19 @@
 <l>si verum excutias, facies, non uxor amatur.</l>
 <l>tres rugae subeant et se cutis arida laxet,</l>
 <l n="145">fiant obscuri dentes oculique minores:</l>
-<l><q>collige sarcinulas,</q> dicet libertus, &lsquo;et exi.</l>
+<l><q>collige sarcinulas,</q> dicet libertus, ‘et exi.</l>
 <l>iam gravis es nobis, et saepe emungeris, exi</l>
-<l>ocius&rsquo; et <q>propera, sicco venit altera naso.</q></l>
+<l>ocius’ et <q>propera, sicco venit altera naso.</q></l>
 <l>interea calet et regnat poscitque maritum</l>
 <l n="150">pastores et ovem Canusinam ulmosque Falernas;</l>
 <l>quantulum in hoc? pueros omnes, ergastula tota;</l>
 <l>quodque domi non est, sed habet, vicinus, ematur.</l>
-<l>mense quidem brumae, quo<note><hi rend="italics"><foreign lang="la">quo</foreign></hi> PA: <hi rend="italics"><foreign lang="la">cum</foreign></hi> <foreign lang="greek">*y</foreign></note> iam mercator Iason</l>
+<l>mense quidem brumae, quo<note><hi rend="italics"><foreign lang="lat">quo</foreign></hi> PA: <hi rend="italics"><foreign lang="lat">cum</foreign></hi> <foreign lang="grc">Ψ</foreign></note> iam mercator Iason</l>
 <l>clausus et armatis opstat casa candida nautis,</l>
 <l n="155">grandia tolluntur crystallina, maxima rursus</l>
 <l>myrrhina, deinde adamans notissimus et Beronices</l>
 <l>in digito factus pretiosior: hunc dedit olim</l>
-<l>barbarus incestae, dedit hunc<note><hi rend="italics"><foreign lang="la">dedit hunc</foreign></hi> S<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">dedit huc</foreign></hi> P: Housman conj. <hi rend="italics"><foreign lang="la">gestare</foreign></hi>.</note> Agrippa sorori, </l>
+<l>barbarus incestae, dedit hunc<note><hi rend="italics"><foreign lang="lat">dedit hunc</foreign></hi> S<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">dedit huc</foreign></hi> P: Housman conj. <hi rend="italics"><foreign lang="lat">gestare</foreign></hi>.</note> Agrippa sorori, </l>
 <l>observant ubi festa mero pede sabbata reges</l>
 <l n="160">et vetus indulget senibus clementia porcis.</l>
 <l><q>Nullane de tantis gregibus tibi digna videtur? </q></l>
@@ -1259,8 +1246,8 @@
 <l>grande supercilium et numeras in dote triumphos,</l>
 <l n="170">tolle tuum, precor, Hannibalem victumque Syphacem</l>
 <l>in castris et cum tota Carthagine migra.</l>
-<l>&lsquo;Parce, precor, Paean, et tu, dea, pone sagittas;</l>
-<l>nil pueri faciunt, ipsam configite matrem,&rsquo;</l>
+<l>‘Parce, precor, Paean, et tu, dea, pone sagittas;</l>
+<l>nil pueri faciunt, ipsam configite matrem,’</l>
 <l>Amphion clamat; sed Paean contrahit arcum,</l>
 <l n="175">extulit ergo greges natorum ipsumque parentem,</l>
 <l>dum sibi nobilior Latonae gente videtur</l>
@@ -1282,7 +1269,7 @@
 <l>tune etiam, quam sextus et octogensimus annus</l>
 <l>pulsat, adhuc Graece? non est hic sermo pudicus</l>
 <l>in vetula: quotiens lascivum intervenit illud</l>
-<l n="195"><foreign lang="greek">zwh\ kai\ yuxh/</foreign>, modo sub lodice relictis<note>Housman conj. <hi rend="italics"><foreign lang="la">ferendis</foreign></hi> for the <hi rend="italics"><foreign lang="la">relictis</foreign></hi> of P<foreign lang="greek">*y</foreign>.</note></l>
+<l n="195"><foreign lang="grc">zwh\ kai\ yuxh/</foreign>, modo sub lodice relictis<note>Housman conj. <hi rend="italics"><foreign lang="lat">ferendis</foreign></hi> for the <hi rend="italics"><foreign lang="lat">relictis</foreign></hi> of P<foreign lang="grc">Ψ</foreign>.</note></l>
 <l>uteris in turba, quod enim non excitet inguen</l>
 <l>vox blanda et nequam? digitos habet, ut tame omnes</l>
 <l>subsidant pinnae, dicas haec mollius Haemo</l>
@@ -1306,11 +1293,11 @@
 <l>testandi cum sit lenonibus atque lanistis</l>
 <l>libertas et iuris idem contingat harenae,</l>
 <l>non unus tibi rivalis dictabitur heres.</l>
-<l><q>Pone crucem servo.</q> &lsquo;meruit quo crimine servus</l>
+<l><q>Pone crucem servo.</q> ‘meruit quo crimine servus</l>
 <l n="220">supplicium? quis testis adest? quis detulit? audi;</l>
-<l>nulla umquam de morte hominis cunctatio longa est.&rsquo;</l>
-<l>&lsquo;o demens, ita servus homo est? nil fecerit, esto:</l>
-<l>hoc volo, sic iubeo, sit pro ratione voluntas.&rsquo;</l>
+<l>nulla umquam de morte hominis cunctatio longa est.’</l>
+<l>‘o demens, ita servus homo est? nil fecerit, esto:</l>
+<l>hoc volo, sic iubeo, sit pro ratione voluntas.’</l>
 <l>imperat ergo viro. set mox haec regna relinquit</l>
 <l n="225">permutatque domos et flammea conterit, inde</l>
 <l>avolat et spreti repetit vestigia lecti;</l>
@@ -1366,12 +1353,12 @@
 <l>tu tibi tunc, uruca, places fletumque labellis</l>
 <l>exorbes, quae scripta et quot lecture tabellas,</l>
 <l>si tibi zelotypae retegantur scrinia moechae!</l>
-<l>sed iacet in servi complexibus aut equitis. &lsquo;dic,</l>
-<l n="280">dic aliquem sodes hic, Quintiliane, colorem.&rsquo;</l>
+<l>sed iacet in servi complexibus aut equitis. ‘dic,</l>
+<l n="280">dic aliquem sodes hic, Quintiliane, colorem.’</l>
 <l><q>haeremus. dic ipsa.</q> <q>olim convenerat,</q> inquit,</l>
-<l>&lsquo;ut faceres tu quod velles, nec non ego possem</l>
+<l>‘ut faceres tu quod velles, nec non ego possem</l>
 <l>indulgere mihi. clames licet et mare caelo</l>
-<l>confundas, homo sum.&rsquo; nihil est audacius illis</l>
+<l>confundas, homo sum.’ nihil est audacius illis</l>
 <l n="285">deprensis: iram atque animos a crimine sumunt.</l>
 <l>Unde haec monstra tamen vel quo de fonte, requiris?</l>
 <l>praestabat castas humilis fortuna Latinas</l>
@@ -1434,7 +1421,7 @@
 <l>et Vaticano fragiles de monte patellas</l>
 <l n="345">ausus erat? sed nunc ad quas non Clodius aras?</l>
 <l><del>Audio quid veteres olim moneatis amici:</del></l>
-<l>&lsquo;<del>pone seram, cohibe<note>P here has the false reading <hi rend="italics"><foreign lang="la">prohibe</foreign></hi> for <hi rend="italics"><foreign lang="la">cohibe</foreign></hi>.</note>.</del>&rsquo; <del>sed quis custodiet ipsos</del></l>
+<l>‘<del>pone seram, cohibe<note>P here has the false reading <hi rend="italics"><foreign lang="lat">prohibe</foreign></hi> for <hi rend="italics"><foreign lang="lat">cohibe</foreign></hi>.</note>.</del>’ <del>sed quis custodiet ipsos</del></l>
 <l><del>custodes? cauta est et ab illis incipit uxor.</del> <note>Lines 6.346-348 are repeated below, with an addition, as O 29-34. Clausen rejects these verses here; Willis accepts these and rejects O.1-34.</note></l>
 <l>iamque eadem summis pariter minimisque libido,</l>
 <l n="350">nec melior, silicem pedibus quae conterit atrum,</l>
@@ -1461,9 +1448,9 @@
 <l>cum colocyntha bibit vel cum barbata chelidon.</l>
 <l>purior ergo tuis laribus meliorque lanista,</l>
 <l>in cuius numero longe migrare iubetur</l>
-<l>psellus<note><hi rend="italics"><foreign lang="la">psellus</foreign></hi> so Housman and Owen: O reads <hi rend="italics"><foreign lang="la">psillus</foreign></hi>: Büch. <hi rend="italics"><foreign lang="la">Psyllus</foreign></hi>. <hi rend="italics"><foreign lang="la">Eupholio</foreign></hi> O: Housman reads <hi rend="italics"><foreign lang="la">euphono</foreign></hi>: Büch. conj. <hi rend="italics"><foreign lang="la">Euhoplio</foreign></hi>.</note> ab Eupholio; quid quod nec retia turpi </l>
+<l>psellus<note><hi rend="italics"><foreign lang="lat">psellus</foreign></hi> so Housman and Owen: O reads <hi rend="italics"><foreign lang="lat">psillus</foreign></hi>: Büch. <hi rend="italics"><foreign lang="lat">Psyllus</foreign></hi>. <hi rend="italics"><foreign lang="lat">Eupholio</foreign></hi> O: Housman reads <hi rend="italics"><foreign lang="lat">euphono</foreign></hi>: Büch. conj. <hi rend="italics"><foreign lang="lat">Euhoplio</foreign></hi>.</note> ab Eupholio; quid quod nec retia turpi </l>
 <l n="O 10">iunguntur tunicae, nec cella ponit eadem</l>
-<l>munimenta umeri pulsatamque arma<note>O reads <hi rend="italics"><foreign lang="la">pulsatamque arma</foreign></hi>: Housman conj. <hi rend="italics"><foreign lang="la">pulsata hastamque</foreign></hi>: <hi rend="italics"><foreign lang="la">pulsata arcaque</foreign></hi> Owen: <hi rend="italics"><foreign lang="la">pulsantemque</foreign></hi> Postgate: Büch. conj. <hi rend="italics"><foreign lang="la">pulsaloremque tridentem</foreign></hi> and compares 6.40</note> tridentem</l>
+<l>munimenta umeri pulsatamque arma<note>O reads <hi rend="italics"><foreign lang="lat">pulsatamque arma</foreign></hi>: Housman conj. <hi rend="italics"><foreign lang="lat">pulsata hastamque</foreign></hi>: <hi rend="italics"><foreign lang="lat">pulsata arcaque</foreign></hi> Owen: <hi rend="italics"><foreign lang="lat">pulsantemque</foreign></hi> Postgate: Büch. conj. <hi rend="italics"><foreign lang="lat">pulsaloremque tridentem</foreign></hi> and compares 6.40</note> tridentem</l>
 <l>qui nudus pugnare solet? pars ultima ludi</l>
 <l>accipit has animas aliusque in carcere nervos,</l>
 <l>sed tibi communem calicem facit uxor et illis,</l>
@@ -1479,11 +1466,11 @@
 <l>saepius in teneris haerebit dextera lumbis,</l>
 <l n="O 25">hic erit in lecto fortissimus: exuit illic</l>
 <l>personam docili Thais saltata Triphallo.</l>
-<l>&lsquo;quem rides? aliis hunc mimum! sponsio fiat:</l>
+<l>‘quem rides? aliis hunc mimum! sponsio fiat:</l>
 <l>purum te contendo virum, contendo: fateris?</l>
-<l>an vocat ancillas tortoris pergula?&rsquo; Novi</l>
+<l>an vocat ancillas tortoris pergula?’ Novi</l>
 <l n="O 30">consilia et veteres quaecumque monetis amici:</l>
-<l><q>pone seram, cohibe.</q> sed quis custodiat<note>O here reads <hi rend="italics"><foreign lang="la">custodiat</foreign></hi>, but P<foreign lang="greek">*y</foreign> have <hi rend="italics"><foreign lang="la">custodiet</foreign></hi> in the repeated passage, line 347.</note> ipsos </l>
+<l><q>pone seram, cohibe.</q> sed quis custodiat<note>O here reads <hi rend="italics"><foreign lang="lat">custodiat</foreign></hi>, but P<foreign lang="grc">Ψ</foreign> have <hi rend="italics"><foreign lang="lat">custodiet</foreign></hi> in the repeated passage, line 347.</note> ipsos </l>
 <l>custodes, qui nunc lascivae furta puellae</l>
 <l>hac mercede silent? crimen commune tacetur:</l>
 <l n="O 34">prospicit hoc prudens et ab illis incipit uxor <gap/></l>
@@ -1495,7 +1482,7 @@
 <l>ergo expectatos ac iussos crescere primum</l>
 <l>testiculos, postquam coeperunt esse bilibres,</l>
 <l>tonsoris damno tantum rapit Heliodorus.</l>
-<l n="373a">mangonum pueros vera ac miserabilis urit<note> The MS. O alone gives two additional lines between 6.373 and 6.374. O reads <hi rend="italics"><foreign lang="la">magonum</foreign></hi>: Postgate<hi rend="italics"><foreign lang="la">mangonum</foreign></hi>. Clausen (1992) accepts.</note></l>
+<l n="373a">mangonum pueros vera ac miserabilis urit<note> The MS. O alone gives two additional lines between 6.373 and 6.374. O reads <hi rend="italics"><foreign lang="lat">magonum</foreign></hi>: Postgate<hi rend="italics"><foreign lang="lat">mangonum</foreign></hi>. Clausen (1992) accepts.</note></l>
 <l n="373b">debilitas, follisque pudet cicerisque relicti.</l>
 <l>conspicuus longe cunctisque notabilis intrat</l>
 <l n="375">balnea nec dubie custodem vitis et horti</l>
@@ -1533,12 +1520,12 @@
 <l>instantem regi Armenio Partimque cometen</l>
 <l>prima videt, famam rumoresque illa recentis</l>
 <l>excipit ad portas, quosdam facit; isse Niphaten</l>
-<l n="410">in populos magnoque illic cuncta arva<note><hi rend="italics"><foreign lang="la">arva</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">arma</foreign></hi> P.</note> teneri</l>
+<l n="410">in populos magnoque illic cuncta arva<note><hi rend="italics"><foreign lang="lat">arva</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">arma</foreign></hi> P.</note> teneri</l>
 <l>diluvio, nutare urbes, subsidere terras</l>
 <l>quocumque in trivio cuicumque est obvia, narrat.</l>
-<l>Nec tamen id vitium magis intolerabile quam quae <note><hi rend="italics"><foreign lang="la">quod</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">quae</foreign></hi> P.</note></l>
+<l>Nec tamen id vitium magis intolerabile quam quae <note><hi rend="italics"><foreign lang="lat">quod</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">quae</foreign></hi> P.</note></l>
 <l>vicinos humiles rapere et concidere loris</l>
-<l n="415">exorata<note><hi rend="italics"><foreign lang="la">exorata</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">exortata</foreign></hi> P, Housman, Büch. (1910).</note> solet, nam si latratibus alti</l>
+<l n="415">exorata<note><hi rend="italics"><foreign lang="lat">exorata</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">exortata</foreign></hi> P, Housman, Büch. (1910).</note> solet, nam si latratibus alti</l>
 <l>rumpuntur somni, <q>fustes huc ocius,</q> inquit,</l>
 <l><q>adferte</q> atque illis dominum iubet ante feriri,</l>
 <l>deinde canem, gravis occursu, taeterrima vultu.</l>
@@ -1578,7 +1565,7 @@
 <l>hanc ego quae repetit volvitque Palaemonis artem</l>
 <l>servata semper lege et ratione loquendi</l>
 <l>ignotosque mihi tenet antiquaria versus</l>
-<l n="455">nec curanda viris<note>Housman puts a full stop after <hi rend="italics"><foreign lang="la">viris</foreign></hi>, and interprets: <hi rend="italics"><foreign lang="la">aliasque res virorum cura indignas</foreign></hi>. Postgate suggests, after one of Ruperti's MSS., <hi rend="italics"><foreign lang="la">haec curanda viris</foreign></hi>?</note> opicae castigat amicae</l>
+<l n="455">nec curanda viris<note>Housman puts a full stop after <hi rend="italics"><foreign lang="lat">viris</foreign></hi>, and interprets: <hi rend="italics"><foreign lang="lat">aliasque res virorum cura indignas</foreign></hi>. Postgate suggests, after one of Ruperti's MSS., <hi rend="italics"><foreign lang="lat">haec curanda viris</foreign></hi>?</note> opicae castigat amicae</l>
 <l>verba; soloecismum liceat fecisse marito.</l>
 <l>Nil non permittit mulier sibi, turpe putat nil,</l>
 <l>cum virides gemmas collo circumdedit et cum</l>
@@ -1692,7 +1679,7 @@
 <l>ante tamen de te Tanaquil tua, quando sororem</l>
 <l>efferat et patruos, an sit victurus adulter</l>
 <l>post ipsam: quid enim maius dare numina possunt?</l>
-<l>haec tamen ignorat<note><hi rend="italics"><foreign lang="la">haec ignorat</foreign></hi> GLOU: <hi rend="italics"><foreign lang="la">haec ignorant</foreign></hi> T: <hi rend="italics"><foreign lang="la">hae ignorant</foreign></hi> Büch (1893).</note> quid sidus triste minetur</l>
+<l>haec tamen ignorat<note><hi rend="italics"><foreign lang="lat">haec ignorat</foreign></hi> GLOU: <hi rend="italics"><foreign lang="lat">haec ignorant</foreign></hi> T: <hi rend="italics"><foreign lang="lat">hae ignorant</foreign></hi> Büch (1893).</note> quid sidus triste minetur</l>
 <l n="570">Saturni, quo laeta Venus se proferat astro,</l>
 <l>quis mensis damnis, quae dentur tempora lucro:</l>
 <l>illius occursus etiam vitare memento,</l>
@@ -1708,7 +1695,7 @@
 <l>Si mediocris erit, spatium lustrabit utrimque</l>
 <l>metarum et sortes ducet frontemque manumque</l>
 <l>praebebit vati crebrum poppysma roganti,</l>
-<l n="585">divitibus responsa dabit<note><hi rend="italics"><foreign lang="la">dabit</foreign></hi> PG: <hi rend="italics"><foreign lang="la">dabunt</foreign></hi> FTU.</note> Phryx augur, et Indus<note><hi rend="italics"><foreign lang="la">indus</foreign></hi> Brit. 15 B xvii: <hi rend="italics"><foreign lang="la">inde</foreign></hi> P<foreign lang="greek">*s*y</foreign>: <hi rend="italics"><foreign lang="la">indi</foreign></hi> U: Owen and Büch. (1893) <hi rend="italics"><foreign lang="la">Iudae</foreign></hi>: Housman and Büch. (1910) <hi rend="italics"><foreign lang="la">inde</foreign></hi>. Housman thinks a line has dropped out.</note></l>
+<l n="585">divitibus responsa dabit<note><hi rend="italics"><foreign lang="lat">dabit</foreign></hi> PG: <hi rend="italics"><foreign lang="lat">dabunt</foreign></hi> FTU.</note> Phryx augur, et Indus<note><hi rend="italics"><foreign lang="lat">indus</foreign></hi> Brit. 15 B xvii: <hi rend="italics"><foreign lang="lat">inde</foreign></hi> P<foreign lang="grc">*s*y</foreign>: <hi rend="italics"><foreign lang="lat">indi</foreign></hi> U: Owen and Büch. (1893) <hi rend="italics"><foreign lang="lat">Iudae</foreign></hi>: Housman and Büch. (1910) <hi rend="italics"><foreign lang="lat">inde</foreign></hi>. Housman thinks a line has dropped out.</note></l>
 <l>conductus, dabit astrorum mundique peritus</l>
 <l>atque aliquis senior qui publica fulgura condit:</l>
 <l>plebeium in circo positum est et in aggere fatum;</l>
@@ -1729,7 +1716,7 @@
 <l>ad spurcos decepta lacus, atque inde petitos</l>
 <l>pontifices, salios Scaurorum nomina falso</l>
 <l n="605">corpore laturos, stat Fortuna inproba noctu</l>
-<l>adridens nudis infantibus; hos fovet omni <note><hi rend="italics"><foreign lang="la">omnes</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">omni</foreign></hi> PT and most edd.</note></l>
+<l>adridens nudis infantibus; hos fovet omni <note><hi rend="italics"><foreign lang="lat">omnes</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">omni</foreign></hi> PT and most edd.</note></l>
 <l>involvitque sinu, domibus tunc porrigit altis</l>
 <l>secretumque sibi mimum parat; hos amat, his se</l>
 <l>ingerit utque suos semper producit alumnos.</l>
@@ -1764,9 +1751,9 @@
 <l n="635">scilicet, et finem egressi legemque priorum</l>
 <l>grande Sophocleo carmen bacchamur hiatu,</l>
 <l>montibus ignotum Rutulis caeloque Latino?</l>
-<l>nos utinam vani. set clamat Pontia &lsquo;feci,</l>
+<l>nos utinam vani. set clamat Pontia ‘feci,</l>
 <l>confiteor, puerisque meis aconita paravi,</l>
-<l n="640">quae deprensa patent; facinus tamen ipsa peregi.&rsquo;</l>
+<l n="640">quae deprensa patent; facinus tamen ipsa peregi.’</l>
 <l>tune duos una, saevissima vipera, cena?</l>
 <l>tune duos? <q>septem, si septem forte fuissent! </q></l>
 <l>Credamus tragicis quidquid de Colchide torva</l>
@@ -1786,7 +1773,7 @@
 <l>hoc tantum refert, quod Tyndaris illa bipennem</l>
 <l>insulsam et fatuam dextra laevaque tenebat,</l>
 <l>at nunc res agitur tenui pulmone rubetae;</l>
-<l n="660">sed tamen et ferro, si praegustarit<note><hi rend="italics"><foreign lang="la">praegustabit</foreign></hi> PSG: <hi rend="italics"><foreign lang="la">praegustaret</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">praegustarit</foreign></hi> Markl. and Housman.</note> Atrides</l>
+<l n="660">sed tamen et ferro, si praegustarit<note><hi rend="italics"><foreign lang="lat">praegustabit</foreign></hi> PSG: <hi rend="italics"><foreign lang="lat">praegustaret</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">praegustarit</foreign></hi> Markl. and Housman.</note> Atrides</l>
 <l>Pontica ter victi cautus medicamina regis.</l>
 				</div2>
 			</div1>
@@ -1832,7 +1819,7 @@
 <l>quem colis et Musarum et Apollinis aede relicta,</l>
 <l>ipse facit versus, atque uni cedit Homero</l>
 <l>propter mille annos, et si dulcedine famae</l>
-<l n="40">succensus recites, maculosas<note><hi rend="italics"><foreign lang="la">maculosas</foreign></hi> Heinr.: <hi rend="italics"><foreign lang="la">maculonsas</foreign></hi> Ribb. Housman: <hi rend="italics"><foreign lang="la">maculonus</foreign></hi> <foreign lang="greek">*y</foreign>, <hi rend="italics"><foreign lang="la">maculonis</foreign></hi> PGBüch.</note> commodat aedes;</l>
+<l n="40">succensus recites, maculosas<note><hi rend="italics"><foreign lang="lat">maculosas</foreign></hi> Heinr.: <hi rend="italics"><foreign lang="lat">maculonsas</foreign></hi> Ribb. Housman: <hi rend="italics"><foreign lang="lat">maculonus</foreign></hi> <foreign lang="grc">Ψ</foreign>, <hi rend="italics"><foreign lang="lat">maculonis</foreign></hi> PGBüch.</note> commodat aedes;</l>
 <l>haec longe ferrata domus servire iubetur,</l>
 <l>in qua sollicitas imitatur ianua portas,</l>
 <l>scit dare libertos extrema in parte sedentis</l>
@@ -1891,7 +1878,7 @@
 <l>tunc par ingenio pretium, tunc utile multis</l>
 <l>pallere et vinum toto nescire Decembri.</l>
 <l>Vester porro labor fecundior, historiarum</l>
-<l>scriptores? perit<note><hi rend="italics"><foreign lang="la">perit</foreign></hi> PFG: <hi rend="italics"><foreign lang="la">petit</foreign></hi> <foreign lang="greek">*y</foreign></note> hic plus temporis atque olei plus.</l>
+<l>scriptores? perit<note><hi rend="italics"><foreign lang="lat">perit</foreign></hi> PFG: <hi rend="italics"><foreign lang="lat">petit</foreign></hi> <foreign lang="grc">Ψ</foreign></note> hic plus temporis atque olei plus.</l>
 <l n="100">nullo quippe modo millensima pagina surgit</l>
 <l>omnibus et crescit multa damnosa papyro;</l>
 <l>sic ingens rerum numerus iubet atque operum lex.</l>
@@ -1906,7 +1893,7 @@
 <l>tunc inmensa cavi spirant mendacia folles</l>
 <l>conspuiturque sinus: veram deprendere messem</l>
 <l>si libet, hinc centum patrimonia causidicorum,</l>
-<l>parte alia solum russati pone Lacertae<note><hi rend="italics"><foreign lang="la">Lacertae</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">Lacernae</foreign></hi> P.</note>. </l>
+<l>parte alia solum russati pone Lacertae<note><hi rend="italics"><foreign lang="lat">Lacertae</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">Lacernae</foreign></hi> P.</note>. </l>
 <l n="115">consedere duces, surgis tu pallidus Aiax</l>
 <l>dicturus dubia pro libertate bubulco</l>
 <l>iudice, rumpe miser tensum iecur, ut tibi lasso</l>
@@ -1931,7 +1918,7 @@
 <l>causidicum, vendunt amethystina; convenit illi</l>
 <l>et strepitu et facie maioris vivere census,</l>
 <l>sed finem inpensae non servat prodiga Roma.</l>
-<l>Fidimus eloquio<note> Instead of <hi rend="italics"><foreign lang="la">fidimus eloquio</foreign></hi> <foreign lang="greek">*y</foreign> has <hi rend="italics"><foreign lang="la">ut redeant veteres</foreign></hi>.</note>? Ciceroni nemo ducentos</l>
+<l>Fidimus eloquio<note> Instead of <hi rend="italics"><foreign lang="lat">fidimus eloquio</foreign></hi> <foreign lang="grc">Ψ</foreign> has <hi rend="italics"><foreign lang="lat">ut redeant veteres</foreign></hi>.</note>? Ciceroni nemo ducentos</l>
 <l n="140">nunc dederit nummos, nisi fulserit anulus ingens.</l>
 <l>respicit haec primum qui litigat, an tibi servi</l>
 <l>octo, decem comites, an post te sella, togati</l>
@@ -1948,7 +1935,7 @@
 <l>perferet atque eadem cantabit versibus isdem;</l>
 <l>occidit miseros crambe repetita magistros,</l>
 <l n="155">quis color et quod sit causae genus atque ubi summa</l>
-<l>quaestio, quae veniant diversa e parte<note><hi rend="italics"><foreign lang="la">parte</foreign></hi>. So <foreign lang="greek">*y</foreign>: P and Büch. have <hi rend="italics"><foreign lang="la">forte</foreign></hi>.</note> sagittae,</l>
+<l>quaestio, quae veniant diversa e parte<note><hi rend="italics"><foreign lang="lat">parte</foreign></hi>. So <foreign lang="grc">Ψ</foreign>: P and Büch. have <hi rend="italics"><foreign lang="lat">forte</foreign></hi>.</note> sagittae,</l>
 <l>nosse volunt omnes, mercedem solvere nemo</l>
 <l><q>mercedem appellas? quid enim scio?</q> culpa docentis</l>
 <l>scilicet arguitur, quod laevae parte mamillae</l>
@@ -1957,7 +1944,7 @@
 <l>quidquid id est de quo deliberat, an petat urbem</l>
 <l>a Cannis, an post nimbos et fulmina cautus</l>
 <l>circumagat madidas a tempestate cohortes.</l>
-<l n="165">quantum vis stipulare et protinus accipe: quid<note><hi rend="italics"><foreign lang="la">quid</foreign></hi> PFGTU: <hi rend="italics"><foreign lang="la">quod</foreign></hi> ALO.</note> do</l>
+<l n="165">quantum vis stipulare et protinus accipe: quid<note><hi rend="italics"><foreign lang="lat">quid</foreign></hi> PFGTU: <hi rend="italics"><foreign lang="lat">quod</foreign></hi> ALO.</note> do</l>
 <l>ut totiens illum pater audiat? haec alii sex</l>
 <l>vel plures uno conclamant ore sophistae</l>
 <l>et veras agitant lites raptore relicto;</l>
@@ -1969,15 +1956,15 @@
 <l>summula ne pereat qua vilis tessera venit</l>
 <l n="175">frumenti; quippe haec merces lautissima. tempta</l>
 <l>Chrysogonus quanti doceat vel Polio quanti</l>
-<l>lautorum pueros: artem scindes<note><hi rend="italics"><foreign lang="la">scindens</foreign></hi> P<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">scindes</foreign></hi> conj. Iahn, confirmed by Voss.</note> Theodori</l>
+<l>lautorum pueros: artem scindes<note><hi rend="italics"><foreign lang="lat">scindens</foreign></hi> P<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">scindes</foreign></hi> conj. Iahn, confirmed by Voss.</note> Theodori</l>
 <l>Balnea sescentis et pluris porticus in qua</l>
-<l>gestetur dominus quotiens pluit&mdash;anne serenum</l>
+<l>gestetur dominus quotiens pluit—anne serenum</l>
 <l n="180">expectet spargatve luto iumenta recenti?</l>
 <l>hic potius, namque hic mundae nitet ungula mulae.</l>
 <l>parte alia longis Numidarum fulta columnis</l>
 <l>surgat et algentem rapiat cenatio solem,</l>
 <l>qualiacumque domus, veniet qui fercula docte</l>
-<l n="185">conponat<note><hi rend="italics"><foreign lang="la">componit</foreign></hi> GT. P and most MSS. have <hi rend="italics"><foreign lang="la">componat</foreign></hi>. See Housman, Journal of Phil. No. 67, p. 41.</note>, veniet qui pulmentaria condit<note>P has <hi rend="italics"><foreign lang="la">condit</foreign></hi>: LOU <hi rend="italics"><foreign lang="la">condat</foreign></hi>: <hi rend="italics"><foreign lang="la">condiat</foreign></hi> Lachmann.</note>.</l>
+<l n="185">conponat<note><hi rend="italics"><foreign lang="lat">componit</foreign></hi> GT. P and most MSS. have <hi rend="italics"><foreign lang="lat">componat</foreign></hi>. See Housman, Journal of Phil. No. 67, p. 41.</note>, veniet qui pulmentaria condit<note>P has <hi rend="italics"><foreign lang="lat">condit</foreign></hi>: LOU <hi rend="italics"><foreign lang="lat">condat</foreign></hi>: <hi rend="italics"><foreign lang="lat">condiat</foreign></hi> Lachmann.</note>.</l>
 <l>hos inter sumptus sestertia Quintiliano,</l>
 <l>ut multum, duo sufficient; res nulla minoris</l>
 <l>constabit patri quam filius. "unde igitur tot</l>
@@ -1989,7 +1976,7 @@
 <l>et si perfrixit, cantat bene. distat enim quae</l>
 <l n="195">sidera te excipiant modo primos incipientem</l>
 <l>edere vagitus et adhuc a matre rubentem.</l>
-<l>si Fortuna volet, fies<note><hi rend="italics"><foreign lang="la">fies</foreign></hi> p<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">fiet</foreign></hi> P.</note> de rhetore consul;</l>
+<l>si Fortuna volet, fies<note><hi rend="italics"><foreign lang="lat">fies</foreign></hi> p<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">fiet</foreign></hi> P.</note> de rhetore consul;</l>
 <l>si volet haec eadem, fiet de consule rhetor.</l>
 <l>Ventidius quid enim? quid Tullius? anne aliud quam</l>
 <l n="200">sidus et occulti miranda potentia fati?</l>
@@ -2010,7 +1997,7 @@
 <l n="215">Quis gremio Celadi doctique Palaemonis adfert</l>
 <l>quantum grammaticus meruit labor? et tamen ex hoc</l>
 <l>quodcumque est, minus est autem quam rhetoris aera,</l>
-<l>discipuli custos praemordet acoenonoetus<note><hi rend="italics"><foreign lang="la">acoenonoetus</foreign></hi> PS: <hi rend="italics"><foreign lang="la">acoenonetos</foreign></hi> U (<foreign lang="greek">a)koinw/nhos</foreign> <q> refusing to go shares</q>).</note> </l>
+<l>discipuli custos praemordet acoenonoetus<note><hi rend="italics"><foreign lang="lat">acoenonoetus</foreign></hi> PS: <hi rend="italics"><foreign lang="lat">acoenonetos</foreign></hi> U (<foreign lang="grc">a)koinw/nhos</foreign> <q> refusing to go shares</q>).</note> </l>
 <l>et qui dispensat frangit sibi. cede, Palaemon,</l>
 <l n="220">et patere inde aliquid decrescere, non aliter quam</l>
 <l>institor hibernae tegetis niveique cadurci,</l>
@@ -2034,8 +2021,8 @@
 <l>et pater ipsius coetus, ne turpia ludant,</l>
 <l n="240">ne faciant vicibus; non est leve tot puerorum</l>
 <l>observare manus oculosque in fine trementis,</l>
-<l>&lsquo;haec,&rsquo; inquit, &lsquo;cura, sed<note><hi rend="italics"><foreign lang="la">cura sed</foreign></hi> G and one of Ruperti's MSS.: <hi rend="italics"><foreign lang="la">curas et</foreign></hi> P<foreign lang="greek">*y</foreign> and Büch. (1893): <hi rend="italics"><foreign lang="la">cures et</foreign></hi> Owen.</note> cum se verterit annus,</l>
-<l>accipe, victori populus quod postulat, aurum.&rsquo;</l>
+<l>‘haec,’ inquit, ‘cura, sed<note><hi rend="italics"><foreign lang="lat">cura sed</foreign></hi> G and one of Ruperti's MSS.: <hi rend="italics"><foreign lang="lat">curas et</foreign></hi> P<foreign lang="grc">Ψ</foreign> and Büch. (1893): <hi rend="italics"><foreign lang="lat">cures et</foreign></hi> Owen.</note> cum se verterit annus,</l>
+<l>accipe, victori populus quod postulat, aurum.’</l>
 				</div2>
 				<div2 type="poem" n="8" met="hexameter" org="uniform" sample="complete">
 					<head>Satura VIII</head>
@@ -2045,7 +2032,7 @@
 <l>et Curios iam dimidios umerosque minorem</l>
 <l n="5">Corvinum et Galbam auriculis nasoque carentem?</l>
 <l>quis fructus generis tabula iactare capaci</l>
-<l>Corvinum<note><hi rend="italics"><foreign lang="la">Corvinum</foreign></hi> P etc.: Housman conj. <hi rend="italics"><foreign lang="la">pontifices</foreign></hi>.</note>, posthac multa contingere virga</l>
+<l>Corvinum<note><hi rend="italics"><foreign lang="lat">Corvinum</foreign></hi> P etc.: Housman conj. <hi rend="italics"><foreign lang="lat">pontifices</foreign></hi>.</note>, posthac multa contingere virga</l>
 <l>fumosos equitum cum dictatore magistros,</l>
 <l>si coram Lepidis male vivitur? effigies quo</l>
 <l n="10">tot bellatorum, si luditur alea pernox</l>
@@ -2076,20 +2063,20 @@
 <l n="35">levibus et siccae lambentibus ora lucernae</l>
 <l>nomen erit pardus tigris leo, si quid adhuc est</l>
 <l>quod fremat in terris violentius; ergo cavebis</l>
-<l>et metues ne tu sic<note><hi rend="italics"><foreign lang="la">sic</foreign></hi> H. Junius: <hi rend="italics"><foreign lang="la">si</foreign></hi> P: <hi rend="italics"><foreign lang="la">sis</foreign></hi> <foreign lang="greek">*y</foreign>.</note> Creticus aut Camerinus.</l>
+<l>et metues ne tu sic<note><hi rend="italics"><foreign lang="lat">sic</foreign></hi> H. Junius: <hi rend="italics"><foreign lang="lat">si</foreign></hi> P: <hi rend="italics"><foreign lang="lat">sis</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note> Creticus aut Camerinus.</l>
 <l>His ego quem monui? tecum est mihi sermo, Rubelli</l>
 <l n="40">Blande, tumes alto Drusorum stemmate, tamquam</l>
 <l>feceris ipse aliquid propter quod nobilis esses,</l>
 <l>ut te conciperet quae sanguine fulget Iuli,</l>
 <l>non quae ventoso conducta sub aggere texit,</l>
-<l><q>vos humiles,</q> inquis, &lsquo;volgi pars ultima nostri,</l>
+<l><q>vos humiles,</q> inquis, ‘volgi pars ultima nostri,</l>
 <l n="45">quorum nemo queat patriam monstrare parentis;</l>
-<l>ast ego Cecropides.&rsquo; vivas et originis huius</l>
+<l>ast ego Cecropides.’ vivas et originis huius</l>
 <l>gaudia longa feras, tamen ima plebe Quiritem</l>
 <l>facundum invenies: solet hic defendere causas</l>
 <l>nobilis indocti; veniet de plebe togata</l>
 <l n="50">qui iuris nodos et legum aenigmata solvat;</l>
-<l>hinc<note><hi rend="italics"><foreign lang="la">hinc</foreign></hi> conj. by Weidner and confirmed by GU: P<foreign lang="greek">*y</foreign> have <hi rend="italics"><foreign lang="la">hic</foreign></hi>.</note> petit Euphraten iuvenis domitique Batavi</l>
+<l>hinc<note><hi rend="italics"><foreign lang="lat">hinc</foreign></hi> conj. by Weidner and confirmed by GU: P<foreign lang="grc">Ψ</foreign> have <hi rend="italics"><foreign lang="lat">hic</foreign></hi>.</note> petit Euphraten iuvenis domitique Batavi</l>
 <l>custodes aquilas, armis industrius. at tu</l>
 <l>nil nisi Cecropides, truncoque simillimus Hermae:</l>
 <l>nullo quippe alio vineis discrimine quam quod</l>
@@ -2126,9 +2113,9 @@
 <l n="85">dignus morte perit, cenet licet ostrea centum</l>
 <l>Gaurana et Cosmi toto mergatur aeno.</l>
 <l>Expectata diu tandem provincia cum te</l>
-<l>rectorem accipiet<note><hi rend="italics"><foreign lang="la">accipiet</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">accipiat</foreign></hi> PAF.</note>, pone irae frena modumque,</l>
+<l>rectorem accipiet<note><hi rend="italics"><foreign lang="lat">accipiet</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">accipiat</foreign></hi> PAF.</note>, pone irae frena modumque,</l>
 <l>pone et avaritiae, miserere inopum sociorum:</l>
-<l n="90">ossa vides rerum<note><hi rend="italics"><foreign lang="la">rerum</foreign></hi> PFGU: <hi rend="italics"><foreign lang="la">regum</foreign></hi> ALOT.</note> vacuis exucta medullis;</l>
+<l n="90">ossa vides rerum<note><hi rend="italics"><foreign lang="lat">rerum</foreign></hi> PFGU: <hi rend="italics"><foreign lang="lat">regum</foreign></hi> ALOT.</note> vacuis exucta medullis;</l>
 <l>respice quid moneant leges, quid curia mandet,</l>
 <l>praemia quanta bonos maneant, quam fulmine iusto</l>
 <l>et Capito et Numitor ruerint damnante senatu,</l>
@@ -2150,7 +2137,7 @@
 <l>et pater armenti capto eripietur agello,</l>
 <l n="110">ipsi deinde Lares, si quod spectabile signum,</l>
 <l>si quis in aedicula deus unicus; haec etenim sunt</l>
-<l>pro summis, iam<note><hi rend="italics"><foreign lang="la">iam</foreign></hi> conj. by Büch.: <hi rend="italics"><foreign lang="la">nam</foreign></hi> P<foreign lang="greek">*y</foreign> and Büch. (1893): Housman conj. <hi rend="italics"><foreign lang="la">quis</foreign></hi>.</note> sunt haec maxima, despicias tu</l>
+<l>pro summis, iam<note><hi rend="italics"><foreign lang="lat">iam</foreign></hi> conj. by Büch.: <hi rend="italics"><foreign lang="lat">nam</foreign></hi> P<foreign lang="grc">Ψ</foreign> and Büch. (1893): Housman conj. <hi rend="italics"><foreign lang="lat">quis</foreign></hi>.</note> sunt haec maxima, despicias tu</l>
 <l>forsitan inbellis Rhodios unctamque Corinthon;</l>
 <l>despicias merito: quid resinata iuventus</l>
 <l n="115">cruraque totius facient tibi levia gentis?</l>
@@ -2186,7 +2173,7 @@
 <l n="145">tempora Santonico velas adoperta cucullo?</l>
 <l>Praeter maiorum cineres atque ossa volucri</l>
 <l>carpento rapitur pinguis Lateranus, et ipse.</l>
-<l>ipse rotam adstringit sufflamine mulio<note>All edd before Bücheler (1886) read <hi rend="italics"><foreign lang="la">multo</foreign></hi>. The true reading <hi rend="italics"><foreign lang="la">mulio</foreign></hi> was found in the Florilegium Sangallense and is confirmed elsewhere. See Duff's and Housman's notes on the passage.</note> consul.</l>
+<l>ipse rotam adstringit sufflamine mulio<note>All edd before Bücheler (1886) read <hi rend="italics"><foreign lang="lat">multo</foreign></hi>. The true reading <hi rend="italics"><foreign lang="lat">mulio</foreign></hi> was found in the Florilegium Sangallense and is confirmed elsewhere. See Duff's and Housman's notes on the passage.</note> consul.</l>
 <l>nocte quidem, sed Luna videt, sed sidera testes</l>
 <l n="150">intendunt oculos, finitum tempus honoris</l>
 <l>cum fuerit, clara Lateranus luce flagellum</l>
@@ -2201,8 +2188,8 @@
 <l n="160">currit, Idymaeae Syrophoenix incola portae,</l>
 <l>hospitis adfectu dominum regemque salutat,</l>
 <l>et cum venali Cyane succincta lagona.</l>
-<l>Defensor culpae dicet mihi &lsquo;fecimus et nos</l>
-<l>haec iuvenes.&rsquo; esto, desisti nempe nec ultra</l>
+<l>Defensor culpae dicet mihi ‘fecimus et nos</l>
+<l>haec iuvenes.’ esto, desisti nempe nec ultra</l>
 <l n="165">fovisti errorem, breve sit quod turpiter audes;</l>
 <l>quaedam cum prima resecentur crimina barba,</l>
 <l>indulge veniam pueris: Lateranus ad illos</l>
@@ -2233,7 +2220,7 @@
 <l>Mamercorum alapas. quanti sua funera vendant</l>
 <l>quid refert? vendunt nullo cogente Nerone,</l>
 <l>nec dubitant celsi praetoris vendere ludis,</l>
-<l n="195">finge tamen gladios inde atque hinc pulpita poni<note><hi rend="italics"><foreign lang="la">poni</foreign></hi> P; <hi rend="italics"><foreign lang="la">pone</foreign></hi> <foreign lang="greek">*y</foreign>.</note>,</l>
+<l n="195">finge tamen gladios inde atque hinc pulpita poni<note><hi rend="italics"><foreign lang="lat">poni</foreign></hi> P; <hi rend="italics"><foreign lang="lat">pone</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note>,</l>
 <l>quid satius? mortem sic quisquam exhorruit, ut sit</l>
 <l>zelotypus Thymeles, stupidi collega Corinthi?</l>
 <l>res haut mira tamen citharoedo principe mimus</l>
@@ -2261,7 +2248,7 @@
 <l n="220">miscuit, in scaena numquam cantavit Orestes,</l>
 <l>Troica non scripsit, quid enim Verginius armis</l>
 <l>debuit ulcisci magis aut cum Vindice Galba,</l>
-<l>quod<note><hi rend="italics"><foreign lang="la">quod</foreign></hi> Madvig: <hi rend="italics"><foreign lang="la">quid</foreign></hi> P<foreign lang="greek">*y</foreign>.</note> Nero tam saeva crudaque tyrannide fecit?</l>
+<l>quod<note><hi rend="italics"><foreign lang="lat">quod</foreign></hi> Madvig: <hi rend="italics"><foreign lang="lat">quid</foreign></hi> P<foreign lang="grc">Ψ</foreign>.</note> Nero tam saeva crudaque tyrannide fecit?</l>
 <l>haec opera atque hae sunt generosi principis artes,</l>
 <l n="225">gaudentis foedo peregrina ad pulpita cantu</l>
 <l>prostitui Graiaeque apium meruisse coronae,</l>
@@ -2279,7 +2266,7 @@
 <l>municipalis eques, galeatum ponit ubique</l>
 <l>praesidium attonitis et in omni monte laborat,</l>
 <l n="240">tantum igitur muros intra toga contulit illi</l>
-<l><del>nominis ac tituli, quantum sibi<note>Willis accepts <hi rend="italics"><foreign lang="la">sibi</foreign></hi>, following the cautious conjecture of Jahn.  If we read <hi rend="italics"><foreign lang="la">in</foreign></hi> with PSGU the line is deficient metrically. <foreign lang="greek">*y</foreign> has <hi rend="italics"><foreign lang="la">non</foreign></hi>: Owen conj. <hi rend="italics"><foreign lang="la">vi</foreign></hi>.</note></del> Leucade, quantum</l>
+<l><del>nominis ac tituli, quantum sibi<note>Willis accepts <hi rend="italics"><foreign lang="lat">sibi</foreign></hi>, following the cautious conjecture of Jahn.  If we read <hi rend="italics"><foreign lang="lat">in</foreign></hi> with PSGU the line is deficient metrically. <foreign lang="grc">Ψ</foreign> has <hi rend="italics"><foreign lang="lat">non</foreign></hi>: Owen conj. <hi rend="italics"><foreign lang="lat">vi</foreign></hi>.</note></del> Leucade, quantum</l>
 <l>Thessaliae campis Octavius abstulit udo</l>
 <l>caedibus adsiduis gladio; sed Roma parentem,</l>
 <l>Roma patrem patriae Ciceronem libera dixit.</l>
@@ -2330,7 +2317,7 @@
 <l>et salibus vehemens intra pomeria natis.</l>
 <l>omnia nunc contra: vultus gravis, horrida siccae</l>
 <l>silva comae, nullus tota nitor in cute, qualem</l>
-<l>Bruttia praestabat calidi tibi fascia visci<note>GU give this line in two places, here and after line 11. The reading is uncertain. Owen reads <hi rend="italics"><foreign lang="la">lita</foreign></hi> for <hi rend="italics"><foreign lang="la">tibi</foreign></hi>, taken from <hi rend="italics"><foreign lang="la">circumlita</foreign></hi> in <foreign lang="greek">*y</foreign>.</note>, </l>
+<l>Bruttia praestabat calidi tibi fascia visci<note>GU give this line in two places, here and after line 11. The reading is uncertain. Owen reads <hi rend="italics"><foreign lang="lat">lita</foreign></hi> for <hi rend="italics"><foreign lang="lat">tibi</foreign></hi>, taken from <hi rend="italics"><foreign lang="lat">circumlita</foreign></hi> in <foreign lang="grc">Ψ</foreign>.</note>, </l>
 <l n="15">sed fruticante pilo neglecta et squalida crura.</l>
 <l>quid macies aegri veteris, quem tempore longo</l>
 <l>torret quarta dies olimque domestica febris?</l>
@@ -2341,9 +2328,9 @@
 <l>nuper enim, ut repeto, fanum Isidis et Ganymedem</l>
 <l>Pacis et advectae secreta Palatia matris</l>
 <l>et Cererem (nam quo non prostat femina templo?)</l>
-<l n="25">notior Aufidio moechus celebrare<note><hi rend="italics"><foreign lang="la">scelerare</foreign></hi> P Büch.: <hi rend="italics"><foreign lang="la">celebrare</foreign></hi> <foreign lang="greek">*y</foreign> (<q><hi rend="italics"><foreign lang="la">fortasse melius</foreign></hi></q> Housman).</note> solebas,</l>
+<l n="25">notior Aufidio moechus celebrare<note><hi rend="italics"><foreign lang="lat">scelerare</foreign></hi> P Büch.: <hi rend="italics"><foreign lang="lat">celebrare</foreign></hi> <foreign lang="grc">Ψ</foreign> (<q><hi rend="italics"><foreign lang="lat">fortasse melius</foreign></hi></q> Housman).</note> solebas,</l>
 <l>quodque taces, ipsos etiam inclinare maritos.</l>
-<l>&lsquo;Utile et hoc multis vitae genus, at mihi nullum</l>
+<l>‘Utile et hoc multis vitae genus, at mihi nullum</l>
 <l>inde operae pretium, pingues aliquando lacernas,</l>
 <l>munimenta togae, duri crassique coloris</l>
 <l n="30">et male percussas textoris pectine Galli</l>
@@ -2353,11 +2340,11 @@
 <l>nil faciet longi mensura incognita nervi,</l>
 <l n="35">quamvis te nudum spumanti Virro labello</l>
 <l>viderit et blandae adsidue densaeque tabellae</l>
-<l>sollicitent, <foreign lang="greek">au)to\s ga\r e)fe/lketai a)/ndra ki/naidos</foreign>.</l>
+<l>sollicitent, <foreign lang="grc">au)to\s ga\r e)fe/lketai a)/ndra ki/naidos</foreign>.</l>
 <l>quod tamen ulterius monstrum quam mollis avarus?</l>
 <l><quote> haec tribui, deinde illa dedi, mox plura tulisti </quote>;</l>
 <l n="40">computat, et cevet. ponatur ealculus, adsint</l>
-<l>cum tabula pueri; numera<note><hi rend="italics"><foreign lang="la">numera</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">numeras</foreign></hi> P.</note> sestertia quinque</l>
+<l>cum tabula pueri; numera<note><hi rend="italics"><foreign lang="lat">numera</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">numeras</foreign></hi> P.</note> sestertia quinque</l>
 <l>omnibus in rebus: numerentur deinde labores,</l>
 <l>an facile et pronum est agere intra viscera penem</l>
 <l>legitimum atque illic hesternae occurrere cenae?</l>
@@ -2373,10 +2360,10 @@
 <l>Dic, passer, cui tot montis, tot praedia servas</l>
 <l n="55">Apula, tot milvos intra tua pascua lassos?</l>
 <l>te Trifolinus ager fecundis vitibus implet</l>
-<l>suspectumque iugum Cumis et Gaurus inanis&mdash;</l>
-<l>nam quis plura linit victuro dolia musto?&mdash;</l>
+<l>suspectumque iugum Cumis et Gaurus inanis—</l>
+<l>nam quis plura linit victuro dolia musto?—</l>
 <l>quantum erat exhausti lumbos donare clientis</l>
-<l n="60">iugeribus paucis? meliusne hic<note>For <hi rend="italics"><foreign lang="la">ne hic</foreign></hi> (P<foreign lang="greek">*y</foreign>) Housman conjectured <hi rend="italics"><foreign lang="la">nunc</foreign></hi>.</note> rusticus infans</l>
+<l n="60">iugeribus paucis? meliusne hic<note>For <hi rend="italics"><foreign lang="lat">ne hic</foreign></hi> (P<foreign lang="grc">Ψ</foreign>) Housman conjectured <hi rend="italics"><foreign lang="lat">nunc</foreign></hi>.</note> rusticus infans</l>
 <l>cum matre et casulis et conlusore catello</l>
 <l>cymbala pulsantis legatum fiet amici?</l>
 <l><quote>improbus es cum poscis,</quote> ait. sed pensio clamat</l>
@@ -2406,9 +2393,9 @@
 <l>iura parentis habes, propter me scribens heres,</l>
 <l>legatum omne capis nec non et dulce caducum.</l>
 <l>commoda praeterea iungentur multa caducis,</l>
-<l n="90">si numerum, si tres implevero.&rsquo; Iusta doloris,</l>
+<l n="90">si numerum, si tres implevero.’ Iusta doloris,</l>
 <l>Naevole, causa tui; contra tamen ille quid adfert?</l>
-<l>&lsquo;neglegit atque alium bipedem sibi quaerit asellum,</l>
+<l>‘neglegit atque alium bipedem sibi quaerit asellum,</l>
 <l>haec soli commissa tibi celare memento</l>
 <l>et tacitus nostras intra te fige querellas.</l>
 <l n="95">nam res mortifera est inimicus pumice levis;</l>
@@ -2417,7 +2404,7 @@
 <l>fuste aperire caput, candelam adponere valvis</l>
 <l>non dubitat, nec contemnas aut despicias quod</l>
 <l n="100">his opibus numquam cara est annona veneni.</l>
-<l>ergo occulta teges ut curia Martis Athenis.&rsquo;</l>
+<l>ergo occulta teges ut curia Martis Athenis.’</l>
 <l>O Corydon, Corydon, secretum divitis ullum</l>
 <l>esse putas? servi ut taceant, iumenta loquentur</l>
 <l>et canis et postes et marmora, claude fenestras,</l>
@@ -2434,25 +2421,25 @@
 <l n="115">a nobis, taceant illi. sed prodere malunt</l>
 <l>arcanum, quam subrepti potare Falerni</l>
 <l>pro populo faciens quantum Saufeia bibebat,</l>
-<l>vivendum recte cum propter plurima tum est his<note><hi rend="italics"><foreign lang="la">tum est his</foreign></hi>. So Housman instead of the <hi rend="italics"><foreign lang="la">tunc est</foreign></hi> of PA.</note> </l>
-<l><del>idcirco ut possis linguam contemnere servi.</del><note>After 9.118 PA; after 9.123 <foreign lang="greek">*y</foreign>.</note></l>
+<l>vivendum recte cum propter plurima tum est his<note><hi rend="italics"><foreign lang="lat">tum est his</foreign></hi>. So Housman instead of the <hi rend="italics"><foreign lang="lat">tunc est</foreign></hi> of PA.</note> </l>
+<l><del>idcirco ut possis linguam contemnere servi.</del><note>After 9.118 PA; after 9.123 <foreign lang="grc">Ψ</foreign>.</note></l>
 <l n="120">praecipue causis, ut linguas mancipiorum</l>
 <l>contemnas, nam lingua mali pars pessima servi;</l>
 <l>deterior tamen hic qui liber non erit illis,</l>
 <l>quorum animas et farre suo custodit et aere.</l>
-<l>&lsquo;Utile consilium modo, sed commune, dedisti,</l>
+<l>‘Utile consilium modo, sed commune, dedisti,</l>
 <l n="125">nunc mihi quid suades post damnum temporis et spes</l>
 <l>deceptas? festinat enim decurrere velox</l>
 <l>flosculus angustae miseraeque brevissima vitae</l>
 <l>portio; dum bibimus, dum serta unguenta puellas</l>
-<l>poscimus, obrepit non intellecta senectus.&rsquo;</l>
+<l>poscimus, obrepit non intellecta senectus.’</l>
 <l n="130">Ne trepida, numquam pathicus tibi derit amicus</l>
 <l>stantibus et salvis his collibus: undique ad illos</l>
 <l>convenient et carpentis et navibus omnes</l>
 <l>qui digito scalpunt uno caput, altera maior</l>
 <l>spes superest; tu tantum erucis inprime dentem.</l>
-<l n="134a"><del>gratus eris; tu tantum erucis inprime dentem.</del><note><foreign lang="greek">*y</foreign> omits.  After line 134, P has this line, being mainly a repetition of that line. Housman conjectures an omission of five words, and reads the lines thus: <hi rend="italics"><foreign lang="la">altera maior spes superest; turbae, properat quae crescere, molli gratus eris, tu tantum erucis imprime dentom</foreign></hi>.</note></l>
-<l n="135">&lsquo;Haec exempla para felicibus, at mea Clotho</l>
+<l n="134a"><del>gratus eris; tu tantum erucis inprime dentem.</del><note><foreign lang="grc">Ψ</foreign> omits.  After line 134, P has this line, being mainly a repetition of that line. Housman conjectures an omission of five words, and reads the lines thus: <hi rend="italics"><foreign lang="lat">altera maior spes superest; turbae, properat quae crescere, molli gratus eris, tu tantum erucis imprime dentom</foreign></hi>.</note></l>
+<l n="135">‘Haec exempla para felicibus, at mea Clotho</l>
 <l>et Lachesis gaudent, si pascitur inguine venter,</l>
 <l>o parvi nostrique Lares, quos ture minuto</l>
 <l>aut farre et tenui soleo exorare corona,</l>
@@ -2467,7 +2454,7 @@
 <l>quando ego pauper ero; votum miserabile, nec spes</l>
 <l>his saltem; nam cum pro me Fortuna vocatur,</l>
 <l>adfixit ceras illa de nave petitas,</l>
-<l n="150">quae Siculos cantus effugit remige surdo.&rsquo;</l>
+<l n="150">quae Siculos cantus effugit remige surdo.’</l>
 				</div2>
 			</div1>
 			<div1 type="book" n="4" org="uniform" sample="complete">
@@ -2526,7 +2513,7 @@
 <l>ridebat curas nec non et gaudia vulgi,</l>
 <l>interdum et lacrimas, cum Fortunae ipse minaci</l>
 <l>mandaret laqueum mediumque ostenderet unguem.</l>
-<l>Ergo supervacua aut quae<note><hi rend="italics"><foreign lang="la">quae</foreign></hi> is a conj. by Büch. (1893), the space being blank in the MSS. <hi rend="italics"><foreign lang="la">aut ne perniciosa petantur</foreign></hi> Lach. Housman has a mark of interrogation after <hi rend="italics"><foreign lang="la">petuntur</foreign></hi>. As the text stands, <hi rend="italics"><foreign lang="la">sunt</foreign></hi> must be understood after <hi rend="italics"><foreign lang="la">quae</foreign></hi>. Owen conj. <hi rend="italics"><foreign lang="la">prope</foreign></hi>.</note> perniciosa petuntur</l>
+<l>Ergo supervacua aut quae<note><hi rend="italics"><foreign lang="lat">quae</foreign></hi> is a conj. by Büch. (1893), the space being blank in the MSS. <hi rend="italics"><foreign lang="lat">aut ne perniciosa petantur</foreign></hi> Lach. Housman has a mark of interrogation after <hi rend="italics"><foreign lang="lat">petuntur</foreign></hi>. As the text stands, <hi rend="italics"><foreign lang="lat">sunt</foreign></hi> must be understood after <hi rend="italics"><foreign lang="lat">quae</foreign></hi>. Owen conj. <hi rend="italics"><foreign lang="lat">prope</foreign></hi>.</note> perniciosa petuntur</l>
 <l n="55">propter quae fas est genua incerare deorum!</l>
 <l>quosdam praecipiat subiecta potentia magnae</l>
 <l>invidiae, mergit longa atque insignis honorum</l>
@@ -2536,15 +2523,15 @@
 <l>iam strident ignes, iam follibus atque caminis</l>
 <l>ardet adoratum populo caput et crepat ingens</l>
 <l>Seianus, deinde ex facie toto orbe secunda</l>
-<l>fiunt urceoli pelves sartago matellae<note><hi rend="italics"><foreign lang="la">matellae</foreign></hi> P: <hi rend="italics"><foreign lang="la">patellae</foreign></hi> <foreign lang="greek">*y</foreign>.</note>. </l>
+<l>fiunt urceoli pelves sartago matellae<note><hi rend="italics"><foreign lang="lat">matellae</foreign></hi> P: <hi rend="italics"><foreign lang="lat">patellae</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note>. </l>
 <l n="65">pone domi laurus, duc in Capitolia magnum</l>
 <l>cretatumque bovem! Seianus ducitur unco</l>
-<l>spectandus, gaudent omnes: &lsquo;quae labra, quis illi</l>
+<l>spectandus, gaudent omnes: ‘quae labra, quis illi</l>
 <l>vultus erat! numquam, si quid mihi credis, amavi</l>
 <l>hunc hominem, sed quo cecidit sub crimine? quisnam</l>
-<l n="70">delator? quibus indicibus, quo teste probavit?&rsquo;</l>
-<l>&lsquo; nil horum; verbosa et grandis epistula venit</l>
-<l>a Capreis.&rsquo; <q>bene habet, nil plus interrogo.</q> Sed quid</l>
+<l n="70">delator? quibus indicibus, quo teste probavit?’</l>
+<l>‘ nil horum; verbosa et grandis epistula venit</l>
+<l>a Capreis.’ <q>bene habet, nil plus interrogo.</q> Sed quid</l>
 <l>turba Remi? sequitur fortunam ut semper et odit</l>
 <l>damnatos, idem populus, si Nortia Tusco</l>
 <l n="75">favisset, si oppressa foret secura senectus</l>
@@ -2554,18 +2541,18 @@
 <l>imperium fasces legiones omnia, nunc se</l>
 <l n="80">continet atque duas tantum res anxius optat,</l>
 <l>panem et circenses. <q>Perituros audio multos.</q></l>
-<l><q>nil dubium, magna est fornacula.</q> &lsquo;pallidulus mi</l>
+<l><q>nil dubium, magna est fornacula.</q> ‘pallidulus mi</l>
 <l>Bruttidius meus ad Martis fuit obvius aram;</l>
 <l>quam timeo, victus ne poenas exigat Aiax,</l>
-<l n="85">ut male defensus.&rsquo; &lsquo;curramus praecipites et</l>
-<l>dum iacet in ripa, calcemus Caesaris hostem.&rsquo;</l>
-<l>&lsquo;sed videant servi, ne quis neget et pavidum in ius</l>
-<l>cervice obstricta dominum trahat.&rsquo; Hi sermones</l>
+<l n="85">ut male defensus.’ ‘curramus praecipites et</l>
+<l>dum iacet in ripa, calcemus Caesaris hostem.’</l>
+<l>‘sed videant servi, ne quis neget et pavidum in ius</l>
+<l>cervice obstricta dominum trahat.’ Hi sermones</l>
 <l>tunc de Seiano, secreta haec murmura vulgi,</l>
 <l n="90">visne salutari sicut Seianus, habere</l>
 <l>tantundem, atque illi summas donare curules,</l>
 <l>illum exercitibus praeponere, tutor haberi</l>
-<l>principis angusta<note><hi rend="italics"><foreign lang="la">angusta</foreign></hi> <foreign lang="greek">*y</foreign> Büch. (1910) Housman: <hi rend="italics"><foreign lang="la">augusta</foreign></hi> PABüch. (1893).</note> Caprearum in rupe sedentis</l>
+<l>principis angusta<note><hi rend="italics"><foreign lang="lat">angusta</foreign></hi> <foreign lang="grc">Ψ</foreign> Büch. (1910) Housman: <hi rend="italics"><foreign lang="lat">augusta</foreign></hi> PABüch. (1893).</note> Caprearum in rupe sedentis</l>
 <l>cum grege Chaldaeo? vis certe pila cohortes</l>
 <l n="95">egregios equites et castra domestica; quidni</l>
 <l>haec cupias? et qui nolunt occidere quemquam,</l>
@@ -2588,7 +2575,7 @@
 <l>descendunt reges et sicca morte tyranni.</l>
 <l>Eloquium ac famam Demosthenis aut Ciceronis</l>
 <l n="115">incipit optare et totis quinquatribus optat</l>
-<l>quisquis adhuc uno parcam<note><hi rend="italics"><foreign lang="la">parcam</foreign></hi> P: <hi rend="italics"><foreign lang="la">partam</foreign></hi> <foreign lang="greek">*y</foreign></note> colit asse Minervam,</l>
+<l>quisquis adhuc uno parcam<note><hi rend="italics"><foreign lang="lat">parcam</foreign></hi> P: <hi rend="italics"><foreign lang="lat">partam</foreign></hi> <foreign lang="grc">Ψ</foreign></note> colit asse Minervam,</l>
 <l>quem sequitur custos augustae vernula capsae.</l>
 <l>eloquio sed uterque perit orator, utrumque</l>
 <l>largus et exundans leto dedit ingenii fons.</l>
@@ -2622,13 +2609,13 @@
 <l>Expende Hannibalem; quot libras in duce summo</l>
 <l>invenies? hic est, quem non capit Africa Mauro</l>
 <l>percussa oceano Niloque admota tepenti,</l>
-<l n="150">rursus ad Aethiopum populos aliosque<note><hi rend="italics"><foreign lang="la">aliosque</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">altosque</foreign></hi> PA.</note> elephantos!</l>
+<l n="150">rursus ad Aethiopum populos aliosque<note><hi rend="italics"><foreign lang="lat">aliosque</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">altosque</foreign></hi> PA.</note> elephantos!</l>
 <l>additur imperiis Hispania, Pyrenaeum</l>
 <l>transilit; opposuit natura Alpemque nivemque:</l>
 <l>diducit scopulos et montem rumpit aceto,</l>
 <l>iam tenet Italiam, tamen ultra pergere tendit:</l>
-<l n="155"><q>acti<note><hi rend="italics"><foreign lang="la">acti</foreign></hi> <foreign lang="greek">*y</foreign> Housman Büch. (1910): <hi rend="italics"><foreign lang="la">actum</foreign></hi> PT Büch. (1893).</note>,</q> inquit, &lsquo;nihil est, nisi Poeno milite portas</l>
-<l>frangimus et media vexillum pono Subura.&rsquo;</l>
+<l n="155"><q>acti<note><hi rend="italics"><foreign lang="lat">acti</foreign></hi> <foreign lang="grc">Ψ</foreign> Housman Büch. (1910): <hi rend="italics"><foreign lang="lat">actum</foreign></hi> PT Büch. (1893).</note>,</q> inquit, ‘nihil est, nisi Poeno milite portas</l>
+<l>frangimus et media vexillum pono Subura.’</l>
 <l>o qualis facies et quali digna tabella,</l>
 <l>cum Gaetula ducem portaret belua luscum!</l>
 <l>exitus ergo quis est? o gloria, vincitur idem</l>
@@ -2669,7 +2656,7 @@
 <l>quales, umbriferos ubi pandit Thabraca saltus,</l>
 <l n="195">in vetula scalpit iam mater simia bucca.</l>
 <l>plurima sunt iuvenum discrimina; pulchrior ille</l>
-<l>hoc atque ille<note><hi rend="italics"><foreign lang="la">ille</foreign></hi> <foreign lang="greek">*y</foreign>, omitted by PO. Housman conjectures <hi rend="italics"><foreign lang="la">ore</foreign></hi>.</note> alio, multum hic robustior illo:</l>
+<l>hoc atque ille<note><hi rend="italics"><foreign lang="lat">ille</foreign></hi> <foreign lang="grc">Ψ</foreign>, omitted by PO. Housman conjectures <hi rend="italics"><foreign lang="lat">ore</foreign></hi>.</note> alio, multum hic robustior illo:</l>
 <l>una senum facies, cum voce trementia membra</l>
 <l>et iam leve caput madidique infantia nasi,</l>
 <l n="200">frangendus misero gingiva panis inermi;</l>
@@ -2726,7 +2713,7 @@
 <l>attendas quantum de legibus ipse queratur</l>
 <l>fatorum et nimio de stamine, cum videt acris</l>
 <l>Antilochi barbam ardentem, cum quaerit ab omni</l>
-<l>quisquis adest socius<note><hi rend="italics"><foreign lang="la">socius</foreign></hi> P: <hi rend="italics"><foreign lang="la">socio</foreign></hi> <foreign lang="greek">*y</foreign> and Housman.</note>, cur haec in tempora duret</l>
+<l>quisquis adest socius<note><hi rend="italics"><foreign lang="lat">socius</foreign></hi> P: <hi rend="italics"><foreign lang="lat">socio</foreign></hi> <foreign lang="grc">Ψ</foreign> and Housman.</note>, cur haec in tempora duret</l>
 <l n="255">quod facinus dignum tam longo admiserit aevo.</l>
 <l>haec eadem Peleus, raptum cum luget Achillem,</l>
 <l>atque alius cui fas Ithacum lugere natantem.</l>
@@ -2785,7 +2772,7 @@
 <l n="310">I nunc et iuvenis specie laetare tui, quem</l>
 <l>maiora expectant discrimina, fiet adulter</l>
 <l>publicus et poenas metuet quascumque maritis</l>
-<l>lex irae<note><hi rend="italics"><foreign lang="la">irati</foreign></hi> PT: <hi rend="italics"><foreign lang="la">exire irati</foreign></hi> A: <hi rend="italics"><foreign lang="la">exigere irati</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">mariti irati</foreign></hi> Büch.Owen: <hi rend="italics"><foreign lang="la">lex irae</foreign></hi> conjectures Housman: <hi rend="italics"><foreign lang="la">maritis iratis</foreign></hi> Rigalt Büch. (1910).</note> debet, nec erit felicior astro</l>
+<l>lex irae<note><hi rend="italics"><foreign lang="lat">irati</foreign></hi> PT: <hi rend="italics"><foreign lang="lat">exire irati</foreign></hi> A: <hi rend="italics"><foreign lang="lat">exigere irati</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">mariti irati</foreign></hi> Büch.Owen: <hi rend="italics"><foreign lang="lat">lex irae</foreign></hi> conjectures Housman: <hi rend="italics"><foreign lang="lat">maritis iratis</foreign></hi> Rigalt Büch. (1910).</note> debet, nec erit felicior astro</l>
 <l>Martis, ut in laqueos numquam incidat, exigit autem</l>
 <l n="315">interdum ille dolor plus quam lex ulla dolori</l>
 <l>concessit: necat hic ferro, secat ille cruentis</l>
@@ -2847,7 +2834,7 @@
 <l>excipitur vulgi quam pauper Apicius? omnis</l>
 <l>convictus, thermae, stationes, omne theatrum</l>
 <l n="5">de Rutilo; nam dum valida ac iuvenalia membra</l>
-<l>sufficiunt galeae dumque ardent<note><hi rend="italics"><foreign lang="la">ardenti</foreign></hi> P<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">ardens</foreign></hi> U: <hi rend="italics"><foreign lang="la">ardent</foreign></hi> conjectures Rigalt.</note> sanguine, fertur</l>
+<l>sufficiunt galeae dumque ardent<note><hi rend="italics"><foreign lang="lat">ardenti</foreign></hi> P<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">ardens</foreign></hi> U: <hi rend="italics"><foreign lang="lat">ardent</foreign></hi> conjectures Rigalt.</note> sanguine, fertur</l>
 <l>non cogente quidem sed nec prohibente tribuno,</l>
 <l>scripturas leges et regia verba lanistae.</l>
 <l>multos porro vides, quos saepe elusus ad ipsum</l>
@@ -2864,11 +2851,11 @@
 <l n="20">fictile; sic veniunt ad miscellanea ludi.</l>
 <l>refert ergo quis haec eadem paret; in Rutilo nam</l>
 <l>luxuria est, in Ventidio laudabile nomen</l>
-<l>sumit<note><hi rend="italics"><foreign lang="la">sumit</foreign></hi> PS<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">sumptus</foreign></hi> Heinrich and Housman</note>, et a censu famam trahit. Illum ego iure</l>
+<l>sumit<note><hi rend="italics"><foreign lang="lat">sumit</foreign></hi> PS<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">sumptus</foreign></hi> Heinrich and Housman</note>, et a censu famam trahit. Illum ego iure</l>
 <l>despiciam, qui scit quanto sublimior Atlans</l>
 <l n="25">omnibus in Libya sit montibus, hic tamen idem</l>
 <l>ignoret quantum ferrata distet ab arca</l>
-<l>sacculus. e caelo descendit <foreign lang="greek">gnw=qi seauto/n</foreign></l>
+<l>sacculus. e caelo descendit <foreign lang="grc">gnw=qi seauto/n</foreign></l>
 <l>figendum et memori tractandum pectore, sive</l>
 <l>coniugium quaeras vel sacri in parte senatus</l>
 <l n="30">esse velis; neque enim loricam poscit Achillis</l>
@@ -2898,7 +2885,7 @@
 <l>sanguinis in facie non haeret gutta, morantur</l>
 <l n="55">pauci ridiculum et fugientem ex urbe pudorem.</l>
 <l>Experiere hodie numquid pulcherrima dictu,</l>
-<l>Persice, non praestem vitae tibi<note><hi rend="italics"><foreign lang="la">tibi</foreign></hi> is added by Büch.: P has a blank.</note> moribus et re,</l>
+<l>Persice, non praestem vitae tibi<note><hi rend="italics"><foreign lang="lat">tibi</foreign></hi> is added by Büch.: P has a blank.</note> moribus et re,</l>
 <l>si laudem siliquas occultus ganeo, pultes</l>
 <l>coram aliis dictem puero, sed in aure placentas,</l>
 <l n="60">nam cum sis conviva mihi promissus, habebis</l>
@@ -2932,7 +2919,7 @@
 <l>functus ad has epulas solito maturius ibat,</l>
 <l>erectum domito referens a monte ligonem.</l>
 <l n="90">cum tremerent autem Fabios durumque Catonem</l>
-<l>et Scauros et Fabricium, rigidique<note><hi rend="italics"><foreign lang="la">rigidique</foreign></hi> <foreign lang="greek">*y</foreign>, Housman: <hi rend="italics"><foreign lang="la">postremo</foreign></hi> P Büch.</note> severos</l>
+<l>et Scauros et Fabricium, rigidique<note><hi rend="italics"><foreign lang="lat">rigidique</foreign></hi> <foreign lang="grc">Ψ</foreign>, Housman: <hi rend="italics"><foreign lang="lat">postremo</foreign></hi> P Büch.</note> severos</l>
 <l>censoris mores etiam collega timeret,</l>
 <l>nemo inter curas et seria duxit habendum,</l>
 <l>qualis in Oceani fluctu testudo nataret,</l>
@@ -2947,7 +2934,7 @@
 <l>ut phaleris gauderet equus caelataque cassis</l>
 <l>Romuleae simulacra ferae mansuescere iussae</l>
 <l n="105">imperii fato, geminos sub rupe Quirinos,</l>
-<l>ac nudam effigiem clipeo<note>Housman inserts <hi rend="italics"><foreign lang="la">in</foreign></hi> before <hi rend="italics"><foreign lang="la">clipeo</foreign></hi>.</note> venientis et hasta</l>
+<l>ac nudam effigiem clipeo<note>Housman inserts <hi rend="italics"><foreign lang="lat">in</foreign></hi> before <hi rend="italics"><foreign lang="lat">clipeo</foreign></hi>.</note> venientis et hasta</l>
 <l>pendentisque dei perituro ostenderet hosti,</l>
 <l>ponebant igitur Tusco farrata catino:</l>
 <l>argenti quod erat, solis fulgebat in armis,</l>
@@ -2989,7 +2976,7 @@
 <l n="145">plebeios calices et paucis assibus emptos</l>
 <l>porriget incultus puer atque a frigore tutus.</l>
 <l>non Phryx aut Lycius, non a mangone petitus</l>
-<l>quisquam erit et magno<note><hi rend="italics"><foreign lang="la">quisquam erit et magno</foreign></hi> ALOT: <hi rend="italics"><foreign lang="la">quisquam erit in magno</foreign></hi> PSFGU: <hi rend="italics"><foreign lang="la">qui steterit magno</foreign></hi> conjectures Housman: <hi rend="italics"><foreign lang="la">in magno si posces</foreign></hi> Büch. (1893) Owen; <hi rend="italics"><foreign lang="la">id magnum</foreign></hi> Büch. (1910).</note>: cum posces, posce latine.</l>
+<l>quisquam erit et magno<note><hi rend="italics"><foreign lang="lat">quisquam erit et magno</foreign></hi> ALOT: <hi rend="italics"><foreign lang="lat">quisquam erit in magno</foreign></hi> PSFGU: <hi rend="italics"><foreign lang="lat">qui steterit magno</foreign></hi> conjectures Housman: <hi rend="italics"><foreign lang="lat">in magno si posces</foreign></hi> Büch. (1893) Owen; <hi rend="italics"><foreign lang="lat">id magnum</foreign></hi> Büch. (1910).</note>: cum posces, posce latine.</l>
 <l>idem habitus cunctis, tonsi rectique capilli</l>
 <l n="150">atque hodie tantum propter convivia pexi.</l>
 <l>pastoris duri hic est filius, ille bubulci;</l>
@@ -3084,7 +3071,7 @@
 <l>Accidit et nostro similis fortuna Catullo.</l>
 <l n="30">cum plenus fluctu medius foret alveus et iam,</l>
 <l>alternum puppis latus evertentibus undis,</l>
-<l>arbori<note><hi rend="italics"><foreign lang="la">arbori</foreign></hi> is Lachmann's conj. for the <hi rend="italics"><foreign lang="la">arboris</foreign></hi> of the MSS.</note> incertae, nullam prudentia cani</l>
+<l>arbori<note><hi rend="italics"><foreign lang="lat">arbori</foreign></hi> is Lachmann's conj. for the <hi rend="italics"><foreign lang="lat">arboris</foreign></hi> of the MSS.</note> incertae, nullam prudentia cani</l>
 <l>rectoris cum ferret opem, decidere iactu</l>
 <l>coepit cum ventis, imitatus castora, qui se</l>
 <l n="35">eunuchum ipse facit cupiens evadere damno</l>
@@ -3099,7 +3086,7 @@
 <l>Parthenio factas, urnae cratera capacem</l>
 <l n="45">et dignum sitiente Pholo vel coniuge Fusci;</l>
 <l>adde et bascaudas et mille escaria, multum</l>
-<l>caelati, biberat quo callidus<note><hi rend="italics"><foreign lang="la">callidus</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">pallidus</foreign></hi> PA.</note> emptor Olynthi.</l>
+<l>caelati, biberat quo callidus<note><hi rend="italics"><foreign lang="lat">callidus</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">pallidus</foreign></hi> PA.</note> emptor Olynthi.</l>
 <l>sed quis nunc alius qua mundi parte, quis audet</l>
 <l>argento praeferre caput rebusque salutem?</l>
 <l n="50"><del>non propter vitam faciunt patrimonia quidam,</del></l>
@@ -3113,7 +3100,7 @@
 <l>confisus ligno, digitis a morte remotus</l>
 <l>quattuor aut septem, si sit latissima, taedae;</l>
 <l n="60">mox cum reticulis et pane et ventre lagonae,</l>
-<l>aspice<note><hi rend="italics"><foreign lang="la">aspice</foreign></hi> P<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">accipe</foreign></hi> Housman: <hi rend="italics"><foreign lang="la">respice</foreign></hi> Iahn.</note> sumendas in tempestate secures.</l>
+<l>aspice<note><hi rend="italics"><foreign lang="lat">aspice</foreign></hi> P<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">accipe</foreign></hi> Housman: <hi rend="italics"><foreign lang="lat">respice</foreign></hi> Iahn.</note> sumendas in tempestate secures.</l>
 <l>Sed postquam iacuit planum mare, tempora postquam</l>
 <l>prospera vectoris fatumque valentius Euro</l>
 <l>et pelago, postquam Parcae meliora benigna</l>
@@ -3205,7 +3192,7 @@
 <l n="15">visceribus, sacrum tibi quod non reddat amicus</l>
 <l>depositum; stupet haec qui iam post terga reliquit</l>
 <l>sexaginta annos Fonteio consule natus?</l>
-<l>an nihil in melius tot rerum proficis<note><hi rend="italics"><foreign lang="la">proficit</foreign></hi> P: <hi rend="italics"><foreign lang="la">proficis</foreign></hi> <foreign lang="greek">*y</foreign> and Housman.</note> usu?</l>
+<l>an nihil in melius tot rerum proficis<note><hi rend="italics"><foreign lang="lat">proficit</foreign></hi> P: <hi rend="italics"><foreign lang="lat">proficis</foreign></hi> <foreign lang="grc">Ψ</foreign> and Housman.</note> usu?</l>
 <l>Magna quidem, sacris quae dat praecepta libellis,</l>
 <l n="20">victrix fortunae sapientia; ducimus autem</l>
 <l>hos quoque felices, qui ferre incommoda vitae</l>
@@ -3215,7 +3202,7 @@
 <l n="25">quaesitum et partos gladio vel pyxide nummos?</l>
 <l>rari quippe boni: numera, vix sunt totidem quot</l>
 <l>Thebarum portae vel divitis ostia Nili.</l>
-<l>nona<note><hi rend="italics"><foreign lang="la">nona</foreign></hi>. So <foreign lang="greek">*y</foreign> and Housman: <hi rend="italics"><foreign lang="la">non</foreign></hi> FG: P Büch. and Owen have the unmeaning <hi rend="italics"><foreign lang="la">nunc</foreign></hi>.</note> aetas agitur peioraque saecula ferri</l>
+<l>nona<note><hi rend="italics"><foreign lang="lat">nona</foreign></hi>. So <foreign lang="grc">Ψ</foreign> and Housman: <hi rend="italics"><foreign lang="lat">non</foreign></hi> FG: P Büch. and Owen have the unmeaning <hi rend="italics"><foreign lang="lat">nunc</foreign></hi>.</note> aetas agitur peioraque saecula ferri</l>
 <l>temporibus, quorum sceleri non invenit ipsa</l>
 <l n="30">nomen et a nullo posuit natura metallo.</l>
 <l>nos hominum divumque fidem clamore demus</l>
@@ -3236,7 +3223,7 @@
 <l>prandebat sibi quisque deus, nec turba deorum</l>
 <l>talis ut est hodie, contentaque sidera paucis</l>
 <l>numinibus miserum urguebant Atlanta minori</l>
-<l>pondere, nondum aliquis<note><hi rend="italics"><foreign lang="la">aliquis</foreign></hi> is read by <foreign lang="greek">*y</foreign>, but omitted by P. Housman conjectures <hi rend="italics"><foreign lang="la">imi</foreign></hi>. See Journal of Phil. No. 67, p. 42.</note> sortitus triste profundi</l>
+<l>pondere, nondum aliquis<note><hi rend="italics"><foreign lang="lat">aliquis</foreign></hi> is read by <foreign lang="grc">Ψ</foreign>, but omitted by P. Housman conjectures <hi rend="italics"><foreign lang="lat">imi</foreign></hi>. See Journal of Phil. No. 67, p. 42.</note> sortitus triste profundi</l>
 <l n="50">imperium, aut Sicula torvos cum coniuge Pluton,</l>
 <l>nec rota nec Furiae nec saxum aut vulturis atri</l>
 <l>poena, sed infernis hilares sine regibus umbrae.</l>
@@ -3252,7 +3239,7 @@
 <l>prodigiosa fides et Tuscis digna libellis,</l>
 <l>quaeque coronata lustrati debeat agna.</l>
 <l>egregium sanctumque virum si cerno, bimembri</l>
-<l n="65">hoc monstrum puero et miranti<note>So <foreign lang="greek">*y</foreign> and Housman: Büch. follows the <hi rend="italics"><foreign lang="la">mirandis</foreign></hi> of P.</note> sub aratro</l>
+<l n="65">hoc monstrum puero et miranti<note>So <foreign lang="grc">Ψ</foreign> and Housman: Büch. follows the <hi rend="italics"><foreign lang="lat">mirandis</foreign></hi> of P.</note> sub aratro</l>
 <l>piscibus inventis et fetae comparo mulae,</l>
 <l>sollicitus, tamquam lapides effuderit imber</l>
 <l>examenque apium longa consederit uva</l>
@@ -3271,15 +3258,15 @@
 <l>perque tuum, pater Aegaei Neptune, tridentem;</l>
 <l>addit et Herculeos arcus hastamque Minervae,</l>
 <l>quidquid habent telorum armamentaria caeli.</l>
-<l>si vero et pater est, <q>comedam,</q> inquit flebile, &lsquo;nati</l>
-<l n="85">sinciput elixi Pharioque madentis aceto.&rsquo;</l>
+<l>si vero et pater est, <q>comedam,</q> inquit flebile, ‘nati</l>
+<l n="85">sinciput elixi Pharioque madentis aceto.’</l>
 <l>Sunt in fortunae qui casibus omnia ponant</l>
 <l>et nullo credant mundum rectore moveri</l>
 <l>natura volvente vices et lucis et anni,</l>
 <l>atque ideo intrepidi quaecumque altaria tangunt,</l>
 <l n="90">est alius metuens ne crimen poena sequatur;</l>
 <l>hic putat esse deos et peierat, atque ita secum:</l>
-<l>&lsquo;decernat quodcumque volet de corpore nostro</l>
+<l>‘decernat quodcumque volet de corpore nostro</l>
 <l>Isis et irato feriat mea lumina sistro,</l>
 <l>dummodo vel caecus teneam quos abnego nummos,</l>
 <l n="95">et phthisis et vomicae putres et dimidium crus</l>
@@ -3292,7 +3279,7 @@
 <l>quando ad me venient? sed et exorabile numen</l>
 <l>fortasseexperiar, solet his ignoscere, multi</l>
 <l>committunt eadem diverso crimina fato:</l>
-<l n="105">ille crucem sceleris pretium tulit, hic diadema.&rsquo;</l>
+<l n="105">ille crucem sceleris pretium tulit, hic diadema.’</l>
 <l>Sic animum dirae trepidum formidine culpae</l>
 <l>confirmat, tunc te sacra ad delubra vocantem</l>
 <l>praecedit, trahere immo ultro ac vexare paratus,</l>
@@ -3300,13 +3287,13 @@
 <l n="110">creditur a multis fiducia, mimum agit ille,</l>
 <l>urbani qualem fugitivus scurra Catulli:</l>
 <l>tu miser exclamas, ut Stentora vincere possis,</l>
-<l>vel potius quantum Gradivus Homericus: &lsquo;audis,</l>
+<l>vel potius quantum Gradivus Homericus: ‘audis,</l>
 <l>Iuppiter, haec, nec labra moves, cum mittere vocem</l>
 <l n="115">debueris vel marmoreus vel aeneus? aut cur</l>
 <l>in carbone tuo charta pia tura soluta</l>
 <l>ponimus et sectum vituli iecur albaque porci</l>
 <l>omenta? ut video, nullum discrimen habendum est</l>
-<l>effigies inter vestras statuamque Vagelli.&rsquo;</l>
+<l>effigies inter vestras statuamque Vagelli.’</l>
 <l n="120">Accipe quae contra valeat solacia ferre</l>
 <l>et qui nec cynicos nec stoica dogmata legit</l>
 <l>a cynicis tunica distantia, non Epicurum</l>
@@ -3361,12 +3348,12 @@
 <l>gentibus in nostris, risu quatiare; sed illic,</l>
 <l>quamquam eadem adsidue spectentur proelia, ridet</l>
 <l>nemo, ubi tota cohors pede non est altior uno.</l>
-<l>&lsquo;Nullane peiuri capitis fraudisque nefandae</l>
-<l n="175">poena erit?&rsquo; abreptum crede hunc graviore catena</l>
+<l>‘Nullane peiuri capitis fraudisque nefandae</l>
+<l n="175">poena erit?’ abreptum crede hunc graviore catena</l>
 <l>protinus et nostro (quid plus velit ira?) necari</l>
 <l>arbitrio: manet illa tamen iactura, nec umquam</l>
 <l>depositum tibi sospes erit, sed corpore t runco</l>
-<l>invidiosa dabit minimus<note><hi rend="italics"><foreign lang="la">minimus</foreign></hi> P<foreign lang="greek">*y</foreign>: Housman conj. <hi rend="italics"><foreign lang="la">solum</foreign></hi>.</note> solacia sanguis.</l>
+<l>invidiosa dabit minimus<note><hi rend="italics"><foreign lang="lat">minimus</foreign></hi> P<foreign lang="grc">Ψ</foreign>: Housman conj. <hi rend="italics"><foreign lang="lat">solum</foreign></hi>.</note> solacia sanguis.</l>
 <l n="180"><q>at vindicta bonum vita iucundius ipsa.</q></l>
 <l>nempe hoc indocti, quorum praecordia nullis</l>
 <l>interdum aut levibus videas flagrantia causis;</l>
@@ -3441,7 +3428,7 @@
 				<div2 type="poem" n="14" met="hexameter" org="uniform" sample="complete">
 					<head>Satura XIV</head>
 <l>Plurima sunt, Fuscine, et fama digna sinistra</l>
-<l n="1a"><del>et quod maiorum vitia sequiturque minores</del><note>Büch. (1910) inserts within brackets this line found in <foreign lang="greek">*y</foreign> between 14.1 and 14.2: . AG read <hi rend="italics"><foreign lang="la">vitio</foreign></hi> for <hi rend="italics"><foreign lang="la">vitia</foreign></hi>.</note></l>
+<l n="1a"><del>et quod maiorum vitia sequiturque minores</del><note>Büch. (1910) inserts within brackets this line found in <foreign lang="grc">Ψ</foreign> between 14.1 and 14.2: . AG read <hi rend="italics"><foreign lang="lat">vitio</foreign></hi> for <hi rend="italics"><foreign lang="lat">vitia</foreign></hi>.</note></l>
 <l>et nitidis maculam haesuram figentia rebus,</l>
 <l>quae monstrant ipsi pueris traduntque parentes,</l>
 <l>si damnosa senem iuvat alea, ludit et heres</l>
@@ -3485,7 +3472,7 @@
 <l>quocumque in populo videas, quocumque sub axe,</l>
 <l>sed nec Brutus erit Bruti nec avunculus usquam,</l>
 <l>nil dictu foedum visuque haec limina tangat,</l>
-<l n="45">intra quae pater est<note><hi rend="italics"><foreign lang="la">est</foreign></hi> P<foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">es</foreign></hi> Housman after Cramer.</note>; procul, a procul inde puellae</l>
+<l n="45">intra quae pater est<note><hi rend="italics"><foreign lang="lat">est</foreign></hi> P<foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">es</foreign></hi> Housman after Cramer.</note>; procul, a procul inde puellae</l>
 <l>lenonum et cantus pernoctantis parasiti.</l>
 <l>maxima debetur puero reverentia, siquid</l>
 <l>turpe paras; nec tu pueri contempseris annos,</l>
@@ -3500,9 +3487,9 @@
 <l>cum facias peiora senex vacuumque cerebro</l>
 <l>iam pridem caput hoc ventosa cucurbita quaerat?</l>
 <l>Hospite venturo cessabit nemo tuorum.</l>
-<l n="60">&lsquo;verre pavimentum, nitidas ostende columnas,</l>
+<l n="60">‘verre pavimentum, nitidas ostende columnas,</l>
 <l>arida cum tota descendat aranea tela;</l>
-<l>hic leve argentum, vasa aspera tergeat alter&rsquo;:</l>
+<l>hic leve argentum, vasa aspera tergeat alter’:</l>
 <l>vox domini furit instantis virgamque tenentis.</l>
 <l>ergo miser trepidas, ne stercore foeda canino</l>
 <l n="65">atria displiceant oculis venientis amici,</l>
@@ -3511,7 +3498,7 @@
 <l>illud non agitas, ut sanctam filius omni</l>
 <l>aspiciat sine labe domum vitioque carentem?</l>
 <l n="70">gratum est quod patriae civem populoque dedisti,</l>
-<l>si facis ut patriae<note><hi rend="italics"><foreign lang="la">patriae</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">patria</foreign></hi> PS: Housman conjectures <hi rend="italics"><foreign lang="la">civis</foreign></hi>.</note> sit idoneus, utilis agris,</l>
+<l>si facis ut patriae<note><hi rend="italics"><foreign lang="lat">patriae</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">patria</foreign></hi> PS: Housman conjectures <hi rend="italics"><foreign lang="lat">civis</foreign></hi>.</note> sit idoneus, utilis agris,</l>
 <l>utilis et bellorum et pacis rebus agendis,</l>
 <l>plurimum enim intererit quibus artibus et quibus hunc tu</l>
 <l>moribus instituas. serpente ciconia pullos</l>
@@ -3553,7 +3540,7 @@
 <l n="110">cum sit triste habitu vultuque et veste severum,</l>
 <l>nec dubie tamquam frugi laudetur avarus,</l>
 <l>tamquam parcus homo et rerum tutela suarum</l>
-<l>certa magis quam si fortunas<note>PFGU have <hi rend="italics"><foreign lang="la">fortuna</foreign></hi>, other MSS. <hi rend="italics"><foreign lang="la">fortunas</foreign></hi>: Büch. (1910) reads <hi rend="italics"><foreign lang="la">a fortuna</foreign></hi>.</note> servet easdem</l>
+<l>certa magis quam si fortunas<note>PFGU have <hi rend="italics"><foreign lang="lat">fortuna</foreign></hi>, other MSS. <hi rend="italics"><foreign lang="lat">fortunas</foreign></hi>: Büch. (1910) reads <hi rend="italics"><foreign lang="lat">a fortuna</foreign></hi>.</note> servet easdem</l>
 <l>Hesperidum serpens aut Ponticus. adde quod hunc de</l>
 <l n="115">quo loquor egregium populus putat adquirendi</l>
 <l>artificem; quippe his crescunt patrimonia fabris,</l>
@@ -3562,7 +3549,7 @@
 <l>Et pater ergo animi felices credit avaros;</l>
 <l n="120">qui miratur opes, qui nulla exempla beati;</l>
 <l>pauperis esse putat, iuvenes hortatur ut illa</l>
-<l>ire via pergant<note><hi rend="italics"><foreign lang="la">pergant</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">peragant</foreign></hi> P.</note> et eidem incumbere sectae,</l>
+<l>ire via pergant<note><hi rend="italics"><foreign lang="lat">pergant</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">peragant</foreign></hi> P.</note> et eidem incumbere sectae,</l>
 <l>sunt quaedam vitiorum elementa, his protinus illos</l>
 <l>inbuit et cogit minimas ediscere sordes;</l>
 <l n="125">mox adquirendi docet insatiabile votum.</l>
@@ -3574,12 +3561,12 @@
 <l>alterius conchem aestivam cum parte lacerti</l>
 <l>signatam vel dimidio putrique siluro,</l>
 <l>filaque sectivi numerata includere porri.</l>
-<l>invitatus ad haec aliquis de ponte negabit<note><hi rend="italics"><foreign lang="la">negabit</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">negavit</foreign></hi> PS: <hi rend="italics"><foreign lang="la">negabat</foreign></hi> O.</note>.</l>
+<l>invitatus ad haec aliquis de ponte negabit<note><hi rend="italics"><foreign lang="lat">negabit</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">negavit</foreign></hi> PS: <hi rend="italics"><foreign lang="lat">negabat</foreign></hi> O.</note>.</l>
 <l n="135">sed quo divitias haec per tormenta coactas,</l>
 <l>cum furor baut dubius, cum sit manifesta phrenesis,</l>
 <l>ut locuples moriaris, egentis vivere fato?</l>
 <l>interea pleno cum turget sacculus ore,</l>
-<l>crescit<note><hi rend="italics"><foreign lang="la">crevit</foreign></hi> P: other MSS <hi rend="italics"><foreign lang="la">crescit</foreign></hi>.</note> amor nummi quantum ipsa pecunia crevit,</l>
+<l>crescit<note><hi rend="italics"><foreign lang="lat">crevit</foreign></hi> P: other MSS <hi rend="italics"><foreign lang="lat">crescit</foreign></hi>.</note> amor nummi quantum ipsa pecunia crevit,</l>
 <l n="140">et minus hanc optat qui non habet, ergo paratur</l>
 <l>altera villa tibi, cum rus non sufficit unum,</l>
 <l>et proferre libet fines maiorque videtur</l>
@@ -3592,10 +3579,10 @@
 <l>in ventres abeant, ut credas falcibus actum.</l>
 <l n="150">dicere vix possis quam multi talia plorent</l>
 <l>et quot venales iniuria fecerit agros</l>
-<l>Sed qui sermones, quam foedae<note><hi rend="italics"><foreign lang="la">foedae</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">foede</foreign></hi> PG.</note> bucina famae!</l>
-<l><q>quid nocet haec?</q> inquit, &lsquo;tunicam mihi malo lupini</l>
+<l>Sed qui sermones, quam foedae<note><hi rend="italics"><foreign lang="lat">foedae</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">foede</foreign></hi> PG.</note> bucina famae!</l>
+<l><q>quid nocet haec?</q> inquit, ‘tunicam mihi malo lupini</l>
 <l>quam si me toto laudet vicinia pago</l>
-<l n="155">exigui ruris paucissima farra secantem.&rsquo;</l>
+<l n="155">exigui ruris paucissima farra secantem.’</l>
 <l>scilicet et morbis et debilitate carebis,</l>
 <l>et luctum et curam effugies, et tempora vitae</l>
 <l>longa tibi posthac fato meliore dabuntur,</l>
@@ -3619,19 +3606,19 @@
 <l>inmodici census, nam dives qui fieri vult,</l>
 <l>et cito vult fieri; sed quae reverentia legum,</l>
 <l>quis metus aut pudor est umquam properantis avari?</l>
-<l>&lsquo;vivite contenti casulis et collibus istis,</l>
-<l n="180">o pueri,&rsquo; Marsus dicebat et Hernicus olim</l>
-<l>Vestinusque senex; &lsquo;panem quaeramus aratro,</l>
+<l>‘vivite contenti casulis et collibus istis,</l>
+<l n="180">o pueri,’ Marsus dicebat et Hernicus olim</l>
+<l>Vestinusque senex; ‘panem quaeramus aratro,</l>
 <l>qui satis est mensis; laudant hoc numina ruris,</l>
 <l>quorum ope et auxilio gratae post munus aristae</l>
 <l>contingunt homini veteris fastidia quercus.</l>
 <l n="185">nil vetitum fecisse volet quem non pudet alto</l>
 <l>per glaciem perone tegi, qui summovet Euros</l>
 <l>pellibus inversis: peregrina ignotaque nobis</l>
-<l>ad scelus atque nefas, quaecumque est, purpura ducit.&rsquo;</l>
+<l>ad scelus atque nefas, quaecumque est, purpura ducit.’</l>
 <l>Haec illi veteres praecepta minoribus, at nunc</l>
 <l n="190">post finem autumni media de nocte supinum</l>
-<l>clamosus iuvenem pater excitat: &lsquo;accipe ceras,</l>
+<l>clamosus iuvenem pater excitat: ‘accipe ceras,</l>
 <l>scribe, puer, vigila, causas age, perlege rubras</l>
 <l>maiorum leges, aut vitem posce libello,</l>
 <l>sed caput intactum buxo naresque pilosas</l>
@@ -3649,14 +3636,14 @@
 <l>versetur dis atque ipso Iove digna poeta:</l>
 <l><quote> unde habeas quaerit nemo, sed oportet habere.</quote></l>
 <l>hoc monstrant vetulae pueris repentibus assae,</l>
-<l>hoc discunt omnes ante alpha et beta puellae.&rsquo;</l>
+<l>hoc discunt omnes ante alpha et beta puellae.’</l>
 <l n="210">Talibus instantem monitis quemcumque parentem</l>
-<l>sic possem adfari: &lsquo;dic, o vanissime, quis te</l>
+<l>sic possem adfari: ‘dic, o vanissime, quis te</l>
 <l>festinare iubet? meliorem praesto magistro</l>
 <l>discipulum, securus abi: vincens ut Aiax</l>
 <l>praeteriit Telamonem, ut Pelea vicit Achilles,</l>
 <l n="215">parcendum est teneris, nondum implevere medullas</l>
-<l>maturae<note><hi rend="italics"><foreign lang="la">maturae</foreign></hi> <q>quinque Rupertii</q>: <hi rend="italics"><foreign lang="la">naturae</foreign></hi> P<foreign lang="greek">*y</foreign>.</note> mala nequitiae, cum pectere barbam</l>
+<l>maturae<note><hi rend="italics"><foreign lang="lat">maturae</foreign></hi> <q>quinque Rupertii</q>: <hi rend="italics"><foreign lang="lat">naturae</foreign></hi> P<foreign lang="grc">Ψ</foreign>.</note> mala nequitiae, cum pectere barbam</l>
 <l>coeperit et longae mucronem admittere cultri,</l>
 <l>falsus erit testis, vendet periuria summa</l>
 <l>exigua et Cereris tangens aramque pedemque,</l>
@@ -3664,8 +3651,8 @@
 <l>mortifera cum dote subit, quibus illa premetur</l>
 <l>per somnum digitis! nam quae terraque marique</l>
 <l>adquirenda putas, brevior via conteret illi;</l>
-<l>nullus enim magni sceleris labor. &ldquo;haec ego numquam</l>
-<l n="225">mandavi,&rdquo; dices olim, <quote>nec talia suasi.</quote></l>
+<l>nullus enim magni sceleris labor. “haec ego numquam</l>
+<l n="225">mandavi,” dices olim, <quote>nec talia suasi.</quote></l>
 <l>mentis causa malae tamen est et origo penes te.</l>
 <l>nam quisquis magni census praecepit amorem</l>
 <l>et laevo monitu pueros producit avaros</l>
@@ -3695,7 +3682,7 @@
 <l>ocius Archigenen quaere atque eme quod Mithridates</l>
 <l>composuit; si vis aliam decerpere ficum</l>
 <l>atque alias tractare rosas, medicamen habendum est,</l>
-<l n="255">sorbere ante cibum quod debeat et pater et rex.&rsquo;</l>
+<l n="255">sorbere ante cibum quod debeat et pater et rex.’</l>
 <l>Monstro voluptatem egregiam, cui nulla theatra,</l>
 <l>nulla aequare queas praetoris pulpita lauti,</l>
 <l>si spectes quanto capitis discrimine constent</l>
@@ -3709,7 +3696,7 @@
 <l>corpora quique solet rectum descendere funem,</l>
 <l>quam tu, Corycia semper qui puppe moraris,</l>
 <l>atque habitas, Coro semper tollendus et Austro,</l>
-<l>perditus ac vilis<note><hi rend="italics"><foreign lang="la">ac vilis</foreign></hi> P etc.: <hi rend="italics"><foreign lang="la">a siculis</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">ac similis</foreign></hi> conjecture Housman: <hi rend="italics"><foreign lang="la">assiculis</foreign></hi> Büch. (1910).</note> sacci mercator olentis,</l>
+<l>perditus ac vilis<note><hi rend="italics"><foreign lang="lat">ac vilis</foreign></hi> P etc.: <hi rend="italics"><foreign lang="lat">a siculis</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">ac similis</foreign></hi> conjecture Housman: <hi rend="italics"><foreign lang="lat">assiculis</foreign></hi> Büch. (1910).</note> sacci mercator olentis,</l>
 <l n="270">qui gaudes pingue antiquae de litore Cretae</l>
 <l>passum et municipes Iovis advexisse lagonas?</l>
 <l>hic tamen ancipiti figens vestigia planta</l>
@@ -3734,8 +3721,8 @@
 <l>concisum argentum in titulos faciesque minutas.</l>
 <l>occurrunt nubes et fulgura: <q>solvite funem </q></l>
 <l>frumenti dominus clamat piperisve coempti,</l>
-<l>&lsquo;nil color hic caeli, nil fascia nigra minatur;</l>
-<l n="295">aestivum tonat.&rsquo; infelix hac forsitan ipsa</l>
+<l>‘nil color hic caeli, nil fascia nigra minatur;</l>
+<l n="295">aestivum tonat.’ infelix hac forsitan ipsa</l>
 <l>nocte cadet fractis trabibus fluctuque premetur</l>
 <l>obrutus et zonam laeva morsuque tenebit,</l>
 <l>sed cuius votis modo non suffecerat aurum</l>
@@ -3756,7 +3743,7 @@
 <l>nil cuperet quam qui totum sibi posceret orbem</l>
 <l>passurus gestis aequanda pericula rebus, nullum</l>
 <l n="315">numen habes, si sit prudentia: nos te,</l>
-<l>nos facimus, Fortuna, deam<note>The sentence <hi rend="italics"><foreign lang="la">nullum</foreign></hi> through <hi rend="italics"><foreign lang="la">deam</foreign></hi> is repeated from 10.365-66, quite irrelevantly.</note>. Mensura tamen quae</l>
+<l>nos facimus, Fortuna, deam<note>The sentence <hi rend="italics"><foreign lang="lat">nullum</foreign></hi> through <hi rend="italics"><foreign lang="lat">deam</foreign></hi> is repeated from 10.365-66, quite irrelevantly.</note>. Mensura tamen quae</l>
 <l>sufficiat census, siquis me consulat, edam:</l>
 <l>in quantum sitis atque fames et frigora poscunt,</l>
 <l>quantum, Epicure, tibi parvis suffecit in hortis,</l>
@@ -3781,7 +3768,7 @@
 <l>effigies sacri nitet aurea cercopitheci,</l>
 <l n="5">dimidio magicae resonant ubi Memnone chordae</l>
 <l>atque vetus Thebe centum iacet obruta portis,</l>
-<l>illic aeluros<note><hi rend="italics"><foreign lang="la">aeluros</foreign></hi> Brod.: <hi rend="italics"><foreign lang="la">illic caeruleos</foreign></hi> <foreign lang="greek">*y</foreign>.</note>, hic piscem fluminis, illic</l>
+<l>illic aeluros<note><hi rend="italics"><foreign lang="lat">aeluros</foreign></hi> Brod.: <hi rend="italics"><foreign lang="lat">illic caeruleos</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note>, hic piscem fluminis, illic</l>
 <l>oppida tota canem venerantur, nemo Dianam,</l>
 <l>orrum et caepe nefas violare et frangere morsu;</l>
 <l n="10">o sanctas gentes quibus haec nascuntur in hortis</l>
@@ -3790,18 +3777,18 @@
 <l>carnibus humanis vesci licet, attonito cum</l>
 <l>tale super cenam facinus narraret Vlixes</l>
 <l n="15">Alcinoo, bilem aut risum fortasse quibusdam</l>
-<l>moverat ut mendax aretalogus. &lsquo;in mare nemo</l>
+<l>moverat ut mendax aretalogus. ‘in mare nemo</l>
 <l>hunc abicit saeva dignum veraque Charybdi,</l>
 <l>fingentem inmanes Laestrygonas atque Cyclopas?</l>
 <l>nam citius Scyllam vel concurrentia saxa</l>
 <l n="20">Cyaneis plenos et tempestatibus utres</l>
 <l>crediderim aut tenui percussum verbere Circes</l>
 <l>et cum remigibus grunnisse Elpenora portis.</l>
-<l>tam vacui capitis populum Phaeaca putavit?&rsquo;</l>
+<l>tam vacui capitis populum Phaeaca putavit?’</l>
 <l>sic aliquis merito nondum ebrius et minimum qui</l>
 <l n="25">de Corcyraea temetum duxerat urna.</l>
 <l>solus enim haec Ithacus nullo sub teste canebat;</l>
-<l>Nos miranda quidem, set nuper consule Iunco<note><hi rend="italics"><foreign lang="la">iunco</foreign></hi> Bob.AU: <hi rend="italics"><foreign lang="la">iunpo</foreign></hi> P: <hi rend="italics"><foreign lang="la">iunio</foreign></hi> <foreign lang="greek">*y</foreign>.</note></l>
+<l>Nos miranda quidem, set nuper consule Iunco<note><hi rend="italics"><foreign lang="lat">iunco</foreign></hi> Bob.AU: <hi rend="italics"><foreign lang="lat">iunpo</foreign></hi> P: <hi rend="italics"><foreign lang="lat">iunio</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note></l>
 <l>gesta super calidae referemus moenia Copti,</l>
 <l>nos volgi scelus et cunctis graviora cothurnis;</l>
 <l n="30">nam scelus, a Pyrra quamquam omnia syrmata volvas,</l>
@@ -3849,7 +3836,7 @@
 <l>A deverticulo repetatur fabula, postquam</l>
 <l>subsidiis aucti, pars altera promere ferrum</l>
 <l>audet et infestis pugnam instaurare sagittis,</l>
-<l n="75">terga fugae<note><hi rend="italics"><foreign lang="la">fugae</foreign></hi> POT: <hi rend="italics"><foreign lang="la">fuga</foreign></hi> <foreign lang="greek">*y</foreign>. The correct reading <hi rend="italics"><foreign lang="la">instantibus Ombis</foreign></hi> is preserved by O only.</note> celeri praestant instantibus Ombis</l>
+<l n="75">terga fugae<note><hi rend="italics"><foreign lang="lat">fugae</foreign></hi> POT: <hi rend="italics"><foreign lang="lat">fuga</foreign></hi> <foreign lang="grc">Ψ</foreign>. The correct reading <hi rend="italics"><foreign lang="lat">instantibus Ombis</foreign></hi> is preserved by O only.</note> celeri praestant instantibus Ombis</l>
 <l>qui vicina colunt umbrosae Tentyra palmae,</l>
 <l>labitur hic quidam nimia formidine cursum</l>
 <l>praecipitans capiturque. ast illum in plurima sectum</l>
@@ -3872,16 +3859,16 @@
 <l n="95">fortunae invidia est bellorumque ultima, casus</l>
 <l>extremi, longae dira obsidionis egestas:</l>
 <l>huius enim, quod nunc agitur, miserabile debet</l>
-<l>exemplum esse cibi, sicut<note>Housman reads <hi rend="italics"><foreign lang="la">tibi</foreign></hi> from G in place of <hi rend="italics"><foreign lang="la">cibi</foreign></hi> P<foreign lang="greek">*y</foreign>, and conjectures <hi rend="italics"><foreign lang="la">si cui</foreign></hi> in place of <hi rend="italics"><foreign lang="la">sicut</foreign></hi> P<foreign lang="greek">*y</foreign>.</note> modo dicta mihi gens:</l>
+<l>exemplum esse cibi, sicut<note>Housman reads <hi rend="italics"><foreign lang="lat">tibi</foreign></hi> from G in place of <hi rend="italics"><foreign lang="lat">cibi</foreign></hi> P<foreign lang="grc">Ψ</foreign>, and conjectures <hi rend="italics"><foreign lang="lat">si cui</foreign></hi> in place of <hi rend="italics"><foreign lang="lat">sicut</foreign></hi> P<foreign lang="grc">Ψ</foreign>.</note> modo dicta mihi gens:</l>
 <l>post omnis herbas, post cuncta animalia, quidquid</l>
 <l n="100">cogebat vacui ventris furor, hostibus ipsis</l>
 <l>pallorem ac maciem et tenuis miserantibus artus,</l>
 <l>membra aliena fame lacerabant, esse parati</l>
 <l>et sua. quisnam hominum veniam dare quisve deorum</l>
-<l>ventribus<note>So Housman, after Hadr. Vales.: PU have <hi rend="italics"><foreign lang="la">urbibus</foreign></hi>, and so Büch. and Owen: <hi rend="italics"><foreign lang="la">viribus</foreign></hi> <foreign lang="greek">*y</foreign>.</note> abnueret dira atque inmania passis,</l>
+<l>ventribus<note>So Housman, after Hadr. Vales.: PU have <hi rend="italics"><foreign lang="lat">urbibus</foreign></hi>, and so Büch. and Owen: <hi rend="italics"><foreign lang="lat">viribus</foreign></hi> <foreign lang="grc">Ψ</foreign>.</note> abnueret dira atque inmania passis,</l>
 <l n="105">et quibus illorum poterant ignoscere manes,</l>
 <l>quorum corporibus vescebantur? melius nos</l>
-<l>Zenonis praecepta monent, nec enim omnia, quaedam<note><hi rend="italics"><foreign lang="la">quaedam</foreign></hi> AGLT: P has <hi rend="italics"><foreign lang="la">quidam</foreign></hi>: so Büch. and Housman</note> </l>
+<l>Zenonis praecepta monent, nec enim omnia, quaedam<note><hi rend="italics"><foreign lang="lat">quaedam</foreign></hi> AGLT: P has <hi rend="italics"><foreign lang="lat">quidam</foreign></hi>: so Büch. and Housman</note> </l>
 <l>pro vita facienda putant; sed Cantaber unde</l>
 <l>Stoicus, antiqui praesertim aetate Metelli?</l>
 <l n="110">nunc totus Graias nostrasque habet orbis Athenas,</l>
@@ -3928,7 +3915,7 @@
 <l>dispersos trahere in populum, migrare vetusto</l>
 <l>de nemore et proavis habitatas linquere silvas,</l>
 <l>aedificare domos, laribus coniungere nostris</l>
-<l>tectum aliud, tutos vicino limine<note><hi rend="italics"><foreign lang="la">limine</foreign></hi> <foreign lang="greek">*y</foreign>: <hi rend="italics"><foreign lang="la">limite</foreign></hi> PA.</note> somnos</l>
+<l>tectum aliud, tutos vicino limine<note><hi rend="italics"><foreign lang="lat">limine</foreign></hi> <foreign lang="grc">Ψ</foreign>: <hi rend="italics"><foreign lang="lat">limite</foreign></hi> PA.</note> somnos</l>
 <l n="155">ut collata daret fiducia, protegere armis</l>
 <l>lapsum aut ingenti nutantem vulnere civem,</l>
 <l>communi dare signa tuba, defendier isdem</l>
@@ -3968,12 +3955,12 @@
 <l>calceus et grandes magna ad subsellia surae</l>
 <l n="15">legibus antiquis castrorum et more Camilli</l>
 <l>servato, miles ne vallum litiget extra</l>
-<l>et procul a signis. &lsquo;iustissima centurionum</l>
-<l>cognitio est igitur<note>For the <hi rend="italics"><foreign lang="la">igitur</foreign></hi> of P<foreign lang="greek">*y</foreign> Housman reads <hi rend="italics"><foreign lang="la">inquis</foreign></hi>.</note> de milite, nec mihi derit</l>
-<l>ultio, si iustae defertur causa querellae.&rsquo;</l>
+<l>et procul a signis. ‘iustissima centurionum</l>
+<l>cognitio est igitur<note>For the <hi rend="italics"><foreign lang="lat">igitur</foreign></hi> of P<foreign lang="grc">Ψ</foreign> Housman reads <hi rend="italics"><foreign lang="lat">inquis</foreign></hi>.</note> de milite, nec mihi derit</l>
+<l>ultio, si iustae defertur causa querellae.’</l>
 <l n="20">tota cohors tamen est inimica, omnesque manipli</l>
 <l>consensu magno efficiunt curabilis ut sit</l>
-<l>vindicta et gravior quam<note><hi rend="italics"><foreign lang="la">quam</foreign></hi> P<foreign lang="greek">*y</foreign>: Büch. (1910) conjectures <hi rend="italics"><foreign lang="la">tum</foreign></hi>.</note> iniuria, dignum erit ergo</l>
+<l>vindicta et gravior quam<note><hi rend="italics"><foreign lang="lat">quam</foreign></hi> P<foreign lang="grc">Ψ</foreign>: Büch. (1910) conjectures <hi rend="italics"><foreign lang="lat">tum</foreign></hi>.</note> iniuria, dignum erit ergo</l>
 <l>declamatoris mulino corde Vagelli,</l>
 <l>cum duo crura habeas, offendere tot caligas, tot</l>
 <l n="25">milia clavorum, quis tam procul absit ab urbe</l>
@@ -4011,9 +3998,10 @@
 <l>provehit et pulchro reddit sua dona labori,</l>
 <l>ipsius certe ducis hoc referre videtur</l>
 <l>ut qui fortis erit, sit felicissimus idem,</l>
-<l n="60">ut laeti phaleris omnes et torquibus, omnes<note>The <hi rend="italics"><foreign lang="la">Saturae</foreign></hi> are broken off at this point.</note></l>
+<l n="60">ut laeti phaleris omnes et torquibus, omnes<note>The <hi rend="italics"><foreign lang="lat">Saturae</foreign></hi> are broken off at this point.</note></l>
 				</div2>
 			</div1>
+			</div>
 		</body>
 	</text>
 </TEI.2>

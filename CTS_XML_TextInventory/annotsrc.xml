@@ -63,6 +63,29 @@
         </work>
     </textgroup>
     -->
+    <textgroup projid="latinLit:phi1276">
+        <groupname xml:lang="eng">Juvenal</groupname>
+        <work projid="latinLit:phi001">
+            <title xml:lang="eng">Satires</title>
+            <edition projid="latinLit:perseus-lat1">
+                <label xml:lang="eng">Satires</label>
+                <description xml:lang="eng">
+                    Juvenal and Persius: With An English Translation, G. G. Ramsay, 1918, William Heinemann; G. P. Putnam's Son, London
+                </description>
+                <online docname="/db/repository/latinLit/phi1276/phi001/phi1276.phi001.perseus-lat1.xml">
+                    <validate schema="tei-xl.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/tei:div1[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div2[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']/tei:div2[@n='?']" />
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
     <textgroup projid="latinLit:phi1294">
         <groupname xml:lang="eng">Martial</groupname>
         <work projid="latinLit:phi002">
