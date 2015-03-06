@@ -44,6 +44,7 @@
       <langUsage default="false">
         <language ident="eng">English</language>
         <language ident="lat">Latin</language>
+        <language ident="grc">Greek</language>
       </langUsage>
     </profileDesc>
 
@@ -382,7 +383,7 @@
 <l n="4">Tu factam tibi rem statim putasti </l>
 <l n="5">Et non sobria verba subnotasti </l>
 <l n="6">Exemplo nimium periculoso: </l>
-<l n="7"><foreign lang="greek">*misw= mna/mona sumpo/tan</foreign>, Procille. </l>
+<l n="7"><foreign lang="grc">*misw= mna/mona sumpo/tan</foreign>, Procille. </l>
 </div2>
 
 <div2 type="poem" n="28">
@@ -585,7 +586,7 @@
 <head>XLV</head>
  
 <l n="1">Edita ne brevibus pereat mihi cura libellis, </l>
-<l n="2">Dicatur potius <foreign lang="greek">*to\n d' a)pameibo/menos</foreign>. </l>
+<l n="2">Dicatur potius <foreign lang="grc">*to\n d' a)pameibo/menos</foreign>. </l>
 </div2>
 
 <div2 type="poem" n="46">
@@ -2002,7 +2003,7 @@
 <div2 type="poem" n="43">
 <head>XLIII</head>
  
-<l n="1"><foreign lang="greek">*koina\ fi/lwn</foreign> haec sunt, haec sunt tua, Candide, <foreign lang="greek">koina/</foreign>. </l>
+<l n="1"><foreign lang="grc">*koina\ fi/lwn</foreign> haec sunt, haec sunt tua, Candide, <foreign lang="grc">koina/</foreign>. </l>
 <l n="2">Quae tu magnilocus nocte dieque sonas: <pb/> </l>
 <l n="3">Te Lacedaemonio velat toga lota Galaeso </l>
 <l n="4">Vel quam seposito de grege Parma dedit: </l>
@@ -2017,7 +2018,7 @@
 <l n="13">Grex tuus Iliaco poterat certare cinaedo: </l>
 <l n="14">At mihi succurrit pro Ganymede manus. </l>
 <l n="15">Ex opibus tantis veteri fidoque sodali </l>
-<l n="16">Das nihil et dicis, Candide, <foreign lang="greek">koina\ fi/lwn</foreign>? </l>
+<l n="16">Das nihil et dicis, Candide, <foreign lang="grc">koina\ fi/lwn</foreign>? </l>
 </div2>
 
 <div2 type="poem" n="44">
@@ -2748,7 +2749,7 @@
 <l n="2">Utrumne chartis tradit ille victuris </l>
 <l n="3">Legenda temporum acta Claudianorum? </l>
 <l n="4">An quae Neroni falsus astruit scriptor? </l>
-<l n="5">An aemulatur inprobi <foreign lang="greek">lo/gous</foreign> Phaedri? </l>
+<l n="5">An aemulatur inprobi <foreign lang="grc">lo/gous</foreign> Phaedri? </l>
 <l n="6">Lascivus elegis an severus herois? </l>
 <l n="7">An in coturnis horridus Sophocleis? </l>
 <l n="8">An otiosus in schola poetarum </l>
@@ -3430,7 +3431,7 @@
 <l n="7">Teque iuvant gerres et pelle melandrya cana, </l>
 <l n="8">Resinata bibis vina, Falerna fugis. </l>
 <l n="9">Nescio quod stomachi vitium secretius esse </l>
-<l n="10">Suspicor: ut quid enim, Baetice, <foreign lang="greek">saprofagei=s</foreign>? <pb/> </l>
+<l n="10">Suspicor: ut quid enim, Baetice, <foreign lang="grc">saprofagei=s</foreign>? <pb/> </l>
 </div2>
 
 <div2 type="poem" n="78">
@@ -3803,7 +3804,7 @@
  
 <l n="1">Sotae filia clinici, Labulla, </l>
 <l n="2">Deserto sequeris Clytum marito </l>
-<l n="3">Et donas et amas: <foreign lang="greek">e)/xeis a)sw/tws</foreign>. </l>
+<l n="3">Et donas et amas: <foreign lang="grc">e)/xeis a)sw/tws</foreign>. </l>
 </div2>
 
 <div2 type="poem" n="10">
@@ -5324,12 +5325,12 @@
  
 <l n="1">Calliodorus habet censum—quis nescit?—equestrem, </l>
 <l n="2">Sexte, sed et fratrem Calliodorus habet. </l>
-<l n="3">'Quadringenta seca' qui dicit <foreign lang="greek">su=ka meri/zei</foreign>: </l>
+<l n="3">'Quadringenta seca' qui dicit <foreign lang="grc">su=ka meri/zei</foreign>: </l>
 <l n="4">Uno credis equo posse sedere duos? </l>
 <l n="5">Quid cum fratre tibi, quid cum Polluce molesto? </l>
 <l n="6">Non esset Pollux si tibi, Castor eras. </l>
 <l n="7">Unus cum sitis, duo, Calliodore, sedebis? </l>
-<l n="8">Surge: <foreign lang="greek">soloikismo\n</foreign>, Calliodore, facis. </l>
+<l n="8">Surge: <foreign lang="grc">soloikismo\n</foreign>, Calliodore, facis. </l>
 <l n="9">Aut imitare genus Ledae—cum fratre sedere </l>
 <l n="10">Non potes—: alternis, Calliodore, sede. </l>
 </div2>
@@ -5481,7 +5482,7 @@
 <l n="4">Epistulisque commodat gravem voltum </l>
 <l n="5">Similis Catoni Tullioque Brutoque, </l>
 <l n="6">Exprimere, Rufe, fidiculae licet cogant, </l>
-<l n="7">Have Latinum, <foreign lang="greek">xai=re</foreign> non potest Graecum. </l>
+<l n="7">Have Latinum, <foreign lang="grc">xai=re</foreign> non potest Graecum. </l>
 <l n="8">Si fingere istud me putas, salutemus. </l>
 </div2>
 
@@ -5772,7 +5773,7 @@
  
 <l n="1">Si tristi domicenio laboras, </l>
 <l n="2">Torani, potes esurire mecum. </l>
-<l n="3">Non deerunt tibi, si soles <foreign lang="greek">propi/nein</foreign>, </l>
+<l n="3">Non deerunt tibi, si soles <foreign lang="grc">propi/nein</foreign>, </l>
 <l n="4">Viles Cappadocae gravesque porri, </l>
 <l n="5">Divisis cybium latebit ovis. </l>
 <l n="6">Ponetur digitis tenendus ustis </l>
@@ -5930,7 +5931,7 @@
 <head>VI</head>
  
 <l n="1">Comoedi tres sunt, sed amat tua Paula, Luperce, </l>
-<l n="2">Quattuor: et <foreign lang="greek">kwfo\n</foreign> Paula <foreign lang="greek">pro/swpon</foreign> amat. </l>
+<l n="2">Quattuor: et <foreign lang="grc">kwfo\n</foreign> Paula <foreign lang="grc">pro/swpon</foreign> amat. </l>
 </div2>
 
 <div2 type="poem" n="7">
@@ -7550,7 +7551,7 @@
 <l n="3">Excrucias multis pariter me teque diebus, </l>
 <l n="4">Et tua de nostro, Prisce, Thalia tacet. </l>
 <l n="5">Divitibus poteris musas elegosque sonantes </l>
-<l n="6">Mittere: pauperibus munera <foreign lang="greek">peza\</foreign> dato. </l>
+<l n="6">Mittere: pauperibus munera <foreign lang="grc">peza\</foreign> dato. </l>
 </div2>
 
 <div2 type="poem" n="47">
@@ -7686,7 +7687,7 @@
 <head>LVII</head>
  
 <l n="1">Castora de Polluce Gabinia fecit Achillan: </l>
-<l n="2"><foreign lang="greek">*pu\c a)gaqo\s</foreign> fuerat, nunc erit <foreign lang="greek">i(ppo/damos.</foreign> </l>
+<l n="2"><foreign lang="grc">*pu\c a)gaqo\s</foreign> fuerat, nunc erit <foreign lang="grc">i(ppo/damos.</foreign> </l>
 </div2>
 
 <div2 type="poem" n="58">
@@ -9454,7 +9455,7 @@
 <l n="12">Sed tu syllaba contumax rebellas. <pb/> </l>
 <l n="13">Dicunt Eiarinon tamen poetae, </l>
 <l n="14">Sed Graeci, quibus est nihil negatum </l>
-<l n="15">Et quos <foreign lang="greek">*)=ares *)/ares</foreign> decet sonare: </l>
+<l n="15">Et quos <foreign lang="grc">*)=ares *)/ares</foreign> decet sonare: </l>
 <l n="16">Nobis non licet esse tam disertis, </l>
 <l n="17">Qui Musas colimus severiores. </l>
 </div2>
@@ -9896,7 +9897,7 @@
 <l n="3">Risit, nam solet hoc, levique nutu <pb/> </l>
 <l n="4">'Graece numquid' ait 'poeta, nescis? </l>
 <l n="5">Inscripta est basis indicatque nomen.' </l>
-<l n="6"><foreign lang="greek">*lusi/ppou</foreign> lego, Phidiae putavi. </l>
+<l n="6"><foreign lang="grc">*lusi/ppou</foreign> lego, Phidiae putavi. </l>
 </div2>
 
 <div2 type="poem" n="45">
@@ -10549,7 +10550,7 @@
 <l n="1">Santonica medicata dedit mihi pocula virga: </l>
 <l n="2">Os hominis! mulsum me rogat Hippocrates. </l>
 <l n="3">Tam stupidus numquam nec tu, puto, Glauce, fuisti, </l>
-<l n="4"><foreign lang="greek">xa/lkea</foreign> donanti <foreign lang="greek">xru/sea</foreign> qui dederas. </l>
+<l n="4"><foreign lang="grc">xa/lkea</foreign> donanti <foreign lang="grc">xru/sea</foreign> qui dederas. </l>
 <l n="5">Dulce aliquis munus pro munere poscit amaro? </l>
 <l n="6">Accipiat, sed si potat in elleboro. </l>
 </div2>
@@ -11605,7 +11606,7 @@
 <l n="2">Sed domus in vico, Laelia, patricio, </l>
 <l n="3">Deque coloratis numquam lita mater Etruscis, </l>
 <l n="4">Durus Aricina de regione pater; <pb/> </l>
-<l n="5"><foreign lang="greek">*ku/rie/ mou, me/li mou, yuxh/ mou</foreign> congeris usque, </l>
+<l n="5"><foreign lang="grc">*ku/rie/ mou, me/li mou, yuxh/ mou</foreign> congeris usque, </l>
 <l n="6">—Pro pudor!—Hersiliae civis et Egeriae. </l>
 <l n="7">Lectulus has voces, nec lectulus audiat omnis, </l>
 <l n="8">Sed quem lascivo stravit amica viro. </l>
@@ -12886,7 +12887,7 @@
 <l n="9">Sed fuerit curva cum tuta novacula theca, </l>
 <l n="10">Frangam tonsori crura manusque simul. </l>
 <l n="11">At tibi nil faciam, sed lota mentula lana </l>
-<l n="12"><foreign lang="greek">*laika/zein</foreign> cupidae dicet avaritiae. </l>
+<l n="12"><foreign lang="grc">*laika/zein</foreign> cupidae dicet avaritiae. </l>
 </div2>
 
 <div2 type="poem" n="59">
@@ -16808,7 +16809,7 @@
 
 <div2 type="poem" n="171">
 
-<head>CLXXI <foreign lang="greek">*brou/tou paidi/on</foreign> fictile</head>
+<head>CLXXI <foreign lang="grc">*brou/tou paidi/on</foreign> fictile</head>
 <l n="1">Gloria tam parvi non est obscura sigilli: </l>
 <l n="2">Istius pueri Brutus amator erat. </l>
 </div2>
@@ -16920,7 +16921,7 @@
 
 <div2 type="poem" n="187">
 
-<head>CLXXXVII <foreign lang="greek">*mena/ndrou *qai/+s</foreign></head>
+<head>CLXXXVII <foreign lang="grc">*mena/ndrou *qai/+s</foreign></head>
 <l n="1">Hac primum iuvenum lascivos lusit amores; </l>
 <l n="2">Nec Glycera pueri, Thais amica fuit. </l>
 </div2>
@@ -17020,7 +17021,7 @@
 <head>CCI Palaestrita</head>
  
 <l n="1">Non amo quod vincat, sed quod succumbere novit </l>
-<l n="2">Et didicit melius <foreign lang="greek">th\n e)piklinopa/lhn.</foreign> </l>
+<l n="2">Et didicit melius <foreign lang="grc">th\n e)piklinopa/lhn.</foreign> </l>
 </div2>
 
 <div2 type="poem" n="202">
@@ -17110,8 +17111,8 @@
 <div2 type="poem" n="214">
 <head>CCXIV Comoedi pueri</head>
  
-<l n="1">Non erit in turba quisquam <foreign lang="greek">*misou/menos</foreign> ista: </l>
-<l n="2">Sed poterit quivis esse <foreign lang="greek">*di\s e)capatw=n.</foreign> </l>
+<l n="1">Non erit in turba quisquam <foreign lang="grc">*misou/menos</foreign> ista: </l>
+<l n="2">Sed poterit quivis esse <foreign lang="grc">*di\s e)capatw=n.</foreign> </l>
 </div2>
 
 <div2 type="poem" n="215">
