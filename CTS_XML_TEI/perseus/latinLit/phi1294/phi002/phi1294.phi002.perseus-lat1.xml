@@ -1,62 +1,60 @@
-<?xml version="1.0"?>
-<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
-<!ENTITY % TEI.XML "INCLUDE">
-<!ENTITY % PersVerse PUBLIC "-//Perseus P4//DTD Perseus Verse//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersVerse.dtd" >
-%PersVerse;
-]>
-<TEI.2>
-<teiHeader type="text" status="new">
-<fileDesc>
-<titleStmt>
-<title>Epigrammata</title>
-<author>Martial</author>
-&responsibility;&fund.Tufts;
-</titleStmt>
-&Perseus.publish;
-<sourceDesc>
-<biblStruct>
-<monogr>
-<title>M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus</title>
-<author>Martial</author>
-<editor role="editor">Wilhelm Heraeus<!--, 1862-1938 (main editor)--></editor>
-<editor role="editor">Jacobus Borovskij<!-- (added corrections in 1976, more than 30 years before 2011)--></editor>
-<imprint>
-<pubPlace>Leipzig</pubPlace>
-<date>1925/1976</date>
-</imprint>
-</monogr>
-</biblStruct>
-</sourceDesc>
-</fileDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<encodingDesc>
-<editorialDecl>
-<correction method="silent" status="medium">&Perseus.OCR;</correction>
-</editorialDecl>
-<refsDecl doctype="TEI.2">
-<state unit="book"/>
-<state unit="poem"/>
-<state unit="line"/>
-</refsDecl>
-</encodingDesc>
+<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Epigrammata</title>
+        <author>Martial</author>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
 
-<profileDesc>
-<langUsage>
-<language id="la">Latin</language>
-<language id="greek">Greek</language>
-</langUsage>
-</profileDesc>
 
-<revisionDesc>
-<change><date></date>
-<respStmt><name>GRC</name><resp>markup</resp></respStmt>
-<item>initial markup
-</item>
-</change>
-</revisionDesc>
+      <sourceDesc default="false">
+        <bibl default="false">
+          <monogr>
+            <title>M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus</title>
+            <author>Martial</author>
+            <editor role="editor">Wilhelm Heraeus<!--, 1862-1938 (main editor)--></editor>
+            <editor role="editor">Jacobus Borovskij<!-- (added corrections in 1976, more than 30 years before 2011)--></editor>
+            <publisher>Leipzig Univiersity<!-- Might be wrong--></publisher>
+            <date>1925/1976</date>
+          </monogr>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
 
-</teiHeader>
-<text id="stoa0045.stoa0"><body>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <refState unit="book"/>
+        <refState unit="poem"/>
+        <refState unit="line"/>
+      </refsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage default="false">
+        <language ident="eng">English</language>
+        <language ident="grc">Latin</language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="?" who="unknown">Initial Markup</change>
+      <change when="2015-03-06" who="Thibault Clérice">converted to EpiDoc/CTS</change>
+    </revisionDesc>
+  </teiHeader>
+<text n="urn:cts:latinLit:phi1294.phi002.perseus-lat1" xml:lang="lat" id="stoa0045.stoa0">
+<body>
+<div type="edition">
 <div1 type="book" n="1">
 
 
@@ -235,7 +233,7 @@
 <head>XIV</head>
  
 <l n="1">Delicias, Caesar, lususque iocosque leonum </l>
-<l n="2">Vidimus&mdash;hoc etiam praestat harena tibi&mdash; </l>
+<l n="2">Vidimus—hoc etiam praestat harena tibi— </l>
 <l n="3">Cum prensus blando totiens a dente rediret </l>
 <l n="4">Et per aperta vagus curreret ora lepus. </l>
 <l n="5">Unde potest avidus captae leo parcere praedae? </l>
@@ -687,9 +685,9 @@
 <div2 type="poem" n="52">
 <head>LII</head>
  
-<l n="1">Commendo tibi, Quintiane, nostros&mdash; </l>
+<l n="1">Commendo tibi, Quintiane, nostros— </l>
 <l n="2">Nostros dicere si tamen libellos </l>
-<l n="3">Possum, quos recitat tuus poeta&mdash;: </l>
+<l n="3">Possum, quos recitat tuus poeta—: </l>
 <l n="4">Si de servitio gravi queruntur, </l>
 <l n="5">Adsertor venias satisque praestes, </l>
 <l n="6">Et, cum se dominum vocabit ille, </l>
@@ -718,8 +716,8 @@
 <div2 type="poem" n="54">
 <head>LIV</head>
  
-<l n="1">Si quid, Fusce, vacas adhuc amari&mdash; </l>
-<l n="2">Nam sunt hinc tibi, sunt et hinc amici&mdash;, </l>
+<l n="1">Si quid, Fusce, vacas adhuc amari— </l>
+<l n="2">Nam sunt hinc tibi, sunt et hinc amici—, </l>
 <l n="3">Unum, si superest, locum rogamus, </l>
 <l n="4">Nec me, quod tibi sim novus, recuses: </l>
 <l n="5">Omnes hoc veteres tui fuerunt. </l>
@@ -1166,7 +1164,7 @@
 <l n="8">Dimidiasque nates Gallica paeda tegit, </l>
 <l n="9">Pasceris et nigrae solo nidore culinae </l>
 <l n="10">Et bibis inmundam cum cane pronus aquam: </l>
-<l n="11">Non culum&mdash;neque enim est culus, qui non cacat olim&mdash; </l>
+<l n="11">Non culum—neque enim est culus, qui non cacat olim— </l>
 <l n="12">Sed fodiam digito qui superest oculum: </l>
 <l n="13">Nec me zelotypum nec dixeris esse malignum. </l>
 <l n="14">Denique pedica, Mamuriane, satur. </l>
@@ -1368,7 +1366,7 @@
 <div2 type="poem" n="108">
 <head>CVIII</head>
  
-<l n="1">Est tibi&mdash;sitque precor multos crescatque per annos&mdash; </l>
+<l n="1">Est tibi—sitque precor multos crescatque per annos— </l>
 <l n="2">Pulchra quidem, verum transtiberina domus: </l>
 <l n="3">At mea Vipsanas spectant cenacula laurus, </l>
 <l n="4">Factus in hac ego sum iam regione senex. </l>
@@ -1456,7 +1454,7 @@
 <div2 type="poem" n="115">
 <head>CXV</head>
  
-<l n="1">Quaedam me cupit&mdash;invide, Procille!&mdash; </l>
+<l n="1">Quaedam me cupit—invide, Procille!— </l>
 <l n="2">Loto candidior puella cycno, <pb/> </l>
 <l n="3">Argento, nive, lilio, ligustro. </l>
 <l n="4">Sed quandam volo nocte nigriorem, </l>
@@ -1492,7 +1490,7 @@
 <l n="11">Scriptis postibus hinc et inde totis, </l>
 <l n="12">Omnis ut cito perlegas poetas. </l>
 <l n="13">Illinc me pete. Nec roges Atrectum </l>
-<l n="14">&mdash;Hoc nomen dominus gerit tabernae&mdash;: </l>
+<l n="14">—Hoc nomen dominus gerit tabernae—: </l>
 <l n="15">De primo dabit alterove nido </l>
 <l n="16">Rasum pumice purpuraque cultum </l>
 <l n="17">Denaris tibi quinque Martialem. </l>
@@ -2056,9 +2054,9 @@
 <l n="5">Atque unam vestire tribum tua candida possunt, </l>
 <l n="6">Apula non uno quae grege terra tulit. </l>
 <l n="7">Tu spectas hiemem succincti lentus amici </l>
-<l n="8">&mdash;Pro scelus!&mdash;et lateris frigora trita times. </l>
-<l n="9">Quantum erat, infelix, pannis fraudare duobus&mdash; </l>
-<l n="10">Quid metuis?&mdash;non te, Naevole, sed tineas? </l>
+<l n="8">—Pro scelus!—et lateris frigora trita times. </l>
+<l n="9">Quantum erat, infelix, pannis fraudare duobus— </l>
+<l n="10">Quid metuis?—non te, Naevole, sed tineas? </l>
 </div2>
 
 <div2 type="poem" n="47">
@@ -2213,7 +2211,7 @@
  
 <l n="1">Quod pectus, quod crura tibi, quod bracchia vellis, </l>
 <l n="2">Quod cincta est brevibus mentula tonsa pilis: </l>
-<l n="3">Hoc praestas, Labiene, tuae&mdash;quis nescit?&mdash;amicae. </l>
+<l n="3">Hoc praestas, Labiene, tuae—quis nescit?—amicae. </l>
 <l n="4">Cui praestas, culum quod, Labiene, pilas? <pb/> </l>
 </div2>
 
@@ -2326,7 +2324,7 @@
 <head>LXXII</head>
  
 <l n="1">Hesterna factum narratur, Postume, cena </l>
-<l n="2">Quod nollem&mdash;quis enim talia facta probet?&mdash; </l>
+<l n="2">Quod nollem—quis enim talia facta probet?— </l>
 <l n="3">Os tibi percisum quanto non ipse Latinus </l>
 <l n="4">Vilia Panniculi percutit ora sono: </l>
 <l n="5">Quodque magis mirum est, auctorem criminis huius </l>
@@ -2439,7 +2437,7 @@
 <l n="1">Mollis erat facilisque viris Poeantius heros: </l>
 <l n="2">Vulnera sic Paridis dicitur ulta Venus. </l>
 <l n="3">Cur lingat cunnum Siculus Sertorius, hoc est: </l>
-<l n="4">&dagger;Ab hoc occisus, Rufe, videtur Eryx. </l>
+<l n="4">† Ab hoc occisus, Rufe, videtur Eryx. </l>
 </div2>
 
 <div2 type="poem" n="85">
@@ -2755,7 +2753,7 @@
 <l n="7">An in coturnis horridus Sophocleis? </l>
 <l n="8">An otiosus in schola poetarum </l>
 <l n="9">Lepore tinctos Attico sales narrat? </l>
-<l n="10">Hinc si recessit, porticum terit &dagger;templi </l>
+<l n="10">Hinc si recessit, porticum terit †templi </l>
 <l n="11">An spatia carpit lentus Argonautarum? </l>
 <l n="12">An delicatae sole rursus Europae </l>
 <l n="13">Inter tepentes post meridie buxos </l>
@@ -2828,7 +2826,7 @@
 <l n="2">Aurea solus habes, murrina solus habes, <pb/> </l>
 <l n="3">Massica solus habes et Opimi Caecuba solus, </l>
 <l n="4">Et cor solus habes, solus et ingenium. </l>
-<l n="5">Omnia solus habes&mdash;hoc me puta velle negare!&mdash; </l>
+<l n="5">Omnia solus habes—hoc me puta velle negare!— </l>
 <l n="6">Uxorem sed habes, Candide, cum populo. </l>
 </div2>
 
@@ -2938,8 +2936,8 @@
 <l n="2">Sexte? quid aut speras aut petis inde? refer. </l>
 <l n="3">'Causas' inquis 'agam Cicerone disertior ipso </l>
 <l n="4">Atque erit in triplici par mihi nemo foro.' <pb/> </l>
-<l n="5">Egit Atestinus causas et Civis&mdash;utrumque </l>
-<l n="6">Noras&mdash;; sed neutri pensio tota fuit. </l>
+<l n="5">Egit Atestinus causas et Civis—utrumque </l>
+<l n="6">Noras—; sed neutri pensio tota fuit. </l>
 <l n="7">'Si nihil hinc veniet, pangentur carmina nobis: </l>
 <l n="8">Audieris, dices esse Maronis opus.' </l>
 <l n="9">Insanis: omnes gelidis quicumque lacernis </l>
@@ -3533,8 +3531,8 @@
  
 <l n="1">Ne legeres partem lascivi, casta, libelli, </l>
 <l n="2">Praedixi et monui: tu tamen, ecce, legis. </l>
-<l n="3">Sed si Panniculum spectas et, casta, Latinum,&mdash; </l>
-<l n="4">Non sunt haec mimis inprobiora&mdash;lege. <pb/> </l>
+<l n="3">Sed si Panniculum spectas et, casta, Latinum,— </l>
+<l n="4">Non sunt haec mimis inprobiora—lege. <pb/> </l>
 </div2>
 
 <div2 type="poem" n="87">
@@ -3758,7 +3756,7 @@
 <l n="6">Nec potes algentes arrigere ad vetulas, </l>
 <l n="7">Vendere nec vanos circa Palatia fumos, </l>
 <l n="8">Plaudere nec Cano, plaudere nec Glaphyro: </l>
-<l n="9">Unde miser vives? 'Homo certus, fidus amicus&mdash;'. </l>
+<l n="9">Unde miser vives? 'Homo certus, fidus amicus—'. </l>
 <l n="10">Hoc nihil est: numquam sic Philomelus eris. </l>
 </div2>
 
@@ -3928,11 +3926,11 @@
 <l n="1">Hanc tibi Sequanicae pinguem textricis alumnam, </l>
 <l n="2">Quae Lacedaemonium barbara nomen habet, </l>
 <l n="3">Sordida, sed gelido non aspernanda Decembri </l>
-<l n="4">Dona, peregrinam mittimus endromida:&mdash; <pb/> </l>
+<l n="4">Dona, peregrinam mittimus endromida:— <pb/> </l>
 <l n="5">Seu lentum ceroma teris tepidumve trigona, </l>
 <l n="6">Sive harpasta manu pulverulenta rapis, </l>
 <l n="7">Plumea seu laxi partiris pondera follis, </l>
-<l n="8">Sive levem cursu vincere quaeris Athan&mdash; </l>
+<l n="8">Sive levem cursu vincere quaeris Athan— </l>
 <l n="9">Ne madidos intret penetrabile frigus in artus, </l>
 <l n="10">Neve gravis subita te premat Iris aqua. </l>
 <l n="11">Ridebis ventos hoc munere tectus et imbris: </l>
@@ -4126,7 +4124,7 @@
 <head>XXXVI</head>
  
 <l n="1">Cana est barba tibi, nigra est coma: tinguere barbam </l>
-<l n="2">Non potes&mdash;haec causa est&mdash;et potes, Ole, comam. </l>
+<l n="2">Non potes—haec causa est—et potes, Ole, comam. </l>
 </div2>
 
 <div2 type="poem" n="37">
@@ -4177,7 +4175,7 @@
 <l n="6">Communis nobis lectus et unus erat. </l>
 <l n="7">Iam donare potes, iam perdere, plenus honorum, </l>
 <l n="8">Largus opum: expecto, Postume, quid facias. </l>
-<l n="9">Nil facis, et serumst alium mihi quaerere regem.&mdash; </l>
+<l n="9">Nil facis, et serumst alium mihi quaerere regem.— </l>
 <l n="10">Hoc, Fortuna, placet? 'Postumus inposuit.' <pb/> </l>
 </div2>
 
@@ -4861,9 +4859,9 @@
 <head>V</head>
  
 <l n="1">Sexte, Palatinae cultor facunde Minervae, </l>
-<l n="2">Ingenio frueris qui propiore dei&mdash; </l>
+<l n="2">Ingenio frueris qui propiore dei— </l>
 <l n="3">Nam tibi nascentes domini cognoscere curas </l>
-<l n="4">Et secreta ducis pectora nosse licet&mdash;: </l>
+<l n="4">Et secreta ducis pectora nosse licet—: </l>
 <l n="5">Sit locus et nostris aliqua tibi parte libellis, </l>
 <l n="6">Qua Pedo, qua Marsus quaque Catullus erit. </l>
 <l n="7">Ad Capitolini caelestia carmina belli </l>
@@ -5311,7 +5309,7 @@
 <l n="14">Adhuc recenti tepet Erotion busto, </l>
 <l n="15">Quam pessimorum lex amara fatorum </l>
 <l n="16">Sexta peregit hieme, nec tamen tota, </l>
-<l n="17">Nostros amores gaudiumque lususque&mdash; </l>
+<l n="17">Nostros amores gaudiumque lususque— </l>
 <l n="18">Et esse tristem me meus vetat Paetus, </l>
 <l n="19">Pectusque pulsans pariter et comam vellens: </l>
 <l n="20">'Deflere non te vernulae pudet mortem? </l>
@@ -5324,7 +5322,7 @@
 <div2 type="poem" n="38">
 <head>XXXVIII</head>
  
-<l n="1">Calliodorus habet censum&mdash;quis nescit?&mdash;equestrem, </l>
+<l n="1">Calliodorus habet censum—quis nescit?—equestrem, </l>
 <l n="2">Sexte, sed et fratrem Calliodorus habet. </l>
 <l n="3">'Quadringenta seca' qui dicit <foreign lang="greek">su=ka meri/zei</foreign>: </l>
 <l n="4">Uno credis equo posse sedere duos? </l>
@@ -5332,8 +5330,8 @@
 <l n="6">Non esset Pollux si tibi, Castor eras. </l>
 <l n="7">Unus cum sitis, duo, Calliodore, sedebis? </l>
 <l n="8">Surge: <foreign lang="greek">soloikismo\n</foreign>, Calliodore, facis. </l>
-<l n="9">Aut imitare genus Ledae&mdash;cum fratre sedere </l>
-<l n="10">Non potes&mdash;: alternis, Calliodore, sede. </l>
+<l n="9">Aut imitare genus Ledae—cum fratre sedere </l>
+<l n="10">Non potes—: alternis, Calliodore, sede. </l>
 </div2>
 
 <div2 type="poem" n="39">
@@ -5395,8 +5393,8 @@
 <head>XLIV</head>
  
 <l n="1">Quid factum est, rogo, quid repente factum, </l>
-<l n="2">Ad cenam mihi, Dento, quod vocanti&mdash; </l>
-<l n="3">Quis credat?&mdash;quater ausus es negare? </l>
+<l n="2">Ad cenam mihi, Dento, quod vocanti— </l>
+<l n="3">Quis credat?—quater ausus es negare? </l>
 <l n="4">Sed nec respicis et fugis sequentem, </l>
 <l n="5">Quem thermis modo quaerere et theatris </l>
 <l n="6">Et conclavibus omnibus solebas. </l>
@@ -5439,7 +5437,7 @@
 <l n="4">Audaci questus de Phaethonte pater: </l>
 <l n="5">Talis raptus Hylas, talis deprensus Achilles </l>
 <l n="6">Deposuit gaudens, matre dolente, comas. </l>
-<l n="7">Sed tu ne propera&mdash;brevibus ne crede capillis&mdash; </l>
+<l n="7">Sed tu ne propera—brevibus ne crede capillis— </l>
 <l n="8">Tardaque pro tanto munere, barba, veni. </l>
 </div2>
 
@@ -5612,7 +5610,7 @@
 <l n="2">Si potes in nudo ponere membra solo, </l>
 <l n="3">Aut si portatur tecum tibi magna supellex: </l>
 <l n="4">Nam mea iam digitum sustulit hospitibus. </l>
-<l n="5">Nulla tegit fractos&mdash;nec inanis&mdash;culcita lectos, </l>
+<l n="5">Nulla tegit fractos—nec inanis—culcita lectos, </l>
 <l n="6">Putris et abrupta fascia reste iacet. </l>
 <l n="7">Sit tamen hospitium nobis commune duobus: </l>
 <l n="8">Emi hortos; plus est: instrue tu; minus est. </l>
@@ -5793,7 +5791,7 @@
 <l n="19">Succurrent tibi nobiles olivae, </l>
 <l n="20">Piceni modo quas tulere rami, </l>
 <l n="21">Et fervens cicer et tepens lupinus. </l>
-<l n="22">Parva est cenula&mdash;quis potest negare?&mdash;, </l>
+<l n="22">Parva est cenula—quis potest negare?—, </l>
 <l n="23">Sed finges nihil audiesve fictum </l>
 <l n="24">Et voltu placidus tuo recumbes; </l>
 <l n="25">Nec crassum dominus leget volumen, </l>
@@ -5826,7 +5824,7 @@
 <l n="4">'Durum est perdere ferias': rogamus, </l>
 <l n="5">Iacturam patiaris hanc ferasque. </l>
 <l n="6">Quod si legeris ista cum diserto </l>
-<l n="7">&mdash;Sed numquid sumus inprobi?&mdash;Secundo, </l>
+<l n="7">—Sed numquid sumus inprobi?—Secundo, </l>
 <l n="8">Plus multo tibi debiturus hic est, </l>
 <l n="9">Quam debet domino suo, libellus. </l>
 <l n="10">Nam securus erit, nec inquieta <pb/> </l>
@@ -5895,7 +5893,7 @@
 <l n="3">Utraque tu prohibes, Caesar, populisque futuris </l>
 <l n="4">Succurris, nasci quos sine fraude iubes. </l>
 <l n="5">Nec spado iam nec moechus erit te praeside quisquam: </l>
-<l n="6">At prius&mdash;o mores!&mdash;et spado moechus erat. </l>
+<l n="6">At prius—o mores!—et spado moechus erat. </l>
 </div2>
 
 <div2 type="poem" n="3">
@@ -6000,7 +5998,7 @@
 <head>XII</head>
  
 <l n="1">Iurat capillos esse, quos emit, suos </l>
-<l n="2">&dagger;Fabulla: numquid, Paule, peierat&dagger;? </l>
+<l n="2">†Fabulla: numquid, Paule, peierat†? </l>
 </div2>
 
 <div2 type="poem" n="13">
@@ -6148,8 +6146,8 @@
 <div2 type="poem" n="27">
 <head>XXVII</head>
  
-<l n="1">Bis vicine Nepos&mdash;nam tu quoque proxima Florae </l>
-<l n="2">Incolis et veteres tu quoque Ficelias&mdash; </l>
+<l n="1">Bis vicine Nepos—nam tu quoque proxima Florae </l>
+<l n="2">Incolis et veteres tu quoque Ficelias— </l>
 <l n="3">Est tibi, quae patria signatur imagine voltus, </l>
 <l n="4">Testis maternae nata pudicitiae. </l>
 <l n="5">Tu tamen annoso nimium ne parce Falerno, </l>
@@ -6448,7 +6446,7 @@
  
 <l n="1">Quod convivaris sine me tam saepe, Luperce, </l>
 <l n="2">Inveni, noceam qua ratione tibi. </l>
-<l n="3">Irascor: licet usque voces mittasque rogesque&mdash; </l>
+<l n="3">Irascor: licet usque voces mittasque rogesque— </l>
 <l n="4">'Quid facies?' inquis. Quid faciam? veniam. </l>
 </div2>
 
@@ -6594,7 +6592,7 @@
 <l n="4">Sed patris ad speculum tonsi matrisque togatae </l>
 <l n="5">Filius et possit sponsam te sponsa vocare: </l>
 <l n="6">Emendare meos, quos novit fama, libellos </l>
-<l n="7">Et tibi permittis felicis carpere nugas,&mdash; </l>
+<l n="7">Et tibi permittis felicis carpere nugas,— </l>
 <l n="8">Has, inquam, nugas, quibus aurem advertere totam </l>
 <l n="9">Non aspernantur proceres urbisque forique, </l>
 <l n="10">Quas et perpetui dignantur scrinia Sili </l>
@@ -7286,7 +7284,7 @@
 <head>XXVI</head>
  
 <l n="1">Apollinarem conveni meum, Scazon; </l>
-<l n="2">Et si vacabit&mdash;ne molestus accedas&mdash;, </l>
+<l n="2">Et si vacabit—ne molestus accedas—, </l>
 <l n="3">Hoc qualecumque, cuius aliqua pars ipse est, </l>
 <l n="4">Dabis: haec facetum carmen inbuant aures. </l>
 <l n="5">Si te receptum fronte videris tota, </l>
@@ -7469,7 +7467,7 @@
 <l n="5">Quam dum volt nimis adprobare veram </l>
 <l n="6">Et sanas linit obligatque plantas </l>
 <l n="7">Inceditque gradu laborioso, </l>
-<l n="8">&mdash;Quantum cura potest et ars doloris!&mdash; </l>
+<l n="8">—Quantum cura potest et ars doloris!— </l>
 <l n="9">Desi=t fingere Caelius podagram. <pb/> </l>
 </div2>
 
@@ -7560,7 +7558,7 @@
  
 <l n="1">Doctorum Licini celeberrime Sura virorum, </l>
 <l n="2">Cuius prisca gravis lingua reduxit avos, </l>
-<l n="3">Redderis&mdash;heu, quanto fatorum munere!&mdash;nobis, </l>
+<l n="3">Redderis—heu, quanto fatorum munere!—nobis, </l>
 <l n="4">Gustata Lethes paene remissus aqua. </l>
 <l n="5">Perdiderant iam vota metum securaque flebat </l>
 <l n="6">Tristitia, et lacrimis iamque peractus eras: </l>
@@ -7607,7 +7605,7 @@
  
 <l n="1">Mercari nostras si te piget, Urbice, nugas </l>
 <l n="2">Et lasciva tamen carmina nosse libet, </l>
-<l n="3">Pompeium quaeres&mdash;et nosti forsitan&mdash;Auctum; </l>
+<l n="3">Pompeium quaeres—et nosti forsitan—Auctum; </l>
 <l n="4">Ultoris prima Martis in aede sedet: </l>
 <l n="5">Iure madens varioque togae limatus in usu, </l>
 <l n="6">Non lector meus hic, Urbice, sed liber est. </l>
@@ -7615,7 +7613,7 @@
 <l n="8">Ut pereat chartis littera nulla meis: </l>
 <l n="9">Denique, si vellet, poterat scripsisse videri; </l>
 <l n="10">Sed famae mavult ille favere meae. </l>
-<l n="11">Hunc licet a decuma&mdash;neque enim satis ante vacabit&mdash; </l>
+<l n="11">Hunc licet a decuma—neque enim satis ante vacabit— </l>
 <l n="12">Sollicites; capiet cenula parva duos; </l>
 <l n="13">Ille leget, bibe tu; nolis licet, ille sonabit; </l>
 <l n="14">Et cum 'Iam satis est' dixeris, ille leget. <pb/> </l>
@@ -7670,7 +7668,7 @@
 <l n="3">Credam te satis esse liberalem. </l>
 <l n="4">Sed si reddis Apicio Lupoque <pb/> </l>
 <l n="5">Et Gallo Titioque Caesioque, </l>
-<l n="6">Linges non mihi&mdash;nam proba et pusilla est&mdash;, </l>
+<l n="6">Linges non mihi—nam proba et pusilla est—, </l>
 <l n="7">Sed quae de Solymis venit perustis </l>
 <l n="8">Damnatam modo mentulam tributis. </l>
 </div2>
@@ -7816,7 +7814,7 @@
 <l n="11">Ad quos fas sibi tunc putat redire, </l>
 <l n="12">Cum coloephia sedecim comedit. </l>
 <l n="13">Post haec omnia cum libidinatur, </l>
-<l n="14">Non fellat&mdash;putat hoc parum virile&mdash;, <pb/> </l>
+<l n="14">Non fellat—putat hoc parum virile—, <pb/> </l>
 <l n="15">Sed plane medias vorat puellas. </l>
 <l n="16">Di mentem tibi dent tuam, Philaeni, </l>
 <l n="17">Cunnum lingere quae putas virile. </l>
@@ -7983,7 +7981,7 @@
  
 <l n="1">Menophili penem tam grandis fibula vestit, </l>
 <l n="2">Ut sit comoedis omnibus una satis. </l>
-<l n="3">Hunc ego credideram&mdash;nam saepe lavamur in unum&mdash; </l>
+<l n="3">Hunc ego credideram—nam saepe lavamur in unum— </l>
 <l n="4">Sollicitum voci parcere, Flacce, suae: </l>
 <l n="5">Dum ludit media populo spectante palaestra, </l>
 <l n="6">Delapsa est misero fibula: verpus erat. </l>
@@ -8069,8 +8067,8 @@
  
 <l n="1">I, felix rosa, mollibusque sertis </l>
 <l n="2">Nostri cinge comas Apollinaris. </l>
-<l n="3">Quas tu nectere candidas, sed olim&mdash; </l>
-<l n="4">Sic te semper amet Venus&mdash;memento. <pb/> </l>
+<l n="3">Quas tu nectere candidas, sed olim— </l>
+<l n="4">Sic te semper amet Venus—memento. <pb/> </l>
 </div2>
 
 <div2 type="poem" n="90">
@@ -8192,7 +8190,7 @@
 <l n="1">Sic placidum videas semper, Crispine, Tonantem, </l>
 <l n="2">Nec te Roma minus, quam tua Memphis amet: </l>
 <l n="3">Carmina Parrhasia si nostra legentur in aula </l>
-<l n="4">&mdash;Namque solent sacra Caesaris aure frui&mdash;, </l>
+<l n="4">—Namque solent sacra Caesaris aure frui—, </l>
 <l n="5">Dicere de nobis, ut lector candidus, aude: </l>
 <l n="6">'Temporibus praestat non nihil iste tuis, </l>
 <l n="7">Nec Marso nimium minor est doctoque Catullo.' </l>
@@ -8292,7 +8290,7 @@
 <head>VI</head>
  
 <l n="1">Archetypis vetuli nihil est odiosius Eucti </l>
-<l n="2">&mdash;Ficta Saguntino cymbia malo luto&mdash;, </l>
+<l n="2">—Ficta Saguntino cymbia malo luto—, </l>
 <l n="3">Argenti furiosa sui cum stemmata narrat </l>
 <l n="4">Garrulus et verbis mucida vina facit. </l>
 <l n="5">'Laomedonteae fuerant haec pocula mensae: </l>
@@ -8618,8 +8616,8 @@
 <l n="21">Hac cute Ledaeo vestitur pullus in ovo, </l>
 <l n="22">Talia lunata splenia fronte sedent. </l>
 <l n="23">Quid tibi cum phiala, ligulam cum mittere possis, </l>
-<l n="24">Mittere cum possis vel cocleare mihi,&mdash; </l>
-<l n="25">Magna nimis loquimur&mdash;cocleam cum mittere possis, </l>
+<l n="24">Mittere cum possis vel cocleare mihi,— </l>
+<l n="25">Magna nimis loquimur—cocleam cum mittere possis, </l>
 <l n="26">Denique cum possis mittere, Paule, nihil? </l>
 </div2>
 
@@ -9126,8 +9124,8 @@
  
 <l n="1">Quattuor argenti libras mihi tempore brumae </l>
 <l n="2">Misisti ante annos, Postumiane, decem, <pb/> </l>
-<l n="3">Speranti plures&mdash;nam stare aut crescere debent </l>
-<l n="4">Munera&mdash;venerunt plusve minusve duae; </l>
+<l n="3">Speranti plures—nam stare aut crescere debent </l>
+<l n="4">Munera—venerunt plusve minusve duae; </l>
 <l n="5">Tertius et quartus multo inferiora tulerunt; </l>
 <l n="6">Libra fuit quinto Septiciana quidem; </l>
 <l n="7">Besalem ad scutulam sexto pervenimus anno; </l>
@@ -9526,7 +9524,7 @@
 <div2 type="poem" n="18">
 <head>XVIII</head>
  
-<l n="1">Est mihi&mdash;sitque precor longum te praeside, Caesar&mdash; </l>
+<l n="1">Est mihi—sitque precor longum te praeside, Caesar— </l>
 <l n="2">Rus minimum, parvi sunt et in urbe lares. </l>
 <l n="3">Sed de valle brevi, quas det sitientibus hortis, </l>
 <l n="4">Curva laboratas antlia tollit aquas: </l>
@@ -9920,7 +9918,7 @@
 <l n="1">Gellius aedificat semper: modo limina ponit, </l>
 <l n="2">Nunc foribus claves aptat emitque seras, </l>
 <l n="3">Nunc has, nunc illas reficit mutatque fenestras; </l>
-<l n="4">Dum tantum aedificet, quidlibet ille facit&mdash; </l>
+<l n="4">Dum tantum aedificet, quidlibet ille facit— </l>
 <l n="5">Oranti nummos ut dicere possit amico </l>
 <l n="6">Unum illud verbum Gellius 'Aedifico.' </l>
 </div2>
@@ -9943,13 +9941,13 @@
  
 <l n="1">Heredem cum me partis tibi, Garrice, quartae </l>
 <l n="2">Per tua iurares sacra caputque tuum, </l>
-<l n="3">Credidimus,&mdash;quis enim damnet sua vota libenter?&mdash; </l>
+<l n="3">Credidimus,—quis enim damnet sua vota libenter?— </l>
 <l n="4">Et spem muneribus fovimus usque datis. <pb/> </l>
 <l n="5">Inter quae rari Laurentem ponderis aprum </l>
 <l n="6">Misimus: Aetola de Calydone putes. </l>
 <l n="7">At tu continuo populumque patresque vocasti, </l>
 <l n="8">Ructat adhuc aprum pallida Roma meum: </l>
-<l n="9">Ipse ego,&mdash;quis credat?&mdash;conviva nec ultimus haesi, </l>
+<l n="9">Ipse ego,—quis credat?—conviva nec ultimus haesi, </l>
 <l n="10">Sed nec costa data est caudave missa mihi. </l>
 <l n="11">De quadrante tuo quid sperem, Garrice? Nulla </l>
 <l n="12">De nostro nobis uncia venit apro. </l>
@@ -10088,7 +10086,7 @@
 <l n="3">Sic montana tuos semper colat Umbria fontes, </l>
 <l n="4">Nec tua Baianas Sassina malit aquas: </l>
 <l n="5">Excipe sollicitos placide, mea dona, libellos; </l>
-<l n="6">Tu fueris Musis Pegasis unda meis.&mdash; </l>
+<l n="6">Tu fueris Musis Pegasis unda meis.— </l>
 <l n="7">'Nympharum templis quisquis sua carmina donat, </l>
 <l n="8">Quid fieri libris debeat, ipse monet.' <pb/> </l>
 </div2>
@@ -10239,7 +10237,7 @@
 <l n="6">Causidicum medio cum faber aptat equo; </l>
 <l n="7">Mitior in magno clamor furit amphitheatro, </l>
 <l n="8">Vincenti parmae cum sua turba favet. </l>
-<l n="9">Vicini somnum&mdash;non tota nocte&mdash;rogamus: </l>
+<l n="9">Vicini somnum—non tota nocte—rogamus: </l>
 <l n="10">Nam vigilare leve est, pervigilare grave est. </l>
 <l n="11">Discipulos dimitte tuos. Vis, garrule, quantum </l>
 <l n="12">Accipis ut clames, accipere ut taceas? </l>
@@ -10374,7 +10372,7 @@
 <l n="4">Ut sit cuique suae cura secunda domus. </l>
 <l n="5">Tam placidae mentes, tanta est reverentia nostri, </l>
 <l n="6">Tam pacata quies, tantus in ore pudor. </l>
-<l n="7">Nemo suos&mdash;haec est aulae natura potentis&mdash;, </l>
+<l n="7">Nemo suos—haec est aulae natura potentis—, </l>
 <l n="8">Sed domini mores Caesarianus habet. </l>
 </div2>
 
@@ -10460,7 +10458,7 @@
 <l n="2">Denso cum iaceam triente blaesus, </l>
 <l n="3">Affers nescio quas mihi tabellas </l>
 <l n="4">Et dicis 'Modo liberum esse iussi </l>
-<l n="5">Nastam&mdash;servolus est mihi paternus&mdash;: </l>
+<l n="5">Nastam—servolus est mihi paternus—: </l>
 <l n="6">Signa.' Cras melius, Luperce, fiet: </l>
 <l n="7">Nunc signat meus anulus lagonam. </l>
 </div2>
@@ -10807,7 +10805,7 @@
 <l n="1">Undenis pedibusque syllabisque </l>
 <l n="2">Et multo sale nec tamen protervo </l>
 <l n="3">Notus gentibus ille Martialis </l>
-<l n="4">Et notus populis&mdash;quid invidetis?&mdash; </l>
+<l n="4">Et notus populis—quid invidetis?— </l>
 <l n="5">Non sum Andraemone notior caballo. </l>
 </div2>
 
@@ -10819,7 +10817,7 @@
 <l n="3">Hic ego quid faciam? quid nobis, Paule, relinquis, </l>
 <l n="4">Qui de plebe Numae densaque turba sumus? </l>
 <l n="5">Qui me respiciet, dominum regemque vocabo? </l>
-<l n="6">Hoc tu&mdash;sed quanto blandius!&mdash;ipse facis. </l>
+<l n="6">Hoc tu—sed quanto blandius!—ipse facis. </l>
 <l n="7">Lecticam sellamve sequar? nec ferre recusas, </l>
 <l n="8">Per medium pugnas et prior ire lutum. </l>
 <l n="9">Saepius adsurgam recitanti carmina? tu stas </l>
@@ -10850,7 +10848,7 @@
 <l n="4">Grata licet sine te sit mihi nulla dies: </l>
 <l n="5">Sed desiderium tanti est, ut messe vel una </l>
 <l n="6">Urbano releves colla perusta iugo. </l>
-<l n="7">I precor et totos avida cute combibe soles,&mdash; </l>
+<l n="7">I precor et totos avida cute combibe soles,— </l>
 <l n="8">O quam formosus, dum peregrinus eris! </l>
 <l n="9">Et venies albis non cognoscendus amicis </l>
 <l n="10">Livebitque tuis pallida turba genis. </l>
@@ -11151,9 +11149,9 @@
 <l n="1">Di tibi dent quidquid, Caesar Traiane, mereris </l>
 <l n="2">Et rata perpetuo quae tribuere velint: </l>
 <l n="3">Qui sua restituis spoliato iura patrono </l>
-<l n="4">&mdash;Libertis exul non erit ille suis&mdash;, </l>
+<l n="4">—Libertis exul non erit ille suis—, </l>
 <l n="5">Dignus es, ut possis totum servare clientem: </l>
-<l n="6">Ut&mdash;liceat tantum vera probare&mdash;potes. </l>
+<l n="6">Ut—liceat tantum vera probare—potes. </l>
 </div2>
 
 <div2 type="poem" n="35">
@@ -11201,7 +11199,7 @@
 <l n="1">Iuris et aequarum cultor sanctissime legum, </l>
 <l n="2">Veridico Latium qui regis ore forum, </l>
 <l n="3">Municipi, Materne, tuo veterique sodali </l>
-<l n="4">Callai+cum mandas siquid ad Oceanum&mdash;. </l>
+<l n="4">Callai+cum mandas siquid ad Oceanum—. </l>
 <l n="5">An Laurentino turpis in litore ranas </l>
 <l n="6">Et satius tenues ducere credis acus, </l>
 <l n="7">Ad sua captivum quam saxa remittere mullum, </l>
@@ -11213,11 +11211,11 @@
 <l n="13">Hic olidam clamosus ages in retia volpem </l>
 <l n="14">Mordebitque tuos sordida praeda canes: </l>
 <l n="15">Illic piscoso modo vix educta profundo </l>
-<l n="16">Inpedient lepores umida lina meos.&mdash; </l>
+<l n="16">Inpedient lepores umida lina meos.— </l>
 <l n="17">Dum loquor, ecce redit sporta piscator inani, </l>
 <l n="18">Venator capta maele superbus adest: </l>
 <l n="19">Omnis ab urbano venit ad mare cena macello. </l>
-<l n="20">Callai+cum mandas siquid ad Oceanum&mdash;. </l>
+<l n="20">Callai+cum mandas siquid ad Oceanum—. </l>
 </div2>
 
 <div2 type="poem" n="38">
@@ -11296,7 +11294,7 @@
 <l n="4">Otia, nec retinet rusque focusque senem? </l>
 <l n="5">Gaudia tu differs, at non et stamina differt </l>
 <l n="6">Atropos, atque omnis scribitur hora tibi. </l>
-<l n="7">Praestiteris caro&mdash;quis non hoc laudet?&mdash;amico, </l>
+<l n="7">Praestiteris caro—quis non hoc laudet?—amico, </l>
 <l n="8">Ut potior vita sit tibi sancta fides; </l>
 <l n="9">Sed reddare tuis tandem mansure Sabinis </l>
 <l n="10">Teque tuas numeres inter amicitias. </l>
@@ -11608,7 +11606,7 @@
 <l n="3">Deque coloratis numquam lita mater Etruscis, </l>
 <l n="4">Durus Aricina de regione pater; <pb/> </l>
 <l n="5"><foreign lang="greek">*ku/rie/ mou, me/li mou, yuxh/ mou</foreign> congeris usque, </l>
-<l n="6">&mdash;Pro pudor!&mdash;Hersiliae civis et Egeriae. </l>
+<l n="6">—Pro pudor!—Hersiliae civis et Egeriae. </l>
 <l n="7">Lectulus has voces, nec lectulus audiat omnis, </l>
 <l n="8">Sed quem lascivo stravit amica viro. </l>
 <l n="9">Scire cupis quo casta modo matrona loquaris? </l>
@@ -11699,7 +11697,7 @@
 <l n="5">Cum Scorpus una quindecim graves hora </l>
 <l n="6">Ferventis auri victor auferat saccos? </l>
 <l n="7">Non ego meorum praemium libellorum </l>
-<l n="8">&mdash;Quid enim merentur?&mdash;Apulos velim campos: </l>
+<l n="8">—Quid enim merentur?—Apulos velim campos: </l>
 <l n="9">Non Hybla, non me spicifer capit Nilus, </l>
 <l n="10">Nec quae paludes delicata Pomptinas <pb/> </l>
 <l n="11">Ex arce clivi spectat uva Setini. </l>
@@ -11911,7 +11909,7 @@
 <l n="1">Quid vellis vetulum, Ligeia, cunnum? </l>
 <l n="2">Quid busti cineres tui lacessis? </l>
 <l n="3">Tales munditiae decent puellas </l>
-<l n="4">&mdash;Nam tu iam nec anus potes videri&mdash;; </l>
+<l n="4">—Nam tu iam nec anus potes videri—; </l>
 <l n="5">Istud, crede mihi, Ligeia, belle </l>
 <l n="6">Non mater facit Hectoris, sed uxor. </l>
 <l n="7">Erras, si tibi cunnus hic videtur, </l>
@@ -12382,7 +12380,7 @@
 <l n="4">Fulvia constituit, se quoque uti futuam. <pb/> </l>
 <l n="5">Fulviam ego ut futuam? quid si me Manius oret </l>
 <l n="6">Pedicem, faciam? non puto, si sapiam. </l>
-<l n="7">&quot;Aut futue, aut pugnemus&quot; ait. Quid, quod mihi vita </l>
+<l n="7">"Aut futue, aut pugnemus" ait. Quid, quod mihi vita </l>
 <l n="8">Carior est ipsa mentula? Signa canant!' </l>
 <l n="9">Absolvis lepidos nimirum, Auguste, libellos, </l>
 <l n="10">Qui scis Romana simplicitate loqui. </l>
@@ -12878,7 +12876,7 @@
 <head>LVIII</head>
  
 <l n="1">Cum me velle vides tentumque, Telesphore, sentis, </l>
-<l n="2">Magna rogas&mdash;puta me velle negare: licet?&mdash; <pb/> </l>
+<l n="2">Magna rogas—puta me velle negare: licet?— <pb/> </l>
 <l n="3">Et nisi iuratus dixi 'dabo', subtrahis illas, </l>
 <l n="4">Permittunt in me quae tibi multa, natis. </l>
 <l n="5">Quid si me tonsor, cum stricta novacula supra est, </l>
@@ -12928,7 +12926,7 @@
 <l n="6">Modo qui per omnes viscerum tubos ibat <pb/> </l>
 <l n="7">Et voce certa consciaque dicebat, </l>
 <l n="8">Puer an puella matris esset in ventre: </l>
-<l n="9">&mdash;Gaudete cunni; vestra namque res acta est&mdash; </l>
+<l n="9">—Gaudete cunni; vestra namque res acta est— </l>
 <l n="10">Arrigere linguam non potest fututricem. </l>
 <l n="11">Nam dum tumenti mersus haeret in volva </l>
 <l n="12">Et vagientes intus audit infantes, </l>
@@ -13024,7 +13022,7 @@
 <l n="8">Argentum, mensas, murrina, rura, domum; </l>
 <l n="9">Vende senes servos, ignoscent, vende paternos: </l>
 <l n="10">Ne pueros vendas, omnia vende, miser. </l>
-<l n="11">Luxuria est emere hos&mdash;quis enim dubitatve negatve?&mdash;, </l>
+<l n="11">Luxuria est emere hos—quis enim dubitatve negatve?—, </l>
 <l n="12">Sed multo maior vendere luxuria est. </l>
 </div2>
 
@@ -13343,7 +13341,7 @@
 <div2 type="poem" n="99">
 <head>XCIX</head>
  
-<l n="1">De cathedra quotiens surgis&mdash;iam saepe notavi&mdash; </l>
+<l n="1">De cathedra quotiens surgis—iam saepe notavi— </l>
 <l n="2">Pedicant miserae, Lesbia, te tunicae. <pb/> </l>
 <l n="3">Quas cum conata es dextra, conata sinistra </l>
 <l n="4">Vellere, cum lacrimis eximis et gemitu: </l>
@@ -13476,8 +13474,8 @@
 <l n="17">adversus quod difficile est habere cotidie bonum sto-</l>
 <l n="18">machum: ne mireris igitur abiecta ab indignante quae </l>
 <l n="19">a gestiente fieri solebant. Ne quid tamen et advenienti </l>
-<l n="20">tibi ab urbe et exigenti negarem&mdash;cui non refero </l>
-<l n="21">gratiam, si tantum ea praesto quae possum&mdash;, im-</l>
+<l n="20">tibi ab urbe et exigenti negarem—cui non refero </l>
+<l n="21">gratiam, si tantum ea praesto quae possum—, im-</l>
 <l n="22">peravi mihi, quod indulgere consueram, et studui pau-</l>
 <l n="23">cissimis diebus, ut familiarissimas mihi aures tuas ex-</l>
 <l n="24">ciperem adventoria sua. Tu velim ista, quae tantum apud </l>
@@ -13549,7 +13547,7 @@
 <head>V</head>
  
 <l n="1">Quae modo litoreos ibatis carmina Pyrgos, </l>
-<l n="2">Ite sacra&mdash;iam non pulverulenta&mdash;via. </l>
+<l n="2">Ite sacra—iam non pulverulenta—via. </l>
 <l n="3">Contigit Ausoniae procerum mitissimus aulae </l>
 <l n="4">Nerva: licet toto nunc Helicone frui: </l>
 <l n="5">Recta fides, hilaris clementia, cauta potestas </l>
@@ -13603,7 +13601,7 @@
 <l n="2">Nam quis ab Aonio largius amne bibit? </l>
 <l n="3">Cuius Pipleo lyra clarior exit ab antro? </l>
 <l n="4">Quem plus Pierio de grege Phoebus amat? </l>
-<l n="5">Et si forte&mdash;sed hoc vix est sperare&mdash;vacabit, </l>
+<l n="5">Et si forte—sed hoc vix est sperare—vacabit, </l>
 <l n="6">Tradat ut ipse duci carmina nostra, roga, </l>
 <l n="7">Quattuor et tantum timidumque brevemque libellum </l>
 <l n="8">Commendet verbis 'Hunc tua Roma legit.' </l>
@@ -13635,7 +13633,7 @@
 <l n="7">Non deerit qui tanta tibi spectacula praestet, </l>
 <l n="8">Invidia fati sed leviore cadat. <pb/> </l>
 <l n="9">Si te delectant animosa pericula, Tuscis </l>
-<l n="10">&mdash;Tutior est virtus&mdash;insidiemur apris. </l>
+<l n="10">—Tutior est virtus—insidiemur apris. </l>
 <l n="11">Quid te frena iuvant temeraria? saepius illis, </l>
 <l n="12">Prisce, datum est equitem rumpere, quam leporem. </l>
 </div2>
@@ -13651,7 +13649,7 @@
 <l n="6">Haec sunt pocula, quae decent Tonantem, </l>
 <l n="7">Haec sunt, quae Phrygium decent ministrum. </l>
 <l n="8">Omnes cum Iove nunc sumus beati; </l>
-<l n="9">At nuper&mdash;pudet, a pudet fateri&mdash; </l>
+<l n="9">At nuper—pudet, a pudet fateri— </l>
 <l n="10">Omnes cum Iove pauperes eramus. </l>
 </div2>
 
@@ -13691,8 +13689,8 @@
 <l n="8">Accepit mea rusticumque fecit </l>
 <l n="9">Auro Bilbilis et superba ferro. </l>
 <l n="10">Hic pigri colimus labore dulci </l>
-<l n="11">Boterdum Plateamque&mdash;Celtiberis </l>
-<l n="12">Haec sunt nomina crassiora terris&mdash;: </l>
+<l n="11">Boterdum Plateamque—Celtiberis </l>
+<l n="12">Haec sunt nomina crassiora terris—: </l>
 <l n="13">Ingenti fruor inproboque somno, </l>
 <l n="14">Quem nec tertia saepe rumpit hora, </l>
 <l n="15">Et totum mihi nunc repono, quidquid </l>
@@ -13749,7 +13747,7 @@
 <div2 type="poem" n="23">
 <head>XXIII</head>
  
-<l n="1">Dentibus atque comis&mdash;nec te pudet&mdash;uteris emptis. </l>
+<l n="1">Dentibus atque comis—nec te pudet—uteris emptis. </l>
 <l n="2">Quid facies oculo, Laelia? non emitur. </l>
 </div2>
 
@@ -14289,7 +14287,7 @@
 <l n="12">Quae, Saturne, tibi pernumerentur opes? </l>
 <l n="13">Utque sit his pretium meritis et gratia maior, </l>
 <l n="14">Et pater et frugi sic tua sacra colit. </l>
-<l n="15">At tu sancte&mdash;tuo sic semper amere Decembri&mdash; </l>
+<l n="15">At tu sancte—tuo sic semper amere Decembri— </l>
 <l n="16">Hos illi iubeas saepe redire dies. </l>
 </div2>
 
@@ -14558,7 +14556,7 @@
 <l n="1">Bis Cotta soleas perdidisse se questus, </l>
 <l n="2">Dum neglegentem ducit ad pedes vernam, </l>
 <l n="3">Qui solus inopi praestat et facit turbam, </l>
-<l n="4">Excogitavit&mdash;homo sagax et astutus&mdash; </l>
+<l n="4">Excogitavit—homo sagax et astutus— </l>
 <l n="5">Ne facere posset tale saepius damnum: </l>
 <l n="6">Excalceatus ire coepit ad cenam. </l>
 </div2>
@@ -14631,7 +14629,7 @@
 <l n="8">Ludo levis elegos: tu quoque ludis idem. </l>
 <l n="9">Quid minus esse potest? epigrammata fingere coepi: </l>
 <l n="10">Hinc etiam petitur iam mea palma tibi. </l>
-<l n="11">Elige, quid nolis&mdash;quis enim pudor, omnia velle?&mdash; </l>
+<l n="11">Elige, quid nolis—quis enim pudor, omnia velle?— </l>
 <l n="12">Et si quid non vis, Tucca, relinque mihi. </l>
 </div2>
 
@@ -15804,7 +15802,7 @@
 <head>XXVII Sapo</head>
  
 <l n="1">Si mutare paras longaevos cana capillos, </l>
-<l n="2">Accipe Mattiacas&mdash;quo tibi calva?&mdash;pilas. </l>
+<l n="2">Accipe Mattiacas—quo tibi calva?—pilas. </l>
 </div2>
 
 <div2 type="poem" n="28">
@@ -16322,7 +16320,7 @@
 <head>CI Boletaria</head>
  
 <l n="1">Cum mihi boleti dederint tam nobile nomen, </l>
-<l n="2">Prototomis&mdash;pudet heu!&mdash;servio coliculis. </l>
+<l n="2">Prototomis—pudet heu!—servio coliculis. </l>
 </div2>
 
 <div2 type="poem" n="102">
@@ -16937,7 +16935,7 @@
 <div2 type="poem" n="189">
 <head>CLXXXIX Monobyblos Properti</head>
  
-<l n="1">Cynthia&mdash;facundi carmen iuvenale Properti&mdash; </l>
+<l n="1">Cynthia—facundi carmen iuvenale Properti— </l>
 <l n="2">Accepit famam, non minus ipsa dedit. </l>
 </div2>
 
@@ -17177,7 +17175,10 @@
  
 <l n="1">Surgite: iam vendit pueris ientacula pistor </l>
 <l n="2">Cristataeque sonant undique lucis aves. </l>
-</div2></div1></body></text>
+</div2></div1>
+</div>
+</body>
+</text>
 
 </TEI.2>
 
