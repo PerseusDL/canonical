@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader type="text">
 		<fileDesc>
 			<titleStmt>
-				<title>Amours</title>
+				<title>Amores</title>
 				<author>P. Ovidius Naso</author>
 				<editor role="editor">R. Ehwald</editor>
 				<sponsor>Perseus Project, Tufts University</sponsor>
@@ -46,44 +48,27 @@
 		</fileDesc>
 
 		<encodingDesc>
-			<!--<refsDecl>
-	<refState n="chunk" unit="carte"/>
-      </refsDecl>-->
-			<refsDecl n="text=Am.">
-				<refState unit="text"/>
+			<refsDecl>
 				<refState unit="book"/>
-				<refState n="chunk" unit="poem"/>
-				<refState unit="line"/>
-			</refsDecl>
-			<refsDecl n="text=Ep.">
-				<refState unit="text"/>
-				<refState n="chunk" unit="poem"/>
-				<refState unit="line"/>
-			</refsDecl>
-			<refsDecl n="text=Med.">
-				<refState unit="text"/>
-				<refState unit="line"/>
-			</refsDecl>
-			<refsDecl n="text=Ars">
-				<refState unit="text"/>
-				<refState unit="book"/>
-				<refState unit="line"/>
-			</refsDecl>
-			<refsDecl n="text=Rem.">
-				<refState unit="text"/>
+				<refState unit="poem"/>
 				<refState unit="line"/>
 			</refsDecl>
 		</encodingDesc>
 
 		<profileDesc>
-			<langUsage>
-				<language ident="la">Latin </language>
-				<language ident="greek">Greek </language>
+			<langUsage default="false">
+				<language ident="lat">Latin </language>
+				<language ident="grc">Greek </language>
 			</langUsage>
 		</profileDesc>
+
+    <revisionDesc>
+      <change when="2015-03-06" who="Thibault Clérice">converted to EpiDoc/CTS/Unicode</change>
+    </revisionDesc>
 	</teiHeader>
-	<text xml:lang="la">
+	<text xml:lang="lat" n="urn:cts:latinLit:phi0959.phi001.perseus-lat1">
 		<body>
+			<div type="edition">
 			<head>Amores</head>
 			<div type="book" n="1">
 				<head>Liber primus</head>
@@ -2657,6 +2642,7 @@
 					<l n="20" rend="indent">Post mea mansurum fata superstes opus! </l>
 				</div>
 			</div>
+		</div>
 		</body>
 	</text>
 

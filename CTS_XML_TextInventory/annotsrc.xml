@@ -1375,6 +1375,28 @@
     </textgroup>
     <textgroup projid="latinLit:phi0959" urn="urn:cts:latinLit:phi0959">
         <groupname xml:lang="eng">Ovid</groupname>
+        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi0959.phi001" xml:lang="lat">
+            <title xml:lang="eng">Amores</title>
+            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi001.perseus-lat1">
+                <label xml:lang="eng">Amores</label>
+                <description xml:lang="eng">
+                    Amores, Epistulae, Medicamina faciei femineae, Ars amatoria, Remedia
+                            amoris, R. Ehwald, edidit ex Rudolphi Merkelii recognitione, Leipzig, B. G. Teubner, 1907
+                </description>
+                <online docname="/db/repository/latinLit/phi0959/phi001/phi0959.phi001.perseus-lat1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']">
+                            <citation label="poem" xpath="/div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/div[@n='?']">
+                                <citation label="line" xpath="/l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
         <work projid="latinLit:phi006" urn="urn:cts:latinLit:phi0959.phi006" xml:lang="lat">
             <title xml:lang="eng">Metamorphoses</title>
             <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0959.phi006.perseus-lat1">
