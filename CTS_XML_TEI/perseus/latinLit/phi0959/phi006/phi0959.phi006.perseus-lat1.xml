@@ -12,11 +12,25 @@
 <title type="sub">Machine readable text</title>
 <author n="Ov.">P. Ovidius Naso</author>
 <editor role="editor" n="Magnus">Hugo Magnus</editor>
-&responsibility;
-&fund.NEH;
+<sponsor>Perseus Project, Tufts University</sponsor>
+<principal>Gregory Crane</principal>
+<respStmt>
+<resp>Prepared under the supervision of</resp>
+<name>Lisa Cerrato</name>
+<name>William Merrill</name>
+<name>Elli Mylonas</name>
+<name>David Smith</name>
+</respStmt>
+<funder
+n="org:NEH"
+>The National Endowment for the Humanities</funder>
 </titleStmt>
 <extent>about 661Kb</extent>
-&Perseus.publish;
+<publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+        </publicationStmt>
 <sourceDesc>
 <biblStruct>
 <monogr>
