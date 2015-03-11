@@ -37,9 +37,8 @@
     </encodingDesc>
 
     <profileDesc>
-      <langUsage>
-	<language id="la">Latin</language>
-	<language id="greek">Greek</language>
+      <langUsage default="false">
+        <language ident="lat">Latin </language>
       </langUsage>
     </profileDesc>
   </teiHeader>

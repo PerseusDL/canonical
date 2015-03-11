@@ -1387,9 +1387,9 @@
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']">
-                            <citation label="poem" xpath="/div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/div[@n='?']">
-                                <citation label="line" xpath="/l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']">
+                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/div[@n='?']">
+                                <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']"/>
                             </citation>
                         </citation>
                     </citationMapping>
