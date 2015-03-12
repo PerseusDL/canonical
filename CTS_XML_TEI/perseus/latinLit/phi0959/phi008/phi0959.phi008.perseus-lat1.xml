@@ -5,7 +5,7 @@
   <teiHeader type="text" status="new">
     <fileDesc>
       <titleStmt>
-	<title>Tristia</title>
+      	<title>Tristia</title>
         <author>P. Ovidius Naso</author>
         <editor role="editor">Arthur Leslie Wheeler</editor>
         <sponsor>Perseus Project, Tufts University</sponsor>
