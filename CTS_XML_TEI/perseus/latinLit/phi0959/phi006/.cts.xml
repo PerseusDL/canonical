@@ -1,0 +1,24 @@
+<ti:work
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  xml:lang="lat"
+  urn="urn:cts:latinLit:phi0959.phi006"
+  groupUrn="urn:cts:latinLit:phi0959">
+  <ti:title xml:lang="eng">Metamorphoses</ti:title>
+  <ti:title xml:lang="fre">Métamorphoses</ti:title>
+  <ti:title xml:lang="lat">Metamorphōseōn librī</ti:title>
+  <ti:edition
+    xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    xml:lang="lat"
+    urn="urn:cts:latinLit:phi0959.phi006.perseus-lat1"
+    workUrn="urn:cts:latinLit:phi0959.phi006">
+    <ti:label xml:lang="eng">Metamorphoses</ti:label>
+    <ti:online docname="/db/repository/latinLit/phi0959/phi006/perseus-lat1.xml">
+      <ti:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+      <ti:citationMapping>
+          <ti:citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body">
+            <ti:citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@n='?']"/>
+          </ti:citation>
+      </ti:citationMapping>
+    </ti:online>
+  </ti:edition>
+</ti:work>
