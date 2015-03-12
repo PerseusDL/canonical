@@ -1,0 +1,27 @@
+<ti:work
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  xml:lang="lat"
+  urn="urn:cts:latinLit:phi1276.phi001"
+  groupUrn="urn:cts:latinLit:phi1276">
+    <ti:title xml:lang="eng">Satires</ti:title>
+    <ti:edition
+      xml:lang="lat"
+      urn="urn:cts:latinLit:phi1276.phi001.perseus-lat1"
+      workUrn="urn:cts:greekLit:phi1276.phi001">
+        <ti:label xml:lang="eng">Satires</ti:label>
+        <ti:description xml:lang="eng">
+            Juvenal and Persius: With An English Translation, G. G. Ramsay, 1918, William Heinemann; G. P. Putnam's Son, London
+        </ti:description>
+        <ti:online docname="/db/repository/latinLit/phi1276/phi001/phi1276.phi001.perseus-lat1.xml">
+            <ti:validate schema="tei-xl.rng"/>
+            <ti:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+            <ti:citationMapping>
+                <ti:citation label="book" xpath="/tei:div1[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div">
+                    <ti:citation label="poem" xpath="/tei:div2[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']">
+                        <ti:citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']/tei:div2[@n='?']" />
+                    </ti:citation>
+                </ti:citation>
+            </ti:citationMapping>
+        </ti:online>
+    </ti:edition>
+</ti:work>

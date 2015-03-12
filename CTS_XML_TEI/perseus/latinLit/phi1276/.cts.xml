@@ -1,0 +1,8 @@
+<ti:textgroup
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  urn="urn:cts:latinLit:phi1276"
+  tiid="annotsrc">
+  <ti:groupname xml:lang="eng">Juvenal</ti:groupname>
+  <ti:groupname xml:lang="fre">Juvénal</ti:groupname>
+  <ti:groupname xml:lang="lat">Decimus Iunius Iuvenalis</ti:groupname>
+</ti:textgroup>

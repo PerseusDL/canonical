@@ -1,0 +1,29 @@
+<ti:work
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  xml:lang="lat"
+  urn="urn:cts:latinLit:phi1294.phi002"
+  groupUrn="urn:cts:latinLit:phi1294">
+    <ti:title xml:lang="eng">Epigrams</ti:ti:title>
+    <ti:title xml:lang="fre">Épigrammes</ti:ti:title>
+    <ti:title xml:lang="lat">Epigrammata</ti:ti:title>
+    <ti:edition
+      xml:lang="lat"
+      urn="urn:cts:latinLit:phi1294.phi002.perseus-lat1"
+      workUrn="urn:cts:greekLit:phi1294.phi002">
+        <ti:label xml:lang="eng">Epigrammata</ti:ti:label>
+        <ti:description xml:lang="eng">
+            M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus
+        </ti:description>
+        <ti:online docname="/db/repository/latinLit/phi1294/phi002/phi1294.phi002.perseus-lat1.xml">
+            <ti:validate schema="tei-xl.rng"/>
+            <ti:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+            <ti:citationMapping>
+                <ti:citation label="book" xpath="/tei:div1[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div">
+                    <ti:citation label="poem" xpath="/tei:div2[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']">
+                        <ti:citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']/tei:div2[@n='?']" />
+                    </ti:citation>
+                </ti:citation>
+            </ti:citationMapping>
+        </ti:online>
+    </ti:ti:edition>
+</ti:ti:work>

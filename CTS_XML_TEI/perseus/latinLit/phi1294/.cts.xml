@@ -1,0 +1,8 @@
+<ti:textgroup
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  urn="urn:cts:latinLit:phi1294"
+  tiid="annotsrc">
+  <ti:groupname xml:lang="eng">Martial</ti:groupname>
+  <ti:groupname xml:lang="fre">Martial</ti:groupname>
+  <ti:groupname xml:lang="lat">Marcus Valerius Martialis</ti:groupname>
+</ti:textgroup>
