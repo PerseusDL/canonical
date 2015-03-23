@@ -117,7 +117,7 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="Line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                            <citation label="Line" xpath="//l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
@@ -133,7 +133,7 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="Book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="Line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                            <citation label="Line" xpath="//l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
