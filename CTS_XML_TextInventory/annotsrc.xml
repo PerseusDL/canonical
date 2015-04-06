@@ -9,6 +9,15 @@
         <description xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">Inventory of texts in the Alpheios text repository. </description>
         <rights xmlns="http://purl.org/dc/elements/1.1" xml:lang="eng">TBD - Creative Commons License info</rights>
     </collection>
+    <collection id="Perseus:collection:Greco-Roman-protected">
+        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Greek and Roman Materials</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">The Perseus Digital Library</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
+            and Rome</coverage>
+        <descripton xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Primary and secondary sources for the study of ancient Greece
+            and Rome</descripton>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Content is under copyright.</rights>
+    </collection>
     <!--
     <textgroup projid="greekLit:tlg0001">
         <groupname xml:lang="en">Apollonius Rhodius</groupname>
@@ -151,7 +160,7 @@
                         <validate schema="documentschema.rng"/>
                         <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                         <citationMapping>
-                            <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                            <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
                         </citationMapping>
                     </online>
                     <memberof collection="Perseus:collection:Greco-Roman"/>
@@ -1381,6 +1390,24 @@
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup urn="urn:cts:latinLit:phi1221" projid="latinLit:phi1221">
+        <groupname xml:lang="eng">Augustus Emperor of Rome 63 B.C.-14 A.D.</groupname>
+        <work urn="urn:cts:latinLit:phi1221.phi007" xml:lang="lat" projid="latinLit:phi007">
+            <title xml:lang="lat">Res Gestae</title>
+            <edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi1221.phi007.perseus-lat1">
+                <label xml:lang="eng">Res Gestae, Res Gestae Divi Augusti</label>
+                <description xml:lang="eng">Augustus, Emperor of Rome, 63 B.C.-14 A.D, creator; Brunt, P. A, editor; Moore, J. M. (John Michael), editor</description>
+                <online docname="/db/repository/latinLit/phi1221/phi007/phi1221.phi007.perseus-lat1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="entry" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman-Protected"/>
             </edition>
         </work>
     </textgroup>
