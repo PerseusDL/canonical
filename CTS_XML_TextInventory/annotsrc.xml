@@ -896,7 +896,7 @@
                 </online>
             </edition>
         </work>
-        <work projid="greekLit:tlg027">
+        <work projid="greekLit:tlg027" xml:lang="grc">
             <title xml:lang="eng">Ion</title>
             <edition projid="greekLit:perseus-grc1">
                 <label xml:lang="eng">Ion</label>
