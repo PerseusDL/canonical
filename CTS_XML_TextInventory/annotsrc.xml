@@ -131,6 +131,20 @@
                     </citationMapping>
                 </online>
             </edition>
+            <translation xml:lang="eng" urn="urn:cts:greekLit:tlg0012.tlg001.perseus-eng1" projid="greekLit:perseus-eng1"> 
+                <label xml:lang="eng">Iliad</label>
+                <description xml:lang="eng">Perseus:bib:oclc,38101377, Perseus:bib:isbn,0674991885, Perseus:bib:isbn,0674991893, Homer. The Iliad with an English Translation by A.T. Murray, Ph.D. in two volumes. Cambridge, MA., Harvard University Press; London, William Heinemann, Ltd. 1924.</description>
+                <online docname="/db/repository/greekLit/tlg0012/tlg001/tlg0012.tlg001.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="line" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
         <work projid="greekLit:tlg002" xml:lang="grc">
             <title xml:lang="eng">Odyssey</title>
@@ -147,6 +161,20 @@
                     </citationMapping>
                 </online>
             </edition>
+            <translation projid="greekLit:perseus-eng1" xml:lang="eng" urn="urn:cts:greekLit:tlg0012.tlg002.perseus-eng1">
+                <label xml:lang="eng">Odyssey</label>
+                <description xml:lang="eng">Perseus:bib:oclc,22584673, Perseus:bib:isbn,0674995619, Perseus:bib:isbn,0674995627, Homer. The Odyssey with an English Translation by A.T. Murray, PH.D. in two volumes. Cambridge, MA., Harvard University Press; London, William Heinemann, Ltd. 1919.</description>
+                <online docname="/db/repository/greekLit/tlg0012/tlg002/tlg0012.tlg002.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
+                            <citation label="line" xpath="/div2[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0013" urn="urn:cts:greekLit:tlg0013">
@@ -867,6 +895,29 @@
                     </citationMapping>
                 </online>
             </edition>
+        </work>
+        <work projid="greekLit:tlg027">
+            <title xml:lang="eng">Ion</title>
+            <edition projid="greekLit:perseus-grc1">
+                <label xml:lang="eng">Ion</label>
+                <online docname="/db/repository/greekLit/tlg0059/tlg027/tlg0059.tlg027.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>         
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body/div"/>
+                    </citationMapping>
+                </online>                
+            </edition>
+            <translation projid="greekLit:perseus-eng1">
+                <label xml:lang="eng">Ion (English Translation by W.R.M. Lamb)</label>
+                <online docname="/db/repository/greekLit/tlg0059/tlg027/tlg0059.tlg027.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>         
+                        <citation label="section" xpath="/div[@n='?']" scope="/TEI/text/body/div"/>
+                    </citationMapping>
+                </online>                
+            </translation>
         </work>
         <!--
         <work projid="greekLit:tlg034" xml:lang="grc">
