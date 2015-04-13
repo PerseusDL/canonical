@@ -449,6 +449,17 @@
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
+            <translation projid="greekLit:perseus-eng1" urn="urn:cts:greekLit:tlg0019.tlg003.perseus-eng1" xml:lang="eng">
+                <label xml:lang="eng">Clouds (English translation by William James Hickie)</label>
+                <online docname="/db/repository/greekLit/tlg0019/tlg003/tlg0019.tlg003.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
         <!--
         <work projid="greekLit:tlg004" xml:lang="grc">
