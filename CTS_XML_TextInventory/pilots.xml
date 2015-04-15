@@ -416,6 +416,24 @@
             </edition>
         </work>
     </textgroup>
+    <textgroup projid="greekLit:tlg0013" urn="urn:cts:greekLit:tlg0013">
+        <groupname xml:lang="eng">Homeric Hymns</groupname>
+        <work projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0013:tlg002" xml:lang="grc">
+            <title xml:lang="eng">Hymn 2 to Demeter</title>
+            <edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0013.tlg002.perseus-grc2">
+                <label xml:lang="eng">Hesiod The Homeric hymns. And Homerica</label>
+                <description xml:lang="eng">Hymni Homerici, creator; Hesiod, creator; Homer, creator; Evelyn-White, Hugh G. (Hugh Gerard), d. 1924, editor; Evelyn-White, Hugh G. (Hugh Gerard), d. 1924, translator</description>
+                <online docname="/db/repository/greekLit/tlg0013/tlg002/tlg0013.tlg002.perseus-grc2.xml">
+                    <validate schema="documentschema.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
+    </textgroup>
     <textgroup projid="greekLit:tlg0019" urn="urn:cts:greekLit:tlg0019">
         <groupname xml:lang="eng">Aristophanes</groupname>
         <work projid="greekLit:tlg003" urn="urn:cts:greekLit:tlg0019.tlg003" xml:lang="grc">
@@ -843,6 +861,27 @@
                     </citationMapping>
                 </online>
             </translation>
+        </work>
+    </textgroup>
+    <textgroup projid="latinLit:phi0972" urn="urn:cts:latinLit:phi0972">
+        <groupname xml:lang="eng">Petronius Arbiter</groupname>
+        <work projid="latinLit:phi001" urn="urn:cts:latinLit:phi0972.phi001" xml:lang="lat">
+            <title xml:lang="lat">Satyricon</title>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0059">
+        <groupname xml:lang="en">Plato</groupname>
+        <work projid="greekLit:tlg027" xml:lang="grc">
+            <title xml:lang="eng">Ion</title>
+        </work>
+        <work projid="greekLit:tlg030" xml:lang="grc">
+            <title xml:lang="eng">Republic</title>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0020" urn="urn:cts:greekLit:tlg0020">
+        <groupname xml:lang="eng">Hesiod.</groupname>
+        <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0020.tlg001" xml:lang="grc">
+            <title xml:lang="grc">Theogony</title>
         </work>
     </textgroup>
 </TextInventory>
