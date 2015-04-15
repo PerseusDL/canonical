@@ -899,37 +899,37 @@
         <groupname xml:lang="en">Plato</groupname>
         <work projid="greekLit:tlg030" xml:lang="grc">
             <title xml:lang="en">Republic</title>
-            <edition projid="greekLit:perseus-grc1">
+            <edition projid="greekLit:perseus-grc2">
                 <label xml:lang="en">Republic</label>
                 <description xml:lang="eng">Perseus:bib:oclc,25415852, Plato. Platonis Opera, ed.
                     John Burnet. Oxford University Press. 1903.</description>
                 <online
-                    docname="/db/repository/greekLit/tlg0059/tlg030/tlg0059.tlg030.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
+                    docname="/db/repository/greekLit/tlg0059/tlg030/tlg0059.tlg030.perseus-grc2.xml">
+                    <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/div[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="section" xpath="/div[@n='?']"
-                                scope="/TEI.2/text/body/div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="section" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
             </edition>
-            <translation projid="greekLit:perseus-eng1" xml:lang="eng"
-                urn="urn:cts:greekLit:tlg0059.tlg030.perseus-eng1">
+            <translation projid="greekLit:perseus-eng2" xml:lang="eng"
+                urn="urn:cts:greekLit:tlg0059.tlg030.perseus-eng2">
                 <label xml:lang="eng">Republic</label>
                 <description xml:lang="eng">Perseus:bib:oclc,1886340, Perseus:bib:isbn,0674992628,
                     Perseus:bib:isbn,0674993047, Plato. Plato in Twelve Volumes, Vols. 5 &amp;amp; 6
                     translated by Paul Shorey. Cambridge, MA, Harvard University Press; London,
                     William Heinemann Ltd. 1969.</description>
                 <online
-                    docname="/db/repository/greekLit/tlg0059/tlg030/tlg0059.tlg030.perseus-eng1.xml">
-                    <validate schema="teia.xsd"/>
+                    docname="/db/repository/greekLit/tlg0059/tlg030/tlg0059.tlg030.perseus-eng2.xml">
+                    <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/div[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="section" xpath="/div[@n='?']"
-                                scope="/TEI.2/text/body/div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="section" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
