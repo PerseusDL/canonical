@@ -112,11 +112,11 @@
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0003">
-        <groupname xml:lang="en">Thucydides</groupname>
+        <groupname xml:lang="eng">Thucydides</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
-            <title xml:lang="en">The Peloponnesian War</title>
+            <title xml:lang="eng">The Peloponnesian War</title>
             <edition projid="greekLit:perseus-grc2">
-                <label xml:lang="en">The Peloponnesian War (Oxford 1942 Epidoc)</label>
+                <label xml:lang="eng">The Peloponnesian War (Oxford 1942 Epidoc)</label>
                 <description xml:lang="eng">Thucydides. Historiae in two volumes. Oxford, Oxford
                     University Press. 1942.</description>
                 <online
@@ -137,7 +137,7 @@
                 </online>
             </edition>
             <translation projid="greekLit:perseus-eng4">
-                <label xml:lang="en">The Peloponnesian War (English - Thomas Hobbes translator)</label>
+                <label xml:lang="eng">The Peloponnesian War (English - Thomas Hobbes translator)</label>
                 <description xml:lang="eng">The English works of Thomas Hobbes of Malmesbury. Thucydides. Thomas Hobbes. translator. London. Bohn. 1843.</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng4.xml">
                     <validate schema="tei-xl.xsd"/>
@@ -156,7 +156,7 @@
                 </online>
             </translation>
             <translation projid="greekLit:perseus-eng5">
-                <label xml:lang="en">The Peloponnesian War (English - Benjamin Jowett translator)</label>
+                <label xml:lang="eng">The Peloponnesian War (English - Benjamin Jowett translator)</label>
                 <description xml:lang="eng">Thucydides translated into English; with introduction, marginal analysis, notes, and indices. Volume 1. Thucydides. Benjamin Jowett. translator. Oxford. Clarendon Press. 1881</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng5.xml">
                     <validate schema="tei-xl.xsd"/>
@@ -175,7 +175,7 @@
                 </online>
             </translation>
             <translation projid="greekLit:perseus-eng6">
-                <label xml:lang="en">The Peloponnesian War (English - E.P. Dutton)</label>
+                <label xml:lang="eng">The Peloponnesian War (English - E.P. Dutton)</label>
                 <description xml:lang="eng">Thucydides. The Peloponnesian War. London, J. M. Dent; New York, E. P. Dutton. 1910.</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.perseus-eng6.xml">
                     <validate schema="tei-xl.xsd"/>
@@ -194,7 +194,7 @@
                 </online>
             </translation>
             <translation projid="greekLit:opp-ger1">
-                <label xml:lang="en">The Peloponnesian War  (German. Ed. A. Warmund)</label>
+                <label xml:lang="eng">The Peloponnesian War  (German. Ed. A. Warmund)</label>
                 <description xml:lang="eng">Geschichte des Peloponnesischen Kriegs. Vol. 1. Ed. A. Warmund. 1864</description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-ger1.xml">
                     <validate schema="tei-xl.xsd"/>
@@ -209,7 +209,7 @@
                 </online>
             </translation>
             <translation projid="greekLit:opp-fre1">
-                <label xml:lang="en">The Peloponnesian War (French. Marie Charles Zévort translator.)</label>
+                <label xml:lang="eng">The Peloponnesian War (French. Marie Charles Zévort translator.)</label>
                 <description xml:lang="eng">Histoire de la Guerre du Péloponnése, vol. 1, Traduit par Marie Charles Zévort (1852) Paris: Charpentier. </description>
                 <online docname="/db/repository/greekLit/tlg0003/tlg001/tlg0003.tlg001.opp-fre1.xml">
                     <validate schema="tei-xl.xsd"/>
@@ -226,11 +226,11 @@
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0006">
-        <groupname xml:lang="en">Euripides</groupname>
+        <groupname xml:lang="eng">Euripides</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
-            <title xml:lang="en">Cyclops</title>
+            <title xml:lang="eng">Cyclops</title>
             <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Cyclops</label>
+                <label xml:lang="eng">Cyclops</label>
                 <description xml:lang="eng">Perseus:bib:oclc,34837302, Perseus:bib:isbn,0674995600,
                     Euripides. Euripides, with an English translation by David Kovacs. Cambridge.
                     Harvard University Press. forthcoming.</description>
@@ -282,11 +282,11 @@
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0085">
-        <groupname xml:lang="en">Aeschylus</groupname>
+        <groupname xml:lang="eng">Aeschylus</groupname>
         <work projid="greekLit:tlg003" xml:lang="grc">
-            <title xml:lang="en">Prometheus Bound</title>
+            <title xml:lang="eng">Prometheus Bound</title>
             <edition projid="greekLit:perseus-grc2">
-                <label xml:lang="en">Prometheus Bound</label>
+                <label xml:lang="eng">Prometheus Bound</label>
                 <description xml:lang="eng">Perseus:bib:oclc,13109528, Perseus:bib:isbn,0674991605,
                     Aeschylus. Aeschylus, with an English translation by Herbert Weir Smyth, Ph. D.
                     in two volumes. 1.Prometheus. Cambridge. Cambridge, Mass., Harvard University
@@ -337,7 +337,7 @@
                     </citationMapping>
                 </online>
             </edition>
-            <translation projid="greekLit:perseus-eng2" xml:lang="en">
+            <translation projid="greekLit:perseus-eng2" xml:lang="eng">
                 <label xml:lang="eng">The Deipnosophists (trans. Yonge, Bohn 1854)</label>
                 <online
                     docname="/db/repository/greekLit/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml">
@@ -519,11 +519,11 @@
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0062">
-        <groupname xml:lang="en">Lucian</groupname>
+        <groupname xml:lang="eng">Lucian</groupname>
         <work projid="greekLit:tlg020" xml:lang="grc">
-            <title xml:lang="en">Prometheus</title>
+            <title xml:lang="eng">Prometheus</title>
             <edition projid="greekLit:perseus-grc1">
-                <label xml:lang="en">Prometheus</label>
+                <label xml:lang="eng">Prometheus</label>
                 <description xml:lang="eng">Perseus:bib:oclc,, Lucian. ed. A. M. Harmon, Works.
                     Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</description>
                 <online
@@ -870,7 +870,7 @@
         </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0059">
-        <groupname xml:lang="en">Plato</groupname>
+        <groupname xml:lang="eng">Plato</groupname>
         <work projid="greekLit:tlg027" xml:lang="grc">
             <title xml:lang="eng">Ion</title>
         </work>
