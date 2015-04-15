@@ -1762,7 +1762,10 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="entry" xpath="/tei:div[@n='?']"
-                            scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                            scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="person" xpath="/tei:div[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"/>
+                        </citation>
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
