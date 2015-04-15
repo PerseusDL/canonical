@@ -1,0 +1,178 @@
+<?xml-model href="../../TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiid="epifacs" tiversion="3.0.rc1">
+    <ctsnamespace abbr="pdlepi" ns="http://data.perseus.org/ns/cts/ig">
+        <description xml:lang="eng">PDL Epigraphy General Collection</description>
+    </ctsnamespace>
+    <collection id="eagle">
+        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Inscriptions in EAGLE</title>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under the terms of Creative Commons attribution-share-alike license.</rights>
+    </collection>
+    <citationSchemes>
+        <scheme projid="poeticline" type="logical">
+            <label>line</label>
+            <description xml:lang="eng">Epigram cited by individual lines.</description>
+        </scheme>
+    </citationSchemes>
+    <textgroup projid="pdlepi:eagle" urn="urn:cts:pdlepi:eagle">
+        <groupname xml:lang="eng">Eagle Inscriptions</groupname>
+        <work projid="pdlepi:tm202330" urn="urn:cts:pdlepi:eagle:tm202330" xml:lang="lat">
+            <title xml:lang="eng">tm202330</title>
+        </work>
+        <work projid="pdlepi:tm201038" urn="urn:cts:pdlepi:eagle:tm201038" xml:lang="lat">
+            <title xml:lang="eng">tm201038</title>
+        </work>
+        <work projid="pdlepi:tm202331" urn="urn:cts:pdlepi:eagle:tm202331" xml:lang="lat">
+            <title xml:lang="eng">tm202331</title>
+        </work>
+        <work projid="pdlepi:tm200497" urn="urn:cts:pdlepi:eagle:tm200497" xml:lang="lat">
+            <title xml:lang="eng">tm200497</title>
+        </work>
+        <work projid="pdlepi:tm202332" urn="urn:cts:pdlepi:eagle:tm202332" xml:lang="lat">
+            <title xml:lang="eng">tm202332</title>
+        </work>
+        <work projid="pdlepi:tm202333" urn="urn:cts:pdlepi:eagle:tm202333" xml:lang="lat">
+            <title xml:lang="eng">tm202333</title>
+        </work>
+        <work projid="pdlepi:tm202334" urn="urn:cts:pdlepi:eagle:tm202334" xml:lang="lat">
+            <title xml:lang="eng">tm202334</title>
+        </work>
+        <work projid="pdlepi:tm202335" urn="urn:cts:pdlepi:eagle:tm202335" xml:lang="lat">
+            <title xml:lang="eng">tm202335</title>
+        </work>
+        <work projid="pdlepi:tm200496" urn="urn:cts:pdlepi:eagle:tm200496" xml:lang="lat">
+            <title xml:lang="eng">tm200496</title>
+        </work>
+        <work projid="pdlepi:tm202336" urn="urn:cts:pdlepi:eagle:tm202336" xml:lang="lat">
+            <title xml:lang="eng">tm202336</title>
+        </work>
+        <work projid="pdlepi:tm202337" urn="urn:cts:pdlepi:eagle:tm202337" xml:lang="lat">
+            <title xml:lang="eng">tm202337</title>
+        </work>
+        <work projid="pdlepi:tm200035" urn="urn:cts:pdlepi:eagle:tm200035" xml:lang="lat">
+            <title xml:lang="eng">tm200035</title>
+        </work>
+        <work projid="pdlepi:tm202338" urn="urn:cts:pdlepi:eagle:tm202338" xml:lang="lat">
+            <title xml:lang="eng">tm202338</title>
+        </work>
+        <work projid="pdlepi:tm202339" urn="urn:cts:pdlepi:eagle:tm202339" xml:lang="lat">
+            <title xml:lang="eng">tm202339</title>
+        </work>
+        <work projid="pdlepi:tm199341" urn="urn:cts:pdlepi:eagle:tm199341" xml:lang="lat">
+            <title xml:lang="eng">tm199341</title>
+        </work>
+        <work projid="pdlepi:tm202341" urn="urn:cts:pdlepi:eagle:tm202341" xml:lang="lat">
+            <title xml:lang="eng">tm202341</title>
+        </work>
+        <work projid="pdlepi:tm202342" urn="urn:cts:pdlepi:eagle:tm202342" xml:lang="lat">
+            <title xml:lang="eng">tm202342</title>
+        </work>
+        <work projid="pdlepi:tm202343" urn="urn:cts:pdlepi:eagle:tm202343" xml:lang="lat">
+            <title xml:lang="eng">tm202343</title>
+        </work>
+        <work projid="pdlepi:tm202344" urn="urn:cts:pdlepi:eagle:tm202344" xml:lang="lat">
+            <title xml:lang="eng">tm202344</title>
+        </work>
+        <work projid="pdlepi:tm202345" urn="urn:cts:pdlepi:eagle:tm202345" xml:lang="lat">
+            <title xml:lang="eng">tm202345</title>
+        </work>
+        <work projid="pdlepi:tm200951" urn="urn:cts:pdlepi:eagle:tm200951" xml:lang="lat">
+            <title xml:lang="eng">tm200951</title>
+        </work>
+        <work projid="pdlepi:tm200499" urn="urn:cts:pdlepi:eagle:tm200499" xml:lang="lat">
+            <title xml:lang="eng">tm200499</title>
+        </work>
+        <work projid="pdlepi:tm200053" urn="urn:cts:pdlepi:eagle:tm200053" xml:lang="lat">
+            <title xml:lang="eng">tm200053</title>
+        </work>
+        <work projid="pdlepi:tm202346" urn="urn:cts:pdlepi:eagle:tm202346" xml:lang="lat">
+            <title xml:lang="eng">tm202346</title>
+        </work>
+        <work projid="pdlepi:tm202347" urn="urn:cts:pdlepi:eagle:tm202347" xml:lang="lat">
+            <title xml:lang="eng">tm202347</title>
+        </work>
+        <work projid="pdlepi:tm341949" urn="urn:cts:pdlepi:eagle:tm341949" xml:lang="lat">
+            <title xml:lang="eng">tm341949</title>
+        </work>
+        <work projid="pdlepi:tm341950" urn="urn:cts:pdlepi:eagle:tm341950" xml:lang="lat">
+            <title xml:lang="eng">tm341950</title>
+        </work>
+        <work projid="pdlepi:tm202348" urn="urn:cts:pdlepi:eagle:tm202348" xml:lang="lat">
+            <title xml:lang="eng">tm202348</title>
+        </work>
+        <work projid="pdlepi:tm341951" urn="urn:cts:pdlepi:eagle:tm341951" xml:lang="lat">
+            <title xml:lang="eng">tm341951</title>
+        </work>
+        <work projid="pdlepi:tm341952" urn="urn:cts:pdlepi:eagle:tm341952" xml:lang="lat">
+            <title xml:lang="eng">tm341952</title>
+        </work>
+        <work projid="pdlepi:tm202349" urn="urn:cts:pdlepi:eagle:tm202349" xml:lang="lat">
+            <title xml:lang="eng">tm202349</title>
+        </work>
+        <work projid="pdlepi:tm202351" urn="urn:cts:pdlepi:eagle:tm202351" xml:lang="lat">
+            <title xml:lang="eng">tm202351</title>
+        </work>
+        <work projid="pdlepi:tm202353" urn="urn:cts:pdlepi:eagle:tm202353" xml:lang="lat">
+            <title xml:lang="eng">tm202353</title>
+        </work>
+        <work projid="pdlepi:tm202354" urn="urn:cts:pdlepi:eagle:tm202354" xml:lang="lat">
+            <title xml:lang="eng">tm202354</title>
+        </work>
+        <work projid="pdlepi:tm202354" urn="urn:cts:pdlepi:eagle:tm202354" xml:lang="lat">
+            <title xml:lang="eng">tm202354</title>
+        </work>
+        <work projid="pdlepi:tm202354" urn="urn:cts:pdlepi:eagle:tm202354" xml:lang="lat">
+            <title xml:lang="eng">tm202354</title>
+        </work>
+        <work projid="pdlepi:tm202355" urn="urn:cts:pdlepi:eagle:tm202355" xml:lang="lat">
+            <title xml:lang="eng">tm202355</title>
+        </work>
+        <work projid="pdlepi:tm202356" urn="urn:cts:pdlepi:eagle:tm202356" xml:lang="lat">
+            <title xml:lang="eng">tm202356</title>
+        </work>
+        <work projid="pdlepi:tm202357" urn="urn:cts:pdlepi:eagle:tm202357" xml:lang="lat">
+            <title xml:lang="eng">tm202357</title>
+        </work>
+        <work projid="pdlepi:tm202358" urn="urn:cts:pdlepi:eagle:tm202358" xml:lang="lat">
+            <title xml:lang="eng">tm202358</title>
+        </work>
+        <work projid="pdlepi:tm202359" urn="urn:cts:pdlepi:eagle:tm202359" xml:lang="lat">
+            <title xml:lang="eng">tm202359</title>
+        </work>
+        <work projid="pdlepi:tm202360" urn="urn:cts:pdlepi:eagle:tm202360" xml:lang="lat">
+            <title xml:lang="eng">tm202360</title>
+        </work>
+        <work projid="pdlepi:tm202361" urn="urn:cts:pdlepi:eagle:tm202361" xml:lang="lat">
+            <title xml:lang="eng">tm202361</title>
+        </work>
+        <work projid="pdlepi:tm200055" urn="urn:cts:pdlepi:eagle:tm200055" xml:lang="lat">
+            <title xml:lang="eng">tm200055</title>
+        </work>
+        <work projid="pdlepi:tm202362" urn="urn:cts:pdlepi:eagle:tm202362" xml:lang="lat">
+            <title xml:lang="eng">tm202362</title>
+        </work>
+        <work projid="pdlepi:tm200059" urn="urn:cts:pdlepi:eagle:tm200059" xml:lang="lat">
+            <title xml:lang="eng">tm200059</title>
+        </work>
+        <work projid="pdlepi:tm202363" urn="urn:cts:pdlepi:eagle:tm202363" xml:lang="lat">
+            <title xml:lang="eng">tm202363</title>
+        </work>
+        <work projid="pdlepi:tm202364" urn="urn:cts:pdlepi:eagle:tm202364" xml:lang="lat">
+            <title xml:lang="eng">tm202364</title>
+        </work>
+        <work projid="pdlepi:tm202365" urn="urn:cts:pdlepi:eagle:tm202365" xml:lang="lat">
+            <title xml:lang="eng">tm202365</title>
+        </work>
+        <work projid="pdlepi:tm202366" urn="urn:cts:pdlepi:eagle:tm202366" xml:lang="lat">
+            <title xml:lang="eng">tm202366</title>
+        </work>
+        <work projid="pdlepi:tm202367" urn="urn:cts:pdlepi:eagle:tm202367" xml:lang="lat">
+            <title xml:lang="eng">tm202367</title>
+        </work>
+        <work projid="pdlepi:tm202368" urn="urn:cts:pdlepi:eagle:tm202368" xml:lang="lat">
+            <title xml:lang="eng">tm202368</title>
+        </work>
+        <work projid="pdlepi:tm202369" urn="urn:cts:pdlepi:eagle:tm202369" xml:lang="lat">
+            <title xml:lang="eng">tm202369</title>
+        </work>
+    </textgroup>
+</TextInventory>
