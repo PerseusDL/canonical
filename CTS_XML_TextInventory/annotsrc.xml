@@ -642,6 +642,23 @@
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
+            <translation projid="greekLit:perseus-eng1"
+                urn="urn:cts:greekLit:tlg0019.tlg006.perseus-eng1">
+                <label xml:lang="eng">Birds</label>
+                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
+                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
+                    Oxford. Clarendon Press, Oxford. 1907.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-eng1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="card" xpath="//tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </translation>
         </work>
         <work projid="greekLit:tlg007" xmlns:cts="http://chs.harvard.edu/xmlns/cts/ti"
             urn="urn:cts:greekLit:tlg0019.tlg007" xml:lang="grc">
