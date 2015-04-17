@@ -1513,6 +1513,25 @@
                 </online>
             </edition>
         </work>
+        <work projid="greekLit:tlg027" xml:lang="grc">
+            <title xml:lang="en">De Sacrificiis</title>
+            <edition projid="greekLit:perseus-grc2">
+                <label xml:lang="en">De Sacrificiis</label>
+                <description xml:lang="eng">, Lucian. ed. A. M. Harmon, Works.
+                    Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0062/tlg027/tlg0062.tlg027.perseus-grc2.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        
+                        <citation label="section" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                        
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
     </textgroup>
     <textgroup projid="greekLit:tlg0060" urn="urn:cts:greekLit:tlg0060">
         <groupname>Diodorus Siculus</groupname>
