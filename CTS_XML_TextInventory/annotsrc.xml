@@ -1502,7 +1502,7 @@
                     Cambridge: Harvard University Press. William Heinemann Ltd., 1915.</description>
                 <online
                     docname="/db/repository/greekLit/tlg0062/tlg020/tlg0062.tlg020.perseus-grc1.xml">
-                    <validate schema="teia.xsd"/>
+                    <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
 
