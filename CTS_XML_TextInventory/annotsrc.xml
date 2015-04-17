@@ -23,27 +23,30 @@
         <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Content is under
             copyright.</rights>
     </collection>
-    <!--
     <textgroup projid="greekLit:tlg0001">
         <groupname xml:lang="en">Apollonius Rhodius</groupname>
         <work projid="greekLit:tlg001" xml:lang="grc">
             <title xml:lang="eng">Argonautica</title>
-            <edition projid="greekLit:perseus-grc1">
+            <edition projid="greekLit:perseus-grc2">
                 <label xml:lang="eng">Argonautica</label>
-                <description xmlns="" xml:lang="en">Perseus:bib:oclc,39793726, Sophocles. Sophocles. Vol 1: Oedipus the king. Oedipus at Colonus. Antigone. With an English translation by F. Storr. The Loeb classical library, 20. Francis Storr. London; New York. William Heinemann Ltd.; The Macmillan Company. 1912.</description>
-                <online docname="/db/repository/greekLit/tlg0001/tlg001/tlg0001.tlg001.perseus-grc1.xml">
-                    <validate schema="tei-xl.rng"/>
+                <description xmlns="" xml:lang="en">Apollonius, Rhodius, creator; Mooney, George W,
+                    editor, translator </description>
+                <online
+                    docname="/db/repository/greekLit/tlg0001/tlg001/tlg0001.tlg001.perseus-grc2.xml">
+                    <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="Line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        <citation label="book" xpath="/div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="line" xpath="/l[@n='?']"
+                                scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
             </edition>
         </work>
     </textgroup>
-    -->
+
     <!--
     <textgroup projid="greekLit:tlg0011">
         <groupname xml:lang="en">Sophocles</groupname>
@@ -452,24 +455,31 @@
             <title xml:lang="en">Heracles</title>
             <edition projid="greekLit:perseus-grc2">
                 <label xml:lang="en">Heracles</label>
-                <description xml:lang="eng">Perseus:bib:oclc,36956970, Euripides. Euripidis Fabulae, vol. 2. Gilbert Murray. Oxford. Clarendon Press, Oxford. 1913.</description>
-                <online docname="/db/repository/greekLit/tlg0006/tlg009/tlg0006.tlg009.perseus-grc2.xml">
+                <description xml:lang="eng">Perseus:bib:oclc,36956970, Euripides. Euripidis Fabulae,
+                    vol. 2. Gilbert Murray. Oxford. Clarendon Press, Oxford. 1913.</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0006/tlg009/tlg0006.tlg009.perseus-grc2.xml">
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                        <citation label="line" xpath="//tei:l[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div"/>
                     </citationMapping>
                     <memberof collection="Perseus:collection:Greco-Roman"/>
                 </online>
             </edition>
             <translation projid="greekLit:perseus-eng1">
                 <label xml:lang="en">Heracles</label>
-                <description xml:lang="eng">Euripides, creator; Coleridge, Edward P. (Edward Philip), b. 1863, translator; Oates, Whitney Jennings, 1904-, creator, editor.; O'Neill, Eugene, 1910-1950, joint editor</description>
-                <online docname="/db/repository/greekLit/tlg0006/tlg009/tlg0006.tlg009.perseus-eng1.xml">
+                <description xml:lang="eng">Euripides, creator; Coleridge, Edward P. (Edward
+                    Philip), b. 1863, translator; Oates, Whitney Jennings, 1904-, creator, editor.;
+                    O'Neill, Eugene, 1910-1950, joint editor</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0006/tlg009/tlg0006.tlg009.perseus-eng1.xml">
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="card" xpath="//tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                        <citation label="card" xpath="//tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div"/>
                     </citationMapping>
                     <memberof collection="Perseus:collection:Greco-Roman"/>
                 </online>
@@ -633,7 +643,7 @@
                     Oxford. Clarendon Press, Oxford. 1907.</description>
                 <online
                     docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml">
-                    <validate schema="teia.xsd"/>
+                    <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="line" xpath="//tei:l[@n='?']"
@@ -645,12 +655,12 @@
             <translation projid="greekLit:perseus-eng1"
                 urn="urn:cts:greekLit:tlg0019.tlg006.perseus-eng1">
                 <label xml:lang="eng">Birds</label>
-                <description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes
-                    Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart.
-                    Oxford. Clarendon Press, Oxford. 1907.</description>
+                <description xml:lang="eng">Aristophanes, creator; O'Neill, Eugene, 1910-1950,
+                    translator; Oates, Whitney Jennings, 1904-, creator, editor.; O'Neill, Eugene,
+                    1910-1950, joint editor</description>
                 <online
                     docname="/db/repository/greekLit/tlg0019/tlg006/tlg0019.tlg006.perseus-eng1.xml">
-                    <validate schema="teia.xsd"/>
+                    <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
                         <citation label="card" xpath="//tei:div[@n='?']"
@@ -952,7 +962,8 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="section" xpath="/tei:div[@n='?']"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
@@ -971,7 +982,8 @@
                     <validate schema="tei-epidoc.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                        <citation label="book" xpath="/tei:div[@n='?']"
+                            scope="/tei:TEI/tei:text/tei:body/tei:div">
                             <citation label="section" xpath="/tei:div[@n='?']"
                                 scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']"/>
                         </citation>
