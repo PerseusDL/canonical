@@ -128,11 +128,11 @@
             </translation>
         </work>
     </textgroup>
-    <textgroup projid="greekLit:tlg0012">
+    <textgroup projid="greekLit:tlg0012" urn="urn:cts:greekLit:tlg0012">
         <groupname xml:lang="eng">Homeric Poems</groupname>
-        <work projid="greekLit:tlg001" xml:lang="grc">
+        <work projid="greekLit:tlg001" xml:lang="grc" urn="urn:cts:greekLit:tlg0012.tlg001">
             <title xml:lang="eng">Iliad</title>
-            <edition projid="greekLit:perseus-grc1">
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0012.tlg001.perseus-grc1">
                 <description xmlns="" xml:lang="en">Perseus:bib:oclc,29448041, Homer. Homeri Opera
                     in five volumes. Oxford, Oxford University Press. 1920.</description>
                 <label xml:lang="eng">Iliad - perseus-grc1</label>
@@ -1791,6 +1791,24 @@
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman-protected"/>
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg0085" projid="greekLit:tlg0085">
+        <groupname xml:lang="eng">Aeschylus</groupname>
+        <work urn="urn:cts:greekLit:tlg0085.tlg005" xml:lang="grc" projid="greekLit:tlg005">
+            <title xml:lang="grc">Agamemnon</title>
+            <edition urn="urn:cts:greekLit:tlg0085.tlg005.perseus-grc1" projid="greekLit:perseus-grc1">
+                <label xml:lang="eng">Agamemnon, Aeschylus with an English translation Vol II</label>
+                <description xml:lang="eng">Aeschylus, creator; Smyth, Herbert Weir, 1857- 1937, editor; Smyth, Herbert Weir, 1857- 1937, translator</description>
+                <online docname="/db/repository/greekLit/tlg0085/tlg005/tlg0085.tlg005.perseus-grc1.xml">
+                    <validate schema="tei-epidoc.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="line" xpath="/said[@n='?']" scope="/TEI.2/text/body"/>
+                    </citationMapping>
+                    <memberof collection="Perseus:collection:Greco-Roman"/>
+                </online>
             </edition>
         </work>
     </textgroup>
