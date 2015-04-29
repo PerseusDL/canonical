@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:ig:vii" projid="ig:2543-2545" urn="urn:cts:ig:vii.2543-2545" xml:lang="grc">
+            <ti:title xml:lang="eng">2543-2545: Epitaph of Nedymos (Thebes)</ti:title>
+            <ti:edition projid="ig:perseus-grc1" urn="urn:cts:ig:vii.2543-2545.perseus-grc1">
+                <ti:label xml:lang="eng">Transcription by Marie-Claire Beaulieu</ti:label>
+                <ti:memberof collection="epifacs" />
+            </ti:edition>
+            <ti:translation projid="ig:perseus-eng1" urn="urn:cts:ig:vii.2543-2545.perseus-eng1" xml:lang="eng">
+                <ti:label xml:lang="eng">English Translation by Marie-Claire Beaulieu</ti:label>
+                <ti:memberof collection="epifacs" />
+            </ti:translation>
+        </ti:work>
+    

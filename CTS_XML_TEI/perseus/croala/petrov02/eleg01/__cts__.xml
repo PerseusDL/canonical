@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:petrov02" projid="croala:eleg01" urn="urn:cts:croala:petrov02.eleg01" xml:lang="lat">
+            <ti:title xml:lang="eng">Amissa uxore orbitatem suam rursus deflet</ti:title>
+            <ti:edition projid="croala:lat1">
+                <ti:label xml:lang="eng">Eleg01 Latin Transcription (K&#246;rbler 1911)</ti:label>
+                </ti:edition>
+        </ti:work>
+        

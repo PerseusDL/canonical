@@ -1,0 +1,13 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:pdlpsci:bodin" projid="pdlpsci:livrep" urn="urn:cts:pdlpsci:bodin.livrep" xml:lang="lat">
+            <ti:title xml:lang="eng">Les Six livres de la R&#233;publique</ti:title>
+            <ti:edition projid="pdlpsci:perseus-lat1">
+                <ti:label>1586 De Republica</ti:label>
+                </ti:edition>
+            <ti:edition projid="pdlpsci:perseus-fre1" xml:lang="fre">
+                <ti:label>Les Six livres de la R&#233;publique</ti:label>
+                </ti:edition>
+            <ti:translation projid="pdlpsci:perseus-eng1" xml:lang="eng">
+                <ti:label>The six bookes of a common-weale.</ti:label>
+                </ti:translation>
+        </ti:work>
+    

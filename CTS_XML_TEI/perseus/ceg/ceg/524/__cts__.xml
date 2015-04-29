@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:ceg:ceg" projid="ceg:524" urn="urn:cts:ceg:ceg.524" xml:lang="grc">
+            <ti:title xml:lang="eng">524, Archippos Skambonides</ti:title>
+            <ti:edition projid="ceg:perseus-grc1" urn="urn:cts:ceg:524.perseus-grc1">
+                <ti:label xml:lang="eng">CEG 524 Transcription Tufts Students Fall 2013</ti:label>
+                <ti:memberof collection="epifacs" />
+            </ti:edition>
+            <ti:translation projid="ceg:perseus-eng1" urn="urn:cts:ceg:ceg.524.perseus-eng1" xml:lang="eng">
+                <ti:label xml:lang="eng">CEG 524 Translation by Tufts Students Fall 2013</ti:label>
+                <ti:memberof collection="epifacs" />
+            </ti:translation>
+        </ti:work>
+        

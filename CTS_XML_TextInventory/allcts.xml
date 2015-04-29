@@ -2093,7 +2093,7 @@
 
 
   </textgroup>-->
-  <textgroup>
+  <textgroup projid="greekLit:tlg0010" >
     <groupname xml:lang="eng">Isocrates</groupname>
     <work projid="greekLit:tlg0010" urn="urn:cts:greekLit:phi0010.tlg001">
       <title xml:lang="eng">Against Euthynus</title>

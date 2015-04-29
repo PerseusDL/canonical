@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:itaLit:dante" projid="itaLit:dc" urn="urn:cts:itaLit:dante.dc" xml:lang="de">
+            <ti:title xml:lang="eng">The Divine Comedy</ti:title>
+            <ti:edition projid="itaLit:perseus-ger1">
+                <ti:label>The Divine Comedy</ti:label>
+                <ti:description xml:lang="eng">The Divine Comedy </ti:description>
+                </ti:edition>
+            <ti:translation projid="itaLit:perseus-eng1">
+                <ti:label>The Divine Comedy</ti:label>
+                <ti:description xml:lang="eng">The Divine Comedy </ti:description>
+                </ti:translation>
+        </ti:work>
+    

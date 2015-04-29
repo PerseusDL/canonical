@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:marul" projid="croala:01" urn="urn:cts:croala:marul.01" xml:lang="lat">
+            <ti:title xml:lang="lat">Quinquaginta parabolae</ti:title>
+            <ti:edition projid="croala:lat1">
+                <ti:label xml:lang="eng">Latin Transcription (Glavi&#269;i&#263;)</ti:label>
+                </ti:edition>
+        </ti:work>
+    
