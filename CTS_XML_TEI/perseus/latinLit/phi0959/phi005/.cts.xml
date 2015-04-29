@@ -1,0 +1,22 @@
+<ti:work
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  xml:lang="lat"
+  urn="urn:cts:latinLit:phi0959.phi005"
+  groupUrn="urn:cts:latinLit:phi0959">
+  <ti:title xml:lang="eng">Remedy of Love</ti:title>
+  <ti:title xml:lang="fre">Remède à l'amoru</ti:title>
+  <ti:title xml:lang="lat">Remedia amoris</ti:title>
+  <ti:edition
+    xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    xml:lang="lat"
+    urn="urn:cts:latinLit:phi0959.phi005.perseus-lat1"
+    workUrn="urn:cts:latinLit:phi0959.phi005">
+    <ti:label xml:lang="eng">Remedy of Love</ti:label>
+    <ti:online docname="/db/repository/latinLit/phi0959/phi005/perseus-lat1.xml">
+      <ti:namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+      <ti:citationMapping>
+        <ti:citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']"/>
+      </ti:citationMapping>
+    </ti:online>
+  </ti:edition>
+</ti:work>
