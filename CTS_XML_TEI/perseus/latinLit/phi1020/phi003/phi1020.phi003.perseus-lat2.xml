@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
@@ -29,12 +29,12 @@
     </fileDesc>
 
     <encodingDesc>
-<refsDecl >
-<refState unit="book"/>
-  <refState unit="line"/>
+<refsDecl>
+<refState unit="book" />
+  <refState unit="line" />
 </refsDecl>
 
-    </encodingDesc>
+    <refsDecl id="CTS"><cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"><p>This pointer pattern extracts book and line</p></cRefPattern><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts book</p></cRefPattern></refsDecl></encodingDesc>
 
     <profileDesc>
       <langUsage>
@@ -47,9 +47,9 @@
 
 <text xml:lang="lat">
   <body>
-    <div type="edition" n="urn:cts:latinLit:phi1020.phi003.perseus-lat2">
-    <div type="textpart" subtype="book" n="1">
-<pb n="v.2.p.506"/>
+    <div n="urn:cts:latinLit:phi1020.phi003.perseus-lat2" type="edition">
+    <div n="1" subtype="book" type="textpart">
+<pb n="v.2.p.506" />
 
 <l n="1">Magnanimum Aeaciden formidatamque Tonanti </l>
 <l n="2">progeniem et patrio vetitam succedere caelo, </l>
@@ -71,7 +71,7 @@
 
 
 
-<pb n="v.2.p.510"/>
+<pb n="v.2.p.510" />
 
 
 <l n="18">pulvere, te longo necdum fidente paratu </l>
@@ -86,9 +86,9 @@
 <l n="27">nec mora, et undosis turba comitante sororum </l>
 <l n="28">prosiluit thalamis: fervent coeuntia Phrixi </l>
 <l n="29">litora et angustum dominas non explicat aequor.</l>
-<l n="30">Illa ubi <note target="n.510.1" place="unspecified" anchored="true"/> discusso primum subit aera ponto:</l>
+<l n="30">Illa ubi <note anchored="true" place="unspecified" target="n.510.1" /> discusso primum subit aera ponto:</l>
 
-<l n="31"><q >me petit haec, mihi classis,</q> ait, ‘funesta minatur, </l>
+<l n="31"><q>me petit haec, mihi classis,</q> ait, ‘funesta minatur, </l>
 <l n="32">agnosco monitus et Protea vera locutum, </l>
 <l n="33">ecce novam Priamo facibus de puppe levatis </l>
 <l n="34">fert Bellona nurum: video iam mille carinis </l>
@@ -97,9 +97,9 @@
 <l n="37">iam pelago terrisque meus quaeretur Achilles, </l>
 <l n="38">et volet ipse sequi, quid enim cunabula parvo </l>
 <l n="39">Pelion et torvi commisimus antra magistri? </l>
-<l n="40">illic, ni fallor, Lapitharum proelia ludit<note n="n.510.1" place="unspecified" anchored="true">illa ubi <foreign xml:lang="grc">ω</foreign>: illa P.</note></l>
+<l n="40">illic, ni fallor, Lapitharum proelia ludit<note anchored="true" n="n.510.1" place="unspecified">illa ubi <foreign xml:lang="grc">ω</foreign>: illa P.</note></l>
 
-<pb n="v.2.p.512"/>
+<pb n="v.2.p.512" />
 
 <l n="41">improbus et patria iam se metitur in hasta, </l>
 <l n="42">o dolor, o seri materno in corde timores! </l>
@@ -119,7 +119,7 @@
 <l n="56">Tyrrhenique greges circumque intraque rotantur </l>
 <l n="57">rege salutato; placidis ipse arduus undis </l>
 <l n="58">eminet et triplici telo iubet ire iugales, </l>
-<l n="59">illi spumiferos glomerant a pectore cursus,<note target="n.512.1" place="unspecified" anchored="true"/> </l>
+<l n="59">illi spumiferos glomerant a pectore cursus,<note anchored="true" place="unspecified" target="n.512.1" /> </l>
 <l n="60">pone natant delentque pedum vestigia cauda— </l>
 <l n="61">cum Thetis: ‘o magni genitor rectorque profundi,</l>
 <l n="62"> aspicis in quales miserum patefeceris usus </l>
@@ -132,10 +132,10 @@
 
 
 
-<note n="n.512.1" place="unspecified" anchored="true">cursus P: fluctus <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.512.1" place="unspecified">cursus P: fluctus <foreign xml:lang="grc">ω</foreign>.
 
 </note>
-<pb n="v.2.p.514"/>
+<pb n="v.2.p.514" />
 
 
 <l n="69">quos mihi! sic Phrygiae pensamus gaudia palmae, </l>
@@ -143,8 +143,8 @@
 <l n="71">has saltem — num semideos nostrumque reportant </l>
 <l n="72">Thesea? — si quis adhuc undis honor, obrue puppes, </l>
 <l n="73">aut permitte fretum! nulla inclementia: fas sit </l>
-<l n="74">pro nato timuisse mihi. da pellere luctus,<note target="n.514.1" place="unspecified" anchored="true"/> </l>
-<l n="75">nec tibi de tantis placeat me fluctibus unum <note target="n.514.2" place="unspecified" anchored="true"/></l>
+<l n="74">pro nato timuisse mihi. da pellere luctus,<note anchored="true" place="unspecified" target="n.514.1" /> </l>
+<l n="75">nec tibi de tantis placeat me fluctibus unum <note anchored="true" place="unspecified" target="n.514.2" /></l>
 <l n="76">litus et Iliaci scopulos habitare sepulcri.’</l>
 <l n="77">Orabat laniata genas et pectore nudo </l>
 <l n="78">caeruleis obstabat equis, sed rector aquarum </l>
@@ -156,7 +156,7 @@
 <l n="84">quem tu illic natum Sigeo in pulvere, quanta </l>
 <l n="85">aspicies victrix Phrygiarum funera matrum,</l>
 <l n="86">cum tuus Aeacides tepido modo sanguine Teucros</l>
-<l n="87"> undabit <note target="n.514.3" place="unspecified" anchored="true"/> campos, modo crassa exire vetabit </l>
+<l n="87"> undabit <note anchored="true" place="unspecified" target="n.514.3" /> campos, modo crassa exire vetabit </l>
 <l n="88">flumina et Hectoreo tardabit funere currus</l>
 <l n="89"> impelletque manu nostros, opera inrita, muros! </l>
 <l n="90">Pelea iam desiste queri thalamosque minores:</l>
@@ -165,14 +165,14 @@
 
 
 
-<note n="n.514.1" place="unspecified" anchored="true">pellere luctus P: tollere fluctus <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.514.1" place="unspecified">pellere luctus P: tollere fluctus <foreign xml:lang="grc">ω</foreign>.
 </note>
-<note n="n.514.2" place="unspecified" anchored="true">fluctibus unum <foreign xml:lang="grc">ω</foreign>. fluctibus unam P: fletibus udam, neptibus unam, fluctibus imum edd.
+<note anchored="true" n="n.514.2" place="unspecified">fluctibus unum <foreign xml:lang="grc">ω</foreign>. fluctibus unam P: fletibus udam, neptibus unam, fluctibus imum edd.
 </note>
-<note n="n.514.3" place="unspecified" anchored="true">undabit <foreign xml:lang="grc">ω</foreign>: undavit P: Garrod conj. turpabit.
+<note anchored="true" n="n.514.3" place="unspecified">undabit <foreign xml:lang="grc">ω</foreign>: undavit P: Garrod conj. turpabit.
 
 </note>
-<pb n="v.2.p.516"/>
+<pb n="v.2.p.516" />
 
 
 <l n="93">cum reduces Danai nocturnaque signa Caphereus </l>
@@ -180,7 +180,7 @@
 
 <l n="95">Dixerat, illa gravi vultum demissa repulsa,</l>
 <l n="96">quae iam excire fretum et ratibus bellare parabat </l>
-<l n="97">Iliacis, alios animo<note target="n.516.1" place="unspecified" anchored="true"/> commenta paratus, </l>
+<l n="97">Iliacis, alios animo<note anchored="true" place="unspecified" target="n.516.1" /> commenta paratus, </l>
 <l n="98">tristis ad Haemonias detorquet brachia terras, </l>
 <l n="99">ter conata manu, liquidum ter gressibus aequor </l>
 <l n="100">reppulit et niveas feriunt vada Thessala plantas.</l>
@@ -206,16 +206,16 @@
 
 
 
-<note n="n.516.1" place="unspecified" anchored="true">animo P: iterum <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.516.1" place="unspecified">animo P: iterum <foreign xml:lang="grc">ω</foreign>.
 
 </note>
-<pb n="v.2.p.518"/>
+<pb n="v.2.p.518" />
 
 
 <l n="120">opperiens properatque dapes largoque serenat</l>
-<l n="121">igne domum: cum visa procul de litore surgens <note target="n.518.1" place="unspecified" anchored="true"/> </l>
+<l n="121">igne domum: cum visa procul de litore surgens <note anchored="true" place="unspecified" target="n.518.1" /> </l>
 <l n="122">Nereis; erumpit silvis — dant gaudia vires —</l>
-<l n="123"> notaque <note target="n.518.2" place="unspecified" anchored="true"/> desueto crepuit senis ungula campo, </l>
+<l n="123"> notaque <note anchored="true" place="unspecified" target="n.518.2" /> desueto crepuit senis ungula campo, </l>
 <l n="124">tunc blandus dextra atque imos demissus in armos </l>
 <l n="125">pauperibus tectis inducit et admonet antri.</l>
 <l n="126">Iamdudum tacito lustrat Thetis omnia visu </l>
@@ -228,7 +228,7 @@
 <l n="133">ire feras; saepe ipsa — nefas! — sub inania natum </l>
 <l n="134">Tartara et ad Stygios iterum fero mergere fontes, </l>
 <l n="135">hos abolere metus magici iubet ordine sacri</l>
-<l n="136">Carpathius vates puerumque sub axe peracto <note target="n.518.3" place="unspecified" anchored="true"/> </l>
+<l n="136">Carpathius vates puerumque sub axe peracto <note anchored="true" place="unspecified" target="n.518.3" /> </l>
 <l n="137">secretis lustrare fretis, ubi litora summa </l>
 <l n="138">Oceani et genitor tepet inlabentibus astris </l>
 <l n="139">Pontus, ibi ignotis horrenda piacula divis </l>
@@ -240,14 +240,14 @@
 
 
 
-<note n="n.518.1" place="unspecified" anchored="true">surgens PE: mater <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.518.1" place="unspecified">surgens PE: mater <foreign xml:lang="grc">ω</foreign>.
 </note>
-<note n="n.518.2" place="unspecified" anchored="true">notaque P: motaque <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.518.2" place="unspecified">notaque P: motaque <foreign xml:lang="grc">ω</foreign>.
 </note>
-<note n="n.518.3" place="unspecified" anchored="true">peracto P: probato <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.518.3" place="unspecified">peracto P: probato <foreign xml:lang="grc">ω</foreign>.
 
 </note>
-<pb n="v.2.p.520"/>
+<pb n="v.2.p.520" />
 
 
 <l n="145">nam superant tua vota modum placandaque multum </l>
@@ -257,10 +257,10 @@
 <l n="149">olim et ferre minas avideque audire solebat </l>
 <l n="150">imperia et nostris procul haud discedere ab antris: </l>
 <l n="151">nunc illum non Ossa capit, non Pelion ingens</l>
-<l n="152">Thessaliaeve nives.<note target="n.520.1" place="unspecified" anchored="true"/> ipsi mihi saepe queruntur </l>
+<l n="152">Thessaliaeve nives.<note anchored="true" place="unspecified" target="n.520.1" /> ipsi mihi saepe queruntur </l>
 <l n="153">Centauri raptasque domos abstractaque coram </l>
 <l n="154">armenta et semet campis fluviisque fugari: </l>
-<l n="155">insidiasque et bella parant tumideque <note target="n.520.2" place="unspecified" anchored="true"/> minantur.</l>
+<l n="155">insidiasque et bella parant tumideque <note anchored="true" place="unspecified" target="n.520.2" /> minantur.</l>
 <l n="156">olim equidem Argoos pinus cum Thessala reges </l>
 <l n="157">hac veheret, iuvenem Alciden et Thesea vidi — </l>
 <l n="158">sed taceo.’ figit gelidus Nereida pallor: </l>
@@ -282,12 +282,12 @@
 
 
 
-<note n="n.520.1" place="unspecified" anchored="true">Thessaliaeve nives <foreign xml:lang="grc">ω</foreign>: Pharsaliaeve nives P: thessaliae iuvenes E.
+<note anchored="true" n="n.520.1" place="unspecified">Thessaliaeve nives <foreign xml:lang="grc">ω</foreign>: Pharsaliaeve nives P: thessaliae iuvenes E.
 </note>
-<note n="n.520.2" place="unspecified" anchored="true">tumideque Kohlmann: timideque P: tumidique <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.520.2" place="unspecified">tumideque Kohlmann: timideque P: tumidique <foreign xml:lang="grc">ω</foreign>.
 
 </note>
-<pb n="v.2.p.522"/>
+<pb n="v.2.p.522" />
 
 
 <l n="174">insequitur magno iam tunc conexus amore </l>
@@ -317,7 +317,7 @@
 <l n="198">At Thetis undisonis per noctem in rupibus astans, </l>
 <l n="199">quae nato secreta velit, quibus abdere terris </l>
 <l n="200">destinet, huc illuc divisa mente volutat.</l>
-<pb n="v.2.p.524"/>
+<pb n="v.2.p.524" />
 
 <l n="201">proxima, sed studiis multum Mavortia Thrace;</l>
 <l n="202"> nee Macetum gens dura placet laudumque daturi </l>
@@ -348,7 +348,7 @@
 
 
 
-<pb n="v.2.p.526"/>
+<pb n="v.2.p.526" />
 
 
 <l n="227">litore, ne nudae noceant contagia terrae. </l>
@@ -357,13 +357,13 @@
 <l n="230">ad placidas deportat aquas et iussa tacere</l>
 <l n="231">litora: monstrat iter totoque effulgurat orbe </l>
 <l n="232">Cynthia, prosequitur divam celeresque recursus </l>
-<l n="233">securus pelagi Chiron rogat <note target="n.526.1" place="unspecified" anchored="true"/> udaque celat </l>
+<l n="233">securus pelagi Chiron rogat <note anchored="true" place="unspecified" target="n.526.1" /> udaque celat </l>
 <l n="234">lumina et abreptos subito iamiamque latentes </l>
 <l n="235">erecto prospectat equo, qua cana parumper</l>
 <l n="236">spumant signa fugae et liquido perit orbita ponto. </l>
 <l n="237">illum non alias rediturum ad Thessala Tempe </l>
 <l n="238">iam tristis Pholoe, iam nubilus ingemit Othrys</l>
-<l n="239"> et tenuior <note target="n.526.2" place="unspecified" anchored="true"/> Spercheos aquis speluncaque docti </l>
+<l n="239"> et tenuior <note anchored="true" place="unspecified" target="n.526.2" /> Spercheos aquis speluncaque docti </l>
 <l n="240">muta senis; quaerunt puerilia carmina Fauni</l>
 <l n="241">et sperata diu plorant conubia Nymphae.</l>
 <l n="242">Iam premit astra dies humilique ex aequore Titan </l>
@@ -379,12 +379,12 @@
 <l n="252">‘si mihi, care puer, thalamos sors aequa tulisset, </l>
 <l n="253">quos dabat, aetheriis ego te complexa tenerem</l>
 
-<note n="n.526.1" place="unspecified" anchored="true">rogat <foreign xml:lang="grc">ω</foreign>: rotat P.
+<note anchored="true" n="n.526.1" place="unspecified">rogat <foreign xml:lang="grc">ω</foreign>: rotat P.
 </note>
-<note n="n.526.2" place="unspecified" anchored="true">tenuior Postgate: senior P: tenuis <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.526.2" place="unspecified">tenuior Postgate: senior P: tenuis <foreign xml:lang="grc">ω</foreign>.
 
 </note>
-<pb n="v.2.p.528"/>
+<pb n="v.2.p.528" />
 
 
 <l n="254">sidus grande plagis, magnique puerpera caeli</l>
@@ -398,7 +398,7 @@
 <l n="262">si decet aurata Bacchum vestigia palla </l>
 <l n="263">verrere, virgineos si Iuppiter induit artus, </l>
 <l n="264">nec magnum ambigui fregerunt Caenea sexus:</l>
-<l n="265"> hac <note target="n.528.1" place="unspecified" anchored="true"/> sine, quaeso, minas nubemque exire malignam,<note target="n.528.2" place="unspecified" anchored="true"/> </l>
+<l n="265"> hac <note anchored="true" place="unspecified" target="n.528.1" /> sine, quaeso, minas nubemque exire malignam,<note anchored="true" place="unspecified" target="n.528.2" /> </l>
 <l n="266">mox iterum campos, iterum Centaurica reddam</l>
 <l n="267">lustra tibi: per ego hoc decus et ventura iuventae </l>
 <l n="268">gaudia, si terras humilemque experta maritum </l>
@@ -416,12 +416,12 @@
 
 
 
-<note n="n.528.1" place="unspecified" anchored="true">hac Postgate: hae P: has <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.528.1" place="unspecified">hac Postgate: hae P: has <foreign xml:lang="grc">ω</foreign>.
 </note>
-<note n="n.528.2" place="unspecified" anchored="true">nubemque malignam P: numenque malignum <foreign xml:lang="grc">ω</foreign>.
+<note anchored="true" n="n.528.2" place="unspecified">nubemque malignam P: numenque malignum <foreign xml:lang="grc">ω</foreign>.
 
 </note>
-<pb n="v.2.p.530"/>
+<pb n="v.2.p.530" />
 
 
 <l n="280">gavisus non colla iugo, non aspera praebet</l>
@@ -443,7 +443,7 @@
 <l n="296">Deidamia chori pulchrisque sororibus obstat, </l>
 <l n="297">illius et roseo flammatur purpura vultu </l>
 <l n="298">et gemmis lux maior inest et blandius aurum: </l>
-<l n="299">atque ipsi par forma deae est,<note target="n.530.1" place="unspecified" anchored="true"/> si pectoris angues </l>
+<l n="299">atque ipsi par forma deae est,<note anchored="true" place="unspecified" target="n.530.1" /> si pectoris angues </l>
 <l n="300">ponat et exempta pacetur casside vultus.</l>
 <l n="301">hanc ubi ducentem longe socia agmina vidit, </l>
 <l n="302">trux puer et nullo temeratus pectora motu</l>
@@ -454,10 +454,10 @@
 
 
 
-<note n="n.530.1" place="unspecified" anchored="true">deae est Kohlmann: deae <foreign xml:lang="grc">ω</foreign>: deest P.
+<note anchored="true" n="n.530.1" place="unspecified">deae est Kohlmann: deae <foreign xml:lang="grc">ω</foreign>: deest P.
 
 </note>
-<pb n="v.2.p.532"/>
+<pb n="v.2.p.532" />
 
 
 <l n="307">lactea Massagetae veluti cum pocula fuscant </l>
@@ -478,7 +478,7 @@
 <l n="322">atque alium portare sinu contingat Achillen!’ </l>
 <l n="323">mulcetur laetumque rubet visusque protervos </l>
 <l n="324">obliquat vestesque manu leviore repellit. </l>
-<l n="325">aspicit ambiguum genetrix cogique <note target="n.532.1" place="unspecified" anchored="true"/> volentem</l>
+<l n="325">aspicit ambiguum genetrix cogique <note anchored="true" place="unspecified" target="n.532.1" /> volentem</l>
 <l n="326">iniecitque sinus; tum colla rigentia mollit </l>
 <l n="327">submittitque graves umeros et fortia laxat</l>
 <l n="328"> bracchia et impexos certo domat ordine crines </l>
@@ -488,8 +488,8 @@
 <l n="332">qualiter artifici victurae pollice cerae </l>
 <l n="333">accipiunt formas ignemque manumque sequuntur: </l>
 <l n="334">talis erat divae natum mutantis imago, </l>
-<l n="335">nec luctata diu; superest nam plurimus illi <note n="n.532.1" place="unspecified" anchored="true">cogique Heinsius: cogitque P<foreign xml:lang="grc">ω</foreign>.</note></l>
-<pb n="v.2.p.534"/>
+<l n="335">nec luctata diu; superest nam plurimus illi <note anchored="true" n="n.532.1" place="unspecified">cogique Heinsius: cogitque P<foreign xml:lang="grc">ω</foreign>.</note></l>
+<pb n="v.2.p.534" />
 
 <l n="336">invita virtute decor, fallitque tuentes </l>
 <l n="337">ambiguus tenuique latens discrimine sexus.</l>
@@ -506,18 +506,18 @@
 <l n="348">deducit sparsosque tumet componere crines.</l>
 
 <l n="349">Protinus adgreditur regem atque ibi testibus aris</l>
-<l n="350"><q >hanc tibi,</q> ait, ‘nostri germanam, rector, Achillis— </l>
+<l n="350"><q>hanc tibi,</q> ait, ‘nostri germanam, rector, Achillis— </l>
 <l n="351">nonne vides, ut torva genas aequandaque fratri? — </l>
 <l n="352">tradimus: arma umeris arcumque animosa petebat </l>
 <l n="353">ferre et Amazonio conubia pellere ritu. </l>
 <l n="354">sed mihi curarum satis est pro stirpe virili: </l>
 <l n="355">haec calathos et sacra ferat, tu frange regendo</l>
 <l n="356">indocilem sexuque tene, dum nubilis aetas </l>
-<l n="357">solvendusque pudor; neve exercere protervas <note target="n.534.1" place="unspecified" anchored="true"/> </l>
+<l n="357">solvendusque pudor; neve exercere protervas <note anchored="true" place="unspecified" target="n.534.1" /> </l>
 <l n="358">gymnadas aut lustris nemorum concede vagari, </l>
 <l n="359">intus ale et similes inter seclude puellas; </l>
-<l n="360">litore praecipue portuque arcere memento.<note n="n.534.1" place="unspecified" anchored="true">protervas <foreign xml:lang="grc">ω</foreign>: catervas P.</note></l>
-<pb n="v.2.p.536"/>
+<l n="360">litore praecipue portuque arcere memento.<note anchored="true" n="n.534.1" place="unspecified">protervas <foreign xml:lang="grc">ω</foreign>: catervas P.</note></l>
+<pb n="v.2.p.536" />
 
 <l n="361">vidisti modo vela Phrygum: iam mutua iura </l>
 <l n="362">fallere transmissae pelago didicere carinae.’</l>
@@ -550,7 +550,7 @@
 
 
 
-<pb n="v.2.p.538"/>
+<pb n="v.2.p.538" />
 
 
 <l n="389">et ventis et sacra fretis interque vadosas </l>
@@ -584,7 +584,7 @@
 
 
 
-<pb n="v.2.p.540"/>
+<pb n="v.2.p.540" />
 
 <l n="417">Lerna graves clipeos caesis vestire iuvencis. </l>
 <l n="418">dat bello pedites Aetolus et asper Acarnan, </l>
@@ -615,14 +615,14 @@
 <l n="443">Bellipotens. fervent portus et operta carinis </l>
 <l n="444">stagna suasque hiemes classis promota suosque</l>
 
-<pb n="v.2.p.542"/>
+<pb n="v.2.p.542" />
 
 
 <l n="445">attollit fluctus; ipsum iam puppibus aequor</l>
 <l n="446">deficit et totos consumunt carbasa ventos.</l>
 <l n="447">Prima ratis Danaas Hecateia congregat Aulis, </l>
 <l n="448">rupibus expositis longique crepidine dorsi</l>
-<l n="449"> Euboicum scandens <note target="n.542.1" place="unspecified" anchored="true"/> Aulis mare, litora multum </l>
+<l n="449"> Euboicum scandens <note anchored="true" place="unspecified" target="n.542.1" /> Aulis mare, litora multum </l>
 <l n="450">montivagae dilecta deae, iuxtaque Caphereus</l>
 <l n="451">latratum pelago tollens caput, ille Pelasgas </l>
 <l n="452">ut vidit tranare rates, ter monte ter undis </l>
@@ -651,13 +651,13 @@
 
 
 
-<note n="n.542.1" place="unspecified" anchored="true">scandens P<foreign xml:lang="grc">ω</foreign>: scindens Menke, but cf. Theb. ii. 44.</note>
-<pb n="v.2.p.544"/>
+<note anchored="true" n="n.542.1" place="unspecified">scandens P<foreign xml:lang="grc">ω</foreign>: scindens Menke, but cf. Theb. ii. 44.</note>
+<pb n="v.2.p.544" />
 
 
 <l n="475">poscitur, illum unum Teucris Priamoque loquuntur </l>
 <l n="476">fatalem, quis enim Haemoniis sub vallibus alter</l>
-<l n="477">creverit effossa reptans nive? cuius adortus <note target="n.544.1" place="unspecified" anchored="true"/> </l>
+<l n="477">creverit effossa reptans nive? cuius adortus <note anchored="true" place="unspecified" target="n.544.1" /> </l>
 <l n="478">cruda rudimenta et teneros formaverit annos </l>
 <l n="479">Centaurus? patrii propior cui linea caeli, </l>
 <l n="480">quemve alium Stygios tulerit secreta per amnes</l>
@@ -678,14 +678,14 @@
 <l n="495">praecipua et primae iam tunc data gloria mortis — : </l>
 <l n="496">‘o nimium Phoebi tripodumque oblite tuorum,</l>
 <l n="497">Thestoride, quando ora deo possessa movebis</l>
-<l n="498"> iustius aut quianam <note target="n.544.2" place="unspecified" anchored="true"/> Parcarum occulta recludis 3? </l>
+<l n="498"> iustius aut quianam <note anchored="true" place="unspecified" target="n.544.2" /> Parcarum occulta recludis 3? </l>
 <l n="499">cernis ut ignotum cuncti stupeantque fremantque</l>
-<l n="500"> <note target="n.544.4" place="unspecified" anchored="true"/> Aeaciden? sordent vulgo Calydonius heros</l>
-<note n="n.544.1" place="unspecified" anchored="true">adortus P<foreign xml:lang="grc">ω</foreign>: ad ortus E: ab ortu Q (correction from ad ortus).</note>
-<note n="n.544.2" place="unspecified" anchored="true">quianam P: quaenam <foreign xml:lang="grc">ω</foreign>.</note>
-<note n="n.544.3" place="unspecified" anchored="true">recludis Garrod: recludes P<foreign xml:lang="grc">ω</foreign>.</note>
-<note n="n.544.4" place="unspecified" anchored="true">fremantque E: premantque P<foreign xml:lang="grc">ω</foreign>.</note>
-<pb n="v.2.p.546"/>
+<l n="500"> <note anchored="true" place="unspecified" target="n.544.4" /> Aeaciden? sordent vulgo Calydonius heros</l>
+<note anchored="true" n="n.544.1" place="unspecified">adortus P<foreign xml:lang="grc">ω</foreign>: ad ortus E: ab ortu Q (correction from ad ortus).</note>
+<note anchored="true" n="n.544.2" place="unspecified">quianam P: quaenam <foreign xml:lang="grc">ω</foreign>.</note>
+<note anchored="true" n="n.544.3" place="unspecified">recludis Garrod: recludes P<foreign xml:lang="grc">ω</foreign>.</note>
+<note anchored="true" n="n.544.4" place="unspecified">fremantque E: premantque P<foreign xml:lang="grc">ω</foreign>.</note>
+<pb n="v.2.p.546" />
 
 <l n="501">et magno genitus Telamone Aiaxque secundus,</l>
 <l n="502"> nos quoque: sed Mavors et Troia arrepta probabunt. </l>
@@ -699,11 +699,11 @@
 <l n="510">arma horrenda tibi saevosque remisimus enses,</l>
 <l n="511">numquam has imbelles galea violabere vittas: </l>
 <l n="512">sed felix numeroque ducum praestantior omni, </l>
-<l n="513">si magnum Danais per te<note target="n.546.1" place="unspecified" anchored="true"/> depfendis <note target="n.546.2" place="unspecified" anchored="true"/> Achillem.”</l>
+<l n="513">si magnum Danais per te<note anchored="true" place="unspecified" target="n.546.1" /> depfendis <note anchored="true" place="unspecified" target="n.546.2" /> Achillem.”</l>
 
 <l n="514">Iamdudum trepido circumfert lumina motu </l>
 <l n="515">intrantemque deum primo pallore fatetur</l>
-<l n="516">Thestorides; mox igne genas et sanguine torquens <note target="n.546.3" place="unspecified" anchored="true"/> </l>
+<l n="516">Thestorides; mox igne genas et sanguine torquens <note anchored="true" place="unspecified" target="n.546.3" /> </l>
 <l n="517">nec socios nec castra videt, sed caecus et absens </l>
 <l n="518">nunc superum magnos deprendit in aethere coetus, </l>
 <l n="519">nunc sagas adfatur aves, nunc dura sororum </l>
@@ -715,16 +715,16 @@
 
 
 
-<note n="n.546.1" place="unspecified" anchored="true">per te Garrod (from own us.): pro te P<foreign xml:lang="grc">ω</foreign>.</note>
-<note n="n.546.2" place="unspecified" anchored="true">deprendis Garrod (from own MS.): deprehendis E: dependis P: portendis w. See Garrod ad loc. P is faulty in these lines.</note>
-<note n="n.546.3" place="unspecified" anchored="true">torquens P<foreign xml:lang="grc">ω</foreign>: torpens Garrod.</note>
-<pb n="v.2.p.548"/>
+<note anchored="true" n="n.546.1" place="unspecified">per te Garrod (from own us.): pro te P<foreign xml:lang="grc">ω</foreign>.</note>
+<note anchored="true" n="n.546.2" place="unspecified">deprendis Garrod (from own MS.): deprehendis E: dependis P: portendis w. See Garrod ad loc. P is faulty in these lines.</note>
+<note anchored="true" n="n.546.3" place="unspecified">torquens P<foreign xml:lang="grc">ω</foreign>: torpens Garrod.</note>
+<pb n="v.2.p.548" />
 
 
 <l n="525">solvit, et oppositum vox eluctata furorem est:</l>
 <l n="526">‘ quo rapis ingentem magni Chironis alumnum </l>
 <l n="527">femineis, Nerei, dolis? huc mitte: quid aufers? </l>
-<l n="528">non patiar: meus iste, meus. tu diva profundi, <note target="n.548.1" place="unspecified" anchored="true"/> </l>
+<l n="528">non patiar: meus iste, meus. tu diva profundi, <note anchored="true" place="unspecified" target="n.548.1" /> </l>
 <l n="529">et me Phoebus agit. latebris quibus abdere temptas </l>
 <l n="530">eversorem Asiae? video per Cycladas altas</l>
 <l n="531">attonitam et turpi quaerentem litora furto, </l>
@@ -747,8 +747,8 @@
 <l n="548"> grande equidem armatum castris inducere Achillem; </l>
 <l n="549">sed si fata negent, quam foedum ac triste reverti! </l>
 <l n="550">vota tamen Danaum non intemptata relinquam</l>
-<note n="n.548.1" place="unspecified" anchored="true">Lines 529-661 only in PE and late MSS., not in <foreign xml:lang="grc">ω</foreign>.</note>
-<pb n="v.2.p.550"/>
+<note anchored="true" n="n.548.1" place="unspecified">Lines 529-661 only in PE and late MSS., not in <foreign xml:lang="grc">ω</foreign>.</note>
+<pb n="v.2.p.550" />
 
 <l n="551">iamque adeo aut aderit mecum Peleius heros, </l>
 <l n="552">aut verum penitus latet et sine Apolline Calchas.’</l>
@@ -777,7 +777,7 @@
 <l n="575">infringit citharae, nunc occupat ora canentis</l>
 <l n="576">et ligat amplexus et mille per oscula laudat.</l>
 
-<pb n="v.2.p.552"/>
+<pb n="v.2.p.552" />
 
 
 <l n="577">illa libens discit, quo vertice Pelion, et quis </l>
@@ -785,7 +785,7 @@
 <l n="579">adsidue stupet et praesentem cantat Achillem. </l>
 <l n="580">ipsa quoque et validos proferre modestius artus</l>
 <l n="581">et tenuare rudes attrito pollice lanas </l>
-<l n="582">demonstrat reficitque colos et perdita dura <note target="n.552.1" place="unspecified" anchored="true"/> </l>
+<l n="582">demonstrat reficitque colos et perdita dura <note anchored="true" place="unspecified" target="n.552.1" /> </l>
 <l n="583">pensa manu; vocisque sonum pondusque tenentis, </l>
 <l n="584">quodque fugit comites, nimio quod lumine sese</l>
 <l n="585"> Agat et in verbis intempestivus anhelet,</l>
@@ -810,8 +810,8 @@
 
 
 
-<note n="n.552.1" place="unspecified" anchored="true">perdita dura E, late MSS.: perfida durat P.</note>
-<pb n="v.2.p.554"/>
+<note anchored="true" n="n.552.1" place="unspecified">perdita dura E, late MSS.: perfida durat P.</note>
+<pb n="v.2.p.554" />
 
 
 <l n="604">magnaque difficili solventem bracchia motu — </l>
@@ -845,7 +845,7 @@
 
 
 
-<pb n="v.2.p.556"/>
+<pb n="v.2.p.556" />
 
 
 <l n="632">tu nunc tela manu, nostros tu dirigis arcus </l>
@@ -855,7 +855,7 @@
 <l n="636">iam scio. quin etiam dilectae virginis ignem </l>
 <l n="637">aequaevamque facem captus noctesque diesque </l>
 <l n="638">dissimulas. quonam usque premes urentia pectus </l>
-<l n="639">vulnera, teque marem — pudet heu! — nec amore probaris <note target="n.556.1" place="unspecified" anchored="true"/>?’</l>
+<l n="639">vulnera, teque marem — pudet heu! — nec amore probaris <note anchored="true" place="unspecified" target="n.556.1" />?’</l>
 
 <l n="640">Sic ait; et densa noctis gavisus in umbra</l>
 <l n="641">tempestiva suis torpere silentia furtis </l>
@@ -868,18 +868,18 @@
 <l n="648">tollitur, et thyrsos iterum vibrabat Achilles, </l>
 <l n="649">ante tamen dubiam verbis solatus amicis: </l>
 <l n="650">‘ille ego — quid trepidas? — , genitum quem caerula mater</l>
-<l n="651">paene Iovi <note target="n.556.2" place="unspecified" anchored="true"/> silvis nivibusque immisit alendum </l>
+<l n="651">paene Iovi <note anchored="true" place="unspecified" target="n.556.2" /> silvis nivibusque immisit alendum </l>
 <l n="652">Thessalicis. nec ego hos cultus aut foeda subissem </l>
-<l n="653">tegmina, ni primo tu visa <note target="n.556.3" place="unspecified" anchored="true"/> in litore: cessi </l>
+<l n="653">tegmina, ni primo tu visa <note anchored="true" place="unspecified" target="n.556.3" /> in litore: cessi </l>
 <l n="654">te propter, tibi pensa manu, tibi mollia gesto </l>
 <l n="655">tympana, quid defles magno nurus addita ponto?</l>
 
 
 
-<note n="n.556.1" place="unspecified" anchored="true">probaris P: probabis late MSS.</note>
-<note n="n.556.2" place="unspecified" anchored="true">paene Iovi Gustafsson: paene iovis P: Penei E: Peneis late MSS.: Paeoniis conj. Wilamowitz.</note>
-<note n="n.556.3" place="unspecified" anchored="true">tu visa E: te vias P: te visa late MSS.</note>
-<pb n="v.2.p.558"/>
+<note anchored="true" n="n.556.1" place="unspecified">probaris P: probabis late MSS.</note>
+<note anchored="true" n="n.556.2" place="unspecified">paene Iovi Gustafsson: paene iovis P: Penei E: Peneis late MSS.: Paeoniis conj. Wilamowitz.</note>
+<note anchored="true" n="n.556.3" place="unspecified">tu visa E: te vias P: te visa late MSS.</note>
+<pb n="v.2.p.558" />
 
 
 <l n="656">quid gemis ingentes caelo paritura nepotes?</l>
@@ -887,10 +887,10 @@
 <l n="658">Scyros et in tumidas ibunt haec versa procellas </l>
 <l n="659">moenia, quam saevo mea tu conubia pendas </l>
 <l n="660">funere: non adeo parebimus omnia matri.’</l>
-<l n="661"><note target="n.558.1" place="unspecified" anchored="true"/> </l>
+<l n="661"><note anchored="true" place="unspecified" target="n.558.1" /> </l>
 <l n="662">Obstipuit tantis regina exterrita monstris,</l>
 <l n="663">quamquam olim suspecta fides, et comminus ipsum </l>
-<l n="664">horruit et facies multum mutata fatentis.<note target="n.558.2" place="unspecified" anchored="true"/> </l>
+<l n="664">horruit et facies multum mutata fatentis.<note anchored="true" place="unspecified" target="n.558.2" /> </l>
 <l n="665">quid faciat? casusne suos ferat ipsa parenti</l>
 <l n="666">seque simul iuvenemque premat, fortassis acerbas </l>
 <l n="667">hausurum poenas? et adhuc in corde manebat </l>
@@ -901,7 +901,7 @@
 <l n="672">surgentemque uterum atque aegrosin pondere menses </l>
 <l n="673">occuluit, plenis donec stata tempora metis </l>
 <l n="674">attulit et partus index Lucina resolvit.</l>
-<milestone unit="oldbook" n="3"/><note target="n.558.3" place="unspecified" anchored="true"/>
+<milestone n="3" unit="oldbook" /><note anchored="true" place="unspecified" target="n.558.3" />
 <l n="675"> Iamque per Aegaeos ibat Laertia flexus</l>
 <l n="676">puppis, et innumeras mutabant Cycladas aurae4: </l>
 <l n="677">iam Paros Olearosque latent; iam raditur alta </l>
@@ -911,11 +911,11 @@
 <l n="681">responsique fidem et verum Calchanta precantur.</l>
 
 
-<note n="n.558.1" place="unspecified" anchored="true">After line 660 follows only in Q by a late hand the line vade sed ereptum celes taceasque pudorem, <q >go, but conceal and be silent of thy ravished honour.</q></note>
-<note n="n.558.2" place="unspecified" anchored="true">Lines 663-664 bracketed by Garrod as spurious.</note>
-<note n="n.558.3" place="unspecified" anchored="true">The old editors began Book II. here.</note>
-<note n="n.558.4" place="unspecified" anchored="true">innumeras mutabant Cycladas aurae Koestlin: innumerae m. Cyclades auras P<foreign xml:lang="grc">ω</foreign>. innumerae mutabat Cyclados oras Garrod.</note>
-<pb n="v.2.p.560"/>
+<note anchored="true" n="n.558.1" place="unspecified">After line 660 follows only in Q by a late hand the line vade sed ereptum celes taceasque pudorem, <q>go, but conceal and be silent of thy ravished honour.</q></note>
+<note anchored="true" n="n.558.2" place="unspecified">Lines 663-664 bracketed by Garrod as spurious.</note>
+<note anchored="true" n="n.558.3" place="unspecified">The old editors began Book II. here.</note>
+<note anchored="true" n="n.558.4" place="unspecified">innumeras mutabant Cycladas aurae Koestlin: innumerae m. Cyclades auras P<foreign xml:lang="grc">ω</foreign>. innumerae mutabat Cyclados oras Garrod.</note>
+<pb n="v.2.p.560" />
 
 
 <l n="682">audiit Arquitenens Zephyrumque e vertice Cynthi</l>
@@ -946,7 +946,7 @@
 <l n="707">dissimulant humilesque meant, ne nuntiet hostes </l>
 <l n="708">cura canum et trepidos moneat vigilare magistros.</l>
 
-<pb n="v.2.p.562"/>
+<pb n="v.2.p.562" />
   
 <l n="709">Sic segnes heroes eunt campumque patentem, </l>
 <l n="710">qui medius portus celsamque interiacet urbem,</l>
@@ -962,7 +962,7 @@
 <l n="720">fraude latens, ultro confessum in proelia ducent</l>
 <l n="721">Peliden; tu cuncta citus de puppe memento </l>
 <l n="722">ferre, ubi tempus erit, clipeumque his iungere donis, </l>
-<l n="723">qui pulcher signis auroque asperrimus; hasta <note target="n.562.1" place="unspecified" anchored="true"/>  haec<note target="n.562.2" place="unspecified" anchored="true"/></l>
+<l n="723">qui pulcher signis auroque asperrimus; hasta <note anchored="true" place="unspecified" target="n.562.1" />  haec<note anchored="true" place="unspecified" target="n.562.2" /></l>
 <l n="724"> sat erit: tecum lituo bonus adsit Agyrtes </l>
 <l n="725">occultamque tubam tacitos adportet in usus.’</l>
 <l n="726">Dixerat, atque ipso portarum in limine regem </l>
@@ -975,10 +975,10 @@
 <l n="733"> magnanimus Tydeus, Ithacis ego ductor Ulixes.  </l>
 <l n="734">causa viae — metuam quid enim tibi cuncta fateri, </l>
 <l n="735">cum Graius notaque fide celeberrimus unus 3 — </l>
-<note n="n.562.1" place="unspecified" anchored="true">hasta P: ardet <foreign xml:lang="grc">ω</foreign>: astat E, Garrod and conj. Kohlmann.</note>
-<note n="n.562.2" place="unspecified" anchored="true">haec P562: nec Garrod.</note>
-<note n="n.562.3" place="unspecified" anchored="true">unus 562: imus PE.</note>
-<pb n="v.2.p.564"/>
+<note anchored="true" n="n.562.1" place="unspecified">hasta P: ardet <foreign xml:lang="grc">ω</foreign>: astat E, Garrod and conj. Kohlmann.</note>
+<note anchored="true" n="n.562.2" place="unspecified">haec P562: nec Garrod.</note>
+<note anchored="true" n="n.562.3" place="unspecified">unus 562: imus PE.</note>
+<pb n="v.2.p.564" />
 
 <l n="736">explorare aditus invisaque litora Troiae,</l>
 <l n="737"> quidve parent.’ medio sermone intercipit ille: </l>
@@ -997,7 +997,7 @@
 <l n="750"> Rumor in arcana iamdudum perstrepit aula,</l>
 <l n="751">virginibus qua fida domus, venisse Pelasgum </l>
 <l n="752">ductores Graiamque ratem sociosque receptos.</l>
-<l n="753"> iure<note target="n.564.1" place="unspecified" anchored="true"/> pavent aliae; sed vix nova gaudia celat  </l>
+<l n="753"> iure<note anchored="true" place="unspecified" target="n.564.1" /> pavent aliae; sed vix nova gaudia celat  </l>
 <l n="754">Pelides avidusque novos heroas et arma </l>
 <l n="755">vel talis vidisse cupit, iamque atria fervent</l>
 <l n="756">regali strepitu et picto discumbitur auro, </l>
@@ -1009,8 +1009,8 @@
 <l n="762">perlibrat visu, sed nox inlataque fallunt</l>
 
 
-<note n="n.564.1" place="unspecified" anchored="true">iure P<foreign xml:lang="grc">ω</foreign>: aure Garrod (Theb. i. 366).</note>
-<pb n="v.2.p.566"/>
+<note anchored="true" n="n.564.1" place="unspecified">iure P<foreign xml:lang="grc">ω</foreign>: aure Garrod (Theb. i. 366).</note>
+<pb n="v.2.p.566" />
 
 
 <l n="763">lumina et extemplo latuit mensura iacentum.  </l>
@@ -1031,7 +1031,7 @@
 <l n="778">perdomui fregique vadis, quae signa triumphi  </l>
 <l n="779">vidistis celsa murorum in fronte, carinas! </l>
 <l n="780">saltem si suboles, aptum quam mittere bello — </l>
-<l n="781"><note target="n.566.1" place="unspecified" anchored="true"/> </l>
+<l n="781"><note anchored="true" place="unspecified" target="n.566.1" /> </l>
 <l n="782">nunc ipsi viresque meas et cara videtis</l>
 <l n="783">pignora: quando novos dabit haec mihi turba nepotes?’  </l>
 <l n="784">dixerat, et sollers arrepto tempore Ulixes:</l>
@@ -1040,8 +1040,8 @@
 <l n="787">ardeat? omne simul roburque decusque potentis </l>
 <l n="788">Europae meritos ultro iuravit in enses.  </l>
 <l n="789">rura urbesque vacant, montes spoliavimus altos,</l>
-<l n="790">omne fretum longa velorum obtexitur umbra;<note n="n.566.1" place="unspecified" anchored="true">After line 780 occurs only in late MSS.: possem, plena forent mihi gaudia; namque iuvarem, <q >I could (belonging to the aposiopesis), my joy would be full; for I would help.</q></note></l>
-<pb n="v.2.p.568"/>
+<l n="790">omne fretum longa velorum obtexitur umbra;<note anchored="true" n="n.566.1" place="unspecified">After line 780 occurs only in late MSS.: possem, plena forent mihi gaudia; namque iuvarem, <q>I could (belonging to the aposiopesis), my joy would be full; for I would help.</q></note></l>
+<pb n="v.2.p.568" />
 
 <l n="791">tradunt arma patres, rapit inrevocata iuventus, </l>
 <l n="792">non alias umquam tantae data copia famae </l>
@@ -1071,7 +1071,7 @@
 <l n="816">cetera depositis Lycomedis regia curis </l>
 <l n="817">tranquilla sub pace silet, sed longa sagaci </l>
 <l n="818">nox Ithaco, lucemque cupit somnumque gravatur.</l>
-<pb n="v.2.p.570"/>
+<pb n="v.2.p.570" />
   
 <l n="819">vixdum exorta dies et iam comitatus Agyrte </l>
 <l n="820">Tydides aderat praedictaque dona ferebat.</l>
@@ -1100,7 +1100,7 @@
 <l n="843">munera virgineos visus fractura locarat</l>
 
 
-<pb n="v.2.p.572"/>
+<pb n="v.2.p.572" />
   
 <l n="844">Tydides, signum hospitii pretiumque laboris: </l>
 <l n="845">hortaturque legant, nec rex placidissimus arcet.</l>
@@ -1121,7 +1121,7 @@
 <l n="860">edidicit nullasque rapi nisi iussus in iras,</l>
 <l n="861">si semel adverso radiavit lumine ferrum, </l>
 <l n="862">eiurata fides domitorque inimicus: in illum </l>
-<l n="863">prima fames, timidoque pudet servisse<note target="n.572.1" place="unspecified" anchored="true"/> magistro.  </l>
+<l n="863">prima fames, timidoque pudet servisse<note anchored="true" place="unspecified" target="n.572.1" /> magistro.  </l>
 <l n="864">ut vero accessit propius luxque aemula vultum </l>
 <l n="865">reddidit et simili talem se vidit in auro,</l>
 <l n="866">horruit erubuitque simul, tunc acer Ulixes </l>
@@ -1133,8 +1133,8 @@
 <l n="872">heia, abrumpe moras: sine perfida palleat Ide, </l>
 <l n="873">et iuvet haec audire patrem, pudeatque dolosam</l>
 
-<note n="n.572.1" place="unspecified" anchored="true">pudet servisse EQ: iuvet servire P: rubet servire Krohn.</note>
-<pb n="v.2.p.574"/>
+<note anchored="true" n="n.572.1" place="unspecified">pudet servisse EQ: iuvet servire P: rubet servire Krohn.</note>
+<pb n="v.2.p.574" />
   
 <l n="874">sic pro te timuisse Thetin.’ iam pectus amictu </l>
 <l n="875">laxabat, cum grande tuba sic iussus Agyrtes</l>
@@ -1163,7 +1163,7 @@
 <l n="898">Peleus te nato socerum et Thetis hospita iungunt,  </l>
 <l n="899">adlegantque suos utroque a sanguine divos. </l>
 <l n="900">unam virgineo natarum ex agmine poscunt:</l>
-<pb n="v.2.p.576"/>
+<pb n="v.2.p.576" />
 
 <l n="901">dasne? an gens humilis tibi degeneresque videmur? </l>
 <l n="902">non renuis; iunge ergo manus et concipe foedus </l>
@@ -1192,8 +1192,8 @@
 <l n="925">tunc epulis consumpta dies, tandemque retectum</l>
 <l n="926">foedus et intrepidos nox conscia iungit amantes.</l>
 
-<note n="n.576.1" place="unspecified" anchored="true">repellere vires Kohlmann: repellere vir P: evadere flammas <foreign xml:lang="grc">ω</foreign>.</note>
-<pb n="v.2.p.578"/>
+<note anchored="true" n="n.576.1" place="unspecified">repellere vires Kohlmann: repellere vir P: evadere flammas <foreign xml:lang="grc">ω</foreign>.</note>
+<pb n="v.2.p.578" />
 
 
 <l n="927">Illius ante oculos nova bella et Xanthus et Ide </l>
@@ -1221,13 +1221,13 @@
 <l n="947">ast egomet primae puerilis fabula culpae </l>
 <l n="948">narrabor famulis aut dissimulata latebo.  </l>
 <l n="949">quin age, duc comitem; cur non ego Martia tecum </l>
-<l n="950">signa feram? tu thyrsa<note target="n.578.1" place="unspecified" anchored="true"/> manu Baccheaque mecum </l>
+<l n="950">signa feram? tu thyrsa<note anchored="true" place="unspecified" target="n.578.1" /> manu Baccheaque mecum </l>
 <l n="951">sacra, quod infelix non credet Troia, tulisti.</l>
 <l n="952">attamen hunc, quem maesta mihi solacia linquis,</l>
 
 
-<note n="n.578.1" place="unspecified" anchored="true">thyrsa P: pensa <foreign xml:lang="grc">ω</foreign>.</note>
-<pb n="v.2.p.580"/>
+<note anchored="true" n="n.578.1" place="unspecified">thyrsa P: pensa <foreign xml:lang="grc">ω</foreign>.</note>
+<pb n="v.2.p.580" />
 
 
 <l n="953">hunc saltem sub corde tene et concede precanti  </l>
@@ -1240,8 +1240,8 @@
 <l n="960">inrita ventosae rapiebant verba procellae.</l>
 </div>
 
-<div type="textpart" subtype="book" n="2">
-<pb n="v.2.p.582"/>
+<div n="2" subtype="book" type="textpart">
+<pb n="v.2.p.582" />
 
 <l n="1">Exuit implicitum tenebris umentibus orbem </l>
 <l n="2">Oceano prolata dies, genitorque coruscae </l>
@@ -1268,12 +1268,12 @@
 <l n="22">incipit et longo Scyros discedere ponto.</l>
 
 
-<note n="n.582.1" place="unspecified" anchored="true">iubebas <foreign xml:lang="grc">ω</foreign>: puberis P: iuberes E: pararis Klotz.</note>
-<pb n="v.2.p.584"/>
+<note anchored="true" n="n.582.1" place="unspecified">iubebas <foreign xml:lang="grc">ω</foreign>: puberis P: iuberes E: pararis Klotz.</note>
+<pb n="v.2.p.584" />
 
 
 <l n="23">Turre procul summa lacrimis comitata sororum</l>
-<l n="24">  commissumque <note target="n.584.1" place="unspecified" anchored="true"/> tenens et habentem nomina Pyrrhum </l>
+<l n="24">  commissumque <note anchored="true" place="unspecified" target="n.584.1" /> tenens et habentem nomina Pyrrhum </l>
 <l n="25">pendebat coniunx oculisque in carbasa fixis</l>
 <l n="26">ibat et ipsa freto, et puppem iam sola videbat, </l>
 <l n="27">ille quoque obliquos dilecta ad moenia vultus </l>
@@ -1281,7 +1281,7 @@
 <l n="29">cogitat: occultus sub corde renascitur ardor </l>
 <l n="30">datque locum virtus, sentit Laertius heros</l>
 <l n="31">maerentem et placidis adgressus flectere dictis: </l>
-<l n="32"><q >tene,</q> inquit, ‘magnae vastator debite Troiae, </l>
+<l n="32"><q>tene,</q> inquit, ‘magnae vastator debite Troiae, </l>
 <l n="33">quem Danaae classes, quem divum oracula poscunt,  </l>
 <l n="34">erectumque manet reserato in limine Bellum, </l>
 <l n="35">callida femineo genetrix violavit amictu</l>
@@ -1299,13 +1299,13 @@
 <l n="47">carbasa, quae Danais tanti primordia belli, </l>
 <l n="48">ede: libet iustas hinc sumere protinus iras.’</l>
 <l n="49">  hic Ithacus paulum repetito longius orsu: </l>
-<l n="50">‘fertur in Hectorea, si talia credimus, Ida <note target="n.584.2" place="unspecified" anchored="true"/></l>
+<l n="50">‘fertur in Hectorea, si talia credimus, Ida <note anchored="true" place="unspecified" target="n.584.2" /></l>
 <l n="51">electus formae certamina solvere pastor</l>
 
 
-<note n="n.584.1" place="unspecified" anchored="true">commissum P: confessum <foreign xml:lang="grc">ω</foreign>.</note>
-<note n="n.584.2" place="unspecified" anchored="true">Ida P: ora <foreign xml:lang="grc">ω</foreign>.</note>
-<pb n="v.2.p.586"/>
+<note anchored="true" n="n.584.1" place="unspecified">commissum P: confessum <foreign xml:lang="grc">ω</foreign>.</note>
+<note anchored="true" n="n.584.2" place="unspecified">Ida P: ora <foreign xml:lang="grc">ω</foreign>.</note>
+<pb n="v.2.p.586" />
 
 <l n="52">sollicitas tenuisse deas nec torva Minervae </l>
 <l n="53">ora nec aetherii sociam rectoris amico  </l>
@@ -1316,7 +1316,7 @@
 <l n="58">ira quatit victas; petit exitialia iudex  </l>
 <l n="59">praemia: raptori faciles monstrantur Amyclae. </l>
 <l n="60">ille Phrygas lucos, matris penetralia caedit</l>
-<l n="61">turrigerae veritasque<note target="n.586.1" place="unspecified" anchored="true"/> solo procumbere pinus</l>
+<l n="61">turrigerae veritasque<note anchored="true" place="unspecified" target="n.586.1" /> solo procumbere pinus</l>
 <l n="62"> praecipiat terrasque freto delatus Achaeas </l>
 <l n="63">hospitis Atridae — pudet heu miseretque potentis  </l>
 <l n="64">Europae! — spoliat thalamos, Helenaque superbus </l>
@@ -1337,8 +1337,8 @@
 <l n="79">Argolica incesta volitantem puppe feremus?</l>
 
 
-<note n="n.586.1" place="unspecified" anchored="true">veritasque P: vetitasque <foreign xml:lang="grc">ω</foreign>.</note>
-<pb n="v.2.p.588"/>
+<note anchored="true" n="n.586.1" place="unspecified">veritasque P: vetitasque <foreign xml:lang="grc">ω</foreign>.</note>
+<pb n="v.2.p.588" />
 
 
 <l n="80">usque adeo nusquam arma et equi, fretaque invia Grais?</l>
@@ -1354,12 +1354,12 @@
 <l n="90">virtutisque aditus, quas membra augere per artes,</l>
 <l n="91">quas animum, sociis multumque faventibus edis? </l>
 <l n="92">sit pretium longas penitus quaesisse per undas </l>
-<l n="93">Scyron et his primos arma ostendisse lacertis.’<note target="n.588.1" place="unspecified" anchored="true"/></l>
+<l n="93">Scyron et his primos arma ostendisse lacertis.’<note anchored="true" place="unspecified" target="n.588.1" /></l>
 <l n="94"> Quem pigeat sua facta loqui? tamen ille modeste </l>
 <l n="95">incohat, ambiguus paulum propiorque coacto:</l>
 
 
-<l n="96">‘dicor et in teneris et adhuc reptantibus <note target="n.588.2" place="unspecified" anchored="true"/> annis, </l>
+<l n="96">‘dicor et in teneris et adhuc reptantibus <note anchored="true" place="unspecified" target="n.588.2" /> annis, </l>
 <l n="97">Thessalus ut rigido senior me monte recepit, </l>
 <l n="98">non ullos ex more cibos hausisse nec almis  </l>
 <l n="99">uberibus satiasse famem, sed spissa leonum </l>
@@ -1371,9 +1371,9 @@
 <l n="105">saxa nec ad vastae trepidare silentia silvae.</l>
 <l n="106">iam tunc arma manu, iam tunc cervice pharetrae,</l>
 
-<note n="n.588.1" place="unspecified" anchored="true">his primos arma ostendisse lacertis Wilamowitz: his primum arma ostendisse lacertis P: armos (is) tendisse QKG: primum me arma ost. Schenkel.</note>
-<note n="n.588.2" place="unspecified" anchored="true">reptantibus P: restantibus <foreign xml:lang="grc">ω</foreign>: crescentibus edd.</note>
-<pb n="v.2.p.590"/>
+<note anchored="true" n="n.588.1" place="unspecified">his primos arma ostendisse lacertis Wilamowitz: his primum arma ostendisse lacertis P: armos (is) tendisse QKG: primum me arma ost. Schenkel.</note>
+<note anchored="true" n="n.588.2" place="unspecified">reptantibus P: restantibus <foreign xml:lang="grc">ω</foreign>: crescentibus edd.</note>
+<pb n="v.2.p.590" />
 
 
 <l n="107">et ferri properatus amor durataque multo </l>
@@ -1407,7 +1407,7 @@
 
 
 
-<pb n="v.2.p.592"/>
+<pb n="v.2.p.592" />
 
 
 <l n="135">quo suspensa trahens libraret vulnera tortu</l>
@@ -1416,8 +1416,8 @@
 <l n="138">nunc docet ingentes saltu me iungere fossas,</l>
 <l n="139">  nunc caput aerii scandentem prendere montis, </l>
 <l n="140">quo fugitur per plana gradu, simulacraque pugnae</l>
-<l n="141">excipere immissos scutato <note target="n.592.1" place="unspecified" anchored="true"/> umbone molares</l>
-<l n="142"> ardentesque errare <note target="n.592.2" place="unspecified" anchored="true"/> casas peditemque volantes </l>
+<l n="141">excipere immissos scutato <note anchored="true" place="unspecified" target="n.592.1" /> umbone molares</l>
+<l n="142"> ardentesque errare <note anchored="true" place="unspecified" target="n.592.2" /> casas peditemque volantes </l>
 <l n="143">sistere quadriiugos. memini, rapidissimus ibat  </l>
 <l n="144">imbribus adsiduis pastus nivibusque solutis </l>
 <l n="145">Sperchios vivasque trabes et saxa ferebat:</l>
@@ -1440,18 +1440,18 @@
 <l n="162">quae ferro cohibenda lues, quae cederet herbis,</l>
 
 
-<note n="n.592.1" place="unspecified" anchored="true">scutato P: curvato <foreign xml:lang="grc">ω</foreign>.</note>
-<note n="n.592.2" place="unspecified" anchored="true">errare P: intrare <foreign xml:lang="grc">ω</foreign>.</note>
-<pb n="v.2.p.594"/>
+<note anchored="true" n="n.592.1" place="unspecified">scutato P: curvato <foreign xml:lang="grc">ω</foreign>.</note>
+<note anchored="true" n="n.592.2" place="unspecified">errare P: intrare <foreign xml:lang="grc">ω</foreign>.</note>
+<pb n="v.2.p.594" />
 
 
 <l n="163">edocuit monitusque sacrae sub pectore fixit   </l>
 <l n="164">iustitiae, qua Peliacis dare iura verenda </l>
 <l n="165">gentibus atque suos solitus pacare biformes.</l>
 <l n="166">hactenus annorum, comites, elementa meorum </l>
-<l n="167">et memini et meminisse iuvat: scit cetera mater.’ <note target="n.594.1" place="unspecified" anchored="true"/> </l>
-<note n="n.594.1" place="unspecified" anchored="true">After line 167 is added in E and some other MSS. in u fifteenth-century hand aura silet, puppis currens ad litora venit.</note>
-<pb n="v.2.p.596"/>
+<l n="167">et memini et meminisse iuvat: scit cetera mater.’ <note anchored="true" place="unspecified" target="n.594.1" /> </l>
+<note anchored="true" n="n.594.1" place="unspecified">After line 167 is added in E and some other MSS. in u fifteenth-century hand aura silet, puppis currens ad litora venit.</note>
+<pb n="v.2.p.596" />
 
 </div>
     </div></body></text></TEI>

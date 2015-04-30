@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
    <teiHeader status="new" type="text">
       <fileDesc>
          <titleStmt>
@@ -30,9 +30,9 @@
 
       <encodingDesc>
          <refsDecl>
-            <state unit="section" n="context"/>
+            <state n="context" unit="section" />
          </refsDecl>
-      </encodingDesc>
+      <refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts section</p></cRefPattern></refsDecl></encodingDesc>
 
       <profileDesc>
          <langUsage>
@@ -116,7 +116,7 @@
    </teiHeader>
    <text xml:lang="grc">
       <body>
-            <div type="section" n="1">
+            <div n="1" type="section">
                <p>
                   <p>νέος μὲν καὶ ἄπειρος δικῶν ἔγωγε ἔτι, δεινῶς δὲ καὶ ἀπόρως ἔχει μοι περὶ τοῦ
                      πράγματος, ὦ ἄνδρες, τοῦτο μὲν εἰ ἐπισκήψαντος τοῦ πατρὸς ἐπεξελθεῖν τοῖς αὑτοῦ
@@ -124,7 +124,7 @@
                      διαφορᾷ καταστῆναι, ἀδελφοῖς ὁμοπατρίοις καὶ μητρὶ ἀδελφῶν. </p>
                </p>
             </div>
-            <div type="section" n="2">
+            <div n="2" type="section">
                <p>
                   <p>ἡ γὰρ τύχη καὶ αὐτοὶ οὗτοι ἠνάγκασαν ἐμοὶ πρὸς τούτους αὐτοὺς τὸν ἀγῶνα
                      καταστῆναι, οὓς εἰκὸς ἦν τῷ μὲν τεθνεῶτι τιμωροὺς γενέσθαι, τῷ δʼ ἐπεξιόντι
@@ -132,7 +132,7 @@
                      καὶ φονῆς, ὡς καὶ ἐγὼ καὶ ἡ γραφὴ λέγει. </p>
                </p>
             </div>
-            <div type="section" n="3">
+            <div n="3" type="section">
                <p>
                   <p> </p>
                   <p>δέομαι δʼ ὑμῶν, ὦ ἄνδρες, ἐὰν ἐπιδείξω ἐξ ἐπιβουλῆς καὶ προβουλῆς τὴν τούτων
@@ -143,7 +143,7 @@
                      τεθνηκότι, καὶ ἅμα ἐμοὶ μόνῳ ἀπολελειμμένῳ βοηθῆσαι. </p>
                </p>
             </div>
-            <div type="section" n="4">
+            <div n="4" type="section">
                <p>
                   <p>ὑμεῖς γάρ μοι ἀναγκαῖοι. οὓς γὰρ ἐχρῆν τῷ μὲν τεθνεῶτι τιμωροὺς γενέσθαι, ἐμοὶ
                      δὲ βοηθούς, οὗτοι τοῦ μὲν τεθνεῶτος φονῆς γεγένηνται, ἐμοὶ δʼ ἀντίδικοι
@@ -151,7 +151,7 @@
                      ἄλλοθι ἢ πρὸς ὑμᾶς καὶ τὸ δίκαιον; </p>
                </p>
             </div>
-            <div type="section" n="5">
+            <div n="5" type="section">
                <p>
                   <p> </p>
                   <p>θαυμάζω δʼ ἔγωγε καὶ τοῦ ἀδελφοῦ, ἥντινά ποτε γνώμην ἔχων ἀντίδικος καθέστηκε
@@ -161,36 +161,32 @@
                      ἀποκτεινάσης. </p>
                </p>
             </div>
-            <div type="section" n="6">
+            <div n="6" type="section">
                <p>
-                  <p>καὶ οὐ τοῦτό γʼ ἐρεῖ,<note resp="ed" lang="la" anchored="yes">
+                  <p>καὶ οὐ τοῦτό γʼ ἐρεῖ,<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">καίτοι τοῦτό γʼ ἐρεῖ</foreign> Thalheim, coll. 8 et
-                        28.</note> ὡς εὖ οἶδεν ὅτι οὐκ<note resp="ed" lang="la" anchored="yes">
+                        28.</note> ὡς εὖ οἶδεν ὅτι οὐκ<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">ὅτι οὐκ</foreign> Cobet: <foreign lang="greek">ὅτι γʼ
                            οὐκ</foreign> codd.</note> ἀπέκτεινεν ἡ μήτηρ αὐτοῦ τὸν πατέρα τὸν
                      ἡμέτερον· ἐν οἷς μὲν γὰρ αὐτῷ ἐξουσία ἦν σαφῶς εἰδέναι παρὰ τῆς βασάνου, οὐκ
                      ἠθέλησεν· ἐν οἷς δʼ οὐκ ἦν πυθέσθαι, τοῦτʼ αὐτὸ προὐθυμήθη. καίτοι αὐτὸ τοῦτο
-                     ἐχρῆν, ὃ καὶ ἐγὼ προὐκαλούμην, προθυμηθῆναι, ὅπως τὸ πραχθὲν ᾖ ἀληθῶς<note
-                        resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">ἀληθῶς</foreign> scripsi, auct. Thalheim:<foreign
-                           lang="greek">ἀληθὲς</foreign> codd. alii alia.</note> ἐπεξελθεῖν. </p>
+                     ἐχρῆν, ὃ καὶ ἐγὼ προὐκαλούμην, προθυμηθῆναι, ὅπως τὸ πραχθὲν ᾖ ἀληθῶς<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">ἀληθῶς</foreign> scripsi, auct. Thalheim:<foreign lang="greek">ἀληθὲς</foreign> codd. alii alia.</note> ἐπεξελθεῖν. </p>
                </p>
             </div>
-            <div type="section" n="7">
+            <div n="7" type="section">
                <p>
                   <p>μὴ γὰρ ὁμολογούντων τῶν ἀνδραπόδων οὗτός τʼ εὖ εἰδὼς ἂν ἀπελογεῖτο καὶ
                      ἀντέσπευδε πρὸς ἐμέ, καὶ ἡ μήτηρ αὐτοῦ ἀπήλλακτο ἂν ταύτης τῆς αἰτίας. ὅπου δὲ
                      μὴ ἠθέλησεν ἔλεγχον ποιήσασθαι τῶν πεπραγμένων, πῶς περί γʼ ὧν οὐκ ἠθέλησε
                      πυθέσθαι, ἐγχωρεῖ αὐτῷ περὶ τούτων εἰδέναι; [πῶς οὖν περὶ τούτων, ὦ δικάζοντες,
-                     αὐτὸν εἰκὸς εἰδέναι, ὧν γε<note resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">γενέσθαι</foreign> Jernstedt, coll. Chor. 27:<foreign
-                           lang="greek">ἔσται</foreign> codd.</note> τὴν ἀλήθειαν οὐκ εἴληφε;<note
-                        resp="ed" lang="la" anchored="yes">
+                     αὐτὸν εἰκὸς εἰδέναι, ὧν γε<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">γενέσθαι</foreign> Jernstedt, coll. Chor. 27:<foreign lang="greek">ἔσται</foreign> codd.</note> τὴν ἀλήθειαν οὐκ εἴληφε;<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">πῶς οὖν ... εἴληφε</foreign> secl. Schoell, qui
                         alterius esse recensionis</note>] </p>
                </p>
             </div>
-            <div type="section" n="8">
+            <div n="8" type="section">
                <p>
                   <p> </p>
                   <p>τί ποτε ἀπολογήσεσθαι μέλλει μοι; ἐκ μὲν γὰρ τῆς τῶν ἀνδραπόδων βασάνου εὖ ᾔδει
@@ -200,38 +196,32 @@
                      δικαιοτάτῃ βασάνῳ χρήσασθαι περὶ τούτου τοῦ πράγματος; </p>
                </p>
             </div>
-            <div type="section" n="9">
+            <div n="9" type="section">
                <p>
-                  <p>τοῦτο μὲν γὰρ ἠθέλησα μὲν<note resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek"> πῶς ... εἰδέναι</foreign> om. <foreign lang="greek"
-                           >Ν.</foreign>
+                  <p>τοῦτο μὲν γὰρ ἠθέλησα μὲν<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek"> πῶς ... εἰδέναι</foreign> om. <foreign lang="greek">Ν.</foreign>
                      </note> τὰ τούτων ἀνδράποδα βασανίσαι, ἃ συνῄδει καὶ πρότερον τὴν γυναῖκα
                      ταύτην, μητέρα δὲ τούτων, τῷ πατρὶ τῷ ἡμετέρῳ θάνατον μηχανωμένην φαρμάκοις,
                      καὶ τὸν πατέρα εἰληφότα ἐπʼ αὐτοφώρῳ, ταύτην τε οὐκ οὖσαν ἄπαρνον, πλὴν οὐκ ἐπὶ
                      θανάτῳ φάσκουσαν διδόναι ἀλλʼ ἐπὶ φίλτροις. </p>
                </p>
             </div>
-            <div type="section" n="10">
+            <div n="10" type="section">
                <p>
                   <p>διὰ οὖν ταῦτα ἐγὼ βάσανον τοιαύτην ἠθέλησα ποιήσασθαι περὶ αὐτῶν, γράψας ἐν
                      γραμματείῳ ἃ ἐπαιτιῶμαι τὴν γυναῖκα ταύτην. βασανιστὰς δὲ αὐτοὺς τούτους
-                     ἐκέλευον γίγνεσθαι ἐμοῦ παρόντος, ἵνα μὴ ἀναγκαζόμενοι ἃ ἐγὼ ἐπερωτῴην<note
-                        resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">ἠθέλησα μὲν</foreign> Bake: <foreign lang="greek"
-                           >ἠθελήσαμεν</foreign> codd.</note> λέγοιεν—ἀλλʼ ἐξήρκει μοι τοῖς ἐν τῷ
-                     γραμματείῳ χρῆσθαι· καὶ αὐτό μοι τοῦτο τεκμήριον δίκαιον γενέσθαι,<note
-                        resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">ἐπερωτῴην</foreign> Jernstedt: <foreign lang="greek"
-                           >ἐπερωτῶ μὴ</foreign> codd.</note> ὅτι ὀρθῶς καὶ δικαίως μετέρχομαι τὸν
+                     ἐκέλευον γίγνεσθαι ἐμοῦ παρόντος, ἵνα μὴ ἀναγκαζόμενοι ἃ ἐγὼ ἐπερωτῴην<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">ἠθέλησα μὲν</foreign> Bake: <foreign lang="greek">ἠθελήσαμεν</foreign> codd.</note> λέγοιεν—ἀλλʼ ἐξήρκει μοι τοῖς ἐν τῷ
+                     γραμματείῳ χρῆσθαι· καὶ αὐτό μοι τοῦτο τεκμήριον δίκαιον γενέσθαι,<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">ἐπερωτῴην</foreign> Jernstedt: <foreign lang="greek">ἐπερωτῶ μὴ</foreign> codd.</note> ὅτι ὀρθῶς καὶ δικαίως μετέρχομαι τὸν
                      φονέα τοῦ πατρός—εἰ δὲ ἄπαρνοι γίγνοιντο ἢ λέγοιεν μὴ ὁμολογούμενα, ltἡ
-                        βάσανοςgt<note resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">ἡ βάσανος</foreign> add. Baiter et Sauppe:<foreign
-                           lang="greek">ἡ δίκη</foreign>*aldina. *nonnihil</note> ἀναγκάζοι τὰ
+                        βάσανοςgt<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">ἡ βάσανος</foreign> add. Baiter et Sauppe:<foreign lang="greek">ἡ δίκη</foreign>*aldina. *nonnihil</note> ἀναγκάζοι τὰ
                      γεγονότα κατηγορεῖν· αὕτη γὰρ καὶ τοὺς τὰ ψευδῆ παρεσκευασμένους λέγειν τἀληθῆ
                      κατηγορεῖν ποιήσει. </p>
                </p>
             </div>
-            <div type="section" n="11">
+            <div n="11" type="section">
                <p>
                   <p> </p>
                   <p>καίτοι εὖ οἶδά γʼ, εἰ οὗτοι πρὸς ἐμὲ ἐλθόντες, ἐπειδὴ τάχιστα αὐτοῖς ἀπηγγέλθη
@@ -242,7 +232,7 @@
                      ἐμοὶ δήπου εἰκὸς ταὐτὰ ταῦτα τεκμήρια εἶναι ὡς εἰσὶν ἔνοχοι τῷ φόνῳ. </p>
                </p>
             </div>
-            <div type="section" n="12">
+            <div n="12" type="section">
                <p>
                   <p>εἰ γὰρ τούτων ἐθελόντων διδόναι εἰς βάσανον ἐγὼ μὴ ἐδεξάμην, τούτοις ἂν ἦν
                      ταῦτα τεκμήρια. τὸ αὐτὸ οὖν τοῦτο καὶ ἐμοὶ γενέσθω, εἴπερ ἐμοῦ θέλοντος ἔλεγχον
@@ -251,7 +241,7 @@
                      οὐκ ἠξίωσαν δικασταὶ γενέσθαι δόντες βασανίσαι τὰ αὑτῶν ἀνδράποδα. </p>
                </p>
             </div>
-            <div type="section" n="13">
+            <div n="13" type="section">
                <p>
                   <p> </p>
                   <p>περὶ μὲν οὖν τούτων οὐκ ἄδηλον ὅτι αὐτοὶ ἔφευγον τῶν πραχθέντων τὴν σαφήνειαν
@@ -261,20 +251,19 @@
                      πειράσομαι ὑμῖν διηγήσασθαι τὴν ἀλήθειαν· δίκη δὲ κυβερνήσειεν. </p>
                </p>
             </div>
-            <div type="section" n="14">
+            <div n="14" type="section">
                <p>
                   <p> </p>
                   <p>ὑπερῷόν τι ἦν τῆς ἡμετέρας οἰκίας, ὃ εἶχε Φιλόνεως ὁπότʼ ἐν ἄστει διατρίβοι,
                      ἀνὴρ καλός τε κἀγαθὸς καὶ φίλος τῷ ἡμετέρῳ πατρί· καὶ ἦν αὐτῷ παλλακή, ἣν ὁ
-                     Φιλόνεως ἐπὶ πορνεῖον ἔμελλε καταστῆσαι. ταύτην οὖν [πυθομένη]<note resp="ed"
-                        lang="la" anchored="yes">
+                     Φιλόνεως ἐπὶ πορνεῖον ἔμελλε καταστῆσαι. ταύτην οὖν [πυθομένη]<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">πυθομένη</foreign> secl. Dobree. Glossema esse videtur
                            verbo<foreign lang="greek">αἰσθομένη</foreign> quod sequitur olim
                            adscriptum:<foreign lang="greek">πιστουμένη</foreign> Weber.</note> ἡ
                      μήτηρ τοῦ ἀδελφοῦ ἐποιήσατο φίλην. </p>
                </p>
             </div>
-            <div type="section" n="15">
+            <div n="15" type="section">
                <p>
                   <p>αἰσθομένη δʼ ὅτι ἀδικεῖσθαι ἔμελλεν ὑπὸ τοῦ Φιλόνεω, μεταπέμπεται, καὶ ἐπειδὴ
                      ἦλθεν, ἔλεξεν αὐτῇ ὅτι καὶ αὐτὴ ἀδικοῖτο ὑπὸ τοῦ πατρὸς τοῦ ἡμετέρου· εἰ οὖν
@@ -283,7 +272,7 @@
                   </p>
                </p>
             </div>
-            <div type="section" n="16">
+            <div n="16" type="section">
                <p>
                   <p>ἠρώτα οὖν αὐτὴν εἰ ἐθελήσει διακονῆσαί οἱ, καὶ ἣ ὑπέσχετο τάχιστα, ὡς οἶμαι.
                      μετὰ ταῦτα ἔτυχε τῷ Φιλόνεῳ ἐν Πειραιεῖ ὄντα ἱερὰ Διὶ Κτησίῳ, ὁ δὲ πατὴρ ὁ ἐμὸς
@@ -292,22 +281,21 @@
                      θύσαντα τὰ ἱερὰ ἑστιᾶσαι ἐκεῖνον. </p>
                </p>
             </div>
-            <div type="section" n="17">
+            <div n="17" type="section">
                <p>
                   <p>ἡ οὖν παλλακὴ τοῦ Φιλόνεω ἠκολούθει τῆς θυσίας ἕνεκεν. καὶ ἐπειδὴ ἦσαν ἐν τῷ
-                     Πειραιεῖ, οἷον εἰκός, ἔθυεν.<note resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">ἔθυεν</foreign> Orelli: <foreign lang="greek"
-                           >ἔθυον</foreign> codd.</note> καὶ ἐπειδὴ αὐτῷ ἐτέθυτο τὰ ἱερά, ἐντεῦθεν
+                     Πειραιεῖ, οἷον εἰκός, ἔθυεν.<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">ἔθυεν</foreign> Orelli: <foreign lang="greek">ἔθυον</foreign> codd.</note> καὶ ἐπειδὴ αὐτῷ ἐτέθυτο τὰ ἱερά, ἐντεῦθεν
                      ἐβουλεύετο ἡ ἄνθρωπος ὅπως ἂν αὐτοῖς τὸ φάρμακον δοίη, πότερα πρὸ δείπνου ἢ ἀπὸ
                      δείπνου. ἔδοξεν οὖν αὐτῇ βουλευομένῃ βέλτιον εἶναι μετὰ δεῖπνον δοῦναι, τῆς
-                     Κλυταιμνήστρας ταύτης<note resp="ed" lang="la" anchored="yes">
+                     Κλυταιμνήστρας ταύτης<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">τῆς Κλυταιμνήστρας ταύτης ταῖς ὑποθήκαις</foreign>
                         Gernet: alii alia.<foreign lang="greek">τῆς Κλ. τῆς τούτου μητρὸς ὑποθήκαις
                            Ν· τῆς Κλ. τοῖς τούτου μητρὸς ὑποθ. Α· ταῖς Κλ. τ͂ς κτλ. Α </foreign>
                         corr.(2)</note> [τῆς τούτου μητρὸς] ταῖς ὑποθήκαις ἅμα διακονοῦσαν. </p>
                </p>
             </div>
-            <div type="section" n="18">
+            <div n="18" type="section">
                <p>
                   <p>καὶ τὰ μὲν ἄλλα μακρότερος ἂν εἴη λόγος περὶ τοῦ δείπνου ἐμοί τε διηγήσασθαι
                      ὑμῖν τʼ ἀκοῦσαι· ἀλλὰ πειράσομαι τὰ λοιπὰ ὡς ἐν βραχυτάτοις ὑμῖν διηγήσασθαι,
@@ -317,34 +305,33 @@
                      σπονδάς τʼ ἐποιοῦντο καὶ λιβανωτὸν ὑπὲρ αὑτῶν ἐπετίθεσαν. </p>
                </p>
             </div>
-            <div type="section" n="19">
+            <div n="19" type="section">
                <p>
                   <p>ἡ δὲ παλλακὴ τοῦ Φιλόνεω τὴν σπονδὴν ἅμα ἐγχέουσα ἐκείνοις εὐχομένοις ἃ οὐκ
                      ἔμελλε τελεῖσθαι, ὦ ἄνδρες, ἐνέχει τὸ φάρμακον. καὶ ἅμα οἰομένη δεξιὸν ποιεῖν
-                        πλέον<note resp="ed" lang="la" anchored="yes">
+                        πλέον<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">ἀξία] ἄξια</foreign> Blass: <foreign lang="greek">οὐκ
-                           ἀξία</foreign> Reutzel.</note> δίδωσι τῷ Φιλόνεῳ, ἴσως lt ὡςgt,<note
-                        resp="ed" lang="la" anchored="yes">
+                           ἀξία</foreign> Reutzel.</note> δίδωσι τῷ Φιλόνεῳ, ἴσως lt ὡςgt,<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">ὡς</foreign> add. Pahle.</note> εἰ δοίη πλέον, μᾶλλον
                      φιλησομένη ὑπὸ τοῦ Φιλόνεω· οὔπω γὰρ ᾔδει ὑπὸ τῆς μητρυιᾶς τῆς ἐμῆς
                      ἐξαπατωμένη, πρὶν ἐν τῷ κακῷ ἤδη ἦν· τῷ δὲ πατρὶ τῷ ἡμετέρῳ ἔλασσον ἐνέχει.
                   </p>
                </p>
             </div>
-            <div type="section" n="20">
+            <div n="20" type="section">
                <p>
                   <p>καὶ ἐκεῖνοι ἐπειδὴ ἀπέσπεισαν, τὸν ἑαυτῶν φονέα μεταχειριζόμενοι ἐκπίνουσιν
                      ὑστάτην πόσιν. ὁ μὲν οὖν Φιλόνεως εὐθέως παραχρῆμα ἀποθνῄσκει, ὁ δὲ πατὴρ ὁ
                      ἡμέτερος εἰς νόσον ἐμπίπτει, ἐξ ἧς καὶ ἀπώλετο εἰκοσταῖος. ἀνθʼ ὧν ἡ μὲν
-                     διακονήσασα καὶ χειρουργήσασα<note resp="ed" lang="la" anchored="yes">
+                     διακονήσασα καὶ χειρουργήσασα<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">καὶ χειρουργήσασα</foreign> huc transposuit Blass:
                            post<foreign lang="greek">ἐθυμηθεῖσα</foreign>
-                     </note> ἔχει τὰ ἐπίχειρα ὧν ἀξία<note resp="ed" lang="la" anchored="yes">habent
+                     </note> ἔχει τὰ ἐπίχειρα ὧν ἀξία<note anchored="yes" lang="la" resp="ed">habent
                         codd.</note> ἦν, οὐδὲν αἰτία οὖσα—τῷ γὰρ δημοκοίνῳ τροχισθεῖσα παρεδόθη—, ἡ
                      δʼ αἰτία τε ἤδη καὶ ἐνθυμηθεῖσα ἕξει, ἐὰν ὑμεῖς τε καὶ οἱ θεοὶ θέλωσιν. </p>
                </p>
             </div>
-            <div type="section" n="21">
+            <div n="21" type="section">
                <p>
                   <p> </p>
                   <p>σκέψασθε οὖν ὅσῳ δικαιότερα ὑμῶν δεήσομαι ἐγὼ ἢ ὁ ἀδελφός. ἐγὼ μέν γε τῷ
@@ -354,33 +341,30 @@
                      ὧν ἥκιστα ἐχρῆν τὸν βίον ἐκλιπών, </p>
                </p>
             </div>
-            <div type="section" n="22">
+            <div n="22" type="section">
                <p>
                   <p>ὑπὲρ δὲ τῆς ἀποκτεινάσης δεήσεται ἀθέμιτα καὶ ἀνόσια καὶ ἀτέλεστα καὶ ἀνήκουστα
-                     καὶ θεοῖς καὶ ὑμῖν, δεόμενος ὑμῶν ltμὴ τιμωρῆσαιgt<note resp="ed" lang="la"
-                        anchored="yes">
+                     καὶ θεοῖς καὶ ὑμῖν, δεόμενος ὑμῶν ltμὴ τιμωρῆσαιgt<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">μὴ τιμωρῆσαι</foreign> add. Thalheim.</note> ἃ αὐτὴ
                      ἑαυτὴν οὐκ ἔπεισε μὴ κακοτεχνῆσαι. ὑμεῖς δʼ οὐ τῶν ἀποκτεινάντων ἐστὲ βοηθοί,
                      ἀλλὰ τῶν ἐκ προνοίας ἀποθνῃσκόντων, καὶ ταῦτα ὑφʼ ὧν ἥκιστα ἐχρῆν αὐτοὺς
                      ἀποθνῄσκειν. ἤδη οὖν ἐν ὑμῖν ἐστι τοῦτʼ ὀρθῶς διαγνῶναι, ὃ καὶ ποιήσατε. </p>
                </p>
             </div>
-            <div type="section" n="23">
+            <div n="23" type="section">
                <p>
                   <p> </p>
                   <p>δεήσεται δʼ ὑμῶν οὗτος μὲν ὑπὲρ τῆς μητρὸς τῆς αὑτοῦ ζώσης, τῆς ἐκεῖνον
                      διαχρησαμένης ἀβούλως τε καὶ ἀθέως, ὅπως δίκην μὴ δῷ, ἂν ὑμᾶς πείθῃ, ὧν
-                     ἠδίκηκεν· ἐγὼ δʼ ὑμᾶς ὑπὲρ τοῦ πατρὸς τοὐμοῦ<note resp="ed" lang="la"
-                        anchored="yes">
-                        <foreign lang="greek">τοὐμοῦ</foreign> Franke: <foreign lang="greek"
-                           >μου</foreign> codd.</note> τεθνεῶτος αἰτοῦμαι, ὅπως παντὶ τρόπῳ δῷ·
+                     ἠδίκηκεν· ἐγὼ δʼ ὑμᾶς ὑπὲρ τοῦ πατρὸς τοὐμοῦ<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">τοὐμοῦ</foreign> Franke: <foreign lang="greek">μου</foreign> codd.</note> τεθνεῶτος αἰτοῦμαι, ὅπως παντὶ τρόπῳ δῷ·
                      ὑμεῖς δέ, ὅπως διδῶσι δίκην οἱ ἀδικοῦντες, τούτου γε ἕνεκα καὶ δικασταὶ
                      ἐγένεσθε καὶ ἐκλήθητε. </p>
                </p>
             </div>
-            <div type="section" n="24">
+            <div n="24" type="section">
                <p>
-                  <p>καὶ ἐγὼ μὲν ἐπεξέρχομαι [λέγων],<note resp="ed" lang="la" anchored="yes">
+                  <p>καὶ ἐγὼ μὲν ἐπεξέρχομαι [λέγων],<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">λέγων</foreign> secl. Gernet.</note> ἵνα δῷ δίκην ὧν
                      ἠδίκηκε καὶ τιμωρήσω τῷ τε πατρὶ τῷ ἡμετέρῳ καὶ τοῖς νόμοις τοῖς ὑμετέροις·
                      ταύτῃ καὶ ἄξιόν μοι βοηθῆσαι ὑμᾶς ἅπαντας, εἰ ἀληθῆ λέγω· οὗτος δὲ τἀναντία,
@@ -388,26 +372,22 @@
                   </p>
                </p>
             </div>
-            <div type="section" n="25">
+            <div n="25" type="section">
                <p>
                   <p>καίτοι πότερον δικαιότερον τὸν ἐκ προνοίας ἀποκτείναντα δοῦναι δίκην ἢ μή; καὶ
-                     πότερον δεῖ<note resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">δεῖ</foreign> Jernstedt: <foreign lang="greek"
-                           >δικαιότερον</foreign> codd.</note> οἰκτεῖραι μᾶλλον τὸν τεθνεῶτα ἢ τὴν
-                     ἀποκτείνασαν; ἐγὼ μὲν οἶμαι τὸν τεθνεῶτα· καὶ γὰρ ltἂνgt<note resp="ed"
-                        lang="la" anchored="yes">
+                     πότερον δεῖ<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">δεῖ</foreign> Jernstedt: <foreign lang="greek">δικαιότερον</foreign> codd.</note> οἰκτεῖραι μᾶλλον τὸν τεθνεῶτα ἢ τὴν
+                     ἀποκτείνασαν; ἐγὼ μὲν οἶμαι τὸν τεθνεῶτα· καὶ γὰρ ltἂνgt<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">ἂν</foreign> add. Dobree.</note> δικαιότερον καὶ
                      ὁσιώτερον καὶ πρὸς θεῶν καὶ πρὸς ἀνθρώπων γίγνοιτο ὑμῖν. ἤδη οὖν ἐγὼ ἀξιῶ,
                      ὥσπερ κἀκεῖνον ἀνελεημόνως καὶ ἀνοικτίστως αὕτη ἀπώλεσεν, οὕτω καὶ αὐτήν ταύτην
                      ἀπολέσθαι ὑπό τε ὑμῶν καὶ τοῦ δικαίου. </p>
                </p>
             </div>
-            <div type="section" n="26">
+            <div n="26" type="section">
                <p>
-                  <p>ἡ μὲν γὰρ ἑκουσίως καὶ βουλεύσασα τὸν θάνατον ltἀπέκτεινενgt,<note resp="ed"
-                        lang="la" anchored="yes">
-                        <foreign lang="greek">ἀπέκτεινεν</foreign> add. Reiske:<foreign lang="greek"
-                           >τὸν θάνατον</foreign> del. Franke.</note> ὁ δʼ ἀκουσίως καὶ βιαίως
+                  <p>ἡ μὲν γὰρ ἑκουσίως καὶ βουλεύσασα τὸν θάνατον ltἀπέκτεινενgt,<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">ἀπέκτεινεν</foreign> add. Reiske:<foreign lang="greek">τὸν θάνατον</foreign> del. Franke.</note> ὁ δʼ ἀκουσίως καὶ βιαίως
                      ἀπέθανε. πῶς γὰρ οὐ βιαίως ἀπέθανεν, ὦ ἄνδρες; ὅς γʼ ἐκπλεῖν ἔμελλεν ἐκ τῆς γῆς
                      τῆσδε, παρά τε ἀνδρὶ φίλῳ αὑτοῦ εἱστιᾶτο· ἡ δὲ πέμψασα τὸ φάρμακον καὶ
                      κελεύσασα ἐκείνῳ δοῦναι πιεῖν ἀπέκτεινεν ἡμῶν τὸν πατέρα. πῶς οὖν ταύτην ἐλεεῖν
@@ -415,14 +395,12 @@
                      ἐλεῆσαι τὸν ἑαυτῆς ἄνδρα, ἀλλʼ ἀνοσίως καὶ αἰσχρῶς ἀπώλεσεν. </p>
                </p>
             </div>
-            <div type="section" n="27">
+            <div n="27" type="section">
                <p>
                   <p>οὕτω δέ τοι καὶ ἐλεεῖν ἐπὶ τοῖς ἀκουσίοις παθήμασι μᾶλλον προσήκει ἢ τοῖς
-                     ἑκουσίοις καὶ ἐκ προνοίας ἀδικήμασι καὶ ἁμαρτήμασι. καὶ ὥσπερ ἐκεῖνον αὕτη<note
-                        resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">αὕτη</foreign> Reiske: <foreign lang="greek"
-                           >αὐτὴ</foreign> codd.</note> οὔτε θεοὺς οὔθʼ ἥρωας οὔτʼ ἀνθρώπους
-                     αἰσχυνθεῖσα οὐδὲ<note resp="ed" lang="la" anchored="yes">
+                     ἑκουσίοις καὶ ἐκ προνοίας ἀδικήμασι καὶ ἁμαρτήμασι. καὶ ὥσπερ ἐκεῖνον αὕτη<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">αὕτη</foreign> Reiske: <foreign lang="greek">αὐτὴ</foreign> codd.</note> οὔτε θεοὺς οὔθʼ ἥρωας οὔτʼ ἀνθρώπους
+                     αἰσχυνθεῖσα οὐδὲ<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">οὐδὲ</foreign> Maetzner: <foreign lang="greek">οὔτε Ν,
                            αἰσχυνθεῖσα οὔτε </foreign> om. <foreign lang="greek">Α.</foreign>
                      </note> δείσασʼ ἀπώλεσεν, οὕτω καὶ αὐτὴ ὑφʼ ὑμῶν καὶ τοῦ δικαίου ἀπολομένη, καὶ
@@ -430,47 +408,44 @@
                      δικαιοτάτης ἂν τύχοι τιμωρίας. </p>
                </p>
             </div>
-            <div type="section" n="28">
+            <div n="28" type="section">
                <p>
                   <p> </p>
                   <p>θαυμάζω δὲ ἔγωγε τῆς τόλμης τοῦ ἀδελφοῦ καὶ τῆς διανοίας, τὸ διομόσασθαι ὑπὲρ
-                     τῆς μητρὸς εὖ εἰδέναι μὴ πεποιηκυῖαν<note resp="ed" lang="la" anchored="yes">
-                        <foreign lang="greek">πεποιηκυῖαν</foreign> Cobet: <foreign lang="greek"
-                           >πεποιηκέναι</foreign> codd.</note> ταῦτα. πῶς γὰρ ἄν τις εὖ εἰδείη οἷς
+                     τῆς μητρὸς εὖ εἰδέναι μὴ πεποιηκυῖαν<note anchored="yes" lang="la" resp="ed">
+                        <foreign lang="greek">πεποιηκυῖαν</foreign> Cobet: <foreign lang="greek">πεποιηκέναι</foreign> codd.</note> ταῦτα. πῶς γὰρ ἄν τις εὖ εἰδείη οἷς
                      μὴ παρεγένετο αὐτός; οὐ γὰρ δήπου μαρτύρων γʼ ἐναντίον οἱ ἐπιβουλεύοντες τοὺς
                      θανάτους τοῖς πέλας μηχανῶνταί τε καὶ παρασκευάζουσιν, ἀλλʼ ὡς μάλιστα δύνανται
                      λαθραιότατα καὶ ὡς ἀνθρώπων μηδένα εἰδέναι· </p>
                </p>
             </div>
-            <div type="section" n="29">
+            <div n="29" type="section">
                <p>
                   <p>οἱ δʼ ἐπιβουλευόμενοι οὐδὲν ἴσασι, πρίν γʼ ἤδη ἐν αὐτῷ ὦσι τῷ κακῷ καὶ
                      γιγνώσκωσι τὸν ὄλεθρον ἐν ᾧ εἰσί. τότε δέ, ἐὰν μὲν δύνωνται καὶ φθάνωσι πρὶν
-                     ἀποθανεῖν, καὶ φίλους καὶ ἀναγκαίους τοὺς σφετέρους ltαὐτῶνgt<note resp="ed"
-                        lang="la" anchored="yes">
+                     ἀποθανεῖν, καὶ φίλους καὶ ἀναγκαίους τοὺς σφετέρους ltαὐτῶνgt<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">αὐτῶν</foreign> add. Hirschig.</note> καλοῦσι καὶ
                      μαρτύρονται, καὶ λέγουσιν αὐτοῖς ὑφʼ ὧν ἀπόλλυνται, καὶ ἐπισκήπτουσι τιμωρῆσαι
                      σφίσιν αὐτοῖς ἠδικημένοις· </p>
                </p>
             </div>
-            <div type="section" n="30">
+            <div n="30" type="section">
                <p>
                   <p>ἃ κἀμοὶ παιδὶ ὄντι ὁ πατήρ, τὴν ἀθλίαν καὶ τελευταίαν νόσον νοσῶν, ἐπέσκηπτεν.
                      ἐὰν δὲ τούτων ἁμαρτάνωσι, γράμματα γράφουσι, καὶ οἰκέτας τοὺς σφετέρους αὐτῶν
-                     ἐπικαλοῦνται μάρτυρας, καὶ δηλοῦσιν ὑφʼ ὧν ἀπόλλυνται.<note resp="ed" lang="la"
-                        anchored="yes">
+                     ἐπικαλοῦνται μάρτυρας, καὶ δηλοῦσιν ὑφʼ ὧν ἀπόλλυνται.<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">ἀπόλλυνται</foreign> Bekker: <foreign lang="greek">ἂν
                            ἀπολοῦνται</foreign> A pr. N,<foreign lang="greek">ἀπόλωνται Α</foreign>
                      </note> κἀκεῖνος ἐμοὶ νέῳ ἔτι ὄντι ταῦτα ἐδήλωσε καὶ ἐπέστειλεν, ὦ ἄνδρες, οὐ
                      τοῖς ἑαυτοῦ δούλοις. </p>
                </p>
             </div>
-            <div type="section" n="31">
+            <div n="31" type="section">
                <p>
                   <p> </p>
                   <p>ἐμοὶ μὲν οὖν διήγηται καὶ βεβοήθηται τῷ τεθνεῶτι καὶ τῷ νόμῳ· ἐν ὑμῖν δʼ ἐστὶ
                      σκοπεῖν τὰ λοιπὰ πρὸς ὑμᾶς αὐτοὺς καὶ δικάζειν τὰ δίκαια. οἶμαι δὲ καὶ τοῖς
-                     θεοῖς τοῖς κάτω μέλειν οἳ<note resp="ed" lang="la" anchored="yes">
+                     θεοῖς τοῖς κάτω μέλειν οἳ<note anchored="yes" lang="la" resp="ed">
                         <foreign lang="greek">οἳ] οἷʼ</foreign> Boekmeijer.</note> ἠδίκηνται. </p>
                </p>
             </div>

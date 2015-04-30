@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI.2>
-  <teiHeader type="text" status="new">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI.2 xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader status="new" type="text">
       <fileDesc>
          <titleStmt>
 	           <title>Georgics</title>
 	           <title type="sub">Machine readable text</title>
 	           <author n="Verg.">P. Vergilius Maro</author>
-	           <editor role="editor" n="Greenough">J. B. Greenough</editor>
+	           <editor n="Greenough" role="editor">J. B. Greenough</editor>
             <sponsor>Perseus Project, Tufts University</sponsor>
 		          <principal>Gregory Crane</principal>
 		          <respStmt>
@@ -42,20 +42,14 @@
     
       <encodingDesc>
          <refsDecl doctype="TEI.2">
-	           <step delim="."
-                  refunit="book"
-                  from="DESCENDANT (1 DIV1 N %2)"
-                  to="DITTO"/>
-	           <step delim="trans"
-                  refunit="line"
-                  from="DESCENDANT (1 MILESTONE UNIT line N %3)"
-                  to="DITTO"/>
+	           <step delim="." from="DESCENDANT (1 DIV1 N %2)" refunit="book" to="DITTO" />
+	           <step delim="trans" from="DESCENDANT (1 MILESTONE UNIT line N %3)" refunit="line" to="DITTO" />
          </refsDecl>
          <refsDecl doctype="TEI.2">
-            <state unit="book"/>
-            <state n="chunk" unit="card"/>
+            <state unit="book" />
+            <state n="chunk" unit="card" />
          </refsDecl>
-      </encodingDesc>
+      <refsDecl id="CTS"><cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts book and card</p></cRefPattern><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts book</p></cRefPattern></refsDecl></encodingDesc>
     
       <profileDesc>
          <langUsage>
@@ -135,8 +129,8 @@ Changed names and redid headers.
 
    <text>
       <body>
-         <div type="Book" n="1">
-            <div type="card" ed="p" n="1">
+         <div n="1" type="Book">
+            <div ed="p" n="1" type="card">
                <l n="tr">What makes the cornfield smile; beneath what star</l>
                <l n="tr">Maecenas, it is meet to turn the sod</l>
                <l n="tr">Or marry elm with vine; how tend the steer;</l>
@@ -193,7 +187,7 @@ Changed names and redid headers.
                <l n="tr">These poor way-wildered swains, at once begin,</l>
                <l n="tr">Grow timely used unto the voice of prayer.</l>
             </div>
-            <div type="card" ed="p" n="43">
+            <div ed="p" n="43" type="card">
                <l n="tr">In early spring-tide, when the icy drip</l>
                <l n="tr">Melts from the mountains hoar, and Zephyr's breath</l>
                <l n="tr">Unbinds the crumbling clod, even then 'tis time;</l>
@@ -228,7 +222,7 @@ Changed names and redid headers.
                <l n="tr">There, lest weeds choke the crop's luxuriance, here,</l>
                <l n="tr">Lest the scant moisture fail the barren sand.</l>
             </div>
-            <div type="card" ed="p" n="71">
+            <div ed="p" n="71" type="card">
                <l n="tr">Then thou shalt suffer in alternate years</l>
                <l n="tr">The new-reaped fields to rest, and on the plain</l>
                <l n="tr">A crust of sloth to harden; or, when stars</l>
@@ -288,7 +282,7 @@ Changed names and redid headers.
                <l n="tr">Holds all the country, whence the hollow dykes</l>
                <l n="tr">Sweat steaming vapour?</l>
             </div>
-            <div type="card" ed="p" n="118">
+            <div ed="p" n="118" type="card">
                <l n="tr">But no whit the more</l>
                <l n="tr">For all expedients tried and travail borne</l>
                <l n="tr">By man and beast in turning oft the soil,</l>
@@ -346,7 +340,7 @@ Changed names and redid headers.
                <l n="tr">And in the greenwood from a shaken oak</l>
                <l n="tr">Seek solace for thine hunger.</l>
             </div>
-            <div type="card" ed="p" n="160">
+            <div ed="p" n="160" type="card">
                <l n="tr">Now to tell</l>
                <l n="tr">The sturdy rustics' weapons, what they are,</l>
                <l n="tr">Without which, neither can be sown nor reared</l>
@@ -369,7 +363,7 @@ Changed names and redid headers.
                <l n="tr">To turn the car at lowest: then o'er the hearth</l>
                <l n="tr">The wood they hang till the smoke knows it well.</l>
             </div>
-            <div type="card" ed="p" n="176">
+            <div ed="p" n="176" type="card">
                <l n="tr">Many the precepts of the men of old</l>
                <l n="tr">I can recount thee, so thou start not back,</l>
                <l n="tr">And such slight cares to learn not weary thee.</l>
@@ -407,7 +401,7 @@ Changed names and redid headers.
                <l n="tr">His arms to slacken, lo! with headlong force</l>
                <l n="tr">The current sweeps him down the hurrying tide.</l>
             </div>
-            <div type="card" ed="p" n="204">
+            <div ed="p" n="204" type="card">
                <l n="tr">Us too behoves Arcturus' sign observe,</l>
                <l n="tr">And the Kids' seasons and the shining Snake,</l>
                <l n="tr">No less than those who o'er the windy main</l>
@@ -442,7 +436,7 @@ Changed names and redid headers.
                <l n="tr">Bootes' fall will send thee; then begin,</l>
                <l n="tr">Pursue thy sowing till half the frosts be done.</l>
             </div>
-            <div type="card" ed="p" n="231">
+            <div ed="p" n="231" type="card">
                <l n="tr">Therefore it is the golden sun, his course</l>
                <l n="tr">Into fixed parts dividing, rules his way</l>
                <l n="tr">Through the twelve constellations of the world.</l>
@@ -476,7 +470,7 @@ Changed names and redid headers.
                <l n="tr">With driving oars, when launch the fair-rigged fleet,</l>
                <l n="tr">Or in ripe hour to fell the forest-pine.</l>
             </div>
-            <div type="card" ed="p" n="257">
+            <div ed="p" n="257" type="card">
                <l n="tr">Hence, too, not idly do we watch the stars—</l>
                <l n="tr">Their rising and their setting-and the year,</l>
                <l n="tr">Four varying seasons to one law conformed.</l>
@@ -501,7 +495,7 @@ Changed names and redid headers.
                <l n="tr">And home from town returning brings instead</l>
                <l n="tr">A dented mill-stone or black lump of pitch.</l>
             </div>
-            <div type="card" ed="p" n="276">
+            <div ed="p" n="276" type="card">
                <l n="tr">The moon herself in various rank assigns</l>
                <l n="tr">The days for labour lucky: fly the fifth;</l>
                <l n="tr">Then sprang pale Orcus and the Eumenides;</l>
@@ -518,7 +512,7 @@ Changed names and redid headers.
                <l n="tr">And fix the leashes to the warp; the ninth</l>
                <l n="tr">To runagates is kinder, cross to thieves.</l>
             </div>
-            <div type="card" ed="p" n="287">
+            <div ed="p" n="287" type="card">
                <l n="tr">Many the tasks that lightlier lend themselves</l>
                <l n="tr">In chilly night, or when the sun is young,</l>
                <l n="tr">And Dawn bedews the world. By night 'tis best</l>
@@ -549,7 +543,7 @@ Changed names and redid headers.
                <l n="tr">With whirl of hempen-thonged Balearic sling,</l>
                <l n="tr">While snow lies deep, and streams are drifting ice.</l>
             </div>
-            <div type="card" ed="p" n="311">
+            <div ed="p" n="311" type="card">
                <l n="tr">What need to tell of autumn's storms and stars,</l>
                <l n="tr">And wherefore men must watch, when now the day</l>
                <l n="tr">Grows shorter, and more soft the summer's heat?</l>
@@ -605,7 +599,7 @@ Changed names and redid headers.
                <l n="tr">With woven oak his temples chapleted,</l>
                <l n="tr">He foot the rugged dance and chant the lay.</l>
             </div>
-            <div type="card" ed="p" n="351">
+            <div ed="p" n="351" type="card">
                <l n="tr">Aye, and that these things we might win to know</l>
                <l n="tr">By certain tokens, heats, and showers, and winds</l>
                <l n="tr">That bring the frost, the Sire of all himself</l>
@@ -661,7 +655,7 @@ Changed names and redid headers.
                <l n="tr">They see the lamp-oil sputtering with a growth</l>
                <l n="tr">Of mouldy snuff-clots.</l>
             </div>
-            <div type="card" ed="p" n="393">
+            <div ed="p" n="393" type="card">
                <l n="tr">So too, after rain,</l>
                <l n="tr">Sunshine and open skies thou mayst forecast,</l>
                <l n="tr">And learn by tokens sure, for then nor dimmed</l>
@@ -702,7 +696,7 @@ Changed names and redid headers.
                <l n="tr">The cattle's exultation, and the rooks'</l>
                <l n="tr">Deep-throated triumph.</l>
             </div>
-            <div type="card" ed="p" n="424">
+            <div ed="p" n="424" type="card">
                <l n="tr">But if the headlong sun</l>
                <l n="tr">And moons in order following thou regard,</l>
                <l n="tr">Ne'er will to-morrow's hour deceive thee, ne'er</l>
@@ -757,7 +751,7 @@ Changed names and redid headers.
                <l n="tr">Of hidden broils at hand and treachery,</l>
                <l n="tr">And secret swelling of the waves of war.</l>
             </div>
-            <div type="card" ed="p" n="466">
+            <div ed="p" n="466" type="card">
                <l n="tr">He too it was, when Caesar's light was quenched,</l>
                <l n="tr">For <placeName key="perseus,Rome">Rome</placeName> had pity, when his bright head he veiled</l>
                <l n="tr">In iron-hued darkness, till a godless age</l>
@@ -826,8 +820,8 @@ Changed names and redid headers.
                <l n="tr">Is onward borne, nor heeds the car his curb.</l>
             </div>
          </div>
-         <div type="Book" n="2">
-            <div type="card" ed="p" n="1">
+         <div n="2" type="Book">
+            <div ed="p" n="1" type="card">
                <l n="tr">Thus far the tilth of fields and stars of heaven;</l>
                <l n="tr">Now will I sing thee, Bacchus, and, with thee,</l>
                <l n="tr">The forest's young plantations and the fruit</l>
@@ -840,7 +834,7 @@ Changed names and redid headers.
                <l n="tr">And stripped of buskin stain thy bared limbs</l>
                <l n="tr">In the new must with me.</l>
             </div>
-            <div type="card" ed="p" n="9">
+            <div ed="p" n="9" type="card">
                <l n="tr">First, nature's law</l>
                <l n="tr">For generating trees is manifold;</l>
                <l n="tr">For some of their own force spontaneous spring,</l>
@@ -877,7 +871,7 @@ Changed names and redid headers.
                <l n="tr">Pear-tree transformed the ingrafted apple yield,</l>
                <l n="tr">And stony cornels on the plum-tree blush.</l>
             </div>
-            <div type="card" ed="p" n="35">
+            <div ed="p" n="35" type="card">
                <l n="tr">Come then, and learn what tilth to each belongs</l>
                <l n="tr">According to their kinds, ye husbandmen,</l>
                <l n="tr">And tame with culture the wild fruits, lest earth</l>
@@ -897,7 +891,7 @@ Changed names and redid headers.
                <l n="tr">Through winding bouts and tedious preludings</l>
                <l n="tr">Shall I detain thee.</l>
             </div>
-            <div type="card" ed="p" n="47">
+            <div ed="p" n="47" type="card">
                <l n="tr">Those that lift their head</l>
                <l n="tr">Into the realms of light spontaneously,</l>
                <l n="tr">Fruitless indeed, but blithe and strenuous spring,</l>
@@ -933,7 +927,7 @@ Changed names and redid headers.
                <l n="tr">The mountain-ash with pear-bloom whitened o'er,</l>
                <l n="tr">And swine crunched acorns 'neath the boughs of elms.</l>
             </div>
-            <div type="card" ed="p" n="73">
+            <div ed="p" n="73" type="card">
                <l n="tr">Nor is the method of inserting eyes</l>
                <l n="tr">And grafting one: for where the buds push forth</l>
                <l n="tr">Amidst the bark, and burst the membranes thin,</l>
@@ -947,7 +941,7 @@ Changed names and redid headers.
                <l n="tr">To heaven upshot with teeming boughs, the tree</l>
                <l n="tr">Strange leaves admires and fruitage not its own.</l>
             </div>
-            <div type="card" ed="p" n="83">
+            <div ed="p" n="83" type="card">
                <l n="tr">Nor of one kind alone are sturdy elms,</l>
                <l n="tr">Willow and lotus, nor the cypress-trees</l>
                <l n="tr">Of Ida; nor of self-same fashion spring</l>
@@ -981,7 +975,7 @@ Changed names and redid headers.
                <l n="tr">With fury on the ships, how many waves</l>
                <l n="tr">Come rolling shoreward from the Ionian sea.</l>
             </div>
-            <div type="card" ed="p" n="109">
+            <div ed="p" n="109" type="card">
                <l n="tr">Not that all soils can all things bear alike.</l>
                <l n="tr">Willows by water-courses have their birth,</l>
                <l n="tr">Alders in miry fens; on rocky heights</l>
@@ -1015,7 +1009,7 @@ Changed names and redid headers.
                <l n="tr">With it the Medes for sweetness lave the lips,</l>
                <l n="tr">And ease the panting breathlessness of age.</l>
             </div>
-            <div type="card" ed="p" n="136">
+            <div ed="p" n="136" type="card">
                <l n="tr">But no, not Mede-land with its wealth of woods,</l>
                <l n="tr">Nor Ganges fair, and Hermus thick with gold,</l>
                <l n="tr">Can match the praise of <placeName key="tgn,1000080">Italy</placeName>; nor Ind,</l>
@@ -1071,7 +1065,7 @@ Changed names and redid headers.
                <l n="tr">Themes of old art and glory, as I sing</l>
                <l n="tr">The song of Ascra through the towns of <placeName key="perseus,Rome">Rome</placeName>.</l>
             </div>
-            <div type="card" ed="p" n="177">
+            <div ed="p" n="177" type="card">
                <l n="tr">Now for the native gifts of various soils,</l>
                <l n="tr">What powers hath each, what hue, what natural bent</l>
                <l n="tr">For yielding increase. First your stubborn lands</l>
@@ -1131,7 +1125,7 @@ Changed names and redid headers.
                <l n="tr">Thy ridge, <placeName key="tgn,1107763">Vesuvius</placeName>, and the Clanian flood,</l>
                <l n="tr">Acerrae's desolation and her bane.</l>
             </div>
-            <div type="card" ed="p" n="226">
+            <div ed="p" n="226" type="card">
                <l n="tr">How each to recognize now hear me tell.</l>
                <l n="tr">Dost ask if loose or passing firm it be—</l>
                <l n="tr">Since one for corn hath liking, one for wine,</l>
@@ -1174,7 +1168,7 @@ Changed names and redid headers.
                <l n="tr">Pines only, noxious yews, and ivies dark</l>
                <l n="tr">At times reveal its traces.</l>
             </div>
-            <div type="card" ed="p" n="259">
+            <div ed="p" n="259" type="card">
                <l n="tr">All these rules</l>
                <l n="tr">Regarding, let your land, ay, long before,</l>
                <l n="tr">Scorch to the quick, and into trenches carve</l>
@@ -1215,7 +1209,7 @@ Changed names and redid headers.
                <l n="tr">Vigour to all alike, nor yet the boughs</l>
                <l n="tr">Have power to stretch them into open space.</l>
             </div>
-            <div type="card" ed="p" n="288">
+            <div ed="p" n="288" type="card">
                <l n="tr">Shouldst haply of the furrow's depth inquire,</l>
                <l n="tr">Even to a shallow trench I dare commit</l>
                <l n="tr">The vine; but deeper in the ground is fixed</l>
@@ -1229,7 +1223,7 @@ Changed names and redid headers.
                <l n="tr">Stretching its titan arms and branches far,</l>
                <l n="tr">Sole central pillar of a world of shade.</l>
             </div>
-            <div type="card" ed="p" n="298">
+            <div ed="p" n="298" type="card">
                <l n="tr">Nor toward the sunset let thy vineyards slope,</l>
                <l n="tr">Nor midst the vines plant hazel; neither take</l>
                <l n="tr">The topmost shoots for cuttings, nor from the top</l>
@@ -1252,7 +1246,7 @@ Changed names and redid headers.
                <l n="tr">Spring to like verdure; thus alone survives</l>
                <l n="tr">The bare wild olive with its bitter leaves.</l>
             </div>
-            <div type="card" ed="p" n="315">
+            <div ed="p" n="315" type="card">
                <l n="tr">Let none persuade thee, howso weighty-wise,</l>
                <l n="tr">To stir the soil when stiff with Boreas' breath.</l>
                <l n="tr">Then ice-bound winter locks the fields, nor lets</l>
@@ -1289,7 +1283,7 @@ Changed names and redid headers.
                <l n="tr">'Twixt frost and heat, and heaven's relenting arms</l>
                <l n="tr">Yield earth a welcome.</l>
             </div>
-            <div type="card" ed="p" n="346">
+            <div ed="p" n="346" type="card">
                <l n="tr">For the rest, whate'er</l>
                <l n="tr">The sets thou plantest in thy fields, thereon</l>
                <l n="tr">Strew refuse rich, and with abundant earth</l>
@@ -1302,7 +1296,7 @@ Changed names and redid headers.
                <l n="tr">This serves for shield in pelting showers, and this</l>
                <l n="tr">When the hot dog-star chaps the fields with drought.</l>
             </div>
-            <div type="card" ed="p" n="354">
+            <div ed="p" n="354" type="card">
                <l n="tr">The slips once planted, yet remains to cleave</l>
                <l n="tr">The earth about their roots persistently,</l>
                <l n="tr">And toss the cumbrous hoes, or task the soil</l>
@@ -1314,7 +1308,7 @@ Changed names and redid headers.
                <l n="tr">Laugh at the gales, and through the elm-tops win</l>
                <l n="tr">From story up to story.</l>
             </div>
-            <div type="card" ed="p" n="362">
+            <div ed="p" n="362" type="card">
                <l n="tr">Now while yet</l>
                <l n="tr">The leaves are in their first fresh infant growth,</l>
                <l n="tr">Forbear their frailty, and while yet the bough</l>
@@ -1327,7 +1321,7 @@ Changed names and redid headers.
                <l n="tr">Sooner they shrink from steel, but then put forth</l>
                <l n="tr">The arm of power, and stem the branchy tide.</l>
             </div>
-            <div type="card" ed="p" n="371">
+            <div ed="p" n="371" type="card">
                <l n="tr">Hedges too must be woven and all beasts</l>
                <l n="tr">Barred entrance, chiefly while the leaf is young</l>
                <l n="tr">And witless of disaster; for therewith,</l>
@@ -1359,7 +1353,7 @@ Changed names and redid headers.
                <l n="tr">Led by the horn shall at the altar stand,</l>
                <l n="tr">Whose entrails rich on hazel-spits we'll roast.</l>
             </div>
-            <div type="card" ed="p" n="397">
+            <div ed="p" n="397" type="card">
                <l n="tr">This further task again, to dress the vine,</l>
                <l n="tr">Hath needs beyond exhausting; the whole soil</l>
                <l n="tr">Thrice, four times, yearly must be cleft, the sod</l>
@@ -1389,7 +1383,7 @@ Changed names and redid headers.
                <l n="tr">Must vexed be, the dust be stirred, and heaven</l>
                <l n="tr">Still set thee trembling for the ripened grapes.</l>
             </div>
-            <div type="card" ed="p" n="420">
+            <div ed="p" n="420" type="card">
                <l n="tr">Not so with olives; small husbandry need they,</l>
                <l n="tr">Nor look for sickle bowed or biting rake,</l>
                <l n="tr">When once they have gripped the soil, and borne the breeze.</l>
@@ -1398,7 +1392,7 @@ Changed names and redid headers.
                <l n="tr">The ploughshare aiding; therewithal thou'lt rear</l>
                <l n="tr">The olive's fatness well-beloved of Peace.</l>
             </div>
-            <div type="card" ed="p" n="426">
+            <div ed="p" n="426" type="card">
                <l n="tr">Apples, moreover, soon as first they feel</l>
                <l n="tr">Their stems wax lusty, and have found their strength,</l>
                <l n="tr">To heaven climb swiftly, self-impelled, nor crave</l>
@@ -1436,7 +1430,7 @@ Changed names and redid headers.
                <l n="tr">Rhoetus and Pholus, and with mighty bowl</l>
                <l n="tr">Hylaeus threatening high the Lapithae.</l>
             </div>
-            <div type="card" ed="p" n="458">
+            <div ed="p" n="458" type="card">
                <l n="tr">Oh! all too happy tillers of the soil,</l>
                <l n="tr">Could they but know their blessedness, for whom</l>
                <l n="tr">Far from the clash of arms all-equal earth</l>
@@ -1458,7 +1452,7 @@ Changed names and redid headers.
                <l n="tr">Worship, and reverend sires: with them from earth</l>
                <l n="tr">Departing justice her last footprints left.</l>
             </div>
-            <div type="card" ed="p" n="475">
+            <div ed="p" n="475" type="card">
                <l n="tr">Me before all things may the Muses sweet,</l>
                <l n="tr">Whose rites I bear with mighty passion pierced,</l>
                <l n="tr">Receive, and show the paths and stars of heaven,</l>
@@ -1514,7 +1508,7 @@ Changed names and redid headers.
                <l n="tr">Or young of kine, or Ceres' wheaten sheaf,</l>
                <l n="tr">With crops the furrow loads, and bursts the barns.</l>
             </div>
-            <div type="card" ed="p" n="519">
+            <div ed="p" n="519" type="card">
                <l n="tr">Winter is come: in olive-mills they bruise</l>
                <l n="tr">The Sicyonian berry; acorn-cheered</l>
                <l n="tr">The swine troop homeward; woods their arbutes yield;</l>
@@ -1541,13 +1535,13 @@ Changed names and redid headers.
                <l n="tr">Nor ear of man had heard the war-trump's blast,</l>
                <l n="tr">Nor clang of sword on stubborn anvil set.</l>
             </div>
-            <div type="card" ed="p" n="541">
+            <div ed="p" n="541" type="card">
                <l n="tr">But lo! a boundless space we have travelled o'er;</l>
                <l n="tr">'Tis time our steaming horses to unyoke.</l>
             </div>
          </div>
-         <div type="Book" n="3">
-            <div type="card" ed="p" n="1">
+         <div n="3" type="Book">
+            <div ed="p" n="1" type="card">
                <l n="tr">Thee too, great Pales, will I hymn, and thee,</l>
                <l n="tr">Amphrysian shepherd, worthy to be sung,</l>
                <l n="tr">You, woods and waves Lycaean. All themes beside,</l>
@@ -1612,7 +1606,7 @@ Changed names and redid headers.
                <l n="tr">Through ages, countless as to Caesar's self</l>
                <l n="tr">From the first birth-dawn of Tithonus old.</l>
             </div>
-            <div type="card" ed="p" n="49">
+            <div ed="p" n="49" type="card">
                <l n="tr">If eager for the prized Olympian palm</l>
                <l n="tr">One breed the horse, or bullock strong to plough,</l>
                <l n="tr">Be his prime care a shapely dam to choose.</l>
@@ -1641,7 +1635,7 @@ Changed names and redid headers.
                <l n="tr">Renew them still; with yearly choice of young</l>
                <l n="tr">Preventing losses, lest too late thou rue.</l>
             </div>
-            <div type="card" ed="p" n="72">
+            <div ed="p" n="72" type="card">
                <l n="tr">Nor steeds crave less selection; but on those</l>
                <l n="tr">Thou think'st to rear, the promise of their line,</l>
                <l n="tr">From earliest youth thy chiefest pains bestow.</l>
@@ -1668,7 +1662,7 @@ Changed names and redid headers.
                <l n="tr">Sped at his wife's approach, and flying filled</l>
                <l n="tr">The heights of <placeName key="tgn,4008379">Pelion</placeName> with his piercing neigh.</l>
             </div>
-            <div type="card" ed="p" n="95">
+            <div ed="p" n="95" type="card">
                <l n="tr">Even him, when sore disease or sluggish eld</l>
                <l n="tr">Now saps his strength, pen fast at home, and spare</l>
                <l n="tr">His not inglorious age. A horse grown old</l>
@@ -1705,7 +1699,7 @@ Changed names and redid headers.
                   <placeName key="tgn,7002705">Epirus</placeName>, or <placeName key="perseus,Mycenae">Mycenae</placeName>'s stubborn hold,</l>
                <l n="tr">And trace his lineage back to Neptune's birth.</l>
             </div>
-            <div type="card" ed="p" n="123">
+            <div ed="p" n="123" type="card">
                <l n="tr">These points regarded, as the time draws nigh,</l>
                <l n="tr">With instant zeal they lavish all their care</l>
                <l n="tr">To plump with solid fat the chosen chief</l>
@@ -1727,7 +1721,7 @@ Changed names and redid headers.
                <l n="tr">The sluggish furrows, but eagerly absorb</l>
                <l n="tr">Their fill of love, and deeply entertain.</l>
             </div>
-            <div type="card" ed="p" n="138">
+            <div ed="p" n="138" type="card">
                <l n="tr">To care of sire the mother's care succeeds.</l>
                <l n="tr">When great with young they wander nigh their time,</l>
                <l n="tr">Let no man suffer them to drag the yoke</l>
@@ -1752,7 +1746,7 @@ Changed names and redid headers.
                <l n="tr">And feed them when the sun is newly risen,</l>
                <l n="tr">Or the first stars are ushering in the night.</l>
             </div>
-            <div type="card" ed="p" n="157">
+            <div ed="p" n="157" type="card">
                <l n="tr">But, yeaning ended, all their tender care</l>
                <l n="tr">Is to the calves transferred; at once with marks</l>
                <l n="tr">They brand them, both to designate their race,</l>
@@ -1780,7 +1774,7 @@ Changed names and redid headers.
                <l n="tr">Brim high the snowy milking-pail, but spend</l>
                <l n="tr">Their udders' fullness on their own sweet young.</l>
             </div>
-            <div type="card" ed="p" n="179">
+            <div ed="p" n="179" type="card">
                <l n="tr">But if fierce squadrons and the ranks of war</l>
                <l n="tr">Delight thee rather, or on wheels to glide</l>
                <l n="tr">At <placeName key="perseus,Pisa">Pisa</placeName>, with Alpheus fleeting by,</l>
@@ -1819,7 +1813,7 @@ Changed names and redid headers.
                <l n="tr">With pride wax wanton, and, when caught, refuse</l>
                <l n="tr">Tough lash to brook or jagged curb obey.</l>
             </div>
-            <div type="card" ed="p" n="209">
+            <div ed="p" n="209" type="card">
                <l n="tr">But no device so fortifies their power</l>
                <l n="tr">As love's blind stings of passion to forefend,</l>
                <l n="tr">Whether on steed or steer thy choice be set.</l>
@@ -1861,7 +1855,7 @@ Changed names and redid headers.
                <l n="tr">Upseethe in swirling eddies, and disgorge</l>
                <l n="tr">The murky sand-lees from their sunken bed.</l>
             </div>
-            <div type="card" ed="p" n="242">
+            <div ed="p" n="242" type="card">
                <l n="tr">Nay, every race on earth of men, and beasts,</l>
                <l n="tr">And ocean-folk, and flocks, and painted birds,</l>
                <l n="tr">Rush to the raging fire: love sways them all.</l>
@@ -1913,7 +1907,7 @@ Changed names and redid headers.
                <l n="tr">Hippomanes, fell stepdames oft have culled,</l>
                <l n="tr">And mixed with herbs and spells of baneful bode.</l>
             </div>
-            <div type="card" ed="p" n="284">
+            <div ed="p" n="284" type="card">
                <l n="tr">Fast flies meanwhile the irreparable hour,</l>
                <l n="tr">As point to point our charmed round we trace.</l>
                <l n="tr">Enough of herds. This second task remains,</l>
@@ -1928,7 +1922,7 @@ Changed names and redid headers.
                <l n="tr">Slopes gently downward to Castalia's spring.</l>
                <l n="tr">Now, awful Pales, strike a louder tone.</l>
             </div>
-            <div type="card" ed="p" n="295">
+            <div ed="p" n="295" type="card">
                <l n="tr">First, for the sheep soft pencotes I decree</l>
                <l n="tr">To browse in, till green summer's swift return;</l>
                <l n="tr">And that the hard earth under them with straw</l>
@@ -1980,7 +1974,7 @@ Changed names and redid headers.
                <l n="tr">The forest glades, with halcyon's song the shore,</l>
                <l n="tr">And every thicket with the goldfinch rings.</l>
             </div>
-            <div type="card" ed="p" n="239">
+            <div ed="p" n="239" type="card">
                <l n="tr">Of <placeName key="tgn,1000172">Libya</placeName>'s shepherds why the tale pursue?</l>
                <l n="tr">Why sing their pastures and the scattered huts</l>
                <l n="tr">They house in? Oft their cattle day and night</l>
@@ -1994,7 +1988,7 @@ Changed names and redid headers.
                <l n="tr">Soon with tents pitched and at his post he stands,</l>
                <l n="tr">Ere looked for by the foe.</l>
             </div>
-            <div type="card" ed="p" n="349">
+            <div ed="p" n="349" type="card">
                <l n="tr">Not thus the tribes</l>
                <l n="tr">Of <placeName key="tgn,6005315">Scythia</placeName> by the far Maeotic wave,</l>
                <l n="tr">Where turbid Ister whirls his yellow sands,</l>
@@ -2036,7 +2030,7 @@ Changed names and redid headers.
                <l n="tr">Of Eurus from Rhipaean hills, and wrap</l>
                <l n="tr">Their bodies in the tawny fells of beasts.</l>
             </div>
-            <div type="card" ed="p" n="384">
+            <div ed="p" n="384" type="card">
                <l n="tr">If wool delight thee, first, be far removed</l>
                <l n="tr">All prickly boskage, burrs and caltrops; shun</l>
                <l n="tr">Luxuriant pastures; at the outset choose</l>
@@ -2050,7 +2044,7 @@ Changed names and redid headers.
                <l n="tr">Snared and beguiled thee, <placeName key="tgn,7010011">Luna</placeName>, calling thee</l>
                <l n="tr">To the deep woods; nor thou didst spurn his call.</l>
             </div>
-            <div type="card" ed="p" n="394">
+            <div ed="p" n="394" type="card">
                <l n="tr">But who for milk hath longing, must himself</l>
                <l n="tr">Carry lucerne and lotus-leaves enow</l>
                <l n="tr">With salt herbs to the cote, whence more they love</l>
@@ -2065,7 +2059,7 @@ Changed names and redid headers.
                <l n="tr">The shepherd hies him—or with dash of salt</l>
                <l n="tr">Just sprinkle, and lay by for winter use.</l>
             </div>
-            <div type="card" ed="p" n="404">
+            <div ed="p" n="404" type="card">
                <l n="tr">Nor be thy dogs last cared for; but alike</l>
                <l n="tr">Swift Spartan hounds and fierce Molossian feed</l>
                <l n="tr">On fattening whey. Never, with these to watch,</l>
@@ -2078,7 +2072,7 @@ Changed names and redid headers.
                <l n="tr">And o'er the mountains urge into the toils</l>
                <l n="tr">Some antlered monster to their chiming cry.</l>
             </div>
-            <div type="card" ed="p" n="414">
+            <div ed="p" n="414" type="card">
                <l n="tr">Learn also scented cedar-wood to burn</l>
                <l n="tr">Within the stalls, and snakes of noxious smell</l>
                <l n="tr">With fumes of galbanum to drive away.</l>
@@ -2112,7 +2106,7 @@ Changed names and redid headers.
                <l n="tr">And eggs or younglings leaving in his lair,</l>
                <l n="tr">Towers sunward, lightening with three-forked tongue.</l>
             </div>
-            <div type="card" ed="p" n="440">
+            <div ed="p" n="440" type="card">
                <l n="tr">Of sickness, too, the causes and the signs</l>
                <l n="tr">I'll teach thee. Loathly scab assails the sheep,</l>
                <l n="tr">When chilly showers have probed them to the quick,</l>
@@ -2160,7 +2154,7 @@ Changed names and redid headers.
                <l n="tr">Ay, still behold the shepherds' realms a waste,</l>
                <l n="tr">And far and wide the lawns untenanted.</l>
             </div>
-            <div type="card" ed="p" n="478">
+            <div ed="p" n="478" type="card">
                <l n="tr">Here from distempered heavens erewhile arose</l>
                <l n="tr">A piteous season, with the full fierce heat</l>
                <l n="tr">Of autumn glowed, and cattle-kindreds all</l>
@@ -2216,7 +2210,7 @@ Changed names and redid headers.
                <l n="tr">Are dulled with deadly torpor, and his neck</l>
                <l n="tr">Sinks to the earth with drooping weight.</l>
             </div>
-            <div type="card" ed="p" n="525">
+            <div ed="p" n="525" type="card">
                <l n="tr">What now</l>
                <l n="tr">Besteads him toil or service? to have turned</l>
                <l n="tr">The heavy sod with ploughshare? And yet these</l>
@@ -2268,8 +2262,8 @@ Changed names and redid headers.
                <l n="tr">The fiery curse his tainted frame devoured.</l>
             </div>
          </div>
-         <div type="Book" n="4">
-            <div type="card" ed="p" n="1">
+         <div n="4" type="Book">
+            <div ed="p" n="1" type="card">
                <l n="tr">Of air-born honey, gift of heaven, I now</l>
                <l n="tr">Take up the tale. Upon this theme no less</l>
                <l n="tr">Look thou, Maecenas, with indulgent eye.</l>
@@ -2280,7 +2274,7 @@ Changed names and redid headers.
                <l n="tr">Slight though the poet's theme, not slight the praise,</l>
                <l n="tr">So frown not heaven, and Phoebus hear his call.</l>
             </div>
-            <div type="card" ed="p" n="8">
+            <div ed="p" n="8" type="card">
                <l n="tr">First find your bees a settled sure abode,</l>
                <l n="tr">Where neither winds can enter (winds blow back</l>
                <l n="tr">The foragers with food returning home)</l>
@@ -2336,7 +2330,7 @@ Changed names and redid headers.
                <l n="tr">Or where the hollow rocks sonorous ring,</l>
                <l n="tr">And the word spoken buffets and rebounds.</l>
             </div>
-            <div type="card" ed="p" n="51">
+            <div ed="p" n="51" type="card">
                <l n="tr">What more? When now the golden sun has put</l>
                <l n="tr">Winter to headlong flight beneath the world,</l>
                <l n="tr">And oped the doors of heaven with summer ray,</l>
@@ -2359,7 +2353,7 @@ Changed names and redid headers.
                <l n="tr">Themselves will settle, and in wonted wise</l>
                <l n="tr">Seek of themselves the cradle's inmost depth.</l>
             </div>
-            <div type="card" ed="p" n="67">
+            <div ed="p" n="67" type="card">
                <l n="tr">But if to battle they have hied them forth—</l>
                <l n="tr">For oft 'twixt king and king with uproar dire</l>
                <l n="tr">Fierce feud arises, and at once from far</l>
@@ -2386,7 +2380,7 @@ Changed names and redid headers.
                <l n="tr">Such fiery passions and such fierce assaults</l>
                <l n="tr">A little sprinkled dust controls and quells.</l>
             </div>
-            <div type="card" ed="p" n="88">
+            <div ed="p" n="88" type="card">
                <l n="tr">And now, both leaders from the field recalled,</l>
                <l n="tr">Who hath the worser seeming, do to death,</l>
                <l n="tr">Lest royal waste wax burdensome, but let</l>
@@ -2407,7 +2401,7 @@ Changed names and redid headers.
                <l n="tr">Sweet honey, nor yet so sweet as passing clear,</l>
                <l n="tr">And mellowing on the tongue the wine-god's fire.</l>
             </div>
-            <div type="card" ed="p" n="103">
+            <div ed="p" n="103" type="card">
                <l n="tr">But when the swarms fly aimlessly abroad,</l>
                <l n="tr">Disport themselves in heaven and spurn their cells,</l>
                <l n="tr">Leaving the hive unwarmed, from such vain play</l>
@@ -2425,7 +2419,7 @@ Changed names and redid headers.
                <l n="tr">No hand but his the blistering task should ply,</l>
                <l n="tr">Plant the young slips, or shed the genial showers.</l>
             </div>
-            <div type="card" ed="p" n="116">
+            <div ed="p" n="116" type="card">
                <l n="tr">And I myself, were I not even now</l>
                <l n="tr">Furling my sails, and, nigh the journey's end,</l>
                <l n="tr">Eager to turn my vessel's prow to shore,</l>
@@ -2473,7 +2467,7 @@ Changed names and redid headers.
                <l n="tr">Shut off by rigorous limits, I pass by,</l>
                <l n="tr">And leave for others to sing after me.</l>
             </div>
-            <div type="card" ed="p" n="149">
+            <div ed="p" n="149" type="card">
                <l n="tr">Come, then, I will unfold the natural powers</l>
                <l n="tr">Great Jove himself upon the bees bestowed,</l>
                <l n="tr">The boon for which, led by the shrill sweet strains</l>
@@ -2532,7 +2526,7 @@ Changed names and redid headers.
                <l n="tr">Safe laid to rest they hush them for the night,</l>
                <l n="tr">And welcome slumber laps their weary limbs.</l>
             </div>
-            <div type="card" ed="p" n="191">
+            <div ed="p" n="191" type="card">
                <l n="tr">But from the homestead not too far they fare,</l>
                <l n="tr">When showers hang like to fall, nor, east winds nigh,</l>
                <l n="tr">Confide in heaven, but 'neath the city walls</l>
@@ -2571,7 +2565,7 @@ Changed names and redid headers.
                <l n="tr">Or with their bodies shield him in the fight,</l>
                <l n="tr">And seek through showering wounds a glorious death.</l>
             </div>
-            <div type="card" ed="p" n="219">
+            <div ed="p" n="219" type="card">
                <l n="tr">Led by these tokens, and with such traits to guide,</l>
                <l n="tr">Some say that unto bees a share is given</l>
                <l n="tr">Of the Divine Intelligence, and to drink</l>
@@ -2584,7 +2578,7 @@ Changed names and redid headers.
                <l n="tr">Find place: but, each into his starry rank,</l>
                <l n="tr">Alive they soar, and mount the heights of heaven.</l>
             </div>
-            <div type="card" ed="p" n="228">
+            <div ed="p" n="228" type="card">
                <l n="tr">If now their narrow home thou wouldst unseal,</l>
                <l n="tr">And broach the treasures of the honey-house,</l>
                <l n="tr">With draught of water first toment thy lips,</l>
@@ -2617,7 +2611,7 @@ Changed names and redid headers.
                <l n="tr">Will nerve them, fill the cells up, tier on tier,</l>
                <l n="tr">And weave their granaries from the rifled flowers.</l>
             </div>
-            <div type="card" ed="p" n="251">
+            <div ed="p" n="251" type="card">
                <l n="tr">Now, seeing that life doth even to bee-folk bring</l>
                <l n="tr">Our human chances, if in dire disease</l>
                <l n="tr">Their bodies' strength should languish—which anon</l>
@@ -2654,7 +2648,7 @@ Changed names and redid headers.
                <l n="tr">The roots of this, well seethed in fragrant wine,</l>
                <l n="tr">Set in brimmed baskets at their doors for food.</l>
             </div>
-            <div type="card" ed="p" n="281">
+            <div ed="p" n="281" type="card">
                <l n="tr">But if one's whole stock fail him at a stroke,</l>
                <l n="tr">Nor hath he whence to breed the race anew,</l>
                <l n="tr">'Tis time the wondrous secret to disclose</l>
@@ -2698,7 +2692,7 @@ Changed names and redid headers.
                <l n="tr">Forth burst they, or like shafts from quivering string</l>
                <l n="tr">When <placeName key="tgn,7016768">Parthia</placeName>'s flying hosts provoke the fray.</l>
             </div>
-            <div type="card" ed="p" n="315">
+            <div ed="p" n="315" type="card">
                <l n="tr">Say what was he, what God, that fashioned forth</l>
                <l n="tr">This art for us, O Muses? of man's skill</l>
                <l n="tr">Whence came the new adventure? From thy vale,</l>
@@ -2725,7 +2719,7 @@ Changed names and redid headers.
                <l n="tr">Against my vines, if there hath taken the</l>
                <l n="tr">Such loathing of my greatness.”</l>
             </div>
-            <div type="card" ed="p" n="333">
+            <div ed="p" n="333" type="card">
                <l n="tr">But that cry,</l>
                <l n="tr">Even from her chamber in the river-deeps,</l>
                <l n="tr">His mother heard: around her spun the nymphs</l>
@@ -2795,7 +2789,7 @@ Changed names and redid headers.
                <l n="tr">Thrice to the roof-top shot the flame and shone:</l>
                <l n="tr">Armed with which omen she essayed to speak:</l>
             </div>
-            <div type="card" ed="p" n="387">
+            <div ed="p" n="387" type="card">
                <l n="tr">“In Neptune's gulf Carpathian dwells a seer,</l>
                <l n="tr">Caerulean Proteus, he who metes the main</l>
                <l n="tr">With fish-drawn chariot of two-footed steeds;</l>
@@ -2832,7 +2826,7 @@ Changed names and redid headers.
                <l n="tr">His body's shape return to that thou sawest,</l>
                <l n="tr">When with closed eyelids first he sank to sleep.”</l>
             </div>
-            <div type="card" ed="p" n="415">
+            <div ed="p" n="415" type="card">
                <l n="tr">So saying, an odour of ambrosial dew</l>
                <l n="tr">She sheds around, and all his frame therewith</l>
                <l n="tr">Steeps throughly; forth from his trim-combed locks</l>
@@ -2883,7 +2877,7 @@ Changed names and redid headers.
                <l n="tr">Upon him, and with fiercely gnashing teeth</l>
                <l n="tr">Unlocks his lips to spell the fates of heaven:</l>
             </div>
-            <div type="card" ed="p" n="453">
+            <div ed="p" n="453" type="card">
                <l n="tr">“Doubt not 'tis wrath divine that plagues thee thus,</l>
                <l n="tr">Nor light the debt thou payest; 'tis Orpheus' self,</l>
                <l n="tr">Orpheus unhappy by no fault of his,</l>
@@ -2941,7 +2935,7 @@ Changed names and redid headers.
                <l n="tr">Of that fell tyrant, and a crash was heard</l>
                <l n="tr">Three times like thunder in the meres of hell.</l>
             </div>
-            <div type="card" ed="p" n="494">
+            <div ed="p" n="494" type="card">
                <l n="tr">‘Orpheus! what ruin hath thy frenzy wrought</l>
                <l n="tr">On me, alas! and thee? Lo! once again</l>
                <l n="tr">The unpitying fates recall me, and dark sleep</l>
@@ -2986,7 +2980,7 @@ Changed names and redid headers.
                <l n="tr">With parting breath he called her, and the banks</l>
                <l n="tr">From the broad stream caught up ‘Eurydice!’”</l>
             </div>
-            <div type="card" ed="p" n="528">
+            <div ed="p" n="528" type="card">
                <l n="tr">So Proteus ending plunged into the deep,</l>
                <l n="tr">And, where he plunged, beneath the eddying whirl</l>
                <l n="tr">Churned into foam the water, and was gone;</l>
@@ -3014,7 +3008,7 @@ Changed names and redid headers.
                <l n="tr">For pardon found adore Eurydice</l>
                <l n="tr">With a slain calf for victim.”</l>
             </div>
-            <div type="card" ed="p" n="548">
+            <div ed="p" n="548" type="card">
                <l n="tr">No delay:</l>
                <l n="tr">The self-same hour he hies him forth to do</l>
                <l n="tr">His mother's bidding: to the shrine he came,</l>
@@ -3031,7 +3025,7 @@ Changed names and redid headers.
                <l n="tr">On yon tree-top together fused they cling,</l>
                <l n="tr">And drop their cluster from the bending boughs.</l>
             </div>
-            <div type="card" ed="p" n="559">
+            <div ed="p" n="559" type="card">
                <l n="tr">So sang I of the tilth of furrowed fields,</l>
                <l n="tr">Of flocks and trees, while Caesar's majesty</l>
                <l n="tr">Launched forth the levin-bolts of war by deep</l>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI.2>
-  <teiHeader type="text" status="new">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI.2 xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader status="new" type="text">
       <fileDesc>
          <titleStmt>
 	           <title>To Helios</title>
@@ -41,13 +41,11 @@ Homeric Hymns</title>
 
       <encodingDesc>
          <refsDecl doctype="TEI.2">
-	           <state delim="." n="chunk" unit="hymn"/>
-	           <state unit="line"/>
+	           <state delim="." n="chunk" unit="hymn" />
+	           <state unit="line" />
          </refsDecl>
-         <!--<refsDecl doctype="TEI.2">
-	<state n="chunk" unit="card"/>
-      </refsDecl>-->
-      </encodingDesc>
+         
+      <refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts line</p></cRefPattern></refsDecl></encodingDesc>
 
       <profileDesc>
          <langUsage>
@@ -80,20 +78,20 @@ Homeric Hymns</title>
 	  <text urn="urn:cts:greekLit:tlg0013.tlg031.perseus-eng1" xml:lang="eng">
       <body>
 		       <head>To Helios</head>
-		       <milestone ed="P" n="1" unit="card"/>
+		       <milestone ed="P" n="1" unit="card" />
 
-            <div type="line" ed="P" n="1">
+            <div ed="P" n="1" type="line">
                <p>And now, O Muse Calliope, daughter of Zeus, begin to sing of glowing Helios whom mild-eyed Euryphaessa, the far-shining one, bare to the Son of Earth and starry Heaven. For Hyperion wedded glorious Euryphaessa, </p>
             </div>
-            <div type="line" ed="P" n="5">
+            <div ed="P" n="5" type="line">
                <p>his own sister, who bare him lovely children, rosy-armed Eos and rich-tressed Selene and tireless Helios who is like the deathless gods. As he rides in his chariot, he shines upon men and deathless gods, and piercingly he gazes with his eyes </p>
             </div>
-            <div type="line" ed="P" n="10">
+            <div ed="P" n="10" type="line">
                <p>from his golden helmet. Bright rays beam dazzlingly from him, and his bright locks streaming from the temples of his head gracefully enclose his far-seen face: a rich, fine-spun garment glows upon his body and flutters in the wind: and stallions carry him. </p>
             </div>
-            <div type="line" ed="P" n="15">
+            <div ed="P" n="15" type="line">
                <p>Then, when he has stayed his golden-yoked chariot and horses, </p>
-               <milestone unit="line" n="15a"/>
+               <milestone n="15a" unit="line" />
                <p>he rests there upon the highest point of heaven, until he marvelously drives them down again through heaven to Ocean.</p>
             </div>
          

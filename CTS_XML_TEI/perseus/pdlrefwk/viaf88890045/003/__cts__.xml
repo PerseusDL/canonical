@@ -1,0 +1,8 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:pdlrefwk:viaf88890045" projid="pdlrefwk:003" urn="urn:cts:pdlrefwk:viaf88890045.003" xml:lang="eng">
+            <ti:title xml:lang="eng">A Dictionary of Greek and Roman biography and mythology</ti:title>
+            <ti:edition projid="pdlrefwk:perseus-eng1">
+                <ti:label xml:lang="eng">Perseus Edition</ti:label>
+                <ti:memberof collection="Perseus:collection:Greco-Roman" />
+            </ti:edition>
+        </ti:work>
+    

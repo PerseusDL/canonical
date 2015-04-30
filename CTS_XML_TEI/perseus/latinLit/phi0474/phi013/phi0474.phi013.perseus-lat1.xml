@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
 	  <teiHeader type="text">
 		    <fileDesc>
 			      <titleStmt>
@@ -8,7 +8,7 @@
 					Murena, Pro Caelio</title>
 				        <title type="sub">Machine readable text</title>
 				        <author n="Cic.">M. Tullius Cicero</author>
-				        <editor role="editor" n="OCT">Albert Clark</editor>
+				        <editor n="OCT" role="editor">Albert Clark</editor>
 				        <sponsor>Perseus Project, Tufts University</sponsor>
 				        <principal>Gregory Crane</principal>
 				        <respStmt>
@@ -49,10 +49,10 @@
 
 		    <encodingDesc>
 			      <refsDecl>
-				        <refState delim="." unit="speech"/>
-				        <refState delim="." n="chunk" unit="chapter"/>
+				        <refState delim="." unit="speech" />
+				        <refState delim="." n="chunk" unit="chapter" />
 			      </refsDecl>
-		    </encodingDesc>
+		    <refsDecl id="CTS"><cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts speech and chapter</p></cRefPattern><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts speech</p></cRefPattern></refsDecl></encodingDesc>
 
 		    <profileDesc>
 			      <langUsage>
@@ -62,107 +62,7 @@
 		    </profileDesc>
 
 		    <revisionDesc>
-			<!--
-      <change><date>3/26/96</date>
-	<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
-	<item>
-$Log: cic.oct1_lat.xml,v $
-Revision 1.4  2013-09-13 11:21:40  balmas01
-reverting texts back to pre_cts_reorg tagged version
-
-Revision 1.2  2011-07-19 22:30:37  gcrane
-removed the earlier persName/placeName tags
-
-Revision 1.1  2011-01-15 23:14:25  gcrane
-base SDL file
-
-Revision 1.1  2009/10/09 19:49:14  rsingh04
-more reorganizing of texts module by collection
-
-Revision 1.9  2006/11/03 21:13:26  gcrane
-typo
-
-Revision 1.8  2006/08/21 15:45:06  gcrane
-small fixes
-
-Revision 1.7  2006/08/17 19:12:34  gcrane
-typo fixed
-
-Revision 1.6  2006/04/02 18:12:19  gcrane
-mainly fixes to the words lower cased at the start of sentences:
-found that we had always had <name>Cum</name> rather than <reg>cum</reg>.
-
-This has been fixed in oct.cic[123]
-
-oct.cic[456] are having the app crits added and will need to be updated when
-those files come back
-
-Revision 1.5  2005/12/29 21:26:51  gcrane
-this now contains textual notes
-
-Revision 1.3  2005/11/17 18:59:58  gcrane
-began vestigial app crit
-
-Revision 1.2  2005/08/01 15:59:19  packel
-removed stray item tags
-
-	Revision 1.1  2005/07/25 14:31:08  packel
-	Converted to XML
-	
-Revision 1.16  2005/04/08 17:56:07  mimno
-added default chunks
-
-Revision 1.15  2004/05/24 16:45:24  amahoney
-experiment with marking abbreviations of praenomina
-
-Revision 1.14  2003/07/01 22:14:57  yorkc
-Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
-
-Revision 1.13  2002/12/02 18:41:45  amahoney
-correct spelling of Quirites, improperly 'regularized'
-
-Revision 1.12  2002/01/18 18:43:57  amahoney
-put spaces around mdash because umorphck is confused if there are none
-
-Revision 1.11  2002/01/18 17:16:30  amahoney
-missed a few 'v' in the small caps
-
-Revision 1.10  2001/12/31 19:18:35  amahoney
-finish fixing the small caps, partially converted to lower case
-
-Revision 1.9  2000/03/06 22:21:48  amahoney
-add headers for groups of speeches, so they show up in the toc:  Catilines,
-Verrines, Philippics, and Agrarian Law
-
-Revision 1.8  2000/03/04 20:34:10  dasmith
-Added separate funder entity to TEI header.
-
-Revision 1.7  1999/10/14 21:36:02  dasmith
-Added explanatory subtitles to titleStmt
-
-Revision 1.6  1999/08/12 17:17:06  dasmith
-Fixed refsDecl
-
-Revision 1.5  1999/08/04 18:11:55  textgod
-Random changes over a period of months.
-
-Revision 1.4  1997/08/18 14:54:22  textgod
-???
-
-Revision 1.3  1997/05/12 19:53:56  cjsu
-Finalized tagging. Passes validation.
-
-Revision 1.2  1997/05/12 19:27:34  textgod
-Added the rest of volume 1
-
-Revision 1.1  1997/03/26 17:34:23  textgod
-Added to repository. Passes TEI parse.
-
-</item></change>
-<change><date>July 2014</date>
-    <respStmt><name>Stella Dee</name><resp>ed.</resp></respStmt>
-    <item>split composite text and converted to unicode</item>
-      </change>-->
+			
 			      <change when="2014-08-01" who="Stella Dee">edited markup</change>
 		    	<change when="2014-12-05" who="Bridget Almas">Converted milestones to divs</change>
 		    </revisionDesc>
@@ -170,12 +70,12 @@ Added to repository. Passes TEI parse.
 	  <text xml:lang="lat">
 		    <body>
 			      <head>Orationes in Catilinam</head>
-			      <div type="Speech" n="1">
+			      <div n="1" type="Speech">
 				           <head>ORATIO QVA L. CATILINAM EMISIT IN SENATV HABITA</head>
-            <div type="chapter" n="1">
+            <div n="1" type="chapter">
 
 
-				           <milestone n="1" unit="section"/>
+				           <milestone n="1" unit="section" />
 				           <p>
                   <reg>quo</reg> usque tandem abutere, Catilina, patientia nostra? quam diu etiam
 					furor iste tuus nos<note>nos <hi rend="italics">om. A et Iulius Victor</hi> (<hi rend="italics">Rhet. M. p.</hi> 439): <hi rend="italics">post</hi> diu
@@ -189,7 +89,7 @@ Added to repository. Passes TEI parse.
 						CAV</hi>
                   </note> non vides? <reg>quid</reg> proxima, quid superiore nocte
 					egeris, ubi fueris, quos convocaveris, quid consili ceperis quem nostrum
-					ignorare arbitraris? <milestone n="2" unit="section"/>O tempora, o mores!
+					ignorare arbitraris? <milestone n="2" unit="section" />O tempora, o mores!
 						<reg>senatus</reg> haec intellegit, consul videt; hic tamen vivit.
 						<reg>vivit</reg>? immo vero etiam in senatum venit, fit publici consili
 					particeps, notat et designat oculis ad caedem unum quemque nostrum.
@@ -205,7 +105,7 @@ Added to repository. Passes TEI parse.
                   </note> omnis iam diu<note>omnis <hi rend="italics">om.</hi>
 						               <foreign xml:lang="grc">g</foreign>: omnis iam diu <hi rend="italics">om.
 							bs</hi>
-                  </note> machinaris. <milestone n="3" unit="section"/>
+                  </note> machinaris. <milestone n="3" unit="section" />
                   <reg>an</reg> vero vir amplissimus, P. Scipio, pontifex maximus, <abbr expan="Titum">Ti.</abbr> Gracchum mediocriter labefactantem statum rei
 					publicae privatus interfecit: Catilinam<note>Catilinam <hi rend="italics">Aah,
 							Quintil.</hi> viii. 4. 13: Catilinam vero <hi rend="italics">C
@@ -231,9 +131,9 @@ Added to repository. Passes TEI parse.
 					deest rei publicae consilium neque auctoritas huius ordinis: nos, nos, dico
 					aperte, consules desumus. </p>
             </div>
-            <div type="chapter" n="2">
+            <div n="2" type="chapter">
                <p>
-					             <milestone n="4" unit="section"/>
+					             <milestone n="4" unit="section" />
                   <reg>decrevit</reg> quondam senatus
 						uti<note>uti <hi rend="italics">CAVh</hi>: ut <hi rend="italics">a<foreign xml:lang="grc">bg</foreign>
                      </hi>
@@ -268,7 +168,7 @@ Added to repository. Passes TEI parse.
                   </note> dissolutum videri, sed iam<note>sed iam <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">o1</hi>: sed etiam <hi rend="italics">cett.</hi>
                   </note> me ipse inertiae nequitiaeque condemno.
-						<milestone n="5" unit="section"/>
+						<milestone n="5" unit="section" />
                   <reg>castra</reg> sunt in Italia contra
 					populum Romanum in Etruriae faucibus conlocata, crescit in dies singulos hostium
 					numerus; eorum autem castrorum imperatorem ducemque hostium intra moenia atque
@@ -285,7 +185,7 @@ Added to repository. Passes TEI parse.
                   </note>,
 					cum iam nemo tam improbus, tam perditus<note>nemo tam perditus <hi rend="italics">AV</hi>
                   </note>, tam tui similis inveniri poterit qui id
-					non iure factum esse fateatur. <milestone n="6" unit="section"/>
+					non iure factum esse fateatur. <milestone n="6" unit="section" />
                   <reg>quam</reg>
 					diu quisquam erit qui te defendere audeat, vives, et vives<note>sed vives <hi rend="italics">Weiske</hi>
                   </note> ita ut nunc<note>nunc <foreign xml:lang="grc">a</foreign>
@@ -301,7 +201,7 @@ Added to repository. Passes TEI parse.
 					publicam possis. <reg>multorum</reg> te etiam oculi et aures non sentientem,
 					sicut adhuc fecerunt, speculabuntur atque custodient. </p>
             </div>
-            <div type="chapter" n="3">
+            <div n="3" type="chapter">
 				           <p>
                   <reg>etenim</reg> quid est, Catilina, quod iam amplius exspectes, si neque nox
 					tenebris obscurare coetus<note>coetus <foreign xml:lang="grc">a</foreign>:
@@ -314,7 +214,7 @@ Added to repository. Passes TEI parse.
 						inlustrantur<note>lustrantur <hi rend="italics">Nonius p.</hi> 335.
 						33</note>, si erumpunt omnia? <reg>muta</reg> iam istam mentem, mihi crede,
 					obliviscere caedis atque incendiorum. <reg>teneris</reg> undique; luce sunt
-					clariora nobis tua consilia omnia, quae iam mecum licet recognoscas. <milestone n="7" unit="section"/>
+					clariora nobis tua consilia omnia, quae iam mecum licet recognoscas. <milestone n="7" unit="section" />
                   <reg>meministine</reg> me ante diem <num>xii</num>
 					Kalendas Novembris dicere in senatu fore in armis certo die, qui dies futurus
 					esset ante diem <num>vi</num>
@@ -337,7 +237,7 @@ Added to repository. Passes TEI parse.
                   </note> publicam non potuisse, cum tu discessu
 					ceterorum nostra tamen qui remansissemus caede contentum te<note>te <hi rend="italics">om. bh1, ante</hi> contentum <hi rend="italics">hab.
 							ah2</hi>
-                  </note> esse dicebas? <milestone n="8" unit="section"/>
+                  </note> esse dicebas? <milestone n="8" unit="section" />
                   <reg>quid</reg>? cum te<note>te <foreign xml:lang="grc">a</foreign>: tu te
 							<hi rend="italics">cett.</hi>
                   </note> Praeneste Kalendis ipsis
@@ -350,7 +250,7 @@ Added to repository. Passes TEI parse.
                   </note> audiam sed etiam videam planeque
 					sentiam. </p>
             </div>
-            <div type="chapter" n="4">
+            <div n="4" type="chapter">
                <p>
 					             <reg>recognosce</reg> mecum tandem<note>tandem mecum <hi rend="italics">ah</hi>
                   </note> noctem illam superiorem; iam intelleges multo me vigilare
@@ -358,7 +258,7 @@ Added to repository. Passes TEI parse.
 					nocte venisse inter falcarios — non agam obscure — in <abbr expan="Marci">M.</abbr> Laecae domum; convenisse eodem compluris eiusdem amentiae
 					scelerisque socios. <reg>num</reg> negare audes? quid taces?
 						<reg>convincam</reg>, si negas. <reg>video</reg> enim esse hic in senatu
-					quosdam qui tecum una fuerunt. <milestone n="9" unit="section"/>O di immortales!
+					quosdam qui tecum una fuerunt. <milestone n="9" unit="section" />O di immortales!
 					ubinam gentium sumus? quam rem publicam habemus? in qua urbe vivimus<note>in qua
 						urbe vivimus, quam rem p. habemus <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h contra Donatum ad Ter. Andr.</hi> iv. 5. 51 <hi rend="italics">et Mart. Cap.</hi> (<hi rend="italics">Rhet. M. p.</hi>
@@ -392,7 +292,7 @@ Added to repository. Passes TEI parse.
 					lucem me in meo lecto<note>lecto <hi rend="italics">AVt, Probus K.</hi> iv. 29,
 							<hi rend="italics">Claudius Sac. K.</hi> vi. 481: lectulo <hi rend="italics">cett.</hi>
                   </note> interfecturos esse<note>esse <hi rend="italics">om. a</hi>
-                  </note> pollicerentur. <milestone n="10" unit="section"/>
+                  </note> pollicerentur. <milestone n="10" unit="section" />
                   <reg>haec</reg> ego omnia vixdum etiam coetu vestro dimisso
 					comperi; domum meam<note>meam <hi rend="italics">om. <foreign xml:lang="grc">a</foreign>
                      </hi>
@@ -401,7 +301,7 @@ Added to repository. Passes TEI parse.
 					ego iam multis ac summis viris ad me id temporis venturos esse praedixeram.
 						</p>
             </div>
-            <div type="chapter" n="5">
+            <div n="5" type="chapter">
 				           <p>
                   <reg>quae</reg> cum ita sint, Catilina, perge quo coepisti: egredere aliquando ex
 					urbe; patent portae; proficiscere. <reg>nimium</reg> diu te imperatorem tua illa
@@ -411,7 +311,7 @@ Added to repository. Passes TEI parse.
                   </note>, modo<note>modo <hi rend="italics">AV</hi>: dum modo <hi rend="italics">cett.</hi>
                   </note>
 					inter me atque te murus intersit. <reg>nobiscum</reg> versari iam diutius non
-					potes; non feram, non patiar, non sinam. <milestone n="11" unit="section"/>Magna
+					potes; non feram, non patiar, non sinam. <milestone n="11" unit="section" />Magna
 					dis immortalibus habenda est atque huic ipsi Iovi Statori, antiquissimo custodi
 					huius urbis, gratia, quod hanc tam taetram, tam
 							horribilem<note>
@@ -423,7 +323,7 @@ Added to repository. Passes TEI parse.
 					campo et competitores tuos interficere voluisti, compressi conatus tuos nefarios
 					amicorum praesidio et copiis nullo tumultu publice concitato; denique,
 					quotienscumque me petisti, per me tibi obstiti, quamquam videbam perniciem meam
-					cum magna calamitate rei publicae esse coniunctam. <milestone n="12" unit="section"/>
+					cum magna calamitate rei publicae esse coniunctam. <milestone n="12" unit="section" />
                   <reg>nunc</reg> iam aperte rem publicam universam petis,
 					templa deorum immortalium, tecta urbis, vitam omnium civium,
 						Italiam<note>Italiam <foreign xml:lang="grc">a</foreign>: Italiam denique
@@ -444,9 +344,9 @@ Added to repository. Passes TEI parse.
                   </note>
 					magna et perniciosa sentina rei publicae. </p>
             </div>
-            <div type="chapter" n="6">
+            <div n="6" type="chapter">
                <p>
-					             <reg>quid</reg> est, Catilina? <milestone n="13" unit="section"/>num dubitas id
+					             <reg>quid</reg> est, Catilina? <milestone n="13" unit="section" />num dubitas id
 					me imperante facere quod iam tua sponte faciebas? <reg>exire</reg> ex urbe iubet
 					consul hostem. <reg>interrogas</reg> me, num in exsilium? <reg>non</reg> iubeo,
 					sed, si me consulis, suadeo. <reg>quid</reg> est enim, Catilina, quod te iam in
@@ -463,7 +363,7 @@ Added to repository. Passes TEI parse.
 					umquam tuis, quod flagitium a toto corpore afuit<note>afuit <hi rend="italics">V</hi>: abfuit <hi rend="italics">cett.</hi>
                   </note>? cui tu
 					adulescentulo quem corruptelarum inlecebris inretisses non aut ad audaciam
-					ferrum aut ad libidinem facem praetulisti? <milestone n="14" unit="section"/>
+					ferrum aut ad libidinem facem praetulisti? <milestone n="14" unit="section" />
                   <reg>quid</reg> vero? nuper cum morte superioris uxoris novis nuptiis
 						locum<note>locum <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>: domum <foreign xml:lang="grc">bg</foreign>
@@ -485,7 +385,7 @@ Added to repository. Passes TEI parse.
 					non ad privatam ignominiam vitiorum tuorum, non ad domesticam tuam<note>tuam <hi rend="italics">om. AV</hi>
                   </note> difficultatem ac turpitudinem, sed ad
 					summam rem publicam atque ad omnium nostrum vitam salutemque pertinent.
-						<milestone n="15" unit="section"/>
+						<milestone n="15" unit="section" />
                   <reg>potestne</reg> tibi haec lux,
 					Catilina, aut huius caeli spiritus esse iucundus, cum scias esse
 						horum<note>horum esse <hi rend="italics">h</hi>: horum <hi rend="italics">ot</hi>
@@ -515,7 +415,7 @@ Added to repository. Passes TEI parse.
                   <note>quotiens <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>: quotiens vero <hi rend="italics">cett.</hi>
                   </note> iam tibi<note>tibi iam <hi rend="italics">ah</hi>
-                  </note> extorta est ista sica de manibus, <milestone n="16" unit="section"/>quotiens excidit casu aliquo et elapsa
+                  </note> extorta est ista sica de manibus, <milestone n="16" unit="section" />quotiens excidit casu aliquo et elapsa
 							est!<note>
                      <lemma>elapsa est</lemma> tamen ea carere diutius non potes
 							<hi rend="italics">add. codd.</hi> (<hi rend="italics">ex</hi> § 24),
@@ -527,7 +427,7 @@ Added to repository. Passes TEI parse.
                   </note> devota
 					sit nescio, quod eam necesse putas esse in consulis corpore defigere. </p>
             </div>
-            <div type="chapter" n="7">
+            <div n="7" type="chapter">
                <p>
 					             <reg>nunc</reg> vero quae tua est ista vita? <reg>sic</reg> enim iam tecum
 					loquar, non ut odio permotus esse videar, quo debeo, sed ut misericordia, quae
@@ -541,7 +441,7 @@ Added to repository. Passes TEI parse.
 					fuerunt, simul atque adsedisti, partem istam subselliorum nudam atque inanem
 					reliquerunt, quo tandem animo tibi<note>tibi <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>: hoc tibi <foreign xml:lang="grc">bg</foreign>
-                  </note> ferendum putas? <milestone n="17" unit="section"/>
+                  </note> ferendum putas? <milestone n="17" unit="section" />
                   <reg>servi</reg> mehercule mei si me isto pacto metuerent ut te metuunt
 					omnes cives tui, domum meam relinquendam putarem: tu tibi urbem non
 						arbitraris<note>arbitrare <hi rend="italics">V</hi>: arbitraris. e. <hi rend="italics">A</hi>
@@ -565,7 +465,7 @@ Added to repository. Passes TEI parse.
 						nihil de te <hi rend="italics">cett.</hi>
                   </note> iudicat nisi de parricidio
 					suo cogitare: huius tu neque auctoritatem verebere nec iudicium sequere nec vim
-					pertimesces? <milestone n="18" unit="section"/>
+					pertimesces? <milestone n="18" unit="section" />
                   <reg>quae</reg> tecum, Catilina,
 					sic agit<note>
                      <lemma>agit</lemma> ait <hi rend="italics">ahlou</hi>
@@ -586,9 +486,9 @@ Added to repository. Passes TEI parse.
 					atque hunc mihi timorem eripe; si est verus, ne opprimar, sin falsus, ut tandem
 					aliquando timere desinam.' </p>
             </div>
-            <div type="chapter" n="8">
+            <div n="8" type="chapter">
                <p>
-					             <milestone n="19" unit="section"/>
+					             <milestone n="19" unit="section" />
                   <reg>haec</reg> si tecum,
 							ut<note>
                      <lemma>ut</lemma> ita ut <hi rend="italics">aho2</hi>
@@ -615,7 +515,7 @@ Added to repository. Passes TEI parse.
 						<reg>sed</reg> quam longe videtur a carcere atque a vinculis abesse debere
 					qui se ipse<note>ipse <foreign xml:lang="grc">a</foreign>: ipsum <hi rend="italics">cett.</hi>
                   </note> iam dignum custodia iudicarit?
-						<milestone n="20" unit="section"/>
+						<milestone n="20" unit="section" />
                   <reg>quae</reg> cum ita sint, Catilina,
 					dubitas, si emori aequo animo non potes, abire in aliquas terras et vitam istam
 					multis suppliciis iustis debitisque ereptam fugae solitudinique mandare? </p>
@@ -632,7 +532,7 @@ Added to repository. Passes TEI parse.
 							<foreign xml:lang="grc">a</foreign>: quid est Catilina <hi rend="italics">cett.</hi>
                   </note> animadvertis horum silentium?
 						<reg>patiuntur</reg>, tacent. <reg>quid</reg> exspectas auctoritatem
-					loquentium, quorum voluntatem tacitorum perspicis? <milestone n="21" unit="section"/>
+					loquentium, quorum voluntatem tacitorum perspicis? <milestone n="21" unit="section" />
                   <reg>at</reg>
                   <note>at <hi rend="italics">ao2</hi>: ac <hi rend="italics">cett.</hi>
                   </note> si hoc idem huic adulescenti optimo
@@ -657,9 +557,9 @@ Added to repository. Passes TEI parse.
                   </note>
 					iam pridem studes relinquentem usque ad portas prosequantur. </p>
             </div>
-            <div type="chapter" n="9">
+            <div n="9" type="chapter">
                <p>
-					             <milestone n="22" unit="section"/>
+					             <milestone n="22" unit="section" />
                </p>
 				           <p>
                   <reg>quamquam</reg> quid loquor? te ut ulla res frangat, tu ut umquam te
@@ -683,7 +583,7 @@ Added to repository. Passes TEI parse.
                   </note> a turpitudine aut metus a periculo aut ratio a furore
 						revocarit<note>revocaverit <hi rend="italics">Vhou et Quintil.</hi>
                   </note>.
-						<milestone n="23" unit="section"/>
+						<milestone n="23" unit="section" />
                   <reg>quam</reg> ob rem, ut saepe iam dixi,
 					proficiscere ac, si mihi inimico, ut praedicas, tuo conflare vis invidiam,
 						recta<note>recta <foreign xml:lang="grc">a</foreign>
@@ -699,7 +599,7 @@ Added to repository. Passes TEI parse.
 					latrocinio, ut a me non eiectus ad alienos, sed invitatus ad tuos isse<note>isse
 							<foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">ho2</hi>: esse <hi rend="italics">cett.</hi>
-                  </note> videaris. <milestone n="24" unit="section"/>
+                  </note> videaris. <milestone n="24" unit="section" />
                   <reg>quamquam</reg> quid ego te invitem, a quo iam sciam
 					esse praemissos qui tibi ad forum Aurelium praestolarentur armati, cui<note>cui
 							<hi rend="italics">Gulielmius</hi>: cum (cum sciam iam <hi rend="italics">a</hi>) <hi rend="italics">mei</hi>: cui iam <hi rend="italics">Müll.</hi>
@@ -716,9 +616,9 @@ Added to repository. Passes TEI parse.
 					caedem proficiscens solebas, a cuius altaribus saepe istam impiam dexteram ad
 					necem civium transtulisti? </p>
             </div>
-            <div type="chapter" n="10">
+            <div n="10" type="chapter">
                <p>
-					             <milestone n="25" unit="section"/>
+					             <milestone n="25" unit="section" />
                   <reg>ibis</reg> tandem aliquando quo te iam
 					pridem tua ista<note>ista tua <hi rend="italics">absh</hi>
                   </note> cupiditas
@@ -727,7 +627,7 @@ Added to repository. Passes TEI parse.
 					voluntas exercuit, fortuna servavit. <reg>numquam</reg> tu non modo otium sed ne
 					bellum quidem nisi nefarium concupisti. <reg>nactus</reg> es ex perditis atque
 					ab omni non modo fortuna verum etiam spe derelictis conflatam improborum manum.
-						<milestone n="26" unit="section"/>
+						<milestone n="26" unit="section" />
                   <reg>hic</reg> tu qua laetitia perfruere,
 					quibus gaudiis exsultabis, quanta in voluptate bacchabere, cum in tanto numero
 					tuorum neque audies virum bonum quemquam neque videbis!<note>
@@ -741,7 +641,7 @@ Added to repository. Passes TEI parse.
 							hab. <foreign xml:lang="grc">a</foreign>, om. h, post</hi> patient. <hi rend="italics">o, post</hi> illam <hi rend="italics">cett.</hi>
                   </note>
 					illam praeclaram patientiam famis, frigoris, inopiae rerum omnium quibus te
-					brevi tempore confectum esse senties. <milestone n="27" unit="section"/>
+					brevi tempore confectum esse senties. <milestone n="27" unit="section" />
                   <reg>tantum</reg> profeci<note>profeci tum cum a: profectum cum <hi rend="italics">Diomedes K.</hi> i. 392 (<hi rend="italics">contra
 							Charis. K.</hi> i. 226, <hi rend="italics">Dosith. K.</hi> vii.
 						419)</note>, cum te a consulatu reppuli, ut exsul potius temptare quam
@@ -755,7 +655,7 @@ Added to repository. Passes TEI parse.
                   </note> scelerate susceptum
 					latrocinium potius quam bellum nominaretur. </p>
             </div>
-            <div type="chapter" n="11">
+            <div n="11" type="chapter">
 				           <p>
                   <reg>nunc</reg>, ut a me, patres conscripti, quandam prope iustam patriae
 					querimoniam detester ac deprecer, percipite, quaeso, diligenter<note>diligenter
@@ -777,7 +677,7 @@ Added to repository. Passes TEI parse.
                   </note> hunc in vincla<note>vincla
 							<foreign xml:lang="grc">a</foreign>: vincula <hi rend="italics">cett.</hi>
                   </note> duci, non ad mortem rapi, non summo supplicio mactari
-					imperabis? <reg>quid</reg> tandem te impedit? mosne maiorum? <milestone n="28" unit="section"/>
+					imperabis? <reg>quid</reg> tandem te impedit? mosne maiorum? <milestone n="28" unit="section" />
                   <reg>at</reg> persaepe etiam privati in hac re publica
 					perniciosos civis morte multarunt. <reg>an</reg> leges quae de civium Romanorum
 					supplicio rogatae sunt? <reg>at</reg> numquam in hac urbe qui<note>qui <foreign xml:lang="grc">a</foreign>: ii (hi) qui <hi rend="italics">cett.</hi>
@@ -787,7 +687,7 @@ Added to repository. Passes TEI parse.
                   </note> gratiam qui te, hominem per te
 					cognitum, nulla commendatione maiorum tam mature ad summum imperium per omnis
 					honorum gradus extulit, si propter invidiam aut alicuius periculi metum salutem
-					civium tuorum neglegis. <milestone n="29" unit="section"/>
+					civium tuorum neglegis. <milestone n="29" unit="section" />
                   <reg>sed</reg> si quis
 					est invidiae metus, non<note>non <hi rend="italics">codd. mei</hi>: num <hi rend="italics">pauci dett.</hi>
                   </note> est vehementius severitatis ac
@@ -795,7 +695,7 @@ Added to repository. Passes TEI parse.
 					cum bello vastabitur Italia, vexabuntur urbes, tecta ardebunt, tum te non
 					existimas invidiae incendio conflagraturum?' </p>
             </div>
-            <div type="chapter" n="12">
+            <div n="12" type="chapter">
                <p>
 					             <reg>his</reg> ego sanctissimis rei publicae vocibus et eorum hominum qui hoc
 					idem sentiunt mentibus pauca respondebo. <reg>ego</reg>, si hoc optimum
@@ -815,7 +715,7 @@ Added to repository. Passes TEI parse.
 					ea mihi maxime impenderet, tamen hoc animo fui semper<note>fui semper <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>: semper fui <foreign xml:lang="grc">bg</foreign>
                   </note> ut invidiam virtute partam gloriam,
-					non invidiam putarem. <milestone n="30" unit="section"/>
+					non invidiam putarem. <milestone n="30" unit="section" />
                   <reg>quamquam</reg> non
 					nulli sunt in hoc ordine qui aut ea quae imminent non videant aut ea quae
 						vident<note>vident <hi rend="italics">C1</hi>: <hi rend="italics">fort.</hi>
@@ -839,9 +739,9 @@ Added to repository. Passes TEI parse.
 					delebitur non modo haec tam adulta rei publicae pestis verum etiam stirps ac
 					semen malorum omnium. </p>
             </div>
-            <div type="chapter" n="13">
+            <div n="13" type="chapter">
                <p>
-					             <milestone n="31" unit="section"/>
+					             <milestone n="31" unit="section" />
                   <reg>etenim</reg> iam diu, patres conscripti,
 					in his periculis coniurationis insidiisque versamur, sed nescio quo pacto omnium
 					scelerum ac veteris furoris et audaciae maturitas in nostri consulatus tempus
@@ -855,7 +755,7 @@ Added to repository. Passes TEI parse.
 					vehementiusque adflictantur, sic hic morbus qui est in re publica relevatus
 					istius poena vehementius reliquis vivis ingravescet<note>ingravescit <foreign xml:lang="grc">b</foreign>
                      <hi rend="italics">ux</hi>
-                  </note>. <milestone n="32" unit="section"/>
+                  </note>. <milestone n="32" unit="section" />
                   <reg>qua</reg> re secedant improbi, secernant se a
 					bonis, unum in locum congregentur, muro denique, quod<note>quod <foreign xml:lang="grc">a</foreign>: id quod <hi rend="italics">cett.</hi>
                   </note>
@@ -871,7 +771,7 @@ Added to repository. Passes TEI parse.
 						<reg>polliceor</reg> hoc vobis, patres conscripti, tantam in nobis
 					consulibus fore diligentiam, tantam in vobis auctoritatem, tantam in equitibus
 					Romanis virtutem, tantam in omnibus bonis consensionem ut Catilinae profectione
-					omnia patefacta, inlustrata, oppressa, vindicata esse videatis. <milestone n="33" unit="section"/>
+					omnia patefacta, inlustrata, oppressa, vindicata esse videatis. <milestone n="33" unit="section" />
                </p>
 				           <p>
                   <reg>hisce</reg> ominibus<note>ominibus <hi rend="italics">Paris.</hi> 15138 <hi rend="italics">in mg.</hi>: omnibus <hi rend="italics">cett.</hi>
@@ -897,12 +797,12 @@ Added to repository. Passes TEI parse.
 					nefaria societate coniunctos aeternis suppliciis vivos mortuosque mactabis. </p>
 			         </div>
          </div>
-			      <div type="Speech" n="2">
+			      <div n="2" type="Speech">
 				           <head>IN L. CATILINAM ORATIO SECVNDA HABITA AD POPVLVM</head>
-            <div type="chapter" n="1">
+            <div n="1" type="chapter">
 
 
-				           <milestone n="1" unit="section"/>
+				           <milestone n="1" unit="section" />
 				           <p>
                   <reg>tandem</reg> aliquando, Quirites, <abbr expan="Lucium">L.</abbr> Catilinam,
 					furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, vobis
@@ -930,7 +830,7 @@ Added to repository. Passes TEI parse.
 							<hi rend="italics">om. bs</hi> gerimus <hi rend="italics">Abx</hi>
                   </note> geremus. <reg>sine</reg> dubio perdidimus hominem
 					magnificeque vicimus, cum illum ex occultis insidiis in apertum latrocinium
-					coniecimus. <milestone n="2" unit="section"/>
+					coniecimus. <milestone n="2" unit="section" />
                   <reg>quod</reg> vero non cruentum
 					mucronem, ut voluit, extulit, quod vivis nobis egressus est, quod ei ferrum e
 					manibus extorsimus, quod incolumis civis, quod stantem urbem reliquit, quanto
@@ -946,9 +846,9 @@ Added to repository. Passes TEI parse.
                   </note> videtur, quod tantam pestem
 					evomuerit forasque proiecerit. </p>
             </div>
-            <div type="chapter" n="2">
+            <div n="2" type="chapter">
                <p>
-					             <milestone n="3" unit="section"/>
+					             <milestone n="3" unit="section" />
                </p>
 				           <p>
                   <reg>ac</reg> si quis est talis qualis esse omnis oportebat, qui in hoc ipso in
@@ -970,7 +870,7 @@ Added to repository. Passes TEI parse.
                   </note>?
 						<reg>ac</reg> si illo sublato depelli a vobis omne periculum iudicarem, iam
 					pridem ego <abbr expan="Lucium">L.</abbr> Catilinam non modo invidiae meae verum
-					etiam vitae periculo sustulissem. <milestone n="4" unit="section"/>
+					etiam vitae periculo sustulissem. <milestone n="4" unit="section" />
                   <reg>sed</reg> cum viderem, ne vobis quidem omnibus<note>ne vobis quidem
 						omnibus <hi rend="italics">a</hi>: rem quidem omnibus vobis <hi rend="italics">CAV</hi>: re quid ne vobis omnibus <hi rend="italics">h</hi>: ne vobis quidem omnibus re <foreign xml:lang="grc">bg</foreign>: re ne vobis quidem omnibus <hi rend="italics">Lambinus</hi>
                   </note> etiam tum re probata<note>re probata <hi rend="italics">scripst</hi>: reprobatam <hi rend="italics">C</hi>: rei
@@ -995,9 +895,9 @@ Added to repository. Passes TEI parse.
 					contractum in popina nullum rei publicae motum adferre poterat: reliquit quos
 					viros, quanto aere alieno, quam valentis, quam nobilis! </p>
             </div>
-            <div type="chapter" n="3">
+            <div n="3" type="chapter">
                <p>
-					             <milestone n="5" unit="section"/>
+					             <milestone n="5" unit="section" />
                   <reg>itaque</reg> ego illum exercitum
 							prae<note>
                      <lemma>prae</lemma> pro <hi rend="italics">cod. Lambini</hi>:
@@ -1016,7 +916,7 @@ Added to repository. Passes TEI parse.
 					mementote non tam exercitum illum esse nobis quam hos qui exercitum deseruerunt
 					pertimescendos. <reg>atque</reg> hoc etiam sunt timendi magis quod quid
 						cogitent<note>cogitant a</note> me scire sentiunt neque tamen permoventur.
-						<milestone n="6" unit="section"/>
+						<milestone n="6" unit="section" />
                   <reg>video</reg> cui sit Apulia attributa,
 					quis habeat Etruriam, quis agrum Picenum, quis Gallicum, quis sibi has urbanas
 					insidias caedis atque incendiorum depoposcerit. <reg>omnia</reg> superioris
@@ -1030,7 +930,7 @@ Added to repository. Passes TEI parse.
 						<reg>ne</reg> illi vehementer errant, si illam meam pristinam lenitatem
 					perpetuam sperant futuram. </p>
             </div>
-            <div type="chapter" n="4">
+            <div n="4" type="chapter">
 				           <p>
                   <reg>quod</reg> exspectavi, iam sum adsecutus ut vos omnes factam esse aperte
 					coniurationem contra rem publicam videretis; nisi vero si<note>si <hi rend="italics">del. Madvig</hi>
@@ -1043,7 +943,7 @@ Added to repository. Passes TEI parse.
 					flagitat. <reg>unum</reg> etiam nunc concedam: exeant, proficiscantur, ne
 					patiantur desiderio sui Catilinam miserum tabescere. <reg>demonstrabo</reg>
 					iter: Aurelia via profectus est; si accelerare volent, ad vesperam consequentur.
-						<milestone n="7" unit="section"/>O fortunatam rem publicam, si quidem hanc
+						<milestone n="7" unit="section" />O fortunatam rem publicam, si quidem hanc
 					sentinam urbis<note>urbis <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>: huius urbis <hi rend="italics">l</hi>
                      <foreign xml:lang="grc">g</foreign>: urbis huius <hi rend="italics">bs</hi>
@@ -1057,7 +957,7 @@ Added to repository. Passes TEI parse.
 					quis ganeo, quis nepos, quis adulter, quae mulier infamis, quis corruptor
 					iuventutis, quis corruptus, quis perditus inveniri potest qui se cum Catilina
 					non familiarissime vixisse fateatur? quae caedes per hosce annos sine illo facta
-					est, quod nefarium stuprum non per illum? <milestone n="8" unit="section"/>
+					est, quod nefarium stuprum non per illum? <milestone n="8" unit="section" />
                   <reg>iam</reg> vero quae tanta umquam in ullo<note>ullo <hi rend="italics">
                         <foreign xml:lang="grc">a</foreign>h</hi>: ullo homine <foreign xml:lang="grc">bg</foreign>
                   </note> iuventutis inlecebra fuit quanta in
@@ -1071,9 +971,9 @@ Added to repository. Passes TEI parse.
 					Italiae oppressus aere alieno fuit quem non ad hoc incredibile sceleris foedus
 					asciverit. </p>
             </div>
-            <div type="chapter" n="5">
+            <div n="5" type="chapter">
                <p>
-					             <milestone n="9" unit="section"/>
+					             <milestone n="9" unit="section" />
                   <reg>atque</reg> ut eius diversa studia in
 					dissimili ratione perspicere possitis, nemo est in ludo gladiatorio paulo ad
 					facinus audacior qui se non intimum Catilinae esse fateatur<note>esse fateatur
@@ -1085,7 +985,7 @@ Added to repository. Passes TEI parse.
 					praedicabatur, cum industriae subsidia atque instrumenta virtutis in libidine
 					audaciaque consumeret<note>consumeret <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">ho</hi>2: consumerentur <hi rend="italics">cett.</hi>
-                  </note>. <milestone n="10" unit="section"/>
+                  </note>. <milestone n="10" unit="section" />
                   <reg>hunc</reg> vero
 					si secuti erunt sui comites, si ex urbe exierint desperatorum hominum flagitiosi
 					greges, o nos beatos, o rem publicam fortunatum, o praeclaram laudem consulatus
@@ -1114,7 +1014,7 @@ Added to repository. Passes TEI parse.
                   </note> accubantes in conviviis, complexi
 					mulieres impudicas, vino languidi, conferti cibo, sertis redimiti, unguentis
 					obliti, debilitati stupris eructant sermonibus suis caedem bonorum atque urbis
-					incendia. <milestone n="11" unit="section"/>
+					incendia. <milestone n="11" unit="section" />
                   <reg>quibus</reg> ego confido
 					impendere fatum aliquod et poenam iam diu improbitati, nequitiae, sceleri,
 					libidini debitam aut instare iam plane aut certe appropinquare. <reg>quos</reg>
@@ -1138,9 +1038,9 @@ Added to repository. Passes TEI parse.
                   </note> mente permanent, ea quae merentur
 					exspectent. </p>
             </div>
-            <div type="chapter" n="6">
+            <div n="6" type="chapter">
                <p>
-					             <milestone n="12" unit="section"/>
+					             <milestone n="12" unit="section" />
                </p>
 				           <p>
                   <reg>at</reg> etiam sunt qui dicant, Quirites<note>Quirites <hi rend="italics">om. <foreign xml:lang="grc">a</foreign>h</hi>
@@ -1165,7 +1065,7 @@ Added to repository. Passes TEI parse.
 					eum senator appellavit, quis salutavit, quis denique ita aspexit ut perditum
 					civem ac non potius ut importunissimum hostem? <reg>quin</reg> etiam principes
 					eius ordinis partem illam subselliorum ad quam ille accesserat nudam atque
-					inanem reliquerunt. <milestone n="13" unit="section"/>
+					inanem reliquerunt. <milestone n="13" unit="section" />
                   <reg>hic</reg> ego
 					vehemens ille consul qui verbo civis in exsilium eicio quaesivi a Catilina
 							in<note>
@@ -1186,7 +1086,7 @@ Added to repository. Passes TEI parse.
 					argenteam cui ille etiam sacrarium<note>sacrarium <hi rend="italics">x</hi>:
 						scelerum <hi rend="italics">post</hi> sacr. <hi rend="italics">add. <foreign xml:lang="grc">a</foreign>hot, ante</hi> sacr. <foreign xml:lang="grc">b</foreign>
                   </note> domi suae fecerat scirem esse
-					praemissam. <milestone n="14" unit="section"/>
+					praemissam. <milestone n="14" unit="section" />
                   <reg>in</reg> exsilium eiciebam
 					quem iam ingressum esse in bellum videram<note>videram <hi rend="italics">AV</hi>: videbam <hi rend="italics">cett. et Diomedes K.</hi> i.
 						470</note>? <reg>etenim</reg>, credo, Manlius iste centurio qui in agro
@@ -1196,7 +1096,7 @@ Added to repository. Passes TEI parse.
 						conferet <hi rend="italics">cett.</hi>
                   </note>. </p>
             </div>
-            <div type="chapter" n="7">
+            <div n="7" type="chapter">
                <p> O condicionem miseram non modo administrandae verum etiam
 					conservandae rei publicae! <reg>nunc</reg> si <abbr expan="Lucius">L.</abbr>
 					Catilina consiliis, laboribus, periculis meis circumclusus ac debilitatus subito
@@ -1216,7 +1116,7 @@ Added to repository. Passes TEI parse.
                      <lemma>miserum</lemma> timidum <foreign xml:lang="grc">b</foreign>
                      <hi rend="italics">hx</hi> (<hi rend="italics">contra
 							Priscian. K.</hi> iii. 246)</note>, me non diligentissimum consulem sed
-					crudelissimum tyrannum existimari velint! <milestone n="15" unit="section"/>
+					crudelissimum tyrannum existimari velint! <milestone n="15" unit="section" />
                   <reg>est</reg> mihi tanti, Quirites, huius invidiae falsae atque iniquae
 					tempestatem subire, dum modo a vobis huius horribilis belli ac nefarii periculum
 					depellatur. <reg>dicatur</reg> sane eiectus esse a me, dum modo eat in exsilium.
@@ -1231,7 +1131,7 @@ Added to repository. Passes TEI parse.
 							<hi rend="italics">om. CAV</hi>
                   </note> quam quod eiecerim.
 						<reg>sed</reg> cum sint homines qui illum, cum profectus sit, eiectum esse
-					dicant, idem, si interfectus esset, quid dicerent? <milestone n="16" unit="section"/>
+					dicant, idem, si interfectus esset, quid dicerent? <milestone n="16" unit="section" />
                   <reg>quamquam</reg> isti qui Catilinam Massiliam ire
 					dictitant non tam hoc queruntur quam verentur. <reg>nemo</reg> est istorum tam
 					misericors qui illum non ad Manlium quam ad Massiliensis ire malit.
@@ -1241,9 +1141,9 @@ Added to repository. Passes TEI parse.
 					nisi quod vivis nobis Roma profectus est, optemus potius ut eat in exsilium quam
 					queramur. </p>
             </div>
-            <div type="chapter" n="8">
+            <div n="8" type="chapter">
                <p>
-					             <milestone n="17" unit="section"/>
+					             <milestone n="17" unit="section" />
                </p>
 				           <p>
                   <reg>sed</reg> cur tam diu de uno hoste loquimur et de eo hoste qui iam fatetur
@@ -1262,7 +1162,7 @@ Added to repository. Passes TEI parse.
                   </note>, intellego.
 						<reg>exponam</reg> enim vobis, Quirites, ex quibus generibus hominum istae
 					copiae comparentur; deinde singulis medicinam consili atque orationis meae, si
-					quam potero, adferam. <milestone n="18" unit="section"/>Vnum genus est eorum qui
+					quam potero, adferam. <milestone n="18" unit="section" />Vnum genus est eorum qui
 					magno in aere alieno maiores etiam possessiones habent quarum amore adducti
 					dissolvi nullo modo possunt. Horum hominum species est honestissima — sunt enim
 					locupletes — voluntas vero et causa impudentissima. <reg>tu</reg> agris, tu
@@ -1280,9 +1180,9 @@ Added to repository. Passes TEI parse.
 					sententia possunt aut, si permanebunt, magis mihi videntur vota facturi contra
 					rem publicam quam arma laturi. </p>
             </div>
-            <div type="chapter" n="9">
+            <div n="9" type="chapter">
                <p>
-					             <milestone n="19" unit="section"/>
+					             <milestone n="19" unit="section" />
                   <reg>alterum</reg> genus est eorum qui,
 					quamquam premuntur aere alieno, dominationem tamen exspectant, rerum potiri
 					volunt, honores quos quieta re publica desperant perturbata se consequi<note>se
@@ -1315,7 +1215,7 @@ Added to repository. Passes TEI parse.
                   </note> aut dictatores aut etiam reges sperant
 					futuros? <reg>non</reg> vident id se cupere quod, si adepti sint, fugitivo
 					alicui aut gladiatori concedi sit<note>sit concedi <foreign xml:lang="grc">a</foreign>
-                  </note> necesse? <milestone n="20" unit="section"/>Tertium
+                  </note> necesse? <milestone n="20" unit="section" />Tertium
 					genus est aetate iam adfectum, sed tamen exercitatione robustum; quo ex genere
 					iste est<note>iste est <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>: est ipse <hi rend="italics">cett.</hi>
@@ -1350,9 +1250,9 @@ Added to repository. Passes TEI parse.
 					civitati ut iam ista non modo homines sed ne pecudes quidem mihi passurae esse
 					videantur. </p>
             </div>
-            <div type="chapter" n="10">
+            <div n="10" type="chapter">
                <p>
-					             <milestone n="21" unit="section"/>
+					             <milestone n="21" unit="section" />
                   <reg>quartum</reg> genus est sane varium et
 					mixtum et turbulentum; qui iam pridem premuntur, qui numquam emergunt, qui
 					partim inertia, partim male gerendo negotio, partim etiam sumptibus in vetere
@@ -1371,7 +1271,7 @@ Added to repository. Passes TEI parse.
 					possunt, perire turpiter velint, aut cur minore dolore perituros se cum multis
 					quam si soli pereant<note>pereunt <hi rend="italics">ah</hi>
                   </note> arbitrentur.
-						<milestone n="22" unit="section"/>Quintum genus est parricidarum,
+						<milestone n="22" unit="section" />Quintum genus est parricidarum,
 					sicariorum, denique omnium facinerosorum. <reg>quos</reg> ego a Catilina non
 					revoco; nam neque ab eo divelli<note>divelli ab eo <foreign xml:lang="grc">bg</foreign>
                   </note> possunt et pereant sane in latrocinio, quoniam sunt
@@ -1384,7 +1284,7 @@ Added to repository. Passes TEI parse.
 							<foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>
                   </note> et
-					vigilandi labor in antelucanis cenis expromitur. <milestone n="23" unit="section"/>
+					vigilandi labor in antelucanis cenis expromitur. <milestone n="23" unit="section" />
                   <reg>in</reg> his gregibus omnes aleatores, omnes adulteri,
 					omnes impuri impudicique versantur. <reg>hi</reg> pueri tam lepidi ac delicati
 					non solum amare et amari neque saltare et cantare sed etiam sicas vibrare et
@@ -1396,9 +1296,9 @@ Added to repository. Passes TEI parse.
 					Appenninum atque illas pruinas ac nivis perferent? nisi idcirco se facilius
 					hiemem toleraturos putant, quod nudi in conviviis saltare didicerunt. </p>
             </div>
-            <div type="chapter" n="11">
+            <div n="11" type="chapter">
                <p>
-					             <milestone n="24" unit="section"/>
+					             <milestone n="24" unit="section" />
                </p>
 				           <p>O bellum magno opere pertimescendum, cum hanc sit habiturus Catilina scortorum
 					cohortem praetoriam! <reg>instruite</reg> nunc, Quirites, contra has tam
@@ -1412,7 +1312,7 @@ Added to repository. Passes TEI parse.
                   </note> coloniarum ac municipiorum
 					respondebunt Catilinae tumulis silvestribus. <reg>neque</reg> ego ceteras
 					copias, ornamenta, praesidia vestra cum illius latronis inopia atque egestate
-					conferre debeo. <milestone n="25" unit="section"/>
+					conferre debeo. <milestone n="25" unit="section" />
                   <reg>sed</reg> si, omissis his
 						rebus<note>rebus omnibus <foreign xml:lang="grc">g</foreign>
                   </note> quibus
@@ -1442,9 +1342,9 @@ Added to repository. Passes TEI parse.
 					immortales cogant ab his praeclarissimis virtutibus tot et tanta vitia superari?
 						</p>
             </div>
-            <div type="chapter" n="12">
+            <div n="12" type="chapter">
                <p>
-					             <milestone n="26" unit="section"/>
+					             <milestone n="26" unit="section" />
                   <reg>quae</reg> cum ita sint, Quirites, vos,
 					quem ad modum iam antea dixi<note>
                      <lemma>antea dixi</lemma> ante <hi rend="italics">cod. Mureti</hi>
@@ -1467,7 +1367,7 @@ Added to repository. Passes TEI parse.
 					praemisi aut opprimet hominem aut eius omnis<note>omnis eius <hi rend="italics">oux</hi>
                   </note> motus conatusque prohibebit. <reg>reliquis</reg> autem
 					de rebus constituendis, maturandis, agendis iam ad senatum referemus, quem
-					vocari videtis. <milestone n="27" unit="section"/>
+					vocari videtis. <milestone n="27" unit="section" />
                </p>
 				           <p>
                   <reg>nunc</reg> illos qui in urbe remanserunt atque adeo qui contra urbis salutem
@@ -1496,9 +1396,9 @@ Added to repository. Passes TEI parse.
 					vindicem nefariorum ac manifestorum scelerum maiores nostri esse voluerunt.
 						</p>
             </div>
-            <div type="chapter" n="13">
+            <div n="13" type="chapter">
                <p>
-					             <milestone n="28" unit="section"/>
+					             <milestone n="28" unit="section" />
                </p>
 				           <p>
                   <reg>atque</reg> haec omnia sic agentur<note>agentur <foreign xml:lang="grc">a</foreign>
@@ -1515,7 +1415,7 @@ Added to repository. Passes TEI parse.
                      <hi rend="italics">ot</hi>
                   </note>, ut
 					neque bonus quisquam intereat paucorumque poena vos omnes salvi esse possitis.
-						<milestone n="29" unit="section"/>
+						<milestone n="29" unit="section" />
                   <reg>quae</reg> quidem ego neque mea
 					prudentia neque humanis consiliis fretus polliceor vobis, Quirites, sed multis
 					et non dubiis deorum immortalium significationibus, quibus ego ducibus in hanc
@@ -1532,18 +1432,18 @@ Added to repository. Passes TEI parse.
 					defendant. </p>
 			         </div>
          </div>
-			      <div type="Speech" n="3">
+			      <div n="3" type="Speech">
 				           <head>IN L. CATILINAM ORATIO TERTIA HABITA AD POPVLVM</head>
 				        
-            <div type="chapter" n="1">
-				           <milestone n="1" unit="section"/>
+            <div n="1" type="chapter">
+				           <milestone n="1" unit="section" />
 				           <p>
                   <reg>rem</reg> publicam, Quirites, vitamque omnium vestrum, bona, fortunas,
 					coniuges liberosque vestros atque hoc domicilium clarissimi imperi,
 					fortunatissimam pulcherrimamque urbem, hodierno die deorum immortalium summo
 					erga vos amore, laboribus, consiliis, periculis meis e flamma atque ferro ac
 					paene ex faucibus fati ereptam et vobis conservatam ac restitutam videtis.
-						<milestone n="2" unit="section"/>
+						<milestone n="2" unit="section" />
                   <reg>et</reg> si non minus nobis iucundi
 					atque inlustres sunt ei dies quibus conservamur quam illi quibus nascimur, quod
 					salutis certa laetitia est, nascendi incerta condicio et quod sine sensu
@@ -1555,7 +1455,7 @@ Added to repository. Passes TEI parse.
 					in rem publicam destrictos rettudimus<note>rettudimus (retu-) <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">x</hi>: retrosimus <hi rend="italics">h</hi>: retrudimus <hi rend="italics">bstou</hi>
                   </note>
-					mucronesque eorum a iugulis vestris deiecimus. <milestone n="3" unit="section"/>
+					mucronesque eorum a iugulis vestris deiecimus. <milestone n="3" unit="section" />
                   <reg>quae</reg> quoniam in senatu inlustrata, patefacta, comperta sunt per
 					me, vobis iam exponam breviter<note>breviter <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h</hi>: breviter, Quirites, <foreign xml:lang="grc">bg</foreign>
@@ -1572,7 +1472,7 @@ Added to repository. Passes TEI parse.
 					vigilavi et providi, Quirites, quem ad modum in tantis et tam absconditis
 					insidiis salvi esse possemus. </p>
             </div>
-            <div type="chapter" n="2">
+            <div n="2" type="chapter">
                <p>
 					             <reg>nam</reg> tum cum ex urbe Catilinam eiciebam — non enim iam vereor huius
 					verbi invidiam, cum illa magis sit timenda, quod vivus exierit — , sed tum cum
@@ -1581,7 +1481,7 @@ Added to repository. Passes TEI parse.
                      <lemma>restitissent</lemma> remansissent <hi rend="italics">h<foreign xml:lang="grc">g</foreign>
                      </hi>
                   </note> infirmos
-					sine illo ac debilis fore putabam. <milestone n="4" unit="section"/>
+					sine illo ac debilis fore putabam. <milestone n="4" unit="section" />
                   <reg>atque</reg> ego, ut<note>ut <hi rend="italics">bs<foreign xml:lang="grc">g</foreign>
                      </hi>: <hi rend="italics">om.
 						ahl</hi>
@@ -1608,7 +1508,7 @@ Added to repository. Passes TEI parse.
 					optabam ab dis immortalibus, tota<note>tota <hi rend="italics">hx</hi>: ut toa
 							<hi rend="italics">cett.</hi> (<hi rend="italics">cf. Madvig ad
 							Fin.</hi> iii. 43, <hi rend="italics">Ac.</hi> ii. 48. 139)</note> res
-					non solum a me sed etiam a senatu et a vobis manifesto deprenderetur. <milestone n="5" unit="section"/>
+					non solum a me sed etiam a senatu et a vobis manifesto deprenderetur. <milestone n="5" unit="section" />
                   <reg>itaque</reg> hesterno die <abbr expan="Lucium">L.</abbr> Flaccum et <abbr expan="Gaium">C.</abbr> Pomptinum praetores,
 					fortissimos atque amantissimos rei publicae viros, ad me vocavi, rem<note>rem
 						omnem <foreign xml:lang="grc">g</foreign>
@@ -1625,7 +1525,7 @@ Added to repository. Passes TEI parse.
 						praesidio <hi rend="italics">AV<foreign xml:lang="grc">b</foreign>ho</hi>:
 						re publica, praesidio <hi rend="italics">Muretus</hi>
                   </note> cum gladiis
-					miseram. <milestone n="6" unit="section"/>
+					miseram. <milestone n="6" unit="section" />
                   <reg>interim</reg> tertia fere vigilia
 					exacta, cum iam pontem Mulvium magno comitatu legati Allobroges<note>Allobroges
 							<foreign xml:lang="grc">a</foreign>
@@ -1639,7 +1539,7 @@ Added to repository. Passes TEI parse.
 					nostris. <reg>res</reg> praetoribus erat nota solis, ignorabatur a ceteris.
 						</p>
             </div>
-            <div type="chapter" n="3">
+            <div n="3" type="chapter">
                <p>
 					             <reg>tum</reg> interventu Pomptini atque Flacci pugna quae erat
 						commissa<note>quac erat commissa <hi rend="italics">del. Halm cum duobus
@@ -1654,7 +1554,7 @@ Added to repository. Passes TEI parse.
                   </note>;
 					tardissime autem Lentulus<note>P. Lentulus <hi rend="italics">Eberhard</hi>
                   </note> venit, credo quod in litteris dandis praeter
-					consuetudinem proxima nocte vigilarat. <milestone n="7" unit="section"/>
+					consuetudinem proxima nocte vigilarat. <milestone n="7" unit="section" />
                   <reg>cum</reg> summis et clarissimis huius civitatis viris qui audita re
 					frequentes ad me mane convenerant litteras a me prius aperiri quam ad senatum
 							deferri<note>
@@ -1665,7 +1565,7 @@ Added to repository. Passes TEI parse.
 						<reg>etenim</reg>, Quirites, si ea quae erant ad me delata reperta non
 					essent, tamen ego non arbitrabar in tantis rei publicae periculis esse mihi
 					nimiam diligentiam pertimescendam. <reg>senatum</reg> frequentem celeriter, ut
-					vidistis, coegi. <milestone n="8" unit="section"/>
+					vidistis, coegi. <milestone n="8" unit="section" />
                   <reg>atque</reg> interea
 					statim admonitu Allobrogum <abbr expan="Gaium">C.</abbr> Sulpicium praetorem,
 					fortem virum, misi qui ex aedibus Cethegi si quid telorum esset efferret; ex
@@ -1675,7 +1575,7 @@ Added to repository. Passes TEI parse.
                      </hi>
                   </note> extulit. </p>
             </div>
-            <div type="chapter" n="4">
+            <div n="4" type="chapter">
                <p>
 					             <reg>introduxi</reg> Volturcium sine Gallis; fidem<note>fidem ei <hi rend="italics">h<foreign xml:lang="grc">g</foreign>
                      </hi>
@@ -1688,7 +1588,7 @@ Added to repository. Passes TEI parse.
                   </note>
 					distributumque erat incendissent caedemque infinitam civium fecissent, praesto
 					esset ille qui et fugientis exciperet et se cum his urbanis ducibus coniungeret.
-						<milestone n="9" unit="section"/>
+						<milestone n="9" unit="section" />
                   <reg>introducti</reg> autem Galli ius
 					iurandum sibi et litteras a <abbr expan="Publio">P.</abbr>
                   <note>
@@ -1710,14 +1610,14 @@ Added to repository. Passes TEI parse.
 					hunc annum<note>esse annum <hi rend="italics">bstux</hi>
                   </note> esse ad
 					interitum huius urbis atque imperi qui esset annus decimus post virginum
-					absolutionem, post Capitoli autem incensionem vicesimus. <milestone n="10" unit="section"/>
+					absolutionem, post Capitoli autem incensionem vicesimus. <milestone n="10" unit="section" />
                   <reg>hanc</reg> autem Cethego cum ceteris controversiam
 					fuisse dixerunt quod Lentulo et aliis Saturnalibus caedem fieri atque urbem
 					incendi placeret, Cethego nimium id longum videretur<note>videretur <hi rend="italics">tx</hi>: videri <hi rend="italics">cett.</hi>
                   </note>.
 						</p>
             </div>
-            <div type="chapter" n="5">
+            <div n="5" type="chapter">
                <p>
 					             <reg>ac</reg> ne longum sit, Quirites, tabellas proferri iussimus quae a quoque
 					dicebantur datae. <reg>primo</reg>
@@ -1750,7 +1650,7 @@ Added to repository. Passes TEI parse.
 							<hi rend="italics">om. Votx, ante</hi> notum <hi rend="italics">hab.
 							h</hi>1</note> signum, imago avi tui, clarissimi viri, qui amavit unice
 					patriam et civis suos; quae quidem te a tanto scelere etiam muta revocare
-					debuit.' <milestone n="11" unit="section"/>
+					debuit.' <milestone n="11" unit="section" />
                   <reg>leguntur</reg> eadem ratione ad
 					senatum Allobrogum populumque litterae. <reg>si</reg> quid de his rebus dicere
 					vellet, feci potestatem. <reg>atque</reg> ille primo quidem negavit; post autem
@@ -1764,7 +1664,7 @@ Added to repository. Passes TEI parse.
 					posset infitiari, repente praeter opinionem omnium confessus est. <reg>ita</reg>
 					eum non modo ingenium illud et dicendi exercitatio qua semper valuit sed etiam
 					propter vim sceleris manifesti atque deprehensi impudentia qua superabat omnis
-					improbitasque defecit. <milestone n="12" unit="section"/>Volturcius vero subito
+					improbitasque defecit. <milestone n="12" unit="section" />Volturcius vero subito
 					litteras proferri atque aperiri iubet quas sibi a Lentulo ad Catilinam datas
 					esse dicebat. <reg>atque</reg> ibi vehementissime perturbatus Lentulus tamen et
 					signum et manum suam cognovit. <reg>erant</reg> autem<note>autem scriptae <hi rend="italics">htux</hi>
@@ -1780,7 +1680,7 @@ Added to repository. Passes TEI parse.
                   </note> tibi iam sit necesse et cura
 					ut omnium tibi auxilia adiungas, etiam infimorum.' Gabinius deinde introductus,
 					cum primo impudenter respondere coepisset, ad extremum nihil ex eis quae Galli
-					insimulabant negavit. <reg>ac</reg> mihi quidem, <milestone n="13" unit="section"/>Quirites, cum illa certissima visa sunt argumenta atque
+					insimulabant negavit. <reg>ac</reg> mihi quidem, <milestone n="13" unit="section" />Quirites, cum illa certissima visa sunt argumenta atque
 					indicia sceleris, tabellae, signa, manus, denique unius cuiusque confessio, tum
 					multo certiora illa, color, oculi, voltus, taciturnitas. <reg>sic</reg> enim
 					obstupuerant, sic terram intuebantur, sic furtim non numquam inter sese
@@ -1790,7 +1690,7 @@ Added to repository. Passes TEI parse.
                   </note> sed indicare se ipsi
 					viderentur. </p>
             </div>
-            <div type="chapter" n="6">
+            <div n="6" type="chapter">
                <p>
 					             <reg>indiciis</reg> expositis atque editis, Quirites<note>Quirites <hi rend="italics">om. ao</hi>
                   </note>, senatum consului de summa re
@@ -1801,7 +1701,7 @@ Added to repository. Passes TEI parse.
 					Dictae sunt a principibus acerrimae ac fortissimae sententiae, quas senatus sine
 					ulla varietate est secutus. <reg>et</reg> quoniam nondum est perscriptum senatus
 					consultum, ex memoria vobis, Quirites, quid senatus censuerit exponam.
-						<milestone n="14" unit="section"/>
+						<milestone n="14" unit="section" />
                   <reg>primum</reg> mihi gratiae verbis
 					amplissimis aguntur, quod virtute, consilio, providentia mea res publica maximis
 					periculis sit liberata. <reg>deinde</reg>
@@ -1830,7 +1730,7 @@ Added to repository. Passes TEI parse.
 						<reg>atque</reg> ea lenitate senatus est usus, Quirites, ut ex tanta
 					coniuratione tantaque hac multitudine domesticorum hostium novem hominum
 					perditissimorum poena re publica conservata reliquorum mentis sanari posse
-					arbitraretur. <milestone n="15" unit="section"/>
+					arbitraretur. <milestone n="15" unit="section" />
                   <reg>atque</reg> etiam
 					supplicatio dis immortalibus pro singulari eorum merito meo nomine decreta est,
 					quod mihi primum post hanc urbem conditam togato contigit, et his decreta verbis
@@ -1855,9 +1755,9 @@ Added to repository. Passes TEI parse.
                   </note> Glauciam de quo nihil nominatim
 					erat decretum praetorem occideret, ea nos religione in privato <abbr expan="Publio">P.</abbr> Lentulo puniendo liberaremur. </p>
             </div>
-            <div type="chapter" n="7">
+            <div n="7" type="chapter">
                <p>
-					             <milestone n="16" unit="section"/>
+					             <milestone n="16" unit="section" />
                </p>
 				           <p>
                   <reg>nunc</reg> quoniam, Quirites, consceleratissimi periculosissimique belli
@@ -1883,7 +1783,7 @@ Added to repository. Passes TEI parse.
 					certas res conficiendas certos homines delectos ac descriptos habebat.
 						<reg>neque</reg> vero, cum aliquid mandarat, confectum putabat: nihil erat
 					quod non ipse obiret, occurreret, vigilaret, laboraret; frigus, sitim, famem
-					ferre poterat. <milestone n="17" unit="section"/>
+					ferre poterat. <milestone n="17" unit="section" />
                   <reg>hunc</reg> ego hominem tam
 					acrem, tam audacem, tam paratum, tam callidum, tam in scelere vigilantem, tam in
 					perditis rebus diligentem nisi ex domesticis insidiis in castrense latrocinium
@@ -1917,9 +1817,9 @@ Added to repository. Passes TEI parse.
 					periculis rem publicam tanta pace, tanto otio, tanto silentio liberassemus.
 						</p>
             </div>
-            <div type="chapter" n="8">
+            <div n="8" type="chapter">
                <p>
-					             <milestone n="18" unit="section"/>
+					             <milestone n="18" unit="section" />
                </p>
 				           <p>
                   <reg>quamquam</reg> haec omnia, Quirites, ita sunt a me administrata ut deorum
@@ -1951,7 +1851,7 @@ Added to repository. Passes TEI parse.
                      </hi>:
 							<hi rend="italics">om. cett.</hi>
                   </note>, quod sum dicturus neque
-					praetermittendum neque relinquendum est. <milestone n="19" unit="section"/>
+					praetermittendum neque relinquendum est. <milestone n="19" unit="section" />
                   <reg>nam</reg> profecto memoria tenetis Cotta et Torquato consulibus
 					compluris in<note>in <hi rend="italics">tux</hi>: inde <hi rend="italics">o</hi>: de <hi rend="italics">cett.</hi>
                   </note> Capitolio res de caelo esse
@@ -1969,7 +1869,7 @@ Added to repository. Passes TEI parse.
 					tempore cum haruspices ex tota Etruria convenissent, caedis atque incendia et
 					legum interitum et bellum civile ac domesticum et totius urbis atque imperi
 					occasum appropinquare dixerunt, nisi di immortales omni ratione placati suo
-					numine prope fata ipsa flexissent. <milestone n="20" unit="section"/>
+					numine prope fata ipsa flexissent. <milestone n="20" unit="section" />
                   <reg>itaque</reg> illorum responsis tum et ludi per decem dies facti sunt
 					neque res ulla quae ad placandos deos pertineret praetermissa est.
 						<reg>idemque</reg> iusserunt simulacrum Iovis facere maius et in
@@ -1992,7 +1892,7 @@ Added to repository. Passes TEI parse.
                   </note>; sed tanta fuit operis tarditas ut neque
 					superioribus consulibus neque nobis ante hodiernum diem conlocaretur. </p>
             </div>
-            <div type="chapter" n="9">
+            <div n="9" type="chapter">
                <p>
 					             <reg>hic</reg> quis<note>quis <hi rend="italics">h</hi>
                      <foreign xml:lang="grc">g</foreign>: qui <foreign xml:lang="grc">ab</foreign>
@@ -2000,7 +1900,7 @@ Added to repository. Passes TEI parse.
 						esse<note>esse <foreign xml:lang="grc">a</foreign>
                      <hi rend="italics">h,
 							Priscian. K.</hi> iii. 277: esse, Quirites <foreign xml:lang="grc">bg</foreign>
-                  </note> tam aversus a vero, <milestone n="21" unit="section"/>tam praeceps, tam mente captus qui neget haec omnia quae
+                  </note> tam aversus a vero, <milestone n="21" unit="section" />tam praeceps, tam mente captus qui neget haec omnia quae
 					videmus praecipueque hanc urbem deorum immortalium nutu ac potestate
 					administrari? <reg>etenim</reg> cum esset ita responsum, caedis, incendia,
 					interitum rei publicae comparari, et ea per civis<note>
@@ -2023,7 +1923,7 @@ Added to repository. Passes TEI parse.
                      <foreign xml:lang="grc">b</foreign>
                   </note> omnium cogitata<note>cogitata <hi rend="italics">post</hi> erant <hi rend="italics">hab. bs</hi>
                   </note> inlustrata et
-					patefacta vidistis. <milestone n="22" unit="section"/>
+					patefacta vidistis. <milestone n="22" unit="section" />
                   <reg>quo</reg> etiam
 					maiore sunt isti odio supplicioque digni qui non solum vestris domiciliis atque
 					tectis sed etiam deorum templis atque delubris sunt funestos ac nefarios ignis
@@ -2051,9 +1951,9 @@ Added to repository. Passes TEI parse.
 					esse factum putatis, praesertim qui nos non pugnando sed tacendo superare
 						potuerunt<note>potuerint <hi rend="italics">Madvig</hi> (<hi rend="italics">sed cf. Zielinski p.</hi> 202)</note>? </p>
             </div>
-            <div type="chapter" n="10">
+            <div n="10" type="chapter">
                <p>
-					             <milestone n="23" unit="section"/>
+					             <milestone n="23" unit="section" />
                </p>
 				           <p>
                   <reg>quam</reg> ob rem, Quirites, quoniam ad omnia pulvinaria supplicatio decreta
@@ -2065,7 +1965,7 @@ Added to repository. Passes TEI parse.
 						               <foreign xml:lang="grc">b</foreign>
                   </note> sine caede, sine sanguine, sine
 					exercitu, sine dimicatione; togati me uno togato duce et imperatore vicistis.
-						<reg>etenim</reg> recordamini, <milestone n="24" unit="section"/>Quirites,
+						<reg>etenim</reg> recordamini, <milestone n="24" unit="section" />Quirites,
 					omnis civilis dissensiones, non solum eas quas audistis sed eas quas vosmet ipsi
 					meministis atque vidistis. <abbr expan="Lucius">L.</abbr> Sulla <abbr expan="Publium">P.</abbr> Sulpicium oppressit<note>
                      <lemma>oppressit</lemma>
@@ -2085,7 +1985,7 @@ Added to repository. Passes TEI parse.
 					             <abbr expan="Marcus">M.</abbr> Lepidus a clarissimo et fortissimo<note>ac
 						fortissimo <hi rend="italics">t sol.</hi>
                   </note> viro <abbr expan="Quinto">Q.</abbr> Catulo: attulit non tam ipsius interitus rei publicae luctum quam
-					ceterorum. <milestone n="25" unit="section"/>
+					ceterorum. <milestone n="25" unit="section" />
                   <del>
                      <reg>atque</reg> illae tamen
 						omnes</del>
@@ -2115,9 +2015,9 @@ Added to repository. Passes TEI parse.
 						Quirites (q. <hi rend="italics">l</hi>) <foreign xml:lang="grc">b</foreign>
                   </note> servavi. </p>
             </div>
-            <div type="chapter" n="11">
+            <div n="11" type="chapter">
                <p>
-					             <milestone n="26" unit="section"/>
+					             <milestone n="26" unit="section" />
                   <reg>quibus</reg> pro tantis rebus,
 						Quirites<note>Quirites <hi rend="italics">om. C</hi>1</note>, nullum ego a
 					vobis praemium virtutis, nullum insigne honoris, nullum monumentum laudis
@@ -2148,9 +2048,9 @@ Added to repository. Passes TEI parse.
                   </note>
 					imperi domicilium sedisque servaret. </p>
             </div>
-            <div type="chapter" n="12">
+            <div n="12" type="chapter">
                <p>
-					             <milestone n="27" unit="section"/>
+					             <milestone n="27" unit="section" />
                   <reg>sed</reg> quoniam earum rerum quas ego
 					gessi non eadem est fortuna atque condicio quae illorum qui externa bella
 					gesserunt, quod mihi cum eis<note>
@@ -2171,7 +2071,7 @@ Added to repository. Passes TEI parse.
                      <foreign xml:lang="grc">b</foreign>
                      <hi rend="italics">o</hi>: se ipsi <hi rend="italics">cett.</hi>
                   </note>
-					indicabunt. <milestone n="28" unit="section"/>
+					indicabunt. <milestone n="28" unit="section" />
                   <reg>est</reg>
 							enim<note>
                      <lemma>enim</lemma> etiam <hi rend="italics">tux</hi>
@@ -2193,7 +2093,7 @@ Added to repository. Passes TEI parse.
 					altius quo mihi libeat ascendere? <reg>illud</reg> perficiam
 						profecto<note>profecto perficiam <foreign xml:lang="grc">b</foreign>
                   </note>,
-						<milestone n="29" unit="section"/>Quirites, ut ea quae gessi in consulatu
+						<milestone n="29" unit="section" />Quirites, ut ea quae gessi in consulatu
 					privatus tuear atque ornem, ut, si qua est invidia in<note>in <hi rend="italics">om.</hi>
 						               <foreign xml:lang="grc">b</foreign>
                   </note> conservanda re publica suscepta,
@@ -2214,11 +2114,11 @@ Added to repository. Passes TEI parse.
 			         </div>
          </div>
 
-			      <div type="Speech" n="4">
+			      <div n="4" type="Speech">
 				           <head>IN L. CATILINAM ORATIO QVARTA HABITA IN SENATV</head>
 				        
-            <div type="chapter" n="1">
-				           <milestone n="1" unit="section"/>
+            <div n="1" type="chapter">
+				           <milestone n="1" unit="section" />
 				           <p>
                   <reg>video</reg>, patres conscripti, in me omnium vestrum ora atque oculos esse
 					conversos, video vos non solum de vestro ac rei publicae verum etiam, si id
@@ -2228,7 +2128,7 @@ Added to repository. Passes TEI parse.
 						<reg>mihi</reg> si haec condicio consulatus data est ut omnis acerbitates,
 					omnis dolores cruciatusque perferrem, feram non solum fortiter verum etiam
 					libenter, dum modo meis laboribus vobis populoque Romano dignitas salusque
-					pariatur. <milestone n="2" unit="section"/>
+					pariatur. <milestone n="2" unit="section" />
                   <reg>ego</reg> sum ille consul,
 					patres conscripti, cui non forum in quo omnis aequitas continetur, non campus
 					consularibus auspiciis consecratus, non curia, summum auxilium omnium gentium,
@@ -2250,9 +2150,9 @@ Added to repository. Passes TEI parse.
 					laeter meum consulatum ad salutem populi Romani prope fatalem exstitisse?
 						</p>
             </div>
-            <div type="chapter" n="2">
+            <div n="2" type="chapter">
                <p>
-					             <milestone n="3" unit="section"/>
+					             <milestone n="3" unit="section" />
                   <reg>qua</reg> re, patres conscripti, consulite
 					vobis, prospicite patriae, conservate vos, coniuges, liberos fortunasque
 					vestras, populi Romani nomen salutemque defendite; mihi parcere ac de me
@@ -2275,7 +2175,7 @@ Added to repository. Passes TEI parse.
 					si me vis aliqua oppresserit, potius quam et<note>
                      <lemma>quam et</lemma>
 						               <hi rend="italics">fort.</hi> quam ut et</note> illi et nos una rei publicae
-					peste pereamus. <milestone n="4" unit="section"/>
+					peste pereamus. <milestone n="4" unit="section" />
                   <reg>qua</reg> re, patres
 					conscripti, incumbite ad salutem rei publicae, circumspicite omnis procellas
 					quae impendent nisi providetis. <reg>non</reg>
@@ -2296,9 +2196,9 @@ Added to repository. Passes TEI parse.
 					Romani nomen atque ad lamentandam tanti imperi calamitatem relinquatur.
 						</p>
             </div>
-            <div type="chapter" n="3">
+            <div n="3" type="chapter">
                <p>
-					             <milestone n="5" unit="section"/>
+					             <milestone n="5" unit="section" />
                   <reg>haec</reg> omnia indices detulerunt, rei
 					confessi sunt, vos multis iam iudiciis iudicavistis, primum quod mihi gratias
 					egistis singularibus verbis et mea virtute atque diligentia perditorum hominum
@@ -2310,7 +2210,7 @@ Added to repository. Passes TEI parse.
 					amplissima. <reg>quae</reg> sunt omnia eius modi ut ei<note>ut ei (i <hi rend="italics">A</hi>) <hi rend="italics">Ah</hi>: uti (ut <hi rend="italics">o</hi>) <hi rend="italics">cett.</hi>
                   </note> qui in
 					custodiam nominatim dati sunt sine ulla dubitatione a vobis damnati esse
-					videantur. <milestone n="6" unit="section"/>
+					videantur. <milestone n="6" unit="section" />
                </p>
 				           <p>
                   <reg>sed</reg> ego institui referre ad vos, patres conscripti, tamquam
@@ -2332,9 +2232,9 @@ Added to repository. Passes TEI parse.
                   </note> prolatando nullo pacto potest;
 					quacumque ratione placet celeriter vobis vindicandum est. </p>
             </div>
-            <div type="chapter" n="4">
+            <div n="4" type="chapter">
                <p>
-					             <milestone n="7" unit="section"/>
+					             <milestone n="7" unit="section" />
                   <reg>video</reg> duas adhuc esse sententias,
 					unam D. Silani qui censet eos qui haec delere conati sunt morte esse multandos,
 					alteram <abbr expan="Gaii">C.</abbr> Caesaris qui mortis poenam removet,
@@ -2358,7 +2258,7 @@ Added to repository. Passes TEI parse.
                   </note>. <reg>vincula</reg> vero et ea sempiterna certe ad
 					singularem poenam nefarii sceleris inventa sunt. <reg>municipiis</reg>
 					dispertiri iubet. <reg>habere</reg> videtur ista res iniquitatem, si imperare
-					velis, difficultatem, si rogare. <milestone n="8" unit="section"/>
+					velis, difficultatem, si rogare. <milestone n="8" unit="section" />
                   <reg>decernatur</reg> tamen, si placet. <reg>ego</reg> enim suscipiam et,
 					ut spero, reperiam qui id quod salutis omnium causa statueritis non
 						putent<note>putent <hi rend="italics">Ernesti</hi>: putet <hi rend="italics">codd.</hi>
@@ -2385,9 +2285,9 @@ Added to repository. Passes TEI parse.
 					antiqui supplicia impiis constituta esse voluerunt, quod videlicet intellegebant
 					his remotis non esse mortem ipsam pertimescendam. </p>
             </div>
-            <div type="chapter" n="5">
+            <div n="5" type="chapter">
                <p>
-					             <milestone n="9" unit="section"/>
+					             <milestone n="9" unit="section" />
                </p>
 				           <p>
                   <reg>nunc</reg>, patres conscripti, ego mea video quid intersit. <reg>si</reg>
@@ -2403,7 +2303,7 @@ Added to repository. Passes TEI parse.
 					sicut ipsius dignitas et maiorum eius amplitudo postulabat, sententiam tamquam
 					obsidem perpetuae in rem publicam voluntatis. <reg>intellectum</reg> est quid
 					interesset inter levitatem contionatorum et animum vere popularem saluti populi
-					consulentem. <milestone n="10" unit="section"/>
+					consulentem. <milestone n="10" unit="section" />
                   <reg>video</reg> de istis qui se
 					popularis haberi volunt abesse non neminem, ne de capite videlicet civium
 					Romanorum sententiam ferat. <reg>is</reg> et<note>
@@ -2434,9 +2334,9 @@ Added to repository. Passes TEI parse.
 					esse possit. <reg>adiungit</reg> etiam publicationem bonorum, ut omnis animi
 					cruciatus et corporis etiam egestas ac mendicitas consequatur. </p>
             </div>
-            <div type="chapter" n="6">
+            <div n="6" type="chapter">
                <p>
-					             <milestone n="11" unit="section"/>
+					             <milestone n="11" unit="section" />
                </p>
 				           <p>
                   <reg>quam</reg> ob rem, sive hoc statueritis, dederitis mihi comitem ad contionem
@@ -2467,7 +2367,7 @@ Added to repository. Passes TEI parse.
 							<hi rend="italics">cett.</hi>
                   </note> miseros atque insepultos acervos
 					civium, versatur mihi ante oculos aspectus Cethegi et furor in vestra caede
-					bacchantis. <milestone n="12" unit="section"/>
+					bacchantis. <milestone n="12" unit="section" />
                   <reg>cum</reg> vero mihi proposui
 					regnantem Lentulum, sicut ipse se<note>se <hi rend="italics">om. ah, post</hi>
 						fatis <hi rend="italics">hab.</hi>
@@ -2501,7 +2401,7 @@ Added to repository. Passes TEI parse.
 					conlocarent, si vehementissimi fuerimus, misericordes habebimur; sin remissiores
 					esse voluerimus, summae<note>summae <hi rend="italics">l</hi>1<foreign xml:lang="grc">g</foreign>: summa <hi rend="italics">cett.</hi>
                   </note>
-					nobis crudelitatis in patriae civiumque pernicie fama subeunda est. <milestone n="13" unit="section"/>Nisi vero cuipiam <abbr expan="Lucius">L.</abbr>
+					nobis crudelitatis in patriae civiumque pernicie fama subeunda est. <milestone n="13" unit="section" />Nisi vero cuipiam <abbr expan="Lucius">L.</abbr>
 					Caesar, vir fortissimus et amantissimus rei publicae, crudelior nudius tertius
 					visus est, cum sororis suae, feminae lectissimae<note>lectissimae <hi rend="italics">C</hi>2: electissimae <hi rend="italics">C1
 						cett.</hi>
@@ -2546,9 +2446,9 @@ Added to repository. Passes TEI parse.
 					quam ne severitate animadversionis nimis vehementes in acerbissimos hostis
 					fuisse videamur. </p>
             </div>
-            <div type="chapter" n="7">
+            <div n="7" type="chapter">
                <p>
-					             <milestone n="14" unit="section"/>
+					             <milestone n="14" unit="section" />
                </p>
 				           <p>
                   <reg>sed</reg> ea quae exaudio, patres conscripti, dissimulare non possum.
@@ -2577,7 +2477,7 @@ Added to repository. Passes TEI parse.
                      <hi rend="italics">tu</hi>: sentiunt <foreign xml:lang="grc">b</foreign>: sentire videmus <hi rend="italics">Nohl</hi>
 							(<hi rend="italics">cf.</hi> § 19)</note> unum atque idem praeter eos
 					qui, cum sibi viderent esse pereundum, cum omnibus potius quam soli perire
-					voluerunt. <milestone n="15" unit="section"/>
+					voluerunt. <milestone n="15" unit="section" />
                   <reg>hosce</reg> ego homines
 					excipio et secerno libenter, neque in improborum civium sed in acerbissimorum
 					hostium numero habendos puto. <reg>ceteri</reg> vero, di immortales! qua
@@ -2591,7 +2491,7 @@ Added to repository. Passes TEI parse.
 					partem esse venturum. Pari studio defendendae rei publicae convenisse video
 					tribunos aerarios, fortissimos viros; scribas item universos quos, cum casu hic
 					dies ad aerarium frequentasset, video ab exspectatione sortis ad salutem
-					communem esse conversos. <milestone n="16" unit="section"/>
+					communem esse conversos. <milestone n="16" unit="section" />
                   <reg>omnis</reg>
 					ingenuorum adest multitudo, etiam tenuissimorum. <reg>quis</reg> est enim cui
 					non haec templa, aspectus urbis, possessio libertatis, lux denique haec ipsa
@@ -2604,7 +2504,7 @@ Added to repository. Passes TEI parse.
                   </note> sit carum tum vero dulce atque
 					iucundum? </p>
             </div>
-            <div type="chapter" n="8">
+            <div n="8" type="chapter">
                <p>
 					             <reg>operae</reg> pretium est, patres conscripti, libertinorum hominum studia
 					cognoscere qui, sua virtute fortunam huius civitatis consecuti,
@@ -2645,7 +2545,7 @@ Added to repository. Passes TEI parse.
 						               <foreign xml:lang="grc">b</foreign>
                      <hi rend="italics">h, ante</hi> salutem
 							<hi rend="italics">x</hi>
-                  </note> voluntatis. <milestone n="17" unit="section"/>
+                  </note> voluntatis. <milestone n="17" unit="section" />
                   <reg>qua</reg> re si quem vestrum forte commovet hoc quod
 					auditum est, lenonem quendam Lentuli concursare circum tabernas, pretio sperare
 					sollicitari posse animos egentium atque imperitorum, est id quidem coeptum atque
@@ -2662,12 +2562,12 @@ Added to repository. Passes TEI parse.
 					— genus hoc universum amantissimum est oti. <reg>etenim</reg> omne instrumentum,
 					omnis opera atque quaestus frequentia civium sustentatur, alitur otio; quorum si
 					quaestus occlusis tabernis minui solet, quid tandem incensis futurum fuit?
-						<milestone n="18" unit="section"/>
+						<milestone n="18" unit="section" />
                   <reg>quae</reg> cum ita sint, patres
 					conscripti, vobis populi Romani praesidia non desunt: vos ne populo Romano
 					deesse videamini providete. </p>
             </div>
-            <div type="chapter" n="9">
+            <div n="9" type="chapter">
                <p>
 					             <reg>habetis</reg> consulem ex plurimis periculis et insidiis atque ex media
 					morte non ad vitam suam sed ad salutem vestram reservatum. <reg>omnes</reg>
@@ -2684,7 +2584,7 @@ Added to repository. Passes TEI parse.
 					commendat. <reg>praeterea</reg> de vestra vita, de coniugum vestrarum atque
 					liberorum anima, de fortunis omnium<note>omnibus <hi rend="italics">x</hi>
                   </note>, de sedibus, de focis vestris hodierno die vobis iudicandum
-					est. <milestone n="19" unit="section"/>
+					est. <milestone n="19" unit="section" />
                   <reg>habetis</reg> ducem memorem vestri,
 					oblitum sui, quae non semper facultas datur; habetis omnis ordines, omnis
 					homines, universum populum Romanum, id quod in civili causa hodierno die primum
@@ -2703,9 +2603,9 @@ Added to repository. Passes TEI parse.
 					excitarem, locutus sum, sed ut mea vox quae debet esse in re publica princeps
 					officio functa consulari videretur. </p>
             </div>
-            <div type="chapter" n="10">
+            <div n="10" type="chapter">
                <p>
-					             <milestone n="20" unit="section"/>
+					             <milestone n="20" unit="section" />
                </p>
 				           <p>
                   <reg>nunc</reg> ante quam ad sententiam redeo, de me pauca dicam. <reg>ego</reg>,
@@ -2733,7 +2633,7 @@ Added to repository. Passes TEI parse.
                   </note>, mihi uni conservata
 					re publica<note>conservatae rei p. <hi rend="italics">V</hi>
                      <foreign xml:lang="grc">b</foreign>
-                  </note> gratulationem decrevistis. <milestone n="21" unit="section"/>
+                  </note> gratulationem decrevistis. <milestone n="21" unit="section" />
                   <reg>sit</reg> Scipio clarus ille cuius consilio
 					atque virtute Hannibal in Africam redire atque Italia<note>ex Italia <foreign xml:lang="grc">b</foreign>
                   </note> decedere coactus est, ornetur alter
@@ -2745,7 +2645,7 @@ Added to repository. Passes TEI parse.
 					regionibus ac terminis continentur: erit profecto inter horum laudes aliquid
 					loci nostrae gloriae, nisi forte maius est patefacere nobis provincias quo exire
 					possimus quam curare ut etiam illi qui absunt habeant quo victores revertantur.
-						<milestone n="22" unit="section"/>
+						<milestone n="22" unit="section" />
                   <reg>quamquam</reg> est uno loco condicio
 					melior externae victoriae quam domesticae, quod hostes alienigenae aut oppressi
 					serviunt aut recepti<note>
@@ -2767,9 +2667,9 @@ Added to repository. Passes TEI parse.
 					vestram equitumque Romanorum et tantam conspirationem bonorum omnium confringere
 					et labefactare possit. </p>
             </div>
-            <div type="chapter" n="11">
+            <div n="11" type="chapter">
                <p>
-					             <milestone n="23" unit="section"/>
+					             <milestone n="23" unit="section" />
                </p>
 				           <p>
                   <reg>quae</reg> cum ita sint, pro imperio, pro exercitu, pro provincia quam
@@ -2791,7 +2691,7 @@ Added to repository. Passes TEI parse.
                   </note> periculo conservarit illum filium esse<note>esse
 						filium <hi rend="italics">Zielinski</hi>
                   </note> memineritis.
-						<reg>quapropter</reg> de summa salute vestra populique Romani, <milestone n="24" unit="section"/>de vestris coniugibus ac liberis, de aris ac focis,
+						<reg>quapropter</reg> de summa salute vestra populique Romani, <milestone n="24" unit="section" />de vestris coniugibus ac liberis, de aris ac focis,
 					de fanis atque templis, de totius urbis tectis ac sedibus, de imperio ac
 					libertate, de salute Italiae, de universa re publica decernite diligenter, ut
 					instituistis, ac fortiter. <reg>habetis</reg> eum consulem qui et parere vestris

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
 	<teiHeader type="text">
 
 		<fileDesc>
@@ -49,10 +49,10 @@
 		<encodingDesc>
 
 			<refsDecl>
-				<refState unit="speech"/>
-				<refState unit="section"/>
+				<refState unit="speech" />
+				<refState unit="section" />
 			</refsDecl>
-		</encodingDesc>
+		<refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts section</p></cRefPattern></refsDecl></encodingDesc>
 		<profileDesc>
 			<langUsage>
 				<language ident="greek">Greek </language>
@@ -61,17 +61,7 @@
 		</profileDesc>
 
 		<revisionDesc>
-			<!--
-<change>
-<date>3/31/92</date><respStmt><name>W. Merrill</name><resp>(n/a)</resp></respStmt><item>Removed caps from non-proper nouns at beginnings of sections and paragraphs, Demosthenes 1-64.</item>
-</change>
-<change>
-<date>6/2/92</date><respStmt><name>David Smith</name><resp>(n/a)</resp></respStmt><item>fixed corrupt passage in 7.33-34, took out line-break hyphens, inserted quotedtext tag around verse</item>
-</change>
-<change><date>July 2014</date>
-    <respStmt><name>Stella Dee</name><resp>ed.</resp></respStmt>
-    <item>split composite text and converted to unicode</item>
-      </change>-->
+			
 			<change when="2014-08-01" who="Stella Dee">edited markup</change>
 		</revisionDesc>
 

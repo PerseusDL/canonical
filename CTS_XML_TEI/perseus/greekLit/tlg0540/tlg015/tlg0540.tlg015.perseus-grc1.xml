@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
 <teiHeader status="new" type="text">
 <fileDesc>
  <titleStmt>
@@ -37,13 +37,13 @@
 </fileDesc>
 <encodingDesc>
  <refsDecl doctype="TEI.2">
-    <state unit="speech"/>
-    <state unit="section"/>
+    <state unit="speech" />
+    <state unit="section" />
  </refsDecl>
-</encodingDesc>
+<refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts section</p></cRefPattern></refsDecl></encodingDesc>
 <profileDesc>
  <langUsage>
-    <language usage="100" id="greek">Greek </language>
+    <language id="greek" usage="100">Greek </language>
     <language id="en">English </language>
  </langUsage>
 </profileDesc>
@@ -100,48 +100,45 @@
 </teiHeader>
 <text xml:lang="grc">
       <body>
-            <milestone unit="part" n="Intro"/>
-            <div type="section" n="1">
+            <milestone n="Intro" unit="part" />
+            <div n="1" type="section">
                <p>
-                  <milestone unit="para" ed="P"/>ἐγὼ μέν, ὦ ἄνδρες δικασταί, καὶ ὑμᾶς αἰτοῦμαι τὰ
+                  <milestone ed="P" unit="para" />ἐγὼ μέν, ὦ ἄνδρες δικασταί, καὶ ὑμᾶς αἰτοῦμαι τὰ
                   δίκαια ψηφίσασθαι, καὶ τῶν στρατηγῶν δέομαι, ἐπεὶ καὶ ἐν τῇ ἄλλῃ ἀρχῇ πολλοῦ ἄξιοι
                   τῇ πόλει γεγόνασι, καὶ τῶν τῆς ἀστρατείας γραφῶν κοινοὺς εἶναι τῷ τε διώκοντι καὶ
                   τῷ φεύγοντι, καὶ μὴ βοηθοῦντας ᾧ ἂν βούλωνται πᾶσαν προθυμίαν ἔχειν παρὰ τὸ
-                  δίκαιον ὑμᾶς ψηφίσασθαι, <milestone unit="part" n="Narr"/>
-                  <milestone unit="part" n="Proof"/>
+                  δίκαιον ὑμᾶς ψηφίσασθαι, <milestone n="Narr" unit="part" />
+                  <milestone n="Proof" unit="part" />
                </p>
             </div>
-            <div type="section" n="2">
+            <div n="2" type="section">
                <p>ἐνθυμουμένους ὅτι σφόδρʼ ἂν ἠγανακτεῖτε, εἰ <add>ἐν</add>
-                  <note resp="Loeb" anchored="yes">
+                  <note anchored="yes" resp="Loeb">
                      <foreign lang="greek">ἐν</foreign> add. Reiske</note> τῇ ὑμετέρᾳ δοκιμασίᾳ οἱ
                   θεσμοθέται ἀναβάντες ὑμῶν ἐδέοντο καταψηφίσασθαι, ἡγούμενοι δεινὸν εἶναι εἰ οἱ
-                  τιθέντες τὸν ἀγῶνα καὶ τὴν ψῆφον διδόντες<note resp="Loeb" anchored="yes">
-                     <foreign lang="greek">διδόντες</foreign> Taylor: <foreign lang="greek"
-                        >διαδιδόντες</foreign> MSS.</note> παρακελεύσονται τῶν μὲν μὴ
+                  τιθέντες τὸν ἀγῶνα καὶ τὴν ψῆφον διδόντες<note anchored="yes" resp="Loeb">
+                     <foreign lang="greek">διδόντες</foreign> Taylor: <foreign lang="greek">διαδιδόντες</foreign> MSS.</note> παρακελεύσονται τῶν μὲν μὴ
                      <add>καταψηφίζεσθαι τῶν δὲ</add>
-                  <note resp="Loeb" anchored="yes">
+                  <note anchored="yes" resp="Loeb">
                      <foreign lang="greek">καταψηφίζεσθαι τῶν δὲ</foreign> add. Baiter et
                      Sauppe</note> καταψηφίζεσθαι. </p>
             </div>
-            <div type="section" n="3">
+            <div n="3" type="section">
                <p>τί δʼ ἂν αἴσχιον ἔθος ἢ δεινότερον πρᾶγμα τούτου <add>ἐν</add>
-                  <note resp="Loeb" anchored="yes">
+                  <note anchored="yes" resp="Loeb">
                      <foreign lang="greek">ἐν</foreign> add. Frohberger</note> τῇ πόλει γένοιτο, εἰ
-                  τολμήσει ὁ μὲν ἄρχων ἐν ταῖς<note resp="Loeb" anchored="yes">
-                     <foreign lang="greek">ἐν ταῖς</foreign> Reiske: <foreign lang="greek"
-                        >ἐμβὰς</foreign> MSS.</note> τῶν ἐπικλήρων δίκαις ἀντιβολεῖν καὶ ἱκετεύειν
+                  τολμήσει ὁ μὲν ἄρχων ἐν ταῖς<note anchored="yes" resp="Loeb">
+                     <foreign lang="greek">ἐν ταῖς</foreign> Reiske: <foreign lang="greek">ἐμβὰς</foreign> MSS.</note> τῶν ἐπικλήρων δίκαις ἀντιβολεῖν καὶ ἱκετεύειν
                   τοὺς δικαστὰς ὅ τι ἂν βούληται πραχθῆναι, ὁ δὲ πολέμαρχος καὶ οἱ ἕνδεκα δεήσονται
                   ἐν ταῖς δίκαις ταῖς ὑφʼ ἑαυτῶν εἰσαγομέναις, </p>
             </div>
-            <div type="section" n="4">
+            <div n="4" type="section">
                <p>ὥσπερ καὶ νῦν; χρὴ τοίνυν καὶ ὑπὲρ ὑμῶν αὐτῶν τὴν γνώμην ἔχειν, ἐνθυμουμένους ὅτι
-                  οὐδὲν διοίσει<note resp="Loeb" anchored="yes">
-                     <foreign lang="greek">διοίσει</foreign> Bekker: <foreign lang="greek"
-                        >δεήσει</foreign> MSS.</note> ὑμᾶς ἰδίᾳ περὶ τῆς ἀστρατείας βοηθεῖν, ἢ
+                  οὐδὲν διοίσει<note anchored="yes" resp="Loeb">
+                     <foreign lang="greek">διοίσει</foreign> Bekker: <foreign lang="greek">δεήσει</foreign> MSS.</note> ὑμᾶς ἰδίᾳ περὶ τῆς ἀστρατείας βοηθεῖν, ἢ
                   τούτων τινὰς δεῖσθαι αὐτοὺς τὴν ψῆφον διδόντας. </p>
             </div>
-            <div type="section" n="5">
+            <div n="5" type="section">
                <p>σκέψασθε δέ, ὦ ἄνδρες δικασταί, ἐὰν ἱκανὸν γένηται τεκμήριον ὅτι οὐδείς πω τῶν
                   ἀρχόντων ἐν τῷ στρατοπέδῳ Ἀλκιβιάδῃ ἦν παρεσκευασμένος. ἐχρῆν γὰρ αὐτούς, εἴπερ
                   ἀληθῆ λέγουσιν, ἀνακαλεῖν μὲν Πάμφιλον, ὅτι ἀφαιρῶν τὸν ἵππον ἱππέως ἀπεστέρει τὴν
@@ -149,56 +146,52 @@
                   ἐποίει τὴν τούτων τάξιν, κελεύειν δὲ τὸν ταξίαρχον ἐξαλείφειν αὐτὸν ἐκ τοῦ τῶν
                   ὁπλιτῶν καταλόγου. </p>
             </div>
-            <div type="section" n="6">
+            <div n="6" type="section">
                <p>νῦν δὲ τούτων οὐδὲν ἐποίησαν, ἀλλʼ ἐν μὲν τῷ στρατοπέδῳ περιεώρων αὐτὸν ὑπὸ πάντων
                   προπηλακιζόμενον κἀν τοῖς ἱπποτοξόταις ἱππεύοντα, ἐπειδὴ δὲ ὑμᾶς δεῖ παρὰ τῶν
                   ἀδικούντων δίκην λαμβάνειν, χαριζόμενοι μαρτυροῦσιν ὑφʼ ἑαυτῶν αὐτὸν τετάχθαι.
                   καίτοι δεινόν, ὦ ἄνδρες δικασταί, αὐτοὺς μὲν τοὺς στρατηγοὺς ὑπὸ τοῦ δήμου
                   χειροτονηθέντας μὴ ἂν τολμῆσαι πρότερον ἡμῶν ἡγήσασθαι, ἕως <del>ἂν</del>
-                  <note resp="Loeb" anchored="yes">
+                  <note anchored="yes" resp="Loeb">
                      <foreign lang="greek">ἂν</foreign> del. Dobree</note> ἐδοκιμάσθησαν κατὰ τοὺς
                   νόμους, Ἀλκιβιάδην δὲ τολμᾶν παρὰ τοὺς τῆς πόλεως νόμους ὑπʼ αὐτῶν ταχθῆναι. </p>
             </div>
-            <div type="section" n="7">
+            <div n="7" type="section">
                <p>δεινὸν δέ μοι δοκεῖ εἶναι, ὦ ἄνδρες δικασταί, εἰ τῶν μὲν δεδοκιμασμένων ἱππέων οὐκ
                   ἐπὶ τούτοις ἐστὶν ὅντινα βούλονται αὐτοὶ εἰς τοὺς ὁπλίτας καταλέξαι, τῶν δὲ
                   ὁπλιτῶν ἀδοκιμάστων ὄντων ἐπὶ τούτοις ἔσται ὅντινʼ ἂν βούλωνται ἱππεύειν. </p>
             </div>
-            <div type="section" n="8">
+            <div n="8" type="section">
                <p>εἰ μὲν τοίνυν, ὦ ἄνδρες δικασταί, ὄντες κύριοι πολλῶν βουλομένων μηδένα τῶν ἄλλων
                   ἱππεύειν εἴασαν, οὐκ ἂν δικαίως χαρίζοισθε αὐτοῖς· εἰ δʼ ἄκυροι ὄντες ὁμολογήσουσι
                   τάξαι, ἐνθυμεῖσθαι χρὴ ὅτι ὀμωμόκατε τὰ δίκαια γνώσεσθαι, ἀλλʼ οὐχ ὅ τι ἂν οὗτοι
                   κελεύωσι ψηφιεῖσθαι, ὥστε οὐδένα χρὴ τῶν δεομένων περὶ πλείονος ὑμῶν αὐτῶν καὶ τῶν
                   ὅρκων ποιεῖσθαι. </p>
             </div>
-            <div type="section" n="9">
-               <p>καὶ μὲν δή, ὦ ἄνδρες δικασταί, εἴ τῳ δοκεῖ μεγάλη ἡ ζημία<note resp="Loeb"
-                     anchored="yes">
-                     <foreign lang="greek">μεγάλη ἡ ζημία</foreign> Reiske: <foreign lang="greek"
-                        >μεγάλης ζημίας</foreign>.</note> εἶναι καὶ λίαν ἰσχυρὸς ὁ νόμος, μεμνῆσθαι
+            <div n="9" type="section">
+               <p>καὶ μὲν δή, ὦ ἄνδρες δικασταί, εἴ τῳ δοκεῖ μεγάλη ἡ ζημία<note anchored="yes" resp="Loeb">
+                     <foreign lang="greek">μεγάλη ἡ ζημία</foreign> Reiske: <foreign lang="greek">μεγάλης ζημίας</foreign>.</note> εἶναι καὶ λίαν ἰσχυρὸς ὁ νόμος, μεμνῆσθαι
                   χρὴ ὅτι οὐ νομοθετήσοντες περὶ αὐτῶν ἥκετε, ἀλλὰ κατὰ τοὺς κειμένους νόμους
                   ψηφιούμενοι, οὐδὲ τοὺς ἀδικοῦντας ἐλεήσοντες, ἀλλὰ πολὺ μᾶλλον αὐτοῖς ὀργιούμενοι
                   καὶ ὅλῃ τῇ πόλει βοηθήσοντες, εὖ εἰδότες ὅτι ὑπὲρ τῶν παρεληλυθότων ὀλίγους
                   τιμωρησάμενοι πολλοὺς ποιήσετε κοσμιωτέρους ἐν τοῖς μέλλουσι κινδυνεύειν. </p>
             </div>
-            <div type="section" n="10">
+            <div n="10" type="section">
                <p>χρὴ δέ, ὦ ἄνδρες δικασταί, ὥσπερ οὗτος ἀμελήσας τῆς πόλεως τὴν αὑτοῦ σωτηρίαν
                   ἐσκέψατο, οὕτως ὑμᾶς ἀμελήσαντας τούτου τῇ πόλει τὰ βέλτιστα ψηφίσασθαι, ἄλλως τε
                   καὶ ὅρκους ὀμωμοκότας καὶ περὶ Ἀλκιβιάδου μέλλοντας ψηφίσασθαι, ὃς ἐὰν ὑμᾶς
                   ἐξαπατήσῃ, καταγελῶν τῆς πόλεως ἄπεισιν· οὐ γὰρ δὴ χάριν γε ὑμῖν ἀποδώσει τῇ ψήφῳ
                   κρύβδην εὖ παθών, ὃς τῶν φίλων τοὺς φανερῶς αὐτὸν εὖ ποιήσαντας κακῶς ποιεῖ. </p>
             </div>
-            <div type="section" n="11">
-               <p>ὑμεῖς οὖν, ὦ ἄνδρες δικασταί, τὰς τούτων δεήσεις περὶ ἐλάττονος<note resp="Loeb"
-                     anchored="yes">
-                     <foreign lang="greek">ἐλάττονος</foreign> Markland: <foreign lang="greek"
-                        >ἐλαττόνων</foreign> MSS. <add>τῶν νόμων</add> add. P. Mueller</note>
+            <div n="11" type="section">
+               <p>ὑμεῖς οὖν, ὦ ἄνδρες δικασταί, τὰς τούτων δεήσεις περὶ ἐλάττονος<note anchored="yes" resp="Loeb">
+                     <foreign lang="greek">ἐλάττονος</foreign> Markland: <foreign lang="greek">ἐλαττόνων</foreign> MSS. <add>τῶν νόμων</add> add. P. Mueller</note>
                   ποιησάμενοι τὰ δίκαια ψηφίσασθε. ἀποδέδεικται δὲ καταλεγεὶς εἰς τοὺς ὁπλίτας καὶ
                   λιπὼν τὴν τάξιν καὶ τῶν νόμων κωλυόντων ἀδοκίμαστος ἱππεύσας, καὶ περὶ ὧν οἱ νόμοι
                   διαρρήδην οὔτε στρατηγὸν οὔτε ἵππαρχον οὔτε ἄλλον οὐδένα κυριώτερον ἐκείνων
                   ἀποδεικνύουσι, περὶ τούτων ἰδιώτης ὢν τὴν ἐξουσίαν αὑτῷ δεδωκώς. </p>
             </div>
-            <div type="section" n="12">
+            <div n="12" type="section">
                <p>ἐγὼ μὲν οὖν καὶ φίλῳ ὄντι Ἀρχεστρατίδῃ βοηθῶν, καὶ Ἀλκιβιάδην ἐχθρὸν ὄντα ἐμαυτοῦ
                   τιμωρούμενος, δέομαι τὰ δίκαια ψηφίσασθαι· ὑμᾶς δὲ χρὴ τὴν αὐτὴν γνώμην ἔχοντας
                   τὴν ψῆφον φέρειν, ἥνπερ ὅτε ᾤεσθε πρὸς τοὺς πολεμίους διακινδυνεύσειν.</p>

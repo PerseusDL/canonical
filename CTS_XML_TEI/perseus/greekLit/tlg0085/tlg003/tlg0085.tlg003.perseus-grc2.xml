@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
 <teiHeader type="text">
 <fileDesc>
 <titleStmt>
-<title type="work" n="PB">Prometheus Bound</title>
+<title n="PB" type="work">Prometheus Bound</title>
 <title type="sub">Machine readable text</title>
 <author n="Aesch.">Aeschylus</author>
-<editor role="editor" n="Smyth">Herbert Weir Smyth, Ph.D.</editor>
+<editor n="Smyth" role="editor">Herbert Weir Smyth, Ph.D.</editor>
 <sponsor>Perseus Project, Tufts University</sponsor>
 <principal>Gregory Crane</principal>
 <respStmt>
@@ -42,13 +41,13 @@
 </fileDesc>
 <encodingDesc>
 <refsDecl>
-<refState unit="line"/>
-<!-- <step refunit="line" from="DESCENDANT (1 L N%1)" to="DITTO"/> SS: I don't know what that means.-->
+<refState unit="line" />
+
 </refsDecl>
 <refsDecl>
-<refState unit="card"/>
+<refState unit="card" />
 </refsDecl>
-</encodingDesc>
+<refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div//tei:l[@n='$1'])"><p>This pointer pattern extracts line</p></cRefPattern></refsDecl></encodingDesc>
 <profileDesc>
 <langUsage>
 <language ident="grc">Greek</language>
@@ -63,9 +62,9 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 
 <text xml:lang="grc">
 <body>
-<div type="edition" n="urn:cts:greekLit:tlg0085.tlg003.perseus-grc2">
-<div type="textpart" subtype="episode">
-<milestone ed="p" n="1" unit="card"/>
+<div n="urn:cts:greekLit:tlg0085.tlg003.perseus-grc2" type="edition">
+<div subtype="episode" type="textpart">
+<milestone ed="p" n="1" unit="card" />
 <sp>
 <speaker>Κράτος</speaker>
 <l n="1">Χθονὸς μὲν ἐς τηλουρὸν ἥκομεν πέδον,</l>
@@ -90,7 +89,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="16">πάντως δʼ ἀνάγκη τῶνδέ μοι τόλμαν σχεθεῖν·</l>
 <l n="17">ἐξωριάζειν γὰρ πατρὸς λόγους βαρύ.</l>
 <l n="18">
-<milestone ed="P" unit="para"/>τῆς ὀρθοβούλου Θέμιδος αἰπυμῆτα παῖ,</l>
+<milestone ed="P" unit="para" />τῆς ὀρθοβούλου Θέμιδος αἰπυμῆτα παῖ,</l>
 <l n="19">ἄκοντά σʼ ἄκων δυσλύτοις χαλκεύμασι</l>
 <l n="20">προσπασσαλεύσω τῷδʼ ἀπανθρώπῳ πάγῳ</l>
 <l n="21">ἵνʼ οὔτε φωνὴν οὔτε του μορφὴν βροτῶν</l>
@@ -101,7 +100,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="26">ἀεὶ δὲ τοῦ παρόντος ἀχθηδὼν κακοῦ</l>
 <l n="27">τρύσει σʼ· ὁ λωφήσων γὰρ οὐ πέφυκέ πω.</l>
 <l n="28">
-<milestone ed="P" unit="para"/>τοιαῦτʼ ἐπηύρω τοῦ φιλανθρώπου τρόπου.</l>
+<milestone ed="P" unit="para" />τοιαῦτʼ ἐπηύρω τοῦ φιλανθρώπου τρόπου.</l>
 <l n="29">θεὸς θεῶν γὰρ οὐχ ὑποπτήσσων χόλον</l>
 <l n="30">βροτοῖσι τιμὰς ὤπασας πέρα δίκης.</l>
 <l n="31">ἀνθʼ ὧν ἀτερπῆ τήνδε φρουρήσεις πέτραν</l>
@@ -109,7 +108,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="33">πολλοὺς δʼ ὀδυρμοὺς καὶ γόους ἀνωφελεῖς</l>
 <l n="34">φθέγξῃ· Διὸς γὰρ δυσπαραίτητοι φρένες.</l>
 <l n="35">ἅπας δὲ τραχὺς ὅστις ἂν νέον κρατῇ.</l>
-<milestone ed="p" n="36" unit="card"/>
+<milestone ed="p" n="36" unit="card" />
 </sp>
 
 <sp>
@@ -197,7 +196,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <sp>
 <speaker>Ἥφαιστος</speaker>
 <l n="60">ἄραρεν ἥδε γʼ ὠλένη δυσεκλύτως.</l>
-<milestone ed="p" n="61" unit="card"/>
+<milestone ed="p" n="61" unit="card" />
 </sp>
 
 <sp>
@@ -284,7 +283,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="85">ψευδωνύμως σε δαίμονες Προμηθέα</l>
 <l n="86">καλοῦσιν· αὐτὸν γάρ σε δεῖ προμηθέως,</l>
 <l n="87">ὅτῳ τρόπῳ τῆσδʼ ἐκκυλισθήσῃ τέχνης.</l>
-<milestone ed="p" n="88" unit="card"/>
+<milestone ed="p" n="88" unit="card" />
 </sp>
 
 <sp>
@@ -297,10 +296,10 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="93">δέρχθηθʼ οἵαις αἰκείαισιν</l>
 <l n="94">διακναιόμενος τὸν μυριετῆ</l>
 </sp>
-<milestone ed="p" n="95" unit="card"/>
+<milestone ed="p" n="95" unit="card" />
 
 <sp n="*promhqeu/s">
-<!-- SS: what do we do sith the speach @n? -->
+
 <speaker>Προμηθεύς</speaker>
 <lg type="anapests">
 <l n="95">χρόνον ἀθλεύσω.</l>
@@ -309,7 +308,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="98">φεῦ φεῦ, τὸ παρὸν τό τʼ ἐπερχόμενον</l>
 <l n="99">πῆμα στενάχω, πῇ ποτε μόχθων</l>
 <l n="100">χρὴ τέρματα τῶνδʼ ἐπιτεῖλαι.</l>
-<milestone ed="p" n="101" unit="card"/>
+<milestone ed="p" n="101" unit="card" />
 <l n="101">καίτοι τί φημι; πάντα προυξεπίσταμαι</l>
 <l n="102">σκεθρῶς τὰ μέλλοντʼ, οὐδέ μοι ποταίνιον</l>
 <l n="103">πῆμʼ οὐδὲν ἥξει. τὴν πεπρωμένην δὲ χρὴ</l>
@@ -325,7 +324,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="113">ὑπαιθρίοις δεσμοῖς πεπασσαλευμένος.</l>
 </lg>
 </sp>
-<milestone ed="p" n="114" unit="card"/>
+<milestone ed="p" n="114" unit="card" />
 
 <sp n="*promhqeu/s">
 <speaker>Προμηθεύς</speaker>
@@ -339,7 +338,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="120">τὸν Διὸς ἐχθρόν, τὸν πᾶσι θεοῖς</l>
 </lg>
 </sp>
-<milestone ed="p" n="121" unit="card"/>
+<milestone ed="p" n="121" unit="card" />
 
 <sp n="*promhqeu/s">
 <speaker>Προμηθεύς</speaker>
@@ -354,12 +353,12 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 </lg>
 </sp>
 </div>
-<milestone ed="p" n="128" unit="card"/>
-<div type="textpart" subtype="choral">
+<milestone ed="p" n="128" unit="card" />
+<div subtype="choral" type="textpart">
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="strophe" n="1">
+<lg n="1" type="strophe">
 <l n="128">μηδὲν φοβηθῇς· φιλία</l>
 <l n="128.1" rend="128b">γὰρ ἅδε τάξις πτερύγων</l>
 <l n="129">θοαῖς ἁμίλλαις προσέβα</l>
@@ -371,7 +370,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="134">δʼ ἔπληξέ μου τὰν θεμερῶπιν αἰδῶ·</l>
 <l n="135">σύθην δʼ ἀπέδιλος ὄχῳ πτερωτῷ.</l>
 </lg>
-<milestone ed="p" n="136" unit="card"/>
+<milestone ed="p" n="136" unit="card" />
 </sp>
 
 <sp>
@@ -387,12 +386,12 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="143">σκοπέλοις ἐν ἄκροις</l>
 <l n="143.1" rend="143b">φρουρὰν ἄζηλον ὀχήσω.</l>
 </lg>
-<milestone ed="p" n="144" unit="card"/>
+<milestone ed="p" n="144" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="antistrophe" n="1">
+<lg n="1" type="antistrophe">
 <l n="144">λεύσσω, Προμηθεῦ· φοβερὰ</l>
 <l n="145">δʼ ἐμοῖσιν ὄσσοις ὀμίχλα</l>
 <l n="146">προσῇξε πλήρης δακρύων</l>
@@ -404,7 +403,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="150">δὲ δὴ νόμοις Ζεὺς ἀθέτως κρατύνει.</l>
 </lg>
 <l n="151">τὰ πρὶν δὲ πελώρια νῦν ἀιστοῖ.</l>
-<milestone ed="p" n="152" unit="card"/>
+<milestone ed="p" n="152" unit="card" />
 </sp>
 
 <sp>
@@ -419,12 +418,12 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="158">νῦν δʼ αἰθέριον κίνυγμʼ ὁ τάλας</l>
 <l n="159">ἐχθροῖς ἐπίχαρτα πέπονθα.</l>
 </lg>
-<milestone ed="p" n="160" unit="card"/>
+<milestone ed="p" n="160" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="strophe" n="2">
+<lg n="2" type="strophe">
 <l n="160">τίς ὧδε τλησικάρδιος</l>
 <l n="161">θεῶν, ὅτῳ τάδʼ ἐπιχαρῆ;</l>
 <l n="162">τίς οὐ ξυνασχαλᾷ κακοῖς</l>
@@ -434,7 +433,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="166">γένναν, οὐδὲ λήξει, πρὶν ἂν ἢ κορέσῃ κέαρ ἢ παλάμᾳ τινὶ</l>
 <l n="167">τὰν δυσάλωτον ἕλῃ τις ἀρχάν.</l>
 </lg>
-<milestone ed="p" n="168" unit="card"/>
+<milestone ed="p" n="168" unit="card" />
 </sp>
 
 <sp>
@@ -453,12 +452,12 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="178">ποινάς τε τίνειν</l>
 <l n="179">τῆσδʼ αἰκείας ἐθελήσῃ.</l>
 </lg>
-<milestone ed="p" n="180" unit="card"/>
+<milestone ed="p" n="180" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="antistrophe" n="2">
+<lg n="2" type="antistrophe">
 <l n="180">σὺ μὲν θρασύς τε καὶ πικραῖς</l>
 <l n="181">δύαισιν οὐδὲν ἐπιχαλᾷς,</l>
 <l n="182">ἄγαν δʼ ἐλευθεροστομεῖς.</l>
@@ -469,7 +468,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="187">σαντʼ ἐσιδεῖν· ἀκίχητα γὰρ ἤθεα καὶ κέαρ</l>
 <l n="188">ἀπαράμυθον ἔχει Κρόνου παῖς.</l>
 </lg>
-<milestone ed="p" n="189" unit="card"/>
+<milestone ed="p" n="189" unit="card" />
 </sp>
 
 
@@ -485,11 +484,11 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="194">εἰς ἀρθμὸν ἐμοὶ καὶ φιλότητα</l>
 <l n="195">σπεύδων σπεύδοντί ποθʼ ἥξει.</l>
 </lg>
-<milestone ed="p" n="196" unit="card"/>
+<milestone ed="p" n="196" unit="card" />
 </sp>
 </div>
 
-<div type="textpart" subtype="episode">
+<div subtype="episode" type="textpart">
 <sp>
 <speaker>Χορός</speaker>
 <l n="196">πάντʼ ἐκκάλυψον καὶ γέγωνʼ ἡμῖν λόγον,</l>
@@ -530,10 +529,10 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="226">ἔνεστι γάρ πως τοῦτο τῇ τυραννίδι</l>
 <l n="227">νόσημα, τοῖς φίλοισι μὴ πεποιθέναι.</l>
 <l n="228">
-<milestone ed="P" unit="para"/>ὃ δʼ οὖν ἐρωτᾶτʼ, αἰτίαν καθʼ ἥντινα</l>
+<milestone ed="P" unit="para" />ὃ δʼ οὖν ἐρωτᾶτʼ, αἰτίαν καθʼ ἥντινα</l>
 <l n="229">αἰκίζεταί με, τοῦτο δὴ σαφηνιῶ.</l>
 <l n="230">
-<milestone ed="P" unit="para"/>ὅπως τάχιστα τὸν πατρῷον ἐς θρόνον</l>
+<milestone ed="P" unit="para" />ὅπως τάχιστα τὸν πατρῷον ἐς θρόνον</l>
 <l n="231">καθέζετʼ, εὐθὺς δαίμοσιν νέμει γέρα</l>
 <l n="232">ἄλλοισιν ἄλλα καὶ διεστοιχίζετο</l>
 <l n="233">ἀρχήν· βροτῶν δὲ τῶν ταλαιπώρων λόγον</l>
@@ -547,7 +546,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="241">θνητοὺς δʼ ἐν οἴκτῳ προθέμενος, τούτου τυχεῖν</l>
 <l n="242">οὐκ ἠξιώθην αὐτός, ἀλλὰ νηλεῶς</l>
 <l n="243">ὧδʼ ἐρρύθμισμαι, Ζηνὶ δυσκλεὴς θέα.</l>
-<milestone ed="p" n="244" unit="card"/>
+<milestone ed="p" n="244" unit="card" />
 </sp>
 
 <sp>
@@ -629,7 +628,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="262">ἥμαρτες; ὡς δʼ ἥμαρτες οὔτʼ ἐμοὶ λέγειν</l>
 <l n="263">καθʼ ἡδονὴν σοί τʼ ἄλγος. ἀλλὰ ταῦτα μὲν</l>
 <l n="264">μεθῶμεν, ἄθλου δʼ ἔκλυσιν ζήτει τινά.</l>
-<milestone ed="p" n="265" unit="card"/>
+<milestone ed="p" n="265" unit="card" />
 </sp>
 
 <sp>
@@ -648,7 +647,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="276">πίθεσθέ μοι πίθεσθε, συμπονήσατε</l>
 <l n="277">τῷ νῦν μογοῦντι. ταὐτά τοι πλανωμένη</l>
 <l n="278">πρὸς ἄλλοτʼ ἄλλον πημονὴ προσιζάνει.</l>
-<milestone ed="p" n="279" unit="card"/>
+<milestone ed="p" n="279" unit="card" />
 </sp>
 
 
@@ -684,7 +683,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="298">οὐ γάρ ποτʼ ἐρεῖς ὡς Ὠκεανοῦ</l>
 <l n="299">φίλος ἐστὶ βεβαιότερός σοι.</l>
 </lg>
-<milestone ed="p" n="300" unit="card"/>
+<milestone ed="p" n="300" unit="card" />
 </sp>
 
 <sp>
@@ -728,7 +727,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="329">σὺ δʼ ἡσύχαζε μηδʼ ἄγαν λαβροστόμει.</l>
 <l n="330">ἢ οὐκ οἶσθʼ ἀκριβῶς ὢν περισσόφρων ὅτι</l>
 <l n="331">γλώσσῃ ματαίᾳ ζημία προστρίβεται;</l>
-<milestone ed="p" n="332" unit="card"/>
+<milestone ed="p" n="332" unit="card" />
 </lg>
 </sp>
 
@@ -751,7 +750,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="340">ὁρμώμενον δὲ μηδαμῶς ἀντισπάσῃς.</l>
 <l n="341">αὐχῶ γὰρ αὐχῶ τήνδε δωρεὰν ἐμοὶ</l>
 <l n="342">δώσειν Δίʼ, ὥστε τῶνδέ σʼ ἐκλῦσαι πόνων.</l>
-<milestone ed="p" n="343" unit="card"/>
+<milestone ed="p" n="343" unit="card" />
 </lg>
 </sp>
 
@@ -792,11 +791,11 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="373">θερμοῖς ἀπλάτου βέλεσι πυρπνόου ζάλης,</l>
 <l n="374">καίπερ κεραυνῷ Ζηνὸς ἠνθρακωμένος.</l>
 <l n="375">
-<milestone ed="P" unit="para"/>σὺ δʼ οὐκ ἄπειρος, οὐδʼ ἐμοῦ διδασκάλου</l>
+<milestone ed="P" unit="para" />σὺ δʼ οὐκ ἄπειρος, οὐδʼ ἐμοῦ διδασκάλου</l>
 <l n="376">χρῄζεις· σεαυτὸν σῷζʼ ὅπως ἐπίστασαι·</l>
 <l n="377">ἐγὼ δὲ τὴν παροῦσαν ἀντλήσω τύχην,</l>
 <l n="378">ἔστʼ ἂν Διὸς φρόνημα λωφήσῃ χόλου.</l>
-<milestone ed="p" n="379" unit="card"/>
+<milestone ed="p" n="379" unit="card" />
 </lg>
 </sp>
 
@@ -895,15 +894,15 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="396">λευρὸν γὰρ οἷμον αἰθέρος ψαίρει πτεροῖς</l>
 <l n="397">τετρασκελὴς οἰωνός· ἄσμενος δέ τἂν</l>
 <l n="398">σταθμοῖς ἐν οἰκείοισι κάμψειεν γόνυ.</l>
-<milestone ed="p" n="399" unit="card"/>
+<milestone ed="p" n="399" unit="card" />
 </lg>
 </sp>
 
 </div>
-<div type="textpart" subtype="choral">
+<div subtype="choral" type="textpart">
 <sp>
 <speaker>Χορός</speaker>
-<lg type="strophe" n="1">
+<lg n="1" type="strophe">
 <l n="399">στένω σε τᾶς οὐλομένας τύχας, Προμηθεῦ·</l>
 <l n="400">δακρυσίστακτα δʼ ἀπʼ ὄσσων</l>
 <l n="401">ῥαδινὰν λειβομένα ῥέος παρειὰν</l>
@@ -913,46 +912,46 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="405">ὑπερήφανον θεοῖς τοῖς</l>
 <l n="406">πάρος ἐνδείκνυσιν αἰχμάν.</l>
 </lg>
-<milestone ed="p" n="407" unit="card"/>
+<milestone ed="p" n="407" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="antistrophe" n="1">
+<lg n="1" type="antistrophe">
 <l n="407">πρόπασα δʼ ἤδη στονόεν λέλακε χώρα,</l>
 <l n="408">μεγαλοσχήμονά ἀρχαι-</l>
-<l n="409">οπρεπῆ <add/> στένουσι τὰν σὰν</l>
+<l n="409">οπρεπῆ <add /> στένουσι τὰν σὰν</l>
 <l n="410">ξυνομαιμόνων τε τιμάν,</l>
 <l n="411">ὁπόσοι τʼ ἔποικον ἁγνᾶς</l>
 <l n="412">Ἀσίας ἕδος νέμονται,</l>
 <l n="413">μεγαλοστόνοισι σοῖς πή-</l>
 <l n="414">μασι συγκάμνουσι θνατοί.</l>
-<milestone ed="p" n="415" unit="card"/>
+<milestone ed="p" n="415" unit="card" />
 </lg>
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="strophe" n="2">
+<lg n="2" type="strophe">
 <l n="415">Κολχίδος τε γᾶς ἔνοικοι</l>
 <l n="416">παρθένοι, μάχας ἄτρεστοι,</l>
 <l n="417">καὶ Σκύθης ὅμιλος, οἳ γᾶς</l>
 <l n="418">ἔσχατον τόπον ἀμφὶ Μαι-</l>
 <l n="419">ῶτιν ἔχουσι λίμναν,</l>
-<milestone ed="p" n="420" unit="card"/>
+<milestone ed="p" n="420" unit="card" />
 </lg>
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="antistrophe" n="2">
+<lg n="2" type="antistrophe">
 <l n="420">†Ἀραβίας τʼ ἄρειον ἄνθος,</l>
 <l n="421">ὑψίκρημνον οἳ πόλισμα</l>
 <l n="422">Καυκάσου πέλας νέμονται,</l>
 <l n="423">δάιος στρατός, ὀξυπρῴ-</l>
 <l n="424">ροισι βρέμων ἐν αἰχμαῖς.</l>
 </lg>
-<milestone ed="p" n="425" unit="card"/>
+<milestone ed="p" n="425" unit="card" />
 </sp>
 
 <sp>
@@ -977,11 +976,11 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="434">παγαί θʼ ἁγνορύτων ποταμῶν</l>
 <l n="435">στένουσιν ἄλγος οἰκτρόν.</l>
 </lg>
-<milestone ed="p" n="436" unit="card"/>
+<milestone ed="p" n="436" unit="card" />
 </sp>
 </div>
 
-<div type="textpart" subtype="episode">
+<div subtype="episode" type="textpart">
 <sp>
 <speaker>Προμηθεύς</speaker>
 <l n="436">μή τοι χλιδῇ δοκεῖτε μηδʼ αὐθαδίᾳ</l>
@@ -996,7 +995,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="445">λέξω δέ, μέμψιν οὔτινʼ ἀνθρώποις ἔχων,</l>
 <l n="446">ἀλλʼ ὧν δέδωκʼ εὔνοιαν ἐξηγούμενος·</l>
 <l n="447">
-<milestone ed="P" unit="para"/>οἳ πρῶτα μὲν βλέποντες ἔβλεπον μάτην,</l>
+<milestone ed="P" unit="para" />οἳ πρῶτα μὲν βλέποντες ἔβλεπον μάτην,</l>
 <l n="448">κλύοντες οὐκ ἤκουον, ἀλλʼ ὀνειράτων</l>
 <l n="449">ἀλίγκιοι μορφαῖσι τὸν μακρὸν βίον</l>
 <l n="450">ἔφυρον εἰκῇ πάντα, κοὔτε πλινθυφεῖς</l>
@@ -1009,7 +1008,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="457">ἔπρασσον, ἔστε δή σφιν ἀντολὰς ἐγὼ</l>
 <l n="458">ἄστρων ἔδειξα τάς τε δυσκρίτους δύσεις.</l>
 <l n="459">
-<milestone ed="P" unit="para"/>καὶ μὴν ἀριθμόν, ἔξοχον σοφισμάτων,</l>
+<milestone ed="P" unit="para" />καὶ μὴν ἀριθμόν, ἔξοχον σοφισμάτων,</l>
 <l n="460">ἐξηῦρον αὐτοῖς, γραμμάτων τε συνθέσεις,</l>
 <l n="461">μνήμην ἁπάντων, μουσομήτορʼ ἐργάνην.</l>
 <l n="462">κἄζευξα πρῶτος ἐν ζυγοῖσι κνώδαλα</l>
@@ -1020,10 +1019,10 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="467">θαλασσόπλαγκτα δʼ οὔτις ἄλλος ἀντʼ ἐμοῦ</l>
 <l n="468">λινόπτερʼ ηὗρε ναυτίλων ὀχήματα.</l>
 <l n="469">
-<milestone ed="P" unit="para"/>τοιαῦτα μηχανήματʼ ἐξευρὼν τάλας</l>
+<milestone ed="P" unit="para" />τοιαῦτα μηχανήματʼ ἐξευρὼν τάλας</l>
 <l n="470">βροτοῖσιν, αὐτὸς οὐκ ἔχω σόφισμʼ ὅτῳ</l>
 <l n="471">τῆς νῦν παρούσης πημονῆς ἀπαλλαγῶ.</l>
-<milestone ed="p" n="472" unit="card"/>
+<milestone ed="p" n="472" unit="card" />
 </sp>
 
 <sp>
@@ -1067,7 +1066,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="504">οὐδείς, σάφʼ οἶδα, μὴ μάτην φλύσαι θέλων.</l>
 <l n="505">βραχεῖ δὲ μύθῳ πάντα συλλήβδην μάθε,</l>
 <l n="506">πᾶσαι τέχναι βροτοῖσιν ἐκ Προμηθέως.</l>
-<milestone ed="p" n="507" unit="card"/>
+<milestone ed="p" n="507" unit="card" />
 </sp>
 
 <sp>
@@ -1127,14 +1126,14 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="523">καιρὸς γεγωνεῖν, ἀλλὰ συγκαλυπτέος</l>
 <l n="524">ὅσον μάλιστα· τόνδε γὰρ σῴζων ἐγὼ</l>
 <l n="525">δεσμοὺς ἀεικεῖς καὶ δύας ἐκφυγγάνω.</l>
-<milestone ed="p" n="526" unit="card"/>
+<milestone ed="p" n="526" unit="card" />
 </sp>
 </div>
 
-<div type="textpart" subtype="choral">
+<div subtype="choral" type="textpart">
 <sp>
 <speaker>Χορός</speaker>
-<lg type="strophe" n="1">
+<lg n="1" type="strophe">
 <l n="526">μηδάμʼ ὁ πάντα νέμων</l>
 <l n="527">θεῖτʼ ἐμᾷ γνώμᾳ κράτος ἀντίπαλον Ζεύς,</l>
 <l n="530">μηδʼ ἐλινύσαιμι θεοὺς ὁσίαις θοίναις ποτινισομένα</l>
@@ -1142,41 +1141,41 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="535">μηδʼ ἀλίτοιμι λόγοις·</l>
 <l n="536">ἀλλά μοι τόδʼ ἐμμένοι καὶ μήποτʼ ἐκτακείη·</l>
 </lg>
-<milestone ed="p" n="537" unit="card"/>
+<milestone ed="p" n="537" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="antistrophe" n="1">
+<lg n="1" type="antistrophe">
 <l n="537">ἁδύ τι θαρσαλέαις</l>
 <l n="538">τὸν μακρὸν τείνειν βίον ἐλπίσι, φαναῖς</l>
 <l n="539">θυμὸν ἀλδαίνουσαν ἐν εὐφροσύναις. φρίσ-</l>
 <l n="540">σω δέ σε δερκομένα</l>
-<l n="541">μυρίοις μόχθοις διακναιόμενον <add/>.</l>
+<l n="541">μυρίοις μόχθοις διακναιόμενον <add />.</l>
 <l n="542">Ζῆνα γὰρ οὐ τρομέων</l>
 <l n="543">ἰδίᾳ γνώμᾳ σέβῃ θνατοὺς ἄγαν, Προμηθεῦ.</l>
 </lg>
-<milestone ed="p" n="545" unit="card"/>
+<milestone ed="p" n="545" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="strophe" n="2">
+<lg n="2" type="strophe">
 <l n="545">φέρʼ, ὅπως ἄχαρις χάρις, ὦ φίλος·</l>
 <l n="546">εἰπὲ ποῦ τίς ἀλκά;</l>
 <l n="547">τίς ἐφαμερίων ἄρηξις; οὐδʼ ἐδέρχθης</l>
 <l n="548">ὀλιγοδρανίαν ἄκικυν,</l>
 <l n="549">ἰσόνειρον, ᾇ τὸ φωτῶν</l>
-<l n="550">ἀλαὸν γένος ἐμπεποδισμένον; οὔποτε <add/>
+<l n="550">ἀλαὸν γένος ἐμπεποδισμένον; οὔποτε <add />
 </l>
 <l n="551">τὰν Διὸς ἁρμονίαν θνατῶν παρεξίασι βουλαί.</l>
 </lg>
-<milestone ed="p" n="552" unit="card"/>
+<milestone ed="p" n="552" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="antistrophe" n="2">
+<lg n="2" type="antistrophe">
 <l n="552">ἔμαθον τάδε σὰς προσιδοῦσʼ ὀλο-</l>
 <l n="553">ὰς τύχας, Προμηθεῦ.</l>
 <l n="554">τὸ διαμφίδιον δέ μοι μέλος προσέπτα</l>
@@ -1185,11 +1184,11 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="557">ἰότατι γάμων, ὅτε τὰν ὁμοπάτριον ἕδνοις</l>
 <l n="560">ἄγαγες Ἡσιόναν πείθὼν δάμαρτα κοινόλεκτρον.</l>
 </lg>
-<milestone ed="p" n="561" unit="card"/>
+<milestone ed="p" n="561" unit="card" />
 </sp>
 </div>
 
-<div type="textpart" subtype="episode">
+<div subtype="episode" type="textpart">
 <sp>
 <speaker>Ἰώ</speaker>
 <lg type="anapests">
@@ -1199,7 +1198,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="564">τίνος ἀμπλακίας ποινὰς ὀλέκῃ;</l>
 <l n="565">σήμηνον ὅποι γῆς ἡ μογερὰ πεπλάνημαι.</l>
 </lg>
-<milestone ed="p" n="566" unit="card"/>
+<milestone ed="p" n="566" unit="card" />
 </sp>
 
 <sp>
@@ -1215,14 +1214,14 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="572">ἐξ ἐνέρων περῶν κυναγετεῖ, πλανᾷ</l>
 <l n="573">τε νῆστιν ἀνὰ τὰν παραλίαν ψάμμαν.</l>
 </lg>
-<milestone ed="p" n="575" unit="card"/>
+<milestone ed="p" n="575" unit="card" />
 </sp>
 </div>
 
-<div type="textpart" subtype="choral">
+<div subtype="choral" type="textpart">
 <sp>
 <speaker>Ἰώ</speaker>
-<lg type="strophe" n="1">
+<lg n="1" type="strophe">
 <l n="574">ὑπὸ δὲ κηρόπλαστος ὀτοβεῖ δόναξ</l>
 <l n="575">ἀχέτας ὑπνοδόταν νόμον·</l>
 <l n="576">ἰὼ ἰὼ πόποι, ποῖ μʼ ἄγουσι τη-</l>
@@ -1241,23 +1240,23 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="587">πημονὰς ἀλύξω.</l>
 <l n="588">κλύεις φθέγμα τᾶς βούκερω παρθένου;</l>
 </lg>
-<milestone ed="p" n="589" unit="card"/>
+<milestone ed="p" n="589" unit="card" />
 </sp>
 
 <sp>
 <speaker>Προμηθεύς</speaker>
-<lg type="strophe" n="1">
+<lg n="1" type="strophe">
 <l n="589">πῶς δʼ οὐ κλύω τῆς οἰστροδινήτου κόρης,</l>
 <l n="590">τῆς Ἰναχείας; ἣ Διὸς θάλπει κέαρ</l>
 <l n="591">ἔρωτι, καὶ νῦν τοὺς ὑπερμήκεις δρόμους</l>
 <l n="592">Ἥρᾳ στυγητὸς πρὸς βίαν γυμνάζεται.</l>
 </lg>
-<milestone ed="p" n="593" unit="card"/>
+<milestone ed="p" n="593" unit="card" />
 </sp>
 
 <sp>
 <speaker>Ἰώ</speaker>
-<lg type="antistrophe" n="1">
+<lg n="1" type="antistrophe">
 <l n="593">πόθεν ἐμοῦ σὺ πατρὸς ὄνομʼ ἀπύεις;</l>
 <l n="594">εἰπέ μοι τᾷ μογερᾷ τίς ὤν;</l>
 <l n="595">τίς ἄρα μʼ, ὦ τάλας, τὰν τάλαιναν ὧδʼ</l>
@@ -1276,12 +1275,12 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="606">παθεῖν, τί μῆχαρ, ἢ τί φάρμακον νόσου,</l>
 <l n="607">δεῖξον, εἴπερ οἶσθα·</l>
 <l n="608">θρόει, φράζε τᾷ δυσπλάνῳ παρθένῳ.</l>
-<milestone ed="p" n="609" unit="card"/>
+<milestone ed="p" n="609" unit="card" />
 </lg>
 </sp>
 </div>
 
-<div type="textpart" subtype="episode">
+<div subtype="episode" type="textpart">
 <sp>
 <speaker>Προμηθεύς</speaker>
 <l n="609">λέξω τορῶς σοι πᾶν ὅπερ χρῄζεις μαθεῖν,</l>
@@ -1386,7 +1385,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="637">ὡς τἀποκλαῦσαι κἀποδύρασθαι τύχας</l>
 <l n="638">ἐνταῦθʼ, ὅπου μέλλοι τις οἴσεσθαι δάκρυ</l>
 <l n="639">πρὸς τῶν κλυόντων, ἀξίαν τριβὴν ἔχει.</l>
-<milestone ed="p" n="640" unit="card"/>
+<milestone ed="p" n="640" unit="card" />
 </sp>
 
 <sp>
@@ -1397,7 +1396,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="643">θεόσσυτον χειμῶνα καὶ διαφθορὰν</l>
 <l n="644">μορφῆς, ὅθεν μοι σχετλίᾳ προσέπτατο.</l>
 <l n="645">
-<milestone ed="P" unit="para"/>αἰεὶ γὰρ ὄψεις ἔννυχοι πωλεύμεναι</l>
+<milestone ed="P" unit="para" />αἰεὶ γὰρ ὄψεις ἔννυχοι πωλεύμεναι</l>
 <l n="646">ἐς παρθενῶνας τοὺς ἐμοὺς παρηγόρουν</l>
 <l n="647">λείοισι μύθοις ‘ὦ μέγʼ εὔδαιμον κόρη,</l>
 <l n="648">τί παρθενεύει δαρόν, ἐξόν σοι γάμου</l>
@@ -1408,7 +1407,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="653">λειμῶνα, ποίμνας βουστάσεις τε πρὸς πατρός,</l>
 <l n="654">ὡς ἂν τὸ Δῖον ὄμμα λωφήσῃ πόθου.’</l>
 <l n="655">
-<milestone ed="P" unit="para"/>τοιοῖσδε πάσας εὐφρόνας ὀνείρασι</l>
+<milestone ed="P" unit="para" />τοιοῖσδε πάσας εὐφρόνας ὀνείρασι</l>
 <l n="656">συνειχόμην δύστηνος, ἔστε δὴ πατρὶ</l>
 <l n="657">ἔτλην γεγωνεῖν νυκτίφοιτʼ ὀνείρατα.</l>
 <l n="658">ὁ δʼ ἔς τε Πυθὼ κἀπὶ Δωδώνης πυκνοὺς</l>
@@ -1423,7 +1422,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="667">κεἰ μὴ θέλοι, πυρωπὸν ἐκ Διὸς μολεῖν</l>
 <l n="668">κεραυνόν, ὃς πᾶν ἐξαϊστώσοι γένος.</l>
 <l n="669">
-<milestone ed="P" unit="para"/>τοιοῖσδε πεισθεὶς Λοξίου μαντεύμασιν</l>
+<milestone ed="P" unit="para" />τοιοῖσδε πεισθεὶς Λοξίου μαντεύμασιν</l>
 <l n="670">ἐξήλασέν με κἀπέκλῃσε δωμάτων</l>
 <l n="671">ἄκουσαν ἄκων· ἀλλʼ ἐπηνάγκαζέ νιν</l>
 <l n="672">Διὸς χαλινὸς πρὸς βίαν πράσσειν τάδε.</l>
@@ -1438,11 +1437,11 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="681">τοῦ ζῆν ἀπεστέρησεν. οἰστροπλὴξ δʼ ἐγὼ</l>
 <l n="682">μάστιγι θείᾳ γῆν πρὸ γῆς ἐλαύνομαι.</l>
 <l n="683">
-<milestone ed="P" unit="para"/>κλύεις τὰ πραχθέντʼ· εἰ δʼ ἔχεις εἰπεῖν ὅ τι</l>
+<milestone ed="P" unit="para" />κλύεις τὰ πραχθέντʼ· εἰ δʼ ἔχεις εἰπεῖν ὅ τι</l>
 <l n="684">λοιπὸν πόνων, σήμαινε· μηδέ μʼ οἰκτίσας</l>
 <l n="685">ξύνθαλπε μύθοις ψευδέσιν· νόσημα γὰρ</l>
 <l n="686">αἴσχιστον εἶναί φημι συνθέτους λόγους.</l>
-<milestone ed="p" n="687" unit="card"/>
+<milestone ed="p" n="687" unit="card" />
 </sp>
 
 <sp>
@@ -1457,7 +1456,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="693">ἰὼ <del>ἰὼ</del> μοῖρα μοῖρα,</l>
 <l n="695">πέφρικʼ εἰσιδοῦσα πρᾶξιν Ἰοῦς.</l>
 </lg>
-<milestone ed="p" n="696" unit="card"/>
+<milestone ed="p" n="696" unit="card" />
 </sp>
 
 <sp>
@@ -1487,7 +1486,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="705">σύ τʼ Ἰνάχειον σπέρμα, τοὺς ἐμοὺς λόγους</l>
 <l n="706">θυμῷ βάλʼ, ὡς ἂν τέρματʼ ἐκμάθῃς ὁδοῦ.</l>
 <l n="707">
-<milestone ed="P" unit="para"/>πρῶτον μὲν ἐνθένδʼ ἡλίου πρὸς ἀντολὰς</l>
+<milestone ed="P" unit="para" />πρῶτον μὲν ἐνθένδʼ ἡλίου πρὸς ἀντολὰς</l>
 <l n="708">στρέψασα σαυτὴν στεῖχʼ ἀνηρότους γύας·</l>
 <l n="709">Σκύθας δʼ ἀφίξῃ νομάδας, οἳ πλεκτὰς στέγας</l>
 <l n="710">πεδάρσιοι ναίουσʼ ἐπʼ εὐκύκλοις ὄχοις</l>
@@ -1523,7 +1522,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="740">μνηστῆρος. οὓς γὰρ νῦν ἀκήκοας λόγους,</l>
 <l n="741">εἶναι δόκει σοι μηδέπω ʼν προοιμίοις.</l>
 </lg>
-<milestone ed="p" n="742" unit="card"/>
+<milestone ed="p" n="742" unit="card" />
 </sp>
 
 <sp>
@@ -1736,7 +1735,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <lg type="lyric">
 <l n="779">ποίοιν; πρόδειξον, αἵρεσίν τʼ ἐμοὶ δίδου.</l>
 </lg>
-<milestone ed="p" n="780" unit="card"/>
+<milestone ed="p" n="780" unit="card" />
 </sp>
 
 <sp>
@@ -1765,11 +1764,11 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="788">σοὶ πρῶτον, Ἰοῖ, πολύδονον πλάνην φράσω,</l>
 <l n="789">ἣν ἐγγράφου σὺ μνήμοσιν δέλτοις φρενῶν.</l>
 <l n="790">
-<milestone ed="P" unit="para"/>ὅταν περάσῃς ῥεῖθρον ἠπείροιν ὅρον,</l>
+<milestone ed="P" unit="para" />ὅταν περάσῃς ῥεῖθρον ἠπείροιν ὅρον,</l>
 <l n="791">πρὸς ἀντολὰς φλογῶπας ἡλιοστιβεῖς</l>
 <l n="792">
-<gap reason="lost" rend="*"/>
-<!-- SS: this was gap desc="*" -->
+<gap reason="lost" rend="*" />
+
 </l>
 <l n="793">πόντου περῶσα φλοῖσβον, ἔστʼ ἂν ἐξίκῃ</l>
 <l n="794">πρὸς Γοργόνεια πεδία Κισθήνης, ἵνα</l>
@@ -1796,10 +1795,10 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="814">Νειλῶτιν, οὗ δὴ τὴν μακρὰν ἀποικίαν,</l>
 <l n="815">Ἰοῖ, πέπρωται σοί τε καὶ τέκνοις κτίσαι.</l>
 <l n="816">
-<milestone ed="P" unit="para"/>τῶν δʼ εἴ τί σοι ψελλόν τε καὶ δυσεύρετον,</l>
+<milestone ed="P" unit="para" />τῶν δʼ εἴ τί σοι ψελλόν τε καὶ δυσεύρετον,</l>
 <l n="817">ἐπανδίπλαζε καὶ σαφῶς ἐκμάνθανε·</l>
 <l n="818">σχολὴ δὲ πλείων ἢ θέλω πάρεστί μοι.</l>
-<milestone ed="p" n="819" unit="card"/>
+<milestone ed="p" n="819" unit="card" />
 </lg>
 </sp>
 
@@ -1819,10 +1818,10 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="825">ἃ πρὶν μολεῖν δεῦρʼ ἐκμεμόχθηκεν φράσω,</l>
 <l n="826">τεκμήριον τοῦτʼ αὐτὸ δοὺς μύθων ἐμῶν.</l>
 <l n="827">
-<milestone ed="P" unit="para"/>ὄχλον μὲν οὖν τὸν πλεῖστον ἐκλείψω λόγων,</l>
+<milestone ed="P" unit="para" />ὄχλον μὲν οὖν τὸν πλεῖστον ἐκλείψω λόγων,</l>
 <l n="828">πρὸς αὐτὸ δʼ εἶμι τέρμα σῶν πλανημάτων.</l>
 <l n="829">
-<milestone ed="P" unit="para"/>ἐπεὶ γὰρ ἦλθες πρὸς Μολοσσὰ γάπεδα,</l>
+<milestone ed="P" unit="para" />ἐπεὶ γὰρ ἦλθες πρὸς Μολοσσὰ γάπεδα,</l>
 <l n="830">τὴν αἰπύνωτόν τʼ ἀμφὶ Δωδώνην, ἵνα</l>
 <l n="831">μαντεῖα θᾶκός τʼ ἐστὶ Θεσπρωτοῦ Διός,</l>
 <l n="832">τέρας τʼ ἄπιστον, αἱ προσήγοροι δρύες,</l>
@@ -1836,13 +1835,13 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="840">σαφῶς ἐπίστασʼ, Ἰόνιος κεκλήσεται,.</l>
 <l n="841">τῆς σῆς πορείας μνῆμα τοῖς πᾶσιν βροτοῖς.</l>
 <l n="842">
-<milestone ed="P" unit="para"/>σημεῖά σοι τάδʼ ἐστὶ τῆς ἐμῆς φρενός,</l>
+<milestone ed="P" unit="para" />σημεῖά σοι τάδʼ ἐστὶ τῆς ἐμῆς φρενός,</l>
 <l n="843">ὡς δέρκεται πλέον τι τοῦ πεφασμένου.</l>
 <l n="844">τὰ λοιπὰ δʼ ὑμῖν τῇδέ τʼ ἐς κοινὸν φράσω,</l>
 <l n="845">ἐς ταὐτὸν ἐλθὼν τῶν πάλαι λόγων ἴχνος.</l>
-<milestone ed="p" n="846" unit="card"/>
+<milestone ed="p" n="846" unit="card" />
 <l n="846">
-<milestone ed="P" unit="para"/>ἔστιν πόλις Κάνωβος ἐσχάτη χθονός,</l>
+<milestone ed="P" unit="para" />ἔστιν πόλις Κάνωβος ἐσχάτη χθονός,</l>
 <l n="847">Νείλου πρὸς αὐτῷ στόματι καὶ προσχώματι·</l>
 <l n="848">ἐνταῦθα δή σε Ζεὺς τίθησιν ἔμφρονα</l>
 <l n="849">ἐπαφῶν ἀταρβεῖ χειρὶ καὶ θιγὼν μόνον.</l>
@@ -1875,7 +1874,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="876">εἰπεῖν, σύ τʼ οὐδὲν ἐκμαθοῦσα κερδανεῖς.</l>
 </lg>
 </sp>
-<milestone ed="p" n="877" unit="card"/>
+<milestone ed="p" n="877" unit="card" />
 
 
 
@@ -1893,14 +1892,14 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="885">θολεροὶ δὲ λόγοι παίουσʼ εἰκῆ</l>
 <l n="886">στυγνῆς πρὸς κύμασιν ἄτης.</l>
 </lg>
-<milestone ed="p" n="887" unit="card"/>
+<milestone ed="p" n="887" unit="card" />
 </sp>
 </div>
 
-<div type="textpart" subtype="choral">
+<div subtype="choral" type="textpart">
 <sp>
 <speaker>Χορός</speaker>
-<lg type="strophe" n="1">
+<lg n="1" type="strophe">
 <l n="887">ἦ σοφὸς ἦ σοφὸς <del>ἦν</del> ὃς</l>
 <l n="888">πρῶτος ἐν γνώμᾳ τόδʼ ἐβάστασε καὶ γλώσ-</l>
 <l n="889">σᾳ διεμυθολόγησεν,</l>
@@ -1909,12 +1908,12 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="892">μήτε τῶν γέννᾳ μεγαλυνομένων</l>
 <l n="893">ὄντα χερνήταν ἐραστεῦσαι γάμων.</l>
 </lg>
-<milestone ed="p" n="894" unit="card"/>
+<milestone ed="p" n="894" unit="card" />
 </sp>
 
 <sp>
 <speaker>Χορός</speaker>
-<lg type="antistrophe" n="1">
+<lg n="1" type="antistrophe">
 <l n="894">μήποτε μήποτέ μʼ, ὦ</l>
 <l n="895">
 <add>πότνιαι</add> Μοῖραι, λεχέων Διὸς εὐνά-</l>
@@ -1924,7 +1923,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="899">εἰσορῶσʼ Ἰοῦς ἀμαλαπτομέναν</l>
 <l n="900">δυσπλάνοις Ἥρας ἀλατείαις πόνων.</l>
 </lg>
-<milestone ed="p" n="901" unit="card"/>
+<milestone ed="p" n="901" unit="card" />
 </sp>
 
 <sp>
@@ -1938,11 +1937,11 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="906">τὰν Διὸς γὰρ οὐχ ὁρῶ</l>
 <l n="906.1" rend="906b">μῆτιν ὅπα φύγοιμʼ ἄν.</l>
 </lg>
-<milestone ed="p" n="907" unit="card"/>
+<milestone ed="p" n="907" unit="card" />
 </sp>
 </div>
 
-<div type="textpart" subtype="episode">
+<div subtype="episode" type="textpart">
 <sp>
 <speaker>Προμηθεύς</speaker>
 <l n="907">ἦ μὴν ἔτι Ζεύς, καίπερ αὐθάδης φρενῶν,</l>
@@ -2022,7 +2021,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="941">ἀλλʼ εἰσορῶ γὰρ τόνδε τὸν Διὸς τρόχιν,</l>
 <l n="942">τὸν τοῦ τυράννου τοῦ νέου διάκονον·</l>
 <l n="943">πάντως τι καινὸν ἀγγελῶν ἐλήλυθεν.</l>
-<milestone ed="p" n="944" unit="card"/>
+<milestone ed="p" n="944" unit="card" />
 </sp>
 
 <sp>
@@ -2051,7 +2050,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="961">πολλοῦ γε καὶ τοῦ παντὸς ἐλλείπω. σὺ δὲ</l>
 <l n="962">κέλευθον ἥνπερ ἦλθες ἐγκόνει πάλιν·</l>
 <l n="963">πεύσῃ γὰρ οὐδὲν ὧν ἀνιστορεῖς ἐμέ.</l>
-<milestone ed="p" n="964" unit="card"/>
+<milestone ed="p" n="964" unit="card" />
 </sp>
 
 <sp>
@@ -2194,7 +2193,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="1004">καὶ λιπαρήσω τὸν μέγα στυγούμενον</l>
 <l n="1005">γυναικομίμοις ὑπτιάσμασιν χερῶν</l>
 <l n="1006">λῦσαί με δεσμῶν τῶνδε· τοῦ παντὸς δέω.</l>
-<milestone ed="p" n="1007" unit="card"/>
+<milestone ed="p" n="1007" unit="card" />
 </sp>
 
 <sp>
@@ -2219,12 +2218,12 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="1024">ἄκλητος ἕρπων δαιταλεὺς πανήμερος,</l>
 <l n="1025">κελαινόβρωτον δʼ ἧπαρ ἐκθοινήσεται.</l>
 <l n="1026">
-<milestone ed="P" unit="para"/>τοιοῦδε μόχθου τέρμα μή τι προσδόκα,</l>
+<milestone ed="P" unit="para" />τοιοῦδε μόχθου τέρμα μή τι προσδόκα,</l>
 <l n="1027">πρὶν ἂν θεῶν τις διάδοχος τῶν σῶν πόνων</l>
 <l n="1028">φανῇ, θελήσῃ τʼ εἰς ἀναύγητον μολεῖν</l>
 <l n="1029">Ἅιδην κνεφαῖά τʼ ἀμφὶ Ταρτάρου βάθη.</l>
 <l n="1030">
-<milestone ed="P" unit="para"/>πρὸς ταῦτα βούλευʼ· ὡς ὅδʼ οὐ πεπλασμένος</l>
+<milestone ed="P" unit="para" />πρὸς ταῦτα βούλευʼ· ὡς ὅδʼ οὐ πεπλασμένος</l>
 <l n="1031">ὁ κόμπος, ἀλλὰ καὶ λίαν εἰρημένος ·</l>
 <l n="1032">ψευδηγορεῖν γὰρ οὐκ ἐπίσταται στόμα</l>
 <l n="1033">τὸ Δῖον, ἀλλὰ πᾶν ἔπος τελεῖ· σὺ δὲ</l>
@@ -2238,7 +2237,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="1037">λέγειν. ἄνωγε γάρ σε τὴν αὐθαδίαν</l>
 <l n="1038">μεθέντʼ ἐρευνᾶν τὴν σοφὴν εὐβουλίαν.</l>
 <l n="1039">πιθοῦ· σοφῷ γὰρ αἰσχρὸν ἐξαμαρτάνειν.</l>
-<milestone ed="p" n="1040" unit="card"/>
+<milestone ed="p" n="1040" unit="card" />
 </sp>
 
 <sp>
@@ -2304,7 +2303,7 @@ urn:cts:greekLit:tlg0085.tlg003.perseus-grc1.</change>
 <l n="1078">εἰς ἀπέρατον δίκτυον ἄτης</l>
 <l n="1079">ἐμπλεχθήσεσθʼ ὑπʼ ἀνοίας.</l>
 </lg>
-<milestone ed="p" n="1080" unit="card"/>
+<milestone ed="p" n="1080" unit="card" />
 </sp>
 
 <sp>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title type="work" n="Birds">Birds</title>
+                <title n="Birds" type="work">Birds</title>
                 <title type="sub">Machine readable text</title>
                 <author n="Aristoph.">Aristophanes</author>
-                <editor role="editor" n="OCT">F.W. Hall and W.M. Geldart</editor>
+                <editor n="OCT" role="editor">F.W. Hall and W.M. Geldart</editor>
                 <sponsor>Perseus Project, Tufts University</sponsor>
                 <principal>Gregory Crane</principal>
                 <respStmt>
@@ -42,9 +42,9 @@
         </fileDesc>
         <encodingDesc>
             <refsDecl>
-                <refState unit="line"/>
+                <refState unit="line" />
             </refsDecl>
-        </encodingDesc>
+        <refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n='$1'])"><p>This pointer pattern extracts line</p></cRefPattern></refsDecl></encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="grc">Greek</language>
@@ -61,9 +61,9 @@
     </teiHeader>
     <text xml:lang="grc">
         <body>
-            <div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg0019.tlg006.perseus-grc2">
-            <div type="textpart" subtype="Prologue">
-                <milestone ed="p" n="1" unit="card"/>
+            <div n="urn:cts:greekLit:tlg0019.tlg006.perseus-grc2" type="edition" xml:lang="grc">
+            <div subtype="Prologue" type="textpart">
+                <milestone ed="p" n="1" unit="card" />
                 <said who="#Ἐυελπίδης"><l n="1">ὀρθὴν κελεύεις, ᾗ τὸ δένδρον φαίνεται;</l>
 </said>
                 <said who="#Πισθέταιρος"><l n="2">διαρραγείης· ἥδε δʼ αὖ κρώζει πάλιν.</l>
@@ -155,7 +155,7 @@
                         Τηρέα</l>
 <l n="47">τὸν ἔποπα, παρʼ ἐκείνου πυθέσθαι δεομἐνω,</l>
 <l n="48">εἴ που τοιαύτην
-                        εἶδε πόλιν ᾗ ʼπέπτετο.<milestone ed="p" n="49" unit="card"/>
+                        εἶδε πόλιν ᾗ ʼπέπτετο.<milestone ed="p" n="49" unit="card" />
                     </l>
 </said>
                 <said who="#Πισθέταιρος"><l n="49">οὗτος.</l>
@@ -189,8 +189,7 @@
                         τοῦ παιδός <add>σʼ</add> ἐχρῆν ἐποποῖ καλεῖν;</l>
 </said>
                 <said who="#Ἐυελπίδης"><l n="61">ἐποποῖ. ποιήσεις ἔτι με κόπτειν αὖθις αὖ.</l>
-<l n="60"
-                        >ἐποποῖ.</l>
+<l n="60">ἐποποῖ.</l>
 </said>
                 <said who="#Θεράπων Ἔποπος"><l n="61">τίνες οὗτοι; τίς ὁ βοῶν τὸν δεσπότην;</l>
 </said>
@@ -267,7 +266,7 @@
 </said>
                 <said who="#Ἐυελπίδης"><l n="90">εἰπέ μοι,</l>
 <l n="91">σὺ δὲ τὴν κορώνην οὐκ ἀφῆκας
-                            καταπεσών;<milestone ed="p" n="90" unit="card"/>
+                            καταπεσών;<milestone ed="p" n="90" unit="card" />
                     </l>
 </said>
                 <said who="#Πισθέταιρος"><l n="90">μὰ Δίʼ οὐκ ἔγωγε.</l>
@@ -342,8 +341,7 @@
                 <said who="#Ἔποψ"><l n="116">τίνος πέρι;</l>
 </said>
                 <said who="#Ἐυελπίδης"><l n="117">ὅτι πρῶτα μὲν ἦσθʼ ἄνθρωπος ὥσπερ νὼ ποτέ,</l>
-<l n="115"
-                        >κἀργύριον ὠφείλησας ὥσπερ νὼ ποτέ,</l>
+<l n="115">κἀργύριον ὠφείλησας ὥσπερ νὼ ποτέ,</l>
 <l n="116">κοὐκ ἀποδιδοὺς ἔχαιρες ὥσπερ νὼ
                         ποτέ·</l>
 <l n="117">εἶτʼ αὖθις ὀρνίθων μεταλλάξας φύσιν</l>
@@ -359,8 +357,7 @@
 </said>
                 <said who="#Ἔποψ"><l n="123">ἔμειτα μείζω τῶν Κραναῶν ζητεῖς πόλιν;</l>
 </said>
-                <said who="#Ἐυελπίδης"><l n="124">μείζω μὲν οὐδέν, προσφορωτέραν δὲ νῷν.<milestone ed="p"
-                            n="125" unit="card"/>
+                <said who="#Ἐυελπίδης"><l n="124">μείζω μὲν οὐδέν, προσφορωτέραν δὲ νῷν.<milestone ed="p" n="125" unit="card" />
                     </l>
 </said>
                 <said who="#Ἔποψ"><l n="125">ἀριστοκρατεῖσθαι δῆλος εἶ ζητῶν.</l>
@@ -415,8 +412,7 @@
                         ἔχεις ἡμῖν φράσαι;</l>
 </said>
                 <said who="#Ἔποψ"><l n="150">τί οὐ τὸν Ἠλεῖον Λέπρεον οἰκίζετον</l>
-<l n="150"
-                    >ἐλθόνθʼ;</l>
+<l n="150">ἐλθόνθʼ;</l>
 </said>
                 <said who="#Ἐυελπίδης"><l n="151">ὁτιὴ νὴ τοὺς θεοὺς ὅσʼ οὐκ ἰδὼν</l>
 <l n="152">βδελύττομαι τὸν
@@ -448,8 +444,7 @@
                 <said who="#Πισθέταιρος"><l n="161.1" rend="161b">φεῦ φεῦ·</l>
 <l n="162">ἦ μέγʼ ἐνορῶ βούλευμʼ ἐν ὀρνίθων
                         γένει,</l>
-<l n="163">καὶ δύναμιν ἣ γένοιτʼ ἄν, εἰ πίθοισθέ μοι.<milestone ed="p"
-                            n="164" unit="card"/>
+<l n="163">καὶ δύναμιν ἣ γένοιτʼ ἄν, εἰ πίθοισθέ μοι.<milestone ed="p" n="164" unit="card" />
                     </l>
 </said>
                 <said who="#Ἔποψ"><l n="164">τί σοι πιθώμεσθʼ;</l>
@@ -516,8 +511,7 @@
 <l n="189">εἶθʼ ὥσπερ ἡμεῖς,
                         ἢν ἰέναι βουλώμεθα</l>
 <l n="190">Πυθώδε, Βοιωτοὺς δίοδον αἰτούμεθα,</l>
-<l n="190"
-                        >οὕτως, ὅταν θύσωσιν ἄνθρωποι θεοῖς,</l>
+<l n="190">οὕτως, ὅταν θύσωσιν ἄνθρωποι θεοῖς,</l>
 <l n="191">ἢν μὴ φόρον φέρωσιν οἱ ὑμῖν οἱ
                         θεοί,</l>
 <l n="192">
@@ -527,8 +521,7 @@
 </said>
                 <said who="#Ἔποψ"><l n="194">ἰοὺ ἰού·</l>
 <l n="195">μὰ γῆν μὰ παγίδας μὰ νεφέλας μὰ δίκτυα,</l>
-<l
-                        n="195">μὴ ʼγὼ νόημα κομψότερον ἤκουσά πω·</l>
+<l n="195">μὴ ʼγὼ νόημα κομψότερον ἤκουσά πω·</l>
 <l n="196">ὥστʼ ἂν κατοικίζοιμι μετὰ
                         σοῦ τὴν πόλιν,</l>
 <l n="197">εἰ ξυνδοκοίη τοῖσιν ἄλλοις ὀρνέοις.</l>
@@ -537,8 +530,7 @@
 </said>
                 <said who="#Ἔποψ"><l n="199">σύ.</l>
 <l n="200">ἐγὼ γὰρ αὐτοὺς βαρβάρους ὄντας πρὸ τοῦ</l>
-<l n="200"
-                        >ἐδίδαξα τὴν φωνήν, ξυνὼν πολὺν χρόνον.</l>
+<l n="200">ἐδίδαξα τὴν φωνήν, ξυνὼν πολὺν χρόνον.</l>
 </said>
                 <said who="#Πισθέταιρος"><l n="201">πῶς δῆτʼ ἂν αὐτοὺς ξυγκαλέσειας;</l>
 </said>
@@ -555,12 +547,12 @@
 <l n="207">ἀλλʼ ἀντιβολῶ
                         σʼ ἄγʼ ὡς τάχιστʼ ἐς τὴν λόχμην</l>
 <l n="208">ἔσβαινε κἀνέγειρε τὴν
-                            ἀηδόνα.<milestone ed="p" n="209" unit="card"/>
+                            ἀηδόνα.<milestone ed="p" n="209" unit="card" />
                     </l>
 </said>
             </div>
-            <div type="textpart" subtype="Parodos">
-                <div type="textpart" subtype="monody">
+            <div subtype="Parodos" type="textpart">
+                <div subtype="monody" type="textpart">
                     <said who="#Ἔποψ"><l n="209">ἄγε σύννομέ μοι παῦσαι μὲν ὕπνου,</l>
 <l n="210">λῦσον δὲ
                             νόμους ἱερῶν ὕμνων,</l>
@@ -583,7 +575,7 @@
 <l n="221">στομάτων χωρεῖ ξύμφωνος ὁμοῦ</l>
 <l n="222">θεία μακάρων
                             ὀλολυγή.</l>
-<l n="222.1" rend="222b">ʽἁὐλεἶ<milestone ed="p" n="223" unit="card"/>
+<l n="222.1" rend="222b">ʽἁὐλεἶ<milestone ed="p" n="223" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="223">ὦ Ζεῦ βασιλεῦ τοῦ φθέγματος τοὐρνιθίου·</l>
@@ -596,13 +588,12 @@
 </said>
                     <said who="#Ἐυελπίδης"><l n="227">τί δαί;</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="228">οὕποψ μελῳδεῖν αὖ παρασκευάζεται. <milestone ed="p"
-                                n="227" unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="228">οὕποψ μελῳδεῖν αὖ παρασκευάζεται. <milestone ed="p" n="227" unit="card" />
                         </l>
 </said>
-                    <!-- very various meters -->
+                    
                 </div>
-                <div type="textpart" subtype="monody">
+                <div subtype="monody" type="textpart">
                     <said who="#Ἔποψ"><l n="229">ἐποποῖ ποποποποποποποῖ,</l>
 <l n="230">ἰὼ ἰὼ ἰτὼ ἰτὼ ἰτὼ
                             ἰτὼ,</l>
@@ -629,13 +620,11 @@
 <l n="242">τριοτὸ τριοτὸ
                             τοτοβρίξ·</l>
 <l n="243">οἵ θʼ ἑλείας παρʼ αὐλῶνας ὀξυστόμους</l>
-<l n="245"
-                            >ἐμπίδας κάπτεθʼ, ὅσα τʼ εὐδρόσους γῆς τόπους</l>
+<l n="245">ἐμπίδας κάπτεθʼ, ὅσα τʼ εὐδρόσους γῆς τόπους</l>
 <l n="246">ἔχετε λειμῶνά τʼ
                             ἐρόεντα Μαραθῶνος, ὄρνις</l>
 <l n="247">πτερυγοποίκιλός τʼ ἀτταγᾶς ἀτταγᾶς.</l>
-<l
-                            n="250">ὧν τʼ ἐπὶ πόντιον οἶδμα θαλάσσης</l>
+<l n="250">ὧν τʼ ἐπὶ πόντιον οἶδμα θαλάσσης</l>
 <l n="248">φῦλα μετʼ ἀλκυόνεσσι
                             ποτῆται,</l>
 <l n="249">δεῦρʼ ἴτε πευσόμενοι τὰ νεώτερα,</l>
@@ -654,8 +643,7 @@
                     <said who="#Χορὸς"><l n="260">τοροτοροτοροτοροτίξ.</l>
 <l n="261">κικκαβαῦ
                             κικκαβαῦ.</l>
-<l n="262">τοροτοροτοροτορολιλιλίξ. <milestone ed="p" n="263"
-                                unit="card"/>
+<l n="262">τοροτοροτοροτορολιλιλίξ. <milestone ed="p" n="263" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="263">ὁρᾷς τινʼ ὄρνιν;</l>
@@ -666,12 +654,11 @@
 </said>
                     <said who="#Πισθέταιρος"><l n="265">ἄλλως ἄρʼ οὕποψ, ὡς ἔοικʼ, ἐς τὴν
                             λόχμην</l>
-<l n="266">ἐσβὰς ἐπῷζε χαραδριὸν μιμούμενος. <milestone ed="p" n="267"
-                                unit="card"/>
+<l n="266">ἐσβὰς ἐπῷζε χαραδριὸν μιμούμενος. <milestone ed="p" n="267" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Ὄρνις Τις"><l n="267">τοροτὶξ τοροτίξ.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="268">ὦγάθʼ ἀλλʼ <add>εἶς</add> οὑτοσὶ καὶ δή τις ὄρνις
@@ -750,8 +737,7 @@
                             ἀσφαλείας οὔνεκα.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="295">ὦ Πόσειδον οὐχ ὁρᾷς ὅσον συνείλεκται κακὸν</l>
-<l
-                            n="295">ὀρνέων;</l>
+<l n="295">ὀρνέων;</l>
 </said>
                     <said who="#Ἐυελπίδης"><l n="296">ὦναξ Ἄπολλον τοῦ νέφους. ἰοὺ ἰού,</l>
 <l n="297">οὐδʼ ἰδεῖν ἔτʼ
@@ -786,8 +772,7 @@
 <l n="308">καὶ βλέπουσιν ἐς σὲ
                             κἀμέ. </l>
 </said>
-                    <said who="#Ἐυελπίδης"><l n="309">τοῦτο μὲν κἀμοὶ δοκεῖ.<milestone ed="p" n="310"
-                                unit="card"/>
+                    <said who="#Ἐυελπίδης"><l n="309">τοῦτο μὲν κἀμοὶ δοκεῖ.<milestone ed="p" n="310" unit="card" />
                         </l>
 </said>
                     <said who="#Χορός"><l n="310">ποποποποποποποποποποῖ ποῦ μʼ ἄρʼ ὃς</l>
@@ -797,8 +782,7 @@
                     <said who="#Ἔποψ"><l n="312">οὑτοσὶ πάλαι πάρειμι κοὐκ ἀποστατῶ φίλων.</l>
 </said>
                     <said who="#Χορός"><l n="313">τί τί τί τί τί τί τί τί· τίνα λόγον ἄρα ποτὲ</l>
-<l n="315"
-                            >πρὸς ἐμὲ φίλον ἔχων;</l>
+<l n="315">πρὸς ἐμὲ φίλον ἔχων;</l>
 </said>
                     <said who="#Ἔποψ"><l n="316">κοινὸν ἀσφαλῆ δίκαιον ἡδὺν ὠφελήσιμον.</l>
 <l n="317">ἄνδρε γὰρ
@@ -826,14 +810,13 @@
 </said>
                     <said who="#Χορός"><l n="327">κἀστὸν ἤδη που παρʼ ἡμῖν;</l>
 </said>
-                    <said who="#Ἔποψ"><l n="328">εἰ παρʼ ὑμῖν εἴμʼ ἐγώ.<milestone ed="p" n="327" unit="card"
-                            />
+                    <said who="#Ἔποψ"><l n="328">εἰ παρʼ ὑμῖν εἴμʼ ἐγώ.<milestone ed="p" n="327" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Agon">
-                <div type="textpart" subtype="strophe" n="1">
+            <div subtype="Agon" type="textpart">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="329">ἔα ἔα,</l>
 <l n="330">προδεδόμεθʼ ἀνόσιά τʼ ἐπάθομεν·</l>
 <l n="331">ὃς γὰρ
@@ -847,26 +830,24 @@
 <l n="334">γένος
                             ἀνόσιον, ὅπερ ἐξότʼ ἐγένετʼ ἐπʼ ἐμοὶ</l>
 <l n="335">πολέμιον ἐτράφη.
-                                <milestone ed="p" n="336" unit="card"/>
+                                <milestone ed="p" n="336" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="katakeleusmenos">
+                <div subtype="katakeleusmenos" type="textpart">
                     <said who="#Χορός"><l n="336">ἀλλὰ πρὸς τοῦτον μὲν ἡμῖν ἐστιν ὕστερος λόγος·</l>
 <l n="337">τὼ δὲ
                             πρεσβύτα δοκεῖ μοι τώδε δοῦναι τὴν δίκην</l>
 <l n="338">διαφορηθῆναί θʼ ὑφʼ
                             ἡμῶν.</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="339">ὡς ἀπωλόμεσθʼ ἄρα.<milestone ed="p" n="339"
-                                unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="339">ὡς ἀπωλόμεσθʼ ἄρα.<milestone ed="p" n="339" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="epirrheme">
+                <div subtype="epirrheme" type="textpart">
                     <said who="#Ἐυελπίδης"><l n="340">αἴτιος μέντοι σὺ νῷν εἶ τῶν κακῶν τούτων μόνος.</l>
-<l
-                            n="340">ἐπὶ τί γάρ μʼ ἐκεῖθεν ἦγες;</l>
+<l n="340">ἐπὶ τί γάρ μʼ ἐκεῖθεν ἦγες;</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="341">ἵνʼ ἀκολουθοίης ἐμοί.</l>
 </said>
@@ -874,15 +855,14 @@
 </said>
                     <said who="#Πισθέταιρος"><l n="343">τοῦτο μὲν ληρεῖς ἔχων</l>
 <l n="344">κάρτα· πῶς κλαύσει γάρ,
-                            ἢν ἅπαξ γε τὠφθαλμὼ ʼκκοπῇς;<milestone ed="p" n="343" unit="card"/>
+                            ἢν ἅπαξ γε τὠφθαλμὼ ʼκκοπῇς;<milestone ed="p" n="343" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe">
+                <div subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="345">ἰὼ ἰώ,</l>
 <l n="346">ἔπαγʼ ἔπιθʼ ἐπίφερε πολέμιον</l>
-<l n="345"
-                            >ὁρμὰν φονίαν, πτέρυγά τε παντᾷ</l>
+<l n="345">ὁρμὰν φονίαν, πτέρυγά τε παντᾷ</l>
 <l n="346">ἐπίβαλε περί τε κύκλωσαι·</l>
 <l n="347">ὡς
                             δεῖ τώδʼ οἰμώζειν ἄμφω</l>
@@ -891,20 +871,18 @@
                             ὄρος σκιερὸν οὔτε νέφος αἰθέριον</l>
 <l n="350">οὔτε πολιὸν πέλαγος ἔστιν
                             ὅ τι δέξεται</l>
-<l n="351">τώδʼ ἀποφυγόντε με. <milestone ed="p" n="352"
-                                unit="card"/>
+<l n="351">τώδʼ ἀποφυγόντε με. <milestone ed="p" n="352" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antikatakeleusmenos">
+                <div subtype="antikatakeleusmenos" type="textpart">
                     <said who="#Χορός"><l n="352">ἀλλὰ μὴ μέλλωμεν ἤδη τώδε τίλλειν καὶ δάκνειν.</l>
 <l n="353">ποῦ
-                            ʼσθʼ ὁ ταξίαρχος; ἐπαγέτω τὸ δεξιὸν κέρας.<milestone ed="p" n="354"
-                                unit="card"/>
+                            ʼσθʼ ὁ ταξίαρχος; ἐπαγέτω τὸ δεξιὸν κέρας.<milestone ed="p" n="354" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antepirrheme">
+                <div subtype="antepirrheme" type="textpart">
                     <said who="#Ἐυελπίδης"><l n="354">τοῦτʼ ἐκεῖνο· ποῖφύγω δύστηνος;</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="355">οὗτος οὐ μενεῖς;</l>
@@ -941,8 +919,7 @@
                         μηχαναῖς.</l>
 </said>
                     <said who="#Χορός"><l n="365">ἐλελελεῦ χώρει κάθες τὸ ῥύγχος· οὐ μέλλειν ἐχρῆν.</l>
-<l
-                            n="365">ἕλκε τίλλε παῖε δεῖρε, κόπτε πρώτην τὴν χύτραν.</l>
+<l n="365">ἕλκε τίλλε παῖε δεῖρε, κόπτε πρώτην τὴν χύτραν.</l>
 </said>
                     <said who="#Ἔποψ"><l n="366">εἰπέ μοι τί μέλλετʼ ὦ πάντων κάκιστα θηρίων</l>
 <l n="367">ἀπολέσαι
@@ -951,8 +928,7 @@
                             καὶ φυλέτα;</l>
 </said>
                     <said who="#Χορός"><l n="369">φεισόμεσθα γάρ τι τῶνδε μᾶλλον ἡμεῖς ἢ λύκων;</l>
-<l
-                            n="370">ἢ τίνας τεισαίμεθʼ ἄλλους τῶνδʼ ἂν ἐχθίους ἔτι;</l>
+<l n="370">ἢ τίνας τεισαίμεθʼ ἄλλους τῶνδʼ ἂν ἐχθίους ἔτι;</l>
 </said>
                     <said who="#Ἔποψ"><l n="370">εἰ δὲ τὴν φύσιν μὲν ἐχθροὶ τὸν δὲ νοῦν εἰσιν
                             φίλοι,</l>
@@ -985,11 +961,11 @@
                     <said who="#Ἔποψ"><l n="384">καὶ δίκαιόν γʼ ἐστὶ κἀμοὶ δεῖ νέμειν ὑμᾶς χάριν.</l>
 </said>
                     <said who="#Χορός"><l n="385">ἀλλὰ μὴν οὐδʼ ἄλλο σοί πω πρᾶγμʼ
-                                ἐνηντιώμεθα.<milestone ed="p" n="386" unit="card"/>
+                                ἐνηντιώμεθα.<milestone ed="p" n="386" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antipnigos">
+                <div subtype="antipnigos" type="textpart">
                     <said who="#Πισθέταιρος"><l n="386">μᾶλλον εἰρήνην ἄγουσι νὴ Δίʼ, ὥστε τὴν
                             χύτραν</l>
 <l n="387">τώ τε τρυβλίω καθίει·</l>
@@ -1012,14 +988,13 @@
 <l n="397">φήσομεν πρὸς τοὺς στρατηγοὺς</l>
 <l n="398">μαχομένω τοῖς
                             πολεμίοισιν</l>
-<l n="399">ἀποθανεῖν ἐν Ὀρνεαῖς. <milestone ed="p" n="400"
-                                unit="card"/>
+<l n="399">ἀποθανεῖν ἐν Ὀρνεαῖς. <milestone ed="p" n="400" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Choral">
-                <div type="textpart" subtype="anapests">
+            <div subtype="Choral" type="textpart">
+                <div subtype="anapests" type="textpart">
                     <said who="#Χορός"><l n="400">ἄναγʼ ἐς τάξιν πάλιν ἐς ταὐτόν,</l>
 <l n="401">καὶ τὸν
                             θυμὸν κατάθου κύψας</l>
@@ -1030,11 +1005,11 @@
                             ἔμολον</l>
 <l n="405">† ἐπὶ τίνα τʼ ἐπίνοιαν. †</l>
 <l n="406">ἰὼ ἔποψ σέ τοι
-                            καλῶ. <milestone ed="p" n="407" unit="card"/>
+                            καλῶ. <milestone ed="p" n="407" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Ἔποψ"><l n="407">καλεῖς δὲ τοῦ κλύειν θέλων;</l>
 </said>
                     <said who="#Χορός"><l n="408">τίνες ποθʼ οἵδε καὶ πόθεν;</l>
@@ -1086,12 +1061,12 @@
                     <said who="#Χορός"><l n="432">λέγειν λέγειν κέλευέ μοι.</l>
 <l n="433">κλύων γὰρ ὧν σύ μοι
                             λέγεις</l>
-<l n="434">λόγων ἀνεπτέρωμαι.<milestone ed="p" n="435" unit="card"/>
+<l n="434">λόγων ἀνεπτέρωμαι.<milestone ed="p" n="435" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Episode">
+            <div subtype="Episode" type="textpart">
                 <said who="#Ἔποψ"><l n="435">ἄγε δὴ σὺ καὶ σὺ τὴν πανοπλίαν μὲν πάλιν</l>
 <l n="436">ταύτην
                         λαβόντε κρεμάσατον τύχἀγαθῇ</l>
@@ -1131,12 +1106,12 @@
 <l n="450">ἀνελομένους θὤπλʼ
                         ἀπιέναι πάλιν οἴκαδε,</l>
 <l n="450">σκοπεῖν δʼ ὅ τι ἂν προγράφωμεν ἐν τοῖς
-                            πινακίοις.<milestone ed="p" n="451" unit="card"/>
+                            πινακίοις.<milestone ed="p" n="451" unit="card" />
                     </l>
 </said>
             </div>
-            <div type="textpart" subtype="Agon">
-                <div type="textpart" subtype="strophe" n="1">
+            <div subtype="Agon" type="textpart">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="451">δολερὸν μὲν ἀεὶ κατὰ πάντα δὴ τρόπον</l>
 <l n="452">πέφυκεν
                             ἄνθρωπος· σὺ δʼ ὅμως λέγε μοι.</l>
@@ -1150,19 +1125,19 @@
                             οὑρᾷς λέγʼ ἐς κοινόν.</l>
 <l n="458">ὃ γὰρ ἂν σὺ τύχῃς μοι</l>
 <l n="459">ἀγαθὸν πορίσας,
-                            τοῦτο κοινὸν ἔσται.<milestone ed="p" n="460" unit="card"/>
+                            τοῦτο κοινὸν ἔσται.<milestone ed="p" n="460" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="katakeleusmos">
+                <div subtype="katakeleusmos" type="textpart">
                     <said who="#Χορός"><l n="460">ἀλλʼ ἐφʼ ὅτῳπερ πράγματι τὴν σὴν ἥκεις γνώμην
                             ἀναπείσας,</l>
 <l n="461">λέγε θαρρήσας· ὡς τὰς σπονδὰς οὐ μὴ πρότεροι
-                                παραβῶμεν.<milestone ed="p" n="462" unit="card"/>
+                                παραβῶμεν.<milestone ed="p" n="462" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="epirrheme">
+                <div subtype="epirrheme" type="textpart">
                     <said who="#Πισθέταιρος"><l n="462">καὶ μὴν ὀργῶ νὴ τὸν Δία καὶ προπεφύραται λόγος εἷς
                             μοι,</l>
 <l n="463">ὃν διαμάττειν οὐ κωλύει· φέρε παῖ στέφανον·
@@ -1255,7 +1230,7 @@
 <l n="497">ἔξω τείχους καὶ λωποδύτης παίει ῥοπάλῳ
                             με τὸ νῶτον·</l>
 <l n="498">κἀγὼ πίπτω μέλλω τε βοᾶν, ὁ δʼ ἀπέβλισε θοἰμάτιόν
-                                μου.<milestone ed="p" n="499" unit="card"/>
+                                μου.<milestone ed="p" n="499" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="499">ἰκτῖνος δʼ οὖν τῶν Ἑλλήνων ἦρχεν τότε
@@ -1275,20 +1250,17 @@
 </said>
                     <said who="#Πισθέταιρος"><l n="506">Αἰγύπτου δʼ αὖ καὶ Φοινίκης πάσης κόκκυξ βασιλεὺς
                             ἦν·</l>
-<l n="505">χὠπόθʼ ὁ κόκκυξ εἴποι <q
-                                >κόκκυ,</q> τότʼ ἂν οἱ Φοίνικες ἅπαντες</l>
+<l n="505">χὠπόθʼ ὁ κόκκυξ εἴποι <q>κόκκυ,</q> τότʼ ἂν οἱ Φοίνικες ἅπαντες</l>
 <l n="506">τοὺς πυροὺς ἂν καὶ τὰς
                             κριθὰς ἐν τοῖς πεδίοις ἐθέριζον.</l>
 </said>
-                    <said who="#Ἐυελπίδης"><l n="507">τοῦτʼ ἄρʼ ἐκεῖνʼ ἦν τοὔπος ἀληθῶς· <q
-                               >κόκκυψωλοὶ πεδίονδε.</q>
+                    <said who="#Ἐυελπίδης"><l n="507">τοῦτʼ ἄρʼ ἐκεῖνʼ ἦν τοὔπος ἀληθῶς· <q>κόκκυψωλοὶ πεδίονδε.</q>
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="508">ἦρχον δʼ οὕτω σφόδρα τὴν ἀρχήν, ὥστʼ εἴ τις καὶ
                             βασιλεύοι</l>
 <l n="509">ἐν ταῖς πόλεσιν τῶν Ἑλλήνων Ἀγαμέμνων ἢ Μενέλαος,</l>
-<l
-                            n="510">ἐπὶ τῶν σκήπτρων ἐκάθητʼ ὄρνις μετέχων ὅ τι
+<l n="510">ἐπὶ τῶν σκήπτρων ἐκάθητʼ ὄρνις μετέχων ὅ τι
                         δωροδοκοίη.</l>
 </said>
                     <said who="#Ἐυελπίδης"><l n="510">τουτὶ τοίνυν οὐκ ᾔδη ʼγώ· καὶ δῆτά μʼ ἐλάμβανε
@@ -1317,11 +1289,11 @@
 <l n="521">Λάμπων δʼ ὄμνυσʼ ἔτι καὶ νυνὶ τὸν χῆνʼ, ὅταν
                             ἐξαπατᾷ τι.</l>
 <l n="522">οὕτως ὑμᾶς πάντες πρότερον μεγάλους ἁγίους τʼ
-                                ἐνόμιζον,<milestone ed="p" n="523" unit="card"/>
+                                ἐνόμιζον,<milestone ed="p" n="523" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="pnigos">
+                <div subtype="pnigos" type="textpart">
                     <said who="#Πισθέταιρος"><l n="523">νῦν δʼ ἀνδράποδʼ ἠλιθίους Μανᾶς·</l>
 <l n="524">ὥσπερ δʼ ἤδη
                             τοὺς μαινομένους</l>
@@ -1332,8 +1304,7 @@
 <l n="528">ἕρκη
                             νεφέλας δίκτυα πηκτάς·</l>
 <l n="529">εἶτα λαβόντες πωλοῦσʼ ἁθρόους·</l>
-<l
-                            n="530">οἱ δʼ ὠνοῦνται βλιμάζοντες·</l>
+<l n="530">οἱ δʼ ὠνοῦνται βλιμάζοντες·</l>
 <l n="530">κοὐδʼ οὖν, εἴπερ ταῦτα δοκεῖ
                             δρᾶν,</l>
 <l n="531">ὀπτησάμενοι παρέθενθʼ ὑμᾶς,</l>
@@ -1345,12 +1316,11 @@
 <l n="536">κἄπειτα κατεσκέδασαν θερμὸν</l>
 <l n="537">τοῦτο καθʼ
                             ὑμῶν</l>
-<l n="538">αὐτῶν ὥσπερ κενεβρείων.<milestone ed="p" n="539" unit="card"
-                            />
+<l n="538">αὐτῶν ὥσπερ κενεβρείων.<milestone ed="p" n="539" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe">
+                <div subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="539">πολὺ δὴ πολὺ δὴ χαλεπωτάτους λόγους</l>
 <l n="540">ἤνεγκας
                             ἄνθρωφʼ. ὡς ἐδάκρυσά γʼ ἐμῶν</l>
@@ -1364,19 +1334,19 @@
                             σωτήρ.</l>
 <l n="546">ἀναθεὶς γὰρ ἐγώ σοι</l>
 <l n="547">τὰ νεοττία κἀμαυτὸν
-                                οἰκήσω.<milestone ed="p" n="548" unit="card"/>
+                                οἰκήσω.<milestone ed="p" n="548" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antikatakeleusmos">
+                <div subtype="antikatakeleusmos" type="textpart">
                     <said who="#Χορός"><l n="548">ἀλλʼ ὅ τι χρὴ δρᾶν, σὺ δίδασκε παρών· ὡς ζῆν οὐκ ἄξιον
                             ἡμῖν,</l>
 <l n="549">εἰ μὴ κομιούμεθα παντὶ τρόπῳ τὴν ἡμετέραν
-                                βασιλείαν.<milestone ed="p" n="550" unit="card"/>
+                                βασιλείαν.<milestone ed="p" n="550" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antepirrheme">
+                <div subtype="antepirrheme" type="textpart">
                     <said who="#Πισθέταιρος"><l n="550">καὶ δὴ τοίνυν πρῶτα διδάσκω μίαν ὀρνίθων
                             πόλιν εἶναι,</l>
 <l n="551">κἄπειτα τὸν ἀέρα πάντα κύκλῳ καὶ πᾶν τουτὶ τὸ
@@ -1443,8 +1413,7 @@
 <l n="578">τούτους δὲ θεοὺς τοὺς ἐν Ὀλύμπῳ τότε χρὴ στρούθων νέφος
                             ἀρθὲν</l>
 <l n="579">καὶ σπερμολόγων ἐκ τῶν ἀγρῶν τὸ σπέρμʼ αὐτῶν ἀνακάψαι·</l>
-<l
-                            n="580">κἄπειτʼ αὐτοῖς ἡ Δημήτηρ πυροὺς πεινῶσι μετρείτω.</l>
+<l n="580">κἄπειτʼ αὐτοῖς ἡ Δημήτηρ πυροὺς πεινῶσι μετρείτω.</l>
 </said>
                     <said who="#Ἐυελπίδης"><l n="580">οὐκ ἐθελήσει μὰ Δίʼ, ἀλλʼ ὄψει προφάσεις αὐτὴν
                             παρέχουσαν.</l>
@@ -1472,7 +1441,7 @@
 <l n="590">εἶθʼ οἱ κνῖπες καὶ ψῆνες ἀεὶ τὰς συκᾶς οὐ
                             κατέδονται,</l>
 <l n="591">ἀλλʼ ἀναλέξει πάντας καθαρῶς αὐτοὺς ἀγέλη μία
-                                κιχλῶν.<milestone ed="p" n="592" unit="card"/>
+                                κιχλῶν.<milestone ed="p" n="592" unit="card" />
                         </l>
 </said>
                     <said who="#Ἔποψ"><l n="592">πλουτεῖν δὲ πόθεν δώσομεν αὐτοῖς; καὶ γὰρ τούτου σφόδρʼ
@@ -1532,11 +1501,11 @@
                             ἀνδρῶν γενεὰς ζώει λακέρυζα κορώνη;</l>
 </said>
                     <said who="#Ἐυελπίδης"><l n="610">αἰβοῖ πολλῷ κρείττους οὗτοι τοῦ Διὸς ἡμῖν
-                                βασιλεύειν.<milestone ed="p" n="611" unit="card"/>
+                                βασιλεύειν.<milestone ed="p" n="611" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="pnigos">
+                <div subtype="pnigos" type="textpart">
                     <said who="#Πισθέταιρος"><l n="611">οὐ γὰρ πολλῷ;</l>
 <l n="612">πρῶτον μέν <add>γʼ</add> οὐχὶ
                             νεὼς ἡμᾶς</l>
@@ -1561,20 +1530,20 @@
                             ταῦθʼ ἡμῖν</l>
 <l n="625">παραχρῆμʼ ἔσται</l>
 <l n="626">πυροὺς ὀλίγους
-                                προβαλοῦσιν.<milestone ed="p" n="627" unit="card"/>
+                                προβαλοῦσιν.<milestone ed="p" n="627" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Lyric-Scene">
-                <div type="textpart" subtype="anapests">
+            <div subtype="Lyric-Scene" type="textpart">
+                <div subtype="anapests" type="textpart">
                     <said who="#Χορός"><l n="627">ὦ φίλτατʼ ἐμοὶ πολὺ πρεσβυτῶν ἐξ ἐχθίστου
                             μεταπίπτων,</l>
 <l n="628">οὐκ ἔστιν ὅπως ἂν ἐγώ ποθʼ ἑκὼν τῆς σῆς γνώμης ἔτʼ
                             ἀφείμην.</l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Χορός"><l n="629">ἐπαυχήσας δὲ τοῖσι σοῖς λόγοις</l>
 <l n="630">ἐπηπείλησα
                             καὶ κατώμοσα,</l>
@@ -1585,22 +1554,22 @@
 <l n="634">ἐπὶ θεοὺς ἴῃς, ἐμοὶ</l>
 </said>
                 </div>
-                <div type="textpart" subtype="anapests">
+                <div subtype="anapests" type="textpart">
                     <said who="#Χορός"><l n="635">φρονῶν ξυνῳδά, μὴ πολὺν χρόνον</l>
 <l n="636">θεοὺς ἔτι
                             σκῆπτρα τἀμὰ τρίψειν.</l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Χορός"><l n="637">ἀλλʼ ὅσα μὲν δεῖ ῥώμῃ πράττειν, ἐπὶ ταῦτα τεταξόμεθʼ
                             ἡμεῖς·</l>
 <l n="638">ὅσα δὲ γνώμῃ δεῖ βουλεύειν, ἐπὶ σοὶ τάδε πάντʼ
-                                ἀνάκειται.<milestone ed="p" n="639" unit="card"/>
+                                ἀνάκειται.<milestone ed="p" n="639" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Episode">
+            <div subtype="Episode" type="textpart">
                 <said who="#Ἔποψ"><l n="639">καὶ μὴν μὰ τὸν Δίʼ οὐχὶ νυστάζειν ἔτι</l>
 <l n="640">ὥρα ʼστὶν
                         ἡμῖν οὐδὲ μελλονικιᾶν,</l>
@@ -1646,18 +1615,18 @@
 </said>
                 <said who="#Πισθέταιρος"><l n="656">οὕτω μὲν εἰσίωμεν. ἄγε δὴ Ξανθία</l>
 <l n="657">καὶ Μανόδωρε
-                        λαμβάνετε τὰ στρώματα.<milestone ed="p" n="658" unit="card"/>
+                        λαμβάνετε τὰ στρώματα.<milestone ed="p" n="658" unit="card" />
                     </l>
 </said>
-                <div type="textpart" subtype="anapests">
+                <div subtype="anapests" type="textpart">
                     <said who="#Χορός"><l n="658">οὗτος σὲ καλῶ, σὲ λέγω.</l>
 </said>
                 </div>
-                <div type="textpart" subtype="anapests">
+                <div subtype="anapests" type="textpart">
                     <said who="#Ἔποψ"><l n="659">τί καλεῖς;</l>
 </said>
                 </div>
-                <div type="textpart" subtype="anapests">
+                <div subtype="anapests" type="textpart">
                     <said who="#Χορός"><l n="660">τούτους μὲν ἄγων μετὰ σαυτοῦ</l>
 <l n="661">ἀρίστισον εὖ· τὴν δʼ
                             ἡδυμελῆ ξύμφωνον ἀηδόνα Μούσαις</l>
@@ -1697,14 +1666,13 @@
 </said>
                     <said who="#Ἔποψ"><l n="675">ἴωμεν.</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="676">ἡγοῦ δὴ σὺ νῷν τύχἀγαθῇ.<milestone ed="p" n="676"
-                                unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="676">ἡγοῦ δὴ σὺ νῷν τύχἀγαθῇ.<milestone ed="p" n="676" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Parabasis">
-                <div type="textpart" subtype="prelude">
+            <div subtype="Parabasis" type="textpart">
+                <div subtype="prelude" type="textpart">
                     <said who="#Χορός"><l n="677">ὦ φίλη, ὦ ξουθή,</l>
 <l n="678">ὦ φίλτατον ὀρνέων</l>
 <l n="679">πάντων,
@@ -1717,11 +1685,11 @@
                             κρέκουσʼ</l>
 <l n="683">αὐλὸν φθέγμασιν ἠρινοῖς,</l>
 <l n="684">ἄρχου τῶν ἀναπαίστων.
-                                <milestone ed="p" n="685" unit="card"/>
+                                <milestone ed="p" n="685" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="parabasis">
+                <div subtype="parabasis" type="textpart">
                     <said who="#Χορός"><l n="685">ἄγε δὴ φύσιν ἄνδρες ἀμαυρόβιοι, φύλλων γενεᾷ
                             προσόμοιοι,</l>
 <l n="686">ὀλιγοδρανέες, πλάσματα πηλοῦ, σκιοειδέα φῦλʼ
@@ -1767,16 +1735,15 @@
 <l n="706">διὰ τὴν ἰσχὺν τὴν ἡμετέραν διεμήρισαν ἄνδρες
                             ἐρασταί,</l>
 <l n="707">ὁ μὲν ὄρτυγα δοὺς ὁ δὲ πορφυρίωνʼ ὁ δὲ χῆνʼ ὁ δὲ Περσικὸν
-                                ὄρνιν.<milestone ed="p" n="708" unit="card"/>
+                                ὄρνιν.<milestone ed="p" n="708" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="parabasis">
+                <div subtype="parabasis" type="textpart">
                     <said who="#Χορός"><l n="708">πάντα δὲ θνητοῖς ἐστὶν ἀφʼ ἡμῶν τῶν ὀρνίθων τὰ
                             μέγιστα.</l>
 <l n="709">πρῶτα μὲν ὥρας φαίνομεν ἡμεῖς ἦρος χειμῶνος ὀπώρας·</l>
-<l
-                            n="710">σπείρειν μέν, ὅταν γέρανος κρώζουσʼ ἐς τὴν Λιβύην
+<l n="710">σπείρειν μέν, ὅταν γέρανος κρώζουσʼ ἐς τὴν Λιβύην
                             μεταχωρῇ.</l>
 <l n="710">καὶ πηδάλιον τότε ναυκλήρῳ φράζει κρεμάσαντι
                             καθεύδειν,</l>
@@ -1801,11 +1768,11 @@
 <l n="721">ξύμβολον ὄρνιν, φωνὴν ὄρνιν, θεράποντʼ ὄρνιν, ὄνον
                             ὄρνιν.</l>
 <l n="722">ἆρʼ οὐ φανερῶς ἡμεῖς ὑμῖν ἐσμὲν μαντεῖος Ἀπόλλων;
-                                <milestone ed="p" n="723" unit="card"/>
+                                <milestone ed="p" n="723" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="pnigos">
+                <div subtype="pnigos" type="textpart">
                     <said who="#Χορός"><l n="723">ἢν οὖν ἡμᾶς νομίσητε θεούς,</l>
 <l n="724">ἕξετε χρῆσθαι μάντεσι
                             Μούσαις</l>
@@ -1816,8 +1783,7 @@
 <l n="728">παρὰ ταῖς
                             νεφέλαις ὥσπερ χὠ Ζεύς·</l>
 <l n="729">ἀλλὰ παρόντες δώσομεν ὑμῖν</l>
-<l n="730"
-                            >αὐτοῖς, παισίν, παίδων παισίν,</l>
+<l n="730">αὐτοῖς, παισίν, παίδων παισίν,</l>
 <l n="731">πλουθυγιείαν</l>
 <l n="732">εὐδαιμονίαν
                             βίον εἰρήνην</l>
@@ -1826,11 +1792,11 @@
                             ὥστε παρέσται</l>
 <l n="735">κοπιᾶν ὑμῖν ὑπὸ τῶν ἀγαθῶν·</l>
 <l n="736">οὕτω
-                            πλουτήσετε πάντες.<milestone ed="p" n="737" unit="card"/>
+                            πλουτήσετε πάντες.<milestone ed="p" n="737" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="strophe" n="1">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="737">Μοῦσα λοχμαία,</l>
 <l n="738">τιὸ τιὸ τιὸ τιὸ τιὸ τιὸ
                             τιοτίγξ,</l>
@@ -1850,27 +1816,23 @@
 <l n="748">ἔνθεν ὡστερεὶ
                             μέλιττα</l>
 <l n="749">Φρύνιχος ἀμβροσίων μελέων ἀπεβόσκετο καρπὸν ἀεὶ</l>
-<l
-                            n="750">φέρων γλυκεῖαν ᾠδάν.</l>
-<l n="750">τιὸ τιὸ τιὸ τιοτίγξ.<milestone ed="p"
-                                n="752" unit="card"/>
+<l n="750">φέρων γλυκεῖαν ᾠδάν.</l>
+<l n="750">τιὸ τιὸ τιὸ τιοτίγξ.<milestone ed="p" n="752" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="epirrheme">
+                <div subtype="epirrheme" type="textpart">
                     <said who="#Χορός"><l n="751">εἰ μετʼ ὀρνίθων τις ὑμῶν ὦ θεαταὶ
                             βούλεται</l>
 <l n="752">διαπλέκειν ζῶν ἡδέως τὸ λοιπόν, ὡς ἡμᾶς ἴτω.</l>
-<l
-                            n="755">ὅσα γάρ ἐστιν ἐνθάδʼ αἰσχρὰ τῷ νόμῳ κρατούμενα,</l>
+<l n="755">ὅσα γάρ ἐστιν ἐνθάδʼ αἰσχρὰ τῷ νόμῳ κρατούμενα,</l>
 <l n="753">ταῦτα
                             πάντʼ ἐστὶν παρʼ ἡμῖν τοῖσιν ὄρνισιν καλά.</l>
 <l n="754">εἰ γὰρ ἐνθάδʼ ἐστὶν
                             αἰσχρὸν τὸν πατέρα τύπτειν νόμῳ,</l>
 <l n="755">τοῦτʼ ἐκεῖ καλὸν παρʼ ἡμῖν ἐστιν,
                             ἤν τις τῷ πατρὶ</l>
-<l n="756">προσδραμὼν εἴπῃ πατάξας, <q
-                                >αἶρε πλῆκτρον, εἰ μαχεῖ.</q>
+<l n="756">προσδραμὼν εἴπῃ πατάξας, <q>αἶρε πλῆκτρον, εἰ μαχεῖ.</q>
                         </l>
 <l n="760">εἰ δὲ τυγχάνει τις ὑμῶν δραπέτης ἐστιγμένος,</l>
 <l n="761">ἀτταγᾶς
@@ -1880,18 +1842,17 @@
 <l n="763">φρυγίλος ὄρνις ἐνθάδʼ ἔσται, τοῦ Φιλήμονος
                             γένους.</l>
 <l n="764">εἰ δὲ δοῦλός ἐστι καὶ Κὰρ ὥσπερ Ἐξηκεστίδης,</l>
-<l n="765"
-                            >φυσάτω πάππους παρʼ ἡμῖν, καὶ φανοῦνται φράτερες.</l>
+<l n="765">φυσάτω πάππους παρʼ ἡμῖν, καὶ φανοῦνται φράτερες.</l>
 <l n="766">εἰ δʼ ὁ Πεισίου
                             προδοῦναι τοῖς ἀτίμοις τὰς πύλας</l>
 <l n="767">βούλεται, πέρδιξ γενέσθω, τοῦ
                             πατρὸς νεοττίον·</l>
 <l n="768">ὡς παρʼ ἡμῖν οὐδὲν αἰσχρόν ἐστιν
-                                ἐκπερδικίσαι.<milestone ed="p" n="769" unit="card"/>
+                                ἐκπερδικίσαι.<milestone ed="p" n="769" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe">
+                <div subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="769">τοιάδε κύκνοι,</l>
 <l n="770">τιὸ τιὸ τιὰ τιὸ τιὸ
                             τιοτίγξ,</l>
@@ -1913,12 +1874,11 @@
 <l n="781">εἷλε δὲ θάμβος ἄνακτας· Ὀλυμπιάδες δὲ μέλος
                             Χάριτες</l>
 <l n="782">Μοῦσαί τʼ ἐπωλόλυξαν.</l>
-<l n="783">τιὸ τιὸ τιὸ τιοτίγξ.<milestone
-                                ed="p" n="785" unit="card"/>
+<l n="783">τιὸ τιὸ τιὸ τιοτίγξ.<milestone ed="p" n="785" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antepirrheme">
+                <div subtype="antepirrheme" type="textpart">
                     <said who="#Χορός"><l n="785">οὐδέν ἐστʼ ἄμεινον οὐδʼ ἥδιον ἢ φῦσαι
                             πτερά.</l>
 <l n="786">αὐτίχʼ ὑμῶν τῶν θεατῶν εἴ τις ἧν ὑπόπτερος,</l>
@@ -1947,12 +1907,12 @@
 <l n="799">ᾑρέθη φύλαρχος, εἶθʼ
                             ἵππαρχος, εἶτʼ ἐξ οὐδενὸς</l>
 <l n="800">μεγάλα πράττει κἀστὶ νυνὶ ξουθὸς
-                                ἱππαλεκτρυών.<milestone ed="p" n="801" unit="card"/>
+                                ἱππαλεκτρυών.<milestone ed="p" n="801" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Lyric-Scene">
+            <div subtype="Lyric-Scene" type="textpart">
                 <said who="#Πισθέταιρος"><l n="801">ταυτὶ τοιαυτί· μὰ Δίʼ ἐγὼ μὲν πρᾶγμά
                         πω</l>
 <l n="802">γελοιότερον οὐκ εἶδον οὐδεπώποτε.</l>
@@ -2020,8 +1980,7 @@
                 <said who="#Ἐυελπίδης"><l n="828">τί δʼ οὐκ Ἀθηναίαν ἐῶμεν Πολιάδα;</l>
 </said>
                 <said who="#Πισθέταιρος"><l n="829">καὶ πῶς ἂν ἔτι γένοιτʼ ἂν εὔτακτος πόλις,</l>
-<l n="830"
-                        >ὅπου θεὸς γυνὴ γεγονυῖα πανοπλίαν</l>
+<l n="830">ὅπου θεὸς γυνὴ γεγονυῖα πανοπλίαν</l>
 <l n="831">ἕστηκʼ ἔχουσα, Κλεισθένης δὲ
                         κερκίδα;</l>
 </said>
@@ -2062,10 +2021,10 @@
                         θεοῖς,</l>
 <l n="851">τὸν ἱερέα πέμψοντα τὴν πομπὴν καλῶ.</l>
 <l n="850">παῖ παῖ, τὸ
-                        κανοῦν αἴρεσθε καὶ τὴν χέρνιβα.<milestone ed="p" n="851" unit="card"/>
+                        κανοῦν αἴρεσθε καὶ τὴν χέρνιβα.<milestone ed="p" n="851" unit="card" />
                     </l>
 </said>
-                <div type="textpart" subtype="strophe" n="1">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Ἱερεύς"><l n="851">ὁμορροθῶ, συνθέλω,</l>
 <l n="852">συμπαραινέσας ἔχω</l>
 <l n="853">προσόδια
@@ -2074,13 +2033,11 @@
                             ἕνεκα προβάτιόν τι θύειν.</l>
 <l n="856">ἴτω ἴτω δὲ Πυθιὰς βοὰ
                             θεῷ,</l>
-<l n="857">συνᾳδέτω δὲ Χαῖρις ᾠδάν.<milestone ed="p" n="859" unit="card"
-                            />
+<l n="857">συνᾳδέτω δὲ Χαῖρις ᾠδάν.<milestone ed="p" n="859" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="858">παῦσαι σὺ φυσῶν. Ἡράκλεις τουτὶ τί ἦν;</l>
-<l n="860"
-                            >τουτὶ μὰ Δίʼ ἐγὼ πολλὰ δὴ καὶ δείνʼ ἰδὼν</l>
+<l n="860">τουτὶ μὰ Δίʼ ἐγὼ πολλὰ δὴ καὶ δείνʼ ἰδὼν</l>
 <l n="861">οὔπω κόρακʼ εἶδον
                             ἐμπεφορβειωμένον.</l>
 <l n="862">ἱερεῦ σὸν ἔργον, θῦε τοῖς καινοῖς
@@ -2116,35 +2073,32 @@
                             —</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="882">παῦʼ ἐς κόρακας, παῦσαι καλῶν. ἰοὺ ἰού,</l>
-<l
-                            n="890">ἐπὶ ποῖον ὦ κακόδαιμον ἱερεῖον καλεῖς</l>
+<l n="890">ἐπὶ ποῖον ὦ κακόδαιμον ἱερεῖον καλεῖς</l>
 <l n="883">ἁλιαιέτους καὶ
                             γῦπας; οὐχ ὁρᾷς ὅτι</l>
 <l n="884">ἰκτῖνος εἷς ἂν τοῦτό γʼ οἴχοιθʼ
                             ἁρπάσας;</l>
 <l n="885">ἄπελθʼ ἀφʼ ἡμῶν καὶ σὺ καὶ τὰ στέμματα·</l>
 <l n="886">ἐγὼ γὰρ
-                            αὐτὸς τουτογὶ θύσω μόνος.<milestone ed="p" n="895" unit="card"/>
+                            αὐτὸς τουτογὶ θύσω μόνος.<milestone ed="p" n="895" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe" n="1">
+                <div n="1" subtype="antistrophe" type="textpart">
                     <said who="#Ἱερεύς"><l n="887">εἶτʼ αὖθις αὖ τἄρα σοι</l>
 <l n="896">δεῖ με δεύτερον
                             μέλος</l>
 <l n="897">χέρνιβι θεοσεβὲς ὅσιον ἐπιβοᾶν, καλεῖν δὲ</l>
-<l n="900"
-                            >μάκαρας, ἕνα τινὰ μόνον, εἴπερ ἱκανὸν ἕξετʼ ὄψον.</l>
+<l n="900">μάκαρας, ἕνα τινὰ μόνον, εἴπερ ἱκανὸν ἕξετʼ ὄψον.</l>
 <l n="901">τὰ γὰρ παρόντα
                             θύματʼ οὐδὲν ἄλλο πλὴν</l>
-<l n="902">γένειόν ἐστι καὶ κέρατα.<milestone ed="p"
-                                n="903" unit="card"/>
+<l n="902">γένειόν ἐστι καὶ κέρατα.<milestone ed="p" n="903" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="903">θύοντες εὐξώμεσθα τοῖς πτερίνοις θεοῖς.</l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Ποιητής"><l n="904">Νεφελοκοκκυγίαν τὰν εὐδαίμονα</l>
 <l n="905">κλῇσον ὦ
                             Μοῦσα τεαῖς ἐν ὓμνων ἀοιδαῖς.</l>
@@ -2190,8 +2144,7 @@
                             ὁμώνυμε,</l>
 <l n="928">δὸς ἐμὶν ὅ τι περ</l>
 <l n="929">τεᾷ κεφαλᾷ θέλῃς</l>
-<l n="930"
-                            >πρόφρων δόμεν ἐμὶν τείν.</l>
+<l n="930">πρόφρων δόμεν ἐμὶν τείν.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="931">τουτὶ παρέξει τὸ κακὸν ἡμῖν πράγματα,</l>
 <l n="932">εἰ μή τι
@@ -2207,8 +2160,7 @@
                             δέχεται·</l>
 <l n="938">τὺ δὲ τεᾷ φρενὶ μάθε Πινδάρειον ἔπος —</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="940">ἅνθρωπος ἡμῶν οὐκ ἀπαλλαχθήσεται.<milestone
-                                ed="p" n="941" unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="940">ἅνθρωπος ἡμῶν οὐκ ἀπαλλαχθήσεται.<milestone ed="p" n="941" unit="card" />
                         </l>
 </said>
                     <said who="#Ποιητής"><l n="941">νομάδεσσι γὰρ ἐν Σκύθαις</l>
@@ -2220,7 +2172,7 @@
 <l n="945">ξύνες ὅ τοι λέγω.</l>
 </said>
                 </div>
-                <div type="textpart" subtype="iambics">
+                <div subtype="iambics" type="textpart">
                     <said who="#Πισθέταιρος"><l n="946">ξυνῆχʼ ὅτι βούλει τὸν χιτωνίσκον
                             λαβεῖν.</l>
 <l n="947">ἀπόδυθι· δεῖ γὰρ τὸν ποιητὴν ὠφελεῖν.</l>
@@ -2235,8 +2187,7 @@
 <l n="951">νιφόβολα πεδία πολύπορά τʼ ἤλυθον ἀλαλάν.’</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="952">νὴ τὸν Δίʼ ἀλλʼ ἤδη πέφευγας ταυταγὶ</l>
-<l n="955"
-                            >τὰ κρυερὰ τονδὶ τὸν χιτωνίσκον λαβών.</l>
+<l n="955">τὰ κρυερὰ τονδὶ τὸν χιτωνίσκον λαβών.</l>
 <l n="956">τουτὶ μὰ Δίʼ ἐγὼ τὸ κακὸν
                             οὐδέποτʼ ἤλπισα,</l>
 <l n="957">οὕτω ταχέως τοῦτον πεπύσθαι τὴν
@@ -2265,8 +2216,7 @@
 </said>
                     <said who="#Χρησμολόγος"><l n="966">τὸ θεῖον ἐνεπόδιζέ με.</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="967">ἀλλʼ οὐδὲν οἷόν ἐστʼ ἀκοῦσαι τῶν ἐπῶν.<milestone
-                                ed="p" n="967" unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="967">ἀλλʼ οὐδὲν οἷόν ἐστʼ ἀκοῦσαι τῶν ἐπῶν.<milestone ed="p" n="967" unit="card" />
                         </l>
 </said>
                     <said who="#Χρησμολόγος"><l n="968">ἀλλʼ ὅταν οἰκήσωσι λύκοι πολιαί τε κορῶναι</l>
@@ -2317,7 +2267,7 @@
 <l n="988">καὶ φείδου μηδὲν μηδʼ αἰετοῦ
                             ἐν νεφέλῃσιν,</l>
 <l n="989">μήτʼ ἢν Λάμπων ᾖ μήτʼ ἢν ὁ μέγας
-                                Διοπείθης.<milestone ed="p" n="989" unit="card"/>
+                                Διοπείθης.<milestone ed="p" n="989" unit="card" />
                         </l>
 </said>
                     <said who="#Χρησμολόγος"><l n="990">καὶ ταῦτʼ ἔνεστʼ ἐνταῦθα;</l>
@@ -2409,8 +2359,7 @@
 </said>
                     <said who="#Πισθέταιρος"><l n="1023">οὐκ ἔλεγον ἐγὼ πάλαι;</l>
 <l n="1020">οὐκ
-                            ἀναμετρήσεις σαυτὸν ἀπιὼν ἀλλαχῇ;<milestone ed="p" n="1021" unit="card"
-                            />
+                            ἀναμετρήσεις σαυτὸν ἀπιὼν ἀλλαχῇ;<milestone ed="p" n="1021" unit="card" />
                         </l>
 </said>
                     <said who="#Ἐπίσκοπος"><l n="1021">ποῦ πρόξενοι;</l>
@@ -2494,13 +2443,13 @@
                             μενεῖς;</l>
 <l n="1056">ἀπίωμεν ἡμεῖς ὡς τάχιστʼ ἐντευθενὶ</l>
 <l n="1057">θύσοντες εἴσω
-                            τοῖς θεοῖσι τὸν τράγον.<milestone ed="p" n="1058" unit="card"/>
+                            τοῖς θεοῖσι τὸν τράγον.<milestone ed="p" n="1058" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Parabasis">
-                <div type="textpart" subtype="strophe" n="1">
+            <div subtype="Parabasis" type="textpart">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="1058">ἤδη ʼμοὶ τῷ παντόπτᾳ</l>
 <l n="1059">καὶ παντάρχᾳ θνητοὶ
                             πάντες</l>
@@ -2519,13 +2468,11 @@
 <l n="1068">φθείρουσιν λύμαις
                             ἐχθίσταις,</l>
 <l n="1069">ἑρπετά τε καὶ δάκετα <add>πάνθʼ</add> ὅσαπερ</l>
-<l
-                            n="1070">ἔστιν ὑπʼ ἐμᾶς πτέρυγος ἐν φοναῖς ὄλλυται.<milestone ed="p"
-                                n="1072" unit="card"/>
+<l n="1070">ἔστιν ὑπʼ ἐμᾶς πτέρυγος ἐν φοναῖς ὄλλυται.<milestone ed="p" n="1072" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="epirrheme">
+                <div subtype="epirrheme" type="textpart">
                     <said who="#Χορός"><l n="1070">τῇδε μέντοι θἠμέρᾳ μάλιστʼ ἐπαναγορεύεται,</l>
 <l n="1071">ἢν
                             ἀποκτείνῃ τις ὑμῶν Διαγόραν τὸν Μήλιον,</l>
@@ -2540,8 +2487,7 @@
 <l n="1078">λήψεται τάλαντον, ἢν δὲ ζῶντά <add>γʼ</add> ἀγάγῃ,
                             τέτταρα,</l>
 <l n="1079">ὅτι συνείρων τοὺς σπίνους πωλεῖ καθʼ ἑπτὰ τοὐβολοῦ,</l>
-<l
-                            n="1080">εἶτα φυσῶν τὰς κίχλας δείκνυσι καὶ λυμαίνεται,</l>
+<l n="1080">εἶτα φυσῶν τὰς κίχλας δείκνυσι καὶ λυμαίνεται,</l>
 <l n="1080">τοῖς τε
                             κοψίχοισιν ἐς τὰς ῥῖνας ἐγχεῖ τὰ πτερά,</l>
 <l n="1081">τὰς περιστεράς θʼ ὁμοίως
@@ -2549,48 +2495,42 @@
 <l n="1082">κἀπαναγκάζει παλεύειν δεδεμένας ἐν
                             δικτύῳ.</l>
 <l n="1083">ταῦτα βουλόμεσθʼ ἀνειπεῖν· κεἴ τις ὄρνιθας τρέφει</l>
-<l
-                            n="1085">εἱργμένους ὑμῶν ἐν αὐλῇ, φράζομεν μεθιέναι.</l>
+<l n="1085">εἱργμένους ὑμῶν ἐν αὐλῇ, φράζομεν μεθιέναι.</l>
 <l n="1084">ἢν δὲ μὴ
                             πίθησθε, συλληφθέντες ὑπὸ τῶν ὀρνέων</l>
 <l n="1085">αὖθις ὑμεῖς αὖ παρʼ ἡμῖν
-                            δεδεμένοι παλεύσετε.<milestone ed="p" n="1088" unit="card"/>
+                            δεδεμένοι παλεύσετε.<milestone ed="p" n="1088" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe" n="1">
+                <div n="1" subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="1086">εὔδαιμον φῦλον πτηνῶν</l>
 <l n="1087">οἰωνῶν, οἳ χειμῶνος μὲν</l>
-<l
-                            n="1090">χλαίνας οὐκ ἀμπισχνοῦνται·</l>
+<l n="1090">χλαίνας οὐκ ἀμπισχνοῦνται·</l>
 <l n="1088">οὐδʼ αὖ θερμὴ πνίγους
                             ἡμᾶς</l>
 <l n="1089">ἀκτὶς τηλαυγὴς θάλπει·</l>
 <l n="1090">ἀλλʼ ἀνθηρῶν
                             λειμώνων</l>
 <l n="1091">φύλλων <add>τʼ</add> ἐν κόλποις ναίω,</l>
-<l n="1095"
-                            >ἡνίκʼ ἂν ὁ θεσπέσιος ὀξὺ μέλος ἀχέτας</l>
+<l n="1095">ἡνίκʼ ἂν ὁ θεσπέσιος ὀξὺ μέλος ἀχέτας</l>
 <l n="1096">θάλπεσι μεσημβρινοῖς
                             ἡλιομανὴς βοᾷ.</l>
 <l n="1097">χειμάζω δʼ ἐν κοίλοις ἄντροις</l>
 <l n="1098">νύμφαοις
                             οὐρείαις ξυμπαίζων·</l>
 <l n="1099">ἠρινά τε βοσκόμεθα παρθένια</l>
-<l n="1100"
-                            >λευκότροφα μύρτα Χαρίτων τε κηπεύματα.<milestone ed="p" n="1102"
-                                unit="card"/>
+<l n="1100">λευκότροφα μύρτα Χαρίτων τε κηπεύματα.<milestone ed="p" n="1102" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antepirrheme">
+                <div subtype="antepirrheme" type="textpart">
                     <said who="#Χορός"><l n="1101">τοῖς κριταῖς εἰπεῖν τι βουλόμεσθα τῆς νίκης
                             πέρι,</l>
 <l n="1102">ὅσʼ ἀγάθʼ, ἢν κρίνωσιν ἡμᾶς, πᾶσιν αὐτοῖς
                             δώσομεν,</l>
 <l n="1103">ὥστε κρείττω δῶρα πολλῷ τῶν Ἀλεξάνδρου λαβεῖν.</l>
-<l
-                            n="1105">πρῶτα μὲν γὰρ οὗ μάλιστα πᾶς κριτὴς ἐφίεται,</l>
+<l n="1105">πρῶτα μὲν γὰρ οὗ μάλιστα πᾶς κριτὴς ἐφίεται,</l>
 <l n="1104">γλαῦκες ὑμᾶς
                             οὔποτʼ ἐπιλείψουσι Λαυρειωτικαί·</l>
 <l n="1105">ἀλλʼ ἐνοικήσουσιν ἔνδον, ἔν τε
@@ -2598,8 +2538,7 @@
 <l n="1106">ἐννεοττεύσουσι κἀκλέψουσι μικρὰ
                             κέρματα.</l>
 <l n="1107">εἶτα πρὸς τούτοισιν ὥσπερ ἐν ἱεροῖς οἰκήσετε·</l>
-<l
-                            n="1110">τὰς γὰρ ὑμῶν οἰκίας ἐρέψομεν πρὸς αἰετόν·</l>
+<l n="1110">τὰς γὰρ ὑμῶν οἰκίας ἐρέψομεν πρὸς αἰετόν·</l>
 <l n="1108">κἂν λαχόντες
                             ἀρχίδιον εἶθʼ ἁρπάσαι βούλησθέ τι,</l>
 <l n="1109">ὀξὺν ἱερακίσκον ἐς τὰς χεῖρας
@@ -2607,17 +2546,16 @@
 <l n="1110">ἢν δέ που δειπνῆτε, πρηγορεῶνας ὑμῖν
                             πέμψομεν.</l>
 <l n="1111">ἢν δὲ μὴ κρίνητε, χαλκεύεσθε μηνίσκους φορεῖν</l>
-<l
-                            n="1115">ὥσπερ ἀνδριάντες· ὡς ὑμῶν ὃς ἂν μὴ μῆνʼ ἔχῃ,</l>
+<l n="1115">ὥσπερ ἀνδριάντες· ὡς ὑμῶν ὃς ἂν μὴ μῆνʼ ἔχῃ,</l>
 <l n="1112">ὅταν ἔχητε
                             χλανίδα λευκήν, τότε μάλισθʼ οὕτω δίκην</l>
 <l n="1113">δώσεθʼ ἡμῖν, πᾶσι τοῖς
-                            ὄρνισι κατατιλώμενοι.<milestone ed="p" n="1118" unit="card"/>
+                            ὄρνισι κατατιλώμενοι.<milestone ed="p" n="1118" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Lyric-Scene">
+            <div subtype="Lyric-Scene" type="textpart">
                 <said who="#Πισθέταιρος"><l n="1114">τὰ μὲν ἱέρʼ ἡμῖν ἐστιν ὦρνιθες καλά·</l>
 <l n="1115">ἀλλʼ ὡς ἀπὸ
                         τοῦ τείχους πάρεστιν ἄγγελος</l>
@@ -2683,8 +2621,7 @@
 <l n="1146">ἐς τὰς λεκάνας ἐνέβαλλον αὐτοῖς τοῖν
                         ποδοῖν.</l>
 </said>
-                <said who="#Πισθέταιρος"><l n="1147">τί δῆτα πόδες ἂν οὐκ ἂν ἐργασαίατο;<milestone ed="p"
-                            n="1148" unit="card"/>
+                <said who="#Πισθέταιρος"><l n="1147">τί δῆτα πόδες ἂν οὐκ ἂν ἐργασαίατο;<milestone ed="p" n="1148" unit="card" />
                     </l>
 </said>
                 <said who="#Ἄγγελος Α"><l n="1148">καὶ νὴ Δίʼ αἱ νῆτταί γε περιεζωσμέναι</l>
@@ -2708,8 +2645,7 @@
 <l n="1158">καὶ νῦν ἅπαντʼ ἐκεῖνα πεπύλωται
                         πύλαις</l>
 <l n="1159">καὶ βεβαλάνωται καὶ φυλάττεται κύκλῳ,</l>
-<l n="1160"
-                        >ἐφοδεύεται, κωδωνοφορεῖται, πανταχῇ,</l>
+<l n="1160">ἐφοδεύεται, κωδωνοφορεῖται, πανταχῇ,</l>
 <l n="1161">φυλακαὶ καθεστήκασι καὶ
                         φρυκτωρίαι</l>
 <l n="1162">ἐν τοῖσι πύργοις. ἀλλʼ ἐγὼ μὲν ἀποτρέχων</l>
@@ -2761,35 +2697,31 @@
 <l n="1183">αἰθὴρ δονεῖται τοῦ θεοῦ
                         ζητουμένου·</l>
 <l n="1184">κἄστʼ οὐ μακρὰν ἄπωθεν, ἀλλʼ ἐνταῦθά που</l>
-<l n="1185"
-                        >ἤδη ʼστίν.</l>
+<l n="1185">ἤδη ʼστίν.</l>
 </said>
                 <said who="#Πισθέταιρος"><l n="1186">οὔκουν σφενδόνας δεῖ λαμβάνειν</l>
 <l n="1187">καὶ τόξα; χώρει
                         δεῦρο πᾶς ὑπηρέτης·</l>
-<l n="1188">τόξευε παῖε, σφενδόνην τίς μοι δότω.<milestone
-                            ed="p" n="1189" unit="card"/>
+<l n="1188">τόξευε παῖε, σφενδόνην τίς μοι δότω.<milestone ed="p" n="1189" unit="card" />
                     </l>
 </said>
-                <div type="textpart" subtype="strophe" n="1">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="1189">πόλεμος αἴρεται, πόλεμος οὐ φατὸς</l>
 <l n="1190">πρὸς ἐμὲ
                             καὶ θεούς. ἀλλὰ φύλαττε πᾶς</l>
 <l n="1191">ἀέρα περινέφελον, ὃν ἔρεβος
                             ἐτέκετο,</l>
-<l n="1195">μή σε λάθῃ θεῶν τις ταύτῃ περῶν·<milestone
-                                ed="p" n="1196" unit="card"/>
+<l n="1195">μή σε λάθῃ θεῶν τις ταύτῃ περῶν·<milestone ed="p" n="1196" unit="card" />
                         </l>
 </said>
                     <said who="#Χορός"><l n="1196">
-                            <gap reason="ellipsis"/> ἄθρει δὲ πᾶς κύκλῳ σκοπῶν,</l>
+                            <gap reason="ellipsis" /> ἄθρει δὲ πᾶς κύκλῳ σκοπῶν,</l>
 <l n="1197">ὡς ἐγγὺς ἤδη δαίμονος
                             πεδαρσίου</l>
 <l n="1198">δίνης πτερωτὸς φθόγγος ἐξακούεται.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1199">αὕτη σύ, ποῖ ποῖ ποῖ πέτει; μένʼ ἥσυχος,</l>
-<l
-                            n="1200">ἔχʼ ἀτρέμας· αὐτοῦ στῆθʼ· ἐπίσχες τοῦ δρόμου.</l>
+<l n="1200">ἔχʼ ἀτρέμας· αὐτοῦ στῆθʼ· ἐπίσχες τοῦ δρόμου.</l>
 <l n="1200">τίς εἶ;
                             ποδαπή; λέγειν ἐχρῆν ὁπόθεν πότʼ εἶ.</l>
 </said>
@@ -2850,8 +2782,7 @@
 <l n="1221">ἀδικεῖς δὲ καὶ νῦν. ἆρά γʼ οἶσθα τοῦθʼ ὅτι</l>
 <l n="1222">δικαιότατʼ ἂν
                             ληφθεῖσα πασῶν Ἰρίδων</l>
-<l n="1223">ἀπέθανες, εἰ τῆς ἀξίας ἐτύγχανες;<milestone
-                                ed="p" n="1224" unit="card"/>
+<l n="1223">ἀπέθανες, εἰ τῆς ἀξίας ἐτύγχανες;<milestone ed="p" n="1224" unit="card" />
                         </l>
 </said>
                     <said who="#Ἶρις"><l n="1224">ἀλλʼ ἀθάνατός εἰμʼ.</l>
@@ -2906,8 +2837,7 @@
 <l n="1248">καταιθαλώσω
                             πυρφόροισιν αἰετοῖς;</l>
 <l n="1249">πέμψω δὲ πορφυρίωνας ἐς τὸν οὐρανὸν</l>
-<l
-                            n="1250">ὄρνις ἐπʼ αὐτὸν παρδαλᾶς ἐνημμένους</l>
+<l n="1250">ὄρνις ἐπʼ αὐτὸν παρδαλᾶς ἐνημμένους</l>
 <l n="1250">πλεῖν ἑξακοσίους τὸν
                             ἀριθμόν. καὶ δή ποτε</l>
 <l n="1251">εἷς Πορφυρίων αὐτῷ παρέσχε πράγματα.</l>
@@ -2927,12 +2857,11 @@
 </said>
                     <said who="#Πισθέταιρος"><l n="1260">οἴμοι τάλας. οὔκουν ἑτέρωσε
                             πετομένη</l>
-<l n="1261">καταιθαλώσεις τῶν νεωτέρων τινά;<milestone ed="p"
-                                n="1263" unit="card"/>
+<l n="1261">καταιθαλώσεις τῶν νεωτέρων τινά;<milestone ed="p" n="1263" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe" n="1">
+                <div n="1" subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="1262">ἀποκεκλῄκαμεν διογενεῖς θεοὺς</l>
 <l n="1263">μηκέτι τὴν ἐμὴν
                             διαπερᾶν πόλιν,</l>
@@ -2941,8 +2870,7 @@
 <l n="1266">τῇδε βροτῶν θεοῖσι πέμπειν καπνόν.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1267">δεινόν γε τὸν κήρυκα τὸν παρὰ τοὺς βροτοὺς</l>
-<l
-                            n="1270">οἰχόμενον, εἰ μηδέποτε νοστήσει πάλιν.</l>
+<l n="1270">οἰχόμενον, εἰ μηδέποτε νοστήσει πάλιν.</l>
 </said>
                     <said who="#Κῆρυξ"><l n="1268">ὦ Πισθέταιρʼ ὦ μακάριʼ ὦ σοφώτατε,</l>
 <l n="1269">ὦ κλεινότατʼ ὦ
@@ -2952,8 +2880,7 @@
                     <said who="#Πισθέταιρος"><l n="1271">τί σὺ λέγεις;</l>
 </said>
                     <said who="#Κῆρυξ"><l n="1272">στεφάνῳ σε χρυσῷ τῷδε σοφίας οὕνεκα</l>
-<l n="1275"
-                            >στεφανοῦσι καὶ τιμῶσιν οἱ πάντες λεῴ.</l>
+<l n="1275">στεφανοῦσι καὶ τιμῶσιν οἱ πάντες λεῴ.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1276">δέχομαι. τί δʼ οὕτως οἱ λεῲ τιμῶσί με;</l>
 </said>
@@ -2978,8 +2905,7 @@
 <l n="1288">κἄπειτʼ ἂν ἅμα
                             κατῆραν ἐς τὰ βιβλία·</l>
 <l n="1289">εἶτʼ ἀπενέμοντʼ ἐνταῦθα τὰ ψηφίσματα.</l>
-<l
-                            n="1290">ὠρνιθομάνουν δʼ οὕτω περιφανῶς ὥστε καὶ</l>
+<l n="1290">ὠρνιθομάνουν δʼ οὕτω περιφανῶς ὥστε καὶ</l>
 <l n="1290">πολλοῖσιν ὀρνίθων
                             ὀνόματʼ ἦν κείμενα.</l>
 <l n="1291">πέρδιξ μὲν εἷς κάπηλος ὠνομάζετο</l>
@@ -3003,8 +2929,7 @@
 <l n="1303">ἢ πτέρυγες, ἢ πτεροῦ τι καὶ σμικρὸν
                             προσῆν.</l>
 <l n="1304">τοιαῦτα μὲν τἀκεῖθεν. ἓν δέ σοι λέγω·</l>
-<l n="1305"
-                            >ἥξουσʼ ἐκεῖθεν δεῦρο πλεῖν ἢ μύριοι</l>
+<l n="1305">ἥξουσʼ ἐκεῖθεν δεῦρο πλεῖν ἢ μύριοι</l>
 <l n="1306">πτερῶν δεόμενοι καὶ τρόπων
                             γαμψωνύχων·</l>
 <l n="1307">ὥστε πτερῶν σοι τοῖς ἐποίκοις δεῖ ποθέν.</l>
@@ -3016,13 +2941,13 @@
                             ἐμπίμπλη πτερῶν·</l>
 <l n="1311">Μανῆς δὲ φερέτω μοι θύραζε τὰ πτερά·</l>
 <l n="1312">ἐγὼ δʼ
-                            ἐκείνων τοὺς προσιόντας δέξομαι.<milestone ed="p" n="1313" unit="card"/>
+                            ἐκείνων τοὺς προσιόντας δέξομαι.<milestone ed="p" n="1313" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Choral">
-                <div type="textpart" subtype="strophe" n="1">
+            <div subtype="Choral" type="textpart">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="1313">ταχὺ δὴ πολυάνορα τάνδε πόλιν</l>
 <l n="1314">καλεῖ τις
                             ἀνθρώπων.</l>
@@ -3035,18 +2960,17 @@
 </said>
                     <said who="#Χορός"><l n="1318">τί γὰρ οὐκ ἔνι ταύτῃ</l>
 <l n="1319">καλὸν ἀνδρὶ μετοικεῖν;</l>
-<l
-                            n="1320">Σοφία Πόθος Ἀμβροσία Χάριτες</l>
+<l n="1320">Σοφία Πόθος Ἀμβροσία Χάριτες</l>
 <l n="1320">τό τε τῆς ἀγανόφρονος
                             Ἡσυχίας</l>
 <l n="1321">εὐήμερον πρόσωπον.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1322">ὡς βλακικῶς διακονεῖς· οὐ θᾶττον
-                                ἐγκονήσεις;<milestone ed="p" n="1325" unit="card"/>
+                                ἐγκονήσεις;<milestone ed="p" n="1325" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe" n="1">
+                <div n="1" subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="1325">φερέτω κάλαθον ταχύ τις πτερύγων,</l>
 <l n="1326">σὺ δʼ
                             αὖθις ἐξόρμα —</l>
@@ -3067,14 +2991,13 @@
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Episode">
+            <div subtype="Episode" type="textpart">
                 <said who="#Πισθέταιρος"><l n="1335">οὔ τοι μὰ τὰς κερχνῇδας ἔτι σοῦ
                         σχήσομαι,</l>
-<l n="1336">οὕτως ὁρῶν σε δειλὸν ὄντα καὶ βραδύν.<milestone ed="p"
-                            n="1337" unit="card"/>
+<l n="1336">οὕτως ὁρῶν σε δειλὸν ὄντα καὶ βραδύν.<milestone ed="p" n="1337" unit="card" />
                     </l>
 </said>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Πατραλοίας"><l n="1337">γενοίμαν αἰετὸς ὑψιπέτας,</l>
 <l n="1338">ὡς ἀμποταθείην ὑπὲρ
                             ἀτρυγέτου</l>
@@ -3088,8 +3011,7 @@
 <l n="1343">οὐκ ἔστιν οὐδὲν τοῦ πέτεσθαι
                             γλυκύτερον·</l>
 <l n="1344">ὀρνιθομανῶ γὰρ καὶ πέτομαι καὶ βούλομαι</l>
-<l n="1345"
-                            >οἰκεῖν μεθʼ ὑμῶν κἀπιθυμῶ τῶν νόμων.</l>
+<l n="1345">οἰκεῖν μεθʼ ὑμῶν κἀπιθυμῶ τῶν νόμων.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1346">ποίων νόμων; πολλοὶ γὰρ ὀρνίθων νόμοι.</l>
 </said>
@@ -3098,8 +3020,7 @@
                             πατέρα τοῖς ὄρνισιν ἄγχειν καὶ δάκνειν.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1349">καὶ νὴ Δίʼ ἀνδρεῖόν γε πάνυ νομιζομεν,</l>
-<l
-                            n="1350">ὃς ἂν πεπλήγῃ τὸν πατέρα νεοττὸς ὤν.</l>
+<l n="1350">ὃς ἂν πεπλήγῃ τὸν πατέρα νεοττὸς ὤν.</l>
 </said>
                     <said who="#Πατραλοίας"><l n="1350">διὰ ταῦτα μέντοι δεῦρʼ ἀνοικισθεὶς ἐγὼ</l>
 <l n="1351">ἄγχειν
@@ -3140,12 +3061,11 @@
                             λέγειν,</l>
 <l n="1371">καὶ πείσομαί σοι.</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="1372">νοῦν ἄρʼ ἔξεις νὴ Δία.<milestone ed="p" n="1372"
-                                unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="1372">νοῦν ἄρʼ ἔξεις νὴ Δία.<milestone ed="p" n="1372" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Κινησίας"><l n="1373">ἀναπέτομαι δὴ πρὸς Ὄλυμπον πτερύγεσσι
                             κούφαις·</l>
 <l n="1374">πέτομαι δʼ ὁδὸν ἄλλοτʼ ἐπʼ ἄλλαν μελέων —</l>
@@ -3224,11 +3144,11 @@
 <l n="1409">ἀλλʼ οὖν ἔγωγʼ οὐ
                             παύσομαι, τοῦτʼ ἴσθʼ ὅτι,</l>
 <l n="1410">πρὶν ἂν πτερωθεὶς διαδράμω τὸν
-                                ἀέρα.<milestone ed="p" n="1410" unit="card"/>
+                                ἀέρα.<milestone ed="p" n="1410" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Συκοφάντης"><l n="1410">ὄρνιθες τίνες οὐδὲν ἔχοντες
                             πτεροποίκιλοι,</l>
 <l n="1411">τανυσίπτερε ποικίλα χελιδοῖ;</l>
@@ -3260,8 +3180,7 @@
                     <said who="#Πισθέταιρος"><l n="1424">ὦ μακάριε τῆς τέχνης.</l>
 </said>
                     <said who="#Συκοφάντης"><l n="1425">καὶ πραγματοδίφης. εἶτα δέομαι πτερὰ λαβὼν</l>
-<l
-                            n="1425">κύκλῳ περισοβεῖν τὰς πόλεις καλούμενος.</l>
+<l n="1425">κύκλῳ περισοβεῖν τὰς πόλεις καλούμενος.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1426">ὑπὸ πτερύγων τι προσκαλεῖ σοφώτερον;</l>
 </said>
@@ -3281,7 +3200,7 @@
 <l n="1434">ἀφʼ ὧν
                             διαζῆν ἄνδρα χρῆν τοσουτονὶ</l>
 <l n="1435">ἐκ τοῦ δικαίου μᾶλλον ἢ
-                                δικορραφεῖν.<milestone ed="p" n="1436" unit="card"/>
+                                δικορραφεῖν.<milestone ed="p" n="1436" unit="card" />
                         </l>
 </said>
                     <said who="#Συκοφάντης"><l n="1436">ὦ δαιμόνιε μὴ νουθέτει μʼ ἀλλὰ πτέρου.</l>
@@ -3306,8 +3225,7 @@
 <l n="1443">λέγων ἀνεπτέρωκεν ὥσθʼ
                             ἱππηλατεῖν.’</l>
 <l n="1444">ὁ δέ τις τὸν αὑτοῦ φησιν ἐπὶ τραγῳδίᾳ</l>
-<l n="1445"
-                            >ἀνεπτερῶσθαι καὶ πεποτῆσθαι τὰς φρένας.</l>
+<l n="1445">ἀνεπτερῶσθαι καὶ πεποτῆσθαι τὰς φρένας.</l>
 </said>
                     <said who="#Συκοφάντης"><l n="1446">λόγοισί τἄρα καὶ πτεροῦνται;</l>
 </said>
@@ -3330,8 +3248,7 @@
 <l n="1455">ἀλλὰ πτέρου με ταχέσι καὶ κούφοις
                             πτεροῖς</l>
 <l n="1456">ἱέρακος ἢ κερχνῇδος, ὡς ἂν τοὺς ξένους</l>
-<l n="1455"
-                            >καλεσάμενος κᾆτʼ ἐγκεκληκὼς ἐνθαδὶ</l>
+<l n="1455">καλεσάμενος κᾆτʼ ἐγκεκληκὼς ἐνθαδὶ</l>
 <l n="1456">κατʼ αὖ πέτωμαι πάλιν
                             ἐκεῖσε.</l>
 </said>
@@ -3369,13 +3286,13 @@
 <l n="1469">πικρὰν τάχʼ ὄψει
                             στρεψοδικοπανουργίαν.</l>
 <l n="1470">ἀπίωμεν ἡμεῖς ξυλλαβόντες τὰ
-                                πτερά.<milestone ed="p" n="1470" unit="card"/>
+                                πτερά.<milestone ed="p" n="1470" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Lyric-Scene">
-                <div type="textpart" subtype="strophe" n="1">
+            <div subtype="Lyric-Scene" type="textpart">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="1470">πολλὰ δὴ καὶ καινὰ καὶ θαυμάστʼ</l>
 <l n="1471">ἐπεπτόμεσθα
                             καὶ</l>
@@ -3393,11 +3310,11 @@
                             συκοφαντεῖ,</l>
 <l n="1480">τοῦ δὲ χειμῶνος πάλιν τὰς</l>
 <l n="1481">ἀσπίδας
-                                φυλλορροεῖ.<milestone ed="p" n="1482" unit="card"/>
+                                φυλλορροεῖ.<milestone ed="p" n="1482" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe" n="1">
+                <div n="1" subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="1482">ἔστι δʼ αὗ χώρα πρὸς αὐτῷ</l>
 <l n="1483">τῷ σκότῳ πόρρω τις
                             ἐν</l>
@@ -3409,18 +3326,16 @@
                             ἑσπέρας.</l>
 <l n="1488">τηνικαῦτα δʼ οὐκέτʼ ἦν</l>
 <l n="1489">ἀσφαλὲς ξυντυγχάνειν.</l>
-<l
-                            n="1490">εἰ γὰρ ἐντύχοι τις ἥρῳ</l>
+<l n="1490">εἰ γὰρ ἐντύχοι τις ἥρῳ</l>
 <l n="1490">τῶν βροτῶν νύκτωρ
                             Ὀρέστῃ,</l>
 <l n="1491">γυμνὸς ἦν πληγεὶς ὑπʼ αὐτοῦ</l>
 <l n="1492">πάντα
-                                τἀπιδέξια.<milestone ed="p" n="1494" unit="card"/>
+                                τἀπιδέξια.<milestone ed="p" n="1494" unit="card" />
                         </l>
 </said>
                     <said who="#Προμηθεύς"><l n="1493">οἴμοι τάλας, ὁ Ζεὺς ὅπως μή μʼ ὄψεται.</l>
-<l n="1495"
-                            >ποῦ Πισθέταιρός ἐστʼ;</l>
+<l n="1495">ποῦ Πισθέταιρός ἐστʼ;</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1496">ἔα τουτὶ τί ἦν;</l>
 <l n="1497">τίς ὁ συγκαλυμμός;</l>
@@ -3435,8 +3350,7 @@
                     <said who="#Προμηθεύς"><l n="1502">πηνίκʼ ἐστὶν ἄρα τῆς ἡμέρας;</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1503">ὁπηνίκα; σμικρόν τι μετὰ μεσημβρίαν.</l>
-<l n="1500"
-                            >ἀλλὰ σὺ τίς εἶ;</l>
+<l n="1500">ἀλλὰ σὺ τίς εἶ;</l>
 </said>
                     <said who="#Προμηθεύς"><l n="1501">βουλυτὸς ἢ περαιτέρω;</l>
 </said>
@@ -3493,8 +3407,7 @@
                             ἄνωθεν τῷ Διί,</l>
 <l n="1523">εἰ μὴ παρέξει τἀμπόριʼ ἀνεῳγμένα,</l>
 <l n="1524">ἵνʼ
-                            εἰσάγοιτο σπλάγχνα κατατετμημένα.<milestone ed="p" n="1525" unit="card"
-                            />
+                            εἰσάγοιτο σπλάγχνα κατατετμημένα.<milestone ed="p" n="1525" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1525">εἰσὶν γὰρ ἕτεροι βάρβαροι θεοί
@@ -3543,8 +3456,7 @@
 <l n="1544">ἥν γʼ ἢν σὺ παρʼ ἐκείνου παραλάβῃς,
                             πάντʼ ἔχεις.</l>
 <l n="1545">τούτων ἕνεκα δεῦρʼ ἦλθον, ἵνα φράσαιμί σοι.</l>
-<l
-                            n="1545">ἀεί ποτʼ ἀνθρώποις γὰρ εὔνους εἴμʼ ἐγώ.</l>
+<l n="1545">ἀεί ποτʼ ἀνθρώποις γὰρ εὔνους εἴμʼ ἐγώ.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1546">μόνον θεῶν γὰρ διὰ σʼ ἀπανθρακίζομεν.</l>
 </said>
@@ -3553,17 +3465,15 @@
                     <said who="#Πισθέταιρος"><l n="1548">νὴ τὸν Δίʼ ἀεὶ δῆτα θεομισὴς ἔφυς.</l>
 </said>
                     <said who="#Προμηθεύς"><l n="1549">Τίμων καθαρός. ἀλλʼ ὡς ἂν ἀποτρέχω πάλιν,</l>
-<l
-                            n="1550">φέρε τὸ σκιάδειον, ἵνα με κἂν ὁ Ζεὺς ἴδῃ</l>
+<l n="1550">φέρε τὸ σκιάδειον, ἵνα με κἂν ὁ Ζεὺς ἴδῃ</l>
 <l n="1550">ἄνωθεν,
                             ἀκολουθεῖν δοκῶ κανηφόρῳ.</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="1551">καὶ τὸν δίφρον γε διφροφόρει τονδὶ λαβών.<milestone
-                                ed="p" n="1553" unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="1551">καὶ τὸν δίφρον γε διφροφόρει τονδὶ λαβών.<milestone ed="p" n="1553" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="strophe" n="1">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="1552">πρὸς δὲ τοῖς Σκιάποσιν λίμνη</l>
 <l n="1553">τις ἔστʼ ἄλουτος
                             οὗ</l>
@@ -3582,7 +3492,7 @@
                             κάτωθεν</l>
 <l n="1563">πρὸς τὸ λαῖτμα τῆς καμήλου</l>
 <l n="1564">Χαιρεφῶν ἡ
-                                νυκτερίς.<milestone ed="p" n="1565" unit="card"/>
+                                νυκτερίς.<milestone ed="p" n="1565" unit="card" />
                         </l>
 </said>
                     <said who="#Ποσειδῶν"><l n="1565">τὸ μὲν πόλισμα τῆς Νεφελοκοκκυγίας</l>
@@ -3617,8 +3527,7 @@
                     <said who="#Ἡρακλῆς"><l n="1579">διπλασίως μᾶλλον ἄγχειν μοι δοκεῖ.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1580">τὴν τυρόκνηστίν τις δότω· φέρε σίλφιον·</l>
-<l
-                            n="1580">τυρὸν φερέτω τις· πυρπόλει τοὺς ἄνθρακας.</l>
+<l n="1580">τυρὸν φερέτω τις· πυρπόλει τοὺς ἄνθρακας.</l>
 </said>
                     <said who="#Ποσειδῶν"><l n="1581">τὸν ἄνδρα χαίρειν οἱ θεοὶ κελεύομεν</l>
 <l n="1582">τρεῖς ὄντες
@@ -3674,9 +3583,7 @@
                     <said who="#Ἡρακλῆς"><l n="1603">ἐμοὶ μὲν ἀπόχρη ταῦτα καὶ ψηφίζομαι.</l>
 </said>
                     <said who="#Ποσειδῶν"><l n="1604">τί ὦ κακόδαιμον; ἠλίθιος καὶ γάστρις εἶ.</l>
-<l n="1605"
-                            >ἀποστερεῖς τὸν πατέρα τῆς τυραννίδος;<milestone ed="p" n="1606"
-                                unit="card"/>
+<l n="1605">ἀποστερεῖς τὸν πατέρα τῆς τυραννίδος;<milestone ed="p" n="1606" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1606">ἄληθες; οὐ γὰρ μεῖζον ὑμεῖς οἱ θεοὶ</l>
@@ -3685,8 +3592,7 @@
 <l n="1608">νῦν μέν γʼ ὑπὸ ταῖς νεφέλαισιν
                             ἐγκεκρυμμένοι</l>
 <l n="1609">κύψαντες ἐπιορκοῦσιν ὑμᾶς οἱ βροτοί·</l>
-<l n="1610"
-                            >ἐὰν δὲ τοὺς ὄρνις ἔχητε συμμάχους,</l>
+<l n="1610">ἐὰν δὲ τοὺς ὄρνις ἔχητε συμμάχους,</l>
 <l n="1611">ὅταν ὀμνύῃ τις τὸν κόρακα καὶ
                             τὸν Δία,</l>
 <l n="1612">ὁ κόραξ παρελθὼν τοὐπιορκοῦντος λάθρᾳ</l>
@@ -3718,8 +3624,7 @@
 <l n="1624">ἅνθρωπος οὗτος,
                             ἢ καθῆται λούμενος,</l>
 <l n="1625">καταπτόμενος ἰκτῖνος ἁρπάσας λάθρᾳ</l>
-<l
-                            n="1625">προβάτοιν δυοῖν τιμὴν ἀνοίσει τῷ θεῷ.</l>
+<l n="1625">προβάτοιν δυοῖν τιμὴν ἀνοίσει τῷ θεῷ.</l>
 </said>
                     <said who="#Ἡρακλῆς"><l n="1626">τὸ σκῆπτρον ἀποδοῦναι πάλιν ψηφίζομαι</l>
 <l n="1627">τούτοις
@@ -3770,7 +3675,7 @@
 <l n="1645">πένης ἔσει σύ. σοῦ γὰρ ἅπαντα
                             γίγνεται</l>
 <l n="1645">τὰ χρήμαθʼ, ὅσʼ ἂν ὁ Ζεὺς ἀποθνῄσκων
-                                καταλίπῃ.<milestone ed="p" n="1646" unit="card"/>
+                                καταλίπῃ.<milestone ed="p" n="1646" unit="card" />
                         </l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1646">οἴμοι τάλας οἷόν σε περισοφίζεται.</l>
@@ -3804,8 +3709,7 @@
 <l n="1660">ἐρῶ δὲ δὴ καὶ τὸν Σόλωνός
                             σοι νόμον·</l>
 <l n="1661">‘νόθῳ δὲ μὴ εἶναι ἀγχιστείαν παίδων ὄντων</l>
-<l
-                            n="1665">γνησίων. ἐὰν δὲ παῖδες μὴ ὦσι γνήσιοι, τοῖς</l>
+<l n="1665">γνησίων. ἐὰν δὲ παῖδες μὴ ὦσι γνήσιοι, τοῖς</l>
 <l n="1662">ἐγγυτάτω
                             γένους μετεῖναι τῶν χρημάτων.’</l>
 </said>
@@ -3827,8 +3731,7 @@
                             γάλα.</l>
 </said>
                     <said who="#Ἡρακλῆς"><l n="1674">δίκαιʼ ἔμοιγε καὶ πάλαι δοκεῖς λέγειν</l>
-<l n="1675"
-                            >περὶ τῆς κόρης, κἄγωγε παραδίδωμί σοι.</l>
+<l n="1675">περὶ τῆς κόρης, κἄγωγε παραδίδωμί σοι.</l>
 </said>
                     <said who="#Πισθέταιρος"><l n="1676">τί δαὶ σὺ φῄς;</l>
 </said>
@@ -3873,12 +3776,11 @@
 </said>
                     <said who="#Ἡρακλῆς"><l n="1693">εὖ γε μέντἂν διετέθην.</l>
 </said>
-                    <said who="#Πισθέταιρος"><l n="1694">ἀλλὰ γαμικὴν χλανίδα δότω τις δεῦρό μοι.<milestone
-                                ed="p" n="1694" unit="card"/>
+                    <said who="#Πισθέταιρος"><l n="1694">ἀλλὰ γαμικὴν χλανίδα δότω τις δεῦρό μοι.<milestone ed="p" n="1694" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrohe" n="1">
+                <div n="1" subtype="antistrohe" type="textpart">
                     <said who="#Χορός"><l n="1695">ἔστι δʼ ἐν Φαναῖσι πρὸς τῇ</l>
 <l n="1695">Κλεψύδρᾳ
                             πανοῦργον ἐγ-</l>
@@ -3887,8 +3789,7 @@
                             σπείρουσι</l>
 <l n="1698">καὶ τρυγῶσι ταῖς γλώτταισι</l>
 <l n="1699">συκάζουσί τε·</l>
-<l
-                            n="1700">βάρβαροι δʼ εἰσὶν γένος,</l>
+<l n="1700">βάρβαροι δʼ εἰσὶν γένος,</l>
 <l n="1700">Γοργίαι τε καὶ
                             Φίλιπποι.</l>
 <l n="1701">κἀπὸ τῶν ἐγγλωττογαστόρων</l>
@@ -3896,12 +3797,12 @@
                             Φιλίππων</l>
 <l n="1703">πανταχοῦ τῆς Ἀττικῆς ἡ</l>
 <l n="1705">γλῶττα χωρὶς
-                                τέμνεται.<milestone ed="p" n="1706" unit="card"/>
+                                τέμνεται.<milestone ed="p" n="1706" unit="card" />
                         </l>
 </said>
                 </div>
             </div>
-            <div type="textpart" subtype="Episode">
+            <div subtype="Episode" type="textpart">
                 <said who="#Ἄγγελος"><l n="1706">ὦ πάντʼ ἀγαθὰ πράττοντες, ὦ μείζω λόγου,</l>
 <l n="1707">ὦ
                         τρισμακάριον πτηνὸν ὀρνίθων γένος,</l>
@@ -3916,20 +3817,18 @@
 <l n="1713">ἔχων γυναικὸς κάλλος οὐ
                         φατὸν λέγειν,</l>
 <l n="1714">πάλλων κεραυνόν, πτεροφόρον Διὸς βέλος·</l>
-<l n="1715"
-                        >ὀσμὴ δʼ ἀνωνόμαστος ἐς βάθος κύκλου</l>
+<l n="1715">ὀσμὴ δʼ ἀνωνόμαστος ἐς βάθος κύκλου</l>
 <l n="1716">χωρεῖ, καλὸν θέαμα· θυμιαμάτων
                         δʼ</l>
 <l n="1717">αὖραι διαψαίρουσι πλεκτάνην καπνοῦ.</l>
 <l n="1718">ὁδὶ δὲ καὐτός ἐστιν. ἀλλὰ
                         χρὴ θεᾶς</l>
-<l n="1719">Μούσης ἀνοίγειν ἱερὸν εὔφημον στόμα.<milestone ed="p"
-                            n="1720" unit="card"/>
+<l n="1719">Μούσης ἀνοίγειν ἱερὸν εὔφημον στόμα.<milestone ed="p" n="1720" unit="card" />
                     </l>
 </said>
             </div>
-            <div type="textpart" subtype="Exodus">
-                <div type="textpart" subtype="trochees">
+            <div subtype="Exodus" type="textpart">
+                <div subtype="trochees" type="textpart">
                     <said who="#Χορός"><l n="1720">ἄναγε δίεχε πάραγε
                             πάρεχε.</l>
 <l n="1721">περιπέτεσθε</l>
@@ -3940,19 +3839,18 @@
                             πόλει γημας.</l>
 </said>
                 </div>
-                <div type="textpart" subtype="anapests">
+                <div subtype="anapests" type="textpart">
                     <said who="#Χορός"><l n="1726">μεγάλαι μεγάλαι κατέχουσι τύχαι</l>
 <l n="1727">γένος
                             ὀρνίθων</l>
 <l n="1728">διὰ τόνδε τὸν ἄνδρʼ. ἀλλʼ ὑμεναίοις</l>
 <l n="1729">καὶ νυμφιδίοισι
                             δέχεσθʼ ᾠδαῖς</l>
-<l n="1730">αὐτὸν καὶ τὴν Βασίλειαν.<milestone ed="p"
-                                n="1731" unit="card"/>
+<l n="1730">αὐτὸν καὶ τὴν Βασίλειαν.<milestone ed="p" n="1731" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="strophe" n="1">
+                <div n="1" subtype="strophe" type="textpart">
                     <said who="#Χορός"><l n="1731">Ἥρᾳ ποτʼ Ὀλυμπίᾳ</l>
 <l n="1732">τῶν ἠλιβάτων θρόνων</l>
 <l n="1733">ἄρχοντα
@@ -3963,11 +3861,11 @@
 <l n="1736">Ὑμὴν ὦ Ὑμέναιʼ ὦ,</l>
 <l n="1736.1" rend="1736b">
                             <add>Ὑμὴν ὦ Ὑμέναιʼ ὦ.</add>
-                            <milestone ed="p" n="1737" unit="card"/>
+                            <milestone ed="p" n="1737" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="antistrophe" n="1">
+                <div n="1" subtype="antistrophe" type="textpart">
                     <said who="#Χορός"><l n="1737">ὁ δʼ ἀμφιθαλὴς Ἔρως</l>
 <l n="1738">χρυσόπτερος ἡνίας</l>
 <l n="1739">ηὔθυνε
@@ -3977,11 +3875,11 @@
                             Ἥρας.</l>
 <l n="1742">Ὑμὴν ὦ Ὑμέναιʼ ὦ,</l>
 <l n="1742.1" rend="1742b">Ὑμὴν ὦ Ὑμέναιʼ
-                                ὦ.<milestone ed="p" n="1743" unit="card"/>
+                                ὦ.<milestone ed="p" n="1743" unit="card" />
                         </l>
 </said>
                 </div>
-                <div type="textpart" subtype="anapests">
+                <div subtype="anapests" type="textpart">
                     <said who="#Πισθέταιρος"><l n="1743">ἐχάρην ὕμνοις, ἐχάρην ᾠδαῖς·</l>
 <l n="1744">ἄγαμαι δὲ λόγων.
                             ἄγε νυν αὐτοῦ</l>
@@ -3991,7 +3889,7 @@
 <l n="1747">δεινόν τʼ ἀργῆτα κεραυνόν.</l>
 </said>
                 </div>
-                <div type="textpart" subtype="lyric">
+                <div subtype="lyric" type="textpart">
                     <said who="#Χορός"><l n="1748">ὦ μέγα χρύσεον ἀστεροπῆς φάος,</l>
 <l n="1749">ὦ Διὸς ἄμβροτον ἔγχος
                             πυρφόρον,</l>
@@ -4019,8 +3917,7 @@
 </said>
                     <said who="#Χορός"><l n="1763">ἀλαλαλαὶ ἰὴ παιών,</l>
 <l n="1764">τήνελλα καλλίνικος, ὦ</l>
-<l
-                            n="1765">δαιμόνων ὑπέρτατε.</l>
+<l n="1765">δαιμόνων ὑπέρτατε.</l>
 </said>
                 </div>
             </div>

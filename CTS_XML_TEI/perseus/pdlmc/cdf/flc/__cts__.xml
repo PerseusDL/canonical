@@ -1,0 +1,10 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:pdlmc:cdf" projid="pdlmc:flc" urn="urn:cts:pdlmc:cdf.flc" xml:lang="lat">
+            <ti:title xml:lang="eng">Forest Law Compendium</ti:title>
+            <ti:edition projid="pdlmc:perseus-lat1">
+                <ti:label>carta de foresta - Medieval Latin Class Transcription</ti:label>
+                </ti:edition>
+            <ti:translation projid="pdlmc:perseus-eng1" xml:lang="eng">
+                <ti:label>Forest Law Compendium - Medieval Latin Class Translation</ti:label>
+                </ti:translation>
+        </ti:work>
+    

@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
    <teiHeader>
       <fileDesc>
 	        <titleStmt>
-		          <title type="work" n="Clouds">Clouds</title>
+		          <title n="Clouds" type="work">Clouds</title>
 		          <title type="sub">Machine readable text</title>
 		          <author n="Aristoph.">Aristophanes</author>
-		          <editor role="editor" n="OCT">F.W. Hall and W.M. Geldart</editor>
+		          <editor n="OCT" role="editor">F.W. Hall and W.M. Geldart</editor>
 		          <sponsor>Perseus Project, Tufts University</sponsor>
 		          <principal>Gregory Crane</principal>
 		          <respStmt>
@@ -46,15 +45,15 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl>
-	           <refState unit="line"/>
+	           <refState unit="line" />
          </refsDecl>
-      </encodingDesc>
+      <refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@n='$1'])"><p>This pointer pattern extracts line</p></cRefPattern></refsDecl></encodingDesc>
 
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="greek">Greek</language> 
-            <!-- grc -->
+            
          </langUsage>
       </profileDesc>
 	
@@ -77,23 +76,9 @@
       <body>
 	        <head>THE CLOUDS</head>
 	        <head>Aristophanes</head>
-	        <!-- <castList>
-		<head>Dramatis Personae</head>
-		<castItem><role>Strepsiades</role></castItem>
-		<castItem><role>Phidippides</role></castItem>
-		<castItem><role>Servant of Strepsiades</role></castItem>
-		<castItem><role>Disciples of Socrates</role></castItem>
-		<castItem><role>Socrates</role></castItem>
-		<castItem><role>Chorus of Clouds</role></castItem>
-		<castItem><role>Just Cause</role></castItem>
-		<castItem><role>Unjust Cause</role></castItem>
-		<castItem><role>Pasias</role></castItem>
-		<castItem><role>Amynias</role></castItem>
-		<castItem><role>Witness</role></castItem>
-		<castItem><role>Chaerephon</role></castItem>
-	    </castList>  SS: castlist is part of <front>, which EpiDoc does not allow-->
+	        
 	        <div type="prologue">
-            <div type="card" ed="p" n="1">
+            <div ed="p" n="1" type="card">
                <p>
                   <stage>Scene: The interior of a sleeping-apartment: Strepsiades, Phidippides, and two servants are in their beds; a small house is seen at a distance. Time: midnight.</stage>
                </p>
@@ -117,7 +102,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="25">
+            <div ed="p" n="25" type="card">
                <sp>
                   <speaker>Phidippides (talking in his sleep).</speaker> 
                   <p>You are acting unfairly, Philo! Drive on your own course.</p>
@@ -177,7 +162,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="56">
+            <div ed="p" n="56" type="card">
                <p>
                   <stage>Servant re-enters.</stage>
                </p>
@@ -249,7 +234,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="90">
+            <div ed="p" n="90" type="card">
 
                <sp>
                   <speaker>Phid.</speaker> 
@@ -352,7 +337,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="133">
+            <div ed="p" n="133" type="card">
 
                <sp>
                   <speaker>Disciple.</speaker> 
@@ -471,7 +456,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="180">
+            <div ed="p" n="180" type="card">
 
                <sp>
                   <speaker>Strep.</speaker> 
@@ -671,7 +656,7 @@
                </p>
 
             </div>
-            <div type="card" ed="p" n="221">
+            <div ed="p" n="221" type="card">
 
                <sp>
                   <speaker>Strep.</speaker> 
@@ -802,7 +787,7 @@
 
          </div>
          <div type="parodos">
-            <div type="card" ed="p" n="262">
+            <div ed="p" n="262" type="card">
 
                <div2 type="anapests">
                   <sp>
@@ -827,9 +812,9 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="275">
+            <div ed="p" n="275" type="card">
 
-               <div2 type="strophe" n="1">
+               <div2 n="1" type="strophe">
                   <p>
                      <stage>The following song is heard at a distance, accompanied by loud claps of thunder.</stage>
                   </p>
@@ -840,7 +825,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="291">
+            <div ed="p" n="291" type="card">
 
                <div2 type="anapests">
                   <sp>
@@ -866,16 +851,16 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="299">
+            <div ed="p" n="299" type="card">
 
-               <div2 type="antistrophe" n="1">
+               <div2 n="1" type="antistrophe">
                   <sp>
                      <speaker>Cho.</speaker> 
                      <p>Ye rain-bringing virgins, let us come to the fruitful land of Pallas, to view the much-loved country of Cecrops,  abounding in brave men; where is reverence for sacred rites not to be divulged;  where the house that receives the initiated is thrown open in holy mystic rites; and gifts to the celestial gods; and high-roofed temples, and statues; and most sacred processions in honour of the blessed gods; and well-crowned sacrifices to the gods, and feasts, at all seasons; and with the approach of spring the Bacchic festivity, and the rousings of melodious choruses, and the loud-sounding music of flutes.</p>
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="314">
+            <div ed="p" n="314" type="card">
 
                <div2 type="anapests">
                   <sp>
@@ -1027,7 +1012,7 @@
             </div>
          </div>
          <div type="choral">
-            <div type="card" ed="p" n="356">
+            <div ed="p" n="356" type="card">
                <div2 type="anapests">
 
                   <sp>
@@ -1127,7 +1112,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="392">
+            <div ed="p" n="392" type="card">
                <div2 type="anapests">
 
                   <sp>
@@ -1207,7 +1192,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="437">
+            <div ed="p" n="437" type="card">
                <div2 type="anapests">
 
                   <sp>
@@ -1216,7 +1201,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="457">
+            <div ed="p" n="457" type="card">
                <div2 type="lyric">
 
                   <sp>
@@ -1245,7 +1230,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="476">
+            <div ed="p" n="476" type="card">
 
                <div2 type="anapests">
                   <p>
@@ -1261,7 +1246,7 @@
             </div>
          </div>
          <div type="episode">
-            <div type="card" ed="p" n="478">
+            <div ed="p" n="478" type="card">
                <sp>
                   <speaker>Soc.</speaker> 
                   <p>Come now, tell me your own turn of mind; in order that, when I know of what sort it is, I may now, after this, apply to you new engines.</p>
@@ -1384,7 +1369,7 @@
             </div>
          </div>
          <div type="Parabasis">
-            <div type="card" ed="p" n="510">
+            <div ed="p" n="510" type="card">
                <div2 type="prelude">
                   <sp>
                      <speaker>Cho.</speaker> 
@@ -1393,7 +1378,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="518">
+            <div ed="p" n="518" type="card">
                <div2 type="prelude">
                   <p>
                      <stage>Turning to the audience.</stage>
@@ -1408,7 +1393,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="563">
+            <div ed="p" n="563" type="card">
 
                <div2 type="strophe">
                   <sp>
@@ -1418,7 +1403,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="575">
+            <div ed="p" n="575" type="card">
                <div2 type="epirrheme">
 
                   <sp>
@@ -1428,7 +1413,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="595">
+            <div ed="p" n="595" type="card">
                <div2 type="antistrophe">
 
                   <sp>
@@ -1438,7 +1423,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="607">
+            <div ed="p" n="607" type="card">
                <div2 type="antepirrheme">
 
                   <sp>
@@ -1450,7 +1435,7 @@
             </div>
          </div>
          <div type="Lyric-Scene">
-            <div type="card" ed="p" n="627">
+            <div ed="p" n="627" type="card">
                <p>
                   <stage>Enter Socrates</stage>
                </p>
@@ -1550,7 +1535,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="658">
+            <div ed="p" n="658" type="card">
 
                <sp>
                   <speaker>Soc.</speaker> 
@@ -1728,7 +1713,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="700">
+            <div ed="p" n="700" type="card">
                <div2 type="strophe">
                   <sp>
                      <speaker>Cho.</speaker> 
@@ -1737,7 +1722,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="707">
+            <div ed="p" n="707" type="card">
                <div2 type="iambics">
 
                   <sp>
@@ -1815,7 +1800,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="731">
+            <div ed="p" n="731" type="card">
                <div2 type="iambics">
 
                   <sp>
@@ -1990,7 +1975,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="776">
+            <div ed="p" n="776" type="card">
                <div2 type="iambics">
                   <sp>
                      <speaker>Soc.</speaker> 
@@ -2084,7 +2069,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="804">
+            <div ed="p" n="804" type="card">
                <div2 type="antistrophe">
 
                   <sp>
@@ -2100,7 +2085,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="814">
+            <div ed="p" n="814" type="card">
                <div2 type="iambics">
                   <p>
                      <stage>Enter Strepsiades and Phidippides</stage>
@@ -2246,7 +2231,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="854">
+            <div ed="p" n="854" type="card">
                <div2 type="iambics">
 
                   <sp>
@@ -2331,7 +2316,7 @@
             </div>
          </div>
          <div type="Agon">
-            <div type="card" ed="p" n="889">
+            <div ed="p" n="889" type="card">
 
                <div2 type="proagon">
                   <p>
@@ -2495,7 +2480,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="920">
+            <div ed="p" n="920" type="card">
                <div2 type="proagon">
                   <sp>
                      <speaker>Unj.</speaker> 
@@ -2575,7 +2560,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="949">
+            <div ed="p" n="949" type="card">
                <div2 type="strophe">
 
                   <sp>
@@ -2584,7 +2569,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="959">
+            <div ed="p" n="959" type="card">
                <div2 type="katakeleusmenos">
 
                   <sp>
@@ -2594,7 +2579,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="961">
+            <div ed="p" n="961" type="card">
 
                <div2 type="epirrheme">
                   <sp>
@@ -2604,7 +2589,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="986">
+            <div ed="p" n="986" type="card">
                <div2 type="epirrheme">
 
                   <sp>
@@ -2619,7 +2604,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1000">
+            <div ed="p" n="1000" type="card">
                <div2 type="epirrheme">
 
                   <sp>
@@ -2634,7 +2619,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1009">
+            <div ed="p" n="1009" type="card">
                <div2 type="pnigos">
 
                   <sp>
@@ -2644,16 +2629,16 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1024">
+            <div ed="p" n="1024" type="card">
                <div2 type="antistrophe">
                   <sp>
                      <speaker>Cho.</speaker> 
                      <p>O thou that practisest most renowned high-towering wisdom! How sweetly does a modest grace attend your words! Happy, therefore, were they who lived in those days, in the times of former men! In reply, then, to these, O thou that hast a dainty-seeming Muse, it behooveth thee to say something new; since the man has gained renown.</p>
                   </sp>
                </div2>
-               <OOOPs/>
+               <OOOPs />
             </div>
-            <div type="card" ed="p" n="1034">
+            <div ed="p" n="1034" type="card">
                <div2 type="antikatakeleusmenos">
 
                   <sp>
@@ -2662,9 +2647,9 @@
                   </sp>
 
                </div2>
-               <OOOPs/>
+               <OOOPs />
             </div>
-            <div type="card" ed="p" n="1036">
+            <div ed="p" n="1036" type="card">
                <div2 type="antepirrheme">
                   <sp>
                      <speaker>Unj.</speaker> 
@@ -2713,7 +2698,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1067">
+            <div ed="p" n="1067" type="card">
                <div2 type="antepirrheme">
 
                   <sp>
@@ -2738,7 +2723,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1086">
+            <div ed="p" n="1086" type="card">
                <div2 type="antipnigos">
 
                   <sp>
@@ -2823,7 +2808,7 @@
             </div>
          </div>
          <div type="Episode">
-            <div type="card" ed="p" n="1105">
+            <div ed="p" n="1105" type="card">
 
                <sp>
                   <speaker>Soc.</speaker> 
@@ -2852,7 +2837,7 @@
             </div>
          </div>
          <div type="Parabasis">
-            <div type="card" ed="p" n="1113">
+            <div ed="p" n="1113" type="card">
                <div2 type="prelude">
                   <sp>
                      <speaker>Cho.</speaker> 
@@ -2861,7 +2846,7 @@
     
                </div2>
             </div>
-            <div type="card" ed="p" n="1115">
+            <div ed="p" n="1115" type="card">
                <div2 type="epirrheme">
 
 	                 <sp>
@@ -2873,7 +2858,7 @@
             </div>
          </div>
          <div type="Lyric-Scene">
-            <div type="card" ed="p" n="1131">
+            <div ed="p" n="1131" type="card">
                <p>
                   <stage>Enter Strepsiades with a meal-sack on his shoulder.</stage>
                </p>
@@ -2929,7 +2914,7 @@
                </sp>
 
             </div>
-            <div type="card" ed="p" n="1154">
+            <div ed="p" n="1154" type="card">
                <div2 type="lyric">
                   <sp>
                      <speaker>Strep.</speaker> 
@@ -2966,7 +2951,7 @@
                   </p>
                </div2>
             </div>
-            <div type="card" ed="p" n="1170">
+            <div ed="p" n="1170" type="card">
                <div2 type="lyric">
 
                   <sp>
@@ -3067,7 +3052,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="1206">
+            <div ed="p" n="1206" type="card">
                <div2 type="monody">
 	                 <sp>
                      <speaker>Strep.</speaker>
@@ -3075,7 +3060,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="1213">
+            <div ed="p" n="1213" type="card">
                <div2 type="iambics">
                   <p>
                      <stage>Exeunt Strepsiades and Phidippides.</stage>
@@ -3252,7 +3237,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1259">
+            <div ed="p" n="1259" type="card">
                <div2 type="iambics">
 
                   <sp>
@@ -3427,15 +3412,15 @@
                </div2>
             </div>
          </div>
-         <div type="Choral" subtype="strophe">
-               <div type="card" ed="p" n="1303">
+         <div subtype="strophe" type="Choral">
+               <div ed="p" n="1303" type="card">
 	                 <sp>
                      <speaker>Cho.</speaker> 
                      <p>What a thing it is to love evil courses! For this old man, having loved them, wishes to withhold the money that he borrowed. And he will certainly meet with something today, which will perhaps cause this sophist to suddenly receive some misfortune, in return for the knaveries he has begun.</p>
                   </sp>
 
 		             </div>
-               <div type="card" ed="p" n="1311">
+               <div ed="p" n="1311" type="card">
 
 		                <sp>
                      <speaker>Cho.</speaker>
@@ -3445,7 +3430,7 @@
             
          </div>
          <div type="Episode">
-            <div type="card" ed="p" n="1321">
+            <div ed="p" n="1321" type="card">
                <sp>
                   <speaker>Strep.</speaker> 
                   <p>(running out of the house pursued by his son) Hollo! Hollo! O neighbours, and kinsfolk, and fellow-tribesmen, defend me, by all means, who am being beaten! Ah me, unhappy man, for my head and jaw! Wretch!  Do you beat your father?</p>
@@ -3544,16 +3529,16 @@
             </div>
          </div>
          <div type="Agon">
-            <div type="card" ed="p" n="1345">
+            <div ed="p" n="1345" type="card">
                <div2 type="strophe">
 	                 <sp>
                      <speaker>Cho.</speaker> 
                      <p>It is your business, old man, to consider in what way you shall conquer the man; for if he were not relying upon something, he would not be so licentious.  But he is emboldened by something; the boldness of the man is evident.</p>
                   </sp>
                </div2>
-               <OOOPs/>
+               <OOOPs />
             </div>
-            <div type="card" ed="p" n="1351">
+            <div ed="p" n="1351" type="card">
                <div2 type="katakeleusmenos">
 	                 <sp>
                      <speaker>Cho.</speaker>
@@ -3561,7 +3546,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="1353">
+            <div ed="p" n="1353" type="card">
                <div2 type="epirrheme">
                   <sp>
                      <speaker>Strep.</speaker> 
@@ -3598,9 +3583,9 @@
                      <p>Why, how with justice? Who, O shameless fellow, reared you, understanding all your wishes, when you lisped what you meant? If you said bryn, I, understanding it, used to give you to drink. And when you asked for mamman, I used to come to you with bread.  And you used no sooner to say caccan, than I used to take and carry you out of doors, and hold you before me.</p>
                   </sp>
                </div2>
-               <OOOPs/>
+               <OOOPs />
             </div>
-            <div type="card" ed="p" n="1386">
+            <div ed="p" n="1386" type="card">
                <div2 type="pnigos">
                   <sp>
                      <speaker>Strep.</speaker>
@@ -3608,7 +3593,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="1391">
+            <div ed="p" n="1391" type="card">
                <div2 type="antistrophe">
                   <sp>
                      <speaker>Cho.</speaker> 
@@ -3617,7 +3602,7 @@
     
                </div2>
             </div>
-            <div type="card" ed="p" n="1397">
+            <div ed="p" n="1397" type="card">
                <div2 type="antikatakeleusmenos">
                   <sp>
                      <speaker>Cho.</speaker>
@@ -3625,7 +3610,7 @@
                   </sp>
                </div2>
             </div>
-            <div type="card" ed="p" n="1399">
+            <div ed="p" n="1399" type="card">
                <div2 type="antepirrheme">
                   <sp>
                      <speaker>Phid.</speaker> 
@@ -3693,7 +3678,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1437">
+            <div ed="p" n="1437" type="card">
                <div2 type="antepirrheme">
 
                   <sp>
@@ -3733,7 +3718,7 @@
 
                </div2>
             </div>
-            <div type="card" ed="p" n="1445">
+            <div ed="p" n="1445" type="card">
                <div2 type="antipnigos">
 
                   <sp>
@@ -3750,7 +3735,7 @@
             </div>
          </div>
          <div type="Episode">
-            <div type="card" ed="p" n="1452">
+            <div ed="p" n="1452" type="card">
 
                <sp>
                   <speaker>Cho.</speaker> 
@@ -3813,7 +3798,7 @@
                </p>
 
             </div>
-            <div type="card" ed="p" n="1476">
+            <div ed="p" n="1476" type="card">
 
                <sp>
                   <speaker>Strep.</speaker> 

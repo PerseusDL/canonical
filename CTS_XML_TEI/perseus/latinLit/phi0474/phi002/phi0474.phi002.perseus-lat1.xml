@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -7,7 +7,7 @@
 	           <title>Pro Sex. Roscio, De imperio Cn. Pompei, Pro Cluentio, In Catilinam, Pro Murena, Pro Caelio</title>
 	           <title type="sub">Machine readable text</title>
 	           <author n="Cic.">M. Tullius Cicero</author>
-	           <editor role="editor" n="OCT">Albert Clark</editor>
+	           <editor n="OCT" role="editor">Albert Clark</editor>
             <sponsor>Perseus Project, Tufts University</sponsor>
             <principal>Gregory Crane</principal>
             <respStmt>
@@ -50,9 +50,9 @@ Collegii Reginae Socius</title>
     
       <encodingDesc>
          <refsDecl>
-	           <refState unit="chapter"/>
+	           <refState unit="chapter" />
          </refsDecl>
-      </encodingDesc>
+      <refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts chapter</p></cRefPattern></refsDecl></encodingDesc>
     
       <profileDesc>
          <langUsage>
@@ -63,107 +63,7 @@ Collegii Reginae Socius</title>
          </langUsage>
       </profileDesc>
     
-      <revisionDesc><!--
-      <change><date>3/26/96</date>
-	<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
-	<item>
-$Log: cic.oct1_lat.xml,v $
-Revision 1.4  2013-09-13 11:21:40  balmas01
-reverting texts back to pre_cts_reorg tagged version
-
-Revision 1.2  2011-07-19 22:30:37  gcrane
-removed the earlier persName/placeName tags
-
-Revision 1.1  2011-01-15 23:14:25  gcrane
-base SDL file
-
-Revision 1.1  2009/10/09 19:49:14  rsingh04
-more reorganizing of texts module by collection
-
-Revision 1.9  2006/11/03 21:13:26  gcrane
-typo
-
-Revision 1.8  2006/08/21 15:45:06  gcrane
-small fixes
-
-Revision 1.7  2006/08/17 19:12:34  gcrane
-typo fixed
-
-Revision 1.6  2006/04/02 18:12:19  gcrane
-mainly fixes to the words lower cased at the start of sentences:
-found that we had always had <name>Cum</name> rather than <reg>cum</reg>.
-
-This has been fixed in oct.cic[123]
-
-oct.cic[456] are having the app crits added and will need to be updated when
-those files come back
-
-Revision 1.5  2005/12/29 21:26:51  gcrane
-this now contains textual notes
-
-Revision 1.3  2005/11/17 18:59:58  gcrane
-began vestigial app crit
-
-Revision 1.2  2005/08/01 15:59:19  packel
-removed stray item tags
-
-	Revision 1.1  2005/07/25 14:31:08  packel
-	Converted to XML
-	
-Revision 1.16  2005/04/08 17:56:07  mimno
-added default chunks
-
-Revision 1.15  2004/05/24 16:45:24  amahoney
-experiment with marking abbreviations of praenomina
-
-Revision 1.14  2003/07/01 22:14:57  yorkc
-Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
-
-Revision 1.13  2002/12/02 18:41:45  amahoney
-correct spelling of Quirites, improperly 'regularized'
-
-Revision 1.12  2002/01/18 18:43:57  amahoney
-put spaces around mdash because umorphck is confused if there are none
-
-Revision 1.11  2002/01/18 17:16:30  amahoney
-missed a few 'v' in the small caps
-
-Revision 1.10  2001/12/31 19:18:35  amahoney
-finish fixing the small caps, partially converted to lower case
-
-Revision 1.9  2000/03/06 22:21:48  amahoney
-add headers for groups of speeches, so they show up in the toc:  Catilines,
-Verrines, Philippics, and Agrarian Law
-
-Revision 1.8  2000/03/04 20:34:10  dasmith
-Added separate funder entity to TEI header.
-
-Revision 1.7  1999/10/14 21:36:02  dasmith
-Added explanatory subtitles to titleStmt
-
-Revision 1.6  1999/08/12 17:17:06  dasmith
-Fixed refsDecl
-
-Revision 1.5  1999/08/04 18:11:55  textgod
-Random changes over a period of months.
-
-Revision 1.4  1997/08/18 14:54:22  textgod
-???
-
-Revision 1.3  1997/05/12 19:53:56  cjsu
-Finalized tagging. Passes validation.
-
-Revision 1.2  1997/05/12 19:27:34  textgod
-Added the rest of volume 1
-
-Revision 1.1  1997/03/26 17:34:23  textgod
-Added to repository. Passes TEI parse.
-
-</item></change>
-<change><date>July 2014</date>
-    <respStmt><name>Stella Dee</name><resp>ed.</resp></respStmt>
-    <item>split composite text and converted to unicode</item>
-      </change>-->
+      <revisionDesc>
          <change when="2014-08-01" who="Stella Dee">edited markup</change>
          <change when="2014-10-18" who="Bridget Almas">converted chapter milestones to divs and p to para milestones. made chapter canonical scheme.</change>
       </revisionDesc>
@@ -173,10 +73,10 @@ Added to repository. Passes TEI parse.
          
                <head>
                   <abbr expan="Marci">M.</abbr> Tulli Ciceronis pro Sex. Roscio Amerino Oratio</head>
-               <milestone unit="para"/>
-         <div type="chapter" n="1">
+               <milestone unit="para" />
+         <div n="1" type="chapter">
             <p>
-               <milestone n="1" unit="section"/>
+               <milestone n="1" unit="section" />
                <reg>credo</reg> ego vos, iudices, mirari quid sit quod, cum<note>
                   <lemma>cum</lemma> quom <hi rend="italics">A<foreign xml:lang="grc">p2y2w</foreign>
                   </hi>
@@ -194,7 +94,7 @@ quod officium sequuntur, taceant autem idcirco quia
 periculum vitant.<note>vitant <hi rend="italics">V</hi>, <hi rend="italics">Auct. Schem. Dianoeas (Rhet. M. p.</hi> 73): metuunt <hi rend="italics">cett.</hi>
                </note> 
 
-               <milestone n="2" unit="section"/>
+               <milestone n="2" unit="section" />
                <reg>quid</reg> ergo? audacissimus ego ex omnibus?  <reg>minime</reg>.  
 <reg>an</reg>
                <note>An <hi rend="italics">Schol.</hi>: at (ac <hi rend="italics">V<foreign xml:lang="grc">w</foreign>
@@ -209,7 +109,7 @@ dixisset quos videtis adesse, in quibus summa auctoritas est atque
 amplitudo, si verbum de re publica fecisset, id quod in hac causa fieri 
 necesse est, multo plura dixisse quam dixisset putaretur. 
 
-<milestone n="3" unit="section"/>
+<milestone n="3" unit="section" />
                <reg>ego</reg> autem 
 si<note>autem si <hi rend="italics">V</hi>: etiam si <hi rend="italics">cett.</hi>: <hi rend="italics">om. Charisius (K.</hi> 1.203)</note> omnia quae dicenda sunt libere dixero, nequaquam tamen similiter 
 oratio mea exire atque<note>
@@ -224,7 +124,7 @@ meae<note>meae <hi rend="italics">om. V</hi>
                </note> poterit; tametsi non modo ignoscendi ratio verum etiam 
 cognoscendi consuetudo iam de civitate sublata est.
 
-<milestone n="4" unit="section"/>
+<milestone n="4" unit="section" />
                <reg>accedit</reg> illa 
 quoque causa quod a ceteris forsitan ita petitum sit ut dicerent, ut 
 utrumvis salvo officio se facere<note>se facere <hi rend="italics">mei</hi>: fa.... e <hi rend="italics">V</hi> (<hi rend="italics">litt. med. abscisis</hi>): facere se <hi rend="italics">ed. Ven.</hi>
@@ -236,9 +136,9 @@ nec auctoritatem aspernari nec voluntatem neglegere debebam<note>debebam <hi ren
 
 </p>
          </div>
-         <div type="chapter" n="2">
+         <div n="2" type="chapter">
             <p>
-               <milestone n="5" unit="section"/>
+               <milestone n="5" unit="section" />
 
                <reg>his</reg> 
 de causis ego huic causae patronus exstiti, non electus unus qui 
@@ -247,14 +147,14 @@ maximo ingenio sed relictus ex omnibus qui minimo periculo possem<note>possim <h
 dicere, neque uti satis firmo praesidio defensus Sex. Roscius verum 
 uti ne omnino desertus esset.
 
-<milestone unit="para"/>
+<milestone unit="para" />
                <reg>forsitan</reg> quaeratis qui iste terror sit et quae tanta formido quae tot 
 ac talis viros impediat quo minus pro capite et fortunis alterius quem 
 ad modum consuerunt<note>consueverunt <foreign xml:lang="grc">fw</foreign> (<hi rend="italics">ita</hi> §8 <foreign xml:lang="grc">w</foreign>, §12 <foreign xml:lang="grc">xyw</foreign>)</note> causam velint dicere.  <reg>quod</reg> adhuc vos 
 ignorare non mirum est, propterea quod consulto ab accusatoribus 
 eius rei quae conflavit hoc iudicium mentio facta non est. 
 
-<milestone n="6" unit="section"/>
+<milestone n="6" unit="section" />
                <reg>quae</reg> res 
 ea est? <reg>bona</reg> patris huiusce Sex. Rosci quae sunt sexagiens, quae de<note>
                   <lemma>quae de</lemma> de <hi rend="italics">Weiske</hi>
@@ -281,8 +181,8 @@ adeptus est per scelus, id per luxuriam<note>luxoriam <foreign xml:lang="grc">S<
                </note> 
 pungit ut evellatis postulat, ut ad hanc suam praedam tam nefariam 
 adiutores vos profiteamini.
-<milestone unit="para"/>
-               <milestone n="7" unit="section"/>
+<milestone unit="para" />
+               <milestone n="7" unit="section" />
                <reg>si</reg>
                <note>
                   <lemma>si</lemma> nisi <hi rend="italics">w, Halm</hi> (2)</note> vobis aequa et honesta postulatio<note>
@@ -292,7 +192,7 @@ aliquanto aequiorem.
 
 </p>
          </div>
-         <div type="chapter" n="3">
+         <div n="3" type="chapter">
             <p>
                <reg>primum</reg> a Chrysogono peto ut pecunia 
 fortunisque nostris contentus sit, sanguinem et vitam ne petat; 
@@ -301,7 +201,7 @@ deinde a vobis, iudices, ut audacium sceleri resistatis,<note>insistatis <hi ren
 calamitatem levetis et in causa Sex. Rosci periculum quod in omnis 
 intenditur propulsetis.
 
-<milestone n="8" unit="section"/>
+<milestone n="8" unit="section" />
                <reg>quod</reg> si aut causa criminis aut facti suspicio 
 aut quaelibet denique vel minima res reperietur<note>reperiretur <hi rend="italics">A</hi>
                </note> quam ob rem 
@@ -327,12 +227,12 @@ etiam ut spoliis ex<note>spoliis ex <hi rend="italics">w</hi>: spoliis sex <fore
                   </hi>: spoliis Sex. Roscii <foreign xml:lang="grc">sx</foreign>
                </note> hoc iudicio ornati auctique discedant?
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="4">
+         <div n="4" type="chapter">
             <p>
-               <milestone n="9" unit="section"/>
+               <milestone n="9" unit="section" />
                <reg>his</reg> de rebus tantis tamque atrocibus neque satis me commode 
 dicere neque satis graviter conqueri neque satis libere vociferari 
 posse intellego.  <reg>nam</reg> commoditati ingenium, gravitati aetas, libertati 
@@ -343,7 +243,7 @@ adversariorum et Sex. Rosci pericula<note>periculum <hi rend="italics">Bake</hi>
                   <hi rend="italics">Mur.</hi> 84?)</note>.  <reg>quapropter</reg> vos oro atque 
 obsecro, iudices, ut attente bonaque cum venia verba mea audiatis.  
 
-<milestone n="10" unit="section"/>
+<milestone n="10" unit="section" />
                <reg>fide</reg> sapientiaque vestra fretus plus oneris sustuli quam ferre me 
 posse intellego.  <reg>hoc</reg> onus si vos aliqua ex parte adlevabitis, feram ut 
 potero studio et industria, iudices; sin a vobis, id quod non spero, 
@@ -353,8 +253,8 @@ perferam.  <reg>quod</reg> si perferre non potero<note>perferre non potero perfe
 quam id quod mihi cum fide semel impositum est aut propter 
 perfidiam abicere aut propter infirmitatem animi deponere.  
 
-<milestone unit="para"/>
-               <milestone n="11" unit="section"/>
+<milestone unit="para" />
+               <milestone n="11" unit="section" />
                <reg>te</reg> quoque magno opere, <abbr expan="Marci">M.</abbr> Fanni, quaeso ut, qualem te iam antea 
 populo Romano praebuisti, cum huic eidem<note>eidem <foreign xml:lang="grc">w</foreign>, <hi rend="italics">Ant. Augustinus</hi>: idem <hi rend="italics">cett.</hi>.</note> quaestioni iudex<note>iudex <hi rend="italics">om.</hi> 
                   <foreign xml:lang="grc">w</foreign>, <hi rend="italics">del. Halm</hi> (<hi rend="italics">contra Mart. Cap., Rhet. M. p.</hi> 470)</note> 
@@ -363,7 +263,7 @@ praeesses, talem te et nobis et rei<note>rei p. <hi rend="italics">Arusian.</hi>
 
 </p>
          </div>
-         <div type="chapter" n="5">
+         <div n="5" type="chapter">
             <p>
                <reg>quanta</reg> multitudo hominum convenerit ad hoc iudicium vides; quae 
 sit omnium mortalium exspectatio, quae cupiditas ut acria<note>acria <foreign xml:lang="grc">y2</foreign>: acra <hi rend="italics">cett.</hi>
@@ -374,8 +274,8 @@ maximaeque factae sunt<note>sint <foreign xml:lang="grc">f2</foreign>, <hi rend=
                </note>; omnes hanc quaestionem te praetore 
 manifestis maleficiis cotidianoque sanguine dignissimam<note>dignissimam <hi rend="italics">Madvig</hi> (<hi rend="italics">cf. May in Phil. Rundsch.</hi> x. 223): dimissui <foreign xml:lang="grc">S</foreign>: dimissius (demissius <foreign xml:lang="grc">y</foreign>: dimissus <foreign xml:lang="grc">w</foreign>) <hi rend="italics">cett.</hi>: remedio (remedium) esse <hi rend="italics">E. F. Eberhard, Landgraf</hi>: (de manifestis maleficiis ante admissis cotidianoque sanguine <hi rend="italics">Lambinus</hi>)</note> sperant 
 futuram.
-<milestone unit="para"/>
-               <milestone n="12" unit="section"/>
+<milestone unit="para" />
+               <milestone n="12" unit="section" />
                <reg>qua</reg> vociferatione in ceteris iudiciis accusatores uti consuerunt, ea nos 
 hoc tempore utimur qui causam dicimus. <reg>petimus</reg> abs te, <abbr expan="Marce">M.</abbr> Fanni, a 
 vobisque, iudices, ut quam acerrime maleficia vindicetis, ut quam 
@@ -387,7 +287,7 @@ cupiditatem et scelus et audaciam ut non modo clam verum etiam hic
 in foro ante tribunal tuum, <abbr expan="Marci">M.</abbr> Fanni, ante pedes vestros, iudices, 
 inter ipsa subsellia caedes futurae sint. 
 
-<milestone n="13" unit="section"/>
+<milestone n="13" unit="section" />
                <reg>etenim</reg> quid aliud hoc iudicio 
 temptatur nisi ut id fieri liceat? <reg>accusant</reg> ei qui in fortunas huius 
 invaserunt, causam dicit is cui praeter calamitatem nihil reliquerunt; 
@@ -401,7 +301,7 @@ ante oculos vestros trucidetur; denique accusant ei quos populus
 poscit, causam dicit is qui unus relictus ex illorum nefaria caede 
 restat. 
 
-<milestone n="14" unit="section"/>
+<milestone n="14" unit="section" />
                <reg>atque</reg> ut facilius intellegere possitis, iudices, ea quae facta 
 sunt indigniora esse quam haec sunt quae dicimus, ab initio res quem 
 ad modum gesta sit vobis<note>vobis <hi rend="italics">om. A</hi>
@@ -410,12 +310,12 @@ innocentissimi miserias et illorum audacias<note>audacias <foreign xml:lang="grc
                </note> cognoscere possitis et rei 
 publicae calamitatem.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="6">
+         <div n="6" type="chapter">
             <p>
-               <milestone n="15" unit="section"/>Sex. Roscius, pater huiusce, municeps Amerinus fuit, cum genere et 
+               <milestone n="15" unit="section" />Sex. Roscius, pater huiusce, municeps Amerinus fuit, cum genere et 
 nobilitate et pecunia non modo sui municipi
 verum etiam eius vicinitatis facile primus, tum gratia atque hospitiis 
 florens hominum nobilissimorum.  <reg>nam</reg> cum Metellis, Serviliis, 
@@ -429,7 +329,7 @@ hoc solum filio reliquit; nam patrimonium domestici praedones vi
 ereptum possident, fama et vita innocentis ab hospitibus amicisque 
 paternis defenditur.  
 
-<milestone n="16" unit="section"/>
+<milestone n="16" unit="section" />
                <reg>hic</reg>
                <note>
                   <lemma>hic</lemma> is <hi rend="italics">Halm</hi> (2)</note> cum omni tempore nobilitatis fautor fuisset 
@@ -447,8 +347,8 @@ putabantur, erat ille Romae frequens atque<note>atque <hi rend="italics">om. pau
 cotidie versabatur, magis ut exsultare victoria nobilitatis videretur 
 quam timere ne quid ex ea calamitatis sibi accideret.
 
-<milestone unit="para"/>
-               <milestone n="17" unit="section"/>
+<milestone unit="para" />
+               <milestone n="17" unit="section" />
                <reg>erant</reg> ei veteres inimicitiae cum duobus Rosciis Amerinis, quorum 
 alterum sedere in accusatorum subselliis video, alterum tria huiusce 
 praedia possidere audio; quas inimicitias si tam cavere potuisset 
@@ -464,12 +364,12 @@ tiro esset quod sciam<note>
                </note>, facile ipsum magistrum scelere audaciaque 
 superavit. 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="7">
+         <div n="7" type="chapter">
             <p>
-               <milestone n="18" unit="section"/>
+               <milestone n="18" unit="section" />
                <reg>nam</reg> cum hic Sex. Roscius esset Ameriae, T. autem 
 iste Roscius Romae, cum hic filius<note>filius <hi rend="italics">del. Halm</hi>
                </note> adsiduus in praediis esset 
@@ -482,8 +382,8 @@ suspiciosum<note>est suspiciosum adhuc <hi rend="italics">A</hi>
                </note> nisi perspicuum res ipsa fecerit, hunc adfinem culpae 
 iudicatote.
 
-<milestone unit="para"/>
-               <milestone n="19" unit="section"/>
+<milestone unit="para" />
+               <milestone n="19" unit="section" />
                <reg>occiso</reg> Sex. Roscio primus Ameriam nuntiat Mallius Glaucia quidam, 
 homo tenuis, libertinus, cliens et familiaris istius <abbr expan="Titi">T.</abbr> Rosci, et nuntiat 
 domum non fili sed <abbr expan="Titi">T.</abbr> Capitonis inimici; et cum post horam primam 
@@ -494,7 +394,7 @@ non modo ut exoptatum inimico nuntium primus adferret sed
 etiam cruorem inimici quam recentissimum telumque paulo ante e 
 corpore extractum ostenderet. 
 
-<milestone n="20" unit="section"/>
+<milestone n="20" unit="section" />
                <reg>quadriduo</reg> quo haec gesta sunt res 
 ad Chrysogonum in castra
 <abbr expan="Lucii">L.</abbr> Sullae Volaterras defertur; magnitudo pecuniae demonstratur; 
@@ -508,9 +408,9 @@ rem operam suam pollicentur.
 
 </p>
          </div>
-         <div type="chapter" n="8">
+         <div n="8" type="chapter">
             <p>
-               <milestone n="21" unit="section"/>
+               <milestone n="21" unit="section" />
                <reg>ne</reg> diutius teneam<note>diutius vos teneam <hi rend="italics">ed. V</hi>
                </note>, iudices, societas 
 coitur. <reg>cum</reg> nulla iam proscriptionis mentio fieret<note>cum nulla... fieret <hi rend="italics">Charisius</hi> (<hi rend="italics">K.</hi> i. 264) <hi rend="italics">Diomedes</hi> (<hi rend="italics">K.</hi> i. 390): cum... nulla fieret <hi rend="italics">codd.</hi>
@@ -530,7 +430,7 @@ Chrysogoni, quem ad modum ipse dicit, impetum facit.  <reg>haec</reg>
 iudices, imprudente <abbr expan="Lucio">L.</abbr> Sulla facta esse certo<note>certo <hi rend="italics">s</hi>: certe <hi rend="italics">mei</hi>
                </note> scio. 
 
-<milestone n="22" unit="section"/>
+<milestone n="22" unit="section" />
                <reg>neque</reg> enim mirum, 
 cum eodem tempore et ea quae praeterita sunt reparet<note>reparet <hi rend="italics">cod. Lambini: om. mei</hi>: sanet <hi rend="italics">Rinkes</hi>
                </note> et ea quae 
@@ -545,7 +445,7 @@ moliantur. <reg>huc</reg> accedit quod, quamvis ille felix sit, sicut est, tamen
 tanta felicitate nemo potest esse in magna familia qui neminem 
 neque servum neque libertum improbum habeat. 
 
-<milestone n="23" unit="section"/>
+<milestone n="23" unit="section" />
                <reg>interea</reg> iste T. 
 Roscius, vir optimus, procurator Chrysogoni, Ameriam venit, in 
 praedia huius invadit, hunc miserum,  luctu perditum<note>perditum <hi rend="italics">w</hi>: praeditum (pro- <foreign xml:lang="grc">p</foreign>) <hi rend="italics">cett.</hi>
@@ -561,12 +461,12 @@ plura clam de medio removebat, non pauca suis adiutoribus large
 effuseque donabat, reliqua constituta auctione vendebat.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="9">
+         <div n="9" type="chapter">
             <p>
-               <milestone n="24" unit="section"/>
+               <milestone n="24" unit="section" />
                <reg>quod</reg> Amerinis usque eo visum est indignum ut urbe tota fletus 
 gemitusque fieret.  <reg>etenim</reg> multa simul ante oculos versabantur, 
 mors hominis florentissimi, Sex. Rosci, crudelissima, fili autem eius 
@@ -580,7 +480,7 @@ ardere<note>
 honestissimi, bonis iactantem se ac dominantem
 <abbr expan="Titum">T.</abbr> Roscium. 
 
-<milestone n="25" unit="section"/>
+<milestone n="25" unit="section" />
                <reg>itaque</reg> decurionum decretum statim fit ut decem primi 
 proficiscantur ad <abbr expan="Lucium">L.</abbr> Sullam doceantque eum qui vir Sex. Roscius 
 fuerit, conquerantur de istorum scelere et iniuriis, orent ut et illius 
@@ -594,7 +494,7 @@ Chrysogonus et ipse ad eos accedit et homines nobilis adlegat<note>adlegat <hi r
 peterent ne ad Sullam adirent, et omnia Chrysogonum quae vellent 
 esse facturum pollicerentur.  
 
-<milestone n="26" unit="section"/>Vsque adeo autem<note>
+<milestone n="26" unit="section" />Vsque adeo autem<note>
                   <lemma>autem</lemma> enim <hi rend="italics">coni. Müller</hi>
                </note> ille pertimuerat ut 
 mori mallet quam de his rebus Sullam doceri.  <reg>homines</reg> antiqui, qui 
@@ -611,12 +511,12 @@ intellectum
 est, insidias vitae huiusce Sex. Rosci parare neque sese arbitrari 
 posse diutius alienam pecuniam domino incolumi obtinere.  
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="10">
+         <div n="10" type="chapter">
             <p>
-               <milestone n="27" unit="section"/>
+               <milestone n="27" unit="section" />
                <reg>quod</reg> hic 
 simul atque sensit, de amicorum cognatorumque sententia Romam 
 confugit et sese ad Caeciliam, Nepotis sororem, Baliarici filiam<note>Nepotis sororem, Baliarici filiam <hi rend="italics">Garatoni</hi>: Nepotis filiam <hi rend="italics">codd.: del. Passeratius</hi>
@@ -632,8 +532,8 @@ oppresso iam desperatoque ab omnibus opitulata est.  <reg>eius</reg> virtute,
 fide, diligentia factum est ut hic potius vivus in reos quam occisus in 
 proscriptos referretur.
 
-<milestone unit="para"/>
-               <milestone n="28" unit="section"/>
+<milestone unit="para" />
+               <milestone n="28" unit="section" />
                <reg>nam</reg> postquam isti intellexerunt summa diligentia vitam Sex. Rosci 
 custodiri neque sibi ullam caedis faciendae<note>faciundae <foreign xml:lang="grc">sx2</foreign>
                </note> potestatem dari, 
@@ -649,22 +549,22 @@ defuturos; de bonorum venditione et de ista societate verbum esse
 facturum neminem; ipso nomine parricidi et atrocitate criminis fore 
 ut hic nullo negotio tolleretur, cum ab nullo defensus esset.'  
 
-<milestone n="29" unit="section"/>
+<milestone n="29" unit="section" />
                <reg>hoc</reg> consilio 
 atque adeo hac amentia impulsi quem ipsi, cum cuperent, non 
 potuerunt occidere, eum iugulandum vobis tradiderunt.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="11">
+         <div n="11" type="chapter">
             <p>
                <reg>quid</reg> primum querar aut unde potissimum, iudices, ordiar aut quod 
 aut a quibus auxilium petam? deorumne immortalium, populine 
 Romani, vestramne qui summam potestatem habetis hoc tempore 
 fidem implorem?  
 
-<milestone n="30" unit="section"/>
+<milestone n="30" unit="section" />
                <reg>pater</reg> occisus nefarie, domus obsessa ab inimicis, 
 bona adempta, possessa<note>possessio <hi rend="italics">Passeratius</hi>
                </note>, direpta, fili vita infesta, saepe ferro atque 
@@ -684,7 +584,7 @@ libere dicat, qui cum fide defendat, id quod in hac causa satis est<note>satis e
                </note> non 
 deest profecto, iudices.  
 
-<milestone n="31" unit="section"/>
+<milestone n="31" unit="section" />
                <reg>et</reg> forsitan in suscipienda causa temere 
 impulsus adulescentia fecerim; quoniam quidem semel suscepi, licet 
 hercules undique omnes minae<note>
@@ -699,7 +599,7 @@ libenter audacter<note>audaciter <hi rend="italics">Lambinus</hi> (<hi rend="ita
                </note>, iudices, 
 ut possit vim mihi maiorem adhibere metus quam fides. 
 
-<milestone n="32" unit="section"/>
+<milestone n="32" unit="section" />
                <reg>etenim</reg> quis 
 tam dissoluto animo est qui haec cum videat tacere ac neglegere 
 possit? <reg>patrem</reg> meum, cum proscriptus non esset, iugulastis, occisum 
@@ -710,12 +610,12 @@ iuguletis aut condemnetis<note>
                   <lemma>condemnetis</lemma> Sex. Roscium <hi rend="italics">add. codd.: del. Lambinus</hi>
                </note>?
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="12">
+         <div n="12" type="chapter">
             <p>
-               <milestone n="33" unit="section"/>
+               <milestone n="33" unit="section" />
                <reg>hominem</reg> longe audacissimum nuper habuimus in civitate C. 
 Fimbriam et, quod inter omnis constat, nisi inter eos qui ipsi quoque 
 insaniunt insanissimum.  <reg>is</reg> cum curasset in funere <abbr expan="Gaii">C.</abbr> Mari ut Q. 
@@ -735,7 +635,7 @@ et adflixerit; quos quia servare per compositionem<note>servare per compositione
                </note> volebat, ipse ab 
 eis interemptus est.  
 
-<milestone n="34" unit="section"/>
+<milestone n="34" unit="section" />
                <reg>estne</reg> hoc illi dicto atque facto Fimbriano<note>Fimbriano <hi rend="italics">Rufinian.</hi> (<hi rend="italics">Rhet. M. p.</hi> 44): Fimbria non <foreign xml:lang="grc">S</foreign>: Fimbriae non <hi rend="italics">cett.</hi>
                </note> 
 simillimum?  <reg>accusatis</reg> Sex. Roscium. <reg>quid</reg> ita? <reg>quia</reg> de manibus 
@@ -753,12 +653,12 @@ quae res totum iudicium contineat et quibus de<note>de <foreign xml:lang="grc">y
                </note> rebus nos dicere 
 oporteat et quid vos sequi conveniat intellegetis.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="13">
+         <div n="13" type="chapter">
             <p>
-               <milestone n="35" unit="section"/>
+               <milestone n="35" unit="section" />
                <reg>tres</reg> sunt res, quantum ego existimare possum, quae
 obstent hoc tempore Sex. Roscio, crimen adversariorum et audacia et 
 potentia.  <reg>criminis</reg> confictionem accusator Erucius<note>
@@ -768,7 +668,7 @@ partis Roscii sibi poposcerunt<note>depoposcerunt <hi rend="italics">Victorinus<
 potest, potentia pugnat.  <reg>de</reg> hisce omnibus rebus me dicere oportere 
 intellego.  <reg>quid</reg> igitur est?  
 
-<milestone n="36" unit="section"/>
+<milestone n="36" unit="section" />
                <reg>non</reg> eodem modo de omnibus, ideo quod 
 prima illa res ad meum officium pertinet, duas autem reliquas vobis 
 populus Romanus imposuit; ego crimen oportet diluam, vos et 
@@ -776,8 +676,8 @@ audaciae resistere et hominum eius modi perniciosam atque
 intolerandam potentiam primo quoque tempore exstinguere atque 
 opprimere debetis.
 
-<milestone unit="para"/>
-               <milestone n="37" unit="section"/>
+<milestone unit="para" />
+               <milestone n="37" unit="section" />
                <reg>occidisse</reg> patrem Sex. Roscius arguitur.  <reg>scelestum</reg>, di immortales! ac 
 nefarium facinus atque eius modi quo uno maleficio scelera omnia 
 complexa esse videantur!  <reg>etenim</reg> si, id quod praeclare a sapientibus 
@@ -785,7 +685,7 @@ dicitur, voltu saepe laeditur pietas, quod supplicium satis acre
 reperietur in eum qui mortem obtulerit parenti?  pro quo mori 
 ipsum, si res postularet, iura divina atque humana cogebant.  
 
-<milestone n="38" unit="section"/>
+<milestone n="38" unit="section" />
                <reg>in</reg> hoc 
 tanto, tam atroci, tam singulari maleficio, quod ita raro exstitit ut, si 
 quando auditum sit<note>
@@ -800,12 +700,12 @@ omnibus deditam, denique<note>denique <hi rend="italics">Madvig</hi>: et denique
 perdita? <reg>quorum</reg> tu nihil in Sex. Roscium ne obiciendi quidem causa 
 contulisti.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="14">
+         <div n="14" type="chapter">
             <p>
-               <milestone n="39" unit="section"/>
+               <milestone n="39" unit="section" />
                <reg>patrem</reg> occidit Sex. Roscius. <reg>qui</reg> homo? adulescentulus corruptus et 
 ab hominibus nequam inductus<note>
                   <lemma>inductus</lemma> iudicatus <foreign xml:lang="grc">y2</foreign>
@@ -825,7 +725,7 @@ cum officio coniuncta est<note>coniuncta est <hi rend="italics">s</hi>: coniunct
                   <foreign xml:lang="grc">S<hi rend="italics">A</hi>px1</foreign>
                </note>. 
 
-<milestone n="40" unit="section"/>
+<milestone n="40" unit="section" />
                <reg>quae</reg> res igitur tantum istum furorem <reg>sex</reg>. 
 Roscio obiecit? '<reg>patri</reg>' inquit 'non placebat.'<note>patri non placebat <hi rend="italics">hab.</hi> 
                   <foreign xml:lang="grc">S</foreign> 
@@ -838,7 +738,7 @@ patri a filio sine plurimis et maximis causis, sic hoc veri simile non
 est, odio fuisse parenti filium sine causis multis et magnis et 
 necessariis. 
 
-<milestone n="41" unit="section"/>
+<milestone n="41" unit="section" />
                <reg>rursus</reg> igitur eodem revertamur et quaeramus quae 
 tanta vitia fuerint in unico filio qua re is patri displiceret.  <reg>at</reg> 
 perspicuum est nullum fuisse.  <reg>pater</reg> igitur amens, qui odisset eum 
@@ -847,12 +747,12 @@ constantissimus.  <reg>ergo</reg> illud iam perspicuum profecto est, si neque
 amens pater neque perditus filius fuerit, neque odi causam patri 
 neque sceleris filio fuisse.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="15">
+         <div n="15" type="chapter">
             <p>
-               <milestone n="42" unit="section"/>'<reg>nescio</reg>' inquit 'quae causa odi fuerit; fuisse odium intellego quia 
+               <milestone n="42" unit="section" />'<reg>nescio</reg>' inquit 'quae causa odi fuerit; fuisse odium intellego quia 
 antea, cum duos filios haberet, illum alterum qui mortuus est 
 secum omni tempore volebat esse, hunc in praedia rustica relegarat.'<note>relegavit <foreign xml:lang="grc">S</foreign>
                </note>  
@@ -863,7 +763,7 @@ usu<note>usu mihi <hi rend="italics">A<foreign xml:lang="grc">p1f</foreign>
 confirmaret non inveniebat, ego res tam levis qua ratione infirmem 
 ac diluam reperire non possum.  
 
-<milestone n="43" unit="section"/>
+<milestone n="43" unit="section" />
                <reg>quid</reg> ais, Eruci? tot praedia, tam 
 pulchra, tam fructuosa Sex. Roscius filio suo relegationis ac supplici 
 gratia colenda ac tuenda tradiderat? <reg>quid</reg>? hoc patres familiae<note>familias <foreign xml:lang="grc">x</foreign>, <hi rend="italics">ed. V</hi>
@@ -873,7 +773,7 @@ rusticanis, nonne optatissimum sibi putant esse filios suos rei
 familiari maxime servire et in praediis colendis operae plurimum 
 studique consumere? 
 
-<milestone n="44" unit="section"/>
+<milestone n="44" unit="section" />
                <reg>an</reg> amandarat<note>amandarat <foreign xml:lang="grc">S<hi rend="italics">B</hi>px2y1</foreign>: mandarat (emend. <foreign xml:lang="grc">y2</foreign> 
                   <hi rend="italics">cett.</hi>
                </note> hunc sic ut esset in agro ac 
@@ -888,7 +788,7 @@ consuetudine patres faciunt, id quasi novum reprehendis; quod
 benivolentia fit, id odio factum<note>factum || || <foreign xml:lang="grc">S</foreign>: <hi rend="italics">fort.</hi> factum tu</note> criminaris; quod honoris causa pater 
 filio suo concessit, id eum supplici causa fecisse dicis. 
 
-<milestone n="45" unit="section"/>
+<milestone n="45" unit="section" />
                <reg>neque</reg> haec tu 
 non intellegis, sed usque eo quid<note>
                   <lemma>quid</lemma> quod <hi rend="italics">Lambinus</hi>
@@ -898,13 +798,13 @@ contraque consuetudinem hominum contraque opiniones omnium.
 
 </p>
          </div>
-         <div type="chapter" n="16">
+         <div n="16" type="chapter">
             <p>
                <reg>at</reg> enim, cum duos filios haberet, alterum a se non dimittebat, 
 alterum ruri esse patiebatur.  <reg>quaeso</reg>, Eruci, ut hoc in bonam partem 
 accipias; non enim exprobrandi causa sed commonendi gratia dicam.  
 
-<milestone n="46" unit="section"/>
+<milestone n="46" unit="section" />
                <reg>si</reg> tibi fortuna non dedit ut patre certo nascerere ex quo intellegere 
 posses qui animus patrius in liberos esset, at natura certe dedit ut 
 humanitatis non parum haberes; eo accessit studium doctrinae ut ne 
@@ -916,7 +816,7 @@ Eutychum, filium rusticum, quam illum alterum, Chaerestratum? —
 nam, ut opinor, hoc nomine est — alterum in urbe secum honoris causa 
 habere, alterum rus supplici causa relegasse?  
 
-<milestone n="47" unit="section"/>'<reg>quid</reg> ad istas ineptias 
+<milestone n="47" unit="section" />'<reg>quid</reg> ad istas ineptias 
 abis?' inquies.  <reg>quasi</reg> vero mihi difficile sit quamvis multos 
 nominatim proferre, ne longius abeam, vel tribulis vel vicinos meos 
 qui suos liberos quos plurimi faciunt agricolas<note>agricolas <foreign xml:lang="grc">y2</foreign>: agriculos (agricos <foreign xml:lang="grc">y1</foreign>) <hi rend="italics">cett.</hi>
@@ -937,7 +837,7 @@ personis expressamque imaginem<note>
                </note> vitae cotidianae videremus<note>videremus <hi rend="italics">A, ed. Guar.</hi>: viderimus <hi rend="italics">cett.</hi>
                </note>. 
 
-<milestone n="48" unit="section"/>
+<milestone n="48" unit="section" />
                <reg>age</reg> 
 nunc, refer animum sis ad veritatem et considera non modo in 
 Umbria atque in ea vicinitate sed in his veteribus municipiis quae 
@@ -948,7 +848,7 @@ culpae dedisse.
 
 </p>
          </div>
-         <div type="chapter" n="17">
+         <div n="17" type="chapter">
             <p>
                <reg>ac</reg>
                <note>
@@ -960,7 +860,7 @@ qui et ipsi incensi sunt studio quod ad<note>quod ad <foreign xml:lang="grc">w</
 vitamque hanc rusticam, quam tu probro et crimini putas esse 
 oportere, et honestissimam et suavissimam esse arbitrantur. 
 
-<milestone n="49" unit="section"/>
+<milestone n="49" unit="section" />
                <reg>quid</reg> 
 censes hunc ipsum Sex. Roscium quo studio et qua intellegentia esse 
 in rusticis rebus?  Vt ex his propinquis eius, hominibus honestissimis, 
@@ -980,9 +880,9 @@ omnino coluit crimini fuerit.
 
 </p>
          </div>
-         <div type="chapter" n="18">
+         <div n="18" type="chapter">
             <p>
-               <milestone n="50" unit="section"/>
+               <milestone n="50" unit="section" />
                <reg>ne</reg> tu, Eruci, accusator esses ridiculus, si illis temporibus natus esses<note>natus |||| esses <foreign xml:lang="grc">S</foreign>
                </note> 
 cum ab aratro arcessebantur qui consules fierent. <reg>etenim</reg> qui 
@@ -997,7 +897,7 @@ alienos cupide appetebant; quibus rebus et agris et urbibus et
 nationibus rem publicam atque hoc imperium et populi Romani 
 nomen auxerunt.  
 
-<milestone n="51" unit="section"/>
+<milestone n="51" unit="section" />
                <reg>neque</reg> ego haec eo profero quo conferenda sint 
 cum hisce de quibus nunc quaerimus, sed ut illud intellegatur<note>
                   <lemma>intellegatur</lemma> intellegant <hi rend="italics">A</hi>: intellegas <foreign xml:lang="grc">sx2</foreign>
@@ -1014,7 +914,7 @@ adsiduus semper vixerit, cum praesertim nihil esset quod aut patri
 gratius aut sibi iucundius aut re
 vera honestius facere posset.	
 
-<milestone n="52" unit="section"/>
+<milestone n="52" unit="section" />
                <reg>odium</reg> igitur acerrimum patris in filium ex hoc, opinor, ostenditur, 
 Eruci, quod hunc ruri esse patiebatur. <reg>numquid</reg> est aliud? '<reg>immo</reg> 
 vero' inquit 'est; nam istum exheredare in animo habebat.'  <reg>audio</reg>; 
@@ -1028,9 +928,9 @@ urbe viveret neque revocaturus esset.
 
 </p>
          </div>
-         <div type="chapter" n="19">
+         <div n="19" type="chapter">
             <p>
-               <milestone n="53" unit="section"/>
+               <milestone n="53" unit="section" />
                <reg>verum</reg> haec tu quoque<note>haec quoque tu <hi rend="italics">ed. R</hi>
                </note> 
 intellegis esse nugatoria; illud quod coepimus videamus, quo certius 
@@ -1046,7 +946,7 @@ animo<note>ex animo <hi rend="italics">del. May</hi>
 huiusce<note>huiusce |||| <foreign xml:lang="grc">S</foreign>
                </note> peccatis accidere potuisse non arbitror.  
 
-<milestone n="54" unit="section"/>
+<milestone n="54" unit="section" />
                <reg>verum</reg> concedo tibi 
 ut ea praetereas quae, cum taces, nulla esse concedis; illud<note>illud <hi rend="italics">Gulielmius</hi>: illum <hi rend="italics">codd.</hi>
                </note> quidem, 
@@ -1067,7 +967,7 @@ ad quaestum atque ad<note>
 obicere quod planum facere non modo
 non possis verum ne coneris quidem? 
 
-<milestone n="55" unit="section"/>
+<milestone n="55" unit="section" />
                <reg>nemo</reg> nostrum est, Eruci, 
 quin sciat tibi inimicitias cum Sex. Roscio nullas esse; vident omnes 
 qua de causa huic<note>huic <hi rend="italics">Beroaldus</hi>: huc <hi rend="italics">codd.</hi>
@@ -1079,12 +979,12 @@ oportebat ut horum existimationem et legem Remmiam<note>
                </note> putares 
 aliquid valere oportere.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="20">
+         <div n="20" type="chapter">
             <p>
-               <milestone n="56" unit="section"/>
+               <milestone n="56" unit="section" />
                <reg>accusatores</reg> multos esse in civitate utile est ut metu contineatur 
 audacia; verum tamen hoc ita est utile ut ne plane inludamur ab 
 accusatoribus. <reg>innocens</reg> est quispiam, verum tamen, quamquam 
@@ -1110,7 +1010,7 @@ peccant quae est cautior.  <reg>quod</reg> si luce quoque canes latrent cum deos
 salutatum aliqui venerint, opinor, eis crura suffringantur, quod acres 
 sint etiam tum cum suspicio nulla sit. 
 
-<milestone n="57" unit="section"/>
+<milestone n="57" unit="section" />
                <reg>simillima</reg> est accusatorum 
 ratio.  Alii vestrum anseres sunt qui tantum modo clamant, nocere 
 non possunt, alii canes qui et latrare et mordere possunt.  <reg>cibaria</reg> 
@@ -1129,12 +1029,12 @@ vehementer ad caput adfigent<note>adfigent <foreign xml:lang="grc">y2</foreign>,
 vestras accusare possitis.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="21">
+         <div n="21" type="chapter">
             <p>
-               <milestone n="58" unit="section"/>
+               <milestone n="58" unit="section" />
                <reg>quid</reg> mihi ad defendendum dedisti, bone accusator? quid hisce autem 
 ad suspicandum? '<reg>ne</reg>
                <note>
@@ -1153,8 +1053,8 @@ neminem esse qui verbum facere auderet hoc tempore'<note>hoc tempore auderet <hi
 opinio falsa in istam fraudem impulit; non me hercules verbum 
 fecisses, si tibi quemquam responsurum putasses.
 
-<milestone unit="para"/>
-               <milestone n="59" unit="section"/>
+<milestone unit="para" />
+               <milestone n="59" unit="section" />
                <reg>operae</reg> pretium erat, si animadvertistis, iudices, neglegentiam eius in 
 accusando considerare.  <reg>credo</reg>, cum vidisset qui homines in hisce 
 subselliis sederent, quaesisse<note>quaesisse <hi rend="italics">ed. R</hi>: quaesisset <hi rend="italics">codd.</hi>
@@ -1169,9 +1069,9 @@ solitudine abuteretur. <reg>peroravit</reg> aliquando, adsedit; surrexi ego.
 
 </p>
          </div>
-         <div type="chapter" n="22">
+         <div n="22" type="chapter">
             <p>
-               <milestone n="60" unit="section"/>
+               <milestone n="60" unit="section" />
                <reg>respirare</reg> visus est quod non alius potius diceret.  <reg>coepi</reg> dicere.  
 Vsque eo animadverti, iudices, eum iocari atque alias res agere ante 
 quam Chrysogonum nominavi; quem simul atque attigi, statim homo 
@@ -1186,7 +1086,7 @@ ille existimaret, aperiri bonorum emptionem, vexari pessime
 societatem, gratiam potentiamque eius neglegi, iudices diligenter 
 attendere, populo rem indignam videri.  
 
-<milestone n="61" unit="section"/>
+<milestone n="61" unit="section" />
                <reg>quae</reg> quoniam te fefellerunt<note>fefellerunt <hi rend="italics">ed. V</hi>: fefellerint <hi rend="italics">codd.</hi>
                </note>, 
 Eruci, quoniamque vides versa esse omnia, causam pro Sex. Roscio, si 
@@ -1196,11 +1096,11 @@ veterem tuam illam calliditatem atque prudentiam, confitere<note>aut confitere t
                </note> huc ea 
 spe venisse quod putares hic latrocinium, non iudicium futurum.
 
-<milestone unit="para"/>
+<milestone unit="para" />
                <reg>de</reg> parricidio causa dicitur; ratio ab accusatore reddita non est quam 
 ob causam patrem filius occiderit.  
 
-<milestone n="62" unit="section"/>
+<milestone n="62" unit="section" />
                <reg>quod</reg> in minimis noxiis et in his 
 levioribus peccatis quae magis crebra et iam prope cotidiana sunt vel<note>vel <hi rend="italics">Eberhard</hi>: id <hi rend="italics">codd.</hi>: et <hi rend="italics">Klotz: del. Ascens.</hi> (3)</note> 
 maxime et primum quaeritur, quae causa malefici fuerit, id Erucius in 
@@ -1216,7 +1116,7 @@ expressa sceleris vestigia, ubi, qua ratione, per quos, quo tempore
 maleficium sit admissum. <reg>quae</reg> nisi multa et manifesta sunt, 
 profecto res tam scelesta, tam atrox, tam nefaria credi non potest.  
 
-<milestone n="63" unit="section"/>Magna est enim vis humanitatis; multum valet communio sanguinis; 
+<milestone n="63" unit="section" />Magna est enim vis humanitatis; multum valet communio sanguinis; 
 reclamitat istius modi suspicionibus ipsa natura; portentum atque 
 monstrum certissimum est esse aliquem humana specie et figura qui 
 tantum immanitate bestias vicerit ut, propter quos hanc suavissimam 
@@ -1224,12 +1124,12 @@ lucem aspexerit, eos indignissime luce privarit, cum etiam feras inter
 sese partus atque educatio et natura ipsa conciliet.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="23">
+         <div n="23" type="chapter">
             <p>
-               <milestone n="64" unit="section"/>
+               <milestone n="64" unit="section" />
                <reg>non</reg> ita multis ante annis aiunt <abbr expan="Titum">T.</abbr> Caelium<note>Caelium <hi rend="italics">Valerius Max.</hi> viii. 1. 13: Colelium (Cold- <foreign xml:lang="grc">fy</foreign>) <hi rend="italics">codd.</hi>
                </note> quendam Terracinensem<note>Terracinensem <foreign xml:lang="grc">Spw</foreign>, <hi rend="italics">Schol.</hi>: Tarracinensem <hi rend="italics">cett., Valerius Max.</hi> (<hi rend="italics">cf. Schuchardt</hi> iii. 103)</note>, 
 hominem non obscurum, cum cenatus cubitum in idem conclave cum 
@@ -1246,7 +1146,7 @@ potissimum tempore cum ibidem essent duo adulescentes filii qui et
 sentire et defendere facile possent? <reg>erat</reg> porro nemo in quem ea 
 suspicio conveniret. 
 
-<milestone n="65" unit="section"/>
+<milestone n="65" unit="section" />
                <reg>tamen</reg>, cum planum iudicibus esset factum 
 aperto ostio dormientis eos repertos esse, iudicio absoluti 
 adulescentes et suspicione omni liberati sunt.  <reg>nemo</reg> enim putabat 
@@ -1257,12 +1157,12 @@ capere potuisset<note>potuisset <hi rend="italics">edd. VR</hi>: potuisse (-se |
 non modo sine cura quiescere sed ne spirare quidem sine metu 
 possunt.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="24">
+         <div n="24" type="chapter">
             <p>
-               <milestone n="66" unit="section"/>
+               <milestone n="66" unit="section" />
                <reg>videtisne</reg> quos<note>
                   <lemma>quos</lemma> quod <foreign xml:lang="grc">x2y2</foreign>
                </note> nobis poetae tradiderunt patris ulciscendi causa 
@@ -1279,7 +1179,7 @@ non modo elui<note>elui <hi rend="italics">Victorius</hi>: leui <foreign xml:lan
                </note> non potest verum usque eo permanat ad animum ut 
 summus furor atque amentia consequatur. 
 
-<milestone n="67" unit="section"/>
+<milestone n="67" unit="section" />
                <reg>nolite</reg> enim putare, quem 
 ad modum in fabulis saepenumero videtis, eos qui aliquid impie 
 scelerateque commiserint<note>commiserint <hi rend="italics">ed. R</hi>: commiserunt <hi rend="italics">codd.</hi>
@@ -1291,7 +1191,7 @@ conscientiaeque animi terrent; hae<note>
 domesticaeque Furiae quae dies noctesque parentium<note>parentium <foreign xml:lang="grc">S<hi rend="italics">A</hi>p</foreign>: parentum <hi rend="italics">cett.</hi> (<hi rend="italics">cf. Neue</hi> i. 404)</note> poenas a 
 consceleratissimis filiis repetant.  
 
-<milestone n="68" unit="section"/>
+<milestone n="68" unit="section" />
                <reg>haec</reg> magnitudo malefici facit ut, 
 nisi paene manifestum parricidium proferatur, credibile non sit, nisi 
 turpis adulescentia, nisi omnibus flagitiis vita inquinata, nisi sumptus 
@@ -1305,15 +1205,15 @@ eam rem; paene dicam, respersas
 manus sanguine paterno iudices videant oportet, si tantum facinus, 
 tam immane, tam acerbum credituri sunt.  
 
-<milestone n="69" unit="section"/>
+<milestone n="69" unit="section" />
                <reg>qua</reg> re hoc quo minus est 
 credibile, nisi ostenditur, eo magis est, si convincitur, vindicandum.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="25">
+         <div n="25" type="chapter">
             <p>
                <reg>itaque</reg> cum multis ex rebus intellegi potest maiores nostros non modo 
 armis plus quam ceteras nationes verum etiam consilio sapientiaque 
@@ -1321,7 +1221,7 @@ potuisse, tum ex hac re vel maxime quod in impios singulare
 supplicium invenerunt. <reg>qua</reg> in re quantum prudentia praestiterint<note>praestiterint (-it <foreign xml:lang="grc">s</foreign>) <foreign xml:lang="grc">sxy</foreign>: praestiterunt <hi rend="italics">cett</hi>.</note> eis 
 qui apud ceteros sapientissimi fuisse dicuntur considerate.  
 
-<milestone n="70" unit="section"/>
+<milestone n="70" unit="section" />
                <reg>prudentissima</reg> 
 civitas Atheniensium, dum ea rerum potita est, fuisse 
 traditur; eius porro civitatis sapientissimum Solonem dicunt fuisse, 
@@ -1342,12 +1242,12 @@ maleficio summoverentur.  <reg>insui</reg> voluerunt in culleum vivos atque ita<
                </note> 
 in flumen deici.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="26">
+         <div n="26" type="chapter">
             <p>
-               <milestone n="71" unit="section"/>O singularem sapientiam, iudices! <reg>nonne</reg> videntur hunc hominem 
+               <milestone n="71" unit="section" />O singularem sapientiam, iudices! <reg>nonne</reg> videntur hunc hominem 
 ex rerum natura sustulisse et eripuisse cui repente caelum, solem, 
 aquam terramque ademerint ut, qui eum necasset unde ipse natus 
 esset<note>esset <hi rend="italics">Angelius</hi>: est (esset <foreign xml:lang="grc">sxy</foreign>) et <hi rend="italics">codd.</hi>
@@ -1360,7 +1260,7 @@ delati essent in mare, ipsum<note>mare, mare ipsum <hi rend="italics">Richter</h
 expiari putantur; denique nihil tam vile neque tam volgare est cuius 
 partem ullam reliquerint. 
 
-<milestone n="72" unit="section"/>
+<milestone n="72" unit="section" />
                <reg>etenim</reg> quid tam est<note>
                   <lemma>tam est</lemma> est tam <foreign xml:lang="grc">x</foreign>, <hi rend="italics">Lambinus</hi> (quid enim tam commune <hi rend="italics">cit. Cicero Orat.</hi> 107; <hi rend="italics">Quintil.</hi> xii. 6. 4)</note> commune quam 
 spiritus vivis, terra  mortuis, mare fluctuantibus, litus eiectis?  <reg>ita</reg> 
@@ -1376,17 +1276,17 @@ viris, si ne causam quidem malefici protuleris?  si hunc apud
 bonorum emptores ipsos accusares eique iudicio Chrysogonus 
 praeesset, tamen diligentius paratiusque venisses.
 
-<milestone n="73" unit="section"/>Vtrum quid agatur 
+<milestone n="73" unit="section" />Vtrum quid agatur 
 non vides, an apud quos agatur?  <reg>agitur</reg> de parricidio quod sine 
 multis causis suscipi non potest; apud homines autem prudentissimos 
 agitur qui intellegunt neminem ne minimum quidem 
 maleficium sine causa admittere.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="27">
+         <div n="27" type="chapter">
             <p>
                <reg>esto</reg>, causam proferre non potes.  <reg>tametsi</reg> statim vicisse debeo, 
 tamen de meo<note>meo <hi rend="italics">Madvig</hi>: in eo <hi rend="italics">codd.</hi> (<hi rend="italics">cf. Clu.</hi> 65)</note> iure decedam et tibi quod in alia causa non 
@@ -1396,7 +1296,7 @@ occiderit.  <reg>ita</reg> quaero abs te, <abbr expan="Gai">C.</abbr> Eruci: quo
 meo loco vel respondendi vel interpellandi tibi potestatem faciam vel 
 etiam, <reg>si</reg> quid voles, interrogandi.  
 
-<milestone n="74" unit="section"/>
+<milestone n="74" unit="section" />
                <reg>quo</reg> modo occidit? ipse percussit 
 an aliis occidendum dedit? si ipsum arguis, Romae non fuit; si per 
 alios fecisse dicis, quaero quos<note>quos <foreign xml:lang="grc">S</foreign>, <hi rend="italics">Richter: om. cett.</hi>
@@ -1421,7 +1321,7 @@ ad modum vitam huiusce depinxeris; hunc hominem ferum atque
 agrestem fuisse, numquam cum homine quoquam conlocutum esse, 
 numquam in oppido constitisse.  
 
-<milestone n="75" unit="section"/>
+<milestone n="75" unit="section" />
                <reg>qua</reg> in re praetereo illud quod mihi 
 maximo argumento ad huius innocentiam poterat esse, in rusticis 
 moribus, in victu arido, in hac horrida incultaque vita istius modi 
@@ -1437,12 +1337,12 @@ vita autem haec rustica quam tu agrestem vocas parsimoniae,
 diligentiae, iustitiae magistra est.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="28">
+         <div n="28" type="chapter">
             <p>
-               <milestone n="76" unit="section"/>
+               <milestone n="76" unit="section" />
                <reg>verum</reg> haec missa facio; illud quaero, is homo qui<note>qui <foreign xml:lang="grc">y2</foreign>: <hi rend="italics">om. cett.</hi>
                </note> ut tute dicis, 
 numquam  inter homines fuerit<note>fuit <hi rend="italics">A</hi>
@@ -1464,8 +1364,8 @@ aliquem<note>aliquem.</note>.  <reg>quem</reg>
 <reg>pretio</reg>, gratia, spe, promissis induxit aliquem. <reg>nihil</reg> horum ne confingi 
 quidem potest; et tamen causa de parricidio dicitur.
 
-<milestone unit="para"/>
-               <milestone n="77" unit="section"/>
+<milestone unit="para" />
+               <milestone n="77" unit="section" />
                <reg>reliquum</reg> est ut per servos id admiserit.  O, di immortales, rem 
 miseram et calamitosam! <reg>quid</reg>
                <note>quid <hi rend="italics">scripsi</hi>: quod <hi rend="italics">codd.</hi>
@@ -1487,7 +1387,7 @@ apud eum sunt in honore et<note>iis <foreign xml:lang="grc">Sx</foreign>, <hi re
                </note> in pretio.  <reg>etiam</reg> nunc ut ex eis quaeratur 
 ego postulo, hic orat atque obsecrat. 
 
-<milestone n="78" unit="section"/>
+<milestone n="78" unit="section" />
                <reg>quid</reg> facitis? cur recusatis?  
 <reg>dubitate</reg> etiam nunc, iudices, si potestis, a quo sit Sex. Roscius 
 occisus, ab eone qui propter illius mortem in egestate et in<note>et in <foreign xml:lang="grc">xw</foreign>, <hi rend="italics">Halm</hi>: et <hi rend="italics">cett.</hi>
@@ -1504,12 +1404,12 @@ hunc locum; nam hoc totum
 ad Roscios pertinet, de quorum audacia tum me dicturum pollicitus 
 sum, cum Eruci crimina diluissem.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="29">
+         <div n="29" type="chapter">
             <p>
-               <milestone n="79" unit="section"/>
+               <milestone n="79" unit="section" />
                <reg>nunc</reg>, Eruci, ad te venio.  <reg>conveniat</reg> mihi tecum necesse est, si ad 
 hunc maleficium istud pertinet, aut ipsum sua manu fecisse, id quod 
 negas, aut per aliquos liberos aut servos.  <reg>liberosne</reg>? quos neque ut 
@@ -1525,7 +1425,7 @@ non modo ab hoc crimen<note>crimine <foreign xml:lang="grc">sfw</foreign>
                </note> resilire videas verum omnem suspicionem 
 in vosmet ipsos recidere intellegas.  
 
-<milestone n="80" unit="section"/>
+<milestone n="80" unit="section" />
                <reg>quid</reg> ergo est<note>quid est ergo <foreign xml:lang="grc">y</foreign>
                </note> quo tamen<note>tamen <foreign xml:lang="grc">S</foreign>: tandem <hi rend="italics">cett.</hi>
                </note> 
@@ -1545,7 +1445,7 @@ perfundere<note>
 a sectoribus huc adductum esse? <reg>quid</reg> postea? <reg>nescimus</reg> per ista 
 tempora eosdem fere sectores fuisse collorum et bonorum?
 
-<milestone n="81" unit="section"/>
+<milestone n="81" unit="section" />
                <reg>ei</reg> denique qui tum armati dies noctesque concursabant<note>
                   <lemma>concursabant</lemma> concurabant <foreign xml:lang="grc">S</foreign>: circumcursabant (cucurs. <foreign xml:lang="grc">y1</foreign>) <foreign xml:lang="grc">y2</foreign>
                </note>, qui Romae erant 
@@ -1559,8 +1459,8 @@ modo Romae non fuit sed omnino quid Romae ageretur nescivit<note>nescivit <hi re
 propterea quod ruri adsiduus, quem ad modum tute confiteris, fuit.
 
 
-<milestone unit="para"/>
-               <milestone n="82" unit="section"/>
+<milestone unit="para" />
+               <milestone n="82" unit="section" />
                <reg>vereor</reg> ne aut molestus sim vobis, iudices, aut ne ingeniis vestris 
 videar diffidere, si de tam perspicuis rebus diutius disseram.  Eruci 
 criminatio tota, ut arbitror, dissoluta est; nisi forte exspectatis ut illa 
@@ -1580,12 +1480,12 @@ pertinebant<note>pertinebant <hi rend="italics">Naugerius</hi> (2): pertinebat <
 paratiores reperiet quam putabat.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="30">
+         <div n="30" type="chapter">
             <p>
-               <milestone n="83" unit="section"/>
+               <milestone n="83" unit="section" />
                <reg>venio</reg> nunc eo quo me non cupiditas ducit sed fides. <reg>nam</reg> si mihi 
 liberet accusare, accusarem alios potius ex quibus possem crescere; 
 quod certum est non facere, dum utrumvis licebit.  <reg>is</reg> enim mihi 
@@ -1601,7 +1501,7 @@ esset, et id erit signi me invitum facere, quod non persequar<note>persequar <hi
                </note> longius 
 quam salus huius et mea fides postulabit.
 
-<milestone n="84" unit="section"/>
+<milestone n="84" unit="section" />
                <reg>causam</reg> tu nullam reperiebas in Sex. Roscio; at ego in T. 
 Roscio reperio.  <reg>tecum</reg> enim mihi res est, <abbr expan="Titi">T.</abbr> Rosci, quoniam 
 istic sedes ac te palam adversarium esse<note>esse |||| <foreign xml:lang="grc">S</foreign>
@@ -1616,7 +1516,7 @@ sapientissimum iudicem putabat identidem in causis quaerere
 solebat 'cui bono' fuisset.  <reg>sic</reg> vita hominum est ut ad 
 maleficium nemo conetur sine spe atque emolumento accedere.  
 
-<milestone n="85" unit="section"/>
+<milestone n="85" unit="section" />
                <reg>hunc</reg> quaesitorem ac iudicem fugiebant atque horrebant<note>abhorrebant <hi rend="italics">A</hi>
                </note> 
 ei quibus periculum creabatur ideo quod, tametsi veritatis 
@@ -1632,9 +1532,9 @@ ipsum reformidant, pro Sex. Roscio dicere.
 
 </p>
          </div>
-         <div type="chapter" n="31">
+         <div n="31" type="chapter">
             <p>
-               <milestone n="86" unit="section"/>
+               <milestone n="86" unit="section" />
                <reg>in</reg> hac enim causa cum viderent illos amplissimam 
 pecuniam possidere, hunc in summa mendicitate esse, illud 
 quidem non quaererent, cui bono fuisset, sed eo perspicuo<note>perspicuo <hi rend="italics">Puteanus</hi>: perspicuum <hi rend="italics">codd.</hi>
@@ -1652,7 +1552,7 @@ atque eo
 magis eluceat<note>elucet <hi rend="italics">Heumann</hi>
                </note> quo magis occultatur. 
 
-<milestone n="87" unit="section"/>
+<milestone n="87" unit="section" />
                <reg>avaritiam</reg> praefers  qui
 societatem coieris de municipis cognatique fortunis cum 
 alienissimo. <reg>quam</reg> sis audax, ut alia obliviscar, hinc omnes 
@@ -1662,7 +1562,7 @@ atque os tuum non modo ostenderes sed etiam offerres.
 <reg>inimicitias</reg> tibi fuisse cum Sex. Roscio et magnas rei familiaris 
 controversias concedas necesse est.  
 
-<milestone n="88" unit="section"/>
+<milestone n="88" unit="section" />
                <reg>restat</reg>, iudices, 
 ut hoc dubitemus, uter potius Sex. Roscium occiderit, is  ad
 quem morte eius divitiae venerint, an is ad quem mendicitas, 
@@ -1678,12 +1578,12 @@ reformidet<note>reformidet <hi rend="italics">Lambinus</hi>: reformidat <hi rend
                </note>, postremo, iudices, id quod ad rem mea sententia 
 maxime pertinet, utrum inimicus potius an filius.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="32">
+         <div n="32" type="chapter">
             <p>
-               <milestone n="89" unit="section"/>
+               <milestone n="89" unit="section" />
                <reg>haec</reg> tu, Eruci, tot et tanta si nanctus<note>nanctus <foreign xml:lang="grc">Sp</foreign>, <hi rend="italics">Halm</hi>: nactus <hi rend="italics">cett.</hi>
                </note> esses in reo, quam 
 diu diceres! quo te modo iactares! tempus hercule te 
@@ -1703,7 +1603,7 @@ caesos non ad Trasumennum<note>Trasumennum <hi rend="italics">Fleckeisen</hi>: T
                   </hi>
                </note> lacum, sed ad Servilium vidimus.
 
-<milestone n="90" unit="section"/>
+<milestone n="90" unit="section" />
                <quote>
                   <reg>quis</reg> ibi non est volneratus ferro Phrygio?</quote>
                <reg>non</reg> necesse est omnis commemorare Curtios, Marios, denique 
@@ -1717,7 +1617,7 @@ qui omnes, quod ad me attinet, vellem viverent.  <reg>nihil</reg> enim mali est
 canes ibi quam plurimos esse ubi permulti observandi multaque 
 servanda sunt.
 
-<milestone n="91" unit="section"/>
+<milestone n="91" unit="section" />
                <reg>verum</reg>, ut fit, multa saepe imprudentibus imperatoribus vis 
 belli ac turba molitur. <reg>dum</reg> is in aliis rebus erat occupatus qui 
 summam rerum administrabat, erant interea qui suis volneribus 
@@ -1733,12 +1633,12 @@ et ego, iudices, possum; sed in animo est, quem ad modum ante dixi,
 leviter transire ac tantum modo perstringere unam quamque rem, ut 
 omnes intellegant me non studio accusare sed officio defendere.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="33">
+         <div n="33" type="chapter">
             <p>
-               <milestone n="92" unit="section"/>
+               <milestone n="92" unit="section" />
                <reg>video</reg> igitur causas esse permultas quae istum impellerent; 
 videamus nunc ecquae<note>ecquae <hi rend="italics">Naugerius</hi>: et quae <hi rend="italics">codd.</hi>
                </note> facultas suscipiendi malefici 
@@ -1753,7 +1653,7 @@ esse occisum qui adsiduus eo tempore Romae fuerit, an ab eo qui
 multis
 annis Romam omnino non accesserit.  
 
-<milestone n="93" unit="section"/>
+<milestone n="93" unit="section" />
                <reg>age</reg> nunc ceteras quoque 
 facultates<note>quoque facultates <hi rend="italics">edd. VR. Garatoni</hi>: facultates quoque <hi rend="italics">codd.</hi> (<hi rend="italics">cf.</hi> §83)</note> consideremus.  <reg>erat</reg> tum multitudo sicariorum, id quod 
 commemoravit Erucius, et homines impune occidebantur.  <reg>quid</reg>? ea 
@@ -1766,7 +1666,7 @@ societate tua reperies; et, quicquid tu contra dixeris, id cum
 defensione nostra contendito; ita facillime causa Sex. Rosci cum tua 
 conferetur. 
 
-<milestone n="94" unit="section"/>
+<milestone n="94" unit="section" />
                <reg>dices</reg>: '<reg>quid</reg> postea, si Romae adsiduus fui?'  
 <reg>respondebo</reg>: '<reg>at</reg> ego omnino non fui.'  — <reg>fateor</reg> me sectorem esse, 
 verum et alii multi.  —  <reg>at</reg> ego, ut tute arguis, agricola et rusticus.  — 
@@ -1779,12 +1679,12 @@ verum eo magis etiam quod, si de illis caedibus velim commemorare
 quae tum factae sunt ista eadem ratione qua Sex. Roscius occisus est, 
 vereor ne ad pluris oratio mea pertinere videatur.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="34">
+         <div n="34" type="chapter">
             <p>
-               <milestone n="95" unit="section"/>
+               <milestone n="95" unit="section" />
                <reg>videamus</reg> nunc strictim, sicut cetera, quae post mortem Sex. Rosci 
 abs te, <abbr expan="Tite">T.</abbr> Rosci, facta sunt<note>
                   <lemma>sunt</lemma> sint <hi rend="italics">Halm</hi>
@@ -1810,7 +1710,7 @@ mortalibus audacia tua cognoscatur et impudentia<note>impudentia <hi rend="itali
                   </hi>: imprudentia <hi rend="italics">cett.</hi>
                </note>.
 
-<milestone n="96" unit="section"/>
+<milestone n="96" unit="section" />
                <reg>occiso</reg> 
                <reg>sex</reg>. 
 Roscio quis primus Ameriam nuntiat? Mallius Glaucia, quem iam 
@@ -1830,7 +1730,7 @@ propinqui cognatique optime convenientes, qua ratione factum est ut
 iste tuus cliens, sceleris tui nuntius, <abbr expan="Tito">T.</abbr> Roscio Capitoni potissimum
 nuntiaret?
 
-<milestone n="97" unit="section"/>
+<milestone n="97" unit="section" />
                <reg>occisus</reg> est a cena rediens; nondum lucebat cum 
 Ameriae scitum est. <reg>quid</reg> hic incredibilis cursus, quid haec tanta 
 celeritas festinatioque significat? <reg>non</reg> quaero quis percusserit; nihil 
@@ -1845,12 +1745,12 @@ res eum nocte una tantum itineris contendere coegit? quae necessitas
 eum tanta premebat ut, si sua sponte iter Ameriam faceret, id 
 temporis Roma proficisceretur, nullam partem noctis requiesceret?
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="35">
+         <div n="35" type="chapter">
             <p>
-               <milestone n="98" unit="section"/>
+               <milestone n="98" unit="section" />
                <reg>etiamne</reg> in tam perspicuis rebus argumentatio quaerenda aut 
 coniectura capienda est<note>est <hi rend="italics">Madvig</hi>: sit <hi rend="italics">codd.</hi>
                </note>?  <reg>nonne</reg> vobis haec quae
@@ -1863,13 +1763,13 @@ Automedontem illum, sui sceleris acerbissimi nefariaeque victoriae
 nuntium? non orat ut eam noctem pervigilet, ut honoris sui causa 
 laboret, ut Capitoni quam primum nuntiet? 
 
-<milestone n="99" unit="section"/>
+<milestone n="99" unit="section" />
                <reg>quid</reg> erat quod 
 Capitonem primum scire vellet<note>vellet <hi rend="italics">Ernesti</hi>: voluerit <hi rend="italics">codd.</hi>: voluit <hi rend="italics">Müller</hi> (<hi rend="italics">cf. Zielinski p.</hi> 191)</note>?  <reg>nescio</reg>, nisi
 hoc video, Capitonem in his bonis esse socium; de tribus et decem 
 fundis tris nobilissimos fundos eum video possidere. 
 
-<milestone n="100" unit="section"/>
+<milestone n="100" unit="section" />
                <reg>audio</reg> praeterea 
 non hanc suspicionem nunc primum in Capitonem conferri; 
 multas esse infamis eius<note>infames eius <hi rend="italics">Gruter</hi>: infamius (-is <foreign xml:lang="grc">y</foreign>) <hi rend="italics">codd.</hi>
@@ -1883,7 +1783,7 @@ de ponte in Tiberim deiecerit.  <reg>quae</reg>
 prodierit — scio enim proditurum esse — audiet. <reg>veniat</reg> modo, explicet 
 suum volumen illud quod ei planum 
 
-<milestone n="101" unit="section"/>facere possum Erucium 
+<milestone n="101" unit="section" />facere possum Erucium 
 conscripsisse; quod aiunt illum Sex. Roscio intentasse et minitatum<note>minitatum <hi rend="italics">Hotoman</hi>: mentatum <foreign xml:lang="grc">S</foreign>: meditatum <hi rend="italics">cett.</hi>
                </note> 
 esse se omnia illa pro
@@ -1899,12 +1799,12 @@ accommodetis!  <reg>profecto</reg> non tam perspicue nos istorum<note>nos istoru
                </note> maleficia 
 videremus, nisi ipsos caecos redderet cupiditas et avaritia et audacia.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="36">
+         <div n="36" type="chapter">
             <p>
-               <milestone n="102" unit="section"/>
+               <milestone n="102" unit="section" />
                <reg>alter</reg> ex ipsa caede volucrem nuntium Ameriam ad
 
 
@@ -1924,7 +1824,7 @@ ut<note>
                </note> in minimis rebus homines amplissimi testimonium de
 sua re non dicerent. 
 
-<milestone n="103" unit="section"/>Africanus qui suo cognomine declarat 
+<milestone n="103" unit="section" />Africanus qui suo cognomine declarat 
 tertiam partem orbis terrarum se subegisse tamen, si sua res 
 ageretur, testimonium non diceret; nam illud in talem virum non 
 audeo dicere: <reg>si</reg> diceret, non crederetur. <reg>videte</reg> nunc quam versa et 
@@ -1934,7 +1834,7 @@ est qui et illorum ipsorum bonorum de quibus agitur emptor atque
 possessor est et eum hominem occidendum curavit de cuius morte 
 quaeritur. 
 
-<milestone n="104" unit="section"/>
+<milestone n="104" unit="section" />
                <reg>quid</reg>? tu, vir optime, ecquid<note>quid tu vir <q>omptume</q> ecquid <foreign xml:lang="grc">S</foreign>: etquid tu vir optime <hi rend="italics">A</hi>
                </note> habes quod dicas? mihi 
 ausculta: vide ne tibi desis; tua quoque res permagna agitur.  <reg>multa</reg> 
@@ -1952,14 +1852,14 @@ desideret, eum quae facitis eius modi sint ut ea dedita opera a nobis<note>nobis
 contra vosmet ipsos facere videamini?
 <reg>age</reg> nunc illa videamus, iudices, quae statim consecuta sunt.  
 
-<milestone n="105" unit="section"/>
+<milestone n="105" unit="section" />
                <reg>ad</reg> 
 Volaterras in castra <abbr expan="Lucii">L.</abbr> Sullae mors Sex. Rosci
 quadriduo quo is occisus est Chrysogono nuntiatur.  
 
 </p>
          </div>
-         <div type="chapter" n="37">
+         <div n="37" type="chapter">
             <p>
                <reg>quaeritur</reg> 
 etiam nunc quis cum nuntium miserit? nonne perspicuum est 
@@ -1976,7 +1876,7 @@ plerumque indicant, per eos plerique produntur.'  <reg>hic</reg> nihil est quod
 suspicione occupetis<note>suspicione occupetis <hi rend="italics">Madvig</hi>: suspicionem hoc putetis <hi rend="italics">codd.</hi>: suspicionem hanc putetis <hi rend="italics">Sylvius</hi>
                </note>.  
 
-<milestone n="106" unit="section"/>
+<milestone n="106" unit="section" />
                <reg>non</reg> enim ego ita disputabo: '<reg>veri</reg> simile 
 est Roscios<note>Roscios <foreign xml:lang="grc">S</foreign>: Roscium <hi rend="italics">cett.</hi>
                </note> istam rem ad Chrysogonum detulisse; erat enim eis cum 
@@ -1986,7 +1886,7 @@ observare destiterunt ac se in Chrysogoni fidem et clientelam
 contulerunt.<note>ac... contulerunt <hi rend="italics">om. A</hi>
                </note>'  
 
-<milestone n="107" unit="section"/>
+<milestone n="107" unit="section" />
                <reg>haec</reg> possum omnia vere dicere, sed in hac causa 
 coniectura nihil opus est; ipsos certo scio non negare ad haec bona 
 Chrysogonum accessisse impulsu suo.  <reg>si</reg> eum qui indici causa<note>indici causa <hi rend="italics">scripsi</hi>: iudiciuae <foreign xml:lang="grc">S</foreign>: indiciue <hi rend="italics">A</hi>: iudicine <foreign xml:lang="grc">f</foreign>: iudici ut <foreign xml:lang="grc">w</foreign>: indicii <hi rend="italics">cett.</hi>
@@ -2001,8 +1901,8 @@ Chrysogonus dederit?  <reg>duo</reg> Roscii.  <reg>num</reg> quisnam praeterea? 
 est, iudices.  <reg>num</reg> ergo dubium est quin ei obtulerint hanc praedam 
 Chrysogono qui ab eo partem praedae tulerunt?
 
-<milestone unit="para"/>
-               <milestone n="108" unit="section"/>
+<milestone unit="para" />
+               <milestone n="108" unit="section" />
                <reg>age</reg> nunc ex ipsius Chrysogoni iudicio Rosciorum factum 
 consideremus.  si nihil in ista pugna Roscii quod operae pretium esset 
 fecerant, quam ob causam a<note>a <hi rend="italics">Ascens.</hi> (1): <hi rend="italics">om. mei</hi>
@@ -2018,12 +1918,12 @@ sunt iste <abbr expan="Titus">T.</abbr> Roscius<note>T. <hi rend="italics">Richt
 <reg>nonne</reg> perspicuum est, iudices, has manubias Rosciis Chrysogonum re 
 cognita concessisse?
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="38">
+         <div n="38" type="chapter">
             <p>
-               <milestone n="109" unit="section"/>
+               <milestone n="109" unit="section" />
                <reg>venit</reg> in decem primis legatus in castra Capito.  <reg>vos</reg>
                <note>Capito. Vos <hi rend="italics">scripsi</hi>: Capito || || <foreign xml:lang="grc">S</foreign>: Capito <hi rend="italics">cett.</hi>
                </note>
@@ -2035,7 +1935,7 @@ ius tam sanctum atque integrum quod non eius scelus<note>eius scelus <hi rend="i
 violarit et imminuerit, virum optimum 
 esse eum iudicatote. 
 
-<milestone n="110" unit="section"/>
+<milestone n="110" unit="section" />
                <reg>impedimento</reg> est<note>est <hi rend="italics">om. A</hi>
                   <foreign xml:lang="grc">y1</foreign>
                </note> quo minus de his rebus 
@@ -2057,7 +1957,7 @@ cognoscere poteritis, si accusator voluerit testimonium eis
 denuntiare, pro re certa spem falsam
 domum rettulerunt.  <reg>in</reg> privatis rebus si qui rem mandatam 
 
-<milestone n="111" unit="section"/>non 
+<milestone n="111" unit="section" />non 
 modo malitiosius gessisset sui quaestus aut commodi
 causa verum etiam neglegentius, cum maiores summum admisisse 
 dedecus existimabant.  <reg>itaque</reg> mandati constitutum<note>constitutum <foreign xml:lang="grc">S</foreign>
@@ -2072,7 +1972,7 @@ enim possumus omnia per nos agere; alius in alia est re magis utilis.
 <reg>idcirco</reg> amicitiae comparantur ut commune commodum mutuis
 officiis gubernetur.  
 
-<milestone n="112" unit="section"/>
+<milestone n="112" unit="section" />
                <reg>quid</reg> recipis mandatum, si aut neglecturus 
 aut ad tuum commodum conversurus es? cur mihi te
 offers ac meis commodis officio simulato officis et obstas? <reg>recede</reg> de 
@@ -2083,7 +1983,7 @@ grave eis qui minime ipsi leves sunt.
 
 </p>
          </div>
-         <div type="chapter" n="39">
+         <div n="39" type="chapter">
             <p>
                <reg>ergo</reg> idcirco turpis haec 
 culpa est, quod duas res sanctissimas violat, amicitiam
@@ -2092,7 +1992,7 @@ nisi ei quem fidelem putat.  <reg>perditissimi</reg> est igitur hominis simul et
 amicitiam dissolvere et fallere eum
 qui laesus non esset, nisi credidisset. 
 
-<milestone n="113" unit="section"/>
+<milestone n="113" unit="section" />
                <reg>itane</reg> est? in minimis rebus 
 qui mandatum neglexerit, turpissimo iudicio condemnetur necesse 
 est, in re tanta cum is cui fama mortui, fortunae vivi commendatae 
@@ -2115,7 +2015,7 @@ maculaque adfecerit<note>
                </note>, qua is tandem poena adficietur aut quo iudicio
 damnabitur?
 
-<milestone n="114" unit="section"/>si hanc ei rem privatim Sex. Roscius mandavisset 
+<milestone n="114" unit="section" />si hanc ei rem privatim Sex. Roscius mandavisset 
 ut cum Chrysogono transigeret atque decideret, inque eam rem fidem 
 suam, si quid opus esse putaret, interponeret, ille qui<note>
                   <lemma>ille qui</lemma> illeque <hi rend="italics">Madvig</hi>
@@ -2124,7 +2024,7 @@ recepisset, nonne, si ex eo negotio tantulum in rem suam
 convertisset, damnatus per arbitrum et rem restitueret et 
 honestatem omnem amitteret?
 
-<milestone n="115" unit="section"/>
+<milestone n="115" unit="section" />
                <reg>nunc</reg> non hanc ei rem Sex. Roscius mandavit sed, id quod multo 
 gravius est, ipse Sex. Roscius cum fama vita bonisque omnibus a 
 decurionibus publice <abbr expan="Tito">T.</abbr> Roscio<note>T. Roscio <hi rend="italics">Schütz</hi>: Roscio <hi rend="italics">codd.: del. Hotoman</hi>
@@ -2135,12 +2035,12 @@ evertit bonis, ipse tria praedia sibi depectus est, voluntatem
 decurionum ac municipum omnium tantidem quanti fidem suam 
 fecit.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="40">
+         <div n="40" type="chapter">
             <p>
-               <milestone n="116" unit="section"/>
+               <milestone n="116" unit="section" />
                <reg>videte</reg> iam porro cetera, iudices, ut intellegatis fingi maleficium 
 nullum<note>maleficum nullum fingi <hi rend="italics">s, Halm</hi>
                </note> posse quo iste sese non contaminarit.  <reg>in</reg> rebus minoribus 
@@ -2159,7 +2059,7 @@ laedimus. <reg>recte</reg> igitur maiores cum qui socium fefellisset in virorum
 bonorum numero non
 putarunt haberi oportere.  
 
-<milestone n="117" unit="section"/>
+<milestone n="117" unit="section" />
                <reg>at</reg> vero <abbr expan="Titus">T.</abbr> Roscius non unum rei 
 pecuniariae socium fefellit, quod, tametsi grave est, tamen
 aliquo modo posse ferri videtur, verum novem homines 
@@ -2179,7 +2079,7 @@ eius modi vita, iudices, in his tot tantisque flagitiis hoc quoque
 maleficium de quo iudicium est
 reperietis. 
 
-<milestone n="118" unit="section"/>
+<milestone n="118" unit="section" />
                <reg>etenim</reg> quaerere ita debetis: ubi multa avare, multa 
 audacter<note>audaciter <hi rend="italics">Sylvius</hi>
                </note>, multa improbe, multa perfidiose facta videbitis, ibi scelus 
@@ -2200,12 +2100,12 @@ aut hic<note>hic <hi rend="italics">Schol.</hi>: is (his <hi rend="italics">A</h
 avaritia, similis improbitas, eadem impudentia, gemina audacia.
 
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="41">
+         <div n="41" type="chapter">
             <p>
-               <milestone n="119" unit="section"/>
+               <milestone n="119" unit="section" />
                <reg>etenim</reg>, quoniam fidem magistri cognostis, cognoscite<note>cognoscitis <hi rend="italics">A<foreign xml:lang="grc">psf</foreign>
                   </hi>
                </note> nunc 
@@ -2222,7 +2122,7 @@ infelicissimo qui vel ipse sese in cruciatum dari cuperet, dum de
 patris morte
 quaereretur.
 
-<milestone n="120" unit="section"/>
+<milestone n="120" unit="section" />
                <reg>res</reg> porro abs te eius modi postulabatur ut nihil 
 interesset, utrum eam rem<note>rem <hi rend="italics">del. Halm</hi> (2)</note> recusares an de maleficio confiterere.  
 <reg>quae</reg> cum<note>cum <hi rend="italics">om. <foreign xml:lang="grc">S</foreign> in lac.</hi>
@@ -2246,7 +2146,7 @@ elegantissimis familiis lectos velit hos versari, homines paene
 operarios, ex Amerina disciplina patris
 familiae rusticani.  
 
-<milestone n="121" unit="section"/>
+<milestone n="121" unit="section" />
                <reg>non</reg> ita est profecto, iudices; non est veri 
 simile ut Chrysogonus horum litteras adamarit aut
 humanitatem, non ut rei familiaris negotio diligentiam cognorit 
@@ -2257,9 +2157,9 @@ eminet et apparet.  <reg>quid</reg> igitur?
 
 </p>
          </div>
-         <div type="chapter" n="42">
+         <div n="42" type="chapter">
             <p>
-               <milestone n="122" unit="section"/>Chrysogonus suine<note>suine <hi rend="italics">cod. Paris.</hi> 6369: tuine <foreign xml:lang="grc">Sy2</foreign>: tui <hi rend="italics">cett.</hi>
+               <milestone n="122" unit="section" />Chrysogonus suine<note>suine <hi rend="italics">cod. Paris.</hi> 6369: tuine <foreign xml:lang="grc">Sy2</foreign>: tui <hi rend="italics">cett.</hi>
                </note> malefici occultandi causa 
 quaestionem de eis haberi non volt?
 <reg>minime</reg>, iudices; non in omnis arbitror omnia convenire. <reg>ego</reg> in 
@@ -2275,7 +2175,7 @@ nobis obstare et perferri nullo modo posse et a vobis, quoniam
 potestas data est, non modo infirmari verum etiam
 vindicari oportere. 
 
-<milestone n="123" unit="section"/>
+<milestone n="123" unit="section" />
                <reg>ego</reg> sic existimo, qui quaeri velit ex eis quos 
 constat, eum caedes facta sit<note>
                   <lemma>sit</lemma> est <hi rend="italics">Halm</hi>
@@ -2294,12 +2194,12 @@ praeteriri nullo modo poterant, ea leviter, iudices, attigi, quae posita
 sunt in suspicionibus de quibus, si coepero dicere, pluribus verbis sit 
 disserendum, ea vestris ingeniis coniecturaeque committo.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="43">
+         <div n="43" type="chapter">
             <p>
-               <milestone n="124" unit="section"/>
+               <milestone n="124" unit="section" />
                <reg>venio</reg> nunc ad illud nomen aureum Chrysogoni sub quo nomine 
 tota societas latuit<note>latuit <hi rend="italics">Madvig</hi>: statuit <hi rend="italics">codd.</hi>
                </note>; de quo, iudices, neque quo modo dicam neque 
@@ -2312,7 +2212,7 @@ magno opere videatur; haec enim causa nova profecto et singularis
 est.  <reg>bonorum</reg> Sex. Rosci emptor est Chrysogonus<note>emptor est Chrysogonus <hi rend="italics">w</hi>: emptorẽ Chrysogonus <foreign xml:lang="grc">S</foreign>: emptorem Chrysogonum <hi rend="italics">cett.</hi>
                </note>. 
 
-<milestone n="125" unit="section"/>
+<milestone n="125" unit="section" />
                <reg>primum</reg>
                <note>primum <foreign xml:lang="grc">S</foreign>
                </note> hoc 
@@ -2330,7 +2230,7 @@ civitate ut de eo potissimum conqueramur — verum ego hoc<note>
 est sive Cornelia — non enim novi nec scio — verum ista ipsa lege bona
 Sex. Rosci venire qui potuerunt? 
 
-<milestone n="126" unit="section"/>
+<milestone n="126" unit="section" />
                <reg>scriptum</reg> enim ita dicunt esse: 
 VT AVT<note>ut aut <hi rend="italics">scripsi</hi>: ut ut <foreign xml:lang="grc">S</foreign>: ut <hi rend="italics">cett.</hi> veneant <foreign xml:lang="grc">s</foreign>: veniant <hi rend="italics">cett.</hi>
                </note> EORVM BONA VENEANT QVI PROSCRIPTI SVNT; quo in 
@@ -2347,12 +2247,12 @@ constat contra omnis non modo<note>
 occisum esse, bona quo iure aut quo modo aut
 qua lege venierint quaero.	
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="44">
+         <div n="44" type="chapter">
             <p>
-               <milestone n="127" unit="section"/>
+               <milestone n="127" unit="section" />
                <reg>in</reg> quem hoc dicam quaeris, Eruci?  <reg>non</reg> in eum quem vis et 
 putas; nam Sullam et oratio mea ab initio et ipsius eximia virtus 
 omni tempore purgavit.  <reg>ego</reg> haec omnia Chrysogonum fecisse dico, ut 
@@ -2363,7 +2263,7 @@ Amerinorum doceri <abbr expan="Lucium">L.</abbr> Sullam passus non sit.  <reg>de
 suspicor, omnino haec bona non venisse; id quod postea, si per vos, 
 iudices, licitum erit, aperietur. 
 
-<milestone n="128" unit="section"/>
+<milestone n="128" unit="section" />
                <reg>opinor</reg> enim esse in lege quam ad 
 diem proscriptiones venditionesque fiant, nimirum Kalendas Iunias.  
 <reg>aliquot</reg> post mensis et homo occisus est et bona venisse dicuntur.  
@@ -2379,7 +2279,7 @@ mederi debeam, reduviam<note>redii viam <foreign xml:lang="grc">S</foreign>
 ullius rationem sui commodi ducit; facile egestatem suam Sc laturum 
 putat, si hac indigna suspicione et ficto crimine liberatus sit.  
 
-<milestone n="129" unit="section"/>
+<milestone n="129" unit="section" />
                <reg>verum</reg> 
 quaeso a vobis, iudices, ut haec pauca quae restant ita audiatis ut 
 partim me dicere pro me ipso putetis, partim pro Sex. Roscio<note>pro Sex. <hi rend="italics">edd. VR</hi>: Sex. <hi rend="italics">codd.</hi>
@@ -2396,12 +2296,12 @@ quae ad huius vitae casum causamque<note>
 se dici velit et qua condicione contentus sit iam in extrema oratione 
 nostra, iudices, audietis.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="45">
+         <div n="45" type="chapter">
             <p>
-               <milestone n="130" unit="section"/>
+               <milestone n="130" unit="section" />
                <reg>ego</reg> haec a Chrysogono mea sponte remoto Sex. Roscio 
 quaero, primum qua re civis optimi bona venierint, deinde
 qua re hominis eius qui neque proscriptus<note>neque proscriptus <hi rend="italics">Hotoman: om. codd.</hi>
@@ -2420,7 +2320,7 @@ magnitudinem rerum multa multos partim improbante partim
 imprudente<note>partim improbante <hi rend="italics">scripsi: om. codd.</hi>: partim invito <hi rend="italics">Madvig</hi>: partim conivente <hi rend="italics">Ascens.</hi> (1)</note> L.
 Sulla commisisse. 
 
-<milestone n="131" unit="section"/>
+<milestone n="131" unit="section" />
                <reg>placet</reg> igitur in his rebus aliquid imprudentia 
 praeteriri? <reg>non</reg> placet, iudices, sed necesse est. <reg>etenim</reg> si Iuppiter 
 <reg>optimus</reg> 
@@ -2440,7 +2340,7 @@ quam armis receperat iam<note>iam <hi rend="italics">scripsi</hi>: tum <foreign 
 non potuisse? nisi hoc mirum est quod vis divina
 adsequi non possit, si id mens humana adepta non sit.
 
-<milestone n="132" unit="section"/>
+<milestone n="132" unit="section" />
                <reg>verum</reg> ut haec missa faciam quae iam facta sunt, ex eis quae 
 nunc cum<note>cum <foreign xml:lang="grc">S</foreign>: <hi rend="italics">om. cett.</hi>
                </note> maxime fiunt nonne quivis potest intellegere
@@ -2451,7 +2351,7 @@ Sex. Rosci nomen deferendum curavit<note>
                   <lemma>Erucius</lemma> 
                   <hi rend="italics">lac.</hi>
                </note>
-               <gap reason="Desunt non pauca."/>
+               <gap reason="Desunt non pauca." />
 
                <note anchored="true">
                   <reg>in</reg> vico Pallacinae] <reg>locus</reg>  ubi cenaverat Roscius. — <reg>maxime</reg> metuit 
@@ -2473,12 +2373,12 @@ possessiones, mancipia, quae omnia dicit de rapinis ipsum habere.
 
             </p>
          </div>
-         <div type="chapter" n="46">
+         <div n="46" type="chapter">
             <p>... aptam et ratione dispositam se habere existimant, qui in 
 Sallentinis aut in Bruttiis habent unde vix ter in anno
 audire nuntium possunt.
 
-<milestone n="133" unit="section"/>
+<milestone n="133" unit="section" />
                <reg>alter</reg> tibi descendit de Palatio et aedibus suis; habet animi 
 causa<note>animi relaxandi causa <foreign xml:lang="grc">y</foreign>
                </note> rus amoenum et suburbanum, plura praeterea
@@ -2498,7 +2398,7 @@ rapinis coacervari una in domo<note>una in domo <foreign xml:lang="grc">sxy</for
                </note> potuit.  <reg>familiam</reg> vero quantam et
 quam variis cum artificiis habeat quid ego dicam?  
 
-<milestone n="134" unit="section"/>Mitto hasce 
+<milestone n="134" unit="section" />Mitto hasce 
 artis volgaris, coquos<note>coquos <hi rend="italics">A<foreign xml:lang="grc">py</foreign>
                   </hi>: cocos <hi rend="italics">cett.</hi>
                </note>, pistores<note>pistores <hi rend="italics">Naugerius</hi>: pictores <hi rend="italics">codd.</hi>
@@ -2514,7 +2414,7 @@ est potius quam<note>quam <hi rend="italics">B</hi>
                </note> deversorium flagitiorum 
 omnium.
 
-<milestone n="135" unit="section"/>
+<milestone n="135" unit="section" />
                <reg>ipse</reg> vero quem ad modum composito<note>compto <hi rend="italics">Bücheler</hi> delibuto <hi rend="italics">A<foreign xml:lang="grc">x1w</foreign>
                   </hi>
                </note> et dilibuto capillo passim 
@@ -2529,12 +2429,12 @@ existimet me causam nobilitatis victoriamque voluisse laedere.
 vituperare; non enim <reg>vereor</reg> ne quis alienum me animum 
 habuisse a causa nobilitatis existimet.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="47">
+         <div n="47" type="chapter">
             <p>
-               <milestone n="136" unit="section"/>
+               <milestone n="136" unit="section" />
                <reg>sciunt</reg> ei qui me norunt me pro mea<note>mea <hi rend="italics">Madvig</hi>: illa <hi rend="italics">codd.</hi>
                </note> tenui infirmaque
 
@@ -2549,7 +2449,7 @@ redditum gaudeo, iudices, vehementerque laetor eaque omnia
 deorum voluntate, studio populi Romani, consilio et imperio et
 felicitate <abbr expan="Lucii">L.</abbr> Sullae gesta esse intellego. 
 
-<milestone n="137" unit="section"/>
+<milestone n="137" unit="section" />
                <reg>quod</reg> animadversum est 
 in eos qui contra omni ratione pugnarunt, non debeo
 reprehendere; quod viris fortibus quorum opera eximia in rebus 
@@ -2564,7 +2464,7 @@ sed ne verbis quidem vituperare, tum vero in isto<note>
 neque restitutus sed subactus oppressusque populus
 Romanus est.  
 
-<milestone n="138" unit="section"/>
+<milestone n="138" unit="section" />
                <reg>verum</reg> longe aliter est; nil horum est, iudices.  
 <reg>non</reg> modo non laedetur<note>laedetur <hi rend="italics">Angelius</hi>: laeditur <hi rend="italics">codd.</hi>
                </note> causa nobilitatis, si istis
@@ -2572,7 +2472,7 @@ hominibus resistetis, verum etiam ornabitur.
 
 </p>
          </div>
-         <div type="chapter" n="48">
+         <div n="48" type="chapter">
             <p>
                <reg>etenim</reg> qui haec 
 vituperare volunt<note>volent <foreign xml:lang="grc">Spfw</foreign>
@@ -2587,7 +2487,7 @@ est quod quisquam aut tam stultus aut tam improbus sit qui dicat<note>quid dicat
 recte; omnes approbabunt. '<reg>hoc</reg> iudicassem.' <reg>laudabunt</reg> omnes,  si 
 recte et ordine iudicaris.  
 
-<milestone n="139" unit="section"/>
+<milestone n="139" unit="section" />
                <reg>dum</reg> necesse erat resque ipsa cogebat, 
 unus omnia poterat<note>potuerat <hi rend="italics">A</hi>
                </note>; qui postea quam
@@ -2602,7 +2502,7 @@ dicere, unum hoc dico: nostri isti nobiles nisi vigilantes et boni et
 fortes et misericordes erunt, eis hominibus in quibus haec erunt 
 ornamenta sua concedant necesse est.  
 
-<milestone n="140" unit="section"/>
+<milestone n="140" unit="section" />
                <reg>quapropter</reg> desinant 
 aliquando dicere
 male aliquem locutum esse, si qui vere ac libere locutus sit, desinant 
@@ -2619,7 +2519,7 @@ iudicia vestra, ad id quod solum prope in civitate sincerum
 sanctumque
 restat. 
 
-<milestone n="141" unit="section"/>hic ne<note>hicine <hi rend="italics">Halm</hi>
+<milestone n="141" unit="section" />hic ne<note>hicine <hi rend="italics">Halm</hi>
                </note> etiam sese putat aliquid posse Chrysogonus? hicne<note>hicne <hi rend="italics">scripsi</hi>: hic... <foreign xml:lang="grc">S</foreign>: hic <hi rend="italics">cett.</hi>
                </note> 
 etiam potens esse volt? O rem miseram atque acerbam! <reg>neque</reg> me 
@@ -2629,7 +2529,7 @@ posse<note>posse <foreign xml:lang="grc">xy</foreign>: <hi rend="italics">om. ce
 
 </p>
          </div>
-         <div type="chapter" n="49">
+         <div n="49" type="chapter">
             <p>
                <reg>idcircone</reg> exspectata<note>experrecta <hi rend="italics">Angelius</hi>
                </note> nobilitas armis atque ferro rem publicam 
@@ -2639,7 +2539,7 @@ reciperavit<note>reciperarit <hi rend="italics">A<foreign xml:lang="grc">y1</for
 nobilium bona fortunas arasque nostras<note>fortunas arasque nostras <hi rend="italics">scripsi</hi> (<hi rend="italics">cf.</hi> §23, <hi rend="italics">dom.</hi> 109, <hi rend="italics">Sest.</hi> 145): fortunas vestrasque nostras <foreign xml:lang="grc">S</foreign>: fortunas vestras atque nostras (vestras nostrasque <foreign xml:lang="grc">sx</foreign>) <hi rend="italics">cett.</hi>: fortunasque nostras <hi rend="italics">Garatoni</hi>
                </note> vexare possent?
 
-<milestone n="142" unit="section"/>
+<milestone n="142" unit="section" />
                <reg>si</reg> id 
 actum est, fateor me errasse qui hoc maluerim, fateor insanisse qui 
 cum illis senserim; tametsi inermis, iudices, sensi. <reg>sin</reg> autem victoria 
@@ -2654,8 +2554,8 @@ Chrysogoni fautor qui sibi cum illo rationem communicatam putat
 laeditur, cum ab hoc splendore<note>splendor <hi rend="italics">Richter</hi>
                </note> causae separatur.
 
-<milestone unit="para"/>
-               <milestone n="143" unit="section"/>
+<milestone unit="para" />
+               <milestone n="143" unit="section" />
                <reg>verum</reg> haec omnis oratio, ut iam ante dixi, mea est, qua me uti 
 res publica et dolor meus et istorum iniuria coegit.
 Sex. Roscius<note>Sex. <hi rend="italics">Madvig</hi>: sed <hi rend="italics">codd.</hi>
@@ -2665,7 +2565,7 @@ rusticus, ista omnia quae vos per Sullam gesta esse dicitis more, lege,
 iure gentium facta; culpa liberatus et crimine nefario solutus cupit a 
 vobis discedere;
 
-<milestone n="144" unit="section"/>si hac indigna suspicione careat, animo aequo se carere suis 
+<milestone n="144" unit="section" />si hac indigna suspicione careat, animo aequo se carere suis 
 omnibus commodis dicit.  <reg>rogat</reg> oratque te, Chrysogone, si nihil de 
 patris fortunis amplissimis in suam rem convertit, si nulla in re te 
 fraudavit, si tibi optima fide sua omnia concessit, adnumeravit, 
@@ -2675,12 +2575,12 @@ tibi tradidit, si ex omnibus rebus se ipsum nudum neque praeterea
 quicquam excepit, ut sibi per te liceat innocenti amicorum opibus 
 vitam in egestate degere.  
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="50">
+         <div n="50" type="chapter">
             <p>
-               <milestone n="145" unit="section"/>
+               <milestone n="145" unit="section" />
                <reg>praedia</reg> mea tu possides, ego aliena 
 misericordia vivo; concedo, et quod animus aequus est et<note>est et <hi rend="italics">Angelius</hi>: esset <hi rend="italics">codd.</hi>
                </note> quia 
@@ -2705,7 +2605,7 @@ vereri quod praeter ceteros tu metuere non debeas<note>debeas <foreign xml:lang=
                </note> ne quando liberis 
 proscriptorum bona patria reddantur?
 
-<milestone n="146" unit="section"/>
+<milestone n="146" unit="section" />
                <reg>facis</reg> iniuriam, Chrysogone, si maiorem spem emptionis tuae in 
 huius exitio ponis quam in eis<note>iis <foreign xml:lang="grc">p</foreign>: his <hi rend="italics">cett.</hi>
                </note> rebus quas <abbr expan="Lucius">L.</abbr> Sulla gessit. <reg>quod</reg> si tibi 
@@ -2719,7 +2619,7 @@ umquam praedo fuit tam nefarius, quis pirata tam barbarus ut, cum
 integram praedam sine sanguine habere posset, cruenta
 spolia detrahere mallet?  
 
-<milestone n="147" unit="section"/>
+<milestone n="147" unit="section" />
                <reg>scis</reg> hunc nihil habere, nihil audere<note>nihil audere <hi rend="italics">del. Eussner</hi>
                </note>, 
 nihil posse, nihil umquam contra rem tuam cogitasse, et tamen 
@@ -2736,12 +2636,12 @@ virtute perfecit ut, quanto honore ipsa ex illorum
 dignitate adficeretur, non minora illis ornamenta ex sua laude 
 redderet.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="51">
+         <div n="51" type="chapter">
             <p>
-               <milestone n="148" unit="section"/>
+               <milestone n="148" unit="section" />
                <reg>an</reg>, quod diligenter defenditur, id tibi indignum facinus
 videtur?  <reg>mihi</reg> crede, si pro patris huius<note>
                   <lemma>huius</lemma> eius <hi rend="italics">Naugerius</hi>
@@ -2756,7 +2656,7 @@ ita defenditur, non sane ut moleste ferre adversarii debeant neque ut
 se
 potentia superari putent.  
 
-<milestone n="149" unit="section"/>
+<milestone n="149" unit="section" />
                <reg>quae</reg> domi gerenda sunt, ea per 
 Caeciliam transiguntur, fori iudicique rationem <abbr expan="Marcus">M.</abbr>
                <note>M. <hi rend="italics">Garatoni: om. codd.</hi>
@@ -2779,12 +2679,12 @@ quod si omnes qui eodem loco nati sunt<note>sunt <foreign xml:lang="grc">sxy</fo
                </note> facerent, et res publica ex 
 illis et ipsi ex invidia minus laborarent.
 
-<milestone unit="para"/>
+<milestone unit="para" />
             </p>
          </div>
-         <div type="chapter" n="52">
+         <div n="52" type="chapter">
             <p>
-               <milestone n="150" unit="section"/>
+               <milestone n="150" unit="section" />
                <reg>verum</reg> si a 
 Chrysogono, iudices, non impetramus ut pecunia nostra 
 contentus sit, vitam ne petat, si ille adduci non potest ut, cum 
@@ -2803,7 +2703,7 @@ duriores acerbioresque reddit<note>reddidit <foreign xml:lang="grc">y</foreign>
 est aetatem degere quam
 in hac tanta immanitate versari.
 
-<milestone n="151" unit="section"/>
+<milestone n="151" unit="section" />
                <reg>ad</reg> eamne rem vos reservati 
 estis, ad eamne rem delecti ut eos condemnaretis quos sectores ac 
 sicarii iugulare non potuissent? <reg>solent</reg> hoc boni imperatores facere 
@@ -2816,7 +2716,7 @@ manibus effugerint. <reg>di</reg> prohibeant, iudices, ne<note>ne <hi rend="ital
 consilium publicum vocari voluerunt praesidium sectorum 
 existimetur!
 
-<milestone n="152" unit="section"/>
+<milestone n="152" unit="section" />
                <reg>an</reg> vero, iudices, vos non intellegitis<note>intellegetis <foreign xml:lang="grc">S</foreign>
                   <hi rend="italics">A</hi>
                </note> nihil aliud agi nisi ut 
@@ -2835,10 +2735,10 @@ obstare Roscio<note>
 
 </p>
          </div>
-         <div type="chapter" n="53">
+         <div n="53" type="chapter">
             <p>
-               <milestone unit="para"/>
-               <milestone n="153" unit="section"/>
+               <milestone unit="para" />
+               <milestone n="153" unit="section" />
                <reg>quod</reg> si id vos suscipitis et eam ad rem<note>eam ad rem <hi rend="italics">Gulielmius</hi>: eadem (eandem <foreign xml:lang="grc">fx</foreign>) rem (esse <hi rend="italics">A</hi>) <hi rend="italics">codd.</hi>: ea de re <hi rend="italics">Reid</hi>
                </note> operam vestram
 profitemini, si idcirco sedetis ut ad vos adducantur eorum liberi 
@@ -2852,7 +2752,7 @@ eorum liberos atque ad infantium puerorum incunabula pertinet nisi
 hoc iudicio a vobis reicitis et aspernamini, videte, per deos immortalis! 
 quem in locum rem publicam perventuram putetis!
 
-<milestone n="154" unit="section"/>
+<milestone n="154" unit="section" />
                <reg>homines</reg> sapientes et ista auctoritate et potestate praeditos 
 qua  vos estis ex quibus rebus maxime res publica laborat, eis maxime 
 mederi convenit. <reg>vestrum</reg> nemo est quin intellegat populum 

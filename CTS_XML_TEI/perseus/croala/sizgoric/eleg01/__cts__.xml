@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:sizgoric" projid="croala:eleg01" urn="urn:cts:croala:sizgoric.eleg01" xml:lang="lat">
+            <ti:title xml:lang="lat">Elegia de Sibenicensis agri vastatione</ti:title>
+            <ti:edition projid="croala:lat1">
+                <ti:label xml:lang="eng">Hanc editionem electronicam curavit (Veljko Gortan) </ti:label>
+                </ti:edition>
+        </ti:work>
+    

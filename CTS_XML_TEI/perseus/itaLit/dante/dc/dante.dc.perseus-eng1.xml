@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
@@ -27,7 +26,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>Columbia University</publisher>
-                            <date></date>
+                            <date />
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -36,10 +35,10 @@
         
         <encodingDesc>
             <refsDecl>
-                <refState unit="chapter"/>
-                <refState unit="paragraph"/>
+                <refState unit="chapter" />
+                <refState unit="paragraph" />
             </refsDecl>
-        </encodingDesc>
+        <refsDecl id="CTS"><cRefPattern matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3']/tei:l[@n='$4'])"><p>This pointer pattern extracts book and canto and terza and line</p></cRefPattern><cRefPattern matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"><p>This pointer pattern extracts book and canto and terza</p></cRefPattern><cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts book and canto</p></cRefPattern><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts book</p></cRefPattern></refsDecl></encodingDesc>
         
         <profileDesc>
             <langUsage>
@@ -51,34 +50,34 @@
         </revisionDesc>
     </teiHeader>
 <text xml:lang="en"><body><div type="translation">
-    <div type="textpart" subtype="book" n="1">
-        <div type="textpart" subtype="canto" n="1">
-            <div type="textpart" subtype="terza" n="1">
+    <div n="1" subtype="book" type="textpart">
+        <div n="1" subtype="canto" type="textpart">
+            <div n="1" subtype="terza" type="textpart">
                 <l n="1">Midway upon the journey of our life</l>
                 <l n="2">I found myself within a forest dark,</l>
                 <l n="3">For the straightforward pathway had been lost.</l>
             </div>
-            <div type="textpart" subtype="terza" n="2">
+            <div n="2" subtype="terza" type="textpart">
                 <l n="1">Ah me! how hard a thing it is to say</l>
                 <l n="2">What was this forest savage, rough, and stern,</l>
                 <l n="3">Which in the very thought renews the fear.</l>
             </div>
-            <div type="textpart" subtype="terza" n="3">
+            <div n="3" subtype="terza" type="textpart">
                 <l n="1">So bitter is it, death is little more;</l>
                 <l n="2">But of the good to treat, which there I found,</l>
                 <l n="3">Speak will I of the other things I saw there.</l>
             </div>
-            <div type="textpart" subtype="terza" n="4">
+            <div n="4" subtype="terza" type="textpart">
                 <l n="1">I cannot well repeat how there I entered,</l>
                 <l n="2">So full was I of slumber at the moment</l>
                 <l n="3">In which I had abandoned the true way.</l>
             </div>
-            <div type="textpart" subtype="terza" n="5">
+            <div n="5" subtype="terza" type="textpart">
                 <l n="1">But after I had reached a mountain's foot,</l>
                 <l n="2">At that point where the valley terminated,</l>
                 <l n="3">Which had with consternation pierced my heart,</l>
             </div>
-            <div type="textpart" subtype="terza" n="6">
+            <div n="6" subtype="terza" type="textpart">
                 <l n="1">Upward I looked, and I beheld its shoulders,</l>
                 <l n="2">Vested already with that planet's rays</l>
                 <l n="3">Which leadeth others right by every road.</l>

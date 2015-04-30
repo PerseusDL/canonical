@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -7,7 +7,7 @@
 	           <title>Pro Sex. Roscio, De imperio Cn. Pompei, Pro Cluentio, In Catilinam, Pro Murena, Pro Caelio</title>
 	           <title type="sub">Machine readable text</title>
 	           <author n="Cic.">M. Tullius Cicero</author>
-	           <editor role="editor" n="OCT">Albert Clark</editor>
+	           <editor n="OCT" role="editor">Albert Clark</editor>
             <sponsor>Perseus Project, Tufts University</sponsor>
             <principal>Gregory Crane</principal>
             <respStmt>
@@ -45,9 +45,9 @@ Collegii Reginae Socius</title>
     
       <encodingDesc>
          <refsDecl>
-	           <state unit="section"/>
+	           <state unit="section" />
          </refsDecl>
-      </encodingDesc>    
+      <refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts section</p></cRefPattern></refsDecl></encodingDesc>    
       <profileDesc>
          <langUsage>
 	           <language id="la">Latin
@@ -182,8 +182,8 @@ Added to repository. Passes TEI parse.
    <text xml:lang="lat">
       <body>
          <head>PRO M. CAELIO ORATIO</head> 
-            <milestone n="1" unit="chapter"/>
-            <div type="section" n="1">
+            <milestone n="1" unit="chapter" />
+            <div n="1" type="section">
                <p>
                   <reg>si</reg> quis, iudices, forte nunc adsit ignarus legum iudiciorum 
 consuetudinisque<note>consuetudinisque <hi rend="italics">
@@ -222,7 +222,7 @@ communi quidem otio liceat esse.
 
 </p>
             </div>
-            <div type="section" n="2">
+            <div n="2" type="section">
                <p>
                   <reg>etenim</reg> si attendere 
 diligenter atque<note>atque <foreign lang="greek">ς</foreign>: <hi rend="italics">om. P<foreign lang="greek">πδ</foreign>
@@ -241,10 +241,10 @@ tribuo, si iussus est, necessitati, si speravit aliquid, pueritiae.
                   </note> ignoscendum sed etiam acriter est 
 resistendum. 
 
-<milestone n="2" unit="chapter"/>
+<milestone n="2" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="3">
+            <div n="3" type="section">
                <p>
                   <reg>ac</reg> mihi quidem videtur, iudices, hic introitus defensionis 
 adulescentiae <abbr expan="Marci">M.</abbr> Caeli maxime convenire, ut ad ea quae 
@@ -276,7 +276,7 @@ quibus potuerit aliqua de causa esse notus.
 
 </p>
             </div>
-            <div type="section" n="4">
+            <div n="4" type="section">
                <p>
                   <reg>equitis</reg> autem 
 Romani<note>autem Romani <hi rend="italics">Quintil.</hi> xi. I. 28: Romani autem <hi rend="italics">P<foreign lang="greek">πδ</foreign>
@@ -294,7 +294,7 @@ maestitia quam cernitis luctusque declarat.
 
 </p>
             </div>
-            <div type="section" n="5">
+            <div n="5" type="section">
                <p>
                   <reg>nam</reg> quod est 
 obiectum municipibus esse adulescentem non probatum  
@@ -317,10 +317,10 @@ huius aetas esse posset, si non modo parenti, tali viro,
 verum etiam municipio tam inlustri ac tam gravi displiceret. 
 <reg>equidem</reg>,
 
-<milestone n="3" unit="chapter"/>
+<milestone n="3" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="6">
+            <div n="6" type="section">
                <p>ut ad me revertar, ab his fontibus profluxi ad 
 hominum famam, et meus hic forensis labor vitaeque ratio 
 demanavit<note>demanavit <hi rend="italics">
@@ -349,7 +349,7 @@ nominatur.
 
 </p>
             </div>
-            <div type="section" n="7">
+            <div n="7" type="section">
                <p>
                   <reg>quam</reg> quidem partem accusationis admiratus 
 sum et moleste tuli potissimum esse Atratino datam. <reg>neque</reg> 
@@ -373,7 +373,7 @@ et meum<note>meum <hi rend="italics">om. <foreign lang="greek">ς</foreign>B</hi
 
 </p>
             </div>
-            <div type="section" n="8">
+            <div n="8" type="section">
                <p>primum ut<note>ut <foreign lang="greek">ς</foreign>, <hi rend="italics">Lambinus</hi>: <hi rend="italics">om. P<foreign lang="greek">πδ</foreign>
                      </hi>
                   </note> qualis es 
@@ -394,10 +394,10 @@ culpa est eorum qui te agere voluerunt; laus pudoris tui,
 quod ea te invitum dicere videbamus, ingeni, quod ornate 
 politeque dixisti.
 
-<milestone n="4" unit="chapter"/>
+<milestone n="4" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="9">
+            <div n="9" type="section">
                <p>
                   <reg>verum</reg> ad istam omnem<note>omnem <hi rend="italics">om. <foreign lang="greek">ς</foreign>
                      </hi>
@@ -418,7 +418,7 @@ erudiretur.
 
 </p>
             </div>
-            <div type="section" n="10">
+            <div n="10" type="section">
                <p>
                   <reg>nam</reg> quod Catilinae familiaritas obiecta Caelio est, longe 
 ab ista suspicione abhorrere debet. <reg>hoc</reg> enim adulescente 
@@ -450,10 +450,10 @@ ne advocatus quidem venit umquam. <reg>deinceps</reg> fuit annus
 quo ego consulatum petivi; petebat Catilina mecum. <reg>numquam</reg> 
 ad illum accessit, a me numquam recessit.
 
-<milestone n="5" unit="chapter"/>
+<milestone n="5" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="11">
+            <div n="11" type="section">
                <p>
                   <reg>tot</reg> igitur 
 annos versatus in foro sine suspicione, sine infamia, studuit 
@@ -481,7 +481,7 @@ inter viros esset, nemo loquebatur.
 
 </p>
             </div>
-            <div type="section" n="12">
+            <div n="12" type="section">
                <p>
                   <reg>at</reg>
                   <note>at <hi rend="italics">Francken</hi>: ac <foreign lang="greek">ς</foreign>: <hi rend="italics">om. P<foreign lang="greek">πδ</foreign>
@@ -507,10 +507,10 @@ monstrum in terris ullum puto, tam ex contrariis diversisque
                   </note> inter se pugnantibus naturae studiis cupiditatibusque 
 conflatum.
 
-<milestone n="6" unit="chapter"/>
+<milestone n="6" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="13">
+            <div n="13" type="section">
                <p>
                   <reg>quis</reg> clarioribus viris quodam tempore<note>
                      <lemma>quodam tempore</lemma> quondam <foreign lang="greek">ς</foreign> (<hi rend="italics">contra Frontonem, ad Anton.</hi> ii. 6)</note> iucundior, 
@@ -540,7 +540,7 @@ vivere.
 
 </p>
             </div>
-            <div type="section" n="14">
+            <div n="14" type="section">
                <p>
                   <reg>hac</reg> ille tam varia multiplicique natura cum 
 omnis omnibus ex<note>ex omnibus <foreign lang="greek">ς</foreign>
@@ -568,10 +568,10 @@ in eodem homine me quoque erroris mei paenitet,
 quam ut istius<note>ipsius <foreign lang="greek">ς</foreign>
                   </note> amicitiae crimen reformidet. 
 
-<milestone n="7" unit="chapter"/>
+<milestone n="7" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="15">
+            <div n="15" type="section">
                <p>
                   <reg>itaque</reg> a maledictis impudicitiae<note>impudicitiae <foreign lang="greek">ς</foreign>, <hi rend="italics">Garatoni ex Quintil.</hi> iv. 2. 27: pudicitiae <hi rend="italics">P<foreign lang="greek">πδ</foreign>
                      </hi>
@@ -594,7 +594,7 @@ suam potissimum commendare voluisset.
 
 </p>
             </div>
-            <div type="section" n="16">
+            <div n="16" type="section">
                <p>
                   <reg>quod</reg> haud scio 
 an de ambitu et de criminibus istis sodalium ac sequestrium<note>sequestrum <hi rend="italics">B</hi>
@@ -615,7 +615,7 @@ alterius innocentiam quam de se timide cogitare videatur.
 
 </p>
             </div>
-            <div type="section" n="17">
+            <div n="17" type="section">
                <p>
                   <reg>nam</reg> quod aes alienum obiectum est, sumptus reprehensi, 
 tabulae flagitatae, videte quam pauca respondeam. <reg>tabulas</reg> 
@@ -637,7 +637,7 @@ vestrum<note>
 
 </p>
             </div>
-            <div type="section" n="18">
+            <div n="18" type="section">
                <p>
                   <reg>reprehendistis</reg> a patre quod semigrarit. <reg>quod</reg> quidem 
 in hac<note>in hac <foreign lang="greek">ς</foreign>, <hi rend="italics">Lambinus</hi>: iam in hac <hi rend="italics">P<foreign lang="greek">πδ</foreign>
@@ -657,7 +657,7 @@ a suis coli posset<note>posset <hi rend="italics">
                         <foreign lang="greek">ς</foreign>P2bg2<foreign lang="greek">ψ</foreign>
                      </hi>: possit <hi rend="italics">cett.</hi>
                   </note>, conduxit in Palatio non magno domum. 
-<milestone n="8" unit="chapter"/>
+<milestone n="8" unit="chapter" />
                   <reg>quo</reg> loco possum dicere id quod vir clarissimus, <abbr expan="Marcus">M.</abbr> Crassus, 
 cum de adventu regis Ptolemaei quereretur, paulo ante 
 dixit: </p>
@@ -678,7 +678,7 @@ sermonum fuisse.
 
 </p>
             </div>
-            <div type="section" n="19">
+            <div n="19" type="section">
                <p>
                   <reg>quam</reg> ob rem illa quae ex accusatorum oratione praemuniri 
 iam et fingi intellegebam, fretus vestra prudentia, 
@@ -709,7 +709,7 @@ senatorem esse solum<note>esse solum <foreign lang="greek">ς</foreign>: solum e
 
                </p>
             </div>
-            <div type="section" n="20">
+            <div n="20" type="section">
                <p>
                   <reg>nec</reg> tamen<note>
                      <lemma>tamen</lemma> tantum <foreign lang="greek">ψ1</foreign>
@@ -727,7 +727,7 @@ coepisse<note>coepisse <hi rend="italics">
                      </hi>: caedisse <hi rend="italics">Ph</hi>
                   </note> de tantis iniuriis experiri. 
 
-<milestone n="9" unit="chapter"/>
+<milestone n="9" unit="chapter" />
                   <reg>sed</reg> totum genus 
 oppugnationis huius, iudices, et iam prospicitis animis et, 
 cum inferetur, propulsare debebitis<note>debebitis propulsare <foreign lang="greek">ς</foreign>
@@ -738,7 +738,7 @@ tela iaciuntur, clam subministrantur<note>administrantur <foreign lang="greek">�
 
 </p>
             </div>
-            <div type="section" n="21">
+            <div n="21" type="section">
                <p>
                   <reg>neque</reg> ego id<note>ego id <foreign lang="greek">ς</foreign>: id ego <hi rend="italics">P<foreign lang="greek">πδ</foreign>
                      </hi>: eo id <hi rend="italics">Schütz</hi>
@@ -764,7 +764,7 @@ navare, testimonium polliceri?
 
 </p>
             </div>
-            <div type="section" n="22">
+            <div n="22" type="section">
                <p>
                   <reg>hoc</reg> ex genere si qui se in 
 hoc iudicium forte proiecerint, excluditote eorum cupiditatem, 
@@ -781,10 +781,10 @@ potest. <reg>argumentis</reg> agemus, signis luce omni clarioribus
 crimina refellemus; res cum re, causa cum causa, ratio cum 
 ratione pugnabit. 
 
-<milestone n="10" unit="chapter"/>
+<milestone n="10" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="23">
+            <div n="23" type="section">
                <p>
                   <reg>itaque</reg> illam partem causae facile patior graviter et ornate  
 a <abbr expan="Marco">M.</abbr> Crasso peroratam de seditionibus Neapolitanis, de 
@@ -811,7 +811,7 @@ suspicione sed ne infamia quidem est aspersus?
 
 </p>
             </div>
-            <div type="section" n="24">
+            <div n="24" type="section">
                <p>
                   <reg>at</reg> praevaricatione 
 est<note>
@@ -827,7 +827,7 @@ autem sit, a sua putat esse<note>esse <foreign lang="greek">ς</foreign>, <hi re
 Caelius sed etiam adulescentes humanissimi et doctissimi, 
 rectissimis studiis atque optimis artibus praediti, Titus 
 Gaiusque Coponii qui ex omnibus maxime Dionis mortem 
-doluerunt<note>Coponii <gap/> doluerunt <foreign lang="greek">ς</foreign>
+doluerunt<note>Coponii <gap /> doluerunt <foreign lang="greek">ς</foreign>
                      <hi rend="italics">b</hi>2<foreign lang="greek">ψ2</foreign> (<hi rend="italics">de Coponiis cf. Balb.</hi> § 53): <hi rend="italics">om. P in lac., sine lac.</hi> 
                      <foreign lang="greek">πδ</foreign>
                   </note>, qui cum doctrinae studio<note>qui cum doctrinae studio <foreign lang="greek">ς</foreign>
@@ -836,21 +836,21 @@ doluerunt<note>Coponii <gap/> doluerunt <foreign lang="greek">ς</foreign>
 etiam hospitio Dionis tenebantur. <reg>habitabat</reg> apud Titum<note>apud Titum <foreign lang="greek">ς</foreign>: is apud L. Lucceium <hi rend="italics">P</hi>2<foreign lang="greek">πδ</foreign>
                   </note>, 
 ut audistis, Dio<note>Dio erat <foreign lang="greek">ς</foreign>: fuerat ei <hi rend="italics">P</hi>2<foreign lang="greek">πδ</foreign>
-                  </note>, erat<note>qui cum <gap/> erat <hi rend="italics">om. P</hi>1 <hi rend="italics">in lac.</hi>
+                  </note>, erat<note>qui cum <gap /> erat <hi rend="italics">om. P</hi>1 <hi rend="italics">in lac.</hi>
                   </note> ei cognitus Alexandriae. <reg>quid</reg> aut 
 hic aut summo splendore praeditus frater eius de <abbr expan="Marco">M.</abbr> Caelio 
 existimet ex ipsis, si producti erunt, audietis.
 
 </p>
             </div>
-            <div type="section" n="25">
+            <div n="25" type="section">
                <p>
                   <reg>ergo</reg> haec 
 removeantur<note>removeantur <foreign lang="greek">ς</foreign>, <hi rend="italics">ed. Mediol.</hi> removentur <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>
                   </note>, ut aliquando, in quibus causa nititur, ad ea 
 veniamus.  
-<milestone n="11" unit="chapter"/>
+<milestone n="11" unit="chapter" />
                </p>
                <p>
                   <reg>animadverti</reg> enim, iudices, audiri a vobis meum familiarem, 
@@ -858,7 +858,7 @@ veniamus.
 ingenio eius et dicendi genere quodam tenebamini, tamen 
 non numquam verebar ne illa subtiliter ad<note>subtilis et ad <hi rend="italics">B</hi>
                   </note> criminandum 
-inducta oratio ad animos vestros sensim ac leniter accederet<note>ad animos <gap/> accederet] animos <gap/> accenderet <hi rend="italics">h</hi>
+inducta oratio ad animos vestros sensim ac leniter accederet<note>ad animos <gap /> accederet] animos <gap /> accenderet <hi rend="italics">h</hi>
                   </note>. 
 <reg>dixit</reg> enim multa de luxurie, multa de libidine, multa de 
 vitiis iuventutis, multa de moribus et, qui<note>et qui <foreign lang="greek">ς</foreign>
@@ -879,18 +879,18 @@ horrebam.
 
 </p>
             </div>
-            <div type="section" n="26">
+            <div n="26" type="section">
                <p>
                   <reg>ac</reg> prima pars fuit illa quae me minus movebat, 
 fuisse meo necessario Bestiae Caelium familiarem, cenasse 
 apud eum, ventitasse domum, studuisse praeturae. <reg>non</reg> 
 me haec movent quae perspicue falsa sunt; etenim eos 
 una cenasse dixit qui aut absunt aut quibus necesse est 
-idem dicere<note>idem dicere <hi rend="italics">P</hi>2<foreign lang="greek">πδ</foreign>: idem d <gap/> 
+idem dicere<note>idem dicere <hi rend="italics">P</hi>2<foreign lang="greek">πδ</foreign>: idem d <gap /> 
                      <hi rend="italics">P</hi>1</note>. <reg>neque</reg> vero illud me commovet quod sibi in 
 Lupercis sodalem esse<note>esse sodalem <foreign lang="greek">ς</foreign>
                   </note> Caelium dixit. <reg>fera</reg> quaedam 
-sodalitas et plane pastoricia<note>pastoricia <hi rend="italics">BP</hi>2<foreign lang="greek">πδ</foreign>: pa <gap/> 
+sodalitas et plane pastoricia<note>pastoricia <hi rend="italics">BP</hi>2<foreign lang="greek">πδ</foreign>: pa <gap /> 
                      <hi rend="italics">P</hi>1: pastoralis <hi rend="italics">coni. Halm</hi>
                   </note> atque agrestis germanorum 
 Lupercorum, quorum coitio illa silvestris ante est instituta 
@@ -904,7 +904,7 @@ videantur<note>videantur <hi rend="italics">Abram</hi>: videatur <hi rend="itali
 
 </p>
             </div>
-            <div type="section" n="27">
+            <div n="27" type="section">
                <p>
                   <reg>sed</reg> haec omitto<note>omitto <foreign lang="greek">ς</foreign>: omittam <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>
@@ -929,15 +929,15 @@ respondeo<note>respondebo <hi rend="italics">Donatus ad Ter. Hecyram</hi> iv. I.
 eum qui nullum convivium renuerit<note>renuerit <hi rend="italics">h</hi>
                      <foreign lang="greek">δ</foreign>: reminierit <hi rend="italics">P</hi>: inierit <foreign lang="greek">ς</foreign>
                      <hi rend="italics">eg</hi>
-                  </note>, qui in hortis fuerit<note>qui <gap/> fuerit <hi rend="italics">Donatus</hi>: <hi rend="italics">om. P</hi>
+                  </note>, qui in hortis fuerit<note>qui <gap /> fuerit <hi rend="italics">Donatus</hi>: <hi rend="italics">om. P</hi>
                      <foreign lang="greek">πδ</foreign>
                   </note>, qui 
 unguenta sumpserit, qui Baias viderit.
 
-<milestone n="12" unit="chapter"/>
+<milestone n="12" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="28">
+            <div n="28" type="section">
                <p>
                   <reg>equidem</reg> multos et 
 vidi in hac civitate et audivi, non modo qui primoribus labris 
@@ -954,7 +954,7 @@ evertant, faciles et tolerabiles haberi solent.
 
 </p>
             </div>
-            <div type="section" n="29">
+            <div n="29" type="section">
                <p>
                   <reg>sed</reg> tu mihi 
 videbare ex communi infamia iuventutis aliquam invidiam 
@@ -985,7 +985,7 @@ vitio sit in quoddam odium iniustum vocatus.
 
 </p>
             </div>
-            <div type="section" n="30">
+            <div n="30" type="section">
                <p>
                   <reg>itaque</reg> ego<note>ego <foreign lang="greek">ς</foreign>: <hi rend="italics">om. P</hi>
                      <foreign lang="greek">πδ</foreign>
@@ -1008,7 +1008,7 @@ huic aliena peccata, ne aetatis ac temporum vitia noceant.
 hunc proprie conferuntur diligentissime respondeam non 
 recuso. 
 
-<milestone n="13" unit="chapter"/>
+<milestone n="13" unit="chapter" />
                </p>
                <p>
                   <reg>sunt</reg> autem duo crimina, auri et veneni; in quibus una 
@@ -1032,7 +1032,7 @@ Horum duorum criminum video auctorem,
 
 </p>
             </div>
-            <div type="section" n="31">
+            <div n="31" type="section">
                <p>video fontem<note>auctorem video fontem <foreign lang="greek">ς</foreign>: fontem video auctorem <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>
                   </note>, 
@@ -1051,7 +1051,7 @@ potionem<note>servos, potionem <hi rend="italics">Bährens</hi>: quos potuit <hi
                   </note>. Magnum 
 rursus odium video cum crudelissimo discidio exstitisse. 
 <reg>res</reg> est omnis in hac causa nobis, iudices, cum Clodia, 
-muliere non solum nobili verum<note>nobili verum <foreign lang="greek">ς</foreign>, <hi rend="italics">Quintil.</hi> ix. 4. 97: nobili sed (nobi <gap/> 
+muliere non solum nobili verum<note>nobili verum <foreign lang="greek">ς</foreign>, <hi rend="italics">Quintil.</hi> ix. 4. 97: nobili sed (nobi <gap /> 
                      <hi rend="italics">P</hi>1) <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>
                   </note> etiam nota; de qua ego 
@@ -1059,7 +1059,7 @@ nihil dicam nisi depellendi criminis causa.
 
 </p>
             </div>
-            <div type="section" n="32">
+            <div n="32" type="section">
                <p>
                   <reg>sed</reg> intellegis 
 pro tua praestanti prudentia, <abbr expan="Gnaei">Cn.</abbr> Domiti, cum hac sola rem 
@@ -1087,10 +1087,10 @@ ea<note>cum ea <hi rend="italics">om. Quintil.</hi> ix. 2. 99</note> quam omnes 
                   </note> amicam omnium potius quam 
 cuiusquam inimicam putaverunt. 
 
-<milestone n="14" unit="chapter"/>
+<milestone n="14" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="33">
+            <div n="33" type="section">
                <p>
                   <reg>sed</reg> tamen ex ipsa quaeram prius utrum me secum 
 severe et graviter et prisce agere malit, an remisse et leniter 
@@ -1129,7 +1129,7 @@ non <add>abavum, non</add> atavum<note>non abavum, non atavum <hi rend="italics"
 
 </p>
             </div>
-            <div type="section" n="34">
+            <div n="34" type="section">
                <p>non 
 denique modo te <abbr expan="Quinti">Q.</abbr> Metelli matrimonium tenuisse sciebas, 
 clarissimi ac fortissimi viri patriaeque amantissimi, qui simul 
@@ -1153,10 +1153,10 @@ cotidie foedera ferires, ideo aquam adduxi ut ea tu
 inceste uterere, ideo viam munivi ut eam tu alienis viris 
 comitata celebrares?' 
 
-<milestone n="15" unit="chapter"/>
+<milestone n="15" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="35">
+            <div n="35" type="section">
                <p>
                   <reg>sed</reg> quid ego, iudices, ita gravem personam induxi<note>introduxi <hi rend="italics">Quintil.</hi> ix. 2. 60</note> ut<note>ut <foreign lang="greek">ς</foreign>: ut et <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>: ut etiam <hi rend="italics">Wesenberg</hi>
@@ -1170,7 +1170,7 @@ hoc posterius atque ita, iudices, ut vel<note>ut vel <foreign lang="greek">ς</f
 vero, mulier — iam enim ipse tecum nulla persona introducta 
 loquor<note>loquar <foreign lang="greek">ς</foreign>
                   </note> — si ea quae facis, quae dicis, quae insimulas, quae 
-moliris, quae arguis<note>facis <gap/> arguis (quae <hi rend="italics">ante</hi> moliris <hi rend="italics">om. b</hi>2: quae insimulas <hi rend="italics">om.</hi> 
+moliris, quae arguis<note>facis <gap /> arguis (quae <hi rend="italics">ante</hi> moliris <hi rend="italics">om. b</hi>2: quae insimulas <hi rend="italics">om.</hi> 
                      <foreign lang="greek">ψ2</foreign>) <foreign lang="greek">ς</foreign>
                      <hi rend="italics">b</hi>2<foreign lang="greek">ψ2</foreign>: <hi rend="italics">om. P</hi>1: facis, quae dicis, quae in sororem tuam moliris, quae argumenta <hi rend="italics">P</hi>2<foreign lang="greek">πδ</foreign>
                   </note>, probare cogitas, rationem tantae familiaritatis, 
@@ -1187,10 +1187,10 @@ voluisti, aut diluas oportet ac<note>ac <hi rend="italics">Halm</hi>: aut <hi re
                   </note> falsa esse doceas aut nihil 
 neque crimini tuo neque testimonio credendum esse fateare. 
 
-<milestone n="16" unit="chapter"/>
+<milestone n="16" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="36">
+            <div n="36" type="section">
                <p>
                   <reg>sin</reg> autem urbanius me agere mavis, sic agam tecum. 
 <reg>removebo</reg> illum<note>illum illum <foreign lang="greek">ς</foreign>
@@ -1228,7 +1228,7 @@ cur huic qui te spernit molesta es?'
 
 </p>
             </div>
-            <div type="section" n="37">
+            <div n="37" type="section">
                <p>
                   <reg>redeo</reg> nunc ad te, Caeli, vicissim ac mihi auctoritatem 
 patriam severitatemque suscipio. <reg>sed</reg> dubito quem patrem 
@@ -1273,9 +1273,9 @@ meae.</l>
                   </quote>
                </p>
             </div>
-            <div type="section" n="38">
+            <div n="38" type="section">
                <p>
-                  <reg>huic</reg> tristi ac derecto seni responderet Caelius se nulla<note>se nulla <gap/> in tam <hi rend="italics">om. P</hi>1 <hi rend="italics">in</hi> 4 <hi rend="italics">versuum lac.</hi>
+                  <reg>huic</reg> tristi ac derecto seni responderet Caelius se nulla<note>se nulla <gap /> in tam <hi rend="italics">om. P</hi>1 <hi rend="italics">in</hi> 4 <hi rend="italics">versuum lac.</hi>
                   </note> 
 cupiditate inductum de via decessisse. <reg>quid</reg> signi? <reg>nulli</reg> 
 sumptus, nulla iactura, nulla versura. <reg>at</reg> fuit fama. <reg>quotus</reg>  
@@ -1311,10 +1311,10 @@ petulanter, dives effuse, libidinosa meretricio more viveret,
 adulterum ego putarem si quis<note>
                      <lemma>quis</lemma> qui <hi rend="italics">Quintil.</hi> viii. 4. 1</note> hanc paulo liberius salutasset? 
 
-<milestone n="17" unit="chapter"/>
+<milestone n="17" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="39">
+            <div n="39" type="section">
                <p>
                   <reg>dicet</reg> aliquis: '<reg>haec</reg> igitur est<note>est igitur <hi rend="italics">T</hi> (<hi rend="italics">contra Quintil.</hi> ix. 2. 15) discipulina <foreign lang="greek">ς</foreign> (<hi rend="italics">cf. Rep.</hi> ii. 19)</note> tua disciplina? sic tu 
 instituis adulescentis? ob hanc causam tibi hunc puerum 
@@ -1353,7 +1353,7 @@ ex minimis tanta fecerunt.
 
 </p>
             </div>
-            <div type="section" n="40">
+            <div n="40" type="section">
                <p>
                   <reg>verum</reg> haec genera virtutum 
 non solum in moribus nostris sed vix iam in libris reperiuntur. 
@@ -1371,7 +1371,7 @@ temporibus praecepta exstiterunt.
 
 </p>
             </div>
-            <div type="section" n="41">
+            <div n="41" type="section">
                <p>
                   <reg>itaque</reg> alii voluptatis 
 causa omnia sapientes facere dixerunt, neque ab<note>nec ab <foreign lang="greek">ς</foreign>
@@ -1394,7 +1394,7 @@ iam conroborata caperetur.
 
 </p>
             </div>
-            <div type="section" n="42">
+            <div n="42" type="section">
                <p>
                   <reg>quam</reg> ob rem si quem forte 
 inveneritis qui aspernetur oculis pulchritudinem rerum, non 
@@ -1403,7 +1403,7 @@ omnem suavitatem, huic homini ego fortasse et pauci deos
 propitios, plerique autem iratos putabunt<note>putaverunt <hi rend="italics">T</hi>
                   </note>. 
 
-<milestone n="18" unit="chapter"/>
+<milestone n="18" unit="chapter" />
                   <reg>ergo</reg> haec 
 deserta via et inculta atque interclusa iam frondibus et 
 virgultis<note>
@@ -1438,7 +1438,7 @@ videatur.
 
 </p>
             </div>
-            <div type="section" n="43">
+            <div n="43" type="section">
                <p>
                   <reg>ac</reg> multi quidem<note>quidem <foreign lang="greek">ς</foreign>: <hi rend="italics">om. P</hi>
                      <foreign lang="greek">πδ</foreign>
@@ -1460,10 +1460,10 @@ libidines nominarentur, quae multis postea virtutibus obtecta<note>obiecta <fore
                   </note>  
 adulescentiae qui vellet excusatione defenderet.
 
-<milestone n="19" unit="chapter"/>
+<milestone n="19" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="44">
+            <div n="44" type="section">
                <p>
                   <reg>at</reg> vero 
 in <abbr expan="Marco">M.</abbr> Caelio — dicam enim iam<note>
@@ -1490,7 +1490,7 @@ deflorescunt — numquam hunc occupatum impeditumve<note>impeditumve <hi rend="i
 
 </p>
             </div>
-            <div type="section" n="45">
+            <div n="45" type="section">
                <p>Audistis cum pro se diceret, audistis antea cum 
 accusaret — defendendi haec causa, non gloriandi loquor<note>loquor <foreign lang="greek">ς</foreign>, <hi rend="italics">Naugerius</hi>: eloquor <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>
@@ -1517,7 +1517,7 @@ modo agendo verum etiam cogitando possit sustinere.
 
 </p>
             </div>
-            <div type="section" n="46">
+            <div n="46" type="section">
                <p>
                   <reg>an</reg> 
 vos aliam causam esse ullam putatis cur in tantis praemiis 
@@ -1534,7 +1534,7 @@ quo aut ingenia deficiant aut doctrina puerilis.
 
 </p>
             </div>
-            <div type="section" n="47">
+            <div n="47" type="section">
                <p>
                   <reg>an</reg> hic<note>hic <hi rend="italics">om.</hi> 
                      <foreign lang="greek">ς</foreign> (<hi rend="italics">contra Arusian. K.</hi> vii. 465)</note>, si 
@@ -1550,9 +1550,9 @@ periculum capitis, ipse<note>capitis, ipse <hi rend="italics">Ph</hi>: capitis, 
                   </note> 
 mensis aut de salute aut de gloria dimicaret? 
 
-<milestone n="20" unit="chapter"/>
+<milestone n="20" unit="chapter" />
                   <reg>nihilne</reg> 
-igitur illa vicinitas redolet, nihilne<note>nihilne <gap/> nihilne <foreign lang="greek">ς</foreign>: nihil <gap/> nihil <hi rend="italics">P</hi>
+igitur illa vicinitas redolet, nihilne<note>nihilne <gap /> nihilne <foreign lang="greek">ς</foreign>: nihil <gap /> nihil <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>
                   </note> hominum fama, nihil 
 Baiae denique ipsae loquuntur? <reg>illae</reg> vero non loquuntur 
@@ -1566,7 +1566,7 @@ luce laetetur.
 
 </p>
             </div>
-            <div type="section" n="48">
+            <div n="48" type="section">
                <p>
                   <reg>verum</reg> si quis est qui etiam meretriciis amoribus interdictum 
 iuventuti putet, est ille quidem valde severus — negare 
@@ -1586,7 +1586,7 @@ mulierem nullam nominabo; tantum in medio relinquam.
 
 </p>
             </div>
-            <div type="section" n="49">
+            <div n="49" type="section">
                <p>
                   <reg>si</reg> quae non nupta mulier domum suam patefecerit omnium 
 cupiditati palamque sese in meretricia vita conlocarit<note>collocaverit <foreign lang="greek">ς</foreign>
@@ -1615,7 +1615,7 @@ an explere libidinem voluisse videatur?
 
 </p>
             </div>
-            <div type="section" n="50">
+            <div n="50" type="section">
                <p>
                   <reg>obliviscor</reg> iam 
 iniurias tuas<note>tuas <foreign lang="greek">ς</foreign>, <hi rend="italics">Arusian.</hi> (<hi rend="italics">s. v.</hi> obliviscor), <hi rend="italics">Servius ad Aen.</hi> ii. 148: <hi rend="italics">om. P</hi>
@@ -1642,10 +1642,10 @@ impudentia et huic et ceteris magnam ad se<note>et ceteris magnam ad se <foreign
                   </note> defendendum 
 facultatem dabit. 
 
-<milestone n="21" unit="chapter"/>
+<milestone n="21" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="51">
+            <div n="51" type="section">
                <p>
                   <reg>sed</reg> quoniam emersisse iam e vadis<note>e vadis <foreign lang="greek">ς</foreign>, <hi rend="italics">ed. R</hi>: evades <hi rend="italics">P</hi>1: evadens <hi rend="italics">P</hi>2<foreign lang="greek">π</foreign>: e vado <hi rend="italics">b</hi>2<foreign lang="greek">ψ2</foreign>
                   </note> et scopulos praetervecta 
@@ -1670,14 +1670,14 @@ audaciae!
 
 </p>
             </div>
-            <div type="section" n="52">
+            <div n="52" type="section">
                <p>
                   <reg>quo</reg> quidem in crimine primum illud requiro<note>requiro <foreign lang="greek">ς</foreign>: requiram <hi rend="italics">P</hi>
                      <foreign lang="greek">πδ</foreign>
                   </note>, 
 dixeritne Clodiae quam ob<note>ob <foreign lang="greek">σδ</foreign>: ad <hi rend="italics">P</hi>2<foreign lang="greek">π</foreign> sumeret <foreign lang="greek">ς</foreign>: tum sumeret <foreign lang="greek">δ</foreign>: tum iret <hi rend="italics">P</hi>2<foreign lang="greek">π</foreign>
                   </note> rem aurum sumeret, an non 
-dixerit. <reg>si</reg> non<note>quam ob <gap/> si non <hi rend="italics">om. P</hi>1 <hi rend="italics">in</hi> 1 1/2 <hi rend="italics">vers. lac.</hi>
+dixerit. <reg>si</reg> non<note>quam ob <gap /> si non <hi rend="italics">om. P</hi>1 <hi rend="italics">in</hi> 1 1/2 <hi rend="italics">vers. lac.</hi>
                   </note> dixit, cur dedit? <reg>si</reg> dixit, eodem se conscientiae 
 scelere devinxit. <reg>tune</reg> aurum ex armario tuo 
 promere ausa es, tune <reg>venerem</reg> illam tuam spoliare ornamentis, 
@@ -1695,7 +1695,7 @@ illa Venus adiutrix esse non debuit.
 
 </p>
             </div>
-            <div type="section" n="53">
+            <div n="53" type="section">
                <p>
                   <reg>vidit</reg> hoc Balbus; 
 celatam esse Clodiam dixit, atque ita Caelium ad illam 
@@ -1710,7 +1710,7 @@ facinus dedisti; si non est ausus<note>ausus <foreign lang="greek">ς</foreign>
                      <hi rend="italics">h</hi>
                      <foreign lang="greek">ψ</foreign>: rursus <hi rend="italics">cett.</hi>
                   </note> dicere, non dedisti. 
-<milestone n="22" unit="chapter"/>
+<milestone n="22" unit="chapter" />
                </p>
                <p>
                   <reg>quid</reg> ego nunc argumentis huic crimini, quae sunt innumerabilia, 
@@ -1734,7 +1734,7 @@ vestigium maximi facinoris reperietur.
 
 </p>
             </div>
-            <div type="section" n="54">
+            <div n="54" type="section">
                <p>
                   <reg>sed</reg> haec quae sunt 
 oratoris propria, quae mihi non propter ingenium meum 
@@ -1797,7 +1797,7 @@ hominis dissimulandum putaret?
 
 </p>
             </div>
-            <div type="section" n="55">
+            <div n="55" type="section">
                <p>
                   <reg>sed</reg> cur diutius vos, 
 iudices, teneo? <reg>ipsius</reg> iurati religionem auctoritatemque 
@@ -1833,10 +1833,10 @@ ponatur, utrum temeraria, procax, irata mulier finxisse
 crimen, an gravis sapiens moderatusque vir religiose testimonium 
 dixisse videatur. 
 
-<milestone n="23" unit="chapter"/>
+<milestone n="23" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="56">
+            <div n="56" type="section">
                <p>
                   <reg>reliquum</reg> est igitur crimen de veneno; cuius ego nec<note>nec <hi rend="italics">T</hi>
                      <foreign lang="greek">ς</foreign>: de (idem <hi rend="italics">P</hi>2) <hi rend="italics">P</hi>: neque <foreign lang="greek">πδ</foreign>
@@ -1867,7 +1867,7 @@ fuisse causa<note>causa <foreign lang="greek">ς</foreign>, <hi rend="italics">e
 
 </p>
             </div>
-            <div type="section" n="57">
+            <div n="57" type="section">
                <p>
                   <reg>cui</reg> denique commisit, quo 
 adiutore usus est, quo socio, quo conscio, cui tantum 
@@ -1906,7 +1906,7 @@ igitur Caelius non videbat?
 
 </p>
             </div>
-            <div type="section" n="58">
+            <div n="58" type="section">
                <p>
                   <reg>si</reg> enim tam<note>tam <foreign lang="greek">σψ</foreign>: iam <hi rend="italics">Pbh</hi>: <hi rend="italics">om. eg</hi>
                   </note> familiaris erat 
@@ -1919,7 +1919,7 @@ a vobis inducitur non erat, quae cum servis eius<note>eius <foreign lang="greek"
                   </note> potuit  
 familiaritas esse tanta? 
 
-<milestone n="24" unit="chapter"/>
+<milestone n="24" unit="chapter" />
                   <reg>ipsius</reg> autem veneni quae ratio 
 fingitur? ubi quaesitum est, quem ad modum paratum, quo 
 pacto, cui, quo in loco traditum? <reg>habuisse</reg> aiunt domi 
@@ -1930,7 +1930,7 @@ venenum.
 
 </p>
             </div>
-            <div type="section" n="59">
+            <div n="59" type="section">
                <p>
                   <reg>pro</reg> di immortales! cur interdum in 
 hominum sceleribus maximis aut conivetis aut praesentis 
@@ -1959,7 +1959,7 @@ tum etiam me doleret.
 
 </p>
             </div>
-            <div type="section" n="60">
+            <div n="60" type="section">
                <p>
                   <reg>quem</reg> quidem virum si nulla vis 
 repentini sceleris sustulisset, quonam modo ille<note>ille <hi rend="italics">om.</hi> 
@@ -1992,10 +1992,10 @@ revertor<note>revertor <foreign lang="greek">ς</foreign>: revertar <hi rend="it
 fortissimi viri mentio et vocem meam fletu debilitavit et 
 mentem dolore impedivit. 
 
-<milestone n="25" unit="chapter"/>
+<milestone n="25" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="61">
+            <div n="61" type="section">
                <p>
                   <reg>sed</reg> tamen venenum unde fuerit, quem ad modum paratum 
 sit<note>sit paratum <foreign lang="greek">ς</foreign>
@@ -2025,7 +2025,7 @@ omnium horum scelerum atque criminum.
 
 </p>
             </div>
-            <div type="section" n="62">
+            <div n="62" type="section">
                <p>'<reg>immo</reg>' inquit 
 'cum servi ad dominam rem totam<note>rem totam <foreign lang="greek">ς</foreign>: remittam <hi rend="italics">P</hi>1: rem istam <hi rend="italics">cett.</hi>
                   </note> et maleficium Caeli 
@@ -2045,7 +2045,7 @@ repente, cum venisset Licinius venenumque<note>venenumque <foreign lang="greek">
                   </note> traderet, prosilirent 
 hominemque comprenderent.' 
 
-<milestone n="26" unit="chapter"/>
+<milestone n="26" unit="chapter" />
                   <reg>quae</reg> quidem omnia, 
 iudices, perfacilem rationem habent reprendendi. <reg>cur</reg> 
 enim potissimum balneas publicas constituerat<note>constituebat <foreign lang="greek">ς</foreign>
@@ -2067,7 +2067,7 @@ facta erat balneatori.
 
 </p>
             </div>
-            <div type="section" n="63">
+            <div n="63" type="section">
                <p>
                   <reg>atque</reg> equidem vehementer 
 exspectabam quinam isti viri boni testes huius manifesto 
@@ -2101,10 +2101,10 @@ facile se per se ipsa<note>ipsa <foreign lang="greek">ς</foreign>
                      <hi rend="italics">P</hi>1<foreign lang="greek">ψ2</foreign>: ipsam <hi rend="italics">cett.</hi>
                   </note> defendat!
 
-<milestone n="27" unit="chapter"/>
+<milestone n="27" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="64">
+            <div n="64" type="section">
                <p>
                   <reg>velut</reg>
                   <note>
@@ -2133,7 +2133,7 @@ ut insidiae, facinus denique ipsum ut manifesto comprenderetur.
 
 </p>
             </div>
-            <div type="section" n="65">
+            <div n="65" type="section">
                <p>
                   <reg>potueruntne</reg> magis<note>magis <foreign lang="greek">ς</foreign>
                      <hi rend="italics">BP1</hi>: meliori (meliori magis <foreign lang="greek">ψ</foreign>2) <hi rend="italics">P2<foreign lang="greek">πδ</foreign>
@@ -2162,10 +2162,10 @@ fugit aliquis e manibus, dein<note>dein <foreign lang="greek">ς</foreign>: dein
                   </note> scabilla concrepant, aulaeum 
 tollitur.
 
-<milestone n="28" unit="chapter"/>
+<milestone n="28" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="66">
+            <div n="66" type="section">
                <p>
                   <reg>quaero</reg> enim cur Licinium titubantem, haesitantem, 
 cedentem, fugere conantem mulieraria manus ista de manibus 
@@ -2191,7 +2191,7 @@ exspecto.
 
 </p>
             </div>
-            <div type="section" n="67">
+            <div n="67" type="section">
                <p>
                   <reg>praegestit</reg> animus iam videre, primum<note>prim. (<hi rend="italics">sic</hi>) iam videre <foreign lang="greek">ς</foreign>
                      <hi rend="italics">B</hi>
@@ -2228,10 +2228,10 @@ aliis se rebus ostentent<note>ostendent (-ant <foreign lang="greek">ς</foreign>
 dominentur sumptibus, haereant, iaceant, deserviant; 
 capiti vero innocentis fortunisque parcant. 
 
-<milestone n="29" unit="chapter"/>
+<milestone n="29" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="68">
+            <div n="68" type="section">
                <p>
                   <reg>at</reg> sunt servi illi de cognatorum sententia, nobilissimorum  
 et clarissimorum hominum, manu missi. <reg>tandem</reg> aliquid 
@@ -2252,7 +2252,7 @@ sed a te ipsa compertam deferre diceres?
 
 </p>
             </div>
-            <div type="section" n="69">
+            <div n="69" type="section">
                <p>
                   <reg>hic</reg> etiam 
 miramur, si illam commenticiam pyxidem obscenissima sit<note>
@@ -2282,7 +2282,7 @@ dicerentur in istam quadrare apte viderentur.
 
 </p>
             </div>
-            <div type="section" n="70">
+            <div n="70" type="section">
                <p>Dicta est a me causa, iudices<note>iudices, causa <foreign lang="greek">ς</foreign>
                   </note>, et perorata. <reg>iam</reg> intellegitis 
 quantum iudicium sustineatis, quanta res sit commissa 
@@ -2298,10 +2298,10 @@ publicae poenas sed ad mulieris libidines<note>libidinosae <foreign lang="greek"
                      </hi>
                   </note> et delicias deposcitur. 
 
-<milestone n="30" unit="chapter"/>
+<milestone n="30" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="71">
+            <div n="71" type="section">
                <p>
                   <reg>atque</reg> hoc etiam loco <abbr expan="Marci">M.</abbr>
                   <note>M. <hi rend="italics">om. <foreign lang="greek">ς</foreign>
@@ -2340,14 +2340,14 @@ viderentur.
 
 </p>
             </div>
-            <div type="section" n="72">
+            <div n="72" type="section">
                <p>M. vero Caelius cur in hoc iudicium vocatur? 
 cui neque proprium quaestionis crimen<note>crimen quaestionis <hi rend="italics">A<foreign lang="greek">ς</foreign>
                      </hi>
                   </note> obicitur nec vero 
 aliquod eius modi quod sit a lege seiunctum, cum<note>cum <hi rend="italics">A<foreign lang="greek">ς</foreign>
                      </hi>: et cum <hi rend="italics">P2<foreign lang="greek">π</foreign>
-                     </hi> (cum  <gap/> coniunctum <hi rend="italics">om. P1</hi>)</note> vestra 
+                     </hi> (cum  <gap /> coniunctum <hi rend="italics">om. P1</hi>)</note> vestra 
 severitate coniunctum. <reg>cuius</reg> prima aetas disciplinae dedita<note>disciplinae dedita (deb. <foreign lang="greek">ς</foreign>) <hi rend="italics">A<foreign lang="greek">ς</foreign>
                      </hi>: dedita disciplinis (ad disc. <hi rend="italics">P1</hi>) <hi rend="italics">P<foreign lang="greek">πδ</foreign>
                      </hi>
@@ -2358,8 +2358,8 @@ fuit eisque artibus quibus instruimur<note>instruimur <hi rend="italics">A<forei
                   </note> ad hunc usum forensem, 
 ad capessendam rem publicam, ad honorem, gloriam, dignitatem. 
 Eis autem fuit amicitiis maiorum natu quorum 
-imitari industriam continentiamque maxime vellet, eis<note>quorum  <gap/> vellet, iis (his) <foreign lang="greek">ς</foreign>
-                     <hi rend="italics">b<foreign lang="greek">ψ</foreign>2</hi>: quorum  <gap/> velit is <hi rend="italics">cett.</hi>: quorum eum  <gap/> velitis <hi rend="italics">Madvig</hi>
+imitari industriam continentiamque maxime vellet, eis<note>quorum  <gap /> vellet, iis (his) <foreign lang="greek">ς</foreign>
+                     <hi rend="italics">b<foreign lang="greek">ψ</foreign>2</hi>: quorum  <gap /> velit is <hi rend="italics">cett.</hi>: quorum eum  <gap /> velitis <hi rend="italics">Madvig</hi>
                   </note> studiis 
 aequalium<note>studiis aequalium <hi rend="italics">A<foreign lang="greek">ς</foreign>
                      </hi>: aequalium studiis <hi rend="italics">P<foreign lang="greek">πδ</foreign>
@@ -2369,7 +2369,7 @@ petere cursum laudis videretur.
 
 </p>
             </div>
-            <div type="section" n="73">
+            <div n="73" type="section">
                <p>
                   <reg>cum</reg> autem paulum iam roboris 
 accessisset aetati, in Africam profectus est <abbr expan="Quinto">Q.</abbr> Pompeio 
@@ -2393,10 +2393,10 @@ exemplo qui post in civitate summi viri et<note>
 exstiterunt industriam suam a populo Romano ex aliqua 
 inlustri accusatione cognosci.
 
-<milestone n="31" unit="chapter"/>
+<milestone n="31" unit="chapter" />
                </p>
             </div>
-            <div type="section" n="74">
+            <div n="74" type="section">
                <p>
                   <reg>vellem</reg> alio potius eum 
 cupiditas gloriae detulisset; sed abiit huius tempus querelae<note>sedaret huius temporis querellam <foreign lang="greek">ς</foreign>
@@ -2409,7 +2409,7 @@ praeclari in rem publicam benefici memoria nihil profuit,
 nocuit opinio malefici cogitati. <reg>postea</reg> nemini umquam<note>umquam <hi rend="italics">A</hi>: <hi rend="italics">om. P<foreign lang="greek">πδ</foreign>
                      </hi>
                   </note> 
-concessit aequalium plus ut in foro, plus ut<note>ut  <gap/> ut <hi rend="italics">om. A</hi>
+concessit aequalium plus ut in foro, plus ut<note>ut  <gap /> ut <hi rend="italics">om. A</hi>
                   </note> in negotiis 
 versaretur causisque amicorum, plus ut valeret inter suos 
 gratia. <reg>quae</reg> nisi vigilantes homines, nisi sobrii, nisi industrii 
@@ -2418,7 +2418,7 @@ consecutus.
 
 </p>
             </div>
-            <div type="section" n="75">
+            <div n="75" type="section">
                <p>
                   <reg>in</reg> hoc flexu quasi aetatis — nihil enim occultabo 
 fretus humanitate ac sapientia vestra — fama adulescentis 
@@ -2438,7 +2438,7 @@ extulit, tantumque abest ab illius familiaritatis infamia ut
 eiusdem nunc ab sese inimicitias odiumque propulset. 
 </p>
             </div>
-            <div type="section" n="76">
+            <div n="76" type="section">
                <p>
                   <reg>atque</reg> ut iste interpositus sermo deliciarum desidiaeque 
 moreretur — fecit me invito me hercule<note>me invito meherc. <foreign lang="greek">ς</foreign>: me (<hi rend="italics">om.</hi> me <hi rend="italics">b</hi>) meherc. invito <hi rend="italics">P<foreign lang="greek">πδ</foreign>
@@ -2471,7 +2471,7 @@ ingeni laudibus, quam inserenda.
 
 </p>
             </div>
-            <div type="section" n="77">
+            <div n="77" type="section">
                <p>
                   <reg>qua</reg> re, si cui nimium 
 effervisse videtur huius vel in suscipiendis vel in gerendis 
@@ -2485,7 +2485,7 @@ catervae, si splendor, si nitor, iam ista deferverint<note>
                      <lemma>deferv.</lemma> deferuu. <hi rend="italics">P</hi>: deseru. <foreign lang="greek">ς</foreign> (<hi rend="italics">cf.</hi> § 43)</note>, 
 iam aetas omnia, iam res, iam<note>iam res iam <foreign lang="greek">σδ</foreign>: iam ista <hi rend="italics">P2 in ras.</hi>: iam usus iam <hi rend="italics">Rau</hi> (<hi rend="italics">cf. Mur.</hi> 65)</note> dies mitigarit. 
 
-<milestone n="32" unit="chapter"/>
+<milestone n="32" unit="chapter" />
                </p>
                <p>
                   <reg>conservate</reg> igitur rei publicae, iudices, civem bonarum 
@@ -2501,7 +2501,7 @@ quod durissimis se<note>se durissimis <foreign lang="greek">ς</foreign>
 
 </p>
             </div>
-            <div type="section" n="78">
+            <div n="78" type="section">
                <p>
                   <reg>non</reg> enim 
 potest qui hominem consularem, cum<note>cum <foreign lang="greek">ς</foreign>: quod <hi rend="italics">P<foreign lang="greek">πδ</foreign>
@@ -2529,7 +2529,7 @@ his diebus Sex. Clodius absolutus est<note>est <foreign lang="greek">ς</foreign
                   </note>, quem vos per biennium 
 aut ministrum seditionis aut ducem vidistis, hominem sine 
 re, sine fide, sine spe, sine sede, sine fortunis, ore, lingua, 
-manu, vita omni inquinatum<note>hominem  <gap/> inquinatum <hi rend="italics">post</hi> incendit <hi rend="italics">hab. P<foreign lang="greek">πδ</foreign>, huc transposuit Garatoni</hi>
+manu, vita omni inquinatum<note>hominem  <gap /> inquinatum <hi rend="italics">post</hi> incendit <hi rend="italics">hab. P<foreign lang="greek">πδ</foreign>, huc transposuit Garatoni</hi>
                   </note>, qui aedis sacras, qui censum 
 populi Romani, qui memoriam publicam suis manibus 
 incendit, qui Catuli monumentum adflixit, meam domum 
@@ -2543,7 +2543,7 @@ in ea<note>ea <foreign lang="greek">ς</foreign>
                      </hi>: hac <hi rend="italics">P<foreign lang="greek">π</foreign>
                      </hi>
                   </note> civitate ne patiamini illum absolutum muliebri 
-gratia, <abbr expan="Marcum">M.</abbr> Caelium libidini muliebri<note>muliebri  <gap/> muliebri] mulieris  <gap/> mulieris <foreign lang="greek">ς</foreign>
+gratia, <abbr expan="Marcum">M.</abbr> Caelium libidini muliebri<note>muliebri  <gap /> muliebri] mulieris  <gap /> mulieris <foreign lang="greek">ς</foreign>
                   </note> condonatum, ne eadem 
 mulier cum suo coniuge et fratre et turpissimum<note>et turp. <hi rend="italics">Bake</hi>: si turp. <foreign lang="greek">ς</foreign>: turp. <hi rend="italics">P<foreign lang="greek">πδ</foreign>
                      </hi>
@@ -2552,7 +2552,7 @@ eripuisse et honestissimum adulescentem oppressisse videatur.
 
 </p>
             </div>
-            <div type="section" n="79">
+            <div n="79" type="section">
                <p>
                   <reg>quod</reg> cum huius vobis adulescentiam proposueritis, 
 constituitote ante oculos etiam huius miseri senectutem qui 
@@ -2574,12 +2574,12 @@ turbine aliquo aut subita tempestate pervertere.
 
 </p>
             </div>
-            <div type="section" n="80">
+            <div n="80" type="section">
                <p>
                   <reg>conservate</reg> 
 parenti filium, parentem filio, ne aut senectutem iam prope 
 desperatam contempsisse aut adulescentiam plenam spei  
-maximae non modo non aluisse vos<note>aluisse vos (al  <gap/> 
+maximae non modo non aluisse vos<note>aluisse vos (al  <gap /> 
                      <hi rend="italics">P1</hi>) <hi rend="italics">P2<foreign lang="greek">πδ</foreign>
                      </hi>: adlevasse <hi rend="italics">Müller</hi>
                   </note> verum<note>verum <foreign lang="greek">ς</foreign>

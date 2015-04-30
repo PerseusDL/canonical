@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
@@ -43,13 +43,11 @@
 
     <encodingDesc>
       <refsDecl>
-        <refState delim="." n="chunk" unit="hymn"/>
-        <refState unit="line"/>
+        <refState delim="." n="chunk" unit="hymn" />
+        <refState unit="line" />
       </refsDecl>
-      <!--<refsDecl>
-	<refState n="chunk" unit="card"/>
-      </refsDecl>-->
-    </encodingDesc>
+      
+    <refsDecl id="CTS"><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts card</p></cRefPattern></refsDecl></encodingDesc>
 
     <profileDesc>
       <langUsage>
@@ -60,27 +58,14 @@
     </profileDesc>
 
     <revisionDesc>
-      <!--
-      <change><date>1988</date>
-	<respStmt><resp>tagging</resp><name>Bill Merrill</name></respStmt>
-	<item>Text keyboarded in the Philippines.  Basic SGML tagging by Bill Merrill</item>
-      </change>
-      <change>
-	<date>8/93</date>
-	<respStmt><resp>ed.</resp><name>EM</name></respStmt>
-	<item>Go over text, check cardbreaks, and change tags to be more TEI conformant.</item>
-      </change>
-    <change><date>July 2014</date>
-    <respStmt><name>Stella Dee</name><resp>ed.</resp></respStmt>
-    <item>split speeches and converted to unicode</item>
-      </change></change>-->
+      
       <change when="2014-10-01" who="Stella Dee">edited markup</change>
     </revisionDesc>
 
   </teiHeader>
   <text xml:lang="en">
     <body>
-      <milestone n="1" unit="card"/>
+      <milestone n="1" unit="card" />
       <l n="1">I begin to sing of rich-haired Demeter, awful goddess —of her and her trim-ankled
         daughter whom Aidoneus rapt away, given to him by all-seeing Zeus the loud-thunderer. Apart
         from Demeter, lady of the golden sword and glorious fruits, </l>
@@ -92,8 +77,7 @@
         mortal men to see: from its root grew a hundred blooms and it smelled most sweetly, so that
         all wide heaven above and the whole earth and the sea's salt swell laughed for joy. </l>
       <l n="15">And the girl was amazed and reached out with both hands to take the lovely toy; but
-        the wide-pathed earth yawned there in the plain of <placeName key="perseus,Nysa"
-          >Nysa</placeName>, and the lord, Host of Many, with his immortal horses sprang out upon
+        the wide-pathed earth yawned there in the plain of <placeName key="perseus,Nysa">Nysa</placeName>, and the lord, Host of Many, with his immortal horses sprang out upon
         her —the Son of Cronos, He who has many names.<note anchored="true" resp="ed">The Greeks
           feared to name Pluto directly and mentioned him by one of many descriptive titles, such as
           “Host of Many”: compare the Christian use of <foreign xml:lang="greek">o(
@@ -111,7 +95,7 @@
         child and all unwilling. And so long as she, the goddess, yet beheld earth and starry heaven
         and the strong-flowing sea where fishes shoal, </l>
       <l n="35">and the rays of the sun, and still hoped to see her dear mother and the tribes of
-        the eternal gods, so long hope calmed her great heart for all her trouble<gap/>and the
+        the eternal gods, so long hope calmed her great heart for all her trouble<gap />and the
         heights of the mountains and the depths of the sea rang with her immortal voice: and her
         queenly mother heard her. </l>
       <l n="40">Bitter pain seized her heart, and she rent the covering upon her divine hair with
@@ -150,21 +134,19 @@
       <l n="85">being your own brother and born of the same stock: also, for honor, he has that
         third share which he received when division was made at the first, and is appointed lord of
         those among whom he dwells.”</l>
-      <l><milestone n="87" unit="card"/> So he spake, and called to his horses: and at his chiding
+      <l><milestone n="87" unit="card" /> So he spake, and called to his horses: and at his chiding
         they quickly whirled the swift chariot along, like long-winged birds. </l>
       <l n="90">But grief yet more terrible and savage came into the heart of Demeter, and
         thereafter she was so angered with the dark-clouded Son of Cronos that she avoided the
         gathering of the gods and high <placeName key="tgn,7011019">Olympus</placeName>, and went to
         the towns and rich fields of men, disfiguring her form a long while. And no one of men </l>
       <l n="95">or deep-bosomed women knew her when they saw her, until she came to the house of
-        wise Celeus who then was lord of fragrant <placeName key="perseus,Eleusis"
-          >Eleusis</placeName>. Vexed in her dear heart, she sat near the wayside by the Maiden
+        wise Celeus who then was lord of fragrant <placeName key="perseus,Eleusis">Eleusis</placeName>. Vexed in her dear heart, she sat near the wayside by the Maiden
         Well, from which the women of the place were used to draw water, </l>
       <l n="100">in a shady place over which grew an olive shrub. And she was like an ancient woman
         who is cut off from childbearing and the gifts of garland-loving Aphrodite, like the nurses
         of kings' children who deal justice, or like the house-keepers in their echoing halls. </l>
-      <l n="105">There the daughters of Celeus, son of <placeName key="perseus,Eleusis"
-          >Eleusis</placeName>, saw her, as they were coming for easy-drawn water, to carry it in
+      <l n="105">There the daughters of Celeus, son of <placeName key="perseus,Eleusis">Eleusis</placeName>, saw her, as they were coming for easy-drawn water, to carry it in
         pitchers of bronze to their dear father's house: four were they and like goddesses in the
         flower of their girlhood, Callidice and Cleisidice and lovely Demo </l>
       <l n="110">and Callithoe+ who was the eldest of them all. They knew her not, —for the gods are
@@ -173,7 +155,7 @@
         draw near the houses? </l>
       <l n="115">For there in the shady halls are women of just such age as you, and others younger;
         and they would welcome you both by word and by deed.”</l>
-      <l><milestone n="118" unit="card"/> Thus they said. And she, that queen among goddesses
+      <l><milestone n="118" unit="card" /> Thus they said. And she, that queen among goddesses
         answered them saying: “Hail, dear children, whosoever you are of woman-kind. </l>
       <l n="120">I will tell you my story; for it is not unseemly that I should tell you truly what
         you ask. Doso is my name, for my stately mother gave it me. And now I am come from
@@ -194,7 +176,7 @@
         could I nurse a new born child, holding him in my arms, or keep house, or spread my masters'
         bed in a recess of the well-built chamber, or teach the women their work.” </l>
       <l n="145">So said the goddess. And straightway the unwed maiden Callidice, goodliest in form
-        of the daughters of Celeus, answered her and said:<milestone n="147" unit="card"/> “Mother,
+        of the daughters of Celeus, answered her and said:<milestone n="147" unit="card" /> “Mother,
         what the gods send us, we mortals bear perforce, although we suffer; for they are much
         stronger than we. But now I will teach you clearly, </l>
       <l n="150">telling you the names of men who have great power and honor here and are chief
@@ -221,7 +203,7 @@
         had left her before, </l>
       <l n="180">and led her to the house of their dear father. And she walked behind, distressed in
         her dear heart, with her head veiled and wearing a dark cloak which waved about the slender
-        feet of the goddess.<milestone ed="P" n="184" unit="card"/> Soon they came to the house of
+        feet of the goddess.<milestone ed="P" n="184" unit="card" /> Soon they came to the house of
         heaven-nurtured Celeus </l>
       <l n="185">and went through the portico to where their queenly mother sat by a pillar of the
         close-fitted roof, holding her son, a tender scion, in her bosom. And the girls ran to her.
@@ -248,8 +230,7 @@
           of communion —the drinking of the potion (<foreign xml:lang="greek">kukew/n</foreign>)
           here described —was one of the most important pieces of ritual in the Eleusinian
           mysteries, as commemorating the sorrows of the goddess.</note>
-        <gap/> And of them all, well-girded Metaneira first began to speak: <milestone n="213"
-          unit="card"/>“Hail, lady! For I think you are not meanly but nobly born; truly dignity and </l>
+        <gap /> And of them all, well-girded Metaneira first began to speak: <milestone n="213" unit="card" />“Hail, lady! For I think you are not meanly but nobly born; truly dignity and </l>
       <l n="215">grace are conspicuous upon your eyes as in the eyes of kings that deal justice. Yet
         we mortals bear perforce what the gods send us, though we be grieved; for a yoke is set upon
         our necks. But now, since you are come here, you shall have what I can bestow: and nurse me
@@ -259,8 +240,7 @@
         would I give for his upbringing.” Then rich-haired Demeter answered her: </l>
       <l n="225">“And to you, also, lady, all hail, and may the gods give you good! Gladly will I
         take the boy to my breast, as you bid me, and will nurse him. Never, I ween, through any
-        heedlessness of his nurse shall witchcraft hurt him nor yet the Undercutter:<note
-          anchored="true" resp="ed">Undercutter and Woodcutter are probably popular names (after the
+        heedlessness of his nurse shall witchcraft hurt him nor yet the Undercutter:<note anchored="true" resp="ed">Undercutter and Woodcutter are probably popular names (after the
           style of Hesiod's “Boneless One”) for the worm thought to be the cause of teething and
           toothache.</note> for I know a charm far stronger than the Woodcutter, </l>
       <l n="230">and I know an excellent safeguard against woeful witchcraft.” When she had so
@@ -277,8 +257,7 @@
         and unageing, had not well-girded Metaneira in her heedlessness kept watch by night from her
         sweet-smelling chamber and </l>
       <l n="245">spied. But she wailed and smote her two hips, because she feared for her son and
-        was greatly distraught in her heart; so she lamented and uttered winged words:<milestone
-          n="248" unit="card"/> “Demophoon, my son, the strange woman buries you deep in fire and
+        was greatly distraught in her heart; so she lamented and uttered winged words:<milestone n="248" unit="card" /> “Demophoon, my son, the strange woman buries you deep in fire and
         works grief and bitter sorrow for me.” </l>
       <l n="250">Thus she spoke, mourning. And the bright goddess, lovely-crowned Demeter, heard
         her, and was wroth with her. So with her divine hands she snatched from the fire the dear
@@ -313,7 +292,7 @@
         revived the fire, and a third rushed with soft feet to bring their mother from her fragrant
         chamber. And they gathered about the struggling child and washed him, </l>
       <l n="290">embracing him lovingly; but he was not comforted, because nurses and handmaids much
-        less skilful were holding him now.<milestone n="292" unit="card"/> All night long they
+        less skilful were holding him now.<milestone n="292" unit="card" /> All night long they
         sought to appease the glorious goddess, quaking with fear. But, as soon as dawn began to
         show, they told powerful Celeus all things without fail, </l>
       <l n="295">as the lovely-crowned goddess Demeter charged them. So Celeus called the countless
@@ -344,27 +323,24 @@
         whatever rights she might be pleased to choose among the deathless gods. Yet no one was able
         to persuade her mind and will, </l>
       <l n="330">so wroth was she in her heart; but she stubbornly rejected all their words: for she
-        vowed that she would never set foot on fragrant <placeName key="tgn,7011019"
-          >Olympus</placeName> nor let fruit spring out of the ground, until she beheld with her
+        vowed that she would never set foot on fragrant <placeName key="tgn,7011019">Olympus</placeName> nor let fruit spring out of the ground, until she beheld with her
         eyes her own fair-faced daughter. Now when all-seeing Zeus the loud-thunderer heard this, </l>
       <l n="335">he sent the Slayer of Argus whose wand is of gold to Erebus, so that having won
         over Hades with soft words, he might lead forth chaste Persephone to the light from the
         misty gloom to join the gods, and that her mother might see her with her eyes and cease from
         her anger. </l>
-      <l n="340">And Hermes obeyed, and leaving the house of <placeName key="tgn,7011019"
-          >Olympus</placeName>, straightway sprang down with speed to the hidden places of the
+      <l n="340">And Hermes obeyed, and leaving the house of <placeName key="tgn,7011019">Olympus</placeName>, straightway sprang down with speed to the hidden places of the
         earth. And he found the lord Hades in his house seated upon a couch, and his shy mate with
         him, much reluctant, because she yearned for her mother. But she was afar off, </l>
       <l n="345">brooding on her fell design because of the deeds of the blessed gods. And the
-        strong Slayer of Argus drew near and said:<milestone n="347" unit="card"/> “Dark-haired
+        strong Slayer of Argus drew near and said:<milestone n="347" unit="card" /> “Dark-haired
         Hades, ruler over the departed, father Zeus bids me bring noble Persephone forth from Erebus
         unto the gods, </l>
       <l n="350">that her mother may see her with her eyes and cease from her dread anger with the
         immortals; for now she plans an awful deed, to destroy the weakly tribes of earth-born men
         by keeping seed hidden beneath the earth, and so she makes an end of the honors of the
         undying gods. For she keeps fearful anger and does not consort with the gods, </l>
-      <l n="355">but sits aloof in her fragrant temple, dwelling in the rocky hold of <placeName
-          key="perseus,Eleusis">Eleusis</placeName>.” So he said. And Aidoneus, ruler over the dead,
+      <l n="355">but sits aloof in her fragrant temple, dwelling in the rocky hold of <placeName key="perseus,Eleusis">Eleusis</placeName>.” So he said. And Aidoneus, ruler over the dead,
         smiled grimly and obeyed the behest of Zeus the king. For he straightway urged wise
         Persephone, saying: </l>
       <l n="360">“Go now, Persephone, to your dark-robed mother, go, and feel kindly in your heart
@@ -394,7 +370,7 @@
         below? Speak out and hide nothing, but let us both know. </l>
       <l n="395">For if you have not, you shall come back from loathly Hades and live with me and
         your father, the dark-clouded Son of Cronos and be honored by all the deathless gods;
-          <milestone n="398" unit="card"/>but if you have tasted food, you must go back again
+          <milestone n="398" unit="card" />but if you have tasted food, you must go back again
         beneath the secret places of the earth, there to dwell a third part of the seasons every
         year: </l>
       <l n="400">yet for the two parts you shall be with me and the other deathless gods. But when
@@ -437,8 +413,7 @@
       <l n="445">and agreed that her daughter should go down for the third part of the circling year
         to darkness and gloom, but for the two parts should live with her mother and the other
         deathless gods. Thus he commanded. And the goddess did not disobey the message of Zeus;
-          <milestone n="449" unit="card"/>swiftly she rushed down from the peaks of <placeName
-          key="tgn,7011019">Olympus</placeName>
+          <milestone n="449" unit="card" />swiftly she rushed down from the peaks of <placeName key="tgn,7011019">Olympus</placeName>
       </l>
       <l n="450">and came to the plain of Rharus, rich, fertile corn-land once, but then in nowise
         fruitful, for it lay idle and utterly leafless, because the white grain was hidden by design
@@ -470,8 +445,7 @@
       <l n="485">And there they dwell beside Zeus who delights in thunder, awful and reverend
         goddesses. Right blessed is he among men on earth whom they freely love: soon they do send
         Plutus as guest to his great house, Plutus who gives wealth to mortal men. </l>
-      <l n="490">And now, queen of the land of sweet <placeName key="perseus,Eleusis"
-          >Eleusis</placeName> and sea-girt <placeName key="tgn,7011023">Paros</placeName> and rocky
+      <l n="490">And now, queen of the land of sweet <placeName key="perseus,Eleusis">Eleusis</placeName> and sea-girt <placeName key="tgn,7011023">Paros</placeName> and rocky
           <placeName key="perseus,Antron">Antron</placeName>, lady, giver of good gifts, bringer of
         seasons, queen Deo, be gracious, you and your daughter all beauteous Persephone, and for my
         song grant me heart-cheering substance.</l>

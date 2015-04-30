@@ -1,0 +1,24 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:farsiLit:hafez" projid="farsiLit:divan" urn="urn:cts:farsiLit:hafez.divan" xml:lang="fa">
+            <ti:title xml:lang="eng">Div&#257;n</ti:title>
+            <ti:edition projid="farsiLit:perseus-far1">
+                <ti:label>Div&#257;n</ti:label>
+                <ti:description xml:lang="eng">Perseus:bib:oclc, 254557372. Diwan-i Hwaga Sams-ad-Din
+                    Muhammad Hafiz Sirazi qaddas sarra-yi al-aziz ba tamam. edited by Muhammad
+                    Qazwini and Qasim Gani as available on ganjoor.net. Tehran, Caphana-i Maglis.
+                    1941. </ti:description>
+                </ti:edition>
+            <ti:translation projid="farsiLit:perseus-eng1">
+                <ti:label>Div&#257;n (English)</ti:label>
+                <ti:description xml:lang="eng">Perseus:bib:oclc, 559481156. The D&#299;v&#257;n .Translated for
+                    the first time out of the Persian into English prose, with critical and
+                    explanatory remarks, with an introductory preface, with a note on &#7778;&#363;f&#299;ism, and
+                    with a life of the author, by H. Wilberforce Clarke. Calcutta, India. 1891. </ti:description>
+                </ti:translation>
+            <ti:translation projid="farsiLit:perseus-ger1">
+                <ti:label>Div&#257;n (German)</ti:label>
+                <ti:description xml:lang="eng">Perseus:bib:oclc, 6773200. Mohammed Schemsed-din Hafis,
+                    Der Diwan, Aus dem Persischen zum erstenmal ganz &#252;bersetzt von Joseph von
+                    Hammer-Purgstall. Stuttgart and T&#252;bingen, 1812. </ti:description>
+                </ti:translation>
+        </ti:work>
+    

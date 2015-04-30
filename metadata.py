@@ -3,8 +3,8 @@ import os
 from copy import deepcopy
 import sys
 baseDir = "CTS_XML_TEI/perseus" # For Test purpose, leave it blank
-cts5NS = "http://chs.harvard.edu/xmlns/cts"
-cts3NS = "http://chs.harvard.edu/xmlns/cts3/ti"
+cts5NS = b"http://chs.harvard.edu/xmlns/cts"
+cts3NS = b"http://chs.harvard.edu/xmlns/cts3/ti"
 ET.register_namespace("", "http://www.tei-c.org/ns/1.0")
 
 missingFiles = []
@@ -36,7 +36,7 @@ def createMetadata(path, node, exclude=[]):
     for n in remove:
         root.remove(n)
     xml = ET.tostring(root)
-    xml = bytes(xml).replace("ns0", "ti").replace(cts3NS, cts5NS)
+    xml = bytes(xml).replace(b"ns0", b"ti").replace(cts3NS, cts5NS)
     with open("/".join([baseDir] + path + ["__cts__.xml"]), "wb") as f:
         f.write(xml)
         f.close()

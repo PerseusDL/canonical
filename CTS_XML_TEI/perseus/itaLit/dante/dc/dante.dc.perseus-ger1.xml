@@ -1,6 +1,5 @@
-<?xml version="1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
@@ -25,9 +24,9 @@
                         <author> Dante Alighieri</author>
                         <editor role="translator">?l</editor>
                         <imprint>
-                            <pubPlace></pubPlace>
-                            <publisher></publisher>
-                            <date></date>
+                            <pubPlace />
+                            <publisher />
+                            <date />
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -36,10 +35,10 @@
         
         <encodingDesc>
             <refsDecl>
-                <refState unit="chapter"/>
-                <refState unit="paragraph"/>
+                <refState unit="chapter" />
+                <refState unit="paragraph" />
             </refsDecl>
-        </encodingDesc>
+        <refsDecl id="CTS"><cRefPattern matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3']/tei:l[@n='$4'])"><p>This pointer pattern extracts book and canto and terza and line</p></cRefPattern><cRefPattern matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"><p>This pointer pattern extracts book and canto and terza</p></cRefPattern><cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts book and canto</p></cRefPattern><cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts book</p></cRefPattern></refsDecl></encodingDesc>
         
         <profileDesc>
             <langUsage>
@@ -51,34 +50,34 @@
         </revisionDesc>
     </teiHeader>
 <text xml:lang="de"><body><div type="edition">
-    <div type="textpart" subtype="book" n="1">
-        <div type="textpart" subtype="canto" n="1">
-            <div type="textpart" subtype="terza" n="1">
+    <div n="1" subtype="book" type="textpart">
+        <div n="1" subtype="canto" type="textpart">
+            <div n="1" subtype="terza" type="textpart">
                 <l n="1">Auf halbem Weg des Menschenlebens fand</l>
                 <l n="2">ich mich in einen finstern Wald verschlagen,</l>
                 <l n="3">Weil ich vom rechten Weg mich abgewandt.</l>
             </div>
-            <div type="textpart" subtype="terza" n="2">
+            <div n="2" subtype="terza" type="textpart">
                 <l n="1">Wie schwer ists doch, von diesem Wald zu sagen,</l>
                 <l n="2">Wie wild, rauh, dicht er war, voll Angst und Not;</l>
                 <l n="3">Schon der Gedank erneuert noch mein Zagen.</l>
             </div>
-            <div type="textpart" subtype="terza" n="3">
+            <div n="3" subtype="terza" type="textpart">
                 <l n="1">Nur wenig bitterer ist selbst der Tod;</l>
                 <l n="2">Doch um vom Heil, das ich drin fand, zu künden,</l>
                 <l n="3">Sag ich, was sonst sich dort den Blicken bot.</l>
             </div>
-            <div type="textpart" subtype="terza" n="4">
+            <div n="4" subtype="terza" type="textpart">
                 <l n="1">Nicht weiß ich, wie ich mich hineingewunden,</l>
                 <l n="2">So ganz war ich von tiefem Schlaf berückt,</l>
                 <l n="3">Zur Zeit, da mir der wahre Weg verschwunden.</l>
             </div>
-            <div type="textpart" subtype="terza" n="5">
+            <div n="5" subtype="terza" type="textpart">
                 <l n="1">Doch bis zum Fuß des Hügels vorgerückt,</l>
                 <l n="2">Der an dem Ende lag von jenem Tale,</l>
                 <l n="3">Das mir mit schwerer Furcht das Herz gedrückt,</l>
             </div>
-            <div type="textpart" subtype="terza" n="6">
+            <div n="6" subtype="terza" type="textpart">
                 <l n="1">Schaut ich empor und sah, den Rücken male</l>
                 <l n="2">Ihm der Planet, der uns auf jeder Bahn</l>
                 <l n="3">Gerad zum Ziele führt mit feinem Strahle.</l>

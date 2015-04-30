@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:ig:ii_2" projid="ig:12974" urn="urn:cts:ig:ii_2.12974" xml:lang="grc">
+            <ti:title xml:lang="eng">Mus. Nat. 3696</ti:title>
+            <ti:edition projid="ig:perseus-grc1" urn="urn:cts:ig:ii_2.12974.perseus-grc1">
+                <ti:label xml:lang="eng">Mus. Nat. 3696 Transcription Tufts Students Fall 2013</ti:label>
+                <ti:memberof collection="epifacs" />
+            </ti:edition>
+            <ti:translation projid="ig:perseus-eng1" urn="urn:cts:ig:ii_2.12974.perseus-eng1" xml:lang="eng">
+                <ti:label xml:lang="eng">Mus. Nat. 3696 Translation by Tufts Students Fall 2013</ti:label>
+                <ti:memberof collection="epifacs" />
+            </ti:translation>
+        </ti:work>
+    
