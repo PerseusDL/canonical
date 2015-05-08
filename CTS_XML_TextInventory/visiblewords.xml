@@ -20,11 +20,8 @@
         <work projid="pdlepi:nk289" urn="urn:cts:pdlepi:vwathens.nk289">
             <title xml:lang="eng">Theater of Dionysus - Lysiades</title>
         </work>
-        <work projid="pdlepi:nk317-1" urn="urn:cts:pdlepi:vwathens.nk317-1">
-            <title xml:lang="eng">Theater of Dionysus - Choragic Inscription 1</title>
-        </work>
-        <work projid="pdlepi:nk317-2" urn="urn:cts:pdlepi:vwathens.nk317-2">
-            <title xml:lang="eng">Theater of Dionysus - Choragic Inscription 2</title>
+        <work projid="pdlepi:nk317" urn="urn:cts:pdlepi:vwathens.nk317">
+            <title xml:lang="eng">Theater of Dionysus - Choragic</title>
         </work>
         <work projid="pdlepi:nk280" urn="urn:cts:pdlepi:vwathens.nk280">
             <title xml:lang="eng">Theater of Dionysus - Philopappus</title>
