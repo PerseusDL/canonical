@@ -41,5 +41,8 @@
     </textgroup>
     <textgroup projid="pdlepi:vwthasos" urn="urn:cts:pdlepi:vwthasos">
         <groupname xml:lang="eng">Thasos</groupname>
+        <work projid="pdlepi:theores " urn="urn:cts:pdlepi:vwthasos.theores" xml:lang="grc">
+            <title xml:lang="fre">Inscription du Mur d'Apollon</title>
+        </work>
     </textgroup>
 </TextInventory>
