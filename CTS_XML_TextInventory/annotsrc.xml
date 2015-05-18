@@ -1537,6 +1537,37 @@
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
         </work>
+        <work projid="greekLit:tlg023" urn="urn:cts:greekLit:tlg0540.tlg023" xml:lang="grc">
+            <title xml:lang="grc">Against Pancleon</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg023.perseus-grc1">
+                <label xml:lang="eng">Against Pancleon, Lysias with an English Translation</label>
+                <description xml:lang="eng">Lysias, creator; Lamb, W. R. M. (Walter Rangeley Maitland), b. 1882, editor</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0540/tlg023/tlg0540.tlg023.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                    </citationMapping>
+                </online>
+                
+            </edition>
+        </work>
+        <work projid="greekLit:tlg012" urn="urn:cts:greekLit:tlg0540.tlg012" xml:lang="grc">
+            <title xml:lang="grc">Against Eratosthenes</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0540.tlg012.perseus-grc1">
+                <label xml:lang="eng">Against Eratosthenes, Lysias with an English Translation</label>
+                <description xml:lang="eng">Lysias, creator; Lamb, W. R. M. (Walter Rangeley Maitland), b. 1882, editor</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0540/tlg012/tlg0540.tlg012.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div"/>
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
         <work projid="greekLit:tlg014" urn="urn:cts:greekLit:tlg0540.tlg014" xml:lang="grc">
             <title xml:lang="eng">Against Alcibiades 1</title>
             <edition projid="greekLit:perseus-grc1"
@@ -1576,6 +1607,56 @@
             </edition>
         </work>
 
+    </textgroup>
+    <textgroup projid="greekLit:tlg0007" urn="urn:cts:greekLit:tlg0007">
+        <groupname xml:lang="eng">Plutarch.</groupname>
+        <work projid="greekLit:tlg015" urn="urn:cts:greekLit:tlg0007.tlg015" xml:lang="grc">
+            <title xml:lang="grc">Alcibiades</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0007.tlg015.perseus-grc1">
+                <label xml:lang="eng">Alcibiades, Plutarch's Lives Volume IV</label>
+                <description xml:lang="eng">Plutarch, creator; Perrin, Bernadotte, translator; Perrin, Bernadotte, editor</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0007/tlg015/tlg0007.tlg015.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                            <citation label="chapter" xpath="/div1[@n='?']"
+                                scope="/TEI.2/text/body">
+                                <citation label="section" xpath="/div2[@n='?']"
+                                    scope="/TEI.2/text/body/div1[@n='?']"/>
+                            </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+                
+            </edition>
+        </work>
+    </textgroup>
+    <textgroup projid="greekLit:tlg0543" urn="urn:cts:greekLit:tlg0543">
+        <groupname xml:lang="eng">Polybius.</groupname>
+        <work projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0543.tlg001" xml:lang="grc">
+            <title xml:lang="grc">Histories</title>
+            <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0543.tlg001.perseus-grc1">
+                <label xml:lang="eng">Histories, Historiai</label>
+                <description xml:lang="eng">Polybius, creator; Dindorf, Ludwig August, 1805-1871, editor; Büttner-Wobst, Theodor, 1854-1905, editor</description>
+                <online
+                    docname="/db/repository/greekLit/tlg0543/tlg001/tlg0543.tlg001.perseus-grc1.xml">
+                    <validate schema="teia.xsd"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="book" xpath="/div1[@n='?']"
+                            scope="/TEI.2/text/body">
+                            <citation label="chapter" xpath="/div2[@n='?']"
+                                scope="/TEI.2/text/body/div1[@n='?']">
+                                <citation label="section" xpath="/div3[@n='?']"
+                                    scope="/TEI.2/text/body/div1[@n='?']/div2[@n='?']"/>
+                            </citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+                <memberof collection="Perseus:collection:Greco-Roman"/>
+            </edition>
+        </work>
     </textgroup>
     <textgroup projid="latinLit:phi1020" urn="urn:cts:latinLit:phi1020">
         <groupname>Statius, P. Papinius (Publius Papinius)</groupname>
