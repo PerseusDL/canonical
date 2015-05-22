@@ -1613,7 +1613,7 @@
         <work projid="greekLit:tlg015" urn="urn:cts:greekLit:tlg0007.tlg015" xml:lang="grc">
             <title xml:lang="grc">Alcibiades</title>
             <edition projid="greekLit:perseus-grc1" urn="urn:cts:greekLit:tlg0007.tlg015.perseus-grc1">
-                <label xml:lang="eng">Alcibiades, Plutarch's Lives Volume IV</label>
+                <label xml:lang="eng">Alcibiades, Plutarchs Lives Volume IV</label>
                 <description xml:lang="eng">Plutarch, creator; Perrin, Bernadotte, translator; Perrin, Bernadotte, editor</description>
                 <online
                     docname="/db/repository/greekLit/tlg0007/tlg015/tlg0007.tlg015.perseus-grc1.xml">
