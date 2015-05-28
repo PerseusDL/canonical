@@ -1,0 +1,48 @@
+<?xml-model href="../../TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiid="epifacs" tiversion="3.0.rc1">
+    <ctsnamespace abbr="pdlepi" ns="http://data.perseus.org/ns/cts/ig">
+        <description xml:lang="eng">PDL Epigraphy General Collection</description>
+    </ctsnamespace>
+    <textgroup projid="pdlepi:vwathens" urn="urn:cts:pdlepi:vwathens">
+        <groupname xml:lang="eng">Athens</groupname>
+        <work projid="pdlepi:ma863" urn="urn:cts:pdlepi:vwathens.ma863" xml:lang="grc">
+            <title xml:lang="fre">Monument aux morts de la tribu Érechthéis (MA 863)</title>
+        </work>
+        <work projid="pdlepi:ma864" urn="urn:cts:pdlepi:vwathens.ma864" xml:lang="grc">
+            <title xml:lang="fre">Liste des citoyens morts au champ d'honneur (MA 864)</title>
+        </work>
+        <work projid="pdlepi:nk276" urn="urn:cts:pdlepi:vwathens.nk276">
+            <title xml:lang="eng">Theater of Dionysus - Kallipianos</title>
+        </work>
+        <work projid="pdlepi:nk263" urn="urn:cts:pdlepi:vwathens.nk263">
+            <title xml:lang="eng">Theater of Dionysus - Hadrian</title>
+        </work>
+        <work projid="pdlepi:nk289" urn="urn:cts:pdlepi:vwathens.nk289">
+            <title xml:lang="eng">Theater of Dionysus - Lysiades</title>
+        </work>
+        <work projid="pdlepi:nk317" urn="urn:cts:pdlepi:vwathens.nk317">
+            <title xml:lang="eng">Theater of Dionysus - Choragic</title>
+        </work>
+        <work projid="pdlepi:nk280" urn="urn:cts:pdlepi:vwathens.nk280">
+            <title xml:lang="eng">Theater of Dionysus - Philopappus</title>
+        </work>
+    </textgroup>
+    <textgroup projid="pdlepi:vwlarissa" urn="urn:cts:pdlepi:vwlarissa">
+        <groupname xml:lang="eng">Larissa</groupname>
+        <work projid="pdlepi:igixii531" urn="urn:cts:pdlepi:vwlarissa.igixii531" xml:lang="grc">
+            <title xml:lang="fre">Inscription grecque sure stèle : liste de noms (IG IX,2 531)</title>
+        </work>
+        <work projid="pdlepi:igixii581" urn="urn:cts:pdlepi:vwlarissa.igixii581" xml:lang="grc">
+            <title xml:lang="eng">Pelasgiotis (IG IX,2 581)</title>
+        </work>
+        <work projid="pdlepi:igi3627 " urn="urn:cts:pdlepi:vwlarissa.igi3627" xml:lang="grc">
+            <title xml:lang="eng">Cocceius Aristophylos (IG I,3 627)</title>
+        </work>
+    </textgroup>
+    <textgroup projid="pdlepi:vwthasos" urn="urn:cts:pdlepi:vwthasos">
+        <groupname xml:lang="eng">Thasos</groupname>
+        <work projid="pdlepi:theores " urn="urn:cts:pdlepi:vwthasos.theores" xml:lang="grc">
+            <title xml:lang="fre">Inscription du Mur d'Apollon</title>
+        </work>
+    </textgroup>
+</TextInventory>
