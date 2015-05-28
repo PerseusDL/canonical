@@ -2,7 +2,7 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader type="text" status="new">
+<teiHeader type="text">
 <fileDesc>
 <titleStmt>
 <title>Metamorphoses</title>
@@ -12,11 +12,19 @@
 <sponsor>Perseus Project, Tufts University</sponsor>
 <principal>Gregory Crane</principal>
 <respStmt>
-<resp>Prepared under the supervision of</resp>
-<name>Lisa Cerrato</name>
-<name>William Merrill</name>
-<name>Elli Mylonas</name>
-<name>David Smith</name>
+    <resp>Prepared under the supervision of</resp>
+    <name xml:id="lcerrato">Lisa Cerrato</name>
+    <name xml:id="wmerrill">William Merrill</name>
+    <name>Elli Mylonas</name>
+    <name xml:id="DAS">David Smith</name>
+    <name xml:id="gcrane">Gregory Crane</name>
+    <name xml:id="balmas01">Bridget Almas</name>
+    <name xml:id="textgod">.</name>
+    <name xml:id="yorkc">yorkc</name>
+    <name xml:id="mimno">mimno</name>
+    <name xml:id="amahoney">amahoney</name>
+    <name xml:id="packel">packel</name>
+    <name xml:id="rsingh04">rsingh04</name>
 </respStmt>
 <funder n="org:NEH">The National Endowment for the Humanities</funder>
 </titleStmt>
@@ -52,97 +60,43 @@
 
 <profileDesc>
 <langUsage>
-    <language id="lat">Latin</language>
+    <language ident="lat">Latin</language>
 </langUsage>
 </profileDesc>
 
 <revisionDesc>
-<change><date>5-7/97</date>
-<respStmt><name>KW</name><resp>ed. asst.</resp></respStmt>
-<item>text scaned by KW, diffed against PHI text of Goold's text, corrected against
-Magnus 1892, questionable readings corrected against Magnus 1914 by KW and WM. 
-Basic tagging by KW, massaged by WM July 1997. Chunks of text of c 100 lines matched with English and indicated by xxx. WM 9/97.</item>
-</change>
-<change><date>7/8/97</date>
-<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
-<item>
-$Log: ovid.met_lat.xml,v $
-Revision 1.1  2013-09-13 11:17:41  balmas01
-moving Greg's work-in-progress on CTS-izing greco-roman collection texts to a Work directory
-
-Revision 1.6  2013-06-08 12:13:38  gcrane
-TEI XML converted to facilitate CTS compatibility
-
-Revision 1.5  2013-01-30 20:34:07  lcerrato
-changed 7.114 impleverant to impleverunt
-
-Revision 1.4  2011-10-31 19:48:11  lcerrato
-fixed typo ven to veri 5.247
-
-Revision 1.3  2011-10-31 19:45:12  lcerrato
-fixed typo siqnis to siquis
-
-Revision 1.2  2011-10-28 20:09:17  lcerrato
-fixed quotes around 6.136-7
-
-Revision 1.1  2011-01-16 15:23:49  gcrane
-base sdl file
-
-Revision 1.1  2009/12/07 18:50:34  rsingh04
-moved more xml files around based on copyright status
-
-Revision 1.2  2005/08/01 16:20:13  packel
-removed stray item tags
-
-Revision 1.1  2005/07/25 14:56:42  packel
-Converted to XML
-
-Revision 1.13  2004/04/22 13:07:05  amahoney
-remove English headers
-
-Revision 1.12  2004/04/02 19:47:29  mimno
-added line 1 cards
-
-Revision 1.11  2003/07/01 22:17:18  yorkc
-Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
-
-Revision 1.10  2003/05/21 20:25:41  lcerrato
-changed tetum to letum 15.108: confirmed by context and PHI
-
-Revision 1.9  2003/02/04 21:22:36  lcerrato
-fixed typo 13.712 L in Ulixis was captial I
-
-Revision 1.8  2000/03/04 20:34:52  dasmith
-Added separate funder entity to TEI header.
-
-Revision 1.7  1999/08/12 17:26:46  textgod
-Fixed typo.
-
-Revision 1.6  1999/08/04 22:38:41  dasmith
-Turn line milestones into cards.
-
-Revision 1.5  1998/10/15 21:50:58  textgod
-Fixed lines so that milestones point to the line after, not the line before.
-
-Revision 1.4  1997/09/26 22:58:58  textgod
-Changed abbreviation and tweaked header.
-
-Revision 1.3  1997/09/17 17:47:11  wmerrill
-text chunks around 100 lines matched with english
-
-Revision 1.2  1997/07/10 19:08:01  textgod
-Normalized tale names.
-
-Revision 1.1  1997/07/08 19:19:40  textgod
-Added to repository. Passes SGML parse.
-
-</item>
-</change>
+<change who="#balmas01" when="2013-09-13T11:17:41">moving Greg's work-in-progress on CTS-izing greco-roman collection texts to a Work directory</change>
+<change who="#gcrane" when="2013-06-08T12:13:38">TEI XML converted to facilitate CTS compatibility</change>
+<change who="#lcerrato" when="2013-01-30T20:34:07">changed 7.114 impleverant to impleverunt</change>
+<change who="#lcerrato" when="2011-10-31T19:48:11">fixed typo ven to veri 5.247</change>
+<change who="#lcerrato" when="2011-10-31T19:45:12">fixed typo siqnis to siquis</change>
+<change who="#lcerrato" when="2011-10-28T20:09:17">fixed quotes around 6.136-7</change>
+<change who="#gcrane" when="2011-01-16T15:23:49">base sdl file</change>
+<change who="#rsingh04" when="2009-12-07T18:50:34">moved more xml files around based on copyright status</change>
+<change who="#packel" when="2005-08-01T16:20:13">removed stray item tags</change>
+<change who="#packel" when="2005-07-25T14:56:42">Converted to XML</change>
+<change who="#amahoney" when="2004-04-22T13:07:05">remove English headers</change>
+<change who="#mimno" when="2004-04-02T19:47:29">added line 1 cards</change>
+<change who="#yorkc" when="2003-07-01T22:17:18">Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)</change>
+<change who="#lcerrato" when="2003-05-21T20:25:41">changed tetum to letum 15.108: confirmed by context and PHI</change>
+<change who="#lcerrato" when="2003-02-04T21:22:36">fixed typo 13.712 L in Ulixis was captial I</change>
+<change who="#DAS" when="2000-03-04T20:34:52">Added separate funder entity to TEI header.</change>
+<change who="#textgod" when="1999-08-12T17:26:46">Fixed typo.</change>
+<change who="#DAS" when="1999-08-04T22:38:41">Turn line milestones into cards.</change>
+<change who="#textgod" when="1998-10-15T21:50:58">Fixed lines so that milestones point to the line after, not the line before.</change>
+<change who="#textgod" when="1997-09-26T22:58:58">Changed abbreviation and tweaked header.</change>
+<change who="#wmerrill" when="1997-09-17T17:47:11">text chunks around 100 lines matched with english</change>
+<change who="#textgod" when="1997-07-10T19:08:01">Normalized tale names.</change>
+<change who="#textgod" when="1997-07-08T19:19:40">Added to repository. Passes SGML parse.</change>
+<change who="#KW" when="1997-07">text scaned by KW, diffed against PHI text of Goold's text, corrected against
+    Magnus 1892, questionable readings corrected against Magnus 1914 by KW and WM. 
+    Basic tagging by KW, massaged by WM July 1997. Chunks of text of c 100 lines matched with English and indicated by xxx. WM 9/97.</change>
+<change who="#DAS" when="1997-08-07">.</change>
 </revisionDesc>
 </teiHeader>
 
 <text xml:lang="lat"  n="urn:cts:latinLit:phi0959.phi006.perseus-lat1"><body>
-<div1 type="Book" n="1">
+<div type="textpart" subtype="book" n="1">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Invocatio." unit="tale"/>
 <milestone ed="More" n="Invocation" unit="tale"/>
@@ -964,8 +918,8 @@ Added to repository. Passes SGML parse.
 <milestone ed="P" unit="para"/><l n="775">Emicat extemplo laetus post talia matris</l>
 <l n="776">dicta suae Phaethon et concipit aethera mente,</l>
 <l n="777">Aethiopasque suos positosque sub ignibus Indos</l>
-<l n="778">sidereis transit patriosque adit inpiger ortus.</l></div1>
-<div1 type="Book" n="2">
+<l n="778">sidereis transit patriosque adit inpiger ortus.</l></div>
+<div type="textpart" subtype="book" n="2">
 <milestone n="1" unit="card"/>
 <milestone ed="More" n="PHAETON AND PHOEBUS" unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Regia Solis erat sublimibus alta columnis,</l>
@@ -1861,8 +1815,8 @@ Added to repository. Passes SGML parse.
 <l n="873">fert praedam. Pavet haec litusque ablata relictum</l>
 <l n="874">respicit, et dextra cornum tenet, altera dorso</l>
 <l n="875">imposita est; tremulae sinuantur flamine vestes.</l>
-</div1>
-<div1 type="Book" n="3">
+</div>
+<div type="textpart" subtype="book" n="3">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Cadmus." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Iamque deus posita fallacis imagine tauri</l>
@@ -2613,8 +2567,8 @@ Added to repository. Passes SGML parse.
 <l n="729">quam sunt membra viri manibus direpta nefandis.</l>
 <milestone ed="P" unit="para"/><l n="730">Talibus exemplis monitae nova sacra frequentant</l>
 <l n="731">turaque dant sanctasque colunt Ismenides aras.</l>
-</div1>
-<div1 type="Book" n="4">
+</div>
+<div type="textpart" subtype="book" n="4">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Minyeides." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">At non Alcithoe Minyeias orgia censet</l>
@@ -3438,8 +3392,8 @@ Added to repository. Passes SGML parse.
 <l n="802">Gorgoneum crinem turpes mutavit in hydros.</l>
 <l n="803">Nunc quoque, ut attonitos formidine terreat hostes,</l>
 <l n="804">pectore in adverso, quos fecit, sustinet angues.”</l>
-</div1>
-<div1 type="Book" n="5">
+</div>
+<div type="textpart" subtype="book" n="5">
 <milestone n="1" unit="card"/>
 
 <milestone ed="P" unit="para"/><l n="1">Dumque ea Cephenum medio Danaeius heros</l>
@@ -4133,8 +4087,8 @@ Added to repository. Passes SGML parse.
 <l n="676">aere pendebant, nemorum convicia, picae.</l>
 <milestone ed="P" unit="para"/><l n="677">Nunc quoque in alitibus facundia prisca remansit</l>
 <l n="678">raucaque garrulitas studiumque inmane loquendi.”</l>
-</div1>
-<div1 type="Book" n="6">
+</div>
+<div type="textpart" subtype="book" n="6">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Pallas et Arachne." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Praebuerat dictis Tritonia talibus aures</l>
@@ -4873,8 +4827,8 @@ Added to repository. Passes SGML parse.
 <l n="719">Ergo ubi concessit tempus puerile iuventae,</l>
 <l n="720">vellera cum Minyis nitido radiantia villo</l>
 <l n="721">per mare non notum prima petiere carina.</l>
-</div1>
-<div1 type="Book" n="7">
+</div>
+<div type="textpart" subtype="book" n="7">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Iason et Medea." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Iamque fretum Minyae Pagasaea puppe secabant,</l>
@@ -5760,8 +5714,8 @@ Added to repository. Passes SGML parse.
 <l n="863">Flentibus haec lacrimans heros memorabat: et ecce</l>
 <l n="864">Aeacus ingreditur duplici cum prole novoque</l>
 <l n="865">milite, quem Cephalus cum fortibus accipit armis.</l>
-</div1>
-<div1 type="Book" n="8">
+</div>
+<div type="textpart" subtype="book" n="8">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Nisus et Scylla." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Iam nitidum retegente diem noctisque fugante</l>
@@ -6669,8 +6623,8 @@ Added to repository. Passes SGML parse.
 <l n="885">armenti modo dux vires in cornua sumo, —</l>
 <l n="886">cornua, dum potui! nunc pars caret altera telo</l>
 <l n="887">frontis, ut ipse vides.” Gemitus sunt verba secuti.</l>
-</div1>
-<div1 type="Book" n="9">
+</div>
+<div type="textpart" subtype="book" n="9">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Achelous et Hercules." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Quae gemitus truncaeque deo Neptunius heros</l>
@@ -7487,8 +7441,8 @@ Added to repository. Passes SGML parse.
 <milestone ed="P" unit="para"/><l n="795">Postera lux radiis latum patefecerat orbem,</l>
 <l n="796">cum Venus et Iuno sociosque Hymenaeus ad ignes</l>
 <l n="797">conveniunt, potiturque sua puer Iphis Ianthe.</l>
-</div1>
-<div1 type="Book" n="10">
+</div>
+<div type="textpart" subtype="book" n="10">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Orpheus et Eurydice." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Inde per inmensum croceo velatus amictu</l>
@@ -8248,8 +8202,8 @@ Added to repository. Passes SGML parse.
 <l n="737">punica ferre solent. Brevis est tamen usus in illo:</l>
 <l n="738">namque male haerentem et nimia levitate caducum</l>
 <l n="739">excutiunt idem, qui praestant nomina, venti.”</l>
-</div1>
-<div1 type="Book" n="11">
+</div>
+<div type="textpart" subtype="book" n="11">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Orphei mors." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Carmine dum tali silvas animosque ferarum</l>
@@ -9065,8 +9019,8 @@ Added to repository. Passes SGML parse.
 <l n="793">Fecit amor maciem: longa internodia crurum,</l>
 <l n="794">longa manet cervix, caput est a corpore longe;</l>
 <l n="795">aequor amat nomenque manet, quia mergitur, illi.”</l>
-</div1>
-<div1 type="Book" n="12">
+</div>
+<div type="textpart" subtype="book" n="12">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Graeci Aulide. Fama." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Nescius adsumptis Priamus pater Aesacon alis</l>
@@ -9711,8 +9665,8 @@ Added to repository. Passes SGML parse.
 <l n="626">A se Tantalides onus invidiamque removit</l>
 <l n="627">Argolicosque duces mediis considere castris</l>
 <l n="628">iussit et arbitrium litis traiecit in omnes.</l>
-</div1>
-<div1 type="Book" n="13">
+</div>
+<div type="textpart" subtype="book" n="13">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Armorum iudicium. Aiax." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Consedere duces, et vulgi stante corona</l>
@@ -10699,8 +10653,8 @@ Added to repository. Passes SGML parse.
 <milestone ed="P" unit="para"/><l n="966">Talia dicentem, dicturum plura, reliquit</l>
 <l n="967">Scylla deum; furit ille inritatusque repulsa</l>
 <l n="968">prodigiosa petit Titanidos atria Circes.</l>
-</div1>
-<div1 type="Book" n="14">
+</div>
+<div type="textpart" subtype="book" n="14">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Scylla et Circe." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Iamque Giganteis iniectam faucibus Aetnen</l>
@@ -11578,8 +11532,8 @@ Added to repository. Passes SGML parse.
 <l n="849">Hanc manibus notis Romanae conditor urbis</l>
 <l n="850">excipit et priscum pariter cum corpore nomen</l>
 <l n="851">mutat Horamque vocat, quae nunc dea iuncta Quirino est.</l>
-</div1>
-<div1 type="Book" n="15">
+</div>
+<div type="textpart" subtype="book" n="15">
 <milestone n="1" unit="card"/>
 <milestone ed="Magnus" n="Myscelus. Croton." unit="tale"/>
 <milestone ed="P" unit="para"/><l n="1">Quaeritur interea quis tantae pondera molis</l>
@@ -12476,4 +12430,4 @@ Added to repository. Passes SGML parse.
 <l n="877">quaque patet domitis Romana potentia terris,</l>
 <l n="878">ore legar populi, perque omnia saecula fama,</l>
 <l n="879">siquid habent veri vatum praesagia, vivam.</l>
-</div1></body></text></TEI>
+</div></body></text></TEI>

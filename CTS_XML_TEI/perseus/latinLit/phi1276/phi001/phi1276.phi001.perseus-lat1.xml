@@ -44,9 +44,6 @@
         <refState unit="poem"/>
         <refState unit="line"/>
       </refsDecl>
-		<metDecl type="met" pattern="(hexameter|pentameter)*">
-			<p>If applicable, the meter of a textual unit is to be specified with one of following:</p>
-		</metDecl>
     </encodingDesc>
 
     <profileDesc>
