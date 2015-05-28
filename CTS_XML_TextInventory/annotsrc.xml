@@ -2014,7 +2014,7 @@
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation labMeel="book" xpath="/div[@n='?']" scope="/TEI/text/body">
+                        <citation label="book" xpath="/div[@n='?']" scope="/TEI/text/body">
                             <citation label="line" xpath="/l[@n='?']" scope="/TEI/text/body/div[@n='?']"/>
                         </citation>
                     </citationMapping>
