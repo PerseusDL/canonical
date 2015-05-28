@@ -1,8 +1,0 @@
-<ti:textgroup
-  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
-  urn="urn:cts:latinLit:phi0959"
-  tiid="annotsrc">
-  <ti:groupname xml:lang="eng">Ovid</ti:groupname>
-  <ti:groupname xml:lang="fre">Ovide</ti:groupname>
-  <ti:groupname xml:lang="lat">Publius Ovidius Naso</ti:groupname>
-</ti:textgroup>
