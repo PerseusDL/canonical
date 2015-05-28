@@ -69,7 +69,7 @@
 	<text xml:lang="lat" n="urn:cts:latinLit:phi0959.phi003.perseus-lat1">
 		<body>
 			<div type="edition">
-			<div type="poem" n="1">
+			<div type="textpart" subtype="poem" n="1">
 				<l n="1">Discite quae faciem commendet cura, puellae,</l>
 				<l n="2">Et quo sit vobis forma tuenda modo.</l>
 				<l n="3">Cultus humum sterilem Cerealia pendere iussit</l>

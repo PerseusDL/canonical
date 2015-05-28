@@ -71,7 +71,7 @@
 			<div type="edition">
 
 
-			<div type="poem" n="1">
+			<div type="textpart" subtype="poem" n="1">
 				<head>Penelope Ulixi</head>
 				<l n="1">Haec tua Penelope lento tibi mittit, Ulixe;</l>
 				<l n="2">Nil mihi rescribas attinet: ipse veni!</l>
@@ -190,7 +190,7 @@
 				<l n="115">Certe ego, quae fueram te discedente puella,</l>
 				<l n="116">Protinus ut venias, facta videbor anus.</l>
 			</div>
-			<div type="poem" n="2">
+			<div type="textpart" subtype="poem" n="2">
 				<head>Phyllis Demophoonti</head>
 				<l n="1">Hospita, Demophoon, tua te Rhodopeia Phyllis</l>
 				<l n="2">Ultra promissum tempus abesse queror. </l>
@@ -341,7 +341,7 @@
 				<l n="147">Phyllida Demophoon leto dedit hospes amantem;</l>
 				<l n="148">Ille necis causam praebuit, ipsa manum.</l>
 			</div>
-			<div type="poem" n="3">
+			<div type="textpart" subtype="poem" n="3">
 				<head>Briseis Achilli</head>
 				<l n="1">Quam legis, a rapta Briseide littera venit,</l>
 				<l n="2">Vix bene barbarica Graeca notata manu.</l>
@@ -498,7 +498,7 @@
 				<l n="153">Me modo, sive paras inpellere remige classem,</l>
 				<l n="154">Sive manes, domini iure venire iube! </l>
 			</div>
-			<div type="poem" n="4">
+			<div type="textpart" subtype="poem" n="4">
 				<head>Phaedra Hippolyto</head>
 				<l n="1">Quam nisi tu dederis, caritura est ipsa, salutem</l>
 				<l n="2">Mittit Amazonio Cressa puella viro.</l>
@@ -677,7 +677,7 @@
 				<l n="175">Addimus his precibus lacrimas quoque; verba precantis</l>
 				<l n="176">Qui legis, et lacrimas finge videre meas!</l>
 			</div>
-			<div type="poem" n="5">
+			<div type="textpart" subtype="poem" n="5">
 				<head>Oenone Paridi</head>
 				<l n="1"><del> Nympha suo Paridi, quamvis suus esse recuset,</del></l>
 				<l n="2"><del>Mittit ab Idaeis verba legenda iugis. </del></l>
@@ -830,7 +830,7 @@
 				<l n="157">Sed tua sum tecumque fui puerilibus annis</l>
 				<l n="158">Et tua, quod superest temporis, esse precor!</l>
 			</div>
-			<div type="poem" n="6">
+			<div type="textpart" subtype="poem" n="6">
 				<head>Hypsipyle Iasoni</head>
 				<l n="1"><del> Lemnias Hypsipyle, Bacchi genus, Aesone nato</del></l>
 				<l n="2"><del>Dicit, et in verbis pars quta mentis erat: </del></l>
@@ -999,7 +999,7 @@
 				<l n="163">Haec ego, coniugio fraudata Thoantias oro.</l>
 				<l n="164">Vivite, devoto nuptaque virque toro!</l>
 			</div>
-			<div type="poem" n="7">
+			<div type="textpart" subtype="poem" n="7">
 				<head>Dido Aeneae</head>
 				<l n="1"><del> Accipe, Dardanide, moriturae carmen Elissae;</del></l>
 				<l n="2"><del>Quae legis, a nobis ultima verba legis: </del></l>
@@ -1099,7 +1099,7 @@
 				<l n="94">Caeruleus subitis conpulit imber aquis.</l>
 				<l n="95">Audieram vocem; nymphas ululasse putavi — </l>
 				<l n="96">Eumenides fati signa dedere mei!</l>
-				<l n="97">Exige, laese pudor, poenas! violate Sychaei <gap/>
+				<l n="97">Exige, laese pudor, poenas! violate Sychaei <gap reason="lost"/>
 				</l>
 				<l n="98">Ad quas, me miseram, plena pudoris eo. <milestone ed="p" n="99" unit="carte"/></l>
 				<l n="99">Est mihi marmorea sacratus in aede Sychaeus</l>
@@ -1201,7 +1201,7 @@
 				<l n="195">Praebuit Aeneas et causam mortis et ensem;</l>
 				<l n="196">Ipsa sua Dido concidit usa manu.</l>
 			</div>
-			<div type="poem" n="8">
+			<div type="textpart" subtype="poem" n="8">
 				<head>Hermione Orestae</head>
 				<l n="1"><del> Alloquor Hermione nuper fratremque virumque.</del></l>
 				<l n="2"><del>Nunc fratrem; nomen coniugis alter habet: </del></l>
@@ -1324,7 +1324,7 @@
 				<l n="121">Aut ego praemoriar primoque exstinguar in aevo,</l>
 				<l n="122">Aut ego Tantalidae Tantalis uxor ero! </l>
 			</div>
-			<div type="poem" n="9">
+			<div type="textpart" subtype="poem" n="9">
 				<head>Deianira Herculi</head>
 				<l n="1"><del> Mittor ad Alciden a coniuge conscia mentis</del></l>
 				<l n="2"><del>Littera, si coniunx Deianira tua est: </del></l>
@@ -1408,7 +1408,7 @@
 				<l n="78">Aequaque famosae pensa rependis erae?</l>
 				<l n="79">A, quotiens digitis dum torques stamina duris,</l>
 				<l n="80" rend="indent">Praevalidae fusos conminuere manus!</l>
-				<l n="81">Ante pedes dominae <gap/>
+				<l n="81">Ante pedes dominae <gap reason="lost"/>
 				</l>
 				<l n="82">Factaque narrabas dissimulanda tibi — </l>
 				<l n="85">Scilicet inmanes elisis faucibus hydros</l>
@@ -1496,7 +1496,7 @@
 				<l n="167">Et tu lux oculis hodierna novissima nostris,</l>
 				<l n="168">Virque — sed o possis! — et puer Hylle, vale!</l>
 			</div>
-			<div type="poem" n="10">
+			<div type="textpart" subtype="poem" n="10">
 				<head>Ariadne Theseo</head>
 				<l n="1"><del> Illa relicta feris etiamnunc, improbe Theseu,</del></l>
 				<l n="2"><del>Vivit: et haec aequa mente tuilsse velis: </del></l>
@@ -1651,7 +1651,7 @@
 				<l n="149">Flecte ratem, Theseu, versoque relabere velo!</l>
 				<l n="150" rend="indent">Si prius occidero, tu tamen ossa feres!</l>
 			</div>
-			<div type="poem" n="11">
+			<div type="textpart" subtype="poem" n="11">
 				<head>Canace Macareo</head>
 				<l n="1"><del> Aeolis Aeolidae, quam non habet ipsa, salutem</del></l>
 				<l n="2"><del>Mittit et armata verba notata manu; </del></l>
@@ -1784,7 +1784,7 @@
 				<l n="127">Tu, rogo, dilectae nimium mandata sororis</l>
 				<l n="128">Perfice; mandatis obsequar ipsa patris! </l>
 			</div>
-			<div type="poem" n="12">
+			<div type="textpart" subtype="poem" n="12">
 				<head>Medea Iasoni</head>
 				<l n="1"><del> Exul, inops, contempta novo Medea marito</del></l>
 				<l n="2"><del>Dicit: an a regnis tempora nulla vacant? </del></l>
@@ -2001,7 +2001,7 @@
 				<l n="211">Viderit ista deus, qui nunc mea pectora versat!</l>
 				<l n="212">Nescio quid certe mens mea maius agit!</l>
 			</div>
-			<div type="poem" n="13">
+			<div type="textpart" subtype="poem" n="13">
 				<head>Laodamia Protesilao</head>
 				<l n="1">Mittit et optat amans, quo mittitur, ire salutem</l>
 				<l n="2">Haemonis Haemonio Laodamia viro.</l>
@@ -2164,7 +2164,7 @@
 				<l n="165">Ultima mandato claudetur epistula parvo:</l>
 				<l n="166">Si tibi cura mei, sit tibi cura tui!</l>
 			</div>
-			<div type="poem" n="14">
+			<div type="textpart" subtype="poem" n="14">
 				<head>Hypermestra Lynceo</head>
 				<l n="1">Mittit Hypermestra de tot modo fratribus uni — </l>
 				<l n="2">Cetera nuptarum crimine turba iacet.</l>
@@ -2297,7 +2297,7 @@
 				<l n="131">Scribere plura libet, sed pondere lapsa catenae</l>
 				<l n="132">Est manus, et vires subtrahit ipse timor.</l>
 			</div>
-			<div type="poem" n="15">
+			<div type="textpart" subtype="poem" n="15">
 				<head>Sappho Phaoni</head>
 				<l n="1">Ecquid, ut adspecta est studiosae littera dextrae,</l>
 				<l n="2">Protinus est oculis cognita nostra tuis — </l>
@@ -2520,7 +2520,7 @@
 				<l n="219">Hoc saltem miserae crudelis epistula dicat,</l>
 				<l n="220" rend="indent">Ut mihi Leucadiae fata petantur aquae!</l>
 			</div>
-			<div type="poem" n="16">
+			<div type="textpart" subtype="poem" n="16">
 				<head>Paris Helenae</head>
 				<l n="1">Hanc tibi Priamides mitto, Ledaea, salutem,</l>
 				<l n="2">Quae tribui sola te mihi dante potest.</l>
@@ -2901,7 +2901,7 @@
 				<l n="377">Spe modo non timida dis hinc egressa secundis;</l>
 				<l n="378">Exige cum plena munera pacta fide.</l>
 			</div>
-			<div type="poem" n="17">
+			<div type="textpart" subtype="poem" n="17">
 				<head>Helene Paridi</head>
 				<l n="1">Nunc oculos tua cum violarit epistula nostros,</l>
 				<l n="2">Non rescribendi gloria visa levis.</l>
@@ -3172,7 +3172,7 @@
 				<l n="267">Cetera per socias Clymenen Aethramque loquamur,</l>
 				<l n="268">Quae mihi sunt comites consiliumque duae. </l>
 			</div>
-			<div type="poem" n="18">
+			<div type="textpart" subtype="poem" n="18">
 				<head>Leander Heroni</head>
 				<l n="1">Mittit Abydenus, quam mallet ferre, salutem,</l>
 				<l n="2">Si cadat unda maris, Sesti puella, tibi.</l>
@@ -3393,7 +3393,7 @@
 				<l n="217">Interea pro me pernoctet epistula tecum,</l>
 				<l n="218">Quam precor ut minima prosequar ipse mora!</l>
 			</div>
-			<div type="poem" n="19">
+			<div type="textpart" subtype="poem" n="19">
 				<head>Hero Leandro</head>
 				<l n="1">Quam mihi misisti verbis, Leandre, salutem</l>
 				<l n="2">Ut possim missam rebus habere, veni!</l>
@@ -3606,7 +3606,7 @@
 				<l n="209">Interea nanti, quoniam freta pervia non sunt,</l>
 				<l n="210" rend="indent">Leniat invisas littera missa moras.</l>
 			</div>
-			<div type="poem" n="20">
+			<div type="textpart" subtype="poem" n="20">
 				<head>Acontius Cydippae</head>
 				<l n="1"><del> Accipe, Cydippe, despecti nomen Aconti,</del></l>
 				<l n="2"><del>Illius, in pomo qui tibi verba dedit. </del></l>
@@ -3853,7 +3853,7 @@
 				<l n="241">Longior infirmum ne lasset epistula corpus</l>
 				<l n="242">Clausaque consueto sit sibi fine: vale!</l>
 			</div>
-			<div type="poem" n="21">
+			<div type="textpart" subtype="poem" n="21">
 				<head>Cydippe Acontio</head>
 				<l n="1"><del> Littera pervenit tua, quo consuevit, Aconti,</del></l>
 				<l n="2"><del>Et paene est oculis insidiate meis. </del></l>

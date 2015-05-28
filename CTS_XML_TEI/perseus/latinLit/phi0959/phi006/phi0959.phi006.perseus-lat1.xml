@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader type="text" status="new">
 <fileDesc>
 <titleStmt>
@@ -52,7 +52,7 @@
 
 <profileDesc>
 <langUsage>
-<language id="lat">Latin</language>
+    <language id="lat">Latin</language>
 </langUsage>
 </profileDesc>
 
@@ -12476,4 +12476,4 @@ Added to repository. Passes SGML parse.
 <l n="877">quaque patet domitis Romana potentia terris,</l>
 <l n="878">ore legar populi, perque omnia saecula fama,</l>
 <l n="879">siquid habent veri vatum praesagia, vivam.</l>
-</div1></body></text></TEI.2>
+</div1></body></text></TEI>

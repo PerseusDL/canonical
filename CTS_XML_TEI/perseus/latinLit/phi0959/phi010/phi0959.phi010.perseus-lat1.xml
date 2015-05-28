@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
 
@@ -51,10 +51,10 @@
 
   </teiHeader>
 
-<text id="stoa0045.stoa0" xml:lang="lat" n="urn:cts:latinLit:phi0959.phi009.perseus-lat1">
+<text xml:id="stoa0045.stoa0" xml:lang="lat" n="urn:cts:latinLit:phi0959.phi009.perseus-lat1">
   <body>
     <div type="edition">
-<pb id="p.103"/>
+<pb xml:id="p.103"/>
 
 
 <l n="1"><milestone unit="alt" n="1"/>Tempus ad hoc ; lustris bis iam mihi quinque peractis , </l>
@@ -82,7 +82,7 @@
 
 
 
-<pb id="p.104"/>
+<pb xml:id="p.104"/>
 
 <l n="23">Di melius ; quorum longe mihi maximus ille est, </l>
 <l n="24">Qui nostras inopes noluit esse vias. </l>
@@ -123,7 +123,7 @@
 
 
 
-<pb id="p.105"/>
+<pb xml:id="p.105"/>
 
 <l n="61">Et quoniam ; qui sis , nondum quaerentibus edo , </l>
 <l n="62">Ibidis interea tu quoque nomen habe ; </l>
@@ -164,7 +164,7 @@
 
 
 
-<pb id="p.106"/>
+<pb xml:id="p.106"/>
 
 <l n="97">Nulla mora est in me : peragam rata vota sacerdos . </l>
 <l n="98">Quisquis ades sacris , ore favete , meis ; </l>
@@ -206,7 +206,7 @@
 
 
 
-<pb id="p.107"/>
+<pb xml:id="p.107"/>
 
 <l n="134">Leniat aut odium tempus et hora meum . </l>
 <l n="135"> Pugnabunt arcu dum Thraces , Iazyges hasta , </l>
@@ -248,7 +248,7 @@
 
 
 
-<pb id="p.108"/>
+<pb xml:id="p.108"/>
 
 <l n="171">Deque tuo fiet — licet hac sis laude superbus — </l>
 <l n="172">Insatiabilibus corpore rixa lupis . </l>
@@ -290,7 +290,7 @@
 
 
 
-<pb id="p.109"/>
+<pb xml:id="p.109"/>
 
 <l n="208">Dulcior hic risu tunc mihi fletus erit. </l>
 <l n="209">Natus es infelix , — ita di voluere — nec ulla </l>
@@ -332,7 +332,7 @@
 
 
 
-<pb id="p.110"/>
+<pb xml:id="p.110"/>
 
 <l n="245"> Et ne longa suo praesagia diceret ore , </l>
 <l n="246"><q>Fata canet vales qui tua</q>, dixit <q>erit.</q></l>
@@ -374,7 +374,7 @@
 
 
 
-<pb id="p.111"/>
+<pb xml:id="p.111"/>
 
 <l n="282">A duce Puniceo pertulit , ipse feras . </l>
 <l n="283">Nec tibi subsidio praesens sit numen , ut illi , </l>
@@ -416,7 +416,7 @@
 
 
 
-<pb id="p.112"/>
+<pb xml:id="p.112"/>
 
 <l n="319">Aut ut Atarnites , insutus pelle iuvenci </l>
 <l n="320"> Turpiter ad dominum praeda ferare tuum . </l>
@@ -458,7 +458,7 @@
 
 
 
-<pb id="p.113"/>
+<pb xml:id="p.113"/>
 
 <l n="356">Belides assidua colla premuntur aqua. </l>
 <l n="357">Byblidos et Canaces , si cui facis , ardeat igne , </l>
@@ -500,7 +500,7 @@
 
 
 
-<pb id="p.114"/>
+<pb xml:id="p.114"/>
 
 <l n="393">Ut iacet Aonio luctator ab hospite fusus, </l>
 <l n="394">Qui , mirum , victor , cum cecidisset , erat: </l>
@@ -542,7 +542,7 @@
 
 
 
-<pb id="p.115"/>
+<pb xml:id="p.115"/>
 
 <l n="430"> Cur externati rursus agantur equi. </l>
 <l n="431">Foeda Lycaoniae repetes convivia mensae, </l>
@@ -584,7 +584,7 @@
 
 
 
-<pb id="p.116"/>
+<pb xml:id="p.116"/>
 
 <l n="467">Aut te devoveat certis Abdera diebus, </l>
 <l n="468">Saxaque devotum grandine plura petant. </l>
@@ -626,7 +626,7 @@
 
 
 
-<pb id="p.117"/>
+<pb xml:id="p.117"/>
 
 <l n="503">Quique Lycurgiden letavit , et arbore natum ; </l>
 <l n="504">Idmonaque audacem ; te quoque rumpat aper . </l>
@@ -668,7 +668,7 @@
 
 
 
-<pb id="p.118"/>
+<pb xml:id="p.118"/>
 
 <l n="540"><del>Orbis in innumeris inveniare locis .</del> </l>
 <l n="541">Inque tuis opifex , vati quod fecit Achaeo , </l>
@@ -710,7 +710,7 @@
 
 
 
-<pb id="p.119"/>
+<pb xml:id="p.119"/>
 
 <l n="577">Utque nepos Aethrae , Veneris moriturus ob iram , </l>
 <l n="578">Exul ab altonitis excutiaris equis. </l>
@@ -751,7 +751,7 @@
 
 
 
-<pb id="p.120"/>
+<pb xml:id="p.120"/>
 
 <l n="613">Quodque dolore necis patriae pia filia fecit, </l>
 <l n="614">Vincula per laquei fac tibi guttur eat . </l>
@@ -789,4 +789,4 @@
 </div>
 </body>
 </text>
-</TEI.2>
+</TEI>

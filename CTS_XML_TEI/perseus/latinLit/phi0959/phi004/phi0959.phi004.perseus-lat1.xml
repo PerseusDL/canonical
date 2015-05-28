@@ -69,7 +69,7 @@
 		<body>
 			<div type="edition">
 			<head>Ars Amatoria</head>
-			<div type="book" n="1">
+			<div type="textpart" subtype="book" n="1">
 				<head>Liber primus</head>
 				<l n="1">Siquis in hoc artem populo non novit amandi,</l>
 				<l n="2">Hoc legat et lecto carmine doctus amet.</l>
@@ -844,7 +844,7 @@
 				<l n="771">Pars superat coepti, pars est exhausta laboris.</l>
 				<l n="772">Hic teneat nostras ancora iacta rates. </l>
 			</div>
-			<div type="book" n="2">
+			<div type="textpart" subtype="book" n="2">
 				<head>Liber secundus</head>
 				<l n="1">Dicite 'io Paean!' et 'io' bis dicite 'Paean!'</l>
 				<l n="2">Decidit in casses praeda petita meos;</l>
@@ -1593,7 +1593,7 @@
 				<l n="745">Ecce, rogant tenerae, sibi dem praecepta, puellae:</l>
 				<l n="746">Vos eritis chartae proxima cura meae! </l>
 			</div>
-			<div type="book" n="3">
+			<div type="textpart" subtype="book" n="3">
 				<head>Liber tertius</head>
 				<l n="1">Arma dedi Danais in Amazonas; arma supersunt,</l>
 				<l n="2">Quae tibi dem et turmae, Penthesilea, tuae.</l>
