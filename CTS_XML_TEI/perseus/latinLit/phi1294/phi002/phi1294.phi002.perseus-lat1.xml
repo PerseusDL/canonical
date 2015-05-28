@@ -1,5 +1,5 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
@@ -15,19 +15,17 @@
             </publicationStmt>
             <sourceDesc default="false">
                 <bibl default="false">
-                    <monogr>
-                        <title>M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus</title>
-                        <author>Martial</author>
-                        <editor role="editor">Wilhelm Heraeus<!--, 1862-1938 (main editor)--></editor>
-                        <editor role="editor">Jacobus Borovskij<!-- (added corrections in 1976, more than 30 years before 2011)--></editor>
-                        <publisher>Leipzig Univiersity<!-- Might be wrong--></publisher>
-                        <date>1925/1976</date>
-                    </monogr>
+                    <title>M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus</title>
+                    <author>Martial</author>
+                    <editor role="editor">Wilhelm Heraeus<!--, 1862-1938 (main editor)--></editor>
+                    <editor role="editor">Jacobus Borovskij<!-- (added corrections in 1976, more than 30 years before 2011)--></editor>
+                    <pubPlace>Leipzig</pubPlace>
+                    <date>1925/1976</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <refsDecl doctype="TEI.2">
+            <refsDecl xml:id="TEI.2">
                 <refState unit="book"/>
                 <refState unit="poem"/>
                 <refState unit="line"/>
@@ -40,11 +38,11 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="?" who="unknown">Initial Markup</change>
+            <change when="2008-01-01" who="Gregory Crane">Initial Markup</change>
             <change when="2015-03-06" who="Thibault Clérice">converted to EpiDoc/CTS</change>
         </revisionDesc>
     </teiHeader>
-    <text n="urn:cts:latinLit:phi1294.phi002.perseus-lat1" xml:lang="lat" id="stoa0045.stoa0">
+    <text n="urn:cts:latinLit:phi1294.phi002.perseus-lat1" xml:lang="lat" xml:id="stoa0045.stoa0">
         <body>
             <div type="edition">
                 <div type="book" n="1">
@@ -14453,4 +14451,4 @@
             </div>
         </body>
     </text>
-</TEI.2>
+</TEI>
