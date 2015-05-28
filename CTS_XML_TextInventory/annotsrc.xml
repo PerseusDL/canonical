@@ -76,9 +76,9 @@
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div1[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div">
-                            <citation label="poem" xpath="/tei:div2[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']">
-                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']/tei:div2[@n='?']" />
+                        <citation label="book" xpath="/tei:div1[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div2[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']" />
                             </citation>
                         </citation>
                     </citationMapping>
@@ -99,9 +99,9 @@
                     <validate schema="tei-xl.rng"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div1[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div">
-                            <citation label="poem" xpath="/tei:div2[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']">
-                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div/tei:div1[@n='?']/tei:div2[@n='?']" />
+                        <citation label="book" xpath="/tei:div1[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            <citation label="poem" xpath="/tei:div2[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']">
+                                <citation label="line" xpath="/tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='?']/tei:div[@n='?']" />
                             </citation>
                         </citation>
                     </citationMapping>
@@ -1387,15 +1387,116 @@
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']">
-                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/div[@n='?']">
-                                <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']"/>
+                        <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']">
+                            <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/div[@n='?']">
+                                <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']"/>
                             </citation>
                         </citation>
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi002"
+          urn="urn:cts:latinLit:phi0959.phi002"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Epistulae</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+
+            urn="urn:cts:latinLit:phi0959.phi002.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi002">
+            <label xml:lang="eng">Epistulae</label>
+            <online docname="/db/repository/latinLit/phi0959/phi002/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                  <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']">
+                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']"/>
+                  </citation>
+              </citationMapping>
+            </online>
+          </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi003"
+          urn="urn:cts:latinLit:phi0959.phi003"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Art of Beauty</title>
+          <title xml:lang="fre">Les Fards ou Soins du visage</title>
+          <title xml:lang="lat">Medicamina faciei femineae</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+            urn="urn:cts:latinLit:phi0959.phi003.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi003">
+            <label xml:lang="eng">Art of Beauty</label>
+            <online docname="/db/repository/latinLit/phi0959/phi003/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                  <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']">
+                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']"/>
+                  </citation>
+              </citationMapping>
+            </online>
+          </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi004"
+          urn="urn:cts:latinLit:phi0959.phi004"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Art of Love</title>
+          <title xml:lang="fre">L'Art d'Aimer</title>
+          <title xml:lang="lat">Ars Amatoria</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+            urn="urn:cts:latinLit:phi0959.phi004.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi004">
+            <label xml:lang="eng">Art of Love</label>
+            <online docname="/db/repository/latinLit/phi0959/phi004/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                  <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']">
+                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']"/>
+                  </citation>
+              </citationMapping>
+            </online>
+          </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi005"
+          urn="urn:cts:latinLit:phi0959.phi005"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Remedy of Love</title>
+          <title xml:lang="fre">Remède à l'amoru</title>
+          <title xml:lang="lat">Remedia amoris</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+            urn="urn:cts:latinLit:phi0959.phi005.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi005">
+            <label xml:lang="eng">Remedy of Love</label>
+            <online docname="/db/repository/latinLit/phi0959/phi005/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']"/>
+              </citationMapping>
+            </online>
+          </edition>
         </work>
         <work projid="latinLit:phi006" urn="urn:cts:latinLit:phi0959.phi006" xml:lang="lat">
             <title xml:lang="eng">Metamorphoses</title>
@@ -1406,13 +1507,119 @@
                     <validate schema="teia.xsd"/>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="book" xpath="/div1[@n='?']" scope="/TEI.2/text/body">
-                            <citation label="line" xpath="/l[@n='?']" scope="/TEI.2/text/body/div1[@n='?']"/>
+                        <citation label="book" xpath="/div[@n='?']" scope="/TEI/text/body">
+                            <citation label="line" xpath="/l[@n='?']" scope="/TEI/text/body/div[@n='?']"/>
                         </citation>
                     </citationMapping>
                 </online>
                 <memberof collection="Perseus:collection:Greco-Roman"/>
             </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi007"
+          urn="urn:cts:latinLit:phi0959.phi007"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Book of Days</title>
+          <title xml:lang="fre">Fastes</title>
+          <title xml:lang="lat">Fasti</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+            urn="urn:cts:latinLit:phi0959.phi007.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi007">
+            <label xml:lang="eng">Book of Days</label>
+            <online docname="/db/repository/latinLit/phi0959/phi007/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                  <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']">
+                    <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']"/>
+                  </citation>
+              </citationMapping>
+            </online>
+          </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi008"
+          urn="urn:cts:latinLit:phi0959.phi008"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Sorrows</title>
+          <title xml:lang="fre">Tristes</title>
+          <title xml:lang="lat">Tristia</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+            urn="urn:cts:latinLit:phi0959.phi008.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi008">
+            <label xml:lang="eng">Tristia</label>
+            <online docname="/db/repository/latinLit/phi0959/phi008/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                  <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']">
+                    <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']">
+                      <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']"/>
+                    </citation>
+                  </citation>
+              </citationMapping>
+            </online>
+          </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi009"
+          urn="urn:cts:latinLit:phi0959.phi009"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Letters from the Black Sea</title>
+          <title xml:lang="fre">Pontiques</title>
+          <title xml:lang="lat">Ex Ponto</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+            urn="urn:cts:latinLit:phi0959.phi009.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi009">
+            <label xml:lang="eng">Ex Ponto</label>
+            <online docname="/db/repository/latinLit/phi0959/phi009/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                  <citation label="book" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']">
+                    <citation label="poem" xpath="/tei:div[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']">
+                      <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='?']/tei:div[@n='?']"/>
+                    </citation>
+                  </citation>
+              </citationMapping>
+            </online>
+          </edition>
+        </work>
+        <work
+          xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+          xml:lang="lat"
+          projid="latinLit:phi010"
+          urn="urn:cts:latinLit:phi0959.phi010"
+          groupUrn="urn:cts:latinLit:phi0959">
+          <title xml:lang="eng">Ibis</title>
+          <title xml:lang="fre">Ibis</title>
+          <title xml:lang="lat">Ibis</title>
+          <edition
+            xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+            xml:lang="lat"
+            projid="latinLit:perseus-lat1"
+            urn="urn:cts:latinLit:phi0959.phi010.perseus-lat1"
+            workUrn="urn:cts:latinLit:phi0959.phi010">
+            <label xml:lang="eng">Ibis</label>
+            <online docname="/db/repository/latinLit/phi0959/phi010/perseus-lat1.xml">
+              <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+              <citationMapping>
+                 <citation label="line" xpath="//tei:l[@n='?']" scope="/tei:TEI.2/tei:text/tei:body/tei:div[@type='edition']"/>
+              </citationMapping>
+            </online>
+          </edition>
         </work>
     </textgroup>
     <textgroup projid="latinLit:phi0917" urn="urn:cts:latinLit:phi0917">
