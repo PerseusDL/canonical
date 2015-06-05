@@ -4,7 +4,7 @@ PerseusDL canonical repository
 This was the first public GitHub repository home for the TEI XML texts of the Perseus Digital Library.
 
 As our strategy for working with the texts through GitHub has evolved and as the repository has been growing, 
-we have decided to move the texts to individual repositories subdived by the CTS namespace to which the texts 
+we have decided to move the texts to individual repositories subdivided by the CTS namespace to which the texts 
 have been assigned.  In general, namespace corresponds to language of original transmission for the work.
 
 Greek works are now in [http://github.com/PerseusDL/canonical-greekLit](http://github.com/PerseusDL/canonical-greekLit)
